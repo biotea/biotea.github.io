@@ -26,4 +26,4 @@ You can explore Biotea using the software prototype available <a href="http://bi
 ## SWATS 2012 Biotea Prototype
 Another Biotea use case was exposed in:
 
-> García-Castro, Leyla Jael, Alexander García Castro and John Gómez. “Conceptual Exploration of Documents and Digital Libraries in the Biomedical Domain.” SWAT4LS (2012). <a href="../files/SWAT4LS_2012.pdf" target="_blank">[online]</a>
+> García-Castro, Leyla Jael, Alexander García Castro and John Gómez. “Conceptual Exploration of Documents and Digital Libraries in the Biomedical Domain.” SWAT4LS (2012). <a href="/files/SWAT4LS_2012.pdf" target="_blank">[online]</a>
