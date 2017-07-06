@@ -1,0 +1,117 @@
+<rdf:RDF
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:xsp="http://www.owl-ontologies.com/2005/08/07/xsp.owl#"
+    xmlns:owl="http://www.w3.org/2002/07/owl#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+         
+         
+    xmlns:cito="http://purl.org/spar/cito/"
+    xmlns:dcat="http://www.w3.org/ns/dcat#"
+    xmlns:dctypes="http://purl.org/dc/dcmitype/"
+    xmlns:dct="http://purl.org/dc/terms/"
+    xmlns:foaf="http://xmlns.com/foaf/0.1/"
+    xmlns:freq="http://purl.org/cld/freq/"
+    xmlns:idot="http://identifiers.org/idot/"
+    xmlns:lexvo="http://lexvo.org/ontology#"
+    xmlns:pav="http://purl.org/pav/"
+    xmlns:prov="http://www.w3.org/ns/prov#"
+    xmlns:schemaorg="http://schema.org/"
+    xmlns:sd="http://www.w3.org/ns/sparql-service-description#"
+    xmlns:sio="http://semanticscience.org/resource/"
+    xmlns:void="http://rdfs.org/ns/void/"
+    xmlns:void-ext="http://ldf.fi/void-ext#"
+ >
+    <rdf:Description rdf:about="http://TODO.link.to.summary">
+        <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+        <dct:title rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Biotea</dct:title>
+        <dct:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">TODO</dct:description>
+        <dct:publisher rdf:resource="https://github.com/biotea"/>
+        <foaf:page rdf:resource="https://github.com/biotea"/>
+        <dcat:keyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scientific publication</dcat:keyword>
+        <dcat:keyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation</dcat:keyword>
+        <dct:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <dct:references rdf:resource="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-S1-S5"/>
+        <cito:citesAsAuthority rdf:resource="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-S1-S5"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/biotea/biotea-rdfization"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/biotea/biotea-annotation"/>
+        <pav:hasCurrentVersion rdf:resource="http://TODO.version.link"/>   
+        <dct:accrualPeriodicity rdf:resource="http://purl.org/cld/freq/annual"/>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="http://TODO:link.to.version">
+        <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+        <dct:title rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Biotea Bio2RDF vr3 compatible</dct:title>
+        <dct:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">TODO</dct:description>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-01</dct:created>
+        <pav:createdOn rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-01</pav:createdOn>
+        <dct:creator rdf:resource="https://github.com/biotea"/>
+        <dct:creator rdf:resource="https://github.com/alexgarciac"/>
+        <dct:contributor rdf:resource="https://github.com/ljgarcia"/>
+        <pav:createdBy rdf:resource="https://github.com/biotea/biotea-rdfization"/>
+        <pav:createdBy rdf:resource="https://github.com/biotea/biotea-annotation"/>
+        <dct:publisher rdf:resource="https://github.com/biotea"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-01</dct:issued>
+        <foaf:page rdf:resource="https://github.com/biotea/TODOvr3"/>
+        <dcat:keyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scientific publication</dcat:keyword>
+        <dcat:keyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation</dcat:keyword>
+        <dct:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+        <dct:references rdf:resource="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-S1-S5"/>
+        <dct:conformsTo rdf:resource="https://www.w3.org/TR/hcls-dataset/"/>   
+        <cito:citesAsAuthority rdf:resource="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-S1-S5"/>  
+        <rdfs:seeAlso rdf:resource="https://github.com/biotea/biotea-rdfization"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/biotea/biotea-annotation"/>
+        <pav:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bio2rdf compatible vr3</pav:version>
+        <dct:isVersionOf rdf:resource="http://TODO.summary.link"/>   
+        <prov:wasDerivedFrom rdf:resource="ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/"/>   
+        <pav:createdWith rdf:resource="http://data.bioontology.org/documentation#nav_annotator"/>  
+        <dcat:distribution rdf:resource="http://bio2rdf.org/bio2rdf_dataset:bio2rdf-pmc-vr3"/>
+        <dcat:landingPage rdf:resource="http://TODO.URL.to.description.of.version"/>
+    </rdf:Description>    
+    
+    <rdf:Description rdf:about="http://bio2rdf.org/bio2rdf_dataset:bio2rdf-pmc-vr3">
+        <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Dataset"/>
+        <rdf:type rdf:resource="http://rdfs.org/ns/void#Dataset"/>
+        <rdf:type rdf:resource="http://www.w3.org/ns/dcat#Distribution"/>
+        <dct:title rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">Biotea Bio2RDF v3 compatible RDF distribution</dct:title>
+        <dct:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">TODO</dct:description>
+        <dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-01</dct:created>
+        <pav:createdOn rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-01</pav:createdOn>
+        <dct:creator rdf:resource="https://github.com/biotea"/>
+        <dct:creator rdf:resource="https://github.com/alexgarciac"/>
+        <dct:contributor rdf:resource="https://github.com/ficolo"/>
+        <dct:contributor rdf:resource="https://github.com/ljgarcia"/>
+        <pav:createdBy rdf:resource="https://github.com/biotea/biotea-rdfization"/>
+        <pav:createdBy rdf:resource="https://github.com/biotea/biotea-annotation"/>
+        <dct:publisher rdf:resource="https://github.com/biotea"/>
+        <dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#gYearMonth">2017-01</dct:issued>
+        <foaf:page rdf:resource="https://github.com/biotea/TODOvr3RDF"/>
+        <dcat:keyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Scientific publication</dcat:keyword>
+        <dcat:keyword rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Annotation</dcat:keyword>
+        <dct:license rdf:resource="http://www.apache.org/licenses/LICENSE-2.0"/>
+        <dct:language rdf:resource="http://lexvo.org/id/iso639-3/eng"/>
+        <dct:references rdf:resource="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-S1-S5"/>        
+        <void:vocabulary rdf:resource="http://semanticscience.org/resource/"/>
+        <void:vocabulary rdf:resource="http://TODO.all.vocabularies.used.to.RDFize"/>
+        <!--TODO idea for ontos used in annotations: linksets? separate dataset? probably not needed at all-->
+        <dct:conformsTo rdf:resource="https://www.w3.org/TR/hcls-dataset/"/>   
+        <cito:citesAsAuthority rdf:resource="https://jbiomedsem.biomedcentral.com/articles/10.1186/2041-1480-4-S1-S5"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/biotea/biotea-rdfization"/>
+        <rdfs:seeAlso rdf:resource="https://github.com/biotea/biotea-annotation"/>
+        <idot:identifierPattern rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(pmc:[0-9]+)</idot:identifierPattern>
+        <void:uriRegexPattern rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(http:\/\/bio2rdf\.org\/pmc[:_0-9a-zA-Z]+)</void:uriRegexPattern>
+        <idot:exampleIdentifier rdf:datatype="http://www.w3.org/2001/XMLSchema#string">pmc:1079793</idot:exampleIdentifier>
+        <void:exampleResource rdf:resource="http://bio2rdf.org/pmc:1079793"/>
+        <void:exampleResource rdf:resource="http://bio2rdf.org/pmc_resource:1079793_reference_B27"/>
+        <void:exampleResource rdf:resource="http://bio2rdf.org/pmc_resource:annotationNCBO_8044cc11443211253f341353b19e422f"/>
+        <pav:version rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bio2rdf compatible vr3</pav:version>
+        <prov:wasDerivedFrom rdf:resource="ftp://ftp.ncbi.nlm.nih.gov/pub/pmc/"/>   
+        <pav:createdWith rdf:resource="http://data.bioontology.org/documentation#nav_annotator"/>
+        <dct:format rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#langString">RDF/XML</dct:format>
+        <dcat:downloadURL rdf:resource="http://TODO.URL.to.download.of.distribution"/>
+        <dcat:byteSize rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0</dcat:byteSize><!--TODO actual size-->
+        <void:dataDump rdf:resource="http://TODO.URL.to.download.of.distribution"/>
+        <dcat:landingPage rdf:resource="http://TODO.URL.to.description.of.distribution"/>
+    </rdf:Description>
+</rdf:RDF>
