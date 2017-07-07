@@ -1,0 +1,56 @@
+---
+layout: page
+title: Biotea2SIO Annotation
+---
+<table border="1" cellspacing="0" cellpadding="0">
+<tr><th>&nbsp;</th><th>Terms used in Biotea</th><th>Terms in SIO</th></tr>
+<tr>
+<td rowspan="2">Classes</td>
+<td>ao:Annotation, aot:ExactQualifier, oa:Annotation</td>
+<td>SIO_001166 (annotation)</td>
+</tr>
+<tr>
+<td>oa:TextualBody</td>
+<td>SIO_001073 (text span)</td>
+</tr>
+<tr>
+<td rowspan="5">Object Properties</td>
+<td>pav:authoredBy, pav:createdBy</td>
+<td>SIO_000364 (has creator)</td>
+</tr>
+<tr>
+<td>oa:hasSource</td>
+<td>SIO_000253 (has source)</td>
+</tr>
+<tr>
+<td>ao:onResource</td>
+<td>SIO_000332 (is about)</td>
+</tr>
+<tr>
+<td>ao:annotatesResource, oa:hasTarget</td>
+<td>SIO_000254 (is annotation of)</td>
+</tr>
+<tr>
+<td>ao:context, ao:hasTopic, oa:hasBody</td>
+<td>SIO_000628 (refers to)</td>
+</tr>
+<tr>
+<td rowspan="5">Datatype properties (using reification)</td>
+</tr>
+<tr>
+<td>ao:body</td>
+<td>SIO_000628 (refers to) - SIO_001073 (text span) - SIO_000300 (has value)</td>
+</tr>
+<tr>
+<td>biotea:idf</td>
+<td>SIO_000900 (has frequency) - SIO_001018 (ratio) - SIO_000300 (has value)</td>
+</tr>
+<tr>
+<td>biotea:tf</td>
+<td>SIO_000900 (has frequency) - SIO_000794 (count) - SIO_000300 (has value)</td>
+</tr>
+<tr>
+<td>prov:generatedAtTime</td>
+<td>SIO_000008 (has attribute) - SIO_001314 (date of issue) - SIO_000300 (has value)</td>
+</tr>
+</table>
