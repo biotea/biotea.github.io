@@ -24,7 +24,7 @@ User Biotea .JAR distribution with the configuration used to generate the Datase
 You can explore Biotea using the software prototype available <a href="http://bioteaexplorer.labs.linkingdata.io/" target="_blank">here</a>
 
 ## Exploring and Experimenting Biotea with R 
-Cosine similarity in R, a simple use case <a href="https://github.com/biotea/biotea.github.io/blob/master/software/r.md" target="_blank">here</a>.
+Cosine similarity in R, a simple use case <a href="https://github.com/biotea/biotea.github.io/blob/master/software/r.md" >here</a>.
 
 ## SWATS 2012 Biotea Prototype
 Another Biotea use case was exposed in:
