@@ -14,6 +14,8 @@ permalink: /queries/
 
 # [5. Get all the annotations for one article (pmc:3865095)](#5-get-all-the-annotations-for-one-article-pmc3865095-1)
 
+# [6. Biotea + Uniprot + DBPedia](#6-biotea--uniprot--dbpedia-1)
+
 ## 1. Biotea + Reactome + COLIL
 
 Retrieve all the pathways referencing “insulin” from Reactome and also search for the literature annotated with GO terms like “chemical homeostasis” or any of its subclasses, e.g. “lipid homeostasis” and “triglyceride catabolic process”, the NCIt “insulin” and “insulin signaling pathway” as well as the SNOMED term “homeostasis” -all of these are GO annotations in the resulting pathways from Reactome along with the citations contexts of the papers coming from COLIL.
@@ -229,4 +231,44 @@ SELECT DISTINCT ?termUri ?termFrequency ?label
     ?paragraph oa:hasSource <http://linkingdata.io/pmcdoc/pmc/3865095> .
     FILTER NOT EXISTS { ?termUri a oa:TextualBody }
 }
+```
+
+## 6. Biotea + Uniprot + DBPedia
+<a href="http://biotea.linkeddata.es/sparql?default-graph-uri=&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+oa%3A%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Foa%23%3E%0D%0APREFIX+biotea%3A%3Chttps%3A%2F%2Fbiotea.github.io%2Fbiotea-ontololgy%23%3E+++%0D%0APREFIX+uniprotkb%3A%3Chttp%3A%2F%2Fpurl.uniprot.org%2Fcore%2F%3E++++%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+rdfs%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2000%2F01%2Frdf-schema%23%3E%0D%0APREFIX+dbo%3A+%3Chttp%3A%2F%2Fdbpedia.org%2Fontology%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%3FarticleTitle+%3FpmcLink+%3FdbpediaDesc+%28GROUP_CONCAT%28%3FuniprotEntry%3Bseparator%3D%22%7C%22%29+as+%3FuniprotEntries%29%0D%0A++++++WHERE+%7B%0D%0A++++++++%3Fannot+a+oa%3AAnnotation+%3B%0D%0A++++++++++oa%3AhasTarget+%3Fparagraph+%3B%0D%0A++++++++++oa%3AhasBody+%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F40095003%3E+.%0D%0A++++++++%3Fparagraph+oa%3AhasSource+%3Farticle+.%0D%0A++++++++%3Fannot1+a+oa%3AAnnotation+%3B%0D%0A++++++++++oa%3AhasTarget+%3Fparagraph1+%3B%0D%0A++++++++++oa%3AhasBody+%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F63730009%3E+.%0D%0A++++++++%3Fparagraph1+oa%3AhasSource+%3Farticle+.%0D%0A++++++++%3Farticle+rdfs%3AseeAlso+%3FpmcLink+.%0D%0A++++++++%3Farticle+dcterms%3Atitle+%3FarticleTitle+.%0D%0A+++++++FILTER%28STRSTARTS%28str%28%3FpmcLink%29%2C+%22http%3A%2F%2Fwww.ncbi.nlm.nih.gov%2Fpmc%2F%22%29%29%0D%0A+++++++%0D%0A++SERVICE+%3Chttps%3A%2F%2Fdbpedia.org%2Fsparql%3E%0D%0A++%7B%0D%0A++++%3Fcalcitonin+rdfs%3Alabel+%3Flabel+.%0D%0A++++%3Fcalcitonin+rdfs%3Acomment+%3FdbpediaDesc+.%0D%0A++++FILTER%28lang%28%3FdbpediaDesc%29+%3D+%27en%27%29%0D%0A++++FILTER%28%3Flabel+%3D+%22Calcitonin%22%40en%29%0D%0A++%7D%0D%0A%0D%0A+++++++SERVICE+%3Chttp%3A%2F%2Fsparql.uniprot.org%2Fsparql%3E+%7B%0D%0A%09%09+%3FuniprotEntry+%3Chttp%3A%2F%2Fpurl.uniprot.org%2Fcore%2FclassifiedWith%3E+%3Chttp%3A%2F%2Fpurl.obolibrary.org%2Fobo%2FGO_0032841%3E+.%0D%0A+++++++%7D%0D%0A%0D%0A%7D+GROUP+BY+%3FarticleTitle+%3FpmcLink+%3FdbpediaDesc&should-sponge=grab-all&format=text%2Fhtml&timeout=300000&debug=on" target="_blank">Execute it in the endpoint</a>
+```
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:<http://www.w3.org/ns/oa#>
+PREFIX biotea:<https://biotea.github.io/biotea-ontololgy#>   
+PREFIX uniprotkb:<http://purl.uniprot.org/core/>    
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+
+SELECT DISTINCT ?articleTitle ?pmcLink ?dbpediaDesc (GROUP_CONCAT(?uniprotEntry;separator="|") as ?uniprotEntries)
+      WHERE {
+        ?annot a oa:Annotation ;
+          oa:hasTarget ?paragraph ;
+          oa:hasBody <http://purl.bioontology.org/ontology/SNOMEDCT/40095003> .
+        ?paragraph oa:hasSource ?article .
+        ?annot1 a oa:Annotation ;
+          oa:hasTarget ?paragraph1 ;
+          oa:hasBody <http://purl.bioontology.org/ontology/SNOMEDCT/63730009> .
+        ?paragraph1 oa:hasSource ?article .
+        ?article rdfs:seeAlso ?pmcLink .
+        ?article dcterms:title ?articleTitle .
+       FILTER(STRSTARTS(str(?pmcLink), "http://www.ncbi.nlm.nih.gov/pmc/"))
+       
+  SERVICE <https://dbpedia.org/sparql>
+  {
+    ?calcitonin rdfs:label ?label .
+    ?calcitonin rdfs:comment ?dbpediaDesc .
+    FILTER(lang(?dbpediaDesc) = 'en')
+    FILTER(?label = "Calcitonin"@en)
+  }
+
+       SERVICE <http://sparql.uniprot.org/sparql> {
+		 ?uniprotEntry <http://purl.uniprot.org/core/classifiedWith> <http://purl.obolibrary.org/obo/GO_0032841> .
+       }
+
+} GROUP BY ?articleTitle ?pmcLink ?dbpediaDesc
 ```
