@@ -16,6 +16,8 @@ permalink: /queries/
 
 # [6. Biotea + Uniprot + DBPedia](#6-biotea--uniprot--dbpedia-1)
 
+# [7. Biotea + Open Citations](#7-biotea--open--citations-1)
+
 ## 1. Biotea + Reactome + COLIL
 
 Retrieve all the pathways referencing “insulin” from Reactome and also search for the literature annotated with GO terms like “chemical homeostasis” or any of its subclasses, e.g. “lipid homeostasis” and “triglyceride catabolic process”, the NCIt “insulin” and “insulin signaling pathway” as well as the SNOMED term “homeostasis” -all of these are GO annotations in the resulting pathways from Reactome along with the citations contexts of the papers coming from COLIL.
@@ -271,4 +273,43 @@ SELECT DISTINCT ?articleTitle ?pmcLink ?dbpediaDesc (GROUP_CONCAT(?uniprotEntry;
        }
 
 } GROUP BY ?articleTitle ?pmcLink ?dbpediaDesc
+```
+
+## 7. Biotea + Open Citations
+<a href="http://biotea.linkeddata.es/sparql?default-graph-uri=&query=PREFIX+xsd%3A+%3Chttp%3A%2F%2Fwww.w3.org%2F2001%2FXMLSchema%23%3E%0D%0APREFIX+oa%3A%3Chttp%3A%2F%2Fwww.w3.org%2Fns%2Foa%23%3E%0D%0APREFIX+biotea%3A%3Chttps%3A%2F%2Fbiotea.github.io%2Fbiotea-ontololgy%23%3E%0D%0APREFIX+bibo%3A+%3Chttp%3A%2F%2Fpurl.org%2Fontology%2Fbibo%2F%3E%0D%0APREFIX+cito%3A+%3Chttp%3A%2F%2Fpurl.org%2Fspar%2Fcito%2F%3E%0D%0APREFIX+dcterms%3A+%3Chttp%3A%2F%2Fpurl.org%2Fdc%2Fterms%2F%3E%0D%0APREFIX+datacite%3A+%3Chttp%3A%2F%2Fpurl.org%2Fspar%2Fdatacite%2F%3E%0D%0APREFIX+literal%3A+%3Chttp%3A%2F%2Fwww.essepuntato.it%2F2010%2F06%2Fliteralreification%2F%3E%0D%0APREFIX+biro%3A+%3Chttp%3A%2F%2Fpurl.org%2Fspar%2Fbiro%2F%3E%0D%0APREFIX+frbr%3A+%3Chttp%3A%2F%2Fpurl.org%2Fvocab%2Ffrbr%2Fcore%23%3E%0D%0APREFIX+c4o%3A+%3Chttp%3A%2F%2Fpurl.org%2Fspar%2Fc4o%2F%3E%0D%0A%0D%0ASELECT+DISTINCT+%3Ftitle+%3FcitedBy+%3Fcited_ref%0D%0AWHERE+%7B%0D%0A++++++++%3Fannot+a+oa%3AAnnotation+%3B%0D%0A++++++++++oa%3AhasTarget+%3Fparagraph+%3B%0D%0A++++++++++oa%3AhasBody+%3Chttp%3A%2F%2Fpurl.bioontology.org%2Fontology%2FSNOMEDCT%2F41607009%3E+.%0D%0A++++++++%3Fparagraph+oa%3AhasSource+%3Farticle+.%0D%0A++++++++%3Farticle+bibo%3Apmid+%3Fpmid+.%0D%0A++++++SERVICE+%3Chttp%3A%2F%2Fopencitations.net%2Fsparql%3E+%7B%0D%0A++++++++++++++%3Fcited+datacite%3AhasIdentifier+%5B%0D%0A%09%09%09datacite%3AusesIdentifierScheme+datacite%3Apmid+%3B%0D%0A%09%09%09literal%3AhasLiteralValue+%3Fpmid%0D%0A%09%09%5D+.%0D%0A+++++++++%3FcitedBy+cito%3Acites+%3Fcited+.%0D%0A%09OPTIONAL+%7B+%0D%0A%09%09%3FcitedBy+frbr%3Apart+%3Fref+.%0D%0A%09%09%3Fref+biro%3Areferences+%3Fcited+%3B%0D%0A%09%09%09c4o%3AhasContent+%3Fcited_ref+%0D%0A%09%7D%0D%0A%09OPTIONAL+%7B+%3Fcited+dcterms%3Atitle+%3Ftitle+%7D%0D%0A++++++%7D%0D%0A%7D&should-sponge=grab-all&format=text%2Fhtml&timeout=0&debug=on" target="_blank">Execute it in the endpoint</a>
+```
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX oa:<http://www.w3.org/ns/oa#>
+PREFIX biotea:<https://biotea.github.io/biotea-ontololgy#>
+PREFIX bibo: <http://purl.org/ontology/bibo/>
+PREFIX cito: <http://purl.org/spar/cito/>
+PREFIX dcterms: <http://purl.org/dc/terms/>
+PREFIX datacite: <http://purl.org/spar/datacite/>
+PREFIX literal: <http://www.essepuntato.it/2010/06/literalreification/>
+PREFIX biro: <http://purl.org/spar/biro/>
+PREFIX frbr: <http://purl.org/vocab/frbr/core#>
+PREFIX c4o: <http://purl.org/spar/c4o/>
+
+SELECT DISTINCT ?title ?citedBy ?cited_ref
+{
+  ?annot a oa:Annotation ;
+    oa:hasTarget ?paragraph ;
+    oa:hasBody <http://purl.bioontology.org/ontology/SNOMEDCT/41607009> .
+  ?paragraph oa:hasSource ?article .
+  ?article bibo:pmid ?pmid .
+  SERVICE <http://opencitations.net/sparql> {
+    ?cited datacite:hasIdentifier [
+        datacite:usesIdentifierScheme datacite:pmid ;
+        literal:hasLiteralValue ?pmid 
+      ] .
+    ?citedBy cito:cites ?cited .
+    OPTIONAL { 
+      ?citedBy frbr:part ?ref .
+      ?ref biro:references ?cited ;
+        c4o:hasContent ?cited_ref
+    }
+	
+    OPTIONAL { ?cited dcterms:title ?title }
+  }
+}
 ```
