@@ -16,7 +16,7 @@ permalink: /queries/
 
 # [6. Biotea + Uniprot + DBPedia](#6-biotea--uniprot--dbpedia-1)
 
-# [7. Biotea + Open Citations](#7-biotea--open--citations-1)
+# [7. Biotea + Open Citations](#7-biotea--open-citations-1)
 
 ## 1. Biotea + Reactome + COLIL
 
