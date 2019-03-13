@@ -1,0 +1,2177 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:42:59Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3260153" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3260153</identifier><datestamp>2012-01-25</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3260153</article-id>
+      <article-id pub-id-type="pmcid">PMC3260153</article-id>
+      <article-id pub-id-type="pmc-uid">3260153</article-id>
+      <article-id pub-id-type="pmid">22279524</article-id>
+      <article-id pub-id-type="pmid">22279524</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-11-18526</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0028936</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Population Genetics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Evolutionary Biology</subject>
+            <subj-group>
+              <subject>Population Genetics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Human Genetics</subject>
+            </subj-group>
+            <subj-group>
+              <subject>Population Genetics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genomics</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Population Biology</subject>
+            <subj-group>
+              <subject>Population Genetics</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genetic Mapping and Exome Sequencing Identify Variants Associated with Five Novel Diseases</article-title>
+        <alt-title alt-title-type="running-head">Exome Sequencing and Rare Monogenic Diseases</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Puffenberger</surname>
+            <given-names>Erik G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jinks</surname>
+            <given-names>Robert N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sougnez</surname>
+            <given-names>Carrie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cibulskis</surname>
+            <given-names>Kristian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Willert</surname>
+            <given-names>Rebecca A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Achilly</surname>
+            <given-names>Nathan P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cassidy</surname>
+            <given-names>Ryan P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fiorentini</surname>
+            <given-names>Christopher J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Heiken</surname>
+            <given-names>Kory F.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lawrence</surname>
+            <given-names>Johnny J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mahoney</surname>
+            <given-names>Molly H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Miller</surname>
+            <given-names>Christopher J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nair</surname>
+            <given-names>Devika T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Politi</surname>
+            <given-names>Kristin A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Worcester</surname>
+            <given-names>Kimberly N.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Setton</surname>
+            <given-names>Roni A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>DiPiazza</surname>
+            <given-names>Rosa</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sherman</surname>
+            <given-names>Eric A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eastman</surname>
+            <given-names>James T.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Francklyn</surname>
+            <given-names>Christopher</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Robey-Bond</surname>
+            <given-names>Susan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rider</surname>
+            <given-names>Nicholas L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gabriel</surname>
+            <given-names>Stacey</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Morton</surname>
+            <given-names>D. Holmes</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Strauss</surname>
+            <given-names>Kevin A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Clinic for Special Children, Strasburg, Pennsylvania, United States of America</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Department of Biology and Biological Foundations of Behavior Program, Franklin &amp; Marshall College, Lancaster, Pennsylvania, United States of America</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>The Broad Institute, Boston, Massachusetts, United States of America</addr-line>
+</aff>
+      <aff id="aff4">
+<label>4</label>
+<addr-line>Department of Biology, Swarthmore College, Swarthmore, Pennsylvania, United States of America</addr-line>
+</aff>
+      <aff id="aff5">
+<label>5</label>
+<addr-line>Department of Pathology and Laboratory Medicine, School of Medicine and Public Health, University of Wisconsin, Madison, Wisconsin, United States of America</addr-line>
+</aff>
+      <aff id="aff6">
+<label>6</label>
+<addr-line>College of Medicine, University of Vermont, Burlington, Vermont, United States of America</addr-line>
+</aff>
+      <aff id="aff7">
+<label>7</label>
+<addr-line>Lancaster General Hospital, Lancaster, Pennsylvania, United States of America</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Janecke</surname>
+            <given-names>Andreas R.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Innsbruck Medical University, Austria</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>epuffenberger@clinicforspecialchildren.org</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: EGP RNJ JTE CF SG DHM KAS. Performed the experiments: EGP RNJ RAW NPA RPC CJF KFH JJL MHM CJM DTN KAP KNW RAS RD EAS JTE CF SR-B. Analyzed the data: EGP RNJ CS KC RAW NPA RPC CJF KFH JJL MHM CJM DTN KAP KNW RAS RD EAS JTE CF SR-B. Contributed reagents/materials/analysis tools: CS KC JTE CF NLR SG DHM KAS. Wrote the paper: EGP RNJ KAS. Delineation of phenotype: NLR DHM KAS. Patient management, collection of samples, and summarization of clinical data: NLR DHM KAS.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>1</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="ecorrected">
+        <day>20
+</day>
+        <month>1</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>1</issue>
+      <elocation-id>e28936</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>9</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>17</day>
+          <month>11</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Puffenberger et al.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The Clinic for Special Children (CSC) has integrated biochemical and molecular methods into a rural pediatric practice serving Old Order Amish and Mennonite (Plain) children. Among the Plain people, we have used single nucleotide polymorphism (SNP) microarrays to genetically map recessive disorders to large autozygous haplotype blocks (meanâ=â4.4 Mb) that contain many genes (meanâ=â79). For some, uninformative mapping or large gene lists preclude disease-gene identification by Sanger sequencing. Seven such conditions were selected for exome sequencing at the Broad Institute; all had been previously mapped at the CSC using low density SNP microarrays coupled with autozygosity and linkage analyses. Using between 1 and 5 patient samples per disorder, we identified sequence variants in the known disease-causing genes <italic>SLC6A3</italic> and <italic>FLVCR1</italic>, and present evidence to strongly support the pathogenicity of variants identified in <italic>TUBGCP6</italic>, <italic>BRAT1</italic>, <italic>SNIP1</italic>, <italic>CRADD</italic>, and <italic>HARS</italic>. Our results reveal the power of coupling new genotyping technologies to population-specific genetic knowledge and robust clinical data.</p>
+      </abstract>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The Plain populations of Pennsylvania are descended from small groups of Swiss immigrants who organized into multiple endogamous demes that have remained genetically isolated over the last 12â14 generations <xref rid="pone.0028936-Puffenberger1" ref-type="bibr">[1]</xref>, <xref rid="pone.0028936-Strauss1" ref-type="bibr">[2]</xref>. Certain recessive disorders are highly concentrated in Plain sects <xref rid="pone.0028936-McKusick1" ref-type="bibr">[3]</xref>, <xref rid="pone.0028936-McKusick2" ref-type="bibr">[4]</xref>. The overwhelming majority (&gt;99%) of affected individuals are homozygous for their respective pathogenic variant, which resides within a relatively large, homozygous haplotype block. We have exploited this knowledge to map dozens of recessive conditions using low-density (i.e. 10,000 and 50,000 marker) single nucleotide polymorphism (SNP) microarrays with as few as two patients <xref rid="pone.0028936-Strauss2" ref-type="bibr">[5]</xref>. This is an efficient, low-cost strategy <xref rid="pone.0028936-Strauss1" ref-type="bibr">[2]</xref>.</p>
+      <p>The ease of genetic mapping is counterbalanced by the difficulty of disease gene identification. Shared homozygous blocks among affected individuals tend to be large (mean 4.4 Mb) and contain dozens or hundreds of genes <xref rid="pone.0028936-Strauss2" ref-type="bibr">[5]</xref>, <xref rid="pone.0028936-Lohr1" ref-type="bibr">[6]</xref>, <xref rid="pone.0028936-Puffenberger2" ref-type="bibr">[7]</xref>, <xref rid="pone.0028936-Puffenberger3" ref-type="bibr">[8]</xref>, <xref rid="pone.0028936-Sherman1" ref-type="bibr">[9]</xref>, <xref rid="pone.0028936-Strauss3" ref-type="bibr">[10]</xref>, <xref rid="pone.0028936-Strauss4" ref-type="bibr">[11]</xref>. Large gene lists are significant obstacles, particularly if expression and functional data provide few clues to prioritize the list. Since 2004, we have mapped loci for 28 genetic disorders within Amish and Mennonite demes. For 11 (40%) of these, we could not identify the causative gene as no pathogenic variants were found after sequencing all high-priority candidate genes within the mapped interval.</p>
+      <p>Exome sequencing has recently been shown to expedite disease gene discovery <xref rid="pone.0028936-Anastasio1" ref-type="bibr">[12]</xref>, <xref rid="pone.0028936-Becker1" ref-type="bibr">[13]</xref>, <xref rid="pone.0028936-Bolze1" ref-type="bibr">[14]</xref>, <xref rid="pone.0028936-Caliskan1" ref-type="bibr">[15]</xref>, <xref rid="pone.0028936-Gilissen1" ref-type="bibr">[16]</xref>, <xref rid="pone.0028936-Glazer1" ref-type="bibr">[17]</xref>, <xref rid="pone.0028936-Haack1" ref-type="bibr">[18]</xref>, <xref rid="pone.0028936-Johnson1" ref-type="bibr">[19]</xref>, <xref rid="pone.0028936-Krawitz1" ref-type="bibr">[20]</xref>, <xref rid="pone.0028936-Montenegro1" ref-type="bibr">[21]</xref>, <xref rid="pone.0028936-Musunuru1" ref-type="bibr">[22]</xref>, <xref rid="pone.0028936-Ng1" ref-type="bibr">[23]</xref>, <xref rid="pone.0028936-Ng2" ref-type="bibr">[24]</xref>, <xref rid="pone.0028936-Ostergaard1" ref-type="bibr">[25]</xref>, <xref rid="pone.0028936-Sirmaci1" ref-type="bibr">[26]</xref>, <xref rid="pone.0028936-Walsh1" ref-type="bibr">[27]</xref>, <xref rid="pone.0028936-Wang1" ref-type="bibr">[28]</xref>. In a pilot study to investigate the utility of exome sequencing, the Clinic for Special Children and the Broad Institute initiated a collaboration to combine thorough phenotyping, autozygosity mapping, and exome sequencing. Within 12 months, we identified pathogenic variants for seven disorders, six of them novel. To delineate the functional consequences of these variants, we designed and executed studies of mutant protein expression and function. This work highlights the extraordinary potential of next generation technologies for the investigation of monogenic disease among appropriately selected individuals, families, and communities. It provides a realistic model for using next generation sequencing strategies in everyday clinical practice.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Phenotypes</title>
+        <p>The phenotypes are summarized in <xref ref-type="table" rid="pone-0028936-t001">Table 1</xref>. Detailed descriptions of each disorder are presented below.</p>
+        <table-wrap id="pone-0028936-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028936.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Phenotype Summary.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0028936-t001-1" xlink:href="pone.0028936.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Disease</td>
+                  <td align="left" rowspan="1" colspan="1">Group</td>
+                  <td align="left" rowspan="1" colspan="1">OMIM</td>
+                  <td align="left" rowspan="1" colspan="1">Clinical Synopsis</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Infantile parkinsonism-dystonia</td>
+                  <td align="left" rowspan="1" colspan="1">M</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">Infantile-onset rigidity, dystonia, or chorea</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Dopamine non-responsive Parkinsonism</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Progressive frontal lobe degeneration</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Lethal neonatal rigidity and seizure syndrome</td>
+                  <td align="left" rowspan="1" colspan="1">A</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">In utero myoclonic spasms</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Neonatal-onset intractable focal seizures</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Congenital rigidity</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Dysautonomia (hypothermia, apnea, bradycardia, SIDS)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Mental retardation, non-syndromic</td>
+                  <td align="left" rowspan="1" colspan="1">M</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">Delayed language development</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Mild-moderate mental retardation</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Microcephaly with chorioretinopathy</td>
+                  <td align="left" rowspan="1" colspan="1">M</td>
+                  <td align="left" rowspan="1" colspan="1">251270</td>
+                  <td align="left" rowspan="1" colspan="1">Congenital pachygyric microcephaly</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Global developmental delay</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Chorioretinopathy and retinal detachment</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Posterior column ataxia with retinitis pigmentosa</td>
+                  <td align="left" rowspan="1" colspan="1">M</td>
+                  <td align="left" rowspan="1" colspan="1">609033</td>
+                  <td align="left" rowspan="1" colspan="1">Impaired propioception</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Retinitis pigmentosa</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Symptomatic epilepsy and skull dysplasia</td>
+                  <td align="left" rowspan="1" colspan="1">A</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">Global developmental delay</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Intractable epilepsy</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Skull dysplasia</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Usher syndrome</td>
+                  <td align="left" rowspan="1" colspan="1">A</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">Retinitis pigmentosa</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Progressive sensorineural hearing loss</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Episodic psychosis</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <sec id="s2a1">
+          <title>Infantile Parkinsonism-dystonia syndrome</title>
+          <p>The phenotype and gene defect for infantile parkinsonism-dystonia have been described elsewhere <xref rid="pone.0028936-Kurian1" ref-type="bibr">[29]</xref>. Briefly, our patient developed irritability and feeding difficulties soon after birth. Generalized rigidity and dystonia developed during early infancy, impeding motor development, and evolving into severe rigid Parkinsonism by late childhood. The proband cannot speak or use her hands to communicate, and it has thus been difficult to assess cognitive function or thought content. Brain structure is normal. In cerebrospinal fluid, homovanillic acid (HVA) is elevated, 5-hydroxyindoleacetic acid (5HIAA) is normal, and the concentration ratio of HVA to 5HIAA is 6.8â13.2 mol:mol (normal 1 â 3.7 mol:mol). Treatment with haloperidol, tetrabenazine, levodopa-carbidopa, trihexyphenidyl, and tyrosine restriction have been ineffective.</p>
+        </sec>
+        <sec id="s2a2">
+          <title>Lethal neonatal rigidity and multifocal seizure syndrome</title>
+          <p>Episodic jerking begins <italic>in utero</italic>. Newborns have small heads (1.5 to 2 SD below normal for age), overlapping cranial sutures, small or absent fontanelles, and depressed frontal bones. Hands are fisted and extreme axial and limb rigidity prohibit volitional movements and tendon reflexes. Brief focal jerks of the tongue, face and arms are prominent soon after birth and occur in a nearly continuous sequence throughout each child's short life. Neuroimaging is normal or reveals mild hypoplasia of the frontal lobes. Electroencephalograms show bilateral medium-high voltage spikes over temporal and central regions, frequent multifocal seizures, background slowing, and no posterior rhythm. Seizures are only partially responsive to anticonvulsants and not affected by high-dose pyridoxine.</p>
+          <p>Affected children have stagnant head growth, remain visually inattentive, do not feed independently, and make no developmental progress. They have frequent spontaneous apnea and bradycardia that uniformly culminates in cardiopulmonary arrest before age 4 months. The brain of a child who died at 4 weeks of age weighed 382 grams (expected for age 433 +/â 50 g) but was otherwise normally developed. Primary lesions were localized to most regions of the corpus striatum and cerebral cortex with relative sparing of the anterior caudates and parietal lobes. Lesions consisted of neuronal loss associated with a striking microglial reaction and proliferation of Alzheimer type 2 astrocytes (<xref ref-type="fig" rid="pone-0028936-g001">Figure 1, AâC</xref>).</p>
+          <fig id="pone-0028936-g001" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0028936.g001</object-id>
+            <label>Figure 1</label>
+            <caption>
+              <title>Corticobasal degeneration in the brain of an infant who died from a homozygous <italic>BRAT1</italic> mutation.</title>
+              <p>(<bold>A</bold>) Throughout frontal, occipital and temporal cortex, there is marked neuronal loss, gliosis with astrocytes (arrowheads) and swollen oligodendroglia. The arrow indicates a perivascular microcalcification (superior frontal gyrus, deep cortex, 10Ã). (<bold>B</bold>) The anterior hippocampus is smaller than expected and there is neuronal loss and gliosis in zone CA-1 (Sommer's sector), demarcated from the CA-2 sector by the dotted line (4Ã). (<bold>C</bold>) At 60Ã magnification, the putamen shows a paucity of neurons, abundant Alzheimer Type 2 astrocytes (arrowhead) and scattered microglial nodules (arrow). Heterologous overexpression of N-terminal FLAG-tagged human BRAT1 (<bold>D</bold>) and hBRAT1 c.638_639insA (<bold>E</bold>) in mouse IMCD3 cells. Wild-type Brat1 localizes to the nucleus and cytoplasm of mIMCD3 cells. Mutant Brat1 (c.638_639insA) does not localize to the nucleus and instead forms punctate aggregations in the cytoplasm. Similar results were obtained in hARPE-19 cells (data not shown). (<bold>F</bold>) RT-PCR demonstrating the stability of overexpressed human BRAT1 transcripts (â¼2.6 kb) in hARPE-19 cells. A B-actin amplicon (â¼450 bp) was used as a loading control on the same gel. (<bold>G</bold>) Western blot of lysates from human ARPE-19 cells transiently transfected with wt hBRAT1 displaying FLAG-hBRAT1 fusion protein at â¼90 kDa or with hBRAT1 c.638_639insA displaying the truncated FLAG-hBRAT1 mutant fusion protein at â¼44.5 kDa (FLAG-tag and linkerâ=â3.1 kDa). B-actin was labeled as a loading control.</p>
+            </caption>
+            <graphic xlink:href="pone.0028936.g001"/>
+          </fig>
+        </sec>
+        <sec id="s2a3">
+          <title>Microcephaly with chorioretinopathy</title>
+          <p>The phenotype was originally described by Victor McKusick <xref rid="pone.0028936-McKusick3" ref-type="bibr">[30]</xref>. All patients are born with microcephaly, a sloping forehead, diminutive anterior fontanelle, and sutural ridging (<xref ref-type="fig" rid="pone-0028936-g002">Figure 2, A</xref>). Head circumference is more than 4 standard deviations below normal at birth and remains so into adulthood (<xref ref-type="fig" rid="pone-0028936-g002">Figure 2, B</xref>). Affected neonates transition well and feed normally. Children walk independently between 14 and 36 months of age and language emerges at an appropriate age but remains rudimentary. Cognitive impairment ranges from moderate (adult mental age 8â10 years) to severe (adult mental age &lt;6 months); intelligence quotients of two young patients were 60 and 62 (normal 100Â±15). Two of nine patients (22%) have epilepsy: one started having drop attacks in late childhood and another developed nocturnal epilepsy as an adult.</p>
+          <fig id="pone-0028936-g002" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0028936.g002</object-id>
+            <label>Figure 2</label>
+            <caption>
+              <title>Microcephaly and chorioretinopathy due to a homozygous <italic>TUBGCP6</italic> mutation.</title>
+              <p>(<bold>A</bold>) An affected infant has marked microcephaly (&gt;4SD below normal), a receding forehead, diminutive anterior fontanelle, and sutural ridging. She has cognitive delay and visual impairment but is socially engaged. (<bold>B</bold>) Head circumference and length plots for Mennonite microcephaly patients. (<bold>C</bold>) Brain magnetic resonance imaging (MRI) shows diffuse pachygyria, normal myelination, and (<bold>D</bold>) a hypoplastic cerebellar vermis.</p>
+            </caption>
+            <graphic xlink:href="pone.0028936.g002"/>
+          </fig>
+          <p>Magnetic resonance imaging shows diffuse pachygyria (<xref ref-type="fig" rid="pone-0028936-g002">Figure 2, C</xref>). The cerebral hemispheres are small relative to the cerebellum, which has a hypoplastic vermis (<xref ref-type="fig" rid="pone-0028936-g002">Figure 2, D</xref>). Although myelin volume appears reduced, it has normal signal quality. The surface area of the corpus callosum is approximately half that of an age-matched control child (2.75 cm<sup>2</sup> versus 5.61 cm<sup>2</sup>).</p>
+          <p>Visual impairment becomes evident during the first year of life. The retina and choroid are underdeveloped and have focal defects that reveal bare sclera. Just posterior to the equator of the eye, much of the retina has a scalloped appearance that suggests focal areas of arrested development. The more anterior parts of the retina, near the periphery and pars plana, have a grayish hue and diminutive vasculature similar to retinopathy of prematurity. Condensations of vitreous may attach to the retina in transition regions between scalloped and gray tissue, marking points of traction for retinal detachment.</p>
+        </sec>
+        <sec id="s2a4">
+          <title>Non-syndromic mental retardation</title>
+          <p>The phenotype is typical of that described for other forms of non-syndromic mental retardation. All milestones are mildly delayed and cognitive function remains significantly impaired, precluding independent living and self-care. Speech is rudimentary but articulate. Affected individuals are not autistic.</p>
+        </sec>
+        <sec id="s2a5">
+          <title>Posterior column ataxia and retinitis pigmentosa</title>
+          <p>The AXPC1 phenotype has been described elsewhere <xref rid="pone.0028936-Higgins1" ref-type="bibr">[31]</xref>. Tunnel-like visual loss and photophobia begin early in childhood when fundoscopy reveals signs of non-spiculated retinitis pigmentosa and cellophane maculopathy. As vision deteriorates throughout adolescence, patients might develop posterior subcapsular cataracts. Motor milestones are slightly delayed (independent ambulation by 18 months).</p>
+          <p>Sensory ataxia, wide-based gait, and Rombergism emerge by age 4. Signs of sensory neuropathy include pan-areflexia, stocking-glove loss of vibration and position sense, astereognosia, agraphesthesia, and blunted sensation of applied force (e.g. accidentally crushing paper cups). Muscle tone, power, and electromyography are normal. MRI reveals T2 signal hyperintensity running the length of the dorsal spinal cord. Sensory sural nerve action potentials and H waves are absent. Some patients develop focal epilepsy marked by interictal focal spike-wave discharges. Cognitive function is normal.</p>
+        </sec>
+        <sec id="s2a6">
+          <title>Symptomatic epilepsy and skull dysplasia</title>
+          <p>Affected neonates are hypotonic and feed poorly. Dysmorphic features that evolve over time include a bulbous nose, wide mouth and tongue, broad jaw with protuberant angles, short hands, short tapered fingers, and broad thumbs (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, A</xref>). Affected children have severe psychomotor delay and do not learn to walk or speak. Many retain use of their hands to scoot, maneuver a wheelchair, or gesture. Some children show behavioral responses to language, but they do not socially engage or follow verbal commands.</p>
+          <fig id="pone-0028936-g003" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0028936.g003</object-id>
+            <label>Figure 3</label>
+            <caption>
+              <title>Symptomatic epilepsy and skull dysplasia due to a homozygous <italic>SNIP1</italic> mutation.</title>
+              <p>(<bold>A</bold>) Two affected brothers presented with severe psychomotor delay, intractable seizures, bulbous nose, wide mouth and tongue, broad jaw with protuberant angles, short hands, short tapered fingers, and broad thumbs. (<bold>B,C</bold>) Brain MRI (B, axial T2; C, coronal T1) MRI showed enlarged ventricles, a thin corpus callosum, hypomyelination, and an irregular, undulating skull surface. (<bold>D</bold>) Mouse FLAG-SNIP1 (wt) fusion protein, when transiently overexpressed in mIMCD3 cells, localizes to the nucleus in a punctate pattern consistent with transcriptional complexes. (<bold>E</bold>) Mouse FLAG-SNIP1 (p.Glu353Gly) localizes to the nucleus, but with a more aggregated distribution. (<bold>F</bold>) <italic>Top</italic> â Reverse-transcriptase PCR from three wild-type mSNIP1-transfected samples and four c.1058A&gt;G mSNIP1-transfected samples. mSNIP1 amplicon â 400 bp. mGAPDH (loading control) â 1037 bp amplicon. <italic>Bottom</italic> â Western blot of lysates from mIMCD3 cells transiently transfected with wt (lanes wt<sub>1&amp;2</sub>) or c.1058A&gt;G (lanes p.Glu353Gly<sub>1&amp;2</sub>) mSNIP1 displaying the FLAG-mSNIP fusion protein at â¼48 kDa. The 140-kDa non-specific band was used as a loading control. Data shown are two out of four replicate sets of transfections.</p>
+            </caption>
+            <graphic xlink:href="pone.0028936.g003"/>
+          </fig>
+          <p>Examination typically reveals a subdued child with strabismus, slow horizontal nystagmus, hypotonia, and weak or absent tendon reflexes. Magnetic resonance imaging reveals ventriculomegaly, thin corpus callosum, white matter abnormalities, and an undulating or âlumpyâ skull surface (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, E</xref>). The cortical ribbon follows the irregular skull contour (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, EâF</xref>). Multifocal spike-wave discharges from central, occipital, and temporal regions typically begin by 6 months of age and are accompanied by focal or generalized seizures that can manifest as dystonic posturing, drop attacks, myoclonic jerks, or generalized tonic-clonic events. Multiple intractable seizure types can afflict an individual patient. Physical anomalies found in some patients include subglottic stenosis, aortic stenosis, bicuspid aortic valve, umbilical hernia, and hydrocele.</p>
+        </sec>
+        <sec id="s2a7">
+          <title>Usher syndrome</title>
+          <p>Growth and development are normal during infancy. Visual impairment becomes evident during early childhood with the emergence of fine horizontal nystagmus, light aversion, and optic pallor. As vision deteriorates, fundoscopic exam reveals marked attenuation of retinal arteries and veins, pigmentary changes and a cellophane-like reflex that produce âbull's eyeâ maculae and diffuse pigmentary stippling of the peripheral retinae, consistent with retinitis pigmentosa. This constellation suggests a combination of optic nerve disease, retinal dystrophy, and cone dysfunction. Patients are typically blind by the second or third decade of life but the pace of visual deterioration is highly variable.</p>
+          <p>We do not have auditory data from affected newborns, but some auditory function is present during infancy and deteriorates during early childhood; all five evoked auditory waveforms are absent by age 5. Amplifiers or cochlear implants can partially restore hearing. Patients have delayed gross motor development, hyperactive patellar tendon reflexes, mild truncal ataxia, and a wide-based gait. In contrast, upper limb coordination (allowing for visual impairment) and reflexes, peripheral nerve function, strength, tone, and intelligence are normal. Based on the current classification scheme, this condition is most consistent with the type III variant of Usher syndrome, which is characterized by progressive vision and hearing loss during early childhood years.</p>
+          <p>Infectious illnesses may provoke vivid visual hallucinations (the Charles Bonnet syndrome). These attacks begin during early childhood and may be accompanied by nonsensical speech, inappropriate laughter, repetitive eye blinking, or psychomotor agitation. In one case, acute psychosis merged into a deep catatonia that lasted several days. Hallucinations typically respond to anti-psychotic medications (e.g. haloperidol, thorazine) and are sometimes associated with transient myopathy (elevated serum creatine kinase). Rarely, children die suddenly and unexpectedly during an illness. These are presumably cardiac events, but routine electrocardiogram and 24-hour Holter monitor results have been normal.</p>
+        </sec>
+      </sec>
+      <sec id="s2b">
+        <title>Genetic Mapping</title>
+        <p>We chose to study 15 patients representing the seven discrete phenotypes described above (<xref ref-type="table" rid="pone-0028936-t001">Table 1</xref>). All patients were originally genotyped using 10,000 (10 K) and/or 50,000 (50 K) single nucleotide polymorphism (SNP) microarrays as previously described <xref rid="pone.0028936-Strauss2" ref-type="bibr">[5]</xref>, <xref rid="pone.0028936-Lohr1" ref-type="bibr">[6]</xref>, <xref rid="pone.0028936-Puffenberger2" ref-type="bibr">[7]</xref>, <xref rid="pone.0028936-Puffenberger3" ref-type="bibr">[8]</xref>, <xref rid="pone.0028936-Sherman1" ref-type="bibr">[9]</xref>, <xref rid="pone.0028936-Strauss3" ref-type="bibr">[10]</xref>, <xref rid="pone.0028936-Strauss4" ref-type="bibr">[11]</xref>. Using between 2 and 9 samples, we genetically mapped five disorders using 10 K SNP arrays; four of these were localized with ease using <italic>multiple affected children from separate sibships</italic> (<xref ref-type="fig" rid="pone-0028936-g004">Figure 4</xref>, panels EâH). For two conditions, a shared homozygous block could only be identified at 50 K SNP resolution (see below). Shared autozygous blocks were an average of 4.4 Mb (range 1.6â8.4 Mb) and contained a mean of 79 (range 22â187) genes. The genetic mapping studies are summarized in <xref ref-type="table" rid="pone-0028936-t002">Table 2</xref>.</p>
+        <fig id="pone-0028936-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028936.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Genetic mapping of seven Plain disorders.</title>
+            <p>The results of autozygosity mapping using Affymetrix GeneChip 10 K or 50 K SNP microarrays are plotted for each disorder. The x-axis depicts chromosomal location on autosomes. Yellow peaks represent the number of contiguous homozygous SNPs shared by affected individuals and the purple peaks depict location scores. (<bold>A</bold>) Autozygosity mapping of two affected individuals identified a single, large block of homozygosity on chromosome 6 (yellow peak). Genotyping of 6 unaffected siblings excluded this homozygous block, but identified 12 genomic regions greater than 5 Mb in size (red peaks) that were consistent with linkage in the family. (<bold>B</bold>) List of genomic regions consistent with linkage in the single nuclear family with infantile parkinsonism-dystonia syndrome. Panels <bold>CâH</bold> provide mapping plots for the other 6 disorders. For two disorders (<bold>C,D</bold>), 50 K microarrays were used after 10 K microarrays failed to unequivocally localize the disease gene. The other four disorders (<bold>EâH</bold>) were mapped with 10 K microarrays.</p>
+          </caption>
+          <graphic xlink:href="pone.0028936.g004"/>
+        </fig>
+        <table-wrap id="pone-0028936-t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028936.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Genetic Mapping Summary.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0028936-t002-2" xlink:href="pone.0028936.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Disease</td>
+                  <td align="left" rowspan="1" colspan="1">Sample Size</td>
+                  <td align="left" rowspan="1" colspan="1">Chr</td>
+                  <td align="left" rowspan="1" colspan="1">SNP Start</td>
+                  <td align="left" rowspan="1" colspan="1">SNP Stop</td>
+                  <td align="left" rowspan="1" colspan="1">Size (Mb)</td>
+                  <td align="left" rowspan="1" colspan="1">Genes</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Infantile parkinsonism-dystonia</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">Many</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Lethal neonatal rigidity and seizure syndrome</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="left" rowspan="1" colspan="1">rs2251235</td>
+                  <td align="left" rowspan="1" colspan="1">rs765728</td>
+                  <td align="left" rowspan="1" colspan="1">1.6</td>
+                  <td align="left" rowspan="1" colspan="1">31</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Mental retardation, non-syndromic</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">12</td>
+                  <td align="left" rowspan="1" colspan="1">rs709228</td>
+                  <td align="left" rowspan="1" colspan="1">rs1369822</td>
+                  <td align="left" rowspan="1" colspan="1">3.6</td>
+                  <td align="left" rowspan="1" colspan="1">46</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Microcephaly with chorioretinopathy</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">22</td>
+                  <td align="left" rowspan="1" colspan="1">rs2157310</td>
+                  <td align="left" rowspan="1" colspan="1">rs7364173</td>
+                  <td align="left" rowspan="1" colspan="1">1.8</td>
+                  <td align="left" rowspan="1" colspan="1">22</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Posterior column ataxia with retinitis pigmentosa</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">rs10494916</td>
+                  <td align="left" rowspan="1" colspan="1">rs9308430</td>
+                  <td align="left" rowspan="1" colspan="1">4.2</td>
+                  <td align="left" rowspan="1" colspan="1">59</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Symptomatic epilepsy and skull dysplasia</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">6</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">rs2153337</td>
+                  <td align="left" rowspan="1" colspan="1">rs2225251</td>
+                  <td align="left" rowspan="1" colspan="1">6.6</td>
+                  <td align="left" rowspan="1" colspan="1">126</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Usher syndrome</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">rs2603014</td>
+                  <td align="left" rowspan="1" colspan="1">rs325229</td>
+                  <td align="left" rowspan="1" colspan="1">8.4</td>
+                  <td align="left" rowspan="1" colspan="1">187</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <p>For <italic>infantile Parkinsonism-dystonia syndrome</italic>, the proband was one of the first patients to be examined at the CSC nearly 20 years ago. A similarly affected sister died, but a lymphoblastoid cell line was available for study. No other affected individuals were known in the Mennonite population. DNA samples were isolated from the proband, her parents, six unaffected siblings, and her deceased sister's cell line. Autozygosity mapping of the two affected individuals identified a single, large block of homozygosity on chromosome 6 (<xref ref-type="fig" rid="pone-0028936-g004">Figure 4</xref>, panel A, yellow peak). Analysis of the unaffected siblings excluded this homozygous block, but identified 12 genomic regions greater than 5 Mb in size consistent with linkage in the family (<xref ref-type="fig" rid="pone-0028936-g004">Figure 4</xref>, panel A, red peaks, and panel B). None of these regions had large homozygous blocks at 10 K SNP resolution.</p>
+        <p>Three affected individuals from three separate sibships with <italic>lethal neonatal rigidity and multifocal seizure syndrome</italic> were genotyped originally with 10 K SNP arrays. No significant shared blocks of homozygosity were identified. As the patients were from different yet related Pennsylvania Amish demes, we suspected that the shared homozygous block might be small and thus below the resolution of a 10 K microarray. We subsequently genotyped these patients at 50 K resolution and mapped the disease locus to chromosome 7p22 (<xref ref-type="fig" rid="pone-0028936-g004">Figure 4</xref>, panel C).</p>
+        <p>In 2007, a microcephalic Mennonite baby was evaluated at the CSC and thought to have the same disorder first described by Victor McKusick in 1966 (<italic>microcephaly with chorioretinopathy</italic>, OMIM 251270) <xref rid="pone.0028936-McKusick3" ref-type="bibr">[30]</xref>. We were able to locate and genotype four affected individuals from McKusick's original study as well as another patient related to our index case. Genotyping at 50 K SNP resolution was required to identify a small 1.8 Mb shared block of homozygosity in the subtelomeric region of chromosome 22q22 (<xref ref-type="fig" rid="pone-0028936-g004">Figure 4</xref>, panel D). For both disorders that required higher density arrays, a dearth of SNPs on the 10 K microarray and high recombination rates in these subtelomeric regions complicated mapping.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Exome Sequencing</title>
+        <p>Prior to exome analysis, we sequenced between 2 and 45 candidate genes for each condition and found no pathogenic variants. As defined here and throughout the paper, novelty of DNA sequence variants was determined by absence in dbSNP 129 and the 1000 Genomes Project. All putative pathogenic exome variants described below were confirmed by Sanger sequencing in the affected individuals used for genetic mapping. In addition, siblings and parents were also sequenced, when available, to confirm appropriate segregation of the allele within the family. We developed an unlabeled probe melting analysis for each putative pathogenic variant and genotyped population-specific controls for these variants. For each disorder, over 400 population-specific chromosomes were screened, the allele frequencies ranged from 0â1.25%, and no homozygous controls were identified. The exome variant data are summarized in <xref ref-type="table" rid="pone-0028936-t003">Tables 3</xref> and <xref ref-type="table" rid="pone-0028936-t004">4</xref>.</p>
+        <table-wrap id="pone-0028936-t003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028936.t003</object-id>
+          <label>Table 3</label>
+          <caption>
+            <title>Exome Variant Summary.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0028936-t003-3" xlink:href="pone.0028936.t003"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="3" align="left" rowspan="1">Average Autosomal Variants per Sample</td>
+                  <td colspan="2" align="left" rowspan="1">Infantile parkinsonism-dystonia syndrome (nâ=â1)</td>
+                  <td colspan="2" align="left" rowspan="1">Lethal neonatal rigidity and multifocal epilepsy (nâ=â2)</td>
+                  <td colspan="2" align="left" rowspan="1">Microcephaly with chorioretinopathy (nâ=â1)</td>
+                  <td colspan="2" align="left" rowspan="1">Non-syndromic mental retardation (nâ=â5)</td>
+                  <td colspan="2" align="left" rowspan="1">Posterior column ataxia and retinitis pigmentosa (nâ=â1)</td>
+                  <td colspan="2" align="left" rowspan="1">Symptomatic epilepsy and skull dysplasia (nâ=â3)</td>
+                  <td colspan="2" align="left" rowspan="1">Usher syndrome (nâ=â2)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td colspan="3" align="left" rowspan="1"/>
+                  <td colspan="2" align="left" rowspan="1">Novel and Homozygous SNPs</td>
+                  <td colspan="2" align="left" rowspan="1">SNPs in Mapped Interval</td>
+                  <td colspan="2" align="left" rowspan="1">SNPs in Mapped Interval</td>
+                  <td colspan="2" align="left" rowspan="1">SNPs in Mapped Interval</td>
+                  <td colspan="2" align="left" rowspan="1">SNPs in Mapped Interval</td>
+                  <td colspan="2" align="left" rowspan="1">SNPs in Mapped Interval</td>
+                  <td colspan="2" align="left" rowspan="1">SNPs in Mapped Interval</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                  <td align="left" rowspan="1" colspan="1">Novel and Homozygous</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Linked Intervals</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                  <td align="left" rowspan="1" colspan="1">Total</td>
+                  <td align="left" rowspan="1" colspan="1">Novel</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>5â²-Flanking</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">12</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>5â²-UTR</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">25</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>3â²-UTR</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">29</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Intron</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">207</td>
+                  <td align="left" rowspan="1" colspan="1">8</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">8</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Missense</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">6,936</td>
+                  <td align="left" rowspan="1" colspan="1">348</td>
+                  <td align="left" rowspan="1" colspan="1">13</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">13</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">39</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Nonsense</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">46</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Read-through</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">10</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Splice site</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">16</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Synonymous</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">8,931</td>
+                  <td align="left" rowspan="1" colspan="1">220</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="left" rowspan="1" colspan="1">8</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">13</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">32</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>miRNA</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>IGR</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">56</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Other</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">62</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Indels</bold>
+<xref ref-type="table-fn" rid="nt101">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">203</td>
+                  <td align="left" rowspan="1" colspan="1">75</td>
+                  <td align="left" rowspan="1" colspan="1">
+<xref ref-type="table-fn" rid="nt101">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<xref ref-type="table-fn" rid="nt101">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<xref ref-type="table-fn" rid="nt101">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Total</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">16,540</td>
+                  <td align="left" rowspan="1" colspan="1">667</td>
+                  <td align="left" rowspan="1" colspan="1">22</td>
+                  <td align="left" rowspan="1" colspan="1">19</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">15</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">9</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">23</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">34</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">80</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>*Novelty for indels measured against dbSNP 129 only, automated indel caller does not determine zygosity.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <table-wrap id="pone-0028936-t004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0028936.t004</object-id>
+          <label>Table 4</label>
+          <caption>
+            <title>Pathogenic Variant Summary.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0028936-t004-4" xlink:href="pone.0028936.t004"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Disease</td>
+                  <td align="left" rowspan="1" colspan="1">Sample Size</td>
+                  <td align="left" rowspan="1" colspan="1">Gene</td>
+                  <td align="left" rowspan="1" colspan="1">Gene Variant</td>
+                  <td align="left" rowspan="1" colspan="1">Protein Variant</td>
+                  <td align="left" rowspan="1" colspan="1">Population-specific Allele Frequency</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Infantile parkinsonism-dystonia</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>SLC6A3</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">IVS9+1G&gt;T</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">0.0% (0/402)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Lethal neonatal rigidity and seizure syndrome</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>BRAT1</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">c.638_639insA</td>
+                  <td align="left" rowspan="1" colspan="1">â</td>
+                  <td align="left" rowspan="1" colspan="1">0.50% (2/402)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Mental retardation, non-syndromic</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>CRADD</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">c.382G&gt;C</td>
+                  <td align="left" rowspan="1" colspan="1">p.Gly128Arg</td>
+                  <td align="left" rowspan="1" colspan="1">1.72% (7/406)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Microcephaly with chorioretinopathy</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>TUBGCP6</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">c.5458T&gt;G</td>
+                  <td align="left" rowspan="1" colspan="1">p.Ter1820Gly</td>
+                  <td align="left" rowspan="1" colspan="1">0.99% (4/404)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Posterior column ataxia with retinitis pigmentosa</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>FLVCR1</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">c.361A&gt;G</td>
+                  <td align="left" rowspan="1" colspan="1">p.Asn121Asp</td>
+                  <td align="left" rowspan="1" colspan="1">1.23% (5/406)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Symptomatic epilepsy and skull dysplasia</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>SNIP1</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">c.1097A&gt;G</td>
+                  <td align="left" rowspan="1" colspan="1">p.Glu366Gly</td>
+                  <td align="left" rowspan="1" colspan="1">1.48% (6/406)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Usher syndrome</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>HARS</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">c.1361A&gt;C</td>
+                  <td align="left" rowspan="1" colspan="1">p.Tyr454Ser</td>
+                  <td align="left" rowspan="1" colspan="1">1.72% (7/406)</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <sec id="s2c1">
+          <title>Infantile Parkinsonism-dystonia syndrome</title>
+          <p>Exome sequencing was performed on the single living patient. The data were constrained by first tabulating all homozygous, novel variants. Nineteen <italic>novel homozygous</italic> variants were identified: 8 synonymous, 9 missense, 1 5â²-UTR, and 1 splice site (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). Of the 10 potentially pathogenic changes, only one localized to a region consistent with linkage in the family, <italic>SLC6A3</italic> IVS9+1G&gt;T. The <italic>SLC6A3</italic> gene encodes the dopamine transporter, a known cause of infantile parkinsonism-dystonia syndrome (OMIM 613135). Direct sequencing revealed both parents were heterozygous for this change, both affected individuals were homozygous, and the unaffected siblings were either heterozygous or homozygous wild-type. This confirmed the linkage block that was identified on chromosome 5 by SNP genotyping. Genotyping of 201 Old Order Mennonite control samples identified no carriers (<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>).</p>
+        </sec>
+        <sec id="s2c2">
+          <title>Lethal neonatal rigidity and multifocal seizure syndrome</title>
+          <p>Exome data from two patients revealed nine variants in the mapped interval, but only one, <italic>BRAT1</italic> c.638_639insA, was novel (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). Genotyping by unlabeled probe melting analysis for 201 Old Order Amish control samples identified 2 carriers (1.0%)(<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>). Further confirmatory evidence for the pathogenicity of this variant was provided by two unrelated Old Order Amish infants from different demes in Wisconsin and Kentucky who had an indistinguishable clinical phenotype and were homozygous for the <italic>BRAT1</italic> c.638_639insA variant. Their samples were tested for the <italic>BRAT1</italic> variant after local physicians contacted our clinic for clinical guidance.</p>
+        </sec>
+        <sec id="s2c3">
+          <title>Microcephaly and chorioretinopathy</title>
+          <p>Exome data from a single affected patient identified 15 sequence variants within the mapped interval. Only one was novel, <italic>TUBGCP6</italic> c.5458T&gt;G (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). An unlabeled probe melting analysis in 202 Old Order Mennonite control samples identified 4 carriers (2.0%)(<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>). This read-through variant is predicted to incorporate 16 extra amino acids at the C-terminus of TUBGCP6 and/or may accelerate mRNA degradation via non-stop mediated decay.</p>
+        </sec>
+        <sec id="s2c4">
+          <title>Non-syndromic mental retardation</title>
+          <p>Exome sequencing of 5 affected individuals identified 9 homozygous sequence variants within the mapped interval. Only a missense variant in <italic>CRADD</italic> (c.382G&gt;C; p.Gly128Arg) was novel (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). PolyPhen-2 predicted this change to be âprobably damagingâ (scoreâ=â0.999). An unlabeled probe melting analysis detected 4 carriers among 203 Old Order Mennonite control individuals (2.0%) (<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>).</p>
+        </sec>
+        <sec id="s2c5">
+          <title>Posterior column ataxia and retinitis pigmentosa</title>
+          <p>Exome data from a single AXPC1 patient revealed 23 coding variants in the mapped interval; 13 were non-synonymous and only one missense variant was novel, <italic>FLVCR1</italic> c.361A&gt;G (p.Asn121Asp) (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). PolyPhen-2 predicts the p.Asn121Asp change to be âprobably damagingâ (scoreâ=â0.997). An unlabeled probe melting analysis for this variant detected 4 heterozygotes out of 203 Old Order Mennonite control chromosomes (2.0%) (<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>). The pathogenicity of this variant and several others in <italic>FLVCR1</italic> has recently been confirmed independently by others <xref rid="pone.0028936-Rajadhyaksha1" ref-type="bibr">[32]</xref>.</p>
+        </sec>
+        <sec id="s2c6">
+          <title>Symptomatic epilepsy and skull dysplasia</title>
+          <p>Exome data on three affected individuals from two sibships revealed 34 homozygous variants in the mapped region. Of these, only one was novel, <italic>SNIP1</italic> c.1097A&gt;G (p.Glu366Gly) (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). PolyPhen-2 predicts the p.Glu366Gly substitution to be âprobably damagingâ (scoreâ=â0.99). An unlabeled probe melting analysis for this variant identified 5 carriers among 203 Old Order Amish controls (2.5%) (<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>).</p>
+        </sec>
+        <sec id="s2c7">
+          <title>Usher syndrome</title>
+          <p>Exome data from two patients revealed 80 homozygous variants within the mapped interval. Only one variant, <italic>HARS</italic> c.1361A&gt;C (p.Tyr454Ser), was novel (<xref ref-type="table" rid="pone-0028936-t003">Table 3</xref>). Unlabeled probe melting analysis detected 3 carriers among 203 Old Order Amish controls (1.5%) (<xref ref-type="table" rid="pone-0028936-t004">Table 4</xref>). Further evidence for pathogenicity was provided by an Old Order Amish patient who was from an unrelated deme in Ontario, Canada. This Amish settlement arose from a separate migrational event from Europe than the Lancaster County settlement. The patient had an identical phenotype to our patients and was homozygous for the <italic>HARS</italic> c.1361A&gt;C variant.</p>
+        </sec>
+      </sec>
+      <sec id="s2d">
+        <title>In vitro Studies</title>
+        <p>The <italic>BRAT1</italic> gene encodes BRCA1-associated protein required for ATM activation-1 (BRAT1) <xref rid="pone.0028936-Aglipay1" ref-type="bibr">[33]</xref>. Wild-type human BRAT1 displays prominent nuclear and diffuse cytosolic localization (<xref ref-type="fig" rid="pone-0028936-g001">Figure 1, D</xref>) and its C-terminus (amino acids 176â821) interacts with BRCA1 <xref rid="pone.0028936-Aglipay1" ref-type="bibr">[33]</xref>. The c.638_639insA change is a frameshift variant that is predicted to alter the amino acid sequence after Lys<sup>213</sup> by introducing a stop codon that prematurely truncates the protein at Leu401 (41.5 kDa vs. wild-type 88.1 kDa) (<xref ref-type="fig" rid="pone-0028936-g001">Figure 1, F</xref>), abolishes its nuclear localization, and renders the protein unstable in human ARPE-19 cells (<xref ref-type="fig" rid="pone-0028936-g001">Figure 1, EâG</xref>). Similar results were obtained with mouse BRAT1 (data not shown). Abundance of the c.638_639insA variant was 87.7Â±11.9% (nâ=â3) lower than that of wild-type human BRAT1 for FLAG-fusion proteins overexpressed in human ARPE-19 cells (<xref ref-type="fig" rid="pone-0028936-g001">Figure 1, G</xref>). These data suggest that the Amish variant destabilizes the protein and may disrupt an interaction between BRAT1 and BRCA1 that is required for nuclear localization of BRAT1. Knockdown of BRAT1 results in p53-induced apoptosis independent of DNA damage <xref rid="pone.0028936-Aglipay1" ref-type="bibr">[33]</xref>. The destabilization of BRAT1 observed might underlie the catastrophic epilepsy and corticobasal neuronal degeneration observed in affected infants <xref rid="pone.0028936-Tan1" ref-type="bibr">[34]</xref>, <xref rid="pone.0028936-Engel1" ref-type="bibr">[35]</xref>, <xref rid="pone.0028936-Morris1" ref-type="bibr">[36]</xref>, <xref rid="pone.0028936-Biton1" ref-type="bibr">[37]</xref>, <xref rid="pone.0028936-Barzilai1" ref-type="bibr">[38]</xref>.</p>
+        <sec id="s2d1">
+          <title>CRADD</title>
+          <p>CRADD (aka RAIDD) is a caspase-recruitment-domain (CARD) and death domain containing adaptor protein. It links PIDD (p53-induced protein with death domain) and caspase-2 in the formation of the PIDDosome required for caspase-2 activation during apoptosis <xref rid="pone.0028936-Duan1" ref-type="bibr">[39]</xref>, <xref rid="pone.0028936-Ahmad1" ref-type="bibr">[40]</xref>, <xref rid="pone.0028936-Lin1" ref-type="bibr">[41]</xref>, <xref rid="pone.0028936-Berube1" ref-type="bibr">[42]</xref>.</p>
+          <p>The CRADD c.382G&gt;C mutation alters a highly conserved residue (p.Gly128Arg) within the CRADD death domain. We overexpressed wild-type and mutant (p.Gly128Arg) murine Cradd in mouse inner medullary collecting duct cells (mIMCD3) and found no significant difference in protein localization (<xref ref-type="fig" rid="pone-0028936-g005">Figure 5, AâB</xref>) <xref rid="pone.0028936-ShearwinWhyatt1" ref-type="bibr">[43]</xref>. However, mutant p.Gly128Arg Cradd formed large aggregates when co-overexpressed with wild-type PIDD (<xref ref-type="fig" rid="pone-0028936-g005">Figure 5, I</xref>) or the PIDD death domain (<xref ref-type="fig" rid="pone-0028936-g005">Figure 5, F</xref>). We found that overexpressed PIDD localized to cytosol (<xref ref-type="fig" rid="pone-0028936-g005">Figure 5, H</xref>) as described previously <xref rid="pone.0028936-ShearwinWhyatt1" ref-type="bibr">[43]</xref> and was autocatalytically cleaved as expected (<xref ref-type="fig" rid="pone-0028936-g005">Figure 5, C</xref>) <xref rid="pone.0028936-Berube1" ref-type="bibr">[42]</xref>. These data suggest that the p.Gly128Arg mutation alters one of the interaction surfaces of the CRADD death domain to decrease affinity for the PIDD death domain and increase homotypic binding to the CRADD death domain <xref rid="pone.0028936-Park1" ref-type="bibr">[44]</xref>. This is further supported by co-immunoprecipitation assays demonstrating that wild-type Cradd DD co-immunoprecipitates Pidd DD, but Cradd DD p.Gly128Arg does not (<xref ref-type="fig" rid="pone-0028936-g005">Figure 5, J</xref>). In rat PC-12 cells and cultured sympathetic neurons, similar perinuclear Cradd aggregations are associated with caspase-2 activation and initiation of apoptosis <xref rid="pone.0028936-Jabado1" ref-type="bibr">[45]</xref>. In humans, alteration of caspase-2 initiated apoptosis (resulting from disruption of the PIDDosome) during nerve growth factor mediated proliferation of synaptic contacts may lead to inappropriate synaptic pruning that results in cognitive impairment.</p>
+          <fig id="pone-0028936-g005" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0028936.g005</object-id>
+            <label>Figure 5</label>
+            <caption>
+              <title>Overexpression of mouse Cradd in mIMCD3 cells.</title>
+              <p>(<bold>A</bold>) Wild-type N-terminal FLAG-Cradd localizes to the cytoplasm and nucleus. (<bold>B</bold>) Mutant N-terminal FLAG-Cradd (p.Gly128Arg) localizes to the cytoplasm and nucleus in a manner that is indistinguishable from the wild-type localization. (<bold>C</bold>) Western blot of lysates from mIMCD3 cells transfected with wt FLAG-Cradd and wt V5-mPIDD, wt V5-mPIDD, or FLAG-Cradd (p.Gly128Arg) and wt V5-mPIDD. Blot was labeled with anti-V5 monoclonal antibody. Note that full-length V5-mPIDD (110.5 kDa) was cleaved into a 57.1 kDa N-terminal fragment, suggesting normal autocatalytic activity. (<bold>D</bold>) Co-transfection of FLAG-Cradd (wt) and wt V5-PIDD death domain (DD) results in uniform colocalization of the fusion proteins throughout the cytoplasm and nucleus (yellow). (<bold>E</bold>) Overexpressed V5-mPIDD DD (wt) localizes to the cytoplasm and the nucleus. (<bold>F</bold>) Co-overexpression of FLAG-Cradd (p.Gly128Arg) with V5-mPIDD DD (wt) results in dense aggregations of FLAG-Cradd in the cytoplasm. (<bold>G</bold>) Co-transfection of FLAG-mCradd (wt) and V5-mPIDD (wt) results in relatively uniform colocalization of the fusion proteins throughout the cytoplasm (yellow); punctate FLAG-mCradd aggregation is also evident (green). FLAG-mCradd (wt) localizes to the nucleus (green), V5-mPIDD does not (red). (<bold>H</bold>) Overexpressed V5-mPIDD (wt) localizes to the cytoplasm as previously reported (Berube et al., 2005). (<bold>I</bold>) Co-overexpression of FLAG-mCradd (p. Gly128Arg) with V5-mPIDD (wt) results in dense aggregations of FLAG-mCradd in the cytoplasm, decreased mCraddâ¶mPIDD colocalization, and a relative loss of localization of mCradd to the nucleus. Green fluorescence â anti-FLAG M2 antibody (1â¶1000); Red fluorescence â anti-V5 antibody (1â¶200); Blue fluorescence â DAPI-labeled nuclei (1.5 Âµg/Âµl); Western blots â anti-FLAG M2 antibody (1â¶1000). (<bold>J</bold>) Co-immunoprecipitation (Co-IP) of V5-tagged mouse Pidd death domain (DD) with FLAG-tagged mouse Cradd DD in mIMCD3 cells. Wild-type FLAG-Cradd DD co-immunoprecipitates wild-type Pidd DD; the FLAG-Cradd DD p.Gly128Arg variant does not. The upper blots were labeled with the anti-FLAG M2 antibody (1â¶1000). The lower blots of the same lysates/eluates were labeled with the anti-V5 antibody (1â¶5000).</p>
+            </caption>
+            <graphic xlink:href="pone.0028936.g005"/>
+          </fig>
+        </sec>
+        <sec id="s2d2">
+          <title>SNIP1</title>
+          <p>Wild-type SNIP1 (Smad nuclear interacting protein 1) contains an N-terminal nuclear localization signal <xref rid="pone.0028936-Kim1" ref-type="bibr">[46]</xref>, bridges c-Myc activity with CBP/p300 activity during development, and competitively inhibits TGF-Î² and NF-ÎºB signaling <xref rid="pone.0028936-Kim2" ref-type="bibr">[47]</xref>, <xref rid="pone.0028936-Fujii1" ref-type="bibr">[48]</xref>. SNIP1 Glu<sup>366</sup> is highly conserved and the p.Glu366Gly mutation is in the C-terminus where SNIP1 interacts with c-Myc <xref rid="pone.0028936-Fujii1" ref-type="bibr">[48]</xref>, Smad1 and Smad2 <xref rid="pone.0028936-Kim1" ref-type="bibr">[46]</xref>, <xref rid="pone.0028936-Ueberham1" ref-type="bibr">[49]</xref>.</p>
+          <p>Reverse transcriptase-PCR suggests that the <italic>Snip1</italic> c.1058A&gt;G (corresponding to human <italic>SNIP1</italic> c.1097A&gt;G) transcript is expressed at levels comparable to wild-type (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, F</xref>). We transiently overexpressed wild-type and mutant Snip1 in mIMCD3 cells. Wild-type protein localized to the nucleus with a punctate appearance, consistent with its involvement in transcriptional complexes <xref rid="pone.0028936-Kim1" ref-type="bibr">[46]</xref>, <xref rid="pone.0028936-Fujii1" ref-type="bibr">[48]</xref> (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, D</xref>). However, Snip1 p.Glu353Gly (corresponding to human p.Glu366Gly) had a more aggregated appearance (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, E</xref>) and Western blotting proved it unstable (<xref ref-type="fig" rid="pone-0028936-g003">Figure 3, F</xref>); its band density was 84.9Â±9.6% SD lower than wild-type (nâ=â4 independent transfections each).</p>
+          <p>Decreased abundance of SNIP1 likely results in decreased c-Myc activity and increased TGF-Î² and NF-ÎºB signaling. Disruption of c-Myc or CBP/p300 signaling in mice can result in abnormal development of the brain, skull, craniofacial bones, and distal limbs <xref rid="pone.0028936-Toyooka1" ref-type="bibr">[50]</xref>, <xref rid="pone.0028936-Wei1" ref-type="bibr">[51]</xref>, <xref rid="pone.0028936-Bhattacherjee1" ref-type="bibr">[52]</xref>, <xref rid="pone.0028936-Wey1" ref-type="bibr">[53]</xref>, <xref rid="pone.0028936-Viosca1" ref-type="bibr">[54]</xref>. Inappropriate increases in TGF-Î²/Smad2 signaling and in NF-ÎºB signaling in the mouse brain have been shown to independently initiate epileptogenesis <xref rid="pone.0028936-Cacheaux1" ref-type="bibr">[55]</xref>, <xref rid="pone.0028936-Lubin1" ref-type="bibr">[56]</xref>.</p>
+        </sec>
+        <sec id="s2d3">
+          <title>HARS</title>
+          <p>Histidyl-tRNA synthetase (HARS/HisRS) is a homodimeric class IIa aminoacyl tRNA synthetase that charges tRNA with the amino acid histidine <xref rid="pone.0028936-Francklyn1" ref-type="bibr">[57]</xref>. The p.Tyr454Ser change rests in the interface between the catalytic domain and anticodon binding domain suggesting that it may alter anticodon recognition and/or catalytic activity. Overexpression of wild-type and mutant (p.Tyr454Ser) murine HARS in mIMCD3 cells did not reveal any significant differences in localization (<xref ref-type="fig" rid="pone-0028936-g006">Figure 6, AâB</xref>). In Chinese hamster ovary (CHO) cell lysates, both wild-type and mutant murine protein dimerized properly with endogenous HARS and were expressed at qualitatively similar levels (data not shown). Our data suggest that the p.Tyr454Ser change reduces the maximal forward reaction velocity (Vmax) of the enzyme for aminoacylation of human tRNAHis with histidine nearly two-fold (<xref ref-type="fig" rid="pone-0028936-g006">Figure 6, C</xref>).</p>
+          <fig id="pone-0028936-g006" position="float">
+            <object-id pub-id-type="doi">10.1371/journal.pone.0028936.g006</object-id>
+            <label>Figure 6</label>
+            <caption>
+              <title>Overexpression of mouse HARS in mIMCD3 cells.</title>
+              <p>(<bold>A</bold>) Wild-type N-terminal FLAG-HARS localizes to the cytoplasm. (<bold>B</bold>) Mutant N-terminal FLAG-HARS (p.Tyr454Ser) localizes to the cytoplasm in a manner that is indistinguishable from the wild-type localization shown in <bold>A</bold>. Transfected and non-transfected cells were labeled with anti-FLAG M2 monoclonal antibody and AlexaFluor 488-conjugated anti-mouse IgG<sub>1</sub> (green fluorescence). (<bold>C</bold>) Reaction velocity vs. human tRNA<sup>His</sup> concentration for histidine aminoacylation of tRNA<sup>His</sup> by wild-type murine HARS (HARS) and p.Tyr454Ser (Y454S) HARS. Scale barâ=â10 Âµm in <bold>A</bold> and <bold>B</bold>.</p>
+            </caption>
+            <graphic xlink:href="pone.0028936.g006"/>
+          </fig>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>Next generation sequencing technologies promise to expedite disease gene discovery and allowed us to identify known and novel pathogenic variants in our patients. Although costly, exome sequencing is practical as it interrogates the 1.5% of the genome that contains approximately 95% of pathogenic variants <xref rid="pone.0028936-Anastasio1" ref-type="bibr">[12]</xref>, <xref rid="pone.0028936-Becker1" ref-type="bibr">[13]</xref>, <xref rid="pone.0028936-Bolze1" ref-type="bibr">[14]</xref>, <xref rid="pone.0028936-Caliskan1" ref-type="bibr">[15]</xref>, <xref rid="pone.0028936-Gilissen1" ref-type="bibr">[16]</xref>, <xref rid="pone.0028936-Glazer1" ref-type="bibr">[17]</xref>, <xref rid="pone.0028936-Haack1" ref-type="bibr">[18]</xref>, <xref rid="pone.0028936-Johnson1" ref-type="bibr">[19]</xref>, <xref rid="pone.0028936-Krawitz1" ref-type="bibr">[20]</xref>, <xref rid="pone.0028936-Montenegro1" ref-type="bibr">[21]</xref>, <xref rid="pone.0028936-Musunuru1" ref-type="bibr">[22]</xref>, <xref rid="pone.0028936-Ng1" ref-type="bibr">[23]</xref>, <xref rid="pone.0028936-Ng2" ref-type="bibr">[24]</xref>, <xref rid="pone.0028936-Ostergaard1" ref-type="bibr">[25]</xref>, <xref rid="pone.0028936-Sirmaci1" ref-type="bibr">[26]</xref>, <xref rid="pone.0028936-Walsh1" ref-type="bibr">[27]</xref>, <xref rid="pone.0028936-Wang1" ref-type="bibr">[28]</xref>. To assess the utility of exome sequencing in an active clinical setting, we selected 15 patient samples representing 7 different genetic conditions. Each disorder had previously been mapped to a chromosomal locus and candidate gene sequencing failed to identify the pathogenic variant. For six disorders, an average autozygous block of 4.4 Mb (0.13% of the human genome) contained only one novel homozygous variant and rendered disease gene identification straightforward. Even in the case of infantile parkinsonism-dystonia syndrome, for which autozygosity and linkage mapping were only partially informative, a manageable list of 19 candidate variants was assembled simply by assuming mutation homogeneity. Prior mapping data and thorough knowledge of the patient implicated a single variant from this list (<italic>SLC6A3</italic> IVS9+1G&gt;T).</p>
+      <p>For four of the conditions, more than one affected individual was available for exome sequencing. Even in the absence of mapping data, the identification of the putative pathogenic variant would still have been unambiguous. When we examined the shared, novel homozygous variants in affected individuals, we found one, and only one, that was not homozygous in any other (unaffected) individuals in the study. Thus, the assumption of mutation homogeneity obviates the need for SNP genotyping and mapping; we reach the same conclusion by exome sequencing of multiple affected individuals without the added time and expense of SNP genotyping.</p>
+      <p>The number of novel homozygous variants in each individual was surprisingly small. Average inbreeding coefficients of 4% and 2.5% in the Lancaster Amish and Mennonite populations, respectively, suggested that a small but significant fraction of variation will be homozygous. On average, we found only 21 novel homozygous variants per sample across the exome. Of these variants, only 12 were predicted to be potentially pathogenic (missense, nonsense, splice site). This represents 3.7% of all novel variants per exome. For the two disorders where a singleton was sequenced, we identified only 6 potentially pathogenic novel variants which were homozygous in the patient but in no other samples. Since our total sample size was small (15 individuals), we expect that future studies which leverage accumulated exome data will allow us to sequence single individuals to identify rare, uniquely homozygous pathogenic variants. In the outbred population, a strategy that scans for homozygosity or compound heterozygosity for novel variants in the same gene should yield equally manageable candidate gene lists.</p>
+      <p>Among the fifteen individuals studied, we found 4200 different novel autosomal sequence variants, roughly 62% of which have pathogenic potential. We infer that 3.6% of these variants were non-pathogenic changes as they were homozygous in one or more unaffected individuals. As more Amish and Mennonite exomes are analyzed within a clear clinical context, our ability to determine pathogenicity will improve. The exome data also provided a broader view of the genetic disease burden within these populations. We have catalogued 94 known pathogenic sequence variants within the Plain populations that should be detectable by exome sequencing. Of these, 11 were represented in at least one individual. On average, each individual harbored 1.4 known Plain pathogenic alleles (range, 0â4). We also compared our exome results against the Human Gene Mutation Database (HGMD) <xref rid="pone.0028936-Stenson1" ref-type="bibr">[58]</xref>. Carrier status for 113 HGMD mutations, that cause phenotypes not yet encountered in the Plain populations, was detected in our patients. These data permit us to generate a more comprehensive molecular differential diagnosis list when faced with a new clinical phenotype. It is notable that several HGMD-DM mutations were homozygous in one or more patients, casting some doubt on the pathogenicity of these variants. Similar results have been reported elsewhere and highlight the need for better curation of mutation databases <xref rid="pone.0028936-Bell1" ref-type="bibr">[59]</xref>.</p>
+      <p>Critics will argue that we have failed to exclude all possible variants due to incomplete coverage. Our sequencing metrics show excellent, albeit incomplete, exome coverage. On average, 91.8% and 86.6% of the targeted exome was sequenced to a depth of 10Ã and 20Ã, respectively. While this is a potential hazard, our study design minimized this risk. Prior mapping analyses narrowed the focus to a vanishingly small 0.13% of the genome. Within these mapped regions, we discovered only one novel homozygous variant. This is significantly better coverage and stronger evidence than we and others have demonstrated for disease gene identification prior to the advent of exome sequencing. Additionally, our SNP filtering strategies might be questioned; dbSNP is polluted with many pathogenic variants and their numbers continue to grow as data accrues. Our current conservative strategy used dbSNP 129 and the 1000 Genomes Project to filter exome variants. The risk to our analyses is relatively small since we study very rare and highly penetrant alleles. Nonetheless, in our population and elsewhere, local population-specific variant databases will prove most useful for inferring pathogenicity.</p>
+      <p>Pathogenicity is difficult to prove, but for four conditions we provide ample functional data to demonstrate abrogation of protein function. In vitro studies of protein localization and function in mammalian cells provide further confirmation that the homozygous variants identified were indeed pathogenic. The predicted consequence of the <italic>BRAT1</italic> c.638_639insA frameshift variant is a truncated protein at amino acid position 401. Overexpression of this truncated protein abolished nuclear localization and demonstrated protein instability (87.7% decrease relative to wild-type). An alternative disease mechanism, nonsense-mediated mRNA decay, has not been investigated. Others have shown that knockdown of BRAT1 results in p53-induced apoptosis <xref rid="pone.0028936-Aglipay1" ref-type="bibr">[33]</xref>. This is consistent with the neurodegeneration observed in patients with the <italic>BRAT1</italic> variant. When transfected into mouse IMCD3 cells, the mouse counterpart of the <italic>CRADD</italic> c.382G&gt;C variant disrupts interaction with mouse Pidd (it's normal binding partner) and forms dense aggregates when co-expressed with wild-type mouse Pidd. This is in contrast to a pattern of uniform colocalization of wild-type Cradd and Pidd throughout the cytoplasm and nucleus. Mouse Snip1 protein, when transiently overexpressed in IMCD3 cells, localizes to the nucleus in a punctate pattern consistent with transcriptional complexes, while mutant mouse Snip1 (p.Glu353Gly, corresponding to human p.Glu366Gly) localizes to the nucleus, but with a more aggregated distribution. Western blotting proved this structure unstable. For the <italic>HARS</italic> c.1361A&gt;C variant, we demonstrate that reaction velocity (Vmax) for aminoacylation of human tRNAHis with histidine is reduced nearly two-fold. While these studies cannot prove pathogenicity beyond a shadow of doubt, the totality of evidence is compelling and strongly suggests that we have identified the disease-causing alleles. The association between <italic>FLVCR1</italic> and <italic>SLC6A3</italic> variants and disease has previously been established.</p>
+      <p>We provide no further evidence for pathogenicity of the <italic>TUBGCP6</italic> c.5458T&gt;G variant. However, the primary microcephalies result from disruption of the centrosomal complex during mitosis, reducing the neural progenitor pool during development (39â41). Centrosomal proteins such as CDK5RAP2 and CENPJ/CPAP interact with the Î³-tubulin ring complex (Î³-TuRC) to regulate microtubule nucleation (42â44). TubGCP6 (GCP6) is a component of the human Î³-TuRC (45), where it is required for CDK5RAP2 to activate microtubule nucleation (43). We predict that defects in <italic>TUBGCP6</italic>, <italic>CDK5RAP2</italic> and <italic>CENPJ</italic> cause primary microcephaly by similar mechanisms.</p>
+      <p>All seven variants described in this paper interfere with neurological development. Functional studies of BRAT1 and SNIP1 will expand our understanding of epilepsy and also deepen our knowledge of DNA damage repair and transcriptional regulation in cortical development and neuronal survival. Selective degeneration of photoreceptors and dorsal column afferents caused by <italic>FLVCR1</italic> mutations suggest an unusual vulnerability of these cells to deranged heme transport, or may reveal an altogether different function of the FLVCR1 protein. Despite its ubiquitous expression, a defect in aminoacylation by HARS selectively damages elements of afferent sensory systems and, by unknown mechanisms, predisposes to episodic psychosis and sudden death. Abnormalities of neuroblast proliferation and migration caused by <italic>TUBGCP6</italic> mutations fit nicely with our existing knowledge about centrosomal complexes, microtubular arrays, and cortical growth, but also introduce new questions about the diverse brain morphologies linked to various specific tubulin-associated proteins and the role of these proteins in early eye development. Finally, further studies on the connection between CRADD and general intelligence will certainly change our understanding of the microanatomical and molecular bases of cognition. Small focused studies as described herein will be a steady engine of progress for understanding the specific connections between genes and the human brain.</p>
+      <p>Ultimately, genomics can only shape medical practice within the context of regional particulars and clinical facts. Our local, patient- and family-based approach to gene discovery stands in stark contrast to the prevailing model of genomic research, where the people who produce genotype data are frequently separated from those who collect and analyze clinical facts, and both struggle to translate genetic knowledge into primary care. Although we are focused on specific regional populations (1, 3), these studies reveal concepts of broad biological and economic relevance (8, 11). The discovery of rare, highly penetrant alleles among small social groups may prove more useful than large genome-wide association studies for revealing the basic genetic foundations of complex disease, particularly when these alleles can be viewed against a background of population-specific genetic variation. Even at current prices, microarray analyses to detect copy number abnormalities coupled with exome sequencing are an order of magnitude cheaper than the standard workup for a complex patient at a tertiary medical center. Thoughtful and appropriately scaled application of these genetic technologies to other regional populations should yield similar economic and clinical benefits in the years ahead.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <p>The study was approved by Institutional Review Boards at Lancaster General Hospital and the Broad Institute. All parents consented to participation. Patients were from Old Order Amish or Mennonite populations, received medical care at the Clinic for Special Children (CSC), and presented with a distinctive recessive clinical phenotype (<xref ref-type="table" rid="pone-0028936-t001">Table 1</xref>).</p>
+      <sec id="s4a">
+        <title>Genetic Mapping</title>
+        <p>Genetic mapping of the seven disorders presented in this study was performed as previously described <xref rid="pone.0028936-Strauss2" ref-type="bibr">[5]</xref>, <xref rid="pone.0028936-Lohr1" ref-type="bibr">[6]</xref>, <xref rid="pone.0028936-Puffenberger2" ref-type="bibr">[7]</xref>, <xref rid="pone.0028936-Puffenberger3" ref-type="bibr">[8]</xref>, <xref rid="pone.0028936-Sherman1" ref-type="bibr">[9]</xref>, <xref rid="pone.0028936-Strauss3" ref-type="bibr">[10]</xref>, <xref rid="pone.0028936-Strauss4" ref-type="bibr">[11]</xref> with the exception that two disorders required higher density arrays (Affymetrix 50 K) to establish chromosomal location. Single-nucleotide polymorphism (SNP) genotyping was performed with the GeneChip Mapping 10 K and 50 K Assay Kits (Affymetrix, Santa Clara, CA, USA) as previously described. Data were analyzed in Microsoft Excel spreadsheets (Microsoft Corporation, Redmond, WA, USA) that were custom formatted at the Clinic for Special Children. SNP positions came from Affymetrix genome annotation files and genotype data came from the Affymetrix GeneChip Human Mapping 10 K Xba 142 and 50 K Xba Arrays. Data analyses were designed for rapid identification of genomic regions that were identically homozygous between all affected individuals. These analyses assumed mutation and locus homogeneity. Two-point lod scores were calculated for each genotyped SNP using an approach similar to Broman and Weber <xref rid="pone.0028936-Broman1" ref-type="bibr">[60]</xref>. Cumulative two-point lod scores for blocks of homozygous SNPs were considered the location score for that region, providing a relative measure that a specific homozygous block harbored the disease gene. Genotype data from 100 healthy population-specific (Amish or Mennonite) females were used for estimation of SNP allele frequencies.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Exome Sequencing</title>
+        <p>Exome sequencing was performed using the Agilent SureSelect All Exon Kit (v.1, 38 Mb) as previously described <xref rid="pone.0028936-Gnirke1" ref-type="bibr">[<italic>61</italic>]</xref>. A solution hybrid selection methodology was used to isolate exomic DNA, which was subjected to sequencing on the Illumina GA-II platform. Briefly, DNA oligonucleotides, corresponding to 120 bp of target sequence flanked by 15 bp of universal primer sequence, were synthesized in parallel on an Agilent microarray, then cleaved from the array. The oligonucleotides were PCR amplified, then transcribed in vitro in the presence of biotinylated UTP to generate single-stranded RNA âbait.â Genomic DNA was sheared, ligated to Illumina sequencing adapters, and selected for lengths between 200â350 bp. This âpondâ of DNA was hybridized with an excess of bait in solution. The âcatchâ was pulled down by magnetic beads coated with streptavidin, then eluted, and sequenced on the Illumina GA-II.</p>
+        <p>Massively parallel sequencing data were processed by the Sequencing Platform at the Broad Institute using two consecutive pipelines. The first pipeline, called âPicardâ, utilized the reads and qualities produced by the Illumina software for all lanes and libraries and produced a single BAM file (<ext-link ext-link-type="uri" xlink:href="http://samtools.sourceforge.net/SAM1.pdf">http://samtools.sourceforge.net/SAM1.pdf</ext-link>) representing a sample. The final BAM file stored all reads with well-calibrated qualities and alignments to the genome. The second pipeline, called Genome Sequencing Analysis, then performed post-processing and analysis of the data including SNP identification, small insertion and deletion identification, local realignment of insertion or deletion containing reads, gene annotation and filtering with common polymorphisms (1000 Genomes, dbSNP build 129). The details of our sequencing data processing have been described elsewhere <xref rid="pone.0028936-DePristo1" ref-type="bibr">[62]</xref>. Inter-exome analyses were performed by importing variant call data into a FileMaker Pro database (FileMaker, Inc., Santa Clara, CA) and querying mapped intervals for novel variants shared among affected individuals.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Candidate Disease Gene Cloning</title>
+        <p>Total RNA extracted with Trizol (Invitrogen, Carlsbad, CA) from wild-type mouse tissues, cultured mouse IMCD3 cells, or human ARPE19 cells was reverse transcribed with SuperScript II reverse transcriptase (Invitrogen). Gene specific primers were used to amplify full-length cDNA (coding sequence, CDS) for the candidate disease genes by the polymerase chain reaction (PCR). Mouse PIDD was amplified from pcDNA3.1(â)/mPIDD (a gift from S. Benchimol, York University, Toronto, Ontario, Canada). Constructs were ligated into D-TOPO Gateway entry vectors (Invitrogen) for cloning, and site-directed mutagenesis (QuikChange II, Agilent, Santa Clara, CA) was used to introduce the mutations discovered by exome sequencing. Wild-type and mutant constructs (confirmed by Sanger sequencing of the full-length inserts) were subcloned into pCAG/FLAG/RFC/A and/or pCAG/V5/RFC/A (gift of Q. Zhang and E.A. Pierce, University of Pennsylvania, Philadelphia, PA) for expression of N-terminal FLAG- and/or V5-fusion proteins in mammalian cells.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Immunohistochemistry</title>
+        <p>For protein localization studies, mIMCD3 cells grown to 80â90% confluence on glass coverslips in six-well plates were transfected with FLAG and/or V5-fusion protein expression vector plasmid DNA using Lipofectamine 2000 (Invitrogen). Cells were grown for 40â48 h post-transfection and then fixed for 10 min in 4% paraformaldehyde in phosphate buffered saline (PBS), permeabilized for 10 min with 0.5% Triton X-100 in PBS, blocked for 10 min with 1% bovine serum albumin in PBS with 0.2% Triton X-100, and incubated with primary antibodies for 1 h at room temperature (RT). Following a wash in PBS, cells were incubated in secondary antibodies for 1 h at RT. Nuclei were counterstained with DAPI (4â²,6-diamidino-2-phenylindole â 1.5 Âµg/Âµl; Santa Cruz Biotechnology, Santa Cruz, CA) and coverslips were mounted with Fluoromount G (Electron Microscopy Sciences, Ft. Washington, PA). Fluorescent images were captured with a Leica DM RB microscope. Primary antibodies â monoclonal anti-FLAG M2 IgG<sub>1</sub> (1â¶1000; Sigma, St. Louis, MO) and/or monoclonal anti-V5 IgG<sub>2a</sub> (1â¶200; Invitrogen). Secondary antibodies â DyLight 488-conjugated goat anti-mouse IgG (1â¶400; Jackson ImmunoResearch, West Grove, PA), AlexaFluor 488-conjugated goat anti-mouse IgG<sub>1</sub> (1â¶400), and/or AlexaFluor 594-conjugated goat anti-mouse IgG<sub>2a</sub> (1â¶400; Invitrogen).</p>
+      </sec>
+      <sec id="s4e">
+        <title>Western Blotting, Co-immunoprecipitation, and RT-PCR</title>
+        <p>Western blotting was used to assess relative protein overexpression levels. Briefly, 100% confluent mIMCD3 cells in six-well or 10-cm plates transfected as described above were lysed in either 4Ã LDS sample buffer (Invitrogen) or in lysis buffer (CelLyticM, Sigma) containing protease inhibitor and phosphatase inhibitor cocktails (Roche Applied Science, Indianapolis, IN). Lysates were sonicated briefly and cleared by centrifugation at 14000 rpm for 10â15 min. Following SDS-PAGE, proteins were blotted to nitrocellulose, and the membranes were blocked for 1 h at RT with 5% nonfat dry milk in Tris buffered saline (TBS) with 0.1% Tween-20. Membranes were then incubated with primary antibody (anti-FLAG M2 â 1â¶1000 or anti-V5 â 1â¶5000) overnight at 4Â°C, washed in TBS with 0.1% Tween-20, and then incubated with secondary antibodies for 1 h at RT. Secondary antibodies â horseradish peroxidase (HRP)- conjugated goat anti-mouse IgG (1â¶1500) and HRP-conjugated anti-biotin (1â¶1000). Proteins were detected with enhanced chemiluminescence using LumiGLO (Cell Signaling Technology, Danvers, MA) and chemiluminescence signals were imaged on BioMax Light film (Kodak, Rochester, NY). Band densities were measured with ImageJ (<ext-link ext-link-type="uri" xlink:href="http://rsbweb.nih.gov/ij/">http://rsbweb.nih.gov/ij/</ext-link>) following calibration with a NIST calibrated step tablet (Kodak EK1523406).</p>
+        <p>Co-immunoprecipitation was carried out using the FLAG-M2 affinity resin according to the manufacturer's protocols (Sigma CELLMM2/F2426) with the following exception: cleared lysates were incubated at 37Â°C for 1 h prior to overnight incubation on the resin.</p>
+        <p>Reverse transcriptase-PCR was used to assess relative transcript levels for genes overexpressed in cultured mIMCD3 cells. Cells were transfected on 10-cm plates and cultured as described above. Total RNA was harvested, incubated with DNase (1 U/Âµg RNA) at 37Â°C for 30 min, and reverse transcribed as described above. A FLAG-tag specific forward primer and gene specific reverse primers were used to determine the transcript levels for the overexpressed gene relative to endogenous GAPDH or Î²-actin expression using 20â24 cycles of PCR. Total transcript levels (endogenous+overexpressed) for the gene of interest were determined with gene specific primer pairs for short (300â500 bp) amplicons relative to GAPDH expression.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Aminoacylation assays</title>
+        <p>Murine HARS and the variant p.Tyr454Ser HARS were expressed in Chinese hamster ovary (CHO) cells as FLAG-tagged enzymes and affinity purified. Enzymes were stored at â20Â°C in 34 mM Tris HCl, pH 7.4, 100 mM NaCl, 50% glycerol at a concentration of 10 ÂµM and diluted to 1 ÂµM in cold reaction buffer (50 mM HEPES pH 7.5, 100 mM KCl, 10 mM MgCl2 and 1 mM DTT) just before use. Human tRNAHis, which has an identical sequence to murine tRNAHis, was prepared from human placenta as described, with minor modifications <xref rid="pone.0028936-Roe1" ref-type="bibr">[63]</xref>. Isolated placental RNA was stored at â20Â°C in 10 mM Na Cacodylate (pH 6.0). This preparation yields approximately 25 Âµg RNA/g tissue, of which 1.4% (22.4 pmol/A260 unit) can be aminoacylated with histidine by murine HARS.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Kinetics assay</title>
+        <p>Enzyme assays were performed under steady state conditions for ATP and histidine, with the concentration of tRNA varied from approximately 0.2 to 5Ã KM, as previously described <xref rid="pone.0028936-Francklyn2" ref-type="bibr">[64]</xref>, <xref rid="pone.0028936-Yan1" ref-type="bibr">[65]</xref>. Briefly, ATP (2.5 mM), [3H] histidine mixed with histidine (25 ÂµM, 19% radiolabeled), pyrophosphatase (10 ng/Âµl) and buffer (50 mM HEPES pH 7.5, 100 mM KCl, 10 mM MgCl2 and 1 mM DTT) were mixed with placental tRNA (35.9 to 402 ÂµM, of which 1.4% could be histidylated). The reaction was initiated by addition of enzyme (100 nM), and quenched by spotting on filter paper pre-soaked with 10% trichloroacetic acid. After washing away unbound radiolabeled histidine, the histidylated tRNA was quantified by scintillation counting. The time course reactions were analyzed using KinTek Explorer software, yielding a velocity versus substrate curve from which kinetic parameters were determined.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We acknowledge the Broad Biological Samples, Genotyping, and Sequencing platform for excellent data production.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>This research was supported by the following: an award to Franklin &amp; Marshall College from the Howard Hughes Medical Institute's Undergraduate Science Education Program; the Eyler Endowment for Biochemistry at Franklin &amp; Marshall College; Mr. Sam Lombardo; Franklin &amp; Marshall College; grants from the National Human Genome Research Institute of the National Institutes of Health (NIH), U54 HG003067, to the Broad Institute for the Large Scale Sequencing Program; and DHM through a gift from the John D. and Catherine T. MacArthur Foundation. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0028936-Puffenberger1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Puffenberger</surname><given-names>EG</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genetic heritage of the Old Order Mennonites of Southeastern Pennsylvania.</article-title>
+<source>American Journal of Medical Genetics Part C (Semin Med Genet)</source>
+<volume>121C</volume>
+<fpage>18</fpage>
+<lpage>31</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Strauss1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Puffenberger</surname><given-names>EG</given-names></name></person-group>
+<year>2009</year>
+<article-title>Genetics, medicine, and the Plain people.</article-title>
+<source>Annu Rev Genomics Hum Genet</source>
+<volume>10</volume>
+<fpage>513</fpage>
+<lpage>536</lpage>
+<pub-id pub-id-type="pmid">19630565</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-McKusick1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKusick</surname><given-names>VA</given-names></name><name><surname>Hostetler</surname><given-names>JA</given-names></name><name><surname>Egeland</surname><given-names>JA</given-names></name></person-group>
+<year>1964</year>
+<article-title>Genetic Studies of the Amish, Background and Potentialities.</article-title>
+<source>Bull Johns Hopkins Hosp</source>
+<volume>115</volume>
+<fpage>203</fpage>
+<lpage>222</lpage>
+<pub-id pub-id-type="pmid">14209042</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-McKusick2">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKusick</surname><given-names>VA</given-names></name><name><surname>Hostetler</surname><given-names>JA</given-names></name><name><surname>Egeland</surname><given-names>JA</given-names></name><name><surname>Eldridge</surname><given-names>R</given-names></name></person-group>
+<year>1964</year>
+<article-title>The Distribution of Certain Genes in the Old Order Amish.</article-title>
+<source>Cold Spring Harb Symp Quant Biol</source>
+<volume>29</volume>
+<fpage>99</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="pmid">14280821</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Strauss2">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Puffenberger</surname><given-names>EG</given-names></name><name><surname>Craig</surname><given-names>DW</given-names></name><name><surname>Panganiban</surname><given-names>CB</given-names></name><name><surname>Lee</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Genome-wide SNP arrays as a diagnostic tool: clinical description, genetic mapping, and molecular characterization of Salla disease in an Old Order Mennonite population.</article-title>
+<source>Am J Med Genet A</source>
+<volume>138</volume>
+<fpage>262</fpage>
+<lpage>267</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Lohr1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lohr</surname><given-names>NJ</given-names></name><name><surname>Molleston</surname><given-names>JP</given-names></name><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Torres-Martinez</surname><given-names>W</given-names></name><name><surname>Sherman</surname><given-names>EA</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Human ITCH E3 ubiquitin ligase deficiency causes syndromic multisystem autoimmune disease.</article-title>
+<source>Am J Hum Genet</source>
+<volume>86</volume>
+<fpage>447</fpage>
+<lpage>453</lpage>
+<pub-id pub-id-type="pmid">20170897</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Puffenberger2">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Puffenberger</surname><given-names>EG</given-names></name><name><surname>Hu-Lince</surname><given-names>D</given-names></name><name><surname>Parod</surname><given-names>JM</given-names></name><name><surname>Craig</surname><given-names>DW</given-names></name><name><surname>Dobrin</surname><given-names>SE</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Mapping of sudden infant death with dysgenesis of the testes syndrome (SIDDT) by a SNP genome scan and identification of TSPYL loss of function.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>11689</fpage>
+<lpage>11694</lpage>
+<pub-id pub-id-type="pmid">15273283</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Puffenberger3">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Puffenberger</surname><given-names>EG</given-names></name><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Ramsey</surname><given-names>KE</given-names></name><name><surname>Craig</surname><given-names>DW</given-names></name><name><surname>Stephan</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Polyhydramnios, megalencephaly and symptomatic epilepsy caused by a homozygous 7-kilobase deletion in LYK5.</article-title>
+<source>Brain</source>
+<volume>130</volume>
+<fpage>1929</fpage>
+<lpage>1941</lpage>
+<pub-id pub-id-type="pmid">17522105</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Sherman1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sherman</surname><given-names>EA</given-names></name><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Tortorelli</surname><given-names>S</given-names></name><name><surname>Bennett</surname><given-names>MJ</given-names></name><name><surname>Knerr</surname><given-names>I</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Genetic mapping of glutaric aciduria, type 3, to chromosome 7 and identification of mutations in c7orf10.</article-title>
+<source>Am J Hum Genet</source>
+<volume>83</volume>
+<fpage>604</fpage>
+<lpage>609</lpage>
+<pub-id pub-id-type="pmid">18926513</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Strauss3">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Puffenberger</surname><given-names>EG</given-names></name><name><surname>Bunin</surname><given-names>N</given-names></name><name><surname>Rider</surname><given-names>NL</given-names></name><name><surname>Morton</surname><given-names>MC</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Clinical application of DNA microarrays: molecular diagnosis and HLA matching of an Amish child with severe combined immune deficiency.</article-title>
+<source>Clin Immunol</source>
+<volume>128</volume>
+<fpage>31</fpage>
+<lpage>38</lpage>
+<pub-id pub-id-type="pmid">18442948</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Strauss4">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Strauss</surname><given-names>KA</given-names></name><name><surname>Puffenberger</surname><given-names>EG</given-names></name><name><surname>Huentelman</surname><given-names>MJ</given-names></name><name><surname>Gottlieb</surname><given-names>S</given-names></name><name><surname>Dobrin</surname><given-names>SE</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Recessive symptomatic focal epilepsy and mutant contactin-associated protein-like 2.</article-title>
+<source>N Engl J Med</source>
+<volume>354</volume>
+<fpage>1370</fpage>
+<lpage>1377</lpage>
+<pub-id pub-id-type="pmid">16571880</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Anastasio1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anastasio</surname><given-names>N</given-names></name><name><surname>Ben-Omran</surname><given-names>T</given-names></name><name><surname>Teebi</surname><given-names>A</given-names></name><name><surname>Ha</surname><given-names>KC</given-names></name><name><surname>Lalonde</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Mutations in SCARF2 are responsible for Van Den Ende-Gupta syndrome.</article-title>
+<source>Am J Hum Genet</source>
+<volume>87</volume>
+<fpage>553</fpage>
+<lpage>559</lpage>
+<pub-id pub-id-type="pmid">20887961</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Becker1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Becker</surname><given-names>J</given-names></name><name><surname>Semler</surname><given-names>O</given-names></name><name><surname>Gilissen</surname><given-names>C</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Bolz</surname><given-names>HJ</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Exome Sequencing Identifies Truncating Mutations in Human SERPINF1 in Autosomal-Recessive Osteogenesis Imperfecta.</article-title>
+<source>Am J Hum Genet</source>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Bolze1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bolze</surname><given-names>A</given-names></name><name><surname>Byun</surname><given-names>M</given-names></name><name><surname>McDonald</surname><given-names>D</given-names></name><name><surname>Morgan</surname><given-names>NV</given-names></name><name><surname>Abhyankar</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Whole-exome-sequencing-based discovery of human FADD deficiency.</article-title>
+<source>Am J Hum Genet</source>
+<volume>87</volume>
+<fpage>873</fpage>
+<lpage>881</lpage>
+<pub-id pub-id-type="pmid">21109225</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Caliskan1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caliskan</surname><given-names>M</given-names></name><name><surname>Chong</surname><given-names>JX</given-names></name><name><surname>Uricchio</surname><given-names>L</given-names></name><name><surname>Anderson</surname><given-names>R</given-names></name><name><surname>Chen</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Exome sequencing reveals a novel mutation for autosomal recessive non-syndromic mental retardation in the TECR gene on chromosome 19p13.</article-title>
+<source>Hum Mol Genet</source>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Gilissen1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gilissen</surname><given-names>C</given-names></name><name><surname>Arts</surname><given-names>HH</given-names></name><name><surname>Hoischen</surname><given-names>A</given-names></name><name><surname>Spruijt</surname><given-names>L</given-names></name><name><surname>Mans</surname><given-names>DA</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Exome sequencing identifies WDR35 variants involved in Sensenbrenner syndrome.</article-title>
+<source>Am J Hum Genet</source>
+<volume>87</volume>
+<fpage>418</fpage>
+<lpage>423</lpage>
+<pub-id pub-id-type="pmid">20817137</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Glazer1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Glazer</surname><given-names>NL</given-names></name></person-group>
+<year>2011</year>
+<article-title>Exome sequencing links gene mutation in angiopoietin-like protein 3 with low-density lipoprotein cholesterol.</article-title>
+<source>Circ Cardiovasc Genet</source>
+<volume>4</volume>
+<fpage>100</fpage>
+<lpage>101</lpage>
+<pub-id pub-id-type="pmid">21325168</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Haack1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haack</surname><given-names>TB</given-names></name><name><surname>Danhauser</surname><given-names>K</given-names></name><name><surname>Haberberger</surname><given-names>B</given-names></name><name><surname>Hoser</surname><given-names>J</given-names></name><name><surname>Strecker</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Exome sequencing identifies ACAD9 mutations as a cause of complex I deficiency.</article-title>
+<source>Nat Genet</source>
+<volume>42</volume>
+<fpage>1131</fpage>
+<lpage>1134</lpage>
+<pub-id pub-id-type="pmid">21057504</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Johnson1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>JO</given-names></name><name><surname>Mandrioli</surname><given-names>J</given-names></name><name><surname>Benatar</surname><given-names>M</given-names></name><name><surname>Abramzon</surname><given-names>Y</given-names></name><name><surname>Van Deerlin</surname><given-names>VM</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Exome sequencing reveals VCP mutations as a cause of familial ALS.</article-title>
+<source>Neuron</source>
+<volume>68</volume>
+<fpage>857</fpage>
+<lpage>864</lpage>
+<pub-id pub-id-type="pmid">21145000</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Krawitz1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krawitz</surname><given-names>PM</given-names></name><name><surname>Schweiger</surname><given-names>MR</given-names></name><name><surname>Rodelsperger</surname><given-names>C</given-names></name><name><surname>Marcelis</surname><given-names>C</given-names></name><name><surname>Kolsch</surname><given-names>U</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Identity-by-descent filtering of exome sequence data identifies PIGV mutations in hyperphosphatasia mental retardation syndrome.</article-title>
+<source>Nat Genet</source>
+<volume>42</volume>
+<fpage>827</fpage>
+<lpage>829</lpage>
+<pub-id pub-id-type="pmid">20802478</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Montenegro1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Montenegro</surname><given-names>G</given-names></name><name><surname>Powell</surname><given-names>E</given-names></name><name><surname>Huang</surname><given-names>J</given-names></name><name><surname>Speziani</surname><given-names>F</given-names></name><name><surname>Edwards</surname><given-names>YJ</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Exome sequencing allows for rapid gene identification in a Charcot-Marie-Tooth family.</article-title>
+<source>Ann Neurol</source>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Musunuru1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Musunuru</surname><given-names>K</given-names></name><name><surname>Pirruccello</surname><given-names>JP</given-names></name><name><surname>Do</surname><given-names>R</given-names></name><name><surname>Peloso</surname><given-names>GM</given-names></name><name><surname>Guiducci</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Exome sequencing, ANGPTL3 mutations, and familial combined hypolipidemia.</article-title>
+<source>N Engl J Med</source>
+<volume>363</volume>
+<fpage>2220</fpage>
+<lpage>2227</lpage>
+<pub-id pub-id-type="pmid">20942659</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Ng1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ng</surname><given-names>SB</given-names></name><name><surname>Bigham</surname><given-names>AW</given-names></name><name><surname>Buckingham</surname><given-names>KJ</given-names></name><name><surname>Hannibal</surname><given-names>MC</given-names></name><name><surname>McMillin</surname><given-names>MJ</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Exome sequencing identifies MLL2 mutations as a cause of Kabuki syndrome.</article-title>
+<source>Nat Genet</source>
+<volume>42</volume>
+<fpage>790</fpage>
+<lpage>793</lpage>
+<pub-id pub-id-type="pmid">20711175</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Ng2">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ng</surname><given-names>SB</given-names></name><name><surname>Buckingham</surname><given-names>KJ</given-names></name><name><surname>Lee</surname><given-names>C</given-names></name><name><surname>Bigham</surname><given-names>AW</given-names></name><name><surname>Tabor</surname><given-names>HK</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Exome sequencing identifies the cause of a mendelian disorder.</article-title>
+<source>Nat Genet</source>
+<volume>42</volume>
+<fpage>30</fpage>
+<lpage>35</lpage>
+<pub-id pub-id-type="pmid">19915526</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Ostergaard1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ostergaard</surname><given-names>P</given-names></name><name><surname>Simpson</surname><given-names>MA</given-names></name><name><surname>Brice</surname><given-names>G</given-names></name><name><surname>Mansour</surname><given-names>S</given-names></name><name><surname>Connell</surname><given-names>FC</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Rapid identification of mutations in GJC2 in primary lymphoedema using whole exome sequencing combined with linkage analysis with delineation of the phenotype.</article-title>
+<source>J Med Genet</source>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Sirmaci1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sirmaci</surname><given-names>A</given-names></name><name><surname>Walsh</surname><given-names>T</given-names></name><name><surname>Akay</surname><given-names>H</given-names></name><name><surname>Spiliopoulos</surname><given-names>M</given-names></name><name><surname>Sakalar</surname><given-names>YB</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>MASP1 mutations in patients with facial, umbilical, coccygeal, and auditory findings of Carnevale, Malpuech, OSA, and Michels syndromes.</article-title>
+<source>Am J Hum Genet</source>
+<volume>87</volume>
+<fpage>679</fpage>
+<lpage>686</lpage>
+<pub-id pub-id-type="pmid">21035106</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Walsh1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walsh</surname><given-names>T</given-names></name><name><surname>Shahin</surname><given-names>H</given-names></name><name><surname>Elkan-Miller</surname><given-names>T</given-names></name><name><surname>Lee</surname><given-names>MK</given-names></name><name><surname>Thornton</surname><given-names>AM</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Whole exome sequencing and homozygosity mapping identify mutation in the cell polarity protein GPSM2 as the cause of nonsyndromic hearing loss DFNB82.</article-title>
+<source>Am J Hum Genet</source>
+<volume>87</volume>
+<fpage>90</fpage>
+<lpage>94</lpage>
+<pub-id pub-id-type="pmid">20602914</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Wang1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>JL</given-names></name><name><surname>Yang</surname><given-names>X</given-names></name><name><surname>Xia</surname><given-names>K</given-names></name><name><surname>Hu</surname><given-names>ZM</given-names></name><name><surname>Weng</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>TGM6 identified as a novel causative gene of spinocerebellar ataxias using exome sequencing.</article-title>
+<source>Brain</source>
+<volume>133</volume>
+<fpage>3510</fpage>
+<lpage>3518</lpage>
+<pub-id pub-id-type="pmid">21106500</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Kurian1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurian</surname><given-names>MA</given-names></name><name><surname>Zhen</surname><given-names>J</given-names></name><name><surname>Cheng</surname><given-names>SY</given-names></name><name><surname>Li</surname><given-names>Y</given-names></name><name><surname>Mordekar</surname><given-names>SR</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Homozygous loss-of-function mutations in the gene encoding the dopamine transporter are associated with infantile parkinsonism-dystonia.</article-title>
+<source>J Clin Invest</source>
+<volume>119</volume>
+<fpage>1595</fpage>
+<lpage>1603</lpage>
+<pub-id pub-id-type="pmid">19478460</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-McKusick3">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKusick</surname><given-names>VA</given-names></name><name><surname>Stauffer</surname><given-names>M</given-names></name><name><surname>Knox</surname><given-names>DL</given-names></name><name><surname>Clark</surname><given-names>DB</given-names></name></person-group>
+<year>1966</year>
+<article-title>Chorioretinopathy with hereditary microcephaly.</article-title>
+<source>Arch Ophthalmol</source>
+<volume>75</volume>
+<fpage>597</fpage>
+<lpage>600</lpage>
+<pub-id pub-id-type="pmid">5936364</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Higgins1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Higgins</surname><given-names>JJ</given-names></name><name><surname>Morton</surname><given-names>DH</given-names></name><name><surname>Patronas</surname><given-names>N</given-names></name><name><surname>Nee</surname><given-names>LE</given-names></name></person-group>
+<year>1997</year>
+<article-title>An autosomal recessive disorder with posterior column ataxia and retinitis pigmentosa.</article-title>
+<source>Neurology</source>
+<volume>49</volume>
+<fpage>1717</fpage>
+<lpage>1720</lpage>
+<pub-id pub-id-type="pmid">9409377</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Rajadhyaksha1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rajadhyaksha</surname><given-names>AM</given-names></name><name><surname>Elemento</surname><given-names>O</given-names></name><name><surname>Puffenberger</surname><given-names>EG</given-names></name><name><surname>Schierberl</surname><given-names>KC</given-names></name><name><surname>Xiang</surname><given-names>JZ</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Mutations in FLVCR1 cause posterior column ataxia and retinitis pigmentosa.</article-title>
+<source>American journal of human genetics</source>
+<volume>87</volume>
+<fpage>643</fpage>
+<lpage>654</lpage>
+<pub-id pub-id-type="pmid">21070897</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Aglipay1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aglipay</surname><given-names>JA</given-names></name><name><surname>Martin</surname><given-names>SA</given-names></name><name><surname>Tawara</surname><given-names>H</given-names></name><name><surname>Lee</surname><given-names>SW</given-names></name><name><surname>Ouchi</surname><given-names>T</given-names></name></person-group>
+<year>2006</year>
+<article-title>ATM activation by ionizing radiation requires BRCA1-associated BAAT1.</article-title>
+<source>The Journal of biological chemistry</source>
+<volume>281</volume>
+<fpage>9710</fpage>
+<lpage>9718</lpage>
+<pub-id pub-id-type="pmid">16452482</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Tan1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tan</surname><given-names>Z</given-names></name><name><surname>Sankar</surname><given-names>R</given-names></name><name><surname>Tu</surname><given-names>W</given-names></name><name><surname>Shin</surname><given-names>D</given-names></name><name><surname>Liu</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Immunohistochemical study of p53-associated proteins in rat brain following lithium-pilocarpine status epilepticus.</article-title>
+<source>Brain research</source>
+<volume>929</volume>
+<fpage>129</fpage>
+<lpage>138</lpage>
+<pub-id pub-id-type="pmid">11852039</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Engel1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engel</surname><given-names>T</given-names></name><name><surname>Murphy</surname><given-names>BM</given-names></name><name><surname>Hatazaki</surname><given-names>S</given-names></name><name><surname>Jimenez-Mateos</surname><given-names>EM</given-names></name><name><surname>Concannon</surname><given-names>CG</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Reduced hippocampal damage and epileptic seizures after status epilepticus in mice lacking proapoptotic Puma.</article-title>
+<source>The FASEB journal: official publication of the Federation of American Societies for Experimental Biology</source>
+<volume>24</volume>
+<fpage>853</fpage>
+<lpage>861</lpage>
+<pub-id pub-id-type="pmid">19890018</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Morris1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morris</surname><given-names>LG</given-names></name><name><surname>Veeriah</surname><given-names>S</given-names></name><name><surname>Chan</surname><given-names>TA</given-names></name></person-group>
+<year>2010</year>
+<article-title>Genetic determinants at the interface of cancer and neurodegenerative disease.</article-title>
+<source>Oncogene</source>
+<volume>29</volume>
+<fpage>3453</fpage>
+<lpage>3464</lpage>
+<pub-id pub-id-type="pmid">20418918</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Biton1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biton</surname><given-names>S</given-names></name><name><surname>Barzilai</surname><given-names>A</given-names></name><name><surname>Shiloh</surname><given-names>Y</given-names></name></person-group>
+<year>2008</year>
+<article-title>The neurological phenotype of ataxia-telangiectasia: solving a persistent puzzle.</article-title>
+<source>DNA repair</source>
+<volume>7</volume>
+<fpage>1028</fpage>
+<lpage>1038</lpage>
+<pub-id pub-id-type="pmid">18456574</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Barzilai1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barzilai</surname><given-names>A</given-names></name></person-group>
+<year>2010</year>
+<article-title>DNA damage, neuronal and glial cell death and neurodegeneration.</article-title>
+<source>Apoptosis: an international journal on programmed cell death</source>
+<volume>15</volume>
+<fpage>1371</fpage>
+<lpage>1381</lpage>
+<pub-id pub-id-type="pmid">20437103</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Duan1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Duan</surname><given-names>H</given-names></name><name><surname>Dixit</surname><given-names>VM</given-names></name></person-group>
+<year>1997</year>
+<article-title>RAIDD is a new âdeathâ adaptor molecule.</article-title>
+<source>Nature</source>
+<volume>385</volume>
+<fpage>86</fpage>
+<lpage>89</lpage>
+<pub-id pub-id-type="pmid">8985253</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Ahmad1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ahmad</surname><given-names>M</given-names></name><name><surname>Srinivasula</surname><given-names>SM</given-names></name><name><surname>Wang</surname><given-names>L</given-names></name><name><surname>Talanian</surname><given-names>RV</given-names></name><name><surname>Litwack</surname><given-names>G</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>CRADD, a novel human apoptotic adaptor molecule for caspase-2, and FasL/tumor necrosis factor receptor-interacting protein RIP.</article-title>
+<source>Cancer research</source>
+<volume>57</volume>
+<fpage>615</fpage>
+<lpage>619</lpage>
+<pub-id pub-id-type="pmid">9044836</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Lin1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>Y</given-names></name><name><surname>Ma</surname><given-names>W</given-names></name><name><surname>Benchimol</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>Pidd, a new death-domain-containing protein, is induced by p53 and promotes apoptosis.</article-title>
+<source>Nature genetics</source>
+<volume>26</volume>
+<fpage>122</fpage>
+<lpage>127</lpage>
+<pub-id pub-id-type="pmid">10973264</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Berube1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berube</surname><given-names>C</given-names></name><name><surname>Boucher</surname><given-names>LM</given-names></name><name><surname>Ma</surname><given-names>W</given-names></name><name><surname>Wakeham</surname><given-names>A</given-names></name><name><surname>Salmena</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Apoptosis caused by p53-induced protein with death domain (PIDD) depends on the death adapter protein RAIDD.</article-title>
+<source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>102</volume>
+<fpage>14314</fpage>
+<lpage>14320</lpage>
+<pub-id pub-id-type="pmid">16183742</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-ShearwinWhyatt1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shearwin-Whyatt</surname><given-names>LM</given-names></name><name><surname>Harvey</surname><given-names>NL</given-names></name><name><surname>Kumar</surname><given-names>S</given-names></name></person-group>
+<year>2000</year>
+<article-title>Subcellular localization and CARD-dependent oligomerization of the death adaptor RAIDD.</article-title>
+<source>Cell death and differentiation</source>
+<volume>7</volume>
+<fpage>155</fpage>
+<lpage>165</lpage>
+<pub-id pub-id-type="pmid">10713730</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Park1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Park</surname><given-names>HH</given-names></name><name><surname>Logette</surname><given-names>E</given-names></name><name><surname>Raunser</surname><given-names>S</given-names></name><name><surname>Cuenin</surname><given-names>S</given-names></name><name><surname>Walz</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Death domain assembly mechanism revealed by crystal structure of the oligomeric PIDDosome core complex.</article-title>
+<source>Cell</source>
+<volume>128</volume>
+<fpage>533</fpage>
+<lpage>546</lpage>
+<pub-id pub-id-type="pmid">17289572</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Jabado1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jabado</surname><given-names>O</given-names></name><name><surname>Wang</surname><given-names>Q</given-names></name><name><surname>Rideout</surname><given-names>HJ</given-names></name><name><surname>Yeasmin</surname><given-names>M</given-names></name><name><surname>Guo</surname><given-names>KX</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>RAIDD aggregation facilitates apoptotic death of PC12 cells and sympathetic neurons.</article-title>
+<source>Cell death and differentiation</source>
+<volume>11</volume>
+<fpage>618</fpage>
+<lpage>630</lpage>
+<pub-id pub-id-type="pmid">14765136</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Kim1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>RH</given-names></name><name><surname>Wang</surname><given-names>D</given-names></name><name><surname>Tsang</surname><given-names>M</given-names></name><name><surname>Martin</surname><given-names>J</given-names></name><name><surname>Huff</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>A novel smad nuclear interacting protein, SNIP1, suppresses p300-dependent TGF-beta signal transduction.</article-title>
+<source>Genes &amp; development</source>
+<volume>14</volume>
+<fpage>1605</fpage>
+<lpage>1616</lpage>
+<pub-id pub-id-type="pmid">10887155</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Kim2">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>RH</given-names></name><name><surname>Flanders</surname><given-names>KC</given-names></name><name><surname>Birkey Reffey</surname><given-names>S</given-names></name><name><surname>Anderson</surname><given-names>LA</given-names></name><name><surname>Duckett</surname><given-names>CS</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>SNIP1 inhibits NF-kappa B signaling by competing for its binding to the C/H1 domain of CBP/p300 transcriptional co-activators.</article-title>
+<source>The Journal of biological chemistry</source>
+<volume>276</volume>
+<fpage>46297</fpage>
+<lpage>46304</lpage>
+<pub-id pub-id-type="pmid">11567019</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Fujii1">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fujii</surname><given-names>M</given-names></name><name><surname>Lyakh</surname><given-names>LA</given-names></name><name><surname>Bracken</surname><given-names>CP</given-names></name><name><surname>Fukuoka</surname><given-names>J</given-names></name><name><surname>Hayakawa</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>SNIP1 is a candidate modifier of the transcriptional activity of c-Myc on E box-dependent target genes.</article-title>
+<source>Molecular cell</source>
+<volume>24</volume>
+<fpage>771</fpage>
+<lpage>783</lpage>
+<pub-id pub-id-type="pmid">17157259</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Ueberham1">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ueberham</surname><given-names>U</given-names></name><name><surname>Lange</surname><given-names>P</given-names></name><name><surname>Ueberham</surname><given-names>E</given-names></name><name><surname>Bruckner</surname><given-names>MK</given-names></name><name><surname>Hartlage-Rubsamen</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Smad2 isoforms are differentially expressed during mouse brain development and aging.</article-title>
+<source>International journal of developmental neuroscience: the official journal of the International Society for Developmental Neuroscience</source>
+<volume>27</volume>
+<fpage>501</fpage>
+<lpage>510</lpage>
+<pub-id pub-id-type="pmid">19375497</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Toyooka1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Toyo-oka</surname><given-names>K</given-names></name><name><surname>Hirotsune</surname><given-names>S</given-names></name><name><surname>Gambello</surname><given-names>MJ</given-names></name><name><surname>Zhou</surname><given-names>ZQ</given-names></name><name><surname>Olson</surname><given-names>L</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Loss of the Max-interacting protein Mnt in mice results in decreased viability, defective embryonic growth and craniofacial defects: relevance to Miller-Dieker syndrome.</article-title>
+<source>Human molecular genetics</source>
+<volume>13</volume>
+<fpage>1057</fpage>
+<lpage>1067</lpage>
+<pub-id pub-id-type="pmid">15028671</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Wei1">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wei</surname><given-names>K</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><name><surname>Akrami</surname><given-names>K</given-names></name><name><surname>Galbraith</surname><given-names>GC</given-names></name><name><surname>Lopez</surname><given-names>IA</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Neural crest cell deficiency of c-myc causes skull and hearing defects.</article-title>
+<source>Genesis</source>
+<volume>45</volume>
+<fpage>382</fpage>
+<lpage>390</lpage>
+<pub-id pub-id-type="pmid">17523175</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Bhattacherjee1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhattacherjee</surname><given-names>V</given-names></name><name><surname>Horn</surname><given-names>KH</given-names></name><name><surname>Singh</surname><given-names>S</given-names></name><name><surname>Webb</surname><given-names>CL</given-names></name><name><surname>Pisano</surname><given-names>MM</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>CBP/p300 and associated transcriptional co-activators exhibit distinct expression patterns during murine craniofacial and neural tube development.</article-title>
+<source>The International journal of developmental biology</source>
+<volume>53</volume>
+<fpage>1097</fpage>
+<lpage>1104</lpage>
+<pub-id pub-id-type="pmid">19598128</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Wey1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wey</surname><given-names>A</given-names></name><name><surname>Knoepfler</surname><given-names>PS</given-names></name></person-group>
+<year>2010</year>
+<article-title>c-myc and N-myc promote active stem cell metabolism and cycling as architects of the developing brain.</article-title>
+<source>Oncotarget</source>
+<volume>1</volume>
+<fpage>120</fpage>
+<lpage>130</lpage>
+<pub-id pub-id-type="pmid">20651942</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Viosca1">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Viosca</surname><given-names>J</given-names></name><name><surname>Lopez-Atalaya</surname><given-names>JP</given-names></name><name><surname>Olivares</surname><given-names>R</given-names></name><name><surname>Eckner</surname><given-names>R</given-names></name><name><surname>Barco</surname><given-names>A</given-names></name></person-group>
+<year>2010</year>
+<article-title>Syndromic features and mild cognitive impairment in mice with genetic reduction on p300 activity: Differential contribution of p300 and CBP to Rubinstein-Taybi syndrome etiology.</article-title>
+<source>Neurobiology of disease</source>
+<volume>37</volume>
+<fpage>186</fpage>
+<lpage>194</lpage>
+<pub-id pub-id-type="pmid">19822209</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Cacheaux1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cacheaux</surname><given-names>LP</given-names></name><name><surname>Ivens</surname><given-names>S</given-names></name><name><surname>David</surname><given-names>Y</given-names></name><name><surname>Lakhter</surname><given-names>AJ</given-names></name><name><surname>Bar-Klein</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Transcriptome profiling reveals TGF-beta signaling involvement in epileptogenesis.</article-title>
+<source>The Journal of neuroscience: the official journal of the Society for Neuroscience</source>
+<volume>29</volume>
+<fpage>8927</fpage>
+<lpage>8935</lpage>
+<pub-id pub-id-type="pmid">19605630</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Lubin1">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lubin</surname><given-names>FD</given-names></name><name><surname>Ren</surname><given-names>Y</given-names></name><name><surname>Xu</surname><given-names>X</given-names></name><name><surname>Anderson</surname><given-names>AE</given-names></name></person-group>
+<year>2007</year>
+<article-title>Nuclear factor-kappa B regulates seizure threshold and gene transcription following convulsant stimulation.</article-title>
+<source>Journal of neurochemistry</source>
+<volume>103</volume>
+<fpage>1381</fpage>
+<lpage>1395</lpage>
+<pub-id pub-id-type="pmid">17727632</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Francklyn1">
+        <label>57</label>
+        <element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Francklyn</surname><given-names>CS</given-names></name><name><surname>Arnez</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Histidyl-tRNA Synthetases.</article-title>
+<person-group person-group-type="editor"><name><surname>Ibba</surname><given-names>M</given-names></name><name><surname>Francklyn</surname><given-names>CS</given-names></name><name><surname>Cusack</surname><given-names>S</given-names></name></person-group>
+<source>The Aminoacyl-tRNA Synthetases</source>
+<fpage>135</fpage>
+<lpage>148</lpage>
+<comment>Eurekah.com: Landis Bioscience</comment>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Stenson1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stenson</surname><given-names>PD</given-names></name><name><surname>Ball</surname><given-names>E</given-names></name><name><surname>Howells</surname><given-names>K</given-names></name><name><surname>Phillips</surname><given-names>A</given-names></name><name><surname>Mort</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Human Gene Mutation Database: towards a comprehensive central mutation database.</article-title>
+<source>J Med Genet</source>
+<volume>45</volume>
+<fpage>124</fpage>
+<lpage>126</lpage>
+<pub-id pub-id-type="pmid">18245393</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Bell1">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bell</surname><given-names>CJ</given-names></name><name><surname>Dinwiddie</surname><given-names>DL</given-names></name><name><surname>Miller</surname><given-names>NA</given-names></name><name><surname>Hateley</surname><given-names>SL</given-names></name><name><surname>Ganusova</surname><given-names>EE</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Carrier testing for severe childhood recessive diseases by next-generation sequencing.</article-title>
+<source>Sci Transl Med</source>
+<volume>3</volume>
+<fpage>65ra64</fpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0028936-Broman1">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Broman</surname><given-names>KW</given-names></name><name><surname>Weber</surname><given-names>JL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Long homozygous chromosomal segments in reference families from the centre d'Etude du polymorphisme humain.</article-title>
+<source>Am J Hum Genet</source>
+<volume>65</volume>
+<fpage>1493</fpage>
+<lpage>1500</lpage>
+<pub-id pub-id-type="pmid">10577902</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Gnirke1">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gnirke</surname><given-names>A</given-names></name><name><surname>Melnikov</surname><given-names>A</given-names></name><name><surname>Maguire</surname><given-names>J</given-names></name><name><surname>Rogov</surname><given-names>P</given-names></name><name><surname>LeProust</surname><given-names>EM</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Solution hybrid selection with ultra-long oligonucleotides for massively parallel targeted sequencing.</article-title>
+<source>Nat Biotechnol</source>
+<volume>27</volume>
+<fpage>182</fpage>
+<lpage>189</lpage>
+<pub-id pub-id-type="pmid">19182786</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-DePristo1">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>DePristo</surname><given-names>MA</given-names></name><name><surname>Banks</surname><given-names>E</given-names></name><name><surname>Poplin</surname><given-names>R</given-names></name><name><surname>Garimella</surname><given-names>KV</given-names></name><name><surname>Maguire</surname><given-names>JR</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>A framework for variation discovery and genotyping using next-generation DNA sequencing data.</article-title>
+<source>Nat Genet</source>
+<volume>43</volume>
+<fpage>491</fpage>
+<lpage>498</lpage>
+<pub-id pub-id-type="pmid">21478889</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Roe1">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roe</surname><given-names>BA</given-names></name></person-group>
+<year>1975</year>
+<article-title>Studies on human tRNA. I. The rapid, large scale isolation and partial fractionation of placenta and liver tRNA.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>2</volume>
+<fpage>21</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="pmid">236551</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Francklyn2">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Francklyn</surname><given-names>CS</given-names></name><name><surname>First</surname><given-names>EA</given-names></name><name><surname>Perona</surname><given-names>JJ</given-names></name><name><surname>Hou</surname><given-names>YM</given-names></name></person-group>
+<year>2008</year>
+<article-title>Methods for kinetic and thermodynamic analysis of aminoacyl-tRNA synthetases.</article-title>
+<source>Methods</source>
+<volume>44</volume>
+<fpage>100</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="pmid">18241792</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0028936-Yan1">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yan</surname><given-names>W</given-names></name><name><surname>Augustine</surname><given-names>J</given-names></name><name><surname>Francklyn</surname><given-names>C</given-names></name></person-group>
+<year>1996</year>
+<article-title>A tRNA identity switch mediated by the binding interaction between a tRNA anticodon and the accessory domain of a class II aminoacyl-tRNA synthetase.</article-title>
+<source>Biochemistry</source>
+<volume>35</volume>
+<fpage>6559</fpage>
+<lpage>6568</lpage>
+<pub-id pub-id-type="pmid">8639604</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

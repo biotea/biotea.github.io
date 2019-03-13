@@ -1,0 +1,1446 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:00:51Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4857005" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4857005</identifier><datestamp>2016-05-09</datestamp><setSpec>nar</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ali="http://www.niso.org/schemas/ali/1.0/" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4857005</article-id>
+      <article-id pub-id-type="pmcid">PMC4857005</article-id>
+      <article-id pub-id-type="pmc-uid">4857005</article-id>
+      <article-id pub-id-type="pmid">27060136</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkw222</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Computational Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>FAM46 proteins are novel eukaryotic non-canonical poly(A) polymerases</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kuchta</surname>
+            <given-names>Krzysztof</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF2">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR2">
+            <sup>â </sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Muszewska</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF3">
+            <sup>3</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR2">
+            <sup>â </sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Knizewski</surname>
+            <given-names>Lukasz</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Steczkiewicz</surname>
+            <given-names>Kamil</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wyrwicz</surname>
+            <given-names>Lucjan S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF4">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pawlowski</surname>
+            <given-names>Krzysztof</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF5">
+            <sup>5</sup>
+          </xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5367-0935</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rychlewski</surname>
+            <given-names>Leszek</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF6">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ginalski</surname>
+            <given-names>Krzysztof</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+        <aff id="AFF1"><label>1</label>Laboratory of Bioinformatics and Systems Biology, Centre of New Technologies, University of Warsaw, Zwirki i Wigury 93, 02â089 Warsaw, Poland</aff>
+        <aff id="AFF2"><label>2</label>College of Inter-Faculty Individual Studies in Mathematics and Natural Sciences, University of Warsaw, Banacha 2C, 02â097 Warsaw, Poland</aff>
+        <aff id="AFF3"><label>3</label>Institute of Biochemistry and Biophysics, Polish Academy of Sciences, Pawinskiego 5a, 02â106 Warsaw, Poland</aff>
+        <aff id="AFF4"><label>4</label>Laboratory of Bioinformatics and Biostatistics, M. Sklodowska-Curie Memorial Cancer Center and Institute of Oncology, WK Roentgena 5, 02â781 Warsaw, Poland</aff>
+        <aff id="AFF5"><label>5</label>Department of Experimental Design and Bioinformatics, Warsaw University of Life Sciences, Nowoursynowska 166, 02â787 Warsaw, Poland</aff>
+        <aff id="AFF6"><label>6</label>BioInfoBank Institute, Limanowskiego 24A, 60â744 Poznan, Poland</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="COR1"><label>*</label>To whom correspondence should be addressed. Tel: +48 22 554 0800; Fax: +48 22 554 0801; Email: <email>kginal@cent.uw.edu.pl</email></corresp>
+        <corresp id="COR2"><label>â </label>These authors contributed equally to the paper as first authors.</corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>05</day>
+        <month>5</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>07</day>
+        <month>4</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>07</day>
+        <month>4</month>
+        <year>2016</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>44</volume>
+      <issue>8</issue>
+      <fpage>3534</fpage>
+      <lpage>3548</lpage>
+      <history>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>3</month>
+          <year>2016</year>
+        </date>
+        <date date-type="received">
+          <day>16</day>
+          <month>12</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© The Author(s) 2016. Published by Oxford University Press on behalf of Nucleic Acids Research.</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/4.0/">http://creativecommons.org/licenses/by-nc/4.0/</ext-link>), which permits non-commercial re-use, distribution, and reproduction in any medium, provided the original work is properly cited. For commercial re-use, please contact <email>journals.permissions@oup.com</email></license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:href="gkw222.pdf"/>
+      <abstract>
+        <p>FAM46 proteins, encoded in all known animal genomes, belong to the nucleotidyltransferase (NTase) fold superfamily. All four human FAM46 paralogs (FAM46A, FAM46B, FAM46C, FAM46D) are thought to be involved in several diseases, with FAM46C reported as a causal driver of multiple myeloma; however, their exact functions remain unknown. By using a combination of various bioinformatics analyses (e.g. domain architecture, cellular localization) and exhaustive literature and database searches (e.g. expression profiles, protein interactors), we classified FAM46 proteins as active non-canonical poly(A) polymerases, which modify cytosolic and/or nuclear RNA 3â² ends. These proteins may thus regulate gene expression and probably play a critical role during cell differentiation. A detailed analysis of sequence and structure diversity of known NTases possessing PAP/OAS1 SBD domain, combined with state-of-the-art comparative modelling, allowed us to identify potential active site residues responsible for catalysis and substrate binding. We also explored the role of single point mutations found in human cancers and propose that FAM46 genes may be involved in the development of other major malignancies including lung, colorectal, hepatocellular, head and neck, urothelial, endometrial and renal papillary carcinomas and melanoma. Identification of these novel enzymes taking part in RNA metabolism in eukaryotes may guide their further functional studies.</p>
+      </abstract>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>05 May 2016</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body><sec sec-type="intro" id="SEC1"><title>INTRODUCTION</title><p>Proteins adopting the nucleotidyltransferase (NTase) fold play crucial roles in various biological processes, such as RNA stabilization and degradation (e.g. RNA polyadenylation), RNA editing, DNA repair, intracellular signal transduction, somatic recombination in B cells, regulation of protein activity, antibiotic resistance and chromatin remodelling (<xref rid="B1" ref-type="bibr">1</xref>). Almost all known members of this large and highly diverse superfamily transfer nucleoside monophosphate (NMP) from nucleoside triphosphate (NTP) to an acceptor hydroxyl group belonging to protein, nucleic acid or small molecule. They are characterized by the presence of a common Î±/Î²-fold structure composed of a three-stranded, mixed Î²-sheet flanked by four Î±-helices. This common core corresponding to the minimal NTase fold is usually decorated by various additional structural elements and additional domains, depending on the family. Sequence analysis of distinct members of this superfamily revealed the following common sequence patterns in NTase fold domain: hG[GS], [DE]h[DE]h and h[DE]h (where h indicates a hydrophobic amino acid) that include conserved active site residues. Three conserved aspartates/glutamates are involved in the coordination of divalent ions and activation of the acceptor hydroxyl group of the substrate. Two of them (from the [DE]h[DE]h motif) are located on the second core Î²-strand, while the third carboxylate (from the h[DE]h motif) is placed on the structurally adjacent third Î²-strand. The hG[GS] pattern is placed at the beginning of a short, second core Î±-helix and has a crucial role in harbouring the substrate within the active site (<xref rid="B1" ref-type="bibr">1</xref>).</p><p>Human members of the NTase fold superfamily are encoded by 43 genes (<xref rid="B1" ref-type="bibr">1</xref>). Until now, only one group of potentially active human NTases, belonging to the so-called family-with-sequence-similarity-46 (FAM46), has not been characterized for its exact biological function. Little is known about FAM46 proteins apart from their involvement in various diseases. FAM46A, a gene preferentially expressed in the retina, was reported as a positional candidate for human retinal diseases since it maps within the RP25 locus to chromosome 6p12.1-q14.1 interval where several retinal dystrophy loci are located (<xref rid="B2" ref-type="bibr">2</xref>). It was also suggested that a variable number of tandem repeat polymorphisms in FAM46A may be associated with non-small cell lung cancer (<xref rid="B3" ref-type="bibr">3</xref>). Another FAM46 paralog, FAM46B, was identified to have lower expression in metastatic melanoma cells (United States Patent US 7615349 B2). FAM46B and FAM46C have been recently described as potential markers for refractory lupus nephritis (<xref rid="B4" ref-type="bibr">4</xref>) and multiple myeloma (<xref rid="B5" ref-type="bibr">5</xref>â<xref rid="B10" ref-type="bibr">10</xref>), respectively. Finally, it was reported that FAM46D is overexpressed in lung and glioblastoma tumors (<xref rid="B11" ref-type="bibr">11</xref>), as well as together with FAM46C, in the brain of autistic-like behaving transgenic mice (<xref rid="B8" ref-type="bibr">8</xref>).</p><p>Functional proteomics studies showed that FAM46A might have many potential protein interacting partners (<xref rid="B12" ref-type="bibr">12</xref>). One of them, ZFYVE9, detected in the yeast two-hybrid system, is involved in the recruitment of unphosphorylated SMAD2/SMAD3 to the transforming growth factor-beta receptor (<xref rid="B13" ref-type="bibr">13</xref>). Another member of FAM46 family, FAM46C, is recognized as a type I interferon stimulated gene, which enhances the replication of certain viruses (<xref rid="B14" ref-type="bibr">14</xref>). In addition, FAM46C can be an anti-viral factor in acute infected long-tailed pygmy rice rats by Andes virus (<xref rid="B15" ref-type="bibr">15</xref>). It was also suggested that FAM46C is functionally related in some way to the regulation of translation (<xref rid="B6" ref-type="bibr">6</xref>).</p><p>To date, several studies have indicated that proteins belonging to FAM46 family might play an essential role in the cell; however, their exact functions remain unknown. In our previous work, we performed a comprehensive classification of the NTase fold proteins and assigned FAM46 proteins to this superfamily as potentially active members (<xref rid="B1" ref-type="bibr">1</xref>). This classification allowed us only to speculate that like other active NTases, FAM46 members may catalyze template-independent incorporation of NMP from NTP either to nucleic acid, protein or small molecule. In this study we present an in-depth bioinformatics analysis of the FAM46 family combined with an exhaustive literature and database searches and propose that the FAM46 proteins function as non-canonical poly(A) polymerases. Detailed insight into the sequence and structure diversity of NTases and their additional N- and C-terminal domains allowed us to generate a reliable 3D model for one of the family members (FAM46C) and to confidently identify the potential active site residues responsible not only for catalysis but also for substrate binding. In addition, the obtained structural model for human FAM46C sheds some new light on the molecular role of mutations found in cancer patients in the FAM46 genes. Finally, the broad sampling of sequenced genomes made it possible to track the evolutionary history of FAM46 proteins back to the origin and hypothesize that the FAM46 family members are present not only in animals but also in all four sequenced Dictyosteliidae and two Entamoeba (Amebozoa) genomes.</p></sec><sec sec-type="materials|methods" id="SEC2"><title>MATERIALS AND METHODS</title><sec id="SEC2-1"><title>Sequence searches</title><p>Four human FAM46 paralogs (FAM46A, FAM46B, FAM46C, FAM46D) were used as queries in PSI-BLAST (<xref rid="B16" ref-type="bibr">16</xref>) searches performed against the NCBI non-redundant (NR) protein sequence database with E-value threshold of 0.001 until profile convergence. Collected sequences were split into organism-specific sets and clustered with CD-HIT (<xref rid="B17" ref-type="bibr">17</xref>) in order to obtain unique sequences. All FAM46 family members were aligned using Mafft (<xref rid="B18" ref-type="bibr">18</xref>) with some manual adjustments. The alignment used for phylogeny reconstruction was additionally trimmed by TrimAl (<xref rid="B19" ref-type="bibr">19</xref>) to eliminate poorly aligned and thus uninformative regions.</p><p>Additionally, proteins containing both NTase and C-terminal four-helical up-and-down bundle fold domains were collected with PSI-BLAST searches performed against the NCBI NR database with E-value threshold of 0.001. Sequences (PDB SEQRES) of the following structures possessing this domain context: pdb|2pbe, pdb|3c18, pdb|3jyy, pdb|3jz0, pdb|4ebs, pdb|1v4a, pdb|3k7d and pdb|1kan, were used as queries.</p></sec><sec id="SEC2-2"><title>Analysis of gene and protein features</title><p>The architecture of the human FAM46 genes was analysed using the UCSC genome browser (<xref rid="B20" ref-type="bibr">20</xref>). Protein localization was predicted with BaCelLo (<xref rid="B21" ref-type="bibr">21</xref>), CELLO (<xref rid="B22" ref-type="bibr">22</xref>), WoLF PSORT (<xref rid="B23" ref-type="bibr">23</xref>), Euk-mPLoc 2.0 (<xref rid="B24" ref-type="bibr">24</xref>) and MultiLoc (<xref rid="B25" ref-type="bibr">25</xref>). NetNES (<xref rid="B26" ref-type="bibr">26</xref>) was used to detect the nuclear export signal (NES). Protein phosphorylation motifs were detected with Eukaryotic Linear Motif (ELM) (<xref rid="B27" ref-type="bibr">27</xref>). Gene expression patterns were analysed using the BioGPS database (<xref rid="B28" ref-type="bibr">28</xref>). Genes with average z-scores higher than 5 (at least in one probe set) in âBarcode on normal tissuesâ dataset were considered as expressed in specific tissue/cell. âBarcode on normal tissuesâ dataset provides a survey across diverse normal human tissues from the U133plus2 Affymetrix microarray (<xref rid="B28" ref-type="bibr">28</xref>). The z-scores in this dataset are generated with the barcode function from the R package âfrmaâ, which bases on barcode algorithm (<xref rid="B29" ref-type="bibr">29</xref>). The domain architecture was analysed using Meta-BASIC (<xref rid="B30" ref-type="bibr">30</xref>) and SMART (<xref rid="B31" ref-type="bibr">31</xref>).</p></sec><sec id="SEC2-3"><title>Structural analysis of known NTases</title><p>Initially, known NTase fold families and structures were identified from literature (including our previous classification (<xref rid="B1" ref-type="bibr">1</xref>)) and various databases of catalogued protein families (PFAM (<xref rid="B32" ref-type="bibr">32</xref>), COG (<xref rid="B33" ref-type="bibr">33</xref>) and KOG (<xref rid="B34" ref-type="bibr">34</xref>)) and structures (PDB (<xref rid="B35" ref-type="bibr">35</xref>) and SCOP (<xref rid="B36" ref-type="bibr">36</xref>)). This initial set was then used for a comprehensive, transitive searches for all NTase fold superfamily members using our distant homology detection method Meta-BASIC (<xref rid="B30" ref-type="bibr">30</xref>) and Gene Relational DataBase (GRDB) system, as described in our previous work (<xref rid="B1" ref-type="bibr">1</xref>). Briefly, Meta-BASIC is a highly sensitive meta-profile alignment method capable of finding very distant similarity between proteins through a comparison of sequence profiles enriched by predicted secondary structures (meta-profiles). The GRDB system includes precalculated Meta-BASIC connections between 16 230 PFAM, 4825 KOG and 4873 COG families and 38 498 representative proteins of known structure (PDB90). Each family and each structure is represented by its sequence (PDB90) or consensus sequence (PFAM, COG and KOG), sequence profile (generated with PSI-BLAST using the NCBI NR70 derivative) and secondary structure profile (predicted with PSIPRED (<xref rid="B37" ref-type="bibr">37</xref>)).</p><p>The structural diversity was analysed for all collected NTase superfamily structures clustered at 90% sequence identity. Structures were divided into groups based on their structural similarity using DALI (<xref rid="B38" ref-type="bibr">38</xref>). Structure-based alignments were generated for all considered domains (including both the conserved NTase fold and additional N- and C-terminal domains) after manually curated superposition of their structures. Secondary structures were assigned with DSSP (<xref rid="B39" ref-type="bibr">39</xref>).</p></sec><sec id="SEC2-4"><title>3D model building</title><p>Potential templates were identified with Meta-BASIC and the consensus of fold recognition 3D-Jury approach (<xref rid="B40" ref-type="bibr">40</xref>) using human FAM46 proteins as queries. The sequence-to-structure alignment between FAM46 family members and all representative structures possessing both NTase and PAP/OAS1 SBD domains was built using a consensus alignment approach and 3D assessment (<xref rid="B41" ref-type="bibr">41</xref>) based on Meta-BASIC and 3D-Jury results, PSIPRED secondary structure predictions and conservation of critical active site residues and hydrophobic patterns. The 3D model of human FAM46C protein was built with MODELLER (<xref rid="B42" ref-type="bibr">42</xref>) using <italic>Trypanosoma brucei</italic> TUTase 4 (pdb|2ikf) (<xref rid="B43" ref-type="bibr">43</xref>) as a template. Finally, the side chain rotamers were optimized using SCWRL3 (<xref rid="B44" ref-type="bibr">44</xref>). The overall quality of the modelled structure was checked with ProSA (<xref rid="B45" ref-type="bibr">45</xref>). Structure visualization was carried out with Pymol (<ext-link ext-link-type="uri" xlink:href="http://www.pymol.org">http://www.pymol.org</ext-link>).</p></sec><sec id="SEC2-5"><title>Analysis of protein interactors</title><p>Human members of the NTase fold superfamily were identified from the UniProt database (<xref rid="B46" ref-type="bibr">46</xref>) using our transitive Meta-BASIC search strategy as described above, starting with all collected NTase fold families and structures. Proteins interacting with human NTase superfamily members were identified using the BioGRID database (version 3.4.133) (<xref rid="B47" ref-type="bibr">47</xref>). GO annotations (molecular function and biological process) (<xref rid="B48" ref-type="bibr">48</xref>) for detected interactors were taken from the UniProt database. FAM46 interacting partners were also identified with manual literature searches.</p></sec><sec id="SEC2-6"><title>Analysis of single point mutations in cancers</title><p>Missense mutations, found in cancer patients, in FAM46 genes were collected from publications and the following databases: cBioPortal (<xref rid="B49" ref-type="bibr">49</xref>), ICGC (<xref rid="B50" ref-type="bibr">50</xref>) and IntOGen (<xref rid="B51" ref-type="bibr">51</xref>). The sequence conservation in FAM46 family was measured based on JensenâShannon divergence (JSD) (<xref rid="B52" ref-type="bibr">52</xref>) using created FAM46 multiple sequence alignment. The JSD quantifies the similarity between probability distributions with scores ranging from 0 to 1 (<xref rid="B53" ref-type="bibr">53</xref>). A background amino acid distribution, estimated from a large sequence set, is used to approximate the distribution of amino acid sites subject to no evolutionary pressure. Positions in an alignment that are found to have amino acid distributions very different from the background distribution are proposed to be functionally important or constrained by evolution. The JSD score was computed using the score_conservation.py program (<xref rid="B52" ref-type="bibr">52</xref>) with default parameters, e.g. using BLOSUM62 for the background distribution. Positions in FAM46 multiple sequence alignment with more than 30% gaps were omitted from JSD computations.</p></sec><sec id="SEC2-7"><title>Phylogeny</title><p>In order to visualize the relationships between FAM46 family members, a phylogenetic analysis was performed with PhyML3.0 (<xref rid="B54" ref-type="bibr">54</xref>) using the LG and JTT models, with an estimated gamma parameter and proportion of invariable sites. An approximate branch support was calculated using the aLTR (<xref rid="B55" ref-type="bibr">55</xref>) option implemented in PhyML. Branches with supports lower than 0.5 were collapsed. The trees were drawn using iTol (<xref rid="B56" ref-type="bibr">56</xref>).</p></sec></sec><sec id="SEC3"><title>RESULTS AND DISCUSSION</title><sec id="SEC3-1"><title>FAM46 family</title><p>Firstly, we identified proteins belonging to FAM46 family with an exhaustive PSI-BLAST (<xref rid="B16" ref-type="bibr">16</xref>) searches performed against the NCBI NR protein sequence database using all four human FAM46 paralogs (FAM46A, FAM46B, FAM46C and FAM46D) as queries. These searches quickly converged at the third iteration; however, most family members can be easily detected even with a simple BLAST search. This is a feature of compact and very conserved protein families and graphical clustering of all these sequences corroborated this observation. As many of them turned out to be variants or mutants of the same protein (e.g. there are four FAM46 genes in the human genome and 14 proteins in the NR database) we selected 868 protein sequences unique for each organism using sequence clustering at different thresholds followed by manual assessment. It should be noted that some of the detected proteins contain long deletions within conserved regions, what might be due to erroneous gene/exon prediction.</p></sec><sec id="SEC3-2"><title>Taxonomic distribution</title><p>FAM46 proteins are present in the proteomes of all animals. Supplementary Figure S1 summarizes the taxonomic distribution of all selected 868 FAM46 proteins unique for each organism. Four FAM46 paralogs can be identified in almost all sequenced Vertebrata (with high-quality genomes), but not in Tunicata (<italic>Ciona intestinalis</italic> and <italic>Oikopleura dioica</italic>), Hemichordata (<italic>Saccoglossus kowaleskii</italic>), Echinodermata (<italic>Strongylocentrotus purpuratus</italic>) or Cephalochordata (<italic>Branchiostoma floridae</italic>), which encode only a single FAM46 protein. Specifically, amphibian, bird, reptile and mammal genomes harbour four distinct FAM46 genes. On the other hand, fish proteomes contain six to seven FAM46 paralogs due to lineage specific duplications followed by fast differentiation of the retained paralogs (different in each of the four analysed fishes). This evolutionary scenario has been already described in teleost fishes (<xref rid="B57" ref-type="bibr">57</xref>). An asymmetric acceleration of evolutionary rate in one of the paralogs after the duplication event, manifested by the high protein sequence divergence and usually leading to alignment problems in less conserved regions, was also observed in FAM46 paralogs. FAM46 family members are encoded in all sequenced animal phyla ranging from Arthropoda (Daphnia, Drosophila), Mollusca (<italic>Crassostrea gigas</italic>), Nematoda (<italic>Caenorhabditis elegans, Brugia malayi, Loa loa, Trichinella spiralis</italic>), Platyhelminthes (<italic>Schistosoma mansoni, Clonorchis sinensis</italic>), Cnidaria (<italic>Nematostella vectensis</italic>), Placozoa (<italic>Trichoplax adherens</italic>) and Porifera (<italic>Amphimedon queenslandica</italic>). FAM46 genes duplicated and diverged strongly in some Nematoda lineages leading to a variable number of paralogs in the analysed genomes. Moreover, FAM46 proteins are detectable in close metazoan relatives: Choanoflagellida (<italic>Salpingoeca</italic> sp., <italic>Monosiga brevicollis</italic>) and Ichthyosporea (<italic>Sphaeroforma arctica</italic>). Surprisingly, proteins belonging to this family can be also found in Amebozoa (four Entamoeba species, <italic>Polysphondylium pallidum, Acytostelium subglobosum</italic> and three Dictyostelium species and <italic>Acanthamoeba castellanii</italic>) and one Diplomonadida (<italic>Guillardia theta</italic>). Choanoflagellida and Ichthyosporea, together with Metazoa, are a sister group of Fungi and Nucleariids. Noteworthy, FAM46 family members are absent in fungal and nucleariid genomes sequenced within the Origins of Multicellularity Project by BROAD. Amebozoa are sometimes grouped with Opisthokonta (Metazoa and Fungi) into a supertaxon Unikonta characterized by a single posterior flagellum in flagellated cells. Summarizing, the presence of FAM46 proteins in proteomes of Metazoa, Choanoflagellida and Amebozoa suggests its origin in the ancestor of Unikonta with further divergence into four distinct conserved representatives in vertebrates.</p></sec><sec id="SEC3-3"><title>Phylogeny inference</title><p>Phylogenetic relationships were analysed both for a set of 29 representative sequences and for a set of 868 Metazoa, Choanoflagellida, Diplomonadida and Amebozoa FAM46 proteins. Entamoeba, Giardia and Dictostellids form well-separated clades with uncertain branching order (Figure <xref ref-type="fig" rid="F1">1</xref>). They are, however, clearly separated from the Metazoa-Choanoflagellida clade. <italic>Salpingoeca rosetta</italic> and <italic>M. brevicollis</italic> form a sister clade to Metazoa. Some of invertebrate FAM46 proteins display higher variability at sequence level that can lead to long branches on the phylogenetic tree. The position of basal lineages within the Metazoa is uncertain and possible involvement of long branch attraction phenomenon should be taken into account.</p><fig id="F1" orientation="portrait" position="float"><label>Figure 1.</label><caption><p>Phylogenetic tree of representative FAM46 protein sequences. Maximum likelihood (ML) analysis for selected 29 family members was carried out using the LG+G model. The approximate likelihood ratio test ShimodairaâHasegawa-like (SH-like) branch supports above 0.5 are shown. Branches with support lower than 0.5 were collapsed.</p></caption><graphic xlink:href="gkw222fig1"/></fig><p>The evolutionary history of FAM46 in the vertebrate genomes is a story of consecutive duplications leading to four highly similar paralogs. All vertebrate genomes analysed in this study retained all four FAM46 paralogs. Surprisingly, we detected the presence of FAM46 proteins in all sequenced Amebozoa genomes.</p><p>The divergence time between Choanoflagellida and Metazoa is estimated â¼600MYA (<xref rid="B58" ref-type="bibr">58</xref>,<xref rid="B59" ref-type="bibr">59</xref>). As FAM46 genes are present in Choanoflagellida, Metazoa and Amebozoa genomes it is possible they were already in the ancestor of all Unikonta, and therefore also in the ancestor of Ophistokonta. The most likely scenario involves an ancient deletion in the ancestor of Fungi. This evolutionary history claims FAM46 would be a very ancient gene, what is not reflected in its encoded amino acid sequence divergence. Provided FAM46 have an ancient origin early in the Unikonts, still the presence of two FAM46 genes in the <italic>G. theta</italic> genome requires clarification. Due to cohabitation, it is plausible that the FAM46 genes in <italic>G. theta</italic> genome appeared via horizontal gene transfer from Choanoflagellida to Diplomonadida. However, the low resolution of these deep branches renders the FAM46 phylogenetic tree (Supplementary Figure S2) uninformative for HGT inference. There is significant evidence for the transfer occurring in the opposite direction (<xref rid="B60" ref-type="bibr">60</xref>). The mechanism underlying algae to choanoglafellate transfer is supposed to be based on phagotrophy. We have insufficient data to hypothesize about the possibility of transfer happening from choanoflagellates to algae.</p></sec><sec id="SEC3-4"><title>Gene structure</title><p>The organization, architecture and regulation of human FAM46 genes and their homologous counterparts in others organisms seem to contribute to their functional diversification. For instance, human FAM46 genes contain 2â3 exons of which 1â2 are coding (Supplementary Table S1) and they encode up to five different transcripts. In addition, anti-sense transcripts have been also detected, e.g. for human FAM46A (<xref rid="B61" ref-type="bibr">61</xref>). Interestingly, we found that the H3K27Ac pattern in the promoter region and along the coding region is completely different for each of human FAM46 genes, what can be related to distinct nucleosome density in these chromatin regions and different expression patterns (<xref rid="B62" ref-type="bibr">62</xref>). Additionally, the FAM46D gene is in a repeat dense area as denoted by RepeatMasker, which might be related to the overall chromosome X repeat density.</p></sec><sec id="SEC3-5"><title>Domain architecture</title><p>Given the high variability of human FAM46 paralogs at the gene organization level, the encoded proteins are surprisingly similar at the sequence level, including the conservation of various motifs. FAM46 proteins seem to have a common two-domain architecture composed of an Î±/Î² region (according to secondary structure predictions) followed by an Î±-helical region. It should be noted that the FAM46 family is a distant outlier in the NTase fold superfamily and cannot be identified with standard sequence comparison methods such as PSI-BLAST. Using a highly sensitive tool for distant homology detection, Meta-BASIC (<xref rid="B30" ref-type="bibr">30</xref>), we mapped FAM46 proteins, with the above threshold scores, to several 3D structures including the terminal uridylyl transferase 4 (TUTase 4) from <italic>T. brucei</italic> (pdb|2ikf) (<xref rid="B43" ref-type="bibr">43</xref>), 2â²-5â²-oligoadenylate synthase (OAS) from <italic>S. scrofa</italic> (pdb|1px5) (<xref rid="B63" ref-type="bibr">63</xref>), CCA-adding enzyme from <italic>A. fulgidus</italic> (pdb|4x4n) (<xref rid="B64" ref-type="bibr">64</xref>), cyclic AMP-GMP synthase from <italic>V. cholerae</italic> (pdb|4u0n) (<xref rid="B65" ref-type="bibr">65</xref>), aminoglycoside 6-adenyltransferase from <italic>B. subtilis</italic> (pdb|2pbe) and nuclear factors NF90 and NF45 from <italic>M. musculus</italic> (pdb|4at7) (<xref rid="B66" ref-type="bibr">66</xref>). Importantly, FAM46 N-terminal Î±/Î² region has weak but evident sequence similarity to the NTase domain, which can be confirmed by several fold recognition servers. Meta-BASIC suggested that the C-terminal Î±-helical part may be similar either to poly(A) polymerase/2â²-5â²-oligoadenylate synthetase 1 substrate binding domain (PAP/OAS1 SBD) or the domain of four-helical up-and-down bundle fold (4H), however, it assigned below threshold scores to these predictions. To figure out what protein fold is adopted by the FAM46 C-terminal region, we performed a comprehensive analysis of the structural diversity of all the available NTase superfamily structures, both for their conserved NTase and additional N- and C-terminal domains (Supplementary Figure S3).</p><p>While both the PAP/OAS1 SBD and 4H domains possess four core Î±-helices C-terminal to NTase domain, only PAP/OAS1 SBD retains the additional (the first core) Î±-helix located before NTase domain. According to secondary structure predictions, this helix is clearly seen in the FAM46 family members in the conserved region preceding the predicted NTase domain. In addition to a good mapping of predicted and observed core secondary structure elements, FAM46 proteins display also similar conservation of hydrophobic motifs and critical residues for NTP binding (see below) characteristic for the PAP/OAS1 SBD. In our previous studies we showed that such detailed analysis of below threshold Meta-BASIC hits usually enables identification of highly diverged superfamily members which escape detection even with advanced sequence comparison methods. For instance, using this approach we identified restriction endonuclease-like (<xref rid="B67" ref-type="bibr">67</xref>) and RNase H-like (<xref rid="B68" ref-type="bibr">68</xref>) domains in many uncharacterized and poorly annotated protein families. Finally, we found that proteins embracing both the NTase and 4H domains are mainly encoded in bacteria and rarely found in archeal genomes, with single representatives identified in eukaryotic species, including fungal <italic>Myceliophthora thermophila</italic> (gi|367020986), <italic>Tribulus terrestris</italic> (gi|367039397) and <italic>Rhizophagus irregularis</italic> (gi|552919075), and soil-living amoeba <italic>Dictyostelium discoideum</italic> (gi|66821023). This is consistent with the biological functions played by these proteins, as they participate in antibiotic resistance (e.g. <italic>Staphylococcus aureus</italic> kanamycin nucleotidyltransferase (<xref rid="B69" ref-type="bibr">69</xref>), <italic>Enterococcus faecium</italic> lincosamide antibiotic adenylyltransferase (<xref rid="B70" ref-type="bibr">70</xref>), <italic>Bacillus subtilis</italic> aminoglycoside 6-adenyltransferase) and nitrogen assimilation (e.g. <italic>Escherichia coli</italic> glutamine synthetase adenyltransferase (<xref rid="B71" ref-type="bibr">71</xref>)). In contrast, NTases possessing the PAP/OAS1 SBD can be widely found in eukaryotes. Altogether, results of all these analyses strongly suggest that although displaying little sequence similarity, FAM46 proteins possess PAP/OAS1 SBD consisting of the five right-handed twisted Î±-helices (with an Î±1-NTase-Î±2Î±3Î±4Î±5 topology).</p><p>In addition, we found that a few FAM46 proteins possess additional domains inserted inside the NTase domain or located at N- or C-termini (Supplementary Figure S4). It should be noted, however, that the presence of some of these additional domains may be a result of potentially incorrect gene/exon predictions.</p></sec><sec id="SEC3-6"><title>PAP/OAS1 SBD in known NTase structures</title><p>To identify conserved PAP/OAS1 SBD residues, critical for binding NTP substrate in an NTase active site, we carried out an exhaustive sequence and structure analysis by generating the structural alignment of all the representative structures possessing both the NTase and PAP/OAS1 SBD domains (Figure <xref ref-type="fig" rid="F2">2</xref>). The PAP/OAS1 SBD specifically binds a nucleobase of the incoming NTP mainly by amino acids that provide, either directly or indirectly via water molecules, WatsonâCrick hydrogen bonds. In addition, a conserved hydrophobic amino acid (e.g. V234 in poly(A) polymerase Pap1 (<xref rid="B72" ref-type="bibr">72</xref>) and Y212 in poly(U) polymerase Cid1 (<xref rid="B73" ref-type="bibr">73</xref>)), located at the beginning of the third core Î±-helix of PAP/OAS1 SBD, forms a flat hydrophobic surface for the incoming NTP nucleobase. Proteins containing the PAP/OAS1 SBD also possess another common residue, which is responsible for the recognition of a triphosphate moiety. Conserved lysine/arginine (e.g. K215 in Pap1) located in the second core Î±-helix of PAP/OAS1 SBD, together with a serine from the NTase domain hG[GS] motif, interact with NTP Î²- and Î³-phosphate groups.</p><fig id="F2" orientation="portrait" position="float"><label>Figure 2.</label><caption><p>Multiple sequence alignment of human FAM46 proteins, human non-canonical poly(A) polymerases (TUT1-7) and all representative structures possessing both the NTase and PAP/OAS1 SBD domains. Only conserved regions of the domains are shown. Sequences are labelled with PDB code or UniProt ID. The numbers of excluded residues are specified in parentheses. Residue conservation is denoted with the following scheme: uncharged, highlighted in yellow; polar, highlighted in grey; invariant active site residues involved in catalysis, highlighted in black; critical substrate binding residues, highlighted in red. Locations of observed and predicted secondary structure elements are marked above the corresponding alignment blocks. Abbreviations: PAP, poly(A) polymerase; TUTase, terminal uridylyltransferase; CCA, CCA-adding enzyme; OAS, oligoadenylate synthetase; cGAS, cyclic GMP-AMP synthase; NF45 and NF90, nuclear factors NF45 and NF90; Utp22, U3 small nucleolar RNA-associated protein 22; MiD51 and MiD49, mitochondrial dynamics proteins MiD51 and MID49; Ss, <italic>S. scrofa</italic>; Tb, <italic>T. brucei</italic>; Af, <italic>A. fulgidus</italic>; Hs, <italic>H. sapiens</italic>; Mm, <italic>M. musculus</italic>; Sp, <italic>S. pombe</italic>; Sc, <italic>S. cerevisiae</italic>; Vc, <italic>V. cholerae</italic>; Bt, <italic>B. taurus</italic>. Sequence-to-structure alignment for FAM46 proteins can be assigned higher confidence in the NTase domain.</p></caption><graphic xlink:href="gkw222fig2"/></fig></sec><sec id="SEC3-7"><title>3D model of human FAM46C</title><p>Initially, we generated a sequence-to-structure alignment of FAM46 family members with all representative proteins of known structure possessing both the NTase and PAP/OAS1 SBD domains (using their structure-based alignment described above) (Figure <xref ref-type="fig" rid="F2">2</xref>). Although these structures display very little sequence similarity to the FAM46 proteins, in contrast to our previous work (<xref rid="B1" ref-type="bibr">1</xref>) where we focused in general on the most conserved regions of NTase fold common to all NTase superfamily members, here we were able to propose a reliable and complete sequence-to-structure alignment for all conserved regions of both domains. The alignment was guided by secondary structure predictions and conservation of (i) the NTase fold active site motifs, (ii) identified critical PAP/OAS1 SBD residues participating in substrate binding and (iii) hydrophobic patterns responsible for forming the hydrophobic core of the structure.</p><p>As a representative of FAM46 family for 3D modelling we selected human FAM46C, which is a potential biomarker for multiple myeloma. FAM46 proteins are very similar in sequence, for instance, four human paralogs share 56â75% amino acid identity within the common region encompassing both domains. In addition, the length of this region in these paralogs differs only by 1â2 residues.</p><p>The structure of <italic>T. brucei</italic> TUTase 4 (pdb|2ikf) (<xref rid="B43" ref-type="bibr">43</xref>), as assigned the highest Meta-BASIC score among the proteins possessing both NTase and PAP/OAS1 SBD domains, was used as a template to generate the 3D model of human FAM46C, based on the manually derived sequence-to-structure alignment. However, due to the lack of templates with similar insertion between the last core Î²-strand and the last core Î±-helix of NTase domain, we were unable to create a reliable model for 70 amino acids of FAM46C in this region. Nevertheless, we can speculate that this insertion in FAM46C should fill the space usually occupied by residues responsible for binding incoming NTP nucleobase and RNA 5â² end. Figure <xref ref-type="fig" rid="F3">3</xref> presents a comparison of the FAM46C model and existing structures of non-canonical poly(A) polymerase Trf4p from <italic>Saccharomyces cerevisiae</italic>, which is a part of the Trf4p/Air2p/Mtr4p polyadenylation (TRAMP) complex (<xref rid="B74" ref-type="bibr">74</xref>), and the non-catalytic mitochondrial dynamic protein MiD51 from <italic>M. musculus</italic> (<xref rid="B75" ref-type="bibr">75</xref>). Importantly, in Trf4p, the region of 53 amino acids between the fourth and fifth core Î±-helices of the PAP/OAS1 SBD is crucial for binding the RNA 5â² end and a nucleobase of the incoming NTP. The corresponding region in FAM46C is much shorter (only 11 amino acids) and probably is not able to form the interaction interface for a nucleobase. Therefore, it is likely that nucleobase binding residues are located within the 70 amino acids insertion between the last core Î²-strand and the last core Î±-helix of the FAM46C NTase domain. In addition, this conserved insertion, composed of the predicted two Î²-strands and two Î±-helices (with Î²Î±Î²Î± order), may also participate in proteinâprotein interactions similar to the MiD51 receptor which binds the dynamin-related protein 1 (Drp1) via a well-conserved loop located in the NTase domain (<xref rid="B75" ref-type="bibr">75</xref>). However, it should be noted that FAM46C, in contrast to MiD51, seems to be an active NTase; therefore, even if the insertion is responsible for proteinâprotein interactions, it should also play a role in substrate recognition.</p><fig id="F3" orientation="portrait" position="float"><label>Figure 3.</label><caption><p>Comparison of 3D model of human FAM46C and available structures of non-canonical poly(A) polymerase Trf4p (pdb|3nyb) and mitochondrial dynamics protein MiD51 (pdb|4oaf). Regions in MiD51 responsible for proteinâprotein interactions and their potential counterpart in FAM46C are coloured pink. The region between the fourth and fifth core Î±-helices of PAP/OAS1 SBD in FAM46C and Trf4p (critical for nucleobase binding) is shown in green. The region not modelled in FAM46C (70 amino acids) is denoted by red dots. The conserved active site carboxylates are shown in blue.</p></caption><graphic xlink:href="gkw222fig3"/></fig></sec><sec id="SEC3-8"><title>Active site</title><p>Figure <xref ref-type="fig" rid="F4">4</xref> shows a comparison of active sites of human FAM46C (model), poly(A) polymerase Pap1 from <italic>S. cerevisiae</italic> (<xref rid="B72" ref-type="bibr">72</xref>), poly(U) polymerase Cid1 from <italic>Schizosaccharomyces pombe</italic> (<xref rid="B73" ref-type="bibr">73</xref>), CCA-adding enzyme from <italic>A. fulgidus</italic> (<xref rid="B64" ref-type="bibr">64</xref>), 2'-5'-oligoadenylate synthetase OAS1 from <italic>S. scrofa</italic> (<xref rid="B76" ref-type="bibr">76</xref>) and the cyclic GMP-AMP synthase (cGAS) from <italic>M. musculus</italic> (<xref rid="B77" ref-type="bibr">77</xref>). FAM46 proteins probably function as active NTases because they share all the key motifs in the NTase domain responsible for catalysis and substrate binding, including the [DE]h[DE]h and h[DE]h patterns with three conserved aspartate/glutamate residues (Asp90, Asp92 and Glu166) and hG[GS] motif with Gly73 and Ser74 in human FAM46C. Although we were not able to generate a complete 3D model of human FAM46C, we were able to identify additional residues responsible for NTP binding, which are located in the conserved secondary structure elements. Comparison of active sites of experimentally solved structures showed that proteins encompassing both NTase and PAP/OAS1 SBD usually bind a nucleobase or a ribose-moiety of incoming NTP by a serine or a threonine located just before or in the last core Î±-helix of NTase domain (Figures <xref ref-type="fig" rid="F2">2</xref> andÂ <xref ref-type="fig" rid="F4">4</xref>). Therefore, it is possible that FAM46C Ser248 may bind, directly or indirectly via a water molecule, 2â²-OH or/and 3â²-OH hydroxyl group of a ribose-base moiety as it is observed for Thr172 in poly(U) polymerase Cid1 (<xref rid="B73" ref-type="bibr">73</xref>) or it can participate in a nucleobase binding similarly to Thr190 in 2â²-5â²-oligoadenylate synthase OAS1 (<xref rid="B76" ref-type="bibr">76</xref>). FAM46C shares also all the conserved residues in PAP/OAS1 SBD responsible for substrate binding. The FAM46C Leu282 probably interacts with a nucleobase of the incoming NTP like Tyr212 in poly(U) polymerase Cid1 or makes van der Waals contacts with the ribose-base moiety of NTP similar to Val234 in poly(A) polymerase Pap1 (<xref rid="B72" ref-type="bibr">72</xref>). Finally, NTP Î²- and Î³-phosphates most likely interact with the conserved Arg268 in addition to Ser74 from the hG[GS] motif.</p><fig id="F4" orientation="portrait" position="float"><label>Figure 4.</label><caption><p>Comparison of the active sites of FAM46C, poly(A) polymerase (Pap1, pdb|1fa0), poly(U) polymerase (Cid1, pdb|4fhp), CCA-adding enzyme (pdb|4x4r), OAS (OAS1, pdb|4rwo) and cyclic GMP-AMP synthase (Mb21d1, pdb|4k97). Only NTase and PAP/OAS1 SBD domains are shown. The region not modelled in FAM46C (70 amino acids) is denoted by red dots. Conserved amino acids critical for catalysis and substrate binding are shown in blue.</p></caption><graphic xlink:href="gkw222fig4"/></fig></sec><sec id="SEC3-9"><title>Cellular localization and tissue specificity</title><p>According to various servers predicting subcellular localization, the FAM46 proteins seem to be localized in both the cytoplasm and nucleus. In addition, three human paralogs (FAM46B, FAM46C and FAM46D) harbour potential leucine-rich NES, located at the end of the C-terminal PAP/OAS1 SBD domain. As a consequence, it is likely that proteins belonging to the FAM46 family shuttle between the nucleus and cytoplasm.</p><p>We also analysed the gene expression data available in the BioGPS database (<xref rid="B28" ref-type="bibr">28</xref>) and found that each of the human FAM46 paralogs has a different tissue/cell expression pattern (Supplementary Table S1). Different expression patterns probably indicate various biological processes in which FAM46 proteins participate. According to the BioGPS database, FAM46A, FAM46B and FAM46C are potentially expressed in 81, 18 and 66 tissues/cells, respectively, while FAM46D can be found only in sperm (Supplementary Table S1).</p></sec><sec id="SEC3-10"><title>Interacting partners</title><p>To get more hints at the biological function of FAM46, we compared all human NTase superfamily members according to GO molecular function and biological process of their protein interactors identified in the BioGRID database (<xref rid="B47" ref-type="bibr">47</xref>) (Supplementary Figure S5). We found that FAM46 binding partners share a common GO functions and processes mostly with interactors of human NTase fold proteins from the following four groups (described in Supplementary Table S2): interleukin enhancer-binding factors, non-canonical poly(A) polymerases (TUT), poly(A) polymerases (PAP) and zinc finger RNA-binding proteinsÂ (ZFR). Similarly to FAM46 family members, proteins belonging to these groups also possess additional PAP/OAS1 SBD domain. In addition, almost all of them retain the same biological functionâDNA/RNA binding, including poly(A) RNA binding and participate in the same processâtranscription.</p><p>We also analysed all 61 FAM46 protein interactors identified in the BioGRID database and the literature in more details (Supplementary Table S3). We found that each FAM46 paralog has a different set of interacting protein partners; therefore, it is likely that each paralog participates in a different biological process in the cell. Most of the interacting partners play important roles in development, including cellular proliferation and cell differentiation. We noticed that many FAM46 interactors share a common molecular functions (e.g. nucleic acids binding, including binding of the mRNA poly(A) tail) or biological processes (e.g. protein modification, transcription). Specifically, 26 FAM46 interacting partners may directly bind RNA and/or DNA. This group includes: transcription (co)factors (RHOXF2, TBX4, NR2F2, SOX5, NRF1, TRIP6), transcription activators (Znf322, Cxxc5), RNA stabilization factors (ELAVL1, BCCIP, HDLBP, Pabpc1, Pabpc4), proteins involved in transcription (POLR1A, POLR1E, POLR2J), proteins participating in mRNA translation (EIF4G3, Pabpc1, Pabpc4), proteins taking part in DNA repair (POLE2, Rad23b, WRAP53) and other proteins, which play various roles such as DNA helicase DDX11, putative RNA exonuclease (44M2.3), mitochondrial translation optimization factor 1 (MTO1), SUMO-conjugating enzyme UBC9 (UBE2I), 14-3-3 protein zelta/delta (Ywhaz) involved in signal transduction (<xref rid="B78" ref-type="bibr">78</xref>) and ATXN1, which may participate in RNA export (<xref rid="B79" ref-type="bibr">79</xref>). Similarly to human FAM46A (<xref rid="B80" ref-type="bibr">80</xref>), nine protein interactors (ELAVL1, BCCIP, EIF4G3, MTO1, Ywhaz, TRIP6, UBE2I, Pabpc1, Pabpc4) participate or may participate in RNA poly(A) tail binding. Another seven FAM46 interacting partners (EGLN2, DAZAP2, KEAP1, DCAF6, KLHDC2, ZNHIT6, MVP) were shown or suggested to cooperate with or regulate proteins, which are able to bind directly to nucleic acids. Specifically, the Egl nine homolog 2 (EGLN2) targets the transcriptional complex HIFâÎ± subunit for proteasomal degradation (<xref rid="B81" ref-type="bibr">81</xref>). KEAP1 targets transcription factor Nrf2 for ubiquitination and degradation (<xref rid="B82" ref-type="bibr">82</xref>). DCAF6 enhances the transcriptional activity of nuclear receptors NR3C1 and AR (<xref rid="B83" ref-type="bibr">83</xref>). The physical interaction between KLHDC2 and a bZIP transcription factor (LZIP) leads to the repression of the LZIP-dependent transcription (<xref rid="B84" ref-type="bibr">84</xref>). DAZAP2 regulates stress or germ granulesâribonucleoprotein complexes (<xref rid="B85" ref-type="bibr">85</xref>,<xref rid="B86" ref-type="bibr">86</xref>). MVP is a part of an evolutionary highly conserved ribonucleoprotein particles (vaults) (<xref rid="B87" ref-type="bibr">87</xref>,<xref rid="B88" ref-type="bibr">88</xref>), while ZNHIT6 may be involved in snoRNP biogenesis (<xref rid="B89" ref-type="bibr">89</xref>). Another functional group of FAM46 interactors contains proteins, which take part in protein modification (mostly in protein degradation). This group embraces proteases (serine protease HTRA1, caspase-like protease ESPL1), Kunitz-type protease inhibitor 1 (SPINT1), Kelch-like ECH-associated protein 1 (KEAP1) participating in Nrf2 ubiquitination and degradation (<xref rid="B82" ref-type="bibr">82</xref>), EGLN2 targeting HIFâÎ± for proteasomal degradation (<xref rid="B81" ref-type="bibr">81</xref>), E3 ubiquitin-protein ligases (RNF14, PARK2), CUL4-associated factor 6 (DCAF6) functioning as substrate-recruiting module for CUL4-DDB1 E3 ubiquitin-protein ligase complex (<xref rid="B90" ref-type="bibr">90</xref>), SUMO-conjugating enzyme UBC9 (UBE2I), ubiquitin carboxyl-terminal hydrolase 4 (USP4), a regulatory subunit 6A of the 26S proteasome (Psmc3) and BAG6, which is crucial in ubiquitin-mediated protein degradation of defective or misallocated polypeptides (<xref rid="B91" ref-type="bibr">91</xref>). Among all FAM46 interactors, we were able to identify two kinases: Polo-like kinase 4 (PLK4) and non-receptor tyrosine-protein kinase SYK (SYK). PLK regulates cell cycle progression, mitosis and cytokinesis (<xref rid="B92" ref-type="bibr">92</xref>), while SYK mediates signal transduction and differentiation, particularly in B-cell development (<xref rid="B93" ref-type="bibr">93</xref>,<xref rid="B94" ref-type="bibr">94</xref>). Another interacting partner, the FYVE domain-containing protein 9 (ZFYVE9) identified as a SMAD2/3-binding protein, may also regulate the proliferation of hepatic cells during zebrafish embryogenesis (<xref rid="B95" ref-type="bibr">95</xref>). The last identified functional group contains proteins responsible for an intra and extracellular cell transport, including DYNC1H1âa heavy chain of cytoplasmic dynein 1 (<xref rid="B96" ref-type="bibr">96</xref>,<xref rid="B97" ref-type="bibr">97</xref>), RIN3âa small GTPase, which participates in intracellular membrane trafficking (<xref rid="B98" ref-type="bibr">98</xref>) and AP2B1, which plays a pivotal role in many vesicle trafficking pathways within the cell (<xref rid="B99" ref-type="bibr">99</xref>).</p></sec><sec id="SEC3-11"><title>Mutations in cancers</title><p>Recent studies have identified numerous somatic mutations in various cancer patients leading to single point mutations in the human FAM46 proteins (Supplementary Table S4). For instance, the human FAM46C gene was reported as a causal driver of multiple myeloma (<xref rid="B6" ref-type="bibr">6</xref>). In addition, a single FAM46C mutation (Y247N) was identified in <italic>hem6</italic> mice with hypochromic anemia, which affects terminal spermiogenesis and terminal stages of erythroid differentiation (<xref rid="B100" ref-type="bibr">100</xref>). This study showed that male <italic>hem6</italic> mice produce sperm with defects detectable by phase contrast microscopy and fluorescence microscopy. To analyze the role of these mutations, we mapped them onto a 3D model of FAM46C (Figure <xref ref-type="fig" rid="F5">5</xref>) and found that they can be divided into two groups. The first group includes mutations that are located in a highly conserved area of the active site and its close vicinity, and probably may decrease/increase FAM46 catalytic activity and/or affect substrate binding (e.g. change the preference for the type of incorporated NTP). This group embraces the mouse <italic>hem6</italic> mutation and the majority of mutations found in multiple myeloma patients as well as several mutations from other cancers. The average JSD (<xref rid="B52" ref-type="bibr">52</xref>) score for all mutated amino acid positions in multiple myeloma (reported in Supplementary Table S4) and for the mutated residue 247 in <italic>hem6</italic> FAM46C is 0.56 and 0.74, respectively (higher JSD scores correspond to higher sequence conservation). In benchmarks JSD approach, which considers also estimated conservation of sequentially neighbouring sites, performed better than traditional measures (e.g. Shannon entropy or Sum-of-pairs measure) in identifying functionally important residues (<xref rid="B52" ref-type="bibr">52</xref>). In comparison, the average JSD score for five FAM46 active site residues: glutamic/aspartic acids, glycine and serine is 0.65. Mutations belonging to the second group are located mostly on the protein surface (usually with JSD scores below 0.4), in evolutionary low conserved regions. Those mutations may affect proteinâprotein interactions or alternatively might not play any crucial role in the reported cancers.</p><fig id="F5" orientation="portrait" position="float"><label>Figure 5.</label><caption><p>Missense mutations in FAM46 family members found in cancer patients and <italic>hem6</italic> mouse. The positions of the corresponding single point mutations, mapped onto a 3D model of human FAM46C, are shown as spheres. The spheres are coloured according to JSD score, which refers to the amino acid conservation in FAM46 family.</p></caption><graphic xlink:href="gkw222fig5"/></fig><p>In addition, we selected all mutations of highly conserved residues with a JSD score higher than 0.65 (the average JSD for five FAM46 active site residues from conserved NTase motifs). It allowed us to identify mutations found in a number of malignancies (highlighted in orange in Supplementary Table S4), which probably have the largest impact on protein activity and may be connected with diagnosed cancers. Consequently, we suggest that, in addition to multiple myeloma, FAM46 genes may be also involved in pathogenesis of various other cancer subtypes including liver hepatocellular carcinoma, bladder urothelial carcinoma, head and neck squamous cell carcinoma, uterine corpus endometrial carcinoma, kidney renal papillary cell carcinoma, lung adenocarcinoma, ductal adenocarcinoma, colorectal adenocarcinoma, primary plasma cell leukemia and skin cutaneous melanoma.</p></sec><sec id="SEC3-12"><title>Potential function</title><p>The results of our sequence and structure analyses suggest that the FAM46 proteins are active NTases, which have both the NTase fold and PAP/OAS1 SBD domains. Active NTases possessing the PAP/OAS1 SBD are known to participate in tRNA maturation (CCA-adding enzymes), RNA degradation (TUTases, poly(A) polymerase in TRAMP complex), mRNA maturation (poly(A) polymerases) and in a defense response to viruses and bacteria (2â²-5â²-oligoadenylate synthases and cyclic GMP-AMP synthases). Although it was shown that both FAM46A and FAM46C are induced by interferon I and II (<xref rid="B14" ref-type="bibr">14</xref>) and that FAM46C is one of the interferon-stimulated genes (ISGs) which modify viral (YFV and VEEV) replication during infection, it is unlikely that FAM46 proteins are antiviral enzymes like OASes. Unlike replication inhibiting ISGs (such as OASL, Mab-21 and C6orf150), FAM46C slightly enhances the replication of certain viruses (<xref rid="B14" ref-type="bibr">14</xref>). FAM46 family members do not possess also an H(X<sub>5</sub>)CC(X<sub>6</sub>)C motif (conserved among vertebrate cGAS members) located between the NTase and PAP/OAS1 SBD domains. This motif, which resembles most closely HCCC-type zinc-ribbons found in TAZ domains, is required for efficient cytosolic DNA recognition (<xref rid="B101" ref-type="bibr">101</xref>). Finally, we investigated the possibility that FAM46 proteins may be novel non-canonical poly(A) polymerases participating in RNA 3â² end modification like TUTases or poly(A) polymerases GLD-2 and GLD-3. This hypothesis is consistent with M. Tian studies (<xref rid="B100" ref-type="bibr">100</xref>), where it was shown that mutated FAM46C may modulate the poly(A) tails of specific transcripts during erythroid differentiation. The author identified a single FAM46C mutation (Y247N) in <italic>hem6</italic> mice and showed that it might cause an accelerated, progressive shrinkage of the poly(A) tail in four transcripts (alpha-globin, Alas2, Hbb-b1 and Ftl1) and probably does not have any effect on poly(A) tails in two transcripts (Fth1 and beta-actin). Additionally, a Y247N mutation led to an increase of expression levels of 152 transcripts, resulted in a decrease of expression levels of 29 transcripts, and did not have any effect on 29 erythroid transcripts (<xref rid="B100" ref-type="bibr">100</xref>). It should be noted, however, that M. Tian used an indirect approach to analyze the poly(A) tail lengths in the six aforementioned transcripts. His strategy of indirect poly(A) tail length assay assumed that the poly(A) tails do not possess any nucleotides other than adenosines; therefore, he was not able to identify the real length of the modified poly(A) tails if they also contain other nucleotides. Thus, it is likely that he observed shortening of mRNA poly(A) tails for specific transcripts if FAM46C is responsible for the addition of adenosines to the RNA 3â² end. The FAM46C mutation (Y247N) might have weakened the processivity of FAM46C resulting in poly(A) tails shrinkage. On the other hand, FAM46C may be a non-canonical poly(A) polymerase which adds cytidines or uridines to the RNA 3â² end. In this scenario, FAM46C may participate in transcript degradation by modifying the poly(A) tails. This hypothesis is consistent with the fact that up to 152 transcripts increased expression levels in a <italic>hem6</italic> mutant. In this case, the observed shortening of the poly(A) tails in four transcripts may be a side effect of cell deregulation. In both scenarios, FAM46 proteins may play a very important role in mRNA stability as active non-canonical poly(A) polymerases rather than some other factors, which prevent early mRNA degradation by disrupting interactions between ribonuclease docking complex and RNA as suggested by M. Tian (<xref rid="B100" ref-type="bibr">100</xref>). Our functional assignment is also in line with the facts that mouse FAM46C may bind directly or through a complex to RNA CU-rich motifs (<xref rid="B100" ref-type="bibr">100</xref>) and FAM46A may bind to poly(A) tails (<xref rid="B80" ref-type="bibr">80</xref>). According to Chapman <italic>etÂ al</italic>., the expression of FAM46C is highly correlated with the expression of ribosomal proteins and initiation and elongation factors involved in protein translation (<xref rid="B6" ref-type="bibr">6</xref>). They proposed that FAM46C is functionally related in some way to the regulation of translation (e.g. as a mRNA stability factor), however, they did not assign any exact function to this protein. Recent studies revealed that the poly(A) tail length impacts gene expression in some processes such as inflammation, learning and memory (<xref rid="B102" ref-type="bibr">102</xref>), and there is a clear correlation between the poly(A) tail length and translational efficiency in early development stages in zebrafish and African clawed frogs (<xref rid="B103" ref-type="bibr">103</xref>). Therefore, it is possible that the correlation observed by Chapman <italic>et al</italic>. is the effect of length change of the poly(A) tails.</p><p>Both the M. Tian and Chapman <italic>et al</italic>. studies are consistent with the results of our analysis of FAM46 interactors and interacting partners of all remaining human NTase fold proteins. We found that FAM46 binding partners share a common GO functions and processes mostly with interactors of those active NTase fold superfamily members which belong to non-canonical poly(A) polymerases and poly(A) polymerases. We showed that over half of the 61 identified FAM46 interactors participate in DNA and/or RNA binding, including nine proteins which can bind mRNA poly(A) tails. Many of FAM46 interacting partners are involved in transcription or translation, like transcription (co)factors (RHOXF2, TBX4, NR2F2, SOX5, NRF1, TRIP6), transcription activators (Znf322, Cxxc5), RNA stabilization factors (ELAVL1, BCCIP, HDLBP, Pabpc1, Pabpc4), proteins involved in transcription (POLR1A, POLR1E, POLR2J), proteins participating in mRNA translation (EIF4G3, Pabpc1, Pabpc4), and proteins taking part in transcription regulation (EGLN2, KEAP1, DCAF6, KLHDC2) and mitochondrial translation optimization (MTO1). Finally, some FAM46 protein interactors regulate or are a part of ribonucleoprotein complexes.</p><p>Our domain architecture analysis revealed that proteins belonging to FAM46 family possess only two domains: NTase and PAP/OAS1 SBD, with single exceptions of some additional domains present in a few proteins. Importantly, we were not able to detect any additional conserved domains such as ferredoxin-like, which plays a critical role in processivity of canonical poly(A) polymerases or TUTases (Supplementary Figure S3). The ferredoxin-like domain provides additional interactions with RNA and may enhance its binding, allowing the NTase enzyme to add up to several hundred nucleotides. Therefore, FAM46 proteins acting as non-canonical poly(A) polymerases probably can add only a few nucleotides to the RNA 3â² end.</p><p>FAM46 family members seem to be localized both in the cytoplasm and nucleus, like two other human non-canonical poly(A) polymerases, PAPD4 and PAPD5 (<xref rid="B104" ref-type="bibr">104</xref>). Considering the physiological functions of FAM46 interactors, we can speculate about the biological processes, in which FAM46 proteins may participate. FAM46A probably cooperates with a subunit RPB11-a of DNA-directed RNA polymerase II, eukaryotic translation initiation factor 4 gamma (eIF4G), high-density lipoprotein-binding protein (HDLBP, Vigilin), while FAM46C may bind to polyadenylate-binding proteins (Pabpc1, Pabpc4) and (together with FAM46A) to ELAV-like protein 1. As a consequence, proteins belonging to FAM46 family can be involved in mRNA (de)stabilization either in the nucleus or cytoplasm. DNA-directed RNA polymerase II transcribes all protein-coding genes and synthesizes many functional non-coding RNAs. The eIF4G3 subunit is a scaffold protein in eIF4F complex, which participates in the recruitment of eukaryotic mRNAs to the ribosome (<xref rid="B105" ref-type="bibr">105</xref>). Pabpc1 and Pabpc4 belong to cytoplasmic poly(A) binding proteins (PABPC), which bind specifically to the poly(A) tail of mRNA and are required for poly(A) shortening, ribosome recruitment and translation initiation (<xref rid="B106" ref-type="bibr">106</xref>). Another protein interactor, Xenopus Vigilin, can selectively protect <italic>in vitro</italic> vitellogenin mRNA from cleavage by endonuclease PMR-1 (<xref rid="B107" ref-type="bibr">107</xref>), while ELAVL1 is described in the literature usually as a stabilization factor, which prevents the degradation of mRNAs possessing short tails (<xref rid="B108" ref-type="bibr">108</xref>â<xref rid="B110" ref-type="bibr">110</xref>). FAM46 proteins can be also involved in a ribosome biogenesis (like POLR1A, POLR1E interactors (<xref rid="B111" ref-type="bibr">111</xref>,<xref rid="B112" ref-type="bibr">112</xref>)) or they can (de)stabilize a nuclear pool of extra-ribosomal RPL23 and the pre-60S trans-acting factor eIF6 (like BCCIP interactor (<xref rid="B113" ref-type="bibr">113</xref>)). By interacting with telomerase Cajal body protein 1 (WRAP53), FAM46 family members may change 3â² ends of small Cajal body RNAs, which are involved in modifying splicing RNAs (<xref rid="B114" ref-type="bibr">114</xref>). Together with the Box C/D snoRNA protein 1 (ZNHIT6), they may also participate in snoRNP biogenesis, which is essential for the processing and modification of rRNA (<xref rid="B89" ref-type="bibr">89</xref>). Finally, FAM46 proteins (together with DAZAP2 and major vault proteins (MVP)) may modify RNAs which build ribonucleoproteins complexes like stress granules (<xref rid="B85" ref-type="bibr">85</xref>) and vaults composed of MVP, vault poly(adenosine diphosphate-ribose) polymerases (VPARP), telomerase-associated proteins (TEP1) and small untranslated RNAs (vRNAs) (<xref rid="B87" ref-type="bibr">87</xref>,<xref rid="B88" ref-type="bibr">88</xref>).</p><p>The FAM46 family members seem to be highly regulated proteins. The process, in which these new non-canonical poly(A) polymerases participate, is probably determined by their tissue-specific expression and gene organization. As reported in the BioGPS database, tissue expression levels are different for each human FAM46 paralog. Moreover, the human FAM46 proteins are likely to be regulated by phosphorylation. Each human paralog has many phosphorylation patterns detectable with ELM predictor (<xref rid="B27" ref-type="bibr">27</xref>) with high probability scores (data not shown). For instance, FAM46A, FAM46B and FAM46C have two potential phosphoserine sites (a LIG_PLK pattern) recognized by the Polo-like kinase, which is a known human FAM46C interacting partner.</p></sec></sec><sec sec-type="conclusions" id="SEC4"><title>CONCLUSION</title><p>A comprehensive analysis of various biological information available in literature and databases combined with numerous sequence and structure analyses (including a state-of-the-art distant homology detection, fold recognition and 3D modelling) allowed us to propose that FAM46 members function as cytoplasmic and/or nuclear non-canonical poly(A) polymerases. Four human FAM46 paralogs thus complement the group of already known non-canonical poly(A) polymerases in humans embracing seven proteins: RBM21 (U6 TUTase, Star-PAP, TUT6), hGLD2 (PAPD4, TUT2), hmtPAP (PAPD1, TUT1), POLS (TUT5), PAPD5 (TUT3), ZCCHC6 (TUT7) and ZCCHC11 (TUT4). ZCCHC6 and ZCCHC11 mono-uridylate the 3â² end of specific miRNAs involved in cell differentiation and Homeobox (Hox) gene control (<xref rid="B115" ref-type="bibr">115</xref>). The hmtPAP produces poly(A) tails in mitochondria (<xref rid="B116" ref-type="bibr">116</xref>). The RBM21 catalyzes the uridylation of U6 snRNA involved in pre-mRNA splicing (<xref rid="B117" ref-type="bibr">117</xref>). The hGLD2 generates poly(A) tails of selected cytoplasmic mRNAs (<xref rid="B118" ref-type="bibr">118</xref>). The PAPD5 participates in the polyadenylation-mediated degradation of aberrant pre-rRNA and in replication-dependent histone mRNA degradation (<xref rid="B119" ref-type="bibr">119</xref>). Unfortunately, we are not able to predict the exact type of RNA that can be modified by FAM46 proteins. However, taking into account all the identified FAM46 interacting partners, we can speculate that FAM46 proteins could modify the 3â² end of mRNAs, small Cajal body RNAs and vRNAs. In addition, they may also participate in snoRNP and ribosome biogenesis, and (de)stabilize a nuclear pool of extra-ribosomal RPL23 and the pre-60S trans-acting factor eIF6.</p><p>The FAM46 family members as well as all the known non-canonical poly(A) polymerases share the two following domains: a PAP/OAS1 SBD with an inserted NTase domain right after the first core Î±-helix. In this work, we showed that proteins with such domain architecture, in addition to highly conserved NTase domain patterns ([DE]h[DE]h, h[DE]h and hG[GS]), possess also three additional, conserved amino acids critical for NTP binding. These residues embrace serine or threonine in the last Î±-helix of the NTase domain, and lysine/arginine and a hydrophobic amino acid located in the second and third PAP/OAS1 SBD core Î±-helix, respectively. Although the FAM46 proteins retain serine or cysteine in the last Î±-helix of the NTase domain, it is possible that the conserved insertion between the last core Î²-strand and Î±-helix in FAM46 NTase domain may substitute the role of the conserved Ser/Thr at least for some family members, enabling them to catalyze the modification of selected RNA 3â² ends.</p><p>We also performed a systematic search for missense mutations in human FAM46 genes, found in cancer patients. Collected mutation data from various databases and literature, combined with sequence/structure analyses suggest that, in addition to multiple myeloma, FAM46 genes may be also involved in the development of other major malignancies including lung, colorectal, hepatocellular, head and neck, urothelial, endometrial and renal papillary carcinomas and melanoma. We identified several single point mutations of highly conserved FAM46 amino acids that may affect the enzyme catalytic activity, processivity and substrate binding (e.g. by changing the preference for the type of incorporated NTP). Consequently, these mutations can lead to deregulation of specific RNAs as an oncogenic mechanism in multiple myeloma and other cancers. This is consistent with previous studies which showed a correlation between RNA deregulation (e.g. mRNA (<xref rid="B120" ref-type="bibr">120</xref>), microRNA (<xref rid="B121" ref-type="bibr">121</xref>,<xref rid="B122" ref-type="bibr">122</xref>), long non-coding RNA (<xref rid="B123" ref-type="bibr">123</xref>), small non-coding RNA (<xref rid="B124" ref-type="bibr">124</xref>)) and various diseases including cancers.</p><p>Summarizing, this work provides functional and structural annotation for novel and highly important enzymes involved in RNA metabolism in eukaryotes and thus may guide functional studies of these previously uncharacterized proteins. Further experimental investigations should address the predicted activity and clarify potential substrates to provide more insight into the detailed biological roles of these newly detected non-canonical poly(A) polymerases.</p></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>SUPPLEMENTARY DATA</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_44_8_3534__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="x-zip-compressed" xlink:href="supp_gkw222_nar-00609-n-2016-File007.zip"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <ack>
+      <p>The authors thank Wayne Dawson for proofreading the manuscript.</p>
+    </ack>
+    <sec id="SEC5">
+      <title>SUPPLEMENTARY DATA</title>
+      <p><ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/lookup/suppl/doi:10.1093/nar/gkw222/-/DC1">Supplementary Data</ext-link> are available at NAR Online.</p>
+    </sec>
+    <sec id="SEC6">
+      <title>FUNDING</title>
+      <p>Foundation for Polish Science [TEAM/2010-6 to K.G.]; Polish National Science Centre [2011/02/A/NZ2/00014 and 2014/15/B/NZ1/03357 to K.G.]; National Centre for Research and Development [INNOTECH-K2/HI2/19/184217/NCBR/13 to L.R.]; European Commission [FP7-KBBE-2011-289646 to L.R.]. A.M. and K.S. were the recipients of the fellowship from the Ministry of Science and Higher Education. Funding for open access charge: Polish National Science Centre [2014/15/B/NZ1/03357].</p>
+      <p><italic>Conflict of interest statement</italic>. None declared.</p>
+    </sec>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuchta</surname><given-names>K.</given-names></name><name><surname>Knizewski</surname><given-names>L.</given-names></name><name><surname>Wyrwicz</surname><given-names>L.S.</given-names></name><name><surname>Rychlewski</surname><given-names>L.</given-names></name><name><surname>Ginalski</surname><given-names>K.</given-names></name></person-group>
+<article-title>Comprehensive classification of nucleotidyltransferase fold proteins: identification of novel families and their representatives in human</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2009</year>
+<volume>37</volume>
+<fpage>7701</fpage><lpage>7714</lpage><pub-id pub-id-type="pmid">19833706</pub-id></element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barragan</surname><given-names>I.</given-names></name><name><surname>Borrego</surname><given-names>S.</given-names></name><name><surname>AbdÂ El-Aziz</surname><given-names>M.M.</given-names></name><name><surname>El-Ashry</surname><given-names>M.F.</given-names></name><name><surname>Abu-Safieh</surname><given-names>L.</given-names></name><name><surname>Bhattacharya</surname><given-names>S.S.</given-names></name><name><surname>Antinolo</surname><given-names>G.</given-names></name></person-group>
+<article-title>Genetic analysis of FAM46A in Spanish families with autosomal recessive retinitis pigmentosa: characterisation of novel VNTRs</article-title>
+<source>Ann. Hum. Genet.</source>
+<year>2008</year>
+<volume>72</volume>
+<fpage>26</fpage><lpage>34</lpage><pub-id pub-id-type="pmid">17803723</pub-id></element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Etokebe</surname><given-names>G.E.</given-names></name><name><surname>Bulat-Kardum</surname><given-names>L.</given-names></name><name><surname>Munthe</surname><given-names>L.A.</given-names></name><name><surname>Balen</surname><given-names>S.</given-names></name><name><surname>Dembic</surname><given-names>Z.</given-names></name></person-group>
+<article-title>Association of variable number of tandem repeats in the coding region of the FAM46A gene, FAM46A rs11040 SNP and BAG6 rs3117582 SNP with susceptibility to tuberculosis</article-title>
+<source>PLoS One</source>
+<year>2014</year>
+<volume>9</volume>
+<fpage>e91385</fpage><pub-id pub-id-type="pmid">24625963</pub-id></element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Benjachat</surname><given-names>T.</given-names></name><name><surname>Tongyoo</surname><given-names>P.</given-names></name><name><surname>Tantivitayakul</surname><given-names>P.</given-names></name><name><surname>Somparn</surname><given-names>P.</given-names></name><name><surname>Hirankarn</surname><given-names>N.</given-names></name><name><surname>Prom-On</surname><given-names>S.</given-names></name><name><surname>Pisitkun</surname><given-names>P.</given-names></name><name><surname>Leelahavanichkul</surname><given-names>A.</given-names></name><name><surname>Avihingsanon</surname><given-names>Y.</given-names></name><name><surname>Townamchai</surname><given-names>N.</given-names></name></person-group>
+<article-title>Biomarkers for refractory Lupus nephritis: a microarray study of kidney tissue</article-title>
+<source>Int. J. Mol. Sci.</source>
+<year>2015</year>
+<volume>16</volume>
+<fpage>14276</fpage><lpage>14290</lpage><pub-id pub-id-type="pmid">26110394</pub-id></element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boyd</surname><given-names>K.D.</given-names></name><name><surname>Ross</surname><given-names>F.M.</given-names></name><name><surname>Walker</surname><given-names>B.A.</given-names></name><name><surname>Wardell</surname><given-names>C.P.</given-names></name><name><surname>Tapper</surname><given-names>W.J.</given-names></name><name><surname>Chiecchio</surname><given-names>L.</given-names></name><name><surname>Dagrada</surname><given-names>G.</given-names></name><name><surname>Konn</surname><given-names>Z.J.</given-names></name><name><surname>Gregory</surname><given-names>W.M.</given-names></name><name><surname>Jackson</surname><given-names>G.H.</given-names></name><etal/></person-group>
+<article-title>Mapping of chromosome 1p deletions in myeloma identifies FAM46C at 1p12 and CDKN2C at 1p32.3 as being genes in regions associated with adverse survival</article-title>
+<source>Clin. Cancer Res.</source>
+<year>2011</year>
+<volume>17</volume>
+<fpage>7776</fpage><lpage>7784</lpage><pub-id pub-id-type="pmid">21994415</pub-id></element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chapman</surname><given-names>M.A.</given-names></name><name><surname>Lawrence</surname><given-names>M.S.</given-names></name><name><surname>Keats</surname><given-names>J.J.</given-names></name><name><surname>Cibulskis</surname><given-names>K.</given-names></name><name><surname>Sougnez</surname><given-names>C.</given-names></name><name><surname>Schinzel</surname><given-names>A.C.</given-names></name><name><surname>Harview</surname><given-names>C.L.</given-names></name><name><surname>Brunet</surname><given-names>J.P.</given-names></name><name><surname>Ahmann</surname><given-names>G.J.</given-names></name><name><surname>Adli</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>Initial genome sequencing and analysis of multiple myeloma</article-title>
+<source>Nature</source>
+<year>2011</year>
+<volume>471</volume>
+<fpage>467</fpage><lpage>472</lpage><pub-id pub-id-type="pmid">21430775</pub-id></element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kortum</surname><given-names>K.M.</given-names></name><name><surname>Langer</surname><given-names>C.</given-names></name><name><surname>Monge</surname><given-names>J.</given-names></name><name><surname>Bruins</surname><given-names>L.</given-names></name><name><surname>Zhu</surname><given-names>Y.X.</given-names></name><name><surname>Shi</surname><given-names>C.X.</given-names></name><name><surname>Jedlowski</surname><given-names>P.</given-names></name><name><surname>Egan</surname><given-names>J.B.</given-names></name><name><surname>Ojha</surname><given-names>J.</given-names></name><name><surname>Bullinger</surname><given-names>L.</given-names></name><etal/></person-group>
+<article-title>Longitudinal analysis of 25 sequential sample-pairs using a custom multiple myeloma mutation sequencing panel (M(3)P)</article-title>
+<source>Ann. Hematol.</source>
+<year>2015</year>
+<volume>94</volume>
+<fpage>1205</fpage><lpage>1211</lpage><pub-id pub-id-type="pmid">25743686</pub-id></element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamilton</surname><given-names>S.M.</given-names></name><name><surname>Spencer</surname><given-names>C.M.</given-names></name><name><surname>Harrison</surname><given-names>W.R.</given-names></name><name><surname>Yuva-Paylor</surname><given-names>L.A.</given-names></name><name><surname>Graham</surname><given-names>D.F.</given-names></name><name><surname>Daza</surname><given-names>R.A.</given-names></name><name><surname>Hevner</surname><given-names>R.F.</given-names></name><name><surname>Overbeek</surname><given-names>P.A.</given-names></name><name><surname>Paylor</surname><given-names>R.</given-names></name></person-group>
+<article-title>Multiple autism-like behaviors in a novel transgenic mouse model</article-title>
+<source>Behav. Brain Res.</source>
+<year>2011</year>
+<volume>218</volume>
+<fpage>29</fpage><lpage>41</lpage><pub-id pub-id-type="pmid">21093492</pub-id></element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuehl</surname><given-names>W.M.</given-names></name><name><surname>Bergsagel</surname><given-names>P.L.</given-names></name></person-group>
+<article-title>Molecular pathogenesis of multiple myeloma and its premalignant precursor</article-title>
+<source>J. Clin. Invest.</source>
+<year>2012</year>
+<volume>122</volume>
+<fpage>3456</fpage><lpage>3463</lpage><pub-id pub-id-type="pmid">23023717</pub-id></element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barbieri</surname><given-names>M.</given-names></name><name><surname>Manzoni</surname><given-names>M.</given-names></name><name><surname>Fabris</surname><given-names>S.</given-names></name><name><surname>Ciceri</surname><given-names>G.</given-names></name><name><surname>Todoerti</surname><given-names>K.</given-names></name><name><surname>Simeon</surname><given-names>V.</given-names></name><name><surname>Musto</surname><given-names>P.</given-names></name><name><surname>Cortelezzi</surname><given-names>A.</given-names></name><name><surname>Baldini</surname><given-names>L.</given-names></name><name><surname>Neri</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Compendium of FAM46C gene mutations in plasma cell dyscrasias</article-title>
+<source>Br. J. Haematol.</source>
+<year>2015</year><comment>doi:10.1111/bjh.13793</comment></element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bettoni</surname><given-names>F.</given-names></name><name><surname>Filho</surname><given-names>F.C.</given-names></name><name><surname>Grosso</surname><given-names>D.M.</given-names></name><name><surname>Galante</surname><given-names>P.A.</given-names></name><name><surname>Parmigiani</surname><given-names>R.B.</given-names></name><name><surname>Geraldo</surname><given-names>M.V.</given-names></name><name><surname>Henrique-Silva</surname><given-names>F.</given-names></name><name><surname>Oba-Shinjo</surname><given-names>S.M.</given-names></name><name><surname>Marie</surname><given-names>S.K.</given-names></name><name><surname>Soares</surname><given-names>F.A.</given-names></name><etal/></person-group>
+<article-title>Identification of FAM46D as a novel cancer/testis antigen using EST data and serological analysis</article-title>
+<source>Genomics</source>
+<year>2009</year>
+<volume>94</volume>
+<fpage>153</fpage><lpage>160</lpage><pub-id pub-id-type="pmid">19540335</pub-id></element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Colland</surname><given-names>F.</given-names></name><name><surname>Jacq</surname><given-names>X.</given-names></name><name><surname>Trouplin</surname><given-names>V.</given-names></name><name><surname>Mougin</surname><given-names>C.</given-names></name><name><surname>Groizeleau</surname><given-names>C.</given-names></name><name><surname>Hamburger</surname><given-names>A.</given-names></name><name><surname>Meil</surname><given-names>A.</given-names></name><name><surname>Wojcik</surname><given-names>J.</given-names></name><name><surname>Legrain</surname><given-names>P.</given-names></name><name><surname>Gauthier</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>Functional proteomics mapping of a human signaling pathway</article-title>
+<source>Genome Res.</source>
+<year>2004</year>
+<volume>14</volume>
+<fpage>1324</fpage><lpage>1332</lpage><pub-id pub-id-type="pmid">15231748</pub-id></element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Etokebe</surname><given-names>G.E.</given-names></name><name><surname>Kuchler</surname><given-names>A.M.</given-names></name><name><surname>Haraldsen</surname><given-names>G.</given-names></name><name><surname>Landin</surname><given-names>M.</given-names></name><name><surname>Osmundsen</surname><given-names>H.</given-names></name><name><surname>Dembic</surname><given-names>Z.</given-names></name></person-group>
+<article-title>Family-with-sequence-similarity-46, member A (Fam46a) gene is expressed in developing tooth buds</article-title>
+<source>Arch. Oral Biol.</source>
+<year>2009</year>
+<volume>54</volume>
+<fpage>1002</fpage><lpage>1007</lpage><pub-id pub-id-type="pmid">19740458</pub-id></element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schoggins</surname><given-names>J.W.</given-names></name><name><surname>Wilson</surname><given-names>S.J.</given-names></name><name><surname>Panis</surname><given-names>M.</given-names></name><name><surname>Murphy</surname><given-names>M.Y.</given-names></name><name><surname>Jones</surname><given-names>C.T.</given-names></name><name><surname>Bieniasz</surname><given-names>P.</given-names></name><name><surname>Rice</surname><given-names>C.M.</given-names></name></person-group>
+<article-title>A diverse range of gene products are effectors of the type I interferon antiviral response</article-title>
+<source>Nature</source>
+<year>2011</year>
+<volume>472</volume>
+<fpage>481</fpage><lpage>485</lpage><pub-id pub-id-type="pmid">21478870</pub-id></element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Campbell</surname><given-names>C.L.</given-names></name><name><surname>Torres-Perez</surname><given-names>F.</given-names></name><name><surname>Acuna-Retamar</surname><given-names>M.</given-names></name><name><surname>Schountz</surname><given-names>T.</given-names></name></person-group>
+<article-title>Transcriptome markers of viral persistence in naturally-infected andes virus (bunyaviridae) seropositive long-tailed pygmy rice rats</article-title>
+<source>PLoS One</source>
+<year>2015</year>
+<volume>10</volume>
+<fpage>e0122935</fpage><pub-id pub-id-type="pmid">25856432</pub-id></element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>S.F.</given-names></name><name><surname>Madden</surname><given-names>T.L.</given-names></name><name><surname>Schaffer</surname><given-names>A.A.</given-names></name><name><surname>Zhang</surname><given-names>J.</given-names></name><name><surname>Zhang</surname><given-names>Z.</given-names></name><name><surname>Miller</surname><given-names>W.</given-names></name><name><surname>Lipman</surname><given-names>D.J.</given-names></name></person-group>
+<article-title>Gapped BLAST and PSI-BLAST: a new generation of protein database search programs</article-title>
+<source>Nucleic Acids Res.</source>
+<year>1997</year>
+<volume>25</volume>
+<fpage>3389</fpage><lpage>3402</lpage><pub-id pub-id-type="pmid">9254694</pub-id></element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fu</surname><given-names>L.</given-names></name><name><surname>Niu</surname><given-names>B.</given-names></name><name><surname>Zhu</surname><given-names>Z.</given-names></name><name><surname>Wu</surname><given-names>S.</given-names></name><name><surname>Li</surname><given-names>W.</given-names></name></person-group>
+<article-title>CD-HIT: accelerated for clustering the next-generation sequencing data</article-title>
+<source>Bioinformatics</source>
+<year>2012</year>
+<volume>28</volume>
+<fpage>3150</fpage><lpage>3152</lpage><pub-id pub-id-type="pmid">23060610</pub-id></element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katoh</surname><given-names>K.</given-names></name><name><surname>Standley</surname><given-names>D.M.</given-names></name></person-group>
+<article-title>MAFFT multiple sequence alignment software version 7: improvements in performance and usability</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2013</year>
+<volume>30</volume>
+<fpage>772</fpage><lpage>780</lpage><pub-id pub-id-type="pmid">23329690</pub-id></element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Capella-Gutierrez</surname><given-names>S.</given-names></name><name><surname>Silla-Martinez</surname><given-names>J.M.</given-names></name><name><surname>Gabaldon</surname><given-names>T.</given-names></name></person-group>
+<article-title>trimAl: a tool for automated alignment trimming in large-scale phylogenetic analyses</article-title>
+<source>Bioinformatics</source>
+<year>2009</year>
+<volume>25</volume>
+<fpage>1972</fpage><lpage>1973</lpage><pub-id pub-id-type="pmid">19505945</pub-id></element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyer</surname><given-names>L.R.</given-names></name><name><surname>Zweig</surname><given-names>A.S.</given-names></name><name><surname>Hinrichs</surname><given-names>A.S.</given-names></name><name><surname>Karolchik</surname><given-names>D.</given-names></name><name><surname>Kuhn</surname><given-names>R.M.</given-names></name><name><surname>Wong</surname><given-names>M.</given-names></name><name><surname>Sloan</surname><given-names>C.A.</given-names></name><name><surname>Rosenbloom</surname><given-names>K.R.</given-names></name><name><surname>Roe</surname><given-names>G.</given-names></name><name><surname>Rhead</surname><given-names>B.</given-names></name><etal/></person-group>
+<article-title>The UCSC Genome Browser database: extensions and updates 2013</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>D64</fpage><lpage>D69</lpage><pub-id pub-id-type="pmid">23155063</pub-id></element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pierleoni</surname><given-names>A.</given-names></name><name><surname>Martelli</surname><given-names>P.L.</given-names></name><name><surname>Fariselli</surname><given-names>P.</given-names></name><name><surname>Casadio</surname><given-names>R.</given-names></name></person-group>
+<article-title>BaCelLo: a balanced subcellular localization predictor</article-title>
+<source>Bioinformatics</source>
+<year>2006</year>
+<volume>22</volume>
+<fpage>e408</fpage><lpage>e416</lpage><pub-id pub-id-type="pmid">16873501</pub-id></element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yu</surname><given-names>C.S.</given-names></name><name><surname>Chen</surname><given-names>Y.C.</given-names></name><name><surname>Lu</surname><given-names>C.H.</given-names></name><name><surname>Hwang</surname><given-names>J.K.</given-names></name></person-group>
+<article-title>Prediction of protein subcellular localization</article-title>
+<source>Proteins</source>
+<year>2006</year>
+<volume>64</volume>
+<fpage>643</fpage><lpage>651</lpage><pub-id pub-id-type="pmid">16752418</pub-id></element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horton</surname><given-names>P.</given-names></name><name><surname>Park</surname><given-names>K.J.</given-names></name><name><surname>Obayashi</surname><given-names>T.</given-names></name><name><surname>Fujita</surname><given-names>N.</given-names></name><name><surname>Harada</surname><given-names>H.</given-names></name><name><surname>Adams-Collier</surname><given-names>C.J.</given-names></name><name><surname>Nakai</surname><given-names>K.</given-names></name></person-group>
+<article-title>WoLF PSORT: protein localization predictor</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2007</year>
+<volume>35</volume>
+<fpage>W585</fpage><lpage>W587</lpage><pub-id pub-id-type="pmid">17517783</pub-id></element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chou</surname><given-names>K.C.</given-names></name><name><surname>Shen</surname><given-names>H.B.</given-names></name></person-group>
+<article-title>A new method for predicting the subcellular localization of eukaryotic proteins with both single and multiple sites: Euk-mPLoc 2.0</article-title>
+<source>PLoS One</source>
+<year>2010</year>
+<volume>5</volume>
+<fpage>e9931</fpage><pub-id pub-id-type="pmid">20368981</pub-id></element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoglund</surname><given-names>A.</given-names></name><name><surname>Donnes</surname><given-names>P.</given-names></name><name><surname>Blum</surname><given-names>T.</given-names></name><name><surname>Adolph</surname><given-names>H.W.</given-names></name><name><surname>Kohlbacher</surname><given-names>O.</given-names></name></person-group>
+<article-title>MultiLoc: prediction of protein subcellular localization using N-terminal targeting sequences, sequence motifs and amino acid composition</article-title>
+<source>Bioinformatics</source>
+<year>2006</year>
+<volume>22</volume>
+<fpage>1158</fpage><lpage>1165</lpage><pub-id pub-id-type="pmid">16428265</pub-id></element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>laÂ Cour</surname><given-names>T.</given-names></name><name><surname>Kiemer</surname><given-names>L.</given-names></name><name><surname>Molgaard</surname><given-names>A.</given-names></name><name><surname>Gupta</surname><given-names>R.</given-names></name><name><surname>Skriver</surname><given-names>K.</given-names></name><name><surname>Brunak</surname><given-names>S.</given-names></name></person-group>
+<article-title>Analysis and prediction of leucine-rich nuclear export signals</article-title>
+<source>Protein Eng. Des. Sel.</source>
+<year>2004</year>
+<volume>17</volume>
+<fpage>527</fpage><lpage>536</lpage><pub-id pub-id-type="pmid">15314210</pub-id></element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dinkel</surname><given-names>H.</given-names></name><name><surname>VanÂ Roey</surname><given-names>K.</given-names></name><name><surname>Michael</surname><given-names>S.</given-names></name><name><surname>Davey</surname><given-names>N.E.</given-names></name><name><surname>Weatheritt</surname><given-names>R.J.</given-names></name><name><surname>Born</surname><given-names>D.</given-names></name><name><surname>Speck</surname><given-names>T.</given-names></name><name><surname>Kruger</surname><given-names>D.</given-names></name><name><surname>Grebnev</surname><given-names>G.</given-names></name><name><surname>Kuban</surname><given-names>M.</given-names></name><etal/></person-group>
+<article-title>The eukaryotic linear motif resource ELM: 10 years and counting</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>D259</fpage><lpage>D266</lpage><pub-id pub-id-type="pmid">24214962</pub-id></element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>C.</given-names></name><name><surname>Macleod</surname><given-names>I.</given-names></name><name><surname>Su</surname><given-names>A.I.</given-names></name></person-group>
+<article-title>BioGPS and MyGene.info: organizing online, gene-centric information</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2013</year>
+<volume>41</volume>
+<fpage>D561</fpage><lpage>D565</lpage><pub-id pub-id-type="pmid">23175613</pub-id></element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCall</surname><given-names>M.N.</given-names></name><name><surname>Uppal</surname><given-names>K.</given-names></name><name><surname>Jaffee</surname><given-names>H.A.</given-names></name><name><surname>Zilliox</surname><given-names>M.J.</given-names></name><name><surname>Irizarry</surname><given-names>R.A.</given-names></name></person-group>
+<article-title>The Gene Expression Barcode: leveraging public data repositories to begin cataloging the human and murine transcriptomes</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2011</year>
+<volume>39</volume>
+<fpage>D1011</fpage><lpage>D1015</lpage><pub-id pub-id-type="pmid">21177656</pub-id></element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ginalski</surname><given-names>K.</given-names></name><name><surname>vonÂ Grotthuss</surname><given-names>M.</given-names></name><name><surname>Grishin</surname><given-names>N.V.</given-names></name><name><surname>Rychlewski</surname><given-names>L.</given-names></name></person-group>
+<article-title>Detecting distant homology with Meta-BASIC</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2004</year>
+<volume>32</volume>
+<fpage>W576</fpage><lpage>W581</lpage><pub-id pub-id-type="pmid">15215454</pub-id></element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schultz</surname><given-names>J.</given-names></name><name><surname>Milpetz</surname><given-names>F.</given-names></name><name><surname>Bork</surname><given-names>P.</given-names></name><name><surname>Ponting</surname><given-names>C.P.</given-names></name></person-group>
+<article-title>SMART, a simple modular architecture research tool: identification of signaling domains</article-title>
+<source>Proc. Natl Acad. Sci. U. S. A.</source>
+<year>1998</year>
+<volume>95</volume>
+<fpage>5857</fpage><lpage>5864</lpage><pub-id pub-id-type="pmid">9600884</pub-id></element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Finn</surname><given-names>R.D.</given-names></name><name><surname>Tate</surname><given-names>J.</given-names></name><name><surname>Mistry</surname><given-names>J.</given-names></name><name><surname>Coggill</surname><given-names>P.C.</given-names></name><name><surname>Sammut</surname><given-names>S.J.</given-names></name><name><surname>Hotz</surname><given-names>H.R.</given-names></name><name><surname>Ceric</surname><given-names>G.</given-names></name><name><surname>Forslund</surname><given-names>K.</given-names></name><name><surname>Eddy</surname><given-names>S.R.</given-names></name><name><surname>Sonnhammer</surname><given-names>E.L.</given-names></name><etal/></person-group>
+<article-title>The Pfam protein families database</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2008</year>
+<volume>36</volume>
+<fpage>D281</fpage><lpage>D288</lpage><pub-id pub-id-type="pmid">18039703</pub-id></element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tatusov</surname><given-names>R.L.</given-names></name><name><surname>Galperin</surname><given-names>M.Y.</given-names></name><name><surname>Natale</surname><given-names>D.A.</given-names></name><name><surname>Koonin</surname><given-names>E.V.</given-names></name></person-group>
+<article-title>The COG database: a tool for genome-scale analysis of protein functions and evolution</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2000</year>
+<volume>28</volume>
+<fpage>33</fpage><lpage>36</lpage><pub-id pub-id-type="pmid">10592175</pub-id></element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koonin</surname><given-names>E.V.</given-names></name><name><surname>Fedorova</surname><given-names>N.D.</given-names></name><name><surname>Jackson</surname><given-names>J.D.</given-names></name><name><surname>Jacobs</surname><given-names>A.R.</given-names></name><name><surname>Krylov</surname><given-names>D.M.</given-names></name><name><surname>Makarova</surname><given-names>K.S.</given-names></name><name><surname>Mazumder</surname><given-names>R.</given-names></name><name><surname>Mekhedov</surname><given-names>S.L.</given-names></name><name><surname>Nikolskaya</surname><given-names>A.N.</given-names></name><name><surname>Rao</surname><given-names>B.S.</given-names></name><etal/></person-group>
+<article-title>A comprehensive evolutionary classification of proteins encoded in complete eukaryotic genomes</article-title>
+<source>Genome Biol.</source>
+<year>2004</year>
+<volume>5</volume>
+<fpage>R7</fpage><pub-id pub-id-type="pmid">14759257</pub-id></element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berman</surname><given-names>H.M.</given-names></name><name><surname>Westbrook</surname><given-names>J.</given-names></name><name><surname>Feng</surname><given-names>Z.</given-names></name><name><surname>Gilliland</surname><given-names>G.</given-names></name><name><surname>Bhat</surname><given-names>T.N.</given-names></name><name><surname>Weissig</surname><given-names>H.</given-names></name><name><surname>Shindyalov</surname><given-names>I.N.</given-names></name><name><surname>Bourne</surname><given-names>P.E.</given-names></name></person-group>
+<article-title>The Protein Data Bank</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2000</year>
+<volume>28</volume>
+<fpage>235</fpage><lpage>242</lpage><pub-id pub-id-type="pmid">10592235</pub-id></element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murzin</surname><given-names>A.G.</given-names></name><name><surname>Brenner</surname><given-names>S.E.</given-names></name><name><surname>Hubbard</surname><given-names>T.</given-names></name><name><surname>Chothia</surname><given-names>C.</given-names></name></person-group>
+<article-title>SCOP: a structural classification of proteins database for the investigation of sequences and structures</article-title>
+<source>J. Mol. Biol.</source>
+<year>1995</year>
+<volume>247</volume>
+<fpage>536</fpage><lpage>540</lpage><pub-id pub-id-type="pmid">7723011</pub-id></element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jones</surname><given-names>D.T.</given-names></name></person-group>
+<article-title>Protein secondary structure prediction based on position-specific scoring matrices</article-title>
+<source>J. Mol. Biol.</source>
+<year>1999</year>
+<volume>292</volume>
+<fpage>195</fpage><lpage>202</lpage><pub-id pub-id-type="pmid">10493868</pub-id></element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holm</surname><given-names>L.</given-names></name><name><surname>Sander</surname><given-names>C.</given-names></name></person-group>
+<article-title>Mapping the protein universe</article-title>
+<source>Science</source>
+<year>1996</year>
+<volume>273</volume>
+<fpage>595</fpage><lpage>603</lpage><pub-id pub-id-type="pmid">8662544</pub-id></element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kabsch</surname><given-names>W.</given-names></name><name><surname>Sander</surname><given-names>C.</given-names></name></person-group>
+<article-title>Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features</article-title>
+<source>Biopolymers</source>
+<year>1983</year>
+<volume>22</volume>
+<fpage>2577</fpage><lpage>2637</lpage><pub-id pub-id-type="pmid">6667333</pub-id></element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ginalski</surname><given-names>K.</given-names></name><name><surname>Elofsson</surname><given-names>A.</given-names></name><name><surname>Fischer</surname><given-names>D.</given-names></name><name><surname>Rychlewski</surname><given-names>L.</given-names></name></person-group>
+<article-title>3D-Jury: a simple approach to improve protein structure predictions</article-title>
+<source>Bioinformatics</source>
+<year>2003</year>
+<volume>19</volume>
+<fpage>1015</fpage><lpage>1018</lpage><pub-id pub-id-type="pmid">12761065</pub-id></element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ginalski</surname><given-names>K.</given-names></name><name><surname>Rychlewski</surname><given-names>L.</given-names></name></person-group>
+<article-title>Protein structure prediction of CASP5 comparative modeling and fold recognition targets using consensus alignment approach and 3D assessment</article-title>
+<source>Proteins</source>
+<year>2003</year>
+<volume>53</volume><issue>Suppl. 6</issue><fpage>410</fpage><lpage>417</lpage><pub-id pub-id-type="pmid">14579329</pub-id></element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sali</surname><given-names>A.</given-names></name><name><surname>Blundell</surname><given-names>T.L.</given-names></name></person-group>
+<article-title>Comparative protein modelling by satisfaction of spatial restraints</article-title>
+<source>J. Mol. Biol.</source>
+<year>1993</year>
+<volume>234</volume>
+<fpage>779</fpage><lpage>815</lpage><pub-id pub-id-type="pmid">8254673</pub-id></element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stagno</surname><given-names>J.</given-names></name><name><surname>Aphasizheva</surname><given-names>I.</given-names></name><name><surname>Rosengarth</surname><given-names>A.</given-names></name><name><surname>Luecke</surname><given-names>H.</given-names></name><name><surname>Aphasizhev</surname><given-names>R.</given-names></name></person-group>
+<article-title>UTP-bound and Apo structures of a minimal RNA uridylyltransferase</article-title>
+<source>J. Mol. Biol.</source>
+<year>2007</year>
+<volume>366</volume>
+<fpage>882</fpage><lpage>899</lpage><pub-id pub-id-type="pmid">17189640</pub-id></element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>Q.</given-names></name><name><surname>Canutescu</surname><given-names>A.A.</given-names></name><name><surname>Dunbrack</surname><given-names>R.L.</given-names><suffix>Jr</suffix></name></person-group>
+<article-title>SCWRL and MolIDE: computer programs for side-chain conformation prediction and homology modeling</article-title>
+<source>Nat. Protoc.</source>
+<year>2008</year>
+<volume>3</volume>
+<fpage>1832</fpage><lpage>1847</lpage><pub-id pub-id-type="pmid">18989261</pub-id></element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wiederstein</surname><given-names>M.</given-names></name><name><surname>Sippl</surname><given-names>M.J.</given-names></name></person-group>
+<article-title>ProSA-web: interactive web service for the recognition of errors in three-dimensional structures of proteins</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2007</year>
+<volume>35</volume>
+<fpage>W407</fpage><lpage>W410</lpage><pub-id pub-id-type="pmid">17517781</pub-id></element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46.</label>
+        <element-citation publication-type="journal"><collab>UniProt Consortium</collab><article-title>UniProt: a hub for protein information</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2015</year>
+<volume>43</volume>
+<fpage>D204</fpage><lpage>D212</lpage><pub-id pub-id-type="pmid">25348405</pub-id></element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stark</surname><given-names>C.</given-names></name><name><surname>Breitkreutz</surname><given-names>B.J.</given-names></name><name><surname>Reguly</surname><given-names>T.</given-names></name><name><surname>Boucher</surname><given-names>L.</given-names></name><name><surname>Breitkreutz</surname><given-names>A.</given-names></name><name><surname>Tyers</surname><given-names>M.</given-names></name></person-group>
+<article-title>BioGRID: a general repository for interaction datasets</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2006</year>
+<volume>34</volume>
+<fpage>D535</fpage><lpage>D539</lpage><pub-id pub-id-type="pmid">16381927</pub-id></element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48.</label>
+        <element-citation publication-type="journal"><collab>Gene Ontology Consortium</collab><article-title>Gene Ontology Consortium: going forward</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2015</year>
+<volume>43</volume>
+<fpage>D1049</fpage><lpage>D1056</lpage><pub-id pub-id-type="pmid">25428369</pub-id></element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gao</surname><given-names>J.</given-names></name><name><surname>Aksoy</surname><given-names>B.A.</given-names></name><name><surname>Dogrusoz</surname><given-names>U.</given-names></name><name><surname>Dresdner</surname><given-names>G.</given-names></name><name><surname>Gross</surname><given-names>B.</given-names></name><name><surname>Sumer</surname><given-names>S.O.</given-names></name><name><surname>Sun</surname><given-names>Y.</given-names></name><name><surname>Jacobsen</surname><given-names>A.</given-names></name><name><surname>Sinha</surname><given-names>R.</given-names></name><name><surname>Larsson</surname><given-names>E.</given-names></name><etal/></person-group>
+<article-title>Integrative analysis of complex cancer genomics and clinical profiles using the cBioPortal</article-title>
+<source>Sci. Signal.</source>
+<year>2013</year>
+<volume>6</volume>
+<fpage>pl1</fpage><pub-id pub-id-type="pmid">23550210</pub-id></element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hudson</surname><given-names>T.J.</given-names></name><name><surname>Anderson</surname><given-names>W.</given-names></name><name><surname>Artez</surname><given-names>A.</given-names></name><name><surname>Barker</surname><given-names>A.D.</given-names></name><name><surname>Bell</surname><given-names>C.</given-names></name><name><surname>Bernabe</surname><given-names>R.R.</given-names></name><name><surname>Bhan</surname><given-names>M.K.</given-names></name><name><surname>Calvo</surname><given-names>F.</given-names></name><name><surname>Eerola</surname><given-names>I.</given-names></name><name><surname>Gerhard</surname><given-names>D.S.</given-names></name><etal/></person-group>
+<article-title>International network of cancer genome projects</article-title>
+<source>Nature</source>
+<year>2010</year>
+<volume>464</volume>
+<fpage>993</fpage><lpage>998</lpage><pub-id pub-id-type="pmid">20393554</pub-id></element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonzalez-Perez</surname><given-names>A.</given-names></name><name><surname>Perez-Llamas</surname><given-names>C.</given-names></name><name><surname>Deu-Pons</surname><given-names>J.</given-names></name><name><surname>Tamborero</surname><given-names>D.</given-names></name><name><surname>Schroeder</surname><given-names>M.P.</given-names></name><name><surname>Jene-Sanz</surname><given-names>A.</given-names></name><name><surname>Santos</surname><given-names>A.</given-names></name><name><surname>Lopez-Bigas</surname><given-names>N.</given-names></name></person-group>
+<article-title>IntOGen-mutations identifies cancer drivers across tumor types</article-title>
+<source>Nat. Methods</source>
+<year>2013</year>
+<volume>10</volume>
+<fpage>1081</fpage><lpage>1082</lpage><pub-id pub-id-type="pmid">24037244</pub-id></element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Capra</surname><given-names>J.A.</given-names></name><name><surname>Singh</surname><given-names>M.</given-names></name></person-group>
+<article-title>Predicting functionally important residues from sequence conservation</article-title>
+<source>Bioinformatics</source>
+<year>2007</year>
+<volume>23</volume>
+<fpage>1875</fpage><lpage>1882</lpage><pub-id pub-id-type="pmid">17519246</pub-id></element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>J.</given-names></name></person-group>
+<article-title>Divergence measures based on the Shannon entropy</article-title>
+<source>IEEE Trans. Inf. Theory</source>
+<year>1991</year>
+<volume>37</volume>
+<fpage>145</fpage><lpage>151</lpage></element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guindon</surname><given-names>S.</given-names></name><name><surname>Dufayard</surname><given-names>J.F.</given-names></name><name><surname>Lefort</surname><given-names>V.</given-names></name><name><surname>Anisimova</surname><given-names>M.</given-names></name><name><surname>Hordijk</surname><given-names>W.</given-names></name><name><surname>Gascuel</surname><given-names>O.</given-names></name></person-group>
+<article-title>New algorithms and methods to estimate maximum-likelihood phylogenies: assessing the performance of PhyML 3.0</article-title>
+<source>Syst. Biol.</source>
+<year>2010</year>
+<volume>59</volume>
+<fpage>307</fpage><lpage>321</lpage><pub-id pub-id-type="pmid">20525638</pub-id></element-citation>
+      </ref>
+      <ref id="B55">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anisimova</surname><given-names>M.</given-names></name><name><surname>Gascuel</surname><given-names>O.</given-names></name></person-group>
+<article-title>Approximate likelihood-ratio test for branches: A fast, accurate, and powerful alternative</article-title>
+<source>Syst. Biol.</source>
+<year>2006</year>
+<volume>55</volume>
+<fpage>539</fpage><lpage>552</lpage><pub-id pub-id-type="pmid">16785212</pub-id></element-citation>
+      </ref>
+      <ref id="B56">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Letunic</surname><given-names>I.</given-names></name><name><surname>Bork</surname><given-names>P.</given-names></name></person-group>
+<article-title>Interactive Tree Of Life v2: online annotation and display of phylogenetic trees made easy</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2011</year>
+<volume>39</volume>
+<fpage>W475</fpage><lpage>W478</lpage><pub-id pub-id-type="pmid">21470960</pub-id></element-citation>
+      </ref>
+      <ref id="B57">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brunet</surname><given-names>F.G.</given-names></name><name><surname>RoestÂ Crollius</surname><given-names>H.</given-names></name><name><surname>Paris</surname><given-names>M.</given-names></name><name><surname>Aury</surname><given-names>J.M.</given-names></name><name><surname>Gibert</surname><given-names>P.</given-names></name><name><surname>Jaillon</surname><given-names>O.</given-names></name><name><surname>Laudet</surname><given-names>V.</given-names></name><name><surname>Robinson-Rechavi</surname><given-names>M.</given-names></name></person-group>
+<article-title>Gene loss and evolutionary rates following whole-genome duplication in teleost fishes</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2006</year>
+<volume>23</volume>
+<fpage>1808</fpage><lpage>1816</lpage><pub-id pub-id-type="pmid">16809621</pub-id></element-citation>
+      </ref>
+      <ref id="B58">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peterson</surname><given-names>K.J.</given-names></name><name><surname>Butterfield</surname><given-names>N.J.</given-names></name></person-group>
+<article-title>Origin of the Eumetazoa: testing ecological predictions of molecular clocks against the Proterozoic fossil record</article-title>
+<source>Proc. Natl Acad. Sci. U.S.A.</source>
+<year>2005</year>
+<volume>102</volume>
+<fpage>9547</fpage><lpage>9552</lpage><pub-id pub-id-type="pmid">15983372</pub-id></element-citation>
+      </ref>
+      <ref id="B59">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>King</surname><given-names>N.</given-names></name><name><surname>Westbrook</surname><given-names>M.J.</given-names></name><name><surname>Young</surname><given-names>S.L.</given-names></name><name><surname>Kuo</surname><given-names>A.</given-names></name><name><surname>Abedin</surname><given-names>M.</given-names></name><name><surname>Chapman</surname><given-names>J.</given-names></name><name><surname>Fairclough</surname><given-names>S.</given-names></name><name><surname>Hellsten</surname><given-names>U.</given-names></name><name><surname>Isogai</surname><given-names>Y.</given-names></name><name><surname>Letunic</surname><given-names>I.</given-names></name><etal/></person-group>
+<article-title>The genome of the choanoflagellate Monosiga brevicollis and the origin of metazoans</article-title>
+<source>Nature</source>
+<year>2008</year>
+<volume>451</volume>
+<fpage>783</fpage><lpage>788</lpage><pub-id pub-id-type="pmid">18273011</pub-id></element-citation>
+      </ref>
+      <ref id="B60">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sun</surname><given-names>G.</given-names></name><name><surname>Yang</surname><given-names>Z.</given-names></name><name><surname>Ishwar</surname><given-names>A.</given-names></name><name><surname>Huang</surname><given-names>J.</given-names></name></person-group>
+<article-title>Algal genes in the closest relatives of animals</article-title>
+<source>Mol. Biol. Evol.</source>
+<year>2010</year>
+<volume>27</volume>
+<fpage>2879</fpage><lpage>2889</lpage><pub-id pub-id-type="pmid">20627874</pub-id></element-citation>
+      </ref>
+      <ref id="B61">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matsuzaka</surname><given-names>Y.</given-names></name><name><surname>Tounai</surname><given-names>K.</given-names></name><name><surname>Denda</surname><given-names>A.</given-names></name><name><surname>Tomizawa</surname><given-names>M.</given-names></name><name><surname>Makino</surname><given-names>S.</given-names></name><name><surname>Okamoto</surname><given-names>K.</given-names></name><name><surname>Keicho</surname><given-names>N.</given-names></name><name><surname>Oka</surname><given-names>A.</given-names></name><name><surname>Kulski</surname><given-names>J.K.</given-names></name><name><surname>Tamiya</surname><given-names>G.</given-names></name><etal/></person-group>
+<article-title>Identification of novel candidate genes in the diffuse panbronchiolitis critical region of the class I human MHC</article-title>
+<source>Immunogenetics</source>
+<year>2002</year>
+<volume>54</volume>
+<fpage>301</fpage><lpage>309</lpage><pub-id pub-id-type="pmid">12185533</pub-id></element-citation>
+      </ref>
+      <ref id="B62">
+        <label>62.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teif</surname><given-names>V.B.</given-names></name><name><surname>Vainshtein</surname><given-names>Y.</given-names></name><name><surname>Caudron-Herger</surname><given-names>M.</given-names></name><name><surname>Mallm</surname><given-names>J.P.</given-names></name><name><surname>Marth</surname><given-names>C.</given-names></name><name><surname>Hofer</surname><given-names>T.</given-names></name><name><surname>Rippe</surname><given-names>K.</given-names></name></person-group>
+<article-title>Genome-wide nucleosome positioning during embryonic stem cell development</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2012</year>
+<volume>19</volume>
+<fpage>1185</fpage><lpage>1192</lpage><pub-id pub-id-type="pmid">23085715</pub-id></element-citation>
+      </ref>
+      <ref id="B63">
+        <label>63.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hartmann</surname><given-names>R.</given-names></name><name><surname>Justesen</surname><given-names>J.</given-names></name><name><surname>Sarkar</surname><given-names>S.N.</given-names></name><name><surname>Sen</surname><given-names>G.C.</given-names></name><name><surname>Yee</surname><given-names>V.C.</given-names></name></person-group>
+<article-title>Crystal structure of the 2â²-specific and double-stranded RNA-activated interferon-induced antiviral protein 2â²-5â²-oligoadenylate synthetase</article-title>
+<source>Mol. Cell</source>
+<year>2003</year>
+<volume>12</volume>
+<fpage>1173</fpage><lpage>1185</lpage><pub-id pub-id-type="pmid">14636576</pub-id></element-citation>
+      </ref>
+      <ref id="B64">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuhn</surname><given-names>C.D.</given-names></name><name><surname>Wilusz</surname><given-names>J.E.</given-names></name><name><surname>Zheng</surname><given-names>Y.</given-names></name><name><surname>Beal</surname><given-names>P.A.</given-names></name><name><surname>Joshua-Tor</surname><given-names>L.</given-names></name></person-group>
+<article-title>On-enzyme refolding permits small RNA and tRNA surveillance by the CCA-adding enzyme</article-title>
+<source>Cell</source>
+<year>2015</year>
+<volume>160</volume>
+<fpage>644</fpage><lpage>658</lpage><pub-id pub-id-type="pmid">25640237</pub-id></element-citation>
+      </ref>
+      <ref id="B65">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhu</surname><given-names>D.</given-names></name><name><surname>Wang</surname><given-names>L.</given-names></name><name><surname>Shang</surname><given-names>G.</given-names></name><name><surname>Liu</surname><given-names>X.</given-names></name><name><surname>Zhu</surname><given-names>J.</given-names></name><name><surname>Lu</surname><given-names>D.</given-names></name><name><surname>Wang</surname><given-names>L.</given-names></name><name><surname>Kan</surname><given-names>B.</given-names></name><name><surname>Zhang</surname><given-names>J.R.</given-names></name><name><surname>Xiang</surname><given-names>Y.</given-names></name></person-group>
+<article-title>Structural biochemistry of a Vibrio cholerae dinucleotide cyclase reveals cyclase activity regulation by folates</article-title>
+<source>Mol. Cell</source>
+<year>2014</year>
+<volume>55</volume>
+<fpage>931</fpage><lpage>937</lpage><pub-id pub-id-type="pmid">25201413</pub-id></element-citation>
+      </ref>
+      <ref id="B66">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wolkowicz</surname><given-names>U.M.</given-names></name><name><surname>Cook</surname><given-names>A.G.</given-names></name></person-group>
+<article-title>NF45 dimerizes with NF90, Zfr and SPNR via a conserved domain that has a nucleotidyltransferase fold</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2012</year>
+<volume>40</volume>
+<fpage>9356</fpage><lpage>9368</lpage><pub-id pub-id-type="pmid">22833610</pub-id></element-citation>
+      </ref>
+      <ref id="B67">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Steczkiewicz</surname><given-names>K.</given-names></name><name><surname>Muszewska</surname><given-names>A.</given-names></name><name><surname>Knizewski</surname><given-names>L.</given-names></name><name><surname>Rychlewski</surname><given-names>L.</given-names></name><name><surname>Ginalski</surname><given-names>K.</given-names></name></person-group>
+<article-title>Sequence, structure and functional diversity of PD-(D/E)XK phosphodiesterase superfamily</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2012</year>
+<volume>40</volume>
+<fpage>7016</fpage><lpage>7045</lpage><pub-id pub-id-type="pmid">22638584</pub-id></element-citation>
+      </ref>
+      <ref id="B68">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Majorek</surname><given-names>K.A.</given-names></name><name><surname>Dunin-Horkawicz</surname><given-names>S.</given-names></name><name><surname>Steczkiewicz</surname><given-names>K.</given-names></name><name><surname>Muszewska</surname><given-names>A.</given-names></name><name><surname>Nowotny</surname><given-names>M.</given-names></name><name><surname>Ginalski</surname><given-names>K.</given-names></name><name><surname>Bujnicki</surname><given-names>J.M.</given-names></name></person-group>
+<article-title>The RNase H-like superfamily: new members, comparative structural analysis and evolutionary classification</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>4160</fpage><lpage>4179</lpage><pub-id pub-id-type="pmid">24464998</pub-id></element-citation>
+      </ref>
+      <ref id="B69">
+        <label>69.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sakon</surname><given-names>J.</given-names></name><name><surname>Liao</surname><given-names>H.H.</given-names></name><name><surname>Kanikula</surname><given-names>A.M.</given-names></name><name><surname>Benning</surname><given-names>M.M.</given-names></name><name><surname>Rayment</surname><given-names>I.</given-names></name><name><surname>Holden</surname><given-names>H.M.</given-names></name></person-group>
+<article-title>Molecular structure of kanamycin nucleotidyltransferase determined to 3.0-A resolution</article-title>
+<source>Biochemistry</source>
+<year>1993</year>
+<volume>32</volume>
+<fpage>11977</fpage><lpage>11984</lpage><pub-id pub-id-type="pmid">8218273</pub-id></element-citation>
+      </ref>
+      <ref id="B70">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morar</surname><given-names>M.</given-names></name><name><surname>Bhullar</surname><given-names>K.</given-names></name><name><surname>Hughes</surname><given-names>D.W.</given-names></name><name><surname>Junop</surname><given-names>M.</given-names></name><name><surname>Wright</surname><given-names>G.D.</given-names></name></person-group>
+<article-title>Structure and mechanism of the lincosamide antibiotic adenylyltransferase LinB</article-title>
+<source>Structure</source>
+<year>2009</year>
+<volume>17</volume>
+<fpage>1649</fpage><lpage>1659</lpage><pub-id pub-id-type="pmid">20004168</pub-id></element-citation>
+      </ref>
+      <ref id="B71">
+        <label>71.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>Y.</given-names></name><name><surname>Zhang</surname><given-names>R.</given-names></name><name><surname>Joachimiak</surname><given-names>A.</given-names></name><name><surname>Carr</surname><given-names>P.D.</given-names></name><name><surname>Huber</surname><given-names>T.</given-names></name><name><surname>Vasudevan</surname><given-names>S.G.</given-names></name><name><surname>Ollis</surname><given-names>D.L.</given-names></name></person-group>
+<article-title>Structure of the N-terminal domain of Escherichia coli glutamine synthetase adenylyltransferase</article-title>
+<source>Structure</source>
+<year>2004</year>
+<volume>12</volume>
+<fpage>861</fpage><lpage>869</lpage><pub-id pub-id-type="pmid">15130478</pub-id></element-citation>
+      </ref>
+      <ref id="B72">
+        <label>72.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bard</surname><given-names>J.</given-names></name><name><surname>Zhelkovsky</surname><given-names>A.M.</given-names></name><name><surname>Helmling</surname><given-names>S.</given-names></name><name><surname>Earnest</surname><given-names>T.N.</given-names></name><name><surname>Moore</surname><given-names>C.L.</given-names></name><name><surname>Bohm</surname><given-names>A.</given-names></name></person-group>
+<article-title>Structure of yeast poly(A) polymerase alone and in complex with 3â²-dATP</article-title>
+<source>Science</source>
+<year>2000</year>
+<volume>289</volume>
+<fpage>1346</fpage><lpage>1349</lpage><pub-id pub-id-type="pmid">10958780</pub-id></element-citation>
+      </ref>
+      <ref id="B73">
+        <label>73.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lunde</surname><given-names>B.M.</given-names></name><name><surname>Magler</surname><given-names>I.</given-names></name><name><surname>Meinhart</surname><given-names>A.</given-names></name></person-group>
+<article-title>Crystal structures of the Cid1 poly (U) polymerase reveal the mechanism for UTP selectivity</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2012</year>
+<volume>40</volume>
+<fpage>9815</fpage><lpage>9824</lpage><pub-id pub-id-type="pmid">22885303</pub-id></element-citation>
+      </ref>
+      <ref id="B74">
+        <label>74.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hamill</surname><given-names>S.</given-names></name><name><surname>Wolin</surname><given-names>S.L.</given-names></name><name><surname>Reinisch</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Structure and function of the polymerase core of TRAMP, a RNA surveillance complex</article-title>
+<source>Proc. Natl Acad. Sci. U. S. A.</source>
+<year>2010</year>
+<volume>107</volume>
+<fpage>15045</fpage><lpage>15050</lpage><pub-id pub-id-type="pmid">20696927</pub-id></element-citation>
+      </ref>
+      <ref id="B75">
+        <label>75.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>LosÃ³n</surname><given-names>O.C.</given-names></name><name><surname>Liu</surname><given-names>R.</given-names></name><name><surname>Rome</surname><given-names>M.E.</given-names></name><name><surname>Meng</surname><given-names>S.</given-names></name><name><surname>Kaiser</surname><given-names>J.T.</given-names></name><name><surname>Shan</surname><given-names>S.O.</given-names></name><name><surname>Chan</surname><given-names>D.C.</given-names></name></person-group>
+<article-title>The mitochondrial fission receptor MiD51 requires ADP as a cofactor</article-title>
+<source>Structure</source>
+<year>2014</year>
+<volume>22</volume>
+<fpage>367</fpage><lpage>377</lpage><pub-id pub-id-type="pmid">24508339</pub-id></element-citation>
+      </ref>
+      <ref id="B76">
+        <label>76.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lohofener</surname><given-names>J.</given-names></name><name><surname>Steinke</surname><given-names>N.</given-names></name><name><surname>Kay-Fedorov</surname><given-names>P.</given-names></name><name><surname>Baruch</surname><given-names>P.</given-names></name><name><surname>Nikulin</surname><given-names>A.</given-names></name><name><surname>Tishchenko</surname><given-names>S.</given-names></name><name><surname>Manstein</surname><given-names>D.J.</given-names></name><name><surname>Fedorov</surname><given-names>R.</given-names></name></person-group>
+<article-title>The activation mechanism of 2â²-5â²-oligoadenylate synthetase gives new insights into OAS/cGAS triggers of innate immunity</article-title>
+<source>Structure</source>
+<year>2015</year>
+<volume>23</volume>
+<fpage>851</fpage><lpage>862</lpage><pub-id pub-id-type="pmid">25892109</pub-id></element-citation>
+      </ref>
+      <ref id="B77">
+        <label>77.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gao</surname><given-names>P.</given-names></name><name><surname>Ascano</surname><given-names>M.</given-names></name><name><surname>Wu</surname><given-names>Y.</given-names></name><name><surname>Barchet</surname><given-names>W.</given-names></name><name><surname>Gaffney</surname><given-names>B.L.</given-names></name><name><surname>Zillinger</surname><given-names>T.</given-names></name><name><surname>Serganov</surname><given-names>A.A.</given-names></name><name><surname>Liu</surname><given-names>Y.</given-names></name><name><surname>Jones</surname><given-names>R.A.</given-names></name><name><surname>Hartmann</surname><given-names>G.</given-names></name><etal/></person-group>
+<article-title>Cyclic [G(2â²,5â²)pA(3â²,5â²)p] is the metazoan second messenger produced by DNA-activated cyclic GMP-AMP synthase</article-title>
+<source>Cell</source>
+<year>2013</year>
+<volume>153</volume>
+<fpage>1094</fpage><lpage>1107</lpage><pub-id pub-id-type="pmid">23647843</pub-id></element-citation>
+      </ref>
+      <ref id="B78">
+        <label>78.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fu</surname><given-names>H.</given-names></name><name><surname>Subramanian</surname><given-names>R.R.</given-names></name><name><surname>Masters</surname><given-names>S.C.</given-names></name></person-group>
+<article-title>14-3-3 proteins: structure, function, and regulation</article-title>
+<source>Annu. Rev. Pharmacol. Toxicol.</source>
+<year>2000</year>
+<volume>40</volume>
+<fpage>617</fpage><lpage>647</lpage><pub-id pub-id-type="pmid">10836149</pub-id></element-citation>
+      </ref>
+      <ref id="B79">
+        <label>79.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Irwin</surname><given-names>S.</given-names></name><name><surname>Vandelft</surname><given-names>M.</given-names></name><name><surname>Pinchev</surname><given-names>D.</given-names></name><name><surname>Howell</surname><given-names>J.L.</given-names></name><name><surname>Graczyk</surname><given-names>J.</given-names></name><name><surname>Orr</surname><given-names>H.T.</given-names></name><name><surname>Truant</surname><given-names>R.</given-names></name></person-group>
+<article-title>RNA association and nucleocytoplasmic shuttling by ataxin-1</article-title>
+<source>J. Cell Sci.</source>
+<year>2005</year>
+<volume>118</volume>
+<fpage>233</fpage><lpage>242</lpage><pub-id pub-id-type="pmid">15615787</pub-id></element-citation>
+      </ref>
+      <ref id="B80">
+        <label>80.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Castello</surname><given-names>A.</given-names></name><name><surname>Fischer</surname><given-names>B.</given-names></name><name><surname>Eichelbaum</surname><given-names>K.</given-names></name><name><surname>Horos</surname><given-names>R.</given-names></name><name><surname>Beckmann</surname><given-names>B.M.</given-names></name><name><surname>Strein</surname><given-names>C.</given-names></name><name><surname>Davey</surname><given-names>N.E.</given-names></name><name><surname>Humphreys</surname><given-names>D.T.</given-names></name><name><surname>Preiss</surname><given-names>T.</given-names></name><name><surname>Steinmetz</surname><given-names>L.M.</given-names></name><etal/></person-group>
+<article-title>Insights into RNA biology from an atlas of mammalian mRNA-binding proteins</article-title>
+<source>Cell</source>
+<year>2012</year>
+<volume>149</volume>
+<fpage>1393</fpage><lpage>1406</lpage><pub-id pub-id-type="pmid">22658674</pub-id></element-citation>
+      </ref>
+      <ref id="B81">
+        <label>81.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jaakkola</surname><given-names>P.</given-names></name><name><surname>Mole</surname><given-names>D.R.</given-names></name><name><surname>Tian</surname><given-names>Y.M.</given-names></name><name><surname>Wilson</surname><given-names>M.I.</given-names></name><name><surname>Gielbert</surname><given-names>J.</given-names></name><name><surname>Gaskell</surname><given-names>S.J.</given-names></name><name><surname>vonÂ Kriegsheim</surname><given-names>A.</given-names></name><name><surname>Hebestreit</surname><given-names>H.F.</given-names></name><name><surname>Mukherji</surname><given-names>M.</given-names></name><name><surname>Schofield</surname><given-names>C.J.</given-names></name><etal/></person-group>
+<article-title>Targeting of HIF-alpha to the von Hippel-Lindau ubiquitylation complex by O2-regulated prolyl hydroxylation</article-title>
+<source>Science</source>
+<year>2001</year>
+<volume>292</volume>
+<fpage>468</fpage><lpage>472</lpage><pub-id pub-id-type="pmid">11292861</pub-id></element-citation>
+      </ref>
+      <ref id="B82">
+        <label>82.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>D.D.</given-names></name><name><surname>Hannink</surname><given-names>M.</given-names></name></person-group>
+<article-title>Distinct cysteine residues in Keap1 are required for Keap1-dependent ubiquitination of Nrf2 and for stabilization of Nrf2 by chemopreventive agents and oxidative stress</article-title>
+<source>Mol. Cell. Biol.</source>
+<year>2003</year>
+<volume>23</volume>
+<fpage>8137</fpage><lpage>8151</lpage><pub-id pub-id-type="pmid">14585973</pub-id></element-citation>
+      </ref>
+      <ref id="B83">
+        <label>83.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsai</surname><given-names>T.C.</given-names></name><name><surname>Lee</surname><given-names>Y.L.</given-names></name><name><surname>Hsiao</surname><given-names>W.C.</given-names></name><name><surname>Tsao</surname><given-names>Y.P.</given-names></name><name><surname>Chen</surname><given-names>S.L.</given-names></name></person-group>
+<article-title>NRIP, a novel nuclear receptor interaction protein, enhances the transcriptional activity of nuclear receptors</article-title>
+<source>J. Biol. Chem.</source>
+<year>2005</year>
+<volume>280</volume>
+<fpage>20000</fpage><lpage>20009</lpage><pub-id pub-id-type="pmid">15784617</pub-id></element-citation>
+      </ref>
+      <ref id="B84">
+        <label>84.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhou</surname><given-names>H.J.</given-names></name><name><surname>Wong</surname><given-names>C.M.</given-names></name><name><surname>Chen</surname><given-names>J.H.</given-names></name><name><surname>Qiang</surname><given-names>B.Q.</given-names></name><name><surname>Yuan</surname><given-names>J.G.</given-names></name><name><surname>Jin</surname><given-names>D.Y.</given-names></name></person-group>
+<article-title>Inhibition of LZIP-mediated transcription through direct interaction with a novel host cell factor-like protein</article-title>
+<source>J. Biol. Chem.</source>
+<year>2001</year>
+<volume>276</volume>
+<fpage>28933</fpage><lpage>28938</lpage><pub-id pub-id-type="pmid">11384994</pub-id></element-citation>
+      </ref>
+      <ref id="B85">
+        <label>85.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>J.E.</given-names></name><name><surname>Ryu</surname><given-names>I.</given-names></name><name><surname>Kim</surname><given-names>W.J.</given-names></name><name><surname>Song</surname><given-names>O.K.</given-names></name><name><surname>Ryu</surname><given-names>J.</given-names></name><name><surname>Kwon</surname><given-names>M.Y.</given-names></name><name><surname>Kim</surname><given-names>J.H.</given-names></name><name><surname>Jang</surname><given-names>S.K.</given-names></name></person-group>
+<article-title>Proline-rich transcript in brain protein induces stress granule formation</article-title>
+<source>Mol. Cell. Biol.</source>
+<year>2008</year>
+<volume>28</volume>
+<fpage>803</fpage><lpage>813</lpage><pub-id pub-id-type="pmid">17984221</pub-id></element-citation>
+      </ref>
+      <ref id="B86">
+        <label>86.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forbes</surname><given-names>M.M.</given-names></name><name><surname>Rothhamel</surname><given-names>S.</given-names></name><name><surname>Jenny</surname><given-names>A.</given-names></name><name><surname>Marlow</surname><given-names>F.L.</given-names></name></person-group>
+<article-title>Maternal dazap2 regulates germ granules by counteracting dynein in zebrafish primordial germ cells</article-title>
+<source>Cell Rep.</source>
+<year>2015</year>
+<volume>12</volume>
+<fpage>49</fpage><lpage>57</lpage><pub-id pub-id-type="pmid">26119733</pub-id></element-citation>
+      </ref>
+      <ref id="B87">
+        <label>87.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kedersha</surname><given-names>N.L.</given-names></name><name><surname>Rome</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Isolation and characterization of a novel ribonucleoprotein particle: large structures contain a single species of small RNA</article-title>
+<source>J. Cell Biol.</source>
+<year>1986</year>
+<volume>103</volume>
+<fpage>699</fpage><lpage>709</lpage><pub-id pub-id-type="pmid">2943744</pub-id></element-citation>
+      </ref>
+      <ref id="B88">
+        <label>88.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kedersha</surname><given-names>N.L.</given-names></name><name><surname>Heuser</surname><given-names>J.E.</given-names></name><name><surname>Chugani</surname><given-names>D.C.</given-names></name><name><surname>Rome</surname><given-names>L.H.</given-names></name></person-group>
+<article-title>Vaults. III. Vault ribonucleoprotein particles open into flower-like structures with octagonal symmetry</article-title>
+<source>J. Cell Biol.</source>
+<year>1991</year>
+<volume>112</volume>
+<fpage>225</fpage><lpage>235</lpage><pub-id pub-id-type="pmid">1988458</pub-id></element-citation>
+      </ref>
+      <ref id="B89">
+        <label>89.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKeegan</surname><given-names>K.S.</given-names></name><name><surname>Debieux</surname><given-names>C.M.</given-names></name><name><surname>Boulon</surname><given-names>S.</given-names></name><name><surname>Bertrand</surname><given-names>E.</given-names></name><name><surname>Watkins</surname><given-names>N.J.</given-names></name></person-group>
+<article-title>A dynamic scaffold of pre-snoRNP factors facilitates human box C/D snoRNP assembly</article-title>
+<source>Mol. Cell. Biol.</source>
+<year>2007</year>
+<volume>27</volume>
+<fpage>6782</fpage><lpage>6793</lpage><pub-id pub-id-type="pmid">17636026</pub-id></element-citation>
+      </ref>
+      <ref id="B90">
+        <label>90.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Angers</surname><given-names>S.</given-names></name><name><surname>Li</surname><given-names>T.</given-names></name><name><surname>Yi</surname><given-names>X.</given-names></name><name><surname>MacCoss</surname><given-names>M.J.</given-names></name><name><surname>Moon</surname><given-names>R.T.</given-names></name><name><surname>Zheng</surname><given-names>N.</given-names></name></person-group>
+<article-title>Molecular architecture and assembly of the DDB1-CUL4A ubiquitin ligase machinery</article-title>
+<source>Nature</source>
+<year>2006</year>
+<volume>443</volume>
+<fpage>590</fpage><lpage>593</lpage><pub-id pub-id-type="pmid">16964240</pub-id></element-citation>
+      </ref>
+      <ref id="B91">
+        <label>91.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodrigo-Brenni</surname><given-names>M.C.</given-names></name><name><surname>Gutierrez</surname><given-names>E.</given-names></name><name><surname>Hegde</surname><given-names>R.S.</given-names></name></person-group>
+<article-title>Cytosolic quality control of mislocalized proteins requires RNF126 recruitment to Bag6</article-title>
+<source>Mol. Cell</source>
+<year>2014</year>
+<volume>55</volume>
+<fpage>227</fpage><lpage>237</lpage><pub-id pub-id-type="pmid">24981174</pub-id></element-citation>
+      </ref>
+      <ref id="B92">
+        <label>92.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arquint</surname><given-names>C.</given-names></name><name><surname>Gabryjonczyk</surname><given-names>A.M.</given-names></name><name><surname>Imseng</surname><given-names>S.</given-names></name><name><surname>Bohm</surname><given-names>R.</given-names></name><name><surname>Sauer</surname><given-names>E.</given-names></name><name><surname>Hiller</surname><given-names>S.</given-names></name><name><surname>Nigg</surname><given-names>E.A.</given-names></name><name><surname>Maier</surname><given-names>T.</given-names></name></person-group>
+<article-title>STIL binding to Polo-box 3 of PLK4 regulates centriole duplication</article-title>
+<source>Elife</source>
+<year>2015</year>
+<volume>4</volume>
+<fpage>e07888</fpage></element-citation>
+      </ref>
+      <ref id="B93">
+        <label>93.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>A.M.</given-names></name><name><surname>Rowley</surname><given-names>B.</given-names></name><name><surname>Pao</surname><given-names>W.</given-names></name><name><surname>Hayday</surname><given-names>A.</given-names></name><name><surname>Bolen</surname><given-names>J.B.</given-names></name><name><surname>Pawson</surname><given-names>T.</given-names></name></person-group>
+<article-title>Syk tyrosine kinase required for mouse viability and B-cell development</article-title>
+<source>Nature</source>
+<year>1995</year>
+<volume>378</volume>
+<fpage>303</fpage><lpage>306</lpage><pub-id pub-id-type="pmid">7477353</pub-id></element-citation>
+      </ref>
+      <ref id="B94">
+        <label>94.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Carnevale</surname><given-names>J.</given-names></name><name><surname>Ross</surname><given-names>L.</given-names></name><name><surname>Puissant</surname><given-names>A.</given-names></name><name><surname>Banerji</surname><given-names>V.</given-names></name><name><surname>Stone</surname><given-names>R.M.</given-names></name><name><surname>DeAngelo</surname><given-names>D.J.</given-names></name><name><surname>Ross</surname><given-names>K.N.</given-names></name><name><surname>Stegmaier</surname><given-names>K.</given-names></name></person-group>
+<article-title>SYK regulates mTOR signaling in AML</article-title>
+<source>Leukemia</source>
+<year>2013</year>
+<volume>27</volume>
+<fpage>2118</fpage><lpage>2128</lpage><pub-id pub-id-type="pmid">23535559</pub-id></element-citation>
+      </ref>
+      <ref id="B95">
+        <label>95.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>N.</given-names></name><name><surname>Li</surname><given-names>Z.</given-names></name><name><surname>Pei</surname><given-names>D.</given-names></name><name><surname>Shu</surname><given-names>X.</given-names></name></person-group>
+<article-title>Zfyve9a regulates the proliferation of hepatic cells during zebrafish embryogenesis</article-title>
+<source>Int. J. Dev. Biol.</source>
+<year>2013</year>
+<volume>57</volume>
+<fpage>773</fpage><lpage>778</lpage><pub-id pub-id-type="pmid">24307302</pub-id></element-citation>
+      </ref>
+      <ref id="B96">
+        <label>96.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fiorillo</surname><given-names>C.</given-names></name><name><surname>Moro</surname><given-names>F.</given-names></name><name><surname>Yi</surname><given-names>J.</given-names></name><name><surname>Weil</surname><given-names>S.</given-names></name><name><surname>Brisca</surname><given-names>G.</given-names></name><name><surname>Astrea</surname><given-names>G.</given-names></name><name><surname>Severino</surname><given-names>M.</given-names></name><name><surname>Romano</surname><given-names>A.</given-names></name><name><surname>Battini</surname><given-names>R.</given-names></name><name><surname>Rossi</surname><given-names>A.</given-names></name><etal/></person-group>
+<article-title>Novel dynein DYNC1H1 neck and motor domain mutations link distal spinal muscular atrophy and abnormal cortical development</article-title>
+<source>Hum. Mutat.</source>
+<year>2014</year>
+<volume>35</volume>
+<fpage>298</fpage><lpage>302</lpage><pub-id pub-id-type="pmid">24307404</pub-id></element-citation>
+      </ref>
+      <ref id="B97">
+        <label>97.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vallee</surname><given-names>R.B.</given-names></name><name><surname>McKenney</surname><given-names>R.J.</given-names></name><name><surname>Ori-McKenney</surname><given-names>K.M.</given-names></name></person-group>
+<article-title>Multiple modes of cytoplasmic dynein regulation</article-title>
+<source>Nat. Cell Biol.</source>
+<year>2012</year>
+<volume>14</volume>
+<fpage>224</fpage><lpage>230</lpage><pub-id pub-id-type="pmid">22373868</pub-id></element-citation>
+      </ref>
+      <ref id="B98">
+        <label>98.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hutagalung</surname><given-names>A.H.</given-names></name><name><surname>Novick</surname><given-names>P.J.</given-names></name></person-group>
+<article-title>Role of Rab GTPases in membrane traffic and cell physiology</article-title>
+<source>Physiol. Rev.</source>
+<year>2011</year>
+<volume>91</volume>
+<fpage>119</fpage><lpage>149</lpage><pub-id pub-id-type="pmid">21248164</pub-id></element-citation>
+      </ref>
+      <ref id="B99">
+        <label>99.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collins</surname><given-names>B.M.</given-names></name><name><surname>McCoy</surname><given-names>A.J.</given-names></name><name><surname>Kent</surname><given-names>H.M.</given-names></name><name><surname>Evans</surname><given-names>P.R.</given-names></name><name><surname>Owen</surname><given-names>D.J.</given-names></name></person-group>
+<article-title>Molecular architecture and functional model of the endocytic AP2 complex</article-title>
+<source>Cell</source>
+<year>2002</year>
+<volume>109</volume>
+<fpage>523</fpage><lpage>535</lpage><pub-id pub-id-type="pmid">12086608</pub-id></element-citation>
+      </ref>
+      <ref id="B100">
+        <label>100.</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Tian</surname><given-names>M.</given-names></name></person-group>
+<source>The molecular cloning and characterization of Fam46c RNA stability factor</source>
+<year>2010</year><publisher-name>Harvard University</publisher-name><comment>PhD dissertation</comment></element-citation>
+      </ref>
+      <ref id="B101">
+        <label>101.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kranzusch</surname><given-names>P.J.</given-names></name><name><surname>Lee</surname><given-names>A.S.</given-names></name><name><surname>Berger</surname><given-names>J.M.</given-names></name><name><surname>Doudna</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Structure of human cGAS reveals a conserved family of second-messenger enzymes in innate immunity</article-title>
+<source>Cell Rep.</source>
+<year>2013</year>
+<volume>3</volume>
+<fpage>1362</fpage><lpage>1368</lpage><pub-id pub-id-type="pmid">23707061</pub-id></element-citation>
+      </ref>
+      <ref id="B102">
+        <label>102.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weill</surname><given-names>L.</given-names></name><name><surname>Belloc</surname><given-names>E.</given-names></name><name><surname>Bava</surname><given-names>F.A.</given-names></name><name><surname>Mendez</surname><given-names>R.</given-names></name></person-group>
+<article-title>Translational control by changes in poly(A) tail length: recycling mRNAs</article-title>
+<source>Nat. Struct. Mol. Biol.</source>
+<year>2012</year>
+<volume>19</volume>
+<fpage>577</fpage><lpage>585</lpage><pub-id pub-id-type="pmid">22664985</pub-id></element-citation>
+      </ref>
+      <ref id="B103">
+        <label>103.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Subtelny</surname><given-names>A.O.</given-names></name><name><surname>Eichhorn</surname><given-names>S.W.</given-names></name><name><surname>Chen</surname><given-names>G.R.</given-names></name><name><surname>Sive</surname><given-names>H.</given-names></name><name><surname>Bartel</surname><given-names>D.P.</given-names></name></person-group>
+<article-title>Poly(A)-tail profiling reveals an embryonic switch in translational control</article-title>
+<source>Nature</source>
+<year>2014</year>
+<volume>508</volume>
+<fpage>66</fpage><lpage>71</lpage><pub-id pub-id-type="pmid">24476825</pub-id></element-citation>
+      </ref>
+      <ref id="B104">
+        <label>104.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schmidt</surname><given-names>M.J.</given-names></name><name><surname>Norbury</surname><given-names>C.J.</given-names></name></person-group>
+<article-title>Polyadenylation and beyond: emerging roles for noncanonical poly(A) polymerases</article-title>
+<source>Wiley Interdiscip. Rev. RNA</source>
+<year>2010</year>
+<volume>1</volume>
+<fpage>142</fpage><lpage>151</lpage><pub-id pub-id-type="pmid">21956911</pub-id></element-citation>
+      </ref>
+      <ref id="B105">
+        <label>105.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Villa</surname><given-names>N.</given-names></name><name><surname>Do</surname><given-names>A.</given-names></name><name><surname>Hershey</surname><given-names>J.W.</given-names></name><name><surname>Fraser</surname><given-names>C.S.</given-names></name></person-group>
+<article-title>Human eukaryotic initiation factor 4G (eIF4G) protein binds to eIF3c, -d, and -e to promote mRNA recruitment to the ribosome</article-title>
+<source>J. Biol. Chem.</source>
+<year>2013</year>
+<volume>288</volume>
+<fpage>32932</fpage><lpage>32940</lpage><pub-id pub-id-type="pmid">24092755</pub-id></element-citation>
+      </ref>
+      <ref id="B106">
+        <label>106.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kuhn</surname><given-names>U.</given-names></name><name><surname>Wahle</surname><given-names>E.</given-names></name></person-group>
+<article-title>Structure and function of poly(A) binding proteins</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2004</year>
+<volume>1678</volume>
+<fpage>67</fpage><lpage>84</lpage><pub-id pub-id-type="pmid">15157733</pub-id></element-citation>
+      </ref>
+      <ref id="B107">
+        <label>107.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cunningham</surname><given-names>K.S.</given-names></name><name><surname>Dodson</surname><given-names>R.E.</given-names></name><name><surname>Nagel</surname><given-names>M.A.</given-names></name><name><surname>Shapiro</surname><given-names>D.J.</given-names></name><name><surname>Schoenberg</surname><given-names>D.R.</given-names></name></person-group>
+<article-title>Vigilin binding selectively inhibits cleavage of the vitellogenin mRNA 3â²-untranslated region by the mRNA endonuclease polysomal ribonuclease 1</article-title>
+<source>Proc. Natl Acad. Sci. U. S. A.</source>
+<year>2000</year>
+<volume>97</volume>
+<fpage>12498</fpage><lpage>12502</lpage><pub-id pub-id-type="pmid">11050168</pub-id></element-citation>
+      </ref>
+      <ref id="B108">
+        <label>108.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mukherjee</surname><given-names>N.</given-names></name><name><surname>Corcoran</surname><given-names>D.L.</given-names></name><name><surname>Nusbaum</surname><given-names>J.D.</given-names></name><name><surname>Reid</surname><given-names>D.W.</given-names></name><name><surname>Georgiev</surname><given-names>S.</given-names></name><name><surname>Hafner</surname><given-names>M.</given-names></name><name><surname>Ascano</surname><given-names>M.</given-names><suffix>Jr</suffix></name><name><surname>Tuschl</surname><given-names>T.</given-names></name><name><surname>Ohler</surname><given-names>U.</given-names></name><name><surname>Keene</surname><given-names>J.D.</given-names></name></person-group>
+<article-title>Integrative regulatory mapping indicates that the RNA-binding protein HuR couples pre-mRNA processing and mRNA stability</article-title>
+<source>Mol. Cell</source>
+<year>2011</year>
+<volume>43</volume>
+<fpage>327</fpage><lpage>339</lpage><pub-id pub-id-type="pmid">21723170</pub-id></element-citation>
+      </ref>
+      <ref id="B109">
+        <label>109.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fan</surname><given-names>X.C.</given-names></name><name><surname>Steitz</surname><given-names>J.A.</given-names></name></person-group>
+<article-title>Overexpression of HuR, a nuclear-cytoplasmic shuttling protein, increases the in vivo stability of ARE-containing mRNAs</article-title>
+<source>EMBO J.</source>
+<year>1998</year>
+<volume>17</volume>
+<fpage>3448</fpage><lpage>3460</lpage><pub-id pub-id-type="pmid">9628880</pub-id></element-citation>
+      </ref>
+      <ref id="B110">
+        <label>110.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Peng</surname><given-names>S.S.</given-names></name><name><surname>Chen</surname><given-names>C.Y.</given-names></name><name><surname>Xu</surname><given-names>N.</given-names></name><name><surname>Shyu</surname><given-names>A.B.</given-names></name></person-group>
+<article-title>RNA stabilization by the AU-rich element binding protein, HuR, an ELAV protein</article-title>
+<source>EMBO J.</source>
+<year>1998</year>
+<volume>17</volume>
+<fpage>3461</fpage><lpage>3470</lpage><pub-id pub-id-type="pmid">9628881</pub-id></element-citation>
+      </ref>
+      <ref id="B111">
+        <label>111.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Engel</surname><given-names>C.</given-names></name><name><surname>Sainsbury</surname><given-names>S.</given-names></name><name><surname>Cheung</surname><given-names>A.C.</given-names></name><name><surname>Kostrewa</surname><given-names>D.</given-names></name><name><surname>Cramer</surname><given-names>P.</given-names></name></person-group>
+<article-title>RNA polymerase I structure and transcription regulation</article-title>
+<source>Nature</source>
+<year>2013</year>
+<volume>502</volume>
+<fpage>650</fpage><lpage>655</lpage><pub-id pub-id-type="pmid">24153182</pub-id></element-citation>
+      </ref>
+      <ref id="B112">
+        <label>112.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Laferte</surname><given-names>A.</given-names></name><name><surname>Favry</surname><given-names>E.</given-names></name><name><surname>Sentenac</surname><given-names>A.</given-names></name><name><surname>Riva</surname><given-names>M.</given-names></name><name><surname>Carles</surname><given-names>C.</given-names></name><name><surname>Chedin</surname><given-names>S.</given-names></name></person-group>
+<article-title>The transcriptional activity of RNA polymerase I is a key determinant for the level of all ribosome components</article-title>
+<source>Genes Dev.</source>
+<year>2006</year>
+<volume>20</volume>
+<fpage>2030</fpage><lpage>2040</lpage><pub-id pub-id-type="pmid">16882981</pub-id></element-citation>
+      </ref>
+      <ref id="B113">
+        <label>113.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wyler</surname><given-names>E.</given-names></name><name><surname>Wandrey</surname><given-names>F.</given-names></name><name><surname>Badertscher</surname><given-names>L.</given-names></name><name><surname>Montellese</surname><given-names>C.</given-names></name><name><surname>Alper</surname><given-names>D.</given-names></name><name><surname>Kutay</surname><given-names>U.</given-names></name></person-group>
+<article-title>The beta-isoform of the BRCA2 and CDKN1A(p21)-interacting protein (BCCIP) stabilizes nuclear RPL23/uL14</article-title>
+<source>FEBS Lett.</source>
+<year>2014</year>
+<volume>588</volume>
+<fpage>3685</fpage><lpage>3691</lpage><pub-id pub-id-type="pmid">25150171</pub-id></element-citation>
+      </ref>
+      <ref id="B114">
+        <label>114.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Venteicher</surname><given-names>A.S.</given-names></name><name><surname>Abreu</surname><given-names>E.B.</given-names></name><name><surname>Meng</surname><given-names>Z.</given-names></name><name><surname>McCann</surname><given-names>K.E.</given-names></name><name><surname>Terns</surname><given-names>R.M.</given-names></name><name><surname>Veenstra</surname><given-names>T.D.</given-names></name><name><surname>Terns</surname><given-names>M.P.</given-names></name><name><surname>Artandi</surname><given-names>S.E.</given-names></name></person-group>
+<article-title>A human telomerase holoenzyme protein required for Cajal body localization and telomere synthesis</article-title>
+<source>Science</source>
+<year>2009</year>
+<volume>323</volume>
+<fpage>644</fpage><lpage>648</lpage><pub-id pub-id-type="pmid">19179534</pub-id></element-citation>
+      </ref>
+      <ref id="B115">
+        <label>115.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Thornton</surname><given-names>J.E.</given-names></name><name><surname>Du</surname><given-names>P.</given-names></name><name><surname>Jing</surname><given-names>L.</given-names></name><name><surname>Sjekloca</surname><given-names>L.</given-names></name><name><surname>Lin</surname><given-names>S.</given-names></name><name><surname>Grossi</surname><given-names>E.</given-names></name><name><surname>Sliz</surname><given-names>P.</given-names></name><name><surname>Zon</surname><given-names>L.I.</given-names></name><name><surname>Gregory</surname><given-names>R.I.</given-names></name></person-group>
+<article-title>Selective microRNA uridylation by Zcchc6 (TUT7) and Zcchc11 (TUT4)</article-title>
+<source>Nucleic Acids Res.</source>
+<year>2014</year>
+<volume>42</volume>
+<fpage>11777</fpage><lpage>11791</lpage><pub-id pub-id-type="pmid">25223788</pub-id></element-citation>
+      </ref>
+      <ref id="B116">
+        <label>116.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chang</surname><given-names>J.H.</given-names></name><name><surname>Tong</surname><given-names>L.</given-names></name></person-group>
+<article-title>Mitochondrial poly(A) polymerase and polyadenylation</article-title>
+<source>Biochim. Biophys. Acta</source>
+<year>2012</year>
+<volume>1819</volume>
+<fpage>992</fpage><lpage>997</lpage><pub-id pub-id-type="pmid">22172994</pub-id></element-citation>
+      </ref>
+      <ref id="B117">
+        <label>117.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Trippe</surname><given-names>R.</given-names></name><name><surname>Guschina</surname><given-names>E.</given-names></name><name><surname>Hossbach</surname><given-names>M.</given-names></name><name><surname>Urlaub</surname><given-names>H.</given-names></name><name><surname>Luhrmann</surname><given-names>R.</given-names></name><name><surname>Benecke</surname><given-names>B.J.</given-names></name></person-group>
+<article-title>Identification, cloning, and functional analysis of the human U6 snRNA-specific terminal uridylyl transferase</article-title>
+<source>RNA</source>
+<year>2006</year>
+<volume>12</volume>
+<fpage>1494</fpage><lpage>1504</lpage><pub-id pub-id-type="pmid">16790842</pub-id></element-citation>
+      </ref>
+      <ref id="B118">
+        <label>118.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kwak</surname><given-names>J.E.</given-names></name><name><surname>Wang</surname><given-names>L.</given-names></name><name><surname>Ballantyne</surname><given-names>S.</given-names></name><name><surname>Kimble</surname><given-names>J.</given-names></name><name><surname>Wickens</surname><given-names>M.</given-names></name></person-group>
+<article-title>Mammalian GLD-2 homologs are poly(A) polymerases</article-title>
+<source>Proc. Natl Acad. Sci. U.S.A.</source>
+<year>2004</year>
+<volume>101</volume>
+<fpage>4407</fpage><lpage>4412</lpage><pub-id pub-id-type="pmid">15070731</pub-id></element-citation>
+      </ref>
+      <ref id="B119">
+        <label>119.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mullen</surname><given-names>T.E.</given-names></name><name><surname>Marzluff</surname><given-names>W.F.</given-names></name></person-group>
+<article-title>Degradation of histone mRNA requires oligouridylation followed by decapping and simultaneous degradation of the mRNA both 5â² to 3â² and 3â² to 5â²</article-title>
+<source>Genes Dev.</source>
+<year>2008</year>
+<volume>22</volume>
+<fpage>50</fpage><lpage>65</lpage><pub-id pub-id-type="pmid">18172165</pub-id></element-citation>
+      </ref>
+      <ref id="B120">
+        <label>120.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lokody</surname><given-names>I.</given-names></name></person-group>
+<article-title>RNA dynamics: destabilizing mRNAs promotes metastasis</article-title>
+<source>Nat. Rev. Cancer</source>
+<year>2014</year>
+<volume>14</volume>
+<fpage>578</fpage><pub-id pub-id-type="pmid">25145481</pub-id></element-citation>
+      </ref>
+      <ref id="B121">
+        <label>121.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Palmero</surname><given-names>E.I.</given-names></name><name><surname>deÂ Campos</surname><given-names>S.G.</given-names></name><name><surname>Campos</surname><given-names>M.</given-names></name><name><surname>deÂ Souza</surname><given-names>N.C.</given-names></name><name><surname>Guerreiro</surname><given-names>I.D.</given-names></name><name><surname>Carvalho</surname><given-names>A.L.</given-names></name><name><surname>Marques</surname><given-names>M.M.</given-names></name></person-group>
+<article-title>Mechanisms and role of microRNA deregulation in cancer onset and progression</article-title>
+<source>Genet. Mol. Biol.</source>
+<year>2011</year>
+<volume>34</volume>
+<fpage>363</fpage><lpage>370</lpage><pub-id pub-id-type="pmid">21931505</pub-id></element-citation>
+      </ref>
+      <ref id="B122">
+        <label>122.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jansson</surname><given-names>M.D.</given-names></name><name><surname>Lund</surname><given-names>A.H.</given-names></name></person-group>
+<article-title>MicroRNA and cancer</article-title>
+<source>Mol. Oncol.</source>
+<year>2012</year>
+<volume>6</volume>
+<fpage>590</fpage><lpage>610</lpage><pub-id pub-id-type="pmid">23102669</pub-id></element-citation>
+      </ref>
+      <ref id="B123">
+        <label>123.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gao</surname><given-names>W.</given-names></name><name><surname>Chan</surname><given-names>J.Y.</given-names></name><name><surname>Wong</surname><given-names>T.S.</given-names></name></person-group>
+<article-title>Long non-coding RNA deregulation in tongue squamous cell carcinoma</article-title>
+<source>Biomed. Res. Int.</source>
+<year>2014</year>
+<volume>2014</volume>
+<fpage>405860</fpage><pub-id pub-id-type="pmid">25045670</pub-id></element-citation>
+      </ref>
+      <ref id="B124">
+        <label>124.</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ravo</surname><given-names>M.</given-names></name><name><surname>Cordella</surname><given-names>A.</given-names></name><name><surname>Rinaldi</surname><given-names>A.</given-names></name><name><surname>Bruno</surname><given-names>G.</given-names></name><name><surname>Alexandrova</surname><given-names>E.</given-names></name><name><surname>Saggese</surname><given-names>P.</given-names></name><name><surname>Nassa</surname><given-names>G.</given-names></name><name><surname>Giurato</surname><given-names>G.</given-names></name><name><surname>Tarallo</surname><given-names>R.</given-names></name><name><surname>Marchese</surname><given-names>G.</given-names></name><etal/></person-group>
+<article-title>Small non-coding RNA deregulation in endometrial carcinogenesis</article-title>
+<source>Oncotarget</source>
+<year>2015</year>
+<volume>6</volume>
+<fpage>4677</fpage><lpage>4691</lpage><pub-id pub-id-type="pmid">25686835</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

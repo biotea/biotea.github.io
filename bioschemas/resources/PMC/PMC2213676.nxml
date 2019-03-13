@@ -1,0 +1,2930 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:31:10Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2213676" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2213676</identifier><datestamp>2008-01-25</datestamp><setSpec>bmcgeno</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://dtd.nlm.nih.gov/ns/archiving/2.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://dtd.nlm.nih.gov/ns/archiving/2.3/ https://dtd.nlm.nih.gov/archiving/2.3/xsd/archivearticle.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Genomics</journal-id>
+      <journal-title>BMC Genomics</journal-title>
+      <issn pub-type="epub">1471-2164</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2213676</article-id>
+      <article-id pub-id-type="pmcid">PMC2213676</article-id>
+      <article-id pub-id-type="pmc-uid">2213676</article-id>
+      <article-id pub-id-type="pmid">17974005</article-id>
+      <article-id pub-id-type="publisher-id">1471-2164-8-399</article-id>
+      <article-id pub-id-type="pmid">17974005</article-id>
+      <article-id pub-id-type="doi">10.1186/1471-2164-8-399</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Methodology Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The full-ORF clone resource of the German cDNA Consortium</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="A1" corresp="yes" contrib-type="author">
+          <name>
+            <surname>Bechtel</surname>
+            <given-names>Stephanie</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>s.bechtel@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A2" contrib-type="author">
+          <name>
+            <surname>Rosenfelder</surname>
+            <given-names>Heiko</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>h.rosenfelder@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A3" contrib-type="author">
+          <name>
+            <surname>Duda</surname>
+            <given-names>Anny</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>a.duda@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A4" contrib-type="author">
+          <name>
+            <surname>Schmidt</surname>
+            <given-names>Christian Peter</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>christian.schmidt@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A5" contrib-type="author">
+          <name>
+            <surname>Ernst</surname>
+            <given-names>Ute</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>u.ernst@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A6" contrib-type="author">
+          <name>
+            <surname>Wellenreuther</surname>
+            <given-names>Ruth</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>r.wellenreuther@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A7" contrib-type="author">
+          <name>
+            <surname>Mehrle</surname>
+            <given-names>Alexander</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>a.mehrle@dkfz.de</email>
+        </contrib>
+        <contrib id="A8" contrib-type="author">
+          <name>
+            <surname>Schuster</surname>
+            <given-names>Claudia</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>claudia.schuster@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A9" contrib-type="author">
+          <name>
+            <surname>Bahr</surname>
+            <given-names>Andre</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>andre.bahr@qiagen.com</email>
+        </contrib>
+        <contrib id="A10" contrib-type="author">
+          <name>
+            <surname>BlÃ¶cker</surname>
+            <given-names>Helmut</given-names>
+          </name>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>bloecker@helmholtz-hzi.de</email>
+        </contrib>
+        <contrib id="A11" contrib-type="author">
+          <name>
+            <surname>Heubner</surname>
+            <given-names>Dagmar</given-names>
+          </name>
+          <xref ref-type="aff" rid="I4">4</xref>
+          <email>heubner@agowa.de</email>
+        </contrib>
+        <contrib id="A12" contrib-type="author">
+          <name>
+            <surname>Hoerlein</surname>
+            <given-names>Andreas</given-names>
+          </name>
+          <xref ref-type="aff" rid="I5">5</xref>
+          <email>hoerlein@rzpd.de</email>
+        </contrib>
+        <contrib id="A13" contrib-type="author">
+          <name>
+            <surname>Michel</surname>
+            <given-names>Guenter</given-names>
+          </name>
+          <xref ref-type="aff" rid="I6">6</xref>
+          <email>Guenter-Michel@uni-duesseldorf.de</email>
+        </contrib>
+        <contrib id="A14" contrib-type="author">
+          <name>
+            <surname>Wedler</surname>
+            <given-names>Holger</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>holger.wedler@qiagen.com</email>
+        </contrib>
+        <contrib id="A15" contrib-type="author">
+          <name>
+            <surname>KÃ¶hrer</surname>
+            <given-names>Karl</given-names>
+          </name>
+          <xref ref-type="aff" rid="I6">6</xref>
+          <email>koehrer@uni-duesseldorf.de</email>
+        </contrib>
+        <contrib id="A16" contrib-type="author">
+          <name>
+            <surname>OttenwÃ¤lder</surname>
+            <given-names>Birgit</given-names>
+          </name>
+          <xref ref-type="aff" rid="I7">7</xref>
+          <email>ottenwaelder@medigenomix.de</email>
+        </contrib>
+        <contrib id="A17" contrib-type="author">
+          <name>
+            <surname>Poustka</surname>
+            <given-names>Annemarie</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>a.poustka@dkfz-heidelberg.de</email>
+        </contrib>
+        <contrib id="A18" contrib-type="author">
+          <name>
+            <surname>Wiemann</surname>
+            <given-names>Stefan</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>s.wiemann@dkfz.de</email>
+        </contrib>
+        <contrib id="A19" contrib-type="author">
+          <name>
+            <surname>Schupp</surname>
+            <given-names>Ingo</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>i.schupp@dkfz-heidelberg.de</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Department of Molecular Genome Analysis, German Cancer Research Center (DKFZ), Heidelberg, Germany</aff>
+      <aff id="I2"><label>2</label>Qiagen GmbH, Hilden, Germany</aff>
+      <aff id="I3"><label>3</label>Department of Genome Analysis, Helmholtz Centre for Infection Research (HZI), Braunschweig, Germany</aff>
+      <aff id="I4"><label>4</label>AGOWA GmbH, Berlin, Germany</aff>
+      <aff id="I5"><label>5</label>RZPD GmbH, Heidelberg, Germany</aff>
+      <aff id="I6"><label>6</label>University of Duesseldorf, Duesseldorf, Germany</aff>
+      <aff id="I7"><label>7</label>Eurofins Medigenomix GmbH, Martinsried, Germany</aff>
+      <pub-date pub-type="collection">
+        <year>2007</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>31</day>
+        <month>10</month>
+        <year>2007</year>
+      </pub-date>
+      <volume>8</volume>
+      <fpage>399</fpage>
+      <lpage>399</lpage>
+      <ext-link ext-link-type="uri" xlink:href="http://www.biomedcentral.com/1471-2164/8/399"/>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>1</month>
+          <year>2007</year>
+        </date>
+        <date date-type="accepted">
+          <day>31</day>
+          <month>10</month>
+          <year>2007</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â© 2007 Bechtel et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2007</copyright-year>
+        <copyright-holder>Bechtel et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+          <!--<rdf xmlns="http://web.resource.org/cc/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:dc="http://purl.org/dc/elements/1.1" xmlns:dcterms="http://purl.org/dc/terms"><Work xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/" rdf:about=""><license rdf:resource="http://creativecommons.org/licenses/by/2.0"/><dc:type rdf:resource="http://purl.org/dc/dcmitype/Text"/><dc:author>
+               Bechtel
+               Stephanie
+               
+               s.bechtel@dkfz-heidelberg.de
+            </dc:author><dc:title>
+            The full-ORF clone resource of the German cDNA Consortium
+         </dc:title><dc:date>2007</dc:date><dcterms:bibliographicCitation>BMC Genomics 8(1): 399-. (2007)</dcterms:bibliographicCitation><dc:identifier type="sici">1471-2164(2007)8:1&#x0003c;399&#x0003e;</dc:identifier><dcterms:isPartOf>urn:ISSN:1471-2164</dcterms:isPartOf><License rdf:about="http://creativecommons.org/licenses/by/2.0"><permits rdf:resource="http://web.resource.org/cc/Reproduction" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/Distribution" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Notice" xmlns=""/><requires rdf:resource="http://web.resource.org/cc/Attribution" xmlns=""/><permits rdf:resource="http://web.resource.org/cc/DerivativeWorks" xmlns=""/></License></Work></rdf>-->
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>With the completion of the human genome sequence the functional analysis and characterization of the encoded proteins has become the next urging challenge in the post-genome era. The lack of comprehensive ORFeome resources has thus far hampered systematic applications by protein gain-of-function analysis. Gene and ORF coverage with full-length ORF clones thus needs to be extended. In combination with a unique and versatile cloning system, these will provide the tools for genome-wide systematic functional analyses, to achieve a deeper insight into complex biological processes.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Here we describe the generation of a full-ORF clone resource of human genes applying the Gateway cloning technology (Invitrogen). A pipeline for efficient cloning and sequencing was developed and a sample tracking database was implemented to streamline the clone production process targeting more than 2,200 different ORFs. In addition, a robust cloning strategy was established, permitting the simultaneous generation of two clone variants that contain a particular ORF with as well as without a stop codon by the implementation of only one additional working step into the cloning procedure. Up to 92 % of the targeted ORFs were successfully amplified by PCR and more than 93 % of the amplicons successfully cloned.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>The German cDNA Consortium ORFeome resource currently consists of more than 3,800 sequence-verified entry clones representing ORFs, cloned with and without stop codon, for about 1,700 different gene loci. 177 splice variants were cloned representing 121 of these genes. The entry clones have been used to generate over 5,000 different expression constructs, providing the basis for functional profiling applications. As a member of the recently formed international ORFeome collaboration we substantially contribute to generating and providing a whole genome human ORFeome collection in a unique cloning system that is made freely available in the community.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>Recent efforts have completely unravelled also the human genome sequence [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B6">6</xref>]. Since, attention has shifted towards the detailed understanding of gene functions in health and disease by analysing the structure, biological activities and dynamics of the encoded proteins. To this end, RNA interference (RNAi) has received much attention as a powerful tool for systematic loss-of-function genetic studies on a large scale [<xref ref-type="bibr" rid="B7">7</xref>-<xref ref-type="bibr" rid="B9">9</xref>]. However, for many functional genomics and proteomics applications including studies on protein subcellular localization [<xref ref-type="bibr" rid="B10">10</xref>], protein structures [<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>], protein functions in cell-based experiments [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>], analysis of protein-protein interactions [<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>], and disease-related processes [<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>], expression clones are indispensable. The clones of cDNA collections [<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>,<xref ref-type="bibr" rid="B19">19</xref>] are generally not ideal for immediate use in these experiments, as they contain 5'and 3'untranslated regions (UTRs) of varying lengths. These interfere with the expression of the encoded proteins especially when coexpression of in-frame fusions with specific tags at either ends are anticipated. The 5'UTRs may contain in-frame stop codons or lead to the inclusion of artificial amino acid sequences. The native stop codon that terminates any ORF furthermore impedes the expression of C-terminal protein fusions. In consequence, the generation of clone collections that only contain the protein coding part of the genes (ORFs) has become a key component for the comprehensive and systematic analysis of protein functions in many different systems. Despite the availability of the human genome sequence, a respective full-ORF clone collection is far from being complete [<xref ref-type="bibr" rid="B20">20</xref>]. This is in part due to the fact that the structures of many genes are still unclear, and thus require considerable manual and individual verification [<xref ref-type="bibr" rid="B21">21</xref>]. Furthermore, the phenomenon of alternative splicing has not received much attention in ORF clone collections yet. Here, we report on the production of a full-length ORF clone library of human genes and splice forms, using the recombination-based Gateway cloning system (Invitrogen) [<xref ref-type="bibr" rid="B22">22</xref>]. We have developed a cloning approach applied to more than 2,200 different ORFs including (1) optimization and improvement of gene models, and of the ORF amplification and cloning processes, (2) development of a cloning strategy to simultaneously generate Gateway entry clones with and without stop codon, (3) establishment of a pipeline for ORF sequence validation (4) programming and implementation of a sample tracking database. The generated entry clone resource currently comprises more than 3,800 sequence-validated Gateway clones for more than 1,850 ORFs, the coding sequences have an average size of greater 2 kb. As a member of the recently initiated international ORFeome collaboration [<xref ref-type="bibr" rid="B20">20</xref>] we significantly contribute to generating and providing ORF clone resources for all human genes and their splice forms in a unique and flexible cloning system. The Gateway entry clones have since been used to generate over 5,000 different expression constructs that have been successfully exploited in functional profiling applications [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. All entry clones are available through the international ORFeome collaboration [<xref ref-type="bibr" rid="B25">25</xref>].</p>
+    </sec>
+    <sec>
+      <title>Results and Discussion</title>
+      <sec>
+        <title>Gene structures and models</title>
+        <p>A number of automated software solutions have been implemented to annotate genomes and genes [<xref ref-type="bibr" rid="B26">26</xref>,<xref ref-type="bibr" rid="B27">27</xref>]. Also then the quality of gene predictions is tightly associated with the availability and quality of cDNA sequence information as most gene predictions are based on cDNA sequences [<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B28">28</xref>]. Nevertheless, automated gene predictions are not perfect, and careful manual annotation is thus the method of choice in gene structure modeling [<xref ref-type="bibr" rid="B29">29</xref>]. We systematically performed manual annotation of genes and gene structures using available sequence information from mammalian species and computational gene predictions. The combined data was used to create gene models and virtual templates, to finally predict functional ORFs for subsequent cloning and sequence validation. The German cDNA Consortium focuses on the ORF cloning of genes not yet present in ORF clone collections. Thus far, some 2,500 gene loci have been annotated, identifying more than 2,200 full-ORF variants of about 2,000 genes. cDNAs, either annotated as mRNA or ESTs, were available for more than 1,850 genes (either DKFZ or MGC clones), while RT-PCR amplification was required for about 150 gene and ORF-models. These covered mostly long and lowly expressed genes. Figure <xref ref-type="fig" rid="F1">1</xref> shows an example of a gene model for which three alternative transcript starts were predicted in our annotation, all of which have since been confirmed by sequencing of cloned RT-PCR products. cDNAs were not available to amplify the ORFs of that gene.</p>
+        <fig position="float" id="F1">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Modeling of gene structures</bold>. Screen shot of the UCSC Genome browser displaying a gene that we predicted to be expressed in three variant transcripts and that is consequently characterized by three gene models (hp1_2a-c). The gene models show different transcription start sites, resulting in different N-terminal ends of the encoded proteins. All three models could be verified by ORF amplification, cloning, and sequence validation of the resulting entry clones.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-8-399-1"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>Efficient ORF amplification procedure</title>
+        <sec>
+          <title>- Tagging the ORFs with Gateway sites</title>
+          <p>For systematic cloning of the ORFs, the recombination-based Gateway technology (Invitrogen) was used [<xref ref-type="bibr" rid="B22">22</xref>] as it allows their functional exploitation in a broad range of expression systems in parallel. Initially, the ORFs had been amplified by a one-step PCR [<xref ref-type="bibr" rid="B10">10</xref>]. Many ORFs then failed to be amplified due to the length of the primer and the average success rate was &lt; 75 % (Fig. <xref ref-type="fig" rid="F2">2</xref>). This effect increased with increasing ORF size, resulting in a &gt; 30 % PCR failure rate for ORFs &gt; 3 kb (Fig. <xref ref-type="fig" rid="F2">2</xref>). Further, the error rate within the primer sites was unacceptably high in cloned products because of the difficulty to reliably generate long oligonucleotides. By the switch to a 2-step PCR strategy described in [<xref ref-type="bibr" rid="B30">30</xref>], according to [<xref ref-type="bibr" rid="B31">31</xref>,<xref ref-type="bibr" rid="B32">32</xref>] a clear increase in the PCR success rate of up to 15 % could be achieved, especially for ORFs &gt; 3 kb (Fig. <xref ref-type="fig" rid="F2">2</xref>). In addition, this strategy permitted the use of only one universal primer set suitable for all second step PCRs, resulting in a reduction of costs for the shortened ORF-specific primers. Detailed protocols on this and the other procedures in the cloning process are available at [<xref ref-type="bibr" rid="B33">33</xref>].</p>
+          <fig position="float" id="F2">
+            <label>Figure 2</label>
+            <caption>
+              <p><bold>PCR-success with and without optimization of the reaction conditions</bold>. The impact of the optimizations steps on the success rates (in percentages) are shown in dependence on the ORF size. A PCR was defined successful when a DNA product of the expected size was observed in analytical agarose gel electrophoresis.</p>
+            </caption>
+            <graphic xlink:href="1471-2164-8-399-2"/>
+          </fig>
+        </sec>
+        <sec>
+          <title>- Primer quality and processivity and fidelity of DNA polymerases</title>
+          <p>Although the primer truncation strongly reduced the PCR failure rate, we still observed primer errors when sequencing the ORF clones rendering the affected clones useless. The error rate could be further reduced by selecting the oligonucleotides with the highest sequence accuracy identified in a comparative test of three suppliers (Table <xref ref-type="table" rid="T1">1</xref>). Whereas for two suppliers mostly frame-shift mutations caused by a high rate of n-1 primers, were observed, only 3 % of primers from a third supplier were incorrect (Table <xref ref-type="table" rid="T1">1</xref>). It should be noted, however, that the quality of suppliers is variable and that care should be taken to follow the success rate over time.</p>
+          <table-wrap position="float" id="T1">
+            <label>Table 1</label>
+            <caption>
+              <p>Comparison of primer quality of three different suppliers</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+              <thead>
+                <tr>
+                  <td/>
+                  <td align="center">
+                    <bold>total # of analysed clones</bold>
+                  </td>
+                  <td align="center">
+                    <bold>% of clones with frame shift mutations</bold>
+                  </td>
+                  <td align="center">
+                    <bold>% of clones with missense mutations</bold>
+                  </td>
+                  <td align="center">
+                    <bold>% of positive clones</bold>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left">
+                    <bold>Supplier 1</bold>
+                  </td>
+                  <td align="center">100</td>
+                  <td align="center">8</td>
+                  <td align="center">3</td>
+                  <td align="center">89</td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>Supplier 2</bold>
+                  </td>
+                  <td align="center">100</td>
+                  <td align="center">5</td>
+                  <td align="center">1</td>
+                  <td align="center">94</td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>Supplier 3</bold>
+                  </td>
+                  <td align="center">100</td>
+                  <td align="center">1</td>
+                  <td align="center">2</td>
+                  <td align="center">97</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+          <p>ORFs with continuously increasing size have been cloned in the course of the project (Fig. <xref ref-type="fig" rid="F3">3</xref>), now being 2.2 kb on average. In this context, a high PCR failure and mutation rate was observed caused by the DNA polymerase used. We tested two proofreading DNA polymerases mixtures, that had ranked best in a comparative prescreen with ten different enzymes (data not shown), and there the Phusion High-fidelity DNA polymerase (Finnzymes) was identified as the enzyme possessing a high processivity (Fig. <xref ref-type="fig" rid="F4">4</xref>) but a 30-fold higher fidelity compared to the second enzyme. Hence this enzyme was used for all subsequent PCR reactions. It enhanced the success rate especially of ORFs &gt; 4 kb and ORFs amplified from primary cDNA up to 15 % (Fig. <xref ref-type="fig" rid="F2">2</xref>) in combination with the addition of DMSO, reported to reduce secondary structures particularly in GC-rich template stretches [<xref ref-type="bibr" rid="B34">34</xref>,<xref ref-type="bibr" rid="B35">35</xref>] and the reduction of the extension temperature from 72 to 63Â°C [<xref ref-type="bibr" rid="B36">36</xref>].</p>
+          <fig position="float" id="F3">
+            <label>Figure 3</label>
+            <caption>
+              <p><bold>Average size of ORFs cloned in the project</bold>. The continuous increase in the size of successfully cloned ORFs due to the combined improvements of ORF amplification and cloning procedures is shown with respect to the year.</p>
+            </caption>
+            <graphic xlink:href="1471-2164-8-399-3"/>
+          </fig>
+          <fig position="float" id="F4">
+            <label>Figure 4</label>
+            <caption>
+              <p><bold>Comparison of PCR products amplified with two different DNA polymerase systems</bold>. A total of 100 ORFs (50 ORFs per enzyme mix), ranging from 300 to 4,000 bp in size, were amplified. Electrophoretic analysis of 10 representative ORFs amplified using either the supplier I (left panel) or the Phusionâ¢ High-Fidelity DNA Polymerase (Finnzymes) (right panel). One-tenth of each reaction product of first and second step ORF amplification were loaded adjacent to each other on an analytical agarose gel. According to the lane number the expected ORF sizes and accession numbers of first-step PCR templates are as follows: 1: 759 bp, BC100921; 2: 1125 bp, BC093648; 3: 1554 bp, BC104948; 4: 3198 bp, BC117368; 5: 651 bp, BC105131; 6: 1653 bp, BC109061; 7: 2400 bp, BC113416; 8: 1737 bp, BC117320; 9: 1854 bp, BC101755; 10: 720 bp, BC113739.'M' indicates the molecular weight marker lanes.</p>
+            </caption>
+            <graphic xlink:href="1471-2164-8-399-4"/>
+          </fig>
+          <p>Where a PCR fragment of expected size could not be obtained, a further round of reamplification was undertaken which was successful in 36 % of these cases (Table <xref ref-type="table" rid="T2">2</xref>). The failure rate was especially high when using primary cDNAs (Table <xref ref-type="table" rid="T2">2</xref>). This concerned mainly large and lowly and/or only rarely expressed genes and even the pooling of cDNAs from various tissues resulted only in few cases in a fragment of correct size.</p>
+          <table-wrap position="float" id="T2">
+            <label>Table 2</label>
+            <caption>
+              <p>Success rates of ORF amplification</p>
+            </caption>
+            <table frame="hsides" rules="groups">
+              <thead>
+                <tr>
+                  <td align="left">
+                    <bold>template type</bold>
+                  </td>
+                  <td align="center" colspan="4">
+                    <bold>cDNA clone</bold>
+                  </td>
+                  <td align="center" colspan="4">
+                    <bold>EST clone</bold>
+                  </td>
+                  <td align="center" colspan="4">
+                    <bold>primary cDNA</bold>
+                  </td>
+                  <td align="center" colspan="4">
+                    <bold>total</bold>
+                  </td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left">
+                    <bold>ORFs targeted</bold>
+                  </td>
+                  <td align="center">
+                    <bold># total</bold>
+                  </td>
+                  <td align="center">
+                    <bold># pos</bold>
+                    <sup>a</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>b</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>c</sup>
+                  </td>
+                  <td align="center">
+                    <bold># total</bold>
+                  </td>
+                  <td align="center">
+                    <bold># pos</bold>
+                    <sup>a</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>b</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>c</sup>
+                  </td>
+                  <td align="center">
+                    <bold># total</bold>
+                  </td>
+                  <td align="center">
+                    <bold># pos</bold>
+                    <sup>a</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>b</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>c</sup>
+                  </td>
+                  <td align="center">
+                    <bold># total</bold>
+                  </td>
+                  <td align="center">
+                    <bold># pos</bold>
+                    <sup>a</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>b</sup>
+                  </td>
+                  <td align="center">
+                    <bold>%</bold>
+                    <sup>c</sup>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="17">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>1. amplification</bold>
+                  </td>
+                  <td align="center">1712</td>
+                  <td align="center">1303</td>
+                  <td align="center">76</td>
+                  <td align="center">76</td>
+                  <td align="center">368</td>
+                  <td align="center">267</td>
+                  <td align="center">73</td>
+                  <td align="center">73</td>
+                  <td align="center">156</td>
+                  <td align="center">39</td>
+                  <td align="center">25</td>
+                  <td align="center">25</td>
+                  <td align="center">2236</td>
+                  <td align="center">1609</td>
+                  <td align="center">72</td>
+                  <td align="center">72</td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>reamplification</bold>
+                    <sup>d</sup>
+                  </td>
+                  <td align="center">409</td>
+                  <td align="center">162</td>
+                  <td align="center">40</td>
+                  <td align="center">9</td>
+                  <td align="center">101</td>
+                  <td align="center">39</td>
+                  <td align="center">39</td>
+                  <td align="center">11</td>
+                  <td align="center">117</td>
+                  <td align="center">25</td>
+                  <td align="center">21</td>
+                  <td align="center">16</td>
+                  <td align="center">627</td>
+                  <td align="center">226</td>
+                  <td align="center">36</td>
+                  <td align="center">10</td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>amplified with alternative template</bold>
+                  </td>
+                  <td align="center">103</td>
+                  <td align="center">80</td>
+                  <td align="center">78</td>
+                  <td align="center">5</td>
+                  <td align="center">28</td>
+                  <td align="center">22</td>
+                  <td align="center">79</td>
+                  <td align="center">6</td>
+                  <td align="center">61</td>
+                  <td align="center">15</td>
+                  <td align="center">25</td>
+                  <td align="center">10</td>
+                  <td align="center">192</td>
+                  <td align="center">117</td>
+                  <td align="center">61</td>
+                  <td align="center">5</td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>amplified with alternative 1-step primers</bold>
+                  </td>
+                  <td align="center">32</td>
+                  <td align="center">26</td>
+                  <td align="center">81</td>
+                  <td align="center">2</td>
+                  <td align="center">16</td>
+                  <td align="center">13</td>
+                  <td align="center">81</td>
+                  <td align="center">4</td>
+                  <td align="center">21</td>
+                  <td align="center">6</td>
+                  <td align="center">29</td>
+                  <td align="center">4</td>
+                  <td align="center">69</td>
+                  <td align="center">45</td>
+                  <td align="center">65</td>
+                  <td align="center">2</td>
+                </tr>
+                <tr>
+                  <td align="left">
+                    <bold>Sum</bold>
+                  </td>
+                  <td align="center">1712<sup>e</sup></td>
+                  <td align="center">1571</td>
+                  <td/>
+                  <td align="center">92</td>
+                  <td align="center">368<sup>e</sup></td>
+                  <td align="center">341</td>
+                  <td/>
+                  <td align="center">94</td>
+                  <td align="center">156<sup>e</sup></td>
+                  <td align="center">85</td>
+                  <td/>
+                  <td align="center">55</td>
+                  <td align="center">2236<sup>f</sup></td>
+                  <td align="center">1997</td>
+                  <td/>
+                  <td align="center">89</td>
+                </tr>
+              </tbody>
+            </table>
+            <table-wrap-foot>
+              <p><sup>a </sup>Number of ORFs with expected product size obtained by PCR.</p>
+              <p><sup>b </sup>Sucess rate of the respective reaction step.</p>
+              <p><sup>c </sup>Contribution of each step to the final PCR success rate (rounded values).</p>
+              <p><sup>d </sup>Reamplification with slight modifications of the PCR protocol depending on result of first amplification.</p>
+              <p><sup>e </sup>Sum of ORFs targeted per template type.</p>
+              <p><sup>f </sup>Total sum of ORFs targeted</p>
+            </table-wrap-foot>
+          </table-wrap>
+          <p>However, if the amplification was clone-based and the expected PCR product was not obtained, the template DNA was sequence controlled. More than 10 % of all clones used did not contain the expected insert probably due to picking or annotation errors, or they did not contain the complete ORFs. If available, the amplification was repeated with an alternative template which proved to be efficient for â¥ 78 % of these ORFs (Table <xref ref-type="table" rid="T2">2</xref>). Where the amplification failed due to no priming or mispriming events, first-step primer redesign generated a PCR fragment in 81 % of the cases (Table <xref ref-type="table" rid="T2">2</xref>).</p>
+          <p>By the application of our PCR pipeline optimized by the combination of amplification step improvements up to 92 % of the ORFs could be successfully amplified (Fig. <xref ref-type="fig" rid="F2">2</xref>) and more than 86 % irrespective of the ORF size (upper limit tested: 6.5 kb) (Fig. <xref ref-type="fig" rid="F2">2</xref>; Table <xref ref-type="table" rid="T2">2</xref>). We successfully generated amplicons for a total of 1997 different ORFs (Table <xref ref-type="table" rid="T2">2</xref>) which were subsequently subjected to BP cloning.</p>
+        </sec>
+      </sec>
+      <sec>
+        <title>Recombinatorial cloning of target ORFs</title>
+        <p>When cloning the ORFs into Gateway entry donor vectors, we identified the DNA purity as a critical parameter in the cloning process. Unspecific side-products, often short contaminations which were particularly observed when the ORFs had been amplified via RT-PCR, recombined during the BP reaction more efficiently than the desired PCR products. This effect increased with larger ORF sizes. The recombination success rate could be improved by more than 15 % by gel-purification of the ORFs, proved to be most advantageous, especially for ORFs &gt; 3 kb compared to ethanol precipitation or even column-purification (Fig. <xref ref-type="fig" rid="F5">5</xref>).</p>
+        <fig position="float" id="F5">
+          <label>Figure 5</label>
+          <caption>
+            <p><bold>Success in entry clone production with and without optimization of the reaction compositions and conditions</bold>. The cumulative effect of the different protocol modifications on the BP cloning success is shown for different ORF size ranges. BP reactions were rated successful when the expected ORF could be cloned and sequence verified.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-8-399-5"/>
+        </fig>
+        <p>In addition, the BP cloning was as more efficient as more balanced the molar ratio of PCR product and donor vector was (1:1), or even was shifted in favor of the PCR product. This turned out to be a challenge particularly for low yields of purified PCR products and for ORFs &gt; 2 kb being amplified from primary cDNA, as uneven ratios resulted in only few clones mostly containing only the empty donor vector. Pooling multiple PCR reactions prior to BP cloning improved the success rate by about 20 % (Fig. <xref ref-type="fig" rid="F5">5</xref>) and was superior to raising the cycle number per reaction as this would have led to increased error rates. The BP cloning efficiency was further enhanced by replacing the Gateway donor vector pDONR201 with the "second-generation" pDONR221 (Fig. <xref ref-type="fig" rid="F5">5</xref>) reported to improve the recombination efficiency due to modifications of the <italic>att</italic>P1 and <italic>att</italic>P2 site [<xref ref-type="bibr" rid="B37">37</xref>]. In total, more than 1,800 amplicons were successfully cloned (Table <xref ref-type="table" rid="T3">3</xref>), thus reaching a BP cloning success rate of 93 % (Table <xref ref-type="table" rid="T3">3</xref>).</p>
+        <table-wrap position="float" id="T3">
+          <label>Table 3</label>
+          <caption>
+            <p>Success rates of ORF cloning in dependence on the template used</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <td/>
+                <td/>
+                <td align="center" colspan="2">
+                  <bold>PCR</bold>
+                </td>
+                <td align="center" colspan="2">
+                  <bold>BP reaction</bold>
+                </td>
+                <td align="center" colspan="3">
+                  <bold>Entry clones</bold>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">
+                  <bold>ORFs targeted</bold>
+                </td>
+                <td align="center">
+                  <bold># total</bold>
+                </td>
+                <td align="center">
+                  <bold># pos</bold>
+                  <sup>a</sup>
+                </td>
+                <td align="center">
+                  <bold>%</bold>
+                </td>
+                <td align="center">
+                  <bold># pos</bold>
+                  <sup>b</sup>
+                </td>
+                <td align="center">
+                  <bold>%</bold>
+                </td>
+                <td align="center">
+                  <bold># +/- stop codon</bold>
+                  <sup>c</sup>
+                </td>
+                <td align="center">
+                  <bold># + stop codon</bold>
+                  <sup>d</sup>
+                </td>
+                <td align="center">
+                  <bold># - stop codon</bold>
+                  <sup>e</sup>
+                </td>
+              </tr>
+              <tr>
+                <td colspan="9">
+                  <hr/>
+                </td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <bold>cDNA clones</bold>
+                </td>
+                <td align="center">1712</td>
+                <td align="center">1571</td>
+                <td align="center">92</td>
+                <td align="center">1477</td>
+                <td align="center">94</td>
+                <td align="center">1355</td>
+                <td align="center">63</td>
+                <td align="center">55</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <bold>EST clones</bold>
+                </td>
+                <td align="center">368</td>
+                <td align="center">341</td>
+                <td align="center">93</td>
+                <td align="center">314</td>
+                <td align="center">92</td>
+                <td align="center">290</td>
+                <td align="center">9</td>
+                <td align="center">13</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <bold>Primary cDNA</bold>
+                </td>
+                <td align="center">156</td>
+                <td align="center">85</td>
+                <td align="center">54</td>
+                <td align="center">76</td>
+                <td align="center">89</td>
+                <td align="center">69</td>
+                <td align="center">1</td>
+                <td align="center">3</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <bold>Sum</bold>
+                </td>
+                <td align="center">2236</td>
+                <td align="center">1997</td>
+                <td align="center">89<sup>f</sup></td>
+                <td align="center">1867</td>
+                <td align="center">93<sup>g</sup></td>
+                <td align="center">1714</td>
+                <td align="center">73</td>
+                <td align="center">71</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>Number of ORFs with expected product size obtained by PCR.</p>
+            <p><sup>b </sup>Number of ORFs with expected product size detected by colony-PCR of entry clones.</p>
+            <p><sup>c </sup>ORFs represented by at least one sequence verified entry clone with and without a stop codon.</p>
+            <p><sup>d,e </sup>At least one sequence verified entry clone with<sup>(d) </sup>or without<sup>(e) </sup>a stop codon was obtained for these ORFs.</p>
+            <p><sup>f,g </sup>Cumulative success rates of PCR reaction (<sup>f</sup>) and BP cloning (<sup>g</sup>)</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Simultaneous generation of ORF clones with and without a stop codon</title>
+        <p>Depending on the downstream applications the native stop codon of an ORF is required to be present or to be omitted in the cloning process, to allow for N- and/or C-terminal fusions, respectively. Localization studies employing fusion proteins with GFP have shown that proteins harbouring N-terminal leader sequences frequently mislocalize when they contain an N-terminal extension [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B38">38</xref>]. In contrast, expression of native proteins e.g. for protein structure determination [<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B12">12</xref>] requires the presence of the native stop codon. To circumvent the laborious and cost-intensive duplication of all processes during clone generation and quality control, we developed a cloning strategy that allows for the simultaneous generation of two variants of Gateway entry clones, one containing a particular ORF with and the other without the stop codon. This was achieved by exchanging the native stop codon with a degenerated triplet (TGR) at the 3'-end of the ORF-specific sequence in the reverse PCR primer sequence leading to the inclusion of an A- or G-residue at the degenerated position during the PCR (Fig. <xref ref-type="fig" rid="F6">6a</xref>). The incorporation of an A-residue results in amplicons that contain a stop codon (TGA), the inclusion of a G changes it into a sense codon (TGG) for tryptophan. The primer design included the combination of that terminal triplet (TGR) with additional three bases resulting in a <italic>Bam</italic>HI recognition sequence only if the G was present, whereas the inclusion of the A destroyed the <italic>Bam</italic>HI site (Fig. <xref ref-type="fig" rid="F6">6a</xref>). For the nested PCR performed with a universal primer pair complementary exclusively to the overhangs (including the degenerated triplet) common to all first step primers, reverse primers containing either an A or a G at the degenerated position were purchased separately. They were mixed in a ratio of 1:1 to guarantee an equimolar ratio of the two primers in the tailed PCR.</p>
+        <fig position="float" id="F6">
+          <label>Figure 6</label>
+          <caption>
+            <p><bold>Cloning strategy for the simultaneous generation of entry clones in open and closed configuration</bold>. <bold>A</bold>: Sequences of entry clones 3' of the ORF either containing or not containing a stop codon. The sequences correspond to the reverse primer sequences of 2-step PCR. In presence of an A at the degenerated position, a stop codon is created and the <italic>Bam</italic>HI site (underlined) destroyed. In contrast, the inclusion of a G generates a <italic>Bam</italic>HI site and results in a translational read-through. <bold>B</bold>: Schematic presentation of the entry clone map. 'for' and 'rev' indicate the binding sites of the colony PCR primers. The degenerated position is indicated by the arrow. <bold>C</bold>: <italic>Bam</italic>HI colony-PCR restriction digest of eight independent colonies resulting from BP cloning of four different ORFs amplified using degenerated reverse primers. The arrows mark the additional band which appears in presence of the <italic>Bam</italic>HI recognition sequence, indicating that the ORF does not contain a stop codon. ORF 4 contains an internal BamHI site indicated by the appearance of a band of about 100 bp. 'M' indicates the molecular weight marker lanes.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-8-399-6"/>
+        </fig>
+        <p>For colony-PCR after <italic>E.coli </italic>transformation the nested PCR forward primer was used in combination with a reverse primer designed to anneal 200 bp downstream of the ORF to the vector backbone (Fig. <xref ref-type="fig" rid="F6">6b</xref>). PCR products were digested with <italic>Bam</italic>HI and the absence or presence of the stop codon was determined by agarose gel electrophoresis to distinguish the two species of entry clones. Clones with an open configuration displayed an additional band of 200 bp and a corresponding size shift of the ORF band in contrast to undigested clones containing a stop codon, as shown in Fig. <xref ref-type="fig" rid="F6">6c</xref>.</p>
+        <p>In summary, with this straightforward cloning protocol entry clones containing specific ORFs with and without a stop codon were obtained in parallel, while introducing only one additional working step, namely the <italic>Bam</italic>HI digest of colony PCR products. The success rate was &gt; 90 % when eight individual entry clones were analyzed for every ORF. In few cases (&lt; 5 %) only one of the two variants were found or no ORF (&lt; 5 %) was present in the clones. Thus, the modification of the ORF flanking region in the 3'-primer did not significantly influence the recombination efficiency of the BP reaction. This strategy has a high capacity for automation and can thus be applied in high-throughput. It enabled the distinction of clones already before entry clone sequencing, saving the laborious and costly sequencing of randomly selected clones that would otherwise be required to identify ORF clones with as well as without a stop codon.</p>
+      </sec>
+      <sec>
+        <title>Sequence validation of entry clones</title>
+        <p>Four entry clones per ORF scored positive by colony-PCR, two containing and two lacking a stop codon, were subjected to 5' and 3' sequencing using vector primers. The sequences were analysed for matching the target gene and for the integrity of the recombination sites to exclude clones containing primer or recombination errors. If the clones matched the target sequences the inserts were verified by complete sequencing using ORF specific primers. Entry clones were scored positive if the assembled sequences were identical to the expected sequences or if they contained base changes that were silent mutations or confirmed as SNPs. When base changes were observed that did result in amino acid substitutions they were evaluated as follows: If an alternative entry clones was present containing the correct ORF this clone was further used. Where amino acid substitutions were detected at different positions in the clones analysed, further clones were subjected to the sequencing process. If all clones contained the same amino acid substitutions cloning was repeated using an alternative template. Clones containing either nonsense mutations leading to in-frame stop codons or base changes within the recombination sites which potentially impaired the subcloning efficiency, were rejected. In cases where the ORF was not present or only partially cloned due to internal deletions or mispriming events or where introns were retained, the cloning was repeated. If the sequencing reaction failed new primers were designed.</p>
+        <p>Thus far, more than 3,800 entry clones have been sequence verified encoding more than 1,850 different ORFs (Table <xref ref-type="table" rid="T4">4</xref>), mostly represented by at least one entry clone with and one without a stop codon (Table <xref ref-type="table" rid="T3">3</xref>). The entry clone sequences are constantly submitted to the GenBank database. The improvements of particular cloning steps cumulated to our optimized cloning pipeline thus generating a clone collection which covers &gt; 83 % of the targeted ORFs (Table <xref ref-type="table" rid="T4">4</xref>) thereby an efficiency &gt; 90 was reached for ORFs up to 2 kb. The clones are distributed via the ORFeome Collaboration [<xref ref-type="bibr" rid="B25">25</xref>] and are made available through I.M.A.G.E. clone providers.</p>
+        <table-wrap position="float" id="T4">
+          <label>Table 4</label>
+          <caption>
+            <p>Overview on sequence validated accepted clones</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <td/>
+                <td align="center">
+                  <bold>genes</bold>
+                </td>
+                <td align="center">
+                  <bold>additional splice variants of the targeted genes</bold>
+                </td>
+                <td align="center">
+                  <bold>full-ORFs</bold>
+                  <sup>a</sup>
+                </td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">
+                  <bold># initially targeted</bold>
+                </td>
+                <td align="center">2021</td>
+                <td align="center">215</td>
+                <td align="center">2236</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <bold>sequence validated clones generated for</bold>
+                  <sup>b</sup>
+                </td>
+                <td align="center">1681</td>
+                <td align="center">177</td>
+                <td align="center">1858</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <bold>% success</bold>
+                </td>
+                <td align="center">83</td>
+                <td align="center">82</td>
+                <td align="center">83</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p><sup>a </sup>Sum of ORFs encoded by targeted genes and splice variants.</p>
+            <p><sup>b </sup>At least one sequence verified entry clone with and/or without a stop codon was obtained</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Database application for sample tracking, standardization and quality control</title>
+        <p>A database application has been developed as a prerequisite for the management and monitoring of a high number of ORFs in parallel and for the tracking of individual products in the cloning process. The software has been designed to automatically generate and maintain a standardized nomenclature during all steps of the cloning process, utilizing unique and consistent identifiers for ORFs, PCR reactions, colony-PCRs, entry- and expression clones (Fig. <xref ref-type="fig" rid="F7">7</xref>). Thus, possible errors and inconsistencies else likely introduced by manual typing could be avoided. New IDs are generated by the database and subsequent cloning steps are only enabled after the previous step has been quality controlled and approved to having been successful (Fig. <xref ref-type="fig" rid="F7">7a</xref> and <xref ref-type="fig" rid="F7">7c</xref>). All IDs contain a reference to the ORF models that were named according to the template used: in case of cDNA or EST clones according to the clone name and in case of primary cDNA according to the ORF prediction. Thus, the database implementation guarantees quality standards in the ORF-clone resources and a full tracking of each product. Working lists for the various experimental processes can be extracted to follow up on every particular ORF during the procedure (Fig. <xref ref-type="fig" rid="F7">7d</xref>). As all cloning steps have been performed in 96-well format (PCR, colony-PCR, entry clone preparation and sequence validation, and downstream processing of the entry clones), the respective plates could be automatically assembled by the database application (Fig. <xref ref-type="fig" rid="F7">7b</xref> and <xref ref-type="fig" rid="F7">7c</xref>). This greatly facilitated the automation of the cloning procedure, as the pipetting sheets could be directly transferred to the robotic workstations. In consequence, this contributed significantly to a streamlined cloning procedure and increased the cloning throughput and success rate. Furthermore, any functional data that are obtained with the ORF clone resource [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>,<xref ref-type="bibr" rid="B39">39</xref>] and the corresponding expression constructs can be unambiguously tracked back to entry clones and the material they had derived from.</p>
+        <fig position="float" id="F7">
+          <label>Figure 7</label>
+          <caption>
+            <p><bold>User interfaces of the cloning database "SCISSORS"</bold>. A: Screenshot of the data entry sheet of second step ORF PCR. B: 96-well colony PCR plate assembled by the software. The entered PCR results are automatically color-coded by the software as follows: red and grey: positive or negative colony (presence or absence of a band of expected size on the agarose gel), blue: entry clone colonies already used for plasmid preparation, yellow: colonies selected for generation of a new entry clone 96-well plate. C: User interface of entry clone plates. Clones scored positive in the control digest are automatically color-coded in green, negative clones remain white. Clicking on the plate positions opens a window to enter the sequencing result of the particular entry clone. D: Results of a working step can also be entered in a table format, as shown for the entry clone validation.</p>
+          </caption>
+          <graphic xlink:href="1471-2164-8-399-7"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusion</title>
+      <p>We have described the ORF cloning pipeline of the German cDNA Consortium, where human full-length ORFs are manually modelled and annotated, and subsequently efficiently amplified and cloned into Gateway entry vectors. We have improved and streamlined protocols to circumvent possible size bias, to simultaneously generate ORF constructs with and without stop codons, and to automate most of the processes. SOPs describing the ORF cloning processes in detail are available at [<xref ref-type="bibr" rid="B33">33</xref>]. The German cDNA Consortium ORFeome resource currently consists of more than 3,800 sequence-verified entry clones for more than 1,850 ORF models, most of them cloned with and without a stop codon. These entry clones represent about 1,700 genes, 177 splice variants were cloned representing 121 of these genes. The entry clones allow for a broad range of subsequent applications to functionally characterize the ORF encoded proteins in multiple expression systems in parallel [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>]. With this resource we significantly contribute to the international ORFeome collaboration [<xref ref-type="bibr" rid="B20">20</xref>] that aims at the generation and provision of a whole genome ORFeome collection of Gateway entry clones. The sequences are available at EMBL/GenBank/DDBJ databases and the clones are distributed via the ORFeome Collaboration and are made available through I.M.A.G.E. clone providers.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>Gene annotation and modeling of new gene structures</title>
+        <p>Using the UCSC genome browser [<xref ref-type="bibr" rid="B40">40</xref>] for visualization, gene models were built based on mRNA, EST and gene prediction data. The HUSAR software package [<xref ref-type="bibr" rid="B41">41</xref>] was employed with its BLAST and ORF-prediction tools mostly for fine analysis and mapping of the gene structures, and to retrieve data from RefSeq [<xref ref-type="bibr" rid="B42">42</xref>] and EntrezGene [<xref ref-type="bibr" rid="B43">43</xref>] databases. The UCSC Table Browser function [<xref ref-type="bibr" rid="B44">44</xref>] was used to retrieve relevant sequences for subsequent joining to construct full-length ORF models for the different gene loci. Gene features rendered most relevant for full-length ORF selection were: EST- and mRNA coverage, presence of CpG islands, polyA signals, canonical splice signals, conservation from comparative genome data, exclusion of repetitive elements, and not to be target of nonsense mediated decay (NMD) [<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B28">28</xref>]. If functional alternative splicing was observed for a gene locus different ORF models were build which were used as reference sequences for the generation of ORF cloning and sequencing primers for entry clone sequence verification. For ORF cloning we selected promising cDNAs or 5'-EST clones using our DKFZ or the MGC clone resources obtained via the RZPD (German Resource Center for Genome Research, Heidelberg). 5'-EST clones were first sequenced completely to analyze their potential to contain the full ORF. If no cDNA clones were available, suitable RNA sources were employed for RT-PCR to amplify full-length ORFs for subsequent cloning.</p>
+      </sec>
+      <sec>
+        <title>ORF amplification by PCR</title>
+        <p>The amplification of ORFs had originally been performed in a single PCR reaction as described previously [<xref ref-type="bibr" rid="B10">10</xref>], and has since been replaced by a 2-step procedure [<xref ref-type="bibr" rid="B30">30</xref>] performed on 96-well format. Primers for first-step PCR were designed using the PRIDE program [<xref ref-type="bibr" rid="B45">45</xref>] and purchased salt free from three different suppliers. The standard PCR contained a final concentration of 1x Phusion HF buffer, 10 ng template DNA, 10 pmol of primers, 0.5 mM dNTPs and 0.5 U Phusion DNA polymerase in a total reaction volume of 25 Î¼l. Standard first-step PCR parameters were: 98Â°C for 30 sec, 12 cycles of 98Â°C for 10 sec, 55Â°C for 10 sec, 63Â°C for 15â30 sec/1 kb, 63Â°C for 5 min final extension. The Gatewayâ¢ recombination sites were completed in a second PCR using a universal pair of PAGE-purified primers (Eurogentec). Forward primer: GGGGACAAGTTTGTACAAAAAAGCA<underline>GGCTCCACCATG</underline>; reverse primer: GGGGACCACTTTGTACAAG<underline>AAAGCTGGGTG</underline> (underlined sequences overlap with primers of first-step PCR). The nested PCR was performed in a 50 Î¼l reaction volume consisting of 1â5 Î¼l of first PCR reaction, 10 pmol of primers, 1 mM dNTPs, 1x Phusion HF buffer and 1 U Phusion DNA polymerase. The standard cycling conditions were identical to those of the first-step PCRs. For PCR product purification ethanol precipitation as well as other methods including QIAquick PCR Purification (Qiagen), ChargeSwitch PCR Clean-Up (Invitrogen), QIAquick Gel extraction (Qiagen) or MinElute Gel Extraction (Qiagen) were compared for best results. Detailed protocols for the two-step ORF amplification process are available at [<xref ref-type="bibr" rid="B33">33</xref>].</p>
+      </sec>
+      <sec>
+        <title>BP cloning of PCR-products</title>
+        <p>PCR products were cloned by BP recombination (Invitrogen) [<xref ref-type="bibr" rid="B22">22</xref>] into pDONR201 or pDONR221 in 96-well format according to the supplier's instructions, except using only half of the recommended volumes [<xref ref-type="bibr" rid="B22">22</xref>]. Incubation was at 25Â°C for 2â20 h. Ca<sup>2+</sup>-competent DH10B <italic>E.coli </italic>bacteria were transformed with the BP product using a Multiprobe pipetting robot (Perkin Elmer). Transformants were spread in two Q-trays (22 Ã 22 cm, Genetix), each subdivided into 48 squares by plastic grids, and containing LB agar supplemented with 50 Î¼g/ml kanamycin. Eight colonies per ORF were analysed for the presence of the ORF of expected size in a colony PCR, utilizing the Perkin Elmer Multiprobe robot to set-up the reactions. Simultaneously, the colonies were inoculated into a 96 deep well block (Greiner) and bacteria were grown for 16 hours.</p>
+      </sec>
+      <sec>
+        <title>Generation of ORF clones in open and closed configuration</title>
+        <p>ORFs both with and without a stop codon were generated simultaneously by introducing the following protocol modifications: six additional base pairs (underlined in the primer sequences below) were added upstream of the ORF-specific sequence in the reverse PCR primer for the first PCR step. One of these base pairs represented a degenerated position (Y = C or T): 5'-TGGGTG<underline>GATYCA</underline>-ORF-specific sequence-3'. For the nested PCR two reverse primers were mixed in an equimolar ratio, each containing either a "C" or "T" at the degenerated base position of the first step primer. For entry clone analysis by colony-PCR the second step ORF-PCR forward primer was combined with the following reverse primer: 5'-TCTTGTGCAATGTAACATCAG-3'. Subsequently, the reaction volume was doubled and 2 units of <italic>Bam</italic>HI were added directly into the wells of the 96-well colony PCR plate in order to screen for clones with and without a stop codon. After 2 h incubation at 37Â°C the samples were analysed on agarose gel.</p>
+      </sec>
+      <sec>
+        <title>Sequence validation of entry clones</title>
+        <p>Four entry clones of every ORF two with and two without a stop codon that had been scored positive in the colony PCR (Fig. <xref ref-type="fig" rid="F6">6c</xref>) were rearrayed using the Mulitprobe pipetting robot. Plasmid preparation was done with the Nucleospin Robot-96 plasmid kit (Macherey-Nagel) on the Bio Robot 9600. Entry clones were subsequently monitored by <italic>Bsr</italic>GI single and <italic>Bam</italic>HI/<italic>Pvu</italic>I double digest. Clones scoring positive were subjected to automated sequencing on 3100 Genetic Analyzers (Applied Biosystems) with BigDye Terminators v3.1 (Applied Biosystems). The entry clones were completely sequence-verified including the Gateway recombination sites applying primer walking strategy. The primer were designed to aneal every 450 bp based on the reference sequence of the ORF model using the PRIDE program [<xref ref-type="bibr" rid="B45">45</xref>]. Sequences were assembled using the Staden package [<xref ref-type="bibr" rid="B46">46</xref>] together with the reference ORF model sequence and checked for differences. Entry clones sequences were annotated based on the reference sequences using the Blast tools of the HUSAR software package [<xref ref-type="bibr" rid="B41">41</xref>]. Sequences are constantly submitted to the GenBank database.</p>
+      </sec>
+      <sec>
+        <title>Cloning database</title>
+        <p>The software for cloning process management ("SCISSORS") is a MS .NET application using MS SQL Server as a database backend. The software is a Lab Information Management System (LIMS) providing user interfaces for working step management, data acquisition and analysis. It furthermore represents an administration tool for clone and plate storage and is also used to store and display clone annotation information.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>ORF amplification and cloning, process optimization and improvement, entry clone sequencing and development of the cloning strategy for the simultaneous generation of ORFs in open and closed configuration was done by SB. IS has been involved in gene structure modeling and in the selection of full-length cDNA clones, the automated ORF primer design, and entry clone sequence validation. HR and AM developed the process management software. Cloning and analysis step automation was done by CPS. AD, UE, AB, HB, DH, AH, GM, HW, KK and BO did the experimental work in cloning and sequencing. RW participated in the DNA polymerase screening and CS assisted in editing the manuscript. SW participated in the Gateway cloning and in entry clone sequencing. SW and AP initiated the project, SW is coordinator of the cDNA Consortium. All authors read and approved the final manuscript.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <sec>
+        <title>Acknowledgements</title>
+        <p>We thank Silke Argo for critical reading of the manuscript. This work was supported by grant 01GR0420 of the National Genome Research Network from the Bundesministerium fÃ¼r Bildung und Forschung (BMBF).</p>
+      </sec>
+    </ack>
+    <ref-list>
+      <ref id="B1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bannasch</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The German cDNA network: cDNAs, functional genomics and proteomics</article-title>
+          <source>J Struct Funct Genomics</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>87</fpage>
+          <lpage>96</lpage>
+          <pub-id pub-id-type="pmid">14649292</pub-id>
+          <pub-id pub-id-type="doi">10.1023/A:1026148428520</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Weil</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Gassenhuber</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Glassl</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ansorge</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Bocher</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Blocker</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bauersachs</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Blum</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Lauber</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Dusterhoft</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Beyer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kohrer</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Strack</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Mewes</surname>
+              <given-names>HW</given-names>
+            </name>
+            <name>
+              <surname>Ottenwalder</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Obermaier</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Tampe</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Heubner</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wambutt</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Korn</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward a catalog of human genes and proteins: sequencing and analysis of 500 novel complete protein coding human cDNAs</article-title>
+          <source>Genome Res</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>422</fpage>
+          <lpage>435</lpage>
+          <pub-id pub-id-type="pmid">11230166</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.GR1547R</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adams</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Dubnick</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kerlavage</surname>
+              <given-names>AR</given-names>
+            </name>
+            <name>
+              <surname>Moreno</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kelley</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Utterback</surname>
+              <given-names>TR</given-names>
+            </name>
+            <name>
+              <surname>Nagle</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Fields</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Venter</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Sequence identification of 2,375 human brain genes</article-title>
+          <source>Nature</source>
+          <year>1992</year>
+          <volume>355</volume>
+          <fpage>632</fpage>
+          <lpage>634</lpage>
+          <pub-id pub-id-type="pmid">1538749</pub-id>
+          <pub-id pub-id-type="doi">10.1038/355632a0</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nomura</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Miyajima</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Sazuka</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kawarabayasi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nagase</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Seki</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ishikawa</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Tabata</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of the coding sequences of unidentified human genes. I. The coding sequences of 40 new genes (KIAA0001-KIAA0040) deduced by analysis of randomly sampled cDNA clones from human immature myeloid cell line KG-1 (supplement)</article-title>
+          <source>DNA Res</source>
+          <year>1994</year>
+          <volume>1</volume>
+          <fpage>47</fpage>
+          <lpage>56</lpage>
+          <pub-id pub-id-type="pmid">7584028</pub-id>
+          <pub-id pub-id-type="doi">10.1093/dnares/1.1.47</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strausberg</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Feingold</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Grouse</surname>
+              <given-names>LH</given-names>
+            </name>
+            <name>
+              <surname>Derge</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Klausner</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>FS</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Shenmen</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Schuler</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Altschul</surname>
+              <given-names>SF</given-names>
+            </name>
+            <name>
+              <surname>Zeeberg</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Buetow</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Schaefer</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Bhat</surname>
+              <given-names>NK</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>RF</given-names>
+            </name>
+            <name>
+              <surname>Jordan</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Max</surname>
+              <given-names>SI</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hsieh</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Diatchenko</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Marusina</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Farmer</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Rubin</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Stapleton</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Soares</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Bonaldo</surname>
+              <given-names>MF</given-names>
+            </name>
+            <name>
+              <surname>Casavant</surname>
+              <given-names>TL</given-names>
+            </name>
+            <name>
+              <surname>Scheetz</surname>
+              <given-names>TE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Generation and initial analysis of more than 15,000 full-length human and mouse cDNA sequences</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>16899</fpage>
+          <lpage>16903</lpage>
+          <pub-id pub-id-type="pmid">12477932</pub-id>
+          <pub-id pub-id-type="doi">10.1073/pnas.242603899</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ota</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Nishikawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Otsuki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Irie</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wakamatsu</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Makita</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sekine</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Obayashi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Nishi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Shibahara</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ishii</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kawai</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Isono</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Nagahari</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Murakami</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Iwayanagi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wagatsuma</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Shiratori</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sudo</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Complete sequencing and characterization of 21,243 full-length human cDNAs</article-title>
+          <source>Nat Genet</source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>40</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="pmid">14702039</pub-id>
+          <pub-id pub-id-type="doi">10.1038/ng1285</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moffat</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sabatini</surname>
+              <given-names>DM</given-names>
+            </name>
+          </person-group>
+          <article-title>Building mammalian signalling pathways with RNAi screens</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>177</fpage>
+          <lpage>187</lpage>
+          <pub-id pub-id-type="pmid">16496020</pub-id>
+          <pub-id pub-id-type="doi">10.1038/nrm1860</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hannon</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Rossi</surname>
+              <given-names>JJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Unlocking the potential of the human genome with RNA interference</article-title>
+          <source>Nature</source>
+          <year>2004</year>
+          <volume>431</volume>
+          <fpage>371</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="pmid">15372045</pub-id>
+          <pub-id pub-id-type="doi">10.1038/nature02870</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brummelkamp</surname>
+              <given-names>TR</given-names>
+            </name>
+            <name>
+              <surname>Bernards</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>New tools for functional mammalian cancer genetics</article-title>
+          <source>Nat Rev Cancer</source>
+          <year>2003</year>
+          <volume>3</volume>
+          <fpage>781</fpage>
+          <lpage>789</lpage>
+          <pub-id pub-id-type="pmid">14570045</pub-id>
+          <pub-id pub-id-type="doi">10.1038/nrc1191</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Systematic subcellular localization of novel proteins identified by large-scale cDNA sequencing</article-title>
+          <source>EMBO Rep</source>
+          <year>2000</year>
+          <volume>1</volume>
+          <fpage>287</fpage>
+          <lpage>292</lpage>
+          <pub-id pub-id-type="pmid">11256614</pub-id>
+          <pub-id pub-id-type="doi">10.1093/embo-reports/kvd058</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Folkers</surname>
+              <given-names>GE</given-names>
+            </name>
+            <name>
+              <surname>van Buuren</surname>
+              <given-names>BN</given-names>
+            </name>
+            <name>
+              <surname>Kaptein</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression screening, protein purification and NMR analysis of human protein domains for structural genomics</article-title>
+          <source>J Struct Funct Genomics</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>119</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="pmid">15263851</pub-id>
+          <pub-id pub-id-type="doi">10.1023/B:JSFG.0000029200.66197.0c</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yokoyama</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein expression systems for structural genomics and proteomics</article-title>
+          <source>Curr Opin Chem Biol</source>
+          <year>2003</year>
+          <volume>7</volume>
+          <fpage>39</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="pmid">12547425</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S1367-5931(02)00019-4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arlt</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Liebel</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Majety</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sauermann</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rosenfelder</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mehrle</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bannasch</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Schupp</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Seiler</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Hahne</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Moosmayer</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Ruschhaupt</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Guilleaume</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sultmann</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional profiling: from microarrays via cell-based assays to novel tumor relevant modulators of the cell cycle</article-title>
+          <source>Cancer Res</source>
+          <year>2005</year>
+          <volume>65</volume>
+          <fpage>7733</fpage>
+          <lpage>7742</lpage>
+          <pub-id pub-id-type="pmid">16140941</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Starkuviene</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Liebel</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Erfle</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>High-content screening microscopy identifies novel proteins with a putative role in secretory membrane traffic</article-title>
+          <source>Genome Res</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>1948</fpage>
+          <lpage>1956</lpage>
+          <pub-id pub-id-type="pmid">15466293</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.2658304</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stelzl</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Worm</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Lalowski</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Haenig</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Brembeck</surname>
+              <given-names>FH</given-names>
+            </name>
+            <name>
+              <surname>Goehler</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Stroedicke</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zenkner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schoenherr</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Koeppen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Timm</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mintzlaff</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bock</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Kietzmann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Goedde</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Toksoz</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Droege</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Krobitsch</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Korn</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Birchmeier</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Lehrach</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wanker</surname>
+              <given-names>EE</given-names>
+            </name>
+          </person-group>
+          <article-title>A human protein-protein interaction network: a resource for annotating the proteome</article-title>
+          <source>Cell</source>
+          <year>2005</year>
+          <volume>122</volume>
+          <fpage>957</fpage>
+          <lpage>968</lpage>
+          <pub-id pub-id-type="pmid">16169070</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2005.08.029</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rual</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Venkatesan</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Hirozane-Kishikawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Dricot</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Berriz</surname>
+              <given-names>GF</given-names>
+            </name>
+            <name>
+              <surname>Gibbons</surname>
+              <given-names>FD</given-names>
+            </name>
+            <name>
+              <surname>Dreze</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ayivi-Guedehoussou</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Klitgord</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Boxem</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Milstein</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Rosenberg</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Goldberg</surname>
+              <given-names>DS</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>LV</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Franklin</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Albala</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Fraughton</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Llamosas</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Cevik</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bex</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lamesch</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Sikorski</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Vandenhaute</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zoghbi</surname>
+              <given-names>HY</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Towards a proteome-scale map of the human protein-protein interaction network</article-title>
+          <source>Nature</source>
+          <year>2005</year>
+          <volume>437</volume>
+          <fpage>1173</fpage>
+          <lpage>1178</lpage>
+          <pub-id pub-id-type="pmid">16189514</pub-id>
+          <pub-id pub-id-type="doi">10.1038/nature04209</pub-id>
+        </citation>
+      </ref>
+      <ref id="B17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Subramanian</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Venter</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Broder</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Implications of the human genome for understanding human biology and medicine</article-title>
+          <source>Jama</source>
+          <year>2001</year>
+          <volume>286</volume>
+          <fpage>2296</fpage>
+          <lpage>2307</lpage>
+          <pub-id pub-id-type="pmid">11710896</pub-id>
+          <pub-id pub-id-type="doi">10.1001/jama.286.18.2296</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guttmacher</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>FS</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomic medicine â a primer</article-title>
+          <source>N Engl J Med</source>
+          <year>2002</year>
+          <volume>347</volume>
+          <fpage>1512</fpage>
+          <lpage>1520</lpage>
+          <pub-id pub-id-type="pmid">12421895</pub-id>
+          <pub-id pub-id-type="doi">10.1056/NEJMra012240</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schupp</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>SMART amplification combined with cDNA size fractionation in order to obtain large full-length clones</article-title>
+          <source>BMC Genomics</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>36</fpage>
+          <pub-id pub-id-type="pmid">15198809</pub-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2164-5-36</pub-id>
+        </citation>
+      </ref>
+      <ref id="B20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Temple</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lamesch</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Milstein</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Vidal</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>From genome to proteome: developing expression clone resources for the human genome</article-title>
+          <source>Hum Mol Genet</source>
+          <year>2006</year>
+          <volume>15 Spec No 1</volume>
+          <fpage>R31</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="pmid">16651367</pub-id>
+          <pub-id pub-id-type="doi">10.1093/hmg/ddl048</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuryshev</surname>
+              <given-names>VY</given-names>
+            </name>
+            <name>
+              <surname>Vorobyov</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Zink</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Schmitz</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Rozhdestvensky</surname>
+              <given-names>TS</given-names>
+            </name>
+            <name>
+              <surname>Munstermann</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Ernst</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Moosmayer</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schupp</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Horst</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Korn</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>An anthropoid-specific segmental duplication on human chromosome 1q22</article-title>
+          <source>Genomics</source>
+          <year>2006</year>
+          <volume>88</volume>
+          <fpage>143</fpage>
+          <lpage>151</lpage>
+          <pub-id pub-id-type="pmid">16545939</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.ygeno.2006.02.002</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hartley</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Temple</surname>
+              <given-names>GF</given-names>
+            </name>
+            <name>
+              <surname>Brasch</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA cloning using in vitro site-specific recombination</article-title>
+          <source>Genome Res</source>
+          <year>2000</year>
+          <volume>10</volume>
+          <fpage>1788</fpage>
+          <lpage>1795</lpage>
+          <pub-id pub-id-type="pmid">11076863</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.143000</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Korf</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Kohl</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>van der Zandt</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zahn</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schleeger</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ueberle</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wandschneider</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schnolzer</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ottleben</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Large-scale protein expression for proteome research</article-title>
+          <source>Proteomics</source>
+          <year>2005</year>
+          <volume>5</volume>
+          <fpage>3571</fpage>
+          <lpage>3580</lpage>
+          <pub-id pub-id-type="pmid">16127724</pub-id>
+          <pub-id pub-id-type="doi">10.1002/pmic.200401195</pub-id>
+        </citation>
+      </ref>
+      <ref id="B24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Arlt</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schleeger</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mehrle</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sauermann</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Korf</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sultmann</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>From ORFeome to biology: a functional genomics pipeline</article-title>
+          <source>Genome Res</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>2136</fpage>
+          <lpage>2144</lpage>
+          <pub-id pub-id-type="pmid">15489336</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.2576704</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25">
+        <citation citation-type="other">
+          <article-title>International ORFeome Collaboration</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.orfeomecollaboration.org"/>
+        </citation>
+      </ref>
+      <ref id="B26">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>SJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of genomic functional elements</article-title>
+          <source>Annu Rev Genomics Hum Genet</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>315</fpage>
+          <lpage>338</lpage>
+          <pub-id pub-id-type="pmid">16824019</pub-id>
+          <pub-id pub-id-type="doi">10.1146/annurev.genom.7.080505.115745</pub-id>
+        </citation>
+      </ref>
+      <ref id="B27">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brent</surname>
+              <given-names>MR</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome annotation past, present, and future: how to define an ORF at each locus</article-title>
+          <source>Genome Res</source>
+          <year>2005</year>
+          <volume>15</volume>
+          <fpage>1777</fpage>
+          <lpage>1786</lpage>
+          <pub-id pub-id-type="pmid">16339376</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.3866105</pub-id>
+        </citation>
+      </ref>
+      <ref id="B28">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ashurst</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <article-title>Gene annotation: prediction and testing</article-title>
+          <source>Annu Rev Genomics Hum Genet</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>69</fpage>
+          <lpage>88</lpage>
+          <pub-id pub-id-type="pmid">14527297</pub-id>
+          <pub-id pub-id-type="doi">10.1146/annurev.genom.4.070802.110300</pub-id>
+        </citation>
+      </ref>
+      <ref id="B29">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harrow</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Denoeud</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Frankish</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Reymond</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>CK</given-names>
+            </name>
+            <name>
+              <surname>Chrast</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lagarde</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gilbert</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Storey</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Swarbreck</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Rossier</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ucla</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Antonarakis</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Guigo</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>GENCODE: producing a reference annotation for ENCODE</article-title>
+          <source>Genome Biol</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>1</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2006-7-s1-s4</pub-id>
+        </citation>
+      </ref>
+      <ref id="B30">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kolb-Kokocinski</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mehrle</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Kioschis</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The systematic functional characterisation of Xq28 genes prioritises candidate disease genes</article-title>
+          <source>BMC Genomics</source>
+          <year>2006</year>
+          <volume>7</volume>
+          <fpage>29</fpage>
+          <pub-id pub-id-type="pmid">16503986</pub-id>
+          <pub-id pub-id-type="doi">10.1186/1471-2164-7-29</pub-id>
+        </citation>
+      </ref>
+      <ref id="B31">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aguiar</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>LaBaer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Blair</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Shamailova</surname>
+              <given-names>VY</given-names>
+            </name>
+            <name>
+              <surname>Koundinya</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Russell</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Mar</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Anthony</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Witney</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Caruana</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Brizuela</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Sacci</surname>
+              <given-names>JB</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Hoffman</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Carucci</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>High-throughput generation of P. falciparum functional molecules by recombinational cloning</article-title>
+          <source>Genome Res</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>2076</fpage>
+          <lpage>2082</lpage>
+          <pub-id pub-id-type="pmid">15489329</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.2416604</pub-id>
+        </citation>
+      </ref>
+      <ref id="B32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Labaer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Anumanthan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mar</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Zuo</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Murthy</surname>
+              <given-names>TV</given-names>
+            </name>
+            <name>
+              <surname>Taycher</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Halleck</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hainsworth</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lory</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brizuela</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>The Pseudomonas aeruginosa PA01 gene collection</article-title>
+          <source>Genome Res</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>2190</fpage>
+          <lpage>2200</lpage>
+          <pub-id pub-id-type="pmid">15489342</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.2482804</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33">
+        <citation citation-type="other">
+          <article-title>Standardized protocols SMP-Cell</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.smp-cell.org/groups.asp?siteID=49"/>
+        </citation>
+      </ref>
+      <ref id="B34">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>G;</surname>
+              <given-names>Colburn</given-names>
+            </name>
+            <name>
+              <surname>N</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>PCR-direct sequencing of a GC-rich region by inclusion of 10% DMSO: application to mouse c-jun</article-title>
+          <source>BioTechniques</source>
+          <year>1993</year>
+          <volume>15</volume>
+          <fpage>372</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="pmid">8217142</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheng</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Fockler</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Higuchi</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Effective amplification of long targets from cloned inserts and human genomic DNA</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1994</year>
+          <volume>91</volume>
+          <fpage>5695</fpage>
+          <lpage>5699</lpage>
+          <pub-id pub-id-type="pmid">8202550</pub-id>
+          <pub-id pub-id-type="doi">10.1073/pnas.91.12.5695</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lindahl</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nyberg</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Rate of depurination of native deoxyribonucleic acid</article-title>
+          <source>Biochemistry</source>
+          <year>1972</year>
+          <volume>11</volume>
+          <fpage>3610</fpage>
+          <lpage>3618</lpage>
+          <pub-id pub-id-type="pmid">4626532</pub-id>
+          <pub-id pub-id-type="doi">10.1021/bi00769a018</pub-id>
+        </citation>
+      </ref>
+      <ref id="B37">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marsischky</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>LaBaer</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Many paths to many clones: a comparative look at high-throughput cloning methods</article-title>
+          <source>Genome Res</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>2020</fpage>
+          <lpage>2028</lpage>
+          <pub-id pub-id-type="pmid">15489321</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.2528804</pub-id>
+        </citation>
+      </ref>
+      <ref id="B38">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Michaelson</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Philips</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The use of GFP to localize Rho GTPases in living cells</article-title>
+          <source>Methods Enzymol</source>
+          <year>2006</year>
+          <volume>406</volume>
+          <fpage>296</fpage>
+          <lpage>315</lpage>
+          <pub-id pub-id-type="pmid">16472666</pub-id>
+        </citation>
+      </ref>
+      <ref id="B39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mehrle</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rosenfelder</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Schupp</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>del Val</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Arlt</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hahne</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Bechtel</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Simpson</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Hide</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Glatting</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Huber</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The LIFEdb database in 2006</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2006</year>
+          <fpage>D415</fpage>
+          <lpage>418</lpage>
+          <pub-id pub-id-type="pmid">16381901</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/gkj139</pub-id>
+        </citation>
+      </ref>
+      <ref id="B40">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kent</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Sugnet</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Furey</surname>
+              <given-names>TS</given-names>
+            </name>
+            <name>
+              <surname>Roskin</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Pringle</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Zahler</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Haussler</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>The human genome browser at UCSC</article-title>
+          <source>Genome Res</source>
+          <year>2002</year>
+          <volume>12</volume>
+          <fpage>996</fpage>
+          <lpage>1006</lpage>
+          <pub-id pub-id-type="pmid">12045153</pub-id>
+          <comment>10.1101/gr.229102. Article published online before print in May 2002</comment>
+        </citation>
+      </ref>
+      <ref id="B41">
+        <citation citation-type="other">
+          <article-title>HUSAR Bioinformatics Lab</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://genome.dkfz-heidelberg.de/"/>
+        </citation>
+      </ref>
+      <ref id="B42">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pruitt</surname>
+              <given-names>KD</given-names>
+            </name>
+            <name>
+              <surname>Tatusova</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Maglott</surname>
+              <given-names>DR</given-names>
+            </name>
+          </person-group>
+          <article-title>NCBI reference sequences (RefSeq): a curated non-redundant sequence database of genomes, transcripts and proteins</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2007</year>
+          <fpage>D61</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="pmid">17130148</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/gkl842</pub-id>
+        </citation>
+      </ref>
+      <ref id="B43">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Maglott</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Ostell</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pruitt</surname>
+              <given-names>KD</given-names>
+            </name>
+            <name>
+              <surname>Tatusova</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Entrez Gene: gene-centered information at NCBI</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2007</year>
+          <fpage>D26</fpage>
+          <lpage>31</lpage>
+          <pub-id pub-id-type="pmid">17148475</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/gkl993</pub-id>
+        </citation>
+      </ref>
+      <ref id="B44">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karolchik</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hinrichs</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>Furey</surname>
+              <given-names>TS</given-names>
+            </name>
+            <name>
+              <surname>Roskin</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>Sugnet</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Haussler</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kent</surname>
+              <given-names>WJ</given-names>
+            </name>
+          </person-group>
+          <article-title>The UCSC Table Browser data retrieval tool</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2004</year>
+          <fpage>D493</fpage>
+          <lpage>496</lpage>
+          <pub-id pub-id-type="pmid">14681465</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/gkh103</pub-id>
+        </citation>
+      </ref>
+      <ref id="B45">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haas</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Vingron</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Primer design for large scale sequencing</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1998</year>
+          <volume>26</volume>
+          <fpage>3006</fpage>
+          <lpage>3012</lpage>
+          <pub-id pub-id-type="pmid">9611248</pub-id>
+          <pub-id pub-id-type="doi">10.1093/nar/26.12.3006</pub-id>
+        </citation>
+      </ref>
+      <ref id="B46">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Staden</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>The Staden sequence analysis package</article-title>
+          <source>Mol Biotechnol</source>
+          <year>1996</year>
+          <volume>5</volume>
+          <fpage>233</fpage>
+          <lpage>241</lpage>
+          <pub-id pub-id-type="pmid">8837029</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

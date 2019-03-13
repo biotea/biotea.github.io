@@ -1,0 +1,1030 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:26:11Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:1285062" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:1285062</identifier><datestamp>2005-12-01</datestamp><setSpec>ploscomp</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id>
+      <journal-id journal-id-type="publisher-id">pcbi</journal-id>
+      <journal-id journal-id-type="publisher-id">plcb</journal-id>
+      <journal-id journal-id-type="pmc">ploscomp</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Computational Biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-734X</issn>
+      <issn pub-type="epub">1553-7358</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC1285062</article-id>
+      <article-id pub-id-type="pmcid">PMC1285062</article-id>
+      <article-id pub-id-type="pmc-uid">1285062</article-id>
+      <article-id pub-id-type="pmid">16299590</article-id>
+      <article-id pub-id-type="pmid">16299590</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pcbi.0010063</article-id>
+      <article-id pub-id-type="publisher-id">05-PLCB-RA-0160R3</article-id>
+      <article-id pub-id-type="sici">plcb-01-06-03</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Bioinformatics - Computational Biology</subject>
+          <subject>Evolution</subject>
+          <subject>Immunology</subject>
+          <subject>Microbiology</subject>
+        </subj-group>
+        <subj-group subj-group-type="System Taxonomy">
+          <subject>Eukaryotes</subject>
+          <subject>Eubacteria</subject>
+          <subject>Vertebrates</subject>
+          <subject>Arthropods</subject>
+          <subject>Cnidaria (Jellyfish</subject>
+          <subject>Hydra</subject>
+          <subject>Corals</subject>
+          <subject>Etc.)</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Stealth Proteins: In Silico Identification of a Novel Protein Family Rendering Bacterial Pathogens Invisible to Host Immune Defense</article-title>
+        <alt-title alt-title-type="running-head">In Silico Identification of Novel Protein Family</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Sperisen</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schmid</surname>
+            <given-names>Christoph D</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bucher</surname>
+            <given-names>Philipp</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Zilian</surname>
+            <given-names>Olav</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="author-notes" rid="n105">Â¤</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label> Swiss Institute of Bioinformatics, Epalinges, Switzerland
+</aff>
+      <aff id="aff2"><label>2</label> Swiss Institute for Experimental Cancer Research, Epalinges, Switzerland
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bork</surname>
+            <given-names>Peer</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">EMBL Heidelberg, Germany</aff>
+      <author-notes>
+        <corresp id="cor1">* To whom correspondence should be addressed. E-mail: <email>philipp.bucher@isrec.ch</email></corresp>
+        <fn id="n105" fn-type="present-address">
+          <p>Â¤ Current address: Helvea, Geneva, Switzerland</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>11</month>
+        <year>2005</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>11</month>
+        <year>2005</year>
+      </pub-date>
+      <volume>1</volume>
+      <issue>6</issue>
+      <elocation-id>e63</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>7</month>
+          <year>2005</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>10</month>
+          <year>2005</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright: Â© 2005 Sperisen et al.</copyright-statement>
+        <copyright-year>2005</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>There are a variety of bacterial defense strategies to survive in a hostile environment. Generation of extracellular polysaccharides has proved to be a simple but effective strategy against the host's innate immune system. A comparative genomics approach led us to identify a new protein family termed Stealth, most likely involved in the synthesis of extracellular polysaccharides. This protein family is characterized by a series of domains conserved across phylogeny from bacteria to eukaryotes. In bacteria, Stealth (previously characterized as SacB, XcbA, or WefC) is encoded by subsets of strains mainly colonizing multicellular organisms, with evidence for a protective effect against the host innate immune defense. More specifically, integrating all the available information about Stealth proteins in bacteria, we propose that Stealth is a D-hexose-1-phosphoryl transferase involved in the synthesis of polysaccharides. In the animal kingdom, Stealth is strongly conserved across evolution from social amoebas to simple and complex multicellular organisms, such as <italic>Dictyostelium discoideum</italic>, hydra, and human. Based on the occurrence of Stealth in most Eukaryotes and a subset of Prokaryotes together with its potential role in extracellular polysaccharide synthesis, we propose that metazoan Stealth functions to regulate the innate immune system. Moreover, there is good reason to speculate that the acquisition and spread of Stealth could be responsible for future epidemic outbreaks of infectious diseases caused by a large variety of eubacterial pathogens. Our in silico identification of a homologous protein in the human host will help to elucidate the causes of Stealth-dependent virulence. At a more basic level, the characterization of the molecular and cellular function of Stealth proteins may shed light on fundamental mechanisms of innate immune defense against microbial invasion.</p>
+      </abstract>
+      <abstract abstract-type="synopsis">
+        <title>Synopsis</title>
+        <p>The immune system is a complex and highly developed system of specialized cells and organs that protects an organism against bacterial, parasitic, fungal, and viral infections. Broadly speaking, the different types of immune responses subdivide the immune system into two categories: innate (or nonadaptive) and adaptive immune system. The innate immune system serves as a first line of defense but lacks the ability to recognize certain pathogens and to provide the specific protective immunity that prevents reinfection. Just as metazoans have developed many different defenses against pathogens, so have pathogens evolved elaborate strategies to evade these defenses. Based on a comparative genomics approach and data mining, the authors have discovered a new family of proteins with a striking phylogenetic distribution, occurring in most eukaryotes and in subsets of mostly pathogenic or commensal prokaryotes. While the precise functions of these proteins remain unknown, prokaryotic versions have been implicated in the synthesis of extracellular polysaccharides known to be potent regulators of the innate immune system. This previously unrecognized link hints towards a potentially novel regulatory mechanism of the innate immune system. It remains to be shown if drugs selectively inhibiting Stealth in pathogens will help fight Stealth-mediated infections.</p>
+      </abstract>
+      <counts>
+        <page-count count="8"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>Citation:</meta-name>
+          <meta-value>Sperisen P, Schmid CD, Bucher P, Zilian O (2005) Stealth proteins: In silico identification of a novel protein family rendering bacterial pathogens invisible to host immune defense. PLoS Comput Biol 1(6): e63.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Colonization of hosts by microorganisms is a complex process that determines if the microorganism will coexist with the host as commensal, become an invasive pathogen, or be efficiently eliminated by the host's immune defense [<xref rid="pcbi-0010063-b001" ref-type="bibr">1</xref>,<xref rid="pcbi-0010063-b002" ref-type="bibr">2</xref>]. Consequently, microorganisms have developed a variety of measures to cope with the increasingly sophisticated defense strategies of the host's immune system [<xref rid="pcbi-0010063-b003" ref-type="bibr">3</xref>â<xref rid="pcbi-0010063-b007" ref-type="bibr">7</xref>]. Amongst them, the generation of an extracellular coat made of polysaccharides has proved to be a simple but effective strategy. Bacterial surface polysaccharides can be either amorphous exopolysaccharides, anchored in the lipid layer (lipopolysaccharides, another known regulator of the immune system), or organized as a capsule (capsule polysaccharides [CPSs]). The latter have been shown to mediate adherence to cells and, more importantly, protection against the host's innate immune system [<xref rid="pcbi-0010063-b008" ref-type="bibr">8</xref>â<xref rid="pcbi-0010063-b011" ref-type="bibr">11</xref>].</p>
+      <p>Different strategies to escape host immune surveillance have evolved through vertical evolution but also through horizontal gene transfer [<xref rid="pcbi-0010063-b012" ref-type="bibr">12</xref>â<xref rid="pcbi-0010063-b015" ref-type="bibr">15</xref>]. Though a subject of long-standing controversy, there is increasing evidence suggesting that horizontal gene transfer also occurs from eukaryotes to prokaryotes [<xref rid="pcbi-0010063-b016" ref-type="bibr">16</xref>]. Even though the recombined bacteria seemed to have preferentially retained individual domains of proteins [<xref rid="pcbi-0010063-b016" ref-type="bibr">16</xref>], a first example was recently reported in which certain bacterial strains kept an entire open reading frame [<xref rid="pcbi-0010063-b017" ref-type="bibr">17</xref>].</p>
+      <p>Here we describe a novel protein family named âStealth.â Based on a comparative genomics approach, we propose a biological function and an evolutionary scenario for this new protein family.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results/Discussion</title>
+      <sec id="s2a">
+        <title>Identification of Stealth</title>
+        <p>In a screen of the human genome for Notch-related proteins, a novel protein containing two copies of Lin-12/Notch repeats was identified. The protein also showed strong sequence similarity to a number of animal and bacterial proteins, including several virulence factors of human pathogens published under different names. This previously unknown protein family was named âStealthâ because experimentally characterized members of this family appear to render bacterial and protozoan invaders invisible to the host's immune surveillance system.</p>
+        <p>Stealth proteins are characterized by four conserved regions (CRs) referred to as CR1 to CR4 (<xref ref-type="fig" rid="pcbi-0010063-g001">Figure 1</xref>). The N-terminal CR1 consists of a short but strongly conserved sequence motif, IDVVYTF or very similar. The second region, CR2, is approximately 100 residues long and constitutes the most conserved part of this protein family. A standard BLAST search [<xref rid="pcbi-0010063-b018" ref-type="bibr">18</xref>] with any CR2 domain identifies all other members of the Stealth family in the current database with highly significant <italic>E</italic>-values. CR3 is about 50 residues long but less well conserved. Finally, the C-terminal CR4 includes an almost universally conserved tetrapetide, CLND or CIND. Adjacent and between these domains are divergent sequence regions of variable length that may contain additional domains (<xref ref-type="fig" rid="pcbi-0010063-g001">Figures 1</xref> and <xref ref-type="fig" rid="pcbi-0010063-g002">2</xref>A).</p>
+        <fig id="pcbi-0010063-g001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <title>Multiple Alignments of CRs</title>
+            <p>Multiple alignments of the four CRs for a representative set of protein sequences (&gt;15% dissimilarity over all four CRs) are shown. Sequences are identified by a species code (see <xref ref-type="table" rid="pcbi-0010063-t0101">Table 1</xref>), protein name (from literature as proposed in this paper), and database accession number, where available. The lengths of the sequences omitted between or within CRs are indicated in square brackets. The last row shows the secondary structure prediction obtained by jnetpred [<xref rid="pcbi-0010063-b065" ref-type="bibr">65</xref>] for the human Stealth protein, where H stands for helices and E for beta-sheets. The color scheme used is the ClustalX default scheme, with the colors for conserved amino acids being more intense than those for nonconserved ones.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0010063.g001"/>
+        </fig>
+        <fig id="pcbi-0010063-g002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <title>Domain Architecture and Genome Structure</title>
+            <p>(A) CR1 to CR4, found through multiple alignments, are represented by rectangles ranging from light blue (CR1) to dark blue (CR4). Other motifs are represented as follows: predicted signal peptides as magenta rectangles, transmembrane regions as orange rectangles, Lin-12/Notch repeats as red pentagons, and EF-hands as green circles.</p>
+            <p>(B) The genome structure of the human and fly Stealth homologs is represented, with the exons depicted as green rectangles separated by introns of indicated size.</p>
+            <p>(C) Two splice variants lead to different N-terminal sequences, as supported by mouse EST sequences. Splicing reconstructs a codon for tyrosine (Y). Both proteins contain a predicted signal peptide.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0010063.g002"/>
+        </fig>
+        <table-wrap id="pcbi-0010063-t0101" content-type="2col" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Summary of All Species Containing Stealth Proteins</p>
+          </caption>
+          <graphic xlink:href="pcbi.0010063.t0101"/>
+        </table-wrap>
+        <table-wrap id="pcbi-0010063-t0102" content-type="2col" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Continued</p>
+          </caption>
+          <graphic xlink:href="pcbi.0010063.t0102"/>
+        </table-wrap>
+      </sec>
+      <sec id="s2b">
+        <title>Taxonomic Distribution</title>
+        <p>Stealth proteins are found encoded in the genomes of chordates, echinodermates, hydras, fungi, and flies but appear to be absent from nematodes and plants. Interestingly, a few organisms contain multiple Stealth genes (<xref ref-type="table" rid="pcbi-0010063-t0101">Table 1</xref>). Stealth proteins also occur in the protist genomes of <italic>Dictyostelium, Giardia, Leishmania, Entamoeba,</italic> and <italic>Phytophthora,</italic> and among the hitherto sequenced bacteria, they are found in the following phyla: alpha-, beta-, and gamma-proteobacteria (mostly pathogens), firmicutes (mostly the commensals), and actinobacteria (some animal pathogens) (<xref ref-type="table" rid="pcbi-0010063-t0101">Table 1</xref>; <xref ref-type="supplementary-material" rid="pcbi-0010063-sg001">Figure S1</xref>). It is noteworthy that the large majority of completely sequenced bacterial genomes do not harbor Stealth. The species that do contain a member of this family are not necessarily closely related, and include Gram-positive as well as Gram-negative bacteria.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Stealth in Bacteria</title>
+        <p>Several of the documented bacterial Stealth genes belong to capsule group II biosynthesis operons generating carbohydrate-phosphodiester-containing CPSs [<xref rid="pcbi-0010063-b019" ref-type="bibr">19</xref>â<xref rid="pcbi-0010063-b024" ref-type="bibr">24</xref>]. In the case of Stealth-expressing bacteria, these CPSs turned out to inhibit complement-mediated lysis, as shown for serogroup A and X of <italic>Neisseria meningitidis</italic> [<xref rid="pcbi-0010063-b023" ref-type="bibr">23</xref>,<xref rid="pcbi-0010063-b024" ref-type="bibr">24</xref>] and to correlate with serum and phagocyte survival abilities as shown for <italic>Aeromonas hydrophila</italic> [<xref rid="pcbi-0010063-b025" ref-type="bibr">25</xref>].</p>
+        <p>The majority of Stealth-expressing bacteria that have been analyzed so far for the composition of their exopolysaccharides turned out to build phosphoglycans consisting of phosphodiester-linked hexose mono- or disaccharide building blocks [<xref rid="pcbi-0010063-b026" ref-type="bibr">26</xref>â<xref rid="pcbi-0010063-b029" ref-type="bibr">29</xref>]. On the other hand, certain bacteria living in a biofilm community contain CPSs consisting of phosphodiester-linked hexa- or heptasaccharide repeating units [<xref rid="pcbi-0010063-b030" ref-type="bibr">30</xref>,<xref rid="pcbi-0010063-b031" ref-type="bibr">31</xref>]. These carbohydrates, also called receptor polysaccharides, are synthesized by a series of different glycosyltransferases, with Stealth amongst them [<xref rid="pcbi-0010063-b022" ref-type="bibr">22</xref>]. Strains encoding Stealth carry a hexose phosphodiester linker [<xref rid="pcbi-0010063-b031" ref-type="bibr">31</xref>] in their receptor polysaccharides, whereas strains lacking Stealth build receptor polysaccharides with a pentose phosphodiester linker.</p>
+        <p>Definite proof for an essential function of Stealth in CPS biosynthesis was shown in <italic>N. meningitidis</italic> serogroup A by selective deletion of the gene <italic>sacB</italic> (i.e., Stealth), giving rise to virtually unencapsulated mutants [<xref rid="pcbi-0010063-b023" ref-type="bibr">23</xref>], and by deletion of part of the gene <italic>xcbA</italic> (i.e., Stealth), together with flanking open reading frames in a serogroup X strain, which resulted in complement-sensitive mutants [<xref rid="pcbi-0010063-b024" ref-type="bibr">24</xref>]. Moreover, when the gene <italic>cps1A</italic> (i.e., Stealth) was deleted in <italic>Actinobacillus pleuropneumoniae,</italic> the resulting strains lost their pathogenicity in pigs [<xref rid="pcbi-0010063-b020" ref-type="bibr">20</xref>].</p>
+        <p>Taken together, all of the above data suggest that Stealth is a D-hexose-1-phosphoryl transferase that generates interglycosidic phosphate diester linkages.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Characteristics of Metazoan Stealth</title>
+        <p>Unlike the bacterial Stealth proteins, the vertebrate members of this family are not properly represented in current protein databases. We have manually reconstructed the gene and protein sequences for a number of species with the aid of EST sequences and cross-genome comparisons (<xref ref-type="table" rid="pcbi-0010063-t0101">Table 1</xref>). The human gene consists of 21 exons (<xref ref-type="fig" rid="pcbi-0010063-g002">Figure 2</xref>B), and the translated protein sequence is identical to the RefSeq entry NP_077288. The intronâexon structures of genes found in other vertebrates are essentially the same. In the mouse, however, there is a facultative intron near the start codon spliced out predominantly in transcripts from dendritic cells. This alternative splicing leads to two protein variants with different N-termini (<xref ref-type="fig" rid="pcbi-0010063-g002">Figure 2</xref>C). The hypothetical <italic>Drosophila melanogaster</italic> and <italic>D. yakuba</italic> Stealth genes, however, have a completely different intronâexon structure (<xref ref-type="fig" rid="pcbi-0010063-g002">Figure 2</xref>B). Finally, pieces of Stealth-encoding sequences were also found in the preliminary genomes or ESTs of other mammals (<xref ref-type="table" rid="pcbi-0010063-t0101">Table 1</xref>).</p>
+        <p>Metazoan Stealth proteins are characterized by additional domains. There is a predicted signal peptide and, near the C-terminus, a transmembrane helix. One or two Notch/Lin-12 repeats [<xref rid="pcbi-0010063-b032" ref-type="bibr">32</xref>] are inserted between CR2 and CR3, and an EF-hand domain [<xref rid="pcbi-0010063-b033" ref-type="bibr">33</xref>] appears between CR3 and CR4. So far, all reconstructed Stealth proteins contain these domains, and in some of the cases where only pieces of sequences are available one can identify these motifs. The strong conservation of the Stealth domain architecture suggests that this protein plays an essential role.</p>
+        <p>No experimental knowledge is available about the function of metazoan Stealth proteins today (note, however, that Stealth-deficient mice have been generated by O. Z. and coworkers and will be made available upon request). In view of the high degree of sequence similarity to their bacterial homologs, it is reasonable to speculate that they have a similar molecular function and thus are also implicated in exopolysaccharide synthesis. Public expression profiles derived from SAGE experiments indicate a rather broad tissue distribution. The Stealth-dependent polysaccharides could be host-specific structural surface elements exploited by the immune system for self-recognition. In this case, the Stealth-dependent resistance of human pathogens to complement-mediated lysis and other host defense mechanisms would be a straightforward case of molecular mimicry. Alternatively, host-encoded Stealth proteins may play an active role in down-regulating the immune response. The presence of Stealth in both insects and urochordates further suggests that this protein interferes with processes related to innate rather than adaptive immunity [<xref rid="pcbi-0010063-b034" ref-type="bibr">34</xref>,<xref rid="pcbi-0010063-b035" ref-type="bibr">35</xref>].</p>
+      </sec>
+      <sec id="s2e">
+        <title>Stealth and Protists</title>
+        <p>Although higher eukaryotes haven't yet been investigated for the presence of phosphoglycan structures similar to the CPSs, such structures have been identified in <italic>D. discoideum</italic> and in <italic>Leishmania</italic> species. In <italic>D. discoideum</italic> such polysaccharides were found on lysosomal cysteine proteinases and spore coat proteins [<xref rid="pcbi-0010063-b036" ref-type="bibr">36</xref>,<xref rid="pcbi-0010063-b037" ref-type="bibr">37</xref>]. The lysosomal enzymes of <italic>D. discoideum</italic> have two types of carbohydrate modifications [<xref rid="pcbi-0010063-b038" ref-type="bibr">38</xref>,<xref rid="pcbi-0010063-b039" ref-type="bibr">39</xref>] found in two separate sets of lysosomal vesicles [<xref rid="pcbi-0010063-b040" ref-type="bibr">40</xref>,<xref rid="pcbi-0010063-b041" ref-type="bibr">41</xref>]. The major component of <italic>Leishmania</italic> lipophosphoglycan is a heteropolymer of 10â40 phosphodiester-linked disaccharide units, depending on species and developmental stage [<xref rid="pcbi-0010063-b042" ref-type="bibr">42</xref>]. Lipophosphoglycan is predominantly expressed by promastigotes, is essential for intracellular survival in macrophages and for the virulence of <italic>Leishmania major</italic> and <italic>L. donovani,</italic> and disappears when the pathogen intracellularly differentiates into amastigotes within host phagolysosomes [<xref rid="pcbi-0010063-b043" ref-type="bibr">43</xref>â<xref rid="pcbi-0010063-b047" ref-type="bibr">47</xref>]. The genes encoding these hexose-phosphoryl transferases have been identified neither in <italic>D. discoideum</italic> nor in <italic>Leishmania</italic>. Given, however, Stealth's presumed enzymatic activity and its comparative biochemical characterization from three different <italic>Leishmania</italic> species using synthetic acceptor substrate analogs [<xref rid="pcbi-0010063-b048" ref-type="bibr">48</xref>], the two Stealth proteins found in <italic>Leishmania</italic> and those found in <italic>D. discoideum</italic> are good candidates for this function.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Evolution of Stealth</title>
+        <p>The peculiar taxonomic distribution of Stealth (<xref ref-type="fig" rid="pcbi-0010063-g003">Figure 3</xref>) could be the outcome of two different evolutionary scenarios: (i) differential loss of an ancient protein already present in an ancestral form of life, or (ii) horizontal gene transfer between eukaryotes and eubacteria. The second hypothesis appears to be the more plausible, but the direction of the transfer is more difficult to assess. Overall, the protein tree largely follows species phylogeny, at least with regard to the higher level taxonomic groups. This indicates that transfer between eukaryotes and prokaryotes must have been an ancient event. However, several observations suggest that Stealth proteins continue to be horizontally transferred within and between certain bacterial groups. In Gram-negative bacteria, Stealth is inserted into group II capsule operons, which exhibit strong sequence similarity across many species, thus facilitating horizontal gene transfer via homologous recombination [<xref rid="pcbi-0010063-b049" ref-type="bibr">49</xref>,<xref rid="pcbi-0010063-b050" ref-type="bibr">50</xref>]. Moreover, certain Stealth genes have significantly lower G+C content than the remaining part of the genome [<xref rid="pcbi-0010063-b019" ref-type="bibr">19</xref>,<xref rid="pcbi-0010063-b021" ref-type="bibr">21</xref>,<xref rid="pcbi-0010063-b024" ref-type="bibr">24</xref>,<xref rid="pcbi-0010063-b051" ref-type="bibr">51</xref>], which is indicative of a recent acquisition from another species, and some of these genes are flanked by recombination-promoting IS insertion elements or residual fragments thereof [<xref rid="pcbi-0010063-b021" ref-type="bibr">21</xref>,<xref rid="pcbi-0010063-b024" ref-type="bibr">24</xref>].</p>
+        <fig id="pcbi-0010063-g003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <title>Phylogenetic Tree</title>
+            <p>Trees were calculated from amino acid sequence alignments of the four CRs. As in <xref ref-type="fig" rid="pcbi-0010063-g001">Figure 1</xref>, sequences are identified by a species code (see <xref ref-type="table" rid="pcbi-0010063-t0101">Table 1</xref>), protein name (from literature as proposed in this paper), and database accession number, and are color-coded. Dissimilarities are represented by the length of the branches (all with posterior probabilities above 0.95).</p>
+          </caption>
+          <graphic xlink:href="pcbi.0010063.g003"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Materials and Methods</title>
+      <sec id="s3a">
+        <title>Sequence analysis.</title>
+        <p>Multiple amino acid sequence alignments of the four CRs were generated using T-Coffee [<xref rid="pcbi-0010063-b052" ref-type="bibr">52</xref>]. The signal peptides were predicted with SignalP v2.0 using the combined NN/HMM-based method [<xref rid="pcbi-0010063-b053" ref-type="bibr">53</xref>,<xref rid="pcbi-0010063-b054" ref-type="bibr">54</xref>], the transmembrane predictions were made using TMHMM v2.0 [<xref rid="pcbi-0010063-b055" ref-type="bibr">55</xref>,<xref rid="pcbi-0010063-b056" ref-type="bibr">56</xref>], and the Lin-12/Notch repeats were identified using the profile PS50258 in PROSITE [<xref rid="pcbi-0010063-b057" ref-type="bibr">57</xref>]. The EF-hand domains were detected using the Pfam HMM PF00036 [<xref rid="pcbi-0010063-b058" ref-type="bibr">58</xref>].</p>
+        <p>The human and the fly gene structures were constructed with the aid of the trome database [<xref rid="pcbi-0010063-b059" ref-type="bibr">59</xref>â<xref rid="pcbi-0010063-b061" ref-type="bibr">61</xref>].</p>
+      </sec>
+      <sec id="s3b">
+        <title>Sequence database searches.</title>
+        <p>Other members of the Stealth protein family were identified by searching with either the human or the <italic>Streptomyces coelicolor</italic> CR2 using BLAST [<xref rid="pcbi-0010063-b018" ref-type="bibr">18</xref>] on either nucleic acid or protein databases.</p>
+      </sec>
+      <sec id="s3c">
+        <title>Calculation of sequence trees.</title>
+        <p>For each CR a separate multiple amino acid sequence alignment was generated. These multiple alignments were concatenated, resulting in a multiple alignment that represents the four CRs. CRs that are absent in certain species are represented as gaps in the multiple alignment. Processed alignments were used to derive tree topologies using Bayesian inference of phylogeny as implemented by MrBayes v3.0 [<xref rid="pcbi-0010063-b062" ref-type="bibr">62</xref>,<xref rid="pcbi-0010063-b063" ref-type="bibr">63</xref>]. MrBayes was used with four heated chains over 200,000 generations, sampling every 20 trees. The likelihoods of these trees were examined to estimate the length of the burn-in phase, and all trees sampled 20,000 generations later than this point were used to create a consensus tree using the 50% majority rule. MrBayes was used with the mixed model of amino acid substitution, assuming the presence of invariant sites and using a gamma distribution approximated by four different rate categories to model rate variation between sites, estimating amino acid frequencies from the alignment. The consensus tree was displayed using DRAWGRAM of the PHYLIP package [<xref rid="pcbi-0010063-b064" ref-type="bibr">64</xref>].</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s4">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pcbi-0010063-sg001">
+        <label>Figure S1</label>
+        <caption>
+          <title>Taxonomic Distribution of Stealth in Bacteria</title>
+          <p>(57 KB DOC)</p>
+        </caption>
+        <media xlink:href="pcbi.0010063.sg001.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>Part of this work has been supported by grant SKL 1125â02â2001 from the Swiss Cancer League (to OZ). We thank Denis-Luc Ardiet for stimulating discussions and prompting us to <italic>kreisler</italic>.</p>
+    </ack>
+    <fn-group>
+      <fn id="ack1" fn-type="COI-statement">
+        <p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn id="ack2" fn-type="con">
+        <p>
+<bold>Author contributions.</bold> PS, CDS, PB, and OZ conceived and designed the experiments. PS and CDS performed the experiments. PS, CDS, PB, and OZ analyzed the data and wrote the paper.</p>
+      </fn>
+    </fn-group>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>CPS</term>
+          <def>
+            <p>capsule polysaccharide</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>CR</term>
+          <def>
+            <p>conserved region</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="pcbi-0010063-b001">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Merrell</surname><given-names>DS</given-names></name><name><surname>Falkow</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<article-title>Frontal and stealth attack strategies in microbial pathogenesis</article-title>
+<source>Nature</source>
+<volume>430</volume>
+<fpage>250</fpage>
+<lpage>256</lpage>
+<pub-id pub-id-type="pmid">15241423</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b002">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Waterfield</surname><given-names>NR</given-names></name><name><surname>Wren</surname><given-names>BW</given-names></name><name><surname>Ffrench-Constant</surname><given-names>RH</given-names></name></person-group>
+<year>2004</year>
+<article-title>Invertebrates as a source of emerging human pathogens</article-title>
+<source>Nat Rev Microbiol</source>
+<volume>2</volume>
+<fpage>833</fpage>
+<lpage>841</lpage>
+<pub-id pub-id-type="pmid">15378047</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b003">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Irving</surname><given-names>P</given-names></name><name><surname>Troxler</surname><given-names>L</given-names></name><name><surname>Hetru</surname><given-names>C</given-names></name></person-group>
+<year>2004</year>
+<article-title>Is innate enough? The innate immune response in <italic>Drosophila</italic>
+</article-title>
+<source>C R Biol</source>
+<volume>327</volume>
+<fpage>557</fpage>
+<lpage>570</lpage>
+<pub-id pub-id-type="pmid">15330255</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b004">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>DR</given-names></name></person-group>
+<year>2002</year>
+<article-title>Mycoplasmosis and immunity of fish and reptiles</article-title>
+<source>Front Biosci</source>
+<volume>7</volume>
+<fpage>D1338</fpage>
+<lpage>D1346</lpage>
+<pub-id pub-id-type="pmid">11991833</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b005">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kalia</surname><given-names>A</given-names></name><name><surname>Bessen</surname><given-names>DE</given-names></name></person-group>
+<year>2004</year>
+<article-title>Natural selection and evolution of streptococcal virulence genes involved in tissue-specific adaptations</article-title>
+<source>J Bacteriol</source>
+<volume>186</volume>
+<fpage>110</fpage>
+<lpage>121</lpage>
+<pub-id pub-id-type="pmid">14679231</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b006">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Claverys</surname><given-names>JP</given-names></name><name><surname>Prudhomme</surname><given-names>M</given-names></name><name><surname>Mortier-Barriere</surname><given-names>I</given-names></name><name><surname>Martin</surname><given-names>B</given-names></name></person-group>
+<year>2000</year>
+<article-title>Adaptation to the environment: <italic>Streptococcus pneumoniae,</italic> a paradigm for recombination-mediated genetic plasticity?</article-title>
+<source>Mol Microbiol</source>
+<volume>35</volume>
+<fpage>251</fpage>
+<lpage>259</lpage>
+<pub-id pub-id-type="pmid">10652087</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b007">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fleckenstein</surname><given-names>JM</given-names></name><name><surname>Kopecko</surname><given-names>DJ</given-names></name></person-group>
+<year>2001</year>
+<article-title>Breaching the mucosal barrier by stealth: An emerging pathogenic mechanism for enteroadherent bacterial pathogens</article-title>
+<source>J Clin Invest</source>
+<volume>107</volume>
+<fpage>27</fpage>
+<lpage>30</lpage>
+<pub-id pub-id-type="pmid">11134175</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b008">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Costerton</surname><given-names>JW</given-names></name><name><surname>Cheng</surname><given-names>KJ</given-names></name><name><surname>Geesey</surname><given-names>GG</given-names></name><name><surname>Ladd</surname><given-names>TI</given-names></name><name><surname>Nickel</surname><given-names>JC</given-names></name><etal/></person-group>
+<year>1987</year>
+<article-title>Bacterial biofilms in nature and disease</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>41</volume>
+<fpage>435</fpage>
+<lpage>464</lpage>
+<pub-id pub-id-type="pmid">3318676</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b009">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roberts</surname><given-names>IS</given-names></name><name><surname>Saunders</surname><given-names>FK</given-names></name><name><surname>Boulnois</surname><given-names>GJ</given-names></name></person-group>
+<year>1989</year>
+<article-title>Bacterial capsules and interactions with complement and phagocytes</article-title>
+<source>Biochem Soc Trans</source>
+<volume>17</volume>
+<fpage>462</fpage>
+<lpage>464</lpage>
+<pub-id pub-id-type="pmid">2666197</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b010">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cross</surname><given-names>AS</given-names></name></person-group>
+<year>1990</year>
+<article-title>The biologic significance of bacterial encapsulation</article-title>
+<source>Curr Top Microbiol Immunol</source>
+<volume>150</volume>
+<fpage>87</fpage>
+<lpage>95</lpage>
+<pub-id pub-id-type="pmid">2404691</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b011">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moxon</surname><given-names>ER</given-names></name><name><surname>Kroll</surname><given-names>JS</given-names></name></person-group>
+<year>1990</year>
+<article-title>The role of bacterial polysaccharide capsules as virulence factors</article-title>
+<source>Curr Top Microbiol Immunol</source>
+<volume>150</volume>
+<fpage>65</fpage>
+<lpage>85</lpage>
+<pub-id pub-id-type="pmid">2404690</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b012">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lorenz</surname><given-names>MG</given-names></name><name><surname>Wackernagel</surname><given-names>W</given-names></name></person-group>
+<year>1994</year>
+<article-title>Bacterial gene transfer by natural genetic transformation in the environment</article-title>
+<source>Microbiol Rev</source>
+<volume>58</volume>
+<fpage>563</fpage>
+<lpage>602</lpage>
+<pub-id pub-id-type="pmid">7968924</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b013">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hartl</surname><given-names>DL</given-names></name><name><surname>Dykhuizen</surname><given-names>DE</given-names></name><name><surname>Berg</surname><given-names>DE</given-names></name></person-group>
+<year>1984</year>
+<article-title>Accessory DNAs in the bacterial gene pool: Playground for coevolution</article-title>
+<source>Ciba Found Symp</source>
+<volume>102</volume>
+<fpage>233</fpage>
+<lpage>245</lpage>
+<pub-id pub-id-type="pmid">6319094</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b014">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moreira</surname><given-names>D</given-names></name></person-group>
+<year>2000</year>
+<article-title>Multiple independent horizontal transfers of informational genes from bacteria to plasmids and phages: Implications for the origin of bacterial replication machinery</article-title>
+<source>Mol Microbiol</source>
+<volume>35</volume>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">10632872</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b015">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sundstrom</surname><given-names>L</given-names></name></person-group>
+<year>1998</year>
+<article-title>The potential of integrons and connected programmed rearrangements for mediating horizontal gene transfer</article-title>
+<source>APMIS Suppl</source>
+<volume>84</volume>
+<fpage>37</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="pmid">9850680</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b016">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Koonin</surname><given-names>EV</given-names></name><name><surname>Makarova</surname><given-names>KS</given-names></name><name><surname>Aravind</surname><given-names>L</given-names></name></person-group>
+<year>2001</year>
+<article-title>Horizontal gene transfer in prokaryotes: Quantification and classification</article-title>
+<source>Annu Rev Microbiol</source>
+<volume>55</volume>
+<fpage>709</fpage>
+<lpage>742</lpage>
+<pub-id pub-id-type="pmid">11544372</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b017">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Budd</surname><given-names>A</given-names></name><name><surname>Blandin</surname><given-names>S</given-names></name><name><surname>Levashina</surname><given-names>EA</given-names></name><name><surname>Gibson</surname><given-names>TJ</given-names></name></person-group>
+<year>2004</year>
+<article-title>Bacterial alpha2-macroglobulins: Colonization factors acquired by horizontal gene transfer from the metazoan genome?</article-title>
+<source>Genome Biol</source>
+<volume>5</volume>
+<fpage>R38</fpage>
+<pub-id pub-id-type="pmid">15186489</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b018">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><name><surname>Gish</surname><given-names>W</given-names></name><name><surname>Miller</surname><given-names>W</given-names></name><name><surname>Myers</surname><given-names>EW</given-names></name><name><surname>Lipman</surname><given-names>DJ</given-names></name></person-group>
+<year>1990</year>
+<article-title>Basic local alignment search tool</article-title>
+<source>J Mol Biol</source>
+<volume>215</volume>
+<fpage>403</fpage>
+<lpage>410</lpage>
+<pub-id pub-id-type="pmid">2231712</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b019">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Satola</surname><given-names>SW</given-names></name><name><surname>Schirmer</surname><given-names>PL</given-names></name><name><surname>Farley</surname><given-names>MM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genetic analysis of the capsule locus of <italic>Haemophilus influenzae</italic> serotype f</article-title>
+<source>Infect Immun</source>
+<volume>71</volume>
+<fpage>7202</fpage>
+<lpage>7207</lpage>
+<pub-id pub-id-type="pmid">14638817</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b020">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bandara</surname><given-names>AB</given-names></name><name><surname>Lawrence</surname><given-names>ML</given-names></name><name><surname>Veit</surname><given-names>HP</given-names></name><name><surname>Inzana</surname><given-names>TJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Association of <italic>Actinobacillus pleuropneumoniae</italic> capsular polysaccharide with virulence in pigs</article-title>
+<source>Infect Immun</source>
+<volume>71</volume>
+<fpage>3320</fpage>
+<lpage>3328</lpage>
+<pub-id pub-id-type="pmid">12761114</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b021">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Almiron-Roig</surname><given-names>E</given-names></name><name><surname>Mulholland</surname><given-names>F</given-names></name><name><surname>Gasson</surname><given-names>MJ</given-names></name><name><surname>Griffin</surname><given-names>AM</given-names></name></person-group>
+<year>2000</year>
+<article-title>The complete cps gene cluster from <italic>Streptococcus thermophilus</italic> NCFB 2393 involved in the biosynthesis of a new exopolysaccharide</article-title>
+<source>Microbiology</source>
+<volume>146</volume>
+<fpage>2793</fpage>
+<lpage>2802</lpage>
+<pub-id pub-id-type="pmid">11065358</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b022">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>DQ</given-names></name><name><surname>Thompson</surname><given-names>J</given-names></name><name><surname>Cisar</surname><given-names>JO</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genetic loci for coaggregation receptor polysaccharide biosynthesis in <italic>Streptococcus gordonii</italic> 38</article-title>
+<source>J Bacteriol</source>
+<volume>185</volume>
+<fpage>5419</fpage>
+<lpage>5430</lpage>
+<pub-id pub-id-type="pmid">12949094</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b023">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Swartley</surname><given-names>JS</given-names></name><name><surname>Liu</surname><given-names>LJ</given-names></name><name><surname>Miller</surname><given-names>YK</given-names></name><name><surname>Martin</surname><given-names>LE</given-names></name><name><surname>Edupuganti</surname><given-names>S</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Characterization of the gene cassette required for biosynthesis of the (alpha1â6)-linked N-acetyl-D-mannosamine-1-phosphate capsule of serogroup A <italic>Neisseria meningitidis</italic>
+</article-title>
+<source>J Bacteriol</source>
+<volume>180</volume>
+<fpage>1533</fpage>
+<lpage>1539</lpage>
+<pub-id pub-id-type="pmid">9515923</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b024">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tzeng</surname><given-names>YL</given-names></name><name><surname>Noble</surname><given-names>C</given-names></name><name><surname>Stephens</surname><given-names>DS</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genetic basis for biosynthesis of the (alpha 1â4)-linked N-acetyl-D-glucosamine 1-phosphate capsule of <italic>Neisseria meningitidis</italic> serogroup X</article-title>
+<source>Infect Immun</source>
+<volume>71</volume>
+<fpage>6712</fpage>
+<lpage>6720</lpage>
+<pub-id pub-id-type="pmid">14638755</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b025">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>YL</given-names></name><name><surname>Lau</surname><given-names>YL</given-names></name><name><surname>Arakawa</surname><given-names>E</given-names></name><name><surname>Leung</surname><given-names>KY</given-names></name></person-group>
+<year>2003</year>
+<article-title>Detection and genetic analysis of group II capsules in <italic>Aeromonas hydrophila</italic>
+</article-title>
+<source>Microbiology</source>
+<volume>149</volume>
+<fpage>1051</fpage>
+<lpage>1060</lpage>
+<pub-id pub-id-type="pmid">12686647</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b026">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>TY</given-names></name><name><surname>Gotschlich</surname><given-names>EC</given-names></name><name><surname>Dunne</surname><given-names>FT</given-names></name><name><surname>Jonssen</surname><given-names>EK</given-names></name></person-group>
+<year>1971</year>
+<article-title>Studies on the meningococcal polysaccharides. II. Composition and chemical properties of the group B and group C polysaccharide</article-title>
+<source>J Biol Chem</source>
+<volume>246</volume>
+<fpage>4703</fpage>
+<lpage>4712</lpage>
+<pub-id pub-id-type="pmid">4327325</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b027">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>TY</given-names></name><name><surname>Gotschlich</surname><given-names>EC</given-names></name><name><surname>Jonssen</surname><given-names>EK</given-names></name><name><surname>Wysocki</surname><given-names>JR</given-names></name></person-group>
+<year>1971</year>
+<article-title>Studies on the meningococcal polysaccharides. I. Composition and chemical properties of the group A polysaccharide</article-title>
+<source>J Biol Chem</source>
+<volume>246</volume>
+<fpage>2849</fpage>
+<lpage>2858</lpage>
+<pub-id pub-id-type="pmid">4995120</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b028">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bundle</surname><given-names>DR</given-names></name><name><surname>Jennings</surname><given-names>HJ</given-names></name><name><surname>Kenny</surname><given-names>CP</given-names></name></person-group>
+<year>1974</year>
+<article-title>Studies on the group-specific polysaccharide of <italic>Neisseria meningitidis</italic> serogroup X and an improved procedure for its isolation</article-title>
+<source>J Biol Chem</source>
+<volume>249</volume>
+<fpage>4797</fpage>
+<lpage>4801</lpage>
+<pub-id pub-id-type="pmid">4211095</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b029">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Branefors-Helander</surname><given-names>P</given-names></name><name><surname>Kenne</surname><given-names>L</given-names></name><name><surname>Lindqvist</surname><given-names>B</given-names></name></person-group>
+<year>1980</year>
+<article-title>Structural studies of the capsular antigen from <italic>Haemophilus influenzae</italic> type f</article-title>
+<source>Carbohydr Res</source>
+<volume>79</volume>
+<fpage>308</fpage>
+<lpage>312</lpage>
+<pub-id pub-id-type="pmid">6965611</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b030">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reddy</surname><given-names>GP</given-names></name><name><surname>Abeygunawardana</surname><given-names>C</given-names></name><name><surname>Bush</surname><given-names>CA</given-names></name><name><surname>Cisar</surname><given-names>JO</given-names></name></person-group>
+<year>1994</year>
+<article-title>The cell wall polysaccharide of <italic>Streptococcus gordonii</italic> 38: Structure and immunochemical comparison with the receptor polysaccharides of <italic>Streptococcus oralis</italic> 34 and <italic>Streptococcus mitis</italic> J22</article-title>
+<source>Glycobiology</source>
+<volume>4</volume>
+<fpage>183</fpage>
+<lpage>192</lpage>
+<pub-id pub-id-type="pmid">8054717</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b031">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cisar</surname><given-names>JO</given-names></name><name><surname>Sandberg</surname><given-names>AL</given-names></name><name><surname>Reddy</surname><given-names>GP</given-names></name><name><surname>Abeygunawardana</surname><given-names>C</given-names></name><name><surname>Bush</surname><given-names>CA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Structural and antigenic types of cell wall polysaccharides from viridans group streptococci with receptors for oral actinomyces and streptococcal lectins</article-title>
+<source>Infect Immun</source>
+<volume>65</volume>
+<fpage>5035</fpage>
+<lpage>5041</lpage>
+<pub-id pub-id-type="pmid">9393793</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b032">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vardar</surname><given-names>D</given-names></name><name><surname>North</surname><given-names>CL</given-names></name><name><surname>Sanchez-Irizarry</surname><given-names>C</given-names></name><name><surname>Aster</surname><given-names>JC</given-names></name><name><surname>Blacklow</surname><given-names>SC</given-names></name></person-group>
+<year>2003</year>
+<article-title>Nuclear magnetic resonance structure of a prototype Lin12-Notch repeat module from human Notch1</article-title>
+<source>Biochemistry</source>
+<volume>42</volume>
+<fpage>7061</fpage>
+<lpage>7067</lpage>
+<pub-id pub-id-type="pmid">12795601</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b033">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ikura</surname><given-names>M</given-names></name></person-group>
+<year>1996</year>
+<article-title>Calcium binding and conformational response in EF-hand proteins</article-title>
+<source>Trends Biochem Sci</source>
+<volume>21</volume>
+<fpage>14</fpage>
+<lpage>17</lpage>
+<pub-id pub-id-type="pmid">8848832</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b034">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cooper</surname><given-names>EL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Comparative immunology</article-title>
+<source>Curr Pharm Des</source>
+<volume>9</volume>
+<fpage>119</fpage>
+<lpage>131</lpage>
+<pub-id pub-id-type="pmid">12570663</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b035">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Khalturin</surname><given-names>K</given-names></name><name><surname>Panzer</surname><given-names>Z</given-names></name><name><surname>Cooper</surname><given-names>MD</given-names></name><name><surname>Bosch</surname><given-names>TC</given-names></name></person-group>
+<year>2004</year>
+<article-title>Recognition strategies in the innate immune system of ancestral chordates</article-title>
+<source>Mol Immunol</source>
+<volume>41</volume>
+<fpage>1077</fpage>
+<lpage>1087</lpage>
+<pub-id pub-id-type="pmid">15476919</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b036">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Srikrishna</surname><given-names>G</given-names></name><name><surname>Wang</surname><given-names>L</given-names></name><name><surname>Freeze</surname><given-names>HH</given-names></name></person-group>
+<year>1998</year>
+<article-title>Fucosebeta-1-P-Ser is a new type of glycosylation: Using antibodies to identify a novel structure in <italic>Dictyostelium discoideum</italic> and study multiple types of fucosylation during growth and development</article-title>
+<source>Glycobiology</source>
+<volume>8</volume>
+<fpage>799</fpage>
+<lpage>811</lpage>
+<pub-id pub-id-type="pmid">9639541</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b037">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mreyen</surname><given-names>M</given-names></name><name><surname>Champion</surname><given-names>A</given-names></name><name><surname>Srinivasan</surname><given-names>S</given-names></name><name><surname>Karuso</surname><given-names>P</given-names></name><name><surname>Williams</surname><given-names>KL</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Multiple O-glycoforms on the spore coat protein SP96 in <italic>Dictyostelium discoideum</italic>. Fuc(alpha1â3)GlcNAc-alpha-1-P-Ser is the major modification</article-title>
+<source>J Biol Chem</source>
+<volume>275</volume>
+<fpage>12164</fpage>
+<lpage>12174</lpage>
+<pub-id pub-id-type="pmid">10766852</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b038">
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Freeze</surname><given-names>HH</given-names></name></person-group>
+<year>1997</year>
+<article-title>
+<italic>Dictyostelium discoideum</italic> glycoproteins: Using a model system for organismic glycobiology</article-title>
+<person-group person-group-type="editor"><name><surname>Montreuil</surname><given-names>J</given-names></name><name><surname>Vliegenhart</surname><given-names>JFG</given-names></name><name><surname>Schachter</surname><given-names>H</given-names></name></person-group>
+<source>Glycoproteins II</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Elsevier</publisher-name>
+<fpage>91</fpage>
+<lpage>105</lpage>
+</element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b039">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gustafson</surname><given-names>GL</given-names></name><name><surname>Gander</surname><given-names>JE</given-names></name></person-group>
+<year>1984</year>
+<article-title>O beta-(N-acetyl-alpha-glucosamine-1-phosphoryl)serine in proteinase I from <italic>Dictyostelium discoideum</italic>
+</article-title>
+<source>Methods Enzymol</source>
+<volume>107</volume>
+<fpage>172</fpage>
+<lpage>183</lpage>
+<pub-id pub-id-type="pmid">6438439</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b040">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mehta</surname><given-names>DP</given-names></name><name><surname>Ichikawa</surname><given-names>M</given-names></name><name><surname>Salimath</surname><given-names>PV</given-names></name><name><surname>Etchison</surname><given-names>JR</given-names></name><name><surname>Haak</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>A lysosomal cysteine proteinase from <italic>Dictyostelium discoideum</italic> contains N-acetylglucosamine-1-phosphate bound to serine but not mannose-6-phosphate on N-linked oligosaccharides</article-title>
+<source>J Biol Chem</source>
+<volume>271</volume>
+<fpage>10897</fpage>
+<lpage>10903</lpage>
+<pub-id pub-id-type="pmid">8631906</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b041">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Souza</surname><given-names>GM</given-names></name><name><surname>Mehta</surname><given-names>DP</given-names></name><name><surname>Lammertz</surname><given-names>M</given-names></name><name><surname>Rodriguez-Paris</surname><given-names>J</given-names></name><name><surname>Wu</surname><given-names>R</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>
+<italic>Dictyostelium</italic> lysosomal proteins with different sugar modifications sort to functionally distinct compartments</article-title>
+<source>J Cell Sci</source>
+<volume>110</volume>
+<fpage>2239</fpage>
+<lpage>2248</lpage>
+<pub-id pub-id-type="pmid">9378773</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b042">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Descoteaux</surname><given-names>A</given-names></name><name><surname>Turco</surname><given-names>SJ</given-names></name></person-group>
+<year>1999</year>
+<article-title>Glycoconjugates in <italic>Leishmania</italic> infectivity</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1455</volume>
+<fpage>341</fpage>
+<lpage>352</lpage>
+<pub-id pub-id-type="pmid">10571023</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b043">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McNeely</surname><given-names>TB</given-names></name><name><surname>Turco</surname><given-names>SJ</given-names></name></person-group>
+<year>1990</year>
+<article-title>Requirement of lipophosphoglycan for intracellular survival of <italic>Leishmania donovani</italic> within human monocytes</article-title>
+<source>J Immunol</source>
+<volume>144</volume>
+<fpage>2745</fpage>
+<lpage>2750</lpage>
+<pub-id pub-id-type="pmid">2319134</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b044">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dermine</surname><given-names>JF</given-names></name><name><surname>Scianimanico</surname><given-names>S</given-names></name><name><surname>Prive</surname><given-names>C</given-names></name><name><surname>Descoteaux</surname><given-names>A</given-names></name><name><surname>Desjardins</surname><given-names>M</given-names></name></person-group>
+<year>2000</year>
+<article-title>
+<italic>Leishmania</italic> promastigotes require lipophosphoglycan to actively modulate the fusion properties of phagosomes at an early step of phagocytosis</article-title>
+<source>Cell Microbiol</source>
+<volume>2</volume>
+<fpage>115</fpage>
+<lpage>126</lpage>
+<pub-id pub-id-type="pmid">11207568</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b045">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Scianimanico</surname><given-names>S</given-names></name><name><surname>Desrosiers</surname><given-names>M</given-names></name><name><surname>Dermine</surname><given-names>JF</given-names></name><name><surname>Meresse</surname><given-names>S</given-names></name><name><surname>Descoteaux</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Impaired recruitment of the small GTPase rab7 correlates with the inhibition of phagosome maturation by <italic>Leishmania donovani</italic> promastigotes</article-title>
+<source>Cell Microbiol</source>
+<volume>1</volume>
+<fpage>19</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">11207538</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b046">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spath</surname><given-names>GF</given-names></name><name><surname>Lye</surname><given-names>LF</given-names></name><name><surname>Segawa</surname><given-names>H</given-names></name><name><surname>Sacks</surname><given-names>DL</given-names></name><name><surname>Turco</surname><given-names>SJ</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Persistence without pathology in phosphoglycan-deficient <italic>Leishmania major</italic>
+</article-title>
+<source>Science</source>
+<volume>301</volume>
+<fpage>1241</fpage>
+<lpage>1243</lpage>
+<pub-id pub-id-type="pmid">12947201</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b047">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spath</surname><given-names>GF</given-names></name><name><surname>Garraway</surname><given-names>LA</given-names></name><name><surname>Turco</surname><given-names>SJ</given-names></name><name><surname>Beverley</surname><given-names>SM</given-names></name></person-group>
+<year>2003</year>
+<article-title>The role(s) of lipophosphoglycan (LPG) in the establishment of <italic>Leishmania major</italic> infections in mammalian hosts</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>9536</fpage>
+<lpage>9541</lpage>
+<pub-id pub-id-type="pmid">12869694</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b048">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Routier</surname><given-names>FH</given-names></name><name><surname>Higson</surname><given-names>AP</given-names></name><name><surname>Ivanova</surname><given-names>IA</given-names></name><name><surname>Ross</surname><given-names>AJ</given-names></name><name><surname>Tsvetkov</surname><given-names>YE</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Characterization of the elongating alpha-D-mannosyl phosphate transferase from three species of <italic>Leishmania</italic> using synthetic acceptor substrate analogues</article-title>
+<source>Biochemistry</source>
+<volume>39</volume>
+<fpage>8017</fpage>
+<lpage>8025</lpage>
+<pub-id pub-id-type="pmid">10891083</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b049">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coffey</surname><given-names>TJ</given-names></name><name><surname>Dowson</surname><given-names>CG</given-names></name><name><surname>Daniels</surname><given-names>M</given-names></name><name><surname>Zhou</surname><given-names>J</given-names></name><name><surname>Martin</surname><given-names>C</given-names></name><etal/></person-group>
+<year>1991</year>
+<article-title>Horizontal transfer of multiple penicillin-binding protein genes, and capsular biosynthetic genes, in natural populations of <italic>Streptococcus pneumoniae</italic>
+</article-title>
+<source>Mol Microbiol</source>
+<volume>5</volume>
+<fpage>2255</fpage>
+<lpage>2260</lpage>
+<pub-id pub-id-type="pmid">1766389</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b050">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kroll</surname><given-names>JS</given-names></name><name><surname>Moxon</surname><given-names>ER</given-names></name></person-group>
+<year>1990</year>
+<article-title>Capsulation in distantly related strains of <italic>Haemophilus influenzae</italic> type b: Genetic drift and gene transfer at the capsulation locus</article-title>
+<source>J Bacteriol</source>
+<volume>172</volume>
+<fpage>1374</fpage>
+<lpage>1379</lpage>
+<pub-id pub-id-type="pmid">2137816</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b051">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tettelin</surname><given-names>H</given-names></name><name><surname>Saunders</surname><given-names>NJ</given-names></name><name><surname>Heidelberg</surname><given-names>J</given-names></name><name><surname>Jeffries</surname><given-names>AC</given-names></name><name><surname>Nelson</surname><given-names>KE</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Complete genome sequence of <italic>Neisseria meningitidis</italic> serogroup B strain MC58</article-title>
+<source>Science</source>
+<volume>287</volume>
+<fpage>1809</fpage>
+<lpage>1815</lpage>
+<pub-id pub-id-type="pmid">10710307</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b052">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Notredame</surname><given-names>C</given-names></name><name><surname>Higgins</surname><given-names>DG</given-names></name><name><surname>Heringa</surname><given-names>J</given-names></name></person-group>
+<year>2000</year>
+<article-title>T-Coffee: A novel method for fast and accurate multiple sequence alignment</article-title>
+<source>J Mol Biol</source>
+<volume>302</volume>
+<fpage>205</fpage>
+<lpage>217</lpage>
+<pub-id pub-id-type="pmid">10964570</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b053">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>H</given-names></name><name><surname>Engelbrecht</surname><given-names>J</given-names></name><name><surname>Brunak</surname><given-names>S</given-names></name><name><surname>von Heijne</surname><given-names>G</given-names></name></person-group>
+<year>1997</year>
+<article-title>Identification of prokaryotic and eukaryotic signal peptides and prediction of their cleavage sites</article-title>
+<source>Protein Eng</source>
+<volume>10</volume>
+<fpage>1</fpage>
+<lpage>6</lpage>
+</element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b054">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>H</given-names></name><name><surname>Krogh</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>Prediction of signal peptides and signal anchors by a hidden Markov model</article-title>
+<source>Proc Int Conf Intell Syst Mol Biol</source>
+<volume>6</volume>
+<fpage>122</fpage>
+<lpage>130</lpage>
+<pub-id pub-id-type="pmid">9783217</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b055">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krogh</surname><given-names>A</given-names></name><name><surname>Larsson</surname><given-names>B</given-names></name><name><surname>von Heijne</surname><given-names>G</given-names></name><name><surname>Sonnhammer</surname><given-names>EL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Predicting transmembrane protein topology with a hidden Markov model: Application to complete genomes</article-title>
+<source>J Mol Biol</source>
+<volume>305</volume>
+<fpage>567</fpage>
+<lpage>580</lpage>
+<pub-id pub-id-type="pmid">11152613</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b056">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sonnhammer</surname><given-names>EL</given-names></name><name><surname>von Heijne</surname><given-names>G</given-names></name><name><surname>Krogh</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>A hidden Markov model for predicting transmembrane helices in protein sequences</article-title>
+<source>Proc Int Conf Intell Syst Mol Biol</source>
+<volume>6</volume>
+<fpage>175</fpage>
+<lpage>182</lpage>
+<pub-id pub-id-type="pmid">9783223</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b057">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hofmann</surname><given-names>K</given-names></name><name><surname>Bucher</surname><given-names>P</given-names></name><name><surname>Falquet</surname><given-names>L</given-names></name><name><surname>Bairoch</surname><given-names>A</given-names></name></person-group>
+<year>1999</year>
+<article-title>The PROSITE database, its status in 1999</article-title>
+<source>Nucleic Acids Res</source>
+<volume>27</volume>
+<fpage>215</fpage>
+<lpage>219</lpage>
+<pub-id pub-id-type="pmid">9847184</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b058">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bateman</surname><given-names>A</given-names></name><name><surname>Birney</surname><given-names>E</given-names></name><name><surname>Durbin</surname><given-names>R</given-names></name><name><surname>Eddy</surname><given-names>SR</given-names></name><name><surname>Finn</surname><given-names>RD</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Pfam 3.1: 1313 multiple alignments and profile HMMs match the majority of proteins</article-title>
+<source>Nucleic Acids Res</source>
+<volume>27</volume>
+<fpage>260</fpage>
+<lpage>262</lpage>
+<pub-id pub-id-type="pmid">9847196</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b059">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iseli</surname><given-names>C</given-names></name><name><surname>Stevenson</surname><given-names>BJ</given-names></name><name><surname>de Souza</surname><given-names>SJ</given-names></name><name><surname>Samaia</surname><given-names>HB</given-names></name><name><surname>Camargo</surname><given-names>AA</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Long-range heterogeneity at the 3â² ends of human mRNAs</article-title>
+<source>Genome Res</source>
+<volume>12</volume>
+<fpage>1068</fpage>
+<lpage>1074</lpage>
+<pub-id pub-id-type="pmid">12097343</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b060">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stevenson</surname><given-names>BJ</given-names></name><name><surname>Iseli</surname><given-names>C</given-names></name><name><surname>Beutler</surname><given-names>B</given-names></name><name><surname>Jongeneel</surname><given-names>CV</given-names></name></person-group>
+<year>2003</year>
+<article-title>Use of transcriptome data to unravel the fine structure of genes involved in sepsis</article-title>
+<source>J Infect Dis</source>
+<volume>187</volume>
+<fpage>S308</fpage>
+<lpage>S314</lpage>
+<pub-id pub-id-type="pmid">12792844</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b061">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sperisen</surname><given-names>P</given-names></name><name><surname>Iseli</surname><given-names>C</given-names></name><name><surname>Pagni</surname><given-names>M</given-names></name><name><surname>Stevenson</surname><given-names>BJ</given-names></name><name><surname>Bucher</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>trome, trEST and trGEN: Databases of predicted protein sequences</article-title>
+<source>Nucleic Acids Res</source>
+<volume>32</volume>
+<fpage>D509</fpage>
+<lpage>D511</lpage>
+<pub-id pub-id-type="pmid">14681469</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b062">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huelsenbeck</surname><given-names>JP</given-names></name><name><surname>Ronquist</surname><given-names>F</given-names></name></person-group>
+<year>2001</year>
+<article-title>MRBAYES: Bayesian inference of phylogenetic trees</article-title>
+<source>Bioinformatics</source>
+<volume>17</volume>
+<fpage>754</fpage>
+<lpage>755</lpage>
+<pub-id pub-id-type="pmid">11524383</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b063">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ronquist</surname><given-names>F</given-names></name><name><surname>Huelsenbeck</surname><given-names>JP</given-names></name></person-group>
+<year>2003</year>
+<article-title>MrBayes 3: Bayesian phylogenetic inference under mixed models</article-title>
+<source>Bioinformatics</source>
+<volume>19</volume>
+<fpage>1572</fpage>
+<lpage>1574</lpage>
+<pub-id pub-id-type="pmid">12912839</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b064">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Felsenstein</surname><given-names>J</given-names></name></person-group>
+<year>1989</year>
+<article-title>PHYLIPâPhylogeny Inference Package (version 3.2)</article-title>
+<source>Cladistics</source>
+<volume>5</volume>
+<fpage>164</fpage>
+</element-citation>
+      </ref>
+      <ref id="pcbi-0010063-b065">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cuff</surname><given-names>JA</given-names></name><name><surname>Barton</surname><given-names>GJ</given-names></name></person-group>
+<year>1999</year>
+<article-title>Evaluation and improvement of multiple sequence methods for protein secondary structure prediction</article-title>
+<source>Proteins</source>
+<volume>34</volume>
+<fpage>508</fpage>
+<lpage>519</lpage>
+<pub-id pub-id-type="pmid">10081963</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,89 @@
+<!doctype html>
+<html class="no-js" lang="">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Biotea-2-Bioschemas test dataset</title>
+
+</head>
+<body>
+    <h1>Biotea-2-Bioschemas test dataset</h1>
+    <p>
+        Biotea is contributing to <a href="http://bioschemas.org/" target="_blank">Bioschemas</a> by mapping 
+        its scholarly publication and annotation model to <a href="http://schema.org" target="_blank">
+        schema.org</a>. Such mapping is currently a draft proposal to Bioschemas, more information can be 
+        found at the <a href="http://bioschemas.org/groups/Biotea2Bioschemas/" target="_blank">
+        Biotea-2-Bioschemas group page</a>.
+    </p>
+    <p>
+        Here we present a test dataset containing 2596 PubMed Central Open Access publications with 
+        annotations obtained via <a href="http://data.bioontology.org/documentation" target="_blank">
+        NCBO Annotator</a>. Annotations have also been published in 
+        <a href="http://pubannotation.org/projects/Biotea" target="_blank">PubAnnotation</a>. Articles,
+        NCBO annotations and PubAnnotation annotations have beed deposited in 
+        <a hfer="TODO" target="_blank">Zenodo</a>.
+    </p>
+    <p>If you want to get the Bioschemas proposed markup for a publication, just add ?pmc=[PMCID] to
+        this page URL. You can find a full list of the included articles in our 
+        <a hfer="TODO" target="_blank">sitemap</a>.
+        Some examples you can explore are:
+        <li>
+            <ul><a href="./?pmc=35353" target="_blank">PMC35353: "A missense mutation (Q279R) in the 
+                Fumarylacetoacetate Hydrolase gene, responsible for hereditary tyros"</a></ul>
+            <ul><a href="./?pmc=2141713" target="_blank">PMC2141713: "The Amino-terminal Domain of 
+                Desmoplakin Binds to Plakoglobin and Clusters Desmosomal Cadherin–Plakoglobin Complexes"</a></ul>
+            <ul><a href="./?pmc=2628407" target="_blank">PMC2628407: "A Novel Function for Fragile X Mental 
+                Retardation Protein in Translational Activation"</a></ul>                
+            <ul><a href="./?pmc=3308076" target="_blank">PMC:3308076 "A new category of autoinflammatory 
+                disease associated with NOD2 gene mutations"</a></ul>                
+            <ul><a href="./?pmc=3855541" target="_blank">PMC:3855541 "Increased circulating levels of 
+                betatrophin in individuals with long-standing type 1 diabetes"</a></ul>                
+        </li>
+    </p>
+    
+<biotea-bioschemas-metadata 
+    render publisher="http://biotea.github.io" version="201903" 
+    metadataid="http://biotea.github.io/bioschemas?pmc={0}">
+
+<script src="./dist/BioteaBioschemasMetadata.js" charset="utf-8" defer></script>
+<script src="./dist/BioteaBioschemasAnnotations.js" charset="utf-8" defer></script>
+
+
+<script>
+    window.onload = () => {
+        const url = new URL(window.location.href);
+        const articleId = url.searchParams.get('pmc');
+        if (articleId) {
+            //find the annotation file, if exist then find the article file
+              //parse article, do not render
+              //show article metadata
+              //parse annotations, do not render
+              //show annotation metadata
+              //add annotations to article metadata via "mentions"
+              //render joint metadata
+            const component = document.getElementsByTagName('biotea-bioschemas-metadata')[0];
+            component.queryurl = './resources/PMC/PMC' + articleId + '.nxml';
+              //
+            //if annotations do not exist, report error
+        }
+        for (const el of document.querySelectorAll('biotea-bioschemas-metadata')) {
+          el.addEventListener(
+            'load',
+            e => {
+              console.log('Data loaded');
+              console.log(e.detail);
+            }
+          );
+          el.addEventListener(
+            'ready',
+            e => {
+              console.log('ready');
+              console.log(e.detail);
+            }
+          );
+        }
+    }     
+</script>
+
+</body>
+</html>

@@ -1,0 +1,917 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:47:07Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3547847" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3547847</identifier><datestamp>2013-01-24</datestamp><setSpec>plosgen</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosgen</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7390</issn>
+      <issn pub-type="epub">1553-7404</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3547847</article-id>
+      <article-id pub-id-type="pmcid">PMC3547847</article-id>
+      <article-id pub-id-type="pmc-uid">3547847</article-id>
+      <article-id pub-id-type="pmid">23349634</article-id>
+      <article-id pub-id-type="pmid">23349634</article-id>
+      <article-id pub-id-type="publisher-id">PGENETICS-D-12-01807</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pgen.1003210</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Chemistry</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Newly Uncovered Group of Distantly Related Lysine Methyltransferases Preferentially Interact with Molecular Chaperones to Regulate Their Activity</article-title>
+        <alt-title alt-title-type="running-head">Regulation of Molecular Chaperones by Methylation</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cloutier</surname>
+            <given-names>Philippe</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>LavallÃ©e-Adam</surname>
+            <given-names>Mathieu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Faubert</surname>
+            <given-names>Denis</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blanchette</surname>
+            <given-names>Mathieu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Coulombe</surname>
+            <given-names>Benoit</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Institut de Recherches Cliniques de MontrÃ©al (IRCM), MontrÃ©al, QuÃ©bec, Canada</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>McGill Centre for Bioinformatics and School of Computer Science, McGill University, MontrÃ©al, QuÃ©bec, Canada</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Department of Biochemistry, UniversitÃ© de MontrÃ©al, MontrÃ©al, QuÃ©bec, Canada</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Barsh</surname>
+            <given-names>Gregory S.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>Stanford University School of Medicine, United States of America</addr-line>
+      </aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>benoit.coulombe@ircm.qc.ca</email></corresp>
+        <fn fn-type="COI-statement">
+          <p>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: PC BC. Performed the experiments: PC. Analyzed the data: PC ML-A DF MB BC. Wrote the paper: PC ML-A DF MB BC.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>1</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>1</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>1</issue>
+      <elocation-id>e1003210</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>7</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2013 Cloutier et al</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Cloutier et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Methylation is a post-translational modification that can affect numerous features of proteins, notably cellular localization, turnover, activity, and molecular interactions. Recent genome-wide analyses have considerably extended the list of human genes encoding putative methyltransferases. Studies on protein methyltransferases have revealed that the regulatory function of methylation is not limited to epigenetics, with many non-histone substrates now being discovered. We present here our findings on a novel family of distantly related putative methyltransferases. Affinity purification coupled to mass spectrometry shows a marked preference for these proteins to associate with various chaperones. Based on the spectral data, we were able to identify methylation sites in substrates, notably trimethylation of K135 of KIN/Kin17, K561 of HSPA8/Hsc70 as well as corresponding lysine residues in other Hsp70 isoforms, and K315 of VCP/p97. All modification sites were subsequently confirmed in vitro. In the case of VCP, methylation by METTL21D was stimulated by the addition of the UBX cofactor ASPSCR1, which we show directly interacts with the methyltransferase. This stimulatory effect was lost when we used VCP mutants (R155H, R159G, and R191Q) known to cause Inclusion Body Myopathy with Paget's disease of bone and Fronto-temporal Dementia (IBMPFD) and/or familial Amyotrophic Lateral Sclerosis (ALS). Lysine 315 falls in proximity to the Walker B motif of VCP's first ATPase/D1 domain. Our results indicate that methylation of this site negatively impacts its ATPase activity. Overall, this report uncovers a new role for protein methylation as a regulatory pathway for molecular chaperones and defines a novel regulatory mechanism for the chaperone VCP, whose deregulation is causative of degenerative neuromuscular diseases.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>Methylation, or transfer of a single or multiple methyl groups (CH<sub>3</sub>), is one of many post-translational modifications that occur on proteins. Such modifications can, in turn, affect numerous aspects of a protein, notably cellular localization, turnover, activity, and molecular interactions. In addition to post-translational modifications, the structural organization of a protein or protein complex can also have a significant impact on its function and stability. A group of factors known as âmolecular chaperonesâ aid newly synthesized proteins in reaching their native conformation or alternating between physiologically relevant states. We present here a new family of factors that promote methylation of chaperones and show that, at least in one case, this modification translates into a modulation in the activity of the substrate chaperone. Our results not only characterize the function of previously unknown gene products, uncover a new role for protein methylation as a regulatory pathway for chaperones, and define a novel regulatory mechanism for the chaperone VCP, whose deregulation is causative of neuromuscular diseases, but also suggest the existence of a post-translational modification code that regulates molecular chaperones. Further decrypting this âchaperone codeâ will help understanding how the functional organization of the proteome is orchestrated.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work has been funded by the Canadian Institutes of Health Research (CIHR, grant MOP-82851, <ext-link ext-link-type="uri" xlink:href="http://www.cihr-irsc.gc.ca">http://www.cihr-irsc.gc.ca</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Methyltransferases catalyze the transfer of a methyl group (CH<sub>3</sub>) from a donor, generally S-adenosyl-L-methionine (AdoMet), to various acceptor molecules such as proteins, DNA, RNA, lipids, and small metabolites <xref rid="pgen.1003210-Martin1" ref-type="bibr">[1]</xref>â<xref rid="pgen.1003210-Schubert1" ref-type="bibr">[3]</xref>. Protein N-methylation predominantly targets the side chains of two amino acids, lysine and arginine, whereas the side chains of other residues, including histidine, glutamine, and asparagine represent minor targets for methylation <xref rid="pgen.1003210-Ishizawa1" ref-type="bibr">[4]</xref>â<xref rid="pgen.1003210-Webb1" ref-type="bibr">[6]</xref>. Dicarboxylic amino acids (glutamate, aspartate) and cysteine are also known to be respectively O- and S-methylated on occasion <xref rid="pgen.1003210-Pegg1" ref-type="bibr">[7]</xref>, <xref rid="pgen.1003210-Sprung1" ref-type="bibr">[8]</xref>. In addition, some proteins were shown to be methylated on their N-terminal and C-terminal ends <xref rid="pgen.1003210-Clarke1" ref-type="bibr">[9]</xref>â<xref rid="pgen.1003210-Wu1" ref-type="bibr">[11]</xref>. The vast majority of methyltransferases are grouped into three large families based on their structure, namely seven-Î²-strand, SET and SPOUT domain-containing methyltransferases <xref rid="pgen.1003210-Petrossian1" ref-type="bibr">[2]</xref>. All protein R methyltransferases (PRMT) are part of the seven-Î²-strand superfamily, while protein K methyltransferases (PKMT) fall almost exclusively within the SET domain-containing group. Until recently, the only known seven-Î²-strand PKMT was Dot1 <xref rid="pgen.1003210-Feng1" ref-type="bibr">[12]</xref>.</p>
+      <p>Efforts to characterize substrates of PKMT have mostly focused on nucleosome components. Methylation of histone H3 residues K4, K36, and K79 are associated with transcriptionally active euchromatin, whereas methylation of H3K9, H3K27 and H4K20 coincides with heterochromatin and transcriptional repression <xref rid="pgen.1003210-Martin2" ref-type="bibr">[13]</xref>, <xref rid="pgen.1003210-Volkel1" ref-type="bibr">[14]</xref>. Recent reports have furthermore shown that the type of lysine methylation (i.e., mono-, di- or trimethylation) should also be taken into consideration when assessing chromatin state <xref rid="pgen.1003210-Barski1" ref-type="bibr">[15]</xref>â<xref rid="pgen.1003210-Rosenfeld1" ref-type="bibr">[17]</xref>. Epigenetics has been paramount in demonstrating that a modification as seemingly insignificant as the addition of a methyl group can have a considerable impact on a biological process as crucial as gene expression. Evidence of lysine methylation-driven regulation has been documented for an ever-increasing number of non-histone proteins, including calmodulin, cytochrome C, Rubisco, ribosomal proteins, p53, and NF-ÎºB <xref rid="pgen.1003210-Chuikov1" ref-type="bibr">[18]</xref>â<xref rid="pgen.1003210-Yang1" ref-type="bibr">[27]</xref>.</p>
+      <p>As part of an effort to systematically map protein-protein interactions, we came across a previously uncharacterized protein sharing distant homology with PRMTs nestled within a network of molecular chaperones involved in protein complex assembly. Subsequent local alignement searches using that protein as seed uncovered a group of 10 distantly related putative methyltransferases. Characterization of the interaction network of this novel subgroup of methyltransferases was undertaken by Affinity Purification coupled to Mass Spectrometry (AP-MS) and then computationally assessed. Our results revealed that enzymes of this subgroup preferentially interact with molecular chaperones. Validation experiments using three of the identified interactors, Kin17, Hsc70, and VCP/p97, indicated that they represent bona fide substrates. In each case, trimethylated lysine residues were identified in vivo and confirmed in vitro using recombinant methyltransferase-substrate pairs. In addition, we have shown that methylation of one of these substrates, VCP/p97, by METTL21D can be modulated by ASPSCR1/UBXD9 and that this modification regulates ATPase activity of the VCP chaperone. The results presented here bring to light an entirely new cast of PKMTs of the seven-Î²-strand variety and expands our knowledge of non-histones substrates, most notably molecular chaperones. This finding points to a new role for protein methylation in regulating protein folding, quality control, and turnover.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Characterization of a newly discovered family of distantly related putative methyltransferases</title>
+        <p>The study of this group of previously uncharacterized methyltransferases was initiated when METTL22 was identified in the soluble fraction of a protein affinity purification that targeted the DNA/RNA binding protein Kin17/KIN. Local alignment searches were performed to ascertain the function of this protein (data not shown). It was discovered that METTL22 was part of a larger group of 10 proteins (if the diversity of FAM86 closely-related isoforms are considered as a single member) that shared distant homology with PRMTs. Phylogenetic analysis of the most conserved region of these two protein groups (<xref ref-type="supplementary-material" rid="pgen.1003210.s001">Figure S1</xref>) confirmed this observation, suggesting that this family of uncharacterized methyltransferases is related to, but distinct from, PRMTs (<xref ref-type="fig" rid="pgen-1003210-g001">Figure 1A</xref>; <xref ref-type="supplementary-material" rid="pgen.1003210.s002">Figure S2</xref>). Computational structure prediction further demonstrated the similarity between the members of this family of putative methyltransferases and PRMTs (<xref ref-type="fig" rid="pgen-1003210-g001">Figure 1B, 1C</xref>). The subsequent publication of the human âmethyltransferasomeâ by Clarke and colleagues confirmed that these proteins are putative methyltransferases and that they form a distinct family <xref rid="pgen.1003210-Petrossian1" ref-type="bibr">[2]</xref>. Indeed, most of the methyltransferases described here fall within the so-called âGroup J.â</p>
+        <fig id="pgen-1003210-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1003210.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Computational analysis defines a novel family of putative protein methyltransferases.</title>
+            <p>(A) Unrooted phylogenetic tree of a family of human putative methyltransferases distantly related to PRMTs. FAM86 represents a number of genetic variants (FAM86A, B1, B2, C, and D) whose duplication is observed only in primates. Branch lengths are not proportional to the actual evolutionary distances between the sequences. (B) Secondary structure organization of the Rossmann fold domain of PRMTs responsible for the methyltransferase activity. Arrows represent Î² strands and rectangles correspond to Î± helices, including typically ill-defined or inexistent Î± helix C. (C) Multiple sequence alignment of the Rossmann fold of all members within this family as generated by ClustalW2 (<ext-link ext-link-type="uri" xlink:href="http://www.ebi.ac.uk/Tools/msa/clustalw2/">http://www.ebi.ac.uk/Tools/msa/clustalw2/</ext-link>). Red residues are small, hydrophobic, aromatic; blue are acidic; magenta are basic; and all other residues are green. Primary sequence alignment corresponds nicely with secondary structure prediction by Jpred3 (<ext-link ext-link-type="uri" xlink:href="http://www.compbio.dundee.ac.uk/www-jpred/">http://www.compbio.dundee.ac.uk/www-jpred/</ext-link>). Overhead Î² strands and Î± helices are shown as in (B). Conserved motif I, the site of S-adenosylmethionine binding, is also marked.</p>
+          </caption>
+          <graphic xlink:href="pgen.1003210.g001"/>
+        </fig>
+        <p>Based on the observed homology with PRMTs, we hypothesized that these proteins were likely protein methyltransferases themselves. To identify possible substrates and cofactors, we elected to map the protein interaction network for each member of this novel family by AP-MS (main interactors are marked in <xref ref-type="fig" rid="pgen-1003210-g002">Figure 2</xref>, additional targets are listed in <xref ref-type="supplementary-material" rid="pgen.1003210.s008">Table S1</xref>) <xref rid="pgen.1003210-Cloutier1" ref-type="bibr">[28]</xref>â<xref rid="pgen.1003210-Krueger1" ref-type="bibr">[35]</xref>. The main METTL22 interactor identified in the soluble fraction was KIN, which confirmed our initial observation and further strengthened the notion that these two factors interact. A common theme for most of these putative methyltransferases' interactors was chaperones, be they of the Hsp70 or Hsp90 variety (see METTL18, CAMKMT, METTL21C, METTL22, METTL23, METTL21A, and METTL21B), chaperonins HSPD1 and CCT (see METTL18, CAMKMT, METTL20, and METTL21B), and even the AAA ATPase VCP (see METTL21D) that is believed to act as a chaperone in various processes, most notably Endoplasmic Reticulum-Associated Protein Degradation (ERAD) <xref rid="pgen.1003210-Bays1" ref-type="bibr">[36]</xref>â. Recent publications have substantiated the accuracy of this interactome. Firstly, it was demonstrated in another report by Steven Clarke on the yeast homolog of METTL18, YIL110W, that this protein methylates the ribosomal protein RPL3 <xref rid="pgen.1003210-Webb1" ref-type="bibr">[6]</xref>. Our own purification of METTL18 identified RPL3 and its associated ribosome biogenesis factor GRWD1 <xref rid="pgen.1003210-Iouk1" ref-type="bibr">[41]</xref> as the two main interactors. Secondly, CAMKMT has been shown to methylate calmodulin on a lysine residue <xref rid="pgen.1003210-Magnani1" ref-type="bibr">[42]</xref>. We were likewise able to co-purify calmodulin protein CALM2 in our CAMKMT affinity purification. However, it should be noted that since our AP-MS protocol includes beads bearing the calmodulin-binding peptide (CBP), calmodulin often appears as a non-specific target, although usually with a weaker signal. Computational assessment showed that CALM2 was a high confidence interactor of CAMKMT (FDR&lt;10%).</p>
+        <fig id="pgen-1003210-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1003210.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Tandem-affinity purification coupled to mass spectrometry reveals protein interaction network of putative methyltransferases.</title>
+            <p>Purification of 10 TAP-tagged putative methyltransferases from ponasterone-inducible strains of HEK 293 cells. Eluted proteins were separated by SDS-PAGE. Gels were silver stained and cut in slices that were then trypsin digested before protein identification by LC-MS/MS. Tagged baits and major interactors are marked.</p>
+          </caption>
+          <graphic xlink:href="pgen.1003210.g002"/>
+        </fig>
+        <p>Protein database searches were repeated allowing for mono-, di-, and trimethylation of lysine residues (as a variable modification). Of note, lysine trimethylation and acetylation are sometimes mis-annotated due to the closeness in mass of these modifications (+42.0468 Dalton and +42.0105 Dalton, respectively) <xref rid="pgen.1003210-Zhang1" ref-type="bibr">[43]</xref>. Fortunately, the high mass accuracy obtained with the LTQ Orbitrap mass spectrometer was sufficient to distinguish between these PTMs. The most promising hits were a trimethylated lysine on KIN at position 135 in the METTL22 purification, another trimethylated lysine at position 315 on VCP in the METTL21D purification, and a number of trimethylated lysines on multiple Hsp70 isoforms, which correspond to a homologous site, in the METTL21A purification (<xref ref-type="fig" rid="pgen-1003210-g003">Figure 3A</xref>; see corresponding mass spectra in <xref ref-type="supplementary-material" rid="pgen.1003210.s003">Figure S3</xref>). These methylation sites were highly conserved through evolution (<xref ref-type="fig" rid="pgen-1003210-g003">Figure 3B</xref>). Conservation of the VCP methylation site K315 is not surprising considering the relative immutability of the overall protein (roughly 70% sequence identity from <italic>Homo sapiens</italic> to <italic>Saccharomyces cerevisiae</italic>). The target lysine 561 in HSPA8/Hsc70 was likewise conserved through evolution and orthologs are found in species as distant as <italic>S. cerevisiae</italic>. Moreover, and as mentioned previously, this site is also retained in a number human Hsp70 paralogs (HSPA1, HSPA1L, HSPA2, HSPA5, and HSPA6). In fact the only conserved residue in this region of loose homology is the target lysine, pointing to a possible important regulatory role for this modification. The target lysine in KIN, K135, is present in a number of species, including <italic>Arabidopsis thaliana</italic> and <italic>Drosophila melanogaster</italic>, but is absent in <italic>Saccharomyces cerevisiae</italic> and <italic>Plasmodium falciparum</italic>. Interestingly, METTL22 orthologs are concurrently absent in species where the corresponding lysine in KIN is not conserved, which further suggests a strong link between the two.</p>
+        <fig id="pgen-1003210-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1003210.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>KIN, VCP, and a number of hsp70 isoforms are each trimethylated on lysine residues by specific methyltransferases within this family.</title>
+            <p>(A) Linear representation of all identified substrates with domain architecture. Residues delineating each domain are marked below. ZnF, Zinc Finger; WH, Winged Helix; SH3, Src Homology 3; SBD, substrate binding domain. Position of the methylated lysines is shown above. (B) Multiple sequence alignment of the region surrounding trimethylated lysines (boxed) in human VCP, KIN, and Hsp70 isoforms compared to paralogous genes in various organisms. Hs, <italic>Homo sapiens</italic>; Sc, <italic>Saccharomyces cerevisiae</italic>; Dm, <italic>Drosophila melanogaster</italic>; At, <italic>Arabidopsis thaliana</italic>; Pf, <italic>Plasmodium falciparum</italic>. Color code is as in <xref ref-type="fig" rid="pgen-1003210-g001">Figure 1</xref>. Strong and weak residue similarity are represented by a colon (:) and period (.), respectively, and asterisk (*) denotes identity. (CâE) In vitro methylation assays with tritium-labeled S-adenosylmethionine of KIN-His with GST-METTL22 (C), VCP-His with GST-METTL21D (D), and three His-tagged hsp70 isoforms (HSPA1, HSPA5, and HSPA8) with GST-METTL21A (E). In each case, substitution of the methylated lysine by an arginine leads to loss of methylation signal as detected by autoradiography. Coomassie staining of the gel shows total proteins loaded onto the gel and serves as control.</p>
+          </caption>
+          <graphic xlink:href="pgen.1003210.g003"/>
+        </fig>
+        <p>We then proceeded with in vitro methylation assays to confirm the identity of these methylation targets (<xref ref-type="fig" rid="pgen-1003210-g003">Figure 3Câ3E</xref>). A positive signal was observed for each reaction, confirming that these are in fact protein methyltransferases. Moreover, substitution of each identified lysine to an arginine, a relatively conserved substitution, led to the abrogation of the methylation signal. In the case of KIN, the K135R substitution greatly diminished the methylation signal, but did not completely abolish it as with other mutants tested. This could mean that there might be a second methylation site on KIN, but given that no other methylated peptide was ever observed by mass spectrometry, either in the original purification of METTL22 or in the in vitro methylation reaction itself (see corresponding mass spectra in <xref ref-type="supplementary-material" rid="pgen.1003210.s004">Figure S4</xref>), we believe that the residual methylation is more likely to occur on a cryptic site, i.e., one that is not normally methylated in wild-type KIN. Of note, methylation by METTL21A was assayed on three Hsp70 homologs (HSPA1, HSPA5, and HSPA8), but it stands to reason that the modification would also apply to other isoforms where the lysine residue is conserved.</p>
+        <p>To further characterize the function of the methyltransferases, intracellular localization was determined by immunofluorescence. To this end, recombinant FLAG-tagged proteins were expressed in HeLa cells (<xref ref-type="fig" rid="pgen-1003210-g004">Figure 4</xref>). For most methyltransferases, a marked preference for the cytoplasm was observed, although this trend is reversed in METTL21C and METT22, where the localization is predominantly nuclear. This nuclear distribution could hint at a nucleosomal methylation activity, since it is frequent with most other protein methyltransferases, but none of the four major histones appear to be methylated in vitro by the members of this family (see <xref ref-type="supplementary-material" rid="pgen.1003210.s005">Figure S5</xref>). Localization of METTL18 was never determined, since no significant expression of the recombinant methyltransferase has ever been observed. It is tempting to speculate that this effect could be the result of impaired translation, since METTL18 interacts with, and probably methylates, ribosomal subunit RPL3. Whereas most methyltransferases display a diffuse distribution, METTL20 is concentrated in cytoplasmic granular foci and METTL23 displays internal membrane-like structures.</p>
+        <fig id="pgen-1003210-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1003210.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Intracellular distribution of putative methyltransferases and colocalization with identified substrates as shown by immunofluorescence.</title>
+            <p>(A) HeLa cells were transiently transfected with vectors encoding C-terminally FLAG-tagged putative methyltransferases. Localization of the recombinant proteins is revealed by immunofluorescence with a Cy3-labelled antibody. DNA is stained with To-Pro-3 to determine the position of the nucleus, and overall morphology of the cell is shown by Differential Interference Contrast microscopy (DIC). (B) Comparative localization of methyltransferase with associated proteins is shown by transient cotransfection of vectors for the expression of FLAG-tagged methyltransferase and C-terminally GFP-tagged interactors.</p>
+          </caption>
+          <graphic xlink:href="pgen.1003210.g004"/>
+        </fig>
+        <p>In the three instances where a methylation target has been identified, the substrate proteins (or associated protein ASPSCR1, in the case of METTL21D) bearing a GFP marker were co-expressed with the corresponding methyltransferase (<xref ref-type="fig" rid="pgen-1003210-g004">Figure 4B</xref>). All methyltransferases and methyl acceptors more or less colocalize within the same cell compartments. In the case of METTL21A with HSPA8 and METTL21D with VCP or ASPSCR1, the colocalization is nearly perfect. METTL22 and KIN are both present in the nucleus, although METTL22 is clearly more concentrated in the periphery than KIN.</p>
+      </sec>
+      <sec id="s2b">
+        <title>ASPSCR1/UBXD9 interacts with METTL22 to stimulate methylation of VCP</title>
+        <p>Methyltransferases often require cofactors to aid in the modification of their substrates. A good example of this is methylation of spliceosomal Sm proteins by the PRMT5/WD45 complex with the help of pICIn <xref rid="pgen.1003210-Meister1" ref-type="bibr">[44]</xref>. In the purification of METTL21D, we were able to identify two poorly documented VCP binding proteins, UBXN6/UBXD1 and ASPSCR1/UBXD9. This came as a surprise since VCP was shown to interact with an impressive number of cofactors including the entirety of the UBX (ubiquitin regulatory X) family <xref rid="pgen.1003210-Alexandru1" ref-type="bibr">[45]</xref>. Given this apparent specificity, we tested whether these proteins could act as cofactors in the methylation of VCP. As shown in <xref ref-type="fig" rid="pgen-1003210-g005">Figure 5A</xref>, methylation experiments revealed that neither ASPSRC1 nor UBXN6 could be methylated directly by METTL21D but that only the addition of ASPSCR1, not UBXN6, could enhance methylation of VCP. N- and C-terminal fragments of ASPSCR1 were generated in an effort to determine which domain of the cofactor is responsible for this effect (<xref ref-type="fig" rid="pgen-1003210-g005">Figure 5B</xref>). To our surprise, we observed that only the C-terminal fragment (residues 280â553), which was previously shown to interact weakly with VCP <xref rid="pgen.1003210-Orme1" ref-type="bibr">[46]</xref>, could enhance VCP methylation in a similar manner as full-length ASPSCR1. An in vitro GST pull-down experiment (<xref ref-type="fig" rid="pgen-1003210-g005">Figure 5C</xref>) confirms direct binding of the methyltransferase METTL21D to its substrate VCP, but also shows interaction with ASPSCR1, more specifically, to its C-terminal fragment. Furthermore, addition of VCP and ASPSCR1 or VCP and the C-terminal fragment of ASPSCR1 together appear to have a synergetic effect on binding to METTL21D, which could account for the concomitant increase in methylation signal.</p>
+        <fig id="pgen-1003210-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1003210.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>ASPSCR1 promotes methylation of VCP by METTL21D.</title>
+            <p>(A) In vitro methylation assays of VCP-His, UBXN6-His, ASPSCR1-His and fragments of ASPSCR1 with GST-METTL21D. Various combinations of the UBX proteins were added to reactions containing VCP. Coomassie staining of the gel is shown. (B) Linear representation of ASPSCR1 showing domain architecture of the protein (UBL, UBiquitin-Like domain; SHP, SHP box; UBX, UBiquitin regulatory X domain; CC, Coiled-Coil domain) and localization of residue 280 which marks the boundary between the N- and C- terminal fragments used in these experiments. (C) In vitro GST pull-down assays of VCP-His, UBXN6-His, ASPSCR1-His and fragments of ASPSCR1 with GST-METTL21D. Combinations of full-length ASPSCR1 and its fragments were once again employed with VCP. (D) Linear representation of VCP showing domain architecture of the protein (including double Î¨ barrel superfold and 4-stranded Î² barrel of the N-terminal domain, Walker A and B motifs, as well as 4 Î± helices bundle of ATPase domains D1 and D2 as well as linker regions L1 and L2 and C-terminal domain) and localization of the mutants used in this study as well as the site of methylation. (E) In vitro methylation assays of wild-type VCP-His and IBMPFD and ALS-causing mutations R155H, R159G and R191Q in presence or absence of ASPSCR1-His. (F) In vitro GST pull-down assays of the same combination of proteins as in (E).</p>
+          </caption>
+          <graphic xlink:href="pgen.1003210.g005"/>
+        </fig>
+        <p>Numerous mutations in the VCP gene have been linked with genetic disorders such as Inclusion Body Myopathy with Paget's disease of bone and Fronto-temporal Dementia (IBMPFD) and familial Amyotrophic Lateral Sclerosis (ALS) <xref rid="pgen.1003210-Johnson1" ref-type="bibr">[47]</xref>, <xref rid="pgen.1003210-Watts1" ref-type="bibr">[48]</xref>. Substitutions R155H and R191Q have been implicated in both IBMPFD and ALS. Furthermore, R159G was observed in patient with ALS, although other substitutions targeting arginine 159 were found in patients with IBMPFD (<xref ref-type="fig" rid="pgen-1003210-g005">Figure 5D</xref>). In vitro methylation assay using recombinant VCP bearing these substitutions was done in order to test whether disease-causing mutations can also impact VCP methylation (<xref ref-type="fig" rid="pgen-1003210-g005">Figure 5E</xref>). Although all mutant proteins appears to be methylated to a similar degree as wild-type VCP in vitro, the addition of the UBX protein no longer seems to enhance the methylation signal. These results can be explained by the notion the mutants used in this assay, as with most described VCP mutations, reside within the N-terminal domain believed to be involved in cofactor association <xref rid="pgen.1003210-Hanzelmann1" ref-type="bibr">[49]</xref>â<xref rid="pgen.1003210-Yeung1" ref-type="bibr">[51]</xref>. In vitro GST pull-down experiment (<xref ref-type="fig" rid="pgen-1003210-g005">Figure 5F</xref>) confirms that mutation of VCP has no impact on affinity of METTL21D for its substrate. However, when ASPSCR1 is added to the mix, the synergetic increase in binding is only observed with wild-type VCP.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Methylation of VCP negatively impacts on its ATPase activity</title>
+        <p>Given VCP's involvement in disease, we decided to further scrutinize the functional implications of its methylation. This member of the AAA (ATPases Associated with various cellular Activities) family of ATPases contains dual ATPase domains. The methylation site falls in close proximity to the Walker B motif of VCP's first ATPase domain (<xref ref-type="fig" rid="pgen-1003210-g006">Figure 6A</xref>). Knowing that Walker B motifs are usually involved in ATP hydrolysis, we hypothesized that trimethylation of lysine 315 might affect the ATPase activity of this domain. To test this idea, in vitro ATPase assays were performed with a fragment of VCP spanning its N-terminal and first ATPase domain. The reasoning behind this was that since most of VCP's ATPase activity stems from its second ATPase domain <xref rid="pgen.1003210-Wang1" ref-type="bibr">[52]</xref>, if methylation of K315 only affects the activity of the first ATPase domain, we might not have detected a change in the overall activity of the full-length protein. Before going forward with in vitro ATPase assays, we first verified that the fragment could still be methylated and that methylation could be inhibited by S-adenosylhomocysteine (AdoHcy), a byproduct of methylation that also acts as a methylation inhibitor for most methyltransferases. A catalytically inactive mutated form of the methyltransferase was also created that targets the conserved acidic residue in METTL21D's AdoMet-binding motif (E73Q, see <xref ref-type="fig" rid="pgen-1003210-g001">Figure 1C</xref>). The results show that the fragment is methylated as efficiently as full-length VCP (<xref ref-type="fig" rid="pgen-1003210-g006">Figure 6B</xref>). Furthermore, substitution of the VCP fragment by an unmethylatable mutant (K315R), substitution of the methyltransferase by the catalytically inactive mutant (E73Q), or even addition of AdoHcy all resulted in nearly complete inhibition of methylation.</p>
+        <fig id="pgen-1003210-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1003210.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Methylation of VCP decreases the activity of its N-terminal ATPase domain.</title>
+            <p>(A) Linear representation of a fragment of VCP encompassing its N-terminal and first ATPase domain employed in the ATPase assay. Proximity of the methylated lysine to the Walker B motif is highlighted above. (B) In vitro methylation assays of 1â481_VCP-His fragment by GST-METTL21D as compared to full length VCP. (C, D) Colorimetric assays to measure released phosphate (C) and relative ATPase activity (D) by the 1â481 fragment of VCP. The experiment was done in triplicate. Data from the last 3 time points (9 measurements in total for each condition) was compiled to generate the graph shown in (D). (E) In vitro GST pull-down assay of VCP-His with GST-METTL21D. In all experiments the effect of un methylatable VCP mutant K135R, catalytically inactive METTL21D mutant E73Q, and methylation inhibitor S-adenosylhomocysteine is shown.</p>
+          </caption>
+          <graphic xlink:href="pgen.1003210.g006"/>
+        </fig>
+        <p>We then performed the in vitro ATPase assay and found that when a wild-type VCP fragment is pre-incubated with wild type METTL21D and the methyl donor, AdoMet, a significant decrease in ATPase activity was detected as compared to three separate control reactions where either the methyltransferase is replaced by its E73Q mutant; VCP is replaced with its unmethylatable mutant (K315R); or the methyl donor is replaced with AdoHcy (<xref ref-type="fig" rid="pgen-1003210-g006">Figure 6C and 6D</xref>).</p>
+        <p>A possible interpretation of this finding is that methylation of VCP does not inhibit the ATPase activity <italic>per se</italic>, but that binding of the methyltransferase itself hinders the ATPase function. To eliminate this possibility, in vitro GST pulldowns were carried out (<xref ref-type="fig" rid="pgen-1003210-g006">Figure 6E</xref>). Although we did observe a decreased binding between methyltransferase and substrate when METTL21D is replaced by the E73Q mutant, addition of AdoHcy and mutation of VCP lysine 315 do not appear to affect the interaction when compared to wild-type METTL21D and wild-type VCP in presence of AdoMet. This result confirms the conclusion that methylation of VCP directly modulates the ATPase activity of its first ATPase domain. Additionally, these experiments were repeated with a full-length form of VCP whose second ATPase domain has been inactivated by a mutation targeting a critical residue within the Walker B motif (E578Q; <xref ref-type="supplementary-material" rid="pgen.1003210.s006">Figure S6</xref>) <xref rid="pgen.1003210-Dalal1" ref-type="bibr">[53]</xref>. Again, a decrease in ATPase activity is observed when VCP_E578Q is preincubated with METTL21D and AdoMet.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>The data presented here bring an entirely new group of protein methyltransferases into light and suggest a role for this post-translational modification in modulating chaperone function. Hsp70 isoforms have been known to be methylated both on arginine and lysine residues for quite some time <xref rid="pgen.1003210-Wang2" ref-type="bibr">[54]</xref>, <xref rid="pgen.1003210-Wang3" ref-type="bibr">[55]</xref>, but up until now the exact sites of these modifications and the enzymes responsible for them had remained elusive. The role of these modifications is also uncertain, but we speculate that they may help direct specificity of these chaperones towards substrates and cofactors. Evidence for this could be derived from the AP-MS data presented here. Indeed, METTL21A, the only known Hsp70 methyltransferase identified so far, copurified with a number of Hsp70 isoforms but few cofactors aside from Hsp110s. The closely related METTL21B also copurified with significant amounts of Hsp70 but this time appeared to be complexed with STIP1/Hsp90 or CCT chaperonin. That differential methylation by these enzymes drives Hsp70 specificity is a hypothesis that remains to be tested.</p>
+      <p>What is certain based on the results presented in this article is that the ATPase activity of another seemingly unrelated chaperone, VCP, can be modulated by METTL21D-dependent lysine trimethylation. As with Hsp70s, VCP has also been shown to be extensively modified, mostly by phosphorylation and acetylation <xref rid="pgen.1003210-Klein1" ref-type="bibr">[56]</xref>â<xref rid="pgen.1003210-MoriKonya1" ref-type="bibr">[60]</xref>. In this report, we demonstrate that methylation of the VCP requires a novel, specific methyltransferase, which in turn seems to be highly conserved throughout evolution. Indeed, tandem-affinity purification of a yeast homolog of METTL21D, Nnt1p, led to the identification of the yeast homolog of VCP, Cdc48p (<xref ref-type="supplementary-material" rid="pgen.1003210.s007">Figure S7</xref> and <xref ref-type="supplementary-material" rid="pgen.1003210.s009">Table S2</xref>), hinting at the importance of this interaction.</p>
+      <p>Strickingly, methylation of VCP is further enhanced by direct interaction of the methyltransferase with ASPSCR1, a poorly characterized VCP cofactor, and this effect appears to require the C-terminal half of ASPSCR1. Mutations in the VCP gene have been linked to autosomal dominant disorders Inclusion Body Myopathy with Paget's disease of bone and Fronto-temporal Dementia (IBMPFD) and familial Amyotrophic Lateral Sclerosis (ALS) <xref rid="pgen.1003210-Johnson1" ref-type="bibr">[47]</xref>, <xref rid="pgen.1003210-Watts1" ref-type="bibr">[48]</xref>. Most VCP mutations reside within the N-terminal domain, which has been proposed to be involved in cofactor association <xref rid="pgen.1003210-Hanzelmann1" ref-type="bibr">[49]</xref>â<xref rid="pgen.1003210-Yeung1" ref-type="bibr">[51]</xref>.</p>
+      <p>Substitutions R155H, R159G and R191Q have no impact on the in vitro methylation of the protein. However, addition of ASPSCR1 no longer appears to increase the methylation of mutant VCP as compared to the wild-type protein. This observation opens up a whole new area of investigation in understanding the molecular physiopathology of IBMPFD and familial ALS. It may therefore be of interest to assess the relative methylation of VCP in affected patients as compared to healthy individuals. Many studies were performed to define how these disease mutations affect the function of VCP. From a biochemical point of view, the most promising alteration concerned the increased ATPase activity that may reflect structural changes induced by ATP binding <xref rid="pgen.1003210-Halawani1" ref-type="bibr">[61]</xref>, <xref rid="pgen.1003210-Manno1" ref-type="bibr">[62]</xref>. Methylation of VCP by METTL21D is shown here to significantly decrease activity of the first ATPase domain of this chaperone. This modification could eventually help modulate enzymatic activity of VCP that has gone haywire due to mutation.</p>
+      <p>Our work on the KIN protein, which eventually led to the discovery of its associated methyltransferase METTL22, began when it was detected in the interactome of a number of prefoldins (see supporting data in <xref rid="pgen.1003210-Forget1" ref-type="bibr">[32]</xref>). Thus, even though KIN is not known to have chaperone activity, it still appears to interact with chaperones and potentially affect their activity. The exact function of KIN is still a matter of debate. This DNA and RNA binding protein has been assigned a role in DNA repair and/or replication <xref rid="pgen.1003210-Angulo1" ref-type="bibr">[63]</xref>â<xref rid="pgen.1003210-Miccoli1" ref-type="bibr">[66]</xref> and possibly mRNA processing as suggested by its identification in a number of proteomic analyses of the spliceosome <xref rid="pgen.1003210-Makarov1" ref-type="bibr">[67]</xref>, <xref rid="pgen.1003210-Rappsilber1" ref-type="bibr">[68]</xref>. The role of the herein identified methylation will likely go hand in hand with the function of the winged helix domain in which it resides. Interestingly, yet another winged helix-containing protein was detected in the METTL22 purification, FOXK1. In this case, the function of the winged helix is known since it is required for DNA binding of this transcription factor. If METTL22 is shown to methylate FOXK1 as it did with KIN, this may in turn point to a more complex regulation of winged helix factors.</p>
+      <p>Advances in proteomics have helped to catalog various post-translational modifications of the proteome, and it now seems evident that chaperones contain several occurrences of such modifications. Recent identification of Hsp90 methylation by lysine methyltransferase SMYD2 is further evidence of the significance of this modification in regulating chaperone function <xref rid="pgen.1003210-Donlin1" ref-type="bibr">[69]</xref>. Just like post-translational modifications of histone tails were shown to modulate binding to multiple chromatin remodeling, transcription, and mRNA processing factors, we believe that chaperone modifications may compose a similar code to help define specificity of discrete subsets to their seemingly innumerable effectors. Further decrypting this âchaperone codeâ is now required to understand how the functional organization of the proteome is orchestrated.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Generation of cell lines for expressing TAP-tagged polypeptides</title>
+        <p>Coding sequences for methyltransferases discussed in this article were obtained from the I.M.A.G.E. consortium clone library (Thermo Scientific). The corresponding cDNAs were cloned into the mammalian expression vector pMZI <xref rid="pgen.1003210-Zeghouf1" ref-type="bibr">[70]</xref> carrying a TAP tag at its C-terminus <xref rid="pgen.1003210-Puig1" ref-type="bibr">[71]</xref>, <xref rid="pgen.1003210-Rigaut1" ref-type="bibr">[72]</xref>. Stable human embryonic kidney cell lines (EcR-293; derived from HEK293) carrying these constructs were produced as described previously <xref rid="pgen.1003210-Cloutier1" ref-type="bibr">[28]</xref>, <xref rid="pgen.1003210-Jeronimo1" ref-type="bibr">[33]</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Tandem affinity purification</title>
+        <p>Induction for 48 hours with 3 ÂµM ponasterone A (Life Technologies) was used to express the TAP-tagged proteins. Whole cell extracts prepared from induced and non-induced stable EcR-293 cell lines were subjected to purification by the TAP procedure as described previously <xref rid="pgen.1003210-Cloutier1" ref-type="bibr">[28]</xref>, <xref rid="pgen.1003210-Jeronimo1" ref-type="bibr">[33]</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Protein identification by mass spectrometry</title>
+        <p>TAP eluates were desalted and concentrated on Amicon Ultra 10K centrifugal filter units (Millipore) and resolved on NuPAGE 4â12% Bis-Tris Gel (Life Technologies). The gels were silver-stained, and the entirety of the tracks where the eluates had migrated were cut in about 20 slices that were subsequently digested with trypsin as described previously <xref rid="pgen.1003210-Cloutier1" ref-type="bibr">[28]</xref>, <xref rid="pgen.1003210-Jeronimo1" ref-type="bibr">[33]</xref>. The resulting tryptic peptides were purified and identified by LC-tandem mass spectrometry (MS/MS) using a microcapillary reversed-phase high pressure liquid chromatography coupled to a LTQ Orbitrap (ThermoElectron) mass spectrometer with a nanospray interface. The peak list files were generated with extract_msn.exe (version February 15, 2005) using the following parameters: minimum mass set to 600 Da, maximum mass set to 6000 Da, no grouping of MS/MS spectra, precursor charge set to auto, and minimum number of fragment ions set to 10. Protein database searching was performed with Mascot 2.3 (Matrix Science) against the human NCBInr protein database (version April 2, 2009). There are 10,427,007 sequences in this database. The mass tolerances for precursor and fragment ions were set to 10 ppm and 0.6 Da, respectively. Trypsin was used as the enzyme allowing for up to two missed cleavages. Carbamidomethyl, oxidation of methionine, mono-, di-, and trimethylation of lysine were allowed as variable modifications. In cases where multiple gene products were identified from the same peptide set, all were unambiguously removed from the data set. In the case of multiple isoforms stemming from a unique gene, the isoform with the best sequence coverage was reported. Proteins identified on the basis of a single peptide were also discarded.</p>
+        <p>Reliability assessment of protein-protein interactions was performed by our previously published software Decontaminator <xref rid="pgen.1003210-LavalleeAdam1" ref-type="bibr">[73]</xref>. A set of 17 pairs of matched non-induced bait expression (control) and induced bait expression vectors was used for the algorithm training. Those were chosen on the basis of the absence of leaky expression of the tagged protein in the non-induced experiments. Decontaminator builds Bayesian probabilistic models of the Mascot scores <xref rid="pgen.1003210-Perkins1" ref-type="bibr">[74]</xref> for each protein observed in the training set. It then assigns a p-value to each bait-prey interaction by computing the significance of the observed prey Mascot score compared to its corresponding control Mascot score model. A False Discovery Rate (FDR) is then calculated for each protein-protein interactions in the dataset using a leave-one-out scheme. All interactions with a FDR below 10% were reported as bait-specific, resulting in a dataset of 234 interactions. In other words, less than 24 interactions are expected to be the consequence of contamination.</p>
+      </sec>
+      <sec id="s4d">
+        <title>In vitro methylation assay</title>
+        <p>The protocol was slightly modified from Inamitsu et al. <xref rid="pgen.1003210-Inamitsu1" ref-type="bibr">[75]</xref>. Coding sequences of methyltransferases were cloned into pGEX-4-T1 vector (GE Healthcare). Coding sequences of putative methylation substrates were cloned into pET-23a(+) vector (EMD Chemicals). All vectors were transformed in One Shot BL21 Star (DE3) (Life Technologies), and protein synthesis was induced with IPTG. Bacteria were harvested by centrifugation, and pellets were lysed with the use of an IEC French Press (Thermo Scientific). The resulting GST- and 6xHis-fusion proteins were purified using Glutathione Sepharose 4B (GE Healthcare) and Ni-NTA Agarose (QIAGEN) beads, respectively, according to the manufacturers' specifications. In each reaction described in this article, 1 Âµg of GST-tagged methyltransferase was incubated with 2.5 Âµg His-tagged substrate and 5 ÂµCi of S-[methyl-<sup>3</sup>H]-Adenosyl-L-methionine (81.7 Ci/mmol; PerkinElmer) in 50 Âµl of PBS for 90 min at 37Â°C. The samples were resolved on 10% acrylamide gels that were stained with Coomassie to show total amounts of proteins. Gels were then treated with EN<sup>3</sup>HANCE (PerkinElmer) according to the manufacturer's specifications. Tritium-based methylation signals were detected by autoradiography with four hours of exposure on Amersham Hyperfilm MP (GE Healthcare) at â80Â°C. Alternatively, an assay was produced with unlabeled S-adenosyl-L-methionine that was resolved on NuPAGE 4â12% Bis-Tris Gel (Life Technologies) and Coomassie stained. The bands corresponding to the His-tagged substrates were excised, trypsin digested, and analyzed as described above.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Immunofluorescence</title>
+        <p>HeLa S3 (CCL-2.2 ATCC) cells were grown on Lab-Tek II chamber slides (Nalge Nunc) and co-transfected with FLAG and GFP expressing vectors (p3XFLAG-CMV-14 and pGFP2-N1; Sigma-Aldrich &amp; PerkinElmer Life Sciences, respectively) using Lipofectamine 2000 according to the manufacturer's specifications (Life Technologies). Twenty-four hours following transfection, cells were fixed with 3.7% formaldehyde in Phosphate-Buffered Saline (PBS) and permeabilized with 0.3% Triton X-100 PBS. Slides were then fixed in 5% donkey serum PBS for 1 hour, incubated with 1â¶200 monoclonal FLAG antibody (M2; Sigma-Aldrich) in 5% donkey serum PBS for 90 min, and then incubated for an additional hour with 1â¶50 Cy3-conjugated donkey anti-mouse IgG secondary antibody (Jackson ImmunoResearch) in 5% donkey serum PBS. Slides were washed three times with PBS for 5 min after each step. DNA was stained with TO-PRO-3 (Molecular Probes). Slides were mounted using ProLong Gold antifade reagent (Life Technologies). Images were acquired with an LSM 700 confocal laser scanning microscope at 63Ã magnification and analyzed using ZEN 2010 software (Zeiss, Toronto, Canada).</p>
+      </sec>
+      <sec id="s4f">
+        <title>In vitro GST pull-down assay</title>
+        <p>The assay was based on the protocol described in Zwijsen et al. <xref rid="pgen.1003210-Zwijsen1" ref-type="bibr">[76]</xref>. Briefly, 500 ng of GST-tagged METTL21D was incubated for 1 hour at 4Â°C with 100 ng of His-tagged VCP, ASPSCR1 or UBXN6, and 25 Âµl Glutathione Sepharose 4B beads (GE Healthcare) in 1 ml of binding buffer (50 mM NaCl, 50 mM HEPES-KOH pH 7.6, 0.1% NP-40, 0.5% charcoal-stripped FBS) complemented with complete EDTA-free protease inhibitor cocktail (Roche). The beads were washed three times by centrifugation with the same buffer and the bound proteins were eluted by boiling for 5 min in sample buffer, and separated on NuPAGE 4â12% Bis-Tris Gel (Life Technologies). Binding of His-tagged proteins was detected by Western blot analysis using mouse monoclonal anti-6X His tag-antibody (abcam). A second blot was made with rabbit polyclonal anti-GST antibody (abcam) to ensure that comparable amounts of GST-tagged baits were purified by the pull-down.</p>
+      </sec>
+      <sec id="s4g">
+        <title>ATPase assay</title>
+        <p>PiColorLock Gold Phosphate Detection System (Innova Biosciences) was used to quantify ATPase activity in vitro. Three micrograms of a His-tagged fragment corresponding to the first 481 residues of VCP were incubated beforehand with 2 Âµg of GST-METTL21D and 0.5 mM S-adenosyl-L-methionine for 30 min at 37Â°C in 100 Âµl of 0.1 M Tris pH 7.5. All assays were performed in triplicate. Independent experiments were carried out where the VCP fragment was replaced by an unmethylatable mutant (K315R); the methyltransferase was replaced by a catalytically inactive mutant (E73Q); or the methyl donor, S-adenosyl-L-methionine, was replaced by a methylation inhibitor, S-adenosyl-L-homocysteine. The rest of the protocol followed the guidelines provided by the manufacturer.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Phylogenetic analysis</title>
+        <p>All available ortholog sequences of PRMTs and of the family of 10 putative methyltransferases in the UniProt database <xref rid="pgen.1003210-Apweiler1" ref-type="bibr">[77]</xref> were aligned using the ClustalW2 multiple sequence alignment software (version 2.0.12) <xref rid="pgen.1003210-Larkin1" ref-type="bibr">[78]</xref>. The most conserved region of the alignment was then selected to build an unrooted phylogenetic tree through the Jalview software <xref rid="pgen.1003210-Waterhouse1" ref-type="bibr">[79]</xref> using the neighbor-joining algorithm <xref rid="pgen.1003210-Saitou1" ref-type="bibr">[80]</xref> with the BLOSUM62 substitution matrix <xref rid="pgen.1003210-Henikoff1" ref-type="bibr">[81]</xref>. Orthologs forming monophyletic groups with their respective human sequences were collapsed to a single node in the phylogenetic tree shown in <xref ref-type="fig" rid="pgen-1003210-g001">Figure 1A</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>Jalview visualization of the multiple sequence alignment of all available ortholog sequences of PRMTs and of the family of 10 putative methyltransferases in the UniProt database. The most conserved region of the alignment selected for phylogenetic analysis is delimited in red. Sequence names are in the following format: human ortholog protein name, tr: TrEMBL or sp: SWISS-PROT database, UniProt entry, UniProt entry name.</p>
+          <p>(PNG)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s001.png">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>Phylogenetic tree generated by Jalview of all available ortholog sequences of PRMTs and of the family of 10 putative methyltransferases in the UniProt database. Tree node labels are in the following format: Human ortholog protein name, tr: TrEMBL or sp: SWISS-PROT database, UniProt entry, UniProt entry name.</p>
+          <p>(PNG)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s002.png">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Annotated spectra for methylated peptides identified from TAP eluates of methyltransferases.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>Annotated spectra for methylated peptides identified from in vitro methylation reactions.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>In vitro methylation of a mix of histones (H2A, H2B, H3, H4) with every putative methyltransferase discussed in this paper. PRMT6 serves as a positive control.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s005.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>ATPase assay using a form of VCP bearing a catalytically inactivating mutation in its second ATPase domain. All experiments were done in same conditions as in <xref ref-type="fig" rid="pgen-1003210-g006">Figure 6</xref>. (A) Linear representation of VCP showing domain architecture of the protein and localization of methylation site as well as E578Q mutation employed to inactivate the second ATPase/D2 domain. (B) In vitro methylation assays of VCP_E578Q-His by GST-METTL21D as compared to wild-type VCP. Colorimetric assays to measure released phosphate (C) and relative ATPase activity (D) of VCP_E578Q. The experiment was done in triplicate. Data from the last 3 time points (9 measurements in total for each condition) was compiled to generate the graph shown in (D). (E) In vitro GST pull-down assay of VCP-His with GST-METTL21D. In all experiments the effect of VCP mutants K135R and K315A, METTL21D mutant E73Q, and S-adenosylhomocysteine is shown.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s006.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s007">
+        <label>Figure S7</label>
+        <caption>
+          <p>Purification of TAP-tagged NNT1 from a constitutively expressing yeast strain as compared to untransformed wild-type strain BY4741. Tagged baits and major interactors are marked.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s007.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s008">
+        <label>Table S1</label>
+        <caption>
+          <p>Detailed mass spectrometry data and FDR scores for a selection of protein interactions identified in the purification of human TAP-tagged putative methyltransferases.</p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s008.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1003210.s009">
+        <label>Table S2</label>
+        <caption>
+          <p>Detailed mass spectrometry data for protein interactions detected in the purification of <italic>Saccharomyces cerevisiae</italic> TAP-tagged NNT1. Positive hits were identified on the basis of a comparison with control strain BY4741.</p>
+          <p>(XLS)</p>
+        </caption>
+        <media xlink:href="pgen.1003210.s009.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to the members of our laboratory for helpful discussions and comments, in particular Dr. JoÃ«lle PÃ©russe for her careful and critical reading of the manuscript. We extend our gratitude to the staff of the IRCM proteomics discovery platform, JosÃ©e Champagne, Marguerite Boulos, and Sylvain Tessier, for the analysis of the mass spectrometry data and identification of methylated peptides. We also would like to thank Drs. Jaime Angulo-Mora and Laurent Miccoli for having shared information and various compounds that aided the progression of experiments in regards to KIN/Kin17.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pgen.1003210-Martin1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Martin</surname><given-names>JL</given-names></name>, <name><surname>McMillan</surname><given-names>FM</given-names></name> (<year>2002</year>) <article-title>SAM (dependent) I AM: the S-adenosylmethionine-dependent methyltransferase fold</article-title>. <source>Curr Opin Struct Biol</source>
+<volume>12</volume>: <fpage>783</fpage>â<lpage>793</lpage>.<pub-id pub-id-type="pmid">12504684</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Petrossian1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Petrossian</surname><given-names>TC</given-names></name>, <name><surname>Clarke</surname><given-names>SG</given-names></name> (<year>2011</year>) <article-title>Uncovering the human methyltransferasome</article-title>. <source>Mol Cell Proteomics</source>
+<volume>10</volume>: <fpage>M110 000976</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Schubert1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Schubert</surname><given-names>HL</given-names></name>, <name><surname>Blumenthal</surname><given-names>RM</given-names></name>, <name><surname>Cheng</surname><given-names>X</given-names></name> (<year>2003</year>) <article-title>Many paths to methyltransfer: a chronicle of convergence</article-title>. <source>Trends Biochem Sci</source>
+<volume>28</volume>: <fpage>329</fpage>â<lpage>335</lpage>.<pub-id pub-id-type="pmid">12826405</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Ishizawa1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ishizawa</surname><given-names>T</given-names></name>, <name><surname>Nozaki</surname><given-names>Y</given-names></name>, <name><surname>Ueda</surname><given-names>T</given-names></name>, <name><surname>Takeuchi</surname><given-names>N</given-names></name> (<year>2008</year>) <article-title>The human mitochondrial translation release factor HMRF1L is methylated in the GGQ motif by the methyltransferase HMPrmC</article-title>. <source>Biochem Biophys Res Commun</source>
+<volume>373</volume>: <fpage>99</fpage>â<lpage>103</lpage>.<pub-id pub-id-type="pmid">18541145</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Klotz1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Klotz</surname><given-names>AV</given-names></name>, <name><surname>Leary</surname><given-names>JA</given-names></name>, <name><surname>Glazer</surname><given-names>AN</given-names></name> (<year>1986</year>) <article-title>Post-translational methylation of asparaginyl residues. Identification of beta-71 gamma-N-methylasparagine in allophycocyanin</article-title>. <source>J Biol Chem</source>
+<volume>261</volume>: <fpage>15891</fpage>â<lpage>15894</lpage>.<pub-id pub-id-type="pmid">3782095</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Webb1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Webb</surname><given-names>KJ</given-names></name>, <name><surname>Zurita-Lopez</surname><given-names>CI</given-names></name>, <name><surname>Al-Hadid</surname><given-names>Q</given-names></name>, <name><surname>Laganowsky</surname><given-names>A</given-names></name>, <name><surname>Young</surname><given-names>BD</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>A novel 3-methylhistidine modification of yeast ribosomal protein Rpl3 is dependent upon the YIL110W methyltransferase</article-title>. <source>J Biol Chem</source>
+<volume>285</volume>: <fpage>37598</fpage>â<lpage>37606</lpage>.<pub-id pub-id-type="pmid">20864530</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Pegg1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pegg</surname><given-names>AE</given-names></name> (<year>1990</year>) <article-title>Mammalian O6-alkylguanine-DNA alkyltransferase: regulation and importance in response to alkylating carcinogenic and therapeutic agents</article-title>. <source>Cancer Res</source>
+<volume>50</volume>: <fpage>6119</fpage>â<lpage>6129</lpage>.<pub-id pub-id-type="pmid">2205376</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Sprung1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sprung</surname><given-names>R</given-names></name>, <name><surname>Chen</surname><given-names>Y</given-names></name>, <name><surname>Zhang</surname><given-names>K</given-names></name>, <name><surname>Cheng</surname><given-names>D</given-names></name>, <name><surname>Zhang</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Identification and validation of eukaryotic aspartate and glutamate methylation in proteins</article-title>. <source>J Proteome Res</source>
+<volume>7</volume>: <fpage>1001</fpage>â<lpage>1006</lpage>.<pub-id pub-id-type="pmid">18220335</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Clarke1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Clarke</surname><given-names>S</given-names></name> (<year>1992</year>) <article-title>Protein isoprenylation and methylation at carboxyl-terminal cysteine residues</article-title>. <source>Annu Rev Biochem</source>
+<volume>61</volume>: <fpage>355</fpage>â<lpage>386</lpage>.<pub-id pub-id-type="pmid">1497315</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Tooley1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tooley</surname><given-names>CE</given-names></name>, <name><surname>Petkowski</surname><given-names>JJ</given-names></name>, <name><surname>Muratore-Schroeder</surname><given-names>TL</given-names></name>, <name><surname>Balsbaugh</surname><given-names>JL</given-names></name>, <name><surname>Shabanowitz</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>NRMT is an alpha-N-methyltransferase that methylates RCC1 and retinoblastoma protein</article-title>. <source>Nature</source>
+<volume>466</volume>: <fpage>1125</fpage>â<lpage>1128</lpage>.<pub-id pub-id-type="pmid">20668449</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Wu1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wu</surname><given-names>J</given-names></name>, <name><surname>Tolstykh</surname><given-names>T</given-names></name>, <name><surname>Lee</surname><given-names>J</given-names></name>, <name><surname>Boyd</surname><given-names>K</given-names></name>, <name><surname>Stock</surname><given-names>JB</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Carboxyl methylation of the phosphoprotein phosphatase 2A catalytic subunit promotes its functional association with regulatory subunits in vivo</article-title>. <source>Embo J</source>
+<volume>19</volume>: <fpage>5672</fpage>â<lpage>5681</lpage>.<pub-id pub-id-type="pmid">11060018</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Feng1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Feng</surname><given-names>Q</given-names></name>, <name><surname>Wang</surname><given-names>H</given-names></name>, <name><surname>Ng</surname><given-names>HH</given-names></name>, <name><surname>Erdjument-Bromage</surname><given-names>H</given-names></name>, <name><surname>Tempst</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Methylation of H3-lysine 79 is mediated by a new family of HMTases without a SET domain</article-title>. <source>Curr Biol</source>
+<volume>12</volume>: <fpage>1052</fpage>â<lpage>1058</lpage>.<pub-id pub-id-type="pmid">12123582</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Martin2">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Martin</surname><given-names>C</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name> (<year>2005</year>) <article-title>The diverse functions of histone lysine methylation</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>6</volume>: <fpage>838</fpage>â<lpage>849</lpage>.<pub-id pub-id-type="pmid">16261189</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Volkel1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Volkel</surname><given-names>P</given-names></name>, <name><surname>Angrand</surname><given-names>PO</given-names></name> (<year>2007</year>) <article-title>The control of histone lysine methylation in epigenetic regulation</article-title>. <source>Biochimie</source>
+<volume>89</volume>: <fpage>1</fpage>â<lpage>20</lpage>.<pub-id pub-id-type="pmid">16919862</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Barski1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Barski</surname><given-names>A</given-names></name>, <name><surname>Cuddapah</surname><given-names>S</given-names></name>, <name><surname>Cui</surname><given-names>K</given-names></name>, <name><surname>Roh</surname><given-names>TY</given-names></name>, <name><surname>Schones</surname><given-names>DE</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>High-resolution profiling of histone methylations in the human genome</article-title>. <source>Cell</source>
+<volume>129</volume>: <fpage>823</fpage>â<lpage>837</lpage>.<pub-id pub-id-type="pmid">17512414</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Koch1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Koch</surname><given-names>CM</given-names></name>, <name><surname>Andrews</surname><given-names>RM</given-names></name>, <name><surname>Flicek</surname><given-names>P</given-names></name>, <name><surname>Dillon</surname><given-names>SC</given-names></name>, <name><surname>Karaoz</surname><given-names>U</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>The landscape of histone modifications across 1% of the human genome in five human cell lines</article-title>. <source>Genome Res</source>
+<volume>17</volume>: <fpage>691</fpage>â<lpage>707</lpage>.<pub-id pub-id-type="pmid">17567990</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Rosenfeld1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rosenfeld</surname><given-names>JA</given-names></name>, <name><surname>Wang</surname><given-names>Z</given-names></name>, <name><surname>Schones</surname><given-names>DE</given-names></name>, <name><surname>Zhao</surname><given-names>K</given-names></name>, <name><surname>DeSalle</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Determination of enriched histone modifications in non-genic portions of the human genome</article-title>. <source>BMC Genomics</source>
+<volume>10</volume>: <fpage>143</fpage>.<pub-id pub-id-type="pmid">19335899</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Chuikov1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Chuikov</surname><given-names>S</given-names></name>, <name><surname>Kurash</surname><given-names>JK</given-names></name>, <name><surname>Wilson</surname><given-names>JR</given-names></name>, <name><surname>Xiao</surname><given-names>B</given-names></name>, <name><surname>Justin</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Regulation of p53 activity through lysine methylation</article-title>. <source>Nature</source>
+<volume>432</volume>: <fpage>353</fpage>â<lpage>360</lpage>.<pub-id pub-id-type="pmid">15525938</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Houtz1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Houtz</surname><given-names>RL</given-names></name>, <name><surname>Stults</surname><given-names>JT</given-names></name>, <name><surname>Mulligan</surname><given-names>RM</given-names></name>, <name><surname>Tolbert</surname><given-names>NE</given-names></name> (<year>1989</year>) <article-title>Post-translational modifications in the large subunit of ribulose bisphosphate carboxylase/oxygenase</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>86</volume>: <fpage>1855</fpage>â<lpage>1859</lpage>.<pub-id pub-id-type="pmid">2928307</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Huang1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Huang</surname><given-names>J</given-names></name>, <name><surname>Perez-Burgos</surname><given-names>L</given-names></name>, <name><surname>Placek</surname><given-names>BJ</given-names></name>, <name><surname>Sengupta</surname><given-names>R</given-names></name>, <name><surname>Richter</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Repression of p53 activity by Smyd2-mediated methylation</article-title>. <source>Nature</source>
+<volume>444</volume>: <fpage>629</fpage>â<lpage>632</lpage>.<pub-id pub-id-type="pmid">17108971</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Kruiswijk1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kruiswijk</surname><given-names>T</given-names></name>, <name><surname>Kunst</surname><given-names>A</given-names></name>, <name><surname>Planta</surname><given-names>RJ</given-names></name>, <name><surname>Mager</surname><given-names>WH</given-names></name> (<year>1978</year>) <article-title>Modification of yeast ribosomal proteins. Methylation</article-title>. <source>Biochem J</source>
+<volume>175</volume>: <fpage>221</fpage>â<lpage>225</lpage>.<pub-id pub-id-type="pmid">367366</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Lee1">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lee</surname><given-names>SW</given-names></name>, <name><surname>Berger</surname><given-names>SJ</given-names></name>, <name><surname>Martinovic</surname><given-names>S</given-names></name>, <name><surname>Pasa-Tolic</surname><given-names>L</given-names></name>, <name><surname>Anderson</surname><given-names>GA</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Direct mass spectrometric analysis of intact proteins of the yeast large ribosomal subunit using capillary LC/FTICR</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>99</volume>: <fpage>5942</fpage>â<lpage>5947</lpage>.<pub-id pub-id-type="pmid">11983894</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Levy1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Levy</surname><given-names>D</given-names></name>, <name><surname>Kuo</surname><given-names>AJ</given-names></name>, <name><surname>Chang</surname><given-names>Y</given-names></name>, <name><surname>Schaefer</surname><given-names>U</given-names></name>, <name><surname>Kitson</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Lysine methylation of the NF-kappaB subunit RelA by SETD6 couples activity of the histone methyltransferase GLP at chromatin to tonic repression of NF-kappaB signaling</article-title>. <source>Nat Immunol</source>
+<volume>12</volume>: <fpage>29</fpage>â<lpage>36</lpage>.<pub-id pub-id-type="pmid">21131967</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Lhoest1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lhoest</surname><given-names>J</given-names></name>, <name><surname>Lobet</surname><given-names>Y</given-names></name>, <name><surname>Costers</surname><given-names>E</given-names></name>, <name><surname>Colson</surname><given-names>C</given-names></name> (<year>1984</year>) <article-title>Methylated proteins and amino acids in the ribosomes of Saccharomyces cerevisiae</article-title>. <source>Eur J Biochem</source>
+<volume>141</volume>: <fpage>585</fpage>â<lpage>590</lpage>.<pub-id pub-id-type="pmid">6378633</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Morino1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Morino</surname><given-names>H</given-names></name>, <name><surname>Kawamoto</surname><given-names>T</given-names></name>, <name><surname>Miyake</surname><given-names>M</given-names></name>, <name><surname>Kakimoto</surname><given-names>Y</given-names></name> (<year>1987</year>) <article-title>Purification and properties of calmodulin-lysine N-methyltransferase from rat brain cytosol</article-title>. <source>J Neurochem</source>
+<volume>48</volume>: <fpage>1201</fpage>â<lpage>1208</lpage>.<pub-id pub-id-type="pmid">3102693</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Polevoda1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Polevoda</surname><given-names>B</given-names></name>, <name><surname>Martzen</surname><given-names>MR</given-names></name>, <name><surname>Das</surname><given-names>B</given-names></name>, <name><surname>Phizicky</surname><given-names>EM</given-names></name>, <name><surname>Sherman</surname><given-names>F</given-names></name> (<year>2000</year>) <article-title>Cytochrome c methyltransferase, Ctm1p, of yeast</article-title>. <source>J Biol Chem</source>
+<volume>275</volume>: <fpage>20508</fpage>â<lpage>20513</lpage>.<pub-id pub-id-type="pmid">10791961</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Yang1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yang</surname><given-names>XD</given-names></name>, <name><surname>Huang</surname><given-names>B</given-names></name>, <name><surname>Li</surname><given-names>M</given-names></name>, <name><surname>Lamb</surname><given-names>A</given-names></name>, <name><surname>Kelleher</surname><given-names>NL</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Negative regulation of NF-kappaB action by Set9-mediated lysine methylation of the RelA subunit</article-title>. <source>Embo J</source>
+<volume>28</volume>: <fpage>1055</fpage>â<lpage>1066</lpage>.<pub-id pub-id-type="pmid">19262565</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Cloutier1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cloutier</surname><given-names>P</given-names></name>, <name><surname>Al-Khoury</surname><given-names>R</given-names></name>, <name><surname>Lavallee-Adam</surname><given-names>M</given-names></name>, <name><surname>Faubert</surname><given-names>D</given-names></name>, <name><surname>Jiang</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>High-resolution mapping of the protein interaction network for the human transcription machinery and affinity purification of RNA polymerase II-associated complexes</article-title>. <source>Methods</source>
+<volume>48</volume>: <fpage>381</fpage>â<lpage>386</lpage>.<pub-id pub-id-type="pmid">19450687</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Cloutier2">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cloutier</surname><given-names>P</given-names></name>, <name><surname>Coulombe</surname><given-names>B</given-names></name> (<year>2010</year>) <article-title>New insights into the biogenesis of nuclear RNA polymerases?</article-title>
+<source>Biochem Cell Biol</source>
+<volume>88</volume>: <fpage>211</fpage>â<lpage>221</lpage>.<pub-id pub-id-type="pmid">20453924</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Cojocaru1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cojocaru</surname><given-names>M</given-names></name>, <name><surname>Bouchard</surname><given-names>A</given-names></name>, <name><surname>Cloutier</surname><given-names>P</given-names></name>, <name><surname>Cooper</surname><given-names>JJ</given-names></name>, <name><surname>Varzavand</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Transcription factor IIS cooperates with the E3 ligase UBR5 to ubiquitinate the CDK9 subunit of the positive transcription elongation factor B</article-title>. <source>J Biol Chem</source>
+<volume>286</volume>: <fpage>5012</fpage>â<lpage>5022</lpage>.<pub-id pub-id-type="pmid">21127351</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Coulombe1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Coulombe</surname><given-names>B</given-names></name>, <name><surname>Blanchette</surname><given-names>M</given-names></name>, <name><surname>Jeronimo</surname><given-names>C</given-names></name> (<year>2008</year>) <article-title>Steps towards a repertoire of comprehensive maps of human protein interaction networks: the Human Proteotheque Initiative (HuPI)</article-title>. <source>Biochem Cell Biol</source>
+<volume>86</volume>: <fpage>149</fpage>â<lpage>156</lpage>.<pub-id pub-id-type="pmid">18443628</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Forget1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Forget</surname><given-names>D</given-names></name>, <name><surname>Lacombe</surname><given-names>AA</given-names></name>, <name><surname>Cloutier</surname><given-names>P</given-names></name>, <name><surname>Al-Khoury</surname><given-names>R</given-names></name>, <name><surname>Bouchard</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The protein interaction network of the human transcription machinery reveals a role for the conserved GTPase RPAP4/GPN1 and microtubule assembly in nuclear import and biogenesis of RNA polymerase II</article-title>. <source>Mol Cell Proteomics</source>
+<volume>9</volume>: <fpage>2827</fpage>â<lpage>2839</lpage>.<pub-id pub-id-type="pmid">20855544</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Jeronimo1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jeronimo</surname><given-names>C</given-names></name>, <name><surname>Forget</surname><given-names>D</given-names></name>, <name><surname>Bouchard</surname><given-names>A</given-names></name>, <name><surname>Li</surname><given-names>Q</given-names></name>, <name><surname>Chua</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Systematic analysis of the protein interaction network for the human transcription machinery reveals the identity of the 7SK capping enzyme</article-title>. <source>Mol Cell</source>
+<volume>27</volume>: <fpage>262</fpage>â<lpage>274</lpage>.<pub-id pub-id-type="pmid">17643375</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Jeronimo2">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jeronimo</surname><given-names>C</given-names></name>, <name><surname>Langelier</surname><given-names>MF</given-names></name>, <name><surname>Zeghouf</surname><given-names>M</given-names></name>, <name><surname>Cojocaru</surname><given-names>M</given-names></name>, <name><surname>Bergeron</surname><given-names>D</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>RPAP1, a novel human RNA polymerase II-associated protein affinity purified with recombinant wild-type and mutated polymerase subunits</article-title>. <source>Mol Cell Biol</source>
+<volume>24</volume>: <fpage>7043</fpage>â<lpage>7058</lpage>.<pub-id pub-id-type="pmid">15282305</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Krueger1">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Krueger</surname><given-names>BJ</given-names></name>, <name><surname>Jeronimo</surname><given-names>C</given-names></name>, <name><surname>Roy</surname><given-names>BB</given-names></name>, <name><surname>Bouchard</surname><given-names>A</given-names></name>, <name><surname>Barrandon</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>LARP7 is a stable component of the 7SK snRNP while P-TEFb, HEXIM1 and hnRNP A1 are reversibly associated</article-title>. <source>Nucleic Acids Res</source>
+<volume>36</volume>: <fpage>2219</fpage>â<lpage>2229</lpage>.<pub-id pub-id-type="pmid">18281698</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Bays1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bays</surname><given-names>NW</given-names></name>, <name><surname>Wilhovsky</surname><given-names>SK</given-names></name>, <name><surname>Goradia</surname><given-names>A</given-names></name>, <name><surname>Hodgkiss-Harlow</surname><given-names>K</given-names></name>, <name><surname>Hampton</surname><given-names>RY</given-names></name> (<year>2001</year>) <article-title>HRD4/NPL4 is required for the proteasomal processing of ubiquitinated ER proteins</article-title>. <source>Mol Biol Cell</source>
+<volume>12</volume>: <fpage>4114</fpage>â<lpage>4128</lpage>.<pub-id pub-id-type="pmid">11739805</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Braun1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Braun</surname><given-names>S</given-names></name>, <name><surname>Matuschewski</surname><given-names>K</given-names></name>, <name><surname>Rape</surname><given-names>M</given-names></name>, <name><surname>Thoms</surname><given-names>S</given-names></name>, <name><surname>Jentsch</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>Role of the ubiquitin-selective CDC48(UFD1/NPL4)chaperone (segregase) in ERAD of OLE1 and other substrates</article-title>. <source>Embo J</source>
+<volume>21</volume>: <fpage>615</fpage>â<lpage>621</lpage>.<pub-id pub-id-type="pmid">11847109</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Jarosch1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jarosch</surname><given-names>E</given-names></name>, <name><surname>Taxis</surname><given-names>C</given-names></name>, <name><surname>Volkwein</surname><given-names>C</given-names></name>, <name><surname>Bordallo</surname><given-names>J</given-names></name>, <name><surname>Finley</surname><given-names>D</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Protein dislocation from the ER requires polyubiquitination and the AAA-ATPase Cdc48</article-title>. <source>Nat Cell Biol</source>
+<volume>4</volume>: <fpage>134</fpage>â<lpage>139</lpage>.<pub-id pub-id-type="pmid">11813000</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Rabinovich1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rabinovich</surname><given-names>E</given-names></name>, <name><surname>Kerem</surname><given-names>A</given-names></name>, <name><surname>Frohlich</surname><given-names>KU</given-names></name>, <name><surname>Diamant</surname><given-names>N</given-names></name>, <name><surname>Bar-Nun</surname><given-names>S</given-names></name> (<year>2002</year>) <article-title>AAA-ATPase p97/Cdc48p, a cytosolic chaperone required for endoplasmic reticulum-associated protein degradation</article-title>. <source>Mol Cell Biol</source>
+<volume>22</volume>: <fpage>626</fpage>â<lpage>634</lpage>.<pub-id pub-id-type="pmid">11756557</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Ye1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ye</surname><given-names>Y</given-names></name>, <name><surname>Meyer</surname><given-names>HH</given-names></name>, <name><surname>Rapoport</surname><given-names>TA</given-names></name> (<year>2001</year>) <article-title>The AAA ATPase Cdc48/p97 and its partners transport proteins from the ER into the cytosol</article-title>. <source>Nature</source>
+<volume>414</volume>: <fpage>652</fpage>â<lpage>656</lpage>.<pub-id pub-id-type="pmid">11740563</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Iouk1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Iouk</surname><given-names>TL</given-names></name>, <name><surname>Aitchison</surname><given-names>JD</given-names></name>, <name><surname>Maguire</surname><given-names>S</given-names></name>, <name><surname>Wozniak</surname><given-names>RW</given-names></name> (<year>2001</year>) <article-title>Rrb1p, a yeast nuclear WD-repeat protein involved in the regulation of ribosome biosynthesis</article-title>. <source>Mol Cell Biol</source>
+<volume>21</volume>: <fpage>1260</fpage>â<lpage>1271</lpage>.<pub-id pub-id-type="pmid">11158312</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Magnani1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Magnani</surname><given-names>R</given-names></name>, <name><surname>Dirk</surname><given-names>LM</given-names></name>, <name><surname>Trievel</surname><given-names>RC</given-names></name>, <name><surname>Houtz</surname><given-names>RL</given-names></name> (<year>2010</year>) <article-title>Calmodulin methyltransferase is an evolutionarily conserved enzyme that trimethylates Lys-115 in calmodulin</article-title>. <source>Nat Commun</source>
+<volume>1</volume>: <fpage>43</fpage>.<pub-id pub-id-type="pmid">20975703</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Zhang1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>K</given-names></name>, <name><surname>Yau</surname><given-names>PM</given-names></name>, <name><surname>Chandrasekhar</surname><given-names>B</given-names></name>, <name><surname>New</surname><given-names>R</given-names></name>, <name><surname>Kondrat</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Differentiation between peptides containing acetylated or tri-methylated lysines by mass spectrometry: an application for determining lysine 9 acetylation and methylation of histone H3</article-title>. <source>Proteomics</source>
+<volume>4</volume>: <fpage>1</fpage>â<lpage>10</lpage>.<pub-id pub-id-type="pmid">14730666</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Meister1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Meister</surname><given-names>G</given-names></name>, <name><surname>Eggert</surname><given-names>C</given-names></name>, <name><surname>Buhler</surname><given-names>D</given-names></name>, <name><surname>Brahms</surname><given-names>H</given-names></name>, <name><surname>Kambach</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>Methylation of Sm proteins by a complex containing PRMT5 and the putative U snRNP assembly factor pICln</article-title>. <source>Curr Biol</source>
+<volume>11</volume>: <fpage>1990</fpage>â<lpage>1994</lpage>.<pub-id pub-id-type="pmid">11747828</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Alexandru1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Alexandru</surname><given-names>G</given-names></name>, <name><surname>Graumann</surname><given-names>J</given-names></name>, <name><surname>Smith</surname><given-names>GT</given-names></name>, <name><surname>Kolawa</surname><given-names>NJ</given-names></name>, <name><surname>Fang</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>UBXD7 binds multiple ubiquitin ligases and implicates p97 in HIF1alpha turnover</article-title>. <source>Cell</source>
+<volume>134</volume>: <fpage>804</fpage>â<lpage>816</lpage>.<pub-id pub-id-type="pmid">18775313</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Orme1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Orme</surname><given-names>CM</given-names></name>, <name><surname>Bogan</surname><given-names>JS</given-names></name> (<year>2012</year>) <article-title>The ubiquitin regulatory X (UBX) domain-containing protein TUG regulates the p97 ATPase and resides at the endoplasmic reticulum-golgi intermediate compartment</article-title>. <source>J Biol Chem</source>
+<volume>287</volume>: <fpage>6679</fpage>â<lpage>6692</lpage>.<pub-id pub-id-type="pmid">22207755</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Johnson1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Johnson</surname><given-names>JO</given-names></name>, <name><surname>Mandrioli</surname><given-names>J</given-names></name>, <name><surname>Benatar</surname><given-names>M</given-names></name>, <name><surname>Abramzon</surname><given-names>Y</given-names></name>, <name><surname>Van Deerlin</surname><given-names>VM</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Exome sequencing reveals VCP mutations as a cause of familial ALS</article-title>. <source>Neuron</source>
+<volume>68</volume>: <fpage>857</fpage>â<lpage>864</lpage>.<pub-id pub-id-type="pmid">21145000</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Watts1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Watts</surname><given-names>GD</given-names></name>, <name><surname>Wymer</surname><given-names>J</given-names></name>, <name><surname>Kovach</surname><given-names>MJ</given-names></name>, <name><surname>Mehta</surname><given-names>SG</given-names></name>, <name><surname>Mumm</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Inclusion body myopathy associated with Paget disease of bone and frontotemporal dementia is caused by mutant valosin-containing protein</article-title>. <source>Nat Genet</source>
+<volume>36</volume>: <fpage>377</fpage>â<lpage>381</lpage>.<pub-id pub-id-type="pmid">15034582</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Hanzelmann1">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hanzelmann</surname><given-names>P</given-names></name>, <name><surname>Schindelin</surname><given-names>H</given-names></name> (<year>2011</year>) <article-title>The structural and functional basis of the p97/valosin-containing protein (VCP)-interacting motif (VIM): mutually exclusive binding of cofactors to the N-terminal domain of p97</article-title>. <source>J Biol Chem</source>
+<volume>286</volume>: <fpage>38679</fpage>â<lpage>38690</lpage>.<pub-id pub-id-type="pmid">21914798</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Schuberth1">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Schuberth</surname><given-names>C</given-names></name>, <name><surname>Buchberger</surname><given-names>A</given-names></name> (<year>2008</year>) <article-title>UBX domain proteins: major regulators of the AAA ATPase Cdc48/p97</article-title>. <source>Cell Mol Life Sci</source>
+<volume>65</volume>: <fpage>2360</fpage>â<lpage>2371</lpage>.<pub-id pub-id-type="pmid">18438607</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Yeung1">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yeung</surname><given-names>HO</given-names></name>, <name><surname>Kloppsteck</surname><given-names>P</given-names></name>, <name><surname>Niwa</surname><given-names>H</given-names></name>, <name><surname>Isaacson</surname><given-names>RL</given-names></name>, <name><surname>Matthews</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Insights into adaptor binding to the AAA protein p97</article-title>. <source>Biochem Soc Trans</source>
+<volume>36</volume>: <fpage>62</fpage>â<lpage>67</lpage>.<pub-id pub-id-type="pmid">18208387</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Wang1">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>Q</given-names></name>, <name><surname>Song</surname><given-names>C</given-names></name>, <name><surname>Yang</surname><given-names>X</given-names></name>, <name><surname>Li</surname><given-names>CC</given-names></name> (<year>2003</year>) <article-title>D1 ring is stable and nucleotide-independent, whereas D2 ring undergoes major conformational changes during the ATPase cycle of p97-VCP</article-title>. <source>J Biol Chem</source>
+<volume>278</volume>: <fpage>32784</fpage>â<lpage>32793</lpage>.<pub-id pub-id-type="pmid">12807884</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Dalal1">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dalal</surname><given-names>S</given-names></name>, <name><surname>Rosser</surname><given-names>MF</given-names></name>, <name><surname>Cyr</surname><given-names>DM</given-names></name>, <name><surname>Hanson</surname><given-names>PI</given-names></name> (<year>2004</year>) <article-title>Distinct roles for the AAA ATPases NSF and p97 in the secretory pathway</article-title>. <source>Mol Biol Cell</source>
+<volume>15</volume>: <fpage>637</fpage>â<lpage>648</lpage>.<pub-id pub-id-type="pmid">14617820</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Wang2">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>C</given-names></name>, <name><surname>Lazarides</surname><given-names>E</given-names></name> (<year>1984</year>) <article-title>Arsenite-induced changes in methylation of the 70,000 dalton heat shock proteins in chicken embryo fibroblasts</article-title>. <source>Biochem Biophys Res Commun</source>
+<volume>119</volume>: <fpage>735</fpage>â<lpage>743</lpage>.<pub-id pub-id-type="pmid">6424670</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Wang3">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>C</given-names></name>, <name><surname>Lin</surname><given-names>JM</given-names></name>, <name><surname>Lazarides</surname><given-names>E</given-names></name> (<year>1992</year>) <article-title>Methylations of 70,000-Da heat shock proteins in 3T3 cells: alterations by arsenite treatment, by different stages of growth and by virus transformation</article-title>. <source>Arch Biochem Biophys</source>
+<volume>297</volume>: <fpage>169</fpage>â<lpage>175</lpage>.<pub-id pub-id-type="pmid">1322111</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Klein1">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Klein</surname><given-names>JB</given-names></name>, <name><surname>Barati</surname><given-names>MT</given-names></name>, <name><surname>Wu</surname><given-names>R</given-names></name>, <name><surname>Gozal</surname><given-names>D</given-names></name>, <name><surname>Sachleben</surname><given-names>LR</given-names><suffix>Jr</suffix></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Akt-mediated valosin-containing protein 97 phosphorylation regulates its association with ubiquitinated proteins</article-title>. <source>J Biol Chem</source>
+<volume>280</volume>: <fpage>31870</fpage>â<lpage>31881</lpage>.<pub-id pub-id-type="pmid">16027165</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Koike1">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Koike</surname><given-names>M</given-names></name>, <name><surname>Fukushi</surname><given-names>J</given-names></name>, <name><surname>Ichinohe</surname><given-names>Y</given-names></name>, <name><surname>Higashimae</surname><given-names>N</given-names></name>, <name><surname>Fujishiro</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Valosin-containing protein (VCP) in novel feedback machinery between abnormal protein accumulation and transcriptional suppression</article-title>. <source>J Biol Chem</source>
+<volume>285</volume>: <fpage>21736</fpage>â<lpage>21749</lpage>.<pub-id pub-id-type="pmid">20410307</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Li1">
+        <label>58</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Li</surname><given-names>G</given-names></name>, <name><surname>Zhao</surname><given-names>G</given-names></name>, <name><surname>Schindelin</surname><given-names>H</given-names></name>, <name><surname>Lennarz</surname><given-names>WJ</given-names></name> (<year>2008</year>) <article-title>Tyrosine phosphorylation of ATPase p97 regulates its activity during ERAD</article-title>. <source>Biochem Biophys Res Commun</source>
+<volume>375</volume>: <fpage>247</fpage>â<lpage>251</lpage>.<pub-id pub-id-type="pmid">18706391</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Livingstone1">
+        <label>59</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Livingstone</surname><given-names>M</given-names></name>, <name><surname>Ruan</surname><given-names>H</given-names></name>, <name><surname>Weiner</surname><given-names>J</given-names></name>, <name><surname>Clauser</surname><given-names>KR</given-names></name>, <name><surname>Strack</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Valosin-containing protein phosphorylation at Ser784 in response to DNA damage</article-title>. <source>Cancer Res</source>
+<volume>65</volume>: <fpage>7533</fpage>â<lpage>7540</lpage>.<pub-id pub-id-type="pmid">16140914</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-MoriKonya1">
+        <label>60</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mori-Konya</surname><given-names>C</given-names></name>, <name><surname>Kato</surname><given-names>N</given-names></name>, <name><surname>Maeda</surname><given-names>R</given-names></name>, <name><surname>Yasuda</surname><given-names>K</given-names></name>, <name><surname>Higashimae</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>p97/valosin-containing protein (VCP) is highly modulated by phosphorylation and acetylation</article-title>. <source>Genes Cells</source>
+<volume>14</volume>: <fpage>483</fpage>â<lpage>497</lpage>.<pub-id pub-id-type="pmid">19335618</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Halawani1">
+        <label>61</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Halawani</surname><given-names>D</given-names></name>, <name><surname>LeBlanc</surname><given-names>AC</given-names></name>, <name><surname>Rouiller</surname><given-names>I</given-names></name>, <name><surname>Michnick</surname><given-names>SW</given-names></name>, <name><surname>Servant</surname><given-names>MJ</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Hereditary inclusion body myopathy-linked p97/VCP mutations in the NH2 domain and the D1 ring modulate p97/VCP ATPase activity and D2 ring conformation</article-title>. <source>Mol Cell Biol</source>
+<volume>29</volume>: <fpage>4484</fpage>â<lpage>4494</lpage>.<pub-id pub-id-type="pmid">19506019</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Manno1">
+        <label>62</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Manno</surname><given-names>A</given-names></name>, <name><surname>Noguchi</surname><given-names>M</given-names></name>, <name><surname>Fukushi</surname><given-names>J</given-names></name>, <name><surname>Motohashi</surname><given-names>Y</given-names></name>, <name><surname>Kakizuka</surname><given-names>A</given-names></name> (<year>2010</year>) <article-title>Enhanced ATPase activities as a primary defect of mutant valosin-containing proteins that cause inclusion body myopathy associated with Paget disease of bone and frontotemporal dementia</article-title>. <source>Genes Cells</source>
+<volume>15</volume>: <fpage>911</fpage>â<lpage>922</lpage>.<pub-id pub-id-type="pmid">20604808</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Angulo1">
+        <label>63</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Angulo</surname><given-names>JF</given-names></name>, <name><surname>Moreau</surname><given-names>PL</given-names></name>, <name><surname>Maunoury</surname><given-names>R</given-names></name>, <name><surname>Laporte</surname><given-names>J</given-names></name>, <name><surname>Hill</surname><given-names>AM</given-names></name>, <etal>et al</etal> (<year>1989</year>) <article-title>KIN, a mammalian nuclear protein immunologically related to E. coli RecA protein</article-title>. <source>Mutat Res</source>
+<volume>217</volume>: <fpage>123</fpage>â<lpage>134</lpage>.<pub-id pub-id-type="pmid">2493134</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Biard1">
+        <label>64</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Biard</surname><given-names>DS</given-names></name>, <name><surname>Miccoli</surname><given-names>L</given-names></name>, <name><surname>Despras</surname><given-names>E</given-names></name>, <name><surname>Harper</surname><given-names>F</given-names></name>, <name><surname>Pichard</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Participation of kin17 protein in replication factories and in other DNA transactions mediated by high molecular weight nuclear complexes</article-title>. <source>Mol Cancer Res</source>
+<volume>1</volume>: <fpage>519</fpage>â<lpage>531</lpage>.<pub-id pub-id-type="pmid">12754299</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Kannouche1">
+        <label>65</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kannouche</surname><given-names>P</given-names></name>, <name><surname>Mauffrey</surname><given-names>P</given-names></name>, <name><surname>Pinon-Lataillade</surname><given-names>G</given-names></name>, <name><surname>Mattei</surname><given-names>MG</given-names></name>, <name><surname>Sarasin</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2000</year>) <article-title>Molecular cloning and characterization of the human KIN17 cDNA encoding a component of the UVC response that is conserved among metazoans</article-title>. <source>Carcinogenesis</source>
+<volume>21</volume>: <fpage>1701</fpage>â<lpage>1710</lpage>.<pub-id pub-id-type="pmid">10964102</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Miccoli1">
+        <label>66</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Miccoli</surname><given-names>L</given-names></name>, <name><surname>Frouin</surname><given-names>I</given-names></name>, <name><surname>Novac</surname><given-names>O</given-names></name>, <name><surname>Di Paola</surname><given-names>D</given-names></name>, <name><surname>Harper</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>The human stress-activated protein kin17 belongs to the multiprotein DNA replication complex and associates in vivo with mammalian replication origins</article-title>. <source>Mol Cell Biol</source>
+<volume>25</volume>: <fpage>3814</fpage>â<lpage>3830</lpage>.<pub-id pub-id-type="pmid">15831485</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Makarov1">
+        <label>67</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Makarov</surname><given-names>EM</given-names></name>, <name><surname>Makarova</surname><given-names>OV</given-names></name>, <name><surname>Urlaub</surname><given-names>H</given-names></name>, <name><surname>Gentzel</surname><given-names>M</given-names></name>, <name><surname>Will</surname><given-names>CL</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Small nuclear ribonucleoprotein remodeling during catalytic activation of the spliceosome</article-title>. <source>Science</source>
+<volume>298</volume>: <fpage>2205</fpage>â<lpage>2208</lpage>.<pub-id pub-id-type="pmid">12411573</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Rappsilber1">
+        <label>68</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rappsilber</surname><given-names>J</given-names></name>, <name><surname>Ryder</surname><given-names>U</given-names></name>, <name><surname>Lamond</surname><given-names>AI</given-names></name>, <name><surname>Mann</surname><given-names>M</given-names></name> (<year>2002</year>) <article-title>Large-scale proteomic analysis of the human spliceosome</article-title>. <source>Genome Res</source>
+<volume>12</volume>: <fpage>1231</fpage>â<lpage>1245</lpage>.<pub-id pub-id-type="pmid">12176931</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Donlin1">
+        <label>69</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Donlin</surname><given-names>LT</given-names></name>, <name><surname>Andresen</surname><given-names>C</given-names></name>, <name><surname>Just</surname><given-names>S</given-names></name>, <name><surname>Rudensky</surname><given-names>E</given-names></name>, <name><surname>Pappas</surname><given-names>CT</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Smyd2 controls cytoplasmic lysine methylation of Hsp90 and myofilament organization</article-title>. <source>Genes Dev</source>
+<volume>26</volume>: <fpage>114</fpage>â<lpage>119</lpage>.<pub-id pub-id-type="pmid">22241783</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Zeghouf1">
+        <label>70</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zeghouf</surname><given-names>M</given-names></name>, <name><surname>Li</surname><given-names>J</given-names></name>, <name><surname>Butland</surname><given-names>G</given-names></name>, <name><surname>Borkowska</surname><given-names>A</given-names></name>, <name><surname>Canadien</surname><given-names>V</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Sequential Peptide Affinity (SPA) system for the identification of mammalian and bacterial protein complexes</article-title>. <source>J Proteome Res</source>
+<volume>3</volume>: <fpage>463</fpage>â<lpage>468</lpage>.<pub-id pub-id-type="pmid">15253427</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Puig1">
+        <label>71</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Puig</surname><given-names>O</given-names></name>, <name><surname>Caspary</surname><given-names>F</given-names></name>, <name><surname>Rigaut</surname><given-names>G</given-names></name>, <name><surname>Rutz</surname><given-names>B</given-names></name>, <name><surname>Bouveret</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>The tandem affinity purification (TAP) method: a general procedure of protein complex purification</article-title>. <source>Methods</source>
+<volume>24</volume>: <fpage>218</fpage>â<lpage>229</lpage>.<pub-id pub-id-type="pmid">11403571</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Rigaut1">
+        <label>72</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rigaut</surname><given-names>G</given-names></name>, <name><surname>Shevchenko</surname><given-names>A</given-names></name>, <name><surname>Rutz</surname><given-names>B</given-names></name>, <name><surname>Wilm</surname><given-names>M</given-names></name>, <name><surname>Mann</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>1999</year>) <article-title>A generic protein purification method for protein complex characterization and proteome exploration</article-title>. <source>Nat Biotechnol</source>
+<volume>17</volume>: <fpage>1030</fpage>â<lpage>1032</lpage>.<pub-id pub-id-type="pmid">10504710</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-LavalleeAdam1">
+        <label>73</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lavallee-Adam</surname><given-names>M</given-names></name>, <name><surname>Cloutier</surname><given-names>P</given-names></name>, <name><surname>Coulombe</surname><given-names>B</given-names></name>, <name><surname>Blanchette</surname><given-names>M</given-names></name> (<year>2010</year>) <article-title>Modeling contaminants in AP-MS/MS experiments</article-title>. <source>J Proteome Res</source>
+<volume>10</volume>: <fpage>886</fpage>â<lpage>895</lpage>.<pub-id pub-id-type="pmid">21117706</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Perkins1">
+        <label>74</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Perkins</surname><given-names>DN</given-names></name>, <name><surname>Pappin</surname><given-names>DJ</given-names></name>, <name><surname>Creasy</surname><given-names>DM</given-names></name>, <name><surname>Cottrell</surname><given-names>JS</given-names></name> (<year>1999</year>) <article-title>Probability-based protein identification by searching sequence databases using mass spectrometry data</article-title>. <source>Electrophoresis</source>
+<volume>20</volume>: <fpage>3551</fpage>â<lpage>3567</lpage>.<pub-id pub-id-type="pmid">10612281</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Inamitsu1">
+        <label>75</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Inamitsu</surname><given-names>M</given-names></name>, <name><surname>Itoh</surname><given-names>S</given-names></name>, <name><surname>Hellman</surname><given-names>U</given-names></name>, <name><surname>Ten Dijke</surname><given-names>P</given-names></name>, <name><surname>Kato</surname><given-names>M</given-names></name> (<year>2006</year>) <article-title>Methylation of Smad6 by protein arginine N-methyltransferase 1</article-title>. <source>FEBS Lett</source>
+<volume>580</volume>: <fpage>6603</fpage>â<lpage>6611</lpage>.<pub-id pub-id-type="pmid">17118358</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Zwijsen1">
+        <label>76</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zwijsen</surname><given-names>RM</given-names></name>, <name><surname>Buckle</surname><given-names>RS</given-names></name>, <name><surname>Hijmans</surname><given-names>EM</given-names></name>, <name><surname>Loomans</surname><given-names>CJ</given-names></name>, <name><surname>Bernards</surname><given-names>R</given-names></name> (<year>1998</year>) <article-title>Ligand-independent recruitment of steroid receptor coactivators to estrogen receptor by cyclin D1</article-title>. <source>Genes Dev</source>
+<volume>12</volume>: <fpage>3488</fpage>â<lpage>3498</lpage>.<pub-id pub-id-type="pmid">9832502</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Apweiler1">
+        <label>77</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Apweiler</surname><given-names>R</given-names></name>, <name><surname>Jesus Martin</surname><given-names>M</given-names></name>, <name><surname>O'onovan</surname><given-names>C</given-names></name>, <name><surname>Magrane</surname><given-names>M</given-names></name>, <name><surname>Alam-Faruque</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Reorganizing the protein space at the Universal Protein Resource (UniProt)</article-title>. <source>Nucleic Acids Res</source>
+<volume>40</volume>: <fpage>D71</fpage>â<lpage>75</lpage>.<pub-id pub-id-type="pmid">22102590</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Larkin1">
+        <label>78</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Larkin</surname><given-names>MA</given-names></name>, <name><surname>Blackshields</surname><given-names>G</given-names></name>, <name><surname>Brown</surname><given-names>NP</given-names></name>, <name><surname>Chenna</surname><given-names>R</given-names></name>, <name><surname>McGettigan</surname><given-names>PA</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Clustal W and Clustal X version 2.0</article-title>. <source>Bioinformatics</source>
+<volume>23</volume>: <fpage>2947</fpage>â<lpage>2948</lpage>.<pub-id pub-id-type="pmid">17846036</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Waterhouse1">
+        <label>79</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Waterhouse</surname><given-names>AM</given-names></name>, <name><surname>Procter</surname><given-names>JB</given-names></name>, <name><surname>Martin</surname><given-names>DM</given-names></name>, <name><surname>Clamp</surname><given-names>M</given-names></name>, <name><surname>Barton</surname><given-names>GJ</given-names></name> (<year>2009</year>) <article-title>Jalview Version 2âa multiple sequence alignment editor and analysis workbench</article-title>. <source>Bioinformatics</source>
+<volume>25</volume>: <fpage>1189</fpage>â<lpage>1191</lpage>.<pub-id pub-id-type="pmid">19151095</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Saitou1">
+        <label>80</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Saitou</surname><given-names>N</given-names></name>, <name><surname>Nei</surname><given-names>M</given-names></name> (<year>1987</year>) <article-title>The neighbor-joining method: a new method for reconstructing phylogenetic trees</article-title>. <source>Mol Biol Evol</source>
+<volume>4</volume>: <fpage>406</fpage>â<lpage>425</lpage>.<pub-id pub-id-type="pmid">3447015</pub-id></mixed-citation>
+      </ref>
+      <ref id="pgen.1003210-Henikoff1">
+        <label>81</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Henikoff</surname><given-names>S</given-names></name>, <name><surname>Henikoff</surname><given-names>JG</given-names></name> (<year>1992</year>) <article-title>Amino acid substitution matrices from protein blocks</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>89</volume>: <fpage>10915</fpage>â<lpage>10919</lpage>.<pub-id pub-id-type="pmid">1438297</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

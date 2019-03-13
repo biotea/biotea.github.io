@@ -1,0 +1,1575 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:04:57Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:545604" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:545604</identifier><datestamp>2005-01-26</datestamp><setSpec>genbio</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://dtd.nlm.nih.gov/ns/archiving/2.3/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://dtd.nlm.nih.gov/ns/archiving/2.3/ https://dtd.nlm.nih.gov/archiving/2.3/xsd/archivearticle.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Genome Biol</journal-id>
+      <journal-title>Genome Biology</journal-title>
+      <issn pub-type="ppub">1465-6906</issn>
+      <issn pub-type="epub">1465-6914</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC545604</article-id>
+      <article-id pub-id-type="pmcid">PMC545604</article-id>
+      <article-id pub-id-type="pmc-uid">545604</article-id>
+      <article-id pub-id-type="pmid">15461802</article-id>
+      <article-id pub-id-type="publisher-id">gb-2004-5-10-r84</article-id>
+      <article-id pub-id-type="pmid">15461802</article-id>
+      <article-id pub-id-type="doi">10.1186/gb-2004-5-10-r84</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Method</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A genome annotation-driven approach to cloning the human ORFeome</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="A1" contrib-type="author">
+          <name>
+            <surname>Collins</surname>
+            <given-names>John E</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A2" contrib-type="author">
+          <name>
+            <surname>Wright</surname>
+            <given-names>Charmain L</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A3" contrib-type="author">
+          <name>
+            <surname>Edwards</surname>
+            <given-names>Carol A</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I3">3</xref>
+        </contrib>
+        <contrib id="A4" contrib-type="author">
+          <name>
+            <surname>Davis</surname>
+            <given-names>Matthew P</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A5" contrib-type="author">
+          <name>
+            <surname>Grinham</surname>
+            <given-names>James A</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A6" contrib-type="author">
+          <name>
+            <surname>Cole</surname>
+            <given-names>Charlotte G</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A7" contrib-type="author">
+          <name>
+            <surname>Goward</surname>
+            <given-names>Melanie E</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A8" contrib-type="author">
+          <name>
+            <surname>Aguado</surname>
+            <given-names>BegoÃ±a</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I4">4</xref>
+        </contrib>
+        <contrib id="A9" contrib-type="author">
+          <name>
+            <surname>Mallya</surname>
+            <given-names>Meera</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <xref ref-type="aff" rid="I5">5</xref>
+        </contrib>
+        <contrib id="A10" contrib-type="author">
+          <name>
+            <surname>Mokrab</surname>
+            <given-names>Younes</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I6">6</xref>
+        </contrib>
+        <contrib id="A11" contrib-type="author">
+          <name>
+            <surname>Huckle</surname>
+            <given-names>Elizabeth J</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A12" contrib-type="author">
+          <name>
+            <surname>Beare</surname>
+            <given-names>David M</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+        </contrib>
+        <contrib id="A13" corresp="yes" contrib-type="author">
+          <name>
+            <surname>Dunham</surname>
+            <given-names>Ian</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>id1@sanger.ac.uk </email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>The Wellcome Trust Sanger Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UK</aff>
+      <aff id="I2"><label>2</label>MRC Rosalind Franklin Centre for Genomics Research (formerly MRC UK Human Genome Mapping Resource Centre), Hinxton, Cambridge, CB10 1SB, UK</aff>
+      <aff id="I3"><label>3</label>Current address: Department of Anatomy, University of Cambridge, Downing Street, Cambridge, CB2 3DY, UK</aff>
+      <aff id="I4"><label>4</label>Current address: Centro Nacional de BiotecnologÃ­a (CNB), Campus de la Universidad AutÃ³noma de Madrid, Cantoblanco, 28049 Madrid, Spain</aff>
+      <aff id="I5"><label>5</label>Current address: Cambridge Institute for Medical Research, Wellcome Trust/MRC Building, Addenbrooke's Hospital, Hills Road, Cambridge, CB2 2XY, UK</aff>
+      <aff id="I6"><label>6</label>Current address: Department of Biochemistry, Sanger Building, University of Cambridge, 80 Tennis Court Road, Cambridge, CB2 1GA, UK</aff>
+      <pub-date pub-type="ppub">
+        <year>2004</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>9</month>
+        <year>2004</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>10</issue>
+      <fpage>R84</fpage>
+      <lpage>R84</lpage>
+      <ext-link ext-link-type="uri" xlink:href="http://genomebiology.com/2004/5/10/R84"/>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>5</month>
+          <year>2004</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>16</day>
+          <month>7</month>
+          <year>2004</year>
+        </date>
+        <date date-type="accepted">
+          <day>11</day>
+          <month>8</month>
+          <year>2004</year>
+        </date>
+      </history>
+      <copyright-statement>Copyright Â© 2004 Collins et al.; licensee BioMed Central Ltd.</copyright-statement>
+      <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+        <p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0"/>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+      </license>
+      <abstract abstract-type="short">
+        <p>Using a new systematic approach to generating cDNA clones containing full-length open reading frames, clones representing 70% of genes on human chromosome 22 were obtained.</p>
+      </abstract>
+      <abstract>
+        <p>We have developed a systematic approach to generating cDNA clones containing full-length open reading frames (ORFs), exploiting knowledge of gene structure from genomic sequence. Each ORF was amplified by PCR from a pool of primary cDNAs, cloned and confirmed by sequencing. We obtained clones representing 70% of genes on human chromosome 22, whereas searching available cDNA clone collections found at best 48% from a single collection and 60% for all collections combined.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>Many methods for high-throughput, experimental elucidation of gene function (functional genomics) depend on the availability of full-length cDNA clone collections [<xref ref-type="bibr" rid="B1">1</xref>]. These clones provide access to the protein-coding open reading frames (ORFs) and facilitate expression of large numbers of proteins in the native form or as fusion proteins. The value of ORF-containing full-length cDNA clone collections (ORF clones) has now been amply demonstrated by studies in model organisms, in particular in the area of protein interaction mapping using methods based on yeast two-hybrid or mass spectrometry [<xref ref-type="bibr" rid="B2">2</xref>-<xref ref-type="bibr" rid="B8">8</xref>].</p>
+      <p>Extension of functional genomic approaches to mammalian genomes requires development of adequate ORF clone collections. Several projects based on complete sequencing of clones isolated from cDNA libraries are in place to generate these collections for mouse [<xref ref-type="bibr" rid="B9">9</xref>] and human [<xref ref-type="bibr" rid="B10">10</xref>-<xref ref-type="bibr" rid="B13">13</xref>]. Additional efforts have also focused on subsequent manipulation and exploitation of the full-length clones using versatile recombinational cloning systems so that the ORFs are formatted for expression [<xref ref-type="bibr" rid="B14">14</xref>-<xref ref-type="bibr" rid="B16">16</xref>]. However, obtaining a complete set of human clones has been hampered by the inadequacies of cDNA libraries and uncertainty over the true number and identity of all protein-coding genes. Approaches based on cDNA libraries have two major limitations in mammals. The first is the difficulty in obtaining full-length cDNA clones and the complexities of alternate and partial splice forms. Hence, many clones have to be sampled to obtain a canonical full-length version of each cDNA. The second is that these projects inevitably reach a point of diminishing return when it is no longer financially viable to continue to sequence more clones from the same library or from different tissues in order to add small numbers of new full-length cDNAs to the collection. Therefore, it is pertinent to ask how complete the cDNA collections currently are, and whether they can be supplemented or replaced by other approaches in order to develop complete ORF clone sets.</p>
+      <p>There is still uncertainty over the exact number of human and mouse genes and hence over the completeness of the existing cDNA collections. Therefore, we have investigated a defined subset of genes, namely the full-length protein-coding genes defined in our current annotation of human chromosome 22 [<xref ref-type="bibr" rid="B17">17</xref>]. In this study, we have found that in the currently available major cDNA collections, a total of 60% of chromosome 22 protein-coding genes are represented by complete ORF clones, although no single collection contains more than 48% (Table <xref ref-type="table" rid="T1">1</xref>). This leaves a sizeable fraction of the genes unavailable. Thus there are still considerable challenges to be faced in identifying and isolating full-length cDNAs and ORFs for functional analyses.</p>
+      <p>To extend the coverage of full-length ORF clones, we have developed an alternative method which exploits knowledge of gene structure based on genomic sequence. It involves the specific amplification of a targeted ORF plus short regions of the 5' and 3' untranslated regions from a mixed pool of cDNAs. Amplified fragments are cloned into a standard plasmid sequencing vector and their identity and integrity confirmed by DNA sequencing. The aim of the method is to provide cDNA clones containing confirmed full-length ORFs, which can later be manipulated into suitable vector systems such as Gateway (Invitrogen) or Creator (BD Biosciences) for functional genomics. We have applied this method to the same set of chromosome 22 protein-coding genes and have shown that we can obtain clones representing 70% of the targeted genes with a limited range of experimental conditions. We have also demonstrated a reasonable expectation that we can isolate clones for 83%.</p>
+    </sec>
+    <sec>
+      <title>Results and discussion</title>
+      <sec>
+        <title>Analysis of full-length cDNA collections</title>
+        <p>We have previously described a gene annotation of chromosome 22 [<xref ref-type="bibr" rid="B17">17</xref>] and its characterization [<xref ref-type="bibr" rid="B18">18</xref>]. In this annotation, 546 genes were defined as protein-coding genes, 387 being full length and the remainder (159) being partial, mostly as a result of unconfirmed 5' ends, incomplete genomic sequence or partial gene duplication events. We subsequently identified and removed two full-length genes which we now consider to be antisense transcripts and have extended 13 genes to full length to give a total of 398 full-length protein-coding genes (see [<xref ref-type="bibr" rid="B19">19</xref>] for details of the chromosome 22 ORFs). In the other cases of partial annotations we have not been able to extend the annotation sufficiently to allow identification of a complete ORF suitable for cloning. Therefore, for the purposes of this paper, where the aim is to identify clones containing complete ORFs, we only consider genes annotated as full-length protein coding as targets because of the difficulty of defining success for the partial genes.</p>
+        <p>We first considered the completeness of available full-length human cDNA collections, by comparing the DNA sequences of available cDNA library clones with our targeted set of 398 ORFs. For this analysis we used cDNA sequences downloaded from the major collections in January 2004. The publicly available cDNA collections analyzed were those from the Mammalian Gene Collection (MGC) [<xref ref-type="bibr" rid="B11">11</xref>], the full-length long Japan collection (FLJ) [<xref ref-type="bibr" rid="B12">12</xref>], the German cDNA Consortium (DKFZ) [<xref ref-type="bibr" rid="B10">10</xref>] and the Kazusa cDNA project (KIAA) [<xref ref-type="bibr" rid="B13">13</xref>]. In addition, we analyzed a commercially available set of cDNAs from Invitrogen. We aligned each of our target chromosome 22 ORFs to the available cDNA sequences to assess whether clones representing the entirety or any part of each of the chromosome 22 ORFs existed in each collection (Table <xref ref-type="table" rid="T1">1</xref>, and see Materials and methods). This analysis showed that 240 out of 398 ORFs (60%) were represented by a cDNA clone with more than 95% identity over the full length of the ORF in at least one of the collections. In addition, a further 25 ORFs were covered by cDNA clones with gapped matches. However, only 227 (57% of the total ORFs) of these clones maintain the correct reading frame at the amino acid level. Examining the matches from individual cDNA clone collection showed that 80% of the full-length matches were provided by the MGC. This probably reflects the selection process in this program whereby initial sequencing of the ends of cDNA clones was used to select the optimal clone for complete sequencing. The KIAA collection provided full-length matches at approximately the same rate as the MGC, given the number of sequences available (1.25% chromosome 22 full-length matches out of the total MGC collection compared with 1.38% for KIAA) and notably provided the five largest clones matched that maintained the complete ORF (sizes between 4,719 base-pairs (bp) and 3,516 bp), reflecting the emphasis on long clones in the KIAA program. The FLJ and DKFZ collections gave rates of 0.28% and 0.27% respectively, presumably because a smaller proportion of full-length clones were sequenced. Analysis of the chromosome 22 genes from these collections shows that length, but not GC content, of the ORF is a significant factor in cloning success for these collections (Mann Whitney test, <italic>p </italic>&lt; 0.0007), that is, there is bias against longer ORF clones.</p>
+        <p>In summary, there is currently a 60% chance of obtaining a full-length cDNA clone from one of these collections, based on a sample of 1% of the human genome. The best single collection (MGC) provides 48% of the clones. This analysis of coverage, based on the subset of full-length protein-coding genes on chromosome 22, mimics the situation occurring in a positional cloning type strategy where one might want to obtain clones for a region identified by genetic mapping. However, it does not assess whether the collections are enriched or depleted for specific classes of gene by function, tissue distribution or level of expression. As chromosome 22 is particularly GC-rich, and compared to other human chromosomes the set of genes we have used for this assessment may be biased towards housekeeping genes with widespread or ubiquitous expression which are known to be enriched in GC-rich regions of the genome. Hence, results for specific classes of genes will differ. In any case, one can expect to obtain roughly half of the clones required from one of these collections. This is testimony to the considerable effort that has gone into constructing the resources, but is also frustrating, because other sources are required to make up the substantial remainder. To investigate whether other approaches could be used to address the completeness of cDNA clone resources, we developed an alternative method which is complimentary to cDNA library sequencing, and tested this approach on the same set of chromosome 22 ORFs.</p>
+      </sec>
+      <sec>
+        <title>Strategy for assembling a chromosome 22 ORF clone collection</title>
+        <p>Previous efforts in human to obtain cDNA clones suitable for future functional genomics studies have started by isolating the longest possible cDNA clones [<xref ref-type="bibr" rid="B10">10</xref>-<xref ref-type="bibr" rid="B13">13</xref>]. In <italic>Caenorhabditis elegans</italic>, an alternative strategy has been developed that is directly tailored to clone ORFs defined by gene annotations from cDNA libraries into Gateway vectors ready for functional genomics [<xref ref-type="bibr" rid="B20">20</xref>]. The strategy we have developed (Figure <xref ref-type="fig" rid="F1">1</xref>) uses genome annotation to define the full-length ORFs of interest. We then aim to amplify the ORF bracketed by short sequences at either end from uncloned primary cDNA (rather than cDNA libraries) using reverse transcription (RT) PCR with modifications to allow efficient and high-throughput application. The overall aim is to obtain cDNA clones containing the defined set of ORFs more efficiently than by cDNA library screening and to access ORFs not present in existing cDNA library collections. This strategy enables a single protocol to be used for all genes, and therefore does not require the import of any previously existing cDNA clones which might be from multiple laboratories and in several vector systems. In addition, it avoids potential biases associated with cloned cDNA libraries by utilizing uncloned cDNA. We chose not to format the ORF directly for a specific recombinational cloning system because this might compromise our ability to isolate some ORFs by RT PCR. Furthermore ORFs cloned into a generic vector will be useful for those who do not want to use a specific vector format. ORFs in clones derived and verified by this method can be readily transferred into recombinational cloning systems by PCR with appropriately designed oligonucleotides.</p>
+        <p>For the 398 targets, a nested set of two pairs of PCR oligonucleotide primers surrounding each ORF and including a short region of the 5' and 3' untranslated regions was identified. As these primers were to be used to extract a fragment containing the ORF from an extremely complex cDNA template, design was not restricted to the sequences at the start and stop of the ORF. A highly processive, proof-reading thermostable DNA polymerase was use to amplify the ORF from a pool of cDNA derived from various tissues using two rounds of PCR. In 76% of cases amplification with KOD Hot Start polymerase was successful in generating a PCR product of expected size under one set of amplification conditions (see Additional data file 2). However, where the expected-sized PCR fragment was not obtained, we were often able to obtain a fragment by subsequent repeat of the procedure with slight modifications including increasing the annealing temperature, using <italic>Pfu</italic>-turbo DNA polymerase as an alternative enzyme for one or both rounds of PCR, or using a cDNA template from a single tissue rather than the pooled cDNA. Fragments of the correct size were cloned into a T-tailed plasmid and the inserts were verified by complete sequencing using vector primers and anticipated gene specific primers. Assembled sequence for each clone was then compared with the expected gene sequence. Clones were accepted as correct versions of the ORF if identical to the expected sequence or if they contained only base changes that were known to be single-nucleotide polymorphisms (SNPs) or resulted in silent codon changes. Clones were also accepted with an alternative splicing event that maintained the ORF. Clones were rejected (for this study) if they contained a nonsynonymous base change that could not be confirmed as a known SNP ('unconfirmed bases') or if they resulted from an alternative splice or partially processed mRNA that did not maintain the ORF. When a clone generated from a fragment of the correct size failed validation because of the presence of unconfirmed bases, or retention of a small intron, an alternative clone was picked and sequenced until a correct version was obtained. If alternative splicing or partial processing events gave unacceptable clones, a further round of reamplification was undertaken in order to obtain a correct fragment. Finally, if clone inserts were repeatedly unacceptable as a result of mispriming events, annotation error or amplification of a related gene, a new set of nested oligonucleotide primers were designed.</p>
+      </sec>
+      <sec>
+        <title>Process error rate and SNPs</title>
+        <p>One possible concern with a strategy that involves reverse transcription and multiple rounds of PCR amplification followed by cloning of a single molecule is that the process will introduce base errors that alter the sequence of the final cloned ORF. Analysis of error rate here is complicated by the frequency of SNPs in humans and the fact that the starting cDNA template is a mix of cDNA from multiple human donors. We estimated the error rate from reverse transcription, PCR and the cloning process by sequencing 48 clones (covering 70,656 bases) containing the ORF of the NAGA gene. These were derived by our cloning protocol using cDNA from 10 lymphoblastoid cell lines as a template, as polymorphism would be easier to identify where each cDNA mix could only be one of two haplotypes. We categorized observed base changes as known SNPs if they were found to exist in dbSNP, in ESTs or in independently sequenced cDNA clones. Base changes were categorized as putative errors if no equivalent sequence could be identified. From this analysis we identified six putative base errors, giving an overall estimate of 0.085 errors per kilobase (kb), or one error per 7.8 clones assuming a mean ORF size of 1.5 kb.</p>
+      </sec>
+      <sec>
+        <title>Chromosome 22 ORF clone collection</title>
+        <p>Applying the strategy outlined above to the 398 chromosome 22 ORFs, we were able to clone and confirm 278 (70%) of the targeted chromosome 22 ORFs (see Additional data file 1). Sequences of the valid ORF clones are available [<xref ref-type="bibr" rid="B19">19</xref>], and have been submitted to the EMBL database (accession numbers CR456339 to CR456616). Of these, 253 (91%) were derived from fragments generated with KOD polymerase. The remainder were generated using either an alternative polymerase (16; 6%) or a combination of polymerases (9; 3%) (see Additional data file 2). The universal cDNA pool was used for 249 (90%) of the clones, with 29 (10%) of clones derived from lower-complexity cDNA templates from single tissues. Of the accepted clones, 239 (86%) were the predicted splice form, with the remainder being an alternative splice which maintained the ORF; 183 (66%) clones matched the genomic DNA exactly. Of the 162 deviations from the genomic sequence (from 95 clones), 144 (89%) are previously identified SNPs either in dbSNP or dbEST, and 11 (7%) were not identified as known SNPs but did not alter the amino acid (see Additional data file 3). Seven changes were insertion/deletion events (see below). Of the 144 confirmed SNPs in a total of 372,916 bases (1 SNP every 2,590 bases), 81 were synonymous and 63 were nonsynonymous codon changes. Individual clones contained between one and eight SNPs (see Additional data file 3).</p>
+        <p>Insertions or deletions that retained the ORF were observed in five clones. None of these significantly altered the ORF, as four cases involved three bases while one involved 12 bases. We also observed a polymorphism in MSE55 which involved the insertion or deletion of six amino acid repeat units and exists in three different alleles. We amplified and sequenced genomic DNA fragments across this region from 152 chromosomes of European ancestry and found that all three alleles are common and in Hardy-Weinberg equilibrium. In this case the clone chosen for the ORF collection was the same allele as seen in the publicly available genomic sequence.</p>
+        <p>In three cases we obtained clones with insertion/deletion polymorphisms that altered the ORF but were supported by available chromosome 22 sequence. To determine whether to accept these clones as ORF cDNAs, we examined all three in more detail. The clone obtained for gene <italic>APOL4 </italic>contains a 2-bp insertion compared to the canonical genomic sequence annotation. This results in a frameshift that substantially extends the ORF from 127 amino acids to 348 amino acids. We designed a PCR reaction to directly interrogate the insertion/deletion and sequenced 144 chromosomes of European ancestry. Both alleles are common in this population, and are in Hardy-Weinberg equilibrium, with the 348-amino acid form being the minor allele at 46.5%. For bK216E10.6 we obtained an ORF clone with a 2-bp insertion compared to the genomic annotation, which results in an ORF that contains an extra 318 amino acids. Using the same strategy we sequenced 150 chromosomes and showed that the sequence producing the shorter peptide is the minor allele with a frequency of 20%, and the alleles are again in Hardy-Weinberg equilibrium. In this case we do not have an accepted clone, as the insertion increased the ORF length beyond the primer sequence. The third gene is <italic>TXN2 </italic>which shows a 2-bp insertion compared to the genomic sequence which is also found in an EST (AA586375), but has not been studied further. An insertion/deletion polymorphism that alters the ORF has previously been observed in <italic>MICA </italic>on chromosome 6 [<xref ref-type="bibr" rid="B21">21</xref>]. From these examples we concluded that insertion/deletion polymorphisms in ORFs that alter amino acid sequence may be relatively common, and can result in altered proteins. Complete ORF collections for outbred organisms like humans should ultimately address this issue and obtain examples of all common forms of the ORF.</p>
+        <p>In addition, we were able to amplify a PCR fragment which could be identified as originating from the correct gene for an additional 53 ORFs, but have not yet been able to obtain an acceptable clone because of the presence of unconfirmed bases, or problems with splice forms including partially processed transcripts. In most cases, only one or two amino acids are changed, which could make these clones usable under some circumstances, perhaps after site-directed mutagenesis. It is also possible that these are rarer SNPs that are not currently present in dbSNP. This suggests that by sequencing more examples we will be able to obtain clones for these ORFs in the near future. Thus the clone collection would cover 83% (331) of the targeted ORFs.</p>
+      </sec>
+      <sec>
+        <title>Process failure</title>
+        <p>In total, we initiated the amplification and cloning process 538 times, excluding initial pilot trials. These 538 events break down as follows. For 180 (45%) targeted ORFs an acceptable clone was generated at the first attempt. Further rounds of clone-picking, reamplification or primer redesign generated a further 99 acceptable clones, 83 clones containing an unconfirmed base alteration, 54 clones containing an alternative splice which lost the ORF, 23 clones containing a rearrangement or erroneous amplification event, 19 clones with retained intron sequences, four clones containing unresolved sequencing problems and 36 clones which were not the expected gene. For 41 genes we were unable to amplify a suitable product or failed to clone the fragment. Hence the efficiency of the process in terms of the return of acceptable clones is approximately 52% (278/540).</p>
+        <p>A significant area of concern is where we were unable to generate a PCR product at all corresponding to the targeted gene. To find explanations for this type of failure, we examined both the sequence characteristics of the targeted ORF and elements of the experimental design. First we examined the crude differences between the classes of ORFs that we could and could not amplify. Figure <xref ref-type="fig" rid="F2">2a</xref> shows a plot of the distributions of these two classes by GC content and length of ORF. Both GC content and length are significant predictors of success/failure to amplify (Mann Whitney test <italic>p </italic>&lt; 0.0001), although logistic regression indicates there is no significant interaction between them. This suggests that alternative amplification protocols using different polymerases or PCR additives might result in additional ORFs being obtained. However, we have tested three additional enzymes or mixes (<italic>Pfu </italic>Ultra (Stratagene), Phusion (Finnzymes) and Expand 20 kb+ PCR (Roche)) and additives including DMSO, glycerol and betaine so far without identifying a design that solves the problem.</p>
+        <p>Next, we explored whether it was possible to amplify any part of the failed target cDNAs from the universal mix. For 51 of the genes where we failed to amplify the expected fragment, we designed additional nested oligonucleotide primer pairs to amplify a short (100-274 bp) sequence across a splice junction. In 39 cases (74%) we amplified a fragment of the correct size and sequence under our standard nested PCR conditions, suggesting that template is present in the cDNA mix for these ORFs (data not shown). Therefore, in most cases it is possible to amplify part of the targeted ORF from the cDNA mix using this protocol, indicating that the level of target in the mix is not limiting in these cases. Given that we know we can amplify parts of many of the problematic genes, one variation that could improve access to larger ORFs in the future would be to amplify larger transcripts in pieces that can then be reassembled into a single clone using appropriate restriction enzyme digestion and ligation or PCR cloning methods.</p>
+        <p>We also examined whether successful amplification was biased towards genes expressed in many tissues. Su <italic>et al</italic>. [<xref ref-type="bibr" rid="B22">22</xref>] have generated microarray data indicating the distribution of expression for many human genes over 47 tissues. We downloaded these data [<xref ref-type="bibr" rid="B23">23</xref>] and were able to obtain tissue-distribution data for 206 of our 398 targeted genes. Codifying the diversity of tissues in which the genes were expressed as the proportion of positive tissues, and analyzing for the success or failure of amplification by logistic regression, indicated that the probability of amplifying a gene is not significantly affected by the diversity of its expression (data not shown).</p>
+        <p>We also examined diversity of expression by analyzing serial analysis of gene expression (SAGE) data derived from 242 <italic>Nla</italic>III SAGE libraries downloaded from the SAGEmap resource [<xref ref-type="bibr" rid="B24">24</xref>]. SAGE tags could be uniquely mapped to 315 of the 398 ORFs targeted. Using the number of SAGE libraries in which a SAGE tag for an ORF was found to represent the diversity of tissues in which the gene was expressed, no significant relationship was found with the probability of amplifying a gene (Mann Whitney test, <italic>p </italic>= 0.84). Furthermore, because the SAGE tag data also gives an indication of expression level, we examined whether the mean expression level found by SAGE (mean normalized tags per million SAGE reads) affected probability of expression and again found no significant relationship (Mann Whitney test, <italic>p </italic>= 0.79). Taken together these analyses indicate that the success of our amplification strategy is not significantly influenced by either the range of tissues in which a gene is expressed or the level of expression. Clearly there will be some genes expressed at low levels, at specific times or in specific tissues that will need special treatment, but these data suggest that these cases may be few.</p>
+      </sec>
+      <sec>
+        <title>Comparison of the chromosome 22 ORF collection with other cDNA sources</title>
+        <p>Returning to the cDNA clone collections, of the 331 targeted genes for which we can obtain either an acceptable clone (278) or a clone of the correct ORF but currently with a problem in its sequence (53), 208 genes also have clones in the cDNA clone collections we analyzed; 123 genes only have clones in the new chromosome 22 ORF set described here. In addition, for 19 genes which are represented in the cDNA clone collections we were unable to isolate a clone (Figures <xref ref-type="fig" rid="F2">2b</xref>, <xref ref-type="fig" rid="F3">3</xref>). This means that 88% (350) of the full-length protein-coding genes on chromosome 22 have cDNA clones. This also suggests that achieving 88% coverage of the readily accessible human ORFeome should be possible with an approach that combines the existing cDNA collections with directed RT-PCR as implemented in this analysis. Of course, because the actual number of human genes is still unknown and a significant number of genes have only partial annotation, there is still an indeterminate number of genes for which there is insufficient annotation to attempt the current strategy.</p>
+        <p>We analyzed the four classes of genes (isolated by us and in the cDNA collections (BOTH), isolated only here (SANGER), isolated only by the cDNA collections (OTHER) and not isolated (NOT)) by GC content, length and diversity of expression as defined above for microarray data and SAGE using nonparametric analysis of variance (Figure <xref ref-type="fig" rid="F3">3</xref>, and Additional data file 5). ORF length was significantly higher (<italic>p </italic>&lt; 0.001) for genes not isolated (NOT) as compared to those isolated by us (SANGER) or those isolated both by us and the cDNA collections (BOTH). This suggests, as expected, that longer ORFs are harder to amplify or clone. A significant influence (<italic>p </italic>&lt; 0.05) was also found for higher GC content in the genes that were either not isolated (NOT) or found only in the cDNA collections (OTHER) compared with the SANGER or BOTH classes, reflecting the influence of GC content on the ability to amplify a cDNA target as discussed above. The only significant difference (<italic>p </italic>&lt; 0.05) for diversity of expression was between genes cloned only by us (SANGER) and those present in both our set and the cDNA collections (BOTH), with less diversely expressed genes slightly enriched in the SANGER class. This result was seen only in the microarray data, although the effect was also present in the SAGE data at just below significance. This suggests that the method described here may be able to access less widely expressed genes than have been sampled by existing cDNA library sequencing, although the effect is small. Finally, analysis of the mean level of expression of the genes in the four classes based on the normalized SAGE tag count showed no significant difference, indicating that level of expression is not a significant factor for this set of genes.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Conclusions</title>
+      <p>Even given a high-quality human genome sequence, we still face considerable challenges in identifying and isolating full-length cDNAs and ORFs in order to construct genome-wide clone sets for functional analyses. The method we have described here offers an alternative approach to obtaining full-length ORF clones compared with sequencing or amplifying from cDNA libraries. We have demonstrated that we can readily obtain clones for 70% of the full-length protein-coding genes on chromosome 22, increasing to 83% if we include the largely correct clones which have not passed the confirmation criteria. In addition, a small number of clones (19) that we could not obtain are present in the cDNA collections analyzed, and when these are included, the overall coverage of the known full-length protein-coding genes reaches 88%. While this represents a substantial gain over cDNA sequencing alone, it is clear that complete coverage may require further modification of the approach or additional strategies as well.</p>
+      <p>The quality control that is introduced by starting with annotated genes on the genomic sequence allows identification of SNPs and artifacts within the clones, and allows confirmation or rejection of each clone as it is generated. The checking process also provides verification of gene structures annotated from assembled ESTs, and in a few cases revealed errors. Our approach also has some advantages for scale-up to whole genomes. The starting point is a single PCR reaction using a universal template, which could be adapted to standard automation platforms. Subsequent steps, including ligation, transformation, clone picking, sequencing and sequence analysis, are all amenable to existing robotic approaches or automation. At present, the gel-purification step of the amplified PCR fragment might be difficult to automate. It is also likely that the final sign-off on the sequence alignment of clones will require human intervention in much the same way as finishing genomic sequences does. However, application to whole genomes demands a high-quality gene annotation to be available for the whole genome.</p>
+      <p>We have generated a set of quality-controlled ORFs surrounded by a short stretches of 5' and 3' untranslated sequence in a uniform vector. The ORF portions of these intermediary clones are currently being amplified and subcloned in frame into a mammalian expression vector which fuses the amino-terminal T7 phage major capsid protein to the amino or carboxy terminus of the protein. We have successfully performed subcellular localization studies using immunofluorescence microscopy with these clones. We are also transferring the ORFs into Gateway pDONR clones (Invitrogen) and subsequently using GFP fusion destination vectors for subcellular localization. The availability of the ORF in a generic vector provides flexibility in the future downstream formats in that the endogenous Kozak sequence and the translation start and stop are maintained, and without additional amino acids from recombination sites. Finally, it is worth noting that this approach could also be applied to amplifying and cloning the many alternatively spliced forms of genes, or ORFs from different individuals or haplotypes. The ability to access the many additional variants beyond the canonical ORFeome could prove a valuable tool for future studies.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>Materials and methods</title>
+      <sec>
+        <title>cDNA sequence sources and websites</title>
+        <p>cDNA sequences were downloaded from the websites of the following publicly available cDNA collections in January 2004. For the Mammalian Gene Collection (MGC [<xref ref-type="bibr" rid="B11">11</xref>,<xref ref-type="bibr" rid="B25">25</xref>], 15,454 sequences were downloaded on 16 January 2004 [<xref ref-type="bibr" rid="B26">26</xref>]. For the full-length long Japan collection (FLJ [<xref ref-type="bibr" rid="B12">12</xref>]), 25,696 sequence accession numbers were obtained on 16 January 2004 [<xref ref-type="bibr" rid="B27">27</xref>] and the sequences were downloaded from the EMBL sequence database. For the German cDNA Consortium (DKFZ [<xref ref-type="bibr" rid="B10">10</xref>]) we identified 9,271 sequence accessions on 16 January 2004 [<xref ref-type="bibr" rid="B28">28</xref>] and sequences were downloaded from the EMBL database. For the Kazusa cDNA project (KIAA [<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B29">29</xref>]), 2,037 sequence accession numbers were obtained on 26 January 2004 [<xref ref-type="bibr" rid="B29">29</xref>], and sequences were downloaded from the EMBL database, although two cDNA sequences were missing (KIAA0013 and KIAA0302). In addition, we downloaded 4,361 of the commercially available Invitrogen cDNAs on 8 December 2003 [<xref ref-type="bibr" rid="B30">30</xref>] (file datestamp 20 October 2003).</p>
+      </sec>
+      <sec>
+        <title>Amplification and cloning of ORFs</title>
+        <p>Chromosome 22 gene annotations containing full-length ORFs, as defined in Collins <italic>et al. </italic>[<xref ref-type="bibr" rid="B17">17</xref>], but not including the genes described as possible antisense, and 13 genes subsequently completed, provided 398 complete chromosome 22 gene sequences. Nested sets of two pairs of PCR primers surrounding each ORF were designed using Primer3 (Steve Rozen, Helen J. Skaletsky (1996, 1997), Primer3, Code available at [<xref ref-type="bibr" rid="B31">31</xref>]) and Perl (version 5.004) scripts to automate the process (see Additional data file 4 for primer pairs designed). Fragments were amplified with the outer primer pair from either 0.1 ng of a pool of cDNAs from 37 tissues (Human Universal QUICK-Clone cDNA, Clontech), or cDNA from a single tissue (cervix, liver, brain, testis, fetal liver or fetal brain obtained as RNA from Stratagene or QUICK-Clone cDNA from Clontech), or cDNA from lymphoblastoid cell lines (European Collection of Cell Cultures, Porton Down, UK HRC collection, cell lines lines C0043, C0092, CO118, C0127, C0139, C0143, C0155, C0167, C0179, C0259, C0573). For the lymphoblastoid cells lines, total RNA was extracted from tissue culture cells with TRIzol reagent (GibcoBRL/Invitrogen). Total RNA was reverse transcribed into cDNA with Superscript II (Invitrogen) according to the manufacturer's instructions. The first-round amplification protocol used KOD Hot Start DNA polymerase (Novagen), <italic>Pfu</italic>-turbo Hotstart DNA polymerase (Stratagene) or <italic>Pfu </italic>DNA polymerase (Stratagene) using the manufacturers' recommended cycling profiles for 30 or 35 cycles in a 25 Î¼l reaction. Fragments were then diluted 1 in 50 with sterile water and 5 Î¼l used as template for a second 25 Î¼l amplification using the inner primer pair (see Additional data file 2 for variant amplification conditions). Additional enzymes including <italic>Pfu </italic>Ultra (Stratagene), Phusion (Finnzymes) and Expand 20 kb+ PCR (Roche) were trialed according to the manufacturers' recommendations. Fragments of the expected size were gel-purified, extracted with QIAquick spin columns (Qiagen), 3'-tailed with an adenosine residue using Amplitaq polymerase (Perkin Elmer) and subcloned using the pGEM-T Easy Vector System (Promega). Sequencing template was prepared either by plasmid miniprep or, in the majority of cases, by amplifying clone inserts with vector primers and cleaning the amplified fragment with either QIAquick Gel Extraction Kit or Shrimp alkaline phosphatase (1 unit, Amersham) and ExonucleaseI (1 unit, Amersham) (see below). Sequencing was performed with BigDye terminator v3 Cycle Sequencing Kits (Applied Biosystems) using vector primers, the inner nested primer pair and pairs of primers designed at 600-base intervals along the predicted gene sequence. Sequence was assembled using the contig assembly program CAP3 [<xref ref-type="bibr" rid="B32">32</xref>], aligned against the predicted transcript sequence and checked manually.</p>
+      </sec>
+      <sec>
+        <title>Sequence comparison and analysis</title>
+        <p>The 398 annotated ORF sequences were matched by blastn (version 2.0 MP-WashU, 10 April 2004 [<xref ref-type="bibr" rid="B33">33</xref>]) to cDNA collection databases MGC, FLJ, DKFZ, KIAA and Invitrogen. MSPcrunch [<xref ref-type="bibr" rid="B34">34</xref>] was used to parse blastn output and exclude matches with lower than 95% identity. ORFs were extracted from each of the matching cDNA sequences using the EMBOSS program getorf [<xref ref-type="bibr" rid="B35">35</xref>] and compared to the annotated ORFs using cross_match (P. Green, unpublished work). The GC content of the ORFs was calculated using the EMBOSS program geecee [<xref ref-type="bibr" rid="B35">35</xref>] and Perl scripts (version 5.004) were written to analyze and summarize data.</p>
+        <p>Microarray data indicating the distribution of expression for many human genes over 47 tissues using the Affymetrix human U95A array [<xref ref-type="bibr" rid="B22">22</xref>] was downloaded [<xref ref-type="bibr" rid="B23">23</xref>]. Tissue distribution data for 206 genes was obtained and a gene was called as expressed in a tissue sample if the average difference was &gt; 200 [<xref ref-type="bibr" rid="B22">22</xref>]. The tissue expression diversity of a gene was defined as the proportion of positive tissues. Where replicate experiments existed, the highest tissue-expression diversity value was used.</p>
+        <p>For SAGE data, the 398 target ORF sequences were matched by blastn [<xref ref-type="bibr" rid="B33">33</xref>] against Unigene (Homo sapiens, 12 May 2004 Build 170 [<xref ref-type="bibr" rid="B36">36</xref>]) and the best (highest identity greater than 99%) full-length matching UniGene cluster was assigned to each ORF. SAGEmap data [<xref ref-type="bibr" rid="B24">24</xref>] was downloaded [<xref ref-type="bibr" rid="B37">37</xref>] together with a file of tag frequencies [<xref ref-type="bibr" rid="B38">38</xref>].</p>
+        <p>A Perl program was then used to search these files for SAGE tags mapping to each UniGene cluster and the tag counts for each <italic>Homo sapiens Nla</italic>III library (GPL4) were determined. Tag counts were normalized to tags per million for each library, and then averaged to give a mean expression level. Diversity of expression was defined as the number of libraries in which a tag occurred.</p>
+      </sec>
+      <sec>
+        <title>Amplification and sequencing of genomic DNA for insertion/deletion analysis</title>
+        <p>Fifty nanograms of genomic DNA from 78 unrelated individuals (ECACC Human Random Control Panel) was amplified in 15 Î¼l reactions containing: 6.7 mM MgCl<sub>2</sub>, 67 mM Tris-HCl, 16.7 mM (NH<sub>4</sub>)<sub>2</sub>SO<sub>4 </sub>pH 8.8, 170 Î¼g/ml BSA, 10 mM 2-mercaptoethanol, 500 Î¼M each dATP, dCTP, dGTP, dTTP, 0.04 units/Î¼l Amplitaq, 0.75 Î¼M each primer, 10.13% sucrose, 0.0029% Cresol Red (sodium salt). Reactions were cycled in an MJ thermocycler at 94Â°C for 5 min, followed by 35 cycles of 30 seconds at 94Â°C; 30 sec at 65-66Â°C; 30 sec at 72Â°C, followed by a final 72Â°C for 5 min. PCR reactions were treated with 1 unit of shrimp alkaline phosphatase and 1 unit of exonuclease I in reaction buffer supplied by the manufacturer (USB, 10 Ã buffer - 200 mM Tris-HCl pH 8, 100 mM MgCl<sub>2</sub>) for each 10 Î¼l PCR reaction. Reactions were heated at 37Â°C for 30 min followed by 80Â°C for 15 min to inactivate the enzymes. PCR products were then sequenced from both ends using the primers used from the amplification step and BigDye terminator v3 Cycle Sequencing Kits (Applied Biosystems). Sequences were analyzed using GAP4 [<xref ref-type="bibr" rid="B39">39</xref>].</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Additional data files</title>
+      <p>The following additional data files are available with the online version of this article. Additional data file <xref ref-type="supplementary-material" rid="s1">1</xref> lists the 278 successfully cloned ORFs (see also [<xref ref-type="bibr" rid="B19">19</xref>]); Additional data file <xref ref-type="supplementary-material" rid="s2">2</xref> lists enzymes and templates used to amplify ORFs; Additional data file <xref ref-type="supplementary-material" rid="s3">3</xref> lists the sequence variation between ORF clone and genomic sequence; Additional data file <xref ref-type="supplementary-material" rid="s4">4</xref> lists the nested oligonucleotide primers designed for the 398 targeted genes; Additional data file <xref ref-type="supplementary-material" rid="s5">5</xref> contains the results of nonparametric ANOVA (Kruskal-Wallis Test) for chromosome 22 genes isolated as cDNA by the method described here only (SANGER), found in the cDNA collections only (OTHER), isolated by both ourselves and the cDNA collections (BOTH) or not isolated (NOT). Mean rank differences and <italic>p</italic>-values are given after Dunn's multiple comparisons test. Additional data file <xref ref-type="supplementary-material" rid="s6">6</xref> contains a list of the 278 cloned ORFs and Additional data file <xref ref-type="supplementary-material" rid="s7">7</xref> contains a list of the 398 target ORFs; both files are also available at [<xref ref-type="bibr" rid="B19">19</xref>].</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="s1">
+        <caption>
+          <title>Additional data file 1</title>
+          <p>The 278 successfully cloned ORFs</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s1.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="s2">
+        <caption>
+          <title>Additional data file 2</title>
+          <p>Enzymes and templates used to amplify ORFs</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s2.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="s3">
+        <caption>
+          <title>Additional data file 3</title>
+          <p>The sequence variation between ORF clone and genomic sequence</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s3.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="s4">
+        <caption>
+          <title>Additional data file 4</title>
+          <p>The nested oligonucleotide primers designed for the 398 targeted genes</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s4.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="s5">
+        <caption>
+          <title>Additional data file 5</title>
+          <p>The results of nonparametric ANOVA (Kruskal-Wallis Test) for chromosome 22 genes isolated as cDNA by the method described here only (SANGER), found in the cDNA collections only (OTHER), isolated by both ourselves and the cDNA collections (BOTH) or not isolated (NOT)</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s5.doc" mimetype="application" mime-subtype="msword">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="s6">
+        <caption>
+          <title>Additional data file 6</title>
+          <p>A list of the 278 cloned ORFs</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s6.fa" mimetype="text" mime-subtype="plain">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="s7">
+        <caption>
+          <title>Additional data file 7</title>
+          <p>A list of the 398 target ORFs</p>
+        </caption>
+        <media xlink:href="gb-2004-5-10-r84-s7.fa" mimetype="text" mime-subtype="plain">
+          <caption>
+            <p>Click here for additional data file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <sec>
+        <title>Acknowledgements</title>
+        <p>We thank Graeme Bethel for comments on the manuscript and Jorn Scharlemann and Chris Greenman for advice on statistics. B.A. was funded by the UK Medical Research Council and M.M. was supported by a Medical Research Council Studentship. This work was supported by the Wellcome Trust.</p>
+      </sec>
+    </ack>
+    <ref-list>
+      <ref id="B1">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vidal</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>A biological atlas of functional maps.</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>104</volume>
+          <fpage>333</fpage>
+          <lpage>339</lpage>
+          <pub-id pub-id-type="pmid">11239391</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(01)00221-5</pub-id>
+        </citation>
+      </ref>
+      <ref id="B2">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reboul</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vaglio</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Rual</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Lamesch</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Martinez</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Armstrong</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Jacotot</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bertin</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Janky</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>C. elegans ORFeome version 1.1: experimental verification of the genome annotation and resource for proteome-scale protein expression.</article-title>
+          <source>Nat Genet</source>
+          <year>2003</year>
+          <volume>34</volume>
+          <fpage>35</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="pmid">12679813</pub-id>
+          <pub-id pub-id-type="doi">10.1038/ng1140</pub-id>
+        </citation>
+      </ref>
+      <ref id="B3">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Uetz</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Giot</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Cagney</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Mansfield</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Judson</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Knight</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Lockshon</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Narayan</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Srinivasan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pochart</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A comprehensive analysis of protein-protein interactions in <italic>Saccharomyces cerevisiae</italic>.</article-title>
+          <source>Nature</source>
+          <year>2000</year>
+          <volume>403</volume>
+          <fpage>623</fpage>
+          <lpage>627</lpage>
+          <pub-id pub-id-type="pmid">10688190</pub-id>
+          <pub-id pub-id-type="doi">10.1038/35001009</pub-id>
+        </citation>
+      </ref>
+      <ref id="B4">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ito</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chiba</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ozawa</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yoshida</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hattori</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sakaki</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>A comprehensive two-hybrid analysis to explore the yeast protein interactome.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2001</year>
+          <volume>98</volume>
+          <fpage>4569</fpage>
+          <lpage>4574</lpage>
+          <pub-id pub-id-type="pmid">11283351</pub-id>
+          <pub-id pub-id-type="doi">10.1073/pnas.061034498</pub-id>
+        </citation>
+      </ref>
+      <ref id="B5">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marcotte</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Pellegrini</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>HL</given-names>
+            </name>
+            <name>
+              <surname>Rice</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Yeates</surname>
+              <given-names>TO</given-names>
+            </name>
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Detecting protein function and protein-protein interactions from genome sequences.</article-title>
+          <source>Science</source>
+          <year>1999</year>
+          <volume>285</volume>
+          <fpage>751</fpage>
+          <lpage>753</lpage>
+          <pub-id pub-id-type="pmid">10427000</pub-id>
+          <pub-id pub-id-type="doi">10.1126/science.285.5428.751</pub-id>
+        </citation>
+      </ref>
+      <ref id="B6">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gavin</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Bosche</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Krause</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Grandi</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Marzioch</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bauer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schultz</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Rick</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Michon</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Cruciat</surname>
+              <given-names>CM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional organization of the yeast proteome by systematic analysis of protein complexes.</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>415</volume>
+          <fpage>141</fpage>
+          <lpage>147</lpage>
+          <pub-id pub-id-type="pmid">11805826</pub-id>
+          <pub-id pub-id-type="doi">10.1038/415141a</pub-id>
+        </citation>
+      </ref>
+      <ref id="B7">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Armstrong</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Bertin</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ge</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Milstein</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Boxem</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Vidalain</surname>
+              <given-names>PO</given-names>
+            </name>
+            <name>
+              <surname>Han</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Chesneau</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A map of the interactome network of the metazoan <italic>C. elegans</italic>.</article-title>
+          <source>Science</source>
+          <year>2004</year>
+          <volume>303</volume>
+          <fpage>540</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="pmid">14704431</pub-id>
+          <pub-id pub-id-type="doi">10.1126/science.1091403</pub-id>
+        </citation>
+      </ref>
+      <ref id="B8">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ho</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Gruhler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Heilbut</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bader</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Millar</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Boutilier</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Systematic identification of protein complexes in Saccharomyces cerevisiae by mass spectrometry.</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>415</volume>
+          <fpage>180</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="pmid">11805837</pub-id>
+          <pub-id pub-id-type="doi">10.1038/415180a</pub-id>
+        </citation>
+      </ref>
+      <ref id="B9">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okazaki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Furuno</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kasukawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Adachi</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bono</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kondo</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nikaido</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Osato</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Saito</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Analysis of the mouse transcriptome based on functional annotation of 60,770 full-length cDNAs.</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>420</volume>
+          <fpage>563</fpage>
+          <lpage>573</lpage>
+          <pub-id pub-id-type="pmid">12466851</pub-id>
+          <pub-id pub-id-type="doi">10.1038/nature01266</pub-id>
+        </citation>
+      </ref>
+      <ref id="B10">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>S</surname>
+              <given-names>Wiemann</given-names>
+            </name>
+            <name>
+              <surname>Weil</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Gassenhuber</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Glassl</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ansorge</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Bocher</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Blocker</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bauersachs</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Blum</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Toward a catalog of human genes and proteins: sequencing and analysis of 500 novel complete protein coding human cDNAs.</article-title>
+          <source>Genome Res</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>422</fpage>
+          <lpage>435</lpage>
+          <pub-id pub-id-type="pmid">11230166</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.GR1547R</pub-id>
+        </citation>
+      </ref>
+      <ref id="B11">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strausberg</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Feingold</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Klausner</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>FS</given-names>
+            </name>
+          </person-group>
+          <article-title>The mammalian gene collection.</article-title>
+          <source>Science</source>
+          <year>1999</year>
+          <volume>286</volume>
+          <fpage>455</fpage>
+          <lpage>457</lpage>
+          <pub-id pub-id-type="pmid">10521335</pub-id>
+          <pub-id pub-id-type="doi">10.1126/science.286.5439.455</pub-id>
+        </citation>
+      </ref>
+      <ref id="B12">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ota</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Nishikawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Otsuki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sugiyama</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Irie</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wakamatsu</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Nagai</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Complete sequencing and characterization of 21,243 full-length human cDNAs.</article-title>
+          <source>Nat Genet </source>
+          <year>2004</year>
+          <volume>36</volume>
+          <fpage>40</fpage>
+          <lpage>45</lpage>
+          <pub-id pub-id-type="pmid">14702039</pub-id>
+          <pub-id pub-id-type="doi">10.1038/ng1285</pub-id>
+        </citation>
+      </ref>
+      <ref id="B13">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagase</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kikuno</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Ohara</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>The Kazusa cDNA project for identification of unknown human transcripts.</article-title>
+          <source>C R Biol</source>
+          <year>2003</year>
+          <volume>326</volume>
+          <fpage>959</fpage>
+          <lpage>966</lpage>
+          <pub-id pub-id-type="pmid">14744101</pub-id>
+          <pub-id pub-id-type="doi">10.1016/j.crvi.2003.09.020</pub-id>
+        </citation>
+      </ref>
+      <ref id="B14">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brizuela</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Richardson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Marsischky</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Labaer</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The FLEXGene repository: exploiting the fruits of the genome projects by creating a needed resource to face the challenges of the post-genomic era.</article-title>
+          <source>Arch Med Res</source>
+          <year>2002</year>
+          <volume>33</volume>
+          <fpage>318</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="pmid">12234520</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0188-4409(02)00372-7</pub-id>
+        </citation>
+      </ref>
+      <ref id="B15">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simpson</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Wellenreuther</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Poustka</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pepperkok</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wiemann</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Systematic subcellular localization of novel proteins identified by large-scale cDNA sequencing.</article-title>
+          <source>EMBO Rep</source>
+          <year>2000</year>
+          <volume>1</volume>
+          <fpage>287</fpage>
+          <lpage>292</lpage>
+          <pub-id pub-id-type="pmid">11256614</pub-id>
+          <pub-id pub-id-type="doi">10.1093/embo-reports/kvd058</pub-id>
+        </citation>
+      </ref>
+      <ref id="B16">
+        <citation citation-type="other">
+          <article-title>Japan Biological Information Research Center</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.jbirc.aist.go.jp/ORGANIZATION/All_Frameset_E.html"/>
+        </citation>
+      </ref>
+      <ref id="B17">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>JE</surname>
+              <given-names>Collins</given-names>
+            </name>
+            <name>
+              <surname>Goward</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>CG</given-names>
+            </name>
+            <name>
+              <surname>Smink</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Huckle</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Knowles</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bye</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Beare</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Dunham</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Reevaluating human gene annotation: a second-generation analysis of chromosome 22.</article-title>
+          <source>Genome Res</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>27</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="pmid">12529303</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.695703</pub-id>
+        </citation>
+      </ref>
+      <ref id="B18">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dunham</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Beare</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>JE</given-names>
+            </name>
+          </person-group>
+          <article-title>The characteristics of human genes: analysis of human chromosome 22.</article-title>
+          <source>Comp Func Genomics</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>635</fpage>
+          <lpage>646</lpage>
+          <pub-id pub-id-type="doi">10.1002/cfg.335</pub-id>
+        </citation>
+      </ref>
+      <ref id="B19">
+        <citation citation-type="other">
+          <article-title>The Sanger Institute: human chromosome 22 home</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.sanger.ac.uk/HGP/Chr22/ORFcloning"/>
+        </citation>
+      </ref>
+      <ref id="B20">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reboul</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vaglio</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Tzellas</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Thierry-Mieg</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Shin-i</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kohara</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Thierry-Mieg</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Thierry-Mieg</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Open-reading-frame sequence tags (OSTs) support the existence of at least 17,300 genes in <italic>C. elegans</italic>.</article-title>
+          <source>Nat Genet</source>
+          <year>2001</year>
+          <volume>27</volume>
+          <fpage>332</fpage>
+          <lpage>336</lpage>
+          <pub-id pub-id-type="pmid">11242119</pub-id>
+          <pub-id pub-id-type="doi">10.1038/85913</pub-id>
+        </citation>
+      </ref>
+      <ref id="B21">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mizuki</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ota</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ohno</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ando</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Katsuyama</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yamazaki</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Triplet repeat polymorphism in the transmembrane region of the MICA gene: a strong association of six GCT repetitions with Behcet disease.</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1997</year>
+          <volume>94</volume>
+          <fpage>1298</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="pmid">9037047</pub-id>
+          <pub-id pub-id-type="doi">10.1073/pnas.94.4.1298</pub-id>
+        </citation>
+      </ref>
+      <ref id="B22">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Su</surname>
+              <given-names>AI</given-names>
+            </name>
+            <name>
+              <surname>Cooke</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Ching</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Hakak</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Wiltshire</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Orth</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Vega</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Sapinoso</surname>
+              <given-names>LM</given-names>
+            </name>
+            <name>
+              <surname>Moqrich</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Large-scale analysis of the human and mouse transcriptomes.</article-title>
+          <source>Proc Natl Acad Sci USA </source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>4465</fpage>
+          <lpage>4470</lpage>
+          <pub-id pub-id-type="pmid">11904358</pub-id>
+          <pub-id pub-id-type="doi">10.1073/pnas.012025199</pub-id>
+        </citation>
+      </ref>
+      <ref id="B23">
+        <citation citation-type="other">
+          <article-title>Gene Expression Atlas</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://expression.gnf.org"/>
+        </citation>
+      </ref>
+      <ref id="B24">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lash</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Tolstoshev</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Schuler</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>Strausberg</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Riggins</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Altschul</surname>
+              <given-names>SF</given-names>
+            </name>
+          </person-group>
+          <article-title>SAGEmap: a public gene expression resource.</article-title>
+          <source>Genome Res</source>
+          <year>2000</year>
+          <volume>10</volume>
+          <fpage>1051</fpage>
+          <lpage>1060</lpage>
+          <pub-id pub-id-type="pmid">10899154</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.10.7.1051</pub-id>
+        </citation>
+      </ref>
+      <ref id="B25">
+        <citation citation-type="other">
+          <article-title>Mammalian gene collection</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://mgc.nci.nih.gov"/>
+        </citation>
+      </ref>
+      <ref id="B26">
+        <citation citation-type="other">
+          <article-title>Mammalian gene collection sequences</article-title>
+          <ext-link ext-link-type="uri" xlink:href="ftp://ftp1.nci.nih.gov/pub/MGC/fasta/hs_mgc_cds_nt.fasta.gz"/>
+        </citation>
+      </ref>
+      <ref id="B27">
+        <citation citation-type="other">
+          <article-title>DDBJ registration list</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.nedo.go.jp/bio-e/index_ddbj.html"/>
+        </citation>
+      </ref>
+      <ref id="B28">
+        <citation citation-type="other">
+          <article-title>List cDNAs</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://mips2.gsf.de/cgi-bin/proj/cDNA/html_cDNA_list"/>
+        </citation>
+      </ref>
+      <ref id="B29">
+        <citation citation-type="other">
+          <article-title>Welcome to HUGE protein database</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.kazusa.or.jp/huge"/>
+        </citation>
+      </ref>
+      <ref id="B30">
+        <citation citation-type="other">
+          <article-title>Resources Invitrogen.com</article-title>
+          <ext-link ext-link-type="uri" xlink:href="ftp://resources.invitrogen.com/pub/orflist/Human.zip"/>
+        </citation>
+      </ref>
+      <ref id="B31">
+        <citation citation-type="other">
+          <article-title>Primer3 software distribution</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www-genome.wi.mit.edu/genome_software/other/primer3.html"/>
+        </citation>
+      </ref>
+      <ref id="B32">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Madan</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>CAP3: A DNA sequence assembly program.</article-title>
+          <source>Genome Res</source>
+          <year>1999</year>
+          <volume>9</volume>
+          <fpage>868</fpage>
+          <lpage>877</lpage>
+          <pub-id pub-id-type="pmid">10508846</pub-id>
+          <pub-id pub-id-type="doi">10.1101/gr.9.9.868</pub-id>
+        </citation>
+      </ref>
+      <ref id="B33">
+        <citation citation-type="other">
+          <article-title>WU-BLAST</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://blast.wustl.edu"/>
+        </citation>
+      </ref>
+      <ref id="B34">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sonnhammer</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>An expert system for processing sequence homology data.</article-title>
+          <source>Proc Int Conf Intell Syst Mol Biol</source>
+          <year>1994</year>
+          <volume>2</volume>
+          <fpage>363</fpage>
+          <lpage>368</lpage>
+          <pub-id pub-id-type="pmid">7584413</pub-id>
+        </citation>
+      </ref>
+      <ref id="B35">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rice</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Longden</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Bleasby</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>EMBOSS: The European Molecular Biology Open Software Suite.</article-title>
+          <source>Trends Genet</source>
+          <year>2000</year>
+          <volume>16</volume>
+          <fpage>276</fpage>
+          <lpage>277</lpage>
+          <pub-id pub-id-type="pmid">10827456</pub-id>
+          <pub-id pub-id-type="doi">10.1016/S0168-9525(00)02024-2</pub-id>
+        </citation>
+      </ref>
+      <ref id="B36">
+        <citation citation-type="other">
+          <article-title>UniGene</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=unigene"/>
+        </citation>
+      </ref>
+      <ref id="B37">
+        <citation citation-type="other">
+          <article-title>SAGEmap</article-title>
+          <ext-link ext-link-type="uri" xlink:href="ftp://ftp.ncbi.nlm.nih.gov/pub/sage/map/Hs/NlaIII/SAGEmap_tag_ug-rel.zip"/>
+        </citation>
+      </ref>
+      <ref id="B38">
+        <citation citation-type="other">
+          <article-title>SAGE: tag library frequency</article-title>
+          <ext-link ext-link-type="uri" xlink:href="ftp://ftp.ncbi.nlm.nih.gov/pub/sage/extr/tag_lib_freq.zip"/>
+        </citation>
+      </ref>
+      <ref id="B39">
+        <citation citation-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bonfield</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Staden</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>A new DNA sequence assembly program.</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1995</year>
+          <volume>23</volume>
+          <fpage>4992</fpage>
+          <lpage>4999</lpage>
+          <pub-id pub-id-type="pmid">8559656</pub-id>
+        </citation>
+      </ref>
+    </ref-list>
+    <sec sec-type="display-objects">
+      <title>Figures and Tables</title>
+      <fig position="float" id="F1">
+        <label>Figure 1</label>
+        <caption>
+          <p>Summary of the ORF cloning method.</p>
+        </caption>
+        <graphic xlink:href="gb-2004-5-10-r84-1"/>
+      </fig>
+      <fig position="float" id="F2">
+        <label>Figure 2</label>
+        <caption>
+          <p>Sequence characteristics of cloned ORFs. <bold>(a) </bold>Plot of the distribution of the 398 chromosome 22 ORFs by GC content (%) and length (bases). Closed circles are the 331 ORFs that were isolated as acceptable clones (278) or as clones with the correct ORF but currently with a problem in the sequence (53). Dotted circles are the rest of the ORFs which were not amplifiable or clonable (67). <bold>(b) </bold>Overlap of chromosome 22 ORF clones isolated here with cDNA collections. Analysis of GC content and length for 398 chromosome 22 ORFs, split according to whether the gene has been isolated only by the strategy described here (SANGER, red circles), only in the cDNA collections (OTHER, green triangles), in both (BOTH, black circles), or not at all (NOT, yellow triangles).</p>
+        </caption>
+        <graphic xlink:href="gb-2004-5-10-r84-2"/>
+      </fig>
+      <fig position="float" id="F3">
+        <label>Figure 3</label>
+        <caption>
+          <p>Schematic Venn diagram showing the relationships of the set of ORF clones isolated here compared with the full-length cDNA clones in current high-throughput clone collections (227 maintain the correct reading frame at the amino acid level from Table 1) for the 398 annotated full-length chromosome 22 ORFs. The four different classes of genes are labeled as in the text and Figure 2b.</p>
+        </caption>
+        <graphic xlink:href="gb-2004-5-10-r84-3"/>
+      </fig>
+      <table-wrap position="float" id="T1">
+        <label>Table 1</label>
+        <caption>
+          <p>Analysis of genome-wide collections</p>
+        </caption>
+        <table frame="hsides" rules="groups">
+          <thead>
+            <tr>
+              <td align="left">cDNA collection</td>
+              <td align="center">Total cDNAs available</td>
+              <td align="center" colspan="5">Matches to 398 chromosome 22 ORFs at more than 95% identity*</td>
+            </tr>
+            <tr>
+              <td/>
+              <td/>
+              <td colspan="5">
+                <hr/>
+              </td>
+            </tr>
+            <tr>
+              <td/>
+              <td/>
+              <td align="center">Exact match</td>
+              <td align="center">Gapped match</td>
+              <td align="center">5' end match</td>
+              <td align="center">3' end match</td>
+              <td align="center">Internal match</td>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td align="left">MGC</td>
+              <td align="center">15,454</td>
+              <td align="center">193</td>
+              <td align="center">14</td>
+              <td align="center">21</td>
+              <td align="center">23</td>
+              <td align="center">17</td>
+            </tr>
+            <tr>
+              <td align="left">FLJ</td>
+              <td align="center">25,696</td>
+              <td align="center">72</td>
+              <td align="center">24</td>
+              <td align="center">25</td>
+              <td align="center">75</td>
+              <td align="center">25</td>
+            </tr>
+            <tr>
+              <td align="left">DKFZ</td>
+              <td align="center">9,271</td>
+              <td align="center">25</td>
+              <td align="center">10</td>
+              <td align="center">3</td>
+              <td align="center">49</td>
+              <td align="center">16</td>
+            </tr>
+            <tr>
+              <td align="left">KIAA</td>
+              <td align="center">2,035</td>
+              <td align="center">28</td>
+              <td align="center">1</td>
+              <td align="center">1</td>
+              <td align="center">18</td>
+              <td align="center">13</td>
+            </tr>
+            <tr>
+              <td align="left">Invitrogen</td>
+              <td align="center">4,361</td>
+              <td align="center">16</td>
+              <td align="center">0</td>
+              <td align="center">61</td>
+              <td align="center">1</td>
+              <td align="center">17</td>
+            </tr>
+            <tr>
+              <td align="left">Combined</td>
+              <td align="center">56,817</td>
+              <td align="center">240<sup>â </sup></td>
+              <td align="center">25</td>
+              <td align="center">27</td>
+              <td align="center">39</td>
+              <td align="center">14</td>
+            </tr>
+          </tbody>
+        </table>
+        <table-wrap-foot>
+          <p>*For definitions of match types see Materials and methods. Values are not significantly altered by raising the identity required to &gt;99%. <sup>â </sup>Only 227 (57% of the total ORFs) of these clones maintain the correct reading frame at the amino acid level.</p>
+        </table-wrap-foot>
+      </table-wrap>
+    </sec>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

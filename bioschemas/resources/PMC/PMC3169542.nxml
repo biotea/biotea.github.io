@@ -1,0 +1,967 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:41:35Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3169542" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3169542</identifier><datestamp>2011-09-19</datestamp><setSpec>plospath</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plospath</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Pathogens</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7366</issn>
+      <issn pub-type="epub">1553-7374</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3169542</article-id>
+      <article-id pub-id-type="pmcid">PMC3169542</article-id>
+      <article-id pub-id-type="pmc-uid">3169542</article-id>
+      <article-id pub-id-type="pmid">21931545</article-id>
+      <article-id pub-id-type="pmid">21931545</article-id>
+      <article-id pub-id-type="publisher-id">PPATHOGENS-D-11-00567</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.ppat.1002169</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Immunology</subject>
+            <subj-group>
+              <subject>Immune System</subject>
+              <subj-group>
+                <subject>Cytokines</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Immunity</subject>
+              <subj-group>
+                <subject>Immune Suppression</subject>
+                <subject>Innate Immunity</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Immune Response</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Clinical Immunology</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Gastroenterology and hepatology</subject>
+            <subj-group>
+              <subject>Liver diseases</subject>
+              <subj-group>
+                <subject>Infectious hepatitis</subject>
+                <subj-group>
+                  <subject>Hepatitis A</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Infectious Diseases</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Disruption of TLR3 Signaling Due to Cleavage of TRIF by the Hepatitis A Virus Protease-Polymerase Processing Intermediate, 3CD</article-title>
+        <alt-title alt-title-type="running-head">Disruption of TLR3 Signaling by Hepatitis A Virus</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Qu</surname>
+            <given-names>Lin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn1">
+<sup>Â¤</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Feng</surname>
+            <given-names>Zongdi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yamane</surname>
+            <given-names>Daisuke</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liang</surname>
+            <given-names>Yuqiong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lanford</surname>
+            <given-names>Robert E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Kui</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lemon</surname>
+            <given-names>Stanley M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Lineberger Comprehensive Cancer Center and the Division of Infectious Diseases, Department of Medicine, The University of North Carolina at Chapel Hill, Chapel Hill, North Carolina, United States of America</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Department of Virology and Immunology, Texas Biomedical Research Institute, San Antonio, Texas, United States of America</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>Department of Microbiology, Immunology and Biochemistry, University of Tennessee Health Science Center, Memphis, Tennessee, United States of America</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Racaniello</surname>
+            <given-names>Vincent</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Columbia University, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>smlemon@med.unc.edu</email></corresp>
+        <fn id="fn1" fn-type="current-aff">
+          <p><bold>Â¤:</bold> Current address: Department of Molecular Virology and Microbiology, Baylor College of Medicine, Houston, Texas, United States of America.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: LQ ZF DY KL SML. Performed the experiments: LQ ZF DY YL. Analyzed the data: LQ ZF DY REL KL SML. Contributed reagents/materials/analysis tools: KL. Wrote the paper: LQ REL KL SML.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>9</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>8</day>
+        <month>9</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>9</issue>
+      <elocation-id>e1002169</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>3</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>6</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Qu et al.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Toll-like receptor 3 (TLR3) and cytosolic RIG-I-like helicases (RIG-I and MDA5) sense viral RNAs and activate innate immune signaling pathways that induce expression of interferon (IFN) through specific adaptor proteins, TIR domain-containing adaptor inducing interferon-Î² (TRIF), and mitochondrial antiviral signaling protein (MAVS), respectively. Previously, we demonstrated that hepatitis A virus (HAV), a unique hepatotropic human picornavirus, disrupts RIG-I/MDA5 signaling by targeting MAVS for cleavage by 3ABC, a precursor of the sole HAV protease, 3C<sup>pro</sup>, that is derived by auto-processing of the P3 (3ABCD) segment of the viral polyprotein. Here, we show that HAV also disrupts TLR3 signaling, inhibiting poly(I:C)-stimulated dimerization of IFN regulatory factor 3 (IRF-3), IRF-3 translocation to the nucleus, and IFN-Î² promoter activation, by targeting TRIF for degradation by a distinct 3ABCD processing intermediate, the 3CD protease-polymerase precursor. TRIF is proteolytically cleaved by 3CD, but not by the mature 3C<sup>pro</sup> protease or the 3ABC precursor that degrades MAVS. 3CD-mediated degradation of TRIF depends on both the cysteine protease activity of 3C<sup>pro</sup> and downstream 3D<sup>pol</sup> sequence, but not 3D<sup>pol</sup> polymerase activity. Cleavage occurs at two non-canonical 3C<sup>pro</sup> recognition sequences in TRIF, and involves a hierarchical process in which primary cleavage at Gln-554 is a prerequisite for scission at Gln-190. The results of mutational studies indicate that 3D<sup>pol</sup> sequence modulates the substrate specificity of the upstream 3C<sup>pro</sup> protease when fused to it <italic>in cis</italic> in 3CD, allowing 3CD to target cleavage sites not normally recognized by 3C<sup>pro</sup>. HAV thus disrupts both RIG-I/MDA5 and TLR3 signaling pathways through cleavage of essential adaptor proteins by two distinct protease precursors derived from the common 3ABCD polyprotein processing intermediate.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>While viruses that target the liver often cause lengthy infections with considerable morbidity, there is limited understanding of how they evade host responses. We have studied hepatitis A virus (HAV), an important cause of acute hepatitis in humans. Although HAV infection typically results in hepatic inflammation, there is no disease in the liver during the first weeks of infection despite robust virus replication. This suggests that HAV either fails to stimulate or efficiently evades recognition by host innate immune sensors. Our prior work showed HAV disrupts RIG-I/MDA5 signaling by targeting MAVS, an essential adaptor protein, for degradation by 3ABC, a precursor of the only HAV protease, 3C<sup>pro</sup>. Here, we show here that a distinct viral processing intermediate, the 3CD protease-polymerase, disrupts TLR3 signaling by degrading its adaptor protein, TRIF. HAV has evolved a novel strategy to target two different host adaptor proteins with a single protease, using its 3D<sup>pol</sup> RNA polymerase to modify the substrate specificity of its 3C<sup>pro</sup> protease when fused to it in the 3CD precursor, thus allowing it to target non-canonical 3C<sup>pro</sup> recognition sequences in TRIF. This remarkable example of viral adaptation allows the virus to target two different host adaptor proteins with a single viral protease.</p>
+      </abstract>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Hepatitis A virus (HAV) <xref rid="ppat.1002169-Martin1" ref-type="bibr">[1]</xref> and hepatitis C virus (HCV) <xref rid="ppat.1002169-Lemon1" ref-type="bibr">[2]</xref> are positive-strand RNA viruses that cause hepatitis in humans. Despite important differences in virion structure, they share similar genome structures and many aspects of their replication strategies. Both viruses demonstrate strong tropism for the hepatocyte, and replicate their RNA genomes in replicase complexes contained within cytoplasmic vesicles. Both produce double-stranded RNA (dsRNA), a potent pathogen-associated molecular pattern (PAMP) recognized by innate immune sensors, as replication intermediates. Thus, both HAV and HCV face similar challenges posed by the innate immune system early in the course of hepatic infection. However, HAV and HCV infections have dramatically different outcomes. HAV never causes chronic hepatitis while HCV does so in the majority of those it infects. Prolonged shedding of HAV has been reported in premature infants <xref rid="ppat.1002169-Rosenblum1" ref-type="bibr">[3]</xref>, but long-term persistent infection has never been documented. This contrasts sharply with HCV, which persists for decades in the majority of those infected <xref rid="ppat.1002169-Lemon1" ref-type="bibr">[2]</xref>, <xref rid="ppat.1002169-Chisari1" ref-type="bibr">[4]</xref>.</p>
+      <p>Although factors controlling HCV infection outcome are poorly understood, T cell responses are critical [reviewed in 2]. T cells also appear to be important for HAV clearance <xref rid="ppat.1002169-Schulte1" ref-type="bibr">[5]</xref>, <xref rid="ppat.1002169-Fleischer1" ref-type="bibr">[6]</xref>. In both cases, the vigor and breadth of the virus-specific T response is likely to be profoundly influenced by early interferon (IFN) and other cytokine responses evoked by innate antiviral response pathways. How HCV both induces and disrupts signaling initiated by retinoic acid-inducible gene I (RIG-I) and Toll-like receptor 3 (TLR3) has been studied in depth. Proteolytic cleavage of mitochondrial antiviral signaling protein (MAVS, also known as IPS-1, VISA or Cardif) and TIR domain-containing adaptor inducing IFN-Î² (TRIF, also known as TICAM-1) by the NS3/4A serine protease of HCV effectively blocks the activation of IFN-regulatory factor 3 (IRF-3) and nuclear factor-ÎºB (NF-ÎºB) induced by RIG-I and TLR3, respectively <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref>, <xref rid="ppat.1002169-Meylan1" ref-type="bibr">[8]</xref>, <xref rid="ppat.1002169-Li2" ref-type="bibr">[9]</xref>. Much less is known about how HAV stimulates or antagonizes these innate signaling pathways.</p>
+      <p>Both clinical and experimental observations indicate that there is extensive replication of HAV within the liver prior to the onset of hepatic inflammation 3â4 weeks after infection <xref rid="ppat.1002169-Lemon2" ref-type="bibr">[10]</xref>. This lengthy, clinically silent incubation period suggests that HAV either blocks or otherwise fails to induce innate immune responses to dsRNA in the early stages of the infection. Consistent with this, HAV, like HCV, disrupts virus-induced signaling initiated by RIG-I-like receptors (RLRs, RIG-I and melanoma differentiation associated gene 5, MDA-5) <xref rid="ppat.1002169-Fensterl1" ref-type="bibr">[11]</xref>, <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. Our previous work shows that it does this by targeting MAVS for proteolysis by a precursor of its 3C<sup>pro</sup> cysteine protease, 3ABC <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. Cleavage requires both the protease activity of 3C<sup>pro</sup> and a transmembrane domain in 3A that directs 3ABC to the mitochondrial outer membrane where MAVS is localized <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. The shared capacity of the HAV 3ABC and HCV NS3/4A proteases to cleave MAVS and disrupt signaling from RLRs suggests that MAVS-dependent signaling is critical to antiviral defense in the liver (as it is in other tissues), but also indicates that NS3/4A cleavage of MAVS is not primarily responsible for the unique ability of HCV to establish persistent infections.</p>
+      <p>In addition to RLRs, TLR3 is functionally expressed in primary human hepatocytes <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>. During HCV infection, signaling initiated by TLR3 recognition of dsRNA is blocked by NS3/4A cleavage of the adaptor protein, TRIF <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref>, <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>. This led us to ask whether HAV also antagonizes TLR3 signaling. We show here that HAV strongly inhibits TLR3 signaling by also targeting TRIF for degradation. We demonstrate that TRIF is proteolytically cleaved by a distinct intermediate in the polyprotein processing cascade, the viral 3CD protease-polymerase. Cleavage requires expression of the cysteine protease activity of 3C<sup>pro</sup> fused <italic>in cis</italic> to 3D<sup>pol</sup> sequence. Mutational studies reveal an unexpected role of the 3D<sup>pol</sup> domain in modulating the substrate specificity of 3C<sup>pro</sup> such that it is able to achieve scission of non-canonical 3C<sup>pro</sup> cleavage sites within TRIF. The role played by the polymerase sequence in innate immune evasion represents a remarkable and unique mechanism of viral adaptation to the intrahepatic environment, and provides a second major evasive strategy by which HAV can escape innate immunity.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>HAV inhibits TLR3 signaling by reducing abundance of the adaptor protein TRIF</title>
+        <p>Although hepatocytes express TLR3, Huh7 hepatoma cells, which are permissive for replication of cell culture-adapted HAV, are defective in TLR3 signaling <xref rid="ppat.1002169-Li3" ref-type="bibr">[14]</xref>, <xref rid="ppat.1002169-Konduru1" ref-type="bibr">[15]</xref>. We therefore studied the impact of HAV infection on TLR3 signaling in Huh7 cells in which signaling was functionally reconstituted by retroviral transduction of TLR3 expression <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>. Previous studies of these cells include extensive control experiments showing that the activation of IRF-3 by extracellular poly-(I:C) occurs specifically through TLR3 signaling <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>. Control cells used in here included Huh7 cells transduced in parallel with a TIR-domain TLR3 deletion mutant or empty vector. Stimulation of Huh7-TLR3 cells with extracellular poly(I:C), a synthetic dsRNA analog, induced transcriptional activation of the IFN-Î² promoter and expression of the interferon-stimulated gene (ISG) ISG15, neither of which were observed in Huh7-ÎTIR or Huh7-Vector cells (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1A, B</xref>). However, prior infection of Huh7-TLR3 cells with HM175/18f, a cell culture-adapted HAV variant <xref rid="ppat.1002169-Lemon3" ref-type="bibr">[16]</xref>, strongly inhibited both responses (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1A, B</xref>). The expression levels of TLR3 and its ÎTIR mutant were not affected by HAV (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1B</xref>), suggesting that HAV does not disrupt TLR3 signaling by reducing TLR3 abundance. HAV inhibition of TLR3 signaling was also observed in Huh7.5-TLR3 cells, TLR3-reconstituted Huh-7.5 cells that are deficient in RIG-I signaling (Fig. S1A in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>) <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>.</p>
+        <fig id="ppat-1002169-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>HAV inhibits TLR3 signaling prior to IRF-3 phosphorylation and nuclear translocation.</title>
+            <p>(<bold>A</bold>) IFN-Î²-Luc reporter assay of Huh7-TLR3, Huh7-ÎTIR, and Huh7-Vector cells that were mock- or HAV-infected (m.o.i.â=â3) for 5 days and stimulated with extracellular poly(I:C) for 6 hours. Luciferase activity was normalized to an internal Î²-gal transfection control and is presented fold-induction by poly(I:C). (<bold>B</bold>) Immunoblots of the cells in panel (A) showing expression of TLR3 and TLR3-ÎTIR (top panel), HAV 3ABC and 3C<sup>pro</sup> (middle panel), and poly(I:C)-induced ISG15 (bottom panel). (<bold>C</bold>) IFN-Î²-Luc reporter assay of poly(I:C), TRIF, or IKKÎµ-induced activation of the IFN-Î² promoter in mock- or HAV-infected Huh7-TLR3 cells. (<bold>D</bold>) HAV infection blocks poly-(I:C)-induced dimerization of IRF-3 in Huh7/TLR3 cells. (top panel) Immunoblot of IRF-3 in extracts of HAV- or mock-infected cells resolved by native PAGE. Cells were lysed 2 hrs after addition of poly-(I:C) (50 Âµg/ml) to media. IRF-3 dimers are indicated by the arrowhead. (bottom panel) Immunoblot of native PAGE with 3C<sup>pro</sup>-specific antibody. (<bold>E</bold>) Laser-scanning confocal microscopy images of Huh7-TLR3 cells infected with HAV at low m.o.i. for 5 days and stimulated with poly-(I:C). Cells were labeled with antibodies to IRF-3 (red) and HAV (green), while nuclei were counterstained with DAPI (blue). The merged image on the right shows that IRF-3 has undergone nuclear translocation in two uninfected (âuâ, see middle panel) cells, but not in an infected cell (âiâ) containing HAV antigen.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002169.g001"/>
+        </fig>
+        <p>The IFN-Î² promoter is activated by overexpression of the TLR3 adaptor protein, TRIF, or downstream kinases, TBK-1 or IKKÎµ, that phosphorylate IRF-3 <xref rid="ppat.1002169-Fitzgerald1" ref-type="bibr">[17]</xref>. In HAV-infected cells, however, its activation by TRIF was reduced by about 50%, while there was no reduction in its stimulation by IKKÎµ (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1C</xref>). This result is similar to that reported previously by Fensterl et al. <xref rid="ppat.1002169-Fensterl1" ref-type="bibr">[11]</xref>. We also observed a marked reduction in the abundance of IRF-3 dimers in HAV-infected Huh7-TLR3 cells stimulated with extracellular poly-(I:C) (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1D</xref>). In addition, confocal microscopy revealed that IRF-3 did not undergo nuclear translocation upon poly-(I:C) stimulation of HAV-infected Huh7-TLR3 cells (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1E</xref>), while this occurred uniformly in uninfected cells (Fig. S1B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>, right panel). Importantly, HAV infection itself induced neither IRF-3 dimerization (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1D</xref>) nor nuclear translocation (Fig. S1B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>, left panel), indicating an absence of IRF-3 activation. Collectively, these results indicate that HAV infection disrupts the signal transduction pathway from TLR3 prior to the kinases responsible for IRF-3 activation.</p>
+        <p>Consistent with a defect in signaling at this level, we found the abundance of endogenous TRIF was substantially reduced in HAV-infected Huh7 or Huh7.5-TLR3 cells (<xref ref-type="fig" rid="ppat-1002169-g002">Fig. 2A</xref>). In addition, we could not detect TRIF in a stable Huh7 cell line harboring an autonomously replicating subgenomic HAV replicon (HAV-Bla cells) <xref rid="ppat.1002169-Yi1" ref-type="bibr">[18]</xref>, while TRIF expression was restored after eliminating the replicon by IFN treatment (Bla-C cells, <xref ref-type="fig" rid="ppat-1002169-g002">Fig. 2B</xref>). Thus, HAV infection disrupts TLR3 signaling by substantially decreasing the expression of TRIF.</p>
+        <fig id="ppat-1002169-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>TRIF abundance is reduced by HAV infection.</title>
+            <p>(<bold>A</bold>) (top panel) Endogenous TRIF in mock- or HAV-infected Huh7 and Huh7.5-TLR3 cells was immunoprecipitated using a rabbit anti-TRIF antibody <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref> and detected by immunoblotting. (middle panel) HAV infection was confirmed by immunoblot of viral proteins 3ABC and 3C<sup>pro</sup>. (bottom panel) Actin served as loading control. (<bold>B</bold>) Endogenous TRIF and 3ABC expression in the HAV replicon HAV-Bla cells and IFN-Î±-cured Bla-C cells <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref> (top). TRIF was detected as in panel A. â*â indicates a nonspecific protein band.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002169.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>The HAV 3CD protease-polymerase processing intermediate disrupts TLR3 signaling by cleaving TRIF</title>
+        <p>To determine whether a specific HAV protein or polyprotein processing intermediate was responsible for the reduction in TRIF abundance and, as a result, the inhibition of TLR3 signaling, we over-expressed individual proteins in Huh7-TLR3 cells, assessing the impact on poly(I:C)-induced, TLR3-dependent activation of the IFN-Î² promoter. While ectopic expression of the P1-2A structural proteins (P1-2A, VP0, VP3, VP1-2A) and 2B or 2C had little impact on TLR3 signaling, the processing intermediate 3ABCD and its 3CD protease-polymerase derivative strongly blocked promoter activation (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3A</xref>, top panel). An intermediate degree of suppression was observed with 2BC and 3C<sup>pro</sup> expression. The effect of 2BC on signaling may be related to its capacity to induce intracellular membrane rearrangement <xref rid="ppat.1002169-Teterina1" ref-type="bibr">[19]</xref>, and was not studied further.</p>
+        <fig id="ppat-1002169-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>The HAV 3CD protease-polymerase precursor disrupts TLR3 signaling through cleavage of TRIF.</title>
+            <p>(<bold>A</bold>) (top panel) IFN-Î²-Luc reporter assay of Huh7.5-TLR3 cells transfected with expression vectors encoding HA-tagged HAV proteins and stimulated with extracellular poly(I:C). (bottom panel) Extracts of similarly transfected cells were analyzed by immunoblotting with HA antibody to detect HAV proteins (solid star, middle panel), or with specific antibody to 3C<sup>pro</sup> (open star, bottom panel). â*â indicates a nonspecific protein band. 3CD and 3D<sup>pol</sup> were not visualized with any antibody. (<bold>B</bold>) HEK 293FT cells were co-transfected with vectors expressing TRIF and HA-tagged HAV proteins. Cell lysates were analyzed by immunoblotting for TRIF (top) or 3C<sup>pro</sup> and 3CD (bottom). In addition to the 90-kDa full-length TRIF, two TRIF fragments, 75- and 55-kDa in size (âÎâ), were detected in cells expressing 3CD. A nonspecific protein band detected by TRIF antibody (â*â) indicates equal loading. (<bold>C</bold>) IFN-Î²-Luc and PRD-II-Luc (NF-ÎºB specific) reporter assays of Hela cells transfected with control or 3CD expression vectors and stimulated with extracellular poly(I:C). Increasing amounts of 3CD expression vector (50 ng and 100 ng) were used.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002169.g003"/>
+        </fig>
+        <p>The common presence of the 3C<sup>pro</sup> cysteine protease domain in 3ABCD, 3CD and 3C<sup>pro</sup> suggested it may play a role in disrupting TLR3 signaling. However, 3C<sup>pro</sup> alone was significantly less inhibitory than either 3CD or 3ABCD (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3A</xref>, top panel, p&lt;0.002 by Student's t test), despite being expressed in much greater abundance (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3A</xref>, lower panel). Since 3ABCD is the precursor of 3CD, its inhibitory effect on TLR3 signaling could be due entirely to 3CD. 3ABC, which is also derived from 3ABCD and targets MAVS for cleavage <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>, had no effect. Consistent with these results, the co-expression of 3CD, but not 3C<sup>pro</sup> or 3D<sup>pol</sup>, or a combination of these two proteins, resulted in a marked reduction of ectopically expressed TRIF in HEK 293FT cells (in which endogenous TRIF expression is negligible) (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3B</xref>). The reduced abundance of full-length TRIF in cells expressing 3CD was accompanied by the appearance of two TRIF fragments with apparent molecular masses of 75 and 55 kDa that were detected by an antibody recognizing residues surrounding Ser-219 (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3B</xref>, open triangles). Since full-length TRIF has a mass of â¼90-kDa, these are likely to be overlapping degradation products. An antibody to residues 4â31 of TRIF identified an additional fragment with an apparent mass of 20 kDa, likely derived from the N-terminus of TRIF (not shown). The accumulation of at least three different fragments suggests that 3CD causes multiple scission events within TRIF. 3CD-mediated cleavage of TRIF was not dependent upon the cell culture-adaptive mutations present in the 3CD sequence of the HM175/18f virus <xref rid="ppat.1002169-Lemon3" ref-type="bibr">[16]</xref> used in these studies, as it was also observed with ectopically expressed, wild-type 3CD (Fig. S3 in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). Consistent with these observations, 3CD overexpression resulted in a marked reduction in poly-I:C-stimulated IFN-Î² and PRD-II (NF-ÎºB-responsive) promoter activity in HeLa cells (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3C</xref>). Thus, 3CD effectively antagonizes an endogenous TLR3 pathway, as well as the reconstituted pathway in Huh7-TLR3 cells.</p>
+        <p>Since co-expression of 3C<sup>pro</sup> and 3D<sup>pol</sup> did not result in detectable TRIF cleavage (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3B</xref>), efficient scission appears to require expression of the protease and polymerase domains <italic>in cis</italic>. 3CD is known to be a catalytically active precursor of 3C<sup>pro</sup>
+<xref rid="ppat.1002169-Probst1" ref-type="bibr">[20]</xref>, thus 3CD could directly cleave TRIF. To test this hypothesis, we expressed a 3CD mutant with an Ala substitution of the active-site nucleophile, Cys-172 (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4A</xref>). This lacked any capacity to cleave ectopically expressed TRIF (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4B</xref>), confirming that the protease activity of 3CD is responsible. In contrast, a mutant in which the conserved GDD motif required for RNA-dependent RNA polymerase activity was ablated (3CD-GAA) remained capable of cleaving TRIF. The 3CD-GAA mutant also inhibited poly(I:C)-induced activation of the IFN-Î² promoter in Huh7-TLR3 cells, whereas the proteinase-deficient 3CD-C172A mutant did not (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4C</xref>). Collectively, the results shown in <xref ref-type="fig" rid="ppat-1002169-g003">Figs. 3</xref> and <xref ref-type="fig" rid="ppat-1002169-g004">4</xref> indicate that TRIF cleavage results from the 3C<sup>pro</sup> protease acting <italic>in cis</italic> with 3D<sup>pol</sup>.</p>
+        <fig id="ppat-1002169-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>3CD cleavage of TRIF requires both 3C<sup>pro</sup> protease activity and 3D<sup>pol</sup>
+<italic>in cis</italic>.</title>
+            <p>(<bold>A</bold>) Organization of 3CD, showing the position of Cys-172 at the 3C<sup>pro</sup> active site and the GDD polymerase motif in 3D<sup>pol</sup>. (<bold>B</bold>) Huh7 cells were co-transfected with vectors expressing TRIF and 3C, 3D, or 3CD, as indicated. Cell extracts were analyzed by immunoblotting for TRIF. TRIF cleavage fragments are marked (âÎâ). A nonspecific protein band detected by TRIF antibody (â*â) indicates equal loading. (<bold>C</bold>) IFN-Î²-Luc reporter assay of Huh7-TLR3 cells transfected with vectors expressing 3CD or the related C172A and GAA mutants, and stimulated with extracellular poly-(I:C). (<bold>D</bold>) Alignment of 3C<sup>pro</sup> consensus cleavage sequence and possible cleavage sites in TRIF (left), and locations of these sites relative to the TRAF6-binding motifs (open star) and TIR and RHIM domains (grey boxes) within TRIF (right). (<bold>E</bold>) Identification of Q190 and Q554 as 3CD cleavage sites in TRIF. HEK 293FT cells were co-transfected with vectors expressing TRIF mutants and 3CD, and cell extracts were analyzed by immunoblotting of TRIF. TRIF cleavage fragments and a nonspecific protein band were marked as in (B). A TRIF degradation band (solid triangle), independent of 3CD cleavage, was occasionally observed. (<bold>F</bold>) A model for 3CD cleavage of TRIF. Cleavage at the preferred primary Q554 site induces a conformational change that exposes the Q190 site for the second cleavage.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002169.g004"/>
+        </fig>
+        <p>To assess whether TRIF is cleaved by a 3C<sup>pro</sup>â3D<sup>pol</sup> complex forming after auto-processing of 3CD, we constructed 3CD mutants with modifications at the 3Câ3D junction that accelerate or retard autoprocessing. The 3Câ3D junction is comprised of a primary 3C<sup>pro</sup> cleavage site, IESQ<sup>â</sup>R, and an alternative cleavage site, EFTQ<sup>â</sup>C, separated by 9 residues (Fig. S2A in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). In one mutant, 3CD-QQRR, both cleavage sites were abolished by Gln-to-Arg mutations such that expression resulted only in the 3CD precursor (Fig. S2B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). In the other, 3CD-LWG, the primary cleavage site was optimized to LWSQâG, making it identical to the efficiently cleaved 2Câ3A junction (Fig. S2A in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). Expression of 3CD-LWG led to less 3CD precursor, and a greater abundance of mature 3C<sup>pro</sup> due to enhanced 3C/3D processing (Fig. S2B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). While the 3CD-QQRR mutant remained capable of cleaving TRIF, the hyper-processing 3CD-LWG mutant did not (Fig. S2C in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). We conclude that the cleavage of TRIF results from the cysteine protease activity of the unprocessed 3CD sequence.</p>
+        <p>TRIF is cleaved by cellular caspases at residues D281 and D289 under conditions favoring apoptosis, including over-expression of TRIF <xref rid="ppat.1002169-Rebsamen1" ref-type="bibr">[21]</xref>. This generates a 38-kDa fragment that is distinct from those generated by 3CD (Fig. S4A in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). Moreover, a D281E-D289E (DDEE) TRIF mutant resistant to caspase cleavage <xref rid="ppat.1002169-Rebsamen1" ref-type="bibr">[21]</xref> remained subject to cleavage by 3CD (Fig. S4A in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). Thus, TRIF is not degraded indirectly by cellular caspases when 3CD is expressed. While a broadly active caspase inhibitor, z-VAD-fmk, partially inhibited the 3CD-mediated cleavage of TRIF (Fig. S4B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>), z-VAD-fmk is known to inhibit cellular proteases other than caspases that, like 3C<sup>pro</sup>, contain cysteine nucleophiles <xref rid="ppat.1002169-Misaghi1" ref-type="bibr">[22]</xref>.</p>
+        <p>To show that TRIF is cleaved directly by the viral protease, we attempted to purify GST-3CD and GST-3C<sup>pro</sup> fusion proteins produced in <italic>E. coli.</italic> The GST-3CD fusion product formed an insoluble pellet upon extraction, precluding its purification. This likely reflects the extreme insolubility of 3D<sup>pol</sup>, which has hindered previous efforts to purify the HAV polymerase <xref rid="ppat.1002169-Tesar1" ref-type="bibr">[23]</xref>. We were able to produce purified GST-3C<sup>pro</sup>. In cell-free cleavage assays, this demonstrated a limited ability to process [<sup>35</sup>S]-labeled TRIF prepared by <italic>in vitro</italic> translation (Fig. S5 in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>), but did produce the expected â¼75-, â¼55-, â¼27-, and â¼18-kDa cleavage products when incubated with full-length TRIF, or fragments representing amino acids 1â372 or 373â712 of TRIF, <italic>in vitro</italic> (Fig. S5B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). Taken collectively with the data shown in Fig. S4 in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>, these results confirm that TRIF cleavage is caused by the HAV protease directly, and not by indirect activation of a caspase or other cellular protease. The incomplete proteolysis of TRIF observed in the cell-free cleavage reactions is consistent with the partial inhibition of IFN-Î² promoter activation by poly-(I:C) we observed following high-level expression of 3C<sup>pro</sup> in <xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3A</xref>. Thus, while 3C<sup>pro</sup> is capable of cleaving TRIF, its capacity to do so is much less than 3CD.</p>
+      </sec>
+      <sec id="s2c">
+        <title>3CD cleaves TRIF at Gln-190 and Gln-554 in an ordered process</title>
+        <p>We next examined the sequence of human TRIF for potential 3C<sup>pro</sup> cleavage sites. Previous studies of 3C<sup>pro</sup> substrate specificity have documented a preference for Gln at the P1 position and a consensus sequence (L,V,I)X(S,T)QâX where X is any amino acid <xref rid="ppat.1002169-Seipelt1" ref-type="bibr">[24]</xref>. The 3ABC cleavage site in MAVS, LASQâV, fits this consensus perfectly <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. In contrast, TRIF does not contain any consensus 3C<sup>pro</sup> cleavage sites, although several sites are partial fits that could serve as non-canonical cleavage sites with consensus P1 and P2 resides. We focused on two clusters of such sites (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4D</xref>) that could potentially generate cleavage fragments of appropriate size (75, 55, and 20 kDa, see above). We constructed a series of mutants in which the invariant Gln at each potential P1 position was substituted with Arg, and examined their cleavage by 3CD. 3CD cleavage was not affected by Q211R, Q581R-Q583R, or Q612R mutations (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4E</xref>, left), excluding these as 3CD cleavage sites. In contrast, a Q190R mutation blocked the cleavage event that generates the 55 kDa but not the 75 kDa fragment, while Q552R-Q554R mutations completely abolished 3CD cleavage of TRIF (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4E</xref>, left). We then constructed individual Q552R and Q554R mutants, and showed the loss of cleavage in Q552R-Q554R was due to Q554R (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4E</xref>, right). These results establish Q190 and Q554 as 3CD cleavage sites within TRIF, and clarify the identities of the observed TRIF cleavage fragments. The 75 kDa fragment results from cleavage at Q554 and corresponds to aa 1â554 of TRIF. This fragment is further cleaved at Q190, giving rise to the 55-kDa and 20-kDa fragments that correspond to aa 191â554 and 1â190, respectively.</p>
+        <p>The different effects of the Q190R and Q554R mutations on 3CD cleavage of TRIF indicate that 3CD cleaves TRIF in an ordered process. The fact that cleavage at Q190 cannot proceed when cleavage at Q554 is blocked (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4E</xref>) suggests that the cleavage at Q554 is a prerequisite to cleavage at Q190. We thus propose a âtwo-stepâ model for the 3CD cleavage of TRIF, in which primary cleavage at Q554 site induces a conformational change that exposes the Q190 site, allowing the second cleavage to occur (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4F</xref>).</p>
+        <p>The N-terminal region of TRIF contains three TRAF6-binding motifs that are important for activation of the transcription factors NF-ÎºB and IRF-3 in TLR3 signaling <xref rid="ppat.1002169-Sasai1" ref-type="bibr">[25]</xref>, <xref rid="ppat.1002169-Sato1" ref-type="bibr">[26]</xref>. Q190 is located between the first and second of these TRAF6-binding motifs, while the Q554 cleavage site is located between the TIR domain and RHIM motif (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4D</xref>, right), both important for transcriptional activation of IFN-Î² <xref rid="ppat.1002169-Kaiser1" ref-type="bibr">[27]</xref>. Cleavage at these residues could yield fragments with reduced signaling ability, or potentially dominant negative activity against signal transduction. We thus ectopically expressed the predicted, individual 3CD-generated TRIF fragments: N-190 (aa 1â190), N-554 (aa 1â554), M-364 (aa 191â554) and C-158 (aa 555â712) (Fig. S6A in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>), and examined their abilities to activate IFN-Î² and NF-ÎºB-specific (PRD-II) promoters in luciferase reporter assays. While N-190 and C-158 were incapable of activating either promoter, overexpression of N-554 and M-364 stimulated both the IFN-Î² and PRD-II promoters (Fig. S6B in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>, left and right, respectively). When co-expressed with wild-type TRIF at a 1â¶1 ratio, these fragments did not demonstrate any dominant negative effects (Fig. S6C in <xref ref-type="supplementary-material" rid="ppat.1002169.s001">Text S1</xref>). Other evidence suggests they do not transduce signals from TLR3 (data not shown).</p>
+      </sec>
+      <sec id="s2d">
+        <title>Altered substrate specificity of 3CD contributes to TRIF cleavage</title>
+        <p>We next addressed the question of why TRIF is cleaved by 3CD but very inefficiently or not at all by 3C<sup>pro</sup>. The ability of 3ABC to cleave MAVS, while 3C<sup>pro</sup> cannot, is related to its unique mitochondrial targeting <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. To determine if differences in intracellular localization could similarly account for the unique activity of 3CD, we compared the cellular localization of 3C<sup>pro</sup> and 3ABCD by confocal microscopy. When expressed ectopically with an N-terminal Flag tag, 3C<sup>pro</sup> was diffusely present throughout the cytoplasm, while Flag-3ABC, included as a control, demonstrated prominent mitochondrial localization, as reported previously <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref> (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5A</xref>). In contrast, 3ABCD, expressed with a C-terminal V5 tag, was present at much lower abundance and with a perinuclear, ER-like distribution. Both 3CD and 3ABCD are known to be subject to ubiquitin-mediated proteolysis <xref rid="ppat.1002169-Losick1" ref-type="bibr">[28]</xref>, potentially explaining the low abundance of 3ABCD-V5, much of which is likely processed to 3CD or 3D<sup>pol</sup>. Confocal microscopy of cells ectopically expressing both TRIF and proteolytically-inactive C172A mutants of 3C<sup>pro</sup> and 3CD revealed no evidence for specific co-localization of these proteins (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5B</xref>). Thus, the unique ability of 3CD to cleave TRIF is not due to its localization to a TRIF-rich compartment.</p>
+        <fig id="ppat-1002169-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Altered substrate specificity of 3CD contributes to TRIF cleavage.</title>
+            <p>(<bold>A</bold>) Confocal immunofluorescence microscopic images showing subcellular localization of Flag- or V5-tagged 3C<sup>pro</sup>, 3ABCD and 3ABC (green), merged with DAPI (blue) staining of nucleus (top) and additional MitoTracker (red) staining of mitochondria (bottom). (<bold>B</bold>) Confocal immunofluorescence microscopic images of cells expressing C-terminally Flag-tagged full-length TRIF and N-terminally HA-tagged protease-inactive mutant (C172A) forms of 3C<sup>pro</sup> and 3CD. No co-localization is evident between 3C<sup>pro</sup> or 3CD proteins and TRIF. (<bold>C</bold>) Alignment of the 3C<sup>pro</sup> consensus cleavage sequence and TRIF 3CD cleavage sites. The P4 positions at the Q190 and Q554 cleavage sites (D187 and E551, respectively) were substituted with the 3C<sup>pro</sup>-preferred Leu (underlined) in the D187L, E551L and DELL (D187L-E551L) double mutant. (<bold>D</bold>) Cleavage of TRIF mutants by 3C<sup>pro</sup> and 3CD. HEK 293FT cells were co-transfected with vectors expressing TRIF mutants and 3C<sup>pro</sup> or 3CD (lane 1 to 12), or transfected with full-length or truncated TRIF constructs corresponding to the cleavage fragments (lane 13â16). Cell extracts were analyzed by immunoblotting of TRIF. The D187L mutant and DELL double mutant were cleaved by both 3C<sup>pro</sup> and 3CD, resulting in intermediate cleavage fragments (solid triangle) different from that of 3CD-cleaved wild-type (WT) TRIF (open triangle, 75-kDa), but the end product was the same (open triangle, 55-kDa). A nonspecific protein band (â*â) detected by TRIF antibody indicates equal loading. (<bold>E</bold>) Schematic showing TRIF fragments created by different cleavage order at Q190 vs. Q554, corresponding to cleavage fragments observed in (C) and (D).</p>
+          </caption>
+          <graphic xlink:href="ppat.1002169.g005"/>
+        </fig>
+        <p>The noncanonical nature of the 3CD cleavage sites in TRIF, DWSQ<sub>190</sub> and EQSQ<sub>554</sub>, in which the P4 position is occupied by an amino acid residue with an acidic (Asp or Glu) rather than hydrophobic side chain (Leu, Ile or Val) (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5C</xref>), could explain why TRIF is not efficiently cleaved by 3C<sup>pro</sup>. The fact that they are nonetheless cleaved by 3CD suggests that the substrate specificity of 3CD may differ from that of 3C<sup>pro</sup> in tolerating or possibly preferring an acidic residue at the P4 position. To assess this potential difference in substrate specificity, we altered the P4 positions within the non-canonical cleavage sites in TRIF, substituting the acidic P4 residues in each with Leu, thereby generating consensus 3C<sup>pro</sup> sites (TRIF-D187L and TRIF-E551L, respectively, <xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5C</xref>). When expressed ectopically, the D187L mutant, now carrying a LWSQ cleavage sequence, was readily processed by both 3C<sup>pro</sup> and 3CD, yielding a novel fragment with an apparent molecular mass of 70 kDa (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5D</xref>, lane 5, 6). This 70 kDa fragment co-migrated in SDS-PAGE with the TRIF C-522 fragment corresponding to aa 191â712 (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5D</xref>, compare lane 5 vs. 14), confirming that cleavage had occurred at Q190. As expected, this fragment was not further cleaved by 3C<sup>pro</sup>, but was further processed by 3CD at Q554, generating the same 55 kDa fragment produced from wild-type TRIF by 3CD (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5D</xref>, lane 3 vs. 6). On the other hand, there was no difference in the processing of the wild-type and the E551L mutant TRIF, the latter of which was only marginally cleaved by 3C<sup>pro</sup> despite carrying a canonical LQSQ sequence (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5D</xref>, lane 7 vs. 8). Nonetheless, when both cleavage sites were changed to a 3C<sup>pro</sup> consensus, the resulting double mutant (TRIF-DELL) was readily cleaved by both 3C<sup>pro</sup> and 3CD (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5D</xref>, lanes 11 and 12). This produced a 70 kDa fragment similar to that observed with the D187L mutant, suggesting that the order of cleavage had been altered to occur first at Q190 (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5E</xref>). Additional processing led to the 55 kDa fragment, although there was less of this product produced by 3C<sup>pro</sup> than 3CD. Collectively, these results demonstrate that 3CD differs in its substrate specificity from 3C<sup>pro</sup>, tolerating an acidic residue at the P4 position while 3C<sup>pro</sup> does not, and that this accounts, at least in part, for its ability to cleave TRIF.</p>
+      </sec>
+      <sec id="s2e">
+        <title>TLR3 signaling and cellular permissiveness to HAV</title>
+        <p>The ability of HAV to antagonize TLR3 signaling is likely to have evolved because antiviral responses evoked by TLR3 act in someway to restrict infection. To test this hypothesis, we assessed viral replication by a variety of methods over a range of multiplicity of infection. Immunoblots demonstrated that viral protein abundance (3C<sup>pro</sup>) was reduced in Huh7.5-TLR3 cells infected at an m.o.i. of 3, compared to cells expressing empty vector or TLR3-ÎTIR (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1B</xref>, lane 4 vs. lanes 2 or 6). Similarly, the fluorescence intensity of HAV antigen was noticeably less in infected Huh7.5-TLR3 cells compared with the control ÎTIR cells (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6A</xref>), although the proportion of cells expressing HAV antigen was not reduced 5 days after infection at an m.o.i. of 1. HAV antigen-specific ELISA assays also showed that Huh7.5-TLR3 cells (infected at an m.o.i. of 0.05) produced less than 50% of the amount of assembled HAV capsid antigen produced by cells expressing empty vector, or a TLR3 mutant incapable of binding dsRNA (TLR3-H539E) <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref> (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6B</xref>). Infectious virus yields were also reduced (by 30â60%) in Huh7.5-TLR3 cells infected at low m.o.i. (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6C</xref>).</p>
+        <fig id="ppat-1002169-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>TLR signaling and TRIF regulate cellular permissiveness for HAV.</title>
+            <p>(<bold>A</bold>) Immunofluorescence microscopy of HAV antigen in Huh7.5-TLR3, -ÎTIR, and -Vector cells 5 days after infection of the cells with HAV at an m.o.i. of 1. (<bold>BâC</bold>) Cells were infected with virus at an m.o.i. of 0.05. Virus yields were determined in harvests of the entire culture (cells plus supernatant media) after 3 freeze-thaw cycles. Lysates were clarified by brief centrifugation and supernatants were used for (<bold>B</bold>) HAV antigen ELISA, or (<bold>C</bold>) quantal infectivity assay. (<bold>D</bold>) Paired cultures of Huh7.5-TLR3 and -H539E cells were inoculated with HAV at m.o.i.â=â5 to determine one-step replication kinetics. After 1 hr adsorption, cells were washed extensively with PBS, and refed with fresh medium. Culture supernatants (extracellular) and cell lysates (intracellular) were harvested at the times indicated and infectious virus titer determined. (<bold>E</bold>) Immunoblot showing TRIF expression in PH5CH8 cells transduced with lentivirus expressing TRIF-specific shRNA or non-targeting (NonT) shRNA. GAPDH served as a loading control. (<bold>F</bold>) IFN-Î² promoter activity in cells from panel (E) with (grey bar) and without (black bar) poly-(I:C) stimulation. (<bold>G</bold>) HAV-specific immunofluorescence in PH5CH8 cells after depletion of TRIF. Similar antigen expression was observed very rarely in control cells inoculated in parallel with HAV.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002169.g006"/>
+        </fig>
+        <p>Somewhat different results were obtained in one-step growth assays done at an m.o.i. of 5.0. HAV replicates very slowly compared to other picornaviruses, with an infectious cycle of approximately 24 hrs evident in such assays (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6D</xref>). Somewhat surprisingly, we observed no differences in the kinetic of intracellular infectious virus accumulation between Huh7.5-TLR3 vs. H539E cells, up to 24 hrs after inoculation of the cells under one-step growth conditions (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6D</xref>, left). Subsequent to this time point, however, less virus was produced in cells expressing functional TLR3. This restriction on virus replication was also reflected in slightly lower (about half log<sub>10</sub>) yields in extracellular infectious virus released from the cells (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6D</xref>). Collectively, these data suggest that TLR3 signaling imposes a modest restriction on HAV infection, particularly at low m.o.i., and after the first round of viral RNA replication. This is reminiscent of the effects of TLR3 expression on low vs. high m.o.i. HCV infections that we have observed in previous studies <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>.</p>
+        <p>To confirm these findings, we sought evidence of a gain in permissiveness for HAV infection in PH5CH8 cells in which TLR3 signaling was impaired by RNAi-mediated depletion of TRIF. PH5CH8 cells are T-antigen transformed adult human hepatocytes that possess robust TLR3 and RLR signaling <xref rid="ppat.1002169-Li3" ref-type="bibr">[14]</xref> and are generally nonpermissive for HAV. TRIF was depleted by lentiviral transduction of a TRIF-specific short-hairpin RNA (shRNA) (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6E</xref>), eliminating IFN-Î² promoter activation by extracellular poly-I:C (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6F</xref>). The cells were infected with HAV at an m.o.i. of 1, and examined 8 days later by immunofluorescence microscopy for viral antigen expression. This was rarely observed in PH5CH8 cells transduced with a non-targeting control shRNA, but detected in â¼2% of the TRIF depleted cells (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6G</xref>). Similar results were obtained in cells transduced with a TLR3-specific shRNA (data not shown).</p>
+        <p>Thus, reconstitution of TLR3 signaling in Huh7.5 cells results in a modest inhibition of HAV infection, while the ablation of TLR3 signaling in PH5CH8 cells provides a significant replication advantage to HAV. In both cases, these effects are of relatively small magnitude, likely reflecting the presence of redundant innate antiviral defense mechanisms, including responses generated by RLRs or protein kinase R. The abrogation of pro-inflammatory signals, the effects of which cannot be deduced from in vitro experiments, may represent a more substantial advantage to the virus in vivo in HAV-infected persons.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>Here, we show that HAV disrupts TLR3 signaling by targeting the essential adaptor protein TRIF for degradation by the 3CD protease-polymerase processing intermediate. The ability of poly-I:C to stimulate the IFN-Î² promoter or induce the expression of ISGs when added to media was markedly attenuated in HAV-infected Huh7 hepatoma cells in which TLR3 expression had been reconstituted by retroviral gene transduction (<xref ref-type="fig" rid="ppat-1002169-g001">Fig. 1A and B</xref>). This disruption of TLR3 signaling was associated with a loss of detectable TRIF (<xref ref-type="fig" rid="ppat-1002169-g002">Fig. 2</xref>), and could be recapitulated by ectopic expression of 3ABCD or 3CD in both Huh7-TLR3 cells and HeLa cells which possess an endogenous TLR3 signaling pathway (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3</xref>). The loss of TRIF expression was linked to the cysteine protease activity residing within the 3C sequence of 3CD, which we demonstrate cleaves TRIF sequentially at two noncanonical 3C<sup>pro</sup> cleavage sites (<xref ref-type="fig" rid="ppat-1002169-g004">Fig. 4B and E</xref>). Additional studies suggested that this is due to the ability of the 3D sequence in 3CD to alter the substrate specificity of the protease such that it better accommodates the acidic residues present at the P4 position of cleavage sites in TRIF (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5D</xref>). These observations add to our understanding of the pathogenesis of HAV, a significant human pathogen that has received scant attention in recent years.</p>
+      <p>In previous work, we demonstrated that HAV also antagonizes the induction of IFN responses by the cytosolic RLR pattern recognition receptors, RIG-I and MDA-5, by inducing proteolysis of the adaptor protein MAVS <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref> (<xref ref-type="fig" rid="ppat-1002169-g007">Fig. 7</xref>). As we report here with poly-I:C-induced TLR3 signaling, we found that ectopically expressed 3ABCD was capable of disrupting Sendai virus-induced RIG-I signaling. 3ABCD results from secondary processing of the HAV polyprotein at the P2-P3 junction, and is itself subject to further processing via two distinct pathways, one leading to production of 3ABC and the other to 3CD (<xref ref-type="fig" rid="ppat-1002169-g007">Fig. 7</xref>). Both intermediates contain the catalytically active 3C<sup>pro</sup> cysteine protease domain, but they have distinct cellular localization and substrate specificities (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5</xref>). 3ABC, due to the presence of a mitochondrial targeting transmembrane domain in 3A, localizes to the mitochondrial membrane where it cleaves MAVS (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5A</xref>). In contrast, 3CD appears to be localized primarily to the perinuclear ER, and its ability to cleave TRIF is dependent upon its unique substrate specificity rather than its intracellular localization (<xref ref-type="fig" rid="ppat-1002169-g005">Figs. 5B and 5D</xref>).</p>
+      <fig id="ppat-1002169-g007" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.ppat.1002169.g007</object-id>
+        <label>Figure 7</label>
+        <caption>
+          <title>Interferon-activating pathways disrupted during HAV infection by 3C<sup>pro</sup> precursor-mediated proteolysis of signaling adaptor proteins.</title>
+          <p>Cytosolic HAV RNA is sensed by RNA helicases (most likely MDA-5) which interact through shared caspase-recruitment domains (CARDS) with the adaptor protein, MAVS, localized on the mitochondrial outer membrane. This induces formation of a macromolecular signaling complex that leads to activation of non-canonical (IKKÎµ and TBK-1) and canonical (IKKÎ±/Î²) kinases of the IÎºB complex, and subsequent activation of latent cytoplasmic transcription factors, IRF-3 and NF-ÎºB. These activated transcription factors translocate to the nucleus where they induce the transcription of IFN-Î² mRNA, thereby initiating the production of IFNs and ISGs. TLR3 activates these same transcription factors via a parallel signaling pathway that is initiated upon the sensing of viral dsRNA (or poly-I:C) by TLR3 within an endosomal compartment. Binding of its dsRNA ligand induces the dimerization of TLR3 and subsequent recruitment of the adaptor protein, TRIF, to its cytoplasmic domain through shared Toll/Interleukin-1 receptor (TIR) domains. Additional details of these pathways are available elsewhere <xref rid="ppat.1002169-Lemon4" ref-type="bibr">[45]</xref>. Precursors of the HAV 3C<sup>pro</sup> cysteine protease block both signaling pathways by directing cleavage of the critical adaptor proteins, MAVS <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref> and, as shown in this communication, TRIF. These processing intermediates, 3ABC and 3CD, represent products of alternative processing pathways by which 3C<sup>pro</sup> is derived from the P2P3 polyprotein fragment (2B to 3D<sup>pol</sup> shown at the top), a product of the primary HAV polyprotein cleavage between 2A/2B <xref rid="ppat.1002169-Martin1" ref-type="bibr">[1]</xref>. MAVS cleavage by 3ABC is dependent upon 3ABC localization to the mitochondria, while 3CD cleavage of TRIF, as shown here, is dependent upon altered substrate specificity of 3C<sup>pro</sup> induced by its fusion to 3D<sup>pol</sup>.</p>
+        </caption>
+        <graphic xlink:href="ppat.1002169.g007"/>
+      </fig>
+      <p>Our results reveal an unexpected role of the 3D sequence in modulating the substrate specificity of 3CD. 3C<sup>pro</sup> cleavage sites within the HAV polyprotein, as well as MAVS, contain a hydrophobic amino acid (Leu, Ile, or Val) at the P4 position <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>, <xref rid="ppat.1002169-Seipelt1" ref-type="bibr">[24]</xref> that fits into the hydrophobic S4 binding pocket within the crystal structure of 3C<sup>pro</sup>
+<xref rid="ppat.1002169-Bergmann1" ref-type="bibr">[29]</xref>,<xref rid="ppat.1002169-Allaire1" ref-type="bibr">[30]</xref>. In contrast, both 3CD cleavage sites within TRIF contain an acidic amino acid residue (Asp-190 and Glu-551) at the P4 position (<xref ref-type="fig" rid="ppat-1002169-g005">Fig. 5C</xref>), and therefore do not conform to the canonical cleavage sequence. A previous study showed that a peptide substrate with a Glu substitution (underlined) at the P4 position, Ac-E<underline>E</underline>RTQ<sup>â</sup>SFS-NH2, which is similar to the TRIF cleavage site EQSQ<sub>554</sub>, was not cleaved by 3C<sup>pro</sup>
+<xref rid="ppat.1002169-Jewell1" ref-type="bibr">[31]</xref>. Our data suggest that 3CD possesses a unique substrate specificity that allows it to recognize and hydrolyze cleavage sites within TRIF that are otherwise relatively resistant to 3C<sup>pro</sup>. In support of this notion, we showed that changing the non-canonical cleavage site at Gln-190 of TRIF to a canonical 3C<sup>pro</sup> cleavage sequence resulted in efficient 3C<sup>pro</sup> proteolysis and a reversal of the order of cleavage at the two sites in TRIF (.5D). A similar change at the Gln-554 site did not make it fully permissive for 3C<sup>pro</sup> cleavage, however, suggesting that there are other differences in the substrate specificities of 3C<sup>pro</sup> and 3CD. Our data indicate that the change in substrate specificity of 3CD is conferred <italic>in cis</italic> by the 3D sequence (<xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3B</xref>), although the structural basis for this remains to be determined.</p>
+      <p>In addition to their differentiated roles in evading innate immune responses, 3ABC and 3CD are likely to have specialized roles in the viral life cycle. 3ABC is a stable intermediate that is important in processing of the P1-2A segment of the polyprotein required for assembly of the viral capsid <xref rid="ppat.1002169-Kusov1" ref-type="bibr">[32]</xref>. 3CD, based on studies with other picornaviruses, may play a role in the uridylyation of the protein primer of RNA synthesis, 3B (VPg) <xref rid="ppat.1002169-Paul1" ref-type="bibr">[33]</xref>. The multiple functions of these viral proteins reflect a strategy used by picornaviruses to create processing intermediates that are functionally distinct from their mature products <xref rid="ppat.1002169-Parsley1" ref-type="bibr">[34]</xref>, <xref rid="ppat.1002169-YpmaWong1" ref-type="bibr">[35]</xref>, <xref rid="ppat.1002169-Pathak1" ref-type="bibr">[36]</xref>.</p>
+      <p>The dual targeting of RLR and TLR3 signaling by HAV 3ABCD processing intermediates is reminiscent of the HCV NS3/4A protease, which disrupts both RIG-I and TLR3 signaling pathways by proteolytically cleaving the same signaling adaptor proteins, MAVS and TRIF, respectively <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref>, <xref rid="ppat.1002169-Meylan1" ref-type="bibr">[8]</xref>, <xref rid="ppat.1002169-Li2" ref-type="bibr">[9]</xref>. 3C<sup>pro</sup> and NS3/4A are both chymotrypsin-like proteases with double Î²-barrel folds <xref rid="ppat.1002169-Allaire1" ref-type="bibr">[30]</xref>, <xref rid="ppat.1002169-Love1" ref-type="bibr">[37]</xref>, but they are not closely related phylogenetically. The HAV 3C<sup>pro</sup> protease has a cysteine nucleophile in its active site, while NS3/4A has a serine. These viral proteases have very different substrate specificities, and they cleave MAVS and TRIF at distinctly different sites [7,8,9,12, and <xref ref-type="fig" rid="ppat-1002169-g003">Fig. 3</xref>]. The fact that both of these hepatotropic viruses express proteases targeting these two critical adaptor molecules is thus a remarkable example of convergent evolution. It also speaks strongly to the importance of these signaling pathways in the control of RNA viruses in the liver. However, since HAV infection is always successfully controlled by the host (except in rare cases of fulminant disease), these data indicate that the disruption of RLR and TLR3-mediated antiviral defenses is not sufficient for a virus to establish the longterm persistence that typifies most HCV infections. HCV must possess additional immune evasion strategies to account for its unique capacity to establish chronic infections.</p>
+      <p>We demonstrated a minimal gain of permissiveness for HAV replication in hepatocyte-derived cells in which TLR3 or TRIF expression was depleted (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6G</xref>), and a reduction in viral antigen expression in hepatoma cells with active TLR3 signaling (<xref ref-type="fig" rid="ppat-1002169-g006">Fig. 6B</xref>). However, these effects were modest, potentially reflecting very efficient control of TLR3 signaling by 3CD in infected cells such that TLR3 has little impact on viral replication. Alternatively, it may be that the primary advantage gained by HAV in antagonizing TLR3 signaling is impaired production of proinflammatory cytokines and reduced inflammation associated with the infection. TLR3 signaling is critically important to murine host defense against coxsackievirus B, another picornavirus <xref rid="ppat.1002169-Negishi1" ref-type="bibr">[38]</xref>, and it is plausible that the disruption of TLR3 signaling has significance beyond impairing the type I IFN response.</p>
+      <p>The subversion of both RLR and TLR3 signaling likely contributes to the relatively lengthy, clinically silent incubation period that precedes acute liver injury in hepatitis A. This period is characterized by robust viral replication within the liver and shedding of virus in feces, which reaches a maximum at the onset of hepatic inflammation <xref rid="ppat.1002169-Lemon2" ref-type="bibr">[10]</xref>, <xref rid="ppat.1002169-Martin2" ref-type="bibr">[39]</xref>. The absence of a type I IFN response in acute infectious hepatitis was hinted at in clinical studies done almost 40 years ago <xref rid="ppat.1002169-Wheelock1" ref-type="bibr">[40]</xref>. Consistent with this, we recently documented a paucity of type I IFN-dependent ISG expression (<italic>e.g.</italic>, IFIT-1, ISG15) within the liver of HAV-infected chimpanzees during the first weeks of infection despite high viral RNA copy numbers <xref rid="ppat.1002169-Lanford1" ref-type="bibr">[41]</xref>. The cleavage of MAVS and TRIF by 3ABC and 3CD, respectively, provides a partial mechanistic explanation for this. By dealing a double blow to two major cellular antiviral response pathways, HAV appears able to block somatic cell expression of IFN-Î±/Î², thus facilitating its replication. Yet to be explained is how it evades recognition by plasmacytoid dendritic cells (pDCs), which may play a significant role in sensing HCV infection in the liver and generating the strong intrahepatic ISG responses that are often observed in acute and chronic hepatitis C <xref rid="ppat.1002169-Takahashi1" ref-type="bibr">[42]</xref>, <xref rid="ppat.1002169-Lau1" ref-type="bibr">[43]</xref>.</p>
+    </sec>
+    <sec sec-type="methods" id="s4">
+      <title>Methods</title>
+      <sec id="s4a">
+        <title>Cells and viruses</title>
+        <p>HEK 293FT cells, Huh7, Huh-7.5 and Bla-C cells <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref> were cultured in DMEM with 8% FBS. Huh7-TLR3, Huh-7.5-TLR3 and related control cells <xref rid="ppat.1002169-Wang1" ref-type="bibr">[13]</xref>, and HAV-Bla subgenomic replicon cells were cultured in the same medium supplemented with blasticidin <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. The cell culture-adapted HAV strain HM175/18f <xref rid="ppat.1002169-Lemon3" ref-type="bibr">[16]</xref> was amplified in Huh7 cells; on fetal rhesus kidney FRhK4 cells.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Plasmids and antibodies</title>
+        <p>pCDNA6-TRIF <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref> and pCMV-HA vectors expressing N-terminally HA-tagged HAV proteins derived from HM-175/18f virus <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref> have been described previously. Similar pCMV-HA vectors expressing the wild-type HM175 3C<sup>pro</sup> and 3CD proteins were constructed by amplification of the corresponding sequences from pHAV/8y (Suzanne Emerson, NIAID). Truncations of TRIF were generated by PCR mutagenesis, and mutations in TRIF and 3CD constructed by site-directed mutagenesis (Strategene). Other plasmids were obtained from the following sources: pIFN-Î²-Luc (Rongtuan Lin, McGill University), pPRD-II-Luc (Michael Gale, University of Washington), pCMV-Î²-gal (Clontech), pRL-CMV (Promega), pEF-Bos-TRIF (Kate Fitzgerald, University of Massachusetts) and pCDNA3-Flag-IKKÎµ (Tom Maniatis, Harvard University). Antibodies used in these studies included: anti-TLR3 (Ilkka Julkunen, National Institute for Health and Welfare, Finland), anti-TRIF S219 (Cell Signaling Technology), anti-TRIF aa 4â31 (Alexia), anti-IRF-3 sc-9082 (Santa Cruz), monoclonal anti-HAV K2-4F2, K3-4C8 (Commonwealth Serum Laboratories, Victoria, Australia), and 6A5 (John Hughes, Merck, Sharp &amp; Dohme), anti-HAV 2A (David Sangar, Wellcome Biotech), anti-3C<sup>pro</sup> (Verena Gauss-Muller, University of LÃ¼beck), anti-ISG15 (Santa Cruz), and anti-HA and anti-Actin (Sigma). Rabbit anti-TRIF antibody S537-2 was obtained by immunization of rabbits with recombinant TRIF protein <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Transfection and luciferase reporter assays</title>
+        <p>For protein expression, cells were transfected with plasmid DNA using Lipofectamine 2000 (Invitrogen) and lysates prepared 20 hrs later using 1% NP-40 lysis buffer. HAV-infected cells (m.o.i.â=â3) were cultured for 4 days prior to transfection. For luciferase reporter assays, expression and/or Luc reporter plasmids were transfected into cells (seeded in triplicate in 96-well format) with an internal Î²-galactosidase (pCMV-Î²-gal) or Renilla luciferase (pRL-CMV, Promega) transfection control. At 20 hours posttransfection, when indicated, poly(I:C) (Sigma) was added to the medium and cells incubated for additional 6 hours. Cells were lysed in Reporter Lysis Buffer (Promega) and equal quantity of lysate used for luciferase and Î²-galactosidase assays (Promega). In experiments using the Renilla luciferase control, cells were lysed in Passive Lysis Buffer (Promega) and tested by Dual-Luciferase assay (Promega). For each sample, the luciferase activity was normalized to the Î²-galactosidase or renilla luciferase activity. In the case of poly(I:C) stimulation, results were presented as fold induction compared to unstimulated cells. Statistical analysis was performed using two-tailed Student's t test.</p>
+      </sec>
+      <sec id="s4d">
+        <title>HAV assays</title>
+        <p>HAV antigen-specific ELISA was carried out using a post-convalescent human antibody for capture <xref rid="ppat.1002169-Binn1" ref-type="bibr">[44]</xref>, and a murine monoclonal antibody (K24F2) for detection. Absorption at 450 nm was determined on a Synergy (Biotek, Inc) plate reader. The infrared fluorescent immunofocus assay (IR-FIFA) for infectious HAV was done using FRhK-4 cells as previously described <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. For detection of HAV antigen by immunofluorescence microscopy, cells were fixed with 4% PFA for 25 min, labeled with murine mAb 6A5 and after extensive washing incubated with goat anti-mouse IgG Alexa-594 conjugate (Invitrogen).</p>
+      </sec>
+      <sec id="s4e">
+        <title>Expression and purification of GST-3C from <italic>E. coli</italic>
+</title>
+        <p>The 3C<sup>pro</sup> coding sequence from HAV strain HM175/18f was cloned into bacterial expression vector pGEX-4T3 (GE Life Sciences), fused in-frame with an N-terminal GST tag. For protein expression, an overnight culture of <italic>E. coli</italic> strain BL21(DE) (Novagen) containing the expression construct was diluted 10-fold and cultured at 37Â°C for 2 hrs. Expression was induced by addition of 0.1 mM IPTG and continued culture at 25Â°C for 3 hrs. Bacterial cells were harvested and lysed in BugBuster solution (EMD Biosciences) containing 37.5 U/ml Benzonase, 15 KU/ml recombinant lysozyme and 2 mM DTT. GST-3C<sup>pro</sup> fusion protein was purified from the bacterial lysate by affinity chromatography using the GST MicroSpin Purification Module (GE Life Sciences) according to the manufacturer's instructions.</p>
+      </sec>
+      <sec id="s4f">
+        <title>
+<italic>In vitro</italic> cleavage assay</title>
+        <p>Myc-TRIF and its truncated forms were synthesized <italic>in vitro</italic> and labeled with [<sup>35</sup>S]-Met/Cys using T7 Coupled Transcription/Translation System (TNT, Promega) according to the manufacturer's instructions. Cleavage assays were performed in a 10-Âµl mixture containing 1 Âµl TNT product and 0.5 ÂµM purified GST-3C<sup>pro</sup> in a buffer containing 50 mM Tris-HCl pH 8.0, 2.5 mM EDTA and 2 mM DTT. Similarly purified GST was used as a negative control at the same concentration. Reactions were carried out overnight at 3Â°C and stopped by addition of an equal volume of 2X SDS sample buffer. Cleavage products were analyzed by SDS-PAGE followed by autoradiography.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Immunoprecipitation and immunoblotting</title>
+        <p>For detection of endogenous TRIF, 1 mg of cell lysate was immunoprecipitated with 1 Âµg of rabbit anti-TRIF antibody S537-2 <xref rid="ppat.1002169-Li1" ref-type="bibr">[7]</xref>, followed by immunoblotting with anti-TRIF S219. HA-3CD was detected with a similar method using anti-HA for immunoprecipitation and anti-3C<sup>pro</sup> for immunoblotting.</p>
+      </sec>
+      <sec id="s4h">
+        <title>IRF-3 dimerization</title>
+        <p>Huh7-TLR3 cells were mock-infected or infected with HAV at m.o.i.â=â5 and cultured for 5 days, then stimulated by the addition of poly-(I:C) (50 Âµg/ml) to the medium for 2 hours and lysed with 1% NP-40 lysis buffer. Cell lysates (10 Âµg) were mixed with deoxycholate (DOC) sample buffer (final concentration 1% DOC) and separated by Tris-Glycine/1% DOC native PAGE. IRF-3 monomer and dimer were detected by immunoblotting with rabbit anti-IRF-3 sc-9082.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Laser-scanning confocal microscopy</title>
+        <p>Ectopically expressed Flag-tagged TRIF, 3C<sup>pro</sup> and 3ABC, HA-tagged 3C<sup>pro</sup> and 3CD, and V5-tagged 3ABCD were imaged as described previously <xref rid="ppat.1002169-Yang1" ref-type="bibr">[12]</xref>. For visualization of poly(I:C)-induced changes in IRF-3 localization, Huh7-TLR3 cells were grown on chamber slides, infected at low m.o.i. and cultured for 5 days. Cells were then mock-stimulated or stimulated with poly-(I:C) (50 Âµg/ml) added to the medium for 2 hours, and fixed with 4% paraformaldehyde. After permeabilization with 0.25% Triton X-100, the cell monolayer was incubated with rabbit anti-IRF-3 sc-9082 and murine anti-HAV K3-4C8, followed by secondary antibodies goat anti-rabbit Alexa Fluor 488 and goat anti-mouse Alexa Fluor 594 (Invitrogen). Nuclei were counterstained stained with DAPI. Images were collected using a Leica DMIRB Inverted Microscope in the Michael Hooker Microscopy Facility.</p>
+      </sec>
+      <sec id="s4j">
+        <title>GenBank accession numbers</title>
+        <p>HAV strain HM175/18f (including individual HAV proteins), M59808; wild-type HAV strain HM175, M14707.1; TLR3, NP_003256; ISG15, NP_005092; TRIF (TICAM-1), NP_891549; IKKe, NP_054721; IRF-3, NP_001562; MDA5, NP_071451; RIG-I, O95786; MAVS (IPS-1, Cardif, VISA), Q7Z434; GAPDH, P04406; Actin, P60709.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="ppat.1002169.s001">
+        <label>Text S1</label>
+        <caption>
+          <p>Supporting figures and legends.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="ppat.1002169.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank M. Chua for assistance with confocal microscopy; S. Emerson, R. Lin, M. Gale, K. Fitzgerald, and T. Maniatis for plasmids; I. Julkunen, V. Gauss-Muller, and D. Sangar for antibodies, and B. Malcolm for helpful discussions.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>This work was supported by National Institutes of Health grants U19-AI40035, R21-AI081058 (to SML) and R01-AI69285 (to KL). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="ppat.1002169-Martin1">
+        <label>1</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>A</given-names></name><name><surname>Lemon</surname><given-names>SM</given-names></name></person-group>
+<year>2002</year>
+<article-title>The molecular biology of hepatitis A virus.</article-title>
+<person-group person-group-type="editor"><name><surname>Ou</surname><given-names>J</given-names></name></person-group>
+<source>Hepatitis Viruses</source>
+<publisher-loc>Norwell, MA</publisher-loc>
+<publisher-name>Kluwer Academic Publishers</publisher-name>
+<fpage>23</fpage>
+<lpage>50</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002169-Lemon1">
+        <label>2</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Lemon</surname><given-names>SM</given-names></name><name><surname>Walker</surname><given-names>C</given-names></name><name><surname>Alter</surname><given-names>MJ</given-names></name><name><surname>Yi</surname><given-names>M</given-names></name><name><surname>Knipe</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Hepatitis C viruses.</article-title>
+<publisher-loc>Fields Virology. Philadelphia</publisher-loc>
+<publisher-name>Lippincott Williams &amp; Wilkins</publisher-name>
+<fpage>1253</fpage>
+<lpage>304</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002169-Rosenblum1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenblum</surname><given-names>LS</given-names></name><name><surname>Villarino</surname><given-names>ME</given-names></name><name><surname>Nainan</surname><given-names>OV</given-names></name><name><surname>Melish</surname><given-names>ME</given-names></name><name><surname>Hadler</surname><given-names>SC</given-names></name><etal/></person-group>
+<year>1991</year>
+<article-title>Hepatitis A outbreak in a neonatal intensive care unit:Risk factors for transmission and evidence of prolonged viral excretion among preterm infants.</article-title>
+<source>J Infect Dis</source>
+<volume>164</volume>
+<fpage>476</fpage>
+<lpage>82</lpage>
+<pub-id pub-id-type="pmid">1651359</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Chisari1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chisari</surname><given-names>FV</given-names></name></person-group>
+<year>2005</year>
+<article-title>Unscrambling hepatitis C virus-host interactions.</article-title>
+<source>Nature</source>
+<volume>436</volume>
+<fpage>930</fpage>
+<lpage>2</lpage>
+<pub-id pub-id-type="pmid">16107831</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Schulte1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schulte</surname><given-names>I</given-names></name><name><surname>Hitziger</surname><given-names>T</given-names></name><name><surname>Giugliano</surname><given-names>S</given-names></name><name><surname>Timm</surname><given-names>J</given-names></name><name><surname>Gold</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Characterization of CD8+ T-cell response in acute and resolved hepatitis A virus infection.</article-title>
+<source>J Hepatol</source>
+<volume>54</volume>
+<fpage>201</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">21056495</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Fleischer1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fleischer</surname><given-names>B</given-names></name><name><surname>Fleischer</surname><given-names>S</given-names></name><name><surname>Maier</surname><given-names>K</given-names></name><name><surname>Wiedmann</surname><given-names>KH</given-names></name><name><surname>Sacher</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>Clonal analysis of infiltrating T lymphocytes in liver tissue in viral hepatitis A.</article-title>
+<source>Immunology</source>
+<volume>69</volume>
+<fpage>14</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">2312151</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Li1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>K</given-names></name><name><surname>Foy</surname><given-names>E</given-names></name><name><surname>Ferreon</surname><given-names>JC</given-names></name><name><surname>Nakamura</surname><given-names>M</given-names></name><name><surname>Ferreon</surname><given-names>AC</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Immune evasion by hepatitis C virus NS3/4A protease-mediated cleavage of the Toll-like receptor 3 adaptor protein TRIF.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>102</volume>
+<fpage>2992</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">15710891</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Meylan1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meylan</surname><given-names>E</given-names></name><name><surname>Curran</surname><given-names>J</given-names></name><name><surname>Hofmann</surname><given-names>K</given-names></name><name><surname>Moradpour</surname><given-names>D</given-names></name><name><surname>Binder</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Cardif is an adaptor protein in the RIG-I antiviral pathway and is targeted by hepatitis C virus.</article-title>
+<source>Nature</source>
+<volume>437</volume>
+<fpage>1167</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="pmid">16177806</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Li2">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>XD</given-names></name><name><surname>Sun</surname><given-names>L</given-names></name><name><surname>Seth</surname><given-names>RB</given-names></name><name><surname>Pineda</surname><given-names>G</given-names></name><name><surname>Chen</surname><given-names>ZJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Hepatitis C virus protease NS3/4A cleaves mitochondrial antiviral signaling protein off the mitochondria to evade innate immunity.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>102</volume>
+<fpage>17717</fpage>
+<lpage>22</lpage>
+<pub-id pub-id-type="pmid">16301520</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Lemon2">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lemon</surname><given-names>SM</given-names></name><name><surname>Binn</surname><given-names>LN</given-names></name><name><surname>Marchwicki</surname><given-names>R</given-names></name><name><surname>Murphy</surname><given-names>PC</given-names></name><name><surname>Ping</surname><given-names>LH</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>In vivo replication and reversion to wild type of a neutralization-resistant antigenic variant of hepatitis A virus.</article-title>
+<source>J Infect Dis</source>
+<volume>161</volume>
+<fpage>7</fpage>
+<lpage>13</lpage>
+<pub-id pub-id-type="pmid">1688601</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Fensterl1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fensterl</surname><given-names>V</given-names></name><name><surname>Grotheer</surname><given-names>D</given-names></name><name><surname>Berk</surname><given-names>I</given-names></name><name><surname>Schlemminger</surname><given-names>S</given-names></name><name><surname>Vallbracht</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Hepatitis A virus suppresses RIG-I-mediated IRF-3 activation to block induction of beta interferon.</article-title>
+<source>J Virol</source>
+<volume>79</volume>
+<fpage>10968</fpage>
+<lpage>77</lpage>
+<pub-id pub-id-type="pmid">16103148</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Yang1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yang</surname><given-names>Y</given-names></name><name><surname>Liang</surname><given-names>Y</given-names></name><name><surname>Qu</surname><given-names>L</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><name><surname>Yi</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Disruption of innate immunity due to mitochondrial targeting of a picornaviral protease precursor.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>104</volume>
+<fpage>7253</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">17438296</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Wang1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>N</given-names></name><name><surname>Liang</surname><given-names>Y</given-names></name><name><surname>Devaraj</surname><given-names>S</given-names></name><name><surname>Wang</surname><given-names>J</given-names></name><name><surname>Lemon</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Toll-like receptor 3 mediates establishment of an antiviral state against hepatitis C virus in hepatoma cells.</article-title>
+<source>J Virol</source>
+<volume>83</volume>
+<fpage>9824</fpage>
+<lpage>34</lpage>
+<pub-id pub-id-type="pmid">19625408</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Li3">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>K</given-names></name><name><surname>Chen</surname><given-names>Z</given-names></name><name><surname>Kato</surname><given-names>N</given-names></name><name><surname>Gale</surname><given-names>M</given-names><suffix>Jr</suffix></name><name><surname>Lemon</surname><given-names>SM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Distinct poly-I:C and virus-activated interferon signaling pathways in hepatocytes.</article-title>
+<source>J Biol Chem</source>
+<volume>280</volume>
+<fpage>16739</fpage>
+<lpage>47</lpage>
+<pub-id pub-id-type="pmid">15737993</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Konduru1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Konduru</surname><given-names>K</given-names></name><name><surname>Kaplan</surname><given-names>GG</given-names></name></person-group>
+<year>2006</year>
+<article-title>Stable growth of wild-type hepatitis A virus in cell culture.</article-title>
+<source>J Virol</source>
+<volume>80</volume>
+<fpage>1352</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="pmid">16415012</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Lemon3">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lemon</surname><given-names>SM</given-names></name><name><surname>Murphy</surname><given-names>PC</given-names></name><name><surname>Shields</surname><given-names>PA</given-names></name><name><surname>Ping</surname><given-names>LH</given-names></name><name><surname>Feinstone</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>1991</year>
+<article-title>Antigenic and genetic variation in cytopathic hepatitis A virus variants arising during persistent infection:evidence for genetic recombination.</article-title>
+<source>J Virol</source>
+<volume>65</volume>
+<fpage>2056</fpage>
+<lpage>65</lpage>
+<pub-id pub-id-type="pmid">1705995</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Fitzgerald1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fitzgerald</surname><given-names>KA</given-names></name><name><surname>McWhirter</surname><given-names>SM</given-names></name><name><surname>Faia</surname><given-names>KL</given-names></name><name><surname>Rowe</surname><given-names>DC</given-names></name><name><surname>Latz</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>IKKepsilon and TBK1 are essential components of the IRF3 signaling pathway.</article-title>
+<source>Nat Immunol</source>
+<volume>4</volume>
+<fpage>491</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">12692549</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Yi1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yi</surname><given-names>M</given-names></name><name><surname>Lemon</surname><given-names>SM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Replication of subgenomic hepatitis A virus RNAs expressing firefly luciferase is enhanced by mutations associated with adaptation of virus to growth in cultured cells.</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>1171</fpage>
+<lpage>80</lpage>
+<pub-id pub-id-type="pmid">11773393</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Teterina1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Teterina</surname><given-names>NL</given-names></name><name><surname>Bienz</surname><given-names>K</given-names></name><name><surname>Egger</surname><given-names>D</given-names></name><name><surname>Gorbalenya</surname><given-names>AE</given-names></name><name><surname>Ehrenfeld</surname><given-names>E</given-names></name></person-group>
+<year>1997</year>
+<article-title>Induction of intracellular membrane rearrangements by HAV proteins 2C and 2BC.</article-title>
+<source>Virology</source>
+<volume>237</volume>
+<fpage>66</fpage>
+<lpage>77</lpage>
+<pub-id pub-id-type="pmid">9344908</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Probst1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Probst</surname><given-names>C</given-names></name><name><surname>Jecht</surname><given-names>M</given-names></name><name><surname>Gauss-Muller</surname><given-names>V</given-names></name></person-group>
+<year>1998</year>
+<article-title>Processing of proteinase precursors and their effect on hepatitis A virus particle formation.</article-title>
+<source>J Virol</source>
+<volume>72</volume>
+<fpage>8013</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="pmid">9733840</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Rebsamen1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rebsamen</surname><given-names>M</given-names></name><name><surname>Meylan</surname><given-names>E</given-names></name><name><surname>Curran</surname><given-names>J</given-names></name><name><surname>Tschopp</surname><given-names>J</given-names></name></person-group>
+<year>2008</year>
+<article-title>The antiviral adaptor proteins Cardif and Trif are processed and inactivated by caspases.</article-title>
+<source>Cell Death Differ</source>
+<volume>15</volume>
+<fpage>1804</fpage>
+<lpage>11</lpage>
+<pub-id pub-id-type="pmid">18756281</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Misaghi1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Misaghi</surname><given-names>S</given-names></name><name><surname>Korbel</surname><given-names>GA</given-names></name><name><surname>Kessler</surname><given-names>B</given-names></name><name><surname>Spooner</surname><given-names>E</given-names></name><name><surname>Ploegh</surname><given-names>HL</given-names></name></person-group>
+<year>2006</year>
+<article-title>z-VAD-fmk inhibits peptide: N-glycanase and may result in ER stress.</article-title>
+<source>Cell Death Differ</source>
+<volume>13</volume>
+<fpage>163</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">16003388</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Tesar1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tesar</surname><given-names>M</given-names></name><name><surname>Pak</surname><given-names>I</given-names></name><name><surname>Jia</surname><given-names>XY</given-names></name><name><surname>Richards</surname><given-names>OC</given-names></name><name><surname>Summers</surname><given-names>DF</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Expression of hepatitis A virus precursor protein P3 in vivo and in vitro: Polyprotein processing of the 3CD cleavage site.</article-title>
+<source>Virology</source>
+<volume>198</volume>
+<fpage>524</fpage>
+<lpage>33</lpage>
+<pub-id pub-id-type="pmid">8291234</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Seipelt1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Seipelt</surname><given-names>J</given-names></name><name><surname>Guarne</surname><given-names>A</given-names></name><name><surname>Bergmann</surname><given-names>E</given-names></name><name><surname>James</surname><given-names>M</given-names></name><name><surname>Sommergruber</surname><given-names>W</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>The structures of picornaviral proteinases.</article-title>
+<source>Virus Res</source>
+<volume>62</volume>
+<fpage>159</fpage>
+<lpage>68</lpage>
+<pub-id pub-id-type="pmid">10507325</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Sasai1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sasai</surname><given-names>M</given-names></name><name><surname>Tatematsu</surname><given-names>M</given-names></name><name><surname>Oshiumi</surname><given-names>H</given-names></name><name><surname>Funami</surname><given-names>K</given-names></name><name><surname>Matsumoto</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Direct binding of TRAF2 and TRAF6 to TICAM-1/TRIF adaptor participates in activation of the Toll-like receptor 3/4 pathway.</article-title>
+<source>Mol Immunol</source>
+<volume>47</volume>
+<fpage>1283</fpage>
+<lpage>91</lpage>
+<pub-id pub-id-type="pmid">20047764</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Sato1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sato</surname><given-names>S</given-names></name><name><surname>Sugiyama</surname><given-names>M</given-names></name><name><surname>Yamamoto</surname><given-names>M</given-names></name><name><surname>Watanabe</surname><given-names>Y</given-names></name><name><surname>Kawai</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Toll/IL-1 receptor domain-containing adaptor inducing IFN-beta (TRIF) associates with TNF receptor-associated factor 6 and TANK-binding kinase 1, and activates two distinct transcription factors, NF-kappa B and IFN-regulatory factor-3, in the Toll-like receptor signaling.</article-title>
+<source>J Immunol</source>
+<volume>171</volume>
+<fpage>4304</fpage>
+<lpage>10</lpage>
+<pub-id pub-id-type="pmid">14530355</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Kaiser1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kaiser</surname><given-names>WJ</given-names></name><name><surname>Offermann</surname><given-names>MK</given-names></name></person-group>
+<year>2005</year>
+<article-title>Apoptosis induced by the toll-like receptor adaptor TRIF is dependent on its receptor interacting protein homotypic interaction motif.</article-title>
+<source>J Immunol</source>
+<volume>174</volume>
+<fpage>4942</fpage>
+<lpage>52</lpage>
+<pub-id pub-id-type="pmid">15814722</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Losick1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Losick</surname><given-names>VP</given-names></name><name><surname>Schlax</surname><given-names>PE</given-names></name><name><surname>Emmons</surname><given-names>RA</given-names></name><name><surname>Lawson</surname><given-names>TG</given-names></name></person-group>
+<year>2003</year>
+<article-title>Signals in hepatitis A virus P3 region proteins recognized by the ubiquitin-mediated proteolytic system.</article-title>
+<source>Virology</source>
+<volume>309</volume>
+<fpage>306</fpage>
+<lpage>19</lpage>
+<pub-id pub-id-type="pmid">12758177</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Bergmann1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bergmann</surname><given-names>EM</given-names></name><name><surname>Mosimann</surname><given-names>SC</given-names></name><name><surname>Chernaia</surname><given-names>MM</given-names></name><name><surname>Malcolm</surname><given-names>BA</given-names></name><name><surname>James</surname><given-names>MN</given-names></name></person-group>
+<year>1997</year>
+<article-title>The refined crystal structure of the 3C gene product from hepatitis A virus:specific proteinase activity and RNA recognition.</article-title>
+<source>J Virol</source>
+<volume>71</volume>
+<fpage>2436</fpage>
+<lpage>48</lpage>
+<pub-id pub-id-type="pmid">9032381</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Allaire1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Allaire</surname><given-names>M</given-names></name><name><surname>Chernala</surname><given-names>MM</given-names></name><name><surname>Malcolm</surname><given-names>BA</given-names></name><name><surname>James</surname><given-names>MNG</given-names></name></person-group>
+<year>1994</year>
+<article-title>Picornaviral 3C cysteine proteinases have a fold similar to chymotrypsin-like serine proteinases.</article-title>
+<source>Nature</source>
+<volume>369</volume>
+<fpage>72</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">8164744</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Jewell1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jewell</surname><given-names>DA</given-names></name><name><surname>Swietnicki</surname><given-names>W</given-names></name><name><surname>Dunn</surname><given-names>BM</given-names></name><name><surname>Malcolm</surname><given-names>BA</given-names></name></person-group>
+<year>1992</year>
+<article-title>Hepatitis A virus 3C proteinase substrate specificity.</article-title>
+<source>Biochemistry</source>
+<volume>31</volume>
+<fpage>7862</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">1510973</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Kusov1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kusov</surname><given-names>Y</given-names></name><name><surname>Gauss-Muller</surname><given-names>V</given-names></name></person-group>
+<year>1999</year>
+<article-title>Improving proteolytic cleavage at the 3A/3B site of the hepatitis A virus polyprotein impairs processing and particle formation, and the impairment can be complemented in trans by 3AB and 3ABC.</article-title>
+<source>J Virol</source>
+<volume>73</volume>
+<fpage>9867</fpage>
+<lpage>78</lpage>
+<pub-id pub-id-type="pmid">10559299</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Paul1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paul</surname><given-names>AV</given-names></name><name><surname>Yin</surname><given-names>J</given-names></name><name><surname>Mugavero</surname><given-names>J</given-names></name><name><surname>Rieder</surname><given-names>E</given-names></name><name><surname>Liu</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>A âslide-backâ mechanism for the initiation of protein-primed RNA synthesis by the RNA polymerase of poliovirus.</article-title>
+<source>J Biol Chem</source>
+<volume>278</volume>
+<fpage>43951</fpage>
+<lpage>60</lpage>
+<pub-id pub-id-type="pmid">12937178</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Parsley1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parsley</surname><given-names>TB</given-names></name><name><surname>Cornell</surname><given-names>CT</given-names></name><name><surname>Semler</surname><given-names>BL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Modulation of the RNA binding and protein processing activities of poliovirus polypeptide 3CD by the viral RNA polymerase domain.</article-title>
+<source>J Biol Chem</source>
+<volume>274</volume>
+<fpage>12867</fpage>
+<lpage>76</lpage>
+<pub-id pub-id-type="pmid">10212275</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-YpmaWong1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ypma-Wong</surname><given-names>MF</given-names></name><name><surname>Dewalt</surname><given-names>PG</given-names></name><name><surname>Johnson</surname><given-names>VH</given-names></name><name><surname>Lamb</surname><given-names>JG</given-names></name><name><surname>Semler</surname><given-names>BL</given-names></name></person-group>
+<year>1988</year>
+<article-title>Protein 3CD is the major poliovirus proteinase responsible for cleavage of the P1 capsid precursor.</article-title>
+<source>Virology</source>
+<volume>166</volume>
+<fpage>265</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">2842953</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Pathak1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pathak</surname><given-names>HB</given-names></name><name><surname>Oh</surname><given-names>HS</given-names></name><name><surname>Goodfellow</surname><given-names>IG</given-names></name><name><surname>Arnold</surname><given-names>JJ</given-names></name><name><surname>Cameron</surname><given-names>CE</given-names></name></person-group>
+<year>2008</year>
+<article-title>Picornavirus genome replication:roles of precursor proteins and rate-limiting steps in oriI-dependent VPg uridylylation.</article-title>
+<source>J Biol Chem</source>
+<volume>283</volume>
+<fpage>30677</fpage>
+<lpage>88</lpage>
+<pub-id pub-id-type="pmid">18779320</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Love1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Love</surname><given-names>RA</given-names></name><name><surname>Parge</surname><given-names>HE</given-names></name><name><surname>Wickersham</surname><given-names>JA</given-names></name><name><surname>Hostomsky</surname><given-names>Z</given-names></name><name><surname>Habuka</surname><given-names>N</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>The crystal structure of hepatitis C virus NS3 proteinase reveals a trypsin-like fold and a structural zinc binding site.</article-title>
+<source>Cell</source>
+<volume>87</volume>
+<fpage>331</fpage>
+<lpage>42</lpage>
+<pub-id pub-id-type="pmid">8861916</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Negishi1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Negishi</surname><given-names>H</given-names></name><name><surname>Osawa</surname><given-names>T</given-names></name><name><surname>Ogami</surname><given-names>K</given-names></name><name><surname>Ouyang</surname><given-names>X</given-names></name><name><surname>Sakaguchi</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>A critical link between Toll-like receptor 3 and type II interferon signaling pathways in antiviral innate immunity.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>105</volume>
+<fpage>20446</fpage>
+<lpage>51</lpage>
+<pub-id pub-id-type="pmid">19074283</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Martin2">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martin</surname><given-names>A</given-names></name><name><surname>Lemon</surname><given-names>SM</given-names></name></person-group>
+<year>2006</year>
+<article-title>Hepatitis A virus:From discovery to vaccines.</article-title>
+<source>Hepatology</source>
+<volume>43</volume>
+<fpage>S164</fpage>
+<lpage>72</lpage>
+<pub-id pub-id-type="pmid">16447259</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Wheelock1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wheelock</surname><given-names>EF</given-names></name><name><surname>Schenker</surname><given-names>S</given-names></name><name><surname>Combes</surname><given-names>B</given-names></name></person-group>
+<year>1968</year>
+<article-title>Absence of circulating interferon in patients with infectious and serum hepatitis.</article-title>
+<source>Proc Soc Exp Biol Med</source>
+<volume>128</volume>
+<fpage>251</fpage>
+<lpage>3</lpage>
+<pub-id pub-id-type="pmid">5656700</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Lanford1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lanford</surname><given-names>RE</given-names></name><name><surname>Feng</surname><given-names>Z</given-names></name><name><surname>Chavez</surname><given-names>D</given-names></name><name><surname>Guerra</surname><given-names>B</given-names></name><name><surname>Brasky</surname><given-names>KM</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Acute hepatitis A virus infection is associated with a limited type I interferon response and persistence of intrahepatic viral RNA.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>108</volume>
+<fpage>11223</fpage>
+<lpage>8</lpage>
+<pub-id pub-id-type="pmid">21690403</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Takahashi1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takahashi</surname><given-names>K</given-names></name><name><surname>Asabe</surname><given-names>S</given-names></name><name><surname>Wieland</surname><given-names>S</given-names></name><name><surname>Garaigorta</surname><given-names>U</given-names></name><name><surname>Gastaminza</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Plasmacytoid dendritic cells sense hepatitis C virus-infected cells, produce interferon, and inhibit infection.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>107</volume>
+<fpage>7431</fpage>
+<lpage>6</lpage>
+<pub-id pub-id-type="pmid">20231459</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Lau1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lau</surname><given-names>DT</given-names></name><name><surname>Fish</surname><given-names>PM</given-names></name><name><surname>Sinha</surname><given-names>M</given-names></name><name><surname>Owen</surname><given-names>DM</given-names></name><name><surname>Lemon</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Interferon regulatory factor-3 activation, hepatic interferon-stimulated gene expression, and immune cell infiltration in hepatitis C virus patients.</article-title>
+<source>Hepatology</source>
+<volume>47</volume>
+<fpage>799</fpage>
+<lpage>809</lpage>
+<pub-id pub-id-type="pmid">18203148</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002169-Binn1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Binn</surname><given-names>LN</given-names></name><name><surname>Lemon</surname><given-names>SM</given-names></name><name><surname>Marchwicki</surname><given-names>RH</given-names></name><name><surname>Redfield</surname><given-names>RR</given-names></name><name><surname>Gates</surname><given-names>NL</given-names></name><etal/></person-group>
+<year>1984</year>
+<article-title>Primary isolation and serial passage of hepatitis A virus strains in primate cell cultures.</article-title>
+<source>J Clin Micro</source>
+<volume>20</volume>
+<fpage>28</fpage>
+<lpage>33</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002169-Lemon4">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lemon</surname><given-names>SM</given-names></name></person-group>
+<year>2010</year>
+<article-title>Induction and evasion of innate antiviral responses by hepatitis C virus.</article-title>
+<source>J Biol Chem</source>
+<volume>285</volume>
+<fpage>22741</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">20457596</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

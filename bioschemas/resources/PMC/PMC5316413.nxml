@@ -1,0 +1,2163 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:03:51Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5316413" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:5316413</identifier><datestamp>2017-02-26</datestamp><setSpec>elsevierwt</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="brief-report">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Cell</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Mol. Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1097-2765</issn>
+      <issn pub-type="epub">1097-4164</issn>
+      <publisher>
+        <publisher-name>Cell Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC5316413</article-id>
+      <article-id pub-id-type="pmcid">PMC5316413</article-id>
+      <article-id pub-id-type="pmc-uid">5316413</article-id>
+      <article-id pub-id-type="pmid">28065601</article-id>
+      <article-id pub-id-type="publisher-id">S1097-2765(16)30812-7</article-id>
+      <article-id pub-id-type="doi">10.1016/j.molcel.2016.11.039</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Short Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Initiation of Quality Control during Poly(A) Translation Requires Site-Specific Ribosome Ubiquitination</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Juszkiewicz</surname>
+            <given-names>Szymon</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hegde</surname>
+            <given-names>Ramanujan S.</given-names>
+          </name>
+          <email>rhegde@mrc-lmb.cam.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">2</xref>
+          <xref rid="cor1" ref-type="corresp">â</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>MRC Laboratory of Molecular Biology, Cambridge CB2 0QH, UK</aff>
+      <author-notes>
+        <corresp id="cor1"><label>â</label>Corresponding author <email>rhegde@mrc-lmb.cam.ac.uk</email></corresp>
+        <fn id="fn1">
+          <label>2</label>
+          <p id="ntpara0010">Lead Contact</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>16</day>
+        <month>2</month>
+        <year>2017</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="ppub">.-->
+      <pub-date pub-type="ppub">
+        <day>16</day>
+        <month>2</month>
+        <year>2017</year>
+      </pub-date>
+      <volume>65</volume>
+      <issue>4</issue>
+      <fpage>743</fpage>
+      <lpage>750.e4</lpage>
+      <history>
+        <date date-type="received">
+          <day>25</day>
+          <month>9</month>
+          <year>2016</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>16</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2017 The Authors</copyright-statement>
+        <copyright-year>2017</copyright-year>
+        <license license-type="CC BY" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p>
+        </license>
+      </permissions>
+      <abstract id="abs0010">
+        <title>Summary</title>
+        <p>Diverse cellular stressors have been observed to trigger site-specific ubiquitination on several ribosomal proteins. However, the ubiquitin ligases, biochemical consequences, and physiologic pathways linked to these modifications are not known. Here, we show in mammalian cells that the ubiquitin ligase ZNF598 is required for ribosomes to terminally stall during translation of poly(A) sequences. ZNF598-mediated stalling initiated the ribosome-associated quality control (RQC) pathway for degradation of nascent truncated proteins. Biochemical ubiquitination reactions identified two sites of mono-ubiquitination on the 40S protein eS10 as the primary ribosomal target of ZNF598. Cells lacking ZNF598 activity or containing ubiquitination-resistant eS10 ribosomes failed to stall efficiently on poly(A) sequences. In the absence of stalling, read-through of poly(A) produces a poly-lysine tag, which might alter the localization and solubility of the associated protein. Thus, ribosome ubiquitination can modulate translation elongation and impacts co-translational quality control to minimize production of aberrant proteins.</p>
+      </abstract>
+      <abstract abstract-type="graphical" id="abs0015">
+        <title>Graphical Abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="author-highlights" id="abs0020">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple">
+            <list-item id="u0010">
+              <label>â¢</label>
+              <p>Poly(A), not poly-basic tracts, are the main trigger of ribosome stalling in mammals</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>â¢</label>
+              <p>The ubiquitin ligase ZNF598 is required to stall ribosomes during poly(A) translation</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>â¢</label>
+              <p>ZNF598 primarily mono-ubiquitinates two lysines on the 40S ribosomal protein eS10</p>
+            </list-item>
+            <list-item id="u0025">
+              <label>â¢</label>
+              <p>ZNF598 deletion or mutation of its eS10 target permits increased poly(A) translation</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+      <abstract abstract-type="teaser" id="abs0025">
+        <p>Juszkiewicz and Hegde report that ZNF598 mono-ubiquitinates ribosomal protein eS10 to stall translation on poly(A) sequences. Stalling precludes synthesis of a long poly-lysine tail, instead initiating the ribosome-associated quality control pathway to degrade the potentially detrimental aberrant nascent polypeptide.</p>
+      </abstract>
+      <kwd-group id="kwrds0010">
+        <title>Keywords</title>
+        <kwd>translation</kwd>
+        <kwd>protein quality control</kwd>
+        <kwd>ribosome stalling</kwd>
+        <kwd>ubiquitination</kwd>
+        <kwd>nonstop mRNA</kwd>
+        <kwd>poly(A)</kwd>
+      </kwd-group>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: January 5, 2017</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Introduction</title>
+      <p>Translation of proteins is a fundamental and energetically costly process that is regulated at many levels and subject to stringent quality control. Although post-translational protein quality control has been extensively studied, quality control of nascent polypeptides during translation has only recently emerged (<xref rid="bib3" ref-type="bibr">Brandman and Hegde, 2016</xref>, <xref rid="bib36" ref-type="bibr">Wang etÂ al., 2015</xref>). Co-translational protein quality control has its origins in mRNA surveillance pathways for the degradation of aberrant transcripts (<xref rid="bib31" ref-type="bibr">Shoemaker and Green, 2012</xref>). A major cue for detection of an aberrant mRNA is the stalling of a translating ribosome. Although the mechanisms are only partially known, a stalled ribosome can initiate not only degradation of the associated mRNA (<xref rid="bib8" ref-type="bibr">Doma and Parker, 2006</xref>) but also recycling of the ribosomal subunits (<xref rid="bib21" ref-type="bibr">Pisareva etÂ al., 2011</xref>, <xref rid="bib32" ref-type="bibr">Shoemaker etÂ al., 2010</xref>) and degradation of the partially synthesized nascent polypeptide (<xref rid="bib2" ref-type="bibr">Bengtson and Joazeiro, 2010</xref>, <xref rid="bib11" ref-type="bibr">Ito-Harashima etÂ al., 2007</xref>).</p>
+      <p>Several genetic, biochemical, and structural studies have begun to identify the main factors, steps, and mechanisms downstream of a stalled ribosome culminating in nascent protein degradation (reviewed in <xref rid="bib3" ref-type="bibr">Brandman and Hegde, 2016</xref>). A key event in providing the ubiquitination machinery access to the nascent protein is separation of the ribosomal subunits (<xref rid="bib26" ref-type="bibr">Shao etÂ al., 2013</xref>). This reaction can be mediated by the ribosome rescue factors Pelota (Dom34 in yeast), Hbs1, and ABCE1 (Rli1 in yeast) (<xref rid="bib21" ref-type="bibr">Pisareva etÂ al., 2011</xref>, <xref rid="bib30" ref-type="bibr">Shoemaker and Green, 2011</xref>, <xref rid="bib32" ref-type="bibr">Shoemaker etÂ al., 2010</xref>), although other rescue pathways probably exist (<xref rid="bib6" ref-type="bibr">Chiabudini etÂ al., 2014</xref>, <xref rid="bib28" ref-type="bibr">Shcherbik etÂ al., 2016</xref>). Once the 40S is removed, the intersubunit surface of the 60S-nascent chain complex is recognized by NEMF (Rqc2 in yeast), whose interaction with the ubiquitin ligase Ltn1 facilitates its stable 60S binding (<xref rid="bib19" ref-type="bibr">Lyumkis etÂ al., 2014</xref>, <xref rid="bib27" ref-type="bibr">Shao etÂ al., 2015</xref>, <xref rid="bib29" ref-type="bibr">Shen etÂ al., 2015</xref>). Ltn1 then ubiquitinates the nascent protein (<xref rid="bib2" ref-type="bibr">Bengtson and Joazeiro, 2010</xref>, <xref rid="bib4" ref-type="bibr">Brandman etÂ al., 2012</xref>, <xref rid="bib25" ref-type="bibr">Shao and Hegde, 2014</xref>), whose eventual extraction and proteasome degradation requires the AAA-ATPase p97 (Cdc48 in yeast) and Rqc1 (<xref rid="bib7" ref-type="bibr">DefenouillÃ¨re etÂ al., 2013</xref>, <xref rid="bib35" ref-type="bibr">Verma etÂ al., 2013</xref>).</p>
+      <p>Thus, the key trigger of the ribosome-associated quality control (RQC) pathway is a terminally stalled ribosome acted on by ribosome rescue factors. For some mRNAs defects, such as truncation within the coding region, the mechanism of stalling is a simple physical impediment. In other cases, however, the determinants for terminal stalling, and hence initiation of the RQC pathway, are more nuanced. One example is stalling at poly(A) sequences, which might be needed to initiate RQC in instances of inappropriate poly-adenylation at cryptic sites within an open reading frame. Early studies in yeast suggested that stalling was due to the translation of poly-basic residues (AAA codes for lysine) independent of codon choice (<xref rid="bib11" ref-type="bibr">Ito-Harashima etÂ al., 2007</xref>). The mechanism was proposed to involve electrostatic interactions between a poly-basic nascent chain and the RNA-lined exit tunnel in the ribosome (<xref rid="bib18" ref-type="bibr">Lu and Deutsch, 2008</xref>).</p>
+      <p>Although such a mechanism might play a contributory role, several recent findings indicate a more complex mechanism of stalling. First, synonymous codon choice can strongly impact stalling (<xref rid="bib1" ref-type="bibr">Arthur etÂ al., 2015</xref>, <xref rid="bib16" ref-type="bibr">Letzring etÂ al., 2013</xref>). For example, the CGA arginine codon is particularly potent in yeast (<xref rid="bib16" ref-type="bibr">Letzring etÂ al., 2013</xref>), whereas AAA lysine codons are more effective than AAG in mammalian cells (<xref rid="bib1" ref-type="bibr">Arthur etÂ al., 2015</xref>). Second, deletion of the ribosomal protein Asc1 or the ubiquitin ligase Hel2 permits read-through of poly-basic sequences (<xref rid="bib4" ref-type="bibr">Brandman etÂ al., 2012</xref>, <xref rid="bib14" ref-type="bibr">Kuroha etÂ al., 2010</xref>, <xref rid="bib16" ref-type="bibr">Letzring etÂ al., 2013</xref>). Third, the position of a poly-basic sequence within an open reading frame influences the dependence of stalling on Asc1/Hel2 (<xref rid="bib16" ref-type="bibr">Letzring etÂ al., 2013</xref>). These observations are difficult to reconcile with a physical obstruction model of poly-basic stalling and suggest a role for other factor(s).</p>
+      <p>In this context, the recent observation that ribosomes can be ubiquitinated at specific sites under different stress conditions is especially noteworthy (<xref rid="bib10" ref-type="bibr">Higgins etÂ al., 2015</xref>). Some of the stressors (such as translation elongation inhibition) impact translation directly, while others (such as proteasome or endoplasmic reticulum [ER] stress) do so indirectly. This led to the speculation that site-specific ubiquitination on ribosomal proteins might influence, or be influenced by, translation. Given that stalling of ribosomes in yeast is influenced by Hel2 (<xref rid="bib4" ref-type="bibr">Brandman etÂ al., 2012</xref>, <xref rid="bib16" ref-type="bibr">Letzring etÂ al., 2013</xref>), a ubiquitin ligase of unknown function or specificity, we considered the idea that translation elongation and ribosome ubiquitination might be mechanistically linked in the RQC pathway. Here, we show that ZNF598, a ligase with partial homology to Hel2, is required for stalling at poly(A) sequences. By identifying the ribosomal sites for ZNF598, we could causally link site-specific mono-ubiquitin on the 40S subunit to modulation of translation elongation at an early step of the RQC pathway.</p>
+    </sec>
+    <sec id="sec2">
+      <title>Results</title>
+      <sec id="sec2.1">
+        <title>Poly(A) Is the Major Trigger for Initiation of Mammalian RQC</title>
+        <p>We developed a flow cytometry-based assay to quantitatively assay terminal ribosome stalling at single-cell resolution in mammalian cells (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A). Our reporter cassette contains N- and C-terminal GFP and RFP markers separated by a FLAG-tagged stalling reporter (SR) that has been characterized in cell free systems (<xref rid="bib27" ref-type="bibr">Shao etÂ al., 2015</xref>). FLAG-SR is insulated by viral P2A sequences, at which ribosomes skip formation of a peptide bond without interrupting translation elongation (<xref rid="bib17" ref-type="bibr">Lin etÂ al., 2013</xref>). Thus, complete translation of the cassette will generate three proteins (GFP, FLAG-SR, and RFP) in equal amounts. By contrast, terminal stalling during FLAG-SR translation would abort translation prior to RFP synthesis, resulting in a sub-stoichiometric RFP:GFP ratio. Because GFP and RFP have long and comparable half-lives and are not attached to potential degrons, their ratio is expected to be a faithful reflection of terminal (i.e., abortive) stalling at the intervening sequence. Translation of GFP, which would be complete and released prior to encountering FLAG-SR, would indirectly reflect mRNA abundance. Finally, the levels of FLAG-SR normalized to GFP can report on its relative degradation by cellular quality control pathways.</p>
+        <p>In initial experiments to identify suitable stalling sequences, we tested several constructs by flow cytometry in transiently transfected HEK293T cells. Two different arginine codons (CGG and CGA) were impervious to stalling at repeat lengths up to 20, and a stable stem-loop that induces strong stalling in yeast (<xref rid="bib8" ref-type="bibr">Doma and Parker, 2006</xref>) was ineffective in mammals. Only strings of AAA lysine codons [denoted (K<sup>AAA</sup>)<sub>n</sub>, where n is the number of codons] caused an appreciable decrease in the RFP:GFP ratio relative to the reporter lacking an insert (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B). (K<sup>AAA</sup>)<sub>12</sub> induced only modest decrease in the RFP:GFP ratio, (K<sup>AAA</sup>)<sub>20</sub> showed â¼8-fold decrease, whereas (K<sup>AAG</sup>)<sub>20</sub> was essentially inert. Because of possible frameshifting at sequential AAA codons (<xref rid="bib1" ref-type="bibr">Arthur etÂ al., 2015</xref>, <xref rid="bib13" ref-type="bibr">Koutmou etÂ al., 2015</xref>), the RFP:GFP ratio is likely to underestimate the overall level of read-through. When correcting for this effect by quantifying RFP production in each reading frame, we can deduce that (K<sup>AAA</sup>)<sub>12</sub> and (K<sup>AAA</sup>)<sub>20</sub> show â¼10% and â¼60% stalling, respectively (<xref rid="mmc1" ref-type="supplementary-material">Figures S1</xref>A and S1B).</p>
+        <p>These findings are generally consistent with recent findings using somewhat different reporters showing that AAA is the most potent trigger of stalling in mammalian cells (<xref rid="bib1" ref-type="bibr">Arthur etÂ al., 2015</xref>). Whether the lower threshold for stalling (as few as six AAA codons in this earlier work) is due to a different reporter system, different positioning (near the 5â² end of the coding region), or different cell types remains to be clarified. Nevertheless, we can conclude from the available data that unlike in yeast, stalling within an mRNA is strongly tuned to favor poly(A). In our experiments, the threshold for stalling is clearly higher than any poly(A) regions encoded within the mammalian genome. This suggests that mRNAs that have been promiscuously poly-adenylated in the coding region would probably trigger stalling before synthesizing â¼20 lysines.</p>
+        <p>To investigate poly(A)-mediated stalling in greater detail, we prepared matched stable doxycycline-inducible cell lines in which the reporter lacking or containing 21 AAA lysine codons (termed (K)<sub>0</sub> and (K<sup>AAA</sup>)<sub>21</sub>, respectively) was inserted into the same integration site of HEK293 cells. Flow cytometry showed the expected correlation between GFP and RFP levels across a wide expression range for (K)<sub>0</sub> but strongly reduced RFP for (K<sup>AAA</sup>)<sub>21</sub> (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>C). Immunoblotting verified the flow cytometry results and further showed that FLAG-SR was notably lower in (K<sup>AAA</sup>)<sub>21</sub> cells relative to (K)<sub>0</sub> (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>D). The small amount seen in (K<sup>AAA</sup>)<sub>21</sub> corresponds to the size expected for read-through of the poly-basic region (to generate FLAG-SR-K<sub>21</sub>), which appears to occur at a low level consistent with the low level of RFP detectable by flow cytometry. Inspection of higher molecular weight regions of such blots (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S1</xref>C) showed that peptide bond skipping at the P2A sequences failed at a detectable level, resulting in fused rather than separated proteins (<xref rid="bib17" ref-type="bibr">Lin etÂ al., 2013</xref>). This was minor and does not interfere appreciably with the flow cytometry assay or FLAG-SR fate.</p>
+        <p>Proteasome inhibition resulted in a small increase of the full length FLAG-SR-K<sub>21</sub> read-through product and the appearance of a heterogeneous set of lower molecular weight products (hereafter termed arrest products [AP]) (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>E). Only the arrest products were stabilized in cells knocked down for NEMF (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>F), an essential component of RQC-mediated nascent chain degradation. These observations indicate that most ribosomes stall when they encounter the (K<sup>AAA</sup>)<sub>21</sub> sequence and that the arrest products on these stalled ribosomes are degraded by the RQC pathway. Of the small amount that reads through, the resulting SR-K<sub>21</sub> product appears to be targeted for proteasomal degradation via the K<sub>21</sub> tag acting as a degron, highlighting the importance of insulating the fluorescent reporters from the test sequence for monitoring stalling. Of note, the GFP levels are essentially unchanged in (K)<sub>0</sub> versus (K<sup>AAA</sup>)<sub>21</sub> cells (<xref rid="fig1" ref-type="fig">Figures 1</xref>C and 1D), suggesting that at least in HEK293 cells, engagement of the RQC pathway is not accompanied by appreciable mRNA destabilization. The basis for this uncoupling of mRNA and protein quality control is not clear at this time but argues that the stalling-dependent endonucleolytic cleavage step thought to trigger mRNA decay (<xref rid="bib8" ref-type="bibr">Doma and Parker, 2006</xref>, <xref rid="bib14" ref-type="bibr">Kuroha etÂ al., 2010</xref>, <xref rid="bib34" ref-type="bibr">Tsuboi etÂ al., 2012</xref>) is not a prerequisite for initiation of the RQC pathway.</p>
+      </sec>
+      <sec id="sec2.2">
+        <title>ZNF598 Facilitates Stalling on Poly(A) Sequences</title>
+        <p>With a quantitative assay and validated substrate, we investigated the potential role of ubiquitination in poly(A)-mediated ribosome stalling. In yeast, the ubiquitin ligase Hel2 has been shown to influence read-through of CGA codons (<xref rid="bib4" ref-type="bibr">Brandman etÂ al., 2012</xref>, <xref rid="bib16" ref-type="bibr">Letzring etÂ al., 2013</xref>). Although standard BLAST searches did not reveal a clear mammalian homolog of Hel2, the Ensembl Biomart tool (<xref rid="bib9" ref-type="bibr">Flicek etÂ al., 2014</xref>) identified the human RING domain containing protein ZNF598 as a potential candidate (â¼15% identity).</p>
+        <p>Knockdown of ZNF598 in the stable cell line expressing the (K<sup>AAA</sup>)<sub>21</sub> construct showed an increased RFP:GFP ratio (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A) and increased levels of full-length FLAG-SR-K<sub>21</sub> (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B), indicating read-through of the poly(A) region. After compensating the RFP signal for frameshifting that occurs during poly(A) translation (<xref rid="mmc1" ref-type="supplementary-material">Figures S2</xref>A and S2B), we estimate that read-through of (K<sup>AAA</sup>)<sub>21</sub> in the absence of ZNF598 is â¼90% of that seen for the (K)<sub>0</sub> construct. Thus, almost no terminal stalling at (K<sup>AAA</sup>)<sub>21</sub> occurs in ZNF598 knockdown cells.</p>
+        <p>Combined knockdown of NEMF and ZNF598 led to the disappearance of the arrest fragments seen with NEMF knockdown alone (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B). This implies that ZNF598 acts upstream of and initiates the RQC pathway. Using ZNF598 knockout cells (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>C) that recapitulate the knockdown phenotype (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C), we could demonstrate near-complete rescue by re-expressing wild-type ZNF598 but not a ligase-deficient mutant expressed at comparable levels (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>D; <xref rid="mmc1" ref-type="supplementary-material">Figures S2</xref>D and S2E). Thus, the ability of ribosomes to stall efficiently at poly(A) and initiate the RQC pathway appears to be almost completely dependent on the ubiquitin ligase activity of ZNF598.</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>eS10 Is the Primary Ribosomal Target of ZNF598 InÂ Vitro and InÂ Vivo</title>
+        <p>We next investigated the potential target(s) of ZNF598 that might modulate translation arrest at poly(A) sequences. We found that purified human ZNF598 (<xref rid="mmc1" ref-type="supplementary-material">Figures S3</xref>A and S3B) was capable of adding tagged ubiquitin to purified mammalian ribosomes inÂ vitro (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>A; <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S3</xref>C). In addition to the heterogeneous mixture of ubiquitin conjugates apparently added by endogenous ribosome-associated ligases, two prominent ZNF598-dependent ubiquitinated products were observed (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>A, left panel). Both ubiquitinated proteins and ZNF598 were observed in ribosomal fractions (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>A, right panel).</p>
+        <p>Purification of ubiquitinated proteins from the ribosomal fractions under denaturing conditions via the tagged ubiquitin revealed two major bands that collapsed to a single product ofÂ â¼20Â kDa upon treatment with a promiscuous de-ubiquitinase (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>B). This product was identified by mass spectrometry to be eS10 (also called RPS10) and was verified byÂ di-Gly-modified residues to have been ubiquitinated on K138 and/or K139. Although not visualized prominently on the stained gel, mass spectrometry of the purified ZNF598-stimulated ubiquitin conjugates (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S3</xref>D) also identified uS10 (RPS20; modified on K4 and K8) and uS3 (RPS3; modified on K214). Immunoblotting of the inÂ vitro ubiquitination reaction products verified ZNF598-mediated ubiquitination of eS10 and uS10 with mono-ubiquitin at up to two sites, whereas other ribosomal proteins were unaffected (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>C). Appreciable uS3 ubiquitination by ZNF598 was not seen by immunoblotting (data not shown).</p>
+        <p>Immunoblotting of eS10, uS10, uS3, and uS5 (also called RPS2) in HEK293 cells revealed minor â¼10Â kDa larger products for each that were diminished or absent in cells lacking ZNF598 (except uS5 which was not affected by ZNF598 absence) (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>D; <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S3</xref>E). These products were verified to be ubiquitin by the appearance of a slightly slower migrating species in cells transfected with hemagglutinin (HA)-tagged ubiquitin, and the recovery of HA-ubiquitinated versions of eS10 (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>E), uS3, and uS10 (data not shown). Treatment of cells with the elongation inhibitor cycloheximide or the ER stressor DTT, both shown earlier to stimulate ribosome ubiquitination (<xref rid="bib10" ref-type="bibr">Higgins etÂ al., 2015</xref>), affected each protein in somewhat different ways. The modest increase in ubiquitination of each protein with cycloheximide was attenuated (uS3 and uS10) or entirely abolished (eS10) in ZNF598 knockout cells. The ubiquitination levels of uS3 and uS10 in DTT-treated cells was ZNF598 independent. Thus, there are multiple (spatially nearby) targets for ZNF598, yet unidentified ligases for the ribosome and stress-dependent and -independent sites of modification. Of these, eS10 is the most efficient ZNF598 target inÂ vitro and the most ZNF598-dependent inÂ vivo.</p>
+      </sec>
+      <sec id="sec2.4">
+        <title>Efficient Poly(A)-Mediated Stalling Requires eS10Â Ubiquitination</title>
+        <p>We generated matched isogenic stable cell lines expressing HA-tagged wild-type eS10 or versions containing lysine to arginine mutants at the identified ZNF598 target sites. At steady state, exogenous eS10 comprises â¼70% of total eS10 (whose overall levels remain constant) and is incorporated efficiently into the ribosomes (<xref rid="fig4" ref-type="fig">Figures 4</xref>A and 4B). Analysis of the (K<sup>AAA</sup>)<sub>21</sub> reporter showed increased RFP:GFP ratio in the eS10-(K139R) cells and a further increase in the K138R/K139R double mutant (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>C). Given that â¼30% of ribosomes still contain endogenous eS10, and poly(A)-mediated frameshifting underestimates read-through, the seemingly modest effect on the RFP:GFP ratio in theÂ ubiquitination-resistant eS10 cells actually represents substantial read-through. Nevertheless, the effect is not as completeÂ as ZNF598 knockout, suggesting that other ubiquitination sites might partially compensate. Consistent with this idea, we can observe a partial read-through in K4R/K8R double-mutant uS10 cells (<xref rid="mmc1" ref-type="supplementary-material">Figures S4</xref>AâC). We conclude that mutation of theÂ most efficient ubiquitination targets on the ribosome by ZNF598 partially phenocopies ZNF598 deletion with respect to translation of poly(A) sequences.</p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <title>Discussion</title>
+      <p>We have identified ZNF598 as a ubiquitin ligase for the mammalian ribosome, defined eS10 as a primary target for mono-ubiquitination, and demonstrated a requirement for this modification in ribosome stalling at poly(A) sequences. These findings provide direct evidence that translation elongation is subject to regulation by <italic>trans</italic>-acting factors that operate on a core ribosomal protein. This conclusion has a number of implications for both general translation and nascent protein quality control and opens up several important directions for future study.</p>
+      <p>We find that the main sequence feature that induces terminal ribosome stalling is poly(A). Although this had long been speculated to be a consequence of a poly-basic nascent chain interacting with the negatively charged ribosomal exit tunnel (<xref rid="bib18" ref-type="bibr">Lu and Deutsch, 2008</xref>), this model would seem overly simplistic, at least in mammalian cells. Quantitative single-cell analysis of terminal ribosome stalling in HEK293 cells unambiguously shows that neither poly-lysine nor poly-arginine, at lengths beyond any found in the genome, stall translation appreciably. Although it remains possible that poly-basic stretches slow translation, this is apparently insufficient to trigger RQC in HEK293 cells. Instead, only translation of poly(A) sequences longer than â¼40 nt are effective triggers of RQC. This length cutoff is notable because there are no native sequences of this length, whereas essentially all poly(A) tails are longer. Thus, the mechanism of stall detection appears to be tuned to detect translation of the poly(A) tail with high specificity.</p>
+      <p>It is not entirely clear why it is important for the cell to stall at poly(A) tails given that it would eventually stall at the 3â² end and engage the RQC pathway. Indeed, mRNAs lacking a stop codon (non-stop decay [NSD] substrates) do not depend on Hel2 to engage the RQC pathway in yeast (<xref rid="bib24" ref-type="bibr">Saito etÂ al., 2015</xref>, <xref rid="bib37" ref-type="bibr">Yonashiro etÂ al., 2016</xref>). Whether RQC was engaged via stalling within or at the end of the poly(A) tail was not determined. In either case, however, the poly-lysine sequence would be relatively short and contained within the ribosomal tunnel given that poly(A) tails in yeast are short (median length of 27 nt) and never exceed â¼90 nt (<xref rid="bib33" ref-type="bibr">Subtelny etÂ al., 2014</xref>). Thus, nascent proteins of NSD substrates in yeast would be degraded without or with stalling before poly-lysine is exposed to the cytosol.</p>
+      <p>In mammals, however, newly made mRNAs contain a poly(A) tail of â¼250 nt. This corresponds to over 80 lysines, more than half of which would emerge from the ribosome if stalling did not occur on NSD substrates. Because poly-lysine can be a potent nuclear/nucleolar targeting signal, stalled ribosomes exposing such sequences may inappropriately engage nuclear import factors, a fate that can be avoided by stalling at a point when the poly-lysine is still within the ribosomal exit tunnel. WeÂ therefore speculate that synthesis of extended poly-lysine mightÂ be detrimental and under negative selection. Indeed, basic poly-dipeptides (glycine-arginine or proline-arginine) encoded by the neurodegeneration-associated expansion repeats of the <italic>C9orf72</italic> gene accumulate in nucleolar puncta and impede RNA biogenesis (<xref rid="bib15" ref-type="bibr">Kwon etÂ al., 2014</xref>, <xref rid="bib20" ref-type="bibr">Mizielinska etÂ al., 2014</xref>), perhaps providing another rationale for limiting poly(A) translation. This could be especially important in mammals, where complex mRNA splicing and multiple cryptic polyadenylation sites might lead to frequent premature polyadenylation (<xref rid="bib12" ref-type="bibr">Kaida etÂ al., 2010</xref>).</p>
+      <p>Given that mutation of the primary (eS10) or secondary (uS10) lysines modified by ZNF598 permits read-through, we conclude that ribosome ubiquitination of at least one of these sites is needed for terminal stalling at poly(A). Although we cannot entirely exclude a non-ubiquitin role of these lysine residues that is lost upon mutation to arginine, the similar phenotypes in both ZNF598 knockout cells and ribosomal mutant cells argues strongly for ubiquitin as the key trigger of stalling. The fact that one can see effects with either eS10 or uS10 mutants, together with the modified sites residing on flexible tails of these proteins, further suggests that the precise position of the ubiquitin is not critical. This would suggest a model where ubiquitin in this region of the solvent side of the 40S ultimately inhibits elongation. Because the key functional regions for elongation (the mRNA channel, and A, P, and E sites) are relatively distant, the mechanism of stalling is unlikely to be simple obstruction of a biochemical reaction. Instead, it seems plausible that other factors are needed to communicate the ubiquitination status of these sites to the translation machinery. The quantitative fluorescent assay described here should facilitate mammalian genetic screens for additional machinery to eventually deduce the mechanism of ubiquitin-directed stalling.</p>
+      <p>In a broader sense, the discovery that a site-specific ubiquitin on the ribosome can impact elongation raises the possibility of translational regulation for non-quality control reasons. Although our current analysis has directly linked eS10 (and to a lesser extent, uS10) ubiquitination to poly(A) stalling, it is plausible that elongation through other sequences are also sensitive to ubiquitination status. Indeed, a recently emerging area is that codon optimality can influence mRNA stability by yet unknown mechanisms that depend on its translation (<xref rid="bib22" ref-type="bibr">Presnyak etÂ al., 2015</xref>). It is therefore attractive to postulate that a combination of codon optimality and ligase activity is employed to regulate elongation in an mRNA-selective manner to control protein and/or mRNA levels. Transcriptome-wide ribosome profiling in ZNF598 null cells may shed light on such regulation.</p>
+      <p>Finally, it is important to note that only certain ribosomal ubiquitination sites were affected by ZNF598 deletion. Such ZNF598-independent sites include both constitutive and stress-responsive ubiquitination. It will be of considerable interest to link each of these sites to a ribosome-associating ubiquitin ligase and physiologic outcome as we have done with ZNF598 and poly(A) stalling. Collectively, these and other types of ribosome modifications appear to represent an underappreciated means of translational regulation for future study.</p>
+    </sec>
+    <sec id="sec4">
+      <title>STARâMethods</title>
+      <sec id="sec4.1">
+        <title>Key Resources Table</title>
+        <p>
+          <table-wrap id="undtbl1" position="float">
+            <table frame="hsides" rules="groups">
+              <thead>
+                <tr>
+                  <th>REAGENT or RESOURCE</th>
+                  <th>SOURCE</th>
+                  <th>IDENTIFIER</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td colspan="3">
+                    <bold>Antibodies</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-ZNF598 (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A)</td>
+                  <td>GeneTex</td>
+                  <td>Cat. #GTX119245; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_10619017" id="intref0010">AB_10619017</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-ZNF598 (<xref rid="fig3" ref-type="fig">Figures 3</xref>A and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>CâS3E)</td>
+                  <td>Abcam</td>
+                  <td>Cat. #ab80458; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2221273" id="intref0015">AB_2221273</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit monoclonal anti-eS10</td>
+                  <td>Abcam</td>
+                  <td>Cat. #ab151550</td>
+                </tr>
+                <tr>
+                  <td>Rabbit monoclonal anti-uS10</td>
+                  <td>Abcam</td>
+                  <td>Cat. #ab133776</td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-uS3</td>
+                  <td>Bethyl Labs</td>
+                  <td>Cat. #A303-840A; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2615588" id="intref0020">AB_2615588</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-eS19</td>
+                  <td>Bethyl Labs</td>
+                  <td>Cat. #A304-002A; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2620351" id="intref0025">AB_2620351</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-uS5</td>
+                  <td>Bethyl Labs</td>
+                  <td>Cat. #A303-794A; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_11218192" id="intref0030">AB_11218192</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-uS9</td>
+                  <td>Santa Cruz Biotechnology</td>
+                  <td>Cat. #sc-102087; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2269633" id="intref0035">AB_2269633</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-uL6</td>
+                  <td>Santa Cruz Biotechnology</td>
+                  <td>Cat. #sc-102085; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2182219" id="intref0040">AB_2182219</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit monoclonal anti-uL2</td>
+                  <td>Abcam</td>
+                  <td>Cat. #ab169538</td>
+                </tr>
+                <tr>
+                  <td>Rabbit monoclonal anti-eS24</td>
+                  <td>Abcam</td>
+                  <td>Cat. #ab196652</td>
+                </tr>
+                <tr>
+                  <td>Mouse monoclonal anti-HA</td>
+                  <td>Covance Research Products Inc.</td>
+                  <td>Cat. #MMS-101P; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2314672" id="intref0045">AB_2314672</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Mouse monoclonal anti-Flag</td>
+                  <td>Sigma-Aldrich</td>
+                  <td>Cat. #F3165; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_259529" id="intref0050">AB_259529</ext-link></td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-GFP</td>
+                  <td>
+                    <xref rid="bib5" ref-type="bibr">Chakrabarti and Hegde, 2009</xref>
+                  </td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-RFP</td>
+                  <td>
+                    <xref rid="bib5" ref-type="bibr">Chakrabarti and Hegde, 2009</xref>
+                  </td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Rabbit polyclonal anti-NEMF</td>
+                  <td>
+                    <xref rid="bib27" ref-type="bibr">Shao etÂ al., 2015</xref>
+                  </td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>HRP conjugated goat anti-rabbit</td>
+                  <td>Jackson Immunoresearch</td>
+                  <td>Cat. #111-035-003; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_2313567" id="intref0055">AB_2313567</ext-link></td>
+                </tr>
+                <tr>
+                  <td>HRP conjugated goat anti-mouse</td>
+                  <td>Jackson Immunoresearch</td>
+                  <td>Cat. #115-035-003; RRID: <ext-link ext-link-type="uri" xlink:href="nif-antibody:AB_10015289" id="intref0060">AB_10015289</ext-link></td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <bold>Chemicals, Peptides, and Recombinant Proteins</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>3Ã Flag peptide</td>
+                  <td>Sigma-Aldrich</td>
+                  <td>Cat. #F4799</td>
+                </tr>
+                <tr>
+                  <td>Anti-Flag M2 affinity resin</td>
+                  <td>Sigma-Aldrich</td>
+                  <td>Cat. #A2220</td>
+                </tr>
+                <tr>
+                  <td>Ni-NTA agarose</td>
+                  <td>QIAGEN</td>
+                  <td>Cat. #30210</td>
+                </tr>
+                <tr>
+                  <td>Complete protease inhibitor cocktail, EDTA-free</td>
+                  <td>Roche</td>
+                  <td>Cat. #11 873 580 001</td>
+                </tr>
+                <tr>
+                  <td>Cycloheximide</td>
+                  <td>Sigma-Aldrich</td>
+                  <td>Cat. #C4859; CAS: 66-81-9</td>
+                </tr>
+                <tr>
+                  <td>Hygromycin B</td>
+                  <td>Millipore</td>
+                  <td>Cat. #400051-100KU; CAS: 31282-04-9</td>
+                </tr>
+                <tr>
+                  <td>Blasticidin S</td>
+                  <td>Santa Cruz Biotechnology</td>
+                  <td>Cat. #sc204655; CAS: 3513-03-9</td>
+                </tr>
+                <tr>
+                  <td>MG132</td>
+                  <td>Cayman Chemical</td>
+                  <td>Cat. #10012628; CAS: 133407-82-6</td>
+                </tr>
+                <tr>
+                  <td>Doxycycline</td>
+                  <td>Sigma-Aldrich</td>
+                  <td>Cat. #D9891; CAS: 24390-14-5</td>
+                </tr>
+                <tr>
+                  <td>Creatine phosphate</td>
+                  <td>Roche</td>
+                  <td>Cat. #621714</td>
+                </tr>
+                <tr>
+                  <td>Creatine kinase</td>
+                  <td>Roche</td>
+                  <td>Cat. #127566</td>
+                </tr>
+                <tr>
+                  <td>ZNF598-TEV-3xFlag (human)</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>His-Ubiquitin</td>
+                  <td>Boston Biochem</td>
+                  <td>Cat. #U-530</td>
+                </tr>
+                <tr>
+                  <td>HA-Ubiquitin</td>
+                  <td>Boston Biochem</td>
+                  <td>Cat. #U-110</td>
+                </tr>
+                <tr>
+                  <td>Methylated Ubiquitin</td>
+                  <td>Boston Biochem</td>
+                  <td>Cat. #U-501</td>
+                </tr>
+                <tr>
+                  <td>UbcH5a</td>
+                  <td>Boston Biochem</td>
+                  <td>Cat. #E2-616</td>
+                </tr>
+                <tr>
+                  <td>GST-UBE1 (human)</td>
+                  <td>Boston Biochem</td>
+                  <td>Cat. #E-306</td>
+                </tr>
+                <tr>
+                  <td>USP2-CD</td>
+                  <td>Boston Biochem</td>
+                  <td>Cat. #E-504</td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <bold>Experimental Models: Cell Lines</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>HEK293T</td>
+                  <td>ATCC</td>
+                  <td>CRL-3216</td>
+                </tr>
+                <tr>
+                  <td>Flp-In T-REx 293</td>
+                  <td>Thermo Fisher</td>
+                  <td>Cat. #R78007</td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <bold>Recombinant DNA</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>pcDNA3.1 ZNF598-TEV-3xFlag</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA3.1 ÎRING-ZNF598-TEV-3xFlag</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-K<sub>0</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-SL-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(K<sup>AAA</sup>)<sub>12</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(K<sup>AAA</sup>)<sub>20</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(K<sup>AAG</sup>)<sub>12</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(K<sup>AAG</sup>)<sub>20</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(R<sup>CGA</sup>)<sub>10</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(R<sup>CGA</sup>)<sub>20</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pmGFP-P2A-(R<sup>CGG</sup>)<sub>20</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-GFP-P2A-(K<sup>AAA</sup>)<sub>21</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-GFP-P2A-(K)<sub>0</sub>-P2A-RFP</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-eS10-HA</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-eS10-K139R-HA</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-eS10-K138R/K139R-HA</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-uS10-HA</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-uS10-K8R-HA</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pcDNA 5/FRT/TO-uS10-K4R/K8R-HA</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>pOG44 Flp-Recombinase Expression Vector</td>
+                  <td>Thermo Fisher</td>
+                  <td>Cat. #V600520</td>
+                </tr>
+                <tr>
+                  <td>pX330-U6-Chimeric_BB-CBh-hSpCas9</td>
+                  <td>
+                    <xref rid="bib23" ref-type="bibr">Ran etÂ al., 2013</xref>
+                  </td>
+                  <td>Addgene Plasmid #42230</td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <bold>Sequence-Based Reagents</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Silencer Select Pre-designed siRNA against ZNF598</td>
+                  <td>Life Technologies</td>
+                  <td>Cat. #4392420; siRNA ID #s40509</td>
+                </tr>
+                <tr>
+                  <td>Silencer Select Pre-designed siRNA against NEMF</td>
+                  <td>Life Technologies</td>
+                  <td>Cat. #4392420; siRNA ID #s17483</td>
+                </tr>
+                <tr>
+                  <td>Silencer Select Pre-designed siRNA negative control #1</td>
+                  <td>Life Technologies</td>
+                  <td>Cat. #4392420</td>
+                </tr>
+                <tr>
+                  <td>guide RNA targeting exon 1 of ZNF598 gene 5â²-TAGAGCAGCGGTAGCACACC-3â²</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Nucleotide sequence of (K)<sub>0</sub> insert: CGCCATGGCGACCCCCGGGGGATCC</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Nucleotide sequence of (K<sup>AAA</sup>)<sub>n</sub> inserts: CGCCATGGCGACC(AAA)<sub>n</sub>CCCGGGGGATCC</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Nucleotide sequence of (K<sup>AAG</sup>)<sub>n</sub> inserts: CGCCATGGCGACC(AAG)<sub>n</sub>CCCGGGGGATCC</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Nucleotide sequence of (R<sup>CGA</sup>)<sub>n</sub> inserts: CGCCATGGCGACC(CGA)<sub>n</sub>CCCGGGGGATCC</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Nucleotide sequence of (R<sup>CGG</sup>)<sub>n</sub> inserts: CGCCATGGCGACC(CGG)<sub>n</sub>CCCGGGGGATCC</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>Nucleotide sequence of SL insert: CGCCCTGTTCCACTATAGGGCACCTCCCCGCGCACCACCGCCGACGTCGGCGGTGGTGCGCGGGGAGGTGCCCTATAGCGGTAC</td>
+                  <td>This study</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <bold>Software and Algorithms</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>Ensembl BioMart tool (online version)</td>
+                  <td>
+                    <xref rid="bib9" ref-type="bibr">Flicek etÂ al., 2014</xref>
+                  </td>
+                  <td>
+                    <ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org/biomart" id="intref0065">http://www.ensembl.org/biomart</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>FlowJo 10.1r5</td>
+                  <td>FlowJo, LLC</td>
+                  <td>
+                    <ext-link ext-link-type="uri" xlink:href="https://www.flowjo.com/" id="intref0070">https://www.flowjo.com/</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td>GraphPad Prism 6.05</td>
+                  <td>GraphPad Software</td>
+                  <td>
+                    <ext-link ext-link-type="uri" xlink:href="http://graphpad.com/" id="intref0075">http://graphpad.com/</ext-link>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <bold>Other</bold>
+                  </td>
+                </tr>
+                <tr>
+                  <td colspan="3">
+                    <hr/>
+                  </td>
+                </tr>
+                <tr>
+                  <td>TransIt 293</td>
+                  <td>Mirus</td>
+                  <td>Cat. #MIR 2705</td>
+                </tr>
+                <tr>
+                  <td>Lipofectamine RNAiMAX</td>
+                  <td>Thermo Fisher</td>
+                  <td>Cat. #13778150</td>
+                </tr>
+                <tr>
+                  <td>SuperSignal West Pico Chemiluminescent substrate</td>
+                  <td>Thermo Fisher</td>
+                  <td>Cat. #34080</td>
+                </tr>
+                <tr>
+                  <td>Rabbit reticulocyte lysate (RRL)</td>
+                  <td>Green Hectares</td>
+                  <td>N/A</td>
+                </tr>
+                <tr>
+                  <td>DMEM, high glucose, GlutaMAX Supplement, pyruvate</td>
+                  <td>Thermo Fisher</td>
+                  <td>Cat. #10569010</td>
+                </tr>
+                <tr>
+                  <td>Tetracycline-free fetal calf serum (FCS)</td>
+                  <td>BioSera</td>
+                  <td>Cat. #FB-1001T/500</td>
+                </tr>
+              </tbody>
+            </table>
+          </table-wrap>
+        </p>
+      </sec>
+      <sec id="sec4.2">
+        <title>Contact for Reagent and Resource Sharing</title>
+        <p>Requests for reagents may be directed to Lead Contact Ramanujan S. Hegde (<ext-link ext-link-type="uri" xlink:href="mailto:rhegde@mrc-lmb.cam.ac.uk" id="intref0080">rhegde@mrc-lmb.cam.ac.uk</ext-link>).</p>
+      </sec>
+      <sec id="sec4.3">
+        <title>Experimental Model and Subject Details</title>
+        <sec id="sec4.3.1">
+          <title>Cell Lines</title>
+          <p>HEK293T cells were cultured in Dulbeccoâs Modified Eagleâs Medium (DMEM) with 10% fetal calf serum (FCS). Flp-In 293 T-Rex cells were maintained in DMEM with 10% tetracycline-free FCS in the presence of 15Â Î¼g/ml blasticidin and 100Â Î¼g/ml hygromycin.</p>
+        </sec>
+      </sec>
+      <sec id="sec4.4">
+        <title>Method Details</title>
+        <sec id="sec4.4.1">
+          <title>Constructs</title>
+          <p>Reporter constructs for transient expression were generated starting with the mGFP-N1 vector (Clontech). For generation of stable cell lines, reporter cassettes were sub-cloned into the pcDNA 5/FRT/TO vector. For the nucleotide sequences of the inserts of the various constructs see also <xref rid="sec4.1" ref-type="sec">Key Resources Table</xref>. ZNF598 with a C-terminal 3X-FLAG tag was in the pcDNA3.1 vector. CRISPR-Cas9 mediated ZNF598 knock out used a guide RNA targeting exon 1 of ZNF598 (5â²-TAGAGCAGCGGTAGCACACC â3â² designed with CRISPR design tool at <ext-link ext-link-type="uri" xlink:href="http://crispr.mit.edu" id="intref0085">crispr.mit.edu</ext-link>) in the pX330-U6 plasmid (<xref rid="bib23" ref-type="bibr">Ran etÂ al., 2013</xref>).</p>
+        </sec>
+        <sec id="sec4.4.2">
+          <title>Cell Cultures</title>
+          <p>Stable cell lines were generated using the Flp-In system (Invitrogen) according to manufacturerâs protocol. CRISPR-Cas9 mediated gene disruption was performed in the stable cell lines harboring (K<sup>AAA</sup>)<sub>21</sub> reporter cassette as described (<xref rid="bib23" ref-type="bibr">Ran etÂ al., 2013</xref>): cells were transiently transfected with the pX330 plasmid encoding the gRNA targeting exon 1 of ZNF598 gene. After 3Â days, cells were trypsinized and re-plated in 96-well plates at a density of 0.5 cells per well to obtain single cell clones. After 2Â weeks of culture, individual clones were expanded and screened for the presence of ZNF598 protein by western-blotting relative to serial dilutions of the starting cell line. Cell lines showing no detectable signal even with over-exposure of the immunoblot were selected for further study. Expression of transgene was induced with doxycycline (1Â Î¼g/ml) for 24-48h. Cycloxehimide (100Â Î¼g/ml) and DTT (1Â mM) treatments were performed in standard medium for 2h. MG132 (20Â Î¼M) treatment, where indicated, was for 4h. Transient transfections were performed using TransIt-293 (Mirus) according to manufacturers protocol. siRNA silencing was performed with Lipofectamine RNAiMAX reagent (Life Technologies) using standard methods.</p>
+        </sec>
+        <sec id="sec4.4.3">
+          <title>Flow Cytometry Analysis</title>
+          <p>Trypsinized cells were sedimented (1000Â rpm for 5Â min at room temperature), resuspended in 10% FCS in PBS, and analyzed using the Becton Dickinson LSR II and FlowJo software.</p>
+        </sec>
+        <sec id="sec4.4.4">
+          <title>Western Blot Analysis</title>
+          <p>Cells were washed with PBS twice and lysed with 100Â mM Tris pH 8.0 with 1% SDS then boiled for 10Â min with vortexting to shear genomic DNA. 5X SDS-PAGE sample buffer was added for a final concentration of 50Â mM Tris, 1%SDS, 10% glycerol, and 100Â mM DTT. Samples were analyzed using 10% Tris-Tricine based gels, and transferred to 0.2Â Î¼m nitrocellulose membrane (Biorad). Primary antibody incubations were either for 1h at room temperature or 4Â°C overnight. Detection used HRP-conjugated secondary antibodies and SuperSignal West Pico Chemiluminescent substrate (Thermo Fisher).</p>
+        </sec>
+        <sec id="sec4.4.5">
+          <title>Ribosomes Purification</title>
+          <p>Ribosomes were sedimented from 25Â mL of nuclease treated rabbit reticulocyte lysate (RRL; Green Hectares) in a TLA100.4 rotor at 100,000Â rpm for 40Â min at 4Â°C. The pellets were briefly washed with Ribosome Wash Buffer (RWB) (20Â mM HEPES pH 7.5, 100Â mM KAc, 1.5Â mM MgAc<sub>2</sub>, 0.1Â mM EDTA), resuspended in a total volume of â¼8Â mL RWB and gently homogenized in a glass dounce with Teflon pestle. 2Â mL aliquots of resuspended ribosomes were layered over a 1Â mL sucrose cushion (RWB with 1Â M sucrose and 1Â mM DTT) and centrifuged using a TLA100.4 rotor at 100,000Â rpm at 4Â°C for 1h. Ribosome pellets were resuspended in a total volume of â¼2.2Â mls of 20Â mM HEPES pH 7.4, 100Â mM KAc, 1.5Â mM MgAc<sub>2</sub>, 10% glycerol. The purified ribosomes were frozen in liquid nitrogen and stored at - 80Â°C. Concentration was measured using absorbance at 260Â nm, assuming that1 A<sub>260</sub> unit corresponds to 16Â nM ribosomes.</p>
+        </sec>
+        <sec id="sec4.4.6">
+          <title>Recombinant ZNF598-3X-FLAG Protein Purification</title>
+          <p>C-terminal 3X-Flag-tagged ZNF598 was transfected into HEK293T cells using TransIT 293 (Mirus), and purified after two days of expression. Sixteen 10Â cm dishes of confluent ZNF598-expressing cells were harvested in ice cold PBS, sedimented, and lysed in â¼1Â mL 50Â mM HEPES, pH 7.4, 100Â mM KAc, 5Â mM MgAc<sub>2</sub>, 100Â Î¼g/mL digitonin, 1Â mM DTT, 1X EDTA-free Complete protease inhibitor cocktail (Roche) for 20Â min on ice. The lysate was clarified in a tabletop microcentrifuge at 4Â°C for 10Â min and incubated with 100Â Î¼L of packed anti-Flag affinity resin (Sigma) for 1-1.5Â hr at 4Â°C. The resin was washed three times in 1Â mL lysis buffer, three times in 1Â mL 50Â mM HEPES, pH 7.4, 400Â mM KAc, 5Â mM MgAc<sub>2</sub>, 100Â Î¼g/mL digitonin, 1Â mM DTT buffer, and three times in 50Â mM HEPES, pH 7.4, 100Â mM KAc, 5Â mM MgAc<sub>2</sub> buffer. Elutions were carried out with one column volume of 0.2Â mg/ml 3X-Flag peptide in the final wash buffer at room temperature for 30Â min. Two sequential elutions were combined to form the final fraction.</p>
+        </sec>
+        <sec id="sec4.4.7">
+          <title>InÂ Vitro Ubiquitination of Ribosomes</title>
+          <p>Ubiquitination reactions contained 1Â mM ATP, 10Â mM creatine phosphate, 40Â ng/ml creatine kinase, 10Â Î¼M His-Ubiquitin (Boston Biochem), 100Â nM rhGST-UBE1 (Boston Biochem), 200Â nM UbcH5a (Boston Biochem), 1.6 to 100Â nM ZNF598 (as indicated in individual figure legends), and 220Â nM ribosomes in PS buffer (100Â mM KAc, 50Â mM HEPES, pH 7.4, 5Â mM MgAc<sub>2</sub>). All components except ribosomes and ZNF598 were pre-assembled on ice and incubated at room temperature for 15Â min before adding ribosomes and ZNF598. Reactions were for 1h at 32Â°C. The samples were either analyzed directly, or purified as follows for downstream mass spectrometry analysis. 200Â Î¼L reactions were chilled on ice and layered onto 2Â mL 10%â50% sucrose gradients in PS buffer. After centrifugation at 55,000Â rpm for 1Â hr in a TLS-55 rotor (Beckman), eleven 200Â Î¼L fractions were removed from the top. The ribosomal fractions (4-11) were pooled (1.6Â ml), mixed with 400 ul of 500Â mM Tris pH 8.0, 5% SDS, and denatured by heating to 95Â°C for 5Â min. The sample was cooled, diluted with 8Â mL of Triton buffer (PBS containing 0.5% Triton X-100, 250Â mM NaCl, 20Â mM imidazole), and incubated with 20Â Î¼L of Ni-NTA-agarose resin overnight with end-over-end rolling at 4Â°C. The resin was washed 3 times with 1Â mL of Triton buffer, and eluted with 2.5x SDS-PAGE sample buffer containing 0.05Â M EDTA (for direct SDS-PAGE analysis and mass spectrometry) or PBS with 0.05Â M EDTA for deubiquitination with 10Â Î¼M USP2 catalytic domain for 1h at 32Â°C.</p>
+        </sec>
+        <sec id="sec4.4.8">
+          <title>Sucrose Gradient Fractionation</title>
+          <p>Analytical scale 0.2Â mL gradients were prepared in 7Â Ã 20Â mm centrifuge tubes (Beckman 343775) by successively layering 40Â Î¼L of 50%, 40%, 30%, 20%, and 10% sucrose (w/v) in PS buffer. Gradients were then allowed to stand for 1-2Â hr at 4Â°C. InÂ vitro ubiquitination reactions (20Â Î¼l) were loaded on top of the gradients, and the samples centrifuged in a TLS- 55 rotor at 55,000Â rpm for 30Â min at 4Â°C with the slowest acceleration and deceleration settings. Eleven 20Â Î¼L fractions were successively collected from the top and used directly for western blot analysis. Where needed, 10-fold larger gradients were prepared in exactly the same way using 11Â Ã 34Â mm tubes (Seton 5011), but centrifuged at 55,000Â rpm in the TLS-55 rotor for 1Â hr.</p>
+        </sec>
+        <sec id="sec4.4.9">
+          <title>Cytosol Fractionation</title>
+          <p>Actively growing HEK293 T-Rex cells (â¼80% confluent) expressing eS10-K138/139R-HA (or other ribosomal protein variants) in 6-well plates were washed in PBS and the cytosol extracted with digitonin-containing buffer (25Â mM HEPES, pH 7.4, 125Â mM KAc, 15Â mM MgAc<sub>2</sub>, 100Â Î¼g/mL digitonin, 40U/mL RNase inhibitor, 50Â Î¼g/mL CHX, 1Â mM DTT, 1X protease inhibitor cocktail) on ice for 5Â min. The lysate was spun at maximum speed in a benchtop microcentrifuge for 10Â min at 4Â°C, and the supernatant was separated on a 2Â mL 10%â50% sucrose gradient as detailed above. Fractions were collected and subjected to TCA precipitation for analysis by immunoblotting.</p>
+        </sec>
+      </sec>
+      <sec id="sec4.5">
+        <title>Quantification and Statistical Analysis</title>
+        <p>In <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B, the quantitative value that is graphed represents the median of the RFP:GFP ratio for 20,000 GFP positive events normalized to the value observed for the control construct [(K)<sub>0</sub>]. Error bars represent the ârobust SDâ value generated in FlowJo, and represents 68.26% of the events around the median. All experiments were repeated at least twice, and a representative result is shown. No statistical analyses were performed in this study.</p>
+      </sec>
+    </sec>
+    <sec id="sec5">
+      <title>Author Contributions</title>
+      <p>S.J. designed and conducted the experiments; S.J. and R.S.H. conceived the project, interpreted the results, and wrote the manuscript.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list id="cebib0010">
+      <title>References</title>
+      <ref id="bib1">
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arthur</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Pavlovic-Djuranovic</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Smith-Koutmou</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Szczesny</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Djuranovic</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translational control by lysine-encoding A-rich sequences</article-title>
+          <source>Sci. Adv.</source>
+          <volume>1</volume>
+          <year>2015</year>
+          <fpage>e1500154</fpage>
+          <pub-id pub-id-type="pmid">26322332</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bengtson</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Joazeiro</surname>
+              <given-names>C.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of a ribosome-associated E3 ubiquitin ligase in protein quality control</article-title>
+          <source>Nature</source>
+          <volume>467</volume>
+          <year>2010</year>
+          <fpage>470</fpage>
+          <lpage>473</lpage>
+          <pub-id pub-id-type="pmid">20835226</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brandman</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ribosome-associated protein quality control</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>23</volume>
+          <year>2016</year>
+          <fpage>7</fpage>
+          <lpage>15</lpage>
+          <pub-id pub-id-type="pmid">26733220</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brandman</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Stewart-Ornstein</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Larson</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>C.C.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>G.-W.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Shen</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Weibezahn</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A ribosome-bound quality control complex triggers degradation of nascent peptides and signals translation stress</article-title>
+          <source>Cell</source>
+          <volume>151</volume>
+          <year>2012</year>
+          <fpage>1042</fpage>
+          <lpage>1054</lpage>
+          <pub-id pub-id-type="pmid">23178123</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chakrabarti</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional depletion of mahogunin by cytosolically exposed prion protein contributes to neurodegeneration</article-title>
+          <source>Cell</source>
+          <volume>137</volume>
+          <year>2009</year>
+          <fpage>1136</fpage>
+          <lpage>1147</lpage>
+          <pub-id pub-id-type="pmid">19524515</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chiabudini</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tais</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Hayashi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>WÃ¶lfle</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Fitzke</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rospert</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Release factor eRF3 mediates premature translation termination on polylysine-stalled ribosomes in Saccharomyces cerevisiae</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>34</volume>
+          <year>2014</year>
+          <fpage>4062</fpage>
+          <lpage>4076</lpage>
+          <pub-id pub-id-type="pmid">25154418</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DefenouillÃ¨re</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mouaikel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Namane</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Galopier</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Decourty</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Doyen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Malabat</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Saveanu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Jacquier</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cdc48-associated complex bound to 60S particles is required for the clearance of aberrant translation products</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>110</volume>
+          <year>2013</year>
+          <fpage>5046</fpage>
+          <lpage>5051</lpage>
+          <pub-id pub-id-type="pmid">23479637</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Doma</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Parker</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endonucleolytic cleavage of eukaryotic mRNAs with stalls in translation elongation</article-title>
+          <source>Nature</source>
+          <volume>440</volume>
+          <year>2006</year>
+          <fpage>561</fpage>
+          <lpage>564</lpage>
+          <pub-id pub-id-type="pmid">16554824</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Flicek</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Amode</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Barrell</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Beal</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Billis</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Brent</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Carvalho-Silva</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Clapham</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Coates</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Fitzgerald</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ensembl 2014</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>42</volume>
+          <year>2014</year>
+          <fpage>D749</fpage>
+          <lpage>D755</lpage>
+          <pub-id pub-id-type="pmid">24316576</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Higgins</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gendron</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Rising</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mak</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kaiser</surname>
+              <given-names>S.E.</given-names>
+            </name>
+            <name>
+              <surname>Zuzow</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Riviere</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Fenech</surname>
+              <given-names>E.</given-names>
+            </name>
+          </person-group>
+          <article-title>The unfolded protein response triggers site-specific regulatory ubiquitylation of 40S ribosomal proteins</article-title>
+          <source>Mol. Cell</source>
+          <volume>59</volume>
+          <year>2015</year>
+          <fpage>35</fpage>
+          <lpage>49</lpage>
+          <pub-id pub-id-type="pmid">26051182</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ito-Harashima</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kuroha</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Tatematsu</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Inada</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translation of the poly(A) tail plays crucial roles in nonstop mRNA surveillance via translation repression and protein destabilization by proteasome in yeast</article-title>
+          <source>Genes Dev.</source>
+          <volume>21</volume>
+          <year>2007</year>
+          <fpage>519</fpage>
+          <lpage>524</lpage>
+          <pub-id pub-id-type="pmid">17344413</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaida</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Younis</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Kasim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Singh</surname>
+              <given-names>L.N.</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Dreyfuss</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>U1 snRNP protects pre-mRNAs from premature cleavage and polyadenylation</article-title>
+          <source>Nature</source>
+          <volume>468</volume>
+          <year>2010</year>
+          <fpage>664</fpage>
+          <lpage>668</lpage>
+          <pub-id pub-id-type="pmid">20881964</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koutmou</surname>
+              <given-names>K.S.</given-names>
+            </name>
+            <name>
+              <surname>Schuller</surname>
+              <given-names>A.P.</given-names>
+            </name>
+            <name>
+              <surname>Brunelle</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Radhakrishnan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Djuranovic</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ribosomes slide on lysine-encoding homopolymeric A stretches</article-title>
+          <source>eLife</source>
+          <volume>4</volume>
+          <year>2015</year>
+          <fpage>4</fpage>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuroha</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Akamatsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dimitrova</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Shirahige</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Inada</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Receptor for activated C kinase 1 stimulates nascent polypeptide-dependent translation arrest</article-title>
+          <source>EMBO Rep.</source>
+          <volume>11</volume>
+          <year>2010</year>
+          <fpage>956</fpage>
+          <lpage>961</lpage>
+          <pub-id pub-id-type="pmid">21072063</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kwon</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Theodoropoulos</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Yun</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>McKnight</surname>
+              <given-names>S.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly-dipeptides encoded by the C9orf72 repeats bind nucleoli, impede RNA biogenesis, and kill cells</article-title>
+          <source>Science</source>
+          <volume>345</volume>
+          <year>2014</year>
+          <fpage>1139</fpage>
+          <lpage>1145</lpage>
+          <pub-id pub-id-type="pmid">25081482</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Letzring</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Wolf</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Brule</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Grayhack</surname>
+              <given-names>E.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translation of CGA codon repeats in yeast involves quality control components and ribosomal protein L1</article-title>
+          <source>RNA</source>
+          <volume>19</volume>
+          <year>2013</year>
+          <fpage>1208</fpage>
+          <lpage>1217</lpage>
+          <pub-id pub-id-type="pmid">23825054</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>C.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhancement of heterologous gene expression in Flammulina velutipes using polycistronic vectors containing a viral 2A cleavage sequence</article-title>
+          <source>PLoS ONE</source>
+          <volume>8</volume>
+          <year>2013</year>
+          <fpage>e59099</fpage>
+          <pub-id pub-id-type="pmid">23516605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Deutsch</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Electrostatics in the ribosomal tunnel modulate chain elongation rates</article-title>
+          <source>J.Â Mol. Biol.</source>
+          <volume>384</volume>
+          <year>2008</year>
+          <fpage>73</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="pmid">18822297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lyumkis</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Oliveira dos Passos</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Tahara</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Vinterbo</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Potter</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Carragher</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Joazeiro</surname>
+              <given-names>C.A.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis for translational surveillance by the large ribosomal subunit-associated protein quality control complex</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>111</volume>
+          <year>2014</year>
+          <fpage>15981</fpage>
+          <lpage>15986</lpage>
+          <pub-id pub-id-type="pmid">25349383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mizielinska</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>GrÃ¶nke</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Niccoli</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ridler</surname>
+              <given-names>C.E.</given-names>
+            </name>
+            <name>
+              <surname>Clayton</surname>
+              <given-names>E.L.</given-names>
+            </name>
+            <name>
+              <surname>Devoy</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Moens</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Norona</surname>
+              <given-names>F.E.</given-names>
+            </name>
+            <name>
+              <surname>Woollacott</surname>
+              <given-names>I.O.C.</given-names>
+            </name>
+            <name>
+              <surname>Pietrzyk</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>C9orf72 repeat expansions cause neurodegeneration in Drosophila through arginine-rich proteins</article-title>
+          <source>Science</source>
+          <volume>345</volume>
+          <year>2014</year>
+          <fpage>1192</fpage>
+          <lpage>1194</lpage>
+          <pub-id pub-id-type="pmid">25103406</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pisareva</surname>
+              <given-names>V.P.</given-names>
+            </name>
+            <name>
+              <surname>Skabkin</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Hellen</surname>
+              <given-names>C.U.T.</given-names>
+            </name>
+            <name>
+              <surname>Pestova</surname>
+              <given-names>T.V.</given-names>
+            </name>
+            <name>
+              <surname>Pisarev</surname>
+              <given-names>A.V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dissociation by Pelota, Hbs1 and ABCE1 of mammalian vacant 80S ribosomes and stalled elongation complexes</article-title>
+          <source>EMBO J.</source>
+          <volume>30</volume>
+          <year>2011</year>
+          <fpage>1804</fpage>
+          <lpage>1817</lpage>
+          <pub-id pub-id-type="pmid">21448132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Presnyak</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Alhusaini</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.H.</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kline</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Weinberg</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Baker</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Graveley</surname>
+              <given-names>B.R.</given-names>
+            </name>
+            <name>
+              <surname>Coller</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Codon optimality is a major determinant of mRNA stability</article-title>
+          <source>Cell</source>
+          <volume>160</volume>
+          <year>2015</year>
+          <fpage>1111</fpage>
+          <lpage>1124</lpage>
+          <pub-id pub-id-type="pmid">25768907</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ran</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Wright</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Agarwala</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>D.A.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome engineering using the CRISPR-Cas9 system</article-title>
+          <source>Nat. Protoc.</source>
+          <volume>8</volume>
+          <year>2013</year>
+          <fpage>2281</fpage>
+          <lpage>2308</lpage>
+          <pub-id pub-id-type="pmid">24157548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Saito</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Horikawa</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Ito</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibiting K63 polyubiquitination abolishes no-go type stalled translation surveillance in Saccharomyces cerevisiae</article-title>
+          <source>PLoS Genet.</source>
+          <volume>11</volume>
+          <year>2015</year>
+          <fpage>e1005197</fpage>
+          <pub-id pub-id-type="pmid">25909477</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Reconstitution of a minimal ribosome-associated ubiquitination pathway with purified factors</article-title>
+          <source>Mol. Cell</source>
+          <volume>55</volume>
+          <year>2014</year>
+          <fpage>880</fpage>
+          <lpage>890</lpage>
+          <pub-id pub-id-type="pmid">25132172</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>von der Malsburg</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Listerin-dependent nascent protein ubiquitination relies on ribosome subunit dissociation</article-title>
+          <source>Mol. Cell</source>
+          <volume>50</volume>
+          <year>2013</year>
+          <fpage>637</fpage>
+          <lpage>648</lpage>
+          <pub-id pub-id-type="pmid">23685075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shao</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Santhanam</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hegde</surname>
+              <given-names>R.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and assembly pathway of the ribosome quality control complex</article-title>
+          <source>Mol. Cell</source>
+          <volume>57</volume>
+          <year>2015</year>
+          <fpage>433</fpage>
+          <lpage>444</lpage>
+          <pub-id pub-id-type="pmid">25578875</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shcherbik</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Chernova</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Chernoff</surname>
+              <given-names>Y.O.</given-names>
+            </name>
+            <name>
+              <surname>Pestov</surname>
+              <given-names>D.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct types of translation termination generate substrates for ribosome-associated quality control</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>44</volume>
+          <year>2016</year>
+          <fpage>6840</fpage>
+          <lpage>6852</lpage>
+          <pub-id pub-id-type="pmid">27325745</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>P.S.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Parsawar</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Larson</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Cox</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lambowitz</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Weissman</surname>
+              <given-names>J.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein synthesis. Rqc2p and 60S ribosomal subunits mediate mRNA-independent elongation of nascent chains</article-title>
+          <source>Science</source>
+          <volume>347</volume>
+          <year>2015</year>
+          <fpage>75</fpage>
+          <lpage>78</lpage>
+          <pub-id pub-id-type="pmid">25554787</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoemaker</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Kinetic analysis reveals the ordered coupling of translation termination and ribosome recycling in yeast</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>108</volume>
+          <year>2011</year>
+          <fpage>E1392</fpage>
+          <lpage>E1398</lpage>
+          <pub-id pub-id-type="pmid">22143755</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoemaker</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Translation drives mRNA quality control</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>19</volume>
+          <year>2012</year>
+          <fpage>594</fpage>
+          <lpage>601</lpage>
+          <pub-id pub-id-type="pmid">22664987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shoemaker</surname>
+              <given-names>C.J.</given-names>
+            </name>
+            <name>
+              <surname>Eyler</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dom34:Hbs1 promotes subunit dissociation and peptidyl-tRNA drop-off to initiate no-go decay</article-title>
+          <source>Science</source>
+          <volume>330</volume>
+          <year>2010</year>
+          <fpage>369</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="pmid">20947765</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Subtelny</surname>
+              <given-names>A.O.</given-names>
+            </name>
+            <name>
+              <surname>Eichhorn</surname>
+              <given-names>S.W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Sive</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bartel</surname>
+              <given-names>D.P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly(A)-tail profiling reveals an embryonic switch in translational control</article-title>
+          <source>Nature</source>
+          <volume>508</volume>
+          <year>2014</year>
+          <fpage>66</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="pmid">24476825</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsuboi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kuroha</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kudo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Makino</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kashima</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Inada</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dom34:hbs1 plays a general role in quality-control systems by dissociation of a stalled ribosome at the 3â² end of aberrant mRNA</article-title>
+          <source>Mol. Cell</source>
+          <volume>46</volume>
+          <year>2012</year>
+          <fpage>518</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="pmid">22503425</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Verma</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Oania</surname>
+              <given-names>R.S.</given-names>
+            </name>
+            <name>
+              <surname>Kolawa</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Deshaies</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cdc48/p97 promotes degradation of aberrant nascent polypeptides bound to the ribosome</article-title>
+          <source>eLife</source>
+          <volume>2</volume>
+          <year>2013</year>
+          <fpage>e00308</fpage>
+          <pub-id pub-id-type="pmid">23358411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Canadeo</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Huibregtse</surname>
+              <given-names>J.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ubiquitination of newly synthesized proteins at the ribosome</article-title>
+          <source>Biochimie</source>
+          <volume>114</volume>
+          <year>2015</year>
+          <fpage>127</fpage>
+          <lpage>133</lpage>
+          <pub-id pub-id-type="pmid">25701549</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yonashiro</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Tahara</surname>
+              <given-names>E.B.</given-names>
+            </name>
+            <name>
+              <surname>Bengtson</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Khokhrina</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lorenz</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Kigoshi-Tansho</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Savas</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Yates</surname>
+              <given-names>J.R.</given-names>
+            </name>
+            <name>
+              <surname>Kay</surname>
+              <given-names>S.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Rqc2/Tae2 subunit of the ribosome-associated quality control (RQC) complex marks ribosome-stalled nascent polypeptide chains for aggregation</article-title>
+          <source>eLife</source>
+          <volume>5</volume>
+          <year>2016</year>
+          <fpage>e11794</fpage>
+          <pub-id pub-id-type="pmid">26943317</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app2" sec-type="supplementary-material">
+      <title>Supplemental Information</title>
+      <p>
+        <supplementary-material content-type="local-data" id="mmc1">
+          <caption>
+            <title>Document S1. Figures S1âS4</title>
+          </caption>
+          <media xlink:href="mmc1.pdf"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="mmc2">
+          <caption>
+            <title>Document S2. Article plus Supplemental Information</title>
+          </caption>
+          <media xlink:href="mmc2.pdf"/>
+        </supplementary-material>
+      </p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p>We thank V. Bittl for constructs and initial assay development, M. Daly and E. Zavodszky for help with flow cytometry, M. Skehel for mass spectrometry, S. Shao for ubiquitination advice, K. Yanagitani for constructs, and Hegde lab members for useful discussions. This work was supported by <funding-source id="gs1">UK Medical Research Council</funding-source> Grant MC_UP_A022_1007 (to R.S.H.).</p>
+    </ack>
+    <fn-group>
+      <fn id="app1" fn-type="supplementary-material">
+        <p>Supplemental Information includes four figures and can be found with this article online at <ext-link ext-link-type="doi" xlink:href="10.1016/j.molcel.2016.11.039" id="intref0090">http://dx.doi.org/10.1016/j.molcel.2016.11.039</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>FigureÂ 1</label>
+      <caption>
+        <p>Assay of Terminal Ribosome Stalling at Single-Cell Resolution</p>
+        <p>(A) Diagram of the reporter construct and expected protein products in the absence or presence of terminal stalling.</p>
+        <p>(B) Median RFP:GFP ratio of 20,000 transfected cells transiently expressing the reporter construct containing the indicated test sequences. Error bars represent 68% of the events around the median.</p>
+        <p>(C) Isogenic stable cell lines expressing the (K)<sub>0</sub> (in gray) or (K<sup>AAA</sup>)<sub>21</sub> (in blue) reporter for 24Â hr were analyzed by flow cytometry. A scatterplot of individual cells (top) and a histogram of GFP:RFP ratio (bottom) are shown. This and all other scatterplots are shown on a bi-exponential scale to better visualize data across the wide range of expression levels seen in these experiments.</p>
+        <p>(D) Immunoblot of (K)<sub>0</sub> and (K<sup>AAA</sup>)<sub>21</sub> cells without and with induction of reporter expression with doxycycline for 24Â hr.</p>
+        <p>(E) (K<sup>AAA</sup>)<sub>21</sub> expressing cells were treated with 20Â Î¼M MG132 for 4Â hr and analyzed by immunoblotting for the indicated products.</p>
+        <p>(F) (K<sup>AAA</sup>)<sub>21</sub> cells were subjected to small interfering RNA (siRNA) treatment against the indicated targets for 72Â hr, reporter expression induced for 24Â hr, and analyzed by immunoblotting for the indicated proteins. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S1</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr1"/>
+    </fig>
+    <fig id="fig2">
+      <label>FigureÂ 2</label>
+      <caption>
+        <p>ZNF598 Is Required to Initiate the RQC Pathway during Poly(A) Translation</p>
+        <p>(A) (K<sup>AAA</sup>)<sub>21</sub> cells were transfected with control (blue) or ZNF598 (red) siRNAs for 72Â hr, reporter expression induced for 24Â hr, and analyzed by flow cytometry (left and middle panels) or immunoblotting for the indicated proteins (right panel). (K)<sub>0</sub> cells (gray) served as a reference.</p>
+        <p>(B) (K<sup>AAA</sup>)21 cells were subjected to the indicated siRNA treatment for 72Â hr, reporter expression induced for 24Â hr, and analyzed by immunoblotting for the indicated proteins.</p>
+        <p>(C) (K<sup>AAA</sup>)<sub>21</sub> reporter expression was induced for 24Â hr in wild-type (WT, in blue) and ZNF598 knockout (KO, in red) cells and analyzed by flow cytometry.</p>
+        <p>(D) (K<sup>AAA</sup>)<sub>21</sub> cells knocked out for ZNF598 were transiently transfected with the indicated plasmids and the transfected cells (as judged by a co-transfected BFP construct) were analyzed by flow cytometry after reporter induction for 24Â hr. The majority of cells displayed restoration of terminal ribosomal stalling to wild-type levels (circled). See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr2"/>
+    </fig>
+    <fig id="fig3">
+      <label>FigureÂ 3</label>
+      <caption>
+        <p>ZNF598Â Ubiquitinates eS10 InÂ Vitro and InÂ Vivo</p>
+        <p>(A) InÂ vitro ubiquitination reactions of ribosomes using HA-tagged ubiquitin and the indicated factors were analyzed by immunoblotting with anti-HA to detect all new ubiquitin conjugates. The last reaction was also separated on a 10%â50% sucrose gradient and analyzed by immunoblotting for the indicated antigens (right panel). Asterisks indicate primary ribosomal ubiquitin conjugates.</p>
+        <p>(B) Ribosome ubiquitination reactions with His-tagged ubiquitin in the presence (+) or absence (â) of ZNF598 were fractionated to purify ubiquitinated core ribosomal proteins, treated or untreated with the catalytic domain (CD) of the deubiquitinase Usp2, and analyzed by SDS-PAGE and Coomassie blue staining. The major ZNF598-dependent products were identified by mass spectrometry.</p>
+        <p>(C) Ribosomes were ubiquitinated with increasing concentrations of ZNF598 with either HA-taggedÂ ubiquitin or methyl-ubiquitin, and analyzed byÂ immunoblotting for the indicated ribosomal proteins.</p>
+        <p>(D) eS10 ubiquitination status in WT and ZNF598 KO cells was analyzed by immunoblotting. Two exposures are shown.</p>
+        <p>(E) WT or ZNF598 KO cells were transfected with HA-ubiquitin and treated with nothing, 100Â Î¼g/ml cycloheximide, or 1Â mM DTT for 2Â hr. Anti-eS10 immunoblots are shown for total cell lysate and anti-HA affinity purified products. The positions of ubiquitin- or HA-ubiquitin-modified eS10 are indicated. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S3</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr3"/>
+    </fig>
+    <fig id="fig4">
+      <label>FigureÂ 4</label>
+      <caption>
+        <p>Ubiquitination of eS10 Facilitates Initiation of the RQC Pathway</p>
+        <p>(A) Cytosol from cells stably expressing different HA-tagged variants of eS10 was analyzed by immunoblotting for eS10 and the HA tag.</p>
+        <p>(B) Cytosol from cells stably expressing the HA-tagged K138/139R mutant of eS10 was separated on a 10%â50% sucrose gradient and immunoblotted for eS10. The fractions containing ribosomes are indicated. Similar results were seen for other eS10 variants (not shown).</p>
+        <p>(C) The indicated HA-eS10 expressing cells were transfected with the (K<sup>AAA</sup>)<sub>20</sub> reporter and analyzed by flow cytometry 24Â hr later. The RFP:GFP ratio of all transfected cells is shown as a histogram (eS10-HA in gray, eS10-K139R-HA in red, eS10-K138/139R-HA in blue). See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S4</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr4"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

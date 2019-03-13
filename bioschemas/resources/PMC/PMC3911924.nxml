@@ -1,0 +1,930 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:51:46Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3911924" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3911924</identifier><datestamp>2014-02-04</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3911924</article-id>
+      <article-id pub-id-type="pmcid">PMC3911924</article-id>
+      <article-id pub-id-type="pmc-uid">3911924</article-id>
+      <article-id pub-id-type="pmid">24498303</article-id>
+      <article-id pub-id-type="pmid">24498303</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-31443</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0087250</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Genomics</subject>
+              <subj-group>
+                <subject>Genome Sequencing</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Heredity</subject>
+              <subj-group>
+                <subject>Linkage (Genetics)</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Human Genetics</subject>
+              <subj-group>
+                <subject>Genetic Association Studies</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Model Organisms</subject>
+            <subj-group>
+              <subject>Animal Models</subject>
+              <subj-group>
+                <subject>Zebrafish</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Medicine</subject>
+          <subj-group>
+            <subject>Clinical Genetics</subject>
+            <subj-group>
+              <subject>Autosomal Dominant</subject>
+              <subject>Genetic Testing</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Dermatology</subject>
+            <subj-group>
+              <subject>Pigmentary Disorders</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genome-Wide Linkage, Exome Sequencing and Functional Analyses Identify <italic>ABCB6</italic> as the Pathogenic Gene of Dyschromatosis Universalis Hereditaria</article-title>
+        <alt-title alt-title-type="running-head">Identify the Pathogenic Gene of DUH</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Hong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Li</surname>
+            <given-names>Yi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Hung</surname>
+            <given-names>Ken Kwok Hon</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Na</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Chuan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Xuechao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sheng</surname>
+            <given-names>Donglai</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fu</surname>
+            <given-names>Xiâan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>See</surname>
+            <given-names>Kelvin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Foo</surname>
+            <given-names>Jia Nee</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Low</surname>
+            <given-names>Huiqi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liany</surname>
+            <given-names>Herty</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Irwan</surname>
+            <given-names>Ishak Darryl</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Jian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yang</surname>
+            <given-names>Baoqi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Mingfei</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Yongxiang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Gongqi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Niu</surname>
+            <given-names>Guiye</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>You</surname>
+            <given-names>Jiabao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Yan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ma</surname>
+            <given-names>Shanshan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Ting</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yan</surname>
+            <given-names>Xiaoxiao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Goh</surname>
+            <given-names>Boon Kee</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff7">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Common</surname>
+            <given-names>John E. A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lane</surname>
+            <given-names>Birgitte E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff8">
+<sup>8</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sun</surname>
+            <given-names>Yonghu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Guizhi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lu</surname>
+            <given-names>Xianmei</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Zhenhua</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff9">
+<sup>9</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tian</surname>
+            <given-names>Hongqing</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cao</surname>
+            <given-names>Yuanhua</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff10">
+<sup>10</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chen</surname>
+            <given-names>Shumin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Qiji</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff11">
+<sup>11</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Jianjun</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+          <xref ref-type="aff" rid="aff12">
+<sup>12</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Furen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="aff13">
+<sup>13</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Shandong Provincial Institute of Dermatology and Venereology, Provincial Academy of Medical Science, Jinan, Shandong, China</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Shandong Provincial Hospital for Skin Diseases, Shandong University, Jinan, Shandong, China</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>Shandong Provincial Key Lab for Dermatovenereology, Jinan, Shandong, China</addr-line>
+</aff>
+      <aff id="aff4">
+<label>4</label>
+<addr-line>Shandong Provincial Medical Center for Dermatovenereology, Jinan, Shandong, China</addr-line>
+</aff>
+      <aff id="aff5">
+<label>5</label>
+<addr-line>Human Genetics, Genome Institute of Singapore, A*STAR, Singapore, Singapore</addr-line>
+</aff>
+      <aff id="aff6">
+<label>6</label>
+<addr-line>Shandong provincial Eye Hospital, Jinan, Shandong, China</addr-line>
+</aff>
+      <aff id="aff7">
+<label>7</label>
+<addr-line>National Skin Centre, Singapore, Singapore</addr-line>
+</aff>
+      <aff id="aff8">
+<label>8</label>
+<addr-line>Institute of Medical Biology, A*STAR, Singapore, Singapore</addr-line>
+</aff>
+      <aff id="aff9">
+<label>9</label>
+<addr-line>Weifang Peopleâs Hospital, Weifang, Shandong, China</addr-line>
+</aff>
+      <aff id="aff10">
+<label>10</label>
+<addr-line>Institute of Dermatology, Chinese Academy of Medical Sciences and Peking Union Medical College Nanjing, Jiangsu, China</addr-line>
+</aff>
+      <aff id="aff11">
+<label>11</label>
+<addr-line>Shandong University, Jinan, Shandong, China</addr-line>
+</aff>
+      <aff id="aff12">
+<label>12</label>
+<addr-line>School of Life Sciences, Anhui Medical University, Hefei, Anhui, China</addr-line>
+</aff>
+      <aff id="aff13">
+<label>13</label>
+<addr-line>Shandong Clinical College, Anhui Medical University, Jinan, Shandong, China</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Toft</surname>
+            <given-names>Mathias</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>Oslo University Hospital, Norway</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>liuj3@gis.a-star.edu.sg</email> (JJL); <email>zhangfuren@hotmail.com</email> (FRZ)</corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: FZ Jianjun Liu. Performed the experiments: KKHH NW CW XCC DLS XAF KS JNF H. Low H. Liany IDI Jian Liu BQY MFC YXY GQY GYN JBY YZ SSM XXY YHS. Analyzed the data: YL H. Liu. Contributed reagents/materials/analysis tools: TW BKG JEC BEL GZZ XML ZHW HQT YHC SMC QJL. Wrote the paper: H. Liu YL NW.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>3</day>
+        <month>2</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>2</issue>
+      <elocation-id>e87250</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>1</day>
+          <month>8</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>12</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2014 Liu et al</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Liu et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>As a genetic disorder of abnormal pigmentation, the molecular basis of dyschromatosis universalis hereditaria (DUH) had remained unclear until recently when ABCB6 was reported as a causative gene of DUH.</p>
+        </sec>
+        <sec>
+          <title>Methodology</title>
+          <p>We performed genome-wide linkage scan using Illumina Human 660W-Quad BeadChip and exome sequencing analyses using Agilent SureSelect Human All Exon Kits in a multiplex Chinese DUH family to identify the pathogenic mutations and verified the candidate mutations using Sanger sequencing. Quantitative RT-PCR and Immunohistochemistry was performed to verify the expression of the pathogenic gene, Zebrafish was also used to confirm the functional role of ABCB6 in melanocytes and pigmentation.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>Genome-wide linkage (assuming autosomal dominant inheritance mode) and exome sequencing analyses identified <italic>ABCB6</italic> as the disease candidate gene by discovering a coding mutation (c.1358C&gt;T; p.Ala453Val) that co-segregates with the disease phenotype. Further mutation analysis of <italic>ABCB6</italic> in four other DUH families and two sporadic cases by Sanger sequencing confirmed the mutation (c.1358C&gt;T; p.Ala453Val) and discovered a second, co-segregating coding mutation (c.964A&gt;C; p.Ser322Lys) in one of the four families. Both mutations were heterozygous in DUH patients and not present in the 1000 Genome Project and dbSNP database as well as 1,516 unrelated Chinese healthy controls. Expression analysis in human skin and mutagenesis interrogation in zebrafish confirmed the functional role of <italic>ABCB6</italic> in melanocytes and pigmentation. Given the involvement of <italic>ABCB6</italic> mutations in coloboma, we performed ophthalmological examination of the DUH carriers of <italic>ABCB6</italic> mutations and found ocular abnormalities in them.</p>
+        </sec>
+        <sec>
+          <title>Conclusion</title>
+          <p>Our study has advanced our understanding of DUH pathogenesis and revealed the shared pathological mechanism between pigmentary DUH and ocular coloboma.</p>
+        </sec>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was funded by a grant from Natural Science Foundation of Shandong Province (ZR2011HQ003, ZR2011HQ037). Project of Taishan scholar (2008â ), Project of clinical center for Dermatology and Venereology of Shandong Province (2010â), Project of Research Foundation of Shandong Provincial Institute of Dermatology and Venereology (2008â7). L J-J, L-Y, K H-H, S D-L, EBL, JEAC were supported by the Agency of Science, Technology and Research (A*STAR) of Singapore. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="9"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Dyschromatosis universalis hereditaria (DUH) is a rare Mendelian disease, characterized by asymptomatic hyper- and hypo-pigmented macules in variable distributions and patterns, which was initially described by Ichikawa and Hiraga in 1933 <xref rid="pone.0087250-Ichikawa1" ref-type="bibr">[1]</xref>. Most DUH patients do not show other symptoms associated with the typical skin abnormalities, although high tone deafness, ocular abnormalities, photosensitivity, neurosensory hearing defects, learning difficulties, mental retardation, epilepsy, insulin-dependent diabetes mellitus, erythrocyte, platelet and tryptophan metabolism abnormalities, and small stature had been found occasionally <xref rid="pone.0087250-AlHawsawi1" ref-type="bibr">[2]</xref>.</p>
+      <p>As an autosomal dominant (OMIM 127500) or recessive disorder (OMIM 612715), the genetic loci of DUH have been mapped to chromosome 6q24.2-q25.2 <xref rid="pone.0087250-Xing1" ref-type="bibr">[3]</xref> and 12q21-q23 <xref rid="pone.0087250-Stuhrmann1" ref-type="bibr">[4]</xref> by the linkage analysis, but the molecular basis of DUH had remained unknown until recently when Zhangâs group reported ABCB6 as a causative gene of DUH <xref rid="pone.0087250-Zhang1" ref-type="bibr">[5]</xref>. We performed linkage and exome sequencing analyses in a Chinese DUH pedigree and identified ABCB6 as the pathogenic gene of DUH almost at the same time as Zhangâs group. The expression of ABCB6 were demonstrated in human skin tissue and melanocytes and the knockdown of ABCB6 expression was shown to cause the reduction of the number of mature melanocytes in zebrafish, which provided solid and convincing evidences for ABCB6 to be a disease gene for DUH.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Genome-wide Linkage Analysis to Identify the Causal Regions</title>
+        <p>Here, we performed the genome-wide linkage and exome sequencing analyses in a multi-generational DUH family of Chinese ethnicity. First, we genotyped the 12 individuals of the Family (Family 1) using Illumina Human 660W-Quad BeadChip <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g001">
+<bold>Figure 1A</bold>
+</xref>
+<bold>).</bold> Multipoint parametric linkage analysis was performed in Merlin <xref rid="pone.0087250-Abecasis1" ref-type="bibr">[6]</xref> by using pruned autosomal SNPs (with LD r<sup>2</sup>&lt;0.1 in Chinese population data) and assuming a dominant inheritance of disease phenotype. Maximal LOD score of 1.81 was obtained on chromosomes 2q34-2q37, 10q25, 13q12-13q14, 17q25 and 20p12 <bold>(Figure S1 in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref>)</bold>. Co-segregation of haplotypes within the 5 critical regions identified by linkage, which spanned from 4 MB to 24 MB in size, was confirmed by haplotype analysis using Haplopainter <xref rid="pone.0087250-Thiele1" ref-type="bibr">[7]</xref>.</p>
+        <fig id="pone-0087250-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0087250.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Family trees and clinical manifestations.</title>
+            <p>
+<bold>A</bold> Shown are the pedigree of family 1 and 2 with autosomal dominant DUH. â#ârepresents the individuals used in exome sequencing analysis, ââârepresents the individuals used in the linkage analysis; ââ´ârepresents the individuals subjected to Sanger sequencing analysis. <bold>B</bold>: Clinical manifestations of DUH patients, both hands and abdomen with hyper- and hypo-pigmented macules in variable distribution and patterns.</p>
+          </caption>
+          <graphic xlink:href="pone.0087250.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>Exome Sequencing Analysis to Explore ABCB6 as the Pathogenic Gene</title>
+        <p>We then performed exome sequencing analysis in four affected individuals (II4, III4, III6 and IV4) of the Family 1 <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g001">
+<bold>Figure 1</bold>
+</xref>
+<bold> A)</bold>. An average of 8.76 billion bases of sequences was generated for each individual. BWA was invoked to map the reads to hg19 human reference genome <xref rid="pone.0087250-Li1" ref-type="bibr">[8]</xref>. On average, each sample had a mean coverage of 39.08 and 86.4% of the exome sequences were covered at 10X or more <bold>(Table S1 in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref>)</bold>. GATK Unified Genotyper with the recommended filtering criteria was invoked to call single nucleotide variants (SNV) and indels <xref rid="pone.0087250-McKenna1" ref-type="bibr">[9]</xref>. For each individual, 17,579 coding variants were identified on average; the percentage of novel SNVs (SNPs not in dbSNP132) was 6.5%; Ti/Tv ratios for novel SNVs and SNVs in dbSNP132 were 2.55 and 3.22 respectively. When considering only non-synonymous and splice site SNVs, 4,625 were shared by all the four patients; and 98 of which were not in 1000 Genome Project (Phase I, Oct 2011) or dbSNP 132. Only one SNV, chr2â¶220079139, heterozygous in four affected individuals, lied within the critical linkage regions defined by haplotype co-segregation analysis. This coding mutation (c.1358C&gt;T; p.Ala453Val) is in the exon 7 of <italic>ABCB6</italic>, and was predicted to be damaging by SIFT and probably damaging by PolyphenII. The mutation was not found in the 500 exomes of Chinese origin.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Sanger Sequencing to Verify the Candidate Gene ABCB6</title>
+        <p>To verify the mutation (c.1358C&gt;T; p.Ala453Val), 13 individuals of the Family 1 <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g001">
+<bold>Figure 1A</bold>
+</xref>
+<bold>)</bold> were Sanger sequenced for all the exons of <italic>ABCB6</italic>. The mutation was heterozygous in all the five affected individuals and absent in all the eight unaffected individuals <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g002">
+<bold>Figure 2A</bold>
+</xref>
+<bold>)</bold>, and no other mutations were found within this gene. 1,016 ethnicity-matched healthy controls were also Sanger sequenced for the exon 7 of <italic>ABCB6</italic>, and none of them carried the mutation.</p>
+        <fig id="pone-0087250-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0087250.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Mutations in ABCB6.</title>
+            <p>
+<bold>A:</bold> Two mutations in <italic>ABCB6</italic> and their sequencing traces, including c.1358C&gt;T; p.Ala453Val in the Family 1 and c.964A&gt;C; p.Ser322Lys in the Family 2; Arrows indicate the location of the two mutations. <bold>B:</bold> A partial sequence of ABCB6 was compared with other speciesâ orthologs. Arrows indicate the location of the two mutations identified in patients with DUH. <bold>C:</bold>
+<italic>ABCB6</italic> exon structure, where c.964A&gt;C; p.S322L and c.1358C&gt;T; p.A453V are DUH mutations identified in this paper, c.169G&gt;A; p.A57T and c.2431C&gt;G; p.L811V are coloboma mutations<sup>7</sup>.</p>
+          </caption>
+          <graphic xlink:href="pone.0087250.g002"/>
+        </fig>
+        <p>We further sequenced all the exons and exon-intron boundaries of <italic>ABCB6</italic> in other four DUH pedigrees and two sporadic cases of Chinese ethnicity by Sanger sequencing. A new coding mutation in exon 4 (chr2â¶220081092, c.964A&gt;C; p.Ser322Lys) was discovered in Family 2, which was heterozygous in all the seven affected individuals and absent in all the seven unaffected members <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g002">
+<bold>Figure 2A</bold>
+</xref>
+<bold>)</bold>. The single-point linkage LOD score based on Sanger sequence data for family 2 is 3.08; and the single-point HLOD score for family 1 and 2 is 5.08 (corresponding p-valueâ=â6.6Ã10<sup>â7</sup>). This mutation was predicted to be tolerated and possibly damaging by SIFT and PolyphenII respectively. Similarly, the mutation was not presented in the 500 exomes and 1,016 healthy controls of Chinese origin (data not shown). No mutations of <italic>ABCB6</italic> were identified in the other three families (<bold>Figure S2 in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref></bold>) and two sporadic cases that are absent from the 1000 Genome Project and dbSNP datasets and co-segregate with disease phenotype, indicating the genetic heterogeneity of DUH as suggested by previous linkage studies<xref rid="pone.0087250-Xing1" ref-type="bibr">[3]</xref>â<xref rid="pone.0087250-Stuhrmann1" ref-type="bibr">[4]</xref>.</p>
+      </sec>
+      <sec id="s2d">
+        <title>ABCB6 Expression Analysis</title>
+        <p>To confirm the functional role of <italic>ABCB6</italic> in pigmentation, we first investigated the expression of <italic>ABCB6</italic> in the skin tissues of four DUH carries of <italic>ABCB6</italic> mutations (III4,II4,IV4 from family 1 and IV3 from family 2) and four unrelated health controls using quantitative RT-PCR. Expression of <italic>ABCB6</italic> mRNA was detected in both DUH affected individuals and healthy controls, but no significant difference was found between the affected and unaffected individuals (Pâ=â0.44) <bold>(Figure S3 in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref>)</bold>. We then performed immunohistochemistry (IHC) analysis in human primary melanocyte cell line (HEM cell) and the formalin-fixed paraffin-embedded (FFPE) skin tissue of one affected individual (III4 from family 1) and one healthy control. The expression of ABCB6 protein was clearly detected in the HEM cell (<bold>Figure S4A in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref></bold>). In human skin, ABCB6 could be detected in melanocytes, but not keratinocytes of the basal layer in both the affected and healthy control individuals (<bold>Figure S4C and E in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref></bold>). Similarly, no significant expression difference was found between the patient and healthy control. The lack of the expression difference of ABCB6 in skin tissue between the patients and healthy controls is not surprising, because both the mutations identified here are missense mutations within the trans-membrane domain of ABCB6 that more likely influence the subcellular location of ABCB6 instead of its expression level, and thus cause a dominant negative effect on the development of disease phenotype.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Morpholino Knockdown of ABCB6 in Zebrafish and Rescue Studies</title>
+        <p>We also carried out further functional investigation of <italic>ABCB6</italic> in zebrafish. We first performed a knockdown analysis of zebrafish <italic>ABCB6</italic> homolog (<italic>zABCB6</italic>) by using morpholinos targeting the exon 6 and exon 8 of <italic>zABCB6</italic> (which are homologous to the exon 4 and exon 7 of human <italic>ABCB6</italic>) (<bold>Figure S5 in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref></bold>). No morphological abnormalities were found in surviving embryos at 5 dpf <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g003">
+<bold>Figure 3</bold>
+</xref>
+<bold>)</bold>. In developing zebrafish embryos, melanocytes can be first visualized at 25 hpf and then undergo differentiation to become âspot-likeâ mature melanocytes at 5 dpf (<xref ref-type="fig" rid="pone-0087250-g004">
+<bold>Figure 4A and D</bold>
+</xref>). By counting the number of pigmented melanocytes present within the head region at 5 dpf, we observed a significant higher number of mature melanocytes in the uninjected control embryos (48.84Â±0.68, nâ=â57) than the injected embryos with the exon 6-morphants (23.38Â±3.20, nâ=â13, p&lt;0.001) (<xref ref-type="fig" rid="pone-0087250-g004">
+<bold>Figure 4B</bold>
+</xref>) and the ones with the exon 8-morphants (29.04Â±1.18, nâ=â24, p&lt;0.001) (<xref ref-type="fig" rid="pone-0087250-g004">
+<bold>Figure 4E</bold>
+</xref>). To confirm that the mutant phenotype of the reduction of mature melanocytes in <italic>ABCB6</italic> morphants is due to the specific effect of the ABCB6 expression knockdown, we co-injected <italic>ABCB6</italic> morpholinos with full length hABCB6 mRNA transcript and found that the co-injection of full length mRNA (with morpholinos) was able to rescue, at least partially, the mutant phenotype in <italic>ABCB6</italic> morphants. Co-injected embryos showed significant higher number of mature melanocytes (exon 6-morphant-rescue: 39.71Â±2.47, nâ=â19, p&lt;0.001; exon 8-morphant-rescue: 40.77Â±1.26, nâ=â30, p&lt;0.001) (<xref ref-type="fig" rid="pone-0087250-g004">
+<bold>Figure 4C and F</bold>
+</xref>) than the morphants (<xref ref-type="fig" rid="pone-0087250-g005">
+<bold>Figure 5A and B</bold>
+</xref>). Our functional investigation of <italic>ABCB6</italic> in zebrafish confirmed the involvement of <italic>ABCB6</italic> in pigmentation by influencing the number of mature melanocytes, providing the critical functional evidence for the role of <italic>ABCB6</italic> in the pathogenesis of DUH.</p>
+        <fig id="pone-0087250-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0087250.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Phenotypes of the microinjected zebrafish.</title>
+            <p>Morpholinos against exon 6 and exon 8 of <italic>zABCB6</italic> and wildtype <italic>zABCB6</italic> mRNA transcript (in case of rescue) were designed and injected into one- to two-cell stage embryos. No obvious phenotypic changes were observed in the morphants (C and D) and rescued (E and F) embryos after 5 days (5pdf) with reference to their uninjected counterparts (A and B).</p>
+          </caption>
+          <graphic xlink:href="pone.0087250.g003"/>
+        </fig>
+        <fig id="pone-0087250-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0087250.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Number of mature melanocytes in the head region in the morphants and rescued embryos (5 dpf).</title>
+            <p>Immobilized embryos were dorsally oriented and the number of mature melanocytes was counted in the defined region of the head. Reduction in melanocyte number was observed in both exon 6- and exon 8-morphants (B and E). Co-injection of wildtype <italic>hABCB6</italic> mRNA transcript significantly rescued the loss of melanocyte phenotype by increasing the number of mature melanocytes (C and F).</p>
+          </caption>
+          <graphic xlink:href="pone.0087250.g004"/>
+        </fig>
+        <fig id="pone-0087250-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0087250.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Number of melanocytes in the defined head regions in uninjected control (wildtype), exon 6- and exon 8-morphants and rescued embryos.</title>
+            <p>**P&lt;0.001 (ANOVA one-way analysis of variance with Tukeyâs multiple comparison post test).</p>
+          </caption>
+          <graphic xlink:href="pone.0087250.g005"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>A recent publication showed that two missense mutations of <italic>ABCB6</italic> (c.2431C&gt;G; p.Leu811Val and c.169G&gt;A; p.Ala57Thr) caused ocular coloboma <xref rid="pone.0087250-Wang1" ref-type="bibr">[10]</xref>. And also the co-exist of pigmentation and ocular abnormalities were reported to be observed in some cases <xref rid="pone.0087250-AlHawsawi1" ref-type="bibr">[2]</xref>. This prompted us to carry out careful ophthalmological examination of the DUH patient carriers of <italic>ABCB6</italic> mutations. Although no microphthalmia and anophthalmia were observed in the affected individuals, the detailed clinical examination, visual-acuity testing and ocular imaging revealed that II5 and III4 of the Family 1 had abnormal pitting lack of iris, and IV4 of the Family 1 had high intra-ocular pressure (L:24 mmHg; R:19 mmHg) (<bold>Figure S6 in <xref ref-type="supplementary-material" rid="pone.0087250.s001">Text S1</xref></bold>). However, no abnormal eye manifestations were found in the IV1 of the Family 2.</p>
+      <p>Although both Wang et alâs study <xref rid="pone.0087250-Wang1" ref-type="bibr">[10]</xref> and ours used zebrafish as a model to investigate the functions of ABCB6, experimental design is different between two studies. The morpholino in Wang et al targeted the ATG start codon and exon2-intron2 boundary, with the former aiming to block the translation of the whole protein, whereas our morpholinos targeted at exon 6 or exon 8 aiming to the deletion of specific domains of the protein. Analyzing the early stages of development at 36 hpf, Wang et al reported significant delay in development and coloboma-related eye defects in their morphants. Our experiments focused on late stage of development 5 dpf when mature melanocytes are fully differentiated in the zebrafish and found less pigmentation in the morphants. Although further studies are needed to confirm, these results may suggest differential functions of ABCB6 at different stages of development.</p>
+      <p>It is very intriguing that the different mutations of <italic>ABCB6</italic> can cause diverse disease phenotypes, pigmentary DUH and ocular coloboma. The two DUH mutations lie in the ABC transmembrane domain, whereas one coloboma mutation (c.2431C&gt;G; p.Leu811Val) located in the transporter-like domain, and the other one (c.169G&gt;A; p.Ala57Thr) did not lie in any established domain <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g002">
+<bold>Figure 2</bold>
+</xref>
+<bold> C)</bold>. This may suggest that ABCB6 protein has diverse biological functions, and mutations affecting its different domains may thus cause diverse disease phenotypes.</p>
+      <p>
+<italic>ABCB6</italic>, located at 2q36, contains 19 exons and is a member of the superfamily of ATP-binding cassette (ABC) transporters, which transport various molecules across extra- and intra-cellular membranes. <italic>ABCB6</italic> is expressed ubiquitously, including in the skin. There are two conserved domains in the protein, namely ABC transmembrane domain and ABC transporter-like domain <bold>(</bold>
+<xref ref-type="fig" rid="pone-0087250-g002">
+<bold>Figure 2C</bold>
+</xref>
+<bold>)</bold>. Sequence comparison of <italic>ABCB6</italic> across different species showed that both the amino acids affected by DUH mutations (c.1358c&gt;T;p.Ala453Val and c.964A&gt;C; p.Ser322Lys) are highly conserved (<xref ref-type="fig" rid="pone-0087250-g002">
+<bold>Figure 2B</bold>
+</xref>), implying that these two residues are key to normal biological function of ABCB6. ABCB6 plays an important role in hemo-synthesis and multi-drug resistance as the porphyrin transporter <xref rid="pone.0087250-Krishnamurthy1" ref-type="bibr">[11]</xref>â<xref rid="pone.0087250-Krishnamurthy3" ref-type="bibr">[13]</xref>. It also functions as a glycosylated protein targeted to intracellular vesicular membranes and plays a critical role in cellular transition and metal homeostasis, especially copper homeostasis <xref rid="pone.0087250-Jalil1" ref-type="bibr">[14]</xref>. Copper is thought to be particularly important for vertebrate pigmentation as a cofactor for the enzyme tyrosinase that is essential to catalyze the initial steps of melanin synthesis within the melanosome <xref rid="pone.0087250-Lutsenko1" ref-type="bibr">[15]</xref>â<xref rid="pone.0087250-Marks1" ref-type="bibr">[16]</xref>. While still being speculative, it is possible that the DUH mutations of <italic>ABCB6</italic> may result in abnormal copper homeostasis, which influence the activity of tyrosinase and further lead to the abnormal melanin synthesis. Further studies are needed to investigate the molecular functions of the different domains of ABCB6 and the mechanisms underlying the involvement of <italic>ABCB6</italic> mutations in diverse disease phenotypes. Although the genetic methods we used for disease gene discovery are similar to Zhangâs group <xref rid="pone.0087250-Zhang1" ref-type="bibr">[5]</xref>, the functional validation of the identified disease gene is different between the two studies. In our study, zebrafish model was established to investigate the role of ABCB6 in pigmentation; while in theirs, subcelluar localization experiment was performed to detect the location of wild-type ABCB6 in a B16 mouse melanoma cells, and to show that disease-causing mutations of ABCB6 resulted in its retention in the Golgi apparatus. The two studies supported each other in some aspect. In addition, we found the co-existence of pigmentation and ocular abnormalities in our DUH patients, which provides critical evidence for the diverse role of ABCB6 in both pigmentation and ocular development.</p>
+      <p>In summary, we have discovered <italic>ABCB6</italic> as a disease gene for DUH with solid genetic and functional evidences through genome-wide linkage, exome sequencing, and functional investigation in human tissues and zebrafish model. Our discovery has expanded the novel disease-causing mutations of ABCB6 to five, advanced our understanding of DUH pathogenesis and revealed the shared pathogenic mechanism between pigmentary DUH and ocular coloboma.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Subject</title>
+        <p>We recruited five unrelated DUH families (four in China and one in Singapore, totalling 23 affected individuals and 16 unaffected family members), two sporadic case (one in China and one in Singapore, totalling two affected individuals and two unaffected family members) of Chinese ethnicity in our study. In addition, the dataset of 500 exomes and additional 1,016 unrelated normal controls of Chinese ethnicity were also analyzed in our study. After obtaining informed consent from all participants, all the family members were carefully examined by at least two experienced dermatologists, and the clinical diagnosis of DUH in all the cases is based on the generalized and random distribution of small hypo- and hyper-pigmented lesions.</p>
+        <p>EDTA anticoagulated venous blood samples were collected from all participants. Genomic DNA was extracted from peripheral blood lymphocytes by standard procedures using FlexiGene DNA kits (Qiagen). Total RNA was extracted from skin biopsies of 4 DUH patients(III4, II4, IV4 from family 1, IV3 from family 2) and 4 health controls using TRIzol (Invitrogen Life Technologies).</p>
+        <p>The study was approved by the institutional review board at Shandong Provincial Institute of Dermatology and Venereology and the National Health Group, Domain Specific Review Board for National Skin Centre, Singapore. Written informed consent was obtained from all participants, or their guardian. All experiments of zebra fish were approved by and conducted in accordance with the guidelines established by the Institutional Animal Care and Use Committee(IACUC) at the Institute of Medical Biology, A*STAR, Singapore.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Genome-wide Linkage Analysis</title>
+        <p>For the genome-wide linkage analysis, approximately 200 ng of genomic DNA of the 12 individuals from the Family 1 was used for the genotyping analysis by using Illumina Human 660W-Quad BeadChip. Briefly, each sample was whole-genome amplified, fragmented, precipitated and resuspended in appropriate hybridization buffer. Denatured samples were hybridized on prepared Illumina Human 660-Quad BeadChip. After hybridization, the BeadChip oligonucleotides were extended d by a single labeled base, which was detected by fluorescence imaging with an Illumina Bead Array Reader. Normalized bead intensity data obtained for each sample were loaded into the Illumina GenomStudio software, which converted fluorescence in tensities into SNP genotypes.</p>
+        <p>After quality control filtering, 589,209 SNPs were remained for linkage analysis. Familial relationship check based on IBD sharing was carried out to confirm the collected pedigree information. Multipoint parametric linkage analysis was performed in Merlin by using the pruned autosomal SNPs (with LD &lt;0.1 in population data) and assuming dominant inheritance with a disease allele frequency of 0.001, penetrance rate of 0.99 and phenocopy rate of 0.01. The linkage critical regions were determined by haplotype co-segregation analysis using Haplopainter.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Exome Capture, Sequencing and Variant Detection</title>
+        <p>We performed the exome capture using Agilent SureSelect Human All Exon Kits according to the manufacturerâs protocols. Genomic DNA samples with high quality were sheared and randomly fragmented using the Covaris instrument with a base pair peak of 150â200 bp. The sheared DNA samples were purified using the Agencourt AMPure XP beads and tested with the Agilent 2100 Bioanalyzer. The ends were repaired and the 3â² end of the fragments was added âAâ bases. Adapters were then ligated to both ends of the fragments. The adaptor-ligated templates were further purified using Agencourt AMPure SPRI beads and fragments with insert size 250 bp were excised. The adaptor-ligated library was amplified by ligation-mediated PCR, purified and hybridized to the SureSelect Biotinylated RNA Library (BAITS) for enrichment. Hybridized fragments were bound to the strepavidin beads, whereas non-hybridized fragments were washed out. The captured library was amplified, purified and then were tested using the Agilent 2100 Bioanalyzer to estimate the magnitude of enrichment.</p>
+        <p>Each captured library was then loaded on a HiSeq 2000 platform, and paired-end sequencing was performed with read lengths of 100 bp, which provided 50Ã average coverage depth for each sample. Raw image files were processed by Illumina base-calling Software 1.7 for base calling with default parameters.</p>
+        <p>Sequence reads from each individual were aligned to the human reference genome (hg19) using BWA(Burrows-Wheeler Alignment) version 0.5.9 rcl with default parameters. Reads that had duplicated start sites were removed; the remaining reads that mapped on or near the target were collected for subsequent analyses and variant calling. The consensus genotypes, SNP and indel variants in the target regions were called by Genome Analysis Toolkit v1.0.5974 with the recommended parameters. The filtering criteria were based on the âbest practice variant detection with the GATKv3â, that is âQD &lt;2.0â, âMQ &lt;40.0â, âFS &gt;60.0â, âHaplotypeScore &gt;13.0â, âMQRankSum&lt;â12.5â, âReadPosRankSum&lt;â8.0â for SNV, and âQD &lt;2.0â, âReadPosRankSum&lt;â20.0â, âInbreedingCoeff&lt;â0.8â, âFS &gt;200.0â for indel.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Sanger Sequencing</title>
+        <p>Sanger sequencing was performed to confirm the variants identified by exome sequencing and search for additional mutations. All the 19 exons of <italic>ABCB6</italic> gene and their flanking intronic sequences of 200 bps were amplified by PCR. The primer sequences were designed by Primer3(v0.4.0). After amplification, products were purified and sequenced on DNA sequencing system (model 3130XL; ABI). Mutations were identified by comparing with the reported DNA reference sequence (GenBank accession number: NG_032110). All the identified mutations were verified by the subsequent two-direction sequencing. Both the patients and control samples were analyzed using the same protocol.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Quantitative RT-PCR</title>
+        <p>Total RNA was extracted from the skin biopsies of four DUH patients(III4,II4,IV4 from family1, IV3 from family 2) and four health controls using TRIzol (Invitrogen Life Technologies). Quantitative RT-PCR was performed using a 7300 Real Time PCR System (Applied Biosystems) and manufacturer protocols. GAPDH was used as an internal control, and the specific products of human ABCB6 and GAPDH were implicated using the following primers: ABCB6: forward: <named-content content-type="gene">5â²-CAGCAGGGACAGGAAGAA-3â²</named-content>; reverse: <named-content content-type="gene">5â²-CCAAGACCAGGATGAAAT-3â²</named-content>, GAPDH: forward: <named-content content-type="gene">5â²-ACCACAGTCCATGCCATCAC-3â²</named-content>; reverse: <named-content content-type="gene">5â²-TCCACCACCCTGTTGCTGTA-3â²</named-content>. The threshold cycle (CT) values were used to show the expression level of the target and reference genes and determine the relative mRNA levels that were expressed as the fold change of the target gene relative to the reference gene. Error bars represent the standard errors for three independent experiments.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Immunohistochemistry</title>
+        <p>Skin biopsies were obtained from DUH patient (III4 from family 1) and healthy control. All skin biopsies were fixed with 10% neutral buffered formalin, and then subsequently embedded in paraffin. 4-Âµm sections of tissue blocks were microtome sectioned, mounted on glass slides and dried at 48Â°C for 4 h, then the sections were deparaffinized in xylene and rehydrated with a series of graded ethanol. The antigen retrieval method for tissue sections is Heat Induced Epitope Retrieval (HIER) that was performed by heating the slides immersed in retrieval buffer, pH 6.0, for 4 minutes at 125Â°C in the pressure boiler. Next, the sections were immersed in potassium permanganate solution for 1 minute to removed pigmentations will TritonX-100 solution. Human primary melanocyte cell line HEM was maintained in MelM medium (Scien Cell) supplemented with 0.25% FBS (Scien Cell), penicillin, and streptomycin. The cells were incubated on round coverslip for 12 h, and washed with PBS after the serum was removed. Then, the cells were fixed on the coverslip with 4% paraformaldehyde solution and permeabilized in 0.5%TritonX-100 solution.</p>
+        <p>To inactivate endogenous peroxidase activity, the sections and cells were treated with 3% H<sub>2</sub>O<sub>2</sub> in PBS for 10 minutes. For immunostaining, a primary rabbit polyclonal ABCB6 antibody (HPA046723, Sigma-aldrich) was employed in 1â¶15 dilution with PBS and incubated for 3 h at 37Â°C in a humid chamber. After several subsequent washing steps with PBS for at least 15 min, the sections and cells were incubated at 37Â°C for 30 minutes using the goat anti-rabbit IgG (H+L)-HRP Secondly antibody. Visualization was achieved using 3â²3-diaminobenzidine tetra hydrochloride substrate (DAB). The sections and cells were counterstained with hematoxylin, dehydrated with a series of graded ethanol and paraffinized in xylene.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Zebrafish Husbandry</title>
+        <p>Zebrafish were maintained according to methods described in The Zebrafish Book <xref rid="pone.0087250-Akimenko1" ref-type="bibr">[17]</xref> under the ordinance from the Biological Resource Centre, Agency for Science, Technology and Research (A*STAR), for the responsible care and the use of laboratory animals. The fishes were housed in the Danio Unit, Institute of Molecular and Cellular Biology (IMCB) and embryos were collected by breeding wild-type strains AB line.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Morpholinos Against ABCB6</title>
+        <p>Four different morpholino antisense oligonucleotides against zABCB6 (intron 6 splice donor junction, EI-TTGTTGTCTCTGACCTGAGCAGGCT; intron 6 splice acceptor junction, IE-GACGCACCTGCACATGGAGACAGAT; intron 8 splice donor junction, EI-CAAACAAAGAGAAGCCCTACCGTCT and intron 8 splice acceptor junction, IE-AGAGCTGTCGGAGACACGGATAAAA) were obtained from Gene Tools (Philomath, OR) and injected at the one- to two-cell stage at the concentrations of 125 ÂµM for exon 6 knockdown and 62.5 ÂµM for exon 8 knockdown. Extent of knockdown achieved by morpholinos was evaluated using RT-PCR with primer pairs (ABCB6_F1: <named-content content-type="gene">GCCATGACGGTGTGTGTTTAT</named-content> and ABCB6_R1: <named-content content-type="gene">AAAGACTATAAGGCCAAACCAGG</named-content>) and (ABCB6_F2: <named-content content-type="gene">TCAGCATCTTCCCCACCA</named-content> and ABCB6_R2: <named-content content-type="gene">TCAGCAAACCCAAACCAATG</named-content>).</p>
+      </sec>
+      <sec id="s4i">
+        <title>Rescue Experiments</title>
+        <p>Capped hABCB6 poly(A)-tailed mRNA transcript was in vitro transcribed from linearized hABCB6-pcDNA3.1/myc-His B plasmid according to the protocol in the mMESSAGE mMACHINE T7 Ultra kit (Life Technologies, CA). Rescue experiment was performed by co-injecting the splice-blocking morpholinos and the full length zABCB6 mRNA transcript at a concentration of 200 ng into one- to two-cell stage zebrafish embryos.</p>
+      </sec>
+      <sec id="s4j">
+        <title>Imaging and Melanocyte Counting</title>
+        <p>Five day post fertilization (5 dpf) zebrafish were assessed for phenotypic changes in distribution and number of melanocytes. They were first exposed to light for at least half an hour to contract the melanocytes. Afterwards, they were fixed in 4% paraformaldehyde for overnight and oriented dorsally in 1% low melting agarose and imaged with an upright stereomicroscope (Leica microsystems). The number of melanocytes was counted in the captured images within a defined head region <xref rid="pone.0087250-Colanesi1" ref-type="bibr">[18]</xref>â<xref rid="pone.0087250-Richardson1" ref-type="bibr">[19]</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0087250.s001">
+        <label>Text S1</label>
+        <caption>
+          <p>
+<bold>Combined supporting information file containing Figures S1âS6 and Table S1.</bold> Figure S1: The pedigree of four families with autosomal dominant DUH. (DOC). Figure S2: LOD score of parametric linkage analysis vs genetic map for 22 chromosomes. (DOC). Figure S3: The expression of ABCB6 mRNA in DUH patients and health controls. (DOC). Figure S4: The protein level of ABCB6 in normal melanocyte and skin biopsies. (DOC). Figure S5: Sequence homology of ABCB6 between species. (DOC). Figure S6: Number of melanocytes in the defined head regions of zebrafish embryos. (DOC). Table S1: Information for exome sequencing reads. (DOC).</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0087250.s001.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank all the patients and their family members for their enthusiastic participation. We also thank Drs. Yuanyu Hu and Prasanna KOLATKAR (Genome Institute of Singapore, Singapore) for their helpful suggestions and comments on this study.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0087250-Ichikawa1">
+        <label>1</label>
+        <mixed-citation publication-type="other">Ichikawa T, Hiraga Y (1933) A previously undescribed anomaly of pigmentation dyschromatosis universalis hereditaria. Jph. J. Dermatol. 34, 360â364.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-AlHawsawi1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Al Hawsawi</surname><given-names>K</given-names></name>, <name><surname>Al Aboud</surname><given-names>K</given-names></name>, <name><surname>Ramesh</surname><given-names>V</given-names></name>, <name><surname>Al Aboud</surname><given-names>D</given-names></name> (<year>2002</year>) <article-title>Dyschromatosis Universalis Hereditaria: Report of a case and Review of the Literature</article-title>. <source>Pediatric Dermatology, 19</source>
+<volume>(6)</volume>: <fpage>523</fpage>â<lpage>26</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Xing1">
+        <label>3</label>
+        <mixed-citation publication-type="other">Xing QH, Wang MT, Chen XD, Feng GY, Ji HY, <etal>et al</etal>.. (2003) A gene locus responsible for dyschromatosis symmetrica hereditaria (DSH) maps to chromosome 6q24.2-q25.2. Am. J. Hum. Genet. 73, 377â382.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Stuhrmann1">
+        <label>4</label>
+        <mixed-citation publication-type="other">Stuhrmann M, Hennies HC, Bukhari IA, Brakensiek K, NÃ¼rnberg G, <etal>et al</etal>.. (2008) Dyschromatosis universalis hereditaria: evidence for autosomal recessive inheritance and identification of a new locus on chromosome 12q21-q23. Clin. Genet. 73, 566â572.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Zhang1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>C</given-names></name>, <name><surname>Li</surname><given-names>D</given-names></name>, <name><surname>Zhang</surname><given-names>J</given-names></name>, <name><surname>Chen</surname><given-names>X</given-names></name>, <name><surname>Huang</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>Mutations in ABCB6 Cause Dyschromatosis Universalis Hereditaria. J Invest Dermatol</article-title>. <source>2013</source>
+<volume>133(9)</volume>: <fpage>2221</fpage>â<lpage>8</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Abecasis1">
+        <label>6</label>
+        <mixed-citation publication-type="other">Abecasis GR, Cherny SS, Cookson WO, Cardon LR (2001) Merlin-rapid analysis of dense genetic maps using sparsegene flow trees. Nat. Genet. 30, 97â101.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Thiele1">
+        <label>7</label>
+        <mixed-citation publication-type="other">Thiele H, NÃ¼rnberg P (2005) HaploPainter: a tool for drawing pedigrees with complex haplotypes. Bioinformatics. 21, 1730â1732.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Li1">
+        <label>8</label>
+        <mixed-citation publication-type="other">Li H, Durbin R (2009) Fast and accurate short read alignment with Burrows-Wheeler transform. Bioinformatics. 25, 1754â1760.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-McKenna1">
+        <label>9</label>
+        <mixed-citation publication-type="other">McKenna A, Hanna M, Banks E, Sivachenko A, Cibulskis K, <etal>et al</etal>.. (2010) The Genome Analysis Toolkit: a MapReduce framework for analyzing next-generation DNA sequencing data. Genome. Res. 20, 1297â303.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Wang1">
+        <label>10</label>
+        <mixed-citation publication-type="other">Wang L, He F, Bu J, Zhen Y, Liu X, <etal>et al</etal>.. (2012) ABCB6 Mutations Cause Ocular Coloboma. Am. J Hum. Genet. 90, 40â48.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Krishnamurthy1">
+        <label>11</label>
+        <mixed-citation publication-type="other">Krishnamurthy PC, Du G, Fukuda Y, Sun D, Sampath J, <etal>et al</etal>.. (2006) Identification of a mammalian mito-chondrial porphyrin transporter. Nature. 443, 586â589.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Krishnamurthy2">
+        <label>12</label>
+        <mixed-citation publication-type="other">Krishnamurthy P, Schuetz JD (2011) The role of ABCG2 and ABCB6 in porphyrin metabolism and cell survival. Curr. Pharm. Biotechnol. 12, 647â655.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Krishnamurthy3">
+        <label>13</label>
+        <mixed-citation publication-type="other">Krishnamurthy P, Xie T, Schuetz JD (2007) The role of transporters in cellular heme and porphyrin homeostasis. Pharmacol. Ther. 114, 345â358.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Jalil1">
+        <label>14</label>
+        <mixed-citation publication-type="other">Jalil YA, Ritz V, Jakimenko A, Schmitz-Salue C, Siebert H, <etal>et al</etal>.. (2008) Vesicular localization of the rat ATP-binding cassette half-transporter rAbcb6. Am. J. Physiol. Cell. Physiol. 294, C579â90.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Lutsenko1">
+        <label>15</label>
+        <mixed-citation publication-type="other">Lutsenko S, Barnes NL, Bartee MY, Dmitriev OY (2007) Function and regulation of human copper-transporting ATPases. Physiol. Rev. 87, 1011â1046.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Marks1">
+        <label>16</label>
+        <mixed-citation publication-type="other">Marks MS, Seabra MC (2001) The melanosome: membrane dynamics in black and white. Nature Rev. Mol. Cell Biol.2, 738â748.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Akimenko1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Akimenko</surname><given-names>MA</given-names></name>, <name><surname>Johnson</surname><given-names>SL</given-names></name>, <name><surname>Westerfield</surname><given-names>M</given-names></name>, <name><surname>Ekker</surname><given-names>M</given-names></name> (<year>1995</year>) <article-title>Differential induction of four msx homeobox genes during fin development and regeneration in zebrafish Development</article-title>. <volume>121(2)</volume>: <fpage>347</fpage>â<lpage>57</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Colanesi1">
+        <label>18</label>
+        <mixed-citation publication-type="other">Colanesi S, Taylor KL, Temperley ND, Lundegaard PR, Liu D, <etal>et al</etal>.. (2012) Small molecule screening identifies targetable zebrafish pigmentation pathways. Pigment. Cell. Melanoma. Res. 25, 131â43.</mixed-citation>
+      </ref>
+      <ref id="pone.0087250-Richardson1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Richardson</surname><given-names>J</given-names></name>, <name><surname>Lundegaard</surname><given-names>PR</given-names></name>, <name><surname>Reynolds</surname><given-names>NL</given-names></name>, <name><surname>Dorin</surname><given-names>JR</given-names></name>, <name><surname>Porteous</surname><given-names>DJ</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>mc1r Pathway regulation of zebrafish melanosome dispersion. Zebrafish</article-title>. <source>2008</source>
+<volume>5(4)</volume>: <fpage>289</fpage>â<lpage>95</lpage>.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

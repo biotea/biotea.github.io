@@ -1,0 +1,1957 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:33:33Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2644819" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2644819</identifier><datestamp>2009-03-06</datestamp><setSpec>plosgen</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosgen</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7390</issn>
+      <issn pub-type="epub">1553-7404</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2644819</article-id>
+      <article-id pub-id-type="pmcid">PMC2644819</article-id>
+      <article-id pub-id-type="pmc-uid">2644819</article-id>
+      <article-id pub-id-type="pmid">19266028</article-id>
+      <article-id pub-id-type="pmid">19266028</article-id>
+      <article-id pub-id-type="publisher-id">08-PLGE-RA-1101R3</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pgen.1000397</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Biochemistry/Bioinformatics</subject>
+          <subject>Cell Biology/Nuclear Structure and Function</subject>
+          <subject>Computational Biology/Genomics</subject>
+          <subject>Computational Biology/Sequence Motif Analysis</subject>
+          <subject>Genetics and Genomics/Bioinformatics</subject>
+          <subject>Genetics and Genomics/Functional Genomics</subject>
+          <subject>Genetics and Genomics/Nuclear Structure and Function</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Genome-Wide Analysis of Histidine Repeats Reveals Their Role in the Localization of Human Proteins to the Nuclear Speckles Compartment</article-title>
+        <alt-title alt-title-type="running-head">His-Repeats and Nuclear Speckles</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Salichs</surname>
+            <given-names>EulÃ lia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ledda</surname>
+            <given-names>Alice</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mularoni</surname>
+            <given-names>Loris</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>AlbÃ </surname>
+            <given-names>M. Mar</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>de la Luna</surname>
+            <given-names>Susana</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Genes and Disease Program, Centre de RegulaciÃ³ GenÃ²mica (CRG), Barcelona, Spain</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>El Centro de InvestigaciÃ³n BiomÃ©dica en Red de Enfermedades Raras (CIBERER), Barcelona, Spain</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Biomedical Informatics Research Program, Institut Municipal d'InvestigaciÃ³ MÃ¨dica-IMIM, Barcelona, Spain</addr-line>
+      </aff>
+      <aff id="aff4">
+        <label>4</label>
+        <addr-line>Universitat Pompeu Fabra, Barcelona, Spain</addr-line>
+      </aff>
+      <aff id="aff5">
+        <label>5</label>
+        <addr-line>InstituciÃ³ Catalana de Recerca i Estudis AvanÃ§ats (ICREA), Barcelona, Spain</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Katsanis</surname>
+            <given-names>Nicholas</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Johns Hopkins University School of Medicine, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>susana.luna@crg.es</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: SdlL. Performed the experiments: ES SdlL. Analyzed the data: ES AL LM MMA SdlL. Wrote the paper: ES MMA SdlL. Performed the bioinformatic analysis: AL LM MMA.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>3</month>
+        <year>2009</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>3</issue>
+      <elocation-id>e1000397</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>8</month>
+          <year>2008</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>1</month>
+          <year>2009</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Salichs et al.</copyright-statement>
+        <copyright-year>2009</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Single amino acid repeats are prevalent in eukaryote organisms, although the role of many such sequences is still poorly understood. We have performed a comprehensive analysis of the proteins containing homopolymeric histidine tracts in the human genome and identified 86 human proteins that contain stretches of five or more histidines. Most of them are endowed with DNA- and RNA-related functions, and, in addition, there is an overrepresentation of proteins expressed in the brain and/or nervous system development. An analysis of their subcellular localization shows that 15 of the 22 nuclear proteins identified accumulate in the nuclear subcompartment known as nuclear speckles. This localization is lost when the histidine repeat is deleted, and significantly, closely related paralogous proteins without histidine repeats also fail to localize to nuclear speckles. Hence, the histidine tract appears to be directly involved in targeting proteins to this compartment. The removal of DNA-binding domains or treatment with RNA polymerase II inhibitors induces the re-localization of several polyhistidine-containing proteins from the nucleoplasm to nuclear speckles. These findings highlight the dynamic relationship between sites of transcription and nuclear speckles. Therefore, we define the histidine repeats as a novel targeting signal for nuclear speckles, and we suggest that these repeats are a way of generating evolutionary diversification in gene duplicates. These data contribute to our better understanding of the physiological role of single amino acid repeats in proteins.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>Single amino acid repeats are common in eukaryotic proteins. Some of them are associated with developmental and neurodegenerative disorders in humans, suggesting that they play important functions. However, the role of many of these repeats is unknown. Here, we have studied histidine repeats from a bioinformatics as well as a functional point of view. We found that only 86 proteins in the human genome contain stretches of five or more histidines, and that most of these proteins have functions related with RNA synthesis. When studying where these proteins localize in the cell, we found that a significant proportion accumulate in a subnuclear organelle known as nuclear speckles, via the histidine repeat. This is a structure where proteins related to the synthesis and processing of RNA accumulate. In some cases, the localization is transient and depends on the transcriptional requirements of the cell. Our findings are important because they identify a common cellular function for stretches of histidine residues, and they support the notion that histidine repeats contribute to generate evolutionary diversification. Finally, and considering that some of the proteins with histidine stretches are key elements in essential developmental processes, variation in these repeats would be expected to contribute to human disease.</p>
+      </abstract>
+      <counts>
+        <page-count count="18"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Single amino acid repeats (SARs), also known as homopolymeric tracts, are very common in eukaryotes <xref rid="pgen.1000397-Huntley1" ref-type="bibr">[1]</xref> and between 18â20% of proteins in the human genome contain such repetitive sequences <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>. Although most of them are thought to be functionally neutral, recent evidence suggests they may play important functional or structural roles. Indeed, there is an overrepresentation of SARs-containing proteins (SARPs) among transcription factors, kinases and proteins required for development <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>â<xref rid="pgen.1000397-Faux1" ref-type="bibr">[5]</xref>. The intrinsic disorder of such repeats converts them into flexible spacer elements between individual folded domains, allowing SARPs to associate in large, multiprotein complexes <xref rid="pgen.1000397-Faux1" ref-type="bibr">[5]</xref>,<xref rid="pgen.1000397-Karlin2" ref-type="bibr">[6]</xref>. In addition, it is thought that disordered regions can bind to multiple targets with weak affinity, an ideal property for elements involved in transcriptional and signal transduction processes <xref rid="pgen.1000397-Dunker1" ref-type="bibr">[7]</xref>.</p>
+      <p>Homopolymeric tracts are often encoded by trinucleotide repeats, a class of microsatellites. Their repetitive nature facilitates DNA replication slippage, and the expansion or contraction of the repeats (for review, see <xref rid="pgen.1000397-Pearson1" ref-type="bibr">[8]</xref>). Although genetic variability of these repeats provides a substrate for adaptive evolution <xref rid="pgen.1000397-Kashi1" ref-type="bibr">[9]</xref>,<xref rid="pgen.1000397-Caburet1" ref-type="bibr">[10]</xref>, uncontrolled expansion of such unstable regions within coding sequences has been associated with a number of developmental and inherited neurodegenerative disorders <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>,<xref rid="pgen.1000397-Gatchel1" ref-type="bibr">[11]</xref>, as well as with several types of cancer <xref rid="pgen.1000397-Haberman1" ref-type="bibr">[12]</xref>. For example, polyglutamine expansions have been associated with Huntington's disease and certain types of spinocerebellar ataxia (for review, see <xref rid="pgen.1000397-Gatchel1" ref-type="bibr">[11]</xref>). In addition, alanine repeats are related to several developmental disorders (for review, see <xref rid="pgen.1000397-Albrecht1" ref-type="bibr">[13]</xref>), and aspartate hyperexpansions with two types of dysplasia and osteoarthritis <xref rid="pgen.1000397-Delot1" ref-type="bibr">[14]</xref>,<xref rid="pgen.1000397-Kizawa1" ref-type="bibr">[15]</xref>. Some of the mechanisms thought to underlie the pathogenic effects of expanded tracts involve the deregulation of transcriptional activity and the formation of toxic protein aggregates (for review, see <xref rid="pgen.1000397-Gatchel1" ref-type="bibr">[11]</xref>,<xref rid="pgen.1000397-Menon1" ref-type="bibr">[16]</xref>). Nevertheless, the functions of many homopeptidic segments found in proteins have not yet been elucidated.</p>
+      <p>Among homopolymeric tracts, histidine (His) repeats are relatively rare <xref rid="pgen.1000397-Faux1" ref-type="bibr">[5]</xref>. However, their frequency increases from about 1.4% to 4.3% when we consider repeats of at least 8 instead of 5 residues, indicating that they are generally longer than other types of SARs <xref rid="pgen.1000397-Alba1" ref-type="bibr">[4]</xref>. The physicochemical properties of His make it a versatile amino acid that can fulfill different roles, influencing protein conformation and enzymatic activity. For instance, His-repeats are found in Zn-finger domains that are implicated in interactions between nucleic acids and proteins (for review, see <xref rid="pgen.1000397-Gamsjaeger1" ref-type="bibr">[17]</xref>), and a His-stretch has been described as a protein interacting surface of the transcriptional regulator cyclin T1 <xref rid="pgen.1000397-Hoque1" ref-type="bibr">[18]</xref>,<xref rid="pgen.1000397-Taube1" ref-type="bibr">[19]</xref>. Nevertheless, there is still no clear function associated to His homopeptides. We previously described the His-repeat in the DYRK1A protein kinase as both necessary and sufficient to target this protein to nuclear speckles <xref rid="pgen.1000397-Alvarez1" ref-type="bibr">[20]</xref>. A protein segment containing a His-tract is also involved in the accumulation of cyclin T1 in these nuclear structures <xref rid="pgen.1000397-Alvarez1" ref-type="bibr">[20]</xref>,<xref rid="pgen.1000397-Herrmann1" ref-type="bibr">[21]</xref>. These results provided the first evidence that His-repeats may act as nuclear speckle-targeting signals, although the extent to which this was true in other proteins remained to be determined.</p>
+      <p>Nuclear speckles (also known as the splicing factor compartment -SFC- or as interchromatin granule clusters -IGCs-) are subnuclear structures defined as compartments in which components of the RNA splicing machinery are stored and assembled (for review, see <xref rid="pgen.1000397-Lamond1" ref-type="bibr">[22]</xref>). They mainly contain splicing factors (snRNPs and serine/arginine-rich (SR) proteins), as well as transcription factors, 3â²-RNA processing factors, translation factors, ribosomal proteins, a subpopulation of the RNA polymerase II and some kinases and phosphatases <xref rid="pgen.1000397-Mintz1" ref-type="bibr">[23]</xref>,<xref rid="pgen.1000397-Saitoh1" ref-type="bibr">[24]</xref>. Like other nuclear bodies, nuclear speckles are highly dynamic structures that change in number, shape and size depending on the transcriptional state and the phase of the cell cycle <xref rid="pgen.1000397-Lamond1" ref-type="bibr">[22]</xref>.</p>
+      <p>Here, we have performed an in-depth analysis of polyHis-containing proteins in the human genome. A significant fraction of the proteins identified are transcription factors and developmental proteins with a nuclear phase. The subcellular localization of several of these proteins shows that most of them accumulate in nuclear speckles through their His-repeat. The presence of DNA-binding or protein-protein interaction domains, and the transcriptional state of the cell, are factors that affect the retention of transcription factors with His-repeats in nuclear speckles, illustrating the dynamic behavior of these proteins. Together, these results define the His-repeat as a novel and general targeting signal for nuclear speckles.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>A Repeat of 6 His Residues Is Sufficient to Direct a Heterologous Protein to the Nuclear Speckles</title>
+        <p>For a typical protein of 400 amino acids and of average composition, a run of any individual amino acid is significant if there are 5 or more consecutive residues <xref rid="pgen.1000397-Karlin3" ref-type="bibr">[25]</xref>. Following this premise, we established a threshold of 5 His residues to determine the minimum number of His necessary for a His-containing protein to accumulate in nuclear speckles. We generated plasmids to express green fluorescent protein (GFP) fusion proteins with 5, 6, 7, 8 or 9 His, and we analyzed the subcellular localization of these fusion proteins by direct fluorescence in transfected HeLa cells. Nuclear speckles were identified by indirect immunofluorescence with an antibody against the splicing factor SC35, an endogenous marker of the nuclear speckles compartment <xref rid="pgen.1000397-Fu1" ref-type="bibr">[26]</xref>. No significant differences in the staining pattern were observed when GFP and GFP-5xHis were compared (<xref ref-type="supplementary-material" rid="pgen.1000397.s001">Figure S1</xref>). However, from the 6xHis constructs onwards, a positive relationship was detected between the accumulation in nuclear speckles and the length of the His-tract. While GFP-6xHis only weakly concentrated in SC35-positive speckles, this association became stronger as the number of His residues increased, and it was clearly evident with a fusion protein containing 9 His (<xref ref-type="fig" rid="pgen-1000397-g001">Figure 1A</xref> and <xref ref-type="supplementary-material" rid="pgen.1000397.s001">S1</xref>).</p>
+        <fig id="pgen-1000397-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>The ability of a His-repeat to direct a heterologous protein to the nuclear speckles depends on the number of His residues in the tract.</title>
+            <p>A) HeLa cells were transfected with expression plasmids encoding fusion proteins of GFP with 6 or 9 His residues. B) Cells were transfected with expression plasmids encoding fusion proteins of GFP with 9 Pro or Gln residues, as indicated. At 48 h post-transfection, the localization of the fusion proteins was analyzed by direct fluorescence (left column, green) and by indirect immunofluorescence for SC35 (middle column, red). The merged images are also shown (left column), and the unfused GFP protein was used as a control. In all cases, co-localization with the endogenous marker was determined by confocal imaging.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g001"/>
+        </fig>
+        <p>To confirm that the GFP-His fusions almost completely co-localized with SC35 positive speckles, we carried out an immunofluorescence analysis with protein markers of other subnuclear compartments that are compatible with such staining, including promyelocytic leukemia (PML) bodies (for review, see <xref rid="pgen.1000397-Bernardi1" ref-type="bibr">[27]</xref>), Sumo-bodies (for review, see <xref rid="pgen.1000397-Heun1" ref-type="bibr">[28]</xref>) or paraspeckles <xref rid="pgen.1000397-Fox1" ref-type="bibr">[29]</xref>. No co-localization between the GFP-9xHis fusion protein and any of the protein markers (PML, Sumo1, PSP1) was detected (<xref ref-type="supplementary-material" rid="pgen.1000397.s002">Figure S2</xref>).</p>
+        <p>Finally, the subnuclear localization of GFP fusion proteins with polyproline or polyglutamine tracts, which are particularly enriched in transcription factors <xref rid="pgen.1000397-Alba1" ref-type="bibr">[4]</xref> and that have been shown to be functional as transcriptional activators <xref rid="pgen.1000397-Gerber1" ref-type="bibr">[30]</xref>, was also analyzed. These fusion proteins showed nucleoplasmic staining and no colocalization with SC35 (<xref ref-type="fig" rid="pgen-1000397-g001">Figure 1B</xref>), in agreement with previous results with longer amino acid tracts <xref rid="pgen.1000397-Oma1" ref-type="bibr">[31]</xref>. Therefore, His homopolymeric tracts seem to specifically accumulate in the nuclear speckles compartment.</p>
+      </sec>
+      <sec id="s2b">
+        <title>The Distribution of His-Repeats in the Human Proteome</title>
+        <p>To extrapolate these results to real proteins, we performed a bioinformatics screen of the Ensembl database <xref rid="pgen.1000397-Flicek1" ref-type="bibr">[32]</xref> to identify all the human proteins containing at least one His-repeat of 5 or more residues. The lower-limit of 5 His residues was set to cover all possible functionally significant repeats <xref rid="pgen.1000397-Karlin3" ref-type="bibr">[25]</xref>. Our search identified 86 Ensembl genes (<xref ref-type="supplementary-material" rid="pgen.1000397.s010">Table S1</xref>). As some of the proteins encoded by these genes contained more than one repeat, there was a total of 99 repeats with 5 residues or more. The average size of the His-repeats was 7.5, with the longest repeat containing 15 residues (LOC730417). The majority of the repeats were well conserved in the corresponding mouse orthologous proteins; 54% showed exactly the same length and 30% differed in only one or two repeat units. When more than one His-repeat was present in a protein, they were generally very close to each other such that they could be considered as âextendedâ His-repeat tracts (for instance, H<sub>4</sub>GNSSH<sub>13</sub> in DYRK1A). Thus, we defined âextendedâ tracts as regions that contained at least one pure His-repeat of 5 residues or more, that had His residues at the start and/or end of the tract, and that contained other âinterruptingâ residues (often P, Q, G, S, A) which covered &lt;50% of the tract. Such extended tracts were present in half of the proteins containing pure His-repeats (43 out of 86). Significantly, none of the His-repeats were situated within characterized protein domains and unlike other repeats <xref rid="pgen.1000397-Alba1" ref-type="bibr">[4]</xref>, we did not find them preferentially located at the amino-, carboxy-, or central part of the proteins.</p>
+        <p>We compared the length distribution of His-repeats in coding sequences to that of equivalent sequences in non-coding regions, the latter defined as sequences containing at least five tandem CAY (CAC or CAT: His encoding triplets). Accordingly, we identified 7815 such repeats in non-coding genomic regions. Interestingly, although much longer repeats existed in the non-coding regions (the longest was 154 trinucleotides), their average size (7.24) was smaller than in coding regions. Indeed, the distribution of the repeat size was significantly different between coding and non-coding sequences (<italic>p</italic>-valueâ=â0.003, non-parametric Kolmogorov-Smirnov test). In coding sequences, there was an under-representation of short repeats (size 5) with respect to longer repeats (around 7) when compared to non-coding sequences (<xref ref-type="fig" rid="pgen-1000397-g002">Figure 2A and 2B</xref>, respectively). As the length distribution of non-coding repeats is likely to reflect neutral mutational processes, this difference points to selective retention of relatively long His-repeats in protein sequences.</p>
+        <fig id="pgen-1000397-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Distribution of CAC/CAT repeat sizes in coding (A) and non-coding (B) regions.</title>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>His-Repeats Are Overrepresented in Nuclear Proteins</title>
+        <p>The population of proteins containing other types of amino acid repeats, such as polyglutamine, polyalanine, polyglycine, polyserine and polyproline, is enriched in transcription factors <xref rid="pgen.1000397-Alba1" ref-type="bibr">[4]</xref>. We examined whether any such bias in Gene Ontology terms (GO; <xref rid="pgen.1000397-Harris1" ref-type="bibr">[33]</xref>) existed in the gene dataset encoding His-repeats. Among proteins containing His-repeats there was a strong over-representation of nuclear proteins (72% with respect to 26% in the complete protein dataset, <italic>p</italic>-value&lt;10<sup>â5</sup>, <xref ref-type="fig" rid="pgen-1000397-g003">Figure 3A</xref>). In addition, 75% of the His repeat-containing nuclear proteins were also annotated with the GO term âregulation of transcriptionâ, in comparison with 49% of those in the complete nuclear protein dataset. Even more striking was the strong over-representation of developmental factors among nuclear proteins with His-repeats, especially those involved in the development of the nervous system (22% with respect to 3% in the complete gene dataset, <italic>p</italic>-value&lt;10<sup>â5</sup>, <xref ref-type="fig" rid="pgen-1000397-g003">Figure 3B</xref>). This finding is in agreement with previous work <xref rid="pgen.1000397-Huntley2" ref-type="bibr">[34]</xref> and it might be linked to the fact that increased formation of homopolymeric runs in human proteins may be a recent evolutionary event, concomitant with complex brain development <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>.</p>
+        <fig id="pgen-1000397-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Gene Ontology distribution of polyHis-containing proteins.</title>
+            <p>A) Distribution of genes annotated as ânucleusâ, âcytoplasmâ (excluding ânucleusâ) and âmembrane (excluding ânucleusâ and âcytoplasmâ). B) Distribution of the main functional groups in nuclear His-repeat containing proteins and a comparison with the same groups in the complete gene dataset (see <xref ref-type="sec" rid="s4">Materials and Methods</xref> for more details).</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>The His-Repeat Is a Novel Nuclear Speckle-Directing Sequence</title>
+        <p>The GO terms analysis indicated that most of the polyHis-containing proteins are nuclear proteins, and therefore they might be targeted to nuclear speckles. Thus, we analyzed the distribution of a group of the nuclear-annotated proteins with pure His-repeats of different lengths (longer than 5 residues) and several proteins with extended repeats. The subcellular localization of the His-containing proteins was analyzed by generating GFP fusion proteins with the open reading frames of candidate proteins in a mammalian expression vector. The subcellular distribution of the fusion proteins was analyzed by direct fluorescence in transient transfected cells and nuclear speckles were identified by anti-SC35 staining. As previously described for cyclin T1 and DYRK1A <xref rid="pgen.1000397-Alvarez1" ref-type="bibr">[20]</xref>, other polyHis-containing proteins also showed punctate nuclear staining that co-localized with SC35, such as the transcription factors POU4F2 or YY1, or the protein kinase NLK (<xref ref-type="fig" rid="pgen-1000397-g004">Figure 4A</xref>). Fluorescence images revealed differences in the staining patterns for the His-repeats-containing proteins, with some of them showing more nucleoplasmic staining than others (<xref ref-type="fig" rid="pgen-1000397-g004">Figure 4A</xref>; see other examples in <xref ref-type="fig" rid="pgen-1000397-g005">Figures 5</xref>â<xref ref-type="fig" rid="pgen-1000397-g006"/>
+<xref ref-type="fig" rid="pgen-1000397-g007"/>
+<xref ref-type="fig" rid="pgen-1000397-g008">8</xref>). The His-repeat seemed to be necessary for this subnuclear localization since deletion of the polyHis segment alone from POU4F2 or DYRK1A (the extended His-repeat) completely abrogated the accumulation of these proteins in SC35-labelled nuclear speckles (<xref ref-type="fig" rid="pgen-1000397-g004">Figure 4B</xref>). These results indicate that the His-repeat can act as a nuclear speckle localization signal.</p>
+        <fig id="pgen-1000397-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>The His-repeat is a novel nuclear speckle targeting signal.</title>
+            <p>A) HeLa cells were transfected with the expression plasmids for the fusion proteins GFP-DYRK1A, GFP-POU4F2, GFP-YY1 and GFP-NLK. Cells were immunostained for SC35 to visualize the nuclear speckles (middle column, red) and GFP fusion proteins were visualized directly by fluorescence microscopy (left column, green). Merged images are shown (right column). B) HeLa cells were transfected with the expression plasmids for HA-DYRK1AÎHis and Flag-POU4F2ÎHis, and the cells were immunostained for DYRK1A or POU4F2 (left column) and for SC35 to detect nuclear speckles (middle column). C) Soluble extracts from cells expressing HA-DYRK1A or HA-DYRK1AÎHis were subjected to immunoprecipitation with anti-HA and then <italic>in vitro</italic> kinase activity on the DYRKtide peptide was assayed. Samples were analyzed in Western blots probed with anti-HA. D) Cells were co-transfected with pGL2-3xBrn3a and pCMV-Î²gal together with pFlag-POU4F2 wild type (wt) or pFlag-POU4F2ÎHis (ÎHis). Transcriptional activity is presented as the ratio of luciferase and Î²-galactosidase; values are the meansÂ±S.D. of triplicate determinations for each condition in one representative experiment of three performed. The panel shows a Western blot of transfected extracts probed with an anti-Flag antibody.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g004"/>
+        </fig>
+        <fig id="pgen-1000397-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>The presence of a His-repeat dictates the different subcellular localization of paralogous proteins.</title>
+            <p>A) Alignment of the primary sequences of the paralogues, FAM76B (NP_653265; hypothetical protein LOC143684) and FAM76A (NP_689873; hypothetical protein LOC199870), obtained with the multiple sequence alignment program âBlast 2 Sequencesâ (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/blast/bl2seq/wblast2.cgi">http://www.ncbi.nlm.nih.gov/blast/bl2seq/wblast2.cgi</ext-link>). His residues in FAM76B are highlighted in red. B) HeLa cells were transfected with an expression plasmid encoding FAM76B (upper panel) or FAM76A (lower panel) fused to GFP at their N-terminal. The subcellular localization of the fusion proteins was analyzed by direct fluorescence and their accumulation in nuclear speckles was followed by immunostaining for SC35. C) Using the lines on the merged image, fluorescence intensity profiles were obtained for GFP (green) and SC35 (red).</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g005"/>
+        </fig>
+        <fig id="pgen-1000397-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>The accumulation in nuclear speckles of some polyHis-containing proteins depends on the presence of other interacting domains.</title>
+            <p>A) HeLa cells were transfected with the expression plasmids for wild type GFP-MEOX2 or the mutant GFP-MEOX2ÎHB as indicated (see scheme; His: His-repeat; NLS: nuclear localization signal; HoBox: homeobox domain). B) HeLa cells were transfected with the expression plasmids for GFP-CBX4 wild type or GFP-CBX4ÎPB as indicated (see scheme: CHROMO, chromatin organization modifier domain; His, His-repeat; NLS, nuclear localization signal; CtBP2, CtBP binding domain; and RING1, RING1-interacting domain). In A) and B), the subcellular localization of the GFP-fusion proteins was analyzed by direct fluorescence (left column, green) and their accumulation in nuclear speckles by immunofluorescence for SC35 (middle column, red).</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g006"/>
+        </fig>
+        <fig id="pgen-1000397-g007" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>The transcriptional state of the cell determines whether some polyHis transcription factors accumulate in nuclear speckles.</title>
+            <p>A, B) HeLa cells were transfected with the expression plasmids encoding the GFP-FOXG1B (A) and GFP-HOXA1 (B) fusion proteins. At 36 h post-transfection, cells were treated with Î±-amanitin for 5 h to inhibit transcription and then processed for SC35 immunofluorescence. Fluorescence intensity profiles are shown for GFP (green) and SC35 (red), obtained from the lines on the merged images. C) The panels show the results for the same type of experiment performed on mutant HOXA1ÎHis in which the His-tract has been eliminated (see scheme: His, His-repeat; NLS, nuclear localization signal; HoBox, homeobox). D) Cells were co-transfected with pE1bG4-luc and pCMV-RNL together with pG4-DBD (-), pG4-HOXA1 wild type (wt) or pG4-HOXA1ÎHis (ÎHis), and luciferase activity was measured in triplicate plates. Values were corrected for transfection efficiency as measured by Renilla activity. Data is presented as the induction of luciferase activity above the G4-DBD transfection and the values are the meansÂ±S.D. of triplicate determinations for each condition in a representative experiment of a minimum of two performed. The panel shows a Western blot analysis of transfected extracts with an anti-Gal4-DBD antibody.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g007"/>
+        </fig>
+        <fig id="pgen-1000397-g008" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>The His-tract participates in the dynamic properties of polyHis-containing proteins.</title>
+            <p>A) HeLa cells were transfected with the expression plasmids encoding GFP-PRICKLE3. Cells were treated with Î±-amanitin for 5 h to inhibit transcription and then processed for SC35 immunofluorescence. B) HeLa cells expressing the GFP-PRICKLE3 fusion protein were mock-treated or exposed to leptomycin B for 5 h, 24 h after transfection. The subcellular localization of the fusion protein was analyzed by direct fluorescence. Note that PRICKLE3 is detected in the cytosol in untreated cells but it accumulates in the nucleus, nucleoplasm and nuclear speckles in response to the inhibitor of nuclear export.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000397.g008"/>
+        </fig>
+        <p>Moreover, deletion of the His-repeat did not interfere with the biochemical function of the protein, that is âkinaseâ for DYRK1A or âtranscriptional activatorâ for POU4F2 (<xref ref-type="fig" rid="pgen-1000397-g004">Figure 4C and 4D</xref>, respectively). Similar results were obtained when the His-repeat was deleted in NLK (<xref ref-type="supplementary-material" rid="pgen.1000397.s003">Figure S3</xref>). These data indicate that the deletion has not induced a general alteration of protein structure, and further suggest that the His-tract conveys a novel behavior to the host protein without affecting its basic activity.</p>
+      </sec>
+      <sec id="s2e">
+        <title>His-Repeats and Gene Duplication</title>
+        <p>Interestingly, a significant fraction (64%) of the genes encoding proteins with His-repeats had closely-related paralogues in the human genome. According to Ensembl annotations, 74% of them had been presumably formed by gene duplication at the dawn of vertebrate evolution (<xref ref-type="supplementary-material" rid="pgen.1000397.s011">Table S2</xref>). However, in most cases none of the paralogues contained a similar His-repeat in their primary sequence. This indicates that the repeat had only later appeared in one of the duplicate copies, probably by duplication slippage. To approximately date their appearance, we inspected all the orthologous and paralogous vertebrate proteins in Ensembl for the presence of similar His-repeats. In 11 out of 39 cases, the repeat was found in all vertebrate orthologues but in none of the paralogues, indicating that they arose soon after the duplication event. However, the dominant class was repeats formed at the base of the placental mammals (14 cases). Notably, a large number of alanine and glycine repeats are also proposed to be specific to mammals <xref rid="pgen.1000397-Lavoie1" ref-type="bibr">[35]</xref>â<xref rid="pgen.1000397-Sumiyama1" ref-type="bibr">[37]</xref>. Indeed, the increased repeat expansion in this clade may be related to the increased GC content <xref rid="pgen.1000397-Nakachi1" ref-type="bibr">[38]</xref>,<xref rid="pgen.1000397-Cocquet1" ref-type="bibr">[39]</xref>. Finally, the His-repeats in the <italic>BMP2K</italic> and <italic>PBXIP1</italic> genes were restricted to primates, suggesting they arose relatively recently.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Paralogous Proteins without His-Repeats Fail to Localize in Nuclear Speckles</title>
+        <p>Given the significant number of polyHis-containing proteins with paralogous proteins without His-repeats, we reasoned that if the His-repeat were responsible for their accumulation in speckles then the paralogous copy without the repeat should not be found in this subnuclear compartment. To confirm this hypothesis, we examined the FAM76A and FAM76B pair of paralogues. A sequence alignment of these two proteins highlighted their high degree of conservation, except in the region containing the His-repeat (<xref ref-type="fig" rid="pgen-1000397-g005">Figure 5A</xref>). As hypothesized, the paralogue without the His-tract, FAM76A, presented a diffuse nucleoplasmic staining, while the protein with the polyHis segment, FAM76B, accumulated in nuclear speckles (<xref ref-type="fig" rid="pgen-1000397-g005">Figure 5B</xref>). Similar results were obtained for other pairs of paralogous proteins such as DYRK1A/DYRK1B or POU4F2/POU4F3 (<xref ref-type="supplementary-material" rid="pgen.1000397.s004">Figure S4</xref>). Thus, these findings further indicate that the His-repeats in these proteins are necessary for their localization to nuclear speckles.</p>
+      </sec>
+      <sec id="s2g">
+        <title>The Subcellular Localization of PolyHis-Containing Proteins Depends on other Domains Present in the Proteins</title>
+        <p>The initial analysis of the nuclear localization of polyHis-containing candidates revealed that some proteins did not apparently localize to nuclear speckles. These proteins contained other protein domains such as DNA binding domains or protein-protein interacting regions. For instance, the transcription factors MEOX2 and OTX1 harbor a homeobox DNA-binding domain in their C- and N-terminal regions, respectively (<xref ref-type="fig" rid="pgen-1000397-g006">Figure 6A</xref> and <xref ref-type="supplementary-material" rid="pgen.1000397.s005">Figure S5</xref>). In the case of the Sumo E3 ligase CBX4, its C-terminal region includes domains that interact with the polycomb protein CtBP2 and the transcriptional repressor RING1 (<xref ref-type="fig" rid="pgen-1000397-g006">Figure 6B</xref>). These domains mediate the localization of CBX4 to subnuclear foci, that are compatible with polycomb bodies <xref rid="pgen.1000397-Kagey1" ref-type="bibr">[40]</xref>. Therefore, we hypothesized that the accumulation of proteins to nuclear speckles may be influenced by other interactions. To confirm this hypothesis, we deleted the DNA binding domain in MEOX2 and assessed its nuclear distribution. Accordingly, while the wild type protein presented the dispersed distribution typical of most transcription factors (<xref ref-type="fig" rid="pgen-1000397-g006">Figure 6A</xref>), compatible with active transcription sites <xref rid="pgen.1000397-Wei1" ref-type="bibr">[41]</xref>, the mutant protein in which the homeobox was eliminated (MEOX2ÎHB) fully co-localized with SC35 (<xref ref-type="fig" rid="pgen-1000397-g006">Figure 6A</xref>). Similar results were obtained with the OTX1 transcription factor (<xref ref-type="supplementary-material" rid="pgen.1000397.s005">Figure S5</xref>). In the case of CBX4, we assessed whether deleting the C-terminal fragment spanning the CtBP2 and RING1-interacting domains (CBX4ÎPB) similarly affected its distribution. While the wild type CBX4 protein was present in nuclear foci that were not positive for SC35, the mutant CBX4ÎPB co-localized with SC35 in the nucleus (<xref ref-type="fig" rid="pgen-1000397-g006">Figure 6B</xref>). These results confirmed that the accumulation of some of the polyHis-containing proteins in nuclear speckles was influenced by their binding to other nuclear components, such as DNA or diverse subnuclear structures. Moreover, they suggest that competition between distinct protein regions dictates the steady state subnuclear localization of the protein.</p>
+      </sec>
+      <sec id="s2h">
+        <title>Transit through Nuclear Speckles Is a Dynamic Property of PolyHis-Containing Proteins</title>
+        <p>In mammalian cells, the structure and function of nuclear speckles is sensitive to the transcriptional state of the cell (for review, see <xref rid="pgen.1000397-Lamond1" ref-type="bibr">[22]</xref>). When cells are treated with RNA polymerase II transcription inhibitors, there is a decrease in the splicing activity and a redistribution of the components of speckles, which are recruited to larger and rounder nuclear speckles <xref rid="pgen.1000397-Zeng1" ref-type="bibr">[42]</xref>. Most of the His-containing proteins were transcription factors and since our results showed that DNA binding activity influenced their accumulation in speckles, we wondered whether their failure to localize to this subnuclear compartment might be reverted by inhibiting RNA polymerase II activity. Two proteins, FOXG1B and HOXA1, that did not produce speckled staining at the steady state, co-localized with SC35 in fewer but larger speckles after Î±-amanitin treatment (<xref ref-type="fig" rid="pgen-1000397-g007">Figure 7A and 7B</xref>). Interestingly, the diffuse nucleoplasmic distribution of several other transcription factors became punctate in cells treated with Î±-amanitin, and it overlapped with SC35 staining (<xref ref-type="table" rid="pgen-1000397-t001">Table 1</xref> and <xref ref-type="supplementary-material" rid="pgen.1000397.s006">Figure S6A</xref>). These dynamic changes in distribution could be observed by <italic>in vivo</italic> imaging (<xref ref-type="supplementary-material" rid="pgen.1000397.s015">Videos S1</xref> and <xref ref-type="supplementary-material" rid="pgen.1000397.s016">S2</xref>). For HOXA1, we noticed that the staining not only overlapped with SC35 foci but it also adopted a âcapped structureâ, as described for the recently reported S1-1 nuclear domains <xref rid="pgen.1000397-Inoue1" ref-type="bibr">[43]</xref>. We therefore analyzed co-localization with an anti-S1-1 antibody as a marker of this nuclear domain, and we found that the HOXA1 signal co-localized with both the SC35 and the S1-1 staining (<xref ref-type="supplementary-material" rid="pgen.1000397.s006">Figure S6B</xref>). Since nuclear speckles and S1-1 domains have been suggested to be functionally connected <xref rid="pgen.1000397-Inoue1" ref-type="bibr">[43]</xref>, it is possible that HOXA1 could traffic between these two subnuclear domains.</p>
+        <table-wrap id="pgen-1000397-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000397.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Summary of the results obtained in the analysis of the subcellular localization of polyHis-containing proteins.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pgen-1000397-t001-1" xlink:href="pgen.1000397.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Name</td>
+                  <td align="left" rowspan="1" colspan="1">His tract</td>
+                  <td align="left" rowspan="1" colspan="1">Protein domains</td>
+                  <td align="left" rowspan="1" colspan="1">Function</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Cyclin T1</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">513-HPSNHHHHHNHHSHKHSH-530</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">cdk binding domain</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription regulator</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>POU4F2</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">172-HHHHHHHHHHHHQPH-186</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">POU domain (254â328)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (346â405)</td>
+                  <td align="left" rowspan="1" colspan="1">Differentiation and survival of retinal ganglion cells</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>YY1</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">65-HGHAGHHHHHHHHHHH-80</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Zinc finger (296â320; 325â347;353â377;383â407)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Regulation of development and differentiation</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>DYRK1A</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">590-HHHHGNSSHHHHHHHHHHHHH-610</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Kinase domain (159â479)</td>
+                  <td align="left" rowspan="1" colspan="1">Ser/Thr protein kinase</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Regulator of cell proliferation and differentiation</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>NLK</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">14-HHHHHHHHLPHLPPPHLHHHHHPQHHLH-42</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Kinase domain (126â415)</td>
+                  <td align="left" rowspan="1" colspan="1">Ser/Thr protein kinase</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Regulator of Wnt-signaling pathways</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>FAM76B</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">167-HHPKHHHHHHHHHHRHSSSHH-187</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Not found</td>
+                  <td align="left" rowspan="1" colspan="1">Unknown</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">GSH2</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">124-HAH HHHHPPQHHHHHH-139</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (203â261)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Telencephalic development</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">HOXA1</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">65-HHHHHHHHHH-74</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (229â291)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Hindbrain segmentation</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">HOXA9</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">84-HHHHHH-89</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (207â267)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Positional identity on the anterior/posterior axis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">MEOX2<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">64-HHRGHHHHHHHHHHHH-79</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (186â248)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Somite development</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">OTX1<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">275-HHHHHPHAHHPLSQSSGHHHHHHHHHH-301</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (36â96)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Otx-box (247â274)</td>
+                  <td align="left" rowspan="1" colspan="1">Brain development</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">HAND1</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">8-HHHHHHHPHPAH-20</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Helix-loop-helix (103â151)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Cardiac morphogenesis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">CBX4<xref ref-type="table-fn" rid="nt102">*</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">380-HHPHPHPHHHHHHHHHHHH-398</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Chromodomain (16â69)</td>
+                  <td align="left" rowspan="1" colspan="1">Chromatin modification</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">CtBP2-interacting domain (470â475)</td>
+                  <td align="left" rowspan="1" colspan="1">SUMO E3-ligase</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">RING2-interacting domain (540â558)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">FOXG1B</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">33-HHASHGHHNSHHPQHHHHHHHHHHH-57</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Fork-head domain (179â269)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">PLU-1-interacting domain (375â411)</td>
+                  <td align="left" rowspan="1" colspan="1">Regulator of telencephalon morphogenesis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">FAST2-intracting domain (314â372)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">PRICKLE3</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">513-HHHHNHHHHHNRH-525</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">PET domain (73â178)</td>
+                  <td align="left" rowspan="1" colspan="1">Unknown</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">LIM domain (186â243)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>DLX2</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">309-HHHHHHH-315</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (157â210)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Forebrain differentiation</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>POU4F1</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">100-HHHHHHHHH-108</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">POU domain (279â291)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (306â319)</td>
+                  <td align="left" rowspan="1" colspan="1">Differentiation and survival of sensory neurons</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (389â412)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>ZIC3</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">87-HHHHHHHHHHH-97</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Zinc finger (300â322; 328â352; 358â382; 388â410)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Determination of left-right asymmetry</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>ONECUT1</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">124-HHHHHHHHHHHPHH-138</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">CUT domain (283â369)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Homeobox (385â477)</td>
+                  <td align="left" rowspan="1" colspan="1">Pancreas specification</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">CREB-interacting domain (327â331)</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>MAFA</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">184-HHHGAHHAAHHHHAAHHHHHHHHHSHGGAGHGGGAGHH-219</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Maf-N (111â145)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Basic leucine zipper (253â316)</td>
+                  <td align="left" rowspan="1" colspan="1">Regulator of insulin gene expression</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>MAFB</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">131-HHHHHHHHPHPHHAYPGAGVAHDELGPHAHPHHHHHH-167</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Maf_N (80â114)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Basic leucine zipper (209â303)</td>
+                  <td align="left" rowspan="1" colspan="1">Regulator of lineage-specific haematopoiesis</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>MEC2P</italic>
+</td>
+                  <td align="left" rowspan="1" colspan="1">
+<named-content content-type="gene">366-HHHHHHH-372</named-content>
+</td>
+                  <td align="left" rowspan="1" colspan="1">Methyl-CpG-binding domain (94â168)</td>
+                  <td align="left" rowspan="1" colspan="1">Transcription repressor</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <p>First group (in bold)â=âproteins that accumulate in nuclear speckles under basal conditions; second groupâ=âproteins that accumulate in nuclear speckles after a-amanitin treatment.</p>
+            </fn>
+            <fn id="nt102">
+              <p><bold>*:</bold> deletion of DNA-binding/protein-protein interaction motifs was also tested; third group (in italics)â=âproteins that do not localize in speckles.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>The dependence on the polyHis segment for this dynamic behavior was analyzed using a HOXA1 mutant protein in which the His-repeat was eliminated. Accordingly, there was no change in the subcellular distribution of this mutant protein when cells were exposed to Î±-amanitin (<xref ref-type="fig" rid="pgen-1000397-g007">Figure 7C</xref>). HOXA1-dependent reporter assays confirmed that deletion of the His-repeat did not abolish the transcriptional activity of this transcription factor (<xref ref-type="fig" rid="pgen-1000397-g007">Figure 7D</xref>), suggesting that the mutation affected specifically the subnuclear localization of the protein.</p>
+        <p>We also analyzed the effect of RNA polymerase II inhibition on three polyHis-containing proteins considered to be cytosolic: the negative regulator of the Wnt-canonical pathway NKD2; the mitotic kinase PLK2; and the PRICKLE family member PRICKLE3 (also known as LMO6). Both NKD2 and PLK2 remained in the cytoplasm under basal conditions and upon exposure to Î±-amanitin (not shown). However, exposure to this inhibitor produced the translocation of a proportion of PRICKLE3 to the nucleus, where it co-localized with SC35 (<xref ref-type="fig" rid="pgen-1000397-g008">Figure 8A</xref>). Incubation with leptomycin B, an inhibitor of CRM1-dependent nuclear export, caused the relocalization of PRICKLE3 to the nucleus (<xref ref-type="fig" rid="pgen-1000397-g008">Figure 8B</xref>), indicating that it is a shuttling protein and further suggesting that its targeting to nuclear speckles may be linked to the yet unknown role of PRICKLE3 within the nucleus. Leptomycin B treatment induced accumulation of PRICKLE 3 in PML bodies (<xref ref-type="supplementary-material" rid="pgen.1000397.s007">Figure S7</xref>).</p>
+        <p>The results of the analysis of the subcellular localization of several polyHis-containing nuclear proteins are summarized in <xref ref-type="table" rid="pgen-1000397-t001">Table 1</xref> and notably, 15 out of 22 of these proteins displayed nuclear staining compatible with their accumulation in nuclear speckles. Thus, proteins with His-repeats seem to localize dynamically in the splicing factor compartment.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>SARs are frequently found in eukaryotic proteomes <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>,<xref rid="pgen.1000397-Green1" ref-type="bibr">[44]</xref>. It has been suggested that their physicochemical properties, such as flexibility or low-affinity interactions, confer certain advantages over other types of amino acidic regions <xref rid="pgen.1000397-Faux1" ref-type="bibr">[5]</xref>. However, the role of many SARs is unknown and therefore, efforts have been made to perform global surveys of this type of sequence in order to identify common functional features <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>,<xref rid="pgen.1000397-Alba1" ref-type="bibr">[4]</xref>,<xref rid="pgen.1000397-Faux1" ref-type="bibr">[5]</xref>. We have performed an exhaustive analysis of the proteins containing His-tracts in the human genome, confirming that His-repeats are uncommon within proteomes. Moreover, they tend to be well conserved between human and mouse, with about 85% of them showing at most one repeat unit size difference. The low rates of heterozygosity observed in (CAC)n microsatellites in coding regions also suggest that the evolution of these His-repeat has been limited <xref rid="pgen.1000397-Sertedaki1" ref-type="bibr">[45]</xref>. Although His-tracts of moderate length are likely to have been positively selected in human proteins, as shown by the comparison to CAC/CAT repeats in non-coding regions, there may be a limit to the repeat size. In fact, we noted the absence of pure tracts with more than 15 His-residues, whereas much longer tracts may exist for other SARs. For example, alanine repeats of 25 residues are present in several developmental proteins <xref rid="pgen.1000397-Albrecht1" ref-type="bibr">[13]</xref>, and non-pathogenic glutamine tracts may reach about 60 repeat units <xref rid="pgen.1000397-Gatchel1" ref-type="bibr">[11]</xref>. Size restriction might be linked to the possible pathogenic effects of His-tracts longer than 15 residues.</p>
+      <p>The presence of multiple SARs is not uncommon in human proteins <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>,<xref rid="pgen.1000397-Alba1" ref-type="bibr">[4]</xref> and polyHis-containing proteins are no exception since a large fraction of them contained alanine, glycine, serine, proline or glutamine SARs. Besides, half of the proteins with His-repeats contained extended tracts interrupted by other amino acids. Interestingly, the most common interrupting amino acids were those that typically form homopeptidic stretches in transcription factors, such as proline, glutamine or glycine. Enrichment of this type of amino acids has also been observed in polyglutamine containing proteins <xref rid="pgen.1000397-Hancock1" ref-type="bibr">[46]</xref>. Stretching this idea further, repeats may often grow within repeats, as illustrated by the appearance of SSS, PPP or GGG repeats within extended His-repeats (<xref ref-type="table" rid="pgen-1000397-t001">Table 1</xref>). Moreover, the disrupting residues may act as brakes for the expansion of the pure repeats, and restrict the size of the His-repeat, which in turn might reduce the likelihood of protein aggregation and associated pathogenic effects.</p>
+      <sec id="s3a">
+        <title>The His-Repeat Is a Novel Nuclear Speckle-Localization Signal</title>
+        <p>The mammalian nucleus is a highly complex organelle that is both physically and functionally compartmentalized (for review, see <xref rid="pgen.1000397-Lamond1" ref-type="bibr">[22]</xref>,<xref rid="pgen.1000397-Handwerger1" ref-type="bibr">[47]</xref>). The subnuclear structures are associated with specific biological activities related to the synthesis, processing and modification of RNA, and they can be distinguished by morphological criteria and the presence of specific protein markers. One such compartment is that of the nuclear speckles. The mechanisms responsible for the formation and regulation of these structures are not yet known and as for many other nuclear bodies, it has been proposed that they are highly dynamic self-organizing entities <xref rid="pgen.1000397-Misteli1" ref-type="bibr">[48]</xref>. A rapid exchange of protein components between subnuclear compartments has been reported, which can be explained by a reaction-diffusion model <xref rid="pgen.1000397-Phair1" ref-type="bibr">[49]</xref>. However, the kinetics associated to a particular protein can be affected by its binding to other molecules, either proteins or nucleic acids, which in turn can aid its recruitment to a specific compartment. Accordingly, a few protein domains have been described that direct proteins to nuclear speckles, such as the arginine/serine-rich (RS)-domain in SR proteins <xref rid="pgen.1000397-Hedley1" ref-type="bibr">[50]</xref> or the RNA recognition motif <xref rid="pgen.1000397-Dye1" ref-type="bibr">[51]</xref>. Other regions in specific proteins have also been reported to act as speckle-localizing sequences, like the threonine-proline repeats in SF3B1/SF3b<sup>155</sup>
+<xref rid="pgen.1000397-Eilbracht1" ref-type="bibr">[52]</xref> and the âForkhead Associatedâ domain in PPP1R8/NIPP1 <xref rid="pgen.1000397-Jagiello1" ref-type="bibr">[53]</xref>.</p>
+        <p>We previously showed that the His-tract in the DYRK1A protein kinase and the regulator of transcription cyclin T1 <xref rid="pgen.1000397-Alvarez1" ref-type="bibr">[20]</xref>,<xref rid="pgen.1000397-Herrmann1" ref-type="bibr">[21]</xref> is responsible for the accumulation of these proteins in nuclear speckles. Given that the functions of many of the polyHis-containing proteins were related to DNA and RNA metabolism, it was plausible that this role as a subnuclear targeting signal could be more general in other proteins. Indeed, a significant proportion of the polyHis-containing proteins analyzed have the ability to accumulate in nuclear speckles either at the steady-state or upon transcription inhibition. This targeting may respond to the nature of nuclear speckles as sites of storage, recycling and degradation of factors involved in DNA and RNA metabolism <xref rid="pgen.1000397-Lamond1" ref-type="bibr">[22]</xref>,<xref rid="pgen.1000397-Baldin1" ref-type="bibr">[54]</xref>. The uneven distribution found among different speckle-positive His-repeats-containing proteins is also observed among splicing factors that accumulate in speckles for instance <xref rid="pgen.1000397-Lamond1" ref-type="bibr">[22]</xref>,<xref rid="pgen.1000397-Fu1" ref-type="bibr">[26]</xref>, and could reflect differential binding affinities for distinct targets within the nucleus. Importantly, accumulation in nuclear speckles is dependent on the presence of the His-tract, as confirmed by both deletion analysis in some candidate proteins and by the behavior of paralogous proteins lacking the His-repeat. Apart from the previously mentioned DYRK1A and cyclin T1 <xref rid="pgen.1000397-Alvarez1" ref-type="bibr">[20]</xref>,<xref rid="pgen.1000397-Herrmann1" ref-type="bibr">[21]</xref>, only HOXA9 had already been reported to accumulate in nuclear speckles of unknown nature <xref rid="pgen.1000397-Shen1" ref-type="bibr">[55]</xref>.</p>
+        <p>Given that our analysis was performed by transient transfection of plasmids expressing the candidate proteins fused to GFP, we tried to rule out non-physiological effects due to overexpression. This is particularly relevant since expanded homopolymeric tracts, including polyHis expansions, have been associated with protein aggregation <xref rid="pgen.1000397-Menon1" ref-type="bibr">[16]</xref>,<xref rid="pgen.1000397-Oma1" ref-type="bibr">[31]</xref>,<xref rid="pgen.1000397-Paraguison1" ref-type="bibr">[56]</xref>. As a cellular defense mechanism against protein misfolding and aggregation, protein aggregates are thought to be sequestered in inclusions that also contain molecular chaperones and components of the ubiquitin proteasome system <xref rid="pgen.1000397-Ciechanover1" ref-type="bibr">[57]</xref>. We did not detect any co-localization of candidate proteins with an anti-ubiquitin antibody (<xref ref-type="supplementary-material" rid="pgen.1000397.s008">Figure S8</xref>), suggesting that the speckled staining was not produced by the formation of intranuclear protein aggregates. In addition, no cytosolic granules were detected (<xref ref-type="supplementary-material" rid="pgen.1000397.s001">Figure S1</xref> and <xref ref-type="supplementary-material" rid="pgen.1000397.s002">S2</xref>), in contrast with results published with longer His tracts (26 His residues; <xref rid="pgen.1000397-Oma1" ref-type="bibr">[31]</xref>). We also analyzed the behavior of a stably expressed polyHis-containing protein (DYRK1A) fused to GFP during the cell cycle. Nuclear speckles disassemble when cells enter mitosis and the proteins associated with them become diffusely distributed throughout the cytoplasm <xref rid="pgen.1000397-Spector1" ref-type="bibr">[58]</xref>. As shown in <xref ref-type="supplementary-material" rid="pgen.1000397.s009">Figure S9</xref>, the fusion protein totally recapitulated these changes during the cell cycle indicating that poly-His expression does not interfere with the intrinsic dynamics of the compartment. As additional support for the specificity of the subcellular localization, we did not detect an accumulation of the GFP-9xHis chimera in other subnuclear compartments and there was no colocalization with different marker proteins or any specific accumulation in the cytoplasm of the transfected cells, suggesting that the fusion protein is not recruited to a specific cytosolic organelle.</p>
+        <p>It seems most likely that the His-repeat acts as a nuclear speckle-targeting signal by serving as an interaction surface for resident molecules in the speckle. The features of His make it a versatile amino acid, strongly represented in enzymatic and binding activities. Histidine's imidazole side-chain allows it to shift from a neutral to positive charge in a pH-dependent fashion, a property that may have an impact on the binding capabilities of a His-stretch. Moreover, the presence of His in a Î²-strand provides a charge gradient that could mediate protein-protein or protein-DNA via electrostatic interactions. His is also known as an excellent ligand to coordinate metal ions <xref rid="pgen.1000397-Gamsjaeger1" ref-type="bibr">[17]</xref>, which can also participate in organizing interacting domains. All these mechanisms may contribute to finely regulate the binding properties of His-repeats. Examples of His-stretches as protein-protein interacting domains can be found in cyclin T1 when interacting with RNA polymerase II and granulin <xref rid="pgen.1000397-Hoque1" ref-type="bibr">[18]</xref>,<xref rid="pgen.1000397-Taube1" ref-type="bibr">[19]</xref>, and DYRK1A interacting with Sprouty2 <xref rid="pgen.1000397-Aranda1" ref-type="bibr">[59]</xref>.</p>
+        <p>The ability of His-tracts to target proteins to the nuclear speckles compartment seems to be specific to His since other homopolymeric amino acid tracts do not display such activity according to our results (9xGln and 9xPro as GFP fusions; 13xAla in NLKÎHis, 16xGly and 7xSer in POU4F2ÎHis) and those published for longer amino acid tracts <xref rid="pgen.1000397-Oma1" ref-type="bibr">[31]</xref>. Speckle-positive His-repeats vary from simple amino acid runs (for instance, <bold>H<sub>10</sub></bold> in HOXA1) to complex repeats (<bold>H</bold>PSN<bold>H<sub>5</sub></bold>N<bold>H<sub>2</sub></bold>S<bold>H</bold>K<bold>H</bold>S<bold>H</bold> in cyclin T1), suggesting that the number of His residues is not decisive for its functional role but rather, the spacing between residues may be important. We failed to find a specific code underlying targeting to nuclear speckles, except that a minimum of 6 His residues is required for this effect, which indicates a high degree of flexibility in this functional signal. Considering that His-repeats are widely used as tags for affinity-purification and immunodetection of expressed proteins, we would like to stress the fact that more than 6 His residues may alter the original localization of a tagged protein.</p>
+      </sec>
+      <sec id="s3b">
+        <title>His-Repeats as a Way of Generating Evolutionary Diversification in Gene Duplicates</title>
+        <p>Only 22% of SARPs have paralogous proteins <xref rid="pgen.1000397-Siwach1" ref-type="bibr">[60]</xref>, whereas a large fraction of the genes encoding proteins with His-repeats have closely-related paralogues. We found that many of them were derived from gene duplications at the base of vertebrate evolution, when two rounds of whole-genome duplication took place <xref rid="pgen.1000397-AbiRached1" ref-type="bibr">[61]</xref>. Interestingly, most of the paralogues lacked the His-repeat, suggesting that this repeat had been gained after the duplication of the gene. Further analysis of the distribution of these repeats revealed that they were gained during two periods of vertebrate evolution: soon after gene duplication or before placental mammal radiation.</p>
+        <p>The comparison of the subcellular distribution of three pairs of paralogous proteins, FAM76B/FAM76A, DYRK1A/DYRK1B and POU4F2/POU4F3, confirmed that only those members containing His-repeats localized to nuclear speckles. Notably, in approximately 30% of the duplicate gene pairs derived from the <italic>S. cerevisiae</italic> whole-genome duplication event, the two protein members of the pair localize to distinct subcellular compartments <xref rid="pgen.1000397-Marques1" ref-type="bibr">[62]</xref>. This and other evidence led to the proposal that protein subcellular relocalization might be an important evolutionary mechanism for the functional diversification of duplicate genes <xref rid="pgen.1000397-ByunMcKay1" ref-type="bibr">[63]</xref>. Therefore, the appearance of a new repeat, or variations in the length and composition of an existing one, may have been an important mechanism for functional diversification. The acquisition of a new His-repeat might have contributed to the reorganization of protein-protein interaction networks and more specifically, to nuclear speckle targeting as a novel cell property associated to the paralogous protein. This might be relatively rapid on an evolutionary time scale because of the high mutation rates associated with microsatellites <xref rid="pgen.1000397-Weber1" ref-type="bibr">[64]</xref>. In fact, the expansion and contraction of repeats within transcription factors has been linked to major morphological changes in vertebrates <xref rid="pgen.1000397-Fondon1" ref-type="bibr">[65]</xref>,<xref rid="pgen.1000397-Anan1" ref-type="bibr">[66]</xref>. Given that a high proportion of the polyHis-containing proteins have roles in developmental processes, mutations involving His-repeats may have played a significant part in diversification and adaptation.</p>
+      </sec>
+      <sec id="s3c">
+        <title>Subnuclear Localization of PolyHis-Containing Proteins Is a Highly Dynamic Process</title>
+        <p>Several of the His-containing proteins that did not accumulate in nuclear speckles were transcription factors. The fact that these proteins contain domains that may control their specific localization within the nucleus, such as DNA binding regions or protein-protein interaction domains, led us to think that competition between His-repeats and other protein regions might regulate their intranuclear distribution. Our results show a direct correlation between loss of DNA binding activity and accumulation in nuclear speckles. Similar behavior was recently described for the transcription factor GATA-4, although the subnuclear compartment to which it localized was not identified <xref rid="pgen.1000397-Philips1" ref-type="bibr">[67]</xref>. Although we cannot ignore that the elimination of the DNA binding domains may result in a conformational change that exposes the His-repeat, we favor a loss of retention in the chromosomal compartment as being responsible for the enrichment in nuclear speckles. This assumption is supported by the results with inhibitors of RNA polymerase II-dependent transcription, since treatment with Î±-amanitin caused re-localization to nuclear speckles of many of the proteins with a dispersed nuclear distribution under basal conditions. In this regard, we noted that the subgroup of proteins unable to accumulate in nuclear speckles was enriched in proteins with more than one DNA binding domain, a feature that may confer a more immobile character to these proteins. Thus, we propose that the intranuclear localization of some transcription factors with His-repeats is the net result of competition for binding to different recruiting sites within the nucleus, such as DNA, nuclear speckles or other nuclear bodies. Moreover, this dynamic behavior might also explain why among the proteins listed in <xref ref-type="table" rid="pgen-1000397-t001">Table 1</xref>, only OTX1 appeared in a proteomic analysis of enriched preparations of interchromatin granule clusters <xref rid="pgen.1000397-Saitoh1" ref-type="bibr">[24]</xref>. Such a proteomic analysis would not consider proteins present in low amounts and/or proteins that are transiently found in such structures.</p>
+        <p>It is widely accepted that RNA processing occurs co-transcriptionally and thus, there is a co-localization of factors related to RNA biogenesis, such as transcription and splicing factors <xref rid="pgen.1000397-Maniatis1" ref-type="bibr">[68]</xref>. When needed, transcription factors are recruited to specific promoters in active transcription sites whereas splicing factors are assembled into the spliceosome. During transcriptionally inactive periods, the splicing factors re-locate to the speckle domains, and some transcription factors might also behave similarly. Transit through the speckles may provide the opportunity for transcription factors to encounter RNA processing factors and/or other transcription factors, and to assemble into complexes acting on the same gene. This re-localization may also involve the targeting of transcription factors no longer able to bind DNA to other compartments for degradation or other processing activities <xref rid="pgen.1000397-Baldin1" ref-type="bibr">54</xref>,<xref rid="pgen.1000397-vonMikecz1" ref-type="bibr">69</xref>. In addition, compartmentalization of transcription-related proteins within distinct nuclear bodies may be an important mechanism to regulate gene expression. For instance, the inactivation of the transcription factor HAND1 by nucleoli retention has been implicated in trophoblast stem cell proliferation and renewal <xref rid="pgen.1000397-Martindill1" ref-type="bibr">[70]</xref>, and estrogen receptor-enhanced transcription requires interchromosomal interactions at nuclear speckles <xref rid="pgen.1000397-Nunez1" ref-type="bibr">[71]</xref>. The presence of a common sequence to direct a subset of proteins to nuclear speckles, such as the His-repeats, may confer functional advantages. First, it may represent a way to concentrate functionally related proteins, perhaps facilitating their physical interaction. Second, it may reflect a common mechanism to regulate these proteins. Indeed, given that most of the polyHis-containing proteins are involved in developmental processes, His-repeats may be a means of keeping transcription factors away from promoters when they are not required.</p>
+        <p>Uncontrolled expansion of SARs is associated with developmental and neurodegenerative human diseases (for review, see <xref rid="pgen.1000397-Karlin1" ref-type="bibr">[2]</xref>,<xref rid="pgen.1000397-Gatchel1" ref-type="bibr">[11]</xref>,<xref rid="pgen.1000397-Albrecht1" ref-type="bibr">[13]</xref>), although no pathological His expansions/deletions have yet been reported. However, variants in the length of the His-repeats in the HOXA1 protein have been described in the Japanese population <xref rid="pgen.1000397-Paraguison1" ref-type="bibr">[56]</xref>, and the expression of these variants compromised HOXA1 function in neuronal differentiation <xref rid="pgen.1000397-Paraguison2" ref-type="bibr">[72]</xref>. Furthermore, a polyHis polymorphism in <italic>ZIC2</italic> is apparently associated with neural tube defects <xref rid="pgen.1000397-Brown1" ref-type="bibr">[73]</xref>. Intriguingly, no homozygous cases of expansions have been found in either of these genes. On the basis of these data, and considering that some polyHis-containing proteins are fundamental for essential developmental processes, variation in His-repeats would be expected to contribute to human disease.</p>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Genome-Wide Computational Search for His-Repeats</title>
+        <p>An in-house Perl computer program was used to identify all human proteins containing a tandem His-repeat of 5 residues or more from Ensembl (version 48, <ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org/">http://www.ensembl.org/</ext-link>, <xref rid="pgen.1000397-Flicek1" ref-type="bibr">[32]</xref>). When more than one protein per gene existed, we selected the longest of these. One to one orthologous proteins from mouse, as well as human paralogous genes, were identified using Ensembl Biomart annotations. The paralogous gene analysis was restricted to those genes derived from duplication events at the Euteleostome or more recent levels, since these homologues were sufficiently similar to produce reliable alignments. The procedure used to map equivalent repeats in two homologous sequences has already been described <xref rid="pgen.1000397-Mularoni1" ref-type="bibr">[82]</xref>. Briefly, for each repeat found in a sequence, we determined whether an equivalent repeat existed in the orthologous sequence by looking for His-repeats that overlapped with the reference repeat in the pairwise protein sequence alignment available from Ensembl. Non-coding tandem CAY (CAC/CAT) repeats were recovered from the non-protein coding parts of the genome (goldenpath 200603).</p>
+      </sec>
+      <sec id="s4b">
+        <title>Gene Ontology-Based Analysis of Protein Function</title>
+        <p>We obtained all available Gene Ontology annotations (GO, <ext-link ext-link-type="uri" xlink:href="http://www.geneontology.org/">http://www.geneontology.org/</ext-link>, <xref rid="pgen.1000397-Harris1" ref-type="bibr">[33]</xref>) for human genes from Ensembl (18,086 genes). The number of genes annotated with the terms ânucleusâ, âcytoplasmâ (excluding those also annotated as ânucleusâ) and âmembraneâ (excluding those also annotated as ânucleusâ and/or âcytoplasmâ) in the cellular compartment classification were counted. In the complete dataset, 4634 genes were annotated as ânucleusâ, 191 as âcytoplasmâ and 4257 as âmembraneâ. Out of 82 polyHis-containing proteins with GO annotations, 59 were annotated as ânucleusâ, 2 as âcytoplasmâ and 7 as âmembraneâ. Several terms related to transcriptional regulation and to developmental processes were particularly abundant among the proteins with His-repeats. To avoid redundancy in the functional analysis, three groups of nuclear proteins were selected: 1) genes with GO annotations related to nervous system development (ânervous system developmentâ, âcentral nervous system developmentâ, âbrain developmentâ, âhindbrain developmentâ, âforebrain developmentâ, âmidbrain developmentâ and âdendrite developmentâ); 2) genes with GO annotations related to other developmental processes (terms containing âdevelopmentâ not included in the previous class); and 3) genes with the GO annotation âregulation of transcriptionâ (and not included in the two previous classes). In the complete dataset, 142 genes were included in the first class, 585 in the second class and 1829 in the third. Among polyHis-containing genes, 13 genes were included in the first class, 12 in the second class and 19 in the third class.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Statistical Analysis</title>
+        <p>To detect any statistical differences in the distribution of the repeat sizes we used the non-parametric Kolmogorov-Smirnov test. To detect over-represented GO terms we used the binomial probability. Statistical analyses were performed with the R statistical package (<ext-link ext-link-type="uri" xlink:href="http://www.r-project.org/">http://www.r-project.org/</ext-link>).</p>
+      </sec>
+      <sec id="s4d">
+        <title>Plasmids</title>
+        <p>The expression plasmids encoding GFP-tagged human DYRK1A (754 amino acid isoform; pGFP-DYRK1A) has been described <xref rid="pgen.1000397-Alvarez1" ref-type="bibr">[20]</xref>. The plasmid expressing GFP fused to the DYRK1A fragment 378â616 (H+) was obtained by in-frame subcloning of the appropriate PCR fragment into pEGFP-C1 (Clontech). Expression plasmids for DYRK1B (pGFP-DYRK1B, <xref rid="pgen.1000397-Becker1" ref-type="bibr">[74]</xref>, SC35 (pYFP-SC35, <xref rid="pgen.1000397-Prasanth1" ref-type="bibr">[75]</xref>, POU4F1 (pTS-Brn3a, <xref rid="pgen.1000397-Fedtsova1" ref-type="bibr">[76]</xref>, cyclin T1 (pMyc-Cyclin T1, <xref rid="pgen.1000397-Taube1" ref-type="bibr">[19]</xref>, NKD2 (pGFP-NKD2, <xref rid="pgen.1000397-Li1" ref-type="bibr">[77]</xref>, and CBX4 (pGFP-CBX4) were kindly provided by W. Becker (Aachen University, Germany), D. Spector (Cold Spring Harbor Laboratory, Cold Spring Harbor, USA), E. Turner (Department of Psychiatry, University of California, USA), M. Peterlin (Howard Hughes Medical Institute, University of California, USA), C. Li (Department of Medicine, Vanderbilt University Medical Center, USA), and S. Aznar-Benitah (Centre for Genomic Regulation-CRG, Spain), respectively.</p>
+        <p>To generate the plasmids expressing the different GFP fusion proteins, the corresponding open reading frames were PCR amplified with specific primers using IMAGE Consortium cDNA clones as templates (<ext-link ext-link-type="uri" xlink:href="http://image.llnl.gov/">http://image.llnl.gov/</ext-link>, <xref rid="pgen.1000397-Lennon1" ref-type="bibr">[78]</xref>). The identification number of the IMAGE clones and the sequence of the primers used are listed in <xref ref-type="supplementary-material" rid="pgen.1000397.s012">Table S3</xref>. All the IMAGE clones were purchased from the RZPD German Resource Center for Genome Research. Details of the generation of all constructs used in this study are provided in the Supporting Materials and Methods (<xref ref-type="supplementary-material" rid="pgen.1000397.s014">Text S1</xref>). Plasmid pG4-HOXA1 was constructed by fusing the nucleotide sequence corresponding to the HOXA1 open reading frame in-frame with the yeast Gal4 DNA binding domain (DBD) in pG4-DBD <xref rid="pgen.1000397-delaLuna1" ref-type="bibr">[79]</xref>. To obtain plasmids expressing 5xHis, 6xHis, 7xHis, 8xHis and 9xHis or 9xPro and 9xGln protein segments fused to GFP, double stranded oligonucleotides (<xref ref-type="supplementary-material" rid="pgen.1000397.s013">Table S4</xref>) were annealed and ligated into the <italic>Bgl</italic>II and <italic>EcoR</italic>I sites of the pEGFP-C1 expression vector. Deletion of His-repeats was performed by site-directed mutagenesis (Stratagene) on pHA-DYRK1A, pFlag-POU4F2, pGFP-NLK, pGFP-HOXA1 and pG4-HOXA1. All plasmids generated by PCR, as well as all the in-frame fusions, were verified by DNA sequencing.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Cell Culture and Transfection</title>
+        <p>The U2-OS, HeLa, CV-1 and HEK-293 cell lines were maintained at 37Â°C in Dulbecco's Modified Eagle's Medium supplemented with 10% fetal calf serum (FCS) and antibiotics. Transient transfections were performed using the calcium phosphate precipitation method and the cells were processed 24â48 h after transfection. For the generation of stable cell lines, transfected U2-OS cells were selected by incubation with G418 (500 Âµg/ml; Gibco-Invitrogen) for 10 days and the clones derived from a single cell were isolated. Cell lines were maintained in G418 (250 Âµg/ml). Treatment of HeLa cells with RNA polymerase II inhibitor, Î±-amanitin (50 Âµg/ml; Sigma) and with the CRM1-dependent export inhibitor leptomycin B (10 ng/ml; Sigma) was carried out for 5 h at 37Â°C.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Immunofluorescence</title>
+        <p>HeLa cells (7Ã10<sup>5</sup>) growing on coverslips in six-well dishes were transfected with the different expression constructs and 48 h after transfection, the coverslips were washed in cold phosphate buffered saline (PBS), fixed in 4% paraformaldehyde in PBS for 15 min, and permeabilized in 0.1% Triton X-100 in PBS for 10 min. For ubiquitin detection, the cells were fixed in methanol for 2 min at â20Â°C, and they were then blocked with PBS-10% FCS for 30 min and incubated with primary antibodies for 1 h at room temperature. After washing extensively with PBS-1% FCS, the coverslips were incubated with the secondary antibodies for 45 min at room temperature, washed repeatedly with PBS-1% FCS, and mounted onto slides using Vectashield Mounting Medium (Vector Laboratories) plus 0.2 Âµg/ml 4â²,6-diamidino-2-phenylindole (DAPI) or TO-PRO-3 (Molecular Probes). Images were acquired with an inverted Leica SP2 Confocal Microscope and GFP was excited with the 488 nm line of the Argon laser while IgG Alexa 647 was excited with a 633 nm HeNe laser. The following antibodies were used as primary antibodies: monoclonal anti-SC35 antibody (BD Pharmigen, 1â¶100), monoclonal anti-ubiquitin antibody (P4D1, Santa Cruz Biotechnology, 1â¶50), rabbit polyclonal anti-DYRK1A antiserum (<xref rid="pgen.1000397-Alvarez2" ref-type="bibr">[80]</xref> 1â¶250), rabbit polyclonal anti-PML antiserum (Santa Cruz Biotechnology, 1â¶100), mouse monoclonal anti-SUMO1 antibody (Santa Cruz Biotechnology, 1â¶100), rabbit anti-PSP1 antiserum (Dundee Cell Products, 1â¶500), rabbit polyclonal anti-S1-1 antiserum (a kind gift of Dr. A. Inoue, [Osaka City University Graduate School of Medicine, Osaka, Japan]; <xref rid="pgen.1000397-Inoue1" ref-type="bibr">[43]</xref>) and goat polyclonal anti-POU4F2 antiserum (Santa Cruz Biotechnology, 1â¶1000). The secondary antibodies used were an Alexa 647-conjugated goat anti-mouse (Molecular Probes, 1â¶400), an Alexa 555-conjugated donkey anti-mouse (Invitrogene, 1â¶400), an Alexa 488-conjugated donkey anti-goat (Molecular Probes, 1â¶400), an Alexa 555-conjugated goat anti-rabbit (Molecular Probes, 1â¶400) and fluorescein isothiocyanate conjugated goat anti-rabbit (Southern Biotechnology, 1â¶400).</p>
+      </sec>
+      <sec id="s4g">
+        <title>
+<italic>In Vitro</italic> Kinase Assays</title>
+        <p>Transfected HEK-293 cells (2Ã10<sup>6</sup>) were lysed in Hepes lysis buffer (50 mM Hepes pH 7.4, 150 mM NaCl, 1% NP-40, 2 mM EDTA, 2 mM NaVO<sub>4</sub>, 30 mM NaPPi, 25 mM NaF) supplemented with a cocktail of protease inhibitors (Roche). Soluble extracts were immunoprecipitated either with anti-HA (Abnova) or anti-GFP (Molecular Probes) antibodies. Immunocomplexes were washed twice with kinase buffer (50 mM Hepes pH 7.4, 5 mM MgCl<sub>2</sub>, 5 mM MnCl<sub>2</sub>, 0.5 mM DTT) and incubated in 30 Âµl of kinase buffer with 10 ÂµM ATP and [g<sup>32</sup>P]-ATP (6.5Ã10<sup>â3</sup> ÂµCi/pmol) for 20 min at 30Â°C. For DYRK1A, kinase activity was followed by phosphate incorporation on the synthetic peptide DYRKtide (200 ÂµM) in a liquid scintillation B-counter (Beckman Coulter) as described previously <xref rid="pgen.1000397-Alvarez2" ref-type="bibr">[80]</xref>. For NLK, the reaction was stopped by adding 2Ã loading sample buffer and the samples were resolved by SDS-PAGE. <sup>32</sup>P incorporation was detected by autoradiography of the dried gels.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Reporter Assays</title>
+        <p>For the POU4F2-dependent reporter assay, CV-1 cells (1Ã10<sup>5</sup>) were seeded in 35-mm dishes. The cells were transfected with a luciferase reporter plasmid driven by the minimal prolactin promoter plus 3 repeats of the POU4 family recognition site (pGL2-3xBrn3a, kindly provided by E. Turner; <xref rid="pgen.1000397-Gruber1" ref-type="bibr">[81]</xref>) together with pFlag-POU4F2 or pFlag-POU4F2ÎHis and a Î²-galactosidase expressing plasmid as an internal control. For HOXA1-dependent reporter assays, cells were transfected with the pG5E1B-luc reporter (luciferase is driven by five repeats of the synthetic Gal4-binding sites introduced upstream of the minimal adenovirus E1b promoter; <xref rid="pgen.1000397-delaLuna1" ref-type="bibr">[79]</xref>) together with pG4-HOXA1 or pG4DBD-HOXA1ÎHis encoding chimeras of HOXA1 proteins fused at their N termini to the Gal4 DBD. A <italic>Renilla</italic> luciferase plasmid (pCMV-RNL, Promega) was used as an internal control. Cells were lysed 48 h post-transfection and the activity of both luciferase enzymes was measured with the Dual-Luciferase Reporter Assay kit (Promega). Each transfection was carried out in triplicate.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>The ability of a His-tract to direct a heterologous protein to the nuclear speckles depends on the number of consecutive His residues. A) HeLa cells were transfected with expression plasmids encoding GFP fusion proteins with different numbers of His residues: 5xHis, 6xHis, 7xHis, 8xHis or 9xHis repeats. The localization of the fusion proteins was analyzed by direct fluorescence (left column, green) and by immunofluorescence for SC35 (middle column, red). Merged images are also shown (left column). The unfused GFP protein was used as a control and co-localization with the endogenous marker was determined by confocal imaging. B) Using the lines on the merged image for GFP-9xHis, fluorescence intensity profiles were obtained for GFP (green) and SC35 (red).</p>
+          <p>(1.26 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>His homopolymeric tracts specifically target proteins to the nuclear speckle compartment but not to other nuclear bodies. HeLa cells were transfected with an expression plasmid encoding a GFP fusion protein of with 9xHis residues. The localization of the fusion protein was analyzed by direct fluorescence (left column, green) and by indirect immunofluorescence for markers of different nuclear bodies as indicated (middle column, red). Merged images are also shown (left column). Co-localization with the endogenous markers was determined by confocal imaging.</p>
+          <p>(1.72 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Deletion of the His-tract in NLK interferes with NLK subnuclear localization but not with its kinase activity. A) HeLa cells were transfected with the expression plasmids for the fusion proteins GFP-NLK or GFP-NLKÎHis. Cells were immunostained for SC35 to visualize the nuclear speckles (middle column, red) and GFP fusion proteins were visualized directly by fluorescence microscopy (left column, green). Merged images are shown (right column). Note the lack of accumulation in nuclear speckles of the NLK mutant protein. B) Soluble extracts from cells expressing unfused GFP, GFP-NLK or GFP-NLKÎHis were immunoprecipitated with anti-GFP and assayed in an in vitro kinase assay. The samples were analyzed in Western blots with anti-GFP and autophosphorylation was assessed by autoradiography of the dried gels. The position of marker proteins (in kDa) is indicated. The NLKÎHis mutant version showed no differences in autophosphorylation activity when compared with the wild type protein.</p>
+          <p>(0.79 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>The localization of other pairs of paralogous proteins confirms that the His repeat is necessary for accumulation in nuclear speckles. HeLa cells were transfected with plasmids expressing the GFP fusions of the DYRK family of protein kinases, DYRK1A and DYRK1B (A), and of the POU family of transcription factors, POU4F2 and POU4F3 (B). A schematic representation of each pair of paralogues is presented. (A) NLS: nuclear localization signal; Kinase: kinase domain; PEST: PEST sequences; His: histidine repeat; Ser: serine-rich region. (B) Gly/Ser: segment rich in glycine and serine; UHD: upstream homology domain in POU family members; POUsd: POU specific domain; POUhd: POU homeodomain. The localization of the fusion proteins was assessed by direct fluorescence (left panels) and their accumulation in speckles by co-localization with SC35 (right panels).</p>
+          <p>(1.15 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>The accumulation of some transcription factors with polyHis stretches in nuclear speckles depends on their interaction with DNA. HeLa cells were transfected with the expression plasmids for wild type GFP-OTX1 or GFP-OTX1ÎHB as indicated (see scheme: His: His repeat; NLS: nuclear localization signal; HoBox: homeobox domain; OtxB: Otx box). The subcellular localization of both proteins was analyzed by direct fluorescence (left column, green) and their accumulation in nuclear speckles by immunofluorescence for SC35 (middle column, red).</p>
+          <p>(0.76 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s005.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>Inhibiting transcription with Î±-amanitin forces some His-containing transcription factors to be retained in nuclear speckles. A) HeLa cells were transfected with the expression plasmid encoding the transcription factor HOXA9. At 48 h post-transfection, the cells were treated with Î±-amanitin to inhibit transcription and immunostained for SC35 to assess the accumulation of both proteins in the SFC compartment (right panels). Nuclear speckles appear larger and rounder as a consequence of the treatment with the inhibitor. Note that co-localization with nuclear speckles was only observed in cells treated with Î±-amanitin. B) HeLa cells were transfected with pGFP-HOXA1, and double stained for S1-1 (blue) and SC35 (red). Arrows indicate some of the overlapping structures with S1-1 staining and asterisks those with SC35 staining. Images were acquired by confocal microscopy.</p>
+          <p>(1.12 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s006.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s007">
+        <label>Figure S7</label>
+        <caption>
+          <p>Inhibiting export with leptomycin B forces PRICKLE3 to be retained in PML bodies. HeLa cells were transfected with the expression plasmid encoding PRICKLE3. At 48 h post-transfection, cells were treated with leptomycin B for the times indicated to inhibit nuclear export, and immunostained for PML to assess accumulation in PML bodies (right panels). PML bodies appear larger and rounder as a consequence of the treatment with the inhibitor. Note that PRICKLE3 translocates to the nucleus and co-localizes with PML bodies in cells treated with leptomycin B. This behavior in response to leptomycin treatment has been also described for other proteins accumulating in the nuclear speckles compartment, such as the spliceosome component U1A or the transcription factor ZBP1.</p>
+          <p>(0.87 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s007.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s008">
+        <label>Figure S8</label>
+        <caption>
+          <p>The dot-like staining of polyHis-containing proteins does not overlap with ubiquitin-enriched nuclear aggregates. HeLa cells were transfected with the expression plasmid for the fusion protein GFP-DYRK1A, and cells were immunostained for ubiquitin and then analyzed by direct fluorescence (left panel, green) and by immunofluorescence (middle panel, red). A merged image is also shown (right panel). Note that no co-localization of the DYRK1A nuclear speckles with ubiquitin was detected.</p>
+          <p>(0.30 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s008.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s009">
+        <label>Figure S9</label>
+        <caption>
+          <p>A protein with polyHis-stretches mimics the behavior of a component of endogenous nuclear speckles during the cell cycle. An U2-OS stable cell line expressing GFP fused to a fragment of the DYRK1A protein kinase (amino acids 378â616) that contains the polyHis segment was generated and the co-localization of the GFP signal with SC35 was confirmed (data not shown). Cells grown on coverslips were analyzed by direct fluorescence (central panel) and DNA was stained with TO-PRO-3 to distinguish interphase from mitotic nuclei (left panel). Note that GFP-DYRK1A(378â616) is expressed in discrete foci compatible with nuclear speckles in interphase nuclei, whereas during mitosis (prophase, upper panel; anaphase, lower panel) diffuse staining throughout the cytoplasm is observed as a consequence of nuclear speckle disassembly. This behavior mirrors that of endogenous SC35, whose speckled distribution is lost during prophase.</p>
+          <p>(0.96 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s009.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s010">
+        <label>Table S1</label>
+        <caption>
+          <p>Results of the bioinformatics screen used to identify human proteins containing at least one His-repeat of 5 or more residues.</p>
+          <p>(0.04 MB XLS)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s010.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s011">
+        <label>Table S2</label>
+        <caption>
+          <p>Results of the analysis to identify the paralogues of the genes encoding proteins with His-repeats in the human genome.</p>
+          <p>(0.04 MB XLS)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s011.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s012">
+        <label>Table S3</label>
+        <caption>
+          <p>Information on IMAGE clones and the oligonucleotides used to generate all the expression vectors.</p>
+          <p>(0.06 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s012.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s013">
+        <label>Table S4</label>
+        <caption>
+          <p>Oligonucleotides used to obtain the plasmids expressing His-tracts fused to GFP.</p>
+          <p>(0.05 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s013.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s014">
+        <label>Text S1</label>
+        <caption>
+          <p>Supporting Materials and Methods.</p>
+          <p>(0.07 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s014.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s015">
+        <label>Video S1</label>
+        <caption>
+          <p>
+<italic>In vivo</italic> imaging of GFP-HOXA1. For live cell observations, HeLa cells (7Ã105) growing on 35-mm MatTek plates (MatTek Corporation) were transfected with the expression plasmids for the GFP-HOXA1 (1 Âµg) and YFP-SC35 (250 ng) fusion proteins, and 16 h after transfection the cells were transferred to an environmental control box (EMBLEM Technology Transfer) mounted onto the stage of an inverted Leica TCS SP5 confocal microscope. GFP was excited with the 488 nm line and YFP with the 514 line of the Argon laser. The cells were treated with Î±-amanitin (50 mg/ml) for 5 h at 37Â°C, and time-lapse images were acquired at 63Ã every 5 min and processed with the LAS (Leica Application Suite) AF software. Images for GFP-HOXA1 are shown in the <xref ref-type="supplementary-material" rid="pgen.1000397.s015">Supporting Video S1</xref>. The progressive enlargement of YFP-SC35 signals serves as a control of the treatment (<xref ref-type="supplementary-material" rid="pgen.1000397.s016">Supporting Video S2</xref>).</p>
+          <p>(0.97 MB MOV)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s015.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000397.s016">
+        <label>Video S2</label>
+        <caption>
+          <p>
+<italic>In vivo</italic> imaging of YFP-SC35.</p>
+          <p>(0.20 MB MOV)</p>
+        </caption>
+        <media xlink:href="pgen.1000397.s016.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank A. Raya for technical assistance, M. Alvarez for the DYRK1A kinase assays and other members of SdlL's lab for technical advice, X. Sanjuan and R. GarcÃ­a for their help with the confocal images, and M. Sefton for English editorial work. We specially thank A. Inoue for the anti-S1-1 antibody. We are grateful to J. ValcÃ¡rcel for critical reading of the manuscript.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>This work is supported by grants from the Spanish Ministry of Education and Science-MEC (BFU2007-61043/BMC to SL and BFU2006-07120/BMC to MA). ES was supported by a FPI predoctoral fellowship (Spanish MEC). We also acknowledge funding from the Regione Autonoma della Sardegna to AL. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. The CIBER de Enfermedades Raras is an initiative of the ISCIII.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pgen.1000397-Huntley1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huntley</surname><given-names>MA</given-names></name><name><surname>Golding</surname><given-names>GB</given-names></name></person-group>
+<year>2002</year>
+<article-title>Simple sequences are rare in the Protein Data Bank.</article-title>
+<source>Proteins</source>
+<volume>48</volume>
+<fpage>134</fpage>
+<lpage>140</lpage>
+<pub-id pub-id-type="pmid">12012345</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Karlin1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karlin</surname><given-names>S</given-names></name><name><surname>Brocchieri</surname><given-names>L</given-names></name><name><surname>Bergman</surname><given-names>A</given-names></name><name><surname>Mrazek</surname><given-names>J</given-names></name><name><surname>Gentles</surname><given-names>AJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>Amino acid runs in eukaryotic proteomes and disease associations.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>99</volume>
+<fpage>333</fpage>
+<lpage>338</lpage>
+<pub-id pub-id-type="pmid">11782551</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-MarAlba1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mar Alba</surname><given-names>M</given-names></name><name><surname>Santibanez-Koref</surname><given-names>MF</given-names></name><name><surname>Hancock</surname><given-names>JM</given-names></name></person-group>
+<year>1999</year>
+<article-title>Amino acid reiterations in yeast are overrepresented in particular classes of proteins and show evidence of a slippage-like mutational process.</article-title>
+<source>J Mol Evol</source>
+<volume>49</volume>
+<fpage>789</fpage>
+<lpage>797</lpage>
+<pub-id pub-id-type="pmid">10594180</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Alba1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alba</surname><given-names>MM</given-names></name><name><surname>Guigo</surname><given-names>R</given-names></name></person-group>
+<year>2004</year>
+<article-title>Comparative analysis of amino acid repeats in rodents and humans.</article-title>
+<source>Genome Res</source>
+<volume>14</volume>
+<fpage>549</fpage>
+<lpage>554</lpage>
+<pub-id pub-id-type="pmid">15059995</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Faux1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Faux</surname><given-names>NG</given-names></name><name><surname>Bottomley</surname><given-names>SP</given-names></name><name><surname>Lesk</surname><given-names>AM</given-names></name><name><surname>Irving</surname><given-names>JA</given-names></name><name><surname>Morrison</surname><given-names>JR</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Functional insights from the distribution and role of homopeptide repeat-containing proteins.</article-title>
+<source>Genome Res</source>
+<volume>15</volume>
+<fpage>537</fpage>
+<lpage>551</lpage>
+<pub-id pub-id-type="pmid">15805494</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Karlin2">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karlin</surname><given-names>S</given-names></name><name><surname>Mrazek</surname><given-names>J</given-names></name><name><surname>Gentles</surname><given-names>AJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Genome comparisons and analysis.</article-title>
+<source>Curr Opin Struct Biol</source>
+<volume>13</volume>
+<fpage>344</fpage>
+<lpage>352</lpage>
+<pub-id pub-id-type="pmid">12831886</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Dunker1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dunker</surname><given-names>AK</given-names></name><name><surname>Cortese</surname><given-names>MS</given-names></name><name><surname>Romero</surname><given-names>P</given-names></name><name><surname>Iakoucheva</surname><given-names>LM</given-names></name><name><surname>Uversky</surname><given-names>VN</given-names></name></person-group>
+<year>2005</year>
+<article-title>Flexible nets. The roles of intrinsic disorder in protein interaction networks.</article-title>
+<source>Febs J</source>
+<volume>272</volume>
+<fpage>5129</fpage>
+<lpage>5148</lpage>
+<pub-id pub-id-type="pmid">16218947</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Pearson1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pearson</surname><given-names>CE</given-names></name><name><surname>Nichol Edamura</surname><given-names>K</given-names></name><name><surname>Cleary</surname><given-names>JD</given-names></name></person-group>
+<year>2005</year>
+<article-title>Repeat instability: mechanisms of dynamic mutations.</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>729</fpage>
+<lpage>742</lpage>
+<pub-id pub-id-type="pmid">16205713</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Kashi1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kashi</surname><given-names>Y</given-names></name><name><surname>King</surname><given-names>DG</given-names></name></person-group>
+<year>2006</year>
+<article-title>Simple sequence repeats as advantageous mutators in evolution.</article-title>
+<source>Trends Genet</source>
+<volume>22</volume>
+<fpage>253</fpage>
+<lpage>259</lpage>
+<pub-id pub-id-type="pmid">16567018</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Caburet1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caburet</surname><given-names>S</given-names></name><name><surname>Cocquet</surname><given-names>J</given-names></name><name><surname>Vaiman</surname><given-names>D</given-names></name><name><surname>Veitia</surname><given-names>RA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Coding repeats and evolutionary âagilityâ.</article-title>
+<source>Bioessays</source>
+<volume>27</volume>
+<fpage>581</fpage>
+<lpage>587</lpage>
+<pub-id pub-id-type="pmid">15892112</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Gatchel1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gatchel</surname><given-names>JR</given-names></name><name><surname>Zoghbi</surname><given-names>HY</given-names></name></person-group>
+<year>2005</year>
+<article-title>Diseases of unstable repeat expansion: mechanisms and common principles.</article-title>
+<source>Nat Rev Genet</source>
+<volume>6</volume>
+<fpage>743</fpage>
+<lpage>755</lpage>
+<pub-id pub-id-type="pmid">16205714</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Haberman1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Haberman</surname><given-names>Y</given-names></name><name><surname>Amariglio</surname><given-names>N</given-names></name><name><surname>Rechavi</surname><given-names>G</given-names></name><name><surname>Eisenberg</surname><given-names>E</given-names></name></person-group>
+<year>2008</year>
+<article-title>Trinucleotide repeats are prevalent among cancer-related genes.</article-title>
+<source>Trends Genet</source>
+<volume>24</volume>
+<fpage>14</fpage>
+<lpage>18</lpage>
+<pub-id pub-id-type="pmid">18054813</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Albrecht1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albrecht</surname><given-names>A</given-names></name><name><surname>Mundlos</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<article-title>The other trinucleotide repeat: polyalanine expansion disorders.</article-title>
+<source>Curr Opin Genet Dev</source>
+<volume>15</volume>
+<fpage>285</fpage>
+<lpage>293</lpage>
+<pub-id pub-id-type="pmid">15917204</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Delot1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Delot</surname><given-names>E</given-names></name><name><surname>King</surname><given-names>LM</given-names></name><name><surname>Briggs</surname><given-names>MD</given-names></name><name><surname>Wilcox</surname><given-names>WR</given-names></name><name><surname>Cohn</surname><given-names>DH</given-names></name></person-group>
+<year>1999</year>
+<article-title>Trinucleotide expansion mutations in the cartilage oligomeric matrix protein (COMP) gene.</article-title>
+<source>Hum Mol Genet</source>
+<volume>8</volume>
+<fpage>123</fpage>
+<lpage>128</lpage>
+<pub-id pub-id-type="pmid">9887340</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Kizawa1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kizawa</surname><given-names>H</given-names></name><name><surname>Kou</surname><given-names>I</given-names></name><name><surname>Iida</surname><given-names>A</given-names></name><name><surname>Sudo</surname><given-names>A</given-names></name><name><surname>Miyamoto</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>An aspartic acid repeat polymorphism in asporin inhibits chondrogenesis and increases susceptibility to osteoarthritis.</article-title>
+<source>Nat Genet</source>
+<volume>37</volume>
+<fpage>138</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="pmid">15640800</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Menon1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Menon</surname><given-names>RP</given-names></name><name><surname>Pastore</surname><given-names>A</given-names></name></person-group>
+<year>2006</year>
+<article-title>Expansion of amino acid homo-sequences in proteins: insights into the role of amino acid homo-polymers and of the protein context in aggregation.</article-title>
+<source>Cell Mol Life Sci</source>
+<volume>63</volume>
+<fpage>1677</fpage>
+<lpage>1685</lpage>
+<pub-id pub-id-type="pmid">16791428</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Gamsjaeger1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gamsjaeger</surname><given-names>R</given-names></name><name><surname>Liew</surname><given-names>CK</given-names></name><name><surname>Loughlin</surname><given-names>FE</given-names></name><name><surname>Crossley</surname><given-names>M</given-names></name><name><surname>Mackay</surname><given-names>JP</given-names></name></person-group>
+<year>2007</year>
+<article-title>Sticky fingers: zinc-fingers as protein-recognition motifs.</article-title>
+<source>Trends Biochem Sci</source>
+<volume>32</volume>
+<fpage>63</fpage>
+<lpage>70</lpage>
+<pub-id pub-id-type="pmid">17210253</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Hoque1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoque</surname><given-names>M</given-names></name><name><surname>Young</surname><given-names>TM</given-names></name><name><surname>Lee</surname><given-names>CG</given-names></name><name><surname>Serrero</surname><given-names>G</given-names></name><name><surname>Mathews</surname><given-names>MB</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The growth factor granulin interacts with cyclin T1 and modulates P-TEFb-dependent transcription.</article-title>
+<source>Mol Cell Biol</source>
+<volume>23</volume>
+<fpage>1688</fpage>
+<lpage>1702</lpage>
+<pub-id pub-id-type="pmid">12588988</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Taube1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Taube</surname><given-names>R</given-names></name><name><surname>Lin</surname><given-names>X</given-names></name><name><surname>Irwin</surname><given-names>D</given-names></name><name><surname>Fujinaga</surname><given-names>K</given-names></name><name><surname>Peterlin</surname><given-names>BM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Interaction between P-TEFb and the C-terminal domain of RNA polymerase II activates transcriptional elongation from sites upstream or downstream of target genes.</article-title>
+<source>Mol Cell Biol</source>
+<volume>22</volume>
+<fpage>321</fpage>
+<lpage>331</lpage>
+<pub-id pub-id-type="pmid">11739744</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Alvarez1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alvarez</surname><given-names>M</given-names></name><name><surname>Estivill</surname><given-names>X</given-names></name><name><surname>de la Luna</surname><given-names>S</given-names></name></person-group>
+<year>2003</year>
+<article-title>DYRK1A accumulates in splicing speckles through a novel targeting signal and induces speckle disassembly.</article-title>
+<source>J Cell Sci</source>
+<volume>116</volume>
+<fpage>3099</fpage>
+<lpage>3107</lpage>
+<pub-id pub-id-type="pmid">12799418</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Herrmann1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Herrmann</surname><given-names>CH</given-names></name><name><surname>Mancini</surname><given-names>MA</given-names></name></person-group>
+<year>2001</year>
+<article-title>The Cdk9 and cyclin T subunits of TAK/P-TEFb localize to splicing factor-rich nuclear speckle regions.</article-title>
+<source>J Cell Sci</source>
+<volume>114</volume>
+<fpage>1491</fpage>
+<lpage>1503</lpage>
+<pub-id pub-id-type="pmid">11282025</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Lamond1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lamond</surname><given-names>AI</given-names></name><name><surname>Spector</surname><given-names>DL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Nuclear speckles: a model for nuclear organelles.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>4</volume>
+<fpage>605</fpage>
+<lpage>612</lpage>
+<pub-id pub-id-type="pmid">12923522</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Mintz1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mintz</surname><given-names>PJ</given-names></name><name><surname>Patterson</surname><given-names>SD</given-names></name><name><surname>Neuwald</surname><given-names>AF</given-names></name><name><surname>Spahr</surname><given-names>CS</given-names></name><name><surname>Spector</surname><given-names>DL</given-names></name></person-group>
+<year>1999</year>
+<article-title>Purification and biochemical characterization of interchromatin granule clusters.</article-title>
+<source>Embo J</source>
+<volume>18</volume>
+<fpage>4308</fpage>
+<lpage>4320</lpage>
+<pub-id pub-id-type="pmid">10428969</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Saitoh1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saitoh</surname><given-names>N</given-names></name><name><surname>Spahr</surname><given-names>CS</given-names></name><name><surname>Patterson</surname><given-names>SD</given-names></name><name><surname>Bubulya</surname><given-names>P</given-names></name><name><surname>Neuwald</surname><given-names>AF</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Proteomic analysis of interchromatin granule clusters.</article-title>
+<source>Mol Biol Cell</source>
+<volume>15</volume>
+<fpage>3876</fpage>
+<lpage>3890</lpage>
+<pub-id pub-id-type="pmid">15169873</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Karlin3">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karlin</surname><given-names>S</given-names></name></person-group>
+<year>1995</year>
+<article-title>Statistical significance of sequence patterns in proteins.</article-title>
+<source>Curr Opin Struct Biol</source>
+<volume>5</volume>
+<fpage>360</fpage>
+<lpage>371</lpage>
+<pub-id pub-id-type="pmid">7583634</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Fu1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fu</surname><given-names>XD</given-names></name><name><surname>Maniatis</surname><given-names>T</given-names></name></person-group>
+<year>1990</year>
+<article-title>Factor required for mammalian spliceosome assembly is localized to discrete regions in the nucleus.</article-title>
+<source>Nature</source>
+<volume>343</volume>
+<fpage>437</fpage>
+<lpage>441</lpage>
+<pub-id pub-id-type="pmid">2137203</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Bernardi1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernardi</surname><given-names>R</given-names></name><name><surname>Pandolfi</surname><given-names>PP</given-names></name></person-group>
+<year>2007</year>
+<article-title>Structure, dynamics and functions of promyelocytic leukaemia nuclear bodies.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>8</volume>
+<fpage>1006</fpage>
+<lpage>1016</lpage>
+<pub-id pub-id-type="pmid">17928811</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Heun1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heun</surname><given-names>P</given-names></name></person-group>
+<year>2007</year>
+<article-title>SUMOrganization of the nucleus.</article-title>
+<source>Curr Opin Cell Biol</source>
+<volume>19</volume>
+<fpage>350</fpage>
+<lpage>355</lpage>
+<pub-id pub-id-type="pmid">17467254</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Fox1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fox</surname><given-names>AH</given-names></name><name><surname>Lam</surname><given-names>YW</given-names></name><name><surname>Leung</surname><given-names>AK</given-names></name><name><surname>Lyon</surname><given-names>CE</given-names></name><name><surname>Andersen</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Paraspeckles: a novel nuclear domain.</article-title>
+<source>Curr Biol</source>
+<volume>12</volume>
+<fpage>13</fpage>
+<lpage>25</lpage>
+<pub-id pub-id-type="pmid">11790299</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Gerber1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerber</surname><given-names>HP</given-names></name><name><surname>Seipel</surname><given-names>K</given-names></name><name><surname>Georgiev</surname><given-names>O</given-names></name><name><surname>Hofferer</surname><given-names>M</given-names></name><name><surname>Hug</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Transcriptional activation modulated by homopolymeric glutamine and proline stretches.</article-title>
+<source>Science</source>
+<volume>263</volume>
+<fpage>808</fpage>
+<lpage>811</lpage>
+<pub-id pub-id-type="pmid">8303297</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Oma1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Oma</surname><given-names>Y</given-names></name><name><surname>Kino</surname><given-names>Y</given-names></name><name><surname>Sasagawa</surname><given-names>N</given-names></name><name><surname>Ishiura</surname><given-names>S</given-names></name></person-group>
+<year>2004</year>
+<article-title>Intracellular localization of homopolymeric amino acid-containing proteins expressed in mammalian cells.</article-title>
+<source>J Biol Chem</source>
+<volume>279</volume>
+<fpage>21217</fpage>
+<lpage>21222</lpage>
+<pub-id pub-id-type="pmid">14993218</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Flicek1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Flicek</surname><given-names>P</given-names></name><name><surname>Aken</surname><given-names>BL</given-names></name><name><surname>Beal</surname><given-names>K</given-names></name><name><surname>Ballester</surname><given-names>B</given-names></name><name><surname>Caccamo</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Ensembl 2008.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>36</volume>
+<fpage>D707</fpage>
+<lpage>714</lpage>
+<pub-id pub-id-type="pmid">18000006</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Harris1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harris</surname><given-names>MA</given-names></name><name><surname>Clark</surname><given-names>J</given-names></name><name><surname>Ireland</surname><given-names>A</given-names></name><name><surname>Lomax</surname><given-names>J</given-names></name><name><surname>Ashburner</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The Gene Ontology (GO) database and informatics resource.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>32</volume>
+<fpage>D258</fpage>
+<lpage>261</lpage>
+<pub-id pub-id-type="pmid">14681407</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Huntley2">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Huntley</surname><given-names>MA</given-names></name><name><surname>Mahmood</surname><given-names>S</given-names></name><name><surname>Golding</surname><given-names>GB</given-names></name></person-group>
+<year>2005</year>
+<article-title>Simple sequence in brain and nervous system specific proteins.</article-title>
+<source>Genome</source>
+<volume>48</volume>
+<fpage>291</fpage>
+<lpage>301</lpage>
+<pub-id pub-id-type="pmid">15838552</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Lavoie1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lavoie</surname><given-names>H</given-names></name><name><surname>Debeane</surname><given-names>F</given-names></name><name><surname>Trinh</surname><given-names>QD</given-names></name><name><surname>Turcotte</surname><given-names>JF</given-names></name><name><surname>Corbeil-Girard</surname><given-names>LP</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Polymorphism, shared functions and convergent evolution of genes with sequences coding for polyalanine domains.</article-title>
+<source>Hum Mol Genet</source>
+<volume>12</volume>
+<fpage>2967</fpage>
+<lpage>2979</lpage>
+<pub-id pub-id-type="pmid">14519685</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Mortlock1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mortlock</surname><given-names>DP</given-names></name><name><surname>Sateesh</surname><given-names>P</given-names></name><name><surname>Innis</surname><given-names>JW</given-names></name></person-group>
+<year>2000</year>
+<article-title>Evolution of N-terminal sequences of the vertebrate HOXA13 protein.</article-title>
+<source>Mamm Genome</source>
+<volume>11</volume>
+<fpage>151</fpage>
+<lpage>158</lpage>
+<pub-id pub-id-type="pmid">10656931</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Sumiyama1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sumiyama</surname><given-names>K</given-names></name><name><surname>Washio-Watanabe</surname><given-names>K</given-names></name><name><surname>Saitou</surname><given-names>N</given-names></name><name><surname>Hayakawa</surname><given-names>T</given-names></name><name><surname>Ueda</surname><given-names>S</given-names></name></person-group>
+<year>1996</year>
+<article-title>Class III POU genes: generation of homopolymeric amino acid repeats under GC pressure in mammals.</article-title>
+<source>J Mol Evol</source>
+<volume>43</volume>
+<fpage>170</fpage>
+<lpage>178</lpage>
+<pub-id pub-id-type="pmid">8703082</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Nakachi1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakachi</surname><given-names>Y</given-names></name><name><surname>Hayakawa</surname><given-names>T</given-names></name><name><surname>Oota</surname><given-names>H</given-names></name><name><surname>Sumiyama</surname><given-names>K</given-names></name><name><surname>Wang</surname><given-names>L</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Nucleotide compositional constraints on genomes generate alanine-, glycine-, and proline-rich structures in transcription factors.</article-title>
+<source>Mol Biol Evol</source>
+<volume>14</volume>
+<fpage>1042</fpage>
+<lpage>1049</lpage>
+<pub-id pub-id-type="pmid">9335144</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Cocquet1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cocquet</surname><given-names>J</given-names></name><name><surname>De Baere</surname><given-names>E</given-names></name><name><surname>Caburet</surname><given-names>S</given-names></name><name><surname>Veitia</surname><given-names>RA</given-names></name></person-group>
+<year>2003</year>
+<article-title>Compositional biases and polyalanine runs in humans.</article-title>
+<source>Genetics</source>
+<volume>165</volume>
+<fpage>1613</fpage>
+<lpage>1617</lpage>
+<pub-id pub-id-type="pmid">14668408</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Kagey1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kagey</surname><given-names>MH</given-names></name><name><surname>Melhuish</surname><given-names>TA</given-names></name><name><surname>Powers</surname><given-names>SE</given-names></name><name><surname>Wotton</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Multiple activities contribute to Pc2 E3 function.</article-title>
+<source>Embo J</source>
+<volume>24</volume>
+<fpage>108</fpage>
+<lpage>119</lpage>
+<pub-id pub-id-type="pmid">15592428</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Wei1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wei</surname><given-names>X</given-names></name><name><surname>Somanathan</surname><given-names>S</given-names></name><name><surname>Samarabandu</surname><given-names>J</given-names></name><name><surname>Berezney</surname><given-names>R</given-names></name></person-group>
+<year>1999</year>
+<article-title>Three-dimensional visualization of transcription sites and their association with splicing factor-rich nuclear speckles.</article-title>
+<source>J Cell Biol</source>
+<volume>146</volume>
+<fpage>543</fpage>
+<lpage>558</lpage>
+<pub-id pub-id-type="pmid">10444064</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Zeng1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zeng</surname><given-names>C</given-names></name><name><surname>Kim</surname><given-names>E</given-names></name><name><surname>Warren</surname><given-names>SL</given-names></name><name><surname>Berget</surname><given-names>SM</given-names></name></person-group>
+<year>1997</year>
+<article-title>Dynamic relocation of transcription and splicing factors dependent upon transcriptional activity.</article-title>
+<source>Embo J</source>
+<volume>16</volume>
+<fpage>1401</fpage>
+<lpage>1412</lpage>
+<pub-id pub-id-type="pmid">9135155</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Inoue1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Inoue</surname><given-names>A</given-names></name><name><surname>Tsugawa</surname><given-names>K</given-names></name><name><surname>Tokunaga</surname><given-names>K</given-names></name><name><surname>Takahashi</surname><given-names>KP</given-names></name><name><surname>Uni</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>S1-1 nuclear domains: characterization and dynamics as a function of transcriptional activity.</article-title>
+<source>Biol Cell</source>
+<volume>100</volume>
+<fpage>523</fpage>
+<lpage>535</lpage>
+<pub-id pub-id-type="pmid">18315527</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Green1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Green</surname><given-names>H</given-names></name><name><surname>Wang</surname><given-names>N</given-names></name></person-group>
+<year>1994</year>
+<article-title>Codon reiteration and the evolution of proteins.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>91</volume>
+<fpage>4298</fpage>
+<lpage>4302</lpage>
+<pub-id pub-id-type="pmid">8183904</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Sertedaki1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sertedaki</surname><given-names>A</given-names></name><name><surname>Lindsay</surname><given-names>S</given-names></name></person-group>
+<year>1996</year>
+<article-title>CACâthe neglected repeat.</article-title>
+<source>Bioessays</source>
+<volume>18</volume>
+<fpage>237</fpage>
+<lpage>242</lpage>
+<pub-id pub-id-type="pmid">8867738</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Hancock1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hancock</surname><given-names>JM</given-names></name><name><surname>Worthey</surname><given-names>EA</given-names></name><name><surname>Santibanez-Koref</surname><given-names>MF</given-names></name></person-group>
+<year>2001</year>
+<article-title>A role for selection in regulating the evolutionary emergence of disease-causing and other coding CAG repeats in humans and mice.</article-title>
+<source>Mol Biol Evol</source>
+<volume>18</volume>
+<fpage>1014</fpage>
+<lpage>1023</lpage>
+<pub-id pub-id-type="pmid">11371590</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Handwerger1">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Handwerger</surname><given-names>KE</given-names></name><name><surname>Gall</surname><given-names>JG</given-names></name></person-group>
+<year>2006</year>
+<article-title>Subnuclear organelles: new insights into form and function.</article-title>
+<source>Trends Cell Biol</source>
+<volume>16</volume>
+<fpage>19</fpage>
+<lpage>26</lpage>
+<pub-id pub-id-type="pmid">16325406</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Misteli1">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Misteli</surname><given-names>T</given-names></name></person-group>
+<year>2001</year>
+<article-title>The concept of self-organization in cellular architecture.</article-title>
+<source>J Cell Biol</source>
+<volume>155</volume>
+<fpage>181</fpage>
+<lpage>185</lpage>
+<pub-id pub-id-type="pmid">11604416</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Phair1">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Phair</surname><given-names>RD</given-names></name><name><surname>Misteli</surname><given-names>T</given-names></name></person-group>
+<year>2000</year>
+<article-title>High mobility of proteins in the mammalian cell nucleus.</article-title>
+<source>Nature</source>
+<volume>404</volume>
+<fpage>604</fpage>
+<lpage>609</lpage>
+<pub-id pub-id-type="pmid">10766243</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Hedley1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hedley</surname><given-names>ML</given-names></name><name><surname>Amrein</surname><given-names>H</given-names></name><name><surname>Maniatis</surname><given-names>T</given-names></name></person-group>
+<year>1995</year>
+<article-title>An amino acid sequence motif sufficient for subnuclear localization of an arginine/serine-rich splicing factor.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>92</volume>
+<fpage>11524</fpage>
+<lpage>11528</lpage>
+<pub-id pub-id-type="pmid">8524796</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Dye1">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dye</surname><given-names>BT</given-names></name><name><surname>Patton</surname><given-names>JG</given-names></name></person-group>
+<year>2001</year>
+<article-title>An RNA recognition motif (RRM) is required for the localization of PTB-associated splicing factor (PSF) to subnuclear speckles.</article-title>
+<source>Exp Cell Res</source>
+<volume>263</volume>
+<fpage>131</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="pmid">11161712</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Eilbracht1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eilbracht</surname><given-names>J</given-names></name><name><surname>Schmidt-Zachmann</surname><given-names>MS</given-names></name></person-group>
+<year>2001</year>
+<article-title>Identification of a sequence element directing a protein to nuclear speckles.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>98</volume>
+<fpage>3849</fpage>
+<lpage>3854</lpage>
+<pub-id pub-id-type="pmid">11274404</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Jagiello1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jagiello</surname><given-names>I</given-names></name><name><surname>Van Eynde</surname><given-names>A</given-names></name><name><surname>Vulsteke</surname><given-names>V</given-names></name><name><surname>Beullens</surname><given-names>M</given-names></name><name><surname>Boudrez</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Nuclear and subnuclear targeting sequences of the protein phosphatase-1 regulator NIPP1.</article-title>
+<source>J Cell Sci</source>
+<volume>113 Pt 21</volume>
+<fpage>3761</fpage>
+<lpage>3768</lpage>
+<pub-id pub-id-type="pmid">11034904</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Baldin1">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baldin</surname><given-names>V</given-names></name><name><surname>Militello</surname><given-names>M</given-names></name><name><surname>Thomas</surname><given-names>Y</given-names></name><name><surname>Doucet</surname><given-names>C</given-names></name><name><surname>Fic</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>A novel role for PA28{gamma}-proteasome in nuclear speckle organization and SR protein trafficking.</article-title>
+<source>Mol Biol Cell</source>
+<volume>19</volume>
+<fpage>1706</fpage>
+<lpage>1716</lpage>
+<pub-id pub-id-type="pmid">18256291</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Shen1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shen</surname><given-names>WF</given-names></name><name><surname>Rozenfeld</surname><given-names>S</given-names></name><name><surname>Kwong</surname><given-names>A</given-names></name><name><surname>Kom ves</surname><given-names>LG</given-names></name><name><surname>Lawrence</surname><given-names>HJ</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>HOXA9 forms triple complexes with PBX2 and MEIS1 in myeloid cells.</article-title>
+<source>Mol Cell Biol</source>
+<volume>19</volume>
+<fpage>3051</fpage>
+<lpage>3061</lpage>
+<pub-id pub-id-type="pmid">10082572</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Paraguison1">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paraguison</surname><given-names>RC</given-names></name><name><surname>Higaki</surname><given-names>K</given-names></name><name><surname>Sakamoto</surname><given-names>Y</given-names></name><name><surname>Hashimoto</surname><given-names>O</given-names></name><name><surname>Miyake</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Polyhistidine tract expansions in HOXA1 result in intranuclear aggregation and increased cell death.</article-title>
+<source>Biochem Biophys Res Commun</source>
+<volume>336</volume>
+<fpage>1033</fpage>
+<lpage>1039</lpage>
+<pub-id pub-id-type="pmid">16168961</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Ciechanover1">
+        <label>57</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ciechanover</surname><given-names>A</given-names></name><name><surname>Brundin</surname><given-names>P</given-names></name></person-group>
+<year>2003</year>
+<article-title>The ubiquitin proteasome system in neurodegenerative diseases: sometimes the chicken, sometimes the egg.</article-title>
+<source>Neuron</source>
+<volume>40</volume>
+<fpage>427</fpage>
+<lpage>446</lpage>
+<pub-id pub-id-type="pmid">14556719</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Spector1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spector</surname><given-names>DL</given-names></name><name><surname>Fu</surname><given-names>XD</given-names></name><name><surname>Maniatis</surname><given-names>T</given-names></name></person-group>
+<year>1991</year>
+<article-title>Associations between distinct pre-mRNA splicing components and the cell nucleus.</article-title>
+<source>Embo J</source>
+<volume>10</volume>
+<fpage>3467</fpage>
+<lpage>3481</lpage>
+<pub-id pub-id-type="pmid">1833187</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Aranda1">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Aranda</surname><given-names>S</given-names></name><name><surname>Alvarez</surname><given-names>M</given-names></name><name><surname>Turro</surname><given-names>S</given-names></name><name><surname>Laguna</surname><given-names>A</given-names></name><name><surname>de la Luna</surname><given-names>S</given-names></name></person-group>
+<year>2008</year>
+<article-title>Sprouty2-mediated inhibition of fibroblast growth factor signaling is modulated by the protein kinase DYRK1A.</article-title>
+<source>Mol Cell Biol</source>
+<volume>28</volume>
+<fpage>5899</fpage>
+<lpage>5911</lpage>
+<pub-id pub-id-type="pmid">18678649</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Siwach1">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siwach</surname><given-names>P</given-names></name><name><surname>Pophaly</surname><given-names>SD</given-names></name><name><surname>Ganesh</surname><given-names>S</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genomic and evolutionary insights into genes encoding proteins with single amino acid repeats.</article-title>
+<source>Mol Biol Evol</source>
+<volume>23</volume>
+<fpage>1357</fpage>
+<lpage>1369</lpage>
+<pub-id pub-id-type="pmid">16618963</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-AbiRached1">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abi-Rached</surname><given-names>L</given-names></name><name><surname>Gilles</surname><given-names>A</given-names></name><name><surname>Shiina</surname><given-names>T</given-names></name><name><surname>Pontarotti</surname><given-names>P</given-names></name><name><surname>Inoko</surname><given-names>H</given-names></name></person-group>
+<year>2002</year>
+<article-title>Evidence of en bloc duplication in vertebrate genomes.</article-title>
+<source>Nat Genet</source>
+<volume>31</volume>
+<fpage>100</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="pmid">11967531</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Marques1">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marques</surname><given-names>AC</given-names></name><name><surname>Vinckenbosch</surname><given-names>N</given-names></name><name><surname>Brawand</surname><given-names>D</given-names></name><name><surname>Kaessmann</surname><given-names>H</given-names></name></person-group>
+<year>2008</year>
+<article-title>Functional diversification of duplicate genes through subcellular adaptation of encoded proteins.</article-title>
+<source>Genome Biol</source>
+<volume>9</volume>
+<fpage>R54</fpage>
+<pub-id pub-id-type="pmid">18336717</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-ByunMcKay1">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Byun-McKay</surname><given-names>SA</given-names></name><name><surname>Geeta</surname><given-names>R</given-names></name></person-group>
+<year>2007</year>
+<article-title>Protein subcellular relocalization: a new perspective on the origin of novel genes.</article-title>
+<source>Trends Ecol Evol</source>
+<volume>22</volume>
+<fpage>338</fpage>
+<lpage>344</lpage>
+<pub-id pub-id-type="pmid">17507112</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Weber1">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weber</surname><given-names>JL</given-names></name><name><surname>Wong</surname><given-names>C</given-names></name></person-group>
+<year>1993</year>
+<article-title>Mutation of human short tandem repeats.</article-title>
+<source>Hum Mol Genet</source>
+<volume>2</volume>
+<fpage>1123</fpage>
+<lpage>1128</lpage>
+<pub-id pub-id-type="pmid">8401493</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Fondon1">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fondon</surname><given-names>JW</given-names><suffix>3rd</suffix></name><name><surname>Garner</surname><given-names>HR</given-names></name></person-group>
+<year>2004</year>
+<article-title>Molecular origins of rapid and continuous morphological evolution.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>101</volume>
+<fpage>18058</fpage>
+<lpage>18063</lpage>
+<pub-id pub-id-type="pmid">15596718</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Anan1">
+        <label>66</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Anan</surname><given-names>K</given-names></name><name><surname>Yoshida</surname><given-names>N</given-names></name><name><surname>Kataoka</surname><given-names>Y</given-names></name><name><surname>Sato</surname><given-names>M</given-names></name><name><surname>Ichise</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Morphological change caused by loss of the taxon-specific polyalanine tract in Hoxd-13.</article-title>
+<source>Mol Biol Evol</source>
+<volume>24</volume>
+<fpage>281</fpage>
+<lpage>287</lpage>
+<pub-id pub-id-type="pmid">17065594</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Philips1">
+        <label>67</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Philips</surname><given-names>AS</given-names></name><name><surname>Kwok</surname><given-names>JC</given-names></name><name><surname>Chong</surname><given-names>BH</given-names></name></person-group>
+<year>2007</year>
+<article-title>Analysis of the signals and mechanisms mediating nuclear trafficking of GATA-4. Loss of DNA binding is associated with localization in intranuclear speckles.</article-title>
+<source>J Biol Chem</source>
+<volume>282</volume>
+<fpage>24915</fpage>
+<lpage>24927</lpage>
+<pub-id pub-id-type="pmid">17548362</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Maniatis1">
+        <label>68</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maniatis</surname><given-names>T</given-names></name><name><surname>Reed</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>An extensive network of coupling among gene expression machines.</article-title>
+<source>Nature</source>
+<volume>416</volume>
+<fpage>499</fpage>
+<lpage>506</lpage>
+<pub-id pub-id-type="pmid">11932736</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-vonMikecz1">
+        <label>69</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>von Mikecz</surname><given-names>A</given-names></name></person-group>
+<year>2006</year>
+<article-title>The nuclear ubiquitin-proteasome system.</article-title>
+<source>J Cell Sci</source>
+<volume>119</volume>
+<fpage>1977</fpage>
+<lpage>1984</lpage>
+<pub-id pub-id-type="pmid">16687735</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Martindill1">
+        <label>70</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Martindill</surname><given-names>DM</given-names></name><name><surname>Risebro</surname><given-names>CA</given-names></name><name><surname>Smart</surname><given-names>N</given-names></name><name><surname>Franco-Viseras Mdel</surname><given-names>M</given-names></name><name><surname>Rosario</surname><given-names>CO</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Nucleolar release of Hand1 acts as a molecular switch to determine cell fate.</article-title>
+<source>Nat Cell Biol</source>
+<volume>9</volume>
+<fpage>1131</fpage>
+<lpage>1141</lpage>
+<pub-id pub-id-type="pmid">17891141</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Nunez1">
+        <label>71</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nunez</surname><given-names>E</given-names></name><name><surname>Kwon</surname><given-names>YS</given-names></name><name><surname>Hutt</surname><given-names>KR</given-names></name><name><surname>Hu</surname><given-names>Q</given-names></name><name><surname>Cardamone</surname><given-names>MD</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Nuclear receptor-enhanced transcription requires motor- and LSD1-dependent gene networking in interchromatin granules.</article-title>
+<source>Cell</source>
+<volume>132</volume>
+<fpage>996</fpage>
+<lpage>1010</lpage>
+<pub-id pub-id-type="pmid">18358812</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Paraguison2">
+        <label>72</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Paraguison</surname><given-names>RC</given-names></name><name><surname>Higaki</surname><given-names>K</given-names></name><name><surname>Yamamoto</surname><given-names>K</given-names></name><name><surname>Matsumoto</surname><given-names>H</given-names></name><name><surname>Sasaki</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Enhanced autophagic cell death in expanded polyhistidine variants of HOXA1 reduces PBX1-coupled transcriptional activity and inhibits neuronal differentiation.</article-title>
+<source>J Neurosci Res</source>
+<volume>85</volume>
+<fpage>479</fpage>
+<lpage>487</lpage>
+<pub-id pub-id-type="pmid">17131398</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Brown1">
+        <label>73</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brown</surname><given-names>LY</given-names></name><name><surname>Hodge</surname><given-names>SE</given-names></name><name><surname>Johnson</surname><given-names>WG</given-names></name><name><surname>Guy</surname><given-names>SG</given-names></name><name><surname>Nye</surname><given-names>JS</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Possible association of NTDs with a polyhistidine tract polymorphism in the ZIC2 gene.</article-title>
+<source>Am J Med Genet</source>
+<volume>108</volume>
+<fpage>128</fpage>
+<lpage>131</lpage>
+<pub-id pub-id-type="pmid">11857562</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Becker1">
+        <label>74</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Becker</surname><given-names>W</given-names></name><name><surname>Weber</surname><given-names>Y</given-names></name><name><surname>Wetzel</surname><given-names>K</given-names></name><name><surname>Eirmbter</surname><given-names>K</given-names></name><name><surname>Tejedor</surname><given-names>FJ</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Sequence characteristics, subcellular localization, and substrate specificity of DYRK-related kinases, a novel family of dual specificity protein kinases.</article-title>
+<source>J Biol Chem</source>
+<volume>273</volume>
+<fpage>25893</fpage>
+<lpage>25902</lpage>
+<pub-id pub-id-type="pmid">9748265</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Prasanth1">
+        <label>75</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prasanth</surname><given-names>KV</given-names></name><name><surname>Sacco-Bubulya</surname><given-names>PA</given-names></name><name><surname>Prasanth</surname><given-names>SG</given-names></name><name><surname>Spector</surname><given-names>DL</given-names></name></person-group>
+<year>2003</year>
+<article-title>Sequential entry of components of the gene expression machinery into daughter nuclei.</article-title>
+<source>Mol Biol Cell</source>
+<volume>14</volume>
+<fpage>1043</fpage>
+<lpage>1057</lpage>
+<pub-id pub-id-type="pmid">12631722</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Fedtsova1">
+        <label>76</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fedtsova</surname><given-names>N</given-names></name><name><surname>Quina</surname><given-names>LA</given-names></name><name><surname>Wang</surname><given-names>S</given-names></name><name><surname>Turner</surname><given-names>EE</given-names></name></person-group>
+<year>2008</year>
+<article-title>Regulation of the development of tectal neurons and their projections by transcription factors Brn3a and Pax7.</article-title>
+<source>Dev Biol</source>
+<volume>316</volume>
+<fpage>6</fpage>
+<lpage>20</lpage>
+<pub-id pub-id-type="pmid">18280463</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Li1">
+        <label>77</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>C</given-names></name><name><surname>Franklin</surname><given-names>JL</given-names></name><name><surname>Graves-Deal</surname><given-names>R</given-names></name><name><surname>Jerome</surname><given-names>WG</given-names></name><name><surname>Cao</surname><given-names>Z</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Myristoylated Naked2 escorts transforming growth factor alpha to the basolateral plasma membrane of polarized epithelial cells.</article-title>
+<source>Proc Natl Acad Sci USA</source>
+<volume>101</volume>
+<fpage>5571</fpage>
+<lpage>5576</lpage>
+<pub-id pub-id-type="pmid">15064403</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Lennon1">
+        <label>78</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lennon</surname><given-names>G</given-names></name><name><surname>Auffray</surname><given-names>C</given-names></name><name><surname>Polymeropoulos</surname><given-names>M</given-names></name><name><surname>Soares</surname><given-names>MB</given-names></name></person-group>
+<year>1996</year>
+<article-title>The I.M.A.G.E. Consortium: an integrated molecular analysis of genomes and their expression.</article-title>
+<source>Genomics</source>
+<volume>33</volume>
+<fpage>151</fpage>
+<lpage>152</lpage>
+<pub-id pub-id-type="pmid">8617505</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-delaLuna1">
+        <label>79</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de la Luna</surname><given-names>S</given-names></name><name><surname>Allen</surname><given-names>KE</given-names></name><name><surname>Mason</surname><given-names>SL</given-names></name><name><surname>La Thangue</surname><given-names>NB</given-names></name></person-group>
+<year>1999</year>
+<article-title>Integration of a growth-suppressing BTB/POZ domain protein with the DP component of the E2F transcription factor.</article-title>
+<source>Embo J</source>
+<volume>18</volume>
+<fpage>212</fpage>
+<lpage>228</lpage>
+<pub-id pub-id-type="pmid">9878064</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Alvarez2">
+        <label>80</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alvarez</surname><given-names>M</given-names></name><name><surname>Altafaj</surname><given-names>X</given-names></name><name><surname>Aranda</surname><given-names>S</given-names></name><name><surname>de la Luna</surname><given-names>S</given-names></name></person-group>
+<year>2007</year>
+<article-title>DYRK1A autophosphorylation on serine residue 520 modulates its kinase activity via 14-3-3 binding.</article-title>
+<source>Mol Biol Cell</source>
+<volume>18</volume>
+<fpage>1167</fpage>
+<lpage>1178</lpage>
+<pub-id pub-id-type="pmid">17229891</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Gruber1">
+        <label>81</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gruber</surname><given-names>CA</given-names></name><name><surname>Rhee</surname><given-names>JM</given-names></name><name><surname>Gleiberman</surname><given-names>A</given-names></name><name><surname>Turner</surname><given-names>EE</given-names></name></person-group>
+<year>1997</year>
+<article-title>POU domain factors of the Brn-3 class recognize functional DNA elements which are distinctive, symmetrical, and highly conserved in evolution.</article-title>
+<source>Mol Cell Biol</source>
+<volume>17</volume>
+<fpage>2391</fpage>
+<lpage>2400</lpage>
+<pub-id pub-id-type="pmid">9111308</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000397-Mularoni1">
+        <label>82</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mularoni</surname><given-names>L</given-names></name><name><surname>Veitia</surname><given-names>RA</given-names></name><name><surname>AlbÃ </surname><given-names>MM</given-names></name></person-group>
+<year>2007</year>
+<article-title>Highly constrained proteins contain an unexpectedly large number of amino acid tandem repeats.</article-title>
+<source>Genomics</source>
+<volume>89</volume>
+<fpage>316</fpage>
+<lpage>325</lpage>
+<pub-id pub-id-type="pmid">17196365</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

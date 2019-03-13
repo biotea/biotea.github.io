@@ -1,0 +1,1036 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:32:22Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2453330" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2453330</identifier><datestamp>2008-07-25</datestamp><setSpec>plosgen</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Genet</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Genet</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosgen</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Genetics</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7390</issn>
+      <issn pub-type="epub">1553-7404</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2453330</article-id>
+      <article-id pub-id-type="pmcid">PMC2453330</article-id>
+      <article-id pub-id-type="pmc-uid">2453330</article-id>
+      <article-id pub-id-type="pmid">18654629</article-id>
+      <article-id pub-id-type="pmid">18654629</article-id>
+      <article-id pub-id-type="publisher-id">08-PLGE-RA-0158R2</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pgen.1000138</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Computational Biology/Transcriptional Regulation</subject>
+          <subject>Genetics and Genomics/Chromosome Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Insulator Binding Protein CTCF Positions 20 Nucleosomes around Its Binding Sites across the Human Genome</article-title>
+        <alt-title alt-title-type="running-head">CTCF Positions Nucleosomes</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fu</surname>
+            <given-names>Yutao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sinha</surname>
+            <given-names>Manisha</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Peterson</surname>
+            <given-names>Craig L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Weng</surname>
+            <given-names>Zhiping</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Bioinformatics Program, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Interdisciplinary Graduate Program, University of Massachusetts Medical School, Worcester, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Program in Molecular Medicine, University of Massachusetts Medical School, Worcester, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff4">
+        <label>4</label>
+        <addr-line>Program in Bioinformatics and Integrative Biology, University of Massachusetts Medical School, Worcester, Massachusetts, United States of America</addr-line>
+      </aff>
+      <aff id="aff5">
+        <label>5</label>
+        <addr-line>Department of Biomedical Engineering, Boston University, Boston, Massachusetts, United States of America</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>van Steensel</surname>
+            <given-names>Bas</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Netherlands Cancer Institute, Netherlands</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>zhiping.weng@umassmed.edu</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: YF ZW. Analyzed the data: YF. Contributed reagents/materials/analysis tools: CLP ZW. Wrote the paper: YF ZW. Performed the computational analysis: YF. Performed the in vitro nucleosome reconstitution experiment: MS CLP.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>7</month>
+        <year>2008</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>25</day>
+        <month>7</month>
+        <year>2008</year>
+      </pub-date>
+      <volume>4</volume>
+      <issue>7</issue>
+      <elocation-id>e1000138</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>2</month>
+          <year>2008</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>6</month>
+          <year>2008</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Fu et al.</copyright-statement>
+        <copyright-year>2008</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Chromatin structure plays an important role in modulating the accessibility of genomic DNA to regulatory proteins in eukaryotic cells. We performed an integrative analysis on dozens of recent datasets generated by deep-sequencing and high-density tiling arrays, and we discovered an array of well-positioned nucleosomes flanking sites occupied by the insulator binding protein CTCF across the human genome. These nucleosomes are highly enriched for the histone variant H2A.Z and 11 histone modifications. The distances between the center positions of the neighboring nucleosomes are largely invariant, and we estimate them to be 185 bp on average. Surprisingly, subsets of nucleosomes that are enriched in different histone modifications vary greatly in the lengths of DNA protected from micrococcal nuclease cleavage (106â164 bp). The nucleosomes enriched in those histone modifications previously implicated to be correlated with active transcription tend to contain less protected DNA, indicating that these modifications are correlated with greater DNA accessibility. Another striking result obtained from our analysis is that nucleosomes flanking CTCF sites are much better positioned than those downstream of transcription start sites, the only genomic feature previously known to position nucleosomes genome-wide. This nucleosome-positioning phenomenon is not observed for other transcriptional factors for which we had genome-wide binding data. We suggest that binding of CTCF provides an anchor point for positioning nucleosomes, and chromatin remodeling is an important component of CTCF function.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>The accessibility of genomic DNA to regulatory proteins and to the transcriptional machinery plays an important role in eukaryotic transcription regulation. Some regulatory proteins alter chromatin structures by evicting histones in selected loci. Nonetheless, no regulatory proteins have been reported to position nucleosomes genome-wide. The only genomic landmark that has been associated with well-positioned nucleosomes is the transcriptional start site (TSS)âseveral well-positioned nucleosomes are observed downstream of TSS genome-wide. Here we report that the CCCTC-binding factor (CTCF), a protein that binds insulator elements to prevent the spreading of heterochromatin and restricting transcriptional enhancers from activating unrelated promoters, possesses greater ability to position nucleosomes across the human genome than does the TSS. These well-positioned nucleosomes are highly enriched in a histone variant H2A.Z and 11 histone modifications. The nucleosomes enriched in the histone modifications previously implicated to correlate with active transcription tend to have less protected DNA against digestion by micrococcal nuclease, or greater DNA accessibility. This nucleosome-positioning ability is likely unique to CTCF, because it was not found in the other transcriptional factors we investigated. Thus we suggest that the binding of CTCF provides an anchor for positioning nucleosomes, and chromatin remodeling is an important aspect of CTCF function.</p>
+      </abstract>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The positioning of nucleosomes along eukaryotic chromatin affects accessibility of the genomic DNA <italic>in vivo</italic>. Nucleosomes may bind to some genomic regions tightly and prevent transcription factors from approaching their sites. Alternatively, strategically positioned nucleosomes can promote long-range DNA bending and allow distal enhancers to interact with the transcriptional machinery <xref rid="pgen.1000138-Levitsky1" ref-type="bibr">[1]</xref>â<xref rid="pgen.1000138-Sekinger1" ref-type="bibr">[3]</xref>. Crystal structures show that each nucleosome contains 147 base-pairs (bp) of DNA tightly wrapped around an octamer of H2A, H2B, H3 and H4 histone proteins <xref rid="pgen.1000138-Harp1" ref-type="bibr">[4]</xref>. The linker DNA between two neighboring nucleosomes is â¼20 bp in <italic>Saccharomyces cerevisiae</italic>
+<xref rid="pgen.1000138-Society1" ref-type="bibr">[5]</xref> and estimated to be 70 bp in higher eukaryotes <xref rid="pgen.1000138-Williams1" ref-type="bibr">[6]</xref>. Defined lysine and arginine residues in histone tails are often methylated and/or acetylated, which can recruit chromatin remodeling factors and regulate transcription. Histone variants prefer selected genomic regions, e.g. H2A.Z tends to flank nucleosome-free regions <xref rid="pgen.1000138-Guillemette1" ref-type="bibr">[7]</xref>â<xref rid="pgen.1000138-Zhang1" ref-type="bibr">[10]</xref>.</p>
+      <p>High resolution maps of nucleosome and H2A.Z have been generated for <italic>S. cerevisiae</italic> by subjecting chromatin to micrococcal nuclease (MNase) and detecting the undigested DNA with tiling arrays <xref rid="pgen.1000138-Yuan1" ref-type="bibr">[11]</xref>â<xref rid="pgen.1000138-Albert1" ref-type="bibr">[13]</xref>. These studies revealed that RNA polymerase II promoters contain a nucleosome-free region of â¼200 bp upstream of the transcription start site (TSS), flanked by well-positioned nucleosomes on both sides. The same approach was used to map nucleosomes on a subset of human promoters <xref rid="pgen.1000138-Ozsolak1" ref-type="bibr">[14]</xref>. Recently Zhao and colleagues generated a genome-wide nucleosome map using MNase digestion followed by deep sequencing (MNase-Seq) <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>. These studies confirmed the nucleosome-free region upstream of the TSS and several well-positioned nucleosomes downstream of the TSS in humans. In addition, the Zhao lab combined MNase digestion, chromatin immunoprecipitation, and deep sequencing to generate genome-wide maps of H2A.Z and 20 different types of histone methylation in humans <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>.</p>
+      <p>Although the majority of occupied transcription factor binding sites are devoid of nucleosomes in yeast <xref rid="pgen.1000138-Yuan1" ref-type="bibr">[11]</xref>, little is known about how transcription factors and nucleosomes compete for genomic DNA in human cells. We integrated several genome-wide maps of transcription factor binding <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>â<xref rid="pgen.1000138-Johnson1" ref-type="bibr">[19]</xref> and susceptibility of chromatin to DNase I <xref rid="pgen.1000138-Boyle1" ref-type="bibr">[20]</xref> with the aforementioned nucleosome, H2A.Z, and histone modification maps <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>,<xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref> to study this problem. We found that the insulator binding protein CTCF (CCCTC-binding factor) has an unusual ability to position multiple nucleosomes flanking its binding sites genome-wide.</p>
+      <p>CTCF has been extensively studied for its impact on imprinting and X-inactivation <xref rid="pgen.1000138-Lee3" ref-type="bibr">[21]</xref>. It binds to insulator elements to prevent the spread of heterochromatin and to restrict transcriptional enhancers from activating unintended promoters. In addition, it may function as a transcriptional repressor as well as an activator <xref rid="pgen.1000138-Burcin1" ref-type="bibr">[22]</xref>â<xref rid="pgen.1000138-Ohlsson1" ref-type="bibr">[24]</xref>. The DNA-binding domain of CTCF contains 11 zinc fingers. One study indicated that only 4 fingers are essential <xref rid="pgen.1000138-Renda1" ref-type="bibr">[25]</xref>, while others showed that different combination of fingers are used to bind divergent sites <xref rid="pgen.1000138-Ohlsson1" ref-type="bibr">[24]</xref>,<xref rid="pgen.1000138-Filippova1" ref-type="bibr">[26]</xref>. CTCF is thought to form special chromatin structures or mediate long-range chromosomal interactions in mammalian cells <xref rid="pgen.1000138-Ohlsson1" ref-type="bibr">[24]</xref>, <xref rid="pgen.1000138-Bulger1" ref-type="bibr">[27]</xref>â<xref rid="pgen.1000138-Yusufzai1" ref-type="bibr">[30]</xref>; however, the detailed mechanism remains unknown.</p>
+      <p>Our analysis led to several major findings: 1. CTCF binds in the center of a linker region, flanked by at least 20 well-positioned nucleosomes, symmetrically distributed around the CTCF binding side. We determined the extent that the TSS positions downstream nucleosomes with the same set of data, and were surprised to find that it is much less than that of CTCF. We also examined the genome-wide binding data of STAT1, NRSF, and p53, and found these factors to be incapable of positioning nucleosomes. 2. The nucleosomes flanking a CTCF site are highly enriched in H2A.Z and enriched in 11 histone modifications to various extents. 3. We determined that on average 150 bp of DNA in these nucleosomes is protected against MNase cleavage, and 35 bp of DNA is cleaved, although both quantities vary greatly among nucleosomes enriched in different histone variants or modifications. The two lengths for the same nucleosome are tightly anti-correlated, consistent with the nucleosome being well positioned. 4. The nucleosomes enriched in those histone modifications previously associated with active transcription tend to be less protected against MNase, suggesting greater DNA accessibility to the factors that regulate transcription. 5. CTCF protects roughly 60 bp of DNA and increases the linker between its two neighboring nucleosomes to 118 bp. 6. Sequence conservation was only observed for the CTCF binding site and not for the other positions in the surrounding 2 kb region, indicating that there is no evolutionary pressure on the genomic DNA sequence that positions the nucleosomes. Furthermore, a previously published algorithm predicts CTCF binding sites to be occupied by nucleosomes. Finally, we performed <italic>in vitro</italic> nucleosome mapping experiments on two insulator DNA fragments that each contains three CTCF sites. We found these CTCF sites to be located between MNase cleavage sites and hence are likely to be occluded by nucleosomes in the absence of CTCF. Thus we suggest that the binding of CTCF provides an anchor for positioning neighboring nucleosomes and this may be important for CTCF function.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Aggregation of Mononucleosome Mapping and Histone Modification Data Reveal Well-Positioned Nucleosomes Flanking Occupied CTCF Sites</title>
+        <p>We developed a method to perform aggregation analysis of genome-wide mapping data, called Genomic Signal Aggregator (GSA; see <xref ref-type="sec" rid="s4">Methods</xref> and <xref ref-type="supplementary-material" rid="pgen.1000138.s001">Figure S1</xref>). GSA computes distribution of hybridization score obtained in a tiling array experiment or coverage of sequence tags obtained in a deep sequencing experiment, plotted as a function of the distance to a set of anchors. We applied GSA to the deep sequencing data on mononucleosome mapping <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>, with <italic>occupied</italic> CTCF binding sites (defined in <xref ref-type="sec" rid="s4">Methods</xref>) as anchors. The average coverage of sequence tags for the DNA ends of mononucleosomes is shown in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>. We separately mapped the tags to the plus and minus strands (defined according to the strand of the anchor CTCF site), resulting in the blue and orange curves in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> (see <xref ref-type="supplementary-material" rid="pgen.1000138.s002">Figure S2</xref> for technical explanation on why there are two peaks per nucleosome). The CTCF site was observed in the center of a linker region, flanked on each side by up to 10 pairs of peaks with â¼185 bp intervals, indicating 20 well-positioned nucleosomes (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1A</xref>). As a negative control, we aggregated the same data <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref> but using <italic>unoccupied</italic> CTCF sites (defined in <xref ref-type="sec" rid="s4">Methods</xref>) as anchors and produced two curves which peaked at +69 and â25 bp respectively, suggesting that unoccupied CTCF sites are often occupied by a nucleosome. Because the distance between these two peaks is smaller than the size of a nucleosome, we suspect that the nucleosome is positioned in slightly different positions across the CTCF sites.</p>
+        <fig id="pgen-1000138-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000138.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Aggregation of genomic signals around CTCF sites.</title>
+            <p>The coordinate origin is set to the 5â²-end position of the 20-bp-long CTCF site. Panel A shows the schematic arrangement of nucleosomes (blue ovals) around a CTCF binding site (orange rectangle). Blue arrows indicate sequence tags on the same strand as the CTCF site (plus strand), and orange arrows indicate opposite-strand (minus strand) tags. Panels B, C and D show the mean coverage of sequence tags for all mononucleosomes, CTCF ChIP-Seq and DNase-Seq around CTCF sites, respectively. The curves for <italic>occupied</italic> CTCF sites are colored blue for the plus strand tags and orange for minus strand. The green and purple curves in panel B represent plus strand and minus strand curves for <italic>unoccupied</italic> CTCF sites. Panel E shows the mean phastCons scores around occupied (green) and unoccupied (purple) CTCF sites. Note that the ChIP-Seq peaks are 12 bp inside the nucleosome boundaries as explained in <xref ref-type="sec" rid="s4">Methods</xref>. The locations of the major peaks in all the panels are labeled.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000138.g001"/>
+        </fig>
+        <p>In order to simulate the effect of sequencing depth, we generated two aggregation graphs with 20% and 5% of randomly sampled sequence reads from the original 154.6 M reads (<xref ref-type="supplementary-material" rid="pgen.1000138.s003">Figure S3</xref>). Contrasting <xref ref-type="supplementary-material" rid="pgen.1000138.s003">Figure S3</xref> with <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> indicates that greater sequencing depth leads to linearly taller aggregation graphs, such that the ratio of the sequence coverage around the occupied sites over the coverage around the unoccupied sites is largely independent of the sequencing depth. This ratio corresponds to how much more likely that a position, at a particular distance (&lt;2 kb) away from an occupied CTCF site, is the end position of a mononucleosome, over the position anchored on an unoccupied CTCF site. In addition, greater sequencing depth leads to smoother graphs overall and in particular for the peaks that are far away from the occupied CTCF sites. As a result, more well-positioned nucleosomes are discernable with greater sequencing depth.</p>
+        <p>In <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>, the peaks that are more distal from the anchoring CTCF site are broader and lower. To determine whether this indicates lower nucleosome occupancy in the distal regions, we integrated the sequence coverage over non-overlapping 185-bp intervals and computed the ratio between the resulting values for each interval anchored on occupied CTCF sites over the values for the same interval anchored on unoccupied CTCF sites. This resulted in a largely flat distribution with an average ratio of 1.07 (<xref ref-type="supplementary-material" rid="pgen.1000138.s004">Figure S4</xref>), indicating that the nucleosome occupancy does not decrease appreciably over a 2 kb distance from an occupied CTCF site. <xref ref-type="supplementary-material" rid="pgen.1000138.s004">Figure S4</xref> further indicates that the nucleosome occupancy in the 4-kb region around occupied CTCF sites is 7% higher than that of the 4-kb region around unoccupied CTCF sites. The diminished and widened peaks distal from the CTCF anchors are likely due to the more distal nucleosomes being less well positioned across the cell population, and/or are positioned at more varying locations from the CTCF site among different CTCF-bound loci. The graphs for individual loci do not exhibit the diminishing behavior (not shown), suggesting that the distal nucleosomes are well-positioned across the cell population, but at more varying locations from the CTCF anchors than the proximal nucleosomes.</p>
+        <p>All of the experimental datasets were generated on the entire cell population, while CTCF could occupy its sites in a subpopulation of the cells. We generated aggregation graphs anchored on two subsets of occupied CTCF sites: sites that are 2â5 kb away from the nearest occupied sites and sites that are more than 500 kb away from the nearest occupied sites, hypothesizing that sites in the former set are more clustered and hence likely to be occupied in a greater portion of cells than sites in the latter set. Indeed a stronger signal was observed for the graphs anchored on the more clustered CTCF sites (<xref ref-type="supplementary-material" rid="pgen.1000138.s005">Figure S5</xref>). Nonetheless, the difference between the two sets of graphs is small, suggesting that our findings are unlikely affected by the subpopulation issue.</p>
+        <p>We then applied GSA to all 20 ChIP-Seq datasets, each on mononucleosomes enriched in a type of histone modification <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>. With the exception of H3K9me3, the other 19 datasets show similarly dramatic oscillation (<xref ref-type="fig" rid="pgen-1000138-g002">Figure 2</xref>). The H3K9me3 data may be of poor quality because it is not enriched around any of the anchor sets tested in this study (see the section after next for enrichment analysis). For 10 datasets (e.g., unmodified nucleosomes, or nucleosomes with modified H3K36, H3K27, or H3R2), at least 10 blue and 10 orange peaks can be identified, supporting 10 well-positioned nucleosomes flanking the center CTCF site. The other datasets reveal 6â12 nucleosomes. The positions of these nucleosomes are in complete agreement with each other and with those seen for the mononucleosome mapping data (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>).</p>
+        <fig id="pgen-1000138-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000138.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Aggregated ChIP-Seq tag coverage of 20 histone modifications and H2A.Z around CTCF binding sites.</title>
+            <p>The blue and orange curves are for plus- and minus-strand tags around occupied CTCF sites, and green and purple curves are for plus- and minus-strand tags around unoccupied CTCF sites, respectively. A. Histone modifications enriched around occupied CTCF binding sites; B. Un-enriched histone modifications. Figures from top-left to bottom-right are sorted by descending level of enrichment over +/â2 kb.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000138.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>Nucleosome Positioning around the Transcription Start Site and the Binding Sites of Other Transcription Factors</title>
+        <p>To compare the extent of nucleosome positioning by CTCF with that around the TSS, we applied GSA to the same mononucleosome mapping data <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref> and the histone modification data <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref> with the TSSs of actively transcribed genes as anchors. In agreement with previous findings <xref rid="pgen.1000138-Ozsolak1" ref-type="bibr">[14]</xref>,<xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>, there is a 200-bp-long nucleosome-free region around the TSS (indicated by a pronounced dip in the curves) and the +1 nucleosome is well-positioned, centered at â¼120 bp downstream of the TSS; in addition, two nucleosomes upstream of the TSS and four more nucleosomes downstream of the TSS are discernable (<xref ref-type="supplementary-material" rid="pgen.1000138.s006">Figure S6A</xref>).</p>
+        <p>Among the histone modification datasets, the H3K4me3 dataset produced the strongest nucleosome-positioning signals, followed by H3K4me2. By combining H3K4me2 and H3K4me3 data, one can make out 5 positioned nucleosomes downstream of the TSS, with the first two apparent in the H3K4me3 curves and the last four discernable in the H3K4me2 curves (<xref ref-type="supplementary-material" rid="pgen.1000138.s006">Figure S6B</xref>). Using TSS as anchors, the GSA curves of H3K27me1, H3K4me1 and H3K9me1 also show oscillatory behavior; however, the peaks are poorly formed, similar to those of H3K4me2 (<xref ref-type="supplementary-material" rid="pgen.1000138.s006">Figure S6C</xref>). The GSA curves of other histone modification data do not show oscillatory behavior (figures not shown). The distance between the centers of neighboring nucleosomes measured in the TSS-anchored graphs agrees with that in CTCF-centered graphs. Collectively, these results indicate that there are 2 and 5 positioned nucleosomes upstream and downstream of TSS, respectively; however, the sharp contrast between <xref ref-type="supplementary-material" rid="pgen.1000138.s006">Figure S6</xref> with <xref ref-type="fig" rid="pgen-1000138-g001">Figures 1B</xref> and <xref ref-type="fig" rid="pgen-1000138-g002">2</xref> indicates that the positions of the nucleosomes around the TSS vary among different loci to a much greater extent than the positions of the nucleosomes flanking occupied CTCF sites.</p>
+        <p>We also investigated whether there were well-positioned nucleosomes flanking the binding sites of other transcription factors. The genome-wide maps of a number of transcription factors in living human cells have been produced using ChIP-chip or ChIP-Seq. Among them, the binding regions of STAT1, NRSF and p53 are highly enriched in the cognate motifs of these factors, which allowed us to determine the occupied sites by scanning the ChIP-chip or ChIP-Seq target regions with the motif matrices. We used these three sets of sites as anchors to produce aggregation plots with the mononucleosome mapping dataset <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref> (<xref ref-type="supplementary-material" rid="pgen.1000138.s007">Figure S7</xref>) and the histone modification datasets <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref> (figures not shown). None of the graphs in <xref ref-type="supplementary-material" rid="pgen.1000138.s007">Figure S7A/B/C</xref> show oscillatory behavior as in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> (the four graphs are drawn in the same scale), suggesting that these transcription factors do not possess the ability to position nucleosomes. The STAT1 and NRSF graphs indicate that the binding sites of these two factors have higher nucleosome occupancy than neighboring genomic positions, suggesting that their functions may be regulated by nucleosome positioning.</p>
+      </sec>
+      <sec id="s2c">
+        <title>The Histones Flanking Occupied CTCF Site Are Enriched in H2A.Z and 11 Histone Modifications</title>
+        <p>We wanted to investigate whether some of the nucleosomes surrounding the occupied CTCF sites were enriched in H2A.Z or any of the histone modifications, in comparison with the nucleosome surrounding the unoccupied CTCF sites. We applied GSA to the ChIP-Seq dataset of H2A.Z with the occupied sites or the unoccupied CTCF sites as anchors, respectively, and obtained two sets of curves as shown in <xref ref-type="fig" rid="pgen-1000138-g003">Figure 3</xref>. The green and purple curves are completely flat, again suggesting that nucleosomes are not well-positioned around unoccupied CTCF sites. Moreover, <xref ref-type="fig" rid="pgen-1000138-g003">Figure 3</xref> indicates the histones that flank the occupied CTCF sites are highly enriched in H2A.Z, especially the â1 and +1 nucleosomes, although the enrichment can be seen across a +/â2 kb region in <xref ref-type="fig" rid="pgen-1000138-g003">Figure 3</xref> (the blue and orange curves are cleanly above the green and purple curves).</p>
+        <fig id="pgen-1000138-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000138.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Nucleosomes flanking occupied CTCF sites are highly enriched in H2A.Z.</title>
+            <p>The figure shows aggregated H2A.Z ChIP-Seq tag coverage on the plus and minus strands of occupied (blue and orange curves) or unoccupied (green and purple) CTCF sites. Note that the blue and orange curves are much higher than the green and purple curves.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000138.g003"/>
+        </fig>
+        <p>In order to account for the different sequencing depths among the datasets and the difference in nucleosome occupancy around occupied and unoccupied CTCF sites, we defined a histone variant or modification to be enriched if the ratio between the area under the curves anchored on occupied CTCF sites over the area under the curves anchored on unoccupied sites is higher than the ratio for mononucleosome mapping (1.07 as determined in the first section of Results), for the +/â2 kb region. By this criterion, subsets of nucleosomes flanking occupied CTCF sites are found to be enriched in H2A.Z and the following 11 histone modifications (in descending order of enrichment): H3K4me3, H3K4me2, H3K4me1, H3K9me1, H4K20me1, H3R2me1, H3K27me1, H3K36me1, H2BK5me1, H3R2me2, and H3K79me1. The other 9 histone modifications (H3K27me3, H3K79me2, H4R3me2, H3K36me3, H3K79me3, H3K27me2, H4K20me3, H3K9me2, and H3K9me3) are not enriched; nonetheless, most of them exhibit strong oscillatory patterns, with the best examples being H3K27me3 and H3K36me3 (<xref ref-type="fig" rid="pgen-1000138-g002">Figure 2B</xref>). We applied the same criterion on consecutive 185 bp windows to determine whether individual nucleosomes are enriched in H2A.Z or the histone modifications. The resulting heatmap (<xref ref-type="fig" rid="pgen-1000138-g004">Figure 4</xref>) reveals a large variation in how far different levels of enrichment spread from the CTCF anchors.</p>
+        <fig id="pgen-1000138-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000138.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Enrichment of individual nucleosomes in H2A.Z or histone modifications.</title>
+            <p>The columns index the nucleosomes flanking the anchoring CTCF site as in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1A</xref>. Each row indicates one histone variant or modification, in descending order of overall enrichment. The numbers in parentheses indicate logarithm of average enrichment over 20 nucleosomes. Each cell shows log(enrichment) for a particular nucleosome, in a red to green color spectrum. Enrichment is defined as the ratio of the area under the curves for occupied and the area under the curves for unoccupied CTCF sites. The heatmap was created using matrix2png (<ext-link ext-link-type="uri" xlink:href="http://www.bioinformatics.ubc.ca/pavlidis/lab/cgi-bin/matrix2png.cgi">http://www.bioinformatics.ubc.ca/pavlidis/lab/cgi-bin/matrix2png.cgi</ext-link>).</p>
+          </caption>
+          <graphic xlink:href="pgen.1000138.g004"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>The Footprints of CTCF on Genomic DNA against MNase or DNase I Cleavage</title>
+        <p>The aggregation graphs for more than half of the histone modifications in <xref ref-type="fig" rid="pgen-1000138-g002">Figure 2</xref> contain two extra prominent center peaks, which we suspect correspond to the 5â² and 3â² boundaries of the CTCF footprint. Take the H3K36me1 dataset as an example, because ChIP was performed with an antibody against H3K36me1 and not with an antibody against CTCF, we suggest that the blue peak resulted from the lack of digestion of the linker between the CTCF site and the +1 nucleosome; similarly, the orange peak resulted from the lack of digestion of the linker between the CTCF site and the â1 nucleosome. These two peaks coincide in position exactly with the only two peaks in the aggregation plot of the ChIP-Seq data of CTCF <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref> with occupied CTCF sites as anchors (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1C</xref>), the distance between which was determined to be 64 bp (see <xref ref-type="sec" rid="s4">Methods</xref>). Note that sonication and not MNase digestion was used to generate the ChIP-Seq data of CTCF, thus there are no nucleosome peaks in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1C</xref>. We do not observe the two center peaks for the mononucleosome mapping data (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>), nor for the H2A.Z data (<xref ref-type="fig" rid="pgen-1000138-g003">Figure 3</xref>). Also, the occurrence of these peaks does not correlate with whether the nucleosomes are enriched in the particular histone modification. Thus, it is unclear whether the occurrence of these peaks merely reflects the experimental condition of the MNase digestion, or has biological significance.</p>
+        <p>Recently a genome-wide DNase I hypersensitivity map was produced on human CD4+ T cells with the DNase-Seq technology <xref rid="pgen.1000138-Boyle1" ref-type="bibr">[20]</xref>. We applied GSA to this data with occupied CTCF sites as anchors, and the resulting pattern (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1D</xref>) indicates that CTCF protects 30 bp of genomic DNA on the minus strand (the distance between the two inner orange peaks) and 42 bp on the plus strand (the distance between the two inner blue peaks) against DNase I digestion. The asymmetry between the protection lengths of the two strands is intriguing. We suggest that this is due to the closer contact of CTCF with the plus strand than with the minus strand. No crystal structure of a CTCF-DNA complex is available. Thus, we used the crystal structure of a six-zinc-finger protein with its cognate DNA <xref rid="pgen.1000138-Segal1" ref-type="bibr">[31]</xref> to model a CTCF-DNA complex. We computed the solvent accessible surface area of the two strands of the DNA in the crystal structure and determined the average area of one strand to be 23% higher than that of the other strand. Graphical display of the crystal structure indicates that the zinc-finger protein binds to the major groove of the DNA and that because the major groove has greater volume than the protein, the protein makes closer contact with one DNA strand than with the other stand. Lobanenkov and colleagues discovered that CTCF combined different subsets of its 11 zinc fingers when binding to divergent sites <xref rid="pgen.1000138-Ohlsson1" ref-type="bibr">[24]</xref>â<xref rid="pgen.1000138-Filippova1" ref-type="bibr">[26]</xref>. Such complexity can also result in asymmetric CTCF-DNA interaction.</p>
+        <p>The fine structure of the footprint shown in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1D</xref> suggests that the non-zinc-finger portion of CTCF also contacts DNA and protects it from DNase I cleavage in a characteristic way. The two small peaks centered at â204 bp and +260 bp correspond to the linker between the â1 and â2 nucleosomes and the linker between the +1 and +2 nucleosomes, respectively.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Sequence Conservation, Predicted Nucleosome-Forming Potential, and <italic>in vitro</italic> Reconstitution and Mapping of Nucleosomes for Genomic DNA around CTCF Sites</title>
+        <p>In order to test whether there is any evolutionary pressure on the primary sequences surrounding occupied CTCF sites, we obtained the phastCons scores for the sequences from the UCSC genome browser (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu">http://genome.ucsc.edu</ext-link>) and plotted the average score at each position of the 4-kb window centered on occupied CTCF sites. In comparison, we also obtained the conservation for positions surrounding unoccupied CTCF sites. The two curves are shown in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1E</xref>. It is apparent that conservation is only restricted to the center 15 bp of the CTCF binding motif with the highest information content (positions underlined in <xref ref-type="supplementary-material" rid="pgen.1000138.s008">Figure S8</xref>). The positions 22â24 bp away from either side of the CTCF binding motif are even less conserved than the background, suggesting that these positions are not recognized by the CTCF in a sequence-specific manner.</p>
+        <p>Because the lack of sequence conservation at the mononucleotide level does not preclude these sequences from possessing intrinsic nucleosome-positioning ability, we applied a previously published computer algorithm that combines dinucleotide periodicity and a thermodynamic model to predict sterically allowed nucleosome placement <xref rid="pgen.1000138-Segal2" ref-type="bibr">[32]</xref>. We used the flavor of this algorithm trained with human data (see <xref ref-type="sec" rid="s4">Methods</xref>). The algorithm predicts a nucleosome to occupy the CTCF sites that are occupied by CTCF in <italic>vivo</italic> (<xref ref-type="supplementary-material" rid="pgen.1000138.s009">Figure S9</xref>), which corresponds to the linker region according to experimental data (orange and blue curves in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> and <xref ref-type="fig" rid="pgen-1000138-g002">Figure 2</xref>). Thus, the algorithm predicts a nucleosome-positioning pattern that disagrees with the pattern experimentally measured around occupied CTCF sites.</p>
+        <p>To further test whether sequences that flank CTCF binding sites possess intrinsic nucleosome positioning signals, we reconstituted nucleosomes onto two different DNA fragments (Insulators 23 and 44) that each harbor three CTCF binding sites and were shown to function as insulators by enhancer blocking assays <xref rid="pgen.1000138-Xi1" ref-type="bibr">[33]</xref>. As a positive control, nucleosomes were also assembled onto a DNA fragment that contains 10 head-to-tail repeats of a 5S rDNA nucleosome positioning sequence (CP924). Nucleosomal arrays were digested with increasing amounts of micrococcal nuclease, and nucleosome positions were mapped by indirect end-labeling and Southern blot analysis. As shown in <xref ref-type="fig" rid="pgen-1000138-g005">Figure 5</xref>, MNase analysis yielded a typical repeating pattern of cleavages and protections on the 5S repeat DNA, indicative of a positioned nucleosomal array. In contrast, nucleosomes assembled onto the DNA fragments that contain CTCF binding sites showed a much less regular pattern of MNase cleavages which is not consistent with a positioned nucleosomal array. Strikingly, each of the CTCF binding sites is located between MNase cleavages, indicating that these sites are bound by nucleosomes <italic>in vitro</italic>. Thus, these biochemical studies are in agreement with the predictions of the aforementioned computational algorithm (<xref ref-type="supplementary-material" rid="pgen.1000138.s009">Figure S9</xref>), and they do not agree with the pattern of nucleosome positioning observed <italic>in vivo</italic> (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> and <xref ref-type="fig" rid="pgen-1000138-g002">Figure 2</xref>).</p>
+        <fig id="pgen-1000138-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000138.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Analysis of <italic>in vitro</italic> nucleosome positioning surrounding CTCF binding sites.</title>
+            <p>A 5S rDNA control fragment or insulator fragments that contain CTCF binding sites (insulator 23 and 24) were reconstituted into nucleosomal arrays with recombinant histone octamers. Reconstituted nucleosomal arrays were digested with increasing amounts of MNase and purified products were separated by agarose gel electrophoresis followed by Southern hybridization using radio-labeled oligonucleotides that anneal to one end of each array. Ovals denote positioned nucleosomes assembled on the head-to-tail repeats of the 5S rDNA nucleosome positioning sequences. Bars denote locations of CTCF binding sites. Note that CTCF sites are located between MNase cleavage sites and are likely to be occluded by nucleosomes.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000138.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>Measurement of Inter-Nucleosomal Distance, Lengths of Protected and Unprotected DNA, and CTCF Footprint Size</title>
+        <p>The well-positioned nucleosomes around CTCF sites provided an unprecedented opportunity to measure the distance between neighboring nucleosomes, the linker length, and the length of nucleosomal DNA protected against MNase cleavage. The distances between the +1 and â1 nucleosomes are increased due to the CTCF sites. We developed an algorithm to automatically determine the locations of the peaks in each GSA curve (see <xref ref-type="sec" rid="s4">Methods</xref>). These peaks mark the boundaries of the well-positioned nucleosomes (<xref ref-type="fig" rid="pgen-1000138-g001">Figures 1A</xref>/B and <xref ref-type="supplementary-material" rid="pgen.1000138.s002">Figure S2</xref>). In order to relate the peak positions to the three aforementioned quantities, we defined six distances: L-CTCF, L-Center, L-Digest, Unit+, Unitâ and L-Protect as illustrated in <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6A</xref>. <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6B</xref> plots these six distances for mononucleosome data, the 20 histone modifications and H2A.Z. For each dataset, the first two distances can be measured only once based on the two center nucleosomes while the last four distances can be measured multiple times for all but the H3K9me3 dataset and the standard deviations of these measurements are shown as error bars in <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6B</xref>. There is no statistically significant difference between distances measured on nucleosomes upstream and downstream of CTCF binding sites, or those between proximal and distal nucleosomes (data not shown).</p>
+        <fig id="pgen-1000138-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pgen.1000138.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Great variation in DNA accessibility among H2A.Z and nucleosomes enriched in different histone modifications.</title>
+            <p>Panel A: definition of terms. L-Protect, the length of DNA protected from MNase digestion; L-Center, the length of DNA digested by MNase between the â1 and +1 nucleosomes; L-Digest, the length of digested DNA between other neighboring nucleosomes; Unit+, distances between neighboring plus-strand peaks; Unitâ, distances between neighboring minus-strand peaks; L-CTCF, length of CTCF micrococcal nuclease protection footprint. Panel B: bar graphs of distance measures. The datasets are arranged in the descending order of L-Protect, except for the mononucleosome mapping data (labeled nucleosome). Histone modifications colored in orange are enriched in occupied CTCF sites and the blue ones are not enriched; note the mixing of the datasets in the two colors. Panel C: negative correlation between L-Digest and L-Protect. Panel D: negative correlation between L-CTCF and L-Center. Panel E: negative correlation between FP-ratio and L-Center.</p>
+          </caption>
+          <graphic xlink:href="pgen.1000138.g006"/>
+        </fig>
+        <p>It is apparent from <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6B</xref> that Unit+ and Unitâ are largely invariant across the histone variants and histone modifications, consistent with the stable positions of the nucleosomes around the CTCF site. The length of nucleosomal DNA that are protected against MNase cleavage (L-Protect) ranges from 106 to 164 bp (139Â±15 bp) among the sets of nucleosomes enriched in different histone modifications or H2A.Z. The L-Protect determined with the mononucleosome mapping data <xref rid="pgen.1000138-Schones2" ref-type="bibr">[34]</xref> is 150 bp. The length of genomic DNA between two neighboring nucleosomes that is digested away by MNase (L-Digest) also varies greatly, from 10 to 83 bp (43Â±18 bp), with 35 bp for mononucleosome mapping data. L-Protect and L-Digest are strongly anti-correlated (R<sup>2</sup>â=â0.82 and P-valueâ=â3e-8; <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6C</xref>), consistent with Unit+ and Unitâ being largely invariant. These results may indicate that different histone modifications cause the ends of the nucleosomal DNA to wrap around the histone core with greatly varying extents of tightness. Tighter wrapping leads to lesser extent of MNase digestion and vice versa, without translational movement of the nucleosomes. Alternatively, different histone modifications may be associated with chromatin regions depleted in histone H2A/H2B dimers. Loss of dimers can be catalyzed by ATP-dependent remodeling enzymes that can be targeted to nucleosomes by histone modifications <xref rid="pgen.1000138-Vicent1" ref-type="bibr">[35]</xref>. Loss of one H2A/H2B dimer will release â¼30 bp of nucleosomal DNA, and loss of both dimers yields an H3/H4 tetrasome particle that protects only â¼90 bp of DNA from MNase digestion <xref rid="pgen.1000138-Harp1" ref-type="bibr">[4]</xref>.</p>
+        <p>
+<xref ref-type="fig" rid="pgen-1000138-g006">Figure 6B</xref> indicates that H3K79me1 and H4R3me2 are the two histone modifications that lead to the best protection of nucleosomal DNA ends, while H3K9me2 and H4K20me1 are the two modifications that lead to the least protection. All 20 histone modifications are methylations, which do not change the net charges of the histones, thus the large variation among them is surprising. Moreover, different numbers of methyl groups on the same amino acid differ as much as the modifications on different amino acids. The histone modifications that correlate positively with gene expression level (H3K27me1, H3K9me1, H3K4me2, H3K4me1, H4K20me1, and to some extent H3K9me2 <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>,<xref rid="pgen.1000138-Heintzman1" ref-type="bibr">[36]</xref>) correspond to the least protection against MNase, suggesting that increasing accessibility of the ends of nucleosomal DNA may be a mechanism for transcriptional activation. Nucleosomes enriched in H2A.Z have short L-Protect and long L-Digest, consistent with the effect of H2A.Z on transcriptional activation <xref rid="pgen.1000138-Zhang1" ref-type="bibr">[10]</xref>,<xref rid="pgen.1000138-Lobanenkov1" ref-type="bibr">[29]</xref>.</p>
+        <p>The footprint of CTCF (L-CTCF) ranges from 32 to 64 bp among the datasets of different histone modifications (<xref ref-type="fig" rid="pgen-1000138-g006">Figure 6B</xref>). With 11 fingers, CTCF can theoretically form direct atomic contact with 33 bp of DNA. The binding motif of CTCF has 15 positions with high information content (<xref ref-type="supplementary-material" rid="pgen.1000138.s008">Figure S8</xref>), indicating that roughly five fingers contribute significantly to the binding specificity. Nonetheless, our results indicate that at least 32 bp of DNA is protected from MNase cleavage. L-CTCF strongly anti-correlates with the length of the MNase digested DNA between the â1 and +1 nucleosomes (L-Center, 118 bp for mononucleosome data), with R<sup>2</sup>â=â0.53 (P-valueâ=â0.0002; <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6C</xref>). This suggests that when the DNA of these two nucleosomes is more accessible to MNase, the enzyme can cut closer to the CTCF site. Along this line of reasoning, we would also expect to see stronger MNase cleavage signal around the CTCF footprint for the histone modifications with greater L-Center. Because the nucleosomes flanking the CTCF site are enriched in different histone modifications to varying extents, we define the ratio between the average height of the CTCF footprint peaks and the average height of the +1 and â1 nucleosome peaks in <xref ref-type="fig" rid="pgen-1000138-g002">Figure 2</xref> as footprint-peak ratio (FP-ratio). Indeed, FP-ratio anti-correlates significantly with L-Center (R<sup>2</sup>â=â0.39 and P-valueâ=â0.004; <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6E</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>By integrating a large number of high-throughput sequencing and microarray datasets and performing aggregation analysis with transcription factor binding sites or the TSS as anchors, we discovered that there is an array of 20 nucleosomes flanking occupied CTCF sites genome-wide. These nucleosomes are so well positioned that remarkable oscillatory patterns were observed for 21 out of the 22 genome-wide datasets <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>,<xref rid="pgen.1000138-Schones2" ref-type="bibr">[34]</xref>. Two case studies reported CTCF binding in the IGF2/H19 and DM1 loci, both of which suggested that the CTCF binding sites occurred in linker regions between nucleosomes <xref rid="pgen.1000138-Filippova2" ref-type="bibr">[37]</xref>,<xref rid="pgen.1000138-Kanduri1" ref-type="bibr">[38]</xref>. These are consistent with our findings in this study. We are unaware of other previous work on the genome-wide relationship between CTCF and nucleosomes. The TSS is the only genome-wide anchor for which well-positioned nucleosomes were reported, and only two nucleosomes upstream the TSS and five nucleosomes downstream of the TSS are well positioned. Here we show that 20 nucleosomes flanking CTCF sites exhibit much stronger oscillatory patterns, and hence are much better positioned than the nucleosomes around the TSS.</p>
+      <p>No well-positioned nucleosomes have ever been reported to flank transcription factor binding sites. Among the human transcription factors for which genome-wide binding data are available, the ChIP target regions for only three factors are highly enriched in their binding motifs (STAT1, NRSF and p53). We did not observe well-positioned nucleosomes around the occupied sites of any of these three factors. One complication is that the ChIP-Seq data of histone modifications were on CD4+ T cells while the binding site data were on other cell types. We must wait for future data to resolve this issue definitively, and to uncover whether well-positioned nucleosomes flank the binding sites of other transcriptional factors genome-wide.</p>
+      <p>There are four possible mechanisms for the well-positioned nucleosomes around CTCF sites: 1. CTCF binds to its sites first and then recruits chromatin remodeling factors to position neighboring nucleosomes; 2. CTCF binds to its sites first, which provides a strong anchor for the neighboring nucleosomes to line up by themselves; 3. Nucleosomes are well positioned in some regions of the genome due to DNA sequence features, and a CTCF site has co-evolved with the nucleosome positioning sequence features to exist in a lengthened linker region, which attracts the binding of CTCF; 4. Some genomic regions contain nucleosome-positioning sequence features leading to an array of regularly positioned nucleosomes which occlude a CTCF site, and CTCF binds to its site and repositions the nucleosomes to create a lengthened linker region. We argue that our results mostly support the second scenario for reasons as follows. Three lines of evidence suggest that the well positioned nucleosomes are unlikely caused predominantly by the intrinsic sequence features of the genomic DNA surrounding occupied CTCF sites: 1. There is a lack of conservation for the sequences that flank occupied CTCF sites, in sharp contrast with the strong conservation at the CTCF sites (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1E</xref>); 2. A computational algorithm predicts a nucleosome to occupy sites that are occupied by CTCF <italic>in vivo</italic> (<xref ref-type="supplementary-material" rid="pgen.1000138.s009">Figure S9</xref>); 3. We performed <italic>in vitro</italic> nucleosome reconstitution and mapping experiments on two insulators that each contains three CTCF sites. The results showed an irregular pattern of MNase cleavages, indicating the lack of a positioned nucleosomal array. Moreover, all six CTCF sites in these two insulators are in nucleosomal regions, consistent with the computational prediction and in contrast with the <italic>in vivo</italic> data. The binding of CTCF lengthens the linker region to 118 bp. Thus if the 20 nucleosomes form with regular intervals before CTCF binds, all of them will need to slide apart to accommodate the binding of CTCF, which seems unlikely. CTCF has not been reported to recruit chromatin remodeling factors. Thus we propose that the second scenario is most likely to be biologically relevant in general. Our hypothesis is consistent with the statistical positioning mechanism, which states that nucleosomes prefer not to occupy some regions of the genome due to sequence features such as homo-poly A/T or the eviction by regulatory proteins, but are well-positioned in the remaining regions of the genome due to structural constraints imposed by DNA packaging <xref rid="pgen.1000138-Kornberg1" ref-type="bibr">[39]</xref>. We hypothesize that the binding of CTCF acts as a roadblock for translational nucleosome movements and as a result the nucleosomes are packaged between the CTCF binding sites and the nearest nucleosome-free regions.</p>
+      <p>Nonetheless, our hypothesis does not preclude the possibility that in some loci other mechanisms cause well-positioned nucleosomes around CTCF sites. Indeed, Kanduri et al. reported that a subset of CTCF sites in the H19 locus was flanked by nucleosome positioning sequences and the authors argue that these sequences have evolved to ensure the constitutive availability of the CTCF binding sites <xref rid="pgen.1000138-Kanduri1" ref-type="bibr">[38]</xref>. Thus these results argue for the third scenario described above.</p>
+      <p>The nucleosomes flanking CTCF sites are enriched in H2A.Z and 11 histone modifications. Among these, H2A.Z and 8 histone modifications are also enriched in promoters and are positively correlated with the transcriptional levels of downstream genes <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>. The remaining three, H3K79me1, H3R2me1 and H3R2me2, are enriched to much less extents among the 11 modifications (<xref ref-type="fig" rid="pgen-1000138-g004">Figure 4</xref>). The large overlap between the epigenetic features of nucleosomes in promoters and the nucleosomes around CTCF sites is surprising, given that CTCF is mostly known to bind to insulators, suggesting that CTCF may play an important role in regulating promoters.</p>
+      <p>The well-positioned nucleosomes around occupied CTCF sites allowed us to determine the length of the nucleosomal DNA protected against MNase digestion. Our results (<xref ref-type="fig" rid="pgen-1000138-g006">Figure 6</xref>) indicate that there is great variation in the accessibility of nucleosomal DNA that corresponds to various histone methylations. It would be interesting to quantify the amounts of variation for modifications that affect net charges of the histones, once the data becomes available. The histone modifications that correspond to greater DNA accessibilities and H2A.Z, which also corresponds to great DNA accessibility, are highly enriched in promoters of expressed genes. Collectively, these results suggest that one of the mechanisms by which histone modifications regulate gene expression can be by modulating accessibility to the genomic DNA. In light of the recent findings on histone turnover <xref rid="pgen.1000138-Dion1" ref-type="bibr">[40]</xref>,<xref rid="pgen.1000138-Mito1" ref-type="bibr">[41]</xref>, it is tempting to suggest that accessible DNA would facilitate rapid histone turnover and/or rapid turnover results in accessible DNA. In particular, rapid histone turnover was observed in chromatin boundaries and suggested to help delimit the spread of chromosome states <xref rid="pgen.1000138-Dion1" ref-type="bibr">[40]</xref>,<xref rid="pgen.1000138-Mito1" ref-type="bibr">[41]</xref>. Because the primary function of CTCF is to bind to insulators, which are the most well understood boundary elements, we suggest that those CTCF sites flanked by nucleosomes with highly accessible DNA can prevent the lateral spreading of chromosome states.</p>
+      <p>
+<xref ref-type="fig" rid="pgen-1000138-g006">Figure 6</xref> also suggests that regions around occupied CTCF sites are of heterogeneous composition: subsets of them are enriched in different histone modifications, therefore producing different L-Digest measurements. Indeed, hierarchical clustering of the regions surrounding all occupied CTCF sites based on the ChIP-Seq signal levels of histone modification, H2A.Z and RNA polymerase II (<xref ref-type="supplementary-material" rid="pgen.1000138.s010">Figure S10</xref>) confirms that these genomic regions have diverse patterns of epigenetic marks. It would be interesting to investigate whether some of these patterns are correlated with the insulator function, and if so, which ones are. CTCF has also been reported to possess activating and repressing functions and it is possible that some epigenetic patterns correspond to these functions. <xref ref-type="supplementary-material" rid="pgen.1000138.s010">Figure S10</xref> further indicates that all the nucleosomes surrounding occupied CTCF sites are covered by H2A.Z and/or some of the histone modifications investigated in this study. Because well-positioned nucleosomes are observed for all but one histone modification datasets (<xref ref-type="fig" rid="pgen-1000138-g002">Figure 2</xref>), we conclude that this is a universal feature of CTCF, regardless of the underlying biological function (insulation, activation, repression or others) of the particular locus.</p>
+      <p>Because Unit+ and Unitâ are on average 185 bp and largely invariant, we can deduce that the length of human linker DNA is 38 bp given that 147 bp of DNA is observed in the crystal structure of nucleosomes <xref rid="pgen.1000138-Harp1" ref-type="bibr">[4]</xref>. This linker length is somewhat shorter than the previous estimate of 70 bp in higher eukaryotes <xref rid="pgen.1000138-Williams1" ref-type="bibr">[6]</xref>. Because our analysis included data on all nucleosomes, nucleosomes with H2A.Z or one of 20 histone modifications, we believe that 38 bp is a robust estimate. Furthermore, this is unlikely to be specific to only the nucleosomes flanking occupied CTCF sites, because the well-positioned nucleosomes around the TSS have similar intervals as the nucleosomes flanking CTCF sites.</p>
+      <p>In summary, we discovered that occupied CTCF binding sites in the human genome are flanked by 20 well-positioned nucleosomes. These nucleosomes are enriched in H2A.Z and 11 histone modifications, forming complex epigenetic patterns. Nucleosomes enriched in different histone modifications have diverse but compensating lengths of DNA that are protected from or digested by MNase. The binding of CTCF extends the linker to 118 bp and the CTCF footprint is smaller if the DNA of neighboring nucleosomes is more accessible. These results provide insights to the interplay between chromatin structure and CTCF function.</p>
+    </sec>
+    <sec id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Data Source for Computational Analysis</title>
+        <p>The genomic coordinates of mapped sequence tags for the mononucleosome mapping datasets <xref rid="pgen.1000138-Schones2" ref-type="bibr">[34]</xref> and for ChIP-Seq datasets <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref> were kindly provided to us by Schones and Zhao. As in those two studies, only those sequenced reads that map uniquely to the human genome (hg18) were used for all analyses in our study.</p>
+        <p>Kim <italic>et al.</italic> annotated CTCF binding sites based on ChIP-chip data with an antibody against CTCF on IMR90 cells <xref rid="pgen.1000138-Kim1" ref-type="bibr">[17]</xref>. CTCF binding has been reported to be largely ubiquitous across multiple cell types <xref rid="pgen.1000138-Kim1" ref-type="bibr">[17]</xref>,<xref rid="pgen.1000138-Xi1" ref-type="bibr">[33]</xref>. Thus we took the subset of the CTCF sites annotated by Kim et al. within ChIP-chip target regions that are also overlap with CTCF ChIP-Seq data in CD4+ T cells <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>, and defined them as the <italic>occupied</italic> CTCF sites, used throughout this study. A subset of CTCF sites annotated by Kim et al. using the CTCF binding matrix to scan genomic regions <xref rid="pgen.1000138-Kim1" ref-type="bibr">[17]</xref>, which are outside the target regions of both the aforementioned ChIP-chip and ChIP-Seq datasets but within the scopes of these two experiments, were defined as <italic>unoccupied</italic> sites. A small number of these sites may be occupied by CTCF in cell types that have not been studied, but this does not affect our conclusions, because the vast majority of data on which we based our analysis was generated on CD4+ T cells. In total, we define 6432 occupied sites and equal number of unoccupied sites and the lists are available as <xref ref-type="supplementary-material" rid="pgen.1000138.s012">Table S1</xref>.</p>
+        <p>Genome-wide DNase-Seq data was obtained from <xref rid="pgen.1000138-Boyle1" ref-type="bibr">[20]</xref>. Transcription start sites for known genes were downloaded from the UCSC genome browser (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu">http://genome.ucsc.edu</ext-link>), and partitioned according to expression levels measured by Su <italic>et al.</italic>
+<xref rid="pgen.1000138-Su1" ref-type="bibr">[42]</xref>. Occupied STAT1 binding sites were determined by scanning STAT1 ChIP-Seq target regions with TRANSFAC matrix M00223 <xref rid="pgen.1000138-Wingender1" ref-type="bibr">[43]</xref>. Occupied NRSF binding sites were annotated by Johnson <italic>et al.</italic>
+<xref rid="pgen.1000138-Johnson1" ref-type="bibr">[19]</xref>. Occupied p53 binding sites were annotated by applying p53-PET model in ChIP-PET (Paired End di-Tag) sequences with at least 3 tags <xref rid="pgen.1000138-Wei1" ref-type="bibr">[18]</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Genomic Signal Aggregation (GSA)</title>
+        <p>Many types of genomic data including ChIP-Seq, ChIP-chip, MNase-Seq or DNase-Seq can be represented as a set of genomic positions, each associated with a score. For example, the ChIP-chip raw data is constituted of a set of short oligonucleotide probes each associated with a hybridization intensity score. These probes are mapped onto the genome, which assigns their scores to all the corresponding genomic positions. ChIP-Seq, MNase-Seq and DNase-Seq yield sequence reads. After all the reads are mapped to the genome, each genomic position can be assigned a score which corresponds to how many reads that cover the position.</p>
+        <p>One type of highly informative analysis to perform on such genomic data is to aggregate over a set of genomic anchors at base-pair resolution. The analysis yields a continuous curve, with the average score for the genomic position at a particular distance away from the anchor plotted against the distance. In this study, we use two types of anchors, transcriptional start sites or the 5â²-ends of transcription factor binding sites. We developed the genomic signal aggregation (GSA) algorithm for performing aggregation analysis (<xref ref-type="supplementary-material" rid="pgen.1000138.s001">Figure S1</xref>). Specifically, each genomic position is assigned to the nearest anchor and classified as upstream, on-anchor or downstream, and the scores for all the positions at a specified distance from the anchor are averaged. In order to account for the scenario that a position at a certain distance to the anchor may correspond to more genomic locations than another position, due to the uneven distribution of the anchors in the genome, the sums of scores are divided by the numbers of contributing genomic locations instead of by the number of anchors. An earlier version of this algorithm was applied to a large number of ChIP-chip data generated by the ENCODE consortium <xref rid="pgen.1000138-Birney1" ref-type="bibr">[44]</xref>. We have built a freely accessible web server for GSA (<ext-link ext-link-type="uri" xlink:href="http://zlab.bu.edu/GSA">http://zlab.bu.edu/GSA</ext-link>).</p>
+        <p>ChIP-Seq, MNase-Seq or DNase-Seq datasets are composed of sequence reads, which could map to either the same or the opposite strand of the nearest anchor. We separately performed GSA on the reads that map to the two strands, as indicated in <xref ref-type="supplementary-material" rid="pgen.1000138.s002">Figure S2</xref>, in order to reveal fine details of the data. This leads to the two sets of curves throughout this study (e.g., the orange and blue curves in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1</xref>). We assigned the count of a sequence tag to all the positions of the sequence reads (24 bp or longer) instead of only to the 5â²-end position, in order to smooth the curves. As a result, the peaks of the curves are not at the boundaries of the nucleosome, but are 12 bp inside the boundaries as illustrated in <xref ref-type="supplementary-material" rid="pgen.1000138.s002">Figure S2</xref> and all the GSA curves throughout this paper. <xref ref-type="fig" rid="pgen-1000138-g006">Figure 6</xref> defines distances between the exact nucleosome boundaries by factoring in the 12 bp. For the DNase-Seq data, we only used the 5â²-end position for aggregation because there was sufficient number of tags (12 M), thus there is no such 12-bp shift.</p>
+        <p>The y-axis of the GSA curve for a ChIP-Seq, MNase-Seq or DNase-Seq dataset indicates the average number of sequence reads that are mapped to a particular distance to an anchor, with the average taken over all anchors. Thus the height of a GSA curve depends on the sequencing depth. For example, 154.6 M reads were used to generate <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> (all mono-nucleosomes) and 10.1 M reads were used to generate the H3K4me3 panel in <xref ref-type="fig" rid="pgen-1000138-g002">Figure 2A</xref>, which directly accounts for the difference in the y-axis spans of these two figures. <xref ref-type="supplementary-material" rid="pgen.1000138.s003">Figure S3</xref> includes the remake of <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> with 20% or 5% randomly sampled reads, and it is apparent that the heights of the curves in <xref ref-type="supplementary-material" rid="pgen.1000138.s003">Figure S3</xref> decrease proportionally when compared with those in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>. See the second paragraph of Results for discussion on how to compare GSA curves.</p>
+        <p>The result of GSA analysis on nucleosome positioning is affected by the experimental method used to fragment the chromatin samples. For most of the results discussed in this article, we used the datasets prepared with MNase digestion: the all mononucleosome mapping dataset with 154.6 M sequence reads <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>, and the 20 histone modification ChIP-Seq datasets in <xref rid="pgen.1000138-Barski1" ref-type="bibr">[16]</xref>. To contrast MNase digestion with sonication, we also produced the GSA plots on another dataset in <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>, generated with ChIP of H3 followed by sonication to 200â300 bp long DNA fragments (<xref ref-type="supplementary-material" rid="pgen.1000138.s011">Figure S11</xref>). Only 12 well-positioned nucleosomes are discernable around occupied CTCF sites (<xref ref-type="supplementary-material" rid="pgen.1000138.s011">Figure S11A</xref>), in contrast with 20 nucleosomes seen with the MNase digestion dataset (<xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>). Consistent with the finding reported previously <xref rid="pgen.1000138-Schones1" ref-type="bibr">[15]</xref>, only 3 well-positioned nucleosomes are discernable around the TSSs of expressed genes (<xref ref-type="supplementary-material" rid="pgen.1000138.s011">Figure S11B</xref>), in contrast with 7 nucleosomes seen with the MNase digestion dataset (<xref ref-type="supplementary-material" rid="pgen.1000138.s006">Figure S6A</xref>).</p>
+      </sec>
+      <sec id="s4c">
+        <title>Peak Annotation and Distance Measurement</title>
+        <p>We wrote a PERL program for calling peaks in GSA curves. It searches for the local maxima compared with their flanking intervals, which were set to 70 bp for detecting nucleosome peaks and 15 bp for detecting CTCF footprints. Each inter-nucleosome distance was measured as the mean of the distance between neighboring plus-strand peaks and the distance between the corresponding minus-strand peaks. The counts of well-positioned nucleosomes start at the center of CTCF binding sites and continue in both directions until the variation between inter-nucleosome distances exceeds 40 bp. Positions of peaks and counts of well-positioned nucleosomes were visually inspected and minor defects due to imperfectly formed peaks were corrected.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Prediction of Nucleosome-Positioning Potential</title>
+        <p>The 3 kb sequences flanking CTCF binding sites were downloaded from the UCSC genome browser (hg18). The sequences were fed to the program by Segal et al. <xref rid="pgen.1000138-Segal2" ref-type="bibr">[32]</xref> for predicting nucleosome occupation probability, with the human nucleosome model (both downloaded from <ext-link ext-link-type="uri" xlink:href="http://genie.weizmann.ac.il/pubs/nucleosomes06/">http://genie.weizmann.ac.il/pubs/nucleosomes06/</ext-link>). The predicted per-base-pair probability values were sampled every 50 bp and then aggregated using GSA, with the occupied and unoccupied CTCF binding sites as anchors, separately.</p>
+        <sec id="s4d1">
+          <title>Reconstitution of Nucleosomes</title>
+          <p>Oligonucleotides (Integrated DNA Technologies, Inc., Coralville, IA) were 5â² end labeled with <sup>32</sup>P using Î³-<sup>32</sup>P -ATP and T4 polynucleotide kinase (New England Biolabs, Inc., Beverly, MA). Plasmid CP943 (p2085S-G5E4) and plasmids containing the Insulator sequences were prepared by alkaline lysis method. Plasmid CP943 was digested with <italic>Nde</italic>I+<italic>Cla</italic>I to release the array of 5S rDNA nucleosome positioning elements (â¼2.3 kb). Likewise, plasmids containing Insulator 23 (pTVIns023) and Insulator 44 (pTVIns044) were digested with <italic>Not</italic>I/<italic>Kpn</italic>I and <italic>Bam</italic>HI/<italic>Kpn</italic>I respectively to release the1.2â1.6 kb insulator fragments. Recombinant Xenopus histones and octamer were purified and nucleosomal arrays were reconstituted as described earlier <xref rid="pgen.1000138-Luger1" ref-type="bibr">[45]</xref>, using one octamer per 200 base-pairs of DNA, i.e. Râ=â1.0.</p>
+        </sec>
+        <sec id="s4d2">
+          <title>MNase-Southern Assay</title>
+          <p>Reconstituted nucleosomal arrays were subjected to MNase digestion followed by Southern hybridization to assess the nucleosomal occupancy. To this end, 1 Âµg DNA equivalent of each of the reconstituted chromatin was digested with various amounts of MNase (Worthington), serially diluted from 15 units. Reactions were incubated at 25Â°C in a reaction buffer containing 10 mM Tris-HCl pH 8.0, 2 mM MgCl<sub>2</sub>, 75 mM NaCl and 0.3 mM CaCl<sub>2</sub>. After 15 seconds, reactions were stopped by addition of 2.5 mM EDTA, 2.5 mM EGTA, 1% SDS and 1 mg/ml Proteinase K. Reactions were incubated further for 15 minutes and then extracted twice with phenol-chloroform. Purified products were then resolved by 1.5% agarose gel electrophoresis, followed by Southern Hybridization using 32P-labelled oligonucleotide probes that anneal adjacent to the <italic>Not</italic>I site of Insulator 23 and the <italic>Kpn</italic>I site of Insulator 24 fragments. The sequences of these to insulators are provided in <xref ref-type="supplementary-material" rid="pgen.1000138.s013">Table S2</xref>.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>Illustration of anchor assignment and signal averaging in GSA. Black arrows and dashes represent anchors and sequence tags, respectively. Rectangles represent a genomic region interrogated by the experiment (repetitive regions are often not interrogated). One sequence tag (in gray) is mapped to the mid-point between anchors 1 and 2 and hence distributes its contribution equally to these two anchors. After all positions in the genomic region are attributed to the nearest anchor, they are aligned in a strand-specific way (plus and minus strands with respect to the anchor are indicated with the + and â signs), and the score for each position indicates the average number of sequence tags that cover that position.</p>
+          <p>(0.66 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s001.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>Illustrations on the source of doublet peaks in aggregation plots of MNase-Seq and ChIP-Seq tags. Because ChIP-Seq tags were mapped to specific strands of the reference human genome, they can be separated by whether they reside on the same or the opposite strand of the anchor. Because mono-nucleosomal DNA is on average 147-bp long, and the sequence tags are on average 24 bp long, the distance between the plus- and minus-strand peaks is â¼123 bp.</p>
+          <p>(0.63 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s002.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Impact of sequencing depth on the aggregation analysis. A. 20% and B. 5% randomly sampled sequence reads were used to make the aggregation graph as in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>.</p>
+          <p>(2.86 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s003.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>Nucleosome occupancy around occupied CTCF sites, in comparison with unoccupied CTCF sites. The ratio of the sum of area under the blue and orange curves (anchored on occupied CTCF sites) over the sum of area under the green and purple curves (anchored on unoccupied CTCF sites) in <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref> is shown for each nucleosome.</p>
+          <p>(0.67 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s004.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>Aggregation over subsets of occupied CTCF sites. For purple and green curves, occupied CTCF sites that are 2â5 kb away from the nearest occupied CTCF sites were used as anchors for aggregation. For blue and orange curves, occupied CTCF sites that are more than 500 kb away from the nearest occupied CTCF sites were used as anchors for aggregation. Purple and orange: minus strand; green and blue: plus strand. Occupied CTCF sites less than 2 kb away from the nearest occupied sites are excluded from this analysis because the aggregation is performed over a 2-kb distance.</p>
+          <p>(1.67 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s005.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>TSS positions nucleosomes less strongly than CTCF. A. Average sequence coverage corresponding to all nucleosomes, anchored on the transcription start sites of expressed genes. Seven well-positioned nucleosomes are seen, two upstream and five downstream. B. Aggregation of the ChIP-Seq data on H3K4me3 (blue and orange curves for plus- and minus-strand tags, respectively) and H3K4me2 (green and purple), plotted against the transcription start sites of expressed genes. Approximate positions of the plus and minus strand peaks are indicated with black vertical lines. C. Aggregation of the ChIP-Seq data on H3K27me1, H3K4me1 and H3K9me1 around the transcription start sites of expressed genes. Rough peaks can be made out from these plots. The plots for other histone modifications do not show oscillatory behavior.</p>
+          <p>(3.06 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s006.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s007">
+        <label>Figure S7</label>
+        <caption>
+          <p>Aggregated sequence tag coverage around occupied STAT1, NRSF and p53 binding sites in the human genome. The A/B/C graphs were produced using the MNase-Seq data and drawn in the same scale as <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>. Unlike <xref ref-type="fig" rid="pgen-1000138-g001">Figure 1B</xref>, none of these plots exhibit oscillatory behavior, indicating that there are no well-positioned nucleosomes. The D/E graphs were produced using the ChIP-Seq data of STAT1 and NRSF, respectively. These graphs show strong double peaks, corresponding to the boundaries of the footprints of these two transcription factors on genomic DNA. The data of p53 did not have enough tags for producing a GSA graph.</p>
+          <p>(4.09 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s007.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s008">
+        <label>Figure S8</label>
+        <caption>
+          <p>Sequence logo of CTCF. The logo was produced with all occupied sites, with the WebLogo server (<ext-link ext-link-type="uri" xlink:href="http://weblogo.berkeley.edu">http://weblogo.berkeley.edu</ext-link>). The 15 positions with high information content are underlined. All the GSA plots in this paper use the first position (labeled 0) as the x-coordinate origin.</p>
+          <p>(0.57 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s008.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s009">
+        <label>Figure S9</label>
+        <caption>
+          <p>Aggregated nucleosome occupancy probability around CTCF sites. The Y-axis indicates probability of a base pair being covered by a nucleosome from the program by Segal et al. <xref rid="pgen.1000138-Segal2" ref-type="bibr">[32]</xref>. The green curve is for occupied CTCF sites and purple for unoccupied sites. The fluctuation can be attributed to the distance constraints hard-coded in the algorithm.</p>
+          <p>(0.89 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s009.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s010">
+        <label>Figure S10</label>
+        <caption>
+          <p>Two-way hierarchical clustering of occupied CTCF sites by their histone modification patterns in flanking nucleosomes. Each row represents a CTCF site and each cell represents logarithmic normalized count of ChIP-Seq tags that correspond to a histone modification, H2A.Z, or Pol II, within 150 bp. High and low counts are represented by orange and blue colors, respectively.</p>
+          <p>(0.56 MB PDF)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s010.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s011">
+        <label>Figure S11</label>
+        <caption>
+          <p>Figure S11. Aggregation figures generated with the H3 ChIP-Seq sonication data. The dataset from CTCF sites (A) TSSs of expressed genes (B) were used as anchors.</p>
+          <p>(1.64 MB EPS)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s011.eps">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s012">
+        <label>Table S1</label>
+        <caption>
+          <p>Lists of hg18 coordinates for occupied and unoccupied CTCF sites.</p>
+          <p>(0.34 MB TXT)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s012.txt">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pgen.1000138.s013">
+        <label>Table S2</label>
+        <caption>
+          <p>Sequences of Insulators 23 and 44, with CTCF sites highlighted in yellow.</p>
+          <p>(0.09 MB DOC)</p>
+        </caption>
+        <media xlink:href="pgen.1000138.s013.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Prof. Ollie Rando at U Mass Medical School and Prof. Kevin Struhl at Harvard Medical School for insightful comments on the manuscript. We thank Dr. Dustin Schones in Dr. Zhao's lab at NIH for providing us with the sequencing data and for helpful discussions. We thank Profs. Greg Crawford and Terry Furey at Duke University for kindly sharing with us the DNase-Seq data prior to publication. We thank Profs. Greg Crawford and Terry Furey and Teresa Vales at Duke University for providing us with the plasmids containing insulators 23 and 44. We also thank Mary Ellen Fitzpatrick for continual system administration support.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>This work was supported by the National Institutes of Health grants ENCODE U01 HG004561, ENCODE U01 HG004695, and R01 HG003110.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pgen.1000138-Levitsky1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Levitsky</surname><given-names>VG</given-names></name><name><surname>Podkolodnaya</surname><given-names>OA</given-names></name><name><surname>Kolchanov</surname><given-names>NA</given-names></name><name><surname>Podkolodny</surname><given-names>NL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Nucleosome formation potential of eukaryotic DNA: calculation and promoters analysis.</article-title>
+<source>Bioinformatics</source>
+<volume>17</volume>
+<fpage>998</fpage>
+<lpage>1010</lpage>
+<pub-id pub-id-type="pmid">11724728</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Lee1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>CK</given-names></name><name><surname>Shibata</surname><given-names>Y</given-names></name><name><surname>Rao</surname><given-names>B</given-names></name><name><surname>Strahl</surname><given-names>BD</given-names></name><name><surname>Lieb</surname><given-names>JD</given-names></name></person-group>
+<year>2004</year>
+<article-title>Evidence for nucleosome depletion at active regulatory regions genome-wide.</article-title>
+<source>Nat Genet</source>
+<volume>36</volume>
+<fpage>900</fpage>
+<lpage>905</lpage>
+<pub-id pub-id-type="pmid">15247917</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Sekinger1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sekinger</surname><given-names>EA</given-names></name><name><surname>Moqtaderi</surname><given-names>Z</given-names></name><name><surname>Struhl</surname><given-names>K</given-names></name></person-group>
+<year>2005</year>
+<article-title>Intrinsic histone-DNA interactions and low nucleosome density are important for preferential accessibility of promoter regions in yeast.</article-title>
+<source>Mol Cell</source>
+<volume>18</volume>
+<fpage>735</fpage>
+<lpage>748</lpage>
+<pub-id pub-id-type="pmid">15949447</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Harp1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Harp</surname><given-names>JM</given-names></name><name><surname>Hanson</surname><given-names>BL</given-names></name><name><surname>Timm</surname><given-names>DE</given-names></name><name><surname>Bunick</surname><given-names>GJ</given-names></name></person-group>
+<year>2000</year>
+<article-title>Asymmetries in the nucleosome core particle at 2.5 A resolution.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>56</volume>
+<fpage>1513</fpage>
+<lpage>1534</lpage>
+<pub-id pub-id-type="pmid">11092917</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Society1">
+        <label>5</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Oliver</surname><given-names>SG</given-names></name><name><surname>Broda</surname><given-names>P</given-names></name><name><surname>Sims</surname><given-names>PFG</given-names></name></person-group>
+<collab>Society for General Microbiology. Symposium (50th: 1993: UMIST)</collab>
+<year>1993</year>
+<source>The eukaryotic genome: organisation and regulation</source>
+<publisher-loc>Cambridge, New York</publisher-loc>
+<publisher-name>Cambridge University Press</publisher-name>
+<fpage>xii, 395</fpage>
+</element-citation>
+      </ref>
+      <ref id="pgen.1000138-Williams1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Williams</surname><given-names>SP</given-names></name><name><surname>Athey</surname><given-names>BD</given-names></name><name><surname>Muglia</surname><given-names>LJ</given-names></name><name><surname>Schappe</surname><given-names>RS</given-names></name><name><surname>Gough</surname><given-names>AH</given-names></name><etal/></person-group>
+<year>1986</year>
+<article-title>Chromatin Fibers Are Left-Handed Double Helices with Diameter and Mass Per Unit Length That Depend on Linker Length.</article-title>
+<source>Biophysical Journal</source>
+<volume>49</volume>
+<fpage>233</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">3955173</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Guillemette1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guillemette</surname><given-names>B</given-names></name><name><surname>Bataille</surname><given-names>AR</given-names></name><name><surname>Gevry</surname><given-names>N</given-names></name><name><surname>Adam</surname><given-names>M</given-names></name><name><surname>Blanchette</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Variant histone H2A.Z is globally localized to the promoters of inactive yeast genes and regulates nucleosome positioning.</article-title>
+<source>PLoS Biol</source>
+<volume>3</volume>
+<fpage>e384</fpage>
+<pub-id pub-id-type="pmid">16248679</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Li1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>B</given-names></name><name><surname>Pattenden</surname><given-names>SG</given-names></name><name><surname>Lee</surname><given-names>D</given-names></name><name><surname>Gutierrez</surname><given-names>J</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Preferential occupancy of histone variant H2AZ at inactive promoters influences local histone modifications and chromatin remodeling.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>18385</fpage>
+<lpage>18390</lpage>
+<pub-id pub-id-type="pmid">16344463</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Raisner1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Raisner</surname><given-names>RM</given-names></name><name><surname>Hartley</surname><given-names>PD</given-names></name><name><surname>Meneghini</surname><given-names>MD</given-names></name><name><surname>Bao</surname><given-names>MZ</given-names></name><name><surname>Liu</surname><given-names>CL</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Histone variant H2A.Z marks the 5â² ends of both active and inactive genes in euchromatin.</article-title>
+<source>Cell</source>
+<volume>123</volume>
+<fpage>233</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">16239142</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Zhang1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>H</given-names></name><name><surname>Roberts</surname><given-names>DN</given-names></name><name><surname>Cairns</surname><given-names>BR</given-names></name></person-group>
+<year>2005</year>
+<article-title>Genome-wide dynamics of Htz1, a histone H2A variant that poises repressed/basal promoters for activation through histone loss.</article-title>
+<source>Cell</source>
+<volume>123</volume>
+<fpage>219</fpage>
+<lpage>231</lpage>
+<pub-id pub-id-type="pmid">16239141</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Yuan1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yuan</surname><given-names>GC</given-names></name><name><surname>Liu</surname><given-names>YJ</given-names></name><name><surname>Dion</surname><given-names>MF</given-names></name><name><surname>Slack</surname><given-names>MD</given-names></name><name><surname>Wu</surname><given-names>LF</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Genome-scale identification of nucleosome positions in S. cerevisiae.</article-title>
+<source>Science</source>
+<volume>309</volume>
+<fpage>626</fpage>
+<lpage>630</lpage>
+<pub-id pub-id-type="pmid">15961632</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Lee2">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>W</given-names></name><name><surname>Tillo</surname><given-names>D</given-names></name><name><surname>Bray</surname><given-names>N</given-names></name><name><surname>Morse</surname><given-names>RH</given-names></name><name><surname>Davis</surname><given-names>RW</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>A high-resolution atlas of nucleosome occupancy in yeast.</article-title>
+<source>Nat Genet</source>
+<volume>39</volume>
+<fpage>1235</fpage>
+<lpage>1244</lpage>
+<pub-id pub-id-type="pmid">17873876</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Albert1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Albert</surname><given-names>I</given-names></name><name><surname>Mavrich</surname><given-names>TN</given-names></name><name><surname>Tomsho</surname><given-names>LP</given-names></name><name><surname>Qi</surname><given-names>J</given-names></name><name><surname>Zanton</surname><given-names>SJ</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Translational and rotational settings of H2A.Z nucleosomes across the Saccharomyces cerevisiae genome.</article-title>
+<source>Nature</source>
+<volume>446</volume>
+<fpage>572</fpage>
+<lpage>576</lpage>
+<pub-id pub-id-type="pmid">17392789</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Ozsolak1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ozsolak</surname><given-names>F</given-names></name><name><surname>Song</surname><given-names>JS</given-names></name><name><surname>Liu</surname><given-names>XS</given-names></name><name><surname>Fisher</surname><given-names>DE</given-names></name></person-group>
+<year>2007</year>
+<article-title>High-throughput mapping of the chromatin structure of human promoters.</article-title>
+<source>Nat Biotechnol</source>
+<volume>25</volume>
+<fpage>244</fpage>
+<lpage>248</lpage>
+<pub-id pub-id-type="pmid">17220878</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Schones1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schones</surname><given-names>DE</given-names></name><name><surname>Cui</surname><given-names>K</given-names></name><name><surname>Cuddapah</surname><given-names>S</given-names></name><name><surname>Roh</surname><given-names>TY</given-names></name><name><surname>Barski</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Dynamic regulation of nucleosome positioning in the human genome.</article-title>
+<source>Cell</source>
+<volume>132</volume>
+<fpage>887</fpage>
+<lpage>898</lpage>
+<pub-id pub-id-type="pmid">18329373</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Barski1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Barski</surname><given-names>A</given-names></name><name><surname>Cuddapah</surname><given-names>S</given-names></name><name><surname>Cui</surname><given-names>K</given-names></name><name><surname>Roh</surname><given-names>TY</given-names></name><name><surname>Schones</surname><given-names>DE</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>High-resolution profiling of histone methylations in the human genome.</article-title>
+<source>Cell</source>
+<volume>129</volume>
+<fpage>823</fpage>
+<lpage>837</lpage>
+<pub-id pub-id-type="pmid">17512414</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Kim1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kim</surname><given-names>TH</given-names></name><name><surname>Abdullaev</surname><given-names>ZK</given-names></name><name><surname>Smith</surname><given-names>AD</given-names></name><name><surname>Ching</surname><given-names>KA</given-names></name><name><surname>Loukinov</surname><given-names>DI</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Analysis of the vertebrate insulator protein CTCF-binding sites in the human genome.</article-title>
+<source>Cell</source>
+<volume>128</volume>
+<fpage>1231</fpage>
+<lpage>1245</lpage>
+<pub-id pub-id-type="pmid">17382889</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Wei1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wei</surname><given-names>CL</given-names></name><name><surname>Wu</surname><given-names>Q</given-names></name><name><surname>Vega</surname><given-names>VB</given-names></name><name><surname>Chiu</surname><given-names>KP</given-names></name><name><surname>Ng</surname><given-names>P</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A global map of p53 transcription-factor binding sites in the human genome.</article-title>
+<source>Cell</source>
+<volume>124</volume>
+<fpage>207</fpage>
+<lpage>219</lpage>
+<pub-id pub-id-type="pmid">16413492</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Johnson1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Johnson</surname><given-names>DS</given-names></name><name><surname>Mortazavi</surname><given-names>A</given-names></name><name><surname>Myers</surname><given-names>RM</given-names></name><name><surname>Wold</surname><given-names>B</given-names></name></person-group>
+<year>2007</year>
+<article-title>Genome-wide mapping of in vivo protein-DNA interactions.</article-title>
+<source>Science</source>
+<volume>316</volume>
+<fpage>1497</fpage>
+<lpage>1502</lpage>
+<pub-id pub-id-type="pmid">17540862</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Boyle1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boyle</surname><given-names>AP</given-names></name><name><surname>Davis</surname><given-names>S</given-names></name><name><surname>Shulha</surname><given-names>HP</given-names></name><name><surname>Meltzer</surname><given-names>P</given-names></name><name><surname>Margulies</surname><given-names>EH</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>High-resolution mapping and characterization of open chromatin across the genome.</article-title>
+<source>Cell In press</source>
+</element-citation>
+      </ref>
+      <ref id="pgen.1000138-Lee3">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>JT</given-names></name></person-group>
+<year>2003</year>
+<article-title>Molecular links between X-inactivation and autosomal imprinting: X-inactivation as a driving force for the evolution of imprinting?</article-title>
+<source>Curr Biol</source>
+<volume>13</volume>
+<fpage>R242</fpage>
+<lpage>254</lpage>
+<pub-id pub-id-type="pmid">12646153</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Burcin1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Burcin</surname><given-names>M</given-names></name><name><surname>Arnold</surname><given-names>R</given-names></name><name><surname>Lutz</surname><given-names>M</given-names></name><name><surname>Kaiser</surname><given-names>B</given-names></name><name><surname>Runge</surname><given-names>D</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Negative protein 1, which is required for function of the chicken lysozyme gene silencer in conjunction with hormone receptors, is identical to the multivalent zinc finger repressor CTCF.</article-title>
+<source>Mol Cell Biol</source>
+<volume>17</volume>
+<fpage>1281</fpage>
+<lpage>1288</lpage>
+<pub-id pub-id-type="pmid">9032255</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Klenova1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Klenova</surname><given-names>EM</given-names></name><name><surname>Nicolas</surname><given-names>RH</given-names></name><name><surname>Paterson</surname><given-names>HF</given-names></name><name><surname>Carne</surname><given-names>AF</given-names></name><name><surname>Heath</surname><given-names>CM</given-names></name><etal/></person-group>
+<year>1993</year>
+<article-title>CTCF, a conserved nuclear factor required for optimal transcriptional activity of the chicken c-myc gene, is an 11-Zn-finger protein differentially expressed in multiple forms.</article-title>
+<source>Mol Cell Biol</source>
+<volume>13</volume>
+<fpage>7612</fpage>
+<lpage>7624</lpage>
+<pub-id pub-id-type="pmid">8246978</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Ohlsson1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ohlsson</surname><given-names>R</given-names></name><name><surname>Renkawitz</surname><given-names>R</given-names></name><name><surname>Lobanenkov</surname><given-names>V</given-names></name></person-group>
+<year>2001</year>
+<article-title>CTCF is a uniquely versatile transcription regulator linked to epigenetics and disease.</article-title>
+<source>Trends Genet</source>
+<volume>17</volume>
+<fpage>520</fpage>
+<lpage>527</lpage>
+<pub-id pub-id-type="pmid">11525835</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Renda1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Renda</surname><given-names>M</given-names></name><name><surname>Baglivo</surname><given-names>I</given-names></name><name><surname>Burgess-Beusse</surname><given-names>B</given-names></name><name><surname>Esposito</surname><given-names>S</given-names></name><name><surname>Fattorusso</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Critical DNA binding interactions of the insulator protein CTCF: a small number of zinc fingers mediate strong binding, and a single finger-DNA interaction controls binding at imprinted loci.</article-title>
+<source>J Biol Chem</source>
+<volume>282</volume>
+<fpage>33336</fpage>
+<lpage>33345</lpage>
+<pub-id pub-id-type="pmid">17827499</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Filippova1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filippova</surname><given-names>GN</given-names></name><name><surname>Fagerlie</surname><given-names>S</given-names></name><name><surname>Klenova</surname><given-names>EM</given-names></name><name><surname>Myers</surname><given-names>C</given-names></name><name><surname>Dehner</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>An exceptionally conserved transcriptional repressor, CTCF, employs different combinations of zinc fingers to bind diverged promoter sequences of avian and mammalian c-myc oncogenes.</article-title>
+<source>Mol Cell Biol</source>
+<volume>16</volume>
+<fpage>2802</fpage>
+<lpage>2813</lpage>
+<pub-id pub-id-type="pmid">8649389</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Bulger1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bulger</surname><given-names>M</given-names></name><name><surname>Groudine</surname><given-names>M</given-names></name></person-group>
+<year>1999</year>
+<article-title>Looping versus linking: toward a model for long-distance gene activation.</article-title>
+<source>Genes Dev</source>
+<volume>13</volume>
+<fpage>2465</fpage>
+<lpage>2477</lpage>
+<pub-id pub-id-type="pmid">10521391</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Kurukuti1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kurukuti</surname><given-names>S</given-names></name><name><surname>Tiwari</surname><given-names>VK</given-names></name><name><surname>Tavoosidana</surname><given-names>G</given-names></name><name><surname>Pugacheva</surname><given-names>E</given-names></name><name><surname>Murrell</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>CTCF binding at the H19 imprinting control region mediates maternally inherited higher-order chromatin conformation to restrict enhancer access to Igf2.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>10684</fpage>
+<lpage>10689</lpage>
+<pub-id pub-id-type="pmid">16815976</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Lobanenkov1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lobanenkov</surname><given-names>VV</given-names></name><name><surname>Nicolas</surname><given-names>RH</given-names></name><name><surname>Adler</surname><given-names>VV</given-names></name><name><surname>Paterson</surname><given-names>H</given-names></name><name><surname>Klenova</surname><given-names>EM</given-names></name><etal/></person-group>
+<year>1990</year>
+<article-title>A novel sequence-specific DNA binding protein which interacts with three regularly spaced direct repeats of the CCCTC-motif in the 5â²-flanking sequence of the chicken c-myc gene.</article-title>
+<source>Oncogene</source>
+<volume>5</volume>
+<fpage>1743</fpage>
+<lpage>1753</lpage>
+<pub-id pub-id-type="pmid">2284094</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Yusufzai1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yusufzai</surname><given-names>TM</given-names></name><name><surname>Tagami</surname><given-names>H</given-names></name><name><surname>Nakatani</surname><given-names>Y</given-names></name><name><surname>Felsenfeld</surname><given-names>G</given-names></name></person-group>
+<year>2004</year>
+<article-title>CTCF tethers an insulator to subnuclear sites, suggesting shared insulator mechanisms across species.</article-title>
+<source>Mol Cell</source>
+<volume>13</volume>
+<fpage>291</fpage>
+<lpage>298</lpage>
+<pub-id pub-id-type="pmid">14759373</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Segal1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Segal</surname><given-names>DJ</given-names></name><name><surname>Crotty</surname><given-names>JW</given-names></name><name><surname>Bhakta</surname><given-names>MS</given-names></name><name><surname>Barbas</surname><given-names>CF</given-names><suffix>3rd</suffix></name><name><surname>Horton</surname><given-names>NC</given-names></name></person-group>
+<year>2006</year>
+<article-title>Structure of Aart, a designed six-finger zinc finger peptide, bound to DNA.</article-title>
+<source>J Mol Biol</source>
+<volume>363</volume>
+<fpage>405</fpage>
+<lpage>421</lpage>
+<pub-id pub-id-type="pmid">16963084</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Segal2">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Segal</surname><given-names>E</given-names></name><name><surname>Fondufe-Mittendorf</surname><given-names>Y</given-names></name><name><surname>Chen</surname><given-names>L</given-names></name><name><surname>Thastrom</surname><given-names>A</given-names></name><name><surname>Field</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>A genomic code for nucleosome positioning.</article-title>
+<source>Nature</source>
+<volume>442</volume>
+<fpage>772</fpage>
+<lpage>778</lpage>
+<pub-id pub-id-type="pmid">16862119</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Xi1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xi</surname><given-names>H</given-names></name><name><surname>Shulha</surname><given-names>HP</given-names></name><name><surname>Lin</surname><given-names>JM</given-names></name><name><surname>Vales</surname><given-names>TR</given-names></name><name><surname>Fu</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Identification and characterization of cell type-specific and ubiquitous chromatin regulatory structures in the human genome.</article-title>
+<source>PLoS Genet</source>
+<volume>3</volume>
+<fpage>e136</fpage>
+<pub-id pub-id-type="pmid">17708682</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Schones2">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schones</surname><given-names>DE</given-names></name><name><surname>Smith</surname><given-names>AD</given-names></name><name><surname>Zhang</surname><given-names>MQ</given-names></name></person-group>
+<year>2007</year>
+<article-title>Statistical significance of cis-regulatory modules.</article-title>
+<source>BMC Bioinformatics</source>
+<volume>8</volume>
+<fpage>19</fpage>
+<pub-id pub-id-type="pmid">17241466</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Vicent1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vicent</surname><given-names>GP</given-names></name><name><surname>Nacht</surname><given-names>AS</given-names></name><name><surname>Smith</surname><given-names>CL</given-names></name><name><surname>Peterson</surname><given-names>CL</given-names></name><name><surname>Dimitrov</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>DNA instructed displacement of histones H2A and H2B at an inducible promoter.</article-title>
+<source>Mol Cell</source>
+<volume>16</volume>
+<fpage>439</fpage>
+<lpage>452</lpage>
+<pub-id pub-id-type="pmid">15525516</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Heintzman1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heintzman</surname><given-names>ND</given-names></name><name><surname>Stuart</surname><given-names>RK</given-names></name><name><surname>Hon</surname><given-names>G</given-names></name><name><surname>Fu</surname><given-names>YT</given-names></name><name><surname>Ching</surname><given-names>CW</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Distinct and predictive chromatin signatures of transcriptional promoters and enhancers in the human genome.</article-title>
+<source>Nature Genetics</source>
+<volume>39</volume>
+<fpage>311</fpage>
+<lpage>318</lpage>
+<pub-id pub-id-type="pmid">17277777</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Filippova2">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filippova</surname><given-names>GN</given-names></name><name><surname>Thienes</surname><given-names>CP</given-names></name><name><surname>Penn</surname><given-names>BH</given-names></name><name><surname>Cho</surname><given-names>DH</given-names></name><name><surname>Hu</surname><given-names>YJ</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>CTCF-binding sites flank CTG/CAG repeats and form a methylation-sensitive insulator at the DM1 locus.</article-title>
+<source>Nat Genet</source>
+<volume>28</volume>
+<fpage>335</fpage>
+<lpage>343</lpage>
+<pub-id pub-id-type="pmid">11479593</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Kanduri1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kanduri</surname><given-names>M</given-names></name><name><surname>Kanduri</surname><given-names>C</given-names></name><name><surname>Mariano</surname><given-names>P</given-names></name><name><surname>Vostrov</surname><given-names>AA</given-names></name><name><surname>Quitschke</surname><given-names>W</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Multiple nucleosome positioning sites regulate the CTCF-mediated insulator function of the H19 imprinting control region.</article-title>
+<source>Mol Cell Biol</source>
+<volume>22</volume>
+<fpage>3339</fpage>
+<lpage>3344</lpage>
+<pub-id pub-id-type="pmid">11971967</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Kornberg1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kornberg</surname><given-names>RD</given-names></name><name><surname>Stryer</surname><given-names>L</given-names></name></person-group>
+<year>1988</year>
+<article-title>Statistical distributions of nucleosomes: nonrandom locations by a stochastic mechanism.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>16</volume>
+<fpage>6677</fpage>
+<lpage>6690</lpage>
+<pub-id pub-id-type="pmid">3399412</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Dion1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dion</surname><given-names>MF</given-names></name><name><surname>Kaplan</surname><given-names>T</given-names></name><name><surname>Kim</surname><given-names>M</given-names></name><name><surname>Buratowski</surname><given-names>S</given-names></name><name><surname>Friedman</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Dynamics of replication-independent histone turnover in budding yeast.</article-title>
+<source>Science</source>
+<volume>315</volume>
+<fpage>1405</fpage>
+<lpage>1408</lpage>
+<pub-id pub-id-type="pmid">17347438</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Mito1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mito</surname><given-names>Y</given-names></name><name><surname>Henikoff</surname><given-names>JG</given-names></name><name><surname>Henikoff</surname><given-names>S</given-names></name></person-group>
+<year>2007</year>
+<article-title>Histone replacement marks the boundaries of cis-regulatory domains.</article-title>
+<source>Science</source>
+<volume>315</volume>
+<fpage>1408</fpage>
+<lpage>1411</lpage>
+<pub-id pub-id-type="pmid">17347439</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Su1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Su</surname><given-names>AI</given-names></name><name><surname>Wiltshire</surname><given-names>T</given-names></name><name><surname>Batalov</surname><given-names>S</given-names></name><name><surname>Lapp</surname><given-names>H</given-names></name><name><surname>Ching</surname><given-names>KA</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>A gene atlas of the mouse and human protein-encoding transcriptomes.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>6062</fpage>
+<lpage>6067</lpage>
+<pub-id pub-id-type="pmid">15075390</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Wingender1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wingender</surname><given-names>E</given-names></name><name><surname>Chen</surname><given-names>X</given-names></name><name><surname>Hehl</surname><given-names>R</given-names></name><name><surname>Karas</surname><given-names>H</given-names></name><name><surname>Liebich</surname><given-names>I</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>TRANSFAC: an integrated system for gene expression regulation.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>28</volume>
+<fpage>316</fpage>
+<lpage>319</lpage>
+<pub-id pub-id-type="pmid">10592259</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Birney1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Birney</surname><given-names>E</given-names></name><name><surname>Stamatoyannopoulos</surname><given-names>JA</given-names></name><name><surname>Dutta</surname><given-names>A</given-names></name><name><surname>Guigo</surname><given-names>R</given-names></name><name><surname>Gingeras</surname><given-names>TR</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Identification and analysis of functional elements in 1% of the human genome by the ENCODE pilot project.</article-title>
+<source>Nature</source>
+<volume>447</volume>
+<fpage>799</fpage>
+<lpage>816</lpage>
+<pub-id pub-id-type="pmid">17571346</pub-id></element-citation>
+      </ref>
+      <ref id="pgen.1000138-Luger1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Luger</surname><given-names>K</given-names></name><name><surname>Rechsteiner</surname><given-names>TJ</given-names></name><name><surname>Richmond</surname><given-names>TJ</given-names></name></person-group>
+<year>1999</year>
+<article-title>Expression and purification of recombinant histones and nucleosome reconstitution.</article-title>
+<source>Methods Mol Biol</source>
+<volume>119</volume>
+<fpage>1</fpage>
+<lpage>16</lpage>
+<pub-id pub-id-type="pmid">10804500</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

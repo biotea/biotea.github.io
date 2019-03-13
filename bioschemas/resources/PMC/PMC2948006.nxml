@@ -1,0 +1,1871 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:38:17Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2948006" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2948006</identifier><datestamp>2010-10-12</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2948006</article-id>
+      <article-id pub-id-type="pmcid">PMC2948006</article-id>
+      <article-id pub-id-type="pmc-uid">2948006</article-id>
+      <article-id pub-id-type="pmid">20941364</article-id>
+      <article-id pub-id-type="pmid">20941364</article-id>
+      <article-id pub-id-type="publisher-id">10-PONE-RA-19938R1</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0012791</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Biochemistry/Biomacromolecule-Ligand Interactions</subject>
+          <subject>Biochemistry/Structural Genomics</subject>
+          <subject>Biochemistry/RNA Structure</subject>
+          <subject>Biochemistry/Transcription and Translation</subject>
+          <subject>Molecular Biology/mRNA Transport and Localization</subject>
+          <subject>Molecular Biology/RNA-Protein Interactions</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Comparative Structural Analysis of Human DEAD-Box RNA Helicases</article-title>
+        <alt-title alt-title-type="running-head">DEAD-Box Helicase Structures</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>SchÃ¼tz</surname>
+            <given-names>Patrick</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karlberg</surname>
+            <given-names>Tobias</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>van den Berg</surname>
+            <given-names>Susanne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Collins</surname>
+            <given-names>Ruairi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>LehtiÃ¶</surname>
+            <given-names>Lari</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn1">
+<sup>Â¤a</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>HÃ¶gbom</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn2">
+<sup>Â¤b</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Holmberg-Schiavone</surname>
+            <given-names>Lovisa</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn3">
+<sup>Â¤c</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tempel</surname>
+            <given-names>Wolfram</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Park</surname>
+            <given-names>Hee-Won</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>HammarstrÃ¶m</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Moche</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thorsell</surname>
+            <given-names>Ann-Gerd</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>SchÃ¼ler</surname>
+            <given-names>Herwig</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Structural Genomics Consortium, Karolinska Institutet, Stockholm, Sweden</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Structural Genomics Consortium and Department of Pharmacology, University of Toronto, Toronto, Canada</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Gay</surname>
+            <given-names>Nick</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">University of Cambridge, United Kingdom</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>herwig.schuler@ki.se</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: LHS HWP MH MM HS. Performed the experiments: PS TK SvdB RC LL MH LHS WT MH MM AGT. Analyzed the data: PS TK LL MH HWP. Wrote the paper: PS HS.</p>
+        </fn>
+        <fn id="fn1" fn-type="current-aff">
+          <label>Â¤a</label>
+          <p>Current address: Department of Biosciences, Ãbo Akademi, Turku, Finland</p>
+        </fn>
+        <fn id="fn2" fn-type="current-aff">
+          <label>Â¤b</label>
+          <p>Current address: Department of Biochemistry and Biophysics, Stockholm University, Stockholm, Sweden</p>
+        </fn>
+        <fn id="fn3" fn-type="current-aff">
+          <label>Â¤c</label>
+          <p>Current address: Structural Chemistry Laboratory, AstraZeneca R&amp;D, MÃ¶lndal, Sweden</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>9</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>5</volume>
+      <issue>9</issue>
+      <elocation-id>e12791</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>17</day>
+          <month>6</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>14</day>
+          <month>8</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>SchÃ¼tz et al.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>DEAD-box RNA helicases play various, often critical, roles in all processes where RNAs are involved. Members of this family of proteins are linked to human disease, including cancer and viral infections. DEAD-box proteins contain two conserved domains that both contribute to RNA and ATP binding. Despite recent advances the molecular details of how these enzymes convert chemical energy into RNA remodeling is unknown. We present crystal structures of the isolated DEAD-domains of human DDX2A/eIF4A1, DDX2B/eIF4A2, DDX5, DDX10/DBP4, DDX18/myc-regulated DEAD-box protein, DDX20, DDX47, DDX52/ROK1, and DDX53/CAGE, and of the helicase domains of DDX25 and DDX41. Together with prior knowledge this enables a family-wide comparative structural analysis. We propose a general mechanism for opening of the RNA binding site. This analysis also provides insights into the diversity of DExD/H- proteins, with implications for understanding the functions of individual family members.</p>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>DExD/H-box RNA helicases, from virus and bacteria to eukaryotes, play important roles in processes including ribosome biogenesis, RNA processing and folding, ribonucleoprotein (RNP) remodeling, RNA nuclear export, the regulation of RNA translation and transcription, and nonsense-mediated RNA decay. DExD/H-box RNA helicases have multiple functions in these processes: They can act as RNA chaperones, ATP-dependent RNA helicases and unwindases, as RNPases by mediating RNA-protein association and dissociation <xref rid="pone.0012791-Linder1" ref-type="bibr">[1]</xref>â<xref rid="pone.0012791-Pyle1" ref-type="bibr">[4]</xref> or as co-activators and co-repressors of transcription (<xref rid="pone.0012791-Clark1" ref-type="bibr">[5]</xref>â<xref rid="pone.0012791-Wortham1" ref-type="bibr">[7]</xref> and refs. therein). Cancer cell lines often feature deregulated expression or impaired functioning of RNA helicases <xref rid="pone.0012791-Clark1" ref-type="bibr">[5]</xref>, <xref rid="pone.0012791-Abdelhaleem1" ref-type="bibr">[8]</xref>. In addition, several family members are captured and regulated by viral proteins <xref rid="pone.0012791-Schroder1" ref-type="bibr">[9]</xref>, are involved in viral RNA maturation <xref rid="pone.0012791-Yount1" ref-type="bibr">[10]</xref>, or mediate antiviral host defense <xref rid="pone.0012791-Takeuchi1" ref-type="bibr">[11]</xref>, <xref rid="pone.0012791-Rehwinkel1" ref-type="bibr">[12]</xref>. Inhibition of individual RNA helicases as a therapeutic route is currently being explored (e.g., <xref rid="pone.0012791-Crumpacker1" ref-type="bibr">[13]</xref>â<xref rid="pone.0012791-Cencic1" ref-type="bibr">[17]</xref>).</p>
+      <p>DExD/H-box proteins often contain accessory regulatory domains and localization modules, but their cores consist of two RecA-like domains joined by a short flexible linker. The N-terminal domain is commonly referred to as conserved domain-1, or DEAD-domain, and the C-terminal domain as conserved domain-2, or helicase domain <xref rid="pone.0012791-Cordin1" ref-type="bibr">[3]</xref>, <xref rid="pone.0012791-Pyle1" ref-type="bibr">[4]</xref>, <xref rid="pone.0012791-LeHir1" ref-type="bibr">[18]</xref>. Both domains contribute to the binding site for RNA substrates and both contribute to ATP hydrolysis. These activities are coupled to one another by allostery throughout the protein molecules. Consequently, a detailed understanding of how these proteins convert chemical energy into RNA remodeling requires knowledge of the structures of the two conserved domains independent of each other and interacting in the closed active state. To date, crystal structures of tandem domains are available for several DExD/H-box helicases, also in complex with RNA substrates <xref rid="pone.0012791-Andersen1" ref-type="bibr">[19]</xref>â<xref rid="pone.0012791-Collins1" ref-type="bibr">[22]</xref>. To understand the RNA remodeling event and the underlying structural rearrangements, it is important to compare these structures with those of each domain in isolation.</p>
+      <p>We have solved crystal structures of single domains from eleven human DExD/H-box helicases of the DEAD-motif subfamily. A comparative analysis of these structures uncovered not only isoform specific features, but also nucleotide specific positioning of flexible elements that are common to several proteins. We suggest a structural mechanism for the linkage between binding of ATP and activation of the RNA binding site.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results and Discussion</title>
+      <p>We used X-ray crystallography to determine the structures of the DEAD-domains of DDX2A, DDX2B, DDX5, DDX10, DDX18, DDX20, DDX47, DDX52, and DDX53, as well as the helicase domains of DDX25 and DDX41. While the physiological roles of these proteins are diverse (<xref ref-type="table" rid="pone-0012791-t001">Table 1</xref>) all structures show the RecA-like fold. Superposition of the DEAD-domain structures gives root mean square deviations of CÎ±-atom positions between 0.6 and 1.9 Ã for proteins with sequence identity between 86 and 27%. The two helicase domains have a sequence identity of 23% and their structures superimpose with an r.m.s.d. of 3 Ã. Details of the synchrotron data collection, structure determination, and refinement statistics are presented in <xref ref-type="table" rid="pone-0012791-t002">Table 2</xref>.</p>
+      <table-wrap id="pone-0012791-t001" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0012791.t001</object-id>
+        <label>Table 1</label>
+        <caption>
+          <title>Summary of previously established roles and functions for the RNA helicases covered in this study.</title>
+        </caption>
+        <alternatives>
+          <graphic id="pone-0012791-t001-1" xlink:href="pone.0012791.t001"/>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col align="left" span="1"/>
+              <col align="center" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Helicase</td>
+                <td align="left" rowspan="1" colspan="1">Function</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX2A</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX2A (eIF4A1) is essential for translation initiation. It is part of the eIF4F complex that consists of eIF4G, eIF4E and eIF4A <xref rid="pone.0012791-Pause2" ref-type="bibr">[51]</xref>â<xref rid="pone.0012791-Marintchev1" ref-type="bibr">[53]</xref>. Its activity is strongly enhanced by eIF4G, eIF4B and eIF4H <xref rid="pone.0012791-Grifo1" ref-type="bibr">[54]</xref>. The eIF4F complex and eIF4A are potential targets for anti cancer drugs <xref rid="pone.0012791-Moerke1" ref-type="bibr">[55]</xref>â<xref rid="pone.0012791-Lindqvist1" ref-type="bibr">[57]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX2B</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">Also known as eIF4A2, an isoform of DDX2A.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX5</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX5 is a co-regulator of different transcription factors including ERÎ±, p53, MyoD and Runx2, but ATPase/helicase activity is not required for transcriptional co-regulation. DDX5 also participates in pre-RNA processing, alternative splicing, microRNA and ribosomal RNA processing (reviewed in ref. <xref rid="pone.0012791-FullerPace1" ref-type="bibr">[6]</xref>).</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX10</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX10 is probably involved in ribosome assembly. Fusion of the nucleoporin gene NUP98 with the DDX10 gene leads to the NUP98-DDX10 gene product. This fusion protein is involved in leukemogenesis <xref rid="pone.0012791-Arai1" ref-type="bibr">[58]</xref>, <xref rid="pone.0012791-Nakamura1" ref-type="bibr">[59]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX18</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX18 (Myc-regulated DEAD-box protein, or MrDP; <xref rid="pone.0012791-Grandori1" ref-type="bibr">[60]</xref>) is a nucleolar protein that is specifically upregulated in highly proliferating cells <xref rid="pone.0012791-Dubaele1" ref-type="bibr">[61]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX20</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX20 (Gemin3) is a component of the SMN (Survival of Motor Neurons) complex that is involved in assembly and reconstruction of different RNP (ribonucleoprotein) complexes <xref rid="pone.0012791-Shpargel1" ref-type="bibr">[62]</xref>. DDX20, Gemin4 and eIF2C2 form a separate complex that contains numerous miRNAs <xref rid="pone.0012791-Cauchi1" ref-type="bibr">[63]</xref>. DDX20 also binds to the Epstein-Barr Virus Nuclear Proteins EBNA2 and EBNA3C. The poliovirus-encoded proteinase 2A<sup>pro</sup> cleaves DDX20 resulting in DDX20 inactivation and reduced snRNP assembly <xref rid="pone.0012791-Almstead1" ref-type="bibr">[64]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX25</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX25 (GRTH) is a testis specific, gonadotropin and androgen regulated protein that is essential for completion of spermatogenesis <xref rid="pone.0012791-TsaiMorris1" ref-type="bibr">[65]</xref>. DDX20 acts as a shuttling protein in the gene-specific nuclear export of RNA messages. Furthermore it regulates the translation of specific genes in germ cells <xref rid="pone.0012791-Dufau1" ref-type="bibr">[66]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX41</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX41 (Abstrakt) post-transcriptionally regulates the expression levels of the insc protein that is essential for control of cell polarity and spindle orientation <xref rid="pone.0012791-Sekito1" ref-type="bibr">[67]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX47</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX47 is involved in pre-rRNA processing. It interacts with NOP132 which recruits pre-rRNA processing proteins to the region within the nucleolus were rRNA is transcribed <xref rid="pone.0012791-Sekiguchi1" ref-type="bibr">[68]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX52</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX52 (Rok1) is required for the release of snR30 (small nucleolar RNA-30) from pre-ribosomes. snR30 is one of three snoRNAs that are critical for pre-rRNA processing in yeast. DDX52 ATPase activity is important for optimal pre-ribosomal RNA processing, but not essential for release of snR30 <xref rid="pone.0012791-Bohnsack1" ref-type="bibr">[69]</xref>.</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>DDX53</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX53 (CAGE) is expressed in testis and various tumors, but not in other tissues. Expression of the CAGE-gene is determined by its methylation status <xref rid="pone.0012791-Cho1" ref-type="bibr">[70]</xref>.</td>
+              </tr>
+            </tbody>
+          </table>
+        </alternatives>
+      </table-wrap>
+      <table-wrap id="pone-0012791-t002" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0012791.t002</object-id>
+        <label>Table 2</label>
+        <caption>
+          <title>Summary of crystallographic data analysis and refinement statistics<xref ref-type="table-fn" rid="nt101">*</xref>.</title>
+        </caption>
+        <alternatives>
+          <graphic id="pone-0012791-t002-2" xlink:href="pone.0012791.t002"/>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col align="left" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+            </colgroup>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Structure</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DDX2A</td>
+                <td align="left" rowspan="1" colspan="1">DDX2B</td>
+                <td align="left" rowspan="1" colspan="1">DDX5</td>
+                <td align="left" rowspan="1" colspan="1">DDX10</td>
+                <td align="left" rowspan="1" colspan="1">DDX18</td>
+                <td align="left" rowspan="1" colspan="1">DDX20</td>
+                <td align="left" rowspan="1" colspan="1">DDX25</td>
+                <td align="left" rowspan="1" colspan="1">DDX41</td>
+                <td align="left" rowspan="1" colspan="1">DDX47</td>
+                <td align="left" rowspan="1" colspan="1">DDX52</td>
+                <td align="left" rowspan="1" colspan="1">DDX53</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Domain</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">helicase</td>
+                <td align="left" rowspan="1" colspan="1">helicase</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+                <td align="left" rowspan="1" colspan="1">DEAD</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>PDB entry</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">2G9N</td>
+                <td align="left" rowspan="1" colspan="1">3BOR</td>
+                <td align="left" rowspan="1" colspan="1">3FE2</td>
+                <td align="left" rowspan="1" colspan="1">2PL3</td>
+                <td align="left" rowspan="1" colspan="1">3LY5</td>
+                <td align="left" rowspan="1" colspan="1">3B7G</td>
+                <td align="left" rowspan="1" colspan="1">2RB4</td>
+                <td align="left" rowspan="1" colspan="1">2P6N</td>
+                <td align="left" rowspan="1" colspan="1">3BER</td>
+                <td align="left" rowspan="1" colspan="1">3DKP</td>
+                <td align="left" rowspan="1" colspan="1">3IUY</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Ligand</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">-</td>
+                <td align="left" rowspan="1" colspan="1">-</td>
+                <td align="left" rowspan="1" colspan="1">ADP</td>
+                <td align="left" rowspan="1" colspan="1">ADP</td>
+                <td align="left" rowspan="1" colspan="1">PO<sub>4</sub>
+</td>
+                <td align="left" rowspan="1" colspan="1">AMPPNP</td>
+                <td align="left" rowspan="1" colspan="1">-</td>
+                <td align="left" rowspan="1" colspan="1">-</td>
+                <td align="left" rowspan="1" colspan="1">AMP</td>
+                <td align="left" rowspan="1" colspan="1">ADP</td>
+                <td align="left" rowspan="1" colspan="1">AMP</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Beamline</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">ESRF ID14-2</td>
+                <td align="left" rowspan="1" colspan="1">APS 19-ID</td>
+                <td align="left" rowspan="1" colspan="1">BESSY 14.2</td>
+                <td align="left" rowspan="1" colspan="1">MAX II I911-2</td>
+                <td align="left" rowspan="1" colspan="1">DIAMOND I04</td>
+                <td align="left" rowspan="1" colspan="1">ESRF ID29</td>
+                <td align="left" rowspan="1" colspan="1">BESSY 14.2</td>
+                <td align="left" rowspan="1" colspan="1">ESRF ID14-4</td>
+                <td align="left" rowspan="1" colspan="1">ESRF ID29</td>
+                <td align="left" rowspan="1" colspan="1">ESRF ID23-1</td>
+                <td align="left" rowspan="1" colspan="1">ESRF ID14-2</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Wavelength (Ã)</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">0.93300</td>
+                <td align="left" rowspan="1" colspan="1">0.97242</td>
+                <td align="left" rowspan="1" colspan="1">0.9184</td>
+                <td align="left" rowspan="1" colspan="1">1.04123</td>
+                <td align="left" rowspan="1" colspan="1">0.9789</td>
+                <td align="left" rowspan="1" colspan="1">1.00595</td>
+                <td align="left" rowspan="1" colspan="1">0.95373</td>
+                <td align="left" rowspan="1" colspan="1">1.04005</td>
+                <td align="left" rowspan="1" colspan="1">0.97472</td>
+                <td align="left" rowspan="1" colspan="1">1.00000</td>
+                <td align="left" rowspan="1" colspan="1">0.97930</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Space group</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">P 1 21 1</td>
+                <td align="left" rowspan="1" colspan="1">P 21 21 2</td>
+                <td align="left" rowspan="1" colspan="1">C 2 2 21</td>
+                <td align="left" rowspan="1" colspan="1">P 61 2 2</td>
+                <td align="left" rowspan="1" colspan="1">P 31</td>
+                <td align="left" rowspan="1" colspan="1">P 31 2 1</td>
+                <td align="left" rowspan="1" colspan="1">P 43 21 2</td>
+                <td align="left" rowspan="1" colspan="1">P 65 2 2</td>
+                <td align="left" rowspan="1" colspan="1">C 1 2 1</td>
+                <td align="left" rowspan="1" colspan="1">P 1 21 1</td>
+                <td align="left" rowspan="1" colspan="1">P 1 21 1</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Cell dimensions</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">a, b, c (Ã)</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â47.8,bâ=â78.25, câ=â59.09</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â58.09, bâ=â80.1, câ=â42.74</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â84.57, bâ=â106.87, câ=â117.32</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â63.5, bâ=â63.5, câ=â304.01</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â41.34, bâ=â41.34, câ=â230.54</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â63.56, bâ=â63.56, câ=â214.6</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â70.31, bâ=â70.31, câ=â187.12</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â68.01, bâ=â68.01, câ=â305.6</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â93.05, bâ=â70.37, câ=â35.86</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â40.63, bâ=â38.36, câ=â73.84</td>
+                <td align="left" rowspan="1" colspan="1">aâ=â56.44, bâ=â61.25, câ=â65.79</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Î±, Î², Î³ (Â°)</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â103.43, Î³â=â90</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â90</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â90</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â120</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â120</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â120</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â90</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90, Î³â=â120</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90.7, Î³â=â90</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â90.37, Î³â=â90</td>
+                <td align="left" rowspan="1" colspan="1">Î±â=â90, Î²â=â96.36, Î³â=â90</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Highest resolution shell range(Ã)</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">2.37â2.25</td>
+                <td align="left" rowspan="1" colspan="1">1.92â1.85</td>
+                <td align="left" rowspan="1" colspan="1">2.67â2.60</td>
+                <td align="left" rowspan="1" colspan="1">2.30â2.15</td>
+                <td align="left" rowspan="1" colspan="1">2.85â2.7</td>
+                <td align="left" rowspan="1" colspan="1">2.00â1.90</td>
+                <td align="left" rowspan="1" colspan="1">2.90â2.80</td>
+                <td align="left" rowspan="1" colspan="1">2.80â2.60</td>
+                <td align="left" rowspan="1" colspan="1">1.50â1.40</td>
+                <td align="left" rowspan="1" colspan="1">2.20â2.10</td>
+                <td align="left" rowspan="1" colspan="1">2.53â2.40</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>R<sub>meas</sub></bold>
+<xref ref-type="table-fn" rid="nt102">(a)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">0.07 (0.24)<xref ref-type="table-fn" rid="nt103">(b)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">0.14 (0.67)<xref ref-type="table-fn" rid="nt104">(c)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">0.14 (0.74)</td>
+                <td align="left" rowspan="1" colspan="1">0.05 (0.16)</td>
+                <td align="left" rowspan="1" colspan="1">0.24 (1.29)</td>
+                <td align="left" rowspan="1" colspan="1">0.081 (0.13)</td>
+                <td align="left" rowspan="1" colspan="1">0.11 (0.82)<xref ref-type="table-fn" rid="nt103">(b)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">0.10 (0.45)</td>
+                <td align="left" rowspan="1" colspan="1">0.05 (0.14)</td>
+                <td align="left" rowspan="1" colspan="1">0.09 (0.38)</td>
+                <td align="left" rowspan="1" colspan="1">0.20 (0.61)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>I/Ï(I)</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">7.4 (5.3)</td>
+                <td align="left" rowspan="1" colspan="1">27.6 (3.8)<xref ref-type="table-fn" rid="nt105">(d)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">11.0 (2.4)</td>
+                <td align="left" rowspan="1" colspan="1">54.1 (24.5)</td>
+                <td align="left" rowspan="1" colspan="1">6.2 (2.0)</td>
+                <td align="left" rowspan="1" colspan="1">32.10 (21.3)</td>
+                <td align="left" rowspan="1" colspan="1">15.65 (2.6)</td>
+                <td align="left" rowspan="1" colspan="1">35.9 (12.6)</td>
+                <td align="left" rowspan="1" colspan="1">28.7 (14.1)</td>
+                <td align="left" rowspan="1" colspan="1">12.8 (4.6)</td>
+                <td align="left" rowspan="1" colspan="1">13.4 (4.2)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Completeness (%)</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">99.7 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">100 (99.9)</td>
+                <td align="left" rowspan="1" colspan="1">99.4 (99.8)</td>
+                <td align="left" rowspan="1" colspan="1">99.7 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">99.98 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">99.7 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">100.0 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">99.9 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">99.5 (100.0)</td>
+                <td align="left" rowspan="1" colspan="1">99.5 (99.8)</td>
+                <td align="left" rowspan="1" colspan="1">100.0 (100.0)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Redundancy</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">7.4 (3.5)</td>
+                <td align="left" rowspan="1" colspan="1">11.4 (10.1)</td>
+                <td align="left" rowspan="1" colspan="1">4.0 (4.0)</td>
+                <td align="left" rowspan="1" colspan="1">25.4 (26.5)</td>
+                <td align="left" rowspan="1" colspan="1">5.1 (5.5)</td>
+                <td align="left" rowspan="1" colspan="1">20.5 (18.2)</td>
+                <td align="left" rowspan="1" colspan="1">8.8 (9.1)</td>
+                <td align="left" rowspan="1" colspan="1">40.0 (41.8)</td>
+                <td align="left" rowspan="1" colspan="1">7.3 (7.3)</td>
+                <td align="left" rowspan="1" colspan="1">3.7 (3.7)</td>
+                <td align="left" rowspan="1" colspan="1">9.3 (9.5)</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold><underline>Refinement</underline></bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Resolution range (Ã)</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">20â2.25</td>
+                <td align="left" rowspan="1" colspan="1">30â1.85</td>
+                <td align="left" rowspan="1" colspan="1">35â2.6</td>
+                <td align="left" rowspan="1" colspan="1">30â2.15</td>
+                <td align="left" rowspan="1" colspan="1">38.4â2.8</td>
+                <td align="left" rowspan="1" colspan="1">38.43â1.90</td>
+                <td align="left" rowspan="1" colspan="1">19.44â2.80</td>
+                <td align="left" rowspan="1" colspan="1">29.72â2.60</td>
+                <td align="left" rowspan="1" colspan="1">28.24â1.40</td>
+                <td align="left" rowspan="1" colspan="1">19.56â2.10</td>
+                <td align="left" rowspan="1" colspan="1">45.13â2.40</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>No. reflections</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">19100</td>
+                <td align="left" rowspan="1" colspan="1">17560</td>
+                <td align="left" rowspan="1" colspan="1">15770</td>
+                <td align="left" rowspan="1" colspan="1">19842</td>
+                <td align="left" rowspan="1" colspan="1">10358</td>
+                <td align="left" rowspan="1" colspan="1">38606</td>
+                <td align="left" rowspan="1" colspan="1">11208</td>
+                <td align="left" rowspan="1" colspan="1">13220</td>
+                <td align="left" rowspan="1" colspan="1">43193</td>
+                <td align="left" rowspan="1" colspan="1">12804</td>
+                <td align="left" rowspan="1" colspan="1">17613</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>R<sub>work</sub>/R<sub>free</sub></bold>
+</td>
+                <td align="left" rowspan="1" colspan="1">0.1761/0.2573</td>
+                <td align="left" rowspan="1" colspan="1">0.185/0.226</td>
+                <td align="left" rowspan="1" colspan="1">0.205/0.273</td>
+                <td align="left" rowspan="1" colspan="1">0.210/0.248</td>
+                <td align="left" rowspan="1" colspan="1">0.246/0.274</td>
+                <td align="left" rowspan="1" colspan="1">0.172/0.202</td>
+                <td align="left" rowspan="1" colspan="1">0.233/0.267</td>
+                <td align="left" rowspan="1" colspan="1">0.243/0.294</td>
+                <td align="left" rowspan="1" colspan="1">0.165/0.189</td>
+                <td align="left" rowspan="1" colspan="1">0.182/0.236</td>
+                <td align="left" rowspan="1" colspan="1">0.201/0.251</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>B-factor (Ã<sup>2</sup>)</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Protein</td>
+                <td align="left" rowspan="1" colspan="1">15</td>
+                <td align="left" rowspan="1" colspan="1">21</td>
+                <td align="left" rowspan="1" colspan="1">27</td>
+                <td align="left" rowspan="1" colspan="1">48</td>
+                <td align="left" rowspan="1" colspan="1">47</td>
+                <td align="left" rowspan="1" colspan="1">18</td>
+                <td align="left" rowspan="1" colspan="1">82</td>
+                <td align="left" rowspan="1" colspan="1">57</td>
+                <td align="left" rowspan="1" colspan="1">13</td>
+                <td align="left" rowspan="1" colspan="1">23</td>
+                <td align="left" rowspan="1" colspan="1">23</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Water</td>
+                <td align="left" rowspan="1" colspan="1">17</td>
+                <td align="left" rowspan="1" colspan="1">17</td>
+                <td align="left" rowspan="1" colspan="1">20</td>
+                <td align="left" rowspan="1" colspan="1">45</td>
+                <td align="left" rowspan="1" colspan="1">29</td>
+                <td align="left" rowspan="1" colspan="1">29</td>
+                <td align="left" rowspan="1" colspan="1">53</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">28</td>
+                <td align="left" rowspan="1" colspan="1">17</td>
+                <td align="left" rowspan="1" colspan="1">25</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Ligand</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">27</td>
+                <td align="left" rowspan="1" colspan="1">43</td>
+                <td align="left" rowspan="1" colspan="1">36</td>
+                <td align="left" rowspan="1" colspan="1">26</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1">14</td>
+                <td align="left" rowspan="1" colspan="1">12</td>
+                <td align="left" rowspan="1" colspan="1">17</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>R.m.s deviations</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Bond lengths (Ã)</td>
+                <td align="left" rowspan="1" colspan="1">0.018</td>
+                <td align="left" rowspan="1" colspan="1">0.015</td>
+                <td align="left" rowspan="1" colspan="1">0.012</td>
+                <td align="left" rowspan="1" colspan="1">0.017</td>
+                <td align="left" rowspan="1" colspan="1">0.007</td>
+                <td align="left" rowspan="1" colspan="1">0.014</td>
+                <td align="left" rowspan="1" colspan="1">0.01</td>
+                <td align="left" rowspan="1" colspan="1">0.016</td>
+                <td align="left" rowspan="1" colspan="1">0.014</td>
+                <td align="left" rowspan="1" colspan="1">0.013</td>
+                <td align="left" rowspan="1" colspan="1">0.007</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Bond angles (Â°)</td>
+                <td align="left" rowspan="1" colspan="1">1.732</td>
+                <td align="left" rowspan="1" colspan="1">1.344</td>
+                <td align="left" rowspan="1" colspan="1">1.354</td>
+                <td align="left" rowspan="1" colspan="1">1.695</td>
+                <td align="left" rowspan="1" colspan="1">0.952</td>
+                <td align="left" rowspan="1" colspan="1">1.648</td>
+                <td align="left" rowspan="1" colspan="1">1.244</td>
+                <td align="left" rowspan="1" colspan="1">1.602</td>
+                <td align="left" rowspan="1" colspan="1">1.638</td>
+                <td align="left" rowspan="1" colspan="1">1.414</td>
+                <td align="left" rowspan="1" colspan="1">1.157</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">
+<bold>Ramachandran plot</bold>
+</td>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+                <td align="left" rowspan="1" colspan="1"/>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Favored regions (%)<xref ref-type="table-fn" rid="nt106">(e)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">96.0</td>
+                <td align="left" rowspan="1" colspan="1">99.5</td>
+                <td align="left" rowspan="1" colspan="1">98.3</td>
+                <td align="left" rowspan="1" colspan="1">98.2</td>
+                <td align="left" rowspan="1" colspan="1">96.88</td>
+                <td align="left" rowspan="1" colspan="1">98.8</td>
+                <td align="left" rowspan="1" colspan="1">91.4</td>
+                <td align="left" rowspan="1" colspan="1">95.2</td>
+                <td align="left" rowspan="1" colspan="1">99.6</td>
+                <td align="left" rowspan="1" colspan="1">99.6</td>
+                <td align="left" rowspan="1" colspan="1">98.8</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">Allowed regions (%)<xref ref-type="table-fn" rid="nt106">(e)</xref>
+</td>
+                <td align="left" rowspan="1" colspan="1">99.2</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">99.7</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+                <td align="left" rowspan="1" colspan="1">100</td>
+              </tr>
+            </tbody>
+          </table>
+        </alternatives>
+        <table-wrap-foot>
+          <fn id="nt101">
+            <label/>
+            <p>*Values in parentheses refer to the outermost resolution shell.</p>
+          </fn>
+          <fn id="nt102">
+            <label>(a)</label>
+            <p>R<sub>meas</sub> as described in <xref rid="pone.0012791-Diederichs1" ref-type="bibr">[71]</xref>.</p>
+          </fn>
+          <fn id="nt103">
+            <label>(b)</label>
+            <p>R<sub>sym</sub> as described in <xref rid="pone.0012791-Arndt1" ref-type="bibr">[72]</xref>.</p>
+          </fn>
+          <fn id="nt104">
+            <label>(c)</label>
+            <p>Calculated using Rmerge, Version 2 <xref rid="pone.0012791-Weiss1" ref-type="bibr">[73]</xref>.</p>
+          </fn>
+          <fn id="nt105">
+            <label>(d)</label>
+            <p>Calculated as the ratio of average I over average error.</p>
+          </fn>
+          <fn id="nt106">
+            <label>(e)</label>
+            <p>Determined using Molprobity <xref rid="pone.0012791-Davis1" ref-type="bibr">[74]</xref>.</p>
+          </fn>
+        </table-wrap-foot>
+      </table-wrap>
+      <p>Superpostition of the different crystal structures illustrates the location of flexible regions (<xref ref-type="fig" rid="pone-0012791-g001">Figure 1A, 1B</xref>). In general, regions of high sequence conservation (the conserved motifs in particular) contribute to the binding sites for nucleotide and for RNA, and these sites coincide with the highest structural similarity (<xref ref-type="fig" rid="pone-0012791-g002">Figure 2</xref>). Conversely, unconserved regions in the DEAD-domains determined here show a higher r.m.s.d. in their CÎ±-atom positions. Some of the unconserved regions in the structures are flexible, as documented by high B-factors and partially missing electron density.</p>
+      <fig id="pone-0012791-g001" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0012791.g001</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>Crystal structures of DEAD-box conserved domains-1 and -2.</title>
+          <p>(A) Superposition of the DEAD-domains of DDX2A (green), DDX2B (brown), DDX5 (red), DDX10 (turquoise), DDX18 (grey), DDX47 (dark blue), DDX52 (yellow), and DDX53 (dark yellow). The positions of conserved motifs IâIII (black) are indicated. (B) Superposition of the helicase domains of DDX19 (light blue), DDX25 (grey) and DDX41 (orange). The positions of conserved motifs IVâVI (black) are indicated. (C) Cartoon representations of the DDX5 helicase domain in the same orientations as in the following two panels. (D) Conserved surface patches (green), projected onto the DDX47 DEAD-domain surface. (E) Electrostatic surface representation of DEAD-domains. Negative charges are shown in red and positive charges in blue. (F) Cartoon representations of the DDX41 helicase domain in the same orientation as in the following two panels. The RNA and AMPPNP (sticks representation) of the superposed DDX19 structure mark the RNA and nucleotide binding sites. (G) Conserved surface patches (green), projected onto the DDX25 helicase-domain surface. (H) Electrostatic surface representation of helicase domains.</p>
+        </caption>
+        <graphic xlink:href="pone.0012791.g001"/>
+      </fig>
+      <fig id="pone-0012791-g002" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0012791.g002</object-id>
+        <label>Figure 2</label>
+        <caption>
+          <title>Sequence alignments of the two RecA-like domains of the DEAD-box proteins described in this study.</title>
+          <p>Conserved sequence motifs are indicated. Secondary structural elements are given for DDX19 (PDB entry 3G0H) above the alignment. Asterisks mark the terminal aspartate of the DEAD motif and the arginine of motif V, the interaction of which is central to positioning of Î±-helix 8 (see also <xref ref-type="fig" rid="pone-0012791-g005">Figure 5C, D</xref>). Sequences shown are human DDX19B (gene accession number: 13177688); DDX10 (13514831); DDX18 (38327634); DDX20 (23270929); DDX25 (29792166); DDX41 (21071032); DDX47 (45786091); DDX5 (16359122); DDX52 (27697141); DDX53 (45709415); eIF4A1/DDX2A (16307020); and eIF4A2/DDX2B (45645183).</p>
+        </caption>
+        <graphic xlink:href="pone.0012791.g002"/>
+      </fig>
+      <sec id="s2a">
+        <title>Diverse surface properties among DEAD domains</title>
+        <p>We compared the surface charge distributions of the DEAD-domain structures (<xref ref-type="fig" rid="pone-0012791-g001">Figure 1E, 1H</xref>). All DEAD-domains feature a conserved patch that constitutes the nucleotide binding site and part of the RNA binding site. This patch forms a negatively charged channel between Î±-helices 8 and â10 that extends to the Mg<sup>2+</sup>-binding site. The negative charges originate from the side chains of the two helices, including the DEAD-motif on Î±-helix 8. As expected, the RNA binding cleft is positively charged in all DEAD domains, but the charged patches differ in size. The remainder of the DEAD-domain surfaces differs in electrostatic surface properties among the family members.</p>
+      </sec>
+      <sec id="s2b">
+        <title>ATP binding site: The flexible P-loop</title>
+        <p>Conserved motifs I (the P-loop), Ia, II, and the Q-motif participate in nucleotide binding <xref rid="pone.0012791-Cordin1" ref-type="bibr">[3]</xref>, <xref rid="pone.0012791-Hilbert1" ref-type="bibr">[23]</xref>. The P-loop and motif II coordinate the nucleotide phosphates and the magnesium ion, whereas residues of the Q-motif bind and recognize the adenine moiety. The side chains that participate in nucleotide and magnesium binding are highly conserved (<xref ref-type="fig" rid="pone-0012791-g002">Figure 2</xref>). The nucleotide phosphates interact with backbone atoms, a conserved lysine, and the divalent cation. Superposition of the DEAD-domains shows that the structures of the P-loop and motif III are determined by the state of nucleotide hydrolysis. The P-loop is in a wide-open conformation when ATP is bound, as seen in DDX20 as well as in the previously published structures of DDX19 <xref rid="pone.0012791-Collins1" ref-type="bibr">[22]</xref> and eIF4AIII <xref rid="pone.0012791-Andersen1" ref-type="bibr">[19]</xref>. In the crystal complexes with either ADP or AMP the loop closes up, resulting in a shift in CÎ±-atom positions by up to 3.5 Ã between the ATP- and the AMP-states, or by up to 2.5 Ã between the ADP- and the AMP-state (<xref ref-type="fig" rid="pone-0012791-g003">Figure 3A</xref>). Thus the conformation of the P-loop is determined by the nucleotide phosphates, and longer phosphate tails result in a more open loop. This observation agrees with previous results <xref rid="pone.0012791-Hgbom1" ref-type="bibr">[24]</xref>. Motif III follows the P-loop transition and its position changes by up to 3 Ã toward the P-loop. Motifs Ia, Ib and II seem unaffected by the state of ATP hydrolysis, and their conformations remain unchanged even in the crystal structures in which the nucleotide binding site is not occupied.</p>
+        <fig id="pone-0012791-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0012791.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Details of the ATP binding sites.</title>
+            <p>(A) Superposition of multiple DEAD-domains to illustrate variability in P-loop (Motif I) conformations. P-loops in DEAD-domain structures with bound phosphate (yellow), with bound AMP (orange), with bound ADP (red), DDX19 P-loop with bound AMPPNP and Mg<sup>2+</sup> (blue), DDX20 P-loop with bound AMPPNP (magenta), and P-loop in nucleotide-free eIF4A/DDX2A (green) are shown. Motifs I, II and III are indicated. (B) Two different conformations of the Î²- and Î³-phosphates in the DDX20-AMPPNP complex. Side chains that interact with the AMPPNP are shown as balls-and-sticks. (C) DDX2B with a closed P-loop. The Î±-helix that follows the P-loop starts one turn earlier compared to other DEAD-domain structures shown. (D) Variability of interactions with the adenosine nucleotide. The adenosine moiety is coordinated through Ï-stacking interactions or hydrophobic interactions. Numbers denote the interaction surface, in Ã<sup>2</sup>, between the nucleotide and the stacking side chain, as determined using the PISA server <xref rid="pone.0012791-Krissinel1" ref-type="bibr">[25]</xref>.</p>
+          </caption>
+          <graphic xlink:href="pone.0012791.g003"/>
+        </fig>
+        <p>Two of the structures show unique P-loop conformations. The DDX2B structure features an Î±-helix 4 that is longer than in other helicases, and leads into an unusually closed P-loop conformation (<xref ref-type="fig" rid="pone-0012791-g003">Figure 3C</xref>). As a consequence, the ATP binding site is not visible on the surface of the DDX2B structure. This conformation is most likely induced by a crystal contact in this region.</p>
+        <p>The AMPPNP-bound DDX20 structure contains no metal ion (<xref ref-type="fig" rid="pone-0012791-g003">Figure 3B</xref>). Lack of Î³-phosphate coordination by a metal ion leads to a shift in the position of the Î²- and Î³-phosphates, which bind where the Î±- and Î²-phosphates are bound in other ATP complexes. Since the adenine base is coordinated in the usual fashion the Î±-phosphate and the sugar moiety are tilted out of the expected positions. This illustrates that DDX20 (and presumably other helicases) can bind ATP also in the absence of divalent cation. However, a divalent cation is needed to allow coordination of three phosphates in the correct geometry for catalysis.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Diversity in ATP coordination</title>
+        <p>Some of the side chains that interact with the nucleotides are not conserved, and most of these are found in the Q-motif. Three hydrogen bonds between the adenine ring and the protein ensure specific binding of adenosine nucleotides. These are formed by the conserved glutamine and the backbone carbonyl five residues upstream of the glutamine (<xref ref-type="fig" rid="pone-0012791-g003">Figure 3</xref>). The 6<sup>th</sup> residue upstream of the conserved glutamine is an aromatic residue in most DEAD-box helicases. Its side chain stacks with the nucleotide base, stabilizing it in its position. Interestingly this residue is not conserved: While phenylalanine is most common, DDX10 has a tyrosine and DDX47 has a tryptophan in the corresponding position. Moreover, an aromatic residue in this position is not obligatory: DDX53 features an isoleucine, with weaker van-der-Waals interactions with the adenosine ring than the base stacking interactions with the aromatic side chains (<xref ref-type="fig" rid="pone-0012791-g003">Figure 3D</xref>). We analyzed the protein-nucleotide binding interfaces in these crystal structures using the PISA server <xref rid="pone.0012791-Krissinel1" ref-type="bibr">[25]</xref>. This analysis showed that, while the overall ligand interface areas are similar in the different nucleotide complexes, the contribution by the base stacking residues vary considerably. The variability in the stacking residue position may reflect different needs for conformational flexibility in this region of the DEAD-domains.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Helicase domain variation</title>
+        <p>The helicase domain contributes to nucleotide coordination <italic>via</italic> motifs V and VI. From the closed state DDX19 structure <xref rid="pone.0012791-Collins1" ref-type="bibr">[22]</xref> it is apparent that four side chains are of particular importance: The aspartate of motif V coordinates the O3â² of the ribose. The second arginine side chain of motif VI (HRxGRxGR) interacts with the Î³-phosphate. The third arginine, which is also the putative arginine finger during ATP hydrolysis, coordinates all three ATP phosphates. The variable residue that follows this arginine coordinates the adenosine ring by different means. In the DDX19 helicase domain a phenylalanine stacks with the adenosine rings. A superposition of DDX19 with the DDX25 and DDX41 helicase domains shows that in the latter two structures part of motif VI is not visible in the electron density, indicating its flexibility. The conserved motifs IV and VI superpose well, whereas motif V shows different conformations in all three structures (<xref ref-type="fig" rid="pone-0012791-g001">Figure 1B</xref>).</p>
+        <p>The only part of motif IV that is not flexible is the histidine-arginine pair, and it superposes in all three crystal structures. The arginine points to a negatively charged pocked formed in part by side chains from motifs IV and V in the inside of the helicase domain. The aliphatic part of the arginine side chain makes a hydrophobic contact with the phenylalanine of motif IV. In the two-domain closed state structures the histidine interacts with the SAT motif from the helicase domain. Therefore, the SAT motif is indirectly linked to the ATP binding site as well as to the RNA binding sites of both domains. This explains the central importance of this motif in the coupling of ATP hydrolysis and RNA unwinding <xref rid="pone.0012791-Banroques1" ref-type="bibr">[26]</xref>. In SAT-motif mutants of eIF4A the ATPase and helicase activities were uncoupled <xref rid="pone.0012791-Pause1" ref-type="bibr">[27]</xref>: SAT-to-AAA mutant protein is capable of binding RNA in an ATP dependent manner, but lacks RNA unwinding activity.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Conserved and variable parts constitute the RNA binding site</title>
+        <p>The available atomic resolution structures of DEAD-box helicases with bound RNA <xref rid="pone.0012791-Andersen1" ref-type="bibr">[19]</xref>â<xref rid="pone.0012791-Collins1" ref-type="bibr">[22]</xref> show that the DEAD-domain contributes to RNA binding through two conserved and one variable structural element: (i) Motif Ia; (ii) Î±-helix 7, with its conserved motif Ib; and (iii) the variable loop connecting Î²-sheets 3 and 4. These interactions are illustrated for DDX19 in <xref ref-type="fig" rid="pone-0012791-g004">Figure 4A</xref>: While the variable loop clamps the RNA substrate in a specific conformation, motifs Ia and Ib each coordinate an RNA-backbone phosphate and induce a tilt of one or more RNA bases.</p>
+        <fig id="pone-0012791-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0012791.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>RNA binding cleft on DEAD domains.</title>
+            <p>(A) DDX19 (light blue; PDB entry 3G0H) with bound RNA (light orange). RNA-interacting side chains are shown. (B) Flexible regions in DDX2B, DDX10 and DDX53 for which the electron density was not visible. (C) Sequence conservation in the RNA binding cleft, mapped onto the DDX47 structure (red, conserved; orange, partly conserved). (D) RNA binding sites of selected DEAD-domains to illustrate their sequence variation.</p>
+          </caption>
+          <graphic xlink:href="pone.0012791.g004"/>
+        </fig>
+        <p>Conserved motifs Ia and Ib of DDX19 and all DEAD-domain structures described here superimpose perfectly (<xref ref-type="fig" rid="pone-0012791-g004">Figure 4</xref>). This leads us to conclude that RNA substrates are bound in a similar conformation by the conserved motifs of all these DEAD-domains. The variability in part of the RNA binding sites (<xref ref-type="fig" rid="pone-0012791-g004">Figure 4D</xref>), on the other hand, implies that different helicases could stabilize specific RNA conformations. In addition, variable side chain contribution may also reflect optimal recognition of specific nucleotide sequences.</p>
+        <p>Inspection of the RNA complexes of DDX19, vasa, and eIF4AIII <xref rid="pone.0012791-Andersen1" ref-type="bibr">[19]</xref>â<xref rid="pone.0012791-Collins1" ref-type="bibr">[22]</xref> shows that the conserved motif that makes the most extensive contacts with the RNA-backbone phosphates is motif Ib. In two of our DEAD-domain crystal structures, anions from the crystallization buffers are bound to motif Ib (a sulfate in DDX5, and a phosphate in DDX47) highlighting the ability of this motif to bind polyanions.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Mechanism for unblocking of the RNA binding site</title>
+        <p>Our crystal structures of both DEAD-domains and helicase domains in isolation reveal that the RNA binding site on each domain is in a conformation that is incompetent to bind RNA substrate. In the free helicase domain structures motif V, an important RNA backbone interaction site <xref rid="pone.0012791-Andersen1" ref-type="bibr">[19]</xref>â<xref rid="pone.0012791-Collins1" ref-type="bibr">[22]</xref> is in a binding incompetent conformation. In the closed state, an RNA binding competent conformation is stabilized by the interaction of the conserved arginine of motif V with the C-terminal aspartic acid of the DEAD-motif (<xref ref-type="fig" rid="pone-0012791-g005">Figure 5C</xref>). In all single DEAD-domain structures, Î±-helix 8 has adopted a position that would block the RNA binding site. By contrast, upon cleft closure in the two-domain ATP analog and RNA complexes, Î±-helix 8 has moved out of the RNA binding site (<xref ref-type="fig" rid="pone-0012791-g005">Figure 5</xref>).</p>
+        <fig id="pone-0012791-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0012791.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Details of the RNA binding cleft.</title>
+            <p>(A) DDX19 closed state structure (PDB entry 3G0H). DDX19-bound RNA, Mg<sup>2+</sup>-ion and AMPPNP are in orange. (B) Superposition of several DEAD domain structures showing a conserved conformation of Î±-helix 8. (C) Interactions between the DEAD and helicase domains of DDX19. (D) âTop-downâ view of the open and closed RNA binding cleft. DDX5 (red), the ATP-state of DDX19 (blue) and DDX41 (orange) are shown. RNA (superposed from the DDX19 complex structure) is shown in light orange. (E) Surface representation of the DDX19-RNA complex. Note that Î±-helix 8 does not come in contact with the RNA substrate. (F) Surface representation of DDX5 and the superposed RNA from the DDX19 complex structure. Note that Î±-helix 8 would clash with the RNA substrate.</p>
+          </caption>
+          <graphic xlink:href="pone.0012791.g005"/>
+        </fig>
+        <p>Thus, superposition of single DEAD-domain structures onto the closed state structures of DDX19 and eIF4AIII suggests involvement of Î±-helix 8 in the formation of a competent RNA binding site. How is Î±-helix 8 displaced to allow access to the RNA substrate binding site? No direct interaction between Î±-helix 8 and the RNA have been observed; thus displacement of Î±-helix 8 by the RNA substrate itself seems unlikely. Also, binding of ATP itself cannot cause Î±-helix 8 rotation out of the RNA site: The DEAD-motif is the only link between the nucleotide and Î±-helix 8, but the state of nucleotide hydrolysis does not influence the conformation of the DEAD motif (motif II; <xref ref-type="fig" rid="pone-0012791-g001">Figure 1A</xref>, <xref ref-type="fig" rid="pone-0012791-g003">3A</xref>).</p>
+        <p>Instead, we propose direct involvement of the helicase domain in the activation of the RNA binding site on the DEAD-domain: In the complex structures, the conserved arginine of motif V in the helicase domain forms a salt bridge with the C-terminal aspartic acid of the DEAD-motif, which is also the terminal residue of Î±-helix 8 (<xref ref-type="fig" rid="pone-0012791-g005">Figure 5C, 5D</xref>). This interaction stabilizes a conformation where Î±-helix 8 is rotated out of the RNA binding site (<xref ref-type="fig" rid="pone-0012791-g005">Figure 5D</xref>). We propose that ATP binding primes the helicases for RNA substrate binding by bringing the domains together to allow motif V to push Î±-helix 8 out of the RNA site on the DEAD-domain. RNA binding to the DEAD-domain then completes cleft closure to allow formation of an active ATPase site (<xref ref-type="fig" rid="pone-0012791-g006">Figure 6</xref>).</p>
+        <fig id="pone-0012791-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0012791.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Schematic model for the regulation of RNA binding by Î±-helix 8 of DEAD-box helicases.</title>
+            <p>(A) In the isolated domains, reflecting the open and substrate free states, the RNA binding sites are partially blocked by Î±-helix 8 in the DEAD-domain and motif V in the helicase domain. The aspartate indicated in the DEAD-domain is the second D of the DEAD sequence in motif II. The arginine indicated in the helicase domain is a conserved residue in motif V. Both residues are marked by asterisks in <xref ref-type="fig" rid="pone-0012791-g002">Fig 2</xref>. (B) Binding of ATP favors closure of the cleft, facilitating interaction of Î±-helix 8 with motif V across the cleft, thereby removing the blockage of the RNA binding site. (C) The closed cleft conformation is stabilized by RNA substrate to the competent site, allowing ATP hydrolysis to proceed.</p>
+          </caption>
+          <graphic xlink:href="pone.0012791.g006"/>
+        </fig>
+        <p>This model of cleft closure and helicase activation through regulation of Î±-helix 8 can reconcile published data. Moreover, it can explain how substrate release in the post-hydrolysis state is achieved. DEAD-box helicases typically bind ADP with higher affinity that ATP <xref rid="pone.0012791-Talavera1" ref-type="bibr">[28]</xref>â<xref rid="pone.0012791-Theissen1" ref-type="bibr">[31]</xref>, and binding of ATP and RNA are cooperative <xref rid="pone.0012791-Theissen1" ref-type="bibr">[31]</xref>â<xref rid="pone.0012791-Elles1" ref-type="bibr">[35]</xref>. Thus, the binding energy of the RNA-protein interaction likely stabilizes a strained conformation that is competent for ATP hydrolysis. Conversely, relief of this strain upon ATP hydrolysis and phosphate release likely drives RNA substrate remodeling <xref rid="pone.0012791-Nielsen1" ref-type="bibr">[36]</xref>. According to our comparative structural analysis, ATP hydrolysis and phosphate release would allow Î±-helix 8 to move back into its original position, releasing the RNA substrate and switching back to a binding incompetent RNA site on the DEAD domain.</p>
+        <p>DExH-box RNA helicases differ in some aspects from the DEAD-motif containing helicases. The hepatitis C virus DExH-box helicase NS3 binds RNA in the absence of ATP <xref rid="pone.0012791-Gu1" ref-type="bibr">[37]</xref>. DExH helicase NPH-II unwinds RNA in a processive fashion <xref rid="pone.0012791-Jankowsky1" ref-type="bibr">[38]</xref> and thus stays bound to the RNA after each unwinding step. Our model for the role of Î±-helix 8 in cleft closure of DEAD-proteins is consistent also with these properties of DExH-box RNA helicases. Whereas Î±-helix 8 is conserved in all DEAD-box proteins, it is missing in the DExH-box proteins (refs. <xref rid="pone.0012791-Gu1" ref-type="bibr">[37]</xref>, <xref rid="pone.0012791-He1" ref-type="bibr">[39]</xref>â<xref rid="pone.0012791-Schtz1" ref-type="bibr">[42]</xref> and references therein). Moreover, the DEAD-motif aspartic acid side chain that mediates opening of the RNA binding site (<xref ref-type="fig" rid="pone-0012791-g005">Figure 5</xref>) is replaced by the histidine of the DExH-motif. Thus apparently, in the absence of Î±-helix 8 that may block the RNA site, this terminal aspartic acid is redundant, and the histidine that substitutes it fulfills a different function <xref rid="pone.0012791-Schtz1" ref-type="bibr">[42]</xref>. We conclude that DEAD- and DExH-box helicases differ significantly in the coupling of the RNA binding event to the conformational cycle of the two RecA domains.</p>
+      </sec>
+    </sec>
+    <sec sec-type="materials|methods" id="s3">
+      <title>Materials and Methods</title>
+      <p>All proteins were expressed in <italic>Escherichia coli</italic> as N-terminally hexahistidine tagged fusion proteins, and purified by nickel affinity chromatography and gel filtration. Proteins were crystallized in sitting drops at 4Â°C or 20Â°C. X-ray diffraction data were collected at the APS (Chicago, USA), the BESSY (Berlin, Germany), the Diamond (Oxfordshire, UK), the ESRF (Grenoble, France), and the MaxLab (Lund, Sweden) synchrotron radiation facilities. Data were indexed and integrated using XDS <xref rid="pone.0012791-Kabsch1" ref-type="bibr">[43]</xref>, MOSFLM <xref rid="pone.0012791-Leslie1" ref-type="bibr">[44]</xref>, or DENZO <xref rid="pone.0012791-Otwinowski1" ref-type="bibr">[45]</xref>, and scaled using XSCALE <xref rid="pone.0012791-Kabsch1" ref-type="bibr">[43]</xref>, SCALA <xref rid="pone.0012791-Evans1" ref-type="bibr">[46]</xref> or SCALEPACK <xref rid="pone.0012791-Otwinowski1" ref-type="bibr">[45]</xref>. Structures were solved by molecular replacement using PHASER <xref rid="pone.0012791-McCoy1" ref-type="bibr">[47]</xref> or MOLREP <xref rid="pone.0012791-Vagin1" ref-type="bibr">[48]</xref>, and refined using REFMAC <xref rid="pone.0012791-Murshudov1" ref-type="bibr">[49]</xref>. Refinement rounds were complemented with manual rebuilding using COOT <xref rid="pone.0012791-Emsley1" ref-type="bibr">[50]</xref>.</p>
+      <p>Detailed <xref ref-type="sec" rid="s3">Materials and Methods</xref> can be found in <xref ref-type="supplementary-material" rid="pone.0012791.s001">Table S1</xref>.</p>
+      <sec id="s3a">
+        <title>Accession codes</title>
+        <p>The coordinates have been deposited in the Proteins Data Bank with accession codes 2G9N, 3BOR, 3FE2, 2PL3, 3LY5, 3B7G, 2RB4, 2P6N, 3BER, 3DKP, and 3IUY.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s4">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0012791.s001">
+        <label>Table S1</label>
+        <caption>
+          <p>
+<xref ref-type="sec" rid="s3">Materials and methods</xref> detailing protein expression and purification, crystallization, X-ray data processing.</p>
+          <p>(0.15 MB PDF)</p>
+        </caption>
+        <media xlink:href="pone.0012791.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank the beamline staff at the APS, BESSY, Diamond, ESRF, and MaxLab synchrotron radiation facilities for excellent support. We would also like to acknowledge our colleagues at the Structural Genomics Consortium.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p><bold>Competing Interests: </bold>Clarifying statements: 1. The Structural Genomics Consortium (SGC) is a not-for-profit organization that receives funding from a funder consortium that includes commercial sources (GlaxoSmithKline and Merck &amp; Co., Inc.). This circumstance does not alter the authors' adherence to all the PLoS ONE policies on sharing data and materials. The SGC and its scientists are committed to making their research outputs (materials and knowledge) available without restriction on use. This means that the SGC will promptly place its results in the public domain and will not agree to file for patent protection on any of its research outputs. It will seek the same commitment from any research collaborator. 2. One of the authors (LHS) is currently employed by a commercial company. As the role of this author in the current study was terminated before her affiliation with that company, this circumstance does not alter the authors' adherence to all the PLoS ONE policies on sharing data and materials.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>The Structural Genomics Consortium is a registered charity (number 1097737) that receives funds from the Canadian Institutes for Health Research, the Canada Foundation for Innovation, Genome Canada through the Ontario Genomics Institute, GlaxoSmithKline, Karolinska Institutet, the Knut and Alice Wallenberg Foundation, the Ontario Innovation Trust, the Ontario Ministry for Research and Innovation, Merck &amp; Co., Inc., the Novartis Research Foundation, the Swedish Agency for Innovation Systems, the Swedish Foundation for Strategic Research and the Wellcome Trust. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0012791-Linder1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Linder</surname><given-names>P</given-names></name><name><surname>Tanner</surname><given-names>NK</given-names></name><name><surname>Banroques</surname><given-names>J</given-names></name></person-group>
+<year>2001</year>
+<article-title>From RNA helicases to RNPases.</article-title>
+<source>Trends Biochem Sci</source>
+<volume>26</volume>
+<fpage>339</fpage>
+<lpage>341</lpage>
+<pub-id pub-id-type="pmid">11406391</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Schwer1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schwer</surname><given-names>B</given-names></name></person-group>
+<year>2001</year>
+<article-title>A new twist on RNA helicases: DExH/D box proteins as RNPases.</article-title>
+<source>Nat Struct Biol</source>
+<volume>8</volume>
+<fpage>113</fpage>
+<lpage>116</lpage>
+<pub-id pub-id-type="pmid">11175897</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Cordin1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cordin</surname><given-names>O</given-names></name><name><surname>Banroques</surname><given-names>J</given-names></name><name><surname>Tanner</surname><given-names>NK</given-names></name><name><surname>Linder</surname><given-names>P</given-names></name></person-group>
+<year>2006</year>
+<article-title>The DEAD-box protein family of RNA helicases.</article-title>
+<source>Gene</source>
+<volume>367</volume>
+<fpage>17</fpage>
+<lpage>37</lpage>
+<pub-id pub-id-type="pmid">16337753</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Pyle1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pyle</surname><given-names>AM</given-names></name></person-group>
+<year>2008</year>
+<article-title>Translocation and unwinding mechanisms of RNA and DNA helicases.</article-title>
+<source>Annu Rev Biophys</source>
+<volume>37</volume>
+<fpage>317</fpage>
+<lpage>336</lpage>
+<pub-id pub-id-type="pmid">18573084</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Clark1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Clark</surname><given-names>EL</given-names></name><name><surname>Coulson</surname><given-names>A</given-names></name><name><surname>Dalgliesh</surname><given-names>C</given-names></name><name><surname>Rajan</surname><given-names>P</given-names></name><name><surname>Nicol</surname><given-names>SM</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>The RNA helicase p68 is a novel androgen receptor coactivator involved in splicing and is overexpressed in prostate cancer.</article-title>
+<source>Cancer Res</source>
+<volume>68</volume>
+<fpage>7938</fpage>
+<lpage>7946</lpage>
+<pub-id pub-id-type="pmid">18829551</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-FullerPace1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fuller-Pace</surname><given-names>FV</given-names></name><name><surname>Ali</surname><given-names>S</given-names></name></person-group>
+<year>2008</year>
+<article-title>The DEAD box RNA helicases p68 (Ddx5) and p72 (Ddx17): novel transcriptional co-regulators.</article-title>
+<source>Biochem Soc Trans</source>
+<volume>36</volume>
+<fpage>609</fpage>
+<lpage>612</lpage>
+<pub-id pub-id-type="pmid">18631126</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Wortham1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wortham</surname><given-names>NC</given-names></name><name><surname>Ahamed</surname><given-names>E</given-names></name><name><surname>Nicol</surname><given-names>SM</given-names></name><name><surname>Thomas</surname><given-names>RS</given-names></name><name><surname>Periyasamy</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>The DEAD-box protein p72 regulates ERalpha-/oestrogen-dependent transcription and cell growth, and is associated with improved survival in ERalpha-positive breast cancer.</article-title>
+<source>Oncogene</source>
+<volume>28</volume>
+<fpage>4053</fpage>
+<lpage>4064</lpage>
+<pub-id pub-id-type="pmid">19718048</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Abdelhaleem1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Abdelhaleem</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Do human RNA helicases have a role in cancer?</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1704</volume>
+<fpage>37</fpage>
+<lpage>46</lpage>
+<pub-id pub-id-type="pmid">15238243</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Schroder1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schroder</surname><given-names>M</given-names></name></person-group>
+<year>2010</year>
+<article-title>Human DEAD-box protein 3 has multiple functions in gene regulation and cell cycle control and is a prime target for viral manipulation.</article-title>
+<source>Biochem Pharmacol</source>
+<volume>79</volume>
+<fpage>297</fpage>
+<lpage>306</lpage>
+<pub-id pub-id-type="pmid">19782656</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Yount1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yount</surname><given-names>JS</given-names></name><name><surname>Gitlin</surname><given-names>L</given-names></name><name><surname>Moran</surname><given-names>TM</given-names></name><name><surname>Lopez</surname><given-names>CB</given-names></name></person-group>
+<year>2008</year>
+<article-title>MDA5 participates in the detection of paramyxovirus infection and is essential for the early activation of dendritic cells in response to Sendai Virus defective interfering particles.</article-title>
+<source>J Immunol</source>
+<volume>180</volume>
+<fpage>4910</fpage>
+<lpage>4918</lpage>
+<pub-id pub-id-type="pmid">18354215</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Takeuchi1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Takeuchi</surname><given-names>O</given-names></name><name><surname>Akira</surname><given-names>S</given-names></name></person-group>
+<year>2008</year>
+<article-title>MDA5/RIG-I and virus recognition.</article-title>
+<source>Curr Opin Immunol</source>
+<volume>20</volume>
+<fpage>17</fpage>
+<lpage>22</lpage>
+<pub-id pub-id-type="pmid">18272355</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Rehwinkel1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rehwinkel</surname><given-names>J</given-names></name><name><surname>Reis e Sousa</surname><given-names>C</given-names></name></person-group>
+<year>2010</year>
+<article-title>RIGorous detection: exposing virus through RNA sensing.</article-title>
+<source>Science</source>
+<volume>327</volume>
+<fpage>284</fpage>
+<lpage>286</lpage>
+<pub-id pub-id-type="pmid">20075242</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Crumpacker1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Crumpacker</surname><given-names>CS</given-names></name><name><surname>Schaffer</surname><given-names>PA</given-names></name></person-group>
+<year>2002</year>
+<article-title>New anti-HSV therapeutics target the helicase-primase complex.</article-title>
+<source>Nat Med</source>
+<volume>8</volume>
+<fpage>327</fpage>
+<lpage>328</lpage>
+<pub-id pub-id-type="pmid">11927930</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Frick1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Frick</surname><given-names>DN</given-names></name></person-group>
+<year>2003</year>
+<article-title>Helicases as antiviral drug targets.</article-title>
+<source>Drug News Perspect</source>
+<volume>16</volume>
+<fpage>355</fpage>
+<lpage>362</lpage>
+<pub-id pub-id-type="pmid">12973446</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Kwong1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kwong</surname><given-names>AD</given-names></name><name><surname>Rao</surname><given-names>BG</given-names></name><name><surname>Jeang</surname><given-names>KT</given-names></name></person-group>
+<year>2005</year>
+<article-title>Viral and cellular RNA helicases as antiviral targets.</article-title>
+<source>Nat Rev Drug Discov</source>
+<volume>4</volume>
+<fpage>845</fpage>
+<lpage>853</lpage>
+<pub-id pub-id-type="pmid">16184083</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Manfroni1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Manfroni</surname><given-names>G</given-names></name><name><surname>Paeshuyse</surname><given-names>J</given-names></name><name><surname>Massari</surname><given-names>S</given-names></name><name><surname>Zanoli</surname><given-names>S</given-names></name><name><surname>Gatto</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Inhibition of subgenomic hepatitis C virus RNA replication by acridone derivatives: identification of an NS3 helicase inhibitor.</article-title>
+<source>J Med Chem</source>
+<volume>52</volume>
+<fpage>3354</fpage>
+<lpage>3365</lpage>
+<pub-id pub-id-type="pmid">19388645</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Cencic1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cencic</surname><given-names>R</given-names></name><name><surname>Carrier</surname><given-names>M</given-names></name><name><surname>Galicia-Vazquez</surname><given-names>G</given-names></name><name><surname>Bordeleau</surname><given-names>ME</given-names></name><name><surname>Sukarieh</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Antitumor activity and mechanism of action of the cyclopenta[b]benzofuran, silvestrol.</article-title>
+<source>PLoS One</source>
+<volume>4</volume>
+<fpage>e5223</fpage>
+<pub-id pub-id-type="pmid">19401772</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-LeHir1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Le Hir</surname><given-names>H</given-names></name><name><surname>Andersen</surname><given-names>GR</given-names></name></person-group>
+<year>2008</year>
+<article-title>Structural insights into the exon junction complex.</article-title>
+<source>Curr Opin Struct Biol</source>
+<volume>18</volume>
+<fpage>112</fpage>
+<lpage>119</lpage>
+<pub-id pub-id-type="pmid">18164611</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Andersen1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Andersen</surname><given-names>CB</given-names></name><name><surname>Ballut</surname><given-names>L</given-names></name><name><surname>Johansen</surname><given-names>JS</given-names></name><name><surname>Chamieh</surname><given-names>H</given-names></name><name><surname>Nielsen</surname><given-names>KH</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Structure of the exon junction core complex with a trapped DEAD-box ATPase bound to RNA.</article-title>
+<source>Science</source>
+<volume>313</volume>
+<fpage>1968</fpage>
+<lpage>1972</lpage>
+<pub-id pub-id-type="pmid">16931718</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Sengoku1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sengoku</surname><given-names>T</given-names></name><name><surname>Nureki</surname><given-names>O</given-names></name><name><surname>Nakamura</surname><given-names>A</given-names></name><name><surname>Satoru</surname><given-names>KI</given-names></name><name><surname>Yokoyama</surname><given-names>S</given-names></name></person-group>
+<year>2006</year>
+<article-title>Structural basis for RNA unwinding by the DEAD-box protein Drosophila vasa.</article-title>
+<source>Cell</source>
+<volume>125</volume>
+<fpage>287</fpage>
+<lpage>300</lpage>
+<pub-id pub-id-type="pmid">16630817</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Bono1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bono</surname><given-names>F</given-names></name><name><surname>Ebert</surname><given-names>J</given-names></name><name><surname>Lorentzen</surname><given-names>E</given-names></name><name><surname>Conti</surname><given-names>E</given-names></name></person-group>
+<year>2006</year>
+<article-title>The crystal structure of the exon junction complex reveals how it maintains a stable grip on mRNA.</article-title>
+<source>Cell</source>
+<volume>126</volume>
+<fpage>713</fpage>
+<lpage>725</lpage>
+<pub-id pub-id-type="pmid">16923391</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Collins1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Collins</surname><given-names>R</given-names></name><name><surname>Karlberg</surname><given-names>T</given-names></name><name><surname>Lehtio</surname><given-names>L</given-names></name><name><surname>SchÃ¼tz</surname><given-names>P</given-names></name><name><surname>van den Berg</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>The DEXD/H-box RNA helicase DDX19 is regulated by an {alpha}-helical switch.</article-title>
+<source>J Biol Chem</source>
+<volume>284</volume>
+<fpage>10296</fpage>
+<lpage>10300</lpage>
+<pub-id pub-id-type="pmid">19244245</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Hilbert1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hilbert</surname><given-names>M</given-names></name><name><surname>Karow</surname><given-names>AR</given-names></name><name><surname>Klostermeier</surname><given-names>D</given-names></name></person-group>
+<year>2009</year>
+<article-title>The mechanism of ATP-dependent RNA unwinding by DEAD box proteins.</article-title>
+<source>Biol Chem</source>
+<volume>390</volume>
+<fpage>1237</fpage>
+<lpage>1250</lpage>
+<pub-id pub-id-type="pmid">19747077</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Hgbom1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>HÃ¶gbom</surname><given-names>M</given-names></name><name><surname>Collins</surname><given-names>R</given-names></name><name><surname>van den Berg</surname><given-names>S</given-names></name><name><surname>Jenvert</surname><given-names>RM</given-names></name><name><surname>Karlberg</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Crystal structure of conserved domains 1 and 2 of the human DEAD-box helicase DDX3X in complex with the mononucleotide AMP.</article-title>
+<source>J Mol Biol</source>
+<volume>372</volume>
+<fpage>150</fpage>
+<lpage>159</lpage>
+<pub-id pub-id-type="pmid">17631897</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Krissinel1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Krissinel</surname><given-names>E</given-names></name><name><surname>Henrick</surname><given-names>K</given-names></name></person-group>
+<year>2007</year>
+<article-title>Inference of macromolecular assemblies from crystalline state.</article-title>
+<source>J Mol Biol</source>
+<volume>3872</volume>
+<fpage>774</fpage>
+<lpage>797</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0012791-Banroques1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Banroques</surname><given-names>J</given-names></name><name><surname>Cordin</surname><given-names>O</given-names></name><name><surname>Doere</surname><given-names>M</given-names></name><name><surname>Linder</surname><given-names>P</given-names></name><name><surname>Tanner</surname><given-names>NK</given-names></name></person-group>
+<year>2008</year>
+<article-title>A conserved phenylalanine of motif IV in superfamily 2 helicases is required for cooperative, ATP-dependent binding of RNA substrates in DEAD-box proteins.</article-title>
+<source>Mol Cell Biol</source>
+<volume>28</volume>
+<fpage>3359</fpage>
+<lpage>3371</lpage>
+<pub-id pub-id-type="pmid">18332124</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Pause1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pause</surname><given-names>A</given-names></name><name><surname>Sonenberg</surname><given-names>N</given-names></name></person-group>
+<year>1992</year>
+<article-title>Mutational analysis of a DEAD box RNA helicase: the mammalian translation initiation factor eIF-4A.</article-title>
+<source>EMBO J</source>
+<volume>11</volume>
+<fpage>2643</fpage>
+<lpage>2654</lpage>
+<pub-id pub-id-type="pmid">1378397</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Talavera1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Talavera</surname><given-names>MA</given-names></name><name><surname>De La Cruz</surname><given-names>EM</given-names></name></person-group>
+<year>2005</year>
+<article-title>Equilibrium and kinetic analysis of nucleotide binding to the DEAD-box RNA helicase DbpA.</article-title>
+<source>Biochemistry</source>
+<volume>44</volume>
+<fpage>959</fpage>
+<lpage>970</lpage>
+<pub-id pub-id-type="pmid">15654752</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Karow1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karow</surname><given-names>AR</given-names></name><name><surname>Theissen</surname><given-names>B</given-names></name><name><surname>Klostermeier</surname><given-names>D</given-names></name></person-group>
+<year>2007</year>
+<article-title>Authentic interdomain communication in an RNA helicase reconstituted by expressed protein ligation of two helicase domains.</article-title>
+<source>FEBS J</source>
+<volume>274</volume>
+<fpage>463</fpage>
+<lpage>473</lpage>
+<pub-id pub-id-type="pmid">17229151</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Henn1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Henn</surname><given-names>A</given-names></name><name><surname>Cao</surname><given-names>WX</given-names></name><name><surname>Hackney</surname><given-names>DD</given-names></name><name><surname>De La Cruz</surname><given-names>EM</given-names></name></person-group>
+<year>2008</year>
+<article-title>The ATPase cycle mechanism of the DEAD-box rRNA helicase, DbpA.</article-title>
+<source>J Mol Biol</source>
+<volume>377</volume>
+<fpage>193</fpage>
+<lpage>205</lpage>
+<pub-id pub-id-type="pmid">18237742</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Theissen1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Theissen</surname><given-names>B</given-names></name><name><surname>Karow</surname><given-names>AR</given-names></name><name><surname>Kohler</surname><given-names>J</given-names></name><name><surname>Gubaev</surname><given-names>A</given-names></name><name><surname>Klostermeier</surname><given-names>D</given-names></name></person-group>
+<year>2008</year>
+<article-title>Cooperative binding of ATP and RNA induces a closed conformation in a DEAD box RNA helicase.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>105</volume>
+<fpage>548</fpage>
+<lpage>553</lpage>
+<pub-id pub-id-type="pmid">18184816</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Polach1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Polach</surname><given-names>KJ</given-names></name><name><surname>Uhlenbeck</surname><given-names>OC</given-names></name></person-group>
+<year>2002</year>
+<article-title>Cooperative binding of ATP and RNA substrates to the DEAD/H protein DbpA.</article-title>
+<source>Biochemistry</source>
+<volume>41</volume>
+<fpage>3693</fpage>
+<lpage>3702</lpage>
+<pub-id pub-id-type="pmid">11888286</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Mohr1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mohr</surname><given-names>S</given-names></name><name><surname>Stryker</surname><given-names>JM</given-names></name><name><surname>Lambowitz</surname><given-names>AM</given-names></name></person-group>
+<year>2002</year>
+<article-title>A DEAD-box protein functions as an ATP-dependent RNA chaperone in group I intron splicing.</article-title>
+<source>Cell</source>
+<volume>109</volume>
+<fpage>769</fpage>
+<lpage>779</lpage>
+<pub-id pub-id-type="pmid">12086675</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Cordin2">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cordin</surname><given-names>O</given-names></name><name><surname>Tanner</surname><given-names>NK</given-names></name><name><surname>Doere</surname><given-names>M</given-names></name><name><surname>Linder</surname><given-names>P</given-names></name><name><surname>Banroques</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>The newly discovered Q motif of DEAD-box RNA helicases regulates RNA-binding and helicase activity.</article-title>
+<source>EMBO J</source>
+<volume>23</volume>
+<fpage>2478</fpage>
+<lpage>2487</lpage>
+<pub-id pub-id-type="pmid">15201868</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Elles1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Elles</surname><given-names>LM</given-names></name><name><surname>Uhlenbeck</surname><given-names>OC</given-names></name></person-group>
+<year>2008</year>
+<article-title>Mutation of the arginine finger in the active site of Escherichia coli DbpA abolishes ATPase and helicase activity and confers a dominant slow growth phenotype.</article-title>
+<source>Nucl Ac Res</source>
+<volume>36</volume>
+<fpage>41</fpage>
+<lpage>50</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0012791-Nielsen1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nielsen</surname><given-names>KH</given-names></name><name><surname>Chamieh</surname><given-names>H</given-names></name><name><surname>Andersen</surname><given-names>CBF</given-names></name><name><surname>Fredslund</surname><given-names>F</given-names></name><name><surname>Hamborg</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Mechanism of ATP turnover inhibition in the EJC.</article-title>
+<source>RNA</source>
+<volume>15</volume>
+<fpage>67</fpage>
+<lpage>75</lpage>
+<pub-id pub-id-type="pmid">19033377</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Gu1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gu</surname><given-names>M</given-names></name><name><surname>Rice</surname><given-names>CM</given-names></name></person-group>
+<year>2010</year>
+<article-title>Three conformational snapshots of the hepatitis C virus NS3 helicase reveal a ratchet translocation mechanism.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>107</volume>
+<fpage>521</fpage>
+<lpage>528</lpage>
+<pub-id pub-id-type="pmid">20080715</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Jankowsky1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jankowsky</surname><given-names>E</given-names></name><name><surname>Gross</surname><given-names>CH</given-names></name><name><surname>Shuman</surname><given-names>S</given-names></name><name><surname>Pyle</surname><given-names>AM</given-names></name></person-group>
+<year>2000</year>
+<article-title>The DExH protein NPH-II is a processive and directional motor for unwinding RNA.</article-title>
+<source>Nature</source>
+<volume>403</volume>
+<fpage>447</fpage>
+<lpage>451</lpage>
+<pub-id pub-id-type="pmid">10667799</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-He1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>He</surname><given-names>Y</given-names></name><name><surname>Andersen</surname><given-names>GR</given-names></name><name><surname>Nielsen</surname><given-names>KH</given-names></name></person-group>
+<year>2010</year>
+<article-title>Structural basis for the function of DEAH helicases.</article-title>
+<source>EMBO Rep</source>
+<volume>11</volume>
+<fpage>180</fpage>
+<lpage>186</lpage>
+<pub-id pub-id-type="pmid">20168331</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Walbott1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Walbott</surname><given-names>H</given-names></name><name><surname>Mouffok</surname><given-names>S</given-names></name><name><surname>Capeyrou</surname><given-names>R</given-names></name><name><surname>Lebaron</surname><given-names>S</given-names></name><name><surname>Humbert</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Prp43p contains a processive helicase structural architecture with a specific regulatory domain.</article-title>
+<source>EMBO J</source>
+<volume>29</volume>
+<fpage>2194</fpage>
+<lpage>2202</lpage>
+<pub-id pub-id-type="pmid">20512115</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Jackson1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jackson</surname><given-names>RN</given-names></name><name><surname>Klauer</surname><given-names>AA</given-names></name><name><surname>Hintze</surname><given-names>BJ</given-names></name><name><surname>Robinson</surname><given-names>H</given-names></name><name><surname>van Hoof</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>The crystal structure of Mtr4 reveals a novel arch domain required for rRNA processing.</article-title>
+<source>EMBO J</source>
+<volume>29</volume>
+<fpage>2205</fpage>
+<lpage>2216</lpage>
+<pub-id pub-id-type="pmid">20512111</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Schtz1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>SchÃ¼tz</surname><given-names>P</given-names></name><name><surname>Wahlberg</surname><given-names>E</given-names></name><name><surname>Karlberg</surname><given-names>T</given-names></name><name><surname>HammarstrÃ¶m</surname><given-names>M</given-names></name><name><surname>Collins</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Crystal structure of human RNA helicase A (DHX9): Structural basis for unselective nucleotide base binding in a DEAD-box variant protein.</article-title>
+<source>J Mol Biol</source>
+<volume>400</volume>
+<fpage>768</fpage>
+<lpage>782</lpage>
+<pub-id pub-id-type="pmid">20510246</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Kabsch1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kabsch</surname><given-names>W</given-names></name></person-group>
+<year>1993</year>
+<article-title>Automatic processing of rotation diffraction data from crystals of initially unknown symmetry and cell constants.</article-title>
+<source>J Appl Cryst</source>
+<volume>26</volume>
+<fpage>795</fpage>
+<lpage>800</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0012791-Leslie1">
+        <label>44</label>
+        <element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Leslie</surname><given-names>AGW</given-names></name></person-group>
+<year>1992</year>
+<article-title>Recent changes to the MOSFLM package for processing film and image plate data.</article-title>
+<comment>No. 26</comment>
+</element-citation>
+      </ref>
+      <ref id="pone.0012791-Otwinowski1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Otwinowski</surname><given-names>Z</given-names></name><name><surname>Minor</surname><given-names>W</given-names></name></person-group>
+<year>1997</year>
+<article-title>Processing of X-ray diffraction data collected in oscillation mode.</article-title>
+<source>Meth Enzymol</source>
+<volume>276</volume>
+<fpage>307</fpage>
+<lpage>326</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0012791-Evans1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Evans</surname><given-names>P</given-names></name></person-group>
+<year>2006</year>
+<article-title>Scaling and assessment of data quality.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>62</volume>
+<fpage>72</fpage>
+<lpage>82</lpage>
+<pub-id pub-id-type="pmid">16369096</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-McCoy1">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McCoy</surname><given-names>AJ</given-names></name><name><surname>Grosse-Kunstleve</surname><given-names>RW</given-names></name><name><surname>Storoni</surname><given-names>LC</given-names></name><name><surname>Read</surname><given-names>RJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>Likelihood-enhanced fast translation functions.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>61</volume>
+<fpage>458</fpage>
+<lpage>464</lpage>
+<pub-id pub-id-type="pmid">15805601</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Vagin1">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vagin</surname><given-names>A</given-names></name><name><surname>Teplyakov</surname><given-names>A</given-names></name></person-group>
+<year>2010</year>
+<article-title>Molecular replacement with MOLREP.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>66</volume>
+<fpage>22</fpage>
+<lpage>25</lpage>
+<pub-id pub-id-type="pmid">20057045</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Murshudov1">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murshudov</surname><given-names>GN</given-names></name><name><surname>Vagin</surname><given-names>A</given-names></name><name><surname>Dodson</surname><given-names>EJ</given-names></name></person-group>
+<year>1997</year>
+<article-title>Refinement of macromolecular structures by the maximum-likelihood method.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>53</volume>
+<fpage>240</fpage>
+<lpage>255</lpage>
+<pub-id pub-id-type="pmid">15299926</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Emsley1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Emsley</surname><given-names>P</given-names></name><name><surname>Cowtan</surname><given-names>K</given-names></name></person-group>
+<year>2004</year>
+<article-title>Coot: model-building tools for molecular graphics.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>60</volume>
+<fpage>2126</fpage>
+<lpage>2132</lpage>
+<pub-id pub-id-type="pmid">15572765</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Pause2">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pause</surname><given-names>A</given-names></name><name><surname>Methot</surname><given-names>N</given-names></name><name><surname>Svitkin</surname><given-names>Y</given-names></name><name><surname>Merrick</surname><given-names>WC</given-names></name><name><surname>Sonenberg</surname><given-names>N</given-names></name></person-group>
+<year>1994</year>
+<article-title>Dominant negative mutants of mammalian translation initiation factor eIF-4A define a critical role for eIF-4F in cap-dependent and cap-independent initiation of translation.</article-title>
+<source>EMBO J</source>
+<volume>13</volume>
+<fpage>1205</fpage>
+<lpage>1215</lpage>
+<pub-id pub-id-type="pmid">8131750</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Gingras1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gingras</surname><given-names>AC</given-names></name><name><surname>Raught</surname><given-names>B</given-names></name><name><surname>Sonenberg</surname><given-names>N</given-names></name></person-group>
+<year>1999</year>
+<article-title>eIF4 initiation factors: effectors of mRNA recruitment to ribosomes and regulators of translation.</article-title>
+<source>Annu Rev Biochem</source>
+<volume>68</volume>
+<fpage>913</fpage>
+<lpage>963</lpage>
+<pub-id pub-id-type="pmid">10872469</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Marintchev1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marintchev</surname><given-names>A</given-names></name><name><surname>Edmonds</surname><given-names>KA</given-names></name><name><surname>Marintcheva</surname><given-names>B</given-names></name><name><surname>Hendrickson</surname><given-names>E</given-names></name><name><surname>Oberer</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Topology and regulation of the human eIF4A/4G/4H helicase complex in translation initiation.</article-title>
+<source>Cell</source>
+<volume>136</volume>
+<fpage>447</fpage>
+<lpage>460</lpage>
+<pub-id pub-id-type="pmid">19203580</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Grifo1">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grifo</surname><given-names>JA</given-names></name><name><surname>Abramson</surname><given-names>RD</given-names></name><name><surname>Satler</surname><given-names>CA</given-names></name><name><surname>Merrick</surname><given-names>WC</given-names></name></person-group>
+<year>1984</year>
+<article-title>RNA-stimulated ATPase activity of eukaryotic initiation factors.</article-title>
+<source>J Biol Chem</source>
+<volume>259</volume>
+<fpage>8648</fpage>
+<lpage>8654</lpage>
+<pub-id pub-id-type="pmid">6145716</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Moerke1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moerke</surname><given-names>NJ</given-names></name><name><surname>Aktas</surname><given-names>H</given-names></name><name><surname>Chen</surname><given-names>H</given-names></name><name><surname>Cantel</surname><given-names>S</given-names></name><name><surname>Reibarkh</surname><given-names>MY</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Small-molecule inhibition of the interaction between the translation initiation factors eIF4E and eIF4G.</article-title>
+<source>Cell</source>
+<volume>128</volume>
+<fpage>257</fpage>
+<lpage>267</lpage>
+<pub-id pub-id-type="pmid">17254965</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Avdulov1">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Avdulov</surname><given-names>S</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Michalek</surname><given-names>V</given-names></name><name><surname>Burrichter</surname><given-names>D</given-names></name><name><surname>Peterson</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Activation of translation complex eIF4F is essential for the genesis and maintenance of the malignant phenotype in human mammary epithelial cells.</article-title>
+<source>Cancer Cell</source>
+<volume>5</volume>
+<fpage>553</fpage>
+<lpage>563</lpage>
+<pub-id pub-id-type="pmid">15193258</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Lindqvist1">
+        <label>57</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lindqvist</surname><given-names>L</given-names></name><name><surname>Oberer</surname><given-names>M</given-names></name><name><surname>Reibarkh</surname><given-names>M</given-names></name><name><surname>Cencic</surname><given-names>R</given-names></name><name><surname>Bordeleau</surname><given-names>ME</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Selective pharmacological targeting of a DEAD box RNA helicase.</article-title>
+<source>PLoS One</source>
+<volume>3</volume>
+<fpage>e1583</fpage>
+<pub-id pub-id-type="pmid">18270573</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Arai1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arai</surname><given-names>Y</given-names></name><name><surname>Hosoda</surname><given-names>F</given-names></name><name><surname>Kobayashi</surname><given-names>H</given-names></name><name><surname>Arai</surname><given-names>K</given-names></name><name><surname>Hayashi</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>The inv(11)(p15q22) chromosome translocation of de novo and therapy-related myeloid malignancies results in fusion of the nucleoporin gene, NUP98, with the putative RNA helicase gene, DDX10.</article-title>
+<source>Blood</source>
+<volume>89</volume>
+<fpage>3936</fpage>
+<lpage>3944</lpage>
+<pub-id pub-id-type="pmid">9166830</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Nakamura1">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nakamura</surname><given-names>T</given-names></name><name><surname>Yamazaki</surname><given-names>Y</given-names></name><name><surname>Hatano</surname><given-names>Y</given-names></name><name><surname>Miura</surname><given-names>I</given-names></name></person-group>
+<year>1999</year>
+<article-title>NUP98 is fused to PMX1 homeobox gene in human acute myelogenous leukemia with chromosome translocation t(1;11)(q23;p15).</article-title>
+<source>Blood</source>
+<volume>94</volume>
+<fpage>741</fpage>
+<lpage>747</lpage>
+<pub-id pub-id-type="pmid">10397741</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Grandori1">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grandori</surname><given-names>C</given-names></name><name><surname>Mac</surname><given-names>J</given-names></name><name><surname>Siebelt</surname><given-names>F</given-names></name><name><surname>Ayer</surname><given-names>DE</given-names></name><name><surname>Eisenman</surname><given-names>RN</given-names></name></person-group>
+<year>1996</year>
+<article-title>Myc-Max heterodimers activate a DEAD box gene and interact with multiple E box-related sites in vivo.</article-title>
+<source>EMBO J</source>
+<volume>15</volume>
+<fpage>4344</fpage>
+<lpage>4357</lpage>
+<pub-id pub-id-type="pmid">8861962</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Dubaele1">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dubaele</surname><given-names>S</given-names></name><name><surname>Chene</surname><given-names>P</given-names></name></person-group>
+<year>2007</year>
+<article-title>Cellular studies of MrDb (DDX18).</article-title>
+<source>Oncol Res</source>
+<volume>16</volume>
+<fpage>549</fpage>
+<lpage>556</lpage>
+<pub-id pub-id-type="pmid">18351129</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Shpargel1">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shpargel</surname><given-names>KB</given-names></name><name><surname>Matera</surname><given-names>AG</given-names></name></person-group>
+<year>2005</year>
+<article-title>Gemin proteins are required for efficient assembly of Sm-class ribonucleoproteins.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>
+<fpage>17372</fpage>
+<lpage>17377</lpage>
+<pub-id pub-id-type="pmid">16301532</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Cauchi1">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cauchi</surname><given-names>RJ</given-names></name><name><surname>Davies</surname><given-names>KE</given-names></name><name><surname>Liu</surname><given-names>JL</given-names></name></person-group>
+<year>2008</year>
+<article-title>A motor function for the DEAD-box RNA helicase, Gemin3, in Drosophila.</article-title>
+<source>PLoS Genet</source>
+<volume>4</volume>
+<fpage>e1000265</fpage>
+<pub-id pub-id-type="pmid">19023405</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Almstead1">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Almstead</surname><given-names>LL</given-names></name><name><surname>Sarnow</surname><given-names>P</given-names></name></person-group>
+<year>2007</year>
+<article-title>Inhibition of U snRNP assembly by a virus-encoded proteinase.</article-title>
+<source>Genes Dev</source>
+<volume>21</volume>
+<fpage>1086</fpage>
+<lpage>1097</lpage>
+<pub-id pub-id-type="pmid">17473171</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-TsaiMorris1">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsai-Morris</surname><given-names>CH</given-names></name><name><surname>Sheng</surname><given-names>Y</given-names></name><name><surname>Lee</surname><given-names>E</given-names></name><name><surname>Lei</surname><given-names>KJ</given-names></name><name><surname>Dufau</surname><given-names>ML</given-names></name></person-group>
+<year>2004</year>
+<article-title>Gonadotropin-regulated testicular RNA helicase (GRTH/Ddx25) is essential for spermatid development and completion of spermatogenesis.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>6373</fpage>
+<lpage>6378</lpage>
+<pub-id pub-id-type="pmid">15096601</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Dufau1">
+        <label>66</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dufau</surname><given-names>ML</given-names></name><name><surname>Tsai-Morris</surname><given-names>CH</given-names></name></person-group>
+<year>2007</year>
+<article-title>Gonadotropin-regulated testicular helicase (GRTH/DDX25): an essential regulator of spermatogenesis.</article-title>
+<source>Trends Endocrinol Metab</source>
+<volume>18</volume>
+<fpage>314</fpage>
+<lpage>320</lpage>
+<pub-id pub-id-type="pmid">17889551</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Sekito1">
+        <label>67</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sekito</surname><given-names>A</given-names></name><name><surname>Taira</surname><given-names>T</given-names></name><name><surname>Niki</surname><given-names>T</given-names></name><name><surname>Iguchi-Ariga</surname><given-names>SM</given-names></name><name><surname>Ariga</surname><given-names>H</given-names></name></person-group>
+<year>2005</year>
+<article-title>Stimulation of transforming activity of DJ-1 by Abstrakt, a DJ-1-binding protein.</article-title>
+<source>Int J Oncol</source>
+<volume>26</volume>
+<fpage>685</fpage>
+<lpage>689</lpage>
+<pub-id pub-id-type="pmid">15703824</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Sekiguchi1">
+        <label>68</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sekiguchi</surname><given-names>T</given-names></name><name><surname>Hayano</surname><given-names>T</given-names></name><name><surname>Yanagida</surname><given-names>M</given-names></name><name><surname>Takahashi</surname><given-names>N</given-names></name><name><surname>Nishimoto</surname><given-names>T</given-names></name></person-group>
+<year>2006</year>
+<article-title>NOP132 is required for proper nucleolus localization of DEAD-box RNA helicase DDX47.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>34</volume>
+<fpage>4593</fpage>
+<lpage>4608</lpage>
+<pub-id pub-id-type="pmid">16963496</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Bohnsack1">
+        <label>69</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bohnsack</surname><given-names>MT</given-names></name><name><surname>Kos</surname><given-names>M</given-names></name><name><surname>Tollervey</surname><given-names>D</given-names></name></person-group>
+<year>2008</year>
+<article-title>Quantitative analysis of snoRNA association with pre-ribosomes and release of snR30 by Rok1 helicase.</article-title>
+<source>EMBO Rep</source>
+<volume>9</volume>
+<fpage>1230</fpage>
+<lpage>1236</lpage>
+<pub-id pub-id-type="pmid">18833290</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Cho1">
+        <label>70</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cho</surname><given-names>B</given-names></name><name><surname>Lee</surname><given-names>H</given-names></name><name><surname>Jeong</surname><given-names>S</given-names></name><name><surname>Bang</surname><given-names>YJ</given-names></name><name><surname>Lee</surname><given-names>HJ</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Promoter hypomethylation of a novel cancer/testis antigen gene CAGE is correlated with its aberrant expression and is seen in premalignant stage of gastric carcinoma.</article-title>
+<source>Biochem Biophys Res Commun</source>
+<volume>307</volume>
+<fpage>52</fpage>
+<lpage>63</lpage>
+<pub-id pub-id-type="pmid">12849980</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Diederichs1">
+        <label>71</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Diederichs</surname><given-names>K</given-names></name><name><surname>Karplus</surname><given-names>PA</given-names></name></person-group>
+<year>1997</year>
+<article-title>Improved R-factors for diffraction data analysis in macromolecular crystallography.</article-title>
+<source>Nat Struct Biol</source>
+<volume>4</volume>
+<fpage>269</fpage>
+<lpage>275</lpage>
+<pub-id pub-id-type="pmid">9095194</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Arndt1">
+        <label>72</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Arndt</surname><given-names>UW</given-names></name><name><surname>Crowther</surname><given-names>RA</given-names></name><name><surname>Mallett</surname><given-names>JF</given-names></name></person-group>
+<year>1968</year>
+<article-title>A computer-linked cathode-ray tube microdensitometer for x-ray crystallography.</article-title>
+<source>J Sci Instrum</source>
+<volume>1</volume>
+<fpage>510</fpage>
+<lpage>516</lpage>
+<pub-id pub-id-type="pmid">5317723</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0012791-Weiss1">
+        <label>73</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Weiss</surname><given-names>M</given-names></name><name><surname>Hilgenfeld</surname><given-names>R</given-names></name></person-group>
+<year>1997</year>
+<article-title>On the use of the merging R factor as a quality indicator for X-ray data.</article-title>
+<source>J Appl Crystallogr</source>
+<fpage>203</fpage>
+<lpage>205</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0012791-Davis1">
+        <label>74</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>IW</given-names></name><name><surname>Leaver-Fay</surname><given-names>A</given-names></name><name><surname>Chen</surname><given-names>VB</given-names></name><name><surname>Block</surname><given-names>JN</given-names></name><name><surname>Kapral</surname><given-names>GJ</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>MolProbity: all-atom contacts and structure validation for proteins and nucleic acids.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>35</volume>
+<fpage>W375</fpage>
+<lpage>W383</lpage>
+<pub-id pub-id-type="pmid">17452350</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,711 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:58:31Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4595607" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4595607</identifier><datestamp>2015-10-21</datestamp><setSpec>npgopen</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Pub. Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4595607</article-id>
+      <article-id pub-id-type="pmcid">PMC4595607</article-id>
+      <article-id pub-id-type="pmc-uid">4595607</article-id>
+      <article-id pub-id-type="pmid">26382858</article-id>
+      <article-id pub-id-type="pii">ncomms9192</article-id>
+      <article-id pub-id-type="doi">10.1038/ncomms9192</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>mRNA export through an additional cap-binding complex consisting of NCBP1 and NCBP3</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gebhardt</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="author-notes" rid="n1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Habjan</surname>
+            <given-names>Matthias</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="author-notes" rid="n1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Benda</surname>
+            <given-names>Christian</given-names>
+          </name>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Meiler</surname>
+            <given-names>Arno</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Haas</surname>
+            <given-names>Darya A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hein</surname>
+            <given-names>Marco Y.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9490-2261</contrib-id>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mann</surname>
+            <given-names>Angelika</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mann</surname>
+            <given-names>Matthias</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Habermann</surname>
+            <given-names>Bianca</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pichlmair</surname>
+            <given-names>Andreas</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1">a</xref>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <aff id="a1"><label>1</label><institution>Innate Immunity Laboratory, Max-Planck Institute of Biochemistry</institution>, Martinsried, Munich D-82152, <country>Germany</country></aff>
+        <aff id="a2"><label>2</label><institution>Department of Structural Cell Biology, Max-Planck Institute of Biochemistry</institution>, Martinsried, Munich D-82152, <country>Germany</country></aff>
+        <aff id="a3"><label>3</label><institution>Department of Proteomics and Signal Transduction, Max-Planck Institute of Biochemistry</institution>, Martinsried, Munich D-82152, <country>Germany</country></aff>
+        <aff id="a4"><label>4</label><institution>Bioinformatics Core Facility, Max-Planck Institute of Biochemistry</institution>, Martinsried, Munich D-82152, <country>Germany</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1">
+          <label>a</label>
+          <email>apichl@biochem.mpg.de</email>
+        </corresp>
+        <fn id="n1">
+          <label>*</label>
+          <p>These authors contributed equally to this work.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>18</day>
+        <month>09</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>8192</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>02</day>
+          <month>03</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>28</day>
+          <month>07</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â© 2015, Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The flow of genetic information from DNA to protein requires polymerase-II-transcribed RNA characterized by the presence of a 5â²-cap. The cap-binding complex (CBC), consisting of the nuclear cap-binding protein (NCBP) 2 and its adaptor NCBP1, is believed to bind all capped RNA and to be necessary for its processing and intracellular localization. Here we show that NCBP1, but not NCBP2, is required for cell viability and poly(A) RNA export. We identify C17orf85 (here named NCBP3) as a cap-binding protein that together with NCBP1 forms an alternative CBC in higher eukaryotes. NCBP3 binds mRNA, associates with components of the mRNA processing machinery and contributes to poly(A) RNA export. Loss of NCBP3 can be compensated by NCBP2 under steady-state conditions. However, NCBP3 becomes pivotal under stress conditions, such as virus infection. We propose the existence of an alternative CBC involving NCBP1 and NCBP3 that plays a key role in mRNA biogenesis.</p>
+      </abstract>
+      <abstract abstract-type="web-summary">
+        <p>
+<inline-graphic id="i1" xlink:href="ncomms9192-i1.jpg"/>The processing of RNAs transcribed by RNA polymerase II requires a cap-binding complex (CBC), consisting of NCBP1 and NCBP2. Here, the authors report an alternative CBC formed by NCBP1 and a previously uncharacterized protein, NCBP3 that is critical for RNA processing under cellular stress conditions.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>Expression of all germline-encoded genetic information in eukaryotes requires RNA transcription through polymerase complexes and subsequent RNA processing, export and translation. Polymerase II transcripts, such as messenger (mRNA), antisense (asRNA), long intergenic non-coding (lincRNA) and small nuclear RNA (snRNA) are marked by an N7-methylated guanine (m<sup>7</sup>G) âcap structure' that is co-transcriptionally attached to the 5â²-end of the RNA and serves as a signal for engaging proteins required for downstream processing<xref ref-type="bibr" rid="b1">1</xref>. Consistent with this notion, splicing and export of snRNA and mRNA can be inhibited by exogenously providing cap analogues<xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref>. The RNA cap structure is bound by the highly conserved nuclear cap-binding complex (CBC), a central factor, known to orchestrate most downstream RNA biogenesis processes such as pre-mRNA splicing, 3â²-end processing, nonsense-mediated decay, nuclearâcytoplasmic transport and recruitment of translation factors in the cytoplasm<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b5">5</xref><xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref><xref ref-type="bibr" rid="b8">8</xref>. The CBC consists of a heterodimer formed by nuclear cap-binding protein 2 (NCBP2, also known as CBP20), which directly associates with the RNA cap, and NCBP1 (also known as CBP80), which stabilizes NCBP2 and serves as an adaptor for other RNA processing factors<xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref>. The central role of the CBC is demonstrated by short interfering RNA (siRNA)-mediated depletion of NCBP1, which results in deregulated expression of several hundred genes, a reduction in the cell proliferation rate<xref ref-type="bibr" rid="b13">13</xref> and reduction of co-transcriptional spliceosome assembly<xref ref-type="bibr" rid="b14">14</xref>. NCBP1 directly binds the mRNA export factor ALYREF, and âCBC competition experiments' using excess of capped RNA led to the conclusion that NCBP1 is involved in mRNA and U snRNA export from the nucleus<xref ref-type="bibr" rid="b15">15</xref>. However, despite the apparent requirement of NCBP1 for export of capped RNA, antibody-mediated inhibition of NCBP2 <italic>in vivo</italic> only impairs export of U snRNA, but not mRNA<xref ref-type="bibr" rid="b8">8</xref>. In addition to these data, several genome-wide RNA interference (RNAi)-based screens in human cells that allow assessment of loss-of-function phenotypes in an unbiased manner found that depletion of NCBP1 negatively affects cell growth and viability, whereas depletion of NCBP2 showed only weak phenotypes<xref ref-type="bibr" rid="b16">16</xref><xref ref-type="bibr" rid="b17">17</xref><xref ref-type="bibr" rid="b18">18</xref>. Collectively, these data suggest that the two CBC subunits only in part share the same biological function. Thus, we questioned whether an additional protein exists that has partially redundant activity to NCBP2 and associates with NCBP1 to form an alternative CBC.</p>
+    <p>Here, we identify the largely uncharacterized protein C17orf85 (NCBP3) as a novel genuine cap-binding protein that directly interacts with NCBP1 and binds cellular mRNA. Similar to NCBP2, NCBP3 is non-essential under steady-state conditions. However, simultaneous depletion of NCBP2 and -3 mimics the phenotype of NCBP1 knockdown. Notably, NCBP3 becomes pivotal under cellular stress conditions, such as virus infections. We propose the existence of a canonical and an alternative CBC that is fundamental for mRNA biogenesis of higher eukaryotes.</p>
+    <sec disp-level="1" sec-type="results">
+      <title>Results</title>
+      <sec disp-level="2">
+        <title>Loss of NCBP1 and NCBP2 leads to different phenotypes</title>
+        <p>To study the individual requirement of CBC components NCBP1 and NCBP2 for cell viability, we evaluated cell growth after their transient siRNA-mediated depletion in HeLa cells. As expected, depletion of NCBP1 or the Nuclear RNA export factor 1 (NXF1, also known as TAP) severely affected cell growth (<xref ref-type="fig" rid="f1">Fig. 1a</xref>). Surprisingly, after selective depletion of NCBP2, we did not observe a similar effect on cell viability. Likewise, depletion of NCBP2 did not affect intracellular distribution of poly-adenylated (poly(A)) mRNA, as tested by RNA fluorescence <italic>in situ</italic> hybridization (RNA-FISH) (<xref ref-type="fig" rid="f1">Fig. 1b</xref>). In contrast, loss of NCBP1 resulted in accumulation of poly(A) RNA in the nucleus, confirming a critical role of NCBP1 in mRNA export<xref ref-type="bibr" rid="b15">15</xref>. Since NCBP1 cannot directly associate with capped RNA, we hypothesized on the existence of a protein with a redundant function to NCBP2, that is, a protein with the ability to bridge the association between capped RNA and NCBP1. Contribution of NCBP1 to additional protein complexes is supported by protein expression data based on quantitative mass spectrometry (MS) that suggest about three times higher abundance of NCBP1 as compared with NCBP2 (<xref ref-type="fig" rid="f1">Fig. 1c</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Identification of C17orf85 as cap-binding protein NCBP3</title>
+        <p>A protein with redundant function to NCBP2 should have the ability to associate with the RNA cap structure and to bind to NCBP1 to engage factors required for RNA biogenesis. To identify potential candidate proteins, we performed affinity purification followed by liquid chromatography tandem MS (APâLCâMS/MS) using lysates from human and mouse cell lines and capped and non-capped RNA as baits (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1a</xref>). Capped RNA reliably enriched proteins known to associate directly with the RNA cap structure, among them the CBC (consisting of NCBP1 and -2)<xref ref-type="bibr" rid="b6">6</xref>, the genuine cap-binding protein EIF4E<xref ref-type="bibr" rid="b1">1</xref> and the antiviral protein IFIT1 (ref. <xref ref-type="bibr" rid="b19">19</xref>) from human THP-1 and RAW 264.7 cell lysates (<xref ref-type="fig" rid="f2">Fig. 2a,b</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Data 1</xref>). Among the proteins identified in human and murine cell lysates was only one protein, C17orf85 (also known as ELG), for which we could not explain its association with RNA in a cap-dependent manner<xref ref-type="bibr" rid="b20">20</xref><xref ref-type="bibr" rid="b21">21</xref>. C17orf85 is a highly conserved protein, and orthologues can be found in the fungal and metazoan kingdoms (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Data 2</xref>), suggesting evolutionary conservation for more than one billion years. However, based on currently available whole-genome sequencing data, it seems to have been lost at least by some <italic>Muscomorpha</italic> and <italic>Saccharomycetaceae</italic>, which include <italic>Drosophila melanogaster</italic> and <italic>Saccharomyces cerevisiae</italic>, respectively. Recent data on distribution of proteins in human tissues suggest that C17orf85 is expressed in all tissues<xref ref-type="bibr" rid="b22">22</xref>. Consistent with a potential redundant role to NCBP2, endogenous and green fluorescent protein (GFP)-tagged C17orf85 showed predominantly nuclear localization (<xref ref-type="fig" rid="f2">Fig. 2c</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3a</xref>). Subcellular fractionation confirmed the nuclear localization, but also identified a cytoplasmic proportion (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3b</xref>), a phenotype often found for proteins involved in RNA export<xref ref-type="bibr" rid="b23">23</xref><xref ref-type="bibr" rid="b24">24</xref>. Here, we name C17orf85 NCBP3 for nuclear cap-binding protein 3.</p>
+        <p>To confirm cap-dependent binding of NCBP3, we used capped and non-capped RNA as bait for AP, followed by western blotting. NCBP3 precipitated with capped RNA in human THP-1 and murine RAW 264.7 cells comparably well as the cap-binding protein EIF4E (<xref ref-type="fig" rid="f2">Fig. 2d</xref>). The canonical CBC has been mainly studied in human HeLa cells. We therefore confirmed the presence and binding of NCBP3 to capped RNA in HeLa cells (<xref ref-type="fig" rid="f2">Fig. 2d</xref>). In line with specific affinity for the cap structure, NCBP3 was precipitated from cell lysates using N7-methylated guanosine-5â²-triphosphate (m<sup>7</sup>GTP)-coupled beads (<xref ref-type="fig" rid="f2">Fig. 2e</xref>). m<sup>7</sup>GTP also precipitated the CBC component NCBP1 but not poly-A-binding protein 1 (PABP1), confirming specificity of this assay.</p>
+        <p>To functionally assess the potential contribution of NCBP3 to compensate for loss of NCBP2, we employed siRNA-based knockdown and tested for cell growth in HeLa cells. Depletion of either NCBP2 or NCBP3 alone did not considerably affect cell growth (<xref ref-type="fig" rid="f2">Fig. 2f</xref>) despite efficient and specific knockdown as tested by quantitative reverse transcription (qRT)âPCR, western blotting and quantitative proteomics (<xref ref-type="fig" rid="f2">Fig. 2g</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>). Although we cannot rule out that residual amounts of the proteins are sufficient for biological activity, simultaneous depletion of NCBP2 and NCBP3 with comparable efficiency markedly reduced cell growth and mimicked loss of NCBP1 (<xref ref-type="fig" rid="f2">Fig. 2f,g</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4c</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>). An analogous experiment in murine NIH3T3 cells confirmed that depletion of both, Ncbp2 and Ncbp3 also inhibited cell growth in mouse cells, whereas individual knockdown of the two proteins did not (<xref ref-type="fig" rid="f2">Fig. 2h</xref>). In summary, these experiments suggest that loss of NCBP2 and NCBP3 is synthetically lethal, and highlight NCBP3 as a prime candidate for formation of an alternative CBC in mammalian cells.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Mechanism of cap-RNA binding by NCBP3</title>
+        <p>NCBP1 lacks a canonical RNA or cap recognition domain. Hence, binding to capped RNA is mediated by its partner NCBP2. As suggested above, in an alternative scenario, cap binding could also be mediated by NCBP3. Indeed, homology-based structure prediction of NCBP3 suggested the presence of a canonical RNA recognition motif (RRM) fold (Î²1âÎ±1âÎ²2âÎ²3âÎ±2âÎ²4)<xref ref-type="bibr" rid="b25">25</xref> in the N-terminal region of the protein (residues 126â187) (<xref ref-type="fig" rid="f3">Fig. 3a</xref>). The C-terminal part of NCBP3 is unstructured, and a homology search did not reveal the presence of any other predicted domains. Two nuclear localization signals explain the predominant nuclear staining in confocal microscopy and subcellular fractionation analysis (<xref ref-type="fig" rid="f2">Fig. 2c</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3</xref>). Comparative modelling<xref ref-type="bibr" rid="b26">26</xref> using HHpred resulted in a structural model for the core RRM domain (<xref ref-type="fig" rid="f3">Fig. 3b</xref>) based on the RRM of poly(A)-specific ribonuclease PARN, a protein known to bind the cap analogue m<sup>7</sup>GpppG. The RRM of NCBP3 shares high sequence homology (identity of 21.4% for residues 121â191) and critical residues with the RRM of PARN (<xref ref-type="fig" rid="f3">Fig. 3aâc</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5a</xref>)<xref ref-type="bibr" rid="b27">27</xref><xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b29">29</xref> as well as with the RRM of NCBP2, although with lower sequence identity (16.4%) (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5b</xref>). To study whether NCBP3 has the ability to directly bind capped RNA, we generated recombinant NCBP3 in <italic>Escherichia coli</italic>. Both, the full-length protein and an N-terminal cleavage fragment of NCBP3 precipitated with RNA in a cap-dependent manner (<xref ref-type="fig" rid="f3">Fig. 3d</xref>). The hallmark of the cap structure is a methyl group at the N7 position of the guanosine, and genuine cap-binding proteins such as EIF4E have the ability to distinguish between N7-methylated and unmethylated GTP. Consistent with this notion, recombinant NCBP3 selectively bound m<sup>7</sup>GTP but not GTP (<xref ref-type="fig" rid="f3">Fig. 3e</xref>). A highly purified N-terminal fragment (position 1â282 amino acids) consisting of the core RRM was sufficient for selective binding (<xref ref-type="fig" rid="f3">Fig. 3f</xref>). Microscale thermophoresis (MST)-based affinity measurements showed that the RRM-containing fragment has an affinity to cap-RNA in the low micromolar range (15.8Â±0.84âÎ¼M), which is comparable to the affinity of PARN to m<sup>7</sup>GpppG<xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b30">30</xref> (<xref ref-type="fig" rid="f3">Fig. 3g</xref>).</p>
+        <p>In case of PARN, a conserved WXDD motif located in loop Î²2âÎ²3 is involved in m<sup>7</sup>GpppG binding. N7-methylated GTP is bound to a surface pocket on the C-terminal RRM of PARN mainly through Ï-interaction with tryptophan W468 and polar interactions with two aspartic acids, D471 and D470 (ref. <xref ref-type="bibr" rid="b29">29</xref>). According to the predicted model, NCBP3 has a similar motif (WLDD) forming a negatively charged groove (D157, D158) with an aromatic platform for Ï-interaction (W155; <xref ref-type="fig" rid="f3">Fig. 3b,c</xref>). To test whether NCBP3 uses these residues for cap-RNA binding, we generated point mutants in this putative RNA-binding motif. Whereas a single D134A mutation in close vicinity of the RNA-binding groove only marginally affected cap binding, mutation of the NCBP3 WLDD motif to ALAA resulted in loss of binding to capped RNA and m<sup>7</sup>GTP (<xref ref-type="fig" rid="f3">Fig. 3f,h</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6a</xref>). To ensure that the introduced mutations did not influence the overall integrity and folding of the recombinant proteins, we used circular dichroism (CD) spectroscopy to analyse the secondary structure content. Both samples showed comparable CD spectra, irrespective of the introduced modification, suggesting that both proteins adopt a similar fold (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5b</xref>). This shows that NCBP3 binds to the cap structure through a canonical binding mechanism using a core RRM and the conserved WLDD motif.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>NCBP3 associates with NCBP1 and mRNA processing factors</title>
+        <p>To gain further insights into biological functions of NCBP3, we performed quantitative shotgun APâLCâMS/MS (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7a</xref>)<xref ref-type="bibr" rid="b31">31</xref>. To this aim, we used HeLa cell lines that stably express GFP-tagged NCBP3, NCBP2 and an unrelated control protein (RAB5C) from their endogenous promoters as baits<xref ref-type="bibr" rid="b32">32</xref><xref ref-type="bibr" rid="b33">33</xref>. NCBP3 significantly enriched for 88 proteins (<xref ref-type="fig" rid="f4">Fig. 4a</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7b</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Data 4</xref>) that are mostly related to RNA biogenesis, particularly mRNA transport<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b5">5</xref><xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref><xref ref-type="bibr" rid="b34">34</xref><xref ref-type="bibr" rid="b35">35</xref> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7c</xref>). Most importantly, the CBC component NCBP1 was found to interact with NCBP3 (<xref ref-type="fig" rid="f4">Fig. 4a,b</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7b</xref>). Besides NCBP1, NCBP3 prominently interacted with components of the TRanscription EXport (TREX) complex (for example, THOC1, -2, -3, -5, -6, -7, DDX39B) that function in mRNA export from the nucleus. NCBP3 further associated with proteins belonging to the exon junction complex (EJC) (MAGOHB, SAP18, EIF4A3, PNN and ACIN1), which are deposited on spliced mRNAs and are involved in mRNA stability. Although NCBP2 precipitates also contained components of the TREX complex and EJC, their enrichment was not statistically significant as compared with control APs (<xref ref-type="fig" rid="f4">Fig. 4a</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7b</xref>). However, NCBP2 precipitates showed high enrichment for the phosphorylated adaptor for RNA export (PHAX) known for its function in U snRNA nuclear export<xref ref-type="bibr" rid="b36">36</xref> and the negative elongation factor (NELF) complex (consisting of NELFA, NELFB, NELFCD and NELFE), which participates in 3â²-end processing of histone mRNAs<xref ref-type="bibr" rid="b13">13</xref> (<xref ref-type="fig" rid="f4">Fig. 4a,b</xref>; <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7b</xref>). We independently confirmed the APâLCâMS/MS data by co-precipitation experiments, followed by western blotting (<xref ref-type="fig" rid="f4">Fig. 4c</xref>). We concluded that NCBP2 and NCBP3 can both bind NCBP1. However, directly comparing NCBP3 and NCBP2 suggests that they preferentially bind proteins involved in mRNA processing/export and snRNA export, respectively.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>An alternative CBC</title>
+        <p>The association of NCBP3 to NCBP1 suggested formation of an alternative CBC. To formally test whether NCBP3 and NCBP1 directly bind to each other, we co-expressed both proteins in <italic>E. coli</italic> and performed co-precipitation experiments. In line with our hypothesis, NCBP1 co-precipitated with NCBP3 but not with a negative control, endorsing a direct interaction between NCBP3 and NCBP1 (<xref ref-type="fig" rid="f4">Fig. 4d</xref>) and suggesting the formation of an alternative CBC that is reminiscent of the canonical CBC consisting of NCBP1 and -2. This result further suggested that NCBP2 and NCBP3 have the ability to individually bridge the association of NCBP1 to capped RNA. To test this in a mammalian system, we depleted NCBP2, NCBP3 or both proteins in HeLa cells and precipitated NCBP1 using m<sup>7</sup>GTP beads. Consistent with the presence of two CBCs, NCBP1 could be recovered from m<sup>7</sup>GTP beads in the absence of either NCBP2 or NCBP3 (<xref ref-type="fig" rid="f4">Fig. 4e</xref>). However, in the absence of NCBP2 and -3, NCBP1 binding to m<sup>7</sup>GTP beads was markedly impaired, indicating that in mammalian cells NCBP1 requires either NCBP2 or NCBP3 for cap-RNA association. This effect was specific for NCBP1, since the cap-binding protein EIF4E precipitated with m<sup>7</sup>GTP beads with similar efficiency in all cases.</p>
+        <p>Binding of NCBP2 to NCBP1 requires residues located in the RRM. Sequence alignments of the NCBP2 and NCBP3 RRM domains showed that the residues critical for NCBP1 binding in NCBP2 are not conserved in NCBP3 (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5b</xref>). Consistent with this finding, yeast two-hybrid data indicated that NCBP3 binds NCBP1 through its unstructured C-terminal region<xref ref-type="bibr" rid="b37">37</xref>. These findings provide evidence that NCBP2 and NCBP3 use different domains to bridge the association of NCBP1 to capped RNA.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Specificity of RNA types bound by NCBP2 and NCBP3</title>
+        <p>Collectively, our data show that NCBP3 has affinity for the RNA cap structure and bridges NCBP1 binding to m<sup>7</sup>GTP in an NCBP2-independent manner. The binding of different RNA processing proteins highlights the possibility that distinct types of RNA associate with either NCBP2 or NCBP3. To test this, we precipitated GFP-tagged NCBP3, NCBP2 or control and sequenced bound RNA by deep sequencing (RNA immunoprecipitation followed by deep sequencing, RIP-Seq). In agreement with the ability of NCBP3 and NCBP2 to associate with the cap structure, both proteins enriched for capped RNAs as compared with control precipitates (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 5</xref>). Plotting the individual RNAs enriched by NCBP2 and NCBP3 and colour coding for the respective RNA species revealed an RNA-binding pattern for both proteins: NCBP2 precipitates showed particularly high enrichment for snRNA, lincRNA and asRNA (<xref ref-type="fig" rid="f5">Fig. 5a,b</xref>). Among individual mRNAs, histone mRNAs were mainly apparent in NCBP2 precipitates (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 5</xref>). In contrast, NCBP3 associated with mRNA, but did not bind snRNA, and comparably less asRNA and lincRNA (<xref ref-type="fig" rid="f5">Fig. 5b</xref>). The majority of mRNAs bound both NCBP2 and -3 with only a limited number of mRNAs showing more than twofold enrichment in either NCBP3 versus NCBP2 (<xref ref-type="fig" rid="f5">Fig. 5b</xref>, orange) or NCBP2 versus NCBP3 precipitates (<xref ref-type="fig" rid="f5">Fig. 5b</xref>, green). We validated the differences in binding to mRNA and snRNA using qRTâPCR (<xref ref-type="fig" rid="f5">Fig. 5c</xref>). NCBP2 bound mRNAs (MYC, SLC43A3) and snRNAs (U1, U4), whereas NCBP3 selectively bound mRNAs (MYC, SLC43A3) but did not enrich for snRNAs. Collectively, this suggested that snRNA, lincRNA and asRNA preferentially bind NCBP2, while mRNAs can be bound by either NCBP2 or -3. The RIP-Seq data were in strong agreement with the proteinâprotein interaction data (<xref ref-type="fig" rid="f4">Fig. 4</xref>) that showed selective binding of PHAX (transporting snRNA) and NELF (3â²-end processing of replication-dependent histone mRNAs) to NCBP2 (refs <xref ref-type="bibr" rid="b5">5</xref>, <xref ref-type="bibr" rid="b13">13</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>NCBP2 and -3 individually contribute to mRNA export</title>
+        <p>Our data suggested that both, NCBP2 and -3 have the ability to bind mRNA and to recruit proteins involved in RNA processing. We therefore tested whether both proteins individually contribute to nuclearâcytoplasmic transport of mRNA. In RNA-FISH experiments, depletion of either NCBP2 or -3 did not considerably change poly(A) RNA distribution (<xref ref-type="fig" rid="f6">Fig. 6a</xref>). Remarkably, simultaneous depletion of NCBP2 and -3 trapped poly(A) RNA in the nucleus. We quantified the ratio between the nuclear and cytoplasmic poly(A) RNA signal and found similar ratios for co-depletion of NCBP2 and -3 as compared with depletion of NCBP1 (<xref ref-type="fig" rid="f6">Fig. 6b</xref>). To assess whether this is a direct effect of individual NCBP depletion or an indirect effect on expression of mRNA processing factors, we performed quantitative proteomics of siRNA-treated cells, which allows simultaneous quantification of over 5,000 proteins (<xref ref-type="supplementary-material" rid="S1">Supplementary Data 3</xref>). As expected, NCBP1 was required for stability of NCBP2 (ref. <xref ref-type="bibr" rid="b10">10</xref>); however, we could not observe an influence on NCBP1 and -2 levels after NCBP3 knockdown and vice versa (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4c</xref>). The abundance of mRNA processing factors such as EJC, TREX and NELF components remained similarly unchanged (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4c</xref>), collectively emphasizing a direct effect of NCBP depletion on poly(A) RNA export. Our data thus indicate that mRNA can be exported through the activity of either the canonical CBC consisting of NCBP1/-2 or the alternative CBC formed by NCBP1/-3. Furthermore, these data suggest that both CBCs can have functionally redundant activities under steady-state conditions.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>NCBP3 activity is critical to inhibit virus growth</title>
+        <p>Perturbation of the RNA export machinery components often shows loss-of-function phenotypes under challenging conditions<xref ref-type="bibr" rid="b38">38</xref>. Infection with pathogens induces cellular stress and requires swift expression, processing and export of RNAs coding for antiviral proteins or factors required for virus growth<xref ref-type="bibr" rid="b39">39</xref><xref ref-type="bibr" rid="b40">40</xref>. We therefore tested the effect of NCBP3 knockdown on growth of viruses that replicate in the cytoplasm and are not dependent on the cellular mRNA export machinery. HeLa cells treated with siRNA against NCBP3 showed an almost 100-fold increase in growth of vesicular stomatitis virus variant M2 (VSV-M2) (<xref ref-type="fig" rid="f6">Fig. 6c</xref>). Similarly, growth of two other cytoplasmic viruses, Semliki forest virus (SFV) and encephalomyocarditis virus (EMCV), was increased in the absence of NCBP3. These data suggest that NCBP3 becomes fundamental for cellular functions under stress conditions such as virus infection.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1" sec-type="discussion">
+      <title>Discussion</title>
+      <p>The canonical CBC consisting of NCBP1 and -2 is considered to be one of the most fundamental parts of the biogenesis machinery of all capped RNAs. This notion is based on the involvement of the CBC in pre-mRNA splicing, 3â²-end processing, intranuclear transport, nuclearâcytoplasmic transport of RNA and nonsense-mediated decay and translation<xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b41">41</xref>. Exogenously added cap analogues impair RNA metabolism, underlining the major importance of the cap structure in this process. However, <italic>in vivo</italic> antibody-mediated inhibition of NCBP2 only affected nuclear export of U snRNAs but not general export of mRNA<xref ref-type="bibr" rid="b8">8</xref>. Using AP with synthetic capped RNA and unbiased proteinâprotein interaction studies, we identified the largely uncharacterized protein NCBP3 as a novel genuine cap-binding protein that links NCBP1 to capped RNA, and propose that NCBP1/-3 forms an alternative CBC that is involved in mRNA biogenesis.</p>
+      <p>Structure-guided binding studies using recombinant NCBP3 clearly established direct cap-binding through a canonical RRM bearing a WLDD motif at the centre of the RNA-binding grove. This motif is also conserved in the canonical cap-RNA-binding protein PARN and mediates affinity to cap-RNA in the low micromolar range. In addition, NCBP3 directly binds NCBP1 when co-expressed in bacteria and thus allows formation of a protein complex with affinity to capped RNA. A direct interaction between NCBP1 and -3 is further suggested from large-scale yeast two-hybrid interaction data<xref ref-type="bibr" rid="b37">37</xref>. Notably, NCBP2 and -3 were the only two proteins in this screen showing interaction with NCBP1 when being used either as bait or as prey. However, NCBP2 and -3 do not show an apparent homology that would suggest a shared binding mechanism to NCBP1. Both, NCBP2 and -3 have the ability to independently serve as adaptor proteins linking the RNA cap to NCBP1, and only loss of both proteins in HeLa cells reduced NCBP1 association with m<sup>7</sup>GTP. Co-depletion of NCBP2 and -3 is synthetically lethal in human und murine fibroblasts, suggesting redundancy between both proteins. This redundancy can be explained by RIP-seq experiments, showing that NCBP2 and -3 share affinity for the majority of mRNA. In addition to mRNA binding, NCBP2 but not NCBP3 has the ability to bind snRNA. Consistent with the selective affinity for snRNA, only NCBP2 binds the snRNA transport protein PHAX. Our results consolidate reports that are incompatible with the current model of a single CBC for RNA export: while inhibition of NCBP2 selectively impairs U snRNA nuclearâcytoplasmic export, but not of mRNA<xref ref-type="bibr" rid="b9">9</xref>, NCBP1 is strictly required as an adaptor for mRNA export<xref ref-type="bibr" rid="b15">15</xref>.</p>
+      <p>It is commonly accepted that EJC components, the TREX complex, PHAX and the NELF complex are recruited to RNAs by virtue of the CBC. We here show that EJC and TREX precipitate superior with NCBP3 as compared with NCBP2, whereas PHAX and the NELF complex are exclusively enriched in NCBP2 precipitates. It is tempting to speculate that binding of either NCBP2 or -3 induces a conformational change of NCBP1 that in turn allows differential binding of adaptor proteins. Structural analysis of NCBP1 in the context of NCBP2 and -3 bound to capped RNA, as well as binding assays with purified proteins will be necessary to study this in detail.</p>
+      <p>Given the association with proteins of the EJC and TREX complex, NCBP3 may play a primary role in biogenesis of spliced mRNA. Such a role is supported by genetic correlation: although NCBP3 is remarkably conserved during evolution from fungi to humans, we could not find homologues for NCBP3 in <italic>Saccharomyces cervisiae</italic>. Notably, in <italic>S. cervisiae</italic> only 3% of genes contain introns and only six genes contain two introns<xref ref-type="bibr" rid="b42">42</xref>. In contrast, the closely related <italic>Schizosaccharomyces pombe</italic> expresses an NCBP3 homologue and codes for introns in 43% of its genes<xref ref-type="bibr" rid="b43">43</xref>. Loss of NCBP3 in <italic>S. cerevisiae</italic> may therefore be a result of evolutionary adaptation.</p>
+      <p>The canonical CBC (consisting of NCBP1/-2) guides mRNA from the nucleus into the cytoplasm. Similarly, NCBP3 localizes to the nucleus and partially to the cytoplasm, suggesting that the alternative CBC drives mRNA export to the cytoplasm. RNA bound to the canonical CBC or EIF4E is sensitive to the nonsense-mediated mRNA decay (NMD) pathway<xref ref-type="bibr" rid="b44">44</xref><xref ref-type="bibr" rid="b45">45</xref><xref ref-type="bibr" rid="b46">46</xref>. Likewise, NCBP1/-3 associated with exported mRNA may be a target of NMD, particularly since the EJC, which co-purified with NCBP3, is known to promote NMD.</p>
+      <p>Given that RNA metabolism is of central importance for all physiological and pathophysiological processes, we envisage a central role of the alternative CBC in various diseases, as known for many proteins involved in RNA splicing, 3â²-end processing and degradation<xref ref-type="bibr" rid="b2">2</xref><xref ref-type="bibr" rid="b41">41</xref><xref ref-type="bibr" rid="b47">47</xref>. A reason for metazoans to evolve an alternative CBC could be the availability of an additional control mechanism to respond to environmental cues and thus allow the cell to respond swiftly to appropriate changes in gene expression. This may be particularly important under environmental stress, such as occurring during virus infection. Loss of NCBP3 increased growth of viruses that replicate in the cytoplasm. The exact mechanisms in antiviral defence and the likely involvement in other diseases will be the focus of further studies. Our data show that RNA processing conveys additional complexity that may allow regulatory possibilities for both, cell intrinsic modulation as well as therapeutic intervention.</p>
+    </sec>
+    <sec disp-level="1" sec-type="methods">
+      <title>Methods</title>
+      <sec disp-level="2">
+        <title>Cells and reagents</title>
+        <p>HeLa S3 (CCL-2.2) and Vero E6 cells (CRL-1586) were purchased from ATCC. Human THP-1, NIH3T3 and murine RAW 264.7 macrophages have been described previously<xref ref-type="bibr" rid="b48">48</xref>. HeLa Kyoto cells stably expressing GFP-tagged human C17orf85/NCBP3, NCBP2 and RAB5C from bacterial artificial chromosomes under control of their endogenous promoter were kindly provided by Ina Poser and Tony Hyman<xref ref-type="bibr" rid="b33">33</xref>. All cell lines were maintained in DMEM (PAA Laboratories) containing 10% fetal calf serum (PAA Laboratories) and antibiotics (100âUâml<sup>â1</sup> penicillin and 100âÎ¼gâml<sup>â1</sup> streptomycin). Streptavidin-agarose beads were obtained from Novagen, GFP-Trap-coupled agarose beads were from Chromotek, and Î³-Aminohexyl m<sup>7</sup>GTP- and GTP-agarose beads from Jena Bioscience and Biorbyt, respectively. Primary antibodies (1:1000 dilution for western blotting if not stated otherwise) used in this study were as follows: C17orf85 (Atlas Antibodies; HPA008959), NCBP1, SRRT, EIF4A3 and ALYREF (Thermo Scientific; PA 5â30098, PA5â31593, PA5â30329 and MA 1â26754), THOC5, PHAX and KPNA3 (Novus Biologicals; NBP1â19160, NBP2â22268 and NB100â81650), GFP (Invitrogen; A6455), PABP1 and Î²-tubulin (1:500 dilution for western blotting) (Santa Cruz; 10E10, sc-9104), histone H3 (Abcam; ab1791â100) and EIF4E (Cell Signaling; C46H6). Antibodies against NCBP2 (1:500 dilution for western blotting) were raised by immunizing rabbits with recombinant full-length protein purified from <italic>E. coli</italic>. Antibodies against Î²-actin (Santa Cruz; sc-47778), His-tag (Santa Cruz; sc-8036) and secondary antibodies detecting mouse or rabbit IgG (Jackson ImmunoResearch) were horseradish peroxidase-coupled. 4â²,6-diamidino-2-phenylindole (DAPI) and secondary antibodies used for immunofluorescence were purchased from Invitrogen. Vesicular stomatitis virus M2 (mutant VSV with the M51R substitution in the matrix protein), SFV and EMCV have been described previously<xref ref-type="bibr" rid="b49">49</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNAi-mediated knockdown</title>
+        <p>Duplex siRNAs were transfected using either siPrime transfection reagent (GE Healthcare) or the Neon Transfection System (Invitrogen) for target gene knockdowns. Transfection was performed according to the manufacturer's instructions for HeLa or NIH3T3 cells. Briefly, we transfected 200âpmol of siRNA per 1 Ã 10<sup>6</sup> cells and repeated transfection 48âh later under the same conditions. For experiments where two genes were silenced simultaneously, we added scrambled-siRNA to single-gene knockdown controls. Cells were analysed at the indicated time points after the second transfection. Duplex siRNAs were either purchased from Qiagen or synthesized by the Core Facility at the MPI of Biochemistry. siRNA target sequences were as follows: human NCBP3 (#1: 5â²-AAGAGCCGGTTAGATAACTTA-3â², #2: 5â²-TCAGCGGGACGTGATCAAGAA-3â², #3: 5â²-ATGACTATGTATGCTGACGAA-3â², #4: 5â²-CAGATTGAAGTTAGTCGGGAA-3â²), mouse NCBP3 (#1: 5â²-TCAGATGTACATAGTAGGCTA-3â², #2: 5â²-TCGCTTAGGATCTACACCCAA-3â², #3: 5â²-TGGGTTGATGTTGAACAATTT-3â², #4: 5â²-CAGATTGAAGTCAGCCGGGAA-3â²), human NCBP1 (#1: 5â²-CCACAGATGATTGCTGTACTA-3â², #2: 5â²-CAGGAACGGCACATCCTAAGA-3â², #3: 5â²-CAGGTATGGACTGCTGATAAA-3â², #4: 5â²-AGCCGTGTATTTGGTCCGTTT-3â²), mouse NCBP1 (#1: 5â²-AUGCAGAAAUGGACCGAAU-3â², #2: 5â²-CGUCUGGACACGAUGAGUA-3â², #3: 5â²-GGUACGAUGUGAAACGGAU-3â², #4: 5â²-AGGCCUAACACUCGCGUUU-3â²), human NCBP2 (#1: 5â²-GCCAUGCGGUACAUAAAUG-3â², #2: 5â²-UGGAUGAACUUAUCGUUAA-3â², #3: 5â²-GCAUGAGAUAGCCUAAUAA-3â², #4: 5â²-AUGAGUAUCGGCAGGACUA-3â²), mouse NCBP2 (#1: 5â²-CAGCAAAAGUGGUGAUAUA-3â², #2: 5â²-GCAAUGCGGUACAUAAACG-3â², #3: 5â²-GUAUGGACGUGGACGGUCU-3â², #4: 5â²-ACGAGUAUCGGGAGGACUA-3â²), huNXF1 (#1: 5â²-GAACACGATGATGAACGCGTT-3â², #2: 5â²-GATGACATGTCTAGCATTGTT-3â²), GFP (5â²-AAGCAGCACGACUUCUUCAAG-3â²) and scrambled (5â²-AAGGTAATTGCGCGTGCAACT-3â²).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell growth assays</title>
+        <p>For cell growth assays, 1 Ã 10<sup>4</sup> cells were seeded in 24-well dishes and cell titres determined after the indicated time points using CellTiter-Glo (Promega) according to the manufacturer's instructions with the following modifications: cells were washed once with 1 Ã PBS and incubated with 100âÎ¼l CellTiter-Glo reagent (diluted 1:5 in 1 Ã PBS) for 10âmin. Luminescence was measured using an Infinite 200 PRO series microplate reader (Tecan).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunofluorescence and RNA-FISH</title>
+        <p>For immunofluorescence, HeLa cells grown on coverslips were fixed with 4% (w/v) paraformaldehyde for 10âmin, permeabilized with 0.1% (v/v) Triton X-100 for 10âmin and washed three times with blocking buffer (1 Ã PBS containing 0.1% fetal calf serum (v/v)). Cells were then incubated with primary antibody (1:500 dilution), followed by incubation with secondary antibodies (1:200 dilution) covalently linked to fluorophores and DAPI. Coverslips were mounted on microscope slides using ProLong Gold Antifade Reagent (Molecular Probes). Confocal imaging was performed using a LSM780 confocal laser scanning microscope (Zeiss, Jena, Germany) equipped with a Plan-APO Ã 63/numerical aperture 1.46 oil immersion objective (Zeiss).</p>
+        <p>For RNA-FISH analysis, cells grown on coverslips were fixed with 4% (v/v) PFA for 10âmin, followed by 100% (v/v) ethanol for 10âmin and washed in 70% (v/v) ethanol. Subsequently, cells were incubated with 1âM Tris-HCl pH 8 for 10âmin, followed by incubation with hybridization buffer (2ângâÎ¼l<sup>â1</sup> 5â²-Cy5-labelled oligo (dT)<sub>45</sub> (Sigma), 0.5âÎ¼gâÎ¼l<sup>â1</sup> transfer RNA (Ambion), 1% (v/v) bovine serum albumin, 10% (v/v) dextran sulphate, 20% (v/v) deionized formamide and 2 Ã sodium saline citrate (SSC)) for 3âh at 30âÂ°C in a humid chamber. After washing once with 4 Ã SSC and twice with 2 Ã SSC, cells were incubated with DAPI diluted in 2 Ã SSC containing 0.1% (v/v) Triton X-100. Finally, cells were washed twice with 2 Ã SSC and coverslips placed on a microscope slide. Confocal analysis was performed as described above. Quantification of area and intensity of cytoplasm versus nuclei was performed with Volocity 6.3 analysis software (PerkinElmer, Waltham, MA, USA). With the protocol four populations of objects were defined: (1) Nuclei were masked using a DAPI channel with a threshold range of 13â100% and restriction to a minimum object size of 50âÎ¼m<sup>2</sup>. âFill holes in objects' was applied to remove holes in the mask; (2) cytoplasm including nuclei was masked using a Cy5 channel with an intensity-based threshold of 6â255 and restriction to a minimum object size of 100âÎ¼m<sup>2</sup>. (3) A mask for measurements in the cytoplasm was created using âExclusively combine' of the first two masks. (4) Finally, a mask for measurements in the Cy5-stained nuclei was created by subtracting (3) from (2). Within the mask (3) and (4), area and summarized intensity were measured and intensities were normalized to area. The nuclear to cytoplasmic ratio was calculated using the intensities from a minimum of 125 cells.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Generation of synthetic and <italic>in vitro</italic> transcribed RNA</title>
+        <p>Synthetic oligoribonucleotides (Chemgenes Corporation) with a 3â²-terminal amino linker harbouring either an N7-methylated cap structure (CAP) or a 5â²-hydroxyl group (OH) were generated as described previously<xref ref-type="bibr" rid="b19">19</xref>. RNA oligomers were modified at the 3â² end either with biotin using biotin-<italic>N</italic>-hydroxysuccinimide ester (Epicentre) or fluorophore using DyLight 488 NHS ester according to the manufacturer's instructions and purified by reverse-phase-HPLC. Biotinylated 7SK-as RNA bearing a 5â²-CAP or âOH group, respectively, were synthesized by <italic>in vitro</italic> transcription and enzymatic modification of the 5â² termini<xref ref-type="bibr" rid="b19">19</xref> and purified using the NucleoSpin RNA II kit (Macherey-Nagel).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Affinity purifications</title>
+        <p>For APs with biotin-labelled RNA, streptavidin-affinity resin was first incubated with RNA in TAP buffer (50âmM Tris pH 7.5, 100âmM NaCl, 5% (v/v) glycerol, 0.2% (v/v) Nonidet-P40, 1.5âmM MgCl<sub>2</sub> and protease inhibitor cocktail (EDTA-free, cOmplete; Roche)) in the presence of 40âU RNase inhibitor (Fermentas) for 60âmin at 4âÂ°C on a rotary wheel and excess RNA removed by three washes with TAP buffer. Cell lysates were prepared by snap-freezing cells in liquid nitrogen, incubation in TAP buffer for 30âmin on ice and clarification of the lysate by centrifugation at 16,000<italic>g</italic>. RNA-coated beads were incubated with 2âmg of clarified lysate for 60âmin at 4âÂ°C, washed three times with TAP buffer, boiled in Laemmli buffer for 10âmin at 95âÂ°C and subjected to SDSâpolyacrylamide gel electrophoresis and western blot analysis. Uncropped western blots are provided in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8</xref>.</p>
+        <p>To detect proteins binding to m<sup>7</sup>GTP- and GTP-coupled beads, cell lysate was sonicated using a Branson Sonifier 250 with 15 pulses at a duty cycle of 50% and an output control of 1. The lysate was further incubated on ice for 15âmin and clarified by centrifugation at 16,000<italic>g</italic> for 10âmin at 4âÂ°C. Similarly, we used GFP-Trap beads (Chromotek) for affinity purification of proteins binding to GFP-tagged baits. The sonicated lysate was further treated with 10âU of Benzonase (Core facility, MPI-B) for 30âmin on ice before clarification of the lysate.</p>
+        <p>For co-precipitation of proteins expressed in <italic>E. coli</italic> expression of recombinant proteins was induced overnight at 18âÂ°C in <italic>E. coli</italic> strain BL21-AI using 1âmM isopropyl-Î²-<sc>D</sc>-thiogalactoside (Thermo) and 0.2% <sc>L</sc>-(+)-Arabinose (Santa Cruz). Cells were lysed in HIS buffer (50âmM HEPES pH 7.5, 500âmM NaCl, 5% glycerol and 20âmM imidazole), including 50âUâml<sup>â1</sup> of Benzonase (Core Facility, MPI-B) and protease inhibitor cocktail (EDTA-free, cOmplete; Roche) using sonication and lysates clarified by centrifugation at 16,000<italic>g</italic> for 10âmin at 4âÂ°C. Lysates were used for AP using Ni-NTA spin columns according to the manufacturer's instructions (Qiagen). Ni-NTA-bound proteins were eluted using HIS buffer containing 500âmM imidazole. Eluates were boiled in Laemmli buffer for 10âmin at 95âÂ°C and subjected to SDSâpolyacrylamide gel electrophoresis and western blot analysis.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Quantitative LCâMS/MS-based proteomics and bioinformatics</title>
+        <p>To detect and quantify RNA-binding proteins and proteins bound to GFP-tagged baits by AP and MS, samples were prepared as described above. After the final three washes in TAP buffer, samples were, in addition, washed twice with TAP buffer lacking Nonidet-P40 to remove residual detergent. Three independent APs were performed for each bait. Sample preparations and LCâMS/MS analysis was performed as described previously<xref ref-type="bibr" rid="b19">19</xref>. Briefly, samples were sequentially digested with LysC (Wako Chemicals USA) and trypsin (Promega), acidified with 0.1% TFA, desalted with C18 stage tips and analysed by liquid chromatography coupled to MS either on Orbitrap XL or Q Exactive instruments (Thermo Fisher Scientific). For analysis of interaction proteomics data, MS raw files were processed with MaxQuant software versions 1.4.1.8 and 1.4.2.3 (ref. <xref ref-type="bibr" rid="b50">50</xref>) using the built-in Andromeda engine to search against human and mouse proteomes (UniprotKB, release 2012_06) containing forward and reverse sequences. In MaxQuant, the label-free quantification (LFQ)<xref ref-type="bibr" rid="b51">51</xref> algorithm and Match Between Runs option were used. Only proteins identified on the basis of at least two peptides and a minimum of three quantification events in at least one experimental group were considered. LFQ protein intensity values were log-transformed and missing values filled by imputation. Specific enrichment was determined by multiple equal variance <italic>t</italic>-tests with permutation-based false discovery rate (FDR) statistics, performing 250 permutations. FDR thresholds and <italic>S</italic><sub>0</sub> parameters were empirically set to separate background from specifically enriched proteins.</p>
+        <p>For total proteome analysis, HeLa cells were electroporated twice with siScrambled or siRNAs against NCBP1, NCBP2, NCBP3 or NCBP2 and NCBP3 and lysed 5 days after knockdown. Three knockdowns were performed in parallel. Cells were pulsed with SILAC Arg10- and Lys8-containing medium for the last 6âh (ref. <xref ref-type="bibr" rid="b49">49</xref>). Cells were lysed in SDS lysis buffer (50âmM Tris pH 7.5, 4% SDS (v/v)), boiled for 5âmin at 95âÂ°C and sonicated. Fifty-microgram aliquots were reduced with 10âmM dithiothreitol, alkylated with 55âmM iodoacetamide and precipitated with 80% acetone (v/v) at â20âÂ°C overnight. Pellets were dissolved in 6âM ureaâ2âM thiourea, digested with LysC and trypsin and desalted peptides analysed by LCâMS/MS on a Q Exactive instrument. Raw MS data were processed with MaxQuant 1.5.1.6 using the LFQ and iBAQ algorithms and the Match Between Runs option only considering light labelled amino acids. LFQ intensities were log-transformed and left non-imputed.</p>
+        <p>For functional annotation analysis, we used DAVID<xref ref-type="bibr" rid="b52">52</xref> (database for annotation, visualization and integrated discovery; <ext-link ext-link-type="uri" xlink:href="http://david.abcc.ncifcrf.gov">http://david.abcc.ncifcrf.gov</ext-link>). Proteomics data were analysed using Perseus, results were plotted using R (<ext-link ext-link-type="uri" xlink:href="http://www.R-project.org">www.R-project.org</ext-link>) and GraphPad Prism version 5.02 and visually adapted using Adobe Illustrator.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA immunoprecipitation sequencing</title>
+        <p>HeLa cells expressing GFP-tagged human NCBP3, NCBP2 or RAB5C were pelleted by centrifugation at 500<italic>g</italic> for 10âmin at 4âÂ°C and washed twice with ice-cold PBS. Cells were lysed in an equal volume of RIP lysis buffer (10âmM HEPES pH 7.0, 100âmM KCl, 5âmM MgCl<sub>2</sub>, 25âmM EDTA, 0.5% (v/v) Nonidet-P40, 1âmM dithiothreitol, protease inhibitor cocktail (EDTA-free, cOmplete; Roche)) for 30âmin on ice in the presence of 100âUâml<sup>â1</sup> RNase inhibitor (Fermentas) and lysates clarified by centrifugation at 9,000<italic>g</italic> and 4âÂ°C for 10âmin. Clarified lysates were incubated with GFP-Trap beads (Chromotek) in RIP wash buffer (50âmM Tris pH 7.4, 150âmM NaCl, 1âmM MgCl<sub>2</sub>, 0.05% (v/v) Nonidet-P40) containing 25âmM EDTA, protease inhibitors and 100âUâml<sup>â1</sup> RNase inhibitor for 4âh at 4âÂ°C on a rotary wheel, followed by five washes with RIP wash buffer. Beads were then resuspended in Trizol (Invitrogen) and RNA isolated using the Direct-zol RNA MiniPrep kit (Zymo Research) according to the manufacturer's instructions. Three RNA immunoprecipitations per bait were carried out in parallel. RNA quality was assessed on a Genetic Analyzer (Agilent) and TruSeq RNA library construction and next-generation sequencing were performed by the Max Planck-Genome-Center Cologne, Germany (<ext-link ext-link-type="uri" xlink:href="http://mpgc.mpipz.mpg.de/home/">http://mpgc.mpipz.mpg.de/home/</ext-link>). All samples were sequenced on an Illumina HiSeq2500 platform at 15 million 100-bp single reads per sample. After quality control of the sequencing libraries, reads were trimmed and mapped against the Ensembl genome annotation and the human genome assembly (hg19/GRCh37) using Tophat2 (ref. <xref ref-type="bibr" rid="b53">53</xref>). Reads mapping to ribosomal RNAs or the mitochondrial genome were removed. RNAs binding to NCBP3 or NCBP2 were identified by differential quantification (bait over control) against the Ensembl genome annotation using cuffdiff from the cufflinks package<xref ref-type="bibr" rid="b54">54</xref>. RNAs with fold changes &gt;2, FDR corrected <italic>P</italic> values &lt;0.01 and minimal read counts of 10 were considered as enriched. To discover preferences of NCBP3 and NCBP2 for different RNA species, we extracted RNA types and gene-model-related features from the Ensembl annotations and plotted them using custom scripts.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Quantitative RTâPCR</title>
+        <p>RNA was reverse transcribed using the RevertAid H Minus First Strand cDNA Synthesis kit (Fermentas) and quantified by quantitative RTâPCR using the QuantiFast SYBR Green RT-PCR kit (Qiagen) and a CFX96 Touch Real-Time PCR Detection System (Bio-Rad). Each cycle consisted of 10âs at 95âÂ°C and 30âs at 60âÂ°C, followed by melting curve analysis. Primer sequences were as follows: huMYC (5â²-CAGTGGGCTGTGAGGAGGTT-3â² and 5â²-CAGGCTCCTGGCAAAAGGT-3â²), huSLC43A3 (5â²-CATGACATTCCCCACTGGCT-3â² and 5â²-GATTCCCCCAATGGTGAGCA-3â²), huRNU1-1 (5â²-ACTTACCTGGCAGGGGAGATAC-3â² and 5â²-ACATCCGGAGTGCAATGGATAA-3â²), huRNU4-1 (5â²-GCGCAGTGGCAGTATCGTAG-3â² and 5â²-GGCGGGGTATTGGGAAA-3â²), huNCBP1 (5â²-GGCTGCAGCAGATCTTCCTA-3â² and 5â²-TCTCCAGGGTCACCATGTACT-3â²), huNCBP2 (5â²-TTTCCAACATATAACGTACAGCTTTT-3â² and 5â²-CTACGTGGAGCTGAGCCAGT-3â²), huNCBP3 (5â²-GCAGGAAGACAGTTCAGATG-3â² and 5â²-ACTTCTTCTGGCTGCTCCAA-3â²).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Homology searches and homology modelling</title>
+        <p>Orthologous sequences were collected using the web-server morFeus<xref ref-type="bibr" rid="b55">55</xref> (<ext-link ext-link-type="uri" xlink:href="http://chimborazo.biochem.mpg.de/morfeus">http://chimborazo.biochem.mpg.de/morfeus</ext-link>). The multiple sequence alignment was generated using mafft<xref ref-type="bibr" rid="b56">56</xref> and submitted to the Gblocks web-server<xref ref-type="bibr" rid="b57">57</xref> to select conserved blocks for further phylogenetic analysis. The phylogenetic tree was calculated with Phyml<xref ref-type="bibr" rid="b58">58</xref> using standard parameters and bootstrapping with 100 iterations. The resulting tree was displayed using Dendroscope<xref ref-type="bibr" rid="b59">59</xref> and visually adapted using Adobe Illustrator.</p>
+        <p>A structural model of the RRM domain of C17orf85/NCBP3 (UniProt entry Q53F19) was obtained using the HHpred server<xref ref-type="bibr" rid="b60">60</xref> for the detection of homologous structures, and subsequent comparative modelling using Modeller<xref ref-type="bibr" rid="b26">26</xref> (as integrated in the Bioinformatics Toolkit (<ext-link ext-link-type="uri" xlink:href="http://toolkit.tuebingen.mpg.de">http://toolkit.tuebingen.mpg.de</ext-link>)) with the RRM of human poly(A) adenylate-binding protein 1 (PDB code 4f02) as a template model. The final best model was chosen according to DOPE (Descrete Optimized Protein Energy) scores<xref ref-type="bibr" rid="b26">26</xref>. Structure analysis and electrostatic surface potential calculations were done in Pymol (The PyMOL Molecular Graphics System, Version 1.5.0.4, SchrÃ¶dinger, LLC).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Nuclear/cytoplasmic fractionation of mammalian cells</title>
+        <p>Cells grown in a 10-cm dish were fractionated as described previously<xref ref-type="bibr" rid="b61">61</xref> with the following modifications: RNLa buffer was replaced by C/N buffer (10âmM Tris-HCl pH 7.5, 140âmM NaCl, 1.5âmM MgCl<sub>2</sub>, 10âmM EDTA and 0.5% (v/v) NP-40) containing protease inhibitor (EDTA-free, cOmplete, Roche) and Benzonase Nuclease (Novagen). For western blot analysis, we loaded 4% of the total cell lysate and 20% of the cytoplasmic and nuclear fractions.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cloning and expression of recombinant proteins</title>
+        <p>The long isoform of C17orf85/NCBP3 (GenBank NM_001114118.2) was cloned from human complementary DNA (cDNA) into vector pDONR221 (Invitrogen). Mutations and truncations in C17orf85/NCBP3 were introduced by site-directed mutagenesis and PCR, respectively. Expression constructs containing N-terminal His-tagged full-length C17orf85/NCBP3 (pETG10A-NCBP3) or its mutant versions (pETG10A-NCBP3-D134A and -ALAA) were generated using the Gateway system (Invitrogen) as described earlier<xref ref-type="bibr" rid="b49">49</xref>. Expression constructs for N-terminal MBP/His-tagged full-length NCBP3 and NCBP3 expressing amino acids 1â282, as well as SII-tagged NCBP1 were generated by SLIC cloning as described elsewhere<xref ref-type="bibr" rid="b62">62</xref>. pETM44 expressing MBP/His was a kind gift from the Core Facility at the MPI of Biochemistry. Sequences of all cloning primers are available on request. Expression of recombinant proteins was induced overnight at 18âÂ°C in <italic>E. coli</italic> strain BL21-AI using 1âmM isopropyl-Î²-<sc>D</sc>-thiogalactoside (Thermo) and 0.2% <sc>L</sc>-(+)-Arabinose (Santa Cruz). Cells were lysed in BL buffer (50âmM Tris-HCl pH 7.5, 500âmM NaCl, 5% glycerol, 5âmM Î²-mercaptoethanol, 20âmM imidazole and protease inhibitor cocktail (EDTA-free, cOmplete; Roche)) and the cleared lysate was used for further experiments or AP using a HisTrap HP column (GE Healthcare; 17-5247-01). Recombinant untagged wild-type and mutant (ALAA) NCBP3 1â282aa used for MST and CD measurements was purified by the Core Facility at the MPI of Biochemistry. Identity of recombinant NCBP3 was confirmed by MS.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Affinity measurements</title>
+        <p>For MST affinity measurements, labelled RNA oligos (CAP0- and OH-RNA-DyLight) were diluted in MST-1 buffer (50âmM Tris-HCL pH 7.4, 150âmM NaCl, 10âmM MgCl<sub>2</sub>, 0.05% (v/v) Tween-20) to a final concentration of 50ânM. A twofold dilution series (16 samples) of NCBP3 1â282aa starting from 204âÎ¼M were performed in MST-2 buffer (20âmM Tris-HCL pH 7.4, 300âmM NaCl, 5% (v/v) glycerol). The two components were mixed in equal volumes and the mixture (â¼8âÎ¼l) was then measured in the Monolith NT.015T at room temperature using a blue light-emitting diode (LED). The MST settings were: LED power (20%), MST laser power (80%), fluorescence before (5âs), MST on (30âs) and fluorescence after (5âs). The normalized fluorescence signal (<italic>F</italic><sub>norm</sub>=<italic>F</italic><sub>hot</sub>/<italic>F</italic><sub>cold</sub>; hot=34.5âs and cold=5.5âs) was analysed and plotted by Monolith NT.015T analysis software. Three individual measurements were combined to calculate the <italic>K</italic><sub>d</sub> values with s.e.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>CD spectroscopy</title>
+        <p>Far ultraviolet CD spectra of wild-type and mutant versions of NCBP3 were recorded on a Jasco J-810 CD-Photometer at room temperature in 20âmM sodium phosphate buffer pH 7.4 and 50âmM NaF. For each sample and the buffer (baseline), four scans were recorded and averaged. The averaged baseline spectrum was subtracted from the averaged sample spectra and the resulting spectra were smoothed using an FFT (Fast Fourier Transform) filter (as part of the software package). Measurements were only made down to wavelengths where the instrument dynode voltage indicated the detector was still in its linear range (190ânm). Spectra are shown as the mean residue elipticity. Secondary structure compositions were estimated using the CONTINLL program<xref ref-type="bibr" rid="b63">63</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Virus infections and determination of virus titres</title>
+        <p>To determine the impact of siRNA-mediated knockdown of NCBP3 on virus growth, aliquots of 1 Ã 10<sup>5</sup> HeLa cells that had been transfected for 48âh with siRNA targeting NCBP3 or GFP as control were infected with VSV-M2, EMCV or SFV at a multiplicity of infection of 0.01. At 24âh post infection, virus titres in supernatants were quantified by 50% tissue culture-infective dose (TCID50) assays on Vero E6 cells.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Additional information</title>
+      <p><bold>Accession codes:</bold> RIP-seq data sets are available from Gene Expression Omnibus (GEO) at the National Center for Biotechnical Information under the accession code <ext-link ext-link-type="NCBI:geo" xlink:href="GSE71552">GSE71552</ext-link>.</p>
+      <p><bold>How to cite this article:</bold> Gebhardt, A. <italic>et al</italic>. mRNA export through an additional cap-binding complex consisting of NCBP1 and NCBP3. <italic>Nat. Commun</italic>. 6:8192 doi: 10.1038/ncomms9192 (2015).</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="d33e18" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+          <p>Supplementary Figures 1-8 and Supplementary References</p>
+        </caption>
+        <media xlink:href="ncomms9192-s1.pdf"/>
+      </supplementary-material>
+      <supplementary-material id="d33e24" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 1</title>
+          <p>LC-MS/MS identified proteins binding to 5'modified RNAs.</p>
+        </caption>
+        <media xlink:href="ncomms9192-s2.xlsx"/>
+      </supplementary-material>
+      <supplementary-material id="d33e30" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 2</title>
+          <p>Abbreviations and accession numbers of NCBP3 orthologous proteins.</p>
+        </caption>
+        <media xlink:href="ncomms9192-s3.xlsx"/>
+      </supplementary-material>
+      <supplementary-material id="d33e36" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 3</title>
+          <p>Quantitative proteomics after NCBP knockdown.</p>
+        </caption>
+        <media xlink:href="ncomms9192-s4.xlsx"/>
+      </supplementary-material>
+      <supplementary-material id="d33e42" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 4</title>
+          <p>LC-MS/MS identified proteins in NCBP3 and NCBP2 precipitates.</p>
+        </caption>
+        <media xlink:href="ncomms9192-s5.xlsx"/>
+      </supplementary-material>
+      <supplementary-material id="d33e48" content-type="local-data">
+        <caption>
+          <title>Supplementary Data 5</title>
+          <p>Data tables for the quantification of transcript binding to NCBP3 and NCBP2 measured by RIP-Seq.</p>
+        </caption>
+        <media xlink:href="ncomms9192-s6.xlsx"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We acknowledge the innate immunity laboratory for critical discussions and suggestions, Korbinian Mayr, Igor Paron and Gaby Sowa for maintaining mass spectrometers, Bernd Haas for purifying RNAs, Ralf Zenke for support with image analysis, Ina Poser and Tony Hyman for GFP-expressing cell lines, Ulrich Stelzl for cDNA constructs, the MPI-B core facility for technical assistance and the Max Planck-Genome-Center Cologne for RNA sequencing. We particularly thank Elena Conti, Jernej Ule, Stefan Jentsch and Fulvia Bono for helpful suggestions. This work was supported by the Max-Planck Free Floater program, an ERC starting grant (311339; iVIP) and the german research foundation (P1084/2) to A.P. and an Alexander von Humboldt Fellowship to M.H.</p>
+    </ack>
+    <ref-list>
+      <ref id="b1">
+        <mixed-citation publication-type="journal"><name><surname>Topisirovic</surname><given-names>I.</given-names></name>, <name><surname>Svitkin</surname><given-names>Y. V.</given-names></name>, <name><surname>Sonenberg</surname><given-names>N.</given-names></name> &amp; <name><surname>Shatkin</surname><given-names>A. J.</given-names></name>
+<article-title>Cap and cap-binding proteins in the control of gene expression</article-title>. <source>Wiley Interdiscip. Rev. RNA</source>
+<volume>2</volume>, <fpage>277</fpage>â<lpage>298</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21957010</pub-id></mixed-citation>
+      </ref>
+      <ref id="b2">
+        <mixed-citation publication-type="journal"><name><surname>Hallegger</surname><given-names>M.</given-names></name>, <name><surname>Llorian</surname><given-names>M.</given-names></name> &amp; <name><surname>Smith</surname><given-names>C. W.</given-names></name>
+<article-title>Alternative splicing: global insights</article-title>. <source>FEBS J.</source>
+<volume>277</volume>, <fpage>856</fpage>â<lpage>866</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20082635</pub-id></mixed-citation>
+      </ref>
+      <ref id="b3">
+        <mixed-citation publication-type="journal"><name><surname>Konarska</surname><given-names>M. M.</given-names></name>, <name><surname>Padgett</surname><given-names>R. A.</given-names></name> &amp; <name><surname>Sharp</surname><given-names>P. A.</given-names></name>
+<article-title>Recognition of cap structure in splicing <italic>in vitro</italic> of mRNA precursors</article-title>. <source>Cell</source>
+<volume>38</volume>, <fpage>731</fpage>â<lpage>736</lpage> (<year>1984</year>).<pub-id pub-id-type="pmid">6567484</pub-id></mixed-citation>
+      </ref>
+      <ref id="b4">
+        <mixed-citation publication-type="journal"><name><surname>Edery</surname><given-names>I.</given-names></name> &amp; <name><surname>Sonenberg</surname><given-names>N.</given-names></name>
+<article-title>Cap-dependent RNA splicing in a HeLa nuclear extract</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>82</volume>, <fpage>7590</fpage>â<lpage>7594</lpage> (<year>1985</year>).<pub-id pub-id-type="pmid">3865180</pub-id></mixed-citation>
+      </ref>
+      <ref id="b5">
+        <mixed-citation publication-type="journal"><name><surname>Muller-McNicoll</surname><given-names>M.</given-names></name> &amp; <name><surname>Neugebauer</surname><given-names>K. M.</given-names></name>
+<article-title>How cells get the message: dynamic assembly and function of mRNA-protein complexes</article-title>. <source>Nat. Rev. Genet.</source>
+<volume>14</volume>, <fpage>275</fpage>â<lpage>287</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23478349</pub-id></mixed-citation>
+      </ref>
+      <ref id="b6">
+        <mixed-citation publication-type="journal"><name><surname>Gonatopoulos-Pournatzis</surname><given-names>T.</given-names></name> &amp; <name><surname>Cowling</surname><given-names>V. H.</given-names></name>
+<article-title>Cap-binding complex (CBC)</article-title>. <source>Biochem. J.</source>
+<volume>457</volume>, <fpage>231</fpage>â<lpage>242</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24354960</pub-id></mixed-citation>
+      </ref>
+      <ref id="b7">
+        <mixed-citation publication-type="journal"><name><surname>Kohler</surname><given-names>A.</given-names></name> &amp; <name><surname>Hurt</surname><given-names>E.</given-names></name>
+<article-title>Exporting RNA from the nucleus to the cytoplasm</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source>
+<volume>8</volume>, <fpage>761</fpage>â<lpage>773</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17786152</pub-id></mixed-citation>
+      </ref>
+      <ref id="b8">
+        <mixed-citation publication-type="journal"><name><surname>Izaurralde</surname><given-names>E.</given-names></name>
+<etal/>. <article-title>A cap-binding protein complex mediating U snRNA export</article-title>. <source>Nature</source>
+<volume>376</volume>, <fpage>709</fpage>â<lpage>712</lpage> (<year>1995</year>).<pub-id pub-id-type="pmid">7651522</pub-id></mixed-citation>
+      </ref>
+      <ref id="b9">
+        <mixed-citation publication-type="journal"><name><surname>Izaurralde</surname><given-names>E.</given-names></name>
+<etal/>. <article-title>A nuclear cap binding protein complex involved in pre-mRNA splicing</article-title>. <source>Cell</source>
+<volume>78</volume>, <fpage>657</fpage>â<lpage>668</lpage> (<year>1994</year>).<pub-id pub-id-type="pmid">8069914</pub-id></mixed-citation>
+      </ref>
+      <ref id="b10">
+        <mixed-citation publication-type="journal"><name><surname>Mazza</surname><given-names>C.</given-names></name>, <name><surname>Ohno</surname><given-names>M.</given-names></name>, <name><surname>Segref</surname><given-names>A.</given-names></name>, <name><surname>Mattaj</surname><given-names>I. W.</given-names></name> &amp; <name><surname>Cusack</surname><given-names>S.</given-names></name>
+<article-title>Crystal structure of the human nuclear cap binding complex</article-title>. <source>Mol. Cell</source>
+<volume>8</volume>, <fpage>383</fpage>â<lpage>396</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11545740</pub-id></mixed-citation>
+      </ref>
+      <ref id="b11">
+        <mixed-citation publication-type="journal"><name><surname>Cook</surname><given-names>A.</given-names></name>, <name><surname>Bono</surname><given-names>F.</given-names></name>, <name><surname>Jinek</surname><given-names>M.</given-names></name> &amp; <name><surname>Conti</surname><given-names>E.</given-names></name>
+<article-title>Structural biology of nucleocytoplasmic transport</article-title>. <source>Annu. Rev. Biochem.</source>
+<volume>76</volume>, <fpage>647</fpage>â<lpage>671</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17506639</pub-id></mixed-citation>
+      </ref>
+      <ref id="b12">
+        <mixed-citation publication-type="journal"><name><surname>Moore</surname><given-names>M. J.</given-names></name> &amp; <name><surname>Proudfoot</surname><given-names>N. J.</given-names></name>
+<article-title>Pre-mRNA processing reaches back to transcription and ahead to translation</article-title>. <source>Cell</source>
+<volume>136</volume>, <fpage>688</fpage>â<lpage>700</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19239889</pub-id></mixed-citation>
+      </ref>
+      <ref id="b13">
+        <mixed-citation publication-type="journal"><name><surname>Narita</surname><given-names>T.</given-names></name>
+<etal/>. <article-title>NELF interacts with CBC and participates in 3' end processing of replication-dependent histone mRNAs</article-title>. <source>Mol. Cell</source>
+<volume>26</volume>, <fpage>349</fpage>â<lpage>365</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17499042</pub-id></mixed-citation>
+      </ref>
+      <ref id="b14">
+        <mixed-citation publication-type="journal"><name><surname>Pabis</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>The nuclear cap-binding complex interacts with the U4/U6.U5 tri-snRNP and promotes spliceosome assembly in mammalian cells</article-title>. <source>RNA</source>
+<volume>19</volume>, <fpage>1054</fpage>â<lpage>1063</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23793891</pub-id></mixed-citation>
+      </ref>
+      <ref id="b15">
+        <mixed-citation publication-type="journal"><name><surname>Cheng</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>Human mRNA export machinery recruited to the 5' end of mRNA</article-title>. <source>Cell</source>
+<volume>127</volume>, <fpage>1389</fpage>â<lpage>1400</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">17190602</pub-id></mixed-citation>
+      </ref>
+      <ref id="b16">
+        <mixed-citation publication-type="journal"><name><surname>Luo</surname><given-names>B.</given-names></name>
+<etal/>. <article-title>Highly parallel identification of essential genes in cancer cells</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>105</volume>, <fpage>20380</fpage>â<lpage>20385</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19091943</pub-id></mixed-citation>
+      </ref>
+      <ref id="b17">
+        <mixed-citation publication-type="journal"><name><surname>Cheung</surname><given-names>H. W.</given-names></name>
+<etal/>. <article-title>Systematic investigation of genetic vulnerabilities across cancer cell lines reveals lineage-specific dependencies in ovarian cancer</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>108</volume>, <fpage>12372</fpage>â<lpage>12377</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21746896</pub-id></mixed-citation>
+      </ref>
+      <ref id="b18">
+        <mixed-citation publication-type="journal"><name><surname>Kittler</surname><given-names>R.</given-names></name>
+<etal/>. <article-title>Genome-scale RNAi profiling of cell division in human tissue culture cells</article-title>. <source>Nat. Cell Biol.</source>
+<volume>9</volume>, <fpage>1401</fpage>â<lpage>1412</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17994010</pub-id></mixed-citation>
+      </ref>
+      <ref id="b19">
+        <mixed-citation publication-type="journal"><name><surname>Habjan</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Sequestration by IFIT1 impairs translation of 2'O-unmethylated capped RNA</article-title>. <source>PLoS Pathog.</source>
+<volume>9</volume>, <fpage>e1003663</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24098121</pub-id></mixed-citation>
+      </ref>
+      <ref id="b20">
+        <mixed-citation publication-type="journal"><name><surname>Baltz</surname><given-names>A. G.</given-names></name>
+<etal/>. <article-title>The mRNA-bound proteome and its global occupancy profile on protein-coding transcripts</article-title>. <source>Mol. Cell</source>
+<volume>46</volume>, <fpage>674</fpage>â<lpage>690</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22681889</pub-id></mixed-citation>
+      </ref>
+      <ref id="b21">
+        <mixed-citation publication-type="journal"><name><surname>Castello</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>Insights into RNA biology from an atlas of mammalian mRNA-binding proteins</article-title>. <source>Cell</source>
+<volume>149</volume>, <fpage>1393</fpage>â<lpage>1406</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22658674</pub-id></mixed-citation>
+      </ref>
+      <ref id="b22">
+        <mixed-citation publication-type="journal"><name><surname>Uhlen</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Tissue-based map of the human proteome</article-title>. <source>Science</source>
+<volume>347</volume>, <fpage>1260419</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25613900</pub-id></mixed-citation>
+      </ref>
+      <ref id="b23">
+        <mixed-citation publication-type="journal"><name><surname>Robins</surname><given-names>S. P.</given-names></name>, <name><surname>Duncan</surname><given-names>A.</given-names></name>, <name><surname>Wilson</surname><given-names>N.</given-names></name> &amp; <name><surname>Evans</surname><given-names>B. J.</given-names></name>
+<article-title>Standardization of pyridinium crosslinks, pyridinoline and deoxypyridinoline, for use as biochemical markers of collagen degradation</article-title>. <source>Clin. Chem.</source>
+<volume>42</volume>, <fpage>1621</fpage>â<lpage>1626</lpage> (<year>1996</year>).<pub-id pub-id-type="pmid">8855145</pub-id></mixed-citation>
+      </ref>
+      <ref id="b24">
+        <mixed-citation publication-type="journal"><name><surname>Rodrigues</surname><given-names>J. P.</given-names></name>
+<etal/>. <article-title>REF proteins mediate the export of spliced and unspliced mRNAs from the nucleus</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>98</volume>, <fpage>1030</fpage>â<lpage>1035</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">11158589</pub-id></mixed-citation>
+      </ref>
+      <ref id="b25">
+        <mixed-citation publication-type="journal"><name><surname>Maris</surname><given-names>C.</given-names></name>, <name><surname>Dominguez</surname><given-names>C.</given-names></name> &amp; <name><surname>Allain</surname><given-names>F. H.</given-names></name>
+<article-title>The RNA recognition motif, a plastic RNA-binding platform to regulate post-transcriptional gene expression</article-title>. <source>FEBS J.</source>
+<volume>272</volume>, <fpage>2118</fpage>â<lpage>2131</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15853797</pub-id></mixed-citation>
+      </ref>
+      <ref id="b26">
+        <mixed-citation publication-type="journal"><name><surname>Eswar</surname><given-names>N.</given-names></name>, <name><surname>Eramian</surname><given-names>D.</given-names></name>, <name><surname>Webb</surname><given-names>B.</given-names></name>, <name><surname>Shen</surname><given-names>M. Y.</given-names></name> &amp; <name><surname>Sali</surname><given-names>A.</given-names></name>
+<article-title>Protein structure modeling with MODELLER</article-title>. <source>Methods Mol. Biol.</source>
+<volume>426</volume>, <fpage>145</fpage>â<lpage>159</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18542861</pub-id></mixed-citation>
+      </ref>
+      <ref id="b27">
+        <mixed-citation publication-type="journal"><name><surname>Wu</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Structural basis of m(7)GpppG binding to poly(A)-specific ribonuclease</article-title>. <source>Structure</source>
+<volume>17</volume>, <fpage>276</fpage>â<lpage>286</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19217398</pub-id></mixed-citation>
+      </ref>
+      <ref id="b28">
+        <mixed-citation publication-type="journal"><name><surname>Monecke</surname><given-names>T.</given-names></name>, <name><surname>Schell</surname><given-names>S.</given-names></name>, <name><surname>Dickmanns</surname><given-names>A.</given-names></name> &amp; <name><surname>Ficner</surname><given-names>R.</given-names></name>
+<article-title>Crystal structure of the RRM domain of poly(A)-specific ribonuclease reveals a novel m(7)G-cap-binding mode</article-title>. <source>J. Mol. Biol.</source>
+<volume>382</volume>, <fpage>827</fpage>â<lpage>834</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18694759</pub-id></mixed-citation>
+      </ref>
+      <ref id="b29">
+        <mixed-citation publication-type="journal"><name><surname>Nagata</surname><given-names>T.</given-names></name>
+<etal/>. <article-title>The RRM domain of poly(A)-specific ribonuclease has a noncanonical binding site for mRNA cap analog recognition</article-title>. <source>Nucleic Acids Res.</source>
+<volume>36</volume>, <fpage>4754</fpage>â<lpage>4767</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18641416</pub-id></mixed-citation>
+      </ref>
+      <ref id="b30">
+        <mixed-citation publication-type="journal"><name><surname>Hu</surname><given-names>G.</given-names></name>, <name><surname>Gershon</surname><given-names>P. D.</given-names></name>, <name><surname>Hodel</surname><given-names>A. E.</given-names></name> &amp; <name><surname>Quiocho</surname><given-names>F. A.</given-names></name>
+<article-title>mRNA cap recognition: dominant role of enhanced stacking interactions between methylated bases and protein aromatic side chains</article-title>. <source>Proc. Natl Acad. Sci. USA</source>
+<volume>96</volume>, <fpage>7149</fpage>â<lpage>7154</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10377383</pub-id></mixed-citation>
+      </ref>
+      <ref id="b31">
+        <mixed-citation publication-type="journal"><name><surname>Keilhauer</surname><given-names>E. C.</given-names></name>, <name><surname>Hein</surname><given-names>M. Y.</given-names></name> &amp; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>Accurate protein complex retrieval by affinity enrichment MS rather than affinity purification MS</article-title>. <source>Mol. Cell. Proteomics</source>
+<volume>14</volume>, <fpage>120</fpage>â<lpage>135</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25363814</pub-id></mixed-citation>
+      </ref>
+      <ref id="b32">
+        <mixed-citation publication-type="journal"><name><surname>Hubner</surname><given-names>N. C.</given-names></name>
+<etal/>. <article-title>Quantitative proteomics combined with BAC TransgeneOmics reveals <italic>in vivo</italic> protein interactions</article-title>. <source>J. Cell Biol.</source>
+<volume>189</volume>, <fpage>739</fpage>â<lpage>754</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20479470</pub-id></mixed-citation>
+      </ref>
+      <ref id="b33">
+        <mixed-citation publication-type="journal"><name><surname>Poser</surname><given-names>I.</given-names></name>
+<etal/>. <article-title>BAC TransgeneOmics: a high-throughput method for exploration of protein function in mammals</article-title>. <source>Nat. Methods</source>
+<volume>5</volume>, <fpage>409</fpage>â<lpage>415</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18391959</pub-id></mixed-citation>
+      </ref>
+      <ref id="b34">
+        <mixed-citation publication-type="journal"><name><surname>Reed</surname><given-names>R.</given-names></name> &amp; <name><surname>Cheng</surname><given-names>H.</given-names></name>
+<article-title>TREX, SR proteins and export of mRNA</article-title>. <source>Curr. Opin. Cell Biol.</source>
+<volume>17</volume>, <fpage>269</fpage>â<lpage>273</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15901496</pub-id></mixed-citation>
+      </ref>
+      <ref id="b35">
+        <mixed-citation publication-type="journal"><name><surname>Carmody</surname><given-names>S. R.</given-names></name> &amp; <name><surname>Wente</surname><given-names>S. R.</given-names></name>
+<article-title>mRNA nuclear export at a glance</article-title>. <source>J. Cell Sci.</source>
+<volume>122</volume>, <fpage>1933</fpage>â<lpage>1937</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19494120</pub-id></mixed-citation>
+      </ref>
+      <ref id="b36">
+        <mixed-citation publication-type="journal"><name><surname>Ohno</surname><given-names>M.</given-names></name>, <name><surname>Segref</surname><given-names>A.</given-names></name>, <name><surname>Bachi</surname><given-names>A.</given-names></name>, <name><surname>Wilm</surname><given-names>M.</given-names></name> &amp; <name><surname>Mattaj</surname><given-names>I. W.</given-names></name>
+<article-title>PHAX, a mediator of U snRNA nuclear export whose activity is regulated by phosphorylation</article-title>. <source>Cell</source>
+<volume>101</volume>, <fpage>187</fpage>â<lpage>198</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10786834</pub-id></mixed-citation>
+      </ref>
+      <ref id="b37">
+        <mixed-citation publication-type="journal"><name><surname>Hegele</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>Dynamic protein-protein interaction wiring of the human spliceosome</article-title>. <source>Mol. Cell</source>
+<volume>45</volume>, <fpage>567</fpage>â<lpage>580</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22365833</pub-id></mixed-citation>
+      </ref>
+      <ref id="b38">
+        <mixed-citation publication-type="journal"><name><surname>Rehwinkel</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>Genome-wide analysis of mRNAs regulated by the THO complex in Drosophila melanogaster</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>11</volume>, <fpage>558</fpage>â<lpage>566</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15133499</pub-id></mixed-citation>
+      </ref>
+      <ref id="b39">
+        <mixed-citation publication-type="journal"><name><surname>Pichlmair</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>Viral immune modulators perturb the human molecular network by common and unique strategies</article-title>. <source>Nature</source>
+<volume>487</volume>, <fpage>486</fpage>â<lpage>490</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22810585</pub-id></mixed-citation>
+      </ref>
+      <ref id="b40">
+        <mixed-citation publication-type="journal"><name><surname>Habjan</surname><given-names>M.</given-names></name> &amp; <name><surname>Pichlmair</surname><given-names>A.</given-names></name>
+<article-title>Cytoplasmic sensing of viral nucleic acids</article-title>. <source>Curr. Opin. Virol.</source>
+<volume>11</volume>, <fpage>31</fpage>â<lpage>37</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25668758</pub-id></mixed-citation>
+      </ref>
+      <ref id="b41">
+        <mixed-citation publication-type="journal"><name><surname>Jenal</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>The poly(A)-binding protein nuclear 1 suppresses alternative cleavage and polyadenylation sites</article-title>. <source>Cell</source>
+<volume>149</volume>, <fpage>538</fpage>â<lpage>553</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22502866</pub-id></mixed-citation>
+      </ref>
+      <ref id="b42">
+        <mixed-citation publication-type="journal"><name><surname>Ast</surname><given-names>G.</given-names></name>
+<article-title>How did alternative splicing evolve?</article-title>
+<source>Nat. Rev. Genet.</source>
+<volume>5</volume>, <fpage>773</fpage>â<lpage>782</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15510168</pub-id></mixed-citation>
+      </ref>
+      <ref id="b43">
+        <mixed-citation publication-type="journal"><name><surname>Wood</surname><given-names>V.</given-names></name>
+<etal/>. <article-title>The genome sequence of Schizosaccharomyces pombe</article-title>. <source>Nature</source>
+<volume>415</volume>, <fpage>871</fpage>â<lpage>880</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">11859360</pub-id></mixed-citation>
+      </ref>
+      <ref id="b44">
+        <mixed-citation publication-type="journal"><name><surname>Rufener</surname><given-names>S. C.</given-names></name> &amp; <name><surname>Muhlemann</surname><given-names>O.</given-names></name>
+<article-title>eIF4E-bound mRNPs are substrates for nonsense-mediated mRNA decay in mammalian cells</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>20</volume>, <fpage>710</fpage>â<lpage>717</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23665581</pub-id></mixed-citation>
+      </ref>
+      <ref id="b45">
+        <mixed-citation publication-type="journal"><name><surname>Popp</surname><given-names>M. W.</given-names></name> &amp; <name><surname>Maquat</surname><given-names>L. E.</given-names></name>
+<article-title>Organizing principles of mammalian nonsense-mediated mRNA decay</article-title>. <source>Annu. Rev. Genet.</source>
+<volume>47</volume>, <fpage>139</fpage>â<lpage>165</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24274751</pub-id></mixed-citation>
+      </ref>
+      <ref id="b46">
+        <mixed-citation publication-type="journal"><name><surname>Durand</surname><given-names>S.</given-names></name> &amp; <name><surname>Lykke-Andersen</surname><given-names>J.</given-names></name>
+<article-title>Nonsense-mediated mRNA decay occurs during eIF4F-dependent translation in human cells</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>20</volume>, <fpage>702</fpage>â<lpage>709</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23665580</pub-id></mixed-citation>
+      </ref>
+      <ref id="b47">
+        <mixed-citation publication-type="journal"><name><surname>Fackenthal</surname><given-names>J. D.</given-names></name> &amp; <name><surname>Godley</surname><given-names>L. A.</given-names></name>
+<article-title>Aberrant RNA splicing and its functional consequences in cancer cells</article-title>. <source>Dis. Model. Mech.</source>
+<volume>1</volume>, <fpage>37</fpage>â<lpage>42</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19048051</pub-id></mixed-citation>
+      </ref>
+      <ref id="b48">
+        <mixed-citation publication-type="journal"><name><surname>Burckstummer</surname><given-names>T.</given-names></name>
+<etal/>. <article-title>An orthogonal proteomic-genomic screen identifies AIM2 as a cytoplasmic DNA sensor for the inflammasome</article-title>. <source>Nat. Immunol.</source>
+<volume>10</volume>, <fpage>266</fpage>â<lpage>272</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19158679</pub-id></mixed-citation>
+      </ref>
+      <ref id="b49">
+        <mixed-citation publication-type="journal"><name><surname>Pichlmair</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>IFIT1 is an antiviral protein that recognizes 5'-triphosphate RNA</article-title>. <source>Nat. Immunol.</source>
+<volume>12</volume>, <fpage>624</fpage>â<lpage>630</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21642987</pub-id></mixed-citation>
+      </ref>
+      <ref id="b50">
+        <mixed-citation publication-type="journal"><name><surname>Cox</surname><given-names>J.</given-names></name> &amp; <name><surname>Mann</surname><given-names>M.</given-names></name>
+<article-title>MaxQuant enables high peptide identification rates, individualized p.p.b.-range mass accuracies and proteome-wide protein quantification</article-title>. <source>Nat. Biotechnol.</source>
+<volume>26</volume>, <fpage>1367</fpage>â<lpage>1372</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">19029910</pub-id></mixed-citation>
+      </ref>
+      <ref id="b51">
+        <mixed-citation publication-type="journal"><name><surname>Cox</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>MaxLFQ allows accurate proteome-wide label-free quantification by delayed normalization and maximal peptide ratio extraction</article-title>. <source>Mol. Cell. Proteomics</source>
+<volume>13</volume>, <fpage>2513</fpage>â<lpage>2526</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24942700</pub-id></mixed-citation>
+      </ref>
+      <ref id="b52">
+        <mixed-citation publication-type="journal"><name><surname>Huang</surname></name>, <name><surname>da</surname><given-names>W.</given-names></name>, <name><surname>Sherman</surname><given-names>B. T.</given-names></name> &amp; <name><surname>Lempicki</surname><given-names>R. A.</given-names></name>
+<article-title>Systematic and integrative analysis of large gene lists using DAVID bioinformatics resources</article-title>. <source>Nat. Protoc.</source>
+<volume>4</volume>, <fpage>44</fpage>â<lpage>57</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19131956</pub-id></mixed-citation>
+      </ref>
+      <ref id="b53">
+        <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>D.</given-names></name>
+<etal/>. <article-title>TopHat2: accurate alignment of transcriptomes in the presence of insertions, deletions and gene fusions</article-title>. <source>Genome. Biol.</source>
+<volume>14</volume>, <fpage>R36</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23618408</pub-id></mixed-citation>
+      </ref>
+      <ref id="b54">
+        <mixed-citation publication-type="journal"><name><surname>Trapnell</surname><given-names>C.</given-names></name>
+<etal/>. <article-title>Transcript assembly and quantification by RNA-Seq reveals unannotated transcripts and isoform switching during cell differentiation</article-title>. <source>Nat. Biotechnol.</source>
+<volume>28</volume>, <fpage>511</fpage>â<lpage>515</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20436464</pub-id></mixed-citation>
+      </ref>
+      <ref id="b55">
+        <mixed-citation publication-type="journal"><name><surname>Wagner</surname><given-names>I.</given-names></name>
+<etal/>. <article-title>morFeus: a web-based program to detect remotely conserved orthologs using symmetrical best hits and orthology network scoring</article-title>. <source>BMC Bioinformatics</source>
+<volume>15</volume>, <fpage>263</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25096057</pub-id></mixed-citation>
+      </ref>
+      <ref id="b56">
+        <mixed-citation publication-type="journal"><name><surname>Katoh</surname><given-names>K.</given-names></name> &amp; <name><surname>Standley</surname><given-names>D. M.</given-names></name>
+<article-title>MAFFT: iterative refinement and additional methods</article-title>. <source>Methods Mol. Biol.</source>
+<volume>1079</volume>, <fpage>131</fpage>â<lpage>146</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24170399</pub-id></mixed-citation>
+      </ref>
+      <ref id="b57">
+        <mixed-citation publication-type="journal"><name><surname>Castresana</surname><given-names>J.</given-names></name>
+<article-title>Selection of conserved blocks from multiple alignments for their use in phylogenetic analysis</article-title>. <source>Mol. Biol. Evol.</source>
+<volume>17</volume>, <fpage>540</fpage>â<lpage>552</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10742046</pub-id></mixed-citation>
+      </ref>
+      <ref id="b58">
+        <mixed-citation publication-type="journal"><name><surname>Guindon</surname><given-names>S.</given-names></name>, <name><surname>Delsuc</surname><given-names>F.</given-names></name>, <name><surname>Dufayard</surname><given-names>J. F.</given-names></name> &amp; <name><surname>Gascuel</surname><given-names>O.</given-names></name>
+<article-title>Estimating maximum likelihood phylogenies with PhyML</article-title>. <source>Methods Mol. Biol.</source>
+<volume>537</volume>, <fpage>113</fpage>â<lpage>137</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19378142</pub-id></mixed-citation>
+      </ref>
+      <ref id="b59">
+        <mixed-citation publication-type="journal"><name><surname>Huson</surname><given-names>D. H.</given-names></name>
+<etal/>. <article-title>Dendroscope: an interactive viewer for large phylogenetic trees</article-title>. <source>BMC Bioinformatics</source>
+<volume>8</volume>, <fpage>460</fpage> (<year>2007</year>).<pub-id pub-id-type="pmid">18034891</pub-id></mixed-citation>
+      </ref>
+      <ref id="b60">
+        <mixed-citation publication-type="journal"><name><surname>Soding</surname><given-names>J.</given-names></name>
+<article-title>Protein homology detection by HMM-HMM comparison</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>, <fpage>951</fpage>â<lpage>960</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15531603</pub-id></mixed-citation>
+      </ref>
+      <ref id="b61">
+        <mixed-citation publication-type="journal"><name><surname>Barbier</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>Regulation of H-ras splice variant expression by cross talk between the p53 and nonsense-mediated mRNA decay pathways</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>27</volume>, <fpage>7315</fpage>â<lpage>7333</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17709397</pub-id></mixed-citation>
+      </ref>
+      <ref id="b62">
+        <mixed-citation publication-type="journal"><name><surname>Scholz</surname><given-names>J.</given-names></name>, <name><surname>Besir</surname><given-names>H.</given-names></name>, <name><surname>Strasser</surname><given-names>C.</given-names></name> &amp; <name><surname>Suppmann</surname><given-names>S.</given-names></name>
+<article-title>A new method to customize protein expression vectors for fast, efficient and background free parallel cloning</article-title>. <source>BMC Biotechnol.</source>
+<volume>13</volume>, <fpage>12</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23410102</pub-id></mixed-citation>
+      </ref>
+      <ref id="b63">
+        <mixed-citation publication-type="journal"><name><surname>Provencher</surname><given-names>S. W.</given-names></name> &amp; <name><surname>Glockner</surname><given-names>J.</given-names></name>
+<article-title>Estimation of globular protein secondary structure from circular dichroism</article-title>. <source>Biochemistry</source>
+<volume>20</volume>, <fpage>33</fpage>â<lpage>37</lpage> (<year>1981</year>).<pub-id pub-id-type="pmid">7470476</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Author contributions</bold> A.G., M.H. and A.P. designed the experiments. A.G., M.H., C.B., D.A.H., An.M. and A.P. performed the experiments. M.H., D.A.H., C.B., Ar.M., M.Y.H. and B.H. performed bioinformatics analysis. M.M. provided critical input. A.G., M.H. and A.P. wrote the manuscript.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="f1">
+      <label>Figure 1</label>
+      <caption>
+        <title>Cell growth and poly(A) RNA distribution after knockdown of NCBP1 or NCBP2.</title>
+        <p>(<bold>a</bold>) Growth of HeLa cells after RNAi-mediated knockdown (left panel). Cells were treated twice with siRNAs against NCBP1, NCBP2, NXF1 or non-targeting siRNA control (siScrambled), and cell titre determined by a luminescence-based cell viability assay at the indicated time points. The graph shows the meanÂ±s.d. of two individual treatments measured in triplicates. One representative experiment of three is shown. RLU, relative light units. Knockdown efficiency of NCBP1 and NCBP2 was confirmed by western blotting against indicated proteins (right panel). Asterisk: nonspecific band. (<bold>b</bold>) Poly(A) RNA distribution in HeLa cells 48âh after repeated RNAi-mediated knockdown. HeLa cells were transfected with the indicated siRNAs, and localization of poly(A) RNA (red) was stained by RNA fluorescence <italic>in situ</italic> hybridization (RNA-FISH) using fluorescently labelled oligo (dT) as probe. DAPI (blue) was used to visualize nuclei. Shown confocal images are representative for three independent experiments. Scale bar, 20âÎ¼m. (<bold>c</bold>) Abundance of NCBP1 and NCBP2 in HeLa cells. Complete HeLa cell lysates were analysed by LCâMS/MS. Shown are average iBAQ intensities for NCBP1 and NCBP2 of 11 measurementsÂ±s.d.</p>
+      </caption>
+      <graphic xlink:href="ncomms9192-f1"/>
+    </fig>
+    <fig id="f2">
+      <label>Figure 2</label>
+      <caption>
+        <title>C17orf85/NCBP3 binds capped RNA and compensates for loss of NCBP2.</title>
+        <p>(<bold>a</bold>) Proteins enriched with 5â²-capped (CAP) and uncapped (OH) RNA from THP-1 (human, left panel) and RAW 264.7 (mouse, right panel) macrophages were analysed by LCâMS/MS. Volcano plots show the average degrees of enrichment by CAP- over OH-RNA (ratio of label-free quantification (LFQ) protein intensities; <italic>x</italic> axis) and <italic>P</italic> values (<italic>t</italic>-test; <italic>y</italic> axis) for each protein. Significantly enriched proteins (circled in black) are separated from background proteins by a hyperbolic curve (dotted line). C17orf85/NCBP3 (red dot) and proteins known to bind capped RNA (blue dots) are highlighted. Three independent affinity purifications were performed for both baits. (<bold>b</bold>) Shared enrichment network. Proteins significantly enriched by CAP-RNA from either human or mouse cells (data from <xref ref-type="fig" rid="f1">Fig. 1a</xref>). Proteins belonging to known protein complexes were grouped into boxes (CBC, cap-binding complex; NELF, negative elongation factor; IFIT, interferon-induced proteins with tetratricopeptide repeats; EIF4, eukaryotic translation initiation factor 4). (<bold>c</bold>) Subcellular localization of endogenous NCBP3 assessed by confocal microscopy. HeLa cells were grown on glass coverslips and stained for NCBP3 (green) and DAPI (blue). Scale bar, 20âÎ¼M. (<bold>d</bold>) Binding of endogenous C17orf85/NCBP3 to synthetic RNA oligomers (RNA oligo). Western blot analysis of precipitates after affinity purification (AP) with hydroxylated (OH) and m<sup>7</sup>G-capped (CAP) RNA oligos from murine RAW 264.7, human THP-1 and HeLa cells using antibodies against C17orf85/NCBP3 and the cap-binding control protein EIF4E. (<bold>e</bold>) Western blot analysis of m<sup>7</sup>GTP-precipitated proteins from HeLa cells detecting C17orf85/NCBP3, NCBP1 and PABP1 as control. (<bold>f</bold>,<bold>h</bold>) Growth of HeLa (<bold>f</bold>) and NIH3T3 (<bold>h</bold>) cells after RNAi-mediated knockdown. Cells were treated twice with siRNAs targeting NCBP2 or NCBP3 alone, NCBP3 together with NCBP2, or nonspecific siRNA (siScrambled) as control. The cell titre was determined by a luminescence-based cell viability assay at the indicated time points. The graph shows the meanÂ±s.d. of two individual treatments measured in triplicates. One representative experiment of three is shown. RLU, relative light units. (<bold>g</bold>) Knockdown efficiency and specificity of NCBP2 and NCBP3 in HeLa cells was confirmed by western blotting against indicated proteins.</p>
+      </caption>
+      <graphic xlink:href="ncomms9192-f2"/>
+    </fig>
+    <fig id="f3">
+      <label>Figure 3</label>
+      <caption>
+        <title>Biochemical and biophysical properties of the cap-binding region of NCBP3.</title>
+        <p>(<bold>a</bold>) Top, predicted features of NCBP3 and their positions in the full-length protein: RRM fold (aa 126â187, highlighted in blue), nuclear localization signal (NLS) and glutamine-rich region (Glu-rich). Bottom, secondary structure elements of NCBP3 (aa 120â189) and sequence alignment with human and mouse PARN RRMs. Arrowheads show residues chosen for a mutational analysis. (<bold>b</bold>) Homology model of the RRM of NCBP3. Secondary structure elements of the predicted RRM fold and residues chosen for mutational analysis are annotated. (<bold>c</bold>) Modelled RRM domain of NCBP3 superimposed with mouse PARN bound to m7GpppG (for clarity only the m<sup>7</sup>Gp moiety is shown, PDB code 3d45) to indicate the putative binding site. The model shows the solvent-accessible surface coloured according to electrostatic charge distribution. (<bold>d</bold>) Binding of <italic>E. coli</italic>-expressed NCBP3 to RNA oligonucleotides. Western blot after affinity purification with 5â²-CAP- or OH-RNA using lysate from bacteria expressing recombinant full-length NCBP3. Full-length (fl.) recombinant NCBP3 and N-terminal degradation products (deg.) are indicated. (<bold>e</bold>) m<sup>7</sup>GTP versus GTP-affinity purification and western blotting of recombinant NCBP3 from <italic>E. coli</italic> lysates. (<bold>f</bold>) Coomassie-stained SDSâpolyacrylamide gel electrophoresis gel after affinity purification of purified wild-type and mutant (ALAA) NCBP3 (aa 1â282) using m<sup>7</sup>GTP and GTP as bait. (<bold>g</bold>) Binding affinity of NCBP3 (aa 1â282) to 5â²-CAP- or 5â²-OH-RNA as determined by microscale thermophoresis (MST). The graph shows normalized fluorescence versus concentration of NCBP3. MeanÂ±s.d. of three independent measurements are shown. The inset shows the quality of the recombinant NCBP3 (aa 1â282) as analysed by an Agilent protein chip. (<bold>h</bold>) Binding of recombinant wild-type and mutant NCBP3 to 5â²-capped RNA. Western blot after affinity purification with biotinylated RNA oligos harbouring either a 5â²-CAP or OH structure using lysate from <italic>E. coli</italic> expressing either recombinant full-length wild-type NCBP3 (wt), NCBP3 where aspartic acid at position 134 had been mutated to alanine (D134A), or where tryptophan at position 155 and two aspartic acids at position 157 and 158, respectively, had been mutated to alanines (ALAA).</p>
+      </caption>
+      <graphic xlink:href="ncomms9192-f3"/>
+    </fig>
+    <fig id="f4">
+      <label>Figure 4</label>
+      <caption>
+        <title>Association of NCBP3 and NCBP2 with NCBP1 and proteins involved in RNA processing.</title>
+        <p>(<bold>a</bold>) GFP-tagged NCBP3, NCBP2 or control protein (ctrl) stably expressed in HeLa cells were precipitated and associated proteins were analysed by LCâMS/MS. Volcano plots show the average degrees of enrichment by NCBP3 or NCBP2 over ctrl (ratio of LFQ protein intensities; <italic>x</italic> axis) and <italic>P</italic> values (<italic>t</italic>-test; <italic>y</italic> axis) for each protein. Bait proteins (red letters), proteins of the exon junction complex (EJC, turquoise dots) or the TREX complex (purple dots), CBC (magenta dots), NELF (olive dots), importin (green dots) and NCBP3, SRRT and PHAX (red dots) are highlighted. Significantly enriched proteins are separated from the background by a hyperbolic curve. Four independent affinity purifications were performed for each bait. (<bold>b</bold>) Schematic illustration of APâMS analysis in <bold>a</bold> focusing on proteins involved in RNA biogenesis. (<bold>c</bold>) Western blot analysis of representative GFP-precipitated proteins identified by APâMS analysis. (<bold>d</bold>) Binding of NCBP1 to NCBP3 in <italic>E. coli</italic>. Western blot after His-precipitation using RNAse-treated lysates from bacteria co-expressing recombinant SII-tagged NCBP1 and full-length MBP/His-tagged NCBP3 or MBP/His as control. (<bold>e</bold>) NCBP2 and NCBP3 are required for NCBP1 association to m<sup>7</sup>GTP. Lysates of HeLa cells treated twice with siRNA against NCBP2, NCBP3 or both were used for m<sup>7</sup>GTP-affinity purification (m<sup>7</sup>GTP-AP), followed by western blot analysis. The m<sup>7</sup>GTP-binding protein EIF4E served as control.</p>
+      </caption>
+      <graphic xlink:href="ncomms9192-f4"/>
+    </fig>
+    <fig id="f5">
+      <label>Figure 5</label>
+      <caption>
+        <title>Global analysis of NCBP3- and NCBP2-bound RNAs.</title>
+        <p>Binding of endogenous RNA to NCBP3 and NCBP2. GFP-tagged NCBP3, NCBP2 or control protein (ctrl) stably expressed in HeLa cells were precipitated and associated RNAs were analysed by deep sequencing on the Illumina HiSeq platform (<bold>a</bold>,<bold>b</bold>) or qRTâPCR (<bold>c</bold>). All affinity purifications were performed in triplicates. (<bold>a</bold>) Scatter plot showing enrichment (FPKM<sub>bait</sub>+2/FPKM<sub>control</sub>+2) of transcripts binding to NCBP2 (<italic>x</italic> axis) and NCBP3 (<italic>y</italic> axis) quantified on the gene level. RNAs are colour-coded according to their annotated RNA types in Ensembl. (<bold>b</bold>) Percentage of enriched RNA types binding to NCBP3, NCBP2 or both proteins. RNAs have been considered enriched at a fold change bait over control &gt;2, a false discovery rate (FDR) &lt;0.01 and a minimal read count of 10. (<bold>c</bold>) Validation of sequencing data by qRTâPCR. RNA in NCBP2, NCBP3 or control (ctrl) precipitates was amplified by qRTâPCR using specific primers for two mRNAs (MYC and SLC43A3) and two snRNAs (U1 and U4). Data represent the meanÂ±s.d. a.u., arbitrary units.</p>
+      </caption>
+      <graphic xlink:href="ncomms9192-f5"/>
+    </fig>
+    <fig id="f6">
+      <label>Figure 6</label>
+      <caption>
+        <title>Functional analysis of NCBP3 at normal and virus-challenged growth conditions.</title>
+        <p>(<bold>a</bold>,<bold>b</bold>) Poly(A) RNA distribution in HeLa cells 72âh after RNAi-mediated knockdown. HeLa cells were transfected with the indicated siRNAs and localization of poly(A) RNA (red) was detected by fluorescence <italic>in situ</italic> hybridization (FISH) using fluorescently labelled oligo (dT) as probe. DAPI (blue) was used to visualize nuclei. (<bold>a</bold>) Representative images of poly(A) RNA distribution after RNAi-mediated knockdown. Scale bar, 20âÎ¼m. (<bold>b</bold>) The nuclear to cytoplasmic ratio of poly(A) RNA intensity was determined for a minimum of 125 cells per condition. Data represent the average ratio of the nuclear/cytoplasmic poly(A) RNA signalÂ±s.d. ***<italic>P</italic>&lt;0.001 as analysed by one-way analysis of variance statistics with Tukey's post-test. (<bold>c</bold>) Virus growth in HeLa cells after RNAi-mediated knockdown. HeLa cells were treated with siRNA against NCBP3 or nonspecific siRNA (siGFP) as control and infected with mutant vesicular stomatitis virus (VSV-M2; M51R substitution in the matrix protein), Semliki Forest virus (SFV) or encephalomyocarditis virus (EMCV). Virus titres in supernatants were determined by TCID50 24âh post infection.</p>
+      </caption>
+      <graphic xlink:href="ncomms9192-f6"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

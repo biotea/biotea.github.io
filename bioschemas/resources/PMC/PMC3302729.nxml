@@ -1,0 +1,2268 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:43:30Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3302729" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3302729</identifier><datestamp>2012-05-30</datestamp><setSpec>mbc</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Biol Cell</journal-id>
+      <journal-id journal-id-type="hwp">molbiolcell</journal-id>
+      <journal-id journal-id-type="pmc">mbc</journal-id>
+      <journal-id journal-id-type="publisher-id">Mol. Bio. Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Biology of the Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1059-1524</issn>
+      <issn pub-type="epub">1939-4586</issn>
+      <publisher>
+        <publisher-name>The American Society for Cell Biology</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3302729</article-id>
+      <article-id pub-id-type="pmcid">PMC3302729</article-id>
+      <article-id pub-id-type="pmc-uid">3302729</article-id>
+      <article-id pub-id-type="pmid">22262461</article-id>
+      <article-id pub-id-type="publisher-id">E11-08-0674</article-id>
+      <article-id pub-id-type="doi">10.1091/mbc.E11-08-0674</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Articles</subject>
+          <subj-group>
+            <subject>Biosynthesis and Biodegradation</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>YME1L controls the accumulation of respiratory chain subunits and is required for apoptotic resistance, cristae morphogenesis, and cell proliferation</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Stiburek</surname>
+            <given-names>Lukas</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cesnekova</surname>
+            <given-names>Jana</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kostkova</surname>
+            <given-names>Olga</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fornuskova</surname>
+            <given-names>Daniela</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Vinsova</surname>
+            <given-names>Kamila</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wenchich</surname>
+            <given-names>Laszlo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Houstek</surname>
+            <given-names>Josef</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>b</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zeman</surname>
+            <given-names>Jiri</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+        <aff id="aff1"><sup>a</sup>Department of Pediatrics and Adolescent Medicine, First Faculty of Medicine, Charles University in Prague and General University Hospital in Prague, 12808 Prague 2, Czech Republic</aff>
+        <aff id="aff2"><sup>b</sup>Department of Bioenergetics, Institute of Physiology, Academy of Sciences of the Czech Republic, 14220 Prague 4, Czech Republic</aff>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Fox</surname>
+            <given-names>Thomas D.</given-names>
+          </name>
+          <role>Monitoring Editor</role>
+        </contrib>
+        <aff>Cornell University</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1">*Address correspondence to: Jiri Zeman (<email>jzem@lf1.cuni.cz</email>).</corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>15</day>
+        <month>3</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>23</volume>
+      <issue>6</issue>
+      <fpage>1010</fpage>
+      <lpage>1023</lpage>
+      <history>
+        <date date-type="received">
+          <day>05</day>
+          <month>8</month>
+          <year>2011</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>03</day>
+          <month>1</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>1</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2012 Stiburek <italic>et al.</italic> This article is distributed by The American Society for Cell Biology under license from the author(s). Two months after publication it is available to the public under an AttributionâNoncommercialâShare Alike 3.0 Unported Creative Commons License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0">http://creativecommons.org/licenses/by-nc-sa/3.0</ext-link>).</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license license-type="creative-commons">
+          <license-p>âASCBÂ®,â âThe American Society for Cell BiologyÂ®,â and âMolecular Biology of the CellÂ®â are registered trademarks of The American Society of Cell Biology.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:type="simple" xlink:href="1010.pdf"/>
+      <abstract abstract-type="precis">
+        <p>Loss-of-function studies show that the human mitochondrial YME1L protease ensures cell proliferation, maintains normal cristae morphology and complex I activity, acts in an antiapoptotic manner, protects mitochondria from accumulation of oxidatively damaged membrane proteins, and is involved in proteolytic regulation of respiratory chain biogenesis.</p>
+      </abstract>
+      <abstract>
+        <p>Mitochondrial ATPases associated with diverse cellular activities (AAA) proteases are involved in the quality control and processing of inner-membrane proteins. Here we investigate the cellular activities of YME1L, the human orthologue of the Yme1 subunit of the yeast iâAAA complex, using stable short hairpin RNA knockdown and expression experiments. Human YME1L is shown to be an integral membrane protein that exposes its carboxy-terminus to the intermembrane space and exists in several complexes of 600â1100 kDa. The stable knockdown of YME1L in human embryonic kidney 293 cells led to impaired cell proliferation and apoptotic resistance, altered cristae morphology, diminished rotenone-sensitive respiration, and increased susceptibility to mitochondrial membrane protein carbonylation. Depletion of YME1L led to excessive accumulation of nonassembled respiratory chain subunits (Ndufb6, ND1, and Cox4) in the inner membrane. This was due to a lack of YME1L proteolytic activity, since the excessive accumulation of subunits was reversed by overexpression of wild-type YME1L but not a proteolytically inactive YME1L variant. Similarly, the expression of wild-type YME1L restored the lamellar cristae morphology of YME1L-deficient mitochondria. Our results demonstrate the importance of mitochondrial inner-membrane proteostasis to both mitochondrial and cellular function and integrity and reveal a novel role for YME1L in the proteolytic regulation of respiratory chain biogenesis.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>INTRODUCTION</title>
+      <p>Mitochondrial function requires selective proteolysis, which is carried out by a number of specific proteases, including processing peptidases, ATP-dependent proteases, and oligopeptidases (<xref ref-type="bibr" rid="B22">Koppen and Langer, 2007</xref>). YME1L was identified as the human orthologue of the yeast ATP-dependent protease Yme1 (<xref ref-type="bibr" rid="B6">Coppola <italic>et al.</italic>, 2000</xref>; <xref ref-type="bibr" rid="B41">Shah <italic>et al.</italic>, 2000</xref>). The yeast Yme1 is a subunit of an inner-membraneâanchored homo-oligomeric complex, a so-called iâAAA protease (where AAA signifies ATPases associated with diverse cellular activities) that exerts peptidase, chaperone-like, and translocase activities on the intermembrane space (IMS) side of the inner mitochondrial membrane (<xref ref-type="bibr" rid="B27">Leonhard <italic>et al.</italic>, 1996</xref>, <xref ref-type="bibr" rid="B28">1999</xref>; <xref ref-type="bibr" rid="B39">Rainey <italic>et al.</italic>, 2006</xref>). The iâAAA complex is, along with the homologous m-AAA protease, one of the two FtsH/AAA-family ATP-dependent proteases present within the inner mitochondrial membrane (<xref ref-type="bibr" rid="B48">Tatsuta and Langer, 2009</xref>). AAA protease subunits contain two functionally distinct domains: the AAA domain, which contains the Walker A (P loop) and Walker B motifs, and the M41 metallopeptidase domain, which harbors a conserved HEXXH metal-binding module (<xref ref-type="bibr" rid="B48">Tatsuta and Langer, 2009</xref>). The subunits are proposed to assemble into hexameric, barrel-like complexes composed of structurally separate rings of proteolytic and AAA domains (<xref ref-type="bibr" rid="B3">Bieniossek <italic>et al.</italic>, 2006</xref>). Mitochondrial AAA proteases are responsible for the quality control of proteins within the inner mitochondrial membrane and mediate the proteolytic processing of selected mitochondrial proteins (<xref ref-type="bibr" rid="B22">Koppen and Langer, 2007</xref>; <xref ref-type="bibr" rid="B48">Tatsuta and Langer, 2009</xref>). The yeast i-AAA complex has a native molecular weight of â¼1000 kDa (<xref ref-type="bibr" rid="B27">Leonhard <italic>et al.</italic>, 1996</xref>; <xref ref-type="bibr" rid="B16">Graef <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B9">Dunn <italic>et al.</italic>, 2008</xref>) and was shown to associate with additional nonsubunit adaptor proteins (<xref ref-type="bibr" rid="B8">Dunn <italic>et al.</italic>, 2006</xref>, <xref ref-type="bibr" rid="B9">2008</xref>). The inactivation of yeast YME1 leads to pleiotropic phenotypes, including a temperature-sensitive respiratory growth defect, an increased frequency of mitochondrial DNA (mtDNA) escape from mitochondria to the nucleus, an inability to survive without an intact mitochondrial genome, and the accumulation of mitochondria with aberrant morphology (<xref ref-type="bibr" rid="B49">Thorsness <italic>et al.</italic>, 1993</xref>; <xref ref-type="bibr" rid="B5">Campbell <italic>et al.</italic>, 1994</xref>; <xref ref-type="bibr" rid="B55">Weber <italic>et al.</italic>, 1996</xref>). Although it is generally assumed that the accumulation of misfolded and/or misassembled polypeptides or the failure to process crucial regulatory proteins is likely to be responsible for these phenotypes, their precise molecular basis is largely unknown. Only a handful of endogenous protein substrates of the yeast i-AAA protease have been identified. These substrates include misfolded and/or nonassembled forms of the inner-membrane proteins prohibitin 1 and 2, the soluble yeast NADH dehydrogenase (Nde1), the mitochondrially encoded cytochrome <italic>c</italic> oxidase (CcO) subunit 2 (Cox2), and the Ups1 and Ups2 proteins, which are involved in mitochondrial phospholipid metabolism (<xref ref-type="bibr" rid="B31">Nakai <italic>et al.</italic>, 1995</xref>; <xref ref-type="bibr" rid="B33">Pearce and Sherman, 1995</xref>; <xref ref-type="bibr" rid="B1">Augustin <italic>et al.</italic>, 2005</xref>; <xref ref-type="bibr" rid="B20">Kambacheld <italic>et al.</italic>, 2005</xref>; <xref ref-type="bibr" rid="B37">Potting <italic>et al.</italic>, 2010</xref>). In contrast, the precise function and structureâfunction relationship of human YME1L remain to be elucidated. The ectopic expression of human YME1L transcript variant 3, which shares 42% sequence identity with the yeast protein, partially complemented the thermosensitive respiratory growth defect of the yeast <italic>yme1</italic> mutant (<xref ref-type="bibr" rid="B41">Shah <italic>et al.</italic>, 2000</xref>). The dynamin-like GTPase OPA1, which localizes to the intermembrane space and is involved in mitochondrial fusion and the control of cristae morphology, was identified as a possible substrate of human YME1L (<xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B25">Lenaers <italic>et al.</italic>, 2009</xref>). The knockdown of human YME1L was shown to affect the constitutive processing of a subset of imported OPA1 polypeptides, leading to defects in the accumulation of OPA1 isoforms. Consistent with this observation, cells with down-regulated YME1L were shown to exhibit a fragmented mitochondrial network (<xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>). Of interest, human <italic>YME1L</italic> has been repeatedly shown to be related to cancer progression and has been identified as an MYC-responsive gene (<xref ref-type="bibr" rid="B54">Wan <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B4">Bredel <italic>et al.</italic>, 2009</xref>).</p>
+      <p>The mitochondrial oxidative phosphorylation system (OXPHOS) produces the bulk of cellular ATP and reactive oxygen species (<xref ref-type="bibr" rid="B26">Lenaz and Genova, 2009</xref>). In mammals, the OXPHOS is composed of five multisubunit, inner membraneâembedded enzyme complexes, the respiratory chain, and the ATP synthase (complex V), which contains &gt;90 structural subunits encoded by both the mitochondrial and nuclear genes. The biogenesis of OXPHOS complexes is complicated by the dual genetic origin and membranous character of its constituent subunits and by the number of prosthetic groups that are required for its function and assembly. Indeed, numerous specific nuclear-encoded protein factors that ensure the import, membrane incorporation, and assembly of structural subunits, as well as the synthesis, delivery, and incorporation of prosthetic groups, have been identified (<xref ref-type="bibr" rid="B44">Stiburek <italic>et al.</italic>, 2006</xref>; <xref ref-type="bibr" rid="B21">Koopman <italic>et al.</italic>, 2010</xref>). In contrast, there are few data describing the quality control and proteolytic turnover of human OXPHOS subunits (<xref ref-type="bibr" rid="B47">Stiburek and Zeman, 2010</xref>).</p>
+      <p>Here we show that human YME1L controls the membrane accumulation of nonassembled respiratory chain subunits Ndufb6, Cox4, and ND1. We further demonstrate that the loss of YME1L leads to reduced cell proliferation and apoptotic resistance, altered mitochondrial ultrastructure, diminished rotenone-sensitive respiration, and increased sensitivity to oxidative damage. Our results reveal a crucial role for YME1L in the maintenance of mitochondrial inner-membrane proteostasis and in the proteolytic regulation of respiratory chain biogenesis.</p>
+    </sec>
+    <sec>
+      <title>RESULTS</title>
+      <sec>
+        <title>Human YME1L is an integral membrane protein that exposes its carboxy-terminus to the intermembrane space and is part of several 600- to 1100-kDa complexes</title>
+        <p>When expressed in human or yeast cells, epitope-tagged human YME1L localizes to mitochondria (<xref ref-type="bibr" rid="B41">Shah <italic>et al.</italic>, 2000</xref>). Consistent with this observation, subcellular fractionation revealed that endogenous YME1L is highly enriched in mitochondrial fractions of human embryonic kidney 293 (HEK293) cells (data not shown). Immunoprecipitation coupled with mass spectrometry identification demonstrated that YME1L expressed in HEK293 cells corresponds to isoform 3 (NP_055078; see <xref ref-type="fig" rid="F3">Figure 3C</xref> later in the paper).</p>
+        <fig id="F1" position="float">
+          <label>FIGURE 1:</label>
+          <caption>
+            <p>The characterization of human YME1L.(A) Human YME1L is an integral membrane protein. Submitochondrial fractions were prepared from HEK293 cell mitochondria (1 mg/ml) using either sonic disruption or extraction with 100 mM sodium carbonate (pH 11.5). The resulting supernatant (S) and pellet (P) fractions and untreated mitochondria (M) were immunoblotted with antibodies against YME1L, OXA1L, PNPase, and ATPase F1-Î±. (B) Human YME1L exposes its carboxy-terminus to the mitochondrial intermembrane space. Mitochondria isolated from HEK293 cells were swollen using hypotonic shock to selectively break the outer mitochondrial membrane and either left untreated or incubated with 1% Triton X-100 and/or 25 Î¼g/ml trypsin for 20 min. After incubation, the trypsin activity was inhibited by soybean trypsin inhibitor, and mitochondria were immunoblotted with peptide-specific YME1L antiserum and with antibodies to Cox2, Sco1, Core 2, Cox1, and Ndufb6. (C) The determination of the native molecular weight of human YME1L using BN-PAGE. Mitochondria isolated from HEK293 cells were solubilized with 1% dodecyl maltoside, and â¼50 Î¼g of protein was fractionated using two-dimensional blue native/denaturing PAGE on a 3â12% polyacrylamide gradient in the first dimension. The resulting immunoblots were incubated with antiserum raised against human YME1L. To enable the estimation of the native molecular weights of the observed YME1L complexes, the membrane was subsequently immunoblotted with antibodies to Ndufa9, ATPase F1-Î±, core 2, and Cox2. Under the conditions used, these antibodies recognize the complex I holoenzyme (970 kDa), ATP synthase holoenzyme (600 kDa), ATP synthase dimer (1200 kDa), F1-ATPase subcomplex (370 kDa), complex III dimer (500 kDa), and complex IV monomer (200 kDa), respectively. Black arrows denote the three major observed forms of the human i-AAA complex. (D) The expression level of human YME1L is tissue dependent. Mitochondria (25 Î¼g of protein) isolated from control human cardiac muscle, skeletal muscle, frontal cortex, and kidney tissue were resolved using SDSâPAGE and immunoblotted with antibodies to YME1L, Cox4, Cox2, and Ndufb6. VDAC and mtHSP70 were used to control for actual mitochondrial enrichment in various preparations. The arrow denotes the migration of human YME1L isoform 3. (E) The densitometric quantification of immunoblot signals from D. The sum of signals from all four tissues for each protein was set to 100%. Error bars correspond to SD from the mean.</p>
+          </caption>
+          <graphic xlink:href="1010fig1"/>
+        </fig>
+        <fig id="F2" position="float">
+          <label>FIGURE 2:</label>
+          <caption>
+            <p>The loss of YME1L leads to the stabilization of the respiratory chain subunits Ndufb6 and Cox4 and to an altered pattern of OPA1 isoforms. (A) YME1L transcripts are efficiently depleted using stable shRNA knockdown. The relative quantification of the analyzed transcripts was performed with TaqMan Gene Expression Assays on a 7300 Real-Time PCR System (Applied Biosystems). HPRT1 (hypoxanthine phosphoribosyltransferase 1), TUBA1A (tubulin, alpha 1a), GAPDH (glyceraldehyde-3-phosphate dehydrogenase), and TBP (TATA boxâbinding protein) were used as reference genes. *p &lt; 0.05, ***p &lt; 0.001. (B) The loss of human YME1L protein does not affect mitochondrial PNPase or Phb2 levels. Equal amounts of mitochondrial lysates were separated (â¼10 Î¼g of protein) using SDSâPAGE and immunoblotted with antibodies to YME1L, mtHSP70, Phb2, and PNPase. (C) The densitometric quantification of the immunoblot signals in B. (D) Whereas Ndufb6, Cox4, and OPA1 are markedly affected by the loss of YME1L, the cellular levels of Cox2 and PNPase are unaffected. Equal amounts of whole-cell lysates (â¼20 Î¼g of protein) were separated using SDSâPAGE and immunoblotted with antibodies to PNPase, Ndufb8, Ndufb6, Cox2, Cox4, and OPA1. Controls correspond to HEK293 cells transfected with the scrambled shRNA.(E) The densitometric quantification of the immunoblot signals from (D), excluding the OPA1 signal. Error bars correspond to SD from the mean.</p>
+          </caption>
+          <graphic xlink:href="1010fig2"/>
+        </fig>
+        <fig id="F3" position="float">
+          <label>FIGURE 3:</label>
+          <caption>
+            <p>Ndufb6, Cox4, and Cox2 are proteolytic substrates of human YME1L. (A) The expression of wild-type (wt) YME1L, but not the proteolytically inactive YME1L<sup>E543Q</sup> variant, reverses the stabilization of Ndufb6 and Cox4 in YME1L KD cells. YME1L KD cells were transiently transfected with the empty vector, the wild-type YME1L construct, or the YME1L<sup>E543Q</sup>-FLAG construct and, together with the scrambled shRNA-transformed HEK293 cells (control lane), used to prepare whole-cell lysates, which were subsequently immunoblotted with antibodies to Ndufb6, Cox4, Cox2, and SDHA. Signals were quantified by densitometric analysis. (B) Cox2 and Ndufb6 efficiently coimmunoprecipitate with proteolytically inactive YME1L<sup>E534Q</sup>-FLAG in YME1L KD cells. YME1L KD cells were transfected as in A and used to prepare mitochondrial fractions. Mitochondria were solubilized with 1% Triton X-100 and incubated with Anti-FLAG M2 affinity gel (Sigma-Aldrich). The eluted antigens, together with a fraction of vector-transfection input (5%), were immunoblotted with antibodies to Cox2, Cox5a, and Ndufb6 and with the monoclonal anti-FLAG M2 antibody. (C) YME1L isoform 3 is expressed in HEK293 cells. Endogenous YME1L was immunoprecipitated from HEK293 cell mitochondria (1 mg/ml) using anti-YME1L antiserum, resolved along with preimmune serum precipitate using SDSâPAGE, silver stained, and then excised and subjected to identification by mass fingerprinting and tandem mass spectrometry analysis. (D) Subunit d of complex V coimmunoprecipitates with the endogenous YME1L from HEK293 mitochondria, but Cox2 and Ndufb6 do not. The immunoprecipitate shown in C was immunoblotted with antibodies to ATP synthase subunit d, Cox2, and Ndufb6. (E) The densitometric quantification of immunoblot signals from A. Error bars correspond to SD from the mean.</p>
+          </caption>
+          <graphic xlink:href="1010fig3"/>
+        </fig>
+        <p>Yeast Yme1 is a transmembrane protein consisting of a matrix-localized amino-terminal domain and a large catalytic carboxy-terminal domain found within the IMS. To investigate the membrane properties of human YME1L, we subjected mitochondria isolated from HEK293 cells to either sonic treatment or alkaline carbonate extraction. These experiments showed that, similar to its counterpart in yeast, the human YME1L is indeed an integral membrane protein (<xref ref-type="fig" rid="F1">Figure 1A</xref>). To confirm the conservation of the basic membrane topology in the human protein, we took advantage of a peptide-specific antiserum raised against a 21âamino acid segment at the carboxy-terminus of YME1L. Mitochondria isolated from HEK293 cells were subjected to the disruption of the outer mitochondrial membrane with osmotic (hypotonic) shock, and the sensitivity of YME1L to externally added protease (trypsin) was assessed. The YME1L immunoblot signal was found to be highly sensitive to protease addition compared with other inner-membrane proteins (Cox2, Sco1) that are known to expose large domains to the IMS (<xref ref-type="fig" rid="F1">Figure 1B</xref>). On the basis of these results, we concluded that the carboxy-terminus and, thus, most likely the entire carboxy-terminal domain of human YME1L are exposed within the IMS.</p>
+        <p>The native molecular weight of the yeast i-AAA complex was determined to be â¼1000 kDa (<xref ref-type="bibr" rid="B27">Leonhard <italic>et al.</italic>, 1996</xref>; <xref ref-type="bibr" rid="B16">Graef <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B9">Dunn <italic>et al.</italic>, 2008</xref>). However, use of blue native electrophoresis of digitonin-solubilized mitochondria showed that the yeast Yme1 migrates in several complexes of â¼700â1000 kDa (<xref ref-type="bibr" rid="B8">Dunn <italic>et al.</italic>, 2006</xref>, <xref ref-type="bibr" rid="B9">2008</xref>). To determine the approximate native molecular weight of the putative human iâAAA complex, mitochondria from HEK293 cells were solubilized with 1% dodecyl maltoside and resolved using two-dimensional blue native (3â12% polyacrylamide gradient)/denaturing PAGE. The immunoblots developed with the anti-YME1L antibody showed that the bulk of YME1L is found as part of several highâmolecular weight protein complexes (<xref ref-type="fig" rid="F1">Figure 1C</xref>). Subsequent immunoblotting with antibodies to complex I, F1-ATPase, complex III, and complex IV showed that the apparent molecular weight of these complexes ranges from 600 to 1100 kDa (<xref ref-type="fig" rid="F1">Figure 1C</xref>). However, the majority of YME1L was found in a complex of â¼900 kDa, which likely represents the human counterpart of the yeast i-AAA complex. Collectively, these results suggest evolutionary conservation of the overall native organization of human i-AAA protease.</p>
+        <p>Mitochondria exhibit considerable tissue-dependent variation in their structure and function (<xref ref-type="bibr" rid="B2">Benard <italic>et al.</italic>, 2006</xref>). We therefore examined the relative steady-state levels of YME1L in mitochondria from human cardiac and skeletal muscle, frontal cortex, and kidney tissue. To exclude indirect effects due to variations in true mitochondrial mass in mitochondrial preparations from different tissues, we used antibodies to VDAC and mtHSP70âreliable markers of outer mitochondrial membrane and matrix space, respectively. We found profound differences in the amounts of YME1L in various human tissues, with cardiac and skeletal muscle mitochondria showing the highest content (<xref ref-type="fig" rid="F1">Figure 1D</xref>). The fact that the relative levels of YME1L in various human tissues appear to be largely proportional to the amount of selected respiratory chain subunits suggests its involvement in respiratory chain biogenesis or maintenance (<xref ref-type="fig" rid="F1">Figure 1E</xref>).</p>
+      </sec>
+      <sec>
+        <title>The knockdown of YME1L leads to the marked stabilization of Ndufb6 and Cox4 and to an altered pattern of OPA1 isoform accumulation</title>
+        <p>To define the cellular activities of YME1L, we created five different HEK293 cell lines that stably express miR-30âbased short hairpin RNAs (shRNAmirs) targeting the human YME1L transcript (NM_014263; NM_139312). Quantitative TaqMan real-time PCR and Western blot analysis with anti-YME1L antiserum showed that two of the produced knockdown (KD) cell lines (V2LHS_203535 and V2LHS_208115; Open Biosystems) exhibited YME1L mRNA and protein levels of &lt;25 and 10% of control values, respectively (<xref ref-type="fig" rid="F2">Figure 2, AâC</xref>).</p>
+        <p>To identify proteins that were affected by the loss of YME1L, we performed a targeted immunoblot screen of whole-cell lysates from YME1L KD cells using multiple antibodies against mitochondrial proteins. The steady-state levels of two OXPHOS subunits (the Ndufb6 subunit of the membrane arm of complex I and the complex IV subunit Cox4) were found to be markedly increased (approximately fourfold to fivefold) in mitochondria of YME1L KD cells (<xref ref-type="fig" rid="F2">Figure 2, D and E</xref>). The increases in the levels of these proteins were not paralleled by an increase in the steady-state levels of any other complex I or complex IV subunits tested (<xref ref-type="fig" rid="F2">Figure 2, D and E</xref>, and data not shown). Because we did not observe any increase in <italic>NDUFB6</italic> or <italic>COX4</italic> mRNAs (<xref ref-type="fig" rid="F2">Figure 2A</xref>), we concluded that the loss of YME1L leads to the selective stabilization of these polypeptides.</p>
+        <p>Given that the dynamin-related GTPase OPA1 is involved in the control of mitochondrial fusion and cristae morphology and was previously identified as a substrate of human YME1L (<xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>), we immunoblotted whole-cell extracts from YME1L KD cells with an antibody to this IMS protein. OPA1 antibodies exhibit five bands on immunoblots from HEK293 cell extracts (bands aâe; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>). Bands a and b normally contain the long isoforms of OPA1 (L-OPA1) that lack exons 4b and 5b and are thus insensitive to YME1L. Bands câe represent the short isoforms of OPA1 (S-OPA1) and are generated either constitutively by YME1L (band d) or via inducible processing by the OMA1 and/or m-AAA proteases (bands c and e; <xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B10">Ehses <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B19">Head <italic>et al.</italic>, 2009</xref>). Indeed, we found that the pattern of isoforms of OPA1 was markedly altered in cells with stably down-regulated YME1L (<xref ref-type="fig" rid="F2">Figure 2D</xref>). The most prominent difference was the shift in the relative abundance of bands câe (S-OPA1). Whereas the level of band d was severely diminished, bands c and e appeared markedly increased. Bands a and b (L-OPA1) were also significantly increased in YME1L KD cell extracts compared with controls (<xref ref-type="fig" rid="F2">Figure 2D</xref>). The reduction in band d is consistent with the fact that it normally contains OPA1 isoforms that originate from the constitutive cleavage of OPA1 molecules containing exons 4b and 5b by YME1L (<xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B19">Head <italic>et al.</italic>, 2009</xref>). The increase in L-OPA1 bands very likely stems from the accumulation of unprocessed OPA1 molecules that would normally undergo processing by YME1L. Finally, the increase in bands e and c could be explained by the alternative processing of arrested, YME1L-susceptible L-OPA1 at cleavage site S1 by the OMA1 and/or m-AAA proteases (<xref ref-type="bibr" rid="B10">Ehses <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B19">Head <italic>et al.</italic>, 2009</xref>).</p>
+      </sec>
+      <sec>
+        <title>Ndufb6, Cox4, and Cox2 are proteolytic substrates of the human i-AAA protease</title>
+        <p>In an attempt to identify protein substrates of YME1L, we constructed a FLAG-tagged variant of human YME1L isoform 3 (NP_055078.1) in which the conserved Glu-543 residue of the consensus metal-binding HEXXH motif is replaced by glutamine (E543Q). The homologous active site Glu-541 of the HEXXH motif of yeast Yme1 was shown to be required for proteolysis but dispensable for substrate recognition and binding. Consequently, the yeast Yme1<sup>E541Q</sup> variant was successfully used as a proteolytically inactive substrate trap (<xref ref-type="bibr" rid="B28">Leonhard <italic>et al.</italic>, 1999</xref>). The YME1L<sup>E543Q</sup> variant and the wild-type YME1L were further modified by a series of seven nucleotide substitutions at every third codon position to confer resistance to the shRNA molecule used for knockdown and transiently expressed in the YME1L KD background. The mutant protein was efficiently imported into mitochondria and assembled into a complex with a molecular weight comparable to that of wild-type YME1L (data not shown). The subsequent anti-FLAG coimmunoprecipitation revealed that Ndufb6 and Cox2 specifically coimmunoprecipitate from isolated mitochondria with the YME1L<sup>E543Q</sup>-FLAG variant but not with the wild-type YME1L-FLAG protein or the endogenous YME1L (<xref ref-type="fig" rid="F3">Figure 3B</xref>). Other nuclear-encoded mitochondrial proteins that we tested, including Ndufa9, Ndufb8, Ndufs3, OPA1, polynucleotide phosphorylase (PNPase), Î± and Î² subunits of F1-ATPase, subunit d, OSCP, SDHA, SDHB, mtHSP70, porin, Core 2, Core1, Sco1, and OPA1, did not show increased coimmunoprecipitation with the YME1L<sup>E543Q</sup> variant (data not shown). Our attempts to show coimmunoprecipitation of YME1L with Cox4 were largely prevented by the very weak signal produced by this antibody (data not shown). It is intriguing that ATP synthase subunit d coimmunoprecipitated efficiently with the endogenous YME1L protein (<xref ref-type="fig" rid="F3">Figure 3, C and D</xref>).</p>
+        <p>Unlike the Cox2 subunit, which did not accumulate excessively in YME1L KD mitochondria, the levels of both Ndufb6 and Cox4 were markedly elevated (<xref ref-type="fig" rid="F2">Figure 2, D and E</xref>). Thus, if both of these respiratory chain subunits were true proteolytic substrates of the i-AAA protease, then it should be possible to reverse their stabilization in YME1L KD cells by expressing wild-type YME1L-FLAG but not the YME1L<sup>E543Q</sup>-FLAG variant. Indeed, the ectopic expression of wild-type YME1L-FLAG in the YME1L KD background led to a significant reduction in the levels of both Ndufb6 and Cox4, whereas transfection with either the empty vector or YME1L<sup>E543Q</sup>-FLAG had no effect on their protein levels (<xref ref-type="fig" rid="F3">Figure 3, A and E</xref>). Taken together, these results indicate that Ndufb6, Cox4, and Cox2 are proteolytic substrates of human YME1L. Furthermore, these results provide evidence for the functional conservation of the Glu residue in the HEXXH motif of human YME1L.</p>
+      </sec>
+      <sec>
+        <title>Excess Ndufb6 and ND1 exist within membrane protein complexes, whereas excess Cox4 exists as a nonassembled membrane-embedded subunit</title>
+        <p>Next we examined the assembly status of Ndufb6 and Cox4, as well as the steady-state levels of the five OXPHOS complexes in YME1L KD mitochondria, using blue native (BN)âPAGE Western blotting. Detection with the Ndufb6 antibody showed that the amount of fully assembled complex I is not significantly altered in these cells and that the excess Ndufb6 is found in several protein complexes with apparent molecular weights ranging from â¼50 to 900 kDa (<xref ref-type="fig" rid="F4">Figure 4, A and D</xref>). In contrast, detection with an antibody to Cox4 showed that the excess Cox4 is found exclusively in one distinct band with migration identical to that of the nonassembled subunit (<xref ref-type="fig" rid="F4">Figure 4B</xref>). Detection with antibodies to Ndufb8, Cox1, Cox2, Cox5a, and Cox6c revealed minor or no increases in the respective subcomplexes or nonassembled subunits (<xref ref-type="fig" rid="F4">Figure 4, B, D, and E</xref>). Of interest, the steady-state level of nonassembled Cox5a was found to be diminished in cells lacking YME1L, likely as a result of the sequestration of free Cox5a by excess Cox4 (<xref ref-type="bibr" rid="B46">Stiburek <italic>et al.</italic>, 2005</xref>). Furthermore, the detection of the mitochondrially encoded ND1 subunit showed increased levels of some highâmolecular weight complex I subcomplexes (<xref ref-type="fig" rid="F4">Figure 4A</xref>). Because most of the complex I subcomplexes identified in YME1L KD mitochondria were also found, albeit at much reduced levels, in control mitochondria, they likely represent true complex I assembly intermediates. We concluded from these results that YME1L is required to control the levels of nonassembled Ndufb6, Cox4, and ND1 in mitochondria.</p>
+        <fig id="F4" position="float">
+          <label>FIGURE 4:</label>
+          <caption>
+            <p>Excess Ndufb6 and ND1 accumulate as membrane-embedded subcomplexes, whereas excess Cox4 exists as a free membrane-embedded protein in YME1L KD mitochondria. (A) YME1L KD mitochondria accumulate protein complexes containing Ndufb6 and ND1. Mitochondrial fractions were solubilized with 1% dodecyl maltoside, and equal amounts of protein extract (â¼20 Î¼g) were resolved using BN-PAGE on 8â16% polyacrylamide gradient and then immunoblotted with antibodies against Ndufb6 and ND1, the F1-Î± subunit of complex V, core 2 of complex III, and SDHA of complex II. Controls correspond to mitochondrial extracts from HEK293 cells transfected with the scrambled shRNA, whereas YME1L KD corresponds to mitochondrial extracts from YME1L KD cells.(B) YME1L KD mitochondria accumulate nonassembled Cox4. The immunoblots shown were prepared as in A, except that a 10â16% polyacrylamide gradient was used for electrophoretic separation and the membranes were developed with antibodies to Cox4 and Cox6c. (C) Excess Ndufb6 and Cox4 subunits accumulate as membrane-embedded polypeptides. Mitochondria (1 mg/ml) from control and YME1L KD cells were either sonicated or extracted with 100 mM sodium carbonate, pH 11.5, and centrifuged for 1 h at 144,000 Ã <italic>g</italic>. TCA-precipitated supernatant (S) and washed pellet (P) fractions, along with the untreated mitochondria, were immunoblotted with antibodies to ATPase F1-Î±, Cox1, Cox2, Cox4, and Ndufb6. (D) In contrast to Ndufb6 and ND1, only a minority of Ndufb8 is retained in complex I subcomplexes in YME1L KD cells. Immunoblots were prepared using a 5â15% polyacrylamide gradient and developed with antibodies against Ndufb6 and Ndufb8. (E) YME1L KD mitochondria exhibit increased levels of CcO subcomplexes. The immunoblots were prepared using 8â15% polyacrylamide gradient and developed with antibodies against Cox1, Cox2, and Cox5a. (F) The overexpression of Ndufb6-FLAG in HEK293 cells leads to the appearance of subcomplexes similar to those observed in YME1L KD cells. Wild-type HEK293 cells were transiently transfected with the Ndufb6-FLAG expression construct harvested at 36 h posttransfection and used to prepare mitochondrial fractions. Mitochondria were solubilized with 1% dodecyl maltoside and resolved using BN-PAGE (F) or two-dimensional BN/SDSâPAGE (G) on 5â14% polyacrylamide gels in the first dimension. Immunodetection was performed using anti-Ndufb6 and anti-FLAG antibodies. The apparent molecular weights (kDa) are estimated from the migration of complex I holoenzyme (970 kDa), complex III dimer (500 kDa), complex IV monomer (200 kDa), complex II (123 kDa), and mtHSP70 (70 kDa).</p>
+          </caption>
+          <graphic xlink:href="1010fig4"/>
+        </fig>
+        <p>We investigated whether the excess nonassembled Ndufb6 and Cox4 exist in soluble, membrane-associated, or membrane-embedded forms in YME1L KD mitochondria. Under normal conditions, both Ndufb6 and Cox4 are integral inner-membrane proteins that span the membrane with one transmembrane segment. We subfractionated YME1L KD mitochondria using either sonic disruption or alkaline carbonate extraction. Whereas sonic treatment discriminates between soluble and membrane proteins, alkaline carbonate extraction removes all but integral membrane proteins (<xref ref-type="bibr" rid="B14">Fujiki <italic>et al.</italic>, 1982</xref>). Because the vast majority of Ndufb6 and Cox4 remained in the pellet (membrane) fractions upon both treatments (<xref ref-type="fig" rid="F4">Figure 4C</xref>), we concluded that nonassembled Nudfb6 and Cox4 exist as membrane-embedded polypeptides in YME1L KD mitochondria. This result is consistent with the known membrane topology of the mature Cox4 subunit, which is known to expose a soluble C-terminal domain to the IMS, and the expected localization of the YME1L proteolytic domain.</p>
+        <p>Next we investigated whether the overexpression of Ndufb6-FLAG in HEK293 cells would lead to a Ndufb6 subcomplex pattern similar to that found in YME1L KD cells. The rationale for this experiment was to investigate whether the excess of Ndufb6 alone is sufficient to trigger the formation of these protein complexes or whether an increase in the provision of additional complex I subunit(s) is required. FLAG-tagged Ndufb6 was transiently expressed in wild-type HEK293 cells, and the assembly patterns of both the epitope-tagged and endogenous Ndufb6 proteins were analyzed using BN-PAGE immunoblotting. The Ndufb6-FLAG accumulated in mitochondria and showed an approximately threefold increase in steady-state levels compared with the endogenous subunit. Two-dimensional BN/denaturing immunoblots showed that the bulk of the fusion protein was found in multiple subcomplexes and complex I holoenzyme (<xref ref-type="fig" rid="F4">Figure 4, F and G</xref>). As expected, detection of the endogenous Ndufb6 showed that the majority of the signal was present in the complex I holoenzyme (<xref ref-type="fig" rid="F4">Figure 4, F and G</xref>). Of importance, anti-Ndufb6 detection also revealed the presence of endogenous Ndufb6 in several distinct subcomplexes, most of which migrated at sizes similar to those seen in YME1L KD cells (<xref ref-type="fig" rid="F4">Figure 4, A and D</xref>). On the basis of these results, we concluded that the increased accumulation of Ndufb6 can lead to the appearance of subcomplexes found in YME1L KD cells. Thus, although additional complex I subunits might also be affected by the loss of YME1L, the increased levels of the Ndufb6 subunit per se is sufficient to trigger the formation of most of the complex I subcomplexes from YME1L KD cells.</p>
+      </sec>
+      <sec>
+        <title>The stable knockdown of YME1L results in a fragmented mitochondrial network and aberrant cristae morphology</title>
+        <p>One of the most prominent phenotypes in both yeast and human YME1-deficient cells is the markedly altered mitochondrial network morphology (<xref ref-type="bibr" rid="B5">Campbell <italic>et al.</italic>, 1994</xref>; <xref ref-type="bibr" rid="B18">Griparic <italic>et al.</italic>, 2004</xref>). Consistent with this observation, MitoTracker staining and fluorescence microscopy showed that the vast majority of cells with stably depleted YME1L show a significantly fragmented and attenuated mitochondrial network compared with the mostly wild-type tubular mitochondrial reticulum of control cells (<xref ref-type="fig" rid="F5">Figure 5, A and B</xref>). This result is consistent with the severely altered pattern of OPA1 isoforms in these cells (<xref ref-type="fig" rid="F2">Figure 2D</xref>). More important, transmission electron microscopy revealed markedly altered cristae morphology in mitochondria of YME1L KD cells compared with the mostly wild-type cristae morphology of mitochondria in control cells (<xref ref-type="fig" rid="F5">Figure 5, C and D</xref>). Instead of lamellar cristae, the almost-round mitochondria consisted of completely unstructured cristae that adopted unusual shapes (<xref ref-type="fig" rid="F5">Figure 5, C and D</xref>). Of importance, the expression of wild-type YME1L restored the lamellar cristae morphology of mitochondria in YME1L-knockdown cells (<xref ref-type="fig" rid="F5">Figure 5, E and F</xref>). These results therefore argue for a major role of YME1L in the maintenance of mitochondrial cristae morphology.</p>
+        <fig id="F5" position="float">
+          <label>FIGURE 5:</label>
+          <caption>
+            <p>Fragmented mitochondrial network and impaired cristae morphogenesis are observed upon the loss of YME1L. (A) The loss of YME1L results in a fragmented and attenuated mitochondrial network. Mitochondria were visualized with MitoTracker Red and analyzed using a Nikon Diaphot 200 inverted microscope equipped with an Olympus DP50 camera. Images were deconvolved using the classic maximum-likelihood estimation algorithm in Huygens Professional software. Bar, 10 Î¼M. (B) The quantification of mitochondrial network morphology in control and YME1L KD cells. Cells containing tubular (white bars) or fragmented (black bars) mitochondria were counted in a double-blind manner. More than 100 cells were scored per experiment. (C) Mitochondrial ultrastructure is abnormal in YME1L-knockdown cells. Cells were incubated in PBS containing 2% potassium permanganate for 15 min, washed with PBS, and dehydrated with an ethanol series. They were then embedded in Durcupan Epon, sectioned by microtome to thicknesses ranging from 600 to 900 Ã, and stained with lead citrate and uranyl acetate. The sections were viewed with a JEOL JEM-1200 EX transmission electron microscope. Bars, 200 nM. (D) The quantification of mitochondrial cristae morphology in control and YME1L KD cells. Approximately 50 sections of individual cells were scored in a double-blind manner. Controls correspond to isolated mitochondria from HEK293 cells transfected with the scrambled shRNA.(E) Lamellar cristae morphology in YME1L-knockdown cells was restored upon the expression of wild-type YME1L. YME1L KD:: empty vector (a), YME1L KD::YME1L-FLAG (bâd). (F) The quantification of cristae morphology in YME1L KD::vector and YME1L KD::pCMV-YME1L cells. Approximately 50 sections of individual cells were scored in a double-blind manner. Error bars correspond to SD from the mean.</p>
+          </caption>
+          <graphic xlink:href="1010fig5"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>YME1L KD cells exhibit a reduced growth rate, diminished complex-Iâspecific respiration, increased carbonylation of mitochondrial membrane proteins, and impaired apoptotic resistance</title>
+        <p>To assess the overall effect of YME1L knockdown on cell viability, we examined the growth rates of both control and YME1L KD cells over a time course of 7 d. We found significant growth retardation associated with the loss of YME1L (<xref ref-type="fig" rid="F6">Figure 6A</xref>), suggesting that the protease is required for normal cell proliferation.</p>
+        <fig id="F6" position="float">
+          <label>FIGURE 6:</label>
+          <caption>
+            <p>Reduced growth rate and impaired mitochondrial function are observed in YME1L KD cells. (A) Growth rate is reduced in YME1L KD cells. Stable knockdown cells were seeded in six-well plates at 5 Ã 10<sup>4</sup> cells per well and cultured in DMEM containing 1 Î¼g/ml puromycin. The medium was changed on the second, fourth, and sixth days. Viable cells were counted every 24 h for a total of 7 d. (B) Complex Iâspecific respiration was diminished in YME1L KD cells. High-resolution respirometry of digitonin-permeabilized HEK293 cells was performed with the OROBOROS oxygraph as a multiple substrate-inhibitor analysis in the presence of 0.5 Î¼M FCCP. CI/CII, rotenone-sensitive respiration of glutamate and malate/antimycin Aâsensitive respiration of succinate; CI/CIV, rotenone-sensitive respiration of glutamate and malate/sodium azideâsensitive respiration of ascorbate and TMPD; CIV/CII, sodium azideâsensitive respiration of ascorbate-TMPD and antimycin Aâsensitive respiration of succinate. The loss of YME1L caused impaired apoptotic resistance. Cells were treated either with staurosporine (STS; 2 Î¼M) for 0, 3, and 6 h (C) or H<sub>2</sub>O<sub>2</sub> for 0 and 6 h (E), and cell lysates were analyzed by immunoblotting with cleaved PARP-specific antibody. Î²-Tubulin was used as a loading control. (D, F) The densitometric quantification of the cleaved PARP signal from C and E, respectively. (G) Mitochondrial proteins in YME1L KD cells exhibit increased sensitivity to oxidative damage. Cells were incubated for 3 h with 100 Î¼M hydrogen peroxide prior to the isolation of mitochondria. Mitochondrial protein carbonylation was detected using an OxyBlot protein oxidation detection kit (Chemicon). Equal loading was verified using MemCode Reversible Protein Stain (Pierce). Signals were quantified using densitometric analysis. (H) Mitochondrial membrane proteins in YME1L KD cells exhibit increased sensitivity to oxidative damage. Cells were incubated with 200 Î¼M hydrogen peroxide for 6 h and then used to isolate mitochondria, which were subjected to sonication and ultracentrifugation (144,000 Ã <italic>g</italic>; 1 h). The resulting supernatant (super) and pellet fractions were processed as in G. The signals were quantified by densitometric analysis. Controls correspond to HEK293 cells transfected with the scrambled shRNA, whereas YME1L KD corresponds to YME1L KD cells. Error bars correspond to SD from the mean. **p &lt; 0.01, ***p &lt; 0.001.</p>
+          </caption>
+          <graphic xlink:href="1010fig6"/>
+        </fig>
+        <p>Next we examined mitochondrial respiration in YME1L-depleted cells using high-resolution respirometry of digitonin-permeabilized cells. In contrast to conventional spectrophotometric assays, high-resolution respirometry permits the evaluation of the function of relatively intact, membrane-embedded respiratory complexes (<xref ref-type="bibr" rid="B56">Wenchich <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B35">Pecina <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B43">Stiburek <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B11">Fornuskova <italic>et al.</italic>, 2008</xref>). The measurements were performed in the presence of carbonyl cyanide <italic>p</italic>-(trifluoromethoxy) phenylhydrazone (FCCP; an uncoupler of oxidative phosphorylation) as multiple substrate-inhibitor analyses. Complex Iâspecific respiration was measured as the rotenone-sensitive respiration of glutamate and malate; complex IIâspecific respiration was measured as the antimycin Aâsensitive respiration of succinate; and complex IVâspecific respiration was measured as sodium azideâsensitive respiration of ascorbate and <italic>N</italic>,<italic>N</italic>,<italic>N</italic>â²,<italic>N</italic>â²-tetramethyl-<italic>p</italic>-phenylenediamine dihydrochloride (TMPD). YME1L KD cells were found to have significantly diminished (â¼60% of control) complex I/complex II (CI/CII) and complex I/complex IV (CI/CIV) ratios (<xref ref-type="fig" rid="F6">Figure 6B</xref>). Of importance, neither the complex IV/complex II (CIV/CII) ratio nor the complex IVâspecific nor complex IIâspecific respiration alone was significantly affected in YME1L KD cells (<xref ref-type="fig" rid="F6">Figure 6B</xref>, and data not shown). Collectively, these results indicate that in YME1L KD cells, the activity of complex IV is unaffected, whereas the activity of complex I is impaired.</p>
+        <p>The yeast i-AAA protease is a key component of the protein quality control mechanisms in the inner mitochondrial membrane. Therefore, we investigated whether YME1L KD cells are able to prevent the accumulation of oxidatively damaged mitochondrial membrane proteins. We treated the cells with hydrogen peroxide (200 Î¼M; 6 h) and tested the carbonylation of the whole mitochondrial protein fraction, as well as of soluble and mitochondrial membraneâenriched fractions prepared by the sonication of isolated mitochondria and ultracentrifugation of the resulting suspension. We found significantly increased carbonylation (â¼1.6-fold) in both the total mitochondrial protein (<xref ref-type="fig" rid="F6">Figure 6G</xref>) and the mitochondrial membraneâenriched samples (<xref ref-type="fig" rid="F6">Figure 6H</xref>). In contrast, the supernatant fraction corresponding to soluble mitochondrial proteins failed to show an increased anti-DNP signal (<xref ref-type="fig" rid="F6">Figure 6H</xref>). These results indicate that YME1L KD cells are impaired in preventing the accumulation of oxidatively damaged mitochondrial membrane proteins.</p>
+        <p>Mitochondria play a central role in programmed cell death by regulating the intrinsic apoptotic pathway. We therefore investigated whether the reduced growth rate of YME1L KD cells might result from an increase in programmed cell death. Poly(ADP-ribose) polymerase (PARP) cleavage was assessed as an indicator of ongoing apoptosis after cells were treated with staurosporine (2 Î¼M) or hydrogen peroxide (H<sub>2</sub>O<sub>2</sub>; 200 Î¼M). We found that YME1L KD cells treated with 3- and 6-h exposures to staurosporine or a 6-h treatment with H<sub>2</sub>O<sub>2</sub> exhibited markedly increased PARP cleavage compared with identically treated control cells (<xref ref-type="fig" rid="F6">Figure 6, CâF</xref>). These results suggest that the reduced growth rate of YME1L knockdown cells occurs at least in part as a result of their diminished apoptotic resistance.</p>
+      </sec>
+      <sec>
+        <title>The knockdown of YME1L leads to the polypeptide-specific stabilization of mitochondrial translation products</title>
+        <p>To determine the stability of mitochondrial translation products and the efficiency of mitochondrial protein synthesis in YME1L KD cells, we carried out [<sup>35</sup>S]methionine pulse-chase labeling in the presence of anisomycin, a reversible inhibitor of cytoplasmic protein synthesis. The cells were pulse labeled with isotope for 1 h and then either analyzed or chased for an additional 17 h in media containing unlabeled methionine. Analysis was carried out by electrophoretic separation and fluorography. Nine of the 13 mitochondrial translation products were clearly detectable on the fluorographs of corresponding whole-cell lysates (<xref ref-type="fig" rid="F7">Figure 7A</xref>). The most prominent finding in the 1-h pulse was the markedly increased level of labeled Atp6 in YME1L KD cells. However, the level of newly synthesized cytochrome <italic>b</italic> also appeared to be significantly elevated after the pulse (<xref ref-type="fig" rid="F7">Figure 7, A and C</xref>). In contrast, the 17-h chase revealed that newly synthesized ND1, ND2, and ND6 subunits and, to a lesser extent, the Cox2 subunit, were significantly stabilized in YME1L KD cells compared with controls (<xref ref-type="fig" rid="F7">Figure 7, A and C</xref>). This result appeared to be consistent with the blue native immunoblotting data, which showed a marked increase in complex I subcomplexes containing ND1 subunit. The observed slight increase in newly synthesized Cox1 could be explained by a comparable increase in <italic>COX1</italic> mRNA in these cells (<xref ref-type="fig" rid="F7">Figure 7B</xref>). Consistently, the newly synthesized Cox1 in YME1L KD cells is likely to be stabilized by its assembly into CcO subcomplexes (<xref ref-type="fig" rid="F4">Figure 4E</xref>). Similarly, most of the remaining mitochondrially encoded complex I subunits may be stabilized within the Ndufb6 and ND1 subcomplexes in YME1L KD cells. Given the fact that the quantification of the mtDNA copy number did not reveal any significant changes in YME1L KD cells (data not shown) and that the mRNA levels of other tested mitochondrial translation products were also not elevated (<xref ref-type="fig" rid="F7">Figure 7B</xref>), our results indicate polypeptide-specific stabilization of mitochondrial translation products in YME1L KD cells.</p>
+        <fig id="F7" position="float">
+          <label>FIGURE 7:</label>
+          <caption>
+            <p>The involvement of YME1L in the proteolysis of a subset of mitochondrially encoded subunits of complex I. (A) The loss of YME1L leads to the polypeptide-specific stabilization of mitochondrial translation products. Cells were labeled with a [<sup>35</sup>S]methionine-cysteine mixture in the presence of anisomycin for 1 h (pulse) and then either harvested immediately or chased for an additional 17 h (chase) in media containing unlabeled methionine prior to harvesting. The resulting lysates were subjected to 16% SDSâPAGE separation and fluorography. Equal loading was verified with Coomassie blue R-250 staining. The bottom of the fluorograph containing the ND6 signal corresponds to a longer exposure time. Controls correspond to mitochondrial extracts from HEK293 cells transfected with the scrambled shRNA, whereas YME1L KD corresponds to mitochondrial extracts from YME1L KD cells. (B) <italic>ND2</italic>, <italic>ATP6</italic>, and <italic>ND3</italic> mRNAs are not increased in YME1L KD cells, but <italic>COX1</italic> transcripts are significantly elevated. The relative quantification of the analyzed transcripts was performed with TaqMan Gene Expression Assays on a 7300 Real-Time PCR System. HPRT1 (hypoxanthine phosphoribosyltransferase 1) and TUBA1A (tubulin, alpha 1a) were used as reference genes. *p &lt; 0.05, **p &lt; 0.01. (C) The quantification of the [<sup>35</sup>S] pulse-chase experiment from A by densitometric analysis. The <italic>y</italic>-axis represents relative signal intensity (%).CH, chase; P, pulse. The dotted lines represent the YME1L KD sample, and the solid lines represent the controls. (D) In vivo radiolabeled ND5, ND2, Cox2, and ND6 show efficient coimmunoprecipitation with the proteolytically inactive YME1L<sup>E543Q</sup>-FLAG variant. YME1L KD cells were transiently transfected with the YME1L<sup>E543Q</sup>-FLAG construct, the wild-type YME1L construct, or the empty vector and then pulse labeled for 90 min with [<sup>35</sup>S]methionine-cysteine in the presence of emetine at 36 h posttransfection. Mitochondria were solubilized with 1% Triton X-100 and coimmunoprecipitated using Anti-FLAG M2 affinity gel (Sigma-Aldrich). The eluted antigens were separated using 16% SDSâPAGE, and radioactive signals were detected by fluorography. Black lines indicate that intervening lanes had been spliced out. The ND6 signal is partially obscured as a result of low intensity. Error bars correspond to SD from the mean.</p>
+          </caption>
+          <graphic xlink:href="1010fig7"/>
+        </fig>
+      </sec>
+      <sec>
+        <title>ND5, ND2, and ND6 are bona fide substrates of the human i-AAA protease</title>
+        <p>Next we investigated whether some of the stabilized mitochondrial translation products are indeed proteolytic substrates of YME1L or whether their increased stability is a secondary effect of their assembly within protective protein complexes. We performed [<sup>35</sup>S]methionine labeling of mitochondrial translation products in YME1L KD cells that were previously transfected with empty expression vector, the wild-type YME1L-FLAG construct, or the YME1L<sup>E543Q</sup>-FLAG construct. The subsequent anti-FLAG coimmunoprecipitation showed that, of the nine mitochondrial translation products that could be detected on fluorographs of coimmunoprecipitation inputs, Cox2, ND6, ND2, and ND5 exhibited increased coimmunoprecipitation with the proteolytically inactive YME1L<sup>E543Q</sup> variant compared with the wild-type YME1L-FLAG protein. The highest pulldown efficiency was observed for Cox2 and ND6, followed by ND2 and ND5 (<xref ref-type="fig" rid="F7">Figure 7D</xref>). It is surprising that despite their markedly increased levels, both Atp6 and cytochrome <italic>b</italic> failed to coimmunoprecipitate with the proteolytically inactive YME1L variant (<xref ref-type="fig" rid="F7">Figure 7D</xref>). Similarly, the otherwise increased ND1 subunit did not efficiently copurify with YME1L<sup>E543Q</sup>-FLAG (<xref ref-type="fig" rid="F7">Figure 7D</xref>). Collectively, these results support the previous finding that YME1L<sup>E543Q</sup>-FLAG coimmunoprecipitates with Cox2 and suggest that human YME1L is directly involved in the proteolytic degradation of the ND5, ND2, and ND6 subunits of the membrane arm of complex I.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>DISCUSSION</title>
+      <p>We used shRNA knockdown and expression studies in HEK293 cells to define the cellular activities of YME1L, the human orthologue of the Yme1 subunit of the yeast mitochondrial i-AAA complex. We show that YME1L ensures cell proliferation, maintains normal cristae morphology and complex I activity, promotes antiapoptotic activity, and protects mitochondria from the accumulation of oxidatively damaged membrane proteins. We further demonstrate that YME1L is required to control the accumulation of nonassembled respiratory chain subunits. A role for YME1L in the maintenance of the respiratory chain is supported by its high expression levels in cardiac and skeletal muscle mitochondria.</p>
+      <p>The inactivation of <italic>Saccharomyces cerevisiae</italic> YME1 is associated with pleiotropic phenotypes that are believed to stem from the accumulation of nonnative polypeptides and/or from the impaired processing of regulatory protein(s) (<xref ref-type="bibr" rid="B48">Tatsuta and Langer, 2009</xref>). However, in contrast to the homologous m-AAA protease, endogenous substrate proteins that are directly responsible for these phenotypes have not been identified for the iâAAA complex. We identified three inner-membrane proteinsâthe Ndufb6 and ND1 subunits of the membrane arm of respiratory complex I and the Cox4 subunit of complex IVâthat accumulate excessively in mitochondria of YME1L-depleted cells. In addition, metabolic labeling experiments showed a marked increase in the stability of the ATP synthase subunit Atp6, and the coimmunoprecipitation of nascent mitochondrial translation products suggested the involvement of YME1L in the degradation of a subset of mitochondrially encoded complex I subunits. The direct involvement of YME1L in Ndufb6 proteolysis is substantiated by coimmunoprecipitation and overexpression experiments showing a physical interaction of this subunit with the proteolytically inactive protease, as well as the suppression of the stabilization of both Ndufb6 and Cox4 upon the overexpression of wild-type YME1L. In contrast, although the ND1 and ATP6 subunits were stabilized after YME1L knockdown, they did not exhibit increased immunoprecipitation with the proteolytically inactive protease. Although we cannot exclude the possibility that our mutant protein failed to capture these potential protein substrates, the observed accumulation might stem from the protective effects of interaction with other proteins. Minor levels of membrane-bound Ndufb6 subcomplexes were shown to exist in vivo in living human fibroblasts (<xref ref-type="bibr" rid="B7">Dieteren <italic>et al.</italic>, 2008</xref>). In contrast, the increased expression of Cox4 was shown to cause a rapid proteolytic turnover of the free subunit (<xref ref-type="bibr" rid="B52">Ugalde <italic>et al.</italic>, 2002</xref>). Accordingly, the membrane topology of both Ndufb6 and Cox4 is consistent with the localization of the C-terminal proteolytic domain of YME1L to IMS (<xref ref-type="bibr" rid="B50">Tsukihara <italic>et al.</italic>, 1996</xref>; <xref ref-type="bibr" rid="B47">Stiburek and Zeman, 2010</xref>). The considerable increase in Ndufb6 and Cox4 levels in response to the knockdown of YME1L strongly suggests that, in addition to its role in quality control, the i-AAA complex controls the availability of subunits for respiratory chain assembly. It has been reported that the ATP-dependent protease LON mediates the proteolytic turnover of Cox4 in mammals (<xref ref-type="bibr" rid="B15">Fukuda <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B24">Lee and Suzuki, 2008</xref>). Apparently, matrix-localized LON cannot compensate for the loss of YME1L with respect to the degradation of nonassembled, membrane-embedded Cox4.</p>
+      <p>Whereas the amount of fully assembled complex I remained largely unaffected in YME1L KD cells, the reduction in rotenone-sensitive, NADH-dependent respiration suggests that its electron transporting activity is impaired. Although the precise mechanism underlying this effect remains to be identified, it may be attributed to the deleterious effects of assembly of damaged subunits that would normally be recognized and removed by YME1L. Indeed, mitochondria in YME1L-depleted cells appear to be particularly susceptible to the accumulation of oxidatively damaged membrane proteins.</p>
+      <p>The loss of YME1L also affected the assembly profile of cytochrome <italic>c</italic> oxidase (complex IV). The appearance of elevated CcO subcomplexes is likely a result of an imbalanced assembly of the complex caused by the increased Cox4. It is surprising that the Cox2 subunit failed to show increased stabilization in YME1L-knockdown cells despite its efficient coimmunoprecipitation with the proteolytically inactive YME1L<sup>E543Q</sup> variant, which suggests that Cox2 is a proteolytic substrate of the human i-AAA protease. However, the failure to stabilize nonassembled Cox2 after knockdown of YME1L is further substantiated by pulse-chase labeling experiments, suggesting that some other peptidase can substitute for YME1L in the degradation of nonassembled Cox2. Similarly, nonassembled Cox2 does not accumulate in YME1-deficient yeast cells (<xref ref-type="bibr" rid="B33">Pearce and Sherman, 1995</xref>). In contrast to complex I, the excessive accumulation of Cox4 and the increased levels of CcO subcomplexes had no detectable effect on CcO activity. This might be attributed to the known high excess capacity of CcO (<xref ref-type="bibr" rid="B40">Rossignol <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B12">Fornuskova <italic>et al.</italic>, 2010</xref>) or to the fact that some of the highâmolecular weight, partially assembled forms of CcO may be capable of electron transport (<xref ref-type="bibr" rid="B34">Pecina <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B12">Fornuskova <italic>et al.</italic>, 2010</xref>).</p>
+      <p>The reduced growth rate of YME1L-depleted cells can be attributed to both impaired respiratory chain function and reduced apoptotic resistance. Accordingly, the impaired cristae morphology is likely to affect apoptotic resistance because mitochondrial cristae are restructured at early stages of apoptosis (<xref ref-type="bibr" rid="B13">Frezza <italic>et al.</italic>, 2006</xref>). In addition, abnormal cristae morphology was directly linked to reduced cell proliferation in a prohibitin-knockout model (<xref ref-type="bibr" rid="B30">Merkwirth <italic>et al.</italic>, 2008</xref>). However, the precise mechanisms linking these phenotypes remain to be elucidated.</p>
+      <p>Human YME1L has been shown to mediate the constitutive processing of a subset of imported OPA1 molecules, providing a mechanistic explanation for the fragmented mitochondrial network observed in YME1L-deficient cells (<xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>). Consistent with this observation, the normal pattern of the five OPA1 forms was markedly altered in our YME1L KD model. However, in addition to the fragmented mitochondrial network, our YME1L KD model exhibited severely disturbed mitochondrial ultrastructure, that is, completely disorganized cristae morphology. This phenotype was not observed in previous YME1L loss-of-function studies that used short-term siRNA treatments (<xref ref-type="bibr" rid="B17">Griparic <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B42">Song <italic>et al.</italic>, 2007</xref>) and is likely caused by stable, long-term YME1L knockdown. The loss of YME1L might affect cristae morphogenesis through defective OPA1 processing. OPA1 is involved in the regulation of cristae morphogenesis, and OPA1-deficient cells exhibit gross abnormalities of cristae structure well before apoptosis becomes evident (<xref ref-type="bibr" rid="B32">Olichon <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B18">Griparic <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B25">Lenaers <italic>et al.</italic>, 2009</xref>). However, the loss of YME1L was demonstrated to efficiently suppress the cristae morphogenesis defect in OPA1-knockdown cells (<xref ref-type="bibr" rid="B18">Griparic <italic>et al.</italic>, 2004</xref>). If the impaired mitochondrial ultrastructure of YME1L KD cells is not a response to perturbed OPA1 processing, what is the underlying molecular mechanism? The excessive accumulation of nonassembled and oxidatively damaged proteins in the inner mitochondrial membrane is likely to lead to an imbalanced protein/lipid ratio in the membrane, changing its fluidity and possibly compromising membrane integrity and contributing to its structural instability (<xref ref-type="bibr" rid="B53">Walenga and Lands, 1975</xref>; <xref ref-type="bibr" rid="B51">Tung <italic>et al.</italic>, 1991</xref>). Furthermore, yeast Yme1 was recently shown to regulate the stability of proteins involved in mitochondrial phosphatidylethanolamine and cardiolipin metabolism, respectively (<xref ref-type="bibr" rid="B37">Potting <italic>et al.</italic>, 2010</xref>). Accordingly, the maintenance of the proper lipid composition of mitochondrial membranes is critical for their integrity and plasticity. However, the components that are directly responsible for mitochondrial cristae morphogenesis are largely unknown (<xref ref-type="bibr" rid="B38">Rabl <italic>et al.</italic>, 2009</xref>). Thus it is also possible that YME1L affects the biogenesis of some yet-to-be-identified factor with an important role in this process. Future studies are required to resolve this question.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>MATERIALS AND METHODS</title>
+      <sec>
+        <title>Cell culture and transfection</title>
+        <p>Human embryonic kidney cells (HEK293, CRL-1573) were obtained from the American Type Culture Collection (Rockville, MD) and maintained in high-glucose DMEM (PAA Laboratories, Pasching, Austria) supplemented with 10% (vol/vol) fetal bovine serum Gold (PAA Laboratories) at 37Â°C in a 5% (vol/vol) CO<sub>2</sub> atmosphere. All transfections were carried out using the Express-In Transfection Reagent (Open Biosystems, Thermo Biosystems, Huntsville, AL) according to the manufacturer's instructions.</p>
+      </sec>
+      <sec>
+        <title>shRNA and gene expression constructs</title>
+        <p>A negative control (scrambled) pGIPZ shRNAmir construct and five different pGIPZ shRNAmir constructs targeting both known human YME1L transcript variants (NM_014263 and NM_139312) were obtained from Open Biosystems. A pGIPZ shRNAmir construct targeting the AFG3L2 transcript (NM_006796) was also obtained from Open Biosystems. To generate stable YME1L and AFG3L2 KD cells, subconfluent HEK293 cells (10<sup>7</sup>) were transfected using Express-In, and stably expressing cells were selected using puromycin (final concentration of 1.5 Î¼g/ml) over a period of 3 wk. Quantitative TaqMan real-time PCR and Western blot analyses were used to assess the efficiency of YME1L and AFG3L2 knockdown in each of the stable cultures.</p>
+        <p>The C-fusion Myc-FLAG-tagged open reading frame (ORF) expression constructs pCMV6-YME1L and pCMV6-NDUFB6 containing the human YME1L transcript variant 3 (NM_014263.2) ORF sequence and the human NDUFB6 transcript variant 1 (NM_002493.3) were purchased from OriGene (Rockville, MD). To create the YME1L<sup>E543Q</sup> variant, site-directed mutagenesis was carried out using the QuikChange II Site-Directed Mutagenesis Kit (Stratagene, Santa Clara, CA) to introduce the 1627G&gt;C nucleotide substitution into YME1L. To confer resistance to the particular shRNA used while preserving the original predicted amino acid sequence, both the YME1L<sup>E543Q</sup> (1627G&gt;C) mutant variant and the wild-type YME1L sequence were further modified by a series of seven nucleotide substitutions at every third codon position in a 19âbase pair frame. The fidelity of all constructs was confirmed by automated DNA sequencing.</p>
+      </sec>
+      <sec>
+        <title>Immunofluorescence and electron microscopy</title>
+        <p>For immunofluorescence microscopy, living, intact HEK293 cells were incubated with 200 nM MitoTracker Red CMX Ros (Molecular Probes, Eugene, OR) for 15 min in phosphate-buffered saline (PBS) and analyzed at 24Â°C using a Nikon Diaphot 200 inverted microscope (Nikon, Tokyo, Japan) equipped with a Plan-Apochromat 60Ã, numerical aperture 0.95, oil objective (Carl Zeiss, Wetzlar, Germany). The images were acquired with an Olympus DP50 CCD camera (Olympus, Milan, Italy) and Viewfinder Lite 1.0 software (Pixera, Santa Clara, CA). The images were deconvolved using the classic maximum-likelihood estimation algorithm in Huygens Professional software (SVI, Hilversum, Netherlands). For ultrastructural analysis, cells were fixed using a modification of Luft's method (<xref ref-type="bibr" rid="B29">Luft, 1956</xref>). Briefly, the cells were incubated in PBS containing 2% potassium permanganate for 15 min, washed with PBS, and dehydrated with an ethanol series. They were then embedded in Durcupan Epon (Electron Microscopy Sciences, Hatfield, PA), sectioned by Ultracut microtome (Reichert, Depew, NY) to thicknesses ranging from 600 to 900 Ã, and finally stained with lead citrate and uranyl acetate. A JEOL JEM-1200 EX transmission electron microscope (JEOL, Tokyo, Japan) was used for imaging.</p>
+      </sec>
+      <sec>
+        <title>The assessment of cell proliferation</title>
+        <p>Stably transfected HEK293 cells were seeded in six-well plates at 5 Ã 10<sup>4</sup> cells per well and cultured in DMEM containing 1 Î¼g/ml puromycin. The medium was changed on the second, fourth, and sixth days. Viable cells were counted every 24 h for a total of 7 d using a Scepter Handheld Automated Cell Counter (Millipore, Billerica, MA).</p>
+      </sec>
+      <sec>
+        <title>Cell death analysis</title>
+        <p>Stably transfected HEK293 cells were treated with staurosporine (2 Î¼M) for 0, 3, and 6 h or H<sub>2</sub>O<sub>2</sub> (200 Î¼M) for 6 h, and cell lysates were analyzed by immunoblotting for PARP cleavage.</p>
+      </sec>
+      <sec>
+        <title>Coimmunoprecipitation experiments</title>
+        <p>For immunoprecipitation of the endogenous human YME1L, mitochondria were solubilized with 1% Triton X-100 in Tris-buffered saline (TBS) with 1% protease inhibitor cocktail (Sigma-Aldrich, St. Louis, MO) at a protein concentration of 2 mg/ml. The cleared extracts were then incubated for 2 h at 4Â°C with gentle agitation with antiserum raised against human YME1L or with the corresponding preimmune serum. Subsequently, washed protein G agarose beads (Sigma-Aldrich) were added, and the samples were incubated with gentle agitation at 4Â°C for an additional 2 h. The agarose beads containing the bound immunocomplexes were then washed five times with TBS containing 0.1% Triton X-100 and incubated with 1Ã SDSâPAGE sample buffer at 37Â°C for 30 min to denature and release the immunocomplexes.</p>
+        <p>For anti-FLAG coimmunoprecipitation, the YME1L KD cells were transiently transfected with the YME1L<sup>E543Q</sup>-FLAG construct, the wild-type YME1L-FLAG construct, or the empty vector. Equivalent transfection efficiency was monitored using Western blotting with the antiâFLAG M2 monoclonal antibody (Sigma-Aldrich). The transfected cells were either directly harvested at 36 h posttransfection or pulse labeled with a [<sup>35</sup>S]methionine-cysteine mixture in the presence of emetine, harvested, and then used to prepare mitochondrial fractions. Isolated mitochondria were solubilized using 1% Triton X-100 in TBS containing 1% protease inhibitor cocktail at a protein concentration of 2 mg/ml. The resulting cleared extracts were incubated for 2 h with a washed antiâFLAG M2 affinity gel (Sigma-Aldrich) at 4Â°C with gentle agitation. The affinity gel containing the bound antigens was then washed five times with TBS containing 0.1% Triton X-100, and the bound material was eluted under nondenaturing conditions with 3Ã FLAG peptide and routinely processed for SDSâPAGE.</p>
+      </sec>
+      <sec>
+        <title>The [<sup>35</sup>S]methionine labeling of mitochondrial translation products</title>
+        <p>Pulse-chase labeling of mitochondrial translation products with the EasyTag EXPRESS <sup>35</sup>S Protein Labeling Mix (PerkinElmer, Waltham, MA) was performed as described previously (<xref ref-type="bibr" rid="B23">Leary and Sasarman, 2009</xref>). Briefly, subconfluent HEK293 cells were incubated with the [<sup>35</sup>S]methionine-cysteine mixture (final concentration of 200 Î¼Ci/ml) in a methionine-free medium (Invitrogen, Carlsbad, CA) for 1 h in the presence of a cytoplasmic protein synthesis inhibitor (emetine or anisomycin). The cells were either harvested or further chased in a medium containing unlabeled methionine for an additional 17 h and subjected to SDSâPAGE and fluorography after harvesting (Amplify; GE Healthcare, Little Chalfont, United Kingdom).</p>
+      </sec>
+      <sec>
+        <title>Reverse transcription and quantitative RT-PCR</title>
+        <p>Total RNA was isolated from HEK293 cells using Tri reagent (MRC, Cincinnati, OH). First-strand cDNA was synthesized from 4 Î¼g of total RNA with Superscript III Reverse Transcriptase (Invitrogen) and Oligo-dT primers (Promega, Madison, WI). Relative quantification was performed using TaqMan Gene Expression Assays according to the manufacturer's instructions (Applied Biosystems, Foster City, CA). The following TaqMan probes were used: Hs00971639_m1, COX4I1; Hs00427620_m1, TBP; Hs01003267_m1, HPRT1; Hs00907919_m1, YME1L1; Hs00602161_m1, NRF1; Hs00159583_m1, NDUFB6; Hs00428204_m1, Ndufb8; Hs99999905_m1, GAPDH; Hs00362387_m1, TUBA1A; Hs01036747_m1, HSPD1; Hs00195655_m1, CLPP; Hs02596874_g1, MT-ND2; Hs02596875_s1, MT-ND3; Hs02596862_g1, MT-ATP6; and Hs02596864_g1, MT-CO1. Data were collected in duplicate in two separate runs using a 7300 Real-Time PCR System (Applied Biosystems). The determination of normalized mRNA expression levels of analyzed genes was performed as described previously (<xref ref-type="bibr" rid="B36">Pejznochova <italic>et al.</italic>, 2010</xref>). The stability of the expression of reference genes was tested using the geNorm algorithm. HPRT1 (hypoxanthine phosphoribosyltransferase 1), TUBA1A (tubulin, alpha 1a), GAPDH (glyceraldehyde-3-phosphate dehydrogenase), and TBP (TATA boxâbinding protein) were used as reference genes.</p>
+      </sec>
+      <sec>
+        <title>Electrophoresis, Western blotting, and protein carbonylation analysis</title>
+        <p>Electrophoresis and Western blotting were performed essentially as described previously (<xref ref-type="bibr" rid="B43">Stiburek <italic>et al.</italic>, 2007</xref>). Blots were developed using either West Femto or West Pico chemiluminescent substrates (Pierce, Rockford, IL). Western blot signals were acquired using a VersaDoc 4000 imaging system (Bio-Rad, Hercules, CA). The resulting digital images were analyzed and quantified using the Quantity One application (Bio-Rad). Mitochondrial protein carbonylation was detected using the OxyBlot Protein Oxidation Detection Kit (Chemicon, Billerica, MA) according to the manufacturer's instructions. Equal loading was verified using the MemCode Reversible Protein Stain (Pierce).</p>
+      </sec>
+      <sec>
+        <title>Antibodies</title>
+        <p>A polyclonal antiserum directed against human YME1L was generated by immunizing rabbits with a synthetic peptide (KLH coupled) corresponding to the carboxy-terminus of human YME1L (CETLDAKEIQIVLEGKKLEVR). Antiserum specificity was tested by the immunodetection of the YME1L-FLAG fusion protein, as well as YME1L-depleted mitochondria (<xref ref-type="fig" rid="F1">Figure 1A</xref>). Monoclonal antibodies against the CcO subunits Cox1, Cox2, Cox4, Cox5a, and Cox6c; the 70-kDa flavoprotein subunit of complex II (SDHA); complex III subunit core protein 2; complex I subunits Ndufa9, Ndufb6, and Ndufb8; and complex V subunits F1-Î± and d were obtained from Mitosciences (Eugene, OR). The antibody to mtHSP70 was obtained from Alexis Biochemicals (San Diego, CA). Antibodies to Phb2, PNPase, and ND1 were obtained from Santa Cruz Biotechnology (Santa Cruz, CA). Antibodies to Sco1 (<xref ref-type="bibr" rid="B45">Stiburek <italic>et al.</italic>, 2009</xref>) and OXA1L (<xref ref-type="bibr" rid="B43">Stiburek <italic>et al.</italic>, 2007</xref>) were generated in previous studies. The antibody to OPA1 was purchased from BD Biosciences (Oxford, United Kingdom). Antibodies to PARP and Î²-tubulin were obtained from Cell Signaling Technology (Beverly, MA).</p>
+      </sec>
+      <sec>
+        <title>Mitochondrial isolation and subfractionation</title>
+        <p>Mitochondrial fractions were isolated from HEK293 cells using differential centrifugation essentially as described previously (<xref ref-type="bibr" rid="B43">Stiburek <italic>et al.</italic>, 2007</xref>). For the protease protection assay, freshly isolated mitochondria (â¼150 Î¼g of protein) were resuspended in hypotonic medium (10 mM KCl, 2 mM 4-(2-hydroxyethyl)-1-piperazineethanesulfonic acid [HEPES], pH 7.2) and incubated for 20 min on ice to swell mitochondria and burst the outer mitochondrial membrane. Subsequently, trypsin (final concentration 25 Î¼g/ml) was added to the swollen mitochondria, and the samples were incubated at room temperature for an additional 20 min. Digestion was stopped by the addition of soybean trypsin inhibitor (100 Î¼g/ml), and the samples were routinely processed for SDSâPAGE. To prepare submitochondrial fractions, mitochondria at a protein concentration of 1 mg/ml were either sonicated (Ultrasonic Homogenizer 4710 Series; Cole-Parmer, Chicago, IL) or treated with 100 mM sodium carbonate (pH 11.5) and were then centrifuged for 1 h at 144,000 Ã <italic>g</italic>. The resulting supernatant fractions were trichloroacetic acid (TCA) precipitated and subsequently dissolved in SDSâPAGE sample buffer along with the washed pellet fractions.</p>
+      </sec>
+      <sec>
+        <title>High-resolution respirometry</title>
+        <p>The cells were permeabilized with 30 Î¼g/ml digitonin, and oxygen consumption was measured at 30Â°C using OROBOROS Oxygraph (Anton Paar, Innsbruck, Austria) in a medium containing 0.5 mM ethylene glycol tetraacetic acid, 3 mM MgCl<sub>2</sub>, 60 mM K-lactobionate, 20 mM taurine, 10 mM KH<sub>2</sub>PO<sub>4</sub>, 20 mM HEPES, 110 mM sucrose, and 1 g/l bovine serum albumin, pH 7.1. Polarographic measurements were performed with uncoupled cells as multiple substrate-inhibitor analyses in the presence of 0.5 Î¼M FCCP, as previously described (<xref ref-type="bibr" rid="B56">Wenchich <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B35">Pecina <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B43">Stiburek <italic>et al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B11">Fornuskova <italic>et al.</italic>, 2008</xref>). The following substrates and inhibitors were used: 10 mM glutamate + 5 mM malate, 1.25 Î¼M rotenone, 10 mM succinate, 2.5 Î¼M antimycin A, 2 mM ascorbate + 500 Î¼M TMPD, and 10 mM sodium azide.</p>
+      </sec>
+      <sec>
+        <title>Statistical analysis</title>
+        <p>All experiments were performed in at least triplicate. The Western blots shown are representative of at least three independent experiments. Statistical analyses were performed using a two-tailed Student's <italic>t</italic> test in Excel (Microsoft, Redmond, WA). The results are expressed as mean Â± SD. p &lt; 0.05 was considered statistically significant; asterisks are used to denote significance as follows: *p &lt; 0.05, ** p&lt; 0.01, ***p&lt; 0.001.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn fn-type="other">
+        <p>This article was published online ahead of print in MBoC in Press (<ext-link ext-link-type="uri" xlink:href="http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E11-08-0674">http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E11-08-0674</ext-link>) on January 19, 2012.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <p>This work was supported by Grant Agency of the Czech Republic Project GACR P305/10/P414, by Grant Agency of the Charles University Project GAUK 277511, and by institutional projects MSM 0021620806 and 1M6837805002. We are grateful to Jana Sladkova for assistance with electron microscopy.</p>
+    </ack>
+    <glossary>
+      <title>Abbreviations used:</title>
+      <def-list>
+        <def-item>
+          <term id="G1">AAA</term>
+          <def>
+            <p>ATPases associated with diverse cellular activities</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G2">BN-PAGE</term>
+          <def>
+            <p>blue native PAGE</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G3">CcO</term>
+          <def>
+            <p>cytochrome <italic>c</italic> oxidase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G4">FCCP</term>
+          <def>
+            <p>carbonyl cyanide <italic>p</italic>-(trifluoromethoxy) phenylhydrazone</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G5">HEK293</term>
+          <def>
+            <p>human embryonic kidney 293</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G6">KD</term>
+          <def>
+            <p>knockdown</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G7">OXPHOS</term>
+          <def>
+            <p>oxidative phosphorylation system</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G8">PARP</term>
+          <def>
+            <p>poly(ADP-ribose) polymerase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G9">PNPase</term>
+          <def>
+            <p>polynucleotide phosphorylase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G10">shRNAmir</term>
+          <def>
+            <p>microRNA-30-based short hairpin RNA</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G11">TMPD</term>
+          <def>
+            <p><italic>N</italic>,<italic>N</italic>,<italic>N</italic>â²,<italic>N</italic>â²-tetramethyl-<italic>p</italic>-phenylenediamine dihydrochloride</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Augustin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nolden</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hardt</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Arnold</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of peptides released from mitochondria: evidence for constant proteolysis and peptide efflux</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>2691</fpage>
+          <lpage>2699</lpage>
+          <pub-id pub-id-type="pmid">15556950</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Benard</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Faustin</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Passerieux</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Galinier</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Rocher</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bellance</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Delage</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Casteilla</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Letellier</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Rossignol</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Physiological diversity of mitochondrial oxidative phosphorylation</article-title>
+          <source>Am J Physiol Cell Physiol</source>
+          <year>2006</year>
+          <volume>291</volume>
+          <fpage>C1172</fpage>
+          <lpage>C1182</lpage>
+          <pub-id pub-id-type="pmid">16807301</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bieniossek</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Schalch</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bumann</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Meister</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Meier</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Baumann</surname>
+              <given-names>U</given-names>
+            </name>
+          </person-group>
+          <article-title>The molecular architecture of the metalloprotease FtsH</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2006</year>
+          <volume>103</volume>
+          <fpage>3066</fpage>
+          <lpage>3071</lpage>
+          <pub-id pub-id-type="pmid">16484367</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bredel</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A network model of a cooperative genetic landscape in brain tumors</article-title>
+          <source>J Am Med Assoc</source>
+          <year>2009</year>
+          <volume>302</volume>
+          <fpage>261</fpage>
+          <lpage>275</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Campbell</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Thorsness</surname>
+              <given-names>PE</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial morphological and functional defects in yeast caused by yme1 are suppressed by mutation of a 26S protease subunit homologue</article-title>
+          <source>Mol Biol Cell</source>
+          <year>1994</year>
+          <volume>5</volume>
+          <fpage>899</fpage>
+          <lpage>905</lpage>
+          <pub-id pub-id-type="pmid">7803857</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coppola</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pizzigoni</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Banfi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bassi</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Casari</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Incerti</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification and characterization of YME1L1, a novel paraplegin-related gene</article-title>
+          <source>Genomics</source>
+          <year>2000</year>
+          <volume>66</volume>
+          <fpage>48</fpage>
+          <lpage>54</lpage>
+          <pub-id pub-id-type="pmid">10843804</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dieteren</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Willems</surname>
+              <given-names>PH</given-names>
+            </name>
+            <name>
+              <surname>Vogel</surname>
+              <given-names>RO</given-names>
+            </name>
+            <name>
+              <surname>Swarts</surname>
+              <given-names>HG</given-names>
+            </name>
+            <name>
+              <surname>Fransen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Roepman</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Crienen</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Smeitink</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Nijtmans</surname>
+              <given-names>LG</given-names>
+            </name>
+            <name>
+              <surname>Koopman</surname>
+              <given-names>WJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Subunits of mitochondrial complex I exist as part of matrix- and membrane-associated subcomplexes in living cells</article-title>
+          <source>J Biol Chem</source>
+          <year>2008</year>
+          <volume>283</volume>
+          <fpage>34753</fpage>
+          <lpage>34761</lpage>
+          <pub-id pub-id-type="pmid">18826940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dunn</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>FA</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>A genomewide screen for petite-negative yeast strains yields a new subunit of the i-AAA protease complex</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2006</year>
+          <volume>17</volume>
+          <fpage>213</fpage>
+          <lpage>226</lpage>
+          <pub-id pub-id-type="pmid">16267274</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dunn</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Tamura</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Sesaki</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Mgr3p and Mgr1p are adaptors for the mitochondrial i-AAA protease complex</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2008</year>
+          <volume>19</volume>
+          <fpage>5387</fpage>
+          <lpage>5397</lpage>
+          <pub-id pub-id-type="pmid">18843051</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ehses</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Raschke</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Mancuso</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Bernacchia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Geimer</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tondera</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Martinou</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Westermann</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Rugarli</surname>
+              <given-names>EI</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of OPA1 processing and mitochondrial fusion by m-AAA protease isoenzymes and OMA1</article-title>
+          <source>J Cell Biol</source>
+          <year>2009</year>
+          <volume>187</volume>
+          <fpage>1023</fpage>
+          <lpage>1036</lpage>
+          <pub-id pub-id-type="pmid">20038678</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fornuskova</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Brantova</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Tesarova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Honzik</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wenchich</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Tietzeova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The impact of mitochondrial tRNA mutations on the amount of ATP synthase differs in the brain compared to other tissues</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2008</year>
+          <volume>1782</volume>
+          <fpage>317</fpage>
+          <lpage>325</lpage>
+          <pub-id pub-id-type="pmid">18319067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fornuskova</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Wenchich</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Vinsova</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel insights into the assembly and function of human nuclear-encoded cytochrome c oxidase subunits 4, 5a, 6a, 7a and 7b</article-title>
+          <source>Biochem J</source>
+          <year>2010</year>
+          <volume>428</volume>
+          <fpage>363</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="pmid">20307258</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frezza</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>OPA1 controls apoptotic cristae remodeling independently from mitochondrial fusion</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>126</volume>
+          <fpage>177</fpage>
+          <lpage>189</lpage>
+          <pub-id pub-id-type="pmid">16839885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujiki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Fowler</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lazarow</surname>
+              <given-names>PB</given-names>
+            </name>
+          </person-group>
+          <article-title>Isolation of intracellular membranes by means of sodium carbonate treatment: application to endoplasmic reticulum</article-title>
+          <source>J Cell Biol</source>
+          <year>1982</year>
+          <volume>93</volume>
+          <fpage>97</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="pmid">7068762</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fukuda</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Shimoda</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Dang</surname>
+              <given-names>CV</given-names>
+            </name>
+            <name>
+              <surname>Semenza</surname>
+              <given-names>GL</given-names>
+            </name>
+          </person-group>
+          <article-title>HIF-1 regulates cytochrome oxidase subunits to optimize efficiency of respiration in hypoxic cells</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>129</volume>
+          <fpage>111</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">17418790</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Graef</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Seewald</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Substrate recognition by AAA+ ATPases: distinct substrate binding modes in ATP-dependent protease Yme1 of the mitochondrial intermembrane space</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2007</year>
+          <volume>27</volume>
+          <fpage>2476</fpage>
+          <lpage>2485</lpage>
+          <pub-id pub-id-type="pmid">17261594</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Griparic</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Kanazawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>van der Bliek</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of the mitochondrial dynamin-like protein Opa1 by proteolytic cleavage</article-title>
+          <source>J Cell Biol</source>
+          <year>2007</year>
+          <volume>178</volume>
+          <fpage>757</fpage>
+          <lpage>764</lpage>
+          <pub-id pub-id-type="pmid">17709430</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Griparic</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>van der Wel</surname>
+              <given-names>NN</given-names>
+            </name>
+            <name>
+              <surname>Orozco</surname>
+              <given-names>IJ</given-names>
+            </name>
+            <name>
+              <surname>Peters</surname>
+              <given-names>PJ</given-names>
+            </name>
+            <name>
+              <surname>van der Bliek</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of the intermembrane space protein Mgm1/OPA1 induces swelling and localized constrictions along the lengths of mitochondria</article-title>
+          <source>J Biol Chem</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>18792</fpage>
+          <lpage>18798</lpage>
+          <pub-id pub-id-type="pmid">14970223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Head</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Griparic</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Amiri</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gandre-Babbe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>van der Bliek</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>Inducible proteolytic inactivation of OPA1 mediated by the OMA1 protease in mammalian cells</article-title>
+          <source>J Cell Biol</source>
+          <year>2009</year>
+          <volume>187</volume>
+          <fpage>959</fpage>
+          <lpage>966</lpage>
+          <pub-id pub-id-type="pmid">20038677</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kambacheld</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Augustin</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tatsuta</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the novel metallopeptidase Mop112 and saccharolysin for the complete degradation of proteins residing in different subcompartments of mitochondria</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>20132</fpage>
+          <lpage>20139</lpage>
+          <pub-id pub-id-type="pmid">15772085</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koopman</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>Nijtmans</surname>
+              <given-names>LG</given-names>
+            </name>
+            <name>
+              <surname>Dieteren</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Roestenberg</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Valsecchi</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Smeitink</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Willems</surname>
+              <given-names>PH</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian mitochondrial complex I: biogenesis, regulation, and reactive oxygen species generation</article-title>
+          <source>Antioxid Redox Signal</source>
+          <year>2010</year>
+          <volume>12</volume>
+          <fpage>1431</fpage>
+          <lpage>1470</lpage>
+          <pub-id pub-id-type="pmid">19803744</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koppen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein degradation within mitochondria: versatile activities of AAA proteases and other peptidases</article-title>
+          <source>Crit Rev Biochem Mol Biol</source>
+          <year>2007</year>
+          <volume>42</volume>
+          <fpage>221</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="pmid">17562452</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leary</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Sasarman</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Oxidative phosphorylation: synthesis of mitochondrially encoded proteins and assembly of individual structural subunits into functional holoenzyme complexes</article-title>
+          <source>Methods Mol Biol</source>
+          <year>2009</year>
+          <volume>554</volume>
+          <fpage>143</fpage>
+          <lpage>162</lpage>
+          <pub-id pub-id-type="pmid">19513673</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>CK</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional mechanics of the ATP-dependent Lon protease- lessons from endogenous protein and synthetic peptide substrates</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2008</year>
+          <volume>1784</volume>
+          <fpage>727</fpage>
+          <lpage>735</lpage>
+          <pub-id pub-id-type="pmid">18359303</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenaers</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Reynier</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Elachouri</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Soukkarieh</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Olichon</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Belenguer</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Baricault</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ducommun</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hamel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Delettre</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>OPA1 functions in mitochondria and dysfunctions in optic nerve</article-title>
+          <source>Int J Biochem Cell Biol</source>
+          <year>2009</year>
+          <volume>41</volume>
+          <fpage>1866</fpage>
+          <lpage>1874</lpage>
+          <pub-id pub-id-type="pmid">19389483</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenaz</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Genova</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural and functional organization of the mitochondrial respiratory chain: a dynamic super-assembly</article-title>
+          <source>Int J Biochem Cell Biol</source>
+          <year>2009</year>
+          <volume>41</volume>
+          <fpage>1750</fpage>
+          <lpage>1772</lpage>
+          <pub-id pub-id-type="pmid">19711505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leonhard</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Herrmann</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Stuart</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Mannhaupt</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Neupert</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>AAA proteases with catalytic sites on opposite membrane surfaces comprise a proteolytic system for the ATP-dependent degradation of inner membrane proteins in mitochondria</article-title>
+          <source>EMBO J</source>
+          <year>1996</year>
+          <volume>15</volume>
+          <fpage>4218</fpage>
+          <lpage>4229</lpage>
+          <pub-id pub-id-type="pmid">8861950</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leonhard</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Stiegler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Neupert</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Chaperone-like activity of the AAA domain of the yeast Yme1 AAA protease</article-title>
+          <source>Nature</source>
+          <year>1999</year>
+          <volume>398</volume>
+          <fpage>348</fpage>
+          <lpage>351</lpage>
+          <pub-id pub-id-type="pmid">10192337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luft</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <article-title>Permanganate; a new fixative for electron microscopy</article-title>
+          <source>J Biophys Biochem Cytol</source>
+          <year>1956</year>
+          <volume>2</volume>
+          <fpage>799</fpage>
+          <lpage>802</lpage>
+          <pub-id pub-id-type="pmid">13398447</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Merkwirth</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Dargazanli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Tatsuta</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Geimer</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lower</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Wunderlich</surname>
+              <given-names>FT</given-names>
+            </name>
+            <name>
+              <surname>von Kleist-Retzow</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Waisman</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Westermann</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Prohibitins control cell proliferation and apoptosis by regulating OPA1-dependent cristae morphogenesis in mitochondria</article-title>
+          <source>Genes Dev</source>
+          <year>2008</year>
+          <volume>22</volume>
+          <fpage>476</fpage>
+          <lpage>488</lpage>
+          <pub-id pub-id-type="pmid">18281461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakai</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Yasuhara</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Fujiki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ohashi</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple genes, including a member of the AAA family, are essential for degradation of unassembled subunit 2 of cytochrome c oxidase in yeast mitochondria</article-title>
+          <source>Mol Cell Biol</source>
+          <year>1995</year>
+          <volume>15</volume>
+          <fpage>4441</fpage>
+          <lpage>4452</lpage>
+          <pub-id pub-id-type="pmid">7623837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olichon</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Baricault</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Gas</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Guillou</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Valette</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Belenguer</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Lenaers</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of OPA1 perturbates the mitochondrial inner membrane structure and integrity, leading to cytochrome c release and apoptosis</article-title>
+          <source>J Biol Chem</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>7743</fpage>
+          <lpage>7746</lpage>
+          <pub-id pub-id-type="pmid">12509422</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pearce</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Sherman</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Degradation of cytochrome oxidase subunits in mutants of yeast lacking cytochrome c and suppression of the degradation by mutation of yme1</article-title>
+          <source>J Biol Chem</source>
+          <year>1995</year>
+          <volume>270</volume>
+          <fpage>20879</fpage>
+          <lpage>20882</lpage>
+          <pub-id pub-id-type="pmid">7673107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pecina</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Functional alteration of cytochrome c oxidase by SURF1 mutations in Leigh syndrome</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2003</year>
+          <volume>1639</volume>
+          <fpage>53</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="pmid">12943968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pecina</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Gnaiger</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pronicka</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Houstek</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Decreased affinity for oxygen of cytochrome-c oxidase in Leigh syndrome caused by SURF1 mutations</article-title>
+          <source>Am J Physiol Cell Physiol</source>
+          <year>2004</year>
+          <volume>287</volume>
+          <fpage>C1384</fpage>
+          <lpage>C1388</lpage>
+          <pub-id pub-id-type="pmid">15269007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pejznochova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tesarova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Magner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Honzik</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Vinsova</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hajkova</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Havlickova</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial DNA content and expression of genes involved in mtDNA transcription, regulation and maintenance during human fetal development</article-title>
+          <source>Mitochondrion</source>
+          <year>2010</year>
+          <volume>10</volume>
+          <fpage>321</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="pmid">20096380</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Potting</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Wilmes</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Engmann</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Osman</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of mitochondrial phospholipids by Ups1/PRELI-like proteins depends on proteolysis and Mdm35</article-title>
+          <source>EMBO J</source>
+          <year>2010</year>
+          <volume>29</volume>
+          <fpage>2888</fpage>
+          <lpage>2898</lpage>
+          <pub-id pub-id-type="pmid">20657548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rabl</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Formation of cristae and crista junctions in mitochondria depends on antagonism between Fcj1 and Su e/g</article-title>
+          <source>J Cell Biol</source>
+          <year>2009</year>
+          <volume>185</volume>
+          <fpage>1047</fpage>
+          <lpage>1063</lpage>
+          <pub-id pub-id-type="pmid">19528297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rainey</surname>
+              <given-names>RN</given-names>
+            </name>
+            <name>
+              <surname>Glavin</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>HW</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Teitell</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Koehler</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>A new function in translocation for the mitochondrial i-AAA protease Yme1: import of polynucleotide phosphorylase into the intermembrane space</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2006</year>
+          <volume>26</volume>
+          <fpage>8488</fpage>
+          <lpage>8497</lpage>
+          <pub-id pub-id-type="pmid">16966379</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rossignol</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Faustin</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Rocher</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Malgat</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mazat</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Letellier</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Mitochondrial threshold effects</article-title>
+          <source>Biochem J</source>
+          <year>2003</year>
+          <volume>370</volume>
+          <fpage>751</fpage>
+          <lpage>762</lpage>
+          <pub-id pub-id-type="pmid">12467494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shah</surname>
+              <given-names>ZH</given-names>
+            </name>
+            <name>
+              <surname>Hakkaart</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Arku</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>de Jong</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>van der Spek</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Grivell</surname>
+              <given-names>LA</given-names>
+            </name>
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>HT</given-names>
+            </name>
+          </person-group>
+          <article-title>The human homologue of the yeast mitochondrial AAA metalloprotease Yme1p complements a yeast yme1 disruptant</article-title>
+          <source>FEBS Lett</source>
+          <year>2000</year>
+          <volume>478</volume>
+          <fpage>267</fpage>
+          <lpage>270</lpage>
+          <pub-id pub-id-type="pmid">10930580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Fiket</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Alexander</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>DC</given-names>
+            </name>
+          </person-group>
+          <article-title>OPA1 processing controls mitochondrial fusion and is regulated by mRNA splicing, membrane potential, and Yme1L</article-title>
+          <source>J Cell Biol</source>
+          <year>2007</year>
+          <volume>178</volume>
+          <fpage>749</fpage>
+          <lpage>755</lpage>
+          <pub-id pub-id-type="pmid">17709429</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Fornuskova</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Wenchich</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Pejznochova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Knockdown of human Oxa1l impairs the biogenesis of F1Fo-ATP synthase and NADH:ubiquinone oxidoreductase</article-title>
+          <source>J Mol Biol</source>
+          <year>2007</year>
+          <volume>374</volume>
+          <fpage>506</fpage>
+          <lpage>516</lpage>
+          <pub-id pub-id-type="pmid">17936786</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Tesarova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cerna</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Biogenesis of eukaryotic cytochrome c oxidase</article-title>
+          <source>Physiol Res</source>
+          <year>2006</year>
+          <volume>55</volume>
+          <issue>(Suppl 2)</issue>
+          <fpage>S27</fpage>
+          <lpage>S41</lpage>
+          <pub-id pub-id-type="pmid">17298220</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Vesela</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hulkova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of function of Sco1 and its interaction with cytochrome c oxidase</article-title>
+          <source>Am J Physiol Cell Physiol</source>
+          <year>2009</year>
+          <volume>296</volume>
+          <fpage>C1218</fpage>
+          <lpage>C1226</lpage>
+          <pub-id pub-id-type="pmid">19295170</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Vesela</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Pecina</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Tesarova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cerna</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Houstek</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Tissue-specific cytochrome c oxidase assembly defects due to mutations in SCO2 and SURF1</article-title>
+          <source>Biochem J</source>
+          <year>2005</year>
+          <volume>392</volume>
+          <fpage>625</fpage>
+          <lpage>632</lpage>
+          <pub-id pub-id-type="pmid">16083427</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stiburek</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Assembly factors and ATP-dependent proteases in cytochrome c oxidase biogenesis</article-title>
+          <source>Biochim Biophys Acta</source>
+          <year>2010</year>
+          <volume>1797</volume>
+          <fpage>1149</fpage>
+          <lpage>1158</lpage>
+          <pub-id pub-id-type="pmid">20398622</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tatsuta</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Langer</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>AAA proteases in mitochondria: diverse functions of membrane-bound proteolytic machines</article-title>
+          <source>Res Microbiol</source>
+          <year>2009</year>
+          <volume>160</volume>
+          <fpage>711</fpage>
+          <lpage>717</lpage>
+          <pub-id pub-id-type="pmid">19781639</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thorsness</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name>
+              <surname>White</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Fox</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Inactivation of YME1, a member of the ftsH-SEC18-PAS1-CDC48 family of putative ATPase-encoding genes, causes increased escape of DNA from mitochondria in <italic>Saccharomyces cerevisiae</italic></article-title>
+          <source>Mol Cell Biol</source>
+          <year>1993</year>
+          <volume>13</volume>
+          <fpage>5418</fpage>
+          <lpage>5426</lpage>
+          <pub-id pub-id-type="pmid">8355690</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsukihara</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Aoyama</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tomizaki</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Shinzawa-Itoh</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Nakashima</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yaono</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Yoshikawa</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>The whole structure of the 13-subunit oxidized cytochrome c oxidase at 2.8 A</article-title>
+          <source>Science</source>
+          <year>1996</year>
+          <volume>272</volume>
+          <fpage>1136</fpage>
+          <lpage>1144</lpage>
+          <pub-id pub-id-type="pmid">8638158</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tung</surname>
+              <given-names>BS</given-names>
+            </name>
+            <name>
+              <surname>Unger</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Levin</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Brasitus</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Getz</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>Use of an unsaturated fatty acid auxotroph of <italic>Saccharomyces cerevisiae</italic> to modify the lipid composition and function of mitochondrial membranes</article-title>
+          <source>J Lipid Res</source>
+          <year>1991</year>
+          <volume>32</volume>
+          <fpage>1025</fpage>
+          <lpage>1038</lpage>
+          <pub-id pub-id-type="pmid">1940618</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ugalde</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Coenen</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Farhoud</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Gilinsky</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Koopman</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>van den Heuvel</surname>
+              <given-names>LP</given-names>
+            </name>
+            <name>
+              <surname>Smeitink</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Nijtmans</surname>
+              <given-names>LG</given-names>
+            </name>
+          </person-group>
+          <article-title>New perspectives on the assembly process of mitochondrial respiratory chain complex cytochrome c oxidase</article-title>
+          <source>Mitochondrion</source>
+          <year>2002</year>
+          <volume>2</volume>
+          <fpage>117</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="pmid">16120314</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walenga</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Lands</surname>
+              <given-names>WE</given-names>
+            </name>
+          </person-group>
+          <article-title>Effectiveness of various unsaturated fatty acids in supporting growth and respiration in <italic>Saccharomyces cerevisiae</italic></article-title>
+          <source>J Biol Chem</source>
+          <year>1975</year>
+          <volume>250</volume>
+          <fpage>9121</fpage>
+          <lpage>9129</lpage>
+          <pub-id pub-id-type="pmid">1104617</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wan</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Large-scale cDNA transfection screening for genes related to cancer development and progression</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2004</year>
+          <volume>101</volume>
+          <fpage>15724</fpage>
+          <lpage>15729</lpage>
+          <pub-id pub-id-type="pmid">15498874</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weber</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Hanekamp</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Thorsness</surname>
+              <given-names>PE</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochemical and functional analysis of the YME1 gene product, an ATP and zinc-dependent mitochondrial protease from <italic>S. cerevisiae</italic></article-title>
+          <source>Mol Biol Cell</source>
+          <year>1996</year>
+          <volume>7</volume>
+          <fpage>307</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="pmid">8688560</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wenchich</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Drahota</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Honzik</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Hansikova</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Tesarova</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zeman</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Houstek</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Polarographic evaluation of mitochondrial enzymes activity in isolated mitochondria and in permeabilized human muscle cells with inherited mitochondrial defects</article-title>
+          <source>Physiol Res</source>
+          <year>2003</year>
+          <volume>52</volume>
+          <fpage>781</fpage>
+          <lpage>788</lpage>
+          <pub-id pub-id-type="pmid">14640901</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

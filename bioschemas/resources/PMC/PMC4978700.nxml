@@ -1,0 +1,2079 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:01:49Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4978700" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4978700</identifier><datestamp>2016-08-17</datestamp><setSpec>elsevierwt</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="brief-report">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Cell Rep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cell Rep</journal-id>
+      <journal-title-group>
+        <journal-title>Cell Reports</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2211-1247</issn>
+      <publisher>
+        <publisher-name>Cell Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4978700</article-id>
+      <article-id pub-id-type="pmcid">PMC4978700</article-id>
+      <article-id pub-id-type="pmc-uid">4978700</article-id>
+      <article-id pub-id-type="pmid">27477283</article-id>
+      <article-id pub-id-type="publisher-id">S2211-1247(16)30888-9</article-id>
+      <article-id pub-id-type="doi">10.1016/j.celrep.2016.07.002</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Report</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Restriction by SAMHD1 Limits cGAS/STING-Dependent Innate and Adaptive Immune Responses to HIV-1</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maelfait</surname>
+            <given-names>Jonathan</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bridgeman</surname>
+            <given-names>Anne</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Benlahrech</surname>
+            <given-names>Adel</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cursi</surname>
+            <given-names>Chiara</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Rehwinkel</surname>
+            <given-names>Jan</given-names>
+          </name>
+          <email>jan.rehwinkel@imm.ox.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="cor1" ref-type="corresp">â</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Medical Research Council Human Immunology Unit, Weatherall Institute of Molecular Medicine and Radcliffe Department of Medicine, University of Oxford, Oxford OX3 9DS, UK</aff>
+      <aff id="aff2"><label>2</label>Medical Research Council Human Immunology Unit, Weatherall Institute of Molecular Medicine and Nuffield Department of Medicine, University of Oxford, Oxford OX3 9DS, UK</aff>
+      <author-notes>
+        <corresp id="cor1"><label>â</label>Corresponding author <email>jan.rehwinkel@imm.ox.ac.uk</email></corresp>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>28</day>
+        <month>7</month>
+        <year>2016</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+      <pub-date pub-type="collection">
+        <day>09</day>
+        <month>8</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>7</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>16</volume>
+      <issue>6</issue>
+      <fpage>1492</fpage>
+      <lpage>1501</lpage>
+      <history>
+        <date date-type="received">
+          <day>18</day>
+          <month>3</month>
+          <year>2016</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>20</day>
+          <month>5</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>7</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2016 The Author(s)</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="CC BY" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p>
+        </license>
+      </permissions>
+      <abstract id="abs0010">
+        <title>Summary</title>
+        <p>SAMHD1 is a restriction factor for HIV-1 infection. <italic>SAMHD1</italic> mutations cause the autoinflammatory Aicardi-GoutiÃ¨res syndrome that is characterized by chronic type I interferon (IFN) secretion. We show that the spontaneous IFN response in SAMHD1-deficient cells and mice requires the cGAS/STING cytosolic DNA-sensing pathway. We provide genetic evidence that cell-autonomous control of lentivirus infection in myeloid cells by SAMHD1 limits virus-induced production of IFNs and the induction of co-stimulatory markers. This program of myeloid cell activation required reverse transcription, cGAS and STING, and signaling through the IFN receptor. Furthermore, SAMHD1 reduced the induction of virus-specific cytotoxic TÂ cells inÂ vivo. Therefore, virus restriction by SAMHD1 limits the magnitude of IFN and TÂ cell responses. This demonstrates a competition between cell-autonomous virus control and subsequent innate and adaptive immune responses, a concept with important implications for the treatment of infection.</p>
+      </abstract>
+      <abstract abstract-type="graphical" id="abs0015">
+        <title>Graphical Abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="author-highlights" id="abs0020">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple">
+            <list-item id="u0010">
+              <label>â¢</label>
+              <p>Spontaneous IFN production in SAMHD1-deficient cells requires cGAS and STING</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>â¢</label>
+              <p>During HIV-1 infection, SAMHD1 limits activation of myeloid cells</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>â¢</label>
+              <p>cGAS and STING detect HIV-1 infection in SAMHD1-deficient cells and induce IFN</p>
+            </list-item>
+            <list-item id="u0025">
+              <label>â¢</label>
+              <p>SAMHD1 prevents virus-specific CD8 TÂ cell responses inÂ vivo</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+      <abstract abstract-type="teaser" id="abs0025">
+        <p>Restriction factors defend infected cells against viruses. Maelfait etÂ al. find that SAMHD1, which blocks HIV-1 infection in myeloid cells, prevents innate sensing of infection via cGAS/STING. Furthermore, SAMHD1 curtails virus-specific TÂ cell responses inÂ vivo. Restriction by SAMHD1, therefore, limits subsequent innate and adaptive immune responses.</p>
+      </abstract>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: July 28, 2016</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Introduction</title>
+      <p>Virus infection in mammalian hosts is controlled by a variety of mechanisms operating at different levels. These include cell-intrinsic restriction systems, innate immune sensors that signal for the induction of an antiviral state, and cellular and adaptive immune responses. How these different branches of the antiviral response work together is important for successful immunity. The role of pattern-recognition receptors that sense infection for the development of subsequent immune responses has been well documented (<xref rid="bib28" ref-type="bibr">Medzhitov, 2009</xref>). However, less is known about how virus control by restriction factors is linked with innate and adaptive immune responses.</p>
+      <p>Restriction factors have been studied in particular detail for HIV-1 and include APOBEC3G, TRIM5Î±, tetherin, and Mx2 (<xref rid="bib35" ref-type="bibr">Rehwinkel, 2014</xref>, <xref rid="bib43" ref-type="bibr">Simon etÂ al., 2015</xref>). Another HIV-1 restriction factor is SAMHD1, a deoxynucleoside triphosphate (dNTP) triphosphohydrolase that depletes the intracellular pool of dNTPs and thereby prevents HIV-1 reverse transcription in some cell types (<xref rid="bib1" ref-type="bibr">Ayinde etÂ al., 2012</xref>). Additional mechanisms by which SAMHD1 might restrict infection have been proposed and include degradation and/or binding of viral nucleic acids (<xref rid="bib3" ref-type="bibr">Ballana and EstÃ©, 2015</xref>).</p>
+      <p>Several studies suggested that SAMHD1-deficient cells produce elevated levels of type I interferons (IFNs) in response to HIV-1 infection. Indirect evidence for this idea stems from experiments using Vpx, a viral accessory protein encoded by HIV-2, but not HIV-1. Vpx targets SAMHD1 for proteasomal degradation (<xref rid="bib18" ref-type="bibr">Hrecka etÂ al., 2011</xref>, <xref rid="bib21" ref-type="bibr">Laguette etÂ al., 2011</xref>). Depletion of SAMHD1 by Vpx in cultured human cells not only facilitates HIV-1 infection but also results in the induction of an antiviral response (<xref rid="bib25" ref-type="bibr">Manel etÂ al., 2010</xref>). In addition, cells from patients with <italic>SAMHD1</italic> mutations or cells in which SAMHD1 is depleted by RNAi produce more IFNs during HIV-1 infection (<xref rid="bib6" ref-type="bibr">Berger etÂ al., 2011</xref>, <xref rid="bib34" ref-type="bibr">PuigdomÃ¨nech etÂ al., 2013</xref>). Subsequent work identified a role for cytosolic DNA sensing by cGAS and STING in IFN induction in Vpx-treated cells (<xref rid="bib14" ref-type="bibr">Gao etÂ al., 2013</xref>, <xref rid="bib22" ref-type="bibr">Lahaye etÂ al., 2013</xref>). Furthermore, SAMHD1 depletion inÂ vitro in human dendritic cells (DCs) by Vpx delivery or RNAi enhances DC activation and antigen presentation upon HIV-1 infection and facilitates TÂ cell responses in co-culture models (<xref rid="bib2" ref-type="bibr">Ayinde etÂ al., 2015</xref>). However, the interpretation of these data is complicated by the possibility that Vpx targets additional proteins apart from SAMHD1 (<xref rid="bib12" ref-type="bibr">Fujita etÂ al., 2012</xref>, <xref rid="bib37" ref-type="bibr">Reinhard etÂ al., 2014</xref>), by genetic heterogeneity of patientsâ cells, and by recent results that failed to reproduce enhanced DC activation in HIV-1-infected cells depleted of SAMHD1 (<xref rid="bib16" ref-type="bibr">Hertoghs etÂ al., 2015</xref>). InÂ vivo data and genetic studies in knockout models interrogating the possible role of SAMHD1 in innate and adaptive immune responses to HIV-1 are currently lacking.</p>
+      <p>Mutations in human <italic>SAMHD1</italic> cause Aicardi-GoutiÃ¨res syndrome (AGS), a rare monogenic disorder resembling congenital virus infection and typified by early-onset brain disease (<xref rid="bib38" ref-type="bibr">Rice etÂ al., 2009</xref>). AGS patients spontaneously produce IFNs in the absence of infection with exogenous viruses (<xref rid="bib10" ref-type="bibr">Crow and Manel, 2015</xref>). These observations suggest that SAMHD1 prevents the accumulation of endogenous nucleic acids that induce IFNs. Others and we previously reported spontaneous IFN production in <italic>Samhd1</italic><sup>â/â</sup> mice and cells, mimicking the situation in AGS patients (<xref rid="bib4" ref-type="bibr">Behrendt etÂ al., 2013</xref>, <xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>). The identity and source of the cellular IFN-stimulatory nucleic acid and the signaling pathway activated by it are important open questions (<xref rid="bib39" ref-type="bibr">Roers etÂ al., 2016</xref>).</p>
+      <p>We show that cGAS and STING mediate chronic IFN production in <italic>Samhd1</italic><sup>â/â</sup> mice and cells. We further show that SAMHD1-deficient myeloid cells produce heightened levels of IFNs in response to infection with VSV-G-pseudotyped HIV-1-derived lentiviruses and are activated more strongly. These effects required reverse transcription and were nullified in cells from <italic>Samhd1</italic><sup>â/â</sup> mice also lacking cGAS, STING, or IFNAR. We also demonstrate that the induction of antigen-specific TÂ cell responses is limited by SAMHD1 inÂ vivo. Therefore, virus control by SAMHD1 at the level of the infected cell limits innate and adaptive immunity.</p>
+    </sec>
+    <sec id="sec2">
+      <title>Results</title>
+      <sec id="sec2.1">
+        <title>The Spontaneous IFN Response in <italic>Samhd1</italic><sup>â/â</sup> Cells and Mice Requires cGAS and STING</title>
+        <p>AGS is a prototypical interferonopathy, a group of diseases characterized by chronic and pathologic IFN production (<xref rid="bib10" ref-type="bibr">Crow and Manel, 2015</xref>). Mutation of <italic>SAMHD1</italic> or one of at least six other genes, including <italic>TREX1</italic> and <italic>RNASEH2A-</italic>C, causes AGS (<xref rid="bib10" ref-type="bibr">Crow and Manel, 2015</xref>). Others and we previously showed that <italic>Samhd1</italic><sup>â/â</sup> mice and cells display a spontaneous IFN signature, although SAMHD1-deficient animals do not develop autoimmunity (<xref rid="bib4" ref-type="bibr">Behrendt etÂ al., 2013</xref>, <xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>). Given that SAMHD1âs enzymatic function is to degrade dNTPs, the building blocks of DNA, we hypothesized that cytosolic DNA sensing might account for IFN induction in the absence of SAMHD1.</p>
+        <p>To test this, we first cultured bone marrow-derived macrophages (BMDMs) from SAMHD1-cGAS (<italic>Mb21d1</italic><sup>â/â</sup>) or SAMHD1-STING (<italic>Tmem173</italic><sup>â/â</sup>) double-knockout mice. Consistent with previous observations, <italic>Samhd1</italic><sup>â/â</sup> BMDMs expressed higher mRNA levels of the interferon-stimulated genes (ISGs) <italic>Ifi44</italic>, <italic>Ifit1</italic>, and <italic>Ifit2</italic> compared to wild-type cells (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A). However, the expression of these ISGs was not increased in cells lacking both SAMHD1 and STING or cGAS compared to single-knockout control cells (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A). It is noteworthy that basal ISG expression was reduced in cGAS- and STING-deficient cells. Wild-type BMDMs thus maintain basal expression of ISGs and this requires an intact cytosolic DNA-sensing pathway.</p>
+        <p>ISG15 is an IFN-inducible ubiquitin-like protein modifier with antiviral functions (<xref rid="bib29" ref-type="bibr">Morales and Lenschow, 2013</xref>). <italic>Samhd1</italic><sup>â/â</sup> cells expressed more ISG15 protein and contained increased amounts of high-molecular-weight proteins, which were covalently modified by ISG15 (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B). Enhanced ISGylation was not observed in SAMHD1-deficient BMDMs that did not express cGAS or STING (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B).</p>
+        <p>To confirm these findings inÂ vivo, we analyzed spleens from 6-month-old <italic>Samhd1</italic><sup>â/â</sup> mice for the expression of several ISGs. The mRNA levels of <italic>Ifi44</italic>, <italic>Ifit1</italic>, <italic>Oasl1</italic>, and <italic>Isg15</italic> were significantly increased in <italic>Samhd1</italic><sup>â/â</sup> spleens (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>C). However, the expression of these genes was reduced to wild-typeÂ levels when SAMHD1 was knocked out together with cGAS or STING (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>C). In sum, these data show that SAMHD1 prevents spontaneous engagement of the cGAS/STING pathway.</p>
+      </sec>
+      <sec id="sec2.2">
+        <title>SAMHD1 Limits IFN Induction and Myeloid Cell Activation upon Lentivirus Infection</title>
+        <p>Vpx-mediated degradation of SAMHD1 enables productive infection of human DCs and relieves a block to IFN induction and DC activation (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S1</xref>) (<xref rid="bib25" ref-type="bibr">Manel etÂ al., 2010</xref>). To test this in a genetically tractable system, we generated bone marrow-derived myeloid cells (BMMCs) from wild-type and <italic>Samhd1</italic><sup>â/â</sup> mice (<xref rid="bib15" ref-type="bibr">Helft etÂ al., 2015</xref>). Others and we previously showed that SAMHD1 restricts infection of these cells with HIV-1-based lentiviruses (<xref rid="bib4" ref-type="bibr">Behrendt etÂ al., 2013</xref>, <xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>). Profound SAMHD1-dependent restriction both inÂ vitro and inÂ vivo was only observed when the <italic>pol</italic> gene carried a point mutation (V148I), which decreases the affinity of the viral RT for dNTPs (<xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>). Second-generation lentiviruses used in our previous study (SGLenti-RT<sup>V148I</sup>), which have a minimal genome encoding only EGFP (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>A), were efficiently restricted by SAMHD1, but they did not induce BMMC activation or IFN secretion (<xref rid="mmc1" ref-type="supplementary-material">Figures S2</xref>CâS2E) (<xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>).</p>
+        <p>We therefore infected murine BMMCs with first-generation lentiviruses (FGlenti) that induce IFN in human monocyte-derived dendritic cells (MDDCs) (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S1</xref>). To allow for potent restriction by SAMHD1, we introduced the V148I point mutation into the <italic>pol</italic> gene of FGLenti (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>A). Infection of BMMCs with both first- and second-generation lentiviruses was equally suppressed by SAMHD1 (<xref rid="fig2" ref-type="fig">Figures 2</xref>A and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>C). However, only FGLenti-RT<sup>V148I</sup> induced cell surface expression of the co-stimulatory molecules CD40, CD80, and CD86 and secretion of IFNÎ± and the chemokine CXCL10, and these effects were significantly elevated in SAMHD1-deficient cells (<xref rid="fig2" ref-type="fig">Figures 2</xref>B, 2C, <xref rid="mmc1" ref-type="supplementary-material">S2</xref>D, and S2E). <italic>Ifit1</italic> and <italic>Ifi44</italic> mRNA and ISG15 protein expression and conjugation were enhanced in SAMHD1-deficient BMMCs (<xref rid="fig2" ref-type="fig">Figures 2</xref>D and 2E). Taken together, these data provide direct genetic evidence that SAMHD1-mediated restriction impedes detection of lentivirus infection in myeloid cells.</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>Viral cDNA Synthesis Is Required for Myeloid Cell Activation</title>
+        <p>To determine at which step in the viral life cycle HIV-1 is sensed in SAMHD1-deficient myeloid cells, we treated BMMCs with the RT inhibitor nevirapine or the integrase inhibitor raltegravir during infection with FGLenti-RT<sup>V148I</sup>. Both compounds inhibited infection (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>A), but only inhibition of reverse transcription prevented BMMC activation and CXCL10 and IFNÎ± production (<xref rid="fig3" ref-type="fig">Figures 3</xref>B, 3C, <xref rid="mmc1" ref-type="supplementary-material">S3</xref>A, and S3B). SAMHD1 may restrict HIV by multiple mechanisms, including by preventing cDNA synthesis and by degrading incoming viral genomic RNA. We found that HIV-1 cDNA accumulated over 24Â hr at 10-fold higher levels in <italic>Samhd1</italic><sup>â/â</sup> BMMCs compared to wild-type cells (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>D). In contrast, viral RNA levels measured at 4Â hr post-infection were not affected by SAMHD1 (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>E). At this time point we observed higher induction of <italic>Ifnb</italic> and <italic>Ifit1</italic> mRNAs in SAMHD1-deficient BMMCs (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>F). These results indicate that viral RNAs do not trigger the IFN response at this time point, which instead depends on reverse transcription and correlates in magnitude with reverse transcription products.</p>
+      </sec>
+      <sec id="sec2.4">
+        <title>Lentivirus-Induced Myeloid Cell Activation and IFN Induction Are Dependent on cGAS/STING and IFN Signaling</title>
+        <p>Given the requirement for reverse transcription, we tested whether the cytosolic DNA-sensing pathway detects lentivirus infection in SAMHD1-deficient myeloid cells. SAMHD1-cGAS and SAMHD1-STING double-knockout BMMCs were equally or slightly better infected by FGLenti-RT<sup>V148I</sup> than <italic>Samhd1</italic><sup>â/â</sup> cells (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A). BMMC activation, the secretion of CXCL10 and IFNÎ±, and ISG15 protein expression and conjugation were all greatly reduced in <italic>Samhd1</italic><sup>â/â</sup> BMMCs lacking cGAS or STINGÂ (<xref rid="fig4" ref-type="fig">Figures 4</xref>Bâ4D and <xref rid="mmc1" ref-type="supplementary-material">S4</xref>A). Neither BMMC activation nor IFNÎ± production were affected by loss of SAMHD1, cGAS, or STING upon infection with Sendai virus (SeV), which is sensed via the RIG-I pathway (<xref rid="bib20" ref-type="bibr">Kato etÂ al., 2006</xref>) (<xref rid="fig4" ref-type="fig">Figures 4</xref>E, 4F, and <xref rid="mmc1" ref-type="supplementary-material">S4</xref>B). Next, we assessed the role of IFN signaling in activation of SAMHD1-deficient myeloid cells by infecting SAMHD1-typeÂ I IFN receptor (<italic>Ifnar1</italic><sup>â/â</sup>) double-knockout BMMCs with FGlenti-RT<sup>V148I</sup>. Despite the fact that loss of the type I IFN receptor further increased susceptibility to FGlenti-RT<sup>V148I</sup> compared to SAMHD1 single-knockout cells (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>G), BMMC activation and antiviral responses in these cells were impaired (<xref rid="fig4" ref-type="fig">Figures 4</xref>Hâ4J, <xref rid="mmc1" ref-type="supplementary-material">S4</xref>C, and S4D). In sum, these observations provide genetic evidence that cGAS, STING, and signaling through the type I IFN receptor are required for SAMHD1-dependent myeloid cell activation upon lentivirus infection.</p>
+      </sec>
+      <sec id="sec2.5">
+        <title>SAMHD1 Reduces the Antiviral CD8Â T Cell Response InÂ Vivo</title>
+        <p>Given that SAMHD1 curtails the induction of IFN and the activation of myeloid cells inÂ vitro, we tested whether SAMHD1 limits adaptive immune responses. We fused the OVA<sub>257â264</sub> peptide SIINFEKL, a model antigen for CD8 TÂ cells (<xref rid="bib8" ref-type="bibr">Carbone and Bevan, 1989</xref>), to the C terminus of the matrix protein (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S5</xref>A). The resulting FGLenti-RT<sup>V148I</sup> SIINFEKL virus behaved identically to the parental virus in terms of virus production, gag processing, infectivity, and BMMC activation (<xref rid="mmc1" ref-type="supplementary-material">Figures S5</xref>BâS5F). Furthermore, SIINFEKL presentation by H-2Kb was enhanced in <italic>Samhd1</italic><sup>â/â</sup> cells (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>A).</p>
+        <p>Next we compared the antigen-specific CD8 TÂ cell response in wild-type and <italic>Samhd1</italic><sup>â/â</sup> animals. Compared to wild-type mice, infection of <italic>Samhd1</italic><sup>â/â</sup> animals resulted in 4- and 10-fold increased tetramer-positive CD8 TÂ cell populations in blood and spleens, respectively (<xref rid="fig5" ref-type="fig">Figures 5</xref>B, 5C, and <xref rid="mmc1" ref-type="supplementary-material">S5</xref>G). Spleens of <italic>Samhd1</italic><sup>â/â</sup> mice contained more CD8 TÂ cells producing IFNÎ³ upon SIINFEKL re-stimulation than those of wild-type controls (<xref rid="fig5" ref-type="fig">Figures 5</xref>D and 5E), but not after phorbol 12-myristate 13-acetate (PMA) and ionomycin stimulation (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S5</xref>H). SAMHD1-cGAS double-knockout mice mounted a similar antigen-specific CD8 TÂ cell response compared to mice lacking only SAMHD1 (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S5</xref>I). This indicates that the increased antigen load in <italic>Samhd1</italic><sup>â/â</sup> animals determines the magnitude of the CD8 TÂ cell response in this model. To exclude direct effects of SAMHD1 on the CD8 TÂ cell repertoire or TÂ cell activation, we injected <italic>Samhd1</italic><sup>â/â</sup> and wild-type mice with OVA protein using cGAMP as an adjuvant (<xref rid="bib23" ref-type="bibr">Li etÂ al., 2013</xref>). This resulted in comparable SIINFEKL-specific CD8 TÂ cell responses in wild-type and <italic>Samhd1</italic><sup>â/â</sup> mice (<xref rid="mmc1" ref-type="supplementary-material">Figures S5</xref>J and S5K). We conclude that SAMHD1 limits lentivirus-specific TÂ cell responses to lentiviral infection inÂ vivo.</p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <title>Discussion</title>
+      <p>Our study provides genetic and inÂ vivo data that the restriction factor SAMHD1 does not operate in conjunction with other innate and adaptive immune responses to ensure control of lentivirus infection. Instead, SAMHD1 limits the induction of IFNs, ISGs and co-stimulatory molecules as well as the amounts of antigen presented by infected myeloid cells inÂ vitro. Furthermore, SAMHD1 limits the magnitude of the CD8 TÂ cell response induced inÂ vivo. Cell-autonomous virus restriction by SAMHD1, therefore, competes with sensors of infection and TÂ cell responses. This antagonistic relationship between SAMHD1 and innate and adaptive immune responses is of importance for our understanding of lentiviral pathogenicity, and it may provide therapeutic opportunities to control viral infections.</p>
+      <p>It is interesting to ask whether this concept also applies to other restriction factors. Indeed, a recent study showed that cultured DCs inactivate TRIM5Î±âs function by redirecting the protein to the cell nucleus, and it suggested that this reflects an evolutionary trade-off in DCs, in which restriction is minimized to allow for more efficient sensing (<xref rid="bib33" ref-type="bibr">Portilho etÂ al., 2016</xref>). However, other restriction factors do not compete with but rather facilitate subsequent innate and adaptive immune responses. APOBEC3 is required for efficient production of antibodies in retrovirus-infected mice (<xref rid="bib41" ref-type="bibr">Santiago etÂ al., 2008</xref>, <xref rid="bib42" ref-type="bibr">Santiago etÂ al., 2010</xref>, <xref rid="bib44" ref-type="bibr">Smith etÂ al., 2011</xref>), and human APOBEC3G facilitates TÂ cell responses (<xref rid="bib9" ref-type="bibr">Casartelli etÂ al., 2010</xref>). Tetherin promotes NK and CD8 TÂ cell responses in a mouse model of retrovirus infection (<xref rid="bib24" ref-type="bibr">Li etÂ al., 2014</xref>). Interestingly, some restriction factors, including TRIM5Î± and tetherin, also operate as sensors of infection and induce NF-ÎºB (<xref rid="bib13" ref-type="bibr">GalÃ£o etÂ al., 2012</xref>, <xref rid="bib32" ref-type="bibr">Pertel etÂ al., 2011</xref>). Viral restriction factors thus differentially impact the hostâs immune responses, and itÂ is likely that this complexity is due to host-pathogen co-evolution.</p>
+      <p>A first hint at the possibility that SAMHD1 prevents sensing ofÂ virus infection came from its implication in AGS, a rare autoinflammatory disease characterized by chronic IFN production (<xref rid="bib38" ref-type="bibr">Rice etÂ al., 2009</xref>). Here we show that the spontaneousÂ IFN response in S<italic>amhd1</italic><sup>â/â</sup> cells and mice requires cGAS and STING. Together with our previous observation that S<italic>amhd1</italic><sup>â/â</sup> cells respond normally to stimulation with exogenous DNA or STING agonists (<xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>), these data suggest that an unusual endogenous DNA accumulates in SAMHD1-deficient cells and engages cGAS. This mirrors the situation in TREX1- and RNASEH2-deficient cells (<xref rid="bib39" ref-type="bibr">Roers etÂ al., 2016</xref>).</p>
+      <p>We further report that IFN production in lentivirus-infected <italic>Samhd1</italic><sup>â/â</sup> myeloid cells requires cGAS and STING. Induction of antiviral responses was dependent upon reverse transcription, implicating viral reverse-transcribed DNA as the cGAS trigger. These data provide genetic evidence that lentivirus-induced innate immune responses are dependent on cytosolic DNA sensing. As reported for human DCs (<xref rid="bib25" ref-type="bibr">Manel etÂ al., 2010</xref>), we find that first-generation lentiviruses encoding a full genome and second-generation viruses with a minimal genome differ in their abilities to induce IFN. It has been suggested that newly expressed gag unmasks non-integrated cDNA in the DC cytosol, making it available for detection by cGAS (<xref rid="bib22" ref-type="bibr">Lahaye etÂ al., 2013</xref>, <xref rid="bib25" ref-type="bibr">Manel etÂ al., 2010</xref>). Indeed, gag is expressed by first-generation lentiviruses, but not by second-generation viruses. Specific nucleic acid sequences or secondary structures only present in the full HIV-1 genome may also, perhaps in conjunction with additional host proteins, contribute to IFN induction (<xref rid="bib17" ref-type="bibr">Herzner etÂ al., 2015</xref>, <xref rid="bib45" ref-type="bibr">Yoh etÂ al., 2015</xref>).</p>
+      <p>To study the impact of lentivirus restriction by SAMHD1 on cytotoxic TÂ cell responses in an inÂ vivo model, we generated a lentivirus expressing the OVA peptide SIINFEKL. We found that infected <italic>Samhd1</italic><sup>â/â</sup> myeloid cells better presented this model antigen. Enhanced antigen presentation also had been observed in HIV-1-infected human DCs upon SAMHD1 depletion with Vpx or RNAi, and these treatments resulted in stronger TÂ cell responses in co-culture models (<xref rid="bib2" ref-type="bibr">Ayinde etÂ al., 2015</xref>, <xref rid="bib25" ref-type="bibr">Manel etÂ al., 2010</xref>). These inÂ vitro studies, however, mostly relied on HIV-1-specific memory TÂ cells, which have altered requirements for activation (<xref rid="bib5" ref-type="bibr">Berard and Tough, 2002</xref>). It was, therefore, important to establish an inÂ vivo model in which naive TÂ cells are primed. Notably, we found that antigen-specific CD8 TÂ cell responses were up to 10-fold stronger in <italic>Samhd1</italic><sup>â/â</sup> mice compared to wild-type controls upon infection with the SIINFEKL-encoding lentivirus. It is interesting to ask whether this is due to enhanced antigen levels and/or to augmented co-stimulation and secretion of cytokines by antigen-presenting cells. We found that the SIINFEKL-specific TÂ cell response was similarly enhanced in infected <italic>Samhd1</italic><sup>â/â</sup> and <italic>Samhd1</italic><sup>â/â</sup>; <italic>Mb21d1</italic><sup>â/â</sup> animals. Thus, in this setting, increased antigen levels are largely responsible for the effect of SAMHD1 on the TÂ cell response. However, H-2Kb-bound SIINFEKL elicits strong TÂ cell responses due to its exceptionally high affinity for the TÂ cell receptor, and little signals 2 and 3 (co-stimulation and cytokines) are required for the SIINFEKL response (<xref rid="bib11" ref-type="bibr">Denton etÂ al., 2011</xref>). It will therefore be interesting to test other antigens in the future.</p>
+      <p>An interesting comparison can be made with HIV-2, which overcomes SAMHD1-mediated restriction by encoding the antagonist Vpx (<xref rid="bib18" ref-type="bibr">Hrecka etÂ al., 2011</xref>, <xref rid="bib21" ref-type="bibr">Laguette etÂ al., 2011</xref>). In line with our conclusion that SAMHD1 limits immune responses, inÂ vitro infection of DCs with HIV-2 results in potent IFN induction (<xref rid="bib22" ref-type="bibr">Lahaye etÂ al., 2013</xref>). In humans, HIV-2 infection in comparison with HIV-1 infection is characterized by better immune control, and fewer HIV-2-infected individuals progress to disease (<xref rid="bib31" ref-type="bibr">Nyamweya etÂ al., 2013</xref>, <xref rid="bib40" ref-type="bibr">Rowland-Jones and Whittle, 2007</xref>). It is possible that these effects are due in part to relief of SAMHD1-mediated restriction in HIV-2-infected cells, allowing for better innate and adaptive immune responses, and thatÂ HIV-1 has become the more successful pathogen by allowing itself to be restricted by SAMHD1. Consistent with this notion are observations in HIV-1 elite controllers. The expression level of SAMHD1 is reduced in DCs from elite controllers; these cells mount enhanced IFN responses to infection and are superior inÂ vitro in stimulating CD8 TÂ cells (<xref rid="bib27" ref-type="bibr">Martin-Gayo etÂ al., 2015</xref>).</p>
+      <p>These observations, together with the genetic evidence presented here for an inhibitory role of SAMHD1 on immune responses, suggest a strategy for the development of an efficient HIV-1 vaccine in the form of a replication-deficient virus that circumvents restriction by SAMHD1. These could be achieved either by inclusion of Vpx or by the development of small molecule inhibitors of SAMHD1. Pharmacological inhibition of SAMHD1 also could be useful in therapeutic approaches aimed at eradicating latent HIV-1. These strategies often rely on re-activation of latent provirus and subsequent killing of the virus by the immune system, which we predict would be more effective in the absence of SAMHD1 (<xref rid="bib26" ref-type="bibr">Margolis and Hazuda, 2013</xref>). In sum, our work sheds light on the inÂ vivo interplay among different branches of the antiviral immune system, and these insights have important implications for controlling infection.</p>
+    </sec>
+    <sec id="sec4">
+      <title>Experimental Procedures</title>
+      <sec id="sec4.1">
+        <title>Mice</title>
+        <p>All mice were on the C57Bl/6 background. <italic>Samhd1</italic><sup>â/â</sup> mice were described previously (<xref rid="bib36" ref-type="bibr">Rehwinkel etÂ al., 2013</xref>). <italic>Ifnar1</italic><sup>â/â</sup> mice were a gift from C. Reis e Sousa and were originally described in (<xref rid="bib30" ref-type="bibr">MÃ¼ller etÂ al., 1994</xref>). <italic>Tmem173</italic><sup>â/â</sup> (STING-deficient) mice were a gift from J. Cambier (<xref rid="bib19" ref-type="bibr">Jin etÂ al., 2011</xref>). <italic>Mb21d1</italic><sup>â/â</sup> (cGAS knockout first) mice were described in <xref rid="bib7" ref-type="bibr">Bridgeman etÂ al. (2015)</xref>. This work was performed in accordance with the UK Animals (Scientific Procedures) Act 1986 and institutional guidelines for animal care. This work was approved by a project license granted by the UK Home Office (PPL No. 40/3583) and also was approved by the Institutional Animal Ethics Committee Review Board at the University of Oxford.</p>
+      </sec>
+      <sec id="sec4.2">
+        <title>Virus Production, Infection, and OVA-cGAMP Immunizations</title>
+        <p>All lentiviruses were produced in TLA HEK293T cells. Cells were transfected using Fugene6 (Promega) using the plasmid combinations listed in <xref rid="mmc1" ref-type="supplementary-material">Table S2</xref>. All viruses were VSV-G pseudotyped. Medium was replaced the day after transfection, and 48Â hr later supernatant was collected and filtered through a 0.45-Î¼m polyethersulfone (PES) filter. Virus was concentrated by centrifugation over a 20% sucrose cushion at 50,000Â Ã <italic>g</italic> for 2Â hr. Viral titers were determined on TLA HEK293T cells by fluorescence-activated cell sorting (FACS) based on GFP expression. Target cells were infected in the presence of 8Â Î¼g/ml polybrene (Sigma-Aldrich). After 2Â hr, the inoculum was washed away and replaced with fresh medium. For measuring viral cDNA and RNA, virus was incubated with 10Â U/ml DNase I (Turbo DNase I, Thermo Fisher Scientific) for 30Â min at 37Â°C in 1Ã reaction buffer diluted in RPMI. Then 10Â Î¼M nevirapine or raltegravir was added to the cells 30Â min prior to infection. Mice were infected by intravenous injection of 100,000 IU of FGLenti-RT<sup>V148I</sup> SIINFEKL (see <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S5</xref>G for virus titration). For immunization with OVA and cGAMP, mice were anesthetized with isoflurane and injected intramuscularly with 10Â Î¼g 2â²3â²-cGAMP (Biolog, C 161) and 10Â Î¼g endotoxin-free OVA (Hyglos, 321000).</p>
+      </sec>
+      <sec id="sec4.3">
+        <title>InÂ Vitro Peptide Restimulation Assay</title>
+        <p>Spleen cells (2Â Ã 10<sup>6</sup>) were stimulated with SIINFEKL peptide (InvivoGen, 10<sup>â13</sup>â10<sup>â8</sup> M). After 1Â hr, 10Â Î¼g/ml brefeldin A (Sigma-Aldrich) was added to the cells, and 5Â hr later, cells were collected for intracellular IFNÎ³ staining. Cells were stained for cell surface markers and intracellular molecules, and they were fixed and permeabilized in Cytofix/Cytoperm (BD Biosciences) according to the manufacturerâs instructions.</p>
+      </sec>
+      <sec id="sec4.4">
+        <title>Statistics</title>
+        <p>Statistical analysis was performed in GraphPad Prism v7.00 as detailed in the figure legends.</p>
+      </sec>
+    </sec>
+    <sec id="sec5">
+      <title>Author Contributions</title>
+      <p>J.M. and J.R. conceived the study, designed experiments, analyzed data, and wrote the manuscript. J.M. performed all experiments. A. Bridgeman, A. Benlahrech, and C.C. provided technical help and advice. All authors read and approved the final manuscript.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="bib1">
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayinde</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Casartelli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Restricting HIV the SAMHD1 way: through nucleotide starvation</article-title>
+          <source>Nat. Rev. Microbiol.</source>
+          <volume>10</volume>
+          <year>2012</year>
+          <fpage>675</fpage>
+          <lpage>680</lpage>
+          <pub-id pub-id-type="pmid">22926205</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ayinde</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Bruel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cardinaud</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Porrot</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Prado</surname>
+              <given-names>J.G.</given-names>
+            </name>
+            <name>
+              <surname>Moris</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1 limits HIV-1 antigen presentation by monocyte-derived dendritic cells</article-title>
+          <source>J.Â Virol.</source>
+          <volume>89</volume>
+          <year>2015</year>
+          <fpage>6994</fpage>
+          <lpage>7006</lpage>
+          <pub-id pub-id-type="pmid">25926647</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ballana</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>EstÃ©</surname>
+              <given-names>J.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1: at the crossroads of cell proliferation, immune responses, and virus restriction</article-title>
+          <source>Trends Microbiol.</source>
+          <volume>23</volume>
+          <year>2015</year>
+          <fpage>680</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="pmid">26439297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Behrendt</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schumann</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gerbaulet</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Schubert</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Alexopoulou</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Berka</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Lienenklaus</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Peschke</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Gibbert</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mouse SAMHD1 has antiretroviral activity and suppresses a spontaneous cell-intrinsic antiviral response</article-title>
+          <source>Cell Rep.</source>
+          <volume>4</volume>
+          <year>2013</year>
+          <fpage>689</fpage>
+          <lpage>696</lpage>
+          <pub-id pub-id-type="pmid">23972988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tough</surname>
+              <given-names>D.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Qualitative differences between naÃ¯ve and memory TÂ cells</article-title>
+          <source>Immunology</source>
+          <volume>106</volume>
+          <year>2002</year>
+          <fpage>127</fpage>
+          <lpage>138</lpage>
+          <pub-id pub-id-type="pmid">12047742</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Sommer</surname>
+              <given-names>A.F.</given-names>
+            </name>
+            <name>
+              <surname>Zwarg</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hamdorf</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Welzel</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Esly</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Panitz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Reuter</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ramos</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Jatiani</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1-deficient CD14+ cells from individuals with Aicardi-GoutiÃ¨res syndrome are highly susceptible to HIV-1 infection</article-title>
+          <source>PLoS Pathog.</source>
+          <volume>7</volume>
+          <year>2011</year>
+          <fpage>e1002425</fpage>
+          <pub-id pub-id-type="pmid">22174685</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bridgeman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Maelfait</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Davenne</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Partridge</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kaever</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Borrow</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rehwinkel</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Viruses transfer the antiviral second messenger cGAMP between cells</article-title>
+          <source>Science</source>
+          <volume>349</volume>
+          <year>2015</year>
+          <fpage>1228</fpage>
+          <lpage>1232</lpage>
+          <pub-id pub-id-type="pmid">26229117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carbone</surname>
+              <given-names>F.R.</given-names>
+            </name>
+            <name>
+              <surname>Bevan</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of ovalbumin-specific cytotoxic TÂ cells by inÂ vivo peptide immunization</article-title>
+          <source>J.Â Exp. Med.</source>
+          <volume>169</volume>
+          <year>1989</year>
+          <fpage>603</fpage>
+          <lpage>612</lpage>
+          <pub-id pub-id-type="pmid">2784478</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Casartelli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Guivel-Benhassine</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Bouziat</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Brandler</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Moris</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The antiviral factor APOBEC3G improves CTL recognition of cultured HIV-infected TÂ cells</article-title>
+          <source>J.Â Exp. Med.</source>
+          <volume>207</volume>
+          <year>2010</year>
+          <fpage>39</fpage>
+          <lpage>49</lpage>
+          <pub-id pub-id-type="pmid">20038599</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crow</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+            <name>
+              <surname>Manel</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Aicardi-GoutiÃ¨res syndrome and the type I interferonopathies</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <volume>15</volume>
+          <year>2015</year>
+          <fpage>429</fpage>
+          <lpage>440</lpage>
+          <pub-id pub-id-type="pmid">26052098</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Denton</surname>
+              <given-names>A.E.</given-names>
+            </name>
+            <name>
+              <surname>Wesselingh</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Gras</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Guillonneau</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Olson</surname>
+              <given-names>M.R.</given-names>
+            </name>
+            <name>
+              <surname>Mintern</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>Rossjohn</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hodgkin</surname>
+              <given-names>P.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Affinity thresholds for naive CD8+ CTL activation by peptides and engineered influenza A viruses</article-title>
+          <source>J.Â Immunol.</source>
+          <volume>187</volume>
+          <year>2011</year>
+          <fpage>5733</fpage>
+          <lpage>5744</lpage>
+          <pub-id pub-id-type="pmid">22039305</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujita</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Nomaguchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Adachi</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Otsuka</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1-dependent and -independent functions of HIV-2/SIV Vpx protein</article-title>
+          <source>Front Microbiol</source>
+          <volume>3</volume>
+          <year>2012</year>
+          <fpage>297</fpage>
+          <pub-id pub-id-type="pmid">22908011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>GalÃ£o</surname>
+              <given-names>R.P.</given-names>
+            </name>
+            <name>
+              <surname>Le Tortorec</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Pickering</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kueck</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Neil</surname>
+              <given-names>S.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Innate sensing of HIV-1 assembly by Tetherin induces NFÎºB-dependent proinflammatory responses</article-title>
+          <source>Cell Host Microbe</source>
+          <volume>12</volume>
+          <year>2012</year>
+          <fpage>633</fpage>
+          <lpage>644</lpage>
+          <pub-id pub-id-type="pmid">23159053</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gao</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>Y.T.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Aroh</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cyclic GMP-AMP synthase is an innate immune sensor of HIV and other retroviruses</article-title>
+          <source>Science</source>
+          <volume>341</volume>
+          <year>2013</year>
+          <fpage>903</fpage>
+          <lpage>906</lpage>
+          <pub-id pub-id-type="pmid">23929945</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Helft</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>BÃ¶ttcher</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Chakravarty</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Zelenay</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Huotari</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Schraml</surname>
+              <given-names>B.U.</given-names>
+            </name>
+            <name>
+              <surname>Goubau</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Reis e Sousa</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>GM-CSF mouse bone marrow cultures comprise a heterogeneous population of CD11c(+)MHCII(+) macrophages and dendritic cells</article-title>
+          <source>Immunity</source>
+          <volume>42</volume>
+          <year>2015</year>
+          <fpage>1197</fpage>
+          <lpage>1211</lpage>
+          <pub-id pub-id-type="pmid">26084029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hertoghs</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>van der Aar</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Setiawan</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Kootstra</surname>
+              <given-names>N.A.</given-names>
+            </name>
+            <name>
+              <surname>Gringhuis</surname>
+              <given-names>S.I.</given-names>
+            </name>
+            <name>
+              <surname>Geijtenbeek</surname>
+              <given-names>T.B.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1 degradation enhances active suppression of dendritic cell maturation by HIV-1</article-title>
+          <source>J.Â Immunol.</source>
+          <volume>194</volume>
+          <year>2015</year>
+          <fpage>4431</fpage>
+          <lpage>4437</lpage>
+          <pub-id pub-id-type="pmid">25825449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herzner</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Hagmann</surname>
+              <given-names>C.A.</given-names>
+            </name>
+            <name>
+              <surname>Goldeck</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wolter</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>KÃ¼bler</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Wittmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gramberg</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Andreeva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hopfner</surname>
+              <given-names>K.P.</given-names>
+            </name>
+            <name>
+              <surname>Mertens</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sequence-specific activation of the DNA sensor cGAS by Y-form DNA structures as found in primary HIV-1 cDNA</article-title>
+          <source>Nat. Immunol.</source>
+          <volume>16</volume>
+          <year>2015</year>
+          <fpage>1025</fpage>
+          <lpage>1033</lpage>
+          <pub-id pub-id-type="pmid">26343537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hrecka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Hao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Gierszewska</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Swanson</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Kesik-Brodacka</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Srivastava</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Florens</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Washburn</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Skowronski</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vpx relieves inhibition of HIV-1 infection of macrophages mediated by the SAMHD1 protein</article-title>
+          <source>Nature</source>
+          <volume>474</volume>
+          <year>2011</year>
+          <fpage>658</fpage>
+          <lpage>661</lpage>
+          <pub-id pub-id-type="pmid">21720370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jin</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hill</surname>
+              <given-names>K.K.</given-names>
+            </name>
+            <name>
+              <surname>Filak</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Mogan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Knowles</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Perraud</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Cambier</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Lenz</surname>
+              <given-names>L.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>MPYS is required for IFN response factorÂ 3 activation and type I IFN production in the response of cultured phagocytes to bacterial second messengers cyclic-di-AMP and cyclic-di-GMP</article-title>
+          <source>J.Â Immunol.</source>
+          <volume>187</volume>
+          <year>2011</year>
+          <fpage>2595</fpage>
+          <lpage>2601</lpage>
+          <pub-id pub-id-type="pmid">21813776</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kato</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Takeuchi</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Sato</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yoneyama</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Matsui</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Uematsu</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kawai</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ishii</surname>
+              <given-names>K.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Differential roles of MDA5 and RIG-I helicases in the recognition of RNA viruses</article-title>
+          <source>Nature</source>
+          <volume>441</volume>
+          <year>2006</year>
+          <fpage>101</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="pmid">16625202</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laguette</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Sobhian</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Casartelli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ringeard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Chable-Bessia</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>SÃ©gÃ©ral</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Yatim</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Emiliani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Benkirane</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1 is the dendritic- and myeloid-cell-specific HIV-1 restriction factor counteracted by Vpx</article-title>
+          <source>Nature</source>
+          <volume>474</volume>
+          <year>2011</year>
+          <fpage>654</fpage>
+          <lpage>657</lpage>
+          <pub-id pub-id-type="pmid">21613998</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lahaye</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Satoh</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Gentili</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Cerboni</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Conrad</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Hurbain</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>El Marjou</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lacabaratz</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>LeliÃ¨vre</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Manel</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>The capsids of HIV-1 and HIV-2 determine immune detection of the viral cDNA by the innate sensor cGAS in dendritic cells</article-title>
+          <source>Immunity</source>
+          <volume>39</volume>
+          <year>2013</year>
+          <fpage>1132</fpage>
+          <lpage>1142</lpage>
+          <pub-id pub-id-type="pmid">24269171</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X.D.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pivotal roles of cGAS-cGAMP signaling in antiviral defense and immune adjuvant effects</article-title>
+          <source>Science</source>
+          <volume>341</volume>
+          <year>2013</year>
+          <fpage>1390</fpage>
+          <lpage>1394</lpage>
+          <pub-id pub-id-type="pmid">23989956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>S.X.</given-names>
+            </name>
+            <name>
+              <surname>Barrett</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Heilman</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Messer</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Liberatore</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Kassiotis</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hasenkrug</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Santiago</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Tetherin promotes the innate and adaptive cell-mediated immune response against retrovirus infection inÂ vivo</article-title>
+          <source>J.Â Immunol.</source>
+          <volume>193</volume>
+          <year>2014</year>
+          <fpage>306</fpage>
+          <lpage>316</lpage>
+          <pub-id pub-id-type="pmid">24872193</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Manel</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hogstad</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Unutmaz</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Littman</surname>
+              <given-names>D.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>A cryptic sensor for HIV-1 activates antiviral innate immunity in dendritic cells</article-title>
+          <source>Nature</source>
+          <volume>467</volume>
+          <year>2010</year>
+          <fpage>214</fpage>
+          <lpage>217</lpage>
+          <pub-id pub-id-type="pmid">20829794</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Margolis</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Hazuda</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Combined approaches for HIV cure</article-title>
+          <source>Curr. Opin. HIV AIDS</source>
+          <volume>8</volume>
+          <year>2013</year>
+          <fpage>230</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="pmid">23446138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin-Gayo</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Buzon</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Ouyang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Hickman</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Cronin</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Pimenova</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>B.D.</given-names>
+            </name>
+            <name>
+              <surname>Lichterfeld</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>X.G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Potent cell-intrinsic immune responses in dendritic cells facilitate HIV-1-specific TÂ cell immunity in HIV-1 elite controllers</article-title>
+          <source>PLoS Pathog.</source>
+          <volume>11</volume>
+          <year>2015</year>
+          <fpage>e1004930</fpage>
+          <pub-id pub-id-type="pmid">26067651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Medzhitov</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Approaching the asymptote: 20 years later</article-title>
+          <source>Immunity</source>
+          <volume>30</volume>
+          <year>2009</year>
+          <fpage>766</fpage>
+          <lpage>775</lpage>
+          <pub-id pub-id-type="pmid">19538928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morales</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Lenschow</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The antiviral activities of ISG15</article-title>
+          <source>J.Â Mol. Biol.</source>
+          <volume>425</volume>
+          <year>2013</year>
+          <fpage>4995</fpage>
+          <lpage>5008</lpage>
+          <pub-id pub-id-type="pmid">24095857</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>MÃ¼ller</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Steinhoff</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Reis</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>Hemmi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Pavlovic</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Zinkernagel</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Aguet</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional role of type I and type II interferons in antiviral defense</article-title>
+          <source>Science</source>
+          <volume>264</volume>
+          <year>1994</year>
+          <fpage>1918</fpage>
+          <lpage>1921</lpage>
+          <pub-id pub-id-type="pmid">8009221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nyamweya</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Hegedus</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jaye</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rowland-Jones</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Flanagan</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Macallan</surname>
+              <given-names>D.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparing HIV-1 and HIV-2 infection: lessons for viral immunopathogenesis</article-title>
+          <source>Rev. Med. Virol.</source>
+          <volume>23</volume>
+          <year>2013</year>
+          <fpage>221</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="pmid">23444290</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pertel</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hausmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Morger</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>ZÃ¼ger</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Guerra</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Lascano</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Reinhard</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Santoni</surname>
+              <given-names>F.A.</given-names>
+            </name>
+            <name>
+              <surname>Uchil</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Chatel</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>TRIM5 is an innate immune sensor for the retrovirus capsid lattice</article-title>
+          <source>Nature</source>
+          <volume>472</volume>
+          <year>2011</year>
+          <fpage>361</fpage>
+          <lpage>365</lpage>
+          <pub-id pub-id-type="pmid">21512573</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Portilho</surname>
+              <given-names>D.M.</given-names>
+            </name>
+            <name>
+              <surname>Fernandez</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Ringeard</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Machado</surname>
+              <given-names>A.K.</given-names>
+            </name>
+            <name>
+              <surname>Boulay</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mayer</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>MÃ¼ller-Trutwin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Beignon</surname>
+              <given-names>A.S.</given-names>
+            </name>
+            <name>
+              <surname>Kirchhoff</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nisole</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Arhel</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endogenous TRIM5Î± function is regulated by SUMOylation and nuclear sequestration for efficient innate sensing in dendritic cells</article-title>
+          <source>Cell Rep.</source>
+          <volume>14</volume>
+          <year>2016</year>
+          <fpage>355</fpage>
+          <lpage>369</lpage>
+          <pub-id pub-id-type="pmid">26748714</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>PuigdomÃ¨nech</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Casartelli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Porrot</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Schwartz</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1 restricts HIV-1 cell-to-cell transmission and limits immune detection in monocyte-derived dendritic cells</article-title>
+          <source>J.Â Virol.</source>
+          <volume>87</volume>
+          <year>2013</year>
+          <fpage>2846</fpage>
+          <lpage>2856</lpage>
+          <pub-id pub-id-type="pmid">23269793</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rehwinkel</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mouse knockout models for HIV-1 restriction factors</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <volume>71</volume>
+          <year>2014</year>
+          <fpage>3749</fpage>
+          <lpage>3766</lpage>
+          <pub-id pub-id-type="pmid">24854580</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rehwinkel</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Maelfait</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bridgeman</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Rigby</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Hayward</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Liberatore</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Towers</surname>
+              <given-names>G.J.</given-names>
+            </name>
+            <name>
+              <surname>Moita</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>Crow</surname>
+              <given-names>Y.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>SAMHD1-dependent retroviral control and escape in mice</article-title>
+          <source>EMBO J.</source>
+          <volume>32</volume>
+          <year>2013</year>
+          <fpage>2454</fpage>
+          <lpage>2462</lpage>
+          <pub-id pub-id-type="pmid">23872947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Reinhard</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bottinelli</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Luban</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Vpx rescue of HIV-1 from the antiviral state in mature dendritic cells is independent of the intracellular deoxynucleotide concentration</article-title>
+          <source>Retrovirology</source>
+          <volume>11</volume>
+          <year>2014</year>
+          <fpage>12</fpage>
+          <pub-id pub-id-type="pmid">24485168</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rice</surname>
+              <given-names>G.I.</given-names>
+            </name>
+            <name>
+              <surname>Bond</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Asipu</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Brunette</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Manfield</surname>
+              <given-names>I.W.</given-names>
+            </name>
+            <name>
+              <surname>Carr</surname>
+              <given-names>I.M.</given-names>
+            </name>
+            <name>
+              <surname>Fuller</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>R.M.</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Briggs</surname>
+              <given-names>T.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutations involved in Aicardi-GoutiÃ¨res syndrome implicate SAMHD1 as regulator of the innate immune response</article-title>
+          <source>Nat. Genet.</source>
+          <volume>41</volume>
+          <year>2009</year>
+          <fpage>829</fpage>
+          <lpage>832</lpage>
+          <pub-id pub-id-type="pmid">19525956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Roers</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hiller</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hornung</surname>
+              <given-names>V.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recognition of endogenous nucleic acids by the innate immune system</article-title>
+          <source>Immunity</source>
+          <volume>44</volume>
+          <year>2016</year>
+          <fpage>739</fpage>
+          <lpage>754</lpage>
+          <pub-id pub-id-type="pmid">27096317</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rowland-Jones</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Whittle</surname>
+              <given-names>H.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Out of Africa: what can we learnÂ from HIV-2 about protective immunity to HIV-1?</article-title>
+          <source>Nat. Immunol.</source>
+          <volume>8</volume>
+          <year>2007</year>
+          <fpage>329</fpage>
+          <lpage>331</lpage>
+          <pub-id pub-id-type="pmid">17375091</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santiago</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Montano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Benitez</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Messer</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Yonemoto</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chesebro</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hasenkrug</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Greene</surname>
+              <given-names>W.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Apobec3 encodes Rfv3, a gene influencing neutralizing antibody control of retrovirus infection</article-title>
+          <source>Science</source>
+          <volume>321</volume>
+          <year>2008</year>
+          <fpage>1343</fpage>
+          <lpage>1346</lpage>
+          <pub-id pub-id-type="pmid">18772436</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Santiago</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Benitez</surname>
+              <given-names>R.L.</given-names>
+            </name>
+            <name>
+              <surname>Montano</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Hasenkrug</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Greene</surname>
+              <given-names>W.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Innate retroviral restriction by Apobec3 promotes antibody affinity maturation inÂ vivo</article-title>
+          <source>J.Â Immunol.</source>
+          <volume>185</volume>
+          <year>2010</year>
+          <fpage>1114</fpage>
+          <lpage>1123</lpage>
+          <pub-id pub-id-type="pmid">20566830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simon</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Bloch</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Landau</surname>
+              <given-names>N.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Intrinsic host restrictions to HIV-1 and mechanisms of viral escape</article-title>
+          <source>Nat. Immunol.</source>
+          <volume>16</volume>
+          <year>2015</year>
+          <fpage>546</fpage>
+          <lpage>553</lpage>
+          <pub-id pub-id-type="pmid">25988886</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smith</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Guo</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Barrett</surname>
+              <given-names>B.S.</given-names>
+            </name>
+            <name>
+              <surname>Heilman</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Evans</surname>
+              <given-names>L.H.</given-names>
+            </name>
+            <name>
+              <surname>Hasenkrug</surname>
+              <given-names>K.J.</given-names>
+            </name>
+            <name>
+              <surname>Greene</surname>
+              <given-names>W.C.</given-names>
+            </name>
+            <name>
+              <surname>Santiago</surname>
+              <given-names>M.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Noninfectious retrovirus particles drive the APOBEC3/Rfv3 dependent neutralizing antibody response</article-title>
+          <source>PLoS Pathog.</source>
+          <volume>7</volume>
+          <year>2011</year>
+          <fpage>e1002284</fpage>
+          <pub-id pub-id-type="pmid">21998583</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <element-citation publication-type="journal" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoh</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Seifried</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Soonthornvacharin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Akleh</surname>
+              <given-names>R.E.</given-names>
+            </name>
+            <name>
+              <surname>Olivieri</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>De Jesus</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Ruan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>de Castro</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ruiz</surname>
+              <given-names>P.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>PQBP1 is a proximal sensor of the cGAS-dependent innate response to HIV-1</article-title>
+          <source>Cell</source>
+          <volume>161</volume>
+          <year>2015</year>
+          <fpage>1293</fpage>
+          <lpage>1305</lpage>
+          <pub-id pub-id-type="pmid">26046437</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app2" sec-type="supplementary-material">
+      <title>Supplemental Information</title>
+      <p>
+        <supplementary-material content-type="local-data" id="mmc1">
+          <caption>
+            <title>Document S1. Supplemental Experimental Procedures, Figures S1âS5, and Tables S1âS5</title>
+          </caption>
+          <media xlink:href="mmc1.pdf"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="mmc2">
+          <caption>
+            <title>Document S2. Article plus Supplemental Information</title>
+          </caption>
+          <media xlink:href="mmc2.pdf"/>
+        </supplementary-material>
+      </p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p>The authors thank C. Reis e Sousa, A. Jackson, V. Cerundolo, U. Gileadi, P.Â Borrow, A. Armitage, and members of the J.R. lab for critical discussions and reading of the manuscript draft. This work was funded by the UK Medical Research Council (MRC core funding of the MRC Human Immunology Unit) and the Wellcome Trust (grant 100954). J.M. was a recipient of a European Molecular Biology Organization (EMBO) long-term postdoctoral fellowship and was supported by Marie Curie Actions (EMBOCOFUND2010, GA-2010-267146). <italic>Tmem173</italic><sup>â/â</sup> mice were provided by J. Cambier and are subject to material transfer agreements. <italic>Ifnar1</italic><sup>â/â</sup> mice were provided by C. Reis e Sousa. H-2K<sup>b</sup>-SIINFEKL tetramer was a gift from V. Cerundolo. Anti-ISG15 was a gift from A. Pichlmair.</p>
+    </ack>
+    <fn-group>
+      <fn id="app1" fn-type="supplementary-material">
+        <p>Supplemental Information includes Supplemental Experimental Procedures, five figures, and five tables and can be found with this article online at <ext-link ext-link-type="doi" xlink:href="10.1016/j.celrep.2016.07.002" id="intref0010">http://dx.doi.org/10.1016/j.celrep.2016.07.002</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>FigureÂ 1</label>
+      <caption>
+        <p>Loss of SAMHD1 Triggers a Spontaneous cGAS/STING-Dependent IFN Response</p>
+        <p>(A and B) BMDMs of the indicated genotypes were cultured for 12Â days.</p>
+        <p>(A) mRNA expression of the indicated ISGs by RT-qPCR. Data are presented as fold changes compared to the average of wild-type (C57Bl/6) samples. Each open circle represents mean gene expression from two BMDM cultures from one mouse (nÂ = 5).</p>
+        <p>(B) Western blot for ISG15, SAMHD1, and Î²-ACTIN (ACTB) using protein lysates from BMDMs. High-molecular-weight signals represent ISGylated proteins.</p>
+        <p>(C) mRNA expression of the indicated ISGs by RT-qPCR. Data are presented as fold changes compared to the mean of wild-type samples. Open circles represent gene expression values from individual 6-month-old mice. At least three mice were analyzed per genotype.</p>
+        <p>Data in (A) and (B) are representative of two independent experiments. Data in (A) and (C) represent mean Â± SD (<sup>â</sup>pÂ &lt; 0.05, Studentâs t test).</p>
+      </caption>
+      <graphic xlink:href="gr1"/>
+    </fig>
+    <fig id="fig2">
+      <label>FigureÂ 2</label>
+      <caption>
+        <p>SAMHD1 Limits Infection of BMMCs with First-Generation Lentiviruses and Prevents Innate Sensing</p>
+        <p>(AâE) Wild-type (+/+) or <italic>Samhd1</italic><sup>â/â</sup> (â/â) BMMCs were infected for 48Â hr with FGlenti-RT<sup>V148I</sup> using the indicated MOIs.</p>
+        <p>(A) Infection was assessed by flow cytometry. BMMC cultures were gated on CD11c<sup>+</sup> MHC-II<sup>+</sup> cells (see <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>B). The fraction of GFP<sup>+</sup> cells was then determined. Representative FACS plots (left) and percentage of GFP<sup>+</sup> cells are shown (right) (nÂ = 4).</p>
+        <p>(B) Activation of CD11c<sup>+</sup> MHC-II<sup>+</sup> BMMCs was analyzed by cell surface staining for CD40, CD80, and CD86. Upper panels depict representative histograms of non-infected (dashed lines) and infected (solid lines, MOIÂ = 0.3) cells. CD40, CD80, and CD86 median fluorescence intensity (MFI) of cells infected with different MOIs is quantified in the bottom graphs (nÂ = 4).</p>
+        <p>(C) CXCL10 in cell culture supernatant was measured by ELISA (nÂ = 4).</p>
+        <p>(D) <italic>Ifit1</italic> and <italic>Ifi44</italic> mRNA expression was analyzed by RT-qPCR in bulk BMMC cultures (nÂ = 4).</p>
+        <p>(E) ISG15, SAMHD1, and Î²-ACTIN (ACTB) were analyzed by western blot using protein lysates from bulk BMMC cultures (MOIÂ = 0.3).</p>
+        <p>Data are representative of three (AâC) and two (D and E) independent experiments. Data in (A)â(D) represent mean Â± SD (<sup>â</sup>pÂ &lt; 0.05 and <sup>âââ</sup>pÂ &lt; 0.001, two-way ANOVA). See also <xref rid="mmc1" ref-type="supplementary-material">Figures S1</xref> and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr2"/>
+    </fig>
+    <fig id="fig3">
+      <label>FigureÂ 3</label>
+      <caption>
+        <p>Sensing of First-Generation Lentivirus in <italic>Samhd1</italic><sup>â/â</sup> BMMCs Requires the Accumulation of Reverse Transcription Products</p>
+        <p>(AâF) Wild-type (+/+) or <italic>Samhd1</italic><sup>â/â</sup> (â/â) BMMCs were infected with FGlenti-RT<sup>V148I</sup> (MOIÂ = 0.3) in the presence of nevirapine (NEV) or raltegravir (RAL) (AâC).</p>
+        <p>(A) Infectivity was measured as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A 48Â hr after infection (nÂ = 4).</p>
+        <p>(B) Cell surface expression of CD86 was assessed as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B 48Â hr after infection (nÂ = 4).</p>
+        <p>(C) CXCL10 in cell culture supernatants was measured by ELISA 48Â hr after infection (nÂ = 4).</p>
+        <p>(D) cDNA production was measured by qPCR. Total DNA was extracted from BMMCs at different hours post-infection (p.i.). The dashed line depicts <italic>EGFP</italic> expression in wild-type BMMCs at 16Â hr p.i. in the presence of NEV as a control for plasmid contamination of the virus preparation (nÂ = 2).</p>
+        <p>(E) Viral genomic RNA was measured by RT-qPCR using total RNA extracted from BMMCs at 4Â hr p.i.</p>
+        <p>(F) <italic>Ifnb</italic> and <italic>Ifit1</italic> mRNA expression was analyzed by RT-qPCR in bulk BMMC cultures at 4Â hr p.i. (nÂ =Â 2).</p>
+        <p>Data are representative of three (AâC) or two (DâF) independent experiments. Data in (A)â(F) represent mean Â± SD (<sup>â</sup>pÂ &lt; 0.05 and <sup>ââ</sup>pÂ &lt; 0.01; one-way ANOVA, AâC; two-way ANOVA, D and F; unpaired t test, E). See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S3</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr3"/>
+    </fig>
+    <fig id="fig4">
+      <label>FigureÂ 4</label>
+      <caption>
+        <p>BMMC Activation by First-Generation Lentivirus Is Dependent on cGAS, STING, and IFN Signaling</p>
+        <p>(AâJ) BMMCs of the indicated genotypes were infected for 48Â hr with FGLenti-RT<sup>V148I</sup> or SeV. Wedges in (A)â(C), (E), and (F) represent increasing MOIs of FGLenti-RT<sup>V148I</sup> (0.1, 0.3, and 1) or SeV (0.02, 0.1, and 0.5). <italic>Tmem173</italic>, <italic>Mb21d1</italic>, and <italic>Ifnar1</italic> are the genes encoding STING, cGAS, and type I IFN receptor.</p>
+        <p>(A) Infectivity was measured as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A (nÂ = 4).</p>
+        <p>(B) Cell surface expression of CD86 was assessed as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B (nÂ = 4).</p>
+        <p>(C) CXCL10 and IFNÎ± in cell culture supernatants were measured by ELISA (nÂ = 4).</p>
+        <p>(D) ISG15, SAMHD1, and Î²-ACTIN (ACTB) were analyzed by western blot (MOIÂ = 0.3).</p>
+        <p>(E) Cell surface expression of CD86 was assessed as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B (nÂ = 2).</p>
+        <p>(F) IFNÎ± in cell culture supernatants was measured by ELISA (nÂ = 2).</p>
+        <p>(G) Infectivity was measured as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A (nÂ = 2).</p>
+        <p>(H) Cell surface expression of CD86 was assessed as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B (nÂ = 2).</p>
+        <p>(I) CXCL10 in cell culture supernatants was measured by ELISA (nÂ = 2).</p>
+        <p>(J) ISG15, SAMHD1, and Î²-ACTIN (ACTB) were analyzed by western blot.</p>
+        <p>Data are representative of three independent experiments. Data in (A)â(C) and (E)â(I) represent mean Â± SD (<sup>ââ</sup>pÂ &lt; 0.01, <sup>âââ</sup>pÂ &lt; 0.001, and <sup>ââââ</sup>pÂ &lt; 0.0001; two-way ANOVA, AâC, E, F, H, and I; one-way ANOVA, G). See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S4</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr4"/>
+    </fig>
+    <fig id="fig5">
+      <label>FigureÂ 5</label>
+      <caption>
+        <p>SAMHD1 Prevents Lentivirus-Specific CD8Â T Cell Responses InÂ Vivo</p>
+        <p>(A) GFP expression (infectivity) and antigen presentation (using a H2-Kb SIINFEKL-specific antibody) were analyzed by flow cytometry in CD11c<sup>+</sup> MHC-II<sup>+</sup> BMMCs 48Â hr after infection with FGlenti-RT<sup>V148I</sup> or FGLenti-RT<sup>V148I</sup> SIINFEKL (MOIÂ = 0.3). Representative FACS plots are shown on the left and a quantification of infected cells presenting SIINFEKL on MHC-I (GFP<sup>+</sup> H2-Kb SIINFEKL<sup>+</sup>) is shown in the right panel (nÂ = 4).</p>
+        <p>(BâE) Wild-type (C57Bl/6, nÂ = 6) and <italic>Samhd1</italic><sup>â/â</sup> mice (nÂ = 5) were intravenously infected with FGLenti-RT<sup>V148I</sup> SIINFEKL (100,000 IU/mouse).</p>
+        <p>(B and C) Quantification of H2-Kb-SIINFEKL tetramer<sup>+</sup> CD8 TÂ cells in the blood 9Â days p.i. (B) and in the spleen 10Â days p.i. (C). Each dot represents an individual mouse. Representative FACS plots are shown on the right. Numbers indicate percentages of tetramer<sup>+</sup> CD8 TÂ cells.</p>
+        <p>(D) Intracellular IFNÎ³ staining of spleen cells from (C) after 6Â hr of SIINFEKL peptide (10<sup>â13</sup>â10<sup>â8</sup> M) re-stimulation. Percentages of IFNÎ³<sup>+</sup> CD8 TÂ cells are shown. The dashed line represents the fraction of IFNÎ³<sup>+</sup> CD8 TÂ cells responding to peptide in an uninfected mouse.</p>
+        <p>(E) Representative FACS plots after re-stimulation with 10<sup>â10</sup> M SIINFEKL. Numbers indicate percentages of IFNÎ³<sup>+</sup> CD8 TÂ cells.</p>
+        <p>Data are representative of two independent experiments. Data in (A)â(D) represent mean Â± SD (<sup>â</sup>pÂ &lt; 0.05 and <sup>ââââ</sup>pÂ &lt; 0.0001; unpaired t test, AâC; non-linear 4PL sigmoidal curve fitting, D). See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S5</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr5"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

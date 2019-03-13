@@ -1,0 +1,2090 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:08:07Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:6082870" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:6082870</identifier><datestamp>2018-08-10</datestamp><setSpec>ncomms</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC6082870</article-id>
+      <article-id pub-id-type="pmcid">PMC6082870</article-id>
+      <article-id pub-id-type="pmc-uid">6082870</article-id>
+      <article-id pub-id-type="pmid">30089812</article-id>
+      <article-id pub-id-type="pmid">30089812</article-id>
+      <article-id pub-id-type="publisher-id">5631</article-id>
+      <article-id pub-id-type="doi">10.1038/s41467-018-05631-5</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Molecular architecture of the multifunctional collagen lysyl hydroxylase and glycosyltransferase LH3</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scietti</surname>
+            <given-names>Luigi</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6336-2736</contrib-id>
+          <name>
+            <surname>Chiapparino</surname>
+            <given-names>Antonella</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-5008-3305</contrib-id>
+          <name>
+            <surname>De Giorgi</surname>
+            <given-names>Francesca</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fumagalli</surname>
+            <given-names>Marco</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-3095-2104</contrib-id>
+          <name>
+            <surname>Khoriauli</surname>
+            <given-names>Lela</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-8121-0189</contrib-id>
+          <name>
+            <surname>Nergadze</surname>
+            <given-names>Solomon</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Basu</surname>
+            <given-names>Shibom</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-0533-7222</contrib-id>
+          <name>
+            <surname>Olieric</surname>
+            <given-names>Vincent</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cucca</surname>
+            <given-names>Lucia</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Banushi</surname>
+            <given-names>Blerida</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+          <xref ref-type="aff" rid="Aff8">8</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Profumo</surname>
+            <given-names>Antonella</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Giulotto</surname>
+            <given-names>Elena</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-9712-6122</contrib-id>
+          <name>
+            <surname>Gissen</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff6">6</xref>
+          <xref ref-type="aff" rid="Aff7">7</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-7818-1804</contrib-id>
+          <name>
+            <surname>Forneris</surname>
+            <given-names>Federico</given-names>
+          </name>
+          <address>
+            <email>federico.forneris@unipv.it</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1762 5736</institution-id><institution-id institution-id-type="GRID">grid.8982.b</institution-id><institution>The Armenise-Harvard Laboratory of Structural Biology, Department of Biology and Biotechnology, </institution><institution>University of Pavia, </institution></institution-wrap>Via Ferrata 9/A, 27100 Pavia, Italy </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1762 5736</institution-id><institution-id institution-id-type="GRID">grid.8982.b</institution-id><institution>Laboratory of Biochemistry, Department of Biology and Biotechnology, </institution><institution>University of Pavia, </institution></institution-wrap>Via Taramelli 3/B, 27100 Pavia, Italy </aff>
+        <aff id="Aff3"><label>3</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1762 5736</institution-id><institution-id institution-id-type="GRID">grid.8982.b</institution-id><institution>Laboratory of Molecular Biology, Department of Biology and Biotechnology, </institution><institution>University of Pavia, </institution></institution-wrap>Via Ferrata 9/A, 27100 Pavia, Italy </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 1090 7501</institution-id><institution-id institution-id-type="GRID">grid.5991.4</institution-id><institution>Swiss Light Source, Paul Scherrer Institut, </institution></institution-wrap>Villigen, 5232 Switzerland </aff>
+        <aff id="Aff5"><label>5</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 1762 5736</institution-id><institution-id institution-id-type="GRID">grid.8982.b</institution-id><institution>Laboratory of Analytical Chemistry, Department of Chemistry, </institution><institution>University of Pavia, </institution></institution-wrap>Via Taramelli 12, 27100 Pavia, Italy </aff>
+        <aff id="Aff6"><label>6</label><institution-wrap><institution-id institution-id-type="ISNI">0000000121901201</institution-id><institution-id institution-id-type="GRID">grid.83440.3b</institution-id><institution>MRC Laboratory for Molecular Cell Biology, </institution><institution>University College London, </institution></institution-wrap>London, WC1E 6BT UK </aff>
+        <aff id="Aff7"><label>7</label><institution-wrap><institution-id institution-id-type="ISNI">0000000121901201</institution-id><institution-id institution-id-type="GRID">grid.83440.3b</institution-id><institution>UCL Great Ormond Street Institute of Child Health, </institution></institution-wrap>30 Guilford Street, London, WC1N 1EH UK </aff>
+        <aff id="Aff8"><label>8</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0004 0380 2017</institution-id><institution-id institution-id-type="GRID">grid.412744.0</institution-id><institution>Present Address: Translational Research Institute, The University of Queensland Diamantina Institute, </institution><institution>Princess Alexandra Hospital, </institution></institution-wrap>37 Kent Street, Brisbane, Australia </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>8</day>
+        <month>8</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>8</day>
+        <month>8</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2018</year>
+      </pub-date>
+      <volume>9</volume>
+      <elocation-id>3163</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>20</day>
+          <month>3</month>
+          <year>2018</year>
+        </date>
+        <date date-type="accepted">
+          <day>20</day>
+          <month>7</month>
+          <year>2018</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© The Author(s) 2018</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the articleâs Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the articleâs Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">Lysyl hydroxylases catalyze hydroxylation of collagen lysines, and sustain essential roles in extracellular matrix (ECM) maturation and remodeling. Malfunctions in these enzymes cause severe connective tissue disorders. Human lysyl hydroxylase 3 (LH3/PLOD3) bears multiple enzymatic activities, as it catalyzes collagen lysine hydroxylation and also their subsequent glycosylation. Our understanding of LH3 functions is currently hampered by lack of molecular structure information. Here, we present high resolution crystal structures of full-length human LH3 in complex with cofactors and donor substrates. The elongated homodimeric LH3 architecture shows two distinct catalytic sites at the N- and C-terminal boundaries of each monomer, separated by an accessory domain. The glycosyltransferase domain displays distinguishing features compared to other known glycosyltransferases. Known disease-related mutations map in close proximity to the catalytic sites. Collectively, our results provide a structural framework characterizing the multiple functions of LH3, and the molecular mechanisms of collagen-related diseases involving human lysyl hydroxylases.</p>
+      </abstract>
+      <abstract id="Abs2" abstract-type="web-summary">
+        <p id="Par2">Lysyl hydroxylase 3 (LH3) catalyzes collagen lysine hydroxylation and their subsequent O-linked glycosylation. Here the authors provide mechanistic insights into the lysyl hydroxylase and glycosyltransferase activities of LH3 by determining the crystal structures of full-length human LH3 bound to cofactors and donor substrates.</p>
+      </abstract>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100003407</institution-id>
+              <institution>Ministero dell'Istruzione, dell'UniversitÃ  e della Ricerca (Ministry of Education, University and Research)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Dipartimenti di Eccellenza 2018-2022</award-id>
+          <award-id>Programma Giovani Ricercatori Rita Levi-Montalcini</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Scietti</surname>
+              <given-names>Luigi</given-names>
+            </name>
+            <name>
+              <surname>Chiapparino</surname>
+              <given-names>Antonella</given-names>
+            </name>
+            <name>
+              <surname>De Giorgi</surname>
+              <given-names>Francesca</given-names>
+            </name>
+            <name>
+              <surname>Fumagalli</surname>
+              <given-names>Marco</given-names>
+            </name>
+            <name>
+              <surname>Khoriauli</surname>
+              <given-names>Lela</given-names>
+            </name>
+            <name>
+              <surname>Nergadze</surname>
+              <given-names>Solomon</given-names>
+            </name>
+            <name>
+              <surname>Giulotto</surname>
+              <given-names>Elena</given-names>
+            </name>
+            <name>
+              <surname>Forneris</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100000780</institution-id>
+              <institution>European Commission (EC)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>MSCA-IF Grant agreement n. 745934 â</award-id>
+          <award-id>FP7/2007-201 (Biostruct-X) Grant agreements 7551 and 10205</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Chiapparino</surname>
+              <given-names>Antonella</given-names>
+            </name>
+            <name>
+              <surname>Forneris</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100002001</institution-id>
+              <institution>DH | NIHR | Health Services and Delivery Research Programme (Health Services and Delivery Research (HS&amp;DR) Programme)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>14/21/45</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Gissen</surname>
+              <given-names>Paul</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/100006781</institution-id>
+              <institution>Giovanni Armenise-Harvard Foundation</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>CDA 2013</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Forneris</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100007076</institution-id>
+              <institution>Fondazione Italiana per la Ricerca sul Cancro (Italian Foundation for Cancer Research)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>My First AIRC Grant (Grant id. 20075)</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Forneris</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <funding-group>
+        <award-group>
+          <funding-source>
+            <institution-wrap>
+              <institution-id institution-id-type="FundRef">https://doi.org/10.13039/501100002803</institution-id>
+              <institution>Fondazione Cariplo (Cariplo Foundation)</institution>
+            </institution-wrap>
+          </funding-source>
+          <award-id>âCOME TRUEâ (id. 2015-0768)</award-id>
+          <principal-award-recipient>
+            <name>
+              <surname>Forneris</surname>
+              <given-names>Federico</given-names>
+            </name>
+          </principal-award-recipient>
+        </award-group>
+      </funding-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>Â© The Author(s) 2018</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par3">Collagen biosynthesis requires multiple post-translational modifications essential for the generation of mature, triple-helical molecules<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. Modification of collagen lysines enables subsequent glycosylation and formation of extracellular cross-links, leading to fibrillary or meshwork superstructures<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Enzymes belonging to the family of collagen lysyl hydroxylases (LH or PLOD) catalyze lysine hydroxylation of collagens using Fe<sup>2+</sup>, 2-oxoglutarate (2-OG), ascorbate and molecular oxygen<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. In humans, <italic>PLOD</italic> genes encode for three LH enzyme isoforms sharing &gt;60% amino acid sequence identity: LH1, LH2a/b, and LH3, respectively<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. Mutations in <italic>PLOD</italic> genes that reduce or abolish LH activity are associated with severe connective tissue diseases including Ehlers-Danlos<sup><xref ref-type="bibr" rid="CR6">6</xref></sup> and Bruck syndromes<sup><xref ref-type="bibr" rid="CR7">7</xref>,<xref ref-type="bibr" rid="CR8">8</xref></sup>. In mouse models, LH3 knock-outs are embrionically lethal<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>. Mutations in the <italic>PLOD3</italic> gene also result in impaired collagen glycosylation, secretion, and basement membrane formation, yielding phenotypes resembling osteogenesis imperfecta<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Conversely, <italic>PLOD</italic> overexpression and upregulated enzymatic activity have been linked to fibrosis<sup><xref ref-type="bibr" rid="CR12">12</xref></sup>, and recently also to hypoxia-induced metastatic spreading of solid tumors with poor prognosis<sup><xref ref-type="bibr" rid="CR13">13</xref>â<xref ref-type="bibr" rid="CR15">15</xref></sup>.</p>
+      <p id="Par4">LH3 is considered the evolutionary ancestor of the LH family: this isoform is the only one capable of further processing of hydroxylysines through glycosylation, whereas other isoforms might have lost such capability during evolution<sup><xref ref-type="bibr" rid="CR16">16</xref></sup>. LH3 is therefore a multifunctional enzyme capable of converting collagen lysines into 1,2-glucosylgalactosyl-5-hydroxylysines through three consecutive reactions: hydroxylation of collagen lysines (LH activity), N-linked conjugation of galactose to hydroxylysines (GT activity), and conjugation of glucose to galactosyl-5-hydroxylysines (GGT activity)<sup><xref ref-type="bibr" rid="CR17">17</xref>,<xref ref-type="bibr" rid="CR18">18</xref></sup>. Biochemical data suggest that these different enzymatic activities are localized in distinct compartments of the enzyme<sup><xref ref-type="bibr" rid="CR19">19</xref></sup>, but despite the extensive evidence available, the current knowledge of LH enzymes is far from exhaustive. These enzymes are known to act together with prolyl hydroxylases, respectively introducing hydroxylations of lysine and proline residues on procollagens in the endoplasmic reticulum (ER), prior to the formation of triple-helical assemblies<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. In line with this, LH enzymes are found as ER-resident proteins albeit they do not possess specific ER-retention sequences<sup><xref ref-type="bibr" rid="CR21">21</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. Reports suggest that ER retention could be mediated via interaction with distinct ER-resident proteins: LH1 is described to be part of a macromolecular complex with SC65, P3H3 and CYPB<sup><xref ref-type="bibr" rid="CR23">23</xref></sup>; while LH2 forms a complex with HSP47, FKBP65 and BiP<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>; LH3 was found colocalizing with collagen galactosyltransferases GLT25D1/2<sup><xref ref-type="bibr" rid="CR26">26</xref></sup>. Multiple reports identify LH3 also in the extracellular space and suggest dedicated trafficking mechanisms for its secretion<sup><xref ref-type="bibr" rid="CR27">27</xref>â<xref ref-type="bibr" rid="CR30">30</xref></sup>. Abnormalities in LH3 post-Golgi trafficking are associated with devastating developmental diseases with phenotypes characterized by immature collagen accumulation and lack of its secretion, very similar to those observed in case of enzyme malfunctions caused by knock-down or inactivation<sup><xref ref-type="bibr" rid="CR9">9</xref>â<xref ref-type="bibr" rid="CR11">11</xref>,<xref ref-type="bibr" rid="CR30">30</xref>,<xref ref-type="bibr" rid="CR31">31</xref></sup>. Very recently, LH2 secretion has been reported associated with hypoxia-induced <italic>PLOD2</italic> overexpression in metastatic tumor microenvironments<sup><xref ref-type="bibr" rid="CR13">13</xref>,<xref ref-type="bibr" rid="CR15">15</xref></sup>. Extracellular LHs were reported to be active, suggesting implications for ECM stability and remodeling<sup><xref ref-type="bibr" rid="CR27">27</xref></sup>. These data indicate that although lysine modifications are known to occur in the ER prior to collagen triple helical formation, secreted variants of LH3 and LH2 can modify collagens in different compartments and, possibly, in different folding states<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>.</p>
+      <p id="Par5">The accumulated knowledge about the precise molecular roles and mechanisms associated with LH enzymes has suffered from the lack of molecular structure models fundamental to shed light on the complexity and the diversity of this important enzyme family. Here, we present the crystal structures of multifunctional full-length human LH3 in complex with various cofactors and donor substrates. The structures reveal a multidomain architecture characterized by two independent catalytic sites devoted to the different enzymatic activities and provide a molecular understanding that has implications for various disease-related mutations found in LH enzymes. Altogether, our results offer new insights into the complex mechanisms of collagen biosynthesis and homeostasis, and provide structural templates for the development of targeted therapies for LH-related diseases and cancer.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>LH3 has three domains encompassing multiple catalytic sites</title>
+        <p id="Par6">We have generated human stable cell lines for large-scale production of full length, glycosylated human LH3, and established methods for its purification and evaluation of its LH and GT enzymatic activities (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">1</xref>). ICP-MS analyses indicated that all enzyme preparations contained Fe<sup>2+</sup> with a 1:1 stoichiometry (see Methods). We observed significant uncoupling (up to 25%) of donor substrate activation, with substrate-independent generation of the succinate or UDP reaction products, respectively. Nevertheless, we could detect significantly increased enzymatic activity in the presence of synthetic peptides (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">1C</xref>) or gelatin (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">1D</xref>) as acceptor substrates. We could confirm such reactivity by detection of concentration-dependent binding (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">2A</xref>) and appearance of post-translationally modified lysine residues on synthetic peptides upon LH3 treatment (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">2B</xref>). In our peptide binding measurements, all surface plasmon resonance (SPR) profiles were characterized by very fast association and dissociation events and very weak (millimolar) binding affinities (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">2A</xref>).</p>
+        <p id="Par7">Crystal structures of LH3 were determined in complex with various substrates and cofactors at resolutions ranging between 2.1 and 3.0âÃ (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">1</xref>). Diffraction data were systematically affected by strong anisotropy (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">3</xref>), thus structure determination required anisotropy correction followed by a combination of experimental phasing with heavy atom and highly redundant native single wavelength anomalous dispersion (SAD), eventually yielding electron density maps of superb quality (Supplementary fig.Â <xref rid="MOESM1" ref-type="media">4A, B</xref>). Residues Asn63 and Asn548 showed extended electron densities protruding from their side chains (Supplementary fig.Â <xref rid="MOESM1" ref-type="media">4C</xref>), indicating the expected N-linked glycosylations. The LH3 monomer encompasses three domains aligned along one direction (Fig.Â <xref rid="Fig1" ref-type="fig">1a</xref>). The first two N-terminal domains show Rossmann-fold architectures reminiscent of glycosyltransferases<sup><xref ref-type="bibr" rid="CR33">33</xref>,<xref ref-type="bibr" rid="CR34">34</xref></sup>, whereas the C-terminal domain is characterized by a double-stranded Î²-helix (DSBH) fold, highly conserved among the 2-OG, Fe<sup>2+</sup>-dependent dioxygenases<sup><xref ref-type="bibr" rid="CR35">35</xref>,<xref ref-type="bibr" rid="CR36">36</xref></sup>. Overall, the three-dimensional structure of the LH3 full-length enzyme provides a molecular blueprint to elucidate previous suggestions on the enzyme architecture based on biochemical data: GT and GGT activities localize at the N-terminus of the enzyme, whereas the LH activity is segregated at the LH3 C-terminus<sup><xref ref-type="bibr" rid="CR37">37</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup>.<fig id="Fig1"><label>Fig. 1</label><caption><p>Molecular architecture of human LH3. <bold>a</bold> Cartoon representation of the LH3 enzyme, showing its organization with three domains aligned from the N- to the C- terminus. Based on results of functional assays, the first two glycosyltransferase domains have been named GT (catalytic glycosyltransferase, blue) and AC (accessory, orange), respectively. The C-terminal domain hosts the Fe<sup>2+</sup> and 2-OG cofactors necessary for lysyl hydroxylase activity, and therefore has been named LH (green). Metal ions are shown as spheres, cofactors and glycans as sticks. <bold>b</bold> Introduction of additional glycosylation sites identifies the LH3 dimer interface in solution. Glycosylated mutants R714N and T672N induce disruption of the dimeric assembly, as observed in analytical size exclusion chromatography experiments. Control glycosylated mutant W148N-L150T, located at a crystal contact interface, is a dimer as wild-type LH3. <bold>c</bold> Overview of the LH3 dimer as observed in the crystal structures. The quaternary arrangement highlights an elongated tail-to-tail dimer extending for over 20ânm in one direction, connected through strong electrostatic and hydrophobic interactions near the LH catalytic site. Fe<sup>2+</sup> and 2-OG in the neighboring catalytic site are shown with spheres and sticks, respectively. For clarity, one LH3 monomer is colored as in <bold>a</bold>, whereas the other is shown in white. <bold>d</bold> The molecular interface connecting two C-terminal LH domains in the LH3 crystal structure is characterized by strong hydrophobic interactions involving Leu715 of one monomer (green) and various aromatic residues shaping a cavity on the opposite monomer (white). This hydrophobic contact is surrounded by electrostatic interactions. For clarity, only the amino acids of one monomer are labeled. <bold>e</bold> Details of the LH3 dimer interface. Shown is the electrostatic potential computed using APBS<sup><xref ref-type="bibr" rid="CR70">70</xref></sup> colored from â10 k<sub>b</sub>Te<sub>c</sub><sup>â1</sup> (red) to +10 k<sub>b</sub>Te<sub>c</sub><sup>â1</sup> (blue)</p></caption><graphic xlink:href="41467_2018_5631_Fig1_HTML" id="d29e761"/></fig></p>
+      </sec>
+      <sec id="Sec4">
+        <title>LH3 forms elongated tail-to-tail dimers</title>
+        <p id="Par8">Although the asymmetric units of our LH3 crystal structures contain a single LH3 monomer, previous biochemical studies<sup><xref ref-type="bibr" rid="CR20">20</xref>,<xref ref-type="bibr" rid="CR38">38</xref></sup> and our size exclusion chromatography coupled to small-angle X-ray scattering (SEC-SAXS) analyses consistently showed 200âkDa dimers in solution (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">1A</xref>). The crystal packing indeed suggests two homodimeric arrangements with physiologically plausible assemblies (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">5</xref>). A first, elongated, tail-to-tail quaternary structure shares nearly identical dimer interface with that observed recently in a C-terminal fragment of a viral LH homolog (L230-LH)<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. This interface interconnects the C-terminal domains of LH3 and exposes individual glycosyltransferase domains at the two sides of the dimer (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">5B</xref>). A second, more compact antiparallel conformation is characterized by contacts between the glycosyltransferase domains and exposes individual lysyl hydroxylase domains at the two sides of the dimer (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">5C</xref>). Both interfaces are characterized by a large buried surface area and numerous hydrogen bonds and hydrophobic interactions. Previous biochemical characterizations based on C-terminal LH3 deletions indicated residues Lys541-Glu547 as essential for dimerization<sup><xref ref-type="bibr" rid="CR38">38</xref></sup>. In our structures, both observed dimeric assemblies fully support this statement, as this region is located in a linking platform connecting the central glycosyltransferase domain with the C-terminal domain (Fig.Â <xref rid="Fig1" ref-type="fig">1a</xref>). Initial attempts using SAXS and computational methods to discriminate between crystallographic contacts and stable dimers in solution (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">5</xref>â<xref rid="MOESM1" ref-type="media">6</xref>) were not conclusive. A recent report suggested that in both homologous viral L230-LH domain and in human LH2, replacement of the fully conserved, surface-exposed C-terminal residue Leu715 (LH3 numbering, located in the middle of the âelongatedâ dimer interface found in the LH3 crystal structure) with a charged Asp could disrupt the enzymeâs dimeric assembly and generate inactive, monomeric species in solution<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. We took advantage of this information and introduced the corresponding L715D mutation in LH3; we also opted for generating a second mutant, bearing a positive Arg side chain replacing Leu715. Surprisingly, the L715D mutant was comparable to wild-type LH3 in activity assays and in analytical size exclusion chromatography experiments, while we observed slightly increased retention volumes and abolished LH activity for the L715R mutant (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">7</xref>). Similarly, removal of Fe<sup>2+</sup> using chelating agents and acidification, successfully exploited to destabilize both viral LH and human LH2 dimer interfaces<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> did not seem to affect LH3 stability (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">7C</xref>). We therefore decided to introduce more pronounced steric hindrance at the observed crystallographic dimer interfaces, through mutations carrying additional glycosylation sites. Mutants T672N and R714N, both adding a glycosylation near the C-terminal dimer interface as verified by SDS-PAGE and enzymatic deglycosylation experiments (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">7A, B</xref>, Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">17</xref>), shifted the size exclusion retention volumes towards monomeric species (Fig.Â <xref rid="Fig1" ref-type="fig">1b</xref>) and abolished LH activity (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">7D</xref>). On the contrary, the LH3 mutant W148N-L150T, introducing an additional glycosylation at the âcompactâ N-terminal interface did not affect the dimeric quaternary structure of LH3 nor the LH enzymatic activity (Fig.Â <xref rid="Fig1" ref-type="fig">1b</xref>, Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">7D</xref>). We therefore concluded that the physiological LH3 dimeric assembly corresponds to the elongated, tail-to-tail arrangement shown in Fig.Â <xref rid="Fig1" ref-type="fig">1c</xref>. This interface is characterized by two-fold symmetric interactions involving a rather limited set of aminoacid side chains engaged in electrostatic contacts, plus a deep hydrophobic cavity shaped by Phe673, Phe639, Tyr642 and Thr672 hosting the side chain of Leu715 from the opposite monomer (Fig.Â <xref rid="Fig1" ref-type="fig">1d, e</xref>).</p>
+      </sec>
+      <sec id="Sec5">
+        <title>Structural insights into LH3 glycosyltransferase activity</title>
+        <p id="Par9">The N-terminal LH3 glycosyltransferase domain partially shares tertiary structure topology with divalent metal ion-dependent class-A glycosyltransferase folds (GT-A)<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>, but with distinguishing structural features as expected given the very low sequence identity conservation, lower than 12%. Indeed, although numerous three-dimensional structures of GT-A glycosyltransferases are available in the protein data bank, superpositions with even the closest structural homolog yielded root mean square deviations (r.m.s.d.) higher than 3âÃ (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">8A</xref>). Notably, this LH3 domain lacks a highly conserved Î±-Î² hairpin at its N-terminus near residue Gly70, and includes other structural elements surprisingly well conserved at the primary sequence level within the LH enzyme family (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">9</xref>), but distinct from other glycosyltransferases. In particular, the conformations of four loops differ from GT-A structures and shape the substrate-binding face of the N-terminal domain of LH3 (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">8A</xref>). Among these, a very flexible surface loop comprising residues Gly72 to Gly87 is not visible in the electron density of ligand-free LH3 structures. This loop contains several residues highly conserved among LH isoforms (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">9</xref>), which are not found in other glycosyltransferases. A cavity characterized by aspartate residues 112 and 115 and His253 shapes the metal ion binding site. Co-crystallizations with Mn<sup>2+</sup> resulted in appearance of strong electron density proximate to these residues for the metal ion and two coordinating water molecules, without observable conformational changes compared to ligand-free LH3 (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">10A</xref>). Co-crystallizations with Mn<sup>2+</sup> and donor substrates UDP-galactose or UDP-glucose yielded additional clear electron densities for UDP, but not for the glycan moieties (Fig.Â <xref rid="Fig2" ref-type="fig">2a</xref>). We observed weak electron density near the UDP pyrophosphate group partially compatible with glycan donor substrates, but we refrain from modeling anything inside this weak density, likely representative of multiple conformations simultaneously trapped in the substrate binding cavity (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">10B</xref>). We could not detect significant differences when comparing co-crystal structures obtained using UDP-Gal or UDP-Glc donor substrates. Nonetheless, binding of these donor substrates induced dramatic conformational changes in the enzymeâs catalytic site, with full stabilization of the flexible Gly72-Gly87 loop in a âclosedâ conformation (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>). The UDP pyrophosphate group is stabilized by interactions with Mn<sup>2+</sup> and hydrogen bonding with Lys259 and backbone nitrogen of Gly256; both residues are positioned in a uniquely shaped Î±-helix located at the C-terminus of the domain. The hydroxyl groups of the ribose form a network of hydrogen bonds with backbone atoms of Ser113 and Tyr114. The uracil moiety is sandwiched through Ï-Ï stacking interactions between Trp75 and Tyr114, and is stabilized by hydrogen bonding with Thr46 (Fig.Â <xref rid="Fig2" ref-type="fig">2a, b</xref>, Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">10</xref>). Of note, these two residues highlight an unprecedented arrangement of UDP binding residues in glycosyltransferases: Trp75 belongs to the distinctive LH3 flexible loop covering residues Gly72-Gly87, that becomes fully stabilized upon substrate binding (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>); Tyr114 is part of a non-canonical DxxD motif (Supplementary fig.Â <xref rid="MOESM1" ref-type="media">9</xref>), where Asp112, and Asp115 are responsible for Mn<sup>2+</sup> coordination. Structurally related glycosyltransferases also often bear tyrosine residues stacking with the UDP moiety, but these residues are located far in sequence from the canonical DxD motif<sup><xref ref-type="bibr" rid="CR40">40</xref>,<xref ref-type="bibr" rid="CR41">41</xref></sup> responsible for metal ion coordination. Site-directed mutagenesis on Trp75 or Tyr114 into alanine residues yielded folded, but almost completely inactive LH3 variants (Fig.Â <xref rid="Fig2" ref-type="fig">2c</xref>, Supplementary fig.Â <xref rid="MOESM1" ref-type="media">11</xref>). Binding data using SPR on synthetic collagen peptides showed very limited differences between wild-type and mutant LH3 (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">11D</xref>). Together, these results highlight the distinguishing roles of Trp75 and Tyr114 in donor substrate binding and stabilization.<fig id="Fig2"><label>Fig. 2</label><caption><p>Insights into LH3 glycosyltransferase activity. <bold>a</bold> Co-crystallizations with Mn<sup>2+</sup> and donor substrates revealed clear electron density (<italic>2F</italic><sub><italic>o</italic></sub><italic>-F</italic><sub><italic>c</italic></sub> omit electron density maps, green mesh, contour level 1.2 Ï) for the metal ion and for UDP in the catalytic site of the N-terminal GT domain. Residues involved in coordination of the metal ion are shown with orange sticks, while residues interacting and stabilizing UDP binding are shown in blue. Residue Asn223, found mutated into a Ser and causing pathogenic phenotypes similar to osteogenesis imperfecta, is shown with magenta sticks. <bold>b</bold> Binding of donor substrates induces conformational changes in the GT domain. Shown is a superposition of ligand-free (yellow), Mn<sup>2+</sup>-bound (blue), and Mn<sup>2+</sup>-donor substrate-bound (violet) structures of LH3 GT domain. Only the UDP-Gal-bound structure is shown; the conformation observed in UDP-Glc-bound structure is identical. Flexible loop 72â87 becomes well defined only in donor substrate-bound structures; in these structures, residues Trp145 and Trp148 adopt different conformations. <bold>c</bold> Luminescence-based assays for the evaluation of LH3 GT enzymatic activity show that mutants W75A, Y114A, and N223S are inactive. Control experiments were performed without adding enzyme. Error bars represent standard deviations from average of triplicate independent experiments. Statistical evaluations based on pair sample comparisons between uncoupled and coupled assay values using Studentâs <italic>t</italic>-test. *<italic>P</italic>-valueÂ &lt;0.05; ***<italic>P</italic>-valueÂ &lt;0.001. <bold>d</bold> Details of the interface between the N-terminal (GT, blue) and the central (AC, orange) LH3 glycosyltransferase domain. Residues found at the interface are shown as sticks (side chain view only). The disulfide bond found in the linker region between the two domains is shown with yellow spheres on the sulfur atoms</p></caption><graphic xlink:href="41467_2018_5631_Fig2_HTML" id="d29e974"/></fig></p>
+        <p id="Par10">Two tryptophan residues Trp145 and Trp148 proximate to the UDP-binding cavity consistently change their side chain conformations in structures with bound donor substrates (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>). In UDP-glycan-bound structures, residue Trp145 adopts a conformation that can easily accommodate the sugar moiety during catalysis (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>). In the absence of donor substrates this residue partially obstructs the cavity, thus acting as a gating residue to host the UDP-glycan (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>). Trp148 localizes on the LH3 surface, in a region distant from the glycosyltransferase catalytic site located at the interface between two crystallographically related LH3 molecules. Interestingly, both Trp145 and Trp148 residues are located in one of the loops that are not conserved neither in glycosyltransferases, nor in other LH enzymes (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">9</xref>): this region may therefore have a role in recognition and binding of donor and/or acceptor substrates, highlighting the unusual mechanisms of LH3 GT/GGT activity. Of note, mutagenesis studies aimed at characterizing LH3 GT/GGT activities showed that residues in this loop are indeed critical for LH3-mediated collagen glycosylation<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). The neighboring region comprising residues 187â191 is characterized by a non-conserved poly-Asp repeat (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">10B</xref>), and mutations on Asp190 and Asp191 were reported to abolish the glycosyltransferase activity<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). In UDP-bound structures, this short loop forms contacts with the stabilized Gly72-Gly87 loop directly involved in UDP interaction (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>). Although Asp190 and Asp191 are not directly involved in binding of enzyme cofactors and substrates, both residues point towards the active site near Trp145, possibly playing roles as nucleophiles during the glycosyltransferase reaction, or supporting solvent-bridged interactions with the glycan co-substrates.</p>
+        <p id="Par11">Interestingly, the pathogenic LH3 mutation N223S, responsible for an LH3-dependent developmental connective tissue disorder with phenotype resembling osteogenesis imperfecta<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> localizes in close proximity to the identified LH3 GT/GGT catalytic site (Fig.Â <xref rid="Fig2" ref-type="fig">2a</xref>). This mutation was reported to introduce a new N-linked glycosylation site on residue Asn221, resulting in strongly reduced LH3 GT/GGT activity (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). We produced this enzyme variant obtaining a folded, dimeric enzyme comparable with wild type LH3 (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">11A, B</xref>). However, due to pronounced instability and high propensity to degradation for this mutant, we could not unambiguously confirm that this disease-linked mutant bears an additional glycosylation (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">11A</xref>). LH3 N223S showed severely reduced lysyl hydroxylase and fully abolished glycosyltransferase activities (Fig.Â <xref rid="Fig2" ref-type="fig">2c</xref>, Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">11C</xref>). As we did not observe changes in LH3 oligomeric assembly in the presence of this pathogenic mutation (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">11B</xref>), we concluded that the lack of enzymatic activity caused by this variant is likely due to the alterations in enzyme stability, possibly introduced by the novel glycosylation on Asn221, which would interfere with recognition of acceptor substrate molecules.</p>
+        <p id="Par12">The C-terminal part of the first glycosyltransferase domain of LH3 incorporates other uniquely structured regions: a long, non-conserved beta hairpin constituted by residues Val229-Ala244 points towards the domain face opposite to the GT/GGT catalytic site. This segment is stabilized by numerous hydrophobic contacts including Phe233, Trp273 and with a non-conserved Î±-helix formed by residues Pro257-Glu276, which is sandwiched between the first and the second domain of LH3 (Fig.Â <xref rid="Fig2" ref-type="fig">2d</xref>). Residues linking these two domains extend to a solvent-exposed region of the enzyme comprising the Cys279-Cys282 disulfide bridge and a flexible loop extending from Asp285 to Gly292, and not visible in the electron density. Antibodies targeting these residues were reported to reduce GT activity<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, suggesting a role for this surface-exposed region in modulating accessibility of acceptor substrates to the identified glycosyltransferase catalytic site (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>).</p>
+        <p id="Par13">In the central LH3 domain, two previously suggested candidate metal ion binding sites are present, identified by a DxD (Asp392, Ala393, Asp394) and a DxDxD (Asp486, Thr487, Asp488, Pro489, Asp490) motif, respectively<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>Â (Supplementary Fig. 12). Co-crystallization experiments with metal ions and glycosyltransferase substrates and products did not highlight any appreciable differences within this domain compared to ligand-free structures (Supplementary FigÂ <xref rid="MOESM1" ref-type="media">13A</xref>). On the contrary, superposition of the two glycosyltransferase domains of LH3 showed remarkable differences, emphasized by the unique features found in the first domain (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">8</xref>, Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">13B</xref>). Although the overall fold of the second domain shares higher similarity than the first with known GT-A type glycosyltransferases (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">13C, D</xref>), extensive mutagenesis experiments did not allow clear identification of residues implicated in metal ion or substrate binding for LH3 GT catalytic activity<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). Our structures highlight an unusual conformation for the Val304-Phe310 loop: this region overlaps with the donor substrate binding site observed in structural homologs, strongly interfering with donor substrate binding (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">13E</xref>). Furthermore, recombinant N-terminal LH3 constructs devoid of this domain were still capable of glycosylating collagen peptides similar to the wild-type enzyme<sup><xref ref-type="bibr" rid="CR19">19</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). Collectively, these data indicate that despite the overall conservation of the glycosyltransferase fold, this domain may have lost its enzymatic capabilities during evolution. It may therefore constitute a non-catalytic accessory element within the LH3 architecture, possibly involved in collagen substrate recognition or interactions with LH binding partners. Thus, we named the LH3 N-terminal domain catalytic glycosyltransferase (GT), and the central domain accessory (AC).</p>
+      </sec>
+      <sec id="Sec6">
+        <title>Structural insights into LH3 lysyl hydroxylase activity</title>
+        <p id="Par14">The C-terminal domain of LH3 hosts the lysyl hydroxylase catalytic site of the enzyme. This domain shows the typical DSBH fold, characterized by two Î²-sheets with antiparallel Î²-strands flanked by three Î±-helices (Fig.Â <xref rid="Fig3" ref-type="fig">3a</xref>). This fold is preceded by two additional short helices covering residues Thr523 to Asp554, serving as a buffer platform between the AC and the LH domain (Fig.Â <xref rid="Fig1" ref-type="fig">1a</xref>). Residues 590â610 constitute a flexible loop capping the LH catalytic site. Superposition with identified structural homologs highlighted the high conservation of the overall fold and the consistent presence of highly flexible residues near the Fe<sup>2+</sup>, 2-OG binding site (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">14A</xref>). The recently determined structure of a viral L230-LH domain<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> shows very high overall similarity (r.m.s.d.â=â1.3âÃ), with the exception of surface-exposed residues Ser550-Ile558, likely due to the non-conserved N-linked glycosylation at residue Asn548 (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">14B</xref>); also the structure of the viral LH fragment shows a completely flexible capping loop. All our LH3 structures systematically showed Fe<sup>2+</sup> and 2-OG in the electron density near the core of this domain (Fig.Â <xref rid="Fig3" ref-type="fig">3a</xref>), confirming that these cofactors are tightly bound to the enzyme and providing a possible explanation for the observed substrate uncoupled LH enzymatic activity (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">1C, D</xref>). Given the high structural similarity of our LH3 structure with the LH domain of the viral variant, we were surprised not to find the 2-OG cofactor in this structure. We interpreted this difference as due to usage of a prokaryotic expression system for the recombinant production of the viral homolog<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. In human LH3, the Fe<sup>2+</sup> ion is stabilized by interactions with residue His719 and with residues His667 and Asp669, which constitute part of a HxD motif fully conserved in the Fe<sup>2+</sup>, 2-OG dioxygenase enzyme family (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">15</xref>). Mutations in these residues<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>, including a recently identified pathogenic variant of LH2 causing Bruck syndrome<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>, were found to completely abolish LH activity (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). Pathogenic LH3 mutations causing premature C-terminal enzyme truncations lacking His719 were found incapable of hydroxylating collagen lysines, although retaining GT/GGT activities<sup><xref ref-type="bibr" rid="CR11">11</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). Residues Tyr656, Cys691 and Arg729 are fully conserved among LH isoforms and delimit the pocket hosting the 2-OG cofactor (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">14C</xref>). In particular, the side chain of free Cys691 contributes to the positioning of the carboxyl moiety of the 2-OG cofactor in the direction of Arg729, forming a salt bridge with the guanidinium group of this residue. In addition, biochemical mutations of Arg729 in homologous LH1 (Arg719 in LH3) were reported to cause complete loss of LH activity due to decreased binding affinity for 2-OG<sup><xref ref-type="bibr" rid="CR42">42</xref></sup>; these data are also in agreement with a recent report analyzing these mutations in the viral L230-LH homolog<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>).<fig id="Fig3"><label>Fig. 3</label><caption><p>Insights into LH3 lysyl hydroxylase activity. <bold>a</bold> All our LH3 structures consistently show clear electron density for bound Fe<sup>2+</sup> and 2-OG in the LH catalytic cavity (<italic>2F</italic><sub><italic>o</italic></sub><italic>-F</italic><sub><italic>c</italic></sub> omit electron density maps, green mesh, contour level 1.2 Ï). Residues involved in interactions with Fe<sup>2+</sup> and 2-OG are shown with green sticks. <bold>b</bold> Co-crystallizations with Fe<sup>2+</sup> allow identification of a second metal ion bound near the LH catalytic site that stabilizes the flexible capping loop 590â610 (shown in pink). <bold>c</bold> Evaluation of collagen substrate coupled and uncoupled LH3 LH activities as a function of Fe<sup>2+</sup> concentration. Error bars represent standard deviations from average of triplicate independent experiments. <bold>d</bold> In Fe<sup>2+</sup> co-crystal structures, the conformation observed for residue Arg599 mimics the collagen lysine substrate in front of the 2-OG cofactor, yielding a non-productive ternary complex. Shown is the superposition of this conformation found in the LH3 LH domain (green) with an homologous algal prolyl-4-hydroxylase (white) in complex with a short poly-PS peptide (yellow)<sup><xref ref-type="bibr" rid="CR43">43</xref></sup>. The LH3 loop 590â610 is shown in pink</p></caption><graphic xlink:href="41467_2018_5631_Fig3_HTML" id="d29e1225"/></fig></p>
+      </sec>
+      <sec id="Sec7">
+        <title>Excess Fe<sup>2+</sup> induces a state showing substrate mimicry</title>
+        <p id="Par15">By increasing the Fe<sup>2+</sup> concentration in crystallization experiments, we serendipitously found that this metal ion contributes to the overall enzyme stabilization, systematically enhancing the quality and the resolution of X-ray diffraction data. Analysis of electron density maps allowed the identification of a second Fe<sup>2+</sup> in the LH domain, coordinated by residues His595, Asp597, Asp611 and His613 (Fig.Â <xref rid="Fig3" ref-type="fig">3b</xref>). Metal ion coordination stabilizes the flexible capping loop 590â610 into a conformation that completely plugs the LH catalytic site, in proximity to the dimer interface (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">16A</xref>). We could observe a very similar arrangement, although slightly more flexible, by replacing Fe<sup>2+</sup> with Mn<sup>2+</sup> in crystallization experiments (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">16B</xref>). Early reports indicated that LH enzymes may be inhibited by high concentrations of metal ions<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. We probed LH3 enzymatic activity in the presence of increasing concentrations of Fe<sup>2+</sup>, and found that the enzymatic activity peaks at 25âÎ¼M Fe<sup>2+</sup> concentration. Higher metal ion concentrations yield significant reduction of LH uncoupling, but do not seem to affect the enzymatic reactivity in the presence of synthetic peptide substrates (Fig.Â <xref rid="Fig3" ref-type="fig">3c</xref>). In the metal-ion stabilized conformations we also found that residue Arg599 forms a salt bridge with the 2-OG co-substrate, yielding a conformation that may mimic the collagen lysine substrate. The positioning of Arg599 indeed superimposes to that of a collagen proline residue as observed in a homologous prolyl hydroxylase structure in complex with a short peptide<sup><xref ref-type="bibr" rid="CR43">43</xref></sup> (Fig.Â <xref rid="Fig3" ref-type="fig">3d</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="Sec8" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par16">Despite being known for over 40 years<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>, several molecular aspects underlying collagen lysyl hydroxylases function are still obscure. Our crystal structures of full-length human LH3 rationalize the accumulated biochemical knowledge, offering a template to better understand the molecular mechanisms of LH3-dependent collagen hydroxylation and glycosylation.</p>
+      <p id="Par17">The two different enzymatic activities are segregated in two distinct catalytic sites 80âÃ apart within the same enzyme molecule. The overall dimeric arrangement, experimentally validated through site-directed mutagenesis, shows an elongated tail-to-tail quaternary assembly (Fig.Â <xref rid="Fig1" ref-type="fig">1c</xref>), characterized by a relatively small hydrophobic contact platform surrounded by electrostatic contacts that stabilize the dimer interface near the LH catalytic site (Fig.Â <xref rid="Fig1" ref-type="fig">1câe</xref>) and closely resemble those recently reported for homologous human LH2 and viral L230<sup><xref ref-type="bibr" rid="CR39">39</xref></sup> (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">14B</xref>). As previously suggested, dimerization is essential for LH activity, whereas disruption of physiological dimers does not significantly perturb the N-terminal glycosyltransferase activities of LH3<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>.</p>
+      <p id="Par18">We identified two glycosyltransferase domains at the N-terminus of the enzyme characterized by Rossmann fold-like domain architecture and partial similarity with known GT-A glycosyltransferases. However, only the first domain is active: the GT domain (residues 33â277) is the solely responsible for glycosyltransferase activities (both GT and GGT), albeit showing unique features in multiple regions of its fold strongly divergent from known glycosyltransferases (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">8</xref>). Sequence alignments comparing human LH isoforms (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">9</xref>) and analysis of donor substrate-free and bound structures do not provide a direct explanation for the lack of GT/GGT activities in homologous LH1 and LH2. Nearly all residues surrounding the UDP moiety and shaping the LH3 glycosyltransferase catalytic site are conserved, including those involved in the unprecedented mode of UDP-substrate stabilization characterized by dual Ï-Ï stacking with Trp75 and Tyr114. Nevertheless, sequence conservation at the rim of the catalytic site is much lower (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">9</xref>), suggesting that lack of collagen substrate recognition may be the reason for the absence of glycosyltransferase activity in homologous LH isoforms.</p>
+      <p id="Par19">The adjacent AC domain does not appear to be directly involved in enzyme function. Surprisingly, this domain shares the highest structural similarities with known glycosyltransferases, and yet it may have lost its function during evolution through mutations that introduced steric hindrance in the donor and acceptor substrate binding regions (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">13E</xref>). Despite the lack of direct evidence of substrate recognition capabilities, the elongated quaternary structure of the LH3 enzyme allows to speculate about possible long-range collagen substrate recognition mechanisms involving this domain. Alternatively, it may serve as a docking module for interactions with binding partners, such as the proposed collagen glycosyltransferases GLT25D1/2<sup><xref ref-type="bibr" rid="CR26">26</xref></sup> or chaperones like FKBP65<sup><xref ref-type="bibr" rid="CR24">24</xref>,<xref ref-type="bibr" rid="CR25">25</xref></sup>.</p>
+      <p id="Par20">In the C-terminal LH domain both Fe<sup>2+</sup> and 2-OG are natively retained and consistently found in the electron densities of all our structures (Fig.Â <xref rid="Fig3" ref-type="fig">3a</xref>). Enzymatic assays show that LH activity is present without the need for Fe<sup>2+</sup> supplementation, demonstrating that the metal ion remains tightly bound into the active site during catalysis, and supporting recent reports also indicating essential roles for the metal ion in folding maintenance of LH domain<sup><xref ref-type="bibr" rid="CR39">39</xref></sup>. Concentrations higher than 25âÎ¼M affect the LH3 uncoupled catalytic activity, but do not seem to affect substrate processing. Crystals grown with excess Fe<sup>2+</sup> or Mn<sup>2+</sup> show stabilization of a substrate gating loop, with formation of a self-inactivated ternary complex between Fe<sup>2+</sup>, 2-OG and the side chain of Arg599 mimicking the collagen lysine substrate and obstructing the enzymeâs active site (Fig.Â <xref rid="Fig3" ref-type="fig">3b, c</xref>). Despite gating loops have been described for prolyl-hydroxylases<sup><xref ref-type="bibr" rid="CR43">43</xref>,<xref ref-type="bibr" rid="CR45">45</xref>,<xref ref-type="bibr" rid="CR46">46</xref></sup>, the presence of a metal ion-induced gating seems a prerogative of LH enzymes. Given the full conservation in the LH enzyme family of amino acid residues involved in coordination of the second Fe<sup>2+</sup> (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">15</xref>), we postulate that a general mechanism for metal ion-dependent regulation of LH activity may rely on generation of a self-inactivated resting state with interlocking of the 591â610 gating loop in front of the catalytic site. Remarkably, mutation of LH2 conserved homologous Arg599 into a histidine, as well as other mutations localized on this gating loop, perturb the enzymatic activity and cause Bruck syndrome<sup><xref ref-type="bibr" rid="CR7">7</xref></sup> (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). This corroborates the proposed role of the 590â610 gating loop in modulating substrate accessibility to the LH active site, and in particular the role of conserved Arg599 as non-productive substrate mimicry.</p>
+      <p id="Par21">The LH3 structures allow understanding the molecular phenotypes associated to most of the pathogenic mutations involving LH enzymes (Fig.Â <xref rid="Fig4" ref-type="fig">4</xref>). The LH3 N223S variant causing connective tissue disorders similar to osteogenesis imperfecta was reported to introduce a novel N-linked glycosylation near the cavity hosting the glycosyltransferase donor substrates. Our experiments show that this alteration strongly affects the enzymeâs stability, causing degradation, and completely abolishes GT and GGT activities. Pathogenic mutations of LH1 responsible for the kyphoscoliotic variant of the Ehlers-Danlos syndrome were reported to reduce, but not abolish, mechanisms of collagen recognition and catalysis (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). This is fully consistent with their localization on the enzymeâs surface, distant from the identified catalytic sites, with the exception of pathogenic mutation H706R, which maps to a conserved residue in close proximity to the homodimer interface. Conversely, LH2 mutations causing severe Bruck syndrome are located within the LH active site, either proximate to the 2-OG binding site, directly involved in Fe<sup>2+</sup> coordination, or in the self-inactivated capping loop, also including the lysine mimicry residue Arg599 (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref>). Given the recent reports describing implications of human LH2 and its upregulated enzymatic activity in metastatic spreading of numerous solid tumors<sup><xref ref-type="bibr" rid="CR13">13</xref></sup>, our full-length structures of self-inhibited human LH3 constitute a valid template for structure-based drug discovery campaigns aiming at blocking unwanted collagen lysine hydroxylation in tumor microenvironments.<fig id="Fig4"><label>Fig. 4</label><caption><p>Mapping of disease-related mutations identified in LH enzymes on the LH3 crystal structure. The positions of pathogenic mutations causing Ehlers-Danlos type VI syndrome in LH1 (cyan), Bruck syndrome type II in LH2 (yellow), and connective tissue diseases sharing phenotype features with osteogenesis imperfecta (red) in LH3 are shown as spheres on the LH3 dimer structure. Mutations N223S and C691A*, found on LH3, are labeled in red in one of the two monomers. A complete list of mutations reported in the literature and their significance based on evaluation of their mapping on the LH3 crystal structure is shown in Supplementary TableÂ <xref rid="MOESM1" ref-type="media">2</xref></p></caption><graphic xlink:href="41467_2018_5631_Fig4_HTML" id="d29e1416"/></fig></p>
+      <p id="Par22">In conclusion, the crystal structures of full-length human LH3 in complex with various cofactors and donor substrates provide a molecular understanding of the biochemical knowledge underlying the multiple functions of this enzyme. Our data shed light on the unique molecular architecture of the LH3 glycosyltransferase domains, and allow understanding of the molecular bases of multiple genetic diseases involving LH3 and homologous human lysyl hydroxylases.</p>
+    </sec>
+    <sec id="Sec9">
+      <title>Methods</title>
+      <sec id="Sec10">
+        <title>Chemicals</title>
+        <p id="Par23">All chemicals were purchased from Sigma-Aldrich unless otherwise specified.</p>
+      </sec>
+      <sec id="Sec11">
+        <title>DNA constructs</title>
+        <p id="Par24">Human LH3 gene (GenBank accession number BC011674.2) was obtained from Source Bioscience. Oligonucleotides containing in-frame 5â²-BamHI and 3â²-NotI were designed and used to sub-clone the LH3 sequence devoid of the N-terminal signal peptide into the pUPE.106.08 expression vector, kindly provided by U-protein Express, BV (U-PE, The Netherlands) and into the pPuro-DHFR, containing the <italic>Streptomyces alboniger</italic> puromycin resistance gene (isolated from the pPUR plasmid, Clontech) and the mouse dihydrofolate reductase cDNA<sup><xref ref-type="bibr" rid="CR47">47</xref></sup>. Both expression vectors bear N-terminal signal peptide followed by a N-terminal 6xHis-tag and a recognition site for Tobacco Etch Virus (TEV) protease prior to an in-frame BamHI restriction site, as well as an in-frame stop codon after the NotI restriction site. LH3 mutants were generated using the Phusion Site Directed Mutagenesis Kit (ThermoFisher Scientific) following manufacturerâs instructions. The entire plasmid was amplified using phosphorylated primers. For all mutants the forward primer introduced the mutation of interest (Supplementary tableÂ <xref rid="MOESM1" ref-type="media">4</xref>). All expression plasmids were checked by Sanger sequencing prior to usage.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Recombinant LH3 expression from stable HeLa cell lines</title>
+        <p id="Par25">The pPuro-DHFR-LH3 construct was transfected into human cervical carcinoma cellsÂ (HeLa S3, provided by ATCC and further selected for high transfection efficiency by Dr.F. Peverali, Consiglio Nazionale delle Ricerche, Pavia) using the Lipofectamine LTX reagent (Invitrogen). Cells were not authenticated and not tested for mycoplasma contamination. Stably transfected clones, isolated with 1âmgâmL<sup>â1</sup> puromycin (Invivogen), were subjected to step-wise selection with increasing methotrexate concentrations to select for cells containing multiple copies of the plasmid. Cells were routinely cultured at 37âÂ°C in 5% CO2 in high-glucose DMEM supplemented with 10% foetal calf serum (Biowest), 1Ã non-essential amino acids, 2âmM L-glutamine and 1Ã penicillin-streptomycin. Clones expressing high yields of PLOD3 were identified by SDS-PAGE analysis after imidazole elution from small-scale immobilized metal ion affinity purification using Nickel sepharose beads (GE Healthcare).</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Recombinant LH3 expression from transient HEK293 cells</title>
+        <p id="Par26">Recombinant tagged LH3 mutants were produced using suspension cultures of HEK293F (Invitrogen) cells. Cells were not authenticated and not tested for mycoplasma contamination. Cells were transfected at cell densities of 1âmillionâmL<sup>â1</sup> using 3âÎ¼g of polyethyleneimine (PEI; Polysciences, Germany) for 1âÎ¼g of pUPE.106.08-LH3 plasmid DNA per mL of cells. Cultures were supplemented with 0.6% Primatone RL 4âh after transfection. The cell medium containing secreted LH3 was collected 6 days after transfection by centrifugation at 1000âÃâ<italic>g</italic> for 15âmin.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Purification of LH3 enzymes</title>
+        <p id="Par27">The LH3-containing medium from either HeLa or HEK293 cell cultures was filtered through a syringe 0.2âmm filter. The pH and ionic strength of the filtrated medium were adjusted using a concentrated buffer stock to reach a final concentration of 25âmM 4-(2-hydroxyethyl)â1-piperazineethanesulfonic acid (HEPES)/NaOH, 500âmM NaCl, 30âmM imidazole, pH 8.0. LH3 was purified using affinity and size-exclusion chromatography on Ãkta systems (GE Healthcare). The filtered supernatant was first loaded onto a 20âmL His-Prep FF column (GE Healthcare) and eluted using 250âmM imidazole. The eluate was then loaded onto a 5âmL HiTrap desalting FF column (GE Healthcare) equilibrated in 25âmM HEPES, NaOH, 500âmM NaCl, pH 8.0. The N-terminal histidine-tag was cleaved using overnight TEV protease digestion at 4âÂ°C followed by affinity-based removal of TEV protease and His-tag using a 5âmL HisTrap FF (GE Healthcare). The protein was concentrated to 5âmgâmL<sup>â1</sup> using 30,000 MWCO Vivaspin Turbo centrifugal filters (Sartorius), then loaded onto a Superdex 200 10/300 GL (preparative scale) or onto a Superdex 200 5/150 GL (analytical scale) columns (GE Healthcare) equilibrated with 25âmM HEPES/NaOH, 200âmM NaCl, pH 8.0. LH3-containing fractions as assessed from SDS-PAGE analysis were pooled, concentrated and stored at â80âÂ°C until further usage.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>LH3 deglycosylation</title>
+        <p id="Par28">Wild-type LH3 and mutants T672N, L714N, and W148N-L150T were subject to deglycosylation to validate the introduction of an additional glycosylation site through mutagenesis. 20âÎ¼L protein at 0.15âmgâmL<sup>â1</sup> were first incubated with 1X Glycoprotein Denaturing Buffer (New England BioLabs) and denatured at 95âÂ°C for10 min. 1X glycobuffer 2 (New England BioLabs), 1% NP-40, and 0.2âÎ¼L (100 Units) of PNGase F (New England BioLabs) were added to the reaction mix, which was further incubated for 2âh at 37âÂ°C. PNGase F-treated and untreated samples were then analyzed using western blotting with rabbit anti-LH3 antibody (Proteintech 11027â1-AP) in a 1:1000 ratio followed by anti-rabbit HRP-conjugate antibody (Sigma-Aldrich A0545) in a 1:3000 ratio.</p>
+      </sec>
+      <sec id="Sec16">
+        <title>ICP-MS measurements</title>
+        <p id="Par29">To measure the number of tightly bound divalent metal ions 3âmg of LH3 were diluted in 5âmL 25âmM HEPES, 500âmM NaCl, pH 8.0. Three aliquots of 1âml each were kept overnight with 0.5âmL 65% ultra-pure HNO<sub>3</sub> and 0.1âmL 30% w/w H<sub>2</sub>O<sub>2</sub>, then diluted to 5âmL with Milli-Q water and analyzed by ICP-MS. The measurements of Fe and Mn were performed on a Perkin Elmer Mod ELAN DRC-e instrument, following the standard procedures suggested by the manufacturer. Quantitative determinations were obtained by the external standard calibration with five standards (0, 5, 10, 50, 100, and 300âÂµgâL<sup>â1</sup>) daily prepared in the same buffer used for samples preparation, at the same dilution and HNO<sub>3</sub> concentration. Only Fe was quantified in each replicate solution, with standard deviation of the mean value of 8%, obtaining a molar ratio Fe/LH3â=â1, while Mn was present as impurity in the blank and in the samples.</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Crystallization of LH3</title>
+        <p id="Par30">LH3 spherulites were found in nanoliter-dispensed droplets (0.1âÎ¼L protein at 4âmgâmL<sup>â1</sup>â+â0.1âÎ¼L reservoirs) using commercial crystallization screens in sitting vapor diffusion drop plates. These spherulites were initially optimized by mixing 0.5âÎ¼L of protein concentrated at 3.5âmgâmL<sup>â1</sup> and 0.5âÎ¼L of reservoir solution composed of 600âmM sodium formate, 12% poly-glutamic-acid (PGA-LM, Molecular Dimensions), 100âmM HEPES/NaOH, pH 7.8. These crystals diffracted to a maximum of 5âÃ. Crystal quality was improved through sequential runs of macro-seeding of LH3 crystals using the same crystallization mixture with slight variations in protein concentration. Co-crystallization experiments were performed by setting up the same seeding conditions, and supplementing the protein solution with mixtures of 500âÎ¼M FeCl<sub>2</sub>, 500âÎ¼M MnCl<sub>2</sub>, 1âmM UDP-galactose, 1âmM UDP-glucose (Supplementary TableÂ <xref rid="MOESM1" ref-type="media">1</xref>). Crystals were cryo-protected with the mother liquor supplemented with 20% glycerol, harvested using MicroMounts Loops (Mitegen), flash-cooled and stored in liquid nitrogen prior to data acquisition. Heavy atom derivatives were prepared by soaking the LH3 crystals in mother liquor conditions containing 1âmM K<sub>2</sub>HgBr<sub>4</sub>. Crystals were incubated with the heavy atom solution for at least 5âh at 4âÂ°C prior to cryo protection, harvesting and flash-cooling in liquid nitrogen.</p>
+      </sec>
+      <sec id="Sec18">
+        <title>Diffraction data collection and structure refinement</title>
+        <p id="Par31">Diffraction data from LH3 crystals were collected at various beamlines of the European Synchrotron Radiation Facility, Grenoble, France and at the Swiss Light Source, Villigen, Switzerland (details in Supplementary TableÂ <xref rid="MOESM1" ref-type="media">1</xref>). Single wavelength Anomalous Dispersion (SAD) experiments at the Hg edge were performed at the ESRF ID30B beamline, whereas high multiplicity long-wavelength native SAD data (57 data sets of 360Â° from 6 different crystals) were collected at the SLS X06DA beamline as described elsewhere<sup><xref ref-type="bibr" rid="CR48">48</xref></sup>. The data, which showed strong anisotropy (Supplementary Fig.Â <xref rid="MOESM1" ref-type="media">3</xref>), were processed with autoPROC<sup><xref ref-type="bibr" rid="CR49">49</xref></sup> including STARANISO<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. Statistics are summarized in Suppl. tableÂ <xref rid="MOESM1" ref-type="media">1</xref>. Hg heavy atom sites were identified using SHELXC/D<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> with the HKL2MAP GUI<sup><xref ref-type="bibr" rid="CR52">52</xref></sup>. Experimental phasing with the Hg SAD data using SHELXE<sup><xref ref-type="bibr" rid="CR51">51</xref></sup> and SHARP<sup><xref ref-type="bibr" rid="CR53">53</xref></sup> yielded a partial model. Completion of the model could only be achieved by combining the latter with high multiplicity native SAD data using the CRANK2 pipeline<sup><xref ref-type="bibr" rid="CR54">54</xref></sup> followed by iterations of automatic and manual model building using BUCCANEER<sup><xref ref-type="bibr" rid="CR55">55</xref></sup> and COOT<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Subsequent LH3 structures were determined using the initial LH3 structural model in molecular replacement runs with PHASER<sup><xref ref-type="bibr" rid="CR57">57</xref></sup>. Final 3D models were generated using iterations of automatic refinement using PHENIX<sup><xref ref-type="bibr" rid="CR58">58</xref></sup> alternated with manual adjustments using COOT<sup><xref ref-type="bibr" rid="CR56">56</xref></sup>. Validation of structure quality was carried out with Molprobity<sup><xref ref-type="bibr" rid="CR59">59</xref></sup>, the RCSB PDB Validation Server<sup><xref ref-type="bibr" rid="CR60">60</xref></sup>, and PDB-CARE<sup><xref ref-type="bibr" rid="CR61">61</xref></sup>. Final refinement statistics are listed in Suppl. TableÂ <xref rid="MOESM1" ref-type="media">1</xref>. Structural figures were generated using PyMol<sup><xref ref-type="bibr" rid="CR62">62</xref></sup>.</p>
+      </sec>
+      <sec id="Sec19">
+        <title>SAXS data collection and analysis</title>
+        <p id="Par32">Solution scattering data were collected at ESRF BM29 using a sec<sup>â1</sup> frame rate on Pilatus 1âM detector located at a fixed distance of 2.87âm from the sample, allowing a global <italic>q</italic> range of 0.03â4.5ânm with a wavelength of 0.01ânm. SEC-SAXS experiments were carried out using Nexera High Pressure Liquid/Chromatography (HPLC; Shimadzu) system connected online to SAXS sample capillary<sup><xref ref-type="bibr" rid="CR63">63</xref></sup>. For these experiments, 50âÎ¼L of LH3 concentrated at 4âmgâmL<sup>â1</sup> were injected into a Superdex 200 PC 3.2/300 Increase column (GE Healthcare), pre-equilibrated with 25âmM HEPES/NaOH, 200âmM NaCl, pH 8.0. For offline batch sample analysis, 50âÎ¼L of LH3 at concentrations ranging from 0.5 to 9âmgâmL<sup>â1</sup> were injected using the dedicated automatic sample changer available at the BM29 beamline<sup><xref ref-type="bibr" rid="CR64">64</xref></sup>. For SEC-SAXS data, frames corresponding to LH3 protein peak were identified, blank subtracted and averaged using CHROMIXS<sup><xref ref-type="bibr" rid="CR65">65</xref></sup>, whereas batch concentration series were analyzed using PRIMUS<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>. Radii of gyration (<italic>Rg</italic>), molar mass estimates and distance distribution functions <italic>P(r)</italic> were computed using the ATSAS package<sup><xref ref-type="bibr" rid="CR67">67</xref></sup> in PRIMUS<sup><xref ref-type="bibr" rid="CR66">66</xref></sup>. Comparison of experimental SAXS data and 3D models from crystal structures was performed using CRYSOL<sup><xref ref-type="bibr" rid="CR68">68</xref></sup>. A summary of SAXS data collection and analysis results is shown in Suppl. TableÂ <xref rid="MOESM1" ref-type="media">3</xref>.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>Determination of LH activity using mass spectrometry</title>
+        <p id="Par33">Synthetic collagen peptides were purchased from China peptides. Peptides tested were ARGIKGIRGFS, GIKGIKGIKGIK, and IKGIKGIKG sequences. LH3 5âÎ¼M was incubated with 500âÎ¼M FeCl<sub>2</sub>, 1âmM 2-OG, 2âmM ascorbate and 1âmM peptide substrate. Reactions were allowed to proceed for 1âh at 37âÂ°C. In total 20âÎ¼L of each sample were previously acidified by addition of 1âÎ¼L of formic acid (FA) and then analyzed on an LCâMS system (Thermo Finnigan, USA) consisting of a thermostated column oven Surveyor autosampler controlled at 25âÂ°C; a quaternary gradient Surveyor MS pump equipped with an UV/vis detector and an Ion Trap (LCQ Advantage Max) mass spectrometer with electrospray ionization ion source controlled by Xcalibur software 2.0.7. Peptides were separated by RP-HPLC on a Jupiter (Phenomenex, USA) C<sub>18</sub> column (150âÃâ2âmm, 4âÎ¼m, 90âÃ particle size) using a linear gradient (2â60% solvent B in 60âmin) in which solvent A consisted of 0.1% aqueous FA and solvent B of acetonitrile (CAN) containing 0.1% FA. Flow-rate was 0.2âmL/min. Mass spectra were generated in positive ion mode under constant instrumental conditions: source voltage 5.0âkV, capillary voltage 46âV, sheath gas flow 20 (arbitrary units), auxiliary gas flow 10 (arbitrary units), sweep gas flow 1 (arbitrary units), capillary temperature 200âÂ°C, tube lens voltage â105âV. Spectra analyses were performed using Xcalibur software 2.0.7.</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Biochemical evaluation of LH activity</title>
+        <p id="Par34">Reaction mixtures (5âÎ¼L total volume) containing wild-type or mutant LH3 samples at 0.2âmgâmL<sup>â1</sup> were prepared by sequentially adding 0â1âmM peptide substrate or 4âmgâmL<sup>â1</sup> gelatin in water, (solubilized through heating denaturation at 95âÂ°C for 10âmin), 500âÎ¼M ascorbate, 100âÎ¼M 2-OG, and variable concentrations of FeCl<sub>2</sub> (0â200âÎ¼M), and let incubate for 1âh at 37âÂ°C. Reactions were stopped by heating samples at 95âÂ°C for 2âmin prior to transfer into Proxiplate white 384-well plates (Perkin-Elmer), then 5âÎ¼L of the Succinate-Glo reagent I (Promega) were added and let incubate 1âh at 25âÂ°C, after that 10âÎ¼L of the Succinate-Glo reagent II (Promega) were added and let incubate 10âmin at 25âÂ°C. The plates were then transferred into a GloMax plate reader (Promega) configured according to manufacturerâs instructions for luminescence detection. All experiments were performed in triplicates. Control experiments were performed using identical conditions by selectively removing LH3, 2-OG or peptide substrates. Data were analyzed and plotted using the GraphPad Prism 7 software<sup><xref ref-type="bibr" rid="CR69">69</xref></sup>.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Biochemical evaluation of GT and GGT enzymatic activities</title>
+        <p id="Par35">Reaction mixtures (5âÎ¼L total volume) containing wild-type or mutant LH3 samples at 0.2âmgâmL<sup>â1</sup> were prepared by sequentially adding 0â1âmM peptide substrate, 500âÎ¼M ascorbate, 100âÎ¼M 2-OG, 50âÎ¼M FeCl<sub>2</sub>, and let incubate for 1âh at 37âÂ°C. Reactions mixtures were then supplemented with 50âÎ¼M MnCl<sub>2</sub>, and 50Î¼M UDP-Gal or UDP-Glc, and let incubate for 1âh at 37âÂ°C. Experiments using gelatin as substrate were performed by sequentially adding 4âmgâmL<sup>â1</sup> gelatin in water, (solubilized through heating denaturation at 95âÂ°C for 10âmin), 50âÎ¼M MnCl<sub>2</sub>, and 100âÎ¼M UDP-Gal or UDP-Glc to the LH3 samples at 0.2âmgâmL<sup>â1</sup>, and let incubate for 1âh at 37âÂ°C. All reactions were stopped by heating at 95âÂ°C for 2âmin, prior to transfer into Proxiplate white 384-well plates (Perkin-Elmer), then 5âÎ¼L of the UDP-Glo luminescence detection reagent (Promega) were added and let incubate 1âh at 25âÂ°C. Detection was carried out as described for the LH enzymatic activity. All experiments were performed in triplicates. Control experiments were performed using identical conditions by selectively removing LH3, donor or acceptor substrates. Data were analyzed and plotted using the GraphPad Prism 7 software<sup><xref ref-type="bibr" rid="CR69">69</xref></sup>.</p>
+      </sec>
+      <sec id="Sec23">
+        <title>Surface-plasmon resonance</title>
+        <p id="Par36">Wild-type and mutant LH3 preparations were immobilized onto a carboxymethylated dextran (CM5) sensor chip (GE Healthcare) using a mixed solution of 200âmM 1-ethyl-3-(3-dimethylaminopropyl)carbodiimide hydrochloride (EDC) in 50 mM N-hydroxysuccinimide (NHS) in a Biacore T200 SPR instrument (GE Healthcare). Excess reactive groups were blocked with 1âM ethanolamine. Efficient immobilization of LH3 samples was judged based on the SPR signal collected. For each of the tested samples, 3000 RU were reached. A control flow cell 1 was pre-activated and blocked using the same protocol as above but without protein samples, and used as reference cell during measurements. Collagen peptides were dissolved in running buffer (PBS-P 0.01%) and injected as two-fold dilution concentration series of eight points each using a flow of 5âÎ¼l min<sup>â1</sup>. Two replicates of each concentration were injected. Data analysis was performed using the Biacore T200 evaluation software (GE Healthcare) using a 1:1 steady-state affinity model.</p>
+      </sec>
+      <sec id="Sec24">
+        <title>Data availability</title>
+        <p id="Par37">Coordinates and structure factors have been deposited in the Protein Data Bank (PDB) with accession codes <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb6FXK/pdb">6FXK</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb6FXM/pdb">6FXM</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb6FXR/pdb">6FXR</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb6FXT/pdb">6FXT</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb6FXX/pdb">6FXX</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.2210/pdb6FXY/pdb">6FXY</ext-link>. SEC-SAXS experimental data and ab-initio model have been deposited in Small Angle Scattering Biological Data Bank (SASBDB) with accession code <ext-link ext-link-type="uri" xlink:href="https://www.sasbdb.org/data/SASDDW4">SASDDW4</ext-link>. Other data are available from the corresponding author upon reasonable request.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Electronic supplementary material</title>
+      <sec id="Sec26">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41467_2018_5631_MOESM1_ESM.pdf"><caption><p>Supplementary Information</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="41467_2018_5631_MOESM2_ESM.pdf"><caption><p>Peer Review File</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Change history</bold>
+        </p>
+        <p>9/5/2018</p>
+        <p>This Article was originally published without the accompanying Peer Review File. This file is now available in the HTML version of the Article; the PDF was correct from the time of publication.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Change history</bold>
+        </p>
+        <p>9/20/2018</p>
+        <p>The previously published version of this Article contained an error in Figure 3. In panel a, the residues His667 and Asp669 were incorrectly labelled as His627 and Asp629. The error has been corrected in both the PDF and HTML versions of the Article.</p>
+      </fn>
+    </fn-group>
+    <sec>
+      <title>Electronic supplementary material</title>
+      <p><bold>Supplementary Information</bold> accompanies this paper at 10.1038/s41467-018-05631-5.</p>
+    </sec>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank scientists at ARDIS S.R.L. Pavia for technical support during the SPR experiments. We thank the European Synchrotron Radiation Facility (ESRF) and the Swiss Light Source (SLS) for the provision of synchrotron radiation facilities and beamline scientists of the SLS, ESRF and the European Molecular Biology Laboratory for assistance. In particular, we would like to thank M. Brennich (EMBL Grenoble) and P. Pernot (ESRF) for support with SAXS data collection and analysis. We thank M. Miao for support in crystallization experiments and Prof. A. Mattevi for useful discussions. This work was supported by the Giovanni Armenise-Harvard Career Development Award, the âProgramma Rita Levi-Montalciniâ from the Italian Ministry of University and Research (MIUR), Cariplo Foundation Grant âCOME TRUEâ (id. 2015-0768), a âMy First AIRC Grantâ grant (Grant id. 20075) from the Italian Association for Cancer Research (AIRC), and by the Italian Ministry of Education, University and Research (MIUR): Dipartimenti di Eccellenza Program (2018â2022)âDept. of Biology and Biotechnology âL. Spallanzaniâ, University of Pavia. For X-ray diffraction experiments we were supported by the European Communityâs Seventh Framework Programme (FP7/2007-2013) under BioStruct-X (Grant agreements 7551 and 10205). A.C. is supported by a Marie Curie Individual Fellowship from the Horizon 2020 EU Program (Grant agreement no. 745934 â COTETHERS). P.G. is supported by the NIHR HS&amp;DR Programme (14/21/45) and supported by the NIHR GOSH BRC. The views expressed are those of the authors and not necessarily those of the NHS, the NIHR or the Department of Health.</p>
+    </ack>
+    <notes notes-type="author-contribution">
+      <title>Author contributions</title>
+      <p>L.S., A.C., B.B., L.K., F.F. performed LH3 cloning and expression trials. L.K., S.N., and E.G. designed and implemented the stable HeLa cell lines for LH3 production. L.S. and F.F. purified and crystallized LH3, and solved its structure with help from S.B. and V.O. L.S. and F.F. carried out structural refinement. A.C. generated and purified LH3 mutants using HEK293 cells. L.S. and F.D.G. performed biochemical assays. M.F. performed mass spectrometry experiments. L.C. and A.P. performed ICP-MS metal ion identification experiments. L.S. performed surface-plasmon resonance measurements. F.F. designed the study with help from B.B. and P.G. L.S., A.C., F.D.G., and F.F. analyzed the data and prepared figures. L.S., A.C. and F.F. wrote the paper, with contributions from all authors.</p>
+    </notes>
+    <notes notes-type="COI-statement">
+      <sec id="FPar1">
+        <title>Competing interests</title>
+        <p>The authors declare no competing interests.</p>
+      </sec>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myllyharju</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+          </person-group>
+          <article-title>Collagens, modifying enzymes and their mutations in humans, flies and worms</article-title>
+          <source>Trends Genet.</source>
+          <year>2004</year>
+          <volume>20</volume>
+          <fpage>33</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tig.2003.11.004</pub-id>
+          <pub-id pub-id-type="pmid">14698617</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamauchi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sricholpech</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Lysine post-translational modifications of collagen</article-title>
+          <source>Essays Biochem.</source>
+          <year>2012</year>
+          <volume>52</volume>
+          <fpage>113</fpage>
+          <lpage>133</lpage>
+          <pub-id pub-id-type="doi">10.1042/bse0520113</pub-id>
+          <pub-id pub-id-type="pmid">22708567</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+            <name>
+              <surname>Ryhanen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Anttinen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Bornstein</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Prockop</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Further hydroxylation of lysyl residues in collagen by protocollagen lysyl hydroxylase in vitro</article-title>
+          <source>Biochemistry</source>
+          <year>1973</year>
+          <volume>12</volume>
+          <fpage>4966</fpage>
+          <lpage>4971</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi00748a023</pub-id>
+          <pub-id pub-id-type="pmid">4761977</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puistola</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Turpeenniemi-Hujanen</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+          </person-group>
+          <article-title>Studies on the lysyl hydroxylase reaction. II. Inhibition kinetics and the reaction mechanism</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>1980</year>
+          <volume>611</volume>
+          <fpage>51</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="doi">10.1016/0005-2744(80)90041-8</pub-id>
+          <pub-id pub-id-type="pmid">6766067</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hautala</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Cloning of human lysyl hydroxylase: complete cDNA-derived amino acid sequence and assignment of the gene (PLOD) to chromosome 1p36.3âp36.2</article-title>
+          <source>Genomics</source>
+          <year>1992</year>
+          <volume>13</volume>
+          <fpage>62</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="doi">10.1016/0888-7543(92)90202-4</pub-id>
+          <pub-id pub-id-type="pmid">1577494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rohrbach</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phenotypic variability of the kyphoscoliotic type of Ehlers-Danlos syndrome (EDS VIA): clinical, molecular and biochemical delineation</article-title>
+          <source>Orphanet J. Rare Dis.</source>
+          <year>2011</year>
+          <volume>6</volume>
+          <fpage>46</fpage>
+          <pub-id pub-id-type="doi">10.1186/1750-1172-6-46</pub-id>
+          <pub-id pub-id-type="pmid">21699693</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hyry</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lantto</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Myllyharju</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Missense mutations that cause Bruck syndrome affect enzymatic activity, folding, and oligomerization of lysyl hydroxylase 2</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>30917</fpage>
+          <lpage>30924</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.021238</pub-id>
+          <pub-id pub-id-type="pmid">19762917</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leal</surname>
+              <given-names>GF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Expanding the clinical spectrum of phenotypes caused by pathogenic variants in PLOD2</article-title>
+          <source>J. Bone Miner. Res.</source>
+          <year>2018</year>
+          <volume>33</volume>
+          <fpage>753</fpage>
+          <lpage>760</lpage>
+          <pub-id pub-id-type="doi">10.1002/jbmr.3348</pub-id>
+          <pub-id pub-id-type="pmid">29178448</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruotsalainen</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Glycosylation catalyzed by lysyl hydroxylase 3 is essential for basement membranes</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2006</year>
+          <volume>119</volume>
+          <fpage>625</fpage>
+          <lpage>635</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.02780</pub-id>
+          <pub-id pub-id-type="pmid">16467571</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Risteli</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reduction of lysyl hydroxylase 3 causes deleterious changes in the deposition and organization of extracellular matrix</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>28204</fpage>
+          <lpage>28211</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.038190</pub-id>
+          <pub-id pub-id-type="pmid">19696018</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salo</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A connective tissue disorder caused by mutations of the lysyl hydroxylase 3 gene</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2008</year>
+          <volume>83</volume>
+          <fpage>495</fpage>
+          <lpage>503</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ajhg.2008.09.004</pub-id>
+          <pub-id pub-id-type="pmid">18834968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van der Slot</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of PLOD2 as telopeptide lysyl hydroxylase, an important enzyme in fibrosis</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>40967</fpage>
+          <lpage>40972</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M307380200</pub-id>
+          <pub-id pub-id-type="pmid">12881513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Pang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>PLOD2 in cancer research</article-title>
+          <source>Biomed. Pharmacother.</source>
+          <year>2017</year>
+          <volume>90</volume>
+          <fpage>670</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.biopha.2017.04.023</pub-id>
+          <pub-id pub-id-type="pmid">28415047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gilkes</surname>
+              <given-names>DM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Procollagen lysyl hydroxylase 2 is essential for hypoxia-induced breast cancer metastasis</article-title>
+          <source>Mol. Cancer Res.</source>
+          <year>2013</year>
+          <volume>11</volume>
+          <fpage>456</fpage>
+          <lpage>466</lpage>
+          <pub-id pub-id-type="doi">10.1158/1541-7786.MCR-12-0629</pub-id>
+          <pub-id pub-id-type="pmid">23378577</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>YL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lysyl hydroxylase 2 is secreted by tumor cells and can modify collagen in the extracellular space</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2016</year>
+          <volume>291</volume>
+          <fpage>25799</fpage>
+          <lpage>25808</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M116.759803</pub-id>
+          <pub-id pub-id-type="pmid">27803159</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ruotsalainen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sipila</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Kerkela</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pospiech</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of cDNAs for mouse lysyl hydroxylase 1, 2 and 3, their phylogenetic analysis and tissue-specific expression in the mouse</article-title>
+          <source>Matrix Biol.</source>
+          <year>1999</year>
+          <volume>18</volume>
+          <fpage>325</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0945-053X(99)00016-5</pub-id>
+          <pub-id pub-id-type="pmid">10429951</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heikkinen</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lysyl hydroxylase 3 is a multifunctional protein possessing collagen glucosyltransferase activity</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2000</year>
+          <volume>275</volume>
+          <fpage>36158</fpage>
+          <lpage>36163</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M006203200</pub-id>
+          <pub-id pub-id-type="pmid">10934207</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The third activity for lysyl hydroxylase 3: galactosylation of hydroxylysyl residues in collagens in vitro</article-title>
+          <source>Matrix Biol.</source>
+          <year>2002</year>
+          <volume>21</volume>
+          <fpage>559</fpage>
+          <lpage>566</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0945-053X(02)00071-9</pub-id>
+          <pub-id pub-id-type="pmid">12475640</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of amino acids important for the catalytic activity of the collagen glucosyltransferase associated with the multifunctional lysyl hydroxylase 3 (LH3)</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2002</year>
+          <volume>277</volume>
+          <fpage>18568</fpage>
+          <lpage>18573</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M201389200</pub-id>
+          <pub-id pub-id-type="pmid">11896059</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Posttranslational enzymes in the biosynthesis of collagen: intracellular enzymes</article-title>
+          <source>Methods Enzymol.</source>
+          <year>1982</year>
+          <volume>82</volume>
+          <fpage>245</fpage>
+          <lpage>304</lpage>
+          <pub-id pub-id-type="doi">10.1016/0076-6879(82)82067-3</pub-id>
+          <pub-id pub-id-type="pmid">6210830</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salo</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The lysyl hydroxylase isoforms are widely expressed during mouse embryogenesis, but obtain tissue- and cell-specific patterns in the adult</article-title>
+          <source>Matrix Biol.</source>
+          <year>2006</year>
+          <volume>25</volume>
+          <fpage>475</fpage>
+          <lpage>483</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matbio.2006.08.260</pub-id>
+          <pub-id pub-id-type="pmid">16996725</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kellokumpu</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sormunen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Heikkinen</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Lysyl hydroxylase, a collagen processing enzyme, exemplifies a novel class of luminally-oriented peripheral membrane proteins in the endoplasmic reticulum</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1994</year>
+          <volume>269</volume>
+          <fpage>30524</fpage>
+          <lpage>30529</lpage>
+          <?supplied-pmid 7982970?>
+          <pub-id pub-id-type="pmid">7982970</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heard</surname>
+              <given-names>ME</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Sc65-null mice provide evidence for a novel endoplasmic reticulum complex regulating collagen lysyl hydroxylation</article-title>
+          <source>PLoS Genet.</source>
+          <year>2016</year>
+          <volume>12</volume>
+          <fpage>e1006002</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pgen.1006002</pub-id>
+          <pub-id pub-id-type="pmid">27119146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duran</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A chaperone complex formed by HSP47, FKBP65, and BiP modulates telopeptide lysyl hydroxylation of Type I procollagen</article-title>
+          <source>J. Bone Miner. Res.</source>
+          <year>2017</year>
+          <volume>32</volume>
+          <fpage>1309</fpage>
+          <lpage>1319</lpage>
+          <pub-id pub-id-type="doi">10.1002/jbmr.3095</pub-id>
+          <pub-id pub-id-type="pmid">28177155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gjaltema</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>van der Stoel</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Boersema</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bank</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Disentangling mechanisms involved in collagen pyridinoline cross-linking: The immunophilin FKBP65 is critical for dimerization of lysyl hydroxylase 2</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2016</year>
+          <volume>113</volume>
+          <fpage>7142</fpage>
+          <lpage>7147</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.1600074113</pub-id>
+          <pub-id pub-id-type="pmid">27298363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liefhebber</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Punt</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Spaan</surname>
+              <given-names>WJ</given-names>
+            </name>
+            <name>
+              <surname>van Leeuwen</surname>
+              <given-names>HC</given-names>
+            </name>
+          </person-group>
+          <article-title>The human collagen beta(1-O)galactosyltransferase, GLT25D1, is a soluble endoplasmic reticulum localized protein</article-title>
+          <source>Bmc. Cell. Biol.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>33</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2121-11-33</pub-id>
+          <pub-id pub-id-type="pmid">20470363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salo</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lysyl hydroxylase 3 (LH3) modifies proteins in the extracellular space, a novel mechanism for matrix remodeling</article-title>
+          <source>J. Cell. Physiol.</source>
+          <year>2006</year>
+          <volume>207</volume>
+          <fpage>644</fpage>
+          <lpage>653</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcp.20596</pub-id>
+          <pub-id pub-id-type="pmid">16447251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Ristiluoma</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Salo</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Eskelinen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Lysyl hydroxylase 3 is secreted from cells by two pathways</article-title>
+          <source>J. Cell. Physiol.</source>
+          <year>2012</year>
+          <volume>227</volume>
+          <fpage>668</fpage>
+          <lpage>675</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcp.22774</pub-id>
+          <pub-id pub-id-type="pmid">21465473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watt</surname>
+              <given-names>SA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lysyl hydroxylase 3 localizes to epidermal basement membrane and is reduced in patients with recessive dystrophic epidermolysis bullosa</article-title>
+          <source>PLoS ONE</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>e0137639</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0137639</pub-id>
+          <pub-id pub-id-type="pmid">26380979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banushi</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Regulation of post-Golgi LH3 trafficking is essential for collagen homeostasis</article-title>
+          <source>Nat. Commun.</source>
+          <year>2016</year>
+          <volume>7</volume>
+          <fpage>12111</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms12111</pub-id>
+          <pub-id pub-id-type="pmid">27435297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gruber</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Autosomal recessive Keratoderma-Ichthyosis-Deafness (ARKID) syndrome is caused by VPS33B mutations affecting Rab protein interaction and collagen modification</article-title>
+          <source>J. Invest. Dermatol.</source>
+          <year>2016</year>
+          <volume>S0022â202X</volume>
+          <fpage>32800</fpage>
+          <lpage>32807</lpage>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Expanding the lysyl hydroxylase toolbox: new insights into the localization and activities of lysyl hydroxylase 3 (LH3)</article-title>
+          <source>J. Cell. Physiol.</source>
+          <year>2007</year>
+          <volume>212</volume>
+          <fpage>323</fpage>
+          <lpage>329</lpage>
+          <pub-id pub-id-type="doi">10.1002/jcp.21036</pub-id>
+          <pub-id pub-id-type="pmid">17516569</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gloster</surname>
+              <given-names>TM</given-names>
+            </name>
+          </person-group>
+          <article-title>Advances in understanding glycosyltransferases from a structural perspective</article-title>
+          <source>Curr. Opin. Struct. Biol.</source>
+          <year>2014</year>
+          <volume>28</volume>
+          <fpage>131</fpage>
+          <lpage>141</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.sbi.2014.08.012</pub-id>
+          <pub-id pub-id-type="pmid">25240227</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lairson</surname>
+              <given-names>LL</given-names>
+            </name>
+            <name>
+              <surname>Henrissat</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Withers</surname>
+              <given-names>SG</given-names>
+            </name>
+          </person-group>
+          <article-title>Glycosyltransferases: structures, functions, and mechanisms</article-title>
+          <source>Annu. Rev. Biochem.</source>
+          <year>2008</year>
+          <volume>77</volume>
+          <fpage>521</fpage>
+          <lpage>555</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.biochem.76.061005.092322</pub-id>
+          <pub-id pub-id-type="pmid">18518825</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aik</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>McDonough</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Thalhammer</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chowdhury</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schofield</surname>
+              <given-names>CJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of the jelly-roll fold in substrate binding by 2-oxoglutarate oxygenases</article-title>
+          <source>Curr. Opin. Struct. Biol.</source>
+          <year>2012</year>
+          <volume>22</volume>
+          <fpage>691</fpage>
+          <lpage>700</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.sbi.2012.10.001</pub-id>
+          <pub-id pub-id-type="pmid">23142576</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McDonough</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Loenarz</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Chowdhury</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Clifton</surname>
+              <given-names>IJ</given-names>
+            </name>
+            <name>
+              <surname>Schofield</surname>
+              <given-names>CJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural studies on human 2-oxoglutarate dependent oxygenases</article-title>
+          <source>Curr. Opin. Struct. Biol.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>659</fpage>
+          <lpage>672</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.sbi.2010.08.006</pub-id>
+          <pub-id pub-id-type="pmid">20888218</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pirskanen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kaimio</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Myllyla</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+          </person-group>
+          <article-title>Site-directed mutagenesis of human lysyl hydroxylase expressed in insect cells. Identification of histidine residues and an aspartic acid residue critical for catalytic activity</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1996</year>
+          <volume>271</volume>
+          <fpage>9398</fpage>
+          <lpage>9402</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.271.16.9398</pub-id>
+          <pub-id pub-id-type="pmid">8621606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heikkinen</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Dimerization of human lysyl hydroxylase 3 (LH3) is mediated by the amino acids 541-547</article-title>
+          <source>Matrix Biol.</source>
+          <year>2011</year>
+          <volume>30</volume>
+          <fpage>27</fpage>
+          <lpage>33</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.matbio.2010.10.002</pub-id>
+          <pub-id pub-id-type="pmid">20955792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>HF</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Pro-metastatic collagen lysyl hydroxylase dimer assemblies stabilized by Fe(2+)-binding</article-title>
+          <source>Nat. Commun.</source>
+          <year>2018</year>
+          <volume>9</volume>
+          <fpage>512</fpage>
+          <pub-id pub-id-type="doi">10.1038/s41467-018-02859-z</pub-id>
+          <pub-id pub-id-type="pmid">29410444</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gastinel</surname>
+              <given-names>LN</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bovine alpha1,3-galactosyltransferase catalytic domain structure and its relationship with ABO histo-blood group and glycosphingolipid glycosyltransferases</article-title>
+          <source>EMBO J.</source>
+          <year>2001</year>
+          <volume>20</volume>
+          <fpage>638</fpage>
+          <lpage>649</lpage>
+          <pub-id pub-id-type="doi">10.1093/emboj/20.4.638</pub-id>
+          <pub-id pub-id-type="pmid">11179209</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiggins</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Munro</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Activity of the yeast MNN1 alpha-1,3-mannosyltransferase requires a motif conserved in many other families of glycosyltransferases</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1998</year>
+          <volume>95</volume>
+          <fpage>7945</fpage>
+          <lpage>7950</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.95.14.7945</pub-id>
+          <pub-id pub-id-type="pmid">9653120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Passoja</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Myllyharju</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pirskanen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of arginine-700 as the residue that binds the C-5 carboxyl group of 2-oxoglutarate in human lysyl hydroxylase 1</article-title>
+          <source>FEBS Lett.</source>
+          <year>1998</year>
+          <volume>434</volume>
+          <fpage>145</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0014-5793(98)00966-1</pub-id>
+          <pub-id pub-id-type="pmid">9738467</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Koski</surname>
+              <given-names>MK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The crystal structure of an algal prolyl 4-hydroxylase complexed with a proline-rich peptide reveals a novel buried tripeptide binding motif</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>25290</fpage>
+          <lpage>25301</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.014050</pub-id>
+          <pub-id pub-id-type="pmid">19553701</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ryhanen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Kivirikko</surname>
+              <given-names>KI</given-names>
+            </name>
+          </person-group>
+          <article-title>Hydroxylation of lysyl residues in native and denatured protocollagen by protocollagen lysyl hydroxylase in vitro</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>1974</year>
+          <volume>343</volume>
+          <fpage>129</fpage>
+          <lpage>137</lpage>
+          <pub-id pub-id-type="doi">10.1016/0304-4165(74)90244-X</pub-id>
+          <pub-id pub-id-type="pmid">4597641</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Horita</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of the ribosomal oxygenase OGFOD1 provides insights into the regio- and stereoselectivity of prolyl hydroxylases</article-title>
+          <source>Structure</source>
+          <year>2015</year>
+          <volume>23</volume>
+          <fpage>639</fpage>
+          <lpage>652</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.str.2015.01.014</pub-id>
+          <pub-id pub-id-type="pmid">25728928</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Longbotham</surname>
+              <given-names>JE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure and mechanism of a viral collagen prolyl hydroxylase</article-title>
+          <source>Biochemistry</source>
+          <year>2015</year>
+          <volume>54</volume>
+          <fpage>6093</fpage>
+          <lpage>6105</lpage>
+          <pub-id pub-id-type="doi">10.1021/acs.biochem.5b00789</pub-id>
+          <pub-id pub-id-type="pmid">26368022</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Subramani</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mulligan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Berg</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Expression of the mouse dihydrofolate reductase complementary deoxyribonucleic acid in simian virus 40 vectors</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>1981</year>
+          <volume>1</volume>
+          <fpage>854</fpage>
+          <lpage>864</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.1.9.854</pub-id>
+          <pub-id pub-id-type="pmid">9279398</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Olieric</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Data-collection strategy for challenging native SAD phasing</article-title>
+          <source>Acta Crystallogr. D Struct. Biol.</source>
+          <year>2016</year>
+          <volume>72</volume>
+          <fpage>421</fpage>
+          <lpage>429</lpage>
+          <pub-id pub-id-type="doi">10.1107/S2059798315024110</pub-id>
+          <pub-id pub-id-type="pmid">26960129</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vonrhein</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Data processing and analysis with the autoPROC toolbox</article-title>
+          <source>Acta Crystallogr. Sect. D</source>
+          <year>2011</year>
+          <volume>67</volume>
+          <fpage>293</fpage>
+          <lpage>302</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444911007773</pub-id>
+          <pub-id pub-id-type="pmid">21460447</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tickle</surname>
+              <given-names>IJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>STARANISO</source>
+          <year>2018</year>
+          <publisher-loc>Cambridge, United Kingdom</publisher-loc>
+          <publisher-name>Global Phasing Ltd.</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sheldrick</surname>
+              <given-names>GM</given-names>
+            </name>
+          </person-group>
+          <article-title>Experimental phasing with SHELXC/D/E: combining chain tracing with density modification</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <year>2010</year>
+          <volume>66</volume>
+          <fpage>479</fpage>
+          <lpage>485</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444909038360</pub-id>
+          <pub-id pub-id-type="pmid">20383001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR52">
+        <label>52.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pape</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>TR</given-names>
+            </name>
+          </person-group>
+          <article-title>HKL2MAP: a graphical user interface for macromolecular phasing with SHELX programs</article-title>
+          <source>J. Appl. Crystallogr.</source>
+          <year>2004</year>
+          <volume>37</volume>
+          <fpage>843</fpage>
+          <lpage>844</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0021889804018047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR53">
+        <label>53.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bricogne</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Vonrhein</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Flensburg</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Schiltz</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Paciorek</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Generation, representation and flow of phase information in structure determination: recent developments in and around SHARP 2.0</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <year>2003</year>
+          <volume>59</volume>
+          <fpage>2023</fpage>
+          <lpage>2030</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444903017694</pub-id>
+          <pub-id pub-id-type="pmid">14573958</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR54">
+        <label>54.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skubak</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Pannu</surname>
+              <given-names>NS</given-names>
+            </name>
+          </person-group>
+          <article-title>Automatic protein structure solution from weak X-ray data</article-title>
+          <source>Nat. Commun.</source>
+          <year>2013</year>
+          <volume>4</volume>
+          <fpage>2777</fpage>
+          <pub-id pub-id-type="doi">10.1038/ncomms3777</pub-id>
+          <pub-id pub-id-type="pmid">24231803</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR55">
+        <label>55.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cowtan</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>The Buccaneer software for automated model building. 1. Tracing protein chains</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <year>2006</year>
+          <volume>62</volume>
+          <fpage>1002</fpage>
+          <lpage>1011</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444906022116</pub-id>
+          <pub-id pub-id-type="pmid">16929101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR56">
+        <label>56.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Emsley</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Lohkamp</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>WG</given-names>
+            </name>
+            <name>
+              <surname>Cowtan</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Features and development of Coot</article-title>
+          <source>Acta Crystallogr. Sect. D</source>
+          <year>2010</year>
+          <volume>66</volume>
+          <fpage>486</fpage>
+          <lpage>501</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444910007493</pub-id>
+          <pub-id pub-id-type="pmid">20383002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR57">
+        <label>57.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCoy</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phaser crystallographic software</article-title>
+          <source>J. Appl. Crystallogr.</source>
+          <year>2007</year>
+          <volume>40</volume>
+          <fpage>658</fpage>
+          <lpage>674</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0021889807021206</pub-id>
+          <pub-id pub-id-type="pmid">19461840</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR58">
+        <label>58.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adams</surname>
+              <given-names>PD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PHENIX: a comprehensive Python-based system for macromolecular structure solution</article-title>
+          <source>Acta Crystallogr D Biol Crystallogr</source>
+          <year>2010</year>
+          <volume>66</volume>
+          <fpage>213</fpage>
+          <lpage>221</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444909052925</pub-id>
+          <pub-id pub-id-type="pmid">20124702</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR59">
+        <label>59.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>VB</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>MolProbity: all-atom structure validation for macromolecular crystallography</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <year>2010</year>
+          <volume>66</volume>
+          <fpage>12</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0907444909042073</pub-id>
+          <pub-id pub-id-type="pmid">20057044</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR60">
+        <label>60.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gore</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Validation of structures in the protein data bank</article-title>
+          <source>Structure</source>
+          <year>2017</year>
+          <volume>25</volume>
+          <fpage>1916</fpage>
+          <lpage>1927</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.str.2017.10.009</pub-id>
+          <pub-id pub-id-type="pmid">29174494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR61">
+        <label>61.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lutteke</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>von der Lieth</surname>
+              <given-names>CW</given-names>
+            </name>
+          </person-group>
+          <article-title>pdb-care (PDB carbohydrate residue check): a program to support annotation of complex carbohydrate structures in PDB files</article-title>
+          <source>BMC Bioinf.</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>69</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-5-69</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR62">
+        <label>62.</label>
+        <mixed-citation publication-type="other">Schrodinger, LLC. The PyMOL Molecular Graphics System, Version 1.3r1. (2010).</mixed-citation>
+      </ref>
+      <ref id="CR63">
+        <label>63.</label>
+        <mixed-citation publication-type="other">Brennich, M. E., Round, A. R. &amp; Hutin, S. Online size-exclusion and ion-exchange chromatography on a SAXS beamline. <italic>J. Vis. Exp</italic>. <bold>119</bold>,Â  e54861 (2017).Â </mixed-citation>
+      </ref>
+      <ref id="CR64">
+        <label>64.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Round</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>BioSAXS Sample Changer: a robotic sample changer for rapid and reliable high-throughput X-ray solution scattering experiments</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <year>2015</year>
+          <volume>71</volume>
+          <fpage>67</fpage>
+          <lpage>75</lpage>
+          <pub-id pub-id-type="doi">10.1107/S1399004714026959</pub-id>
+          <pub-id pub-id-type="pmid">25615861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR65">
+        <label>65.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Panjkovich</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Svergun</surname>
+              <given-names>DI</given-names>
+            </name>
+          </person-group>
+          <article-title>CHROMIXS: automatic and interactive analysis of chromatography-coupled small angle X-ray scattering data</article-title>
+          <source>Bioinformatics</source>
+          <year>2017</year>
+          <volume>34</volume>
+          <fpage>1944</fpage>
+          <lpage>1946</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btx846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR66">
+        <label>66.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Konarev</surname>
+              <given-names>PV</given-names>
+            </name>
+            <name>
+              <surname>Volkov</surname>
+              <given-names>VV</given-names>
+            </name>
+            <name>
+              <surname>Sokolova</surname>
+              <given-names>AV</given-names>
+            </name>
+            <name>
+              <surname>Koch</surname>
+              <given-names>MHJ</given-names>
+            </name>
+            <name>
+              <surname>Svergun</surname>
+              <given-names>DI</given-names>
+            </name>
+          </person-group>
+          <article-title>PRIMUS: a Windows PC-based system for small-angle scattering data analysis</article-title>
+          <source>J. Appl. Crystallogr.</source>
+          <year>2003</year>
+          <volume>36</volume>
+          <fpage>1277</fpage>
+          <lpage>1282</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0021889803012779</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR67">
+        <label>67.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franke</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ATSAS 2.8: a comprehensive data analysis suite for small-angle scattering from macromolecular solutions</article-title>
+          <source>J. Appl. Crystallogr.</source>
+          <year>2017</year>
+          <volume>50</volume>
+          <fpage>1212</fpage>
+          <lpage>1225</lpage>
+          <pub-id pub-id-type="doi">10.1107/S1600576717007786</pub-id>
+          <pub-id pub-id-type="pmid">28808438</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR68">
+        <label>68.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Svergun</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Barberato</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Koch</surname>
+              <given-names>MHJ</given-names>
+            </name>
+          </person-group>
+          <article-title>CRYSOL - a program to evaluate X-ray solution scattering of biological macromolecules from atomic coordinates</article-title>
+          <source>J. Appl. Crystallogr.</source>
+          <year>1995</year>
+          <volume>28</volume>
+          <fpage>768</fpage>
+          <lpage>773</lpage>
+          <pub-id pub-id-type="doi">10.1107/S0021889895007047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR69">
+        <label>69.</label>
+        <mixed-citation publication-type="other">Graphpad Prism 7. (Graphpad Software, La Jolla, California, USA).</mixed-citation>
+      </ref>
+      <ref id="CR70">
+        <label>70.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jurrus</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Improvements to the APBS biomolecular solvation software suite</article-title>
+          <source>Protein Sci.</source>
+          <year>2018</year>
+          <volume>27</volume>
+          <fpage>112</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="doi">10.1002/pro.3280</pub-id>
+          <pub-id pub-id-type="pmid">28836357</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

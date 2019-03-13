@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:48:49Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3679165" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3679165</identifier><datestamp>2013-06-17</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3679165</article-id>
+      <article-id pub-id-type="pmcid">PMC3679165</article-id>
+      <article-id pub-id-type="pmc-uid">3679165</article-id>
+      <article-id pub-id-type="pmid">23776530</article-id>
+      <article-id pub-id-type="pmid">23776530</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-35878</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0065705</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>DNA-binding proteins</subject>
+                <subject>Protein interactions</subject>
+                <subject>Protein structure</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Macromolecular Structure Analysis</subject>
+              <subj-group>
+                <subject>Protein Structure</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Sequence Analysis</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Proteomics</subject>
+            <subj-group>
+              <subject>Protein Interactions</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Method for WD40 Repeat Detection and Secondary Structure Prediction</article-title>
+        <alt-title alt-title-type="running-head">WD40 Repeat and Its Secondary Structure Prediction</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Yang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Fan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhuo</surname>
+            <given-names>Zhu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Xian-Hui</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wu</surname>
+            <given-names>Yun-Dong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Lab of Computational Chemistry and Drug Design, Laboratory of Chemical Genomics, Peking University Shenzhen Graduate School, Shenzhen, P. R. China</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>College of Chemistry, Peking University, Beijing, P. R. China</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Tosatto</surname>
+            <given-names>Silvio C.E.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>UniversitÃ  di Padova, Italy</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>wuxh@pkusz.edu.cn</email> (XHW); <email>wuyd@pkusz.edu.cn</email> (YDW)</corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: YW XHW YDW. Performed the experiments: YW FJ ZZ. Analyzed the data: YW XHW YDW. Contributed reagents/materials/analysis tools: YW. Wrote the paper: YW XHW YDW.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>11</day>
+        <month>6</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>6</issue>
+      <elocation-id>e65705</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>11</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>2</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2013 Wang et al</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Wang et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>WD40-repeat proteins (WD40s), as one of the largest protein families in eukaryotes, play vital roles in assembling protein-protein/DNA/RNA complexes. WD40s fold into similar Î²-propeller structures despite diversified sequences. A program <bold>WDSP</bold> (<underline>WD</underline>40 repeat protein <underline>S</underline>tructure <underline>P</underline>redictor) has been developed to accurately identify WD40 repeats and predict their secondary structures. The method is designed specifically for WD40 proteins by incorporating both local residue information and non-local family-specific structural features. It overcomes the problem of highly diversified protein sequences and variable loops. In addition, WDSP achieves a better prediction in identifying multiple WD40-domain proteins by taking the global combination of repeats into consideration. In secondary structure prediction, the average Q3 accuracy of WDSP in jack-knife test reaches 93.7%. A disease related protein LRRK2 was used as a representive example to demonstrate the structure prediction.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>Financial support by the National Science Foundation of China (21133002, <ext-link ext-link-type="uri" xlink:href="http://www.nsfc.gov.cn/e_nsfc/desktop/zn/0101.htm">http://www.nsfc.gov.cn/e_nsfc/desktop/zn/0101.htm</ext-link>), the Shenzhen Peacock Program, and Peking University Shenzhen Graduate School is acknowledged. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="13"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>WD40-repeat domains/proteins, as one of largest protein families, mainly provide platforms to assemble proteins, DNA or RNA into functional complexes <xref rid="pone.0065705-Neer1" ref-type="bibr">[1]</xref>, <xref rid="pone.0065705-Stirnimann1" ref-type="bibr">[2]</xref>. These protein complexes play roles in DNA replication <xref rid="pone.0065705-Lee1" ref-type="bibr">[3]</xref>, <xref rid="pone.0065705-Shen1" ref-type="bibr">[4]</xref>, <xref rid="pone.0065705-Chakraborty1" ref-type="bibr">[5]</xref>, transcription <xref rid="pone.0065705-Jennings1" ref-type="bibr">[6]</xref>, RNA processing <xref rid="pone.0065705-Vagin1" ref-type="bibr">[7]</xref>, histone modification <xref rid="pone.0065705-Migliori1" ref-type="bibr">[8]</xref>/recognition <xref rid="pone.0065705-Suganuma1" ref-type="bibr">[9]</xref>, protein degradation <xref rid="pone.0065705-Jackson1" ref-type="bibr">[10]</xref>, <xref rid="pone.0065705-Biedermann1" ref-type="bibr">[11]</xref> and other processes <xref rid="pone.0065705-Smith1" ref-type="bibr">[12]</xref>, <xref rid="pone.0065705-Fulop1" ref-type="bibr">[13]</xref>, <xref rid="pone.0065705-Li1" ref-type="bibr">[14]</xref>, <xref rid="pone.0065705-Xu1" ref-type="bibr">[15]</xref>.</p>
+      <p>A WD40 repeat usually contains 40â60 residues with conserved GH (Gly-His) near its N-terminus and conserved WD (Trp-Asp) at its C-terminus. As shown in <xref ref-type="fig" rid="pone-0065705-g001">
+<bold>Figure 1A</bold>
+</xref>, each such repeat folds into a 4-strand Î²-sheet. Sequentially, a WD40 repeat is composed of strands d(S<sub>d</sub>), a(S<sub>a</sub>), b(S<sub>b</sub>) and c(S<sub>c</sub>) in order but structurally S<sub>a</sub>, S<sub>b</sub>, S<sub>c</sub> and S<sub>d</sub>, are aligned from inside to outside. Loops connecting the sequential strands are called loop ab (L<sub>ab</sub>), loop bc (L<sub>bc</sub>), loop cd (L<sub>cd</sub>) and loop da (L<sub>da</sub>) in the text. Typically, each WD40 domain contains 7 (the most common) to 8 repeats, which fold into an encircled 7/8-bladed Î²-propeller structure. In few cases, WD40 domains only contain 6 repeats. The 7<sup>th</sup> repeat is provided by another protein to form an enclosed Î²-propeller, such as SEC13 <xref rid="pone.0065705-Hsia1" ref-type="bibr">[16]</xref> or SEH1 <xref rid="pone.0065705-Brohawn1" ref-type="bibr">[17]</xref>. Some WD40-repeat proteins (WD40s) have as many as 14 repeats. Examples are SRO7 <xref rid="pone.0065705-Hattendorf1" ref-type="bibr">[18]</xref> and AIP1 <xref rid="pone.0065705-Mohri1" ref-type="bibr">[19]</xref>, which fold into two enclosed Î²-propellers.</p>
+      <fig id="pone-0065705-g001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g001</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>The structural hierarchy of WD40.</title>
+          <p>
+<bold>(A)</bold> WD40 domain in 2D scheme. The definitions of WD40 blades and WD40 repeats are different. A WD40 blade, highlighted in blue, is S<sub>a</sub>-S<sub>b</sub>-S<sub>c</sub>-S<sub>d</sub>. A WD40 repeat, highlighted in red, is S<sub>d</sub>-S<sub>a</sub>-S<sub>b</sub>-S<sub>c</sub>. (<bold>B</bold>) The classical tertiary structure of a WD40 domain. (<bold>C</bold>) Topology and structural features of a WD blade. Top, bottom and side surfaces and inner core part are drawn in different colors. The residues and corresponding dashed lines highlighted in red are involved in DHSW tetrad hydrogen bonded network. The residues in blue are involved in Î²-bulges. Normally, two Î²-bulges (WD<sub>bâa</sub> and WD<sub>câd</sub>) exist in one WD40 blade.</p>
+        </caption>
+        <graphic xlink:href="pone.0065705.g001"/>
+      </fig>
+      <p>Due to their vital functions, a number of methods are available for detecting WD40 repeats from primary sequences. In 1994, Neer <italic>et al</italic> provided a regular expression for WD40 repeat identification <xref rid="pone.0065705-Neer1" ref-type="bibr">[1]</xref>, which was successfully applied to annotate 29 WD40s. In 2000, 32 functional subfamilies were further identified to contain WD40 repeats <xref rid="pone.0065705-Yu1" ref-type="bibr">[20]</xref>. Currently, the most widely used methods, PROSITE <xref rid="pone.0065705-Sigrist1" ref-type="bibr">[21]</xref>, Pfam <xref rid="pone.0065705-Coggill1" ref-type="bibr">[22]</xref>, SMART <xref rid="pone.0065705-Schultz1" ref-type="bibr">[23]</xref> and REP <xref rid="pone.0065705-Andrade1" ref-type="bibr">[24]</xref>, are all providing annotation for WD40 repeats. Particularly, REP <xref rid="pone.0065705-Andrade1" ref-type="bibr">[24]</xref> is one of the default annotation methods used in UniProt Database.</p>
+      <p>However, the sequence diversity makes the identification of WD40 repeats difficult <xref rid="pone.0065705-Neer1" ref-type="bibr">[1]</xref>, <xref rid="pone.0065705-Stirnimann1" ref-type="bibr">[2]</xref>, <xref rid="pone.0065705-Fulop1" ref-type="bibr">[13]</xref>, <xref rid="pone.0065705-Xu1" ref-type="bibr">[15]</xref>. In the Superfamily database <xref rid="pone.0065705-Gough1" ref-type="bibr">[25]</xref>, 1222 proteins in <italic>Homo sapiens</italic> have been annotated to contain 1305 WD40 domains. Their average pairwise sequence identity is only about 21%. The low sequence identity restricts the current methods from identifying the WD40 repeats completely. Even in reproducing WD40 domains with crystal structures, the average WD40 repeat number per domain ranges from 3.4 to 5.9. For example, DNA damage-binding protein 2 (DDB2) is a 7-repeat WD40 protein with solved crystal structure (PDB code: 3EI4) <xref rid="pone.0065705-Scrima1" ref-type="bibr">[26]</xref>. However, only 5 repeats are identified by UniProt, REP and SMART and 3 repeats are detected by PROSITE and Pfam. Moreover, the detected WD40 repeats are normally shorter than they really are in its crystal structure. The missed parts of sequence impede the accurate slicing of WD40 domain. In addition, these repeat detection methods cannot provide domain topology information without knowing the secondary structure in the repeat.</p>
+      <p>The topology of a WD40 domain can be established when its secondary structure is accurately predicted as well. Through over 50 years of development, the state-of-art secondary structure predicting methods have been improved dramatically <xref rid="pone.0065705-Pirovano1" ref-type="bibr">[27]</xref>. The widely used methods, for example, GOR4 <xref rid="pone.0065705-Gibrat1" ref-type="bibr">[28]</xref>, PHD <xref rid="pone.0065705-Rost1" ref-type="bibr">[29]</xref>, PROF <xref rid="pone.0065705-Ouali1" ref-type="bibr">[30]</xref>, SSpro <xref rid="pone.0065705-Baldi1" ref-type="bibr">[31]</xref> and PSIPRED <xref rid="pone.0065705-Jones1" ref-type="bibr">[32]</xref>, are able to provide reasonably good predictions. Especially for PSIPRED, the overall three-state accuracy (Q3) has reached 81.4% (Â±0.6%) <xref rid="pone.0065705-Buchan1" ref-type="bibr">[33]</xref>. However, accurate prediction of Î²-sheets remains a challenge compared with Î±-helixes, because Î²-sheets require hydrogen bonds between linearly distant residues. Some defects in the secondary structure prediction are usually observed in Î²-strand. The predicted Î²-strands are sometimes shorter, longer or shifted by several residues as compared with crystal structures. These defects lead to incorrect topology predictions, three-dimensional structure modeling and functional residue interpretation.</p>
+      <p>The low sequence identity does not impede WD40s on folding into the similar structure, Î²-propeller. According the previous studies, one possibility is that they share some vital structural features. As shown in <xref ref-type="fig" rid="pone-0065705-g001">
+<bold>Figure 1C</bold>
+</xref>, the conserved hydrogen-bonded DHSW tetrad, formed by Asp-His-Ser/Thr-Trp <xref rid="pone.0065705-Wu1" ref-type="bibr">[34]</xref>, <xref rid="pone.0065705-Wu2" ref-type="bibr">[35]</xref>, and Î²-bulges <xref rid="pone.0065705-Wu3" ref-type="bibr">[36]</xref>, <xref rid="pone.0065705-Richardson1" ref-type="bibr">[37]</xref>, <xref rid="pone.0065705-Chan1" ref-type="bibr">[38]</xref> are indispensable for maintaining protein stability <xref rid="pone.0065705-Wu2" ref-type="bibr">[35]</xref> and provide binding ability <xref rid="pone.0065705-Wu3" ref-type="bibr">[36]</xref>. Here, we present a fast, robust and accurate method, <underline>WD</underline>40-repeat protein <underline>S</underline>tructure <underline>P</underline>redictor (<bold>WDSP</bold>), which incorporates local residue propensities, nonlocal information of structural features and repeat number preference to enhance the prediction.</p>
+      <p>Using this method, we are able to identify new WD40 repeats and domains from protein sequences. Over 2000 known WD40 repeats are identified in the Swiss-Prot database. In addition, the method also detects 76 novel WD40s in the database. For example, Tau 91 from <italic>S. cerevisiae</italic> was not detected to be a WD40 protein by the currently available methods, even though the crystal structure is available (PDB code 2J04). Finally, one disease related WD40 protein, LRRK2 <xref rid="pone.0065705-Mata1" ref-type="bibr">[39]</xref>, <xref rid="pone.0065705-Mata2" ref-type="bibr">[40]</xref>, <xref rid="pone.0065705-Webber1" ref-type="bibr">[41]</xref>, <xref rid="pone.0065705-Tan1" ref-type="bibr">[42]</xref>, <xref rid="pone.0065705-Lee2" ref-type="bibr">[43]</xref>, is used to demonstrate the capability of WD40 repeat annotation and secondary structure prediction.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>The Overview of WDSP</title>
+        <p>The WDSP method consists of three independent parts (<xref ref-type="fig" rid="pone-0065705-g002">
+<bold>Figure 2</bold>
+</xref>). The first part includes three scoring functions, which are used to comprehensively estimate the quality of predicted strands, repeats and domains. The second part is composed of multiple engines, which are able to remove the repeats with low scores and further combine optimal WD40 repeats into closure WD40 domains according to the scoring functions. The third part is the criteria that support the judgment of WD40 strands, repeats and domain.</p>
+        <fig id="pone-0065705-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Development of the WDSP.</title>
+            <p>The scoring functions, the searching/optimization engines and the evaluation criteria are developed independently. The scoring functions and criteria are used in the later optimization procedures (dashed arrows). The criteria values are optimized based on the results and the performances of the engines (blue solid arrows).</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>An Unbiased Data Set of Available WD40 Crystal Structures</title>
+        <p>The first step of scoring function development is to establish a database of WD40 proteins with known crystal structures, which are classified by both CATH/SCOP and assignments from the literature. Every currently known WD40 protein has at least one DHSW tetrad H-bond network. By calculating their WD40 domain pairwise sequence identities, 33 WD40 proteins were selected in the training set (<bold><xref ref-type="supplementary-material" rid="pone.0065705.s005">Table S1</xref></bold>). These proteins have no more than 32% pairwise sequence identities in the WD40 domains. 239 WD40 repeats in 33 proteins have average 16% pairwise sequence identity (93.3% of repeats have less than 30% pairwise sequence identity). This ensures a statistically unbiased training set.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Assignment of Secondary Structure Elements</title>
+        <p>The second step is to assign four strands (S<sub>a</sub>, S<sub>b</sub>, S<sub>c</sub> and S<sub>d</sub>) and align the sequences according to their secondary structures. To avoid secondary structure assignment variation among different methods <xref rid="pone.0065705-Rost2" ref-type="bibr">[44]</xref>, we assign 239 WD40 repeats by using the structural features as âlandmarksâ. As shown in <xref ref-type="fig" rid="pone-0065705-g003">
+<bold>Figure 3</bold>
+</xref>, the R<sub>1</sub> and R<sub>2</sub> of the WD<sub>bâa</sub> Î²-bulge were assigned as the 2<sup>nd</sup> and the 3<sup>rd</sup> residues of S<sub>a</sub>. The Ser/Thr residues in the tetrad and the X position in WD<sub>bâa</sub> were the 4<sup>th</sup> and 5<sup>th</sup> residues of S<sub>b</sub>. The X positions of WD<sub>câd</sub> and Trp residue in the tetrad were assigned as the 4<sup>th</sup> and 5<sup>th</sup> residues of S<sub>c</sub>. The 3<sup>rd</sup> and the 4<sup>th</sup> residues of S<sub>d</sub> are the R<sub>1</sub> and R<sub>2</sub> residues of WD<sub>câd</sub>. As usual, the length of each strand is kept to be six residues <xref rid="pone.0065705-Neer1" ref-type="bibr">[1]</xref>, <xref rid="pone.0065705-Stirnimann1" ref-type="bibr">[2]</xref>, <xref rid="pone.0065705-Smith1" ref-type="bibr">[12]</xref>, <xref rid="pone.0065705-Xu1" ref-type="bibr">[15]</xref>, <xref rid="pone.0065705-Yu1" ref-type="bibr">[20]</xref>. Thus, the remaining residues in the Î²-strands can be assigned according to these landmarks. On average, the resulting assignment of 33 WD proteins has over 90% Q3 similarity compared with the assignment of DSSP <xref rid="pone.0065705-Kabsch1" ref-type="bibr">[45]</xref> or STRIDE <xref rid="pone.0065705-Heinig1" ref-type="bibr">[46]</xref>. This value is similar to the intrinsic discrepancy among different assignment methods <xref rid="pone.0065705-Martin1" ref-type="bibr">[47]</xref>, <xref rid="pone.0065705-Zhang1" ref-type="bibr">[48]</xref>.</p>
+        <fig id="pone-0065705-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Secondary structure assignment of WD40 repeats based on the structural features.</title>
+            <p>The residues in Î²-bulges and the DHSW tetrad are shown in blue and red colors, respectively. These residues are aligned in a higher priority. The blocks with numbers are assigned to be residues in the Î²-strand secondary structure.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>The Generation of WD40 Repeat Sequence Logo</title>
+        <p>In the secondary structure assignment, all six-residue Î²-strands were preferentially and exactly aligned. The left loop regions were aligned using the BLOSUM62 score matrix. For the loop region, we discard loops that are longer than 15 residues (less than 4% of the dataset). The remaining loops are then aligned by normal multiple sequence alignment. <xref ref-type="fig" rid="pone-0065705-g004">Figure 4</xref> shows the sequence logo of the WD40 repeat derived from these alignments. This sequence logo has some unique features compared to currently known sequence logos and it will be discussed in detail in the results section.</p>
+        <fig id="pone-0065705-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Sequence logo of the WD40 repeat in which the heights of letters show the conservations of the residues at the position.</title>
+            <p>The total height of the letters represents the information entropy of the position. The secondary structure is depicted below. The positions highlighted by red asterisks are potential hotspots positions on the top face involved in the protein-protein interactions. The blue asterisks indicate the relatively conserved positions in the loops are included in the S<sub>aa</sub> in <xref ref-type="disp-formula" rid="pone.0065705.e003">equation (3</xref>). The detailed residue frequencies in the sequence logo are listed in <xref ref-type="supplementary-material" rid="pone.0065705.s008">Table S4</xref>.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g004"/>
+        </fig>
+        <p>In order to establish a reliable sequence logo, the potential fluctuation of amino acid frequencies needs to be excluded because the number of WD40 repeats with available crystal structures is limited. The consistency of the residue frequencies has been analyzed by dividing the dataset into two groups. One group contains 119 randomly chosen WD40 repeats and the remaining 120 WD40 repeats belong to the other group. Two sequence logos have been developed from each of the two groups. The similarity between two logos is then compared (<bold><xref ref-type="supplementary-material" rid="pone.0065705.s001">Figure S1</xref></bold>). This process was repeated 10 times with ten independent divisions of 239 WD40 repeats. The similarity coefficients of the ten pairs of logos are calculated. The similarity coefficient <italic>S</italic> between two distributions Xâ=â{<italic>x<sub>i</sub></italic>}, Yâ=â{<italic>y<sub>i</sub></italic>} is calculated as:<disp-formula id="pone.0065705.e001"><graphic xlink:href="pone.0065705.e001.jpg" position="anchor" orientation="portrait"/><label>(1)</label></disp-formula>
+</p>
+        <p>S<sub>XY</sub> can be regarded as the value of cos(Î±). Î± is the angle between two 42Ã20 dimensional vectors X and Y (the sequence logo is composed of 42 residues in length with each of the 20 amino acids possible at every position), which represent two tested frequency logos. When and only when two distributions are the same after normalization, the similarity coefficient is S<sub>XY</sub>â=â1.</p>
+        <p>According to our structural-feature-based assignment, the average S value is <bold>0.89</bold>. The self-consistent test indicates the sequence logo is reliable for developing the scoring function.</p>
+      </sec>
+      <sec id="s2e">
+        <title>The Scoring Functions in WDSP</title>
+        <p>The scoring functions are applied to evaluate the probability of a sequence fragment to be a WD40 strand, a repeat or a domain. The score of a single WD40 repeat is composed of four terms: (a) the propensities of individual residues (<italic>S<sub>aa</sub></italic>) at the different positions on every strand and one WD40 repeat; (b) the preferences for different loop lengths (<italic>S<sub>loop_len</sub></italic>), (c) the existence of cooperative H-bonds within the DHSW tetrads (<italic>S<sub>corr</sub></italic>) and (d) the secondary structure score as given by PSIPRED:<disp-formula id="pone.0065705.e002"><graphic xlink:href="pone.0065705.e002.jpg" position="anchor" orientation="portrait"/><label>(2)</label></disp-formula>
+</p>
+        <p>
+<italic>S<sub>aa</sub></italic> is the weighted sum of the amino acid propensities(on a logarithmic scale) at the 31 positions within a WD40 repeat, which include the 6Ã4 positions in the well aligned strands and some relatively conserved position in the loops. As shown in <xref ref-type="fig" rid="pone-0065705-g004">
+<bold>Figure 4</bold>
+</xref>, these residues marked by blue asterisks are located at L<sub>da</sub> (positions 8, 9), L<sub>ab</sub> (positions 19, 20, 21, 22) and L<sub>bc</sub> (position 31). These 31 positions are chosen because they are more conserved and have more reliable alignment.<disp-formula id="pone.0065705.e003"><graphic xlink:href="pone.0065705.e003.jpg" position="anchor" orientation="portrait"/><label>(3)</label></disp-formula>where <italic>P<sub>k</sub></italic>(<italic>i</italic>) is the probability of residue type <italic>i</italic> at the <italic>k</italic>
+<sup>th</sup> position of the WD40 repeat; <italic>P<sub>all</sub></italic>(<italic>i</italic>) is the probability of a residue type <italic>i</italic> in all eukaryote proteins. To avoid zero probabilities, we use a pseudo-count of 0.0001 to all the frequencies. The weight <italic>w</italic>
+<sub>k</sub> is the information entropy at <italic>k</italic>
+<sup>th</sup> position:</p>
+        <p>
+<disp-formula id="pone.0065705.e004"><graphic xlink:href="pone.0065705.e004.jpg" position="anchor" orientation="portrait"/><label>(4)</label></disp-formula>
+<italic>S<sub>loop_len</sub></italic> is the sum of the scores for <italic>l<sub>da</sub>, l<sub>ab</sub></italic> and <italic>l<sub>bc</sub></italic>, which are the lengths of loops L<sub>da</sub>, L<sub>ab</sub>, L<sub>bc</sub>, respectively:<disp-formula id="pone.0065705.e005"><graphic xlink:href="pone.0065705.e005.jpg" position="anchor" orientation="portrait"/><label>(5)</label></disp-formula>
+</p>
+        <p>For each term in (5):<disp-formula id="pone.0065705.e006"><graphic xlink:href="pone.0065705.e006.jpg" position="anchor" orientation="portrait"/><label>(6)</label></disp-formula>
+</p>
+        <p>
+<italic>P</italic>(<italic>l</italic>) is the probability of loop length <italic>l</italic>. The raw <italic>P</italic>(<italic>l</italic>) is smoothed and the logarithmic curve is fitted to an analytical function <bold>S1</bold> (marked by superscript â*â). For the same reason, a pseudo-count of 0.01 was added to all the frequencies of the loop length. Because long loops in crystal structures are very rare, the accurate statistical estimation of the distribution of long loops is difficult to obtain. To penalize long loops that have almost no appearances in the crystal structures, an empirical linear penalty function was added to the loop score <italic>S</italic>(<italic>l</italic>). The term <italic>t</italic>
+<sub>0</sub> is selected to smooth the transition between the fitted function and the linear function. The intercept <italic>l</italic>
+<sub>0</sub> is the loop length when the score in the fitted curve is lower than 1. And the slope <italic>t</italic> is adjusted according to the feedback of the secondary structure prediction result. The detailed values of <italic>S</italic>(<italic>l</italic>) are listed in <bold><xref ref-type="supplementary-material" rid="pone.0065705.s006">Table S2</xref> and <xref ref-type="supplementary-material" rid="pone.0065705.s007">TableS3</xref></bold>. The final curves of the fitted loop length scoring functions are shown in <bold><xref ref-type="supplementary-material" rid="pone.0065705.s002">Figure S2</xref>.</bold>
+</p>
+        <p>
+<italic>S<sub>corr</sub></italic> is added to the scoring function if there is pentad, tetrad or triad in a repeat: <disp-formula id="pone.0065705.e007"><graphic xlink:href="pone.0065705.e007.jpg" position="anchor" orientation="portrait"/><label>(7)</label></disp-formula>
+</p>
+        <p>In equation (7), <italic>P<sub>SDHSW</sub></italic> is the probability of Ser/Thr, Asp, His, Ser/Thr and Trp existing simultaneously at five certain positions, obtained from the training set. Here, the subscript <italic>S</italic> represents both amino acids Ser and Thr. The five positions for SDHSW pentads are Sc1, Lcd2, Lda3, Sb4 and Sc5, respectively.</p>
+        <p>For each position in the strands, <italic>S<sub>PSIPRED</sub></italic> is calculated as shown in <xref ref-type="disp-formula" rid="pone.0065705.e008">equation (8</xref>).<disp-formula id="pone.0065705.e008"><graphic xlink:href="pone.0065705.e008.jpg" position="anchor" orientation="portrait"/><label>(8)</label></disp-formula>
+</p>
+        <p>The result of PSIPRED is mainly used for the prediction of strand d in the repeat. In <xref ref-type="disp-formula" rid="pone.0065705.e008">equation (8</xref>), the PSIPREDâs confidence value (<italic>conf</italic>) and predicted state (E: sheet, C: coil, H: helix) of each position are used in the predicted strands. The scaling parameters were manually adjusted to accept that <italic>S<sub>PSIPRED</sub></italic> mainly affects strand d prediction. Because the sequence of strand d is much less conserved, the sequence logo is unable to identify strand d as efficient as other strands. Without <italic>S<sub>PSIPRED</sub></italic>, WDSP can still predict over 90% of Sa, Sb and Sc correctly, but drops to 60% for Sd. In comparison, PSIPRED can predict all strands with similar accuracy. Thus, our purpose is to determine Sd with the use of <italic>S<sub>PSIPRED</sub></italic>. The contribution of <italic>S<sub>PSIPRED</sub></italic> is well balanced by applying the current coefficients (0.1, â0.025, â0.1) in <xref ref-type="disp-formula" rid="pone.0065705.e008">equation 8</xref>. It contributes â¼65% for the score of Sd, but only 26.6% for the score of Sa, Sb and Sc and 16% of <italic>S<sub>repeat</sub></italic>. As a result, it enhances the Q3 accuracy by 1.5% of WDSP in the prediction of secondary structures.</p>
+        <p>The scoring function for an entire WD40 domain contains the scores <italic>S</italic>
+<sub>repeat</sub> of all individual repeats, together with the scores <italic>S</italic>(<italic>l</italic>
+<sub>cd</sub>) for the L<sub>cd</sub> loops between these repeats:<disp-formula id="pone.0065705.e009"><graphic xlink:href="pone.0065705.e009.jpg" position="anchor" orientation="portrait"/><label>(9)</label></disp-formula>
+</p>
+        <p>The additional term <italic>R</italic>(<italic>N<sub>rep</sub></italic>) serves as a regulator for the repeat combination in the genetic algorithm to treat complete domains with regular 7-fold numbers of repeats. This term does not affect the score of generated repeats. A majority of WD40 domains are composed of 7 repeats, but 6 and 8 repeats are also possible. Because there are not enough available crystal structures for the reasonable statistics of WD40 domains with six and eight repeats, and no PDB structures for other repeat numbers, an accurate statistical analysis is not possible. For the consideration of multiple WD40 domains in one protein, we chose 5 overlapping Gaussian functions <inline-formula><inline-graphic xlink:href="pone.0065705.e010.jpg"/></inline-formula>to give the original guess of the <italic>R</italic>(<italic>N<sub>rep</sub></italic>) (blue curve in <xref ref-type="fig" rid="pone-0065705-g005">
+<bold>Figure 5</bold>
+</xref>). Then, we manually modified these values to get better repeat detection for the training set. This term is added to make the genetic algorithm engine more efficient in the repeat combination. And in the final step, <italic>R(N<sub>rep</sub>)</italic> was removed. As a result, only 3 out of 239 repeats are missed by WDSP by incorporating the modified curve (red curve in <xref ref-type="fig" rid="pone-0065705-g005">
+<bold>Figure 5</bold>
+</xref>, also see function <bold>S2</bold>).</p>
+        <fig id="pone-0065705-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Curve of <italic>R(N<sub>rep</sub>)</italic>, which regulates the repeat number in the generated domain.</title>
+          </caption>
+          <graphic xlink:href="pone.0065705.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>Flowchart of WDSP</title>
+        <p>
+<xref ref-type="fig" rid="pone-0065705-g006">
+<bold>Figure 6</bold>
+</xref> shows the flowchart of the WDSP program. The input of WDSP is the primary sequence. To increase the speed, the first step is to discard the sequence in the N- and C- terminus that are unlikely to fold into Î²-propeller based on PSIPRED predictions. This step is reliable because PSIPRED can provide reasonable secondary structure contents.</p>
+        <fig id="pone-0065705-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Flowchart of WDSP program.</title>
+          </caption>
+          <graphic xlink:href="pone.0065705.g006"/>
+        </fig>
+        <p>The second step is to generate all the possible WD40 repeats with <italic>S</italic>
+<sub>repeat</sub>&gt;10. 10 is a fairly conservative value because the scores of true WD40 repeats in the PDB structures normally ranges from 30 to 150 (101 on average). Some repeats are discarded as they overlap with the other repeats with a score higher than 35. By these steps, there are normally 500â2000 repeats left in the library.</p>
+        <p>The third step is a preliminary exclusion of non-WD40 proteins. If the highest score of all generated repeats is less than 45, the sequence is defined not to be a WD40 protein. Otherwise, the combination of repeats will start.</p>
+        <p>To limit the size of the repeats pool for more efficient domain optimization, the generated repeats are further filtered by a threshold T:<disp-formula id="pone.0065705.e011"><graphic xlink:href="pone.0065705.e011.jpg" position="anchor" orientation="portrait"/><label>(10)</label></disp-formula>where <italic>S<sub>max</sub></italic> is the maximum score of all repeats in the library and <italic>N</italic> is the total number of repeats. The repeats are discarded as their scores are less than T. Usually, more than half of repeats are discarded in this procedure.</p>
+        <p>The genetic algorithm (GA) <xref rid="pone.0065705-Goldberg1" ref-type="bibr">[49]</xref> was utilized to combine the remaining repeats into domains. In the GA process, each repeat is an individual in the first generation. Mutation, crossover and elongation operators are used to combine multiple repeats into one individual. Thus, the repeat number in individuals grows in the evolution process. If the best ten individuals in a generation converge to be identical one, the GA procedure converges. If the optimized domain has less than 7 repeats and the threshold T is larger than 10, the T value will be re-set to 10 and the GA process restarts. Finally, a sequence is determined to contain a WD40 domain(s) if the prediction fulfills two criteria: 1. it has more than 6 repeats; 2. the average score of repeats (<italic>S<sub>corr</sub></italic> is not included) is not less than 48 or at least one DHSW tetrad is found.</p>
+        <p>The threshold number 48 is determined based on the discrimination power between the true positive rate (TPR) and false positive rate (FPR). All proteins with crystal structures in the PDB database ranging from 250 to 2000 residues under a 95% sequence identity cutoff are used for the test. Totally, there are 13007 unique proteins in this group. The average value of <italic>S<sub>repeat</sub></italic> in <xref ref-type="disp-formula" rid="pone.0065705.e001">equation (1</xref>), without counting the <italic>S<sub>corr</sub></italic>, is used to discriminate the True Positives (TP) and False Positives (FP). <xref ref-type="fig" rid="pone-0065705-g007">
+<bold>Figure 7</bold>
+</xref> shows the percentages of TP and FP versus different thresholds of the average score of repeats (ASr). As ASr is equal to 48, the optimal difference between the true positives and false positives (TPR-FPR) of 96.2% is achieved. This suggests that WDSP is able to distinguish between WD40 and non-WD40 proteins with a threshold value of 48.</p>
+        <fig id="pone-0065705-g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Percentage of true positive rate and false positive rate plotted versus the average score of repeats.</title>
+            <p>TPR-FPR is the difference between the true positives and false positives, which reaches the highest value as the average score of repeats is above 48.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g007"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results and Discussion</title>
+      <p>In this section, the advantages of sequence logo will be presented. Then, the validation of repeat detection and secondary structure prediction are further discussed. Finally, applications of WDSP are demonstrated.</p>
+      <sec id="s3a">
+        <title>The New Sequence Logo</title>
+        <p>Recently, Stirnimann <italic>et al.</italic>
+<xref rid="pone.0065705-Stirnimann1" ref-type="bibr">[2]</xref> reported a similar sequence logo for WD40 repeats using the structural alignment of 12 WD40s as classified in SCOP <xref rid="pone.0065705-Andreeva1" ref-type="bibr">[50]</xref>. Some well-known characters are found in both sequence logos, such as the GH dipeptide at the beginning or WD dipeptide at the end of S<sub>c</sub>. In addition, our new sequence logo can provide information for the DHSW tetrad, WD<sub>b-a</sub> and WD<sub>c-d</sub> Î²-bulges as well as some new structural features.</p>
+        <p>As shown in <xref ref-type="fig" rid="pone-0065705-g004">
+<bold>Figure 4</bold>
+</xref>, bulky residues at the 1<sup>st</sup> (Vâ=â49.2%, Iâ=â29.0%, Lâ=â6.3%) and the 4<sup>th</sup> (Vâ=â35.6%, Lâ=â23.8%, Iâ=â14.2%) positions of S<sub>a</sub> encircle R<sub>1</sub> and R<sub>2</sub> in the WD<sub>b-a</sub> Î²-bulges, respectively. As compared with the earlier sequence logo, they are more conserved and thus the corresponding letters are larger. At the meanwhile, Phe, Trp and Tyr are dominant at the end of S<sub>a</sub> (Fâ=â30.1%, Wâ=â27.6%, Yâ=â8.4%). The S<sub>a</sub> in Stirnimannâs assignment is shifted to the C-terminus by one residue.</p>
+        <p>In S<sub>b</sub>, the last three residues favor those with small side-chains (Ser, Gly, Ala, Thr). At the 4<sup>th</sup> position, Ser and Thr are involved in DHSW tetrad. At the 5<sup>th</sup> position, the dominant residues Gly, Ala, Ser and Cys are at the X position of WD<sub>b-a</sub> Î²-bulge <xref rid="pone.0065705-Wu3" ref-type="bibr">[36]</xref>. The reside at the end of S<sub>b</sub> favors Ser, Gly, Thr and Asp because they play roles in initiating the compact Î²-turn connecting S<sub>b</sub> and S<sub>c</sub>
+<xref rid="pone.0065705-Hutchinson1" ref-type="bibr">[51]</xref>, <xref rid="pone.0065705-Cai1" ref-type="bibr">[52]</xref>.</p>
+        <p>The 2<sup>nd</sup> and 4<sup>th</sup> positions in S<sub>c</sub> more favor bulky residues (2<sup>nd</sup>: Iâ=â33.9%, Vâ=â29.3%, Lâ=â18.4%; 4<sup>th</sup>: Vâ=â29.7%, Iâ=â26.8%, Lâ=â23.8%). The 2<sup>nd</sup> position residue often takes part in the hydrophobic core formation (<xref ref-type="fig" rid="pone-0065705-g001">
+<bold>Figure 1C</bold>
+</xref>) and the 4<sup>th</sup> position residue is at the X position of WD<sub>c-d</sub> Î²-bulge, where bulky residues are normally favorable <xref rid="pone.0065705-Richardson1" ref-type="bibr">[37]</xref>, <xref rid="pone.0065705-Chan1" ref-type="bibr">[38]</xref>.</p>
+        <p>S<sub>d</sub> is less conserved. The residue at the 1<sup>st</sup> position favors charged side-chains, such as Lys and Glu, and polar side-chains, such as Thr, Ser, Gln and Asn. At the 3<sup>rd</sup> and 4<sup>th</sup> positions are the R<sub>1</sub> and R<sub>2</sub> residues of the WD<sub>câd</sub> Î²-bulge. R<sub>1</sub> and the last residue of S<sub>d</sub> favor bulky residues.Pro also has a significant preference at the 2<sup>nd</sup> position(39.6%) of L<sub>ab</sub> and at the 6<sup>th</sup> position(13.0%) of L<sub>da</sub> (see <bold><xref ref-type="supplementary-material" rid="pone.0065705.s008">Table S4</xref></bold>).</p>
+      </sec>
+      <sec id="s3b">
+        <title>Validation of WD40 Repeats Detection</title>
+        <p>In order to test the capability of WDSP in identifying WD40 repeats, a jack-knife test has been carried out to predict repeats composed of 33 WD40s in our training set. The results are further compared with currently well-accepted methods; UniProt, SMART, Pfam and PROSITE. Both loose and tight criteria are applied for the evaluation. In the loose criterion, a WD40 repeat is considered successfully identified if S<sub>a</sub>, S<sub>b</sub> and S<sub>c</sub> are found in the sequence. In the tight criterion, a predicted WD40 repeat is required to contain S<sub>a</sub>, S<sub>b</sub>, S<sub>c</sub> and S<sub>d</sub>.</p>
+        <p>As shown in <xref ref-type="fig" rid="pone-0065705-g008">
+<bold>Figure 8</bold>
+</xref>, WDSP has higher accuracy than UniProt and SMART, although their performances are much better than those PROSITE and Pfam. Under the loose criterion, WDSP is able to identify 234 out of 239 repeats (97.9% accuracy). In comparison, UniProt and SMART have 89.1% and 80.8% accuracy, respectively. For the tight criterion, the advantage of WDSP is further demonstrated. WDSP correctly identified 207 out of 239 repeats (86.6%). In comparison, SMART and UniProt only have 72.4% and 32.2% accuracy, respectively. The remarkable reduction indicates that these methods have defects on determining the strand d in WD40 repeat. Although UniProt can identify most of WD40 repeats in the loose criterion, a majority of them are shorter than their lengths in reality. The detailed results are shown in <bold><xref ref-type="supplementary-material" rid="pone.0065705.s009">Table S5</xref></bold>. As a result, WDSP has a better performance in WD40 repeat identification, especially by the tight criterion.</p>
+        <fig id="pone-0065705-g008" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>Accuracy of WD40 repeats detection by PROSITE, Pfam, SMART, UniProt and the jack-knife results of WDSP with the use of the loose and tight criteria.</title>
+            <p>The red bar represents the loose criterion: only containing S<sub>a</sub>, S<sub>b</sub> and S<sub>c</sub>; while the blue bar represents the tight criterion: including all four strands.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g008"/>
+        </fig>
+      </sec>
+      <sec id="s3c">
+        <title>Validation of Secondary Structure Prediction</title>
+        <p>The accuracy of secondary structure prediction was compared with five well-known secondary structure prediction methods, GOR4, PHD, PROF, SSpro and PSIPRED. Q3 criterion <xref rid="pone.0065705-Rost1" ref-type="bibr">[29]</xref> was used to evaluate the secondary structure prediction. <xref ref-type="fig" rid="pone-0065705-g009">
+<bold>Figure 9</bold>
+</xref> shows the Q3 values achieved by the different methods. For a comprehensive comparison, DSSP, STRIDE and structural-feature-based secondary structure assignments were applied to evaluate the predictions. As expected, WDSP has the highest accuracy (Q3â=â94.6%) using the structural-feature-based assignment. As the secondary structure is assigned by DSSP or STRIDE, only PSIPRED performs slightly better than WDSP. Thus, WDSP is excellent in predicting the secondary structure for the WD40 domain. Interestingly, although all these methods except for WDSP were trained based on DSSP or STRIDE, they all got better performance under the structural feature-based secondary assignment. It suggests that the structural-feature-based assignment may provide more representative secondary structures of WD40s than DSSP and STRIDE.</p>
+        <fig id="pone-0065705-g009" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g009</object-id>
+          <label>Figure 9</label>
+          <caption>
+            <title>GOR4, PHD, PROF, SSpro, PSIPRED and WDSP are compared to predict the secondary structures of the 33 WD40s.</title>
+            <p>The secondary structure assignment by the structural element, DSSP and Stride are used as references.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g009"/>
+        </fig>
+        <p>
+<xref ref-type="fig" rid="pone-0065705-g009">
+<bold>Figure 9</bold>
+</xref> also shows most of methods have good performance for the secondary structure prediction for the WD40 domain. PSIPRED and WDSP have almost reached the general upper limit of the prediction accuracy of 88% <xref rid="pone.0065705-Rost3" ref-type="bibr">[53]</xref>. This is because WD40 domains only contain two types of secondary structures, Î²-strands and loops. The upper limit should be higher than the normal value. Another possibility is that all the above methods have utilized their crystal structures in the training set. Therefore, the accuracy would be the reproduction rate.</p>
+        <p>The ASr can be further used to estimate the secondary structure accuracy. A good correlation (R<sup>2</sup>â=â0.64) has been found between the ASr and their Q3 accuracy of 33 WD40 proteins in the training set (<bold><xref ref-type="supplementary-material" rid="pone.0065705.s003">Figure S3</xref></bold>). It suggests that we may roughly estimate the Q3 accuracy by the ASr score.</p>
+      </sec>
+      <sec id="s3d">
+        <title>The Jack-knife Test of Secondary Structure Prediction</title>
+        <p>To exclude the overestimation of accuracy by reproduction, a jack-knife test has been carried out. The test utilizes 32 WD40s as the training set and the left out one WD40 as the test set. This procedure has been repeated 33 times until every protein is predicted once. The resultant secondary structures are compared with the reproductive prediction. As shown in <xref ref-type="fig" rid="pone-0065705-g010">
+<bold>Figure 10</bold>
+</xref>, the x and y-axis show the reproductive rate and the jack-knife result, respectively. Although a part of reproductive accuracies seem to be higher, a majority of circles are very close to the diagonal. The average Q3 of jack-knife test is about 93.7%. The accuracy is almost identical to the average reproduction accuracy of 94.6% in <xref ref-type="fig" rid="pone-0065705-g009">
+<bold>Figure 9</bold>
+</xref>. Thus, the accuracy of secondary structure prediction is apparently not overestimated.</p>
+        <fig id="pone-0065705-g010" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g010</object-id>
+          <label>Figure 10</label>
+          <caption>
+            <title>Jack-knife results versus the reproduction results in the 33 PDBs.</title>
+          </caption>
+          <graphic xlink:href="pone.0065705.g010"/>
+        </fig>
+        <p>The good performance in the jack-knife tests can be rationalized by two reasons. 1. Although the selected proteins in our dataset are highly diversified in sequence, the residue frequencies are relatively stable on the basis of structural-feature-based alignment. Thus, the scoring function would be invariant. 2. The structural features, such as tetrads, Î²-bulges and total number of blades, are fairly conserved across the family. Thus, their preferences can be derived from limited protein structures. Both are the major components of <italic>S<sub>repeat</sub></italic> in scoring function (1).</p>
+      </sec>
+      <sec id="s3e">
+        <title>The Prediction of WD40 Domains in the Swiss-Prot Database by WDSP</title>
+        <p>Besides the accurate prediction of WD40 repeats and secondary structures, one of our goals is to identify the missing/new WD40 repeats in the known/unknown WD40 proteins.</p>
+        <p>Before we tested its capability in identifying WD40 proteins from the UniProt protein database, an estimation of prediction accuracy was carried out. Two datasets were prepared for tests. As shown in <xref ref-type="table" rid="pone-0065705-t001">
+<bold>Table 1</bold>
+</xref>, the positive dataset contains 1402 proteins, which are composed of WD40 domains with a sequence identity cutoff of 50%. Only 16 WD40 proteins are not identified by WDSP, the False Positive rate is around 1.14%. In the negative dataset, itâs composed of 2496 all-Î² proteins and 4669 all-Î±, Î±+Î², Î±/Î² proteins. The homologues are deleted with the sequence identities of more than 30%. Only 4 proteins with all-Î² sheets are predicted to be WD40s. None of proteins with Î±-helix are falsely predicted to be WD40s. Thus, the false positive and the false negative are controlled at a very low level.</p>
+        <table-wrap id="pone-0065705-t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Evaluation of WDSP in predicting unknown proteins.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0065705-t001-1" xlink:href="pone.0065705.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">WD40<xref ref-type="table-fn" rid="nt101">a</xref>
+</td>
+                  <td colspan="3" align="left" rowspan="1">Non-WD40<xref ref-type="table-fn" rid="nt102">b</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">all-Î²</td>
+                  <td colspan="2" align="left" rowspan="1">all-Î±, Î±+Î², Î±/Î²</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Proteins in Dataset</td>
+                  <td align="left" rowspan="1" colspan="1">1402</td>
+                  <td align="left" rowspan="1" colspan="1">2496</td>
+                  <td colspan="2" align="left" rowspan="1">4669</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">WDSP mistakes</td>
+                  <td align="left" rowspan="1" colspan="1">16</td>
+                  <td align="left" rowspan="1" colspan="1">4</td>
+                  <td colspan="2" align="left" rowspan="1">0</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a</label>
+              <p>The positive WD40 protein dataset has 1402 relatively confident WD40 proteins that were selected by using the query in UniProt database: family: âwd repeatâ AND domain: âwd repeatsâ AND annotation:(type:repeat wd) AND database:(type:smart wd) AND database:(type:pfam wd).</p>
+            </fn>
+            <fn id="nt102">
+              <label>b</label>
+              <p>The negative dataset consist of 2496 non-WD40 all-Î² proteins from the SCOP database and 4669 non-WD40 all-Î± proteins, Î±+Î² proteins or Î±/Î² proteins. As for all-Î² proteins, the homologues are deleted if the sequence identities are larger than 50%. The homologues of all-Î± proteins, Î±+Î² proteins and Î±/Î² proteins are removed with the identity cutoff at 30%.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>WDSP was further utilized to detect WD40 proteins in 271,654 non-redundant proteins with sequence length range from 250â2000 residues selected from the Swiss-Prot database (release 2012_07). <xref ref-type="table" rid="pone-0065705-t002">
+<bold>Table 2</bold>
+</xref> summarizes the performances by PROSITE, Pfam, SMART, UniProt and WDSP in the WD40 repeat detection. Several remarkable advantages of WDSP are able to be observed.</p>
+        <table-wrap id="pone-0065705-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Comparison of five methods in detecting WD40 repeats/domains/proteins from Swiss-Prot database with sequence length less than 2000 residues.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0065705-t002-2" xlink:href="pone.0065705.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">PDB</td>
+                  <td align="left" rowspan="1" colspan="1">WDSP</td>
+                  <td align="left" rowspan="1" colspan="1">PROSITE</td>
+                  <td align="left" rowspan="1" colspan="1">Pfam</td>
+                  <td align="left" rowspan="1" colspan="1">SMART</td>
+                  <td align="left" rowspan="1" colspan="1">UniProt</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Repeats</td>
+                  <td align="left" rowspan="1" colspan="1">239</td>
+                  <td align="left" rowspan="1" colspan="1">17344</td>
+                  <td align="left" rowspan="1" colspan="1">6287</td>
+                  <td align="left" rowspan="1" colspan="1">8057</td>
+                  <td align="left" rowspan="1" colspan="1">12440</td>
+                  <td align="left" rowspan="1" colspan="1">14517</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Domains<xref ref-type="table-fn" rid="nt103">a</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">34</td>
+                  <td align="left" rowspan="1" colspan="1">2600/2600<xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1827/341 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1977/599 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2255/1428 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2473/1809 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Proteins<xref ref-type="table-fn" rid="nt103">a</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">33</td>
+                  <td align="left" rowspan="1" colspan="1">2277/2277 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1813/327 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1952/574 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2135/1308 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2250/1586 <xref ref-type="table-fn" rid="nt104">b</xref>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Avg repeats/domain</td>
+                  <td align="left" rowspan="1" colspan="1">7.0</td>
+                  <td align="left" rowspan="1" colspan="1">6.7</td>
+                  <td align="left" rowspan="1" colspan="1">3.4</td>
+                  <td align="left" rowspan="1" colspan="1">4.1</td>
+                  <td align="left" rowspan="1" colspan="1">5.5</td>
+                  <td align="left" rowspan="1" colspan="1">5.9</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt103">
+              <label>a</label>
+              <p>Except WDSP, if one WD40 repeat is detected, the protein is classified as containing at least one WD40 domain. For WDSP, each WD40 domain and WD40 protein has at least 6 WD40 repeats. If the total number of repeats in a protein has exceeded 8, 16, 24 and 32, two, three four and five WD40 domains are detected for the method.</p>
+            </fn>
+            <fn id="nt104">
+              <label>b</label>
+              <p>Number of domains/proteins with at least 6 WD40 repeats, which use the same rules as WDSP in determining WD domains/proteins.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>Firstly, WDSP can identify many more WD40 repeats than the other methods. 17344 WD40 repeats are identified in total. Among the four other methods, UniProt has the best performance. However, only 14517 WD40 repeats are annotated, which is about 20% less than WDSP.</p>
+        <p>Secondly, WDSP identified 2600 WD40 domains with at least 6 repeats. There are 2473 WD40 domains included in UniProt, which is slightly fewer than predicted by WDSP. More significantly, only 1809 have more than 5 repeats in UniProt. On average, each WD40 domain is estimated to have 6.7 repeats by WDSP. The value 6.7 is close to the observed average repeat number 7.0 in WD40 protein crystal structures. But each WD40 domain is estimated to have 5.9 and 5.5 repeats by UniProt and SMART, respectively. As shown in <xref ref-type="table" rid="pone-0065705-t002">
+<bold>Table 2</bold>
+</xref>, PROSITE and Pfam have a much lower performance in identifying both WD40 domains and repeats. Therefore, WDSP can identify more WD40 domains with more WD40 repeats.</p>
+        <p>Itâs well-known that WD40 domains are composed of six to eight, but mostly seven repeats <xref rid="pone.0065705-Murzin1" ref-type="bibr">[54]</xref>. Thus, we further compared WD40 repeat distributions by the five methods. <xref ref-type="fig" rid="pone-0065705-g011">
+<bold>Figure 11</bold>
+</xref> shows 18%, 65%, and 4% WD40 domains are predicted to have six, seven, and eight repeats by WDSP, respectively. PROSITE and Pfam have even distributions from one to five repeats. Only a few proteins are predicted to have seven repeats by PROSITE. By Pfam, even repeated proteins are found slightly more often than those with one to six repeats. Apparently, the number of WD40 repeats is considerably underestimated in a WD40 domain by these methods. As a matter of fact, SMART and UniProt have a better performance than PROSITE and Pfam in identifying WD40 repeats. However, 30% and 39% WD40 proteins are predicted to have less than six repeats by SMART and UniProt, respectively.</p>
+        <fig id="pone-0065705-g011" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g011</object-id>
+          <label>Figure 11</label>
+          <caption>
+            <title>Repeat number distributions of WD40 proteins identified by PROSITE, Pfam, SMART, UniProt and WDSP from 271,654 proteins.</title>
+          </caption>
+          <graphic xlink:href="pone.0065705.g011"/>
+        </fig>
+        <p>More significantly, WDSP predicts a large number of proteins with multiple WD40 domains. According to prediction, 280 proteins have two WD40 domains, 12 proteins have three WD40 domains and three proteins have four WD40 domains. The repeats in these multiple-domain proteins are underestimated by the other four methods as well.</p>
+        <p>
+<xref ref-type="fig" rid="pone-0065705-g012">
+<bold>Figure 12A</bold>
+</xref> further demonstrates the similarities and differences between WDSP and the other four methods in WD40 domain/protein detection. 1807 WD40 proteins are commonly identified by both WDSP and PROSITE. 470 WD40 proteins are identified by WDSP and 6 proteins are missed in the comparison. Although the majority of WD40 proteins are commonly identified, 351, 182 and 81 WD40 domains failed in being identified by Pfam, SMART and UniProt, respectively. As compared with Pfam, SMART and UniProt, WDSP fails in identifying 26, 40 and 54 WD40 domains, respectively. Thus, WDSP has a better performance in identifying WD40 domains.</p>
+        <fig id="pone-0065705-g012" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g012</object-id>
+          <label>Figure 12</label>
+          <caption>
+            <title>The comparisons of predictions by WDSP.</title>
+            <p>
+<bold>(A) Comparison of WDSP with four methods in WD40s detection.</bold> (B) Comparison of WDSP and the combination of PROSITE, Pfam, SMART and UniProt in WD40s detection.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g012"/>
+        </fig>
+        <p>Comparing with the combination of the four methods, only 76 potential WD40 proteins are solely detected by WDSP (<xref ref-type="fig" rid="pone-0065705-g012">
+<bold>Figure 12B</bold>
+</xref>). Among these proteins, 35 of them are classified as WD40-like proteins in InterPro <xref rid="pone.0065705-Hunter1" ref-type="bibr">[55]</xref>, SUPERFAMILY <xref rid="pone.0065705-Wilson1" ref-type="bibr">[56]</xref> or Gene3D <xref rid="pone.0065705-Lees1" ref-type="bibr">[57]</xref> database. Another 36 proteins are predicted to be other Î²-propeller proteins as well. However, the tight definition is unavailable to differentiate WD40 proteins and the normal Î²-propellers. The remaining five proteins have no annotation available and might be new WD40 proteins (<bold><xref ref-type="supplementary-material" rid="pone.0065705.s010">Table S6</xref></bold>).</p>
+        <p>68 proteins are cannot to be identified by WDSP (<xref ref-type="fig" rid="pone-0065705-g013">
+<bold>Figure 13B</bold>
+</xref>). By the analysis, 16 of them are identified to have less than six repeats, which are considered incomplete WD40 domains. This may be due to the incomplete sequences. The remaining 52 proteins are predicted with ASr less than 48 (<bold><xref ref-type="supplementary-material" rid="pone.0065705.s011">Table S7</xref></bold>). By the criteria, they are not classified to be WD40 proteins by WDSP.</p>
+        <fig id="pone-0065705-g013" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g013</object-id>
+          <label>Figure 13</label>
+          <caption>
+            <title>Hydrogen-bonded triad formed by D488-H463-T484 in tau91.</title>
+            <p>In typical WD40s, F494 is always replaced by W or Y. Such triad is a special structural feature for WD40 protein family.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g013"/>
+        </fig>
+        <p>A specific protein in the PDB database, tau91 from <italic>S. cerevisiae</italic> with a 7-bladed Î²-propeller structure (PDB_ID:2J04) <xref rid="pone.0065705-Mylona1" ref-type="bibr">[58]</xref>, was detected to be a WD40 protein by WDSP. None of four methods has classified it to be a WD40 protein. Undoubtedly, tau91 is quite different from the typical WD40 proteins in the sequence. But it shares some WD40 conserved structure features in common. Although Tau91 is short of a DHSW tetrad, a hydrogen-bounded triad is formed by D488-H463-T484 as shown in <xref ref-type="fig" rid="pone-0065705-g013">
+<bold>Figure 13</bold>
+</xref>. In the typical WD40 proteins, F494 is usually replaced by W or Y to form the D488-H463-T484-W/Y494 tetrad. According to the previous results, D488-H463-T484 is able to provide remarkable stability <xref rid="pone.0065705-Wu1" ref-type="bibr">[34]</xref>, <xref rid="pone.0065705-Wu2" ref-type="bibr">[35]</xref>. Meanwhile, X and R<sub>2</sub> of WD<sub>b-a</sub> Î²-bulges have the similar residue preferences. Some R<sub>1</sub> residues, such as W367 and L468, are protruded to the surface and readily for protein-protein interaction. By incorporating non-local information of structural features, WDSP overcomes the sequence diversity and classifies tau91 as a WD40 domain (<bold><xref ref-type="supplementary-material" rid="pone.0065705.s004">Figure S4</xref></bold>).</p>
+        <p>Since we have tested the general performance of WDSP in predicting Swiss-Prot proteins, we used a WD40 protein LRRK2 as an example to show how WDSP performs in predicting difficult targets. LRRK2 is a multi-domain protein whose mutations are frequently found in familial and sporadic Parkinsonâs disease <xref rid="pone.0065705-Mata1" ref-type="bibr">[39]</xref>, <xref rid="pone.0065705-Tan1" ref-type="bibr">[42]</xref>. Thus, LRRK2 could be a potential therapeutic target for drug design <xref rid="pone.0065705-Lee2" ref-type="bibr">[43]</xref>. Currently, the crystal structure of LRRK2 WD40 domain is not available. Although LRRK2 is known for years to contain a WD40 domain, until now no existing method has given a high quality prediction of the WD40 repeats and its detailed topology.</p>
+        <p>
+<xref ref-type="fig" rid="pone-0065705-g014">
+<bold>Figure 14</bold>
+</xref> shows the secondary structure prediction and repeat detection results of LRRK2 protein by different existing methods. The different methods give very variable predictions. Some positions predicted to be a Î²-strand by one method are predicted to be a Î±-helix by another method. Almost all predicted Î²-strands by WDSP are supported by one or more other methods, which indicate that its prediction is likely to be reliable. Among the existing WD40 repeat detection methods, PROSITE, Pfam, SMART, REP and UniProt, only SMART has identified one WD40 repeat (the 3<sup>rd</sup> repeat). However, WDSP identified all 7 repeats in LRRK2. <xref ref-type="fig" rid="pone-0065705-g015">
+<bold>Figure 15</bold>
+</xref> depicts the detailed description of secondary structure and the topology of the WD40 domain. The prediction can provide some useful information for experimentalists and can also lead to accurate 3D structure prediction directly.</p>
+        <fig id="pone-0065705-g014" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g014</object-id>
+          <label>Figure 14</label>
+          <caption>
+            <title>Secondary structure prediction and repeat detection for LRRK2 protein by various methods.</title>
+            <p>Red, blue and yellow bars indicate the predicted Î±-helix, Î²-strand and WD40 repeat. For WDSP, each predicted Î²-strand is annotated with strand IDs. Among the competing repeat detection methods, only SMART gives one positive result.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g014"/>
+        </fig>
+        <fig id="pone-0065705-g015" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0065705.g015</object-id>
+          <label>Figure 15</label>
+          <caption>
+            <title>WDSP predicts the secondary structure of LRRK2 protein.</title>
+            <p>The strand IDs are depicted below. Residues in the yellow boxes are detected repeats. The starting and ending positions for each repeat are shown in the left.</p>
+          </caption>
+          <graphic xlink:href="pone.0065705.g015"/>
+        </fig>
+      </sec>
+      <sec id="s3f">
+        <title>Conclusions</title>
+        <p>Protein structure is the basis to understand the interaction of WD40-repeat proteins. Accurate secondary structure prediction is a bridge to 3D structure prediction. A number of methods are available to predict either WD40 repeats or secondary structures, which provide the preliminary information for biological studies and structure prediction. The currently available methods usually have defects in identifying comprehensive repeats/sequences for the WD40 domains because these domains have extremely diversified sequences due to their variable binding capabilities. In addition, the predictions are unable to provide biofunctional/structural information directly. Here, a method, WDSP, has been developed to identify WD40 repeats and predict its secondary structure simultaneously. By incorporating the specific structure/function-sequence information, WDSP is able to overcome the problem of diversified sequences, variable loop lengths and even identify atypical WD40 domains. Thus, WDSP provides a useful tool for structure/function prediction of WD40 domains. The method also provides a novel solution for specific protein families, especially for that composed of repeated motifs. As long as the structure-sequence correlation can be correctly recognized, the repeats and secondary structure can be predicted accurately.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s4">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0065705.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>
+<bold>Correlation and similarity of amino acid frequency at every position in 10 independent tests.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s001.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>
+<bold>Fitted curves for the score of loop length.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s002.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>
+<bold>Q3 accuracy versus the threshold of average score of repeats.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s003.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>
+<bold>Predicted secondary structure of tau91 protein (PDB code: 2J04 chain D).</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s004.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s005">
+        <label>Table S1</label>
+        <caption>
+          <p>
+<bold>Pairwise sequence identities of selected 33 WD40 proteins (34domains, use PDB codes as names).</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s005.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s006">
+        <label>Table S2</label>
+        <caption>
+          <p>
+<bold>Parameters used in function S1.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s006.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s007">
+        <label>Table S3</label>
+        <caption>
+          <p>
+<bold>The final scores of loop length in the score function.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s007.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s008">
+        <label>Table S4</label>
+        <caption>
+          <p>
+<bold>Residue frequencies of every position in the sequence logo.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s008.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s009">
+        <label>Table S5</label>
+        <caption>
+          <p>
+<bold>Repeat detection comparison by different methods.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s009.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s010">
+        <label>Table S6</label>
+        <caption>
+          <p>
+<bold>76 potential WD40 proteins are only detected by WDSP.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s010.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0065705.s011">
+        <label>Table S7</label>
+        <caption>
+          <p>
+<bold>68 proteins are unable to be identified by WDSP.</bold>
+</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0065705.s011.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We very appreciate Dr. Olaf Wiest for his help and suggestions. We thank Dr. Zhi-Qiang Ye for reading the text and giving beneficial suggestions.</p>
+      <p>
+<bold>Availability</bold>
+</p>
+      <p>The WDSP web server is available at <ext-link ext-link-type="uri" xlink:href="http://wu.scbb.pkusz.edu.cn/wdsp/">http://wu.scbb.pkusz.edu.cn/wdsp/</ext-link>. A complete database of 3D structures for all WD40 sequences is under preparation and will be released in the near future.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0065705-Neer1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Neer</surname><given-names>EJ</given-names></name>, <name><surname>Schmidt</surname><given-names>CJ</given-names></name>, <name><surname>Nambudripad</surname><given-names>R</given-names></name>, <name><surname>Smith</surname><given-names>TF</given-names></name> (<year>1994</year>) <article-title>The ancient regulatory-protein family of WD-repeat proteins</article-title>. <source>Nature</source>
+<volume>371</volume>: <fpage>297</fpage>â<lpage>300</lpage>.<pub-id pub-id-type="pmid">8090199</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Stirnimann1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stirnimann</surname><given-names>CU</given-names></name>, <name><surname>Petsalaki</surname><given-names>E</given-names></name>, <name><surname>Russell</surname><given-names>RB</given-names></name>, <name><surname>Muller</surname><given-names>CW</given-names></name> (<year>2010</year>) <article-title>WD40 proteins propel cellular networks</article-title>. <source>Trends Biochem Sci</source>
+<volume>35</volume>: <fpage>565</fpage>â<lpage>574</lpage>.<pub-id pub-id-type="pmid">20451393</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Lee1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lee</surname><given-names>JS</given-names></name>, <name><surname>Shukla</surname><given-names>A</given-names></name>, <name><surname>Schneider</surname><given-names>J</given-names></name>, <name><surname>Swanson</surname><given-names>SK</given-names></name>, <name><surname>Washburn</surname><given-names>MP</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Histone crosstalk between H2B monoubiquitination and H3 methylation mediated by COMPASS</article-title>. <source>Cell</source>
+<volume>131</volume>: <fpage>1084</fpage>â<lpage>1096</lpage>.<pub-id pub-id-type="pmid">18083099</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Shen1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Shen</surname><given-names>Z</given-names></name>, <name><surname>Sathyan</surname><given-names>KM</given-names></name>, <name><surname>Geng</surname><given-names>Y</given-names></name>, <name><surname>Zheng</surname><given-names>R</given-names></name>, <name><surname>Chakraborty</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>A WD-repeat protein stabilizes ORC binding to chromatin</article-title>. <source>Mol Cell</source>
+<volume>40</volume>: <fpage>99</fpage>â<lpage>111</lpage>.<pub-id pub-id-type="pmid">20932478</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Chakraborty1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Chakraborty</surname><given-names>A</given-names></name>, <name><surname>Shen</surname><given-names>Z</given-names></name>, <name><surname>Prasanth</surname><given-names>SG</given-names></name> (<year>2011</year>) <article-title>âORCanizationâ on heterochromatin: linking DNA replication initiation to chromatin organization</article-title>. <source>Epigenetics</source>
+<volume>6</volume>: <fpage>665</fpage>â<lpage>670</lpage>.<pub-id pub-id-type="pmid">21586903</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Jennings1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jennings</surname><given-names>BH</given-names></name>, <name><surname>Ish-Horowicz</surname><given-names>D</given-names></name> (<year>2008</year>) <article-title>The Groucho/TLE/Grg family of transcriptional co-repressors</article-title>. <source>Genome Biol</source>
+<volume>9</volume>: <fpage>205</fpage>.<pub-id pub-id-type="pmid">18254933</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Vagin1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Vagin</surname><given-names>VV</given-names></name>, <name><surname>Wohlschlegel</surname><given-names>J</given-names></name>, <name><surname>Qu</surname><given-names>J</given-names></name>, <name><surname>Jonsson</surname><given-names>Z</given-names></name>, <name><surname>Huang</surname><given-names>X</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Proteomic analysis of murine Piwi proteins reveals a role for arginine methylation in specifying interaction with Tudor family members</article-title>. <source>Genes Dev</source>
+<volume>23</volume>: <fpage>1749</fpage>â<lpage>1762</lpage>.<pub-id pub-id-type="pmid">19584108</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Migliori1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Migliori</surname><given-names>V</given-names></name>, <name><surname>Mapelli</surname><given-names>M</given-names></name>, <name><surname>Guccione</surname><given-names>E</given-names></name> (<year>2012</year>) <article-title>On WD40 proteins: Propelling our knowledge of transcriptional control?</article-title>
+<source>Epigenetics</source>
+<volume>7</volume>: <fpage>815</fpage>â<lpage>822</lpage>.<pub-id pub-id-type="pmid">22810296</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Suganuma1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Suganuma</surname><given-names>T</given-names></name>, <name><surname>Pattenden</surname><given-names>SG</given-names></name>, <name><surname>Workman</surname><given-names>JL</given-names></name> (<year>2008</year>) <article-title>Diverse functions of WD40 repeat proteins in histone recognition</article-title>. <source>Genes Dev</source>
+<volume>22</volume>: <fpage>1265</fpage>â<lpage>1268</lpage>.<pub-id pub-id-type="pmid">18483215</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Jackson1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jackson</surname><given-names>S</given-names></name>, <name><surname>Xiong</surname><given-names>Y</given-names></name> (<year>2009</year>) <article-title>CRL4s: the CUL4-RING E3 ubiquitin ligases</article-title>. <source>Trends Biochem Sci</source>
+<volume>34</volume>: <fpage>562</fpage>â<lpage>570</lpage>.<pub-id pub-id-type="pmid">19818632</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Biedermann1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Biedermann</surname><given-names>S</given-names></name>, <name><surname>Hellmann</surname><given-names>H</given-names></name> (<year>2011</year>) <article-title>WD40 and CUL4-based E3 ligases: lubricating all aspects of life</article-title>. <source>Trends Plant Sci</source>
+<volume>16</volume>: <fpage>38</fpage>â<lpage>46</lpage>.<pub-id pub-id-type="pmid">20965772</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Smith1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Smith</surname><given-names>TF</given-names></name>, <name><surname>Gaitatzes</surname><given-names>C</given-names></name>, <name><surname>Saxena</surname><given-names>K</given-names></name>, <name><surname>Neer</surname><given-names>EJ</given-names></name> (<year>1999</year>) <article-title>The WD repeat: a common architecture for diverse functions</article-title>. <source>Trends Biochem Sci</source>
+<volume>24</volume>: <fpage>181</fpage>â<lpage>185</lpage>.<pub-id pub-id-type="pmid">10322433</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Fulop1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fulop</surname><given-names>V</given-names></name>, <name><surname>Jones</surname><given-names>DT</given-names></name> (<year>1999</year>) <article-title>Beta propellers: structural rigidity and functional diversity</article-title>. <source>Curr Opin Struct Biol</source>
+<volume>9</volume>: <fpage>715</fpage>â<lpage>721</lpage>.<pub-id pub-id-type="pmid">10607670</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Li1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Li</surname><given-names>D</given-names></name>, <name><surname>Roberts</surname><given-names>R</given-names></name> (<year>2001</year>) <article-title>WD-repeat proteins: structure characteristics, biological function, and their involvement in human diseases</article-title>. <source>Cell Mol Life Sci</source>
+<volume>58</volume>: <fpage>2085</fpage>â<lpage>2097</lpage>.<pub-id pub-id-type="pmid">11814058</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Xu1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Xu</surname><given-names>C</given-names></name>, <name><surname>Min</surname><given-names>J</given-names></name> (<year>2011</year>) <article-title>Structure and function of WD40 domain proteins</article-title>. <source>Protein Cell</source>
+<volume>2</volume>: <fpage>202</fpage>â<lpage>214</lpage>.<pub-id pub-id-type="pmid">21468892</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Hsia1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hsia</surname><given-names>KC</given-names></name>, <name><surname>Stavropoulos</surname><given-names>P</given-names></name>, <name><surname>Blobel</surname><given-names>G</given-names></name>, <name><surname>Hoelz</surname><given-names>A</given-names></name> (<year>2007</year>) <article-title>Architecture of a coat for the nuclear pore membrane</article-title>. <source>Cell</source>
+<volume>131</volume>: <fpage>1313</fpage>â<lpage>1326</lpage>.<pub-id pub-id-type="pmid">18160040</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Brohawn1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Brohawn</surname><given-names>SG</given-names></name>, <name><surname>Leksa</surname><given-names>NC</given-names></name>, <name><surname>Spear</surname><given-names>ED</given-names></name>, <name><surname>Rajashankar</surname><given-names>KR</given-names></name>, <name><surname>Schwartz</surname><given-names>TU</given-names></name> (<year>2008</year>) <article-title>Structural evidence for common ancestry of the nuclear pore complex and vesicle coats</article-title>. <source>Science</source>
+<volume>322</volume>: <fpage>1369</fpage>â<lpage>1373</lpage>.<pub-id pub-id-type="pmid">18974315</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Hattendorf1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hattendorf</surname><given-names>DA</given-names></name>, <name><surname>Andreeva</surname><given-names>A</given-names></name>, <name><surname>Gangar</surname><given-names>A</given-names></name>, <name><surname>Brennwald</surname><given-names>PJ</given-names></name>, <name><surname>Weis</surname><given-names>WI</given-names></name> (<year>2007</year>) <article-title>Structure of the yeast polarity protein Sro7 reveals a SNARE regulatory mechanism</article-title>. <source>Nature</source>
+<volume>446</volume>: <fpage>567</fpage>â<lpage>571</lpage>.<pub-id pub-id-type="pmid">17392788</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Mohri1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mohri</surname><given-names>K</given-names></name>, <name><surname>Vorobiev</surname><given-names>S</given-names></name>, <name><surname>Fedorov</surname><given-names>AA</given-names></name>, <name><surname>Almo</surname><given-names>SC</given-names></name>, <name><surname>Ono</surname><given-names>S</given-names></name> (<year>2004</year>) <article-title>Identification of functional residues on Caenorhabditis elegans actin-interacting protein 1 (UNC-78) for disassembly of actin depolymerizing factor/cofilin-bound actin filaments</article-title>. <source>J Biol Chem</source>
+<volume>279</volume>: <fpage>31697</fpage>â<lpage>31707</lpage>.<pub-id pub-id-type="pmid">15150269</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Yu1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yu</surname><given-names>L</given-names></name>, <name><surname>Gaitatzes</surname><given-names>C</given-names></name>, <name><surname>Neer</surname><given-names>E</given-names></name>, <name><surname>Smith</surname><given-names>TF</given-names></name> (<year>2000</year>) <article-title>Thirty-plus functional families from a single motif</article-title>. <source>Protein Sci</source>
+<volume>9</volume>: <fpage>2470</fpage>â<lpage>2476</lpage>.<pub-id pub-id-type="pmid">11206068</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Sigrist1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sigrist</surname><given-names>CJ</given-names></name>, <name><surname>Cerutti</surname><given-names>L</given-names></name>, <name><surname>de Castro</surname><given-names>E</given-names></name>, <name><surname>Langendijk-Genevaux</surname><given-names>PS</given-names></name>, <name><surname>Bulliard</surname><given-names>V</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>PROSITE, a protein domain database for functional characterization and annotation</article-title>. <source>Nucleic Acids Res</source>
+<volume>38</volume>: <fpage>D161</fpage>â<lpage>D166</lpage>.<pub-id pub-id-type="pmid">19858104</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Coggill1">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Coggill</surname><given-names>P</given-names></name>, <name><surname>Finn</surname><given-names>RD</given-names></name>, <name><surname>Bateman</surname><given-names>A</given-names></name> (<year>2008</year>) <article-title>Identifying protein domains with the Pfam database</article-title>. <source>Curr Protoc Bioinformatics Chapter</source>
+<volume>2</volume>: <fpage>2</fpage>â<lpage>5</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Schultz1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Schultz</surname><given-names>J</given-names></name>, <name><surname>Milpetz</surname><given-names>F</given-names></name>, <name><surname>Bork</surname><given-names>P</given-names></name>, <name><surname>Ponting</surname><given-names>CP</given-names></name> (<year>1998</year>) <article-title>SMART, a simple modular architecture research tool: identification of signaling domains</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>95</volume>: <fpage>5857</fpage>â<lpage>5864</lpage>.<pub-id pub-id-type="pmid">9600884</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Andrade1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Andrade</surname><given-names>MA</given-names></name>, <name><surname>Ponting</surname><given-names>CP</given-names></name>, <name><surname>Gibson</surname><given-names>TJ</given-names></name>, <name><surname>Bork</surname><given-names>P</given-names></name> (<year>2000</year>) <article-title>Homology-based method for identification of protein repeats using statistical significance estimates</article-title>. <source>J Mol Biol</source>
+<volume>298</volume>: <fpage>521</fpage>â<lpage>537</lpage>.<pub-id pub-id-type="pmid">10772867</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Gough1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gough</surname><given-names>J</given-names></name>, <name><surname>Karplus</surname><given-names>K</given-names></name>, <name><surname>Hughey</surname><given-names>R</given-names></name>, <name><surname>Chothia</surname><given-names>C</given-names></name> (<year>2001</year>) <article-title>Assignment of homology to genome sequences using a library of hidden Markov models that represent all proteins of known structure</article-title>. <source>J Mol Biol</source>
+<volume>313</volume>: <fpage>903</fpage>â<lpage>919</lpage>.<pub-id pub-id-type="pmid">11697912</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Scrima1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Scrima</surname><given-names>A</given-names></name>, <name><surname>Konickova</surname><given-names>R</given-names></name>, <name><surname>Czyzewski</surname><given-names>BK</given-names></name>, <name><surname>Kawasaki</surname><given-names>Y</given-names></name>, <name><surname>Jeffrey</surname><given-names>PD</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Structural basis of UV DNA-damage recognition by the DDB1-DDB2 complex</article-title>. <source>Cell</source>
+<volume>135</volume>: <fpage>1213</fpage>â<lpage>1223</lpage>.<pub-id pub-id-type="pmid">19109893</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Pirovano1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pirovano</surname><given-names>W</given-names></name>, <name><surname>Heringa</surname><given-names>J</given-names></name> (<year>2010</year>) <article-title>Protein secondary structure prediction</article-title>. <source>Methods Mol Biol</source>
+<volume>609</volume>: <fpage>327</fpage>â<lpage>348</lpage>.<pub-id pub-id-type="pmid">20221928</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Gibrat1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gibrat</surname><given-names>JF</given-names></name>, <name><surname>Garnier</surname><given-names>J</given-names></name>, <name><surname>Robson</surname><given-names>B</given-names></name> (<year>1987</year>) <article-title>Further developments of protein secondary structure prediction using information theory new parameters and consideration of residue pairs</article-title>. <source>J Mol Biol</source>
+<volume>198</volume>: <fpage>425</fpage>â<lpage>443</lpage>.<pub-id pub-id-type="pmid">3430614</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Rost1">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rost</surname><given-names>B</given-names></name>, <name><surname>Sander</surname><given-names>C</given-names></name> (<year>1993</year>) <article-title>Prediction of protein secondary structure at better than 70-percent accuracy</article-title>. <source>J Mol Biol</source>
+<volume>232</volume>: <fpage>584</fpage>â<lpage>599</lpage>.<pub-id pub-id-type="pmid">8345525</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Ouali1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ouali</surname><given-names>M</given-names></name>, <name><surname>King</surname><given-names>RD</given-names></name> (<year>2000</year>) <article-title>Cascaded multiple classifiers for secondary structure prediction</article-title>. <source>Protein Sci</source>
+<volume>9</volume>: <fpage>1162</fpage>â<lpage>1176</lpage>.<pub-id pub-id-type="pmid">10892809</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Baldi1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Baldi</surname><given-names>P</given-names></name>, <name><surname>Brunak</surname><given-names>S</given-names></name>, <name><surname>Frasconi</surname><given-names>P</given-names></name>, <name><surname>Soda</surname><given-names>G</given-names></name>, <name><surname>Pollastri</surname><given-names>G</given-names></name> (<year>1999</year>) <article-title>Exploiting the past and the future in protein secondary structure prediction</article-title>. <source>Bioinformatics</source>
+<volume>15</volume>: <fpage>937</fpage>â<lpage>946</lpage>.<pub-id pub-id-type="pmid">10743560</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Jones1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jones</surname><given-names>DT</given-names></name> (<year>1999</year>) <article-title>Protein secondary structure prediction based on position-specific scoring matrices</article-title>. <source>J Mol Biol</source>
+<volume>292</volume>: <fpage>195</fpage>â<lpage>202</lpage>.<pub-id pub-id-type="pmid">10493868</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Buchan1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Buchan</surname><given-names>DW</given-names></name>, <name><surname>Ward</surname><given-names>SM</given-names></name>, <name><surname>Lobley</surname><given-names>AE</given-names></name>, <name><surname>Nugent</surname><given-names>TC</given-names></name>, <name><surname>Bryson</surname><given-names>K</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Protein annotation and modelling servers at University College London</article-title>. <source>Nucleic Acids Res</source>
+<volume>38</volume>: <fpage>W563</fpage>â<lpage>W568</lpage>.<pub-id pub-id-type="pmid">20507913</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Wu1">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wu</surname><given-names>XH</given-names></name>, <name><surname>Zhang</surname><given-names>H</given-names></name>, <name><surname>Wu</surname><given-names>YD</given-names></name> (<year>2010</year>) <article-title>Is Asp-His-Ser/Thr-Trp tetrad hydrogen-bond network important to WD40-repeat proteins: a statistical and theoretical study</article-title>. <source>Proteins</source>
+<volume>78</volume>: <fpage>1186</fpage>â<lpage>1194</lpage>.<pub-id pub-id-type="pmid">19927323</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Wu2">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wu</surname><given-names>XH</given-names></name>, <name><surname>Chen</surname><given-names>RC</given-names></name>, <name><surname>Gao</surname><given-names>Y</given-names></name>, <name><surname>Wu</surname><given-names>YD</given-names></name> (<year>2010</year>) <article-title>The effect of Asp-His-Ser/Thr-Trp tetrad on the thermostability of WD40-repeat proteins</article-title>. <source>Biochemistry</source>
+<volume>49</volume>: <fpage>10237</fpage>â<lpage>10245</lpage>.<pub-id pub-id-type="pmid">20939513</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Wu3">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wu</surname><given-names>XH</given-names></name>, <name><surname>Wang</surname><given-names>Y</given-names></name>, <name><surname>Zhuo</surname><given-names>Z</given-names></name>, <name><surname>Jiang</surname><given-names>F</given-names></name>, <name><surname>Wu</surname><given-names>YD</given-names></name> (<year>2012</year>) <article-title>Identifying the Hotspots on the Top Faces of WD40-Repeat Proteins from Their Primary Sequences by beta-Bulges and DHSW Tetrads</article-title>. <source>PLoS One</source>
+<volume>7</volume>: <fpage>e43005</fpage>.<pub-id pub-id-type="pmid">22916195</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Richardson1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Richardson</surname><given-names>JS</given-names></name>, <name><surname>Getzoff</surname><given-names>ED</given-names></name>, <name><surname>Richardson</surname><given-names>DC</given-names></name> (<year>1978</year>) <article-title>The beta-bulge: a common small unit of nonrepetitive protein structure</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>75</volume>: <fpage>2574</fpage>â<lpage>2578</lpage>.<pub-id pub-id-type="pmid">275827</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Chan1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Chan</surname><given-names>AW</given-names></name>, <name><surname>Hutchinson</surname><given-names>EG</given-names></name>, <name><surname>Harris</surname><given-names>D</given-names></name>, <name><surname>Thornton</surname><given-names>JM</given-names></name> (<year>1993</year>) <article-title>Identification, classification, and analysis of beta-bulges in proteins</article-title>. <source>Protein Sci</source>
+<volume>2</volume>: <fpage>1574</fpage>â<lpage>1590</lpage>.<pub-id pub-id-type="pmid">8251933</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Mata1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mata</surname><given-names>IF</given-names></name>, <name><surname>Kachergus</surname><given-names>JM</given-names></name>, <name><surname>Taylor</surname><given-names>JP</given-names></name>, <name><surname>Lincoln</surname><given-names>S</given-names></name>, <name><surname>Aasly</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Lrrk2 pathogenic substitutions in Parkinson's disease</article-title>. <source>Neurogenetics</source>
+<volume>6</volume>: <fpage>171</fpage>â<lpage>177</lpage>.<pub-id pub-id-type="pmid">16172858</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Mata2">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mata</surname><given-names>IF</given-names></name>, <name><surname>Wedemeyer</surname><given-names>WJ</given-names></name>, <name><surname>Farrer</surname><given-names>MJ</given-names></name>, <name><surname>Taylor</surname><given-names>JP</given-names></name>, <name><surname>Gallo</surname><given-names>KA</given-names></name> (<year>2006</year>) <article-title>LRRK2 in Parkinson's disease: protein domains and functional insights</article-title>. <source>Trends Neurosci</source>
+<volume>29</volume>: <fpage>286</fpage>â<lpage>293</lpage>.<pub-id pub-id-type="pmid">16616379</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Webber1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Webber</surname><given-names>PJ</given-names></name>, <name><surname>West</surname><given-names>AB</given-names></name> (<year>2009</year>) <article-title>LRRK2 in Parkinson's disease: function in cells and neurodegeneration</article-title>. <source>FEBS J</source>
+<volume>276</volume>: <fpage>6436</fpage>â<lpage>6444</lpage>.<pub-id pub-id-type="pmid">19804415</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Tan1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tan</surname><given-names>EK</given-names></name>, <name><surname>Skipper</surname><given-names>LM</given-names></name> (<year>2007</year>) <article-title>Pathogenic mutations in Parkinson disease</article-title>. <source>Hum Mutat</source>
+<volume>28</volume>: <fpage>641</fpage>â<lpage>653</lpage>.<pub-id pub-id-type="pmid">17385668</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Lee2">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lee</surname><given-names>BD</given-names></name>, <name><surname>Dawson</surname><given-names>VL</given-names></name>, <name><surname>Dawson</surname><given-names>TM</given-names></name> (<year>2012</year>) <article-title>Leucine-rich repeat kinase 2 (LRRK2) as a potential therapeutic target in Parkinson's disease</article-title>. <source>Trends Pharmacol Sci</source>
+<volume>33</volume>: <fpage>365</fpage>â<lpage>373</lpage>.<pub-id pub-id-type="pmid">22578536</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Rost2">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rost</surname><given-names>B</given-names></name> (<year>2001</year>) <article-title>Review: protein secondary structure prediction continues to rise</article-title>. <source>J Struct Biol</source>
+<volume>134</volume>: <fpage>204</fpage>â<lpage>218</lpage>.<pub-id pub-id-type="pmid">11551180</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Kabsch1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kabsch</surname><given-names>W</given-names></name>, <name><surname>Sander</surname><given-names>C</given-names></name> (<year>1983</year>) <article-title>Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features</article-title>. <source>Biopolymers</source>
+<volume>22</volume>: <fpage>2577</fpage>â<lpage>637</lpage>.<pub-id pub-id-type="pmid">6667333</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Heinig1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Heinig</surname><given-names>M</given-names></name>, <name><surname>Frishman</surname><given-names>D</given-names></name> (<year>2004</year>) <article-title>STRIDE: a web server for secondary structure assignment from known atomic coordinates of proteins</article-title>. <source>Nucleic Acids Res</source>
+<volume>32</volume>: <fpage>W500</fpage>â<lpage>W502</lpage>.<pub-id pub-id-type="pmid">15215436</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Martin1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Martin</surname><given-names>J</given-names></name>, <name><surname>Letellier</surname><given-names>G</given-names></name>, <name><surname>Marin</surname><given-names>A</given-names></name>, <name><surname>Taly</surname><given-names>JF</given-names></name>, <name><surname>de Brevern</surname><given-names>AG</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Protein secondary structure assignment revisited: a detailed analysis of different assignment methods</article-title>. <source>BMC Struct Biol</source>
+<volume>5</volume>: <fpage>17</fpage>.<pub-id pub-id-type="pmid">16164759</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Zhang1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>W</given-names></name>, <name><surname>Dunker</surname><given-names>AK</given-names></name>, <name><surname>Zhou</surname><given-names>Y</given-names></name> (<year>2008</year>) <article-title>Assessing secondary structure assignment of protein structures by using pairwise sequence-alignment benchmarks</article-title>. <source>Proteins</source>
+<volume>71</volume>: <fpage>61</fpage>â<lpage>67</lpage>.<pub-id pub-id-type="pmid">17932927</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Goldberg1">
+        <label>49</label>
+        <mixed-citation publication-type="other">Goldberg DE (1989) Genetic Algorithms in Search, Optimization and Machine Learning: Addison-Wesley Longman Publishing Co., Inc. 372 p.</mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Andreeva1">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Andreeva</surname><given-names>A</given-names></name>, <name><surname>Howorth</surname><given-names>D</given-names></name>, <name><surname>Brenner</surname><given-names>SE</given-names></name>, <name><surname>Hubbard</surname><given-names>TJ</given-names></name>, <name><surname>Chothia</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>SCOP database in 2004: refinements integrate structure and sequence family data</article-title>. <source>Nucleic Acids Res</source>
+<volume>32</volume>: <fpage>D226</fpage>â<lpage>D229</lpage>.<pub-id pub-id-type="pmid">14681400</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Hutchinson1">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hutchinson</surname><given-names>EG</given-names></name>, <name><surname>Thornton</surname><given-names>JM</given-names></name> (<year>1994</year>) <article-title>A revised set of potentials for beta-turn formation in proteins</article-title>. <source>Protein Sci</source>
+<volume>3</volume>: <fpage>2207</fpage>â<lpage>2216</lpage>.<pub-id pub-id-type="pmid">7756980</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Cai1">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cai</surname><given-names>YD</given-names></name>, <name><surname>Yu</surname><given-names>H</given-names></name>, <name><surname>Chou</surname><given-names>KC</given-names></name> (<year>1998</year>) <article-title>Prediction of beta-turns</article-title>. <source>J Protein Chem</source>
+<volume>17</volume>: <fpage>363</fpage>â<lpage>376</lpage>.<pub-id pub-id-type="pmid">9619589</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Rost3">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rost</surname><given-names>B</given-names></name>, <name><surname>Sander</surname><given-names>C</given-names></name>, <name><surname>Schneider</surname><given-names>R</given-names></name> (<year>1994</year>) <article-title>Redefining the goals of protein secondary structure prediction</article-title>. <source>J Mol Biol</source>
+<volume>235</volume>: <fpage>13</fpage>â<lpage>26</lpage>.<pub-id pub-id-type="pmid">8289237</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Murzin1">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Murzin</surname><given-names>AG</given-names></name> (<year>1992</year>) <article-title>Structural principles for the propeller assembly of beta-sheets: the preference for seven-fold symmetry</article-title>. <source>Proteins</source>
+<volume>14</volume>: <fpage>191</fpage>â<lpage>201</lpage>.<pub-id pub-id-type="pmid">1409568</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Hunter1">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hunter</surname><given-names>S</given-names></name>, <name><surname>Jones</surname><given-names>P</given-names></name>, <name><surname>Mitchell</surname><given-names>A</given-names></name>, <name><surname>Apweiler</surname><given-names>R</given-names></name>, <name><surname>Attwood</surname><given-names>TK</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>InterPro in 2011: new developments in the family and domain prediction database</article-title>. <source>Nucleic Acids Res</source>
+<volume>40</volume>: <fpage>D306</fpage>â<lpage>D312</lpage>.<pub-id pub-id-type="pmid">22096229</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Wilson1">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wilson</surname><given-names>D</given-names></name>, <name><surname>Pethica</surname><given-names>R</given-names></name>, <name><surname>Zhou</surname><given-names>Y</given-names></name>, <name><surname>Talbot</surname><given-names>C</given-names></name>, <name><surname>Vogel</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>SUPERFAMILYâsophisticated comparative genomics, data mining, visualization and phylogeny</article-title>. <source>Nucleic Acids Res</source>
+<volume>37</volume>: <fpage>D380</fpage>â<lpage>D386</lpage>.<pub-id pub-id-type="pmid">19036790</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Lees1">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lees</surname><given-names>J</given-names></name>, <name><surname>Yeats</surname><given-names>C</given-names></name>, <name><surname>Perkins</surname><given-names>J</given-names></name>, <name><surname>Sillitoe</surname><given-names>I</given-names></name>, <name><surname>Rentzsch</surname><given-names>R</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Gene3D: a domain-based resource for comparative genomics, functional annotation and protein network analysis</article-title>. <source>Nucleic Acids Res</source>
+<volume>40</volume>: <fpage>D465</fpage>â<lpage>D471</lpage>.<pub-id pub-id-type="pmid">22139938</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0065705-Mylona1">
+        <label>58</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mylona</surname><given-names>A</given-names></name>, <name><surname>Fernandez-Tornero</surname><given-names>C</given-names></name>, <name><surname>Legrand</surname><given-names>P</given-names></name>, <name><surname>Haupt</surname><given-names>M</given-names></name>, <name><surname>Sentenac</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Structure of the tau60/Delta tau91 subcomplex of yeast transcription factor IIIC: insights into preinitiation complex assembly</article-title>. <source>Mol Cell</source>
+<volume>24</volume>: <fpage>221</fpage>â<lpage>232</lpage>.<pub-id pub-id-type="pmid">17052456</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

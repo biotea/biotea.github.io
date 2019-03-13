@@ -1,0 +1,869 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:46:10Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3494284" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3494284</identifier><datestamp>2013-05-01</datestamp><setSpec>nihpa</setSpec><setSpec>pmc-open</setSpec><setSpec>manuscript</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100890575</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21417</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Cell Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Cell Biol.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature cell biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1465-7392</issn>
+      <issn pub-type="epub">1476-4679</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3494284</article-id>
+      <article-id pub-id-type="pmcid">PMC3494284</article-id>
+      <article-id pub-id-type="pmc-uid">3494284</article-id>
+      <article-id pub-id-type="pmid">23103912</article-id>
+      <article-id pub-id-type="pmid">23103912</article-id>
+      <article-id pub-id-type="doi">10.1038/ncb2593</article-id>
+      <article-id pub-id-type="manuscript">nihpa405063</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>PARP16 is a tail-anchored endoplasmic reticulum protein required for the PERK and IRE1Î±-mediated unfolded protein response</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jwa</surname>
+            <given-names>Miri</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chang</surname>
+            <given-names>Paul</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="aff" rid="A2">2</xref>
+          <xref rid="FN1" ref-type="author-notes">3</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Koch Institute for Integrative Cancer Research, Massachusetts Institute of Technology, Cambridge, MA 02139, USA</aff>
+      <aff id="A2"><label>2</label>Department of Biology, Massachusetts Institute of Technology, Cambridge, MA 02139, USA</aff>
+      <author-notes>
+        <corresp id="FN1"><label>3</label>Corresponding author: Paul Chang, MIT, 77 Massachusetts Ave. Cambridge, MA 02139, <email>pchang2@mit.edu</email></corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>12</day>
+        <month>9</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>28</day>
+        <month>10</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>01</day>
+        <month>5</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>14</volume>
+      <issue>11</issue>
+      <fpage>1223</fpage>
+      <lpage>1230</lpage>
+      <!--elocation-id from pubmed: 10.1038/ncb2593-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: 
+<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Summary</title>
+        <p id="P3">Poly(ADP-ribose) polymerases (PARPs) (also known as ADP-ribosyl transferase D proteins) modify acceptor proteins with ADP-ribose modifications of varying length (reviewed in <italic>refs</italic>
+<xref rid="R1" ref-type="bibr">1</xref>â<xref rid="R3" ref-type="bibr">3</xref>). PARPs regulate key stress response pathways, including DNA damage repair and the cytoplasmic stress response<sup><xref rid="R2" ref-type="bibr">2</xref>,<xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R6" ref-type="bibr">6</xref></sup>. Here, we show that PARPs also regulate the unfolded protein response (UPR) of the endoplasmic reticulum (ER). Human PARP16/ARTD15 is a tail-anchored ER transmembrane protein required for activation of the functionally related ER stress sensors PERK and IRE1Î± during the UPR. The third identified ER stress sensor, ATF6, is not regulated by PARP16. Similar to other PARPs that function during stress, PARP16 enzymatic activity is up-regulated during ER stress when it (ADP-ribosyl)ates itself, PERK and IRE1Î±. (ADP-ribosyl)ation by PARP16 is sufficient for activating PERK and IRE1Î± in the absence of ER stress, and is required for PERK and IRE1 Î± activation during the UPR. Modification of PERK and IRE1Î± by PARP16 increases their kinase activities and the endonuclease activity of IRE1Î±. Interestingly, the C-terminal luminal tail of PARP16 is required for PARP16 function during ER stress, suggesting that it transduces stress signals to the cytoplasmic PARP catalytic domain.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>PARP16</kwd>
+        <kwd>(ADP-ribosyl)ation</kwd>
+        <kwd>(ADP-ribose)</kwd>
+        <kwd>tail-anchored protein</kwd>
+        <kwd>C-tail</kwd>
+        <kwd>transmembrane protein</kwd>
+        <kwd>endoplasmic reticulum</kwd>
+        <kwd>unfolded protein response</kwd>
+        <kwd>ER stress</kwd>
+        <kwd>PERK</kwd>
+        <kwd>IRE1Î±</kwd>
+        <kwd>ATF6</kwd>
+        <kwd>eIF2Î±</kwd>
+        <kwd>XBP-1</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P4">We previously identified a reticular membrane localization for uncharacterized PARP16 in a screen analyzing PARP function using lypophilic dye DiI (personal communication, Sejal Vyas; <xref rid="F1" ref-type="fig">Fig. 1a</xref>). To identify organelles to which it localizes, HeLa cells (utilized in all subsequent experiments) were stained with antibodies against PARP16 and markers for membrane bound organellesâCalnexin, Lamin A/C, MTCO2, p230, and EEA1. Of these, PARP16 and Calnexin localization strongly overlapped, suggesting that PARP16 is an ER protein (<xref rid="F1" ref-type="fig">Fig. 1a</xref>).</p>
+    <p id="P5">Based on primary sequence, PARP16 is predicted to be a tail-anchored (TA) protein with a hydrophobic transmembrane domain at amino acid 288â308 (<xref rid="F1" ref-type="fig">Fig. 1b</xref>; UniProtKB)<sup><xref rid="R7" ref-type="bibr">7</xref></sup>. TA proteins are single-spanning transmembrane proteins that contain cytoplasmic N-termini, short transmembrane domains (&lt; 30 a.a.) and C-terminal domains called C-tails (~10â15 amino acids) positioned within the lumen of target organelles. C-tails target to the ER via net positive charge rather than specific amino acid composition and are inserted post-translationally into ER membrane via the GET (Golgi-ER trafficking) complex<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup>. To determine if PARP16 is a TA protein, we performed membrane extraction assays to confirm that PARP16 is transmembrane, protease protection assays to determine if the N-terminus is cytoplasmic, and truncation/mutation assays to determine if the C-terminus acts as a C-tail<sup><xref rid="R10" ref-type="bibr">10</xref></sup>. Treatment of purified membrane fractions with 1 M NaCl released peripherally associated membrane protein Lamin B2 but not PARP16, while treatment with 1% Triton X-100 resulted in the release of transmembrane protein Lamin B1 and PARP16, identifying PARP16 as a transmembrane protein (<xref rid="F1" ref-type="fig">Fig. 1c</xref>). A N-terminal GFP-fusion to PARP16, GFP-PARP16 remained membrane associated in response to Digitonin treatment (in contrast to GFP only controls), while subsequent Proteinase K treatment resulted in loss of fluorescence, suggesting that the N-terminus or PARP16 is cytoplasmic (<xref rid="F1" ref-type="fig">Fig. 1d</xref>). Finally, a C-tail truncation (PARP16<sup>ÎC</sup>) and a PARP16<sup>AA</sup> mutant failed to localize to the ER (a small portion of PARP16<sup>AA</sup> remained ER associated) while a Cytochrome b5 chimera (PARP16<sup>Cb5</sup>) with PARP16 C-tail replaced with ER-associated Cytochrome b5 C-tail retained ER localization even upon Digitonin treatment, demonstrating that the C-terminus of PARP16 functions as a C-tail (<xref rid="F1" ref-type="fig">Fig. 1e, f</xref>).</p>
+    <p id="P6">Human PARP16 (ADP-ribosyl)ates itself (personal communication, Sejal Vyas) and contains histidine and tyrosine residues at amino acid 152 and 182 within its catalytic domain, residues thought to be critical for enzymatic activity (<xref rid="F1" ref-type="fig">Fig. 1b</xref>)<sup><xref rid="R11" ref-type="bibr">11</xref></sup>. To determine if these residues are required for enzymatic activity, GST-PARP16 and GST-PARP16<sup>H152Q Y182A</sup> were expressed and purified in <italic>E. coli</italic>, and <sup>32</sup>P-NAD<sup>+</sup> incorporation assays performed. Self-modification of GST-PARP16 was detected at its molecular weight in a NAD<sup>+</sup> dose-dependent manner, while GST-PARP16<sup>H152Q Y182A</sup> exhibited incorporation activity at ~ 6% of wild-type (<xref rid="F2" ref-type="fig">Fig. 2a</xref>).</p>
+    <p id="P7">Analysis of PARP16 membrane topology suggests its catalytic domain is cytoplasmic (<xref rid="F1" ref-type="fig">Fig. 1f</xref>). To determine if PARP16 ADP-ribosylation activity is cytoplasmic, and examine its function in the context of ER membrane, we developed an ER microsome assay to monitor NAD<sup>+</sup> incorporation called the ER microsome (ADP-ribosyl)ation Assay or EMAA. Microsomes were purified from cells expressing GFP-PARP16 or GFP-PARP16<sup>H152Q Y182A</sup>, incubated with <sup>32</sup>P-NAD<sup>+</sup>, dissolved to extract and purify GFP-PARP16, then <sup>32</sup>P-NAD<sup>+</sup> incorporation into GFP-PARP16 assayed via autoradiography<sup><xref rid="R12" ref-type="bibr">12</xref></sup>. Microsomes purified for this purpose stained positive for ER tracker, were highly enriched in ER proteins, and were intact since they did not contain protein from other cellular compartments (<xref rid="SD3" ref-type="supplementary-material">Fig. S1a, b</xref>). Since intact ER microsomes are impermeable to NAD<sup>+</sup>, any incorporation of <sup>32</sup>P-NAD<sup>+</sup> occurs outside of the microsome lumen<sup><xref rid="R13" ref-type="bibr">13</xref></sup>. Self-modification of GFP-PARP16 was detected at its molecular weight in a NAD<sup>+</sup> dose-dependent manner while GFP-PARP16<sup>H152Q Y182A</sup> failed to incorporate NAD<sup>+</sup> (<xref rid="F2" ref-type="fig">Fig. 2b</xref>, Left), suggesting that PARP16 (ADP-ribosyl)ation activity is cytoplasmic and requires His152 and Tyr182. Multiple migrating forms of GFP-PARP16 were detected. In addition, <sup>32</sup>P-NAD<sup>+</sup> was incorporated at higher molecular weight, suggesting the presence of binding proteins that are modified by PARP16 (<xref rid="F2" ref-type="fig">Fig. 2b</xref>, Asterisk).</p>
+    <p id="P8">Interestingly, prolonged PARP16 over-expression (&gt; 28 h) resulted in abnormal ER morphology with &gt;80% of PARP16 overexpressing cells containing abnormal globular ER structures (<xref rid="F2" ref-type="fig">Fig. 2c</xref>, <xref rid="SD4" ref-type="supplementary-material">S2</xref>). This phenotype was time and/or protein concentration dependent as ER appeared normal at 16 h of expression, and required PARP16 enzymatic activity and an intact C-tail as only ~ 5% of cells expressing PARP16<sup>H152Q Y182A</sup> or PARP16<sup>Cb5</sup> at levels similar to wild type PARP16, contained abnormal ER (<xref rid="F2" ref-type="fig">Fig. 2c</xref>, <xref rid="SD4" ref-type="supplementary-material">S2</xref>). Since GFP-PARP16 and GFP-PARP16<sup>H152Q Y182A</sup> both localized to the ER, enzymatic activity is not required for ER localization.</p>
+    <p id="P9">Abnormal ER structures resulting from prolonged PARP16 over-expression resemble ER from stressed cells<sup><xref rid="R14" ref-type="bibr">14</xref></sup>, leading us to examine PARP16 function in the unfolded protein response (UPR) (<xref rid="F2" ref-type="fig">Fig. 2c</xref>). The UPR is an ER stress response activated by an increase in unfolded proteins within the ER lumen. In mammals, three transmembrane ER stress sensors, PERK and IRE1Î±, kinases with functionally interchangeable luminal domains, and the transcription factor ATF6, regulate separate but interconnected UPR signaling pathways (reviewed in <italic>refs</italic>
+<xref rid="R15" ref-type="bibr">15</xref> â <xref rid="R19" ref-type="bibr">19</xref>). Under non-stress conditions, each sensor is bound to and inhibited by BiP, an ER specific chaperone. To determine if PARP16 functions in the UPR, we knocked it down with two siRNAs generated against distinct sequences, then activated the UPR using Tunicamycin, Brefeldin A, and Thapsigargin, and examined the effects. Consistent with perturbed UPR function, PARP16 knock-down rendered cells highly sensitive to ER stress, resulting in increased cell death (<xref rid="F2" ref-type="fig">Fig. 2d</xref>).</p>
+    <p id="P10">The high sensitivity to ER stress in PARP16 knock-downs could also be explained by ER dysfunction or a general misregulation of cellular stress responses. However, ER function was intact in PARP16 knock-downs as measured by intracellular concentration of ROS (reactive oxygen species) and Ca<sup>2+</sup>. PARP16 and control knock-down cells exhibited similar ROS generation, measured via CM-H<sub>2</sub>DCFDA in the presence or absence of H<sub>2</sub>O<sub>2</sub>, and similar Ca<sup>2+</sup> leakage to the cytoplasm assayed via Fura-4F 340/380 nm fluorescence upon Thapsigargin treatment (<xref rid="SD5" ref-type="supplementary-material">Fig. S3a, b</xref>). Non-UPR related cellular stress responses, such as DNA damage repair and the cytoplasmic stress response, both known to require PARP activity, were also intact in PARP16 knock-downs. PARP16 and control knock-down cells exhibited a similar response to DNA damage induced by Cisplatin, with similar levels of Î³-H2AX foci formation, and cytoplasmic stress induced by Arsenite, although the number of cells positive for TIA-1 staining stress granules were slightly reduced relative to controls (<xref rid="SD5" ref-type="supplementary-material">Fig. S3c, d</xref>).</p>
+    <p id="P11">All known PARP-dependent stress responses result in up-regulation of PARP enzymatic activity<sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R6" ref-type="bibr">6</xref></sup>. We examined PARP16 enzymatic activity during the UPR via EMAA using cells expressing GFP-PARP16 for 16 h, a condition that did not affect ER organization (<xref rid="F2" ref-type="fig">Fig. 2c</xref>). All subsequent EMAAs were performed in this manner. Cells expressing GFP-PARP16 were treated +/â ER stress inducing agents, and PARP16 activity assayed. ER stress resulted in significant increases in GFP-PARP16 self-modification in a NAD<sup>+</sup> dose-dependent manner (5~8 fold increase at 100 Î¼M NAD<sup>+</sup> and 8~13 fold increase at 200 Î¼M NAD<sup>+</sup> depending on stressor), and a dramatic electrophoretic mobility shift of GFP-PARP16 was detected via immunoblot and autoradiogram (<xref rid="F3" ref-type="fig">Fig. 3a</xref>). Additional higher molecular weight bands were also observed on the autoradiogram, migrating at the molecular weight of PERK (125 kD) and IRE1Î± (130 kD), but not ATF6 (75 kD). PERK and IRE1Î± were found in these GFP-PARP16 precipitates via immunoblot under 450 mM NaCl conditions, demonstrating a robust association between PARP16, PERK and IRE1Î± (<xref rid="F3" ref-type="fig">Fig. 3a</xref>, Right panels). These high molecular weight bands of NAD<sup>+</sup> incorporation could represent (ADP-ribosyl)ation of PERK and IRE1Î±.</p>
+    <p id="P12">To determine if PARP16 binds to ER stress sensors in the absence of ER stress, GFP fusions to PARP16, PERK, IRE1Î±, ATF6 or SEC61Î², an UPR-unrelated ER transmembrane protein, were expressed and co-immunoprecipitation assays performed. While PERK and IRE1Î± were present in GFP-PARP16 precipitates, and PARP16 was identified in GFP-PERK and IRE1Î± precipitates, no significant binding was identified between ATF6, SEC61Î² and PARP16 (<xref rid="F3" ref-type="fig">Fig. 3b</xref>). Thus, PARP16 selectively binds to PERK and IRE1Î± but not ATF6 in the presence and absence of ER stress.</p>
+    <p id="P13">Our data suggested that PERK and IRE1Î± could be substrates of PARP16. We examined NAD<sup>+</sup> incorporation onto GFP-PERK or GFP-IRE1Î± via EMAA in cells transfected with control or PARP16 siRNA, treated with or without ER stress inducing drugs. Low level (ADP-ribosyl)ation of GFP-PERK and GFP-IRE1Î± was detected in control knock-down cells in the absence of drug (<xref rid="F3" ref-type="fig">Fig. 3c, d</xref>), likely due to the previously described UPR induction upon PERK or IRE1Î± expression<sup><xref rid="R20" ref-type="bibr">20</xref>,<xref rid="R21" ref-type="bibr">21</xref></sup>. (ADP-ribosyl)ation of GFP-PERK and GFP-IRE1Î± increased under ER stress (5 fold and 4â11 fold, respectively with differences dependent on stressor). In both cases this increase required PARP16, as modification was dramatically reduced in PARP16 knock downs (<xref rid="F3" ref-type="fig">Fig. 3c, d</xref>). Neither GFP-SEC61Î² nor GFP-ATF6 were (ADP-ribosyl)ated in similar assays (<xref rid="F3" ref-type="fig">Fig. 3e</xref>).</p>
+    <p id="P14">To determine the effects of (ADP-ribosyl)ation on PERK and IRE1Î± signaling, GFP-PARP16, GFP-PARP16<sup>H152Q Y182A</sup>, or GFP alone were over-expressed at similar concentrations, and PERK and IRE1Î± activation examined using two standard assays; (i) detection of PERK phosphorylation at Thr 981 and phosphorylation of its substrate eIF2Î± at Ser 51 using phospho-specific antibodies, and (ii) monitoring splicing of the IRE1Î± substrate XBP-1 mRNA. Over-expression of GFP-PARP16, but not GFP-PARP16<sup>H152Q Y182A</sup> or GFP resulted in PERK and eIF2 Î± phosphorylation, and XBP-1 splicing (<xref rid="F4" ref-type="fig">Fig. 4a, b</xref>, <xref rid="SD6" ref-type="supplementary-material">S4a</xref>), suggesting that (ADP-ribosyl)ation by PARP16 is sufficient to activate PERK and IRE1Î±.</p>
+    <p id="P15">To determine if PARP16 is required for PERK or IRE1Î± activation, we compared activation in PARP16 knock-downs to controls. Control cells treated with Brefeldin A or Tunicamycin resulted in robust phosphorylation of PERK and eIF2Î±, and XBP-1 splicing, while PARP16 knock-downs similarly treated failed to activate PERK or IRE1Î± (<xref rid="F4" ref-type="fig">Fig. 4a, b</xref>, <xref rid="SD6" ref-type="supplementary-material">S4a</xref>. Since PERK and IRE1 Î± activity result in the time-dependent activation of downstream transcriptional programs regulated by ATF4 and spliced XBP-1, respectively, we analyzed PERK and IRE1Î± signaling every 4 h over a 12 h period in PARP16 knock-downs and controls treated with Tunicamycin. Components of each pathway were analyzed via immunoblot or RT-qPCR analysis. While IRE1Î± activation, detected by phosphorylation of IRE1Î±, occurred 4 h post treatment in controls, such phosphorylation was barely detectable in PARP16 knock-downs at any time (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Left). At 4 h, spliced XBP-1 protein began to accumulate in controls, but was undetectable in PARP16 knock-downs (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Left). IRE1Î± dependent transcriptional programs were also defective in PARP16 knock-downs; In control cells, unspliced XBP-1 mRNA decreased and spliced XBP-1 mRNA increased (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Right), whereas in PARP16 knock-downs, unspliced XBP-1 mRNA increased, due to ATF6 activation, and spliced XBP-1 mRNA induction was reduced 5-fold at 4h and 15-fold at 8 h (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Right). P58(IPK) mRNA was induced in control but not PARP16 knock downs (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Right). As expected, BiP concentrations increased at 4 h and plateaued at 8 h in control knock-downs due to increased transcription of BiP mRNA by spliced XBP1. A minor increase in BiP appeared at 12 h in PARP16 knock-downs (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Left).</p>
+    <p id="P16">Activation of the PERK branch appeared at 8 h in controls as determined by PERK and eIF2Î± phosphorylation, and ATF4 synthesis. Such phosphorylation was barely detectable in PARP16 knock-downs at this time-point, and PERK-dependent transcriptional programs were defective; while ATF3 and ATF4 mRNA began to accumulate at 8 h in controls, accumulation was reduced 5-fold at 8 h and 10-fold at 12 h in PARP16 knock downs (<xref rid="F4" ref-type="fig">Fig. 4c</xref>). ATF6 activation was also monitored by examining cleavage to its active transcription factor. Cleavage appeared at 4 h in control and PARP16 knock downs, confirming that ATF6 activation is intact in the PARP16 knock downs (<xref rid="F4" ref-type="fig">Fig. 4c</xref>, Left).</p>
+    <p id="P17">While our data strongly point to direct effects of PARP16 on PERK and IRE1Î± signaling, compromised ERAD (ER-associated degradation) and/or chaperone capacities of the ER in PARP16 knock-downs could also affect UPR activation. ERAD activity in PARP16 knock-downs was examined by measuring clearance of CD3Î´-YFP, a model substrate of ERAD machinery. CD3Î´-YFP degradation kinetics were similar in PARP16 knock downs and controls as assayed by cycloheximide chase. Inhibition of the proteasome via MG132 rescued degradation (<xref rid="SD7" ref-type="supplementary-material">Fig. S5a</xref>), suggesting that ERAD activity is similar in control and PARP16 knock-downs. Cells overexpressing intermediate amounts of mCherry-PARP16 also exhibited similar kinetics of CD3Î´-YFP clearance (<xref rid="SD7" ref-type="supplementary-material">Fig. S5a</xref>), suggesting that overexpression of PARP16 does not perturb ERAD activity. The protein-folding capacity of the ER in PARP16 knock-downs appear to be similar to controls as the protein concentrations of ER chaperones BiP and Calnexin, and disulfide isomerases PDI and ERp57, were similar (<xref rid="SD7" ref-type="supplementary-material">Fig. S5b</xref>).</p>
+    <p id="P18">The increase in PARP16 enzymatic activity, and (ADP-ribosyl)ation of PERK and IRE1Î± during the UPR raised the possibility that (ADP-ribosyl)ation directly regulates PERK and IRE1Î± enzymatic activity. We examined PERK and IRE1Î± kinase activity in response to (ADP-ribosyl)ation by PARP16 via self-phosphorylation assays. ER microsomes purified from GFP-PERK or GFP-IRE1Î± expressing cells were washed with 1M NaCl to remove bound PARP16, returned to physiological salt buffer, split into duplicate reactions, and incubated with unlabeled NAD<sup>+</sup> plus either GST-PARP16 or GST-PARP16<sup>H152Q Y182A</sup>, or <sup>32</sup>P-NAD<sup>+</sup> plus either recombinant protein. (ADP-ribosyl)ated GFP-PERK or GFP-IRE1Î± were extracted from the microsomes and purified under 1 M NaCl conditions to remove added recombinant PARP16 proteins. Reactions containing unlabeled NAD<sup>+</sup> were incubated with <sup>32</sup>P-ATP, and reactions containing <sup>32</sup>P-NAD<sup>+</sup> were incubated with unlabeled ATP. (ADP-ribosyl)ation of GFP-PERK and GFP-IRE1Î± increased in a GST-PARP16 and NAD<sup>+</sup> dose dependent manner (<sup>32</sup>P-NAD<sup>+</sup> autoradiograms in <xref rid="F4" ref-type="fig">Fig. 4d, e</xref>, <xref rid="SD6" ref-type="supplementary-material">S4c</xref>). <sup>32</sup>P-NAD<sup>+</sup> incorporation at the molecular weight of GST-PARP16 was also observed (<sup>32</sup>P-NAD<sup>+</sup> autoradiograms in <xref rid="F4" ref-type="fig">Fig. 4d, e</xref>, <xref rid="SD6" ref-type="supplementary-material">S4c</xref>), representing residual binding of GST-PARP16 with GFP-PERK or GFP-IRE1Î± even after 1 M NaCl washes. As shown in <sup>32</sup>P-ATP autoradiograms in <xref rid="F4" ref-type="fig">Fig. 4d, e</xref> and <xref rid="SD6" ref-type="supplementary-material">S4c</xref>, increased (ADP-ribosyl)ation of GFP-PERK or GFP-IRE1Î± resulted in a dose-dependent increase in kinase activity (for GFP-PERK a 4â18 fold increase depending on NAD<sup>+</sup> concentration, and for IRE1Î±, a2â5 fold increase depending on NAD<sup>+</sup> concentration), suggesting that (ADP-ribosyl)ation by PARP16 directly up-regulates GFP-PERK and GFP-IRE1Î± kinase activity. Phosphorylation by PERK at the molecular weight of GST-PARP16 was detected in a GST-PARP16 and NAD<sup>+</sup> dose dependent manner, indicating that PARP16 is likely a substrate of PERK. Such phosphorylation was dramatically reduced (5â10 fold reduction depending on NAD<sup>+</sup> concentration) in GST-PARP16<sup>H152Q Y182A</sup> samples (<xref rid="F4" ref-type="fig">Fig. 4d</xref> and <xref rid="SD6" ref-type="supplementary-material">S4c</xref>). Phosphorylation by GFP-IRE1Î± at the molecular weight of GST-PARP16 and GST-PARP16<sup>H152Q Y182A</sup> was also detected (<xref rid="F4" ref-type="fig">Fig. 4e</xref>), suggesting that PARP16 is an IRE1Î± substrate and that PARP activity is not required for phosphorylation by IRE1Î±. Such phosphorylation does not appear NAD<sup>+</sup> concentration dependent.</p>
+    <p id="P19">Next, we examined the effects of (ADP-ribosyl)ation on IRE1Î± endonuclease activity. GFP-IRE1Î± purified as in <xref rid="F4" ref-type="fig">Fig. 4e</xref> was incubated with <sup>32</sup>P labeled mouse XBP-1 mRNA containing the intron flanked by truncated exons. Increased (ADP-ribosyl)ation of GFP-IRE1Î± resulted in a NAD<sup>+</sup> dose-dependent cleavage of XBP-1 mRNA indicated by the appearance of 5â² and 3â² exons (5â12 fold increase depending on NAD<sup>+</sup> concentration; <xref rid="F4" ref-type="fig">Fig. 4f</xref>), suggesting that (ADP-ribosyl)ation of IRE1Î± by PARP16 directly up-regulates endonuclease activity.</p>
+    <p id="P20">One potential mechanism by which PARP16 regulates PERK and IRE1Î± is via BiP binding. We examined BiP dissociation from PERK and IRE1Î± during the UPR to determine if it is affected in PARP16 knock downs. ER microsomes were purified from control or PARP16 knock-down cells expressing either GFP-PERK or GFP-IRE1Î± and treated with Tunicamycin. GFP fusions were purified from the microsomes every 4 h for 12h, and immunoprecipitates analyzed for the presence of BiP. In controls, BiP dissociated from GFP-IRE1Î± and GFP-PERK at 4 and 8 h respectively (<xref rid="F5" ref-type="fig">Fig. 5a</xref>). In PARP16 knockdowns, BiP remained bound to GFP-PERK and GFP-IRE1Î± throughout the time course with a slight reduction in binding, suggesting that BiP dissociation was impaired (<xref rid="F5" ref-type="fig">Fig. 5a</xref>). Since BiP displacement from PERK and IRE1Î± occurs inside the ER lumen, these data indicate a potential function for the PARP16 C-tail in facilitating BiP dissociation from the luminal domains of PERK and IRE1Î±.</p>
+    <p id="P21">The requirement of PARP16 for PERK and IRE1Î± activation suggests that PARP16 functions upstream of PERK and IRE1Î± and that the C-tail of PARP16 might transduce stress signals from the ER lumen to the cytoplasmic PARP domain. To determine if this is the case, we expressed GFP-PARP16<sup>Cb5</sup> and treated with ER stress inducing drugs. Cells expressing GFP-PARP16<sup>Cb5</sup> were unable to activate PERK and IRE1Î± (<xref rid="F5" ref-type="fig">Fig. 5b, c</xref> and <xref rid="SD6" ref-type="supplementary-material">S4b</xref>), suggesting that the luminal C-tail of PARP16 is necessary for PARP16 function in the UPR, and that PARP16<sup>Cb5</sup> acts as a dominant negative for PARP16 function in the UPR.</p>
+    <p id="P22">In conclusion, we show that the ER-associated tail-anchored protein PARP16 selectively (ADP-ribosyl)ates PERK and IRE1Î± during the UPR, and that such modification is required for activation of PERK and IRE1Î± at least in part by increasing their kinase and endonuclease activities. Interestingly, <italic>S. cerevisiae</italic> lacks PARP proteins and has only one ER stress sensor, Ire1. In the absence of stress, the peptide-binding pocket of yeast Ire1 is fully open, while in humans the peptide binding pockets of IRE1Î± and PERK are partially closed (reviewed in <italic>ref</italic>
+<xref rid="R19" ref-type="bibr">19</xref>). Perhaps the C-tail of PARP16 interacts with the peptide-binding pockets of PERK and IRE1Î±, opening it. Since ATF6 lacks a peptide binding pocket, this could explain the selective activation of PERK and IRE1Î± by PARP16<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. Further, <italic>S. cerevisiae</italic> Ire1 appears to be activated primarily by direct binding of unfolded protein to the peptide-binding pocket, while mammalian IRE1Î± relies on BiP dissociation for activation (reviewed in <italic>ref</italic>
+<xref rid="R21" ref-type="bibr">21</xref>). PARP16 could facilitate dissociation of BiP from IRE1Î± and PERK upon ER stress since BiP dissociation from IRE1Î± and PERK was impaired in PARP16 knock-downs.</p>
+    <p id="P23">Our work brings the number of stress responses requiring PARP activity to three DNA damage, cytoplasmic stress granule assembly, and the unfolded protein response. The latter two stress responses converge on eIF2Î± phosphorylation, suggesting that PARPs could have evolved functions in regulating translation as a means to respond to cytoplasmic stresses. Cancer cells often exhibit increased protein folding capacities within the ER due to increased protein synthesis. Since PARPs have been shown to be highly druggable, PARP16 could be an attractive target for therapeutic inhibition for cancers and protein folding diseases.</p>
+    <sec id="S1">
+      <title>Methods Summary</title>
+      <p id="P24">Provided in the <xref rid="SD1" ref-type="supplementary-material">Supplemental Section</xref></p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S2">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS405063-supplement-1.docx" mimetype="application" mime-subtype="msword" orientation="portrait" xlink:type="simple" id="d37e684" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>2</label>
+        <media xlink:href="NIHMS405063-supplement-2.docx" mimetype="application" mime-subtype="msword" orientation="portrait" xlink:type="simple" id="d37e688" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>3</label>
+        <media xlink:href="NIHMS405063-supplement-3.tif" mimetype="image" mime-subtype="tiff" orientation="portrait" xlink:type="simple" id="d37e692" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>4</label>
+        <media xlink:href="NIHMS405063-supplement-4.tif" mimetype="image" mime-subtype="tiff" orientation="portrait" xlink:type="simple" id="d37e696" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>5</label>
+        <media xlink:href="NIHMS405063-supplement-5.tif" mimetype="image" mime-subtype="tiff" orientation="portrait" xlink:type="simple" id="d37e700" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>6</label>
+        <media xlink:href="NIHMS405063-supplement-6.tif" mimetype="image" mime-subtype="tiff" orientation="portrait" xlink:type="simple" id="d37e704" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD7">
+        <label>7</label>
+        <media xlink:href="NIHMS405063-supplement-7.tif" mimetype="image" mime-subtype="tiff" orientation="portrait" xlink:type="simple" id="d37e708" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD8">
+        <label>8</label>
+        <media xlink:href="NIHMS405063-supplement-8.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d37e712" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S3">
+      <p>We thank Nica Borgese for sharing reagents; Tenzin Sangpo for technical assistance; T Jacks, H Lodish, H Ploegh, UL RhajBhandary, and M Chesarone-Cataldo for comments on the manuscript. P.C. is a Rita Allen Foundation Scholar, a Kimmel Foundation for Cancer Research Scholar, and was a Howard S. and Linda B. Stern Career Development assistant professor. This work is partially funded by Cancer Center Support (core grant P30-CA14051), grant 5R01GM087465-02 from the National Institutes of Health (to P.C.), Curt and Kathy Marble, and the Jeptha H and Emily V. Wade Fund (to P.C.), and partially supported by the Ludwig fund for Cancer Research fellowship (to M.J.).</p>
+    </ack>
+    <fn-group>
+      <fn id="FN2" fn-type="con">
+        <p>
+          <bold>Author Contributions</bold>
+        </p>
+        <p>PC and MJ designed experiments and wrote the manuscript. MJ performed the experiments and data analysis.</p>
+      </fn>
+      <fn id="FN3">
+        <p content-type="publisher-disclaimer">This PDF receipt will only be used as the basis for generating PubMed Central (PMC) documents. PMC documents will be made available for review after conversion (approx. 2â3 weeks time). Any corrections that need to be made will be done at that time. No materials will be released to PMC without the approval of an author. Only the PMC documents will appear on PubMed Central -- this PDF Receipt will not appear on PubMed Central.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>Literature cited</title>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hottiger</surname>
+              <given-names>MO</given-names>
+            </name>
+            <name>
+              <surname>Hassa</surname>
+              <given-names>PO</given-names>
+            </name>
+            <name>
+              <surname>LÃ¼scher</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>SchÃ¼ler</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Koch-Nolte</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <year>2010</year>
+          <article-title>Toward a unified nomenclature for mammalian ADP-ribodyltransferases</article-title>
+          <source>Trends in Biochem Sci</source>
+          <volume>35</volume>
+          <fpage>208</fpage>
+          <lpage>219</lpage>
+          <pub-id pub-id-type="pmid">20106667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schreiber</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Dantzer</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Ame</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>de Murcia</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>2006</year>
+          <article-title>Poly(ADP-ribose): novel functions for an old molecule</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <volume>7</volume>
+          <fpage>517</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="pmid">16829982</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hassa</surname>
+              <given-names>PO</given-names>
+            </name>
+            <name>
+              <surname>Hottiger</surname>
+              <given-names>MO</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>The diverse biological roles of mammalian PARPS, a small but powerful family of poly-ADP-ribose polymerases</article-title>
+          <source>Front Biosci</source>
+          <volume>13</volume>
+          <fpage>3046</fpage>
+          <lpage>3082</lpage>
+          <pub-id pub-id-type="pmid">17981777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malanga</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Althaus</surname>
+              <given-names>FR</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>The role of poly(ADP-ribose) in the DNA damage signaling network</article-title>
+          <source>Biochem Cell Biol</source>
+          <volume>83</volume>
+          <fpage>354</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="pmid">15959561</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>MÃ©nissier-de Murcia</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Molinete</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gradwohl</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Simonin</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>de Murcia</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>1989</year>
+          <article-title>Zinc-binding domain of poly(ADP-ribose)polymerase participates in the recognition of single strand breaks on DNA</article-title>
+          <source>J Mol Biol</source>
+          <volume>210</volume>
+          <fpage>229</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="pmid">2511329</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leung</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Vyas</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Rood</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Bhutkar</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Sharp</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Chang</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Poly(ADP-Ribose) Regulates Stress Responses and MicroRNA Activity in the Cytoplasm</article-title>
+          <source>Mol Cell</source>
+          <volume>42</volume>
+          <fpage>489</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="pmid">21596313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whitley</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Elin Grahn</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Kutay</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Rapoport</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Heijne</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <year>1996</year>
+          <article-title>A 12-Residue-long Polyleucine Tail Is Sufficient to Anchor</article-title>
+          <source>J Biol Chem</source>
+          <volume>271</volume>
+          <fpage>7583</fpage>
+          <lpage>7586</lpage>
+          <pub-id pub-id-type="pmid">8631791</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schuldiner</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Metz</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Schmid</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Denic</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Rakwalska</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schmitt</surname>
+              <given-names>HD</given-names>
+            </name>
+            <name>
+              <surname>Schwappach</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Weissman</surname>
+              <given-names>JS</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>The GET complex mediates insertion of tail-anchored proteins into the ER membrane</article-title>
+          <source>Cell</source>
+          <volume>134</volume>
+          <fpage>634</fpage>
+          <lpage>645</lpage>
+          <pub-id pub-id-type="pmid">18724936</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borgese</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Brambillasca</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Colombo</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>How tails guide tail-anchored proteins to their destinations</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <volume>19</volume>
+          <fpage>368</fpage>
+          <lpage>375</lpage>
+          <pub-id pub-id-type="pmid">17629691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lorenz</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hailey</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Lippincott-Schwartz</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <year>2005</year>
+          <article-title>Fluorescence protease protection of GFP chimeras to reveal protein topology and subcellular localization</article-title>
+          <source>Nat Methods</source>
+          <volume>3</volume>
+          <fpage>205</fpage>
+          <lpage>210</lpage>
+          <pub-id pub-id-type="pmid">16489338</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kleine</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Poreba</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lesniewicz</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hassa</surname>
+              <given-names>PO</given-names>
+            </name>
+            <name>
+              <surname>Hottiger</surname>
+              <given-names>MO</given-names>
+            </name>
+            <name>
+              <surname>Litchfield</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Shilton</surname>
+              <given-names>BH</given-names>
+            </name>
+            <name>
+              <surname>Luscher</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Substrate-assisted catalysis by PARP10 limits its activity to mono-ADP-ribosylation</article-title>
+          <source>Mol Cell</source>
+          <volume>32</volume>
+          <fpage>57</fpage>
+          <lpage>69</lpage>
+          <pub-id pub-id-type="pmid">18851833</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stephens</surname>
+              <given-names>SB</given-names>
+            </name>
+            <name>
+              <surname>Dodd</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Lerner</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Pyhtila</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Nicchitta</surname>
+              <given-names>CV</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Analysis of mRNA partitioning between the cytosol and endoplasmic reticulum compartments of mammalian cells</article-title>
+          <source>Methods Mol Biol</source>
+          <volume>419</volume>
+          <fpage>197</fpage>
+          <lpage>214</lpage>
+          <pub-id pub-id-type="pmid">18369985</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hamman</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>EE</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>AE</given-names>
+            </name>
+          </person-group>
+          <year>1997</year>
+          <article-title>The aqueous pore through the translocon has a diameter of 40â60 A during cotranslational protein translocation at the ER membrane</article-title>
+          <source>Cell</source>
+          <volume>89</volume>
+          <fpage>535</fpage>
+          <lpage>544</lpage>
+          <pub-id pub-id-type="pmid">9160745</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sriburi</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Jackowski</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Mori</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Brewer</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <year>2004</year>
+          <article-title>XBP1: a link between the unfolded protein response, lipid biosynthesis, and biogenesis of the endoplasmic reticulum</article-title>
+          <source>J Cell Biol</source>
+          <volume>167</volume>
+          <fpage>35</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="pmid">15466483</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harding</surname>
+              <given-names>HP</given-names>
+            </name>
+            <name>
+              <surname>Calfon</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Urano</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Novoa</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Ron</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2002</year>
+          <article-title>Transcriptional and translational control in the Mammalian unfolded protein response</article-title>
+          <source>Annu Rev Cell Dev Biol</source>
+          <volume>18</volume>
+          <fpage>575</fpage>
+          <lpage>599</lpage>
+          <pub-id pub-id-type="pmid">12142265</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Reed</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <year>2008</year>
+          <article-title>Cell death and endoplasmic reticulum stress: disease relevance and therapeutic opportunities</article-title>
+          <source>Nat Rev Drug Discov</source>
+          <volume>7</volume>
+          <fpage>1013</fpage>
+          <lpage>1030</lpage>
+          <pub-id pub-id-type="pmid">19043451</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malhotra</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Kaufman</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>The endoplasmic reticulum and the unfolded protein response</article-title>
+          <source>Semin Cell Dev Biol</source>
+          <volume>18</volume>
+          <fpage>716</fpage>
+          <lpage>731</lpage>
+          <pub-id pub-id-type="pmid">18023214</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ron</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Walter</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <year>2007</year>
+          <article-title>Signal integration in the endoplasmic reticulum unfolded protein response</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <volume>8</volume>
+          <fpage>519</fpage>
+          <lpage>529</lpage>
+          <pub-id pub-id-type="pmid">17565364</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walter</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Ron</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>The Unfolded Protein Response: From Stress Pathway to Homeostatic Regulation</article-title>
+          <source>Science</source>
+          <volume>334</volume>
+          <fpage>1081</fpage>
+          <lpage>1086</lpage>
+          <pub-id pub-id-type="pmid">22116877</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertolotti</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hendershot</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Harding</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ron</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <year>2000</year>
+          <article-title>Dynamic interaction of BiP and the ER stress transducers in the unfolded protein response</article-title>
+          <source>Nature Cell Biol</source>
+          <volume>2</volume>
+          <fpage>326</fpage>
+          <lpage>332</lpage>
+          <pub-id pub-id-type="pmid">10854322</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kimata</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kohno</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <year>2011</year>
+          <article-title>Endoplasmic reticulum stress-sensing mechanisms in yeast and mammalian cells</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <volume>23</volume>
+          <fpage>135</fpage>
+          <lpage>142</lpage>
+          <pub-id pub-id-type="pmid">21093243</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>PARP16 is a tail-anchored ER transmembrane protein</title>
+        <p>HeLa cells used in all figures. <bold>a</bold>, Cells stained for PARP16 (green) and organelle markers (red). <bold>b</bold>, PARP16 domain structure. TM: transmembrane domain; PARP: PARP catalytic domain. <bold>c</bold>, Membrane extraction assay. Immunoblots of input, cytosol, supernatant and pellet of 1 M NaCl or 1% Triton X-100 (TX-100) treated membrane fractions. Molecular weight (MW) (kD) at right of blot. <bold>d</bold>, Protease protection assay using Untreated, Digitonin- or Proteinase K-treated cells expressing GFP-PARP16 or GFP. <bold>e</bold>, <italic>Left</italic>: PARP16 mutants. <italic>Right</italic>; Untreated or digitonin-treated cells expressing GFP fusions of indicated proteins. <bold>f</bold>, PARP16 topology within the ER. Dark blue bands mark conserved histidine and tyrosine residues within the PARP catalytic domain. Bars, 10 Î¼m.</p>
+      </caption>
+      <graphic xlink:href="nihms405063f1"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>(ADP-ribosyl)ation activity of PARP16 is required for the ER stress response</title>
+        <p>MW at right of blots. <bold>a</bold>, <sup>32</sup>P-NAD <sup>+</sup> incorporation by recombinant GST-PARP16 and GST-PARP16<sup>H152Q Y182A</sup>. Asterisk= MW of GST-PARP16. <bold>b</bold>, EMAA using GFP-PARP16 or GFP-PARP16<sup>H152Q Y182A</sup> containing microsomes. Asterisk= high MW incorporation of <sup>32</sup>P-NAD. <bold>c</bold>, Cells expressing GFP-PARP16, GFP-PARP16<sup>H152Q Y182A</sup>, or GFP-PARP16<sup>Cb5</sup> for 16h or 28 h, or untransfected cells treated with Brefeldin A (BFA), stained for PARP16 (green) and Calnexin (red). <bold>d</bold>, Trypan blue staining of control or PARP16 knock-downs at indicated time points after Tunicamycin, Thapsigargin or Brefeldin A treatment. 16.3 and 16.4 are different siRNAs against PARP16 (n=4 for siRNA 16.3, and 2 for siRNA 16.4). For Tunicamycin, Thapsigargin, or Brefeldin A-treated PARP16 knock down cells, 0.001 &lt; <italic>p</italic> &lt; 0.05. Immunoblots of knock-down shown at right. Bar, 10 Î¼m.</p>
+      </caption>
+      <graphic xlink:href="nihms405063f2"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>PERK and IRE1Î± are (ADP-ribosyl)ated in a PARP16-dependent manner during the UPR</title>
+        <p>MW (kD) at right of blots. (UT)= untreated; (BFA)= Brefeldin A treated; (TG)= Thapsagargin treated; (TUN)= Tunicamycin treated. <bold>a,</bold> Autoradiogram of EMAA showing ADP-ribose incorporation. Immunoblots of GFP-PARP16 precipitates are shown at right. Asterisk= high MW NAD<sup>+</sup> incorporation. n = 5; 0.01 &lt; <italic>p</italic> of fold increase &lt; 0.05 for all stressors. <bold>b</bold>, ER microsome based co-immunoprecipitation assays of GFP-fusion proteins. Shown are immunoblots of precipitated GFP fusions. <bold>câd</bold>, EMAA using control or PARP16 knock-downs. Shown are autoradiogram and immunoblots of GFP-PERK (<bold>c</bold>) or GFP-IRE1Î± immunoprecipitates (<bold>d</bold>). For both (<bold>c</bold>) and (<bold>d</bold>), n=4; 0.005 &lt; <italic>p</italic> of fold increase &lt; 0.05 for all stressors. PARP16 immunoblots of control and PARP16 knock-down lysates are shown. <bold>e</bold>, EMAA for SEC61Î², ATF6 and PARP16. Shown are autoradiogram and immunoblot of the immunoprecipitated GFP fusions. n=2.</p>
+      </caption>
+      <graphic xlink:href="nihms405063f3"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>Enzymatic activity of PARP16 is required for activation of PERK- and IRE1Î±âmediated UPR</title>
+        <p>MW (kD or bp) at right or left of blots or gels. (UT)= untreated; (BFA)= Brefeldin A; (TG)= Thapsagargin; (TUN)= Tunicamycin; PERK<sup>p</sup>= phospho-PERK; eIF2Î±<sup>p</sup>= phospho-eIF2 Î±. Asterisk= hybrid amplicons. <bold>a,</bold>
+<italic>Left</italic><bold>,</bold> Immunoblots of cells overexpressing GFP or GFP fusions to PARP16 or PARP16<sup>H152Q/Y182A</sup>. <italic>Right</italic>, Immunoblots of cells transfected with control or PARP16 siRNA. <bold>b,</bold> XBP-1 mRNA splicing assay from control, GFP-PARP16 or GFP-PARP16<sup>H152Q Y182A</sup> expressing cells, or cells transfected with control or PARP16 siRNA. Unspliced (U) and spliced (S) XBP-1 cDNA were amplified via RT-PCR then cut with <italic>Pst1</italic> restriction enzyme. Only unspliced XBP-1 is cut by <italic>Pst</italic>I. <bold>c</bold>, <italic>Left</italic>, Immunoblots of cell lysates. <italic>Right</italic>, RT-qPCR analysis of UPR-dependent transcription in control or PARP16 knock-downs treated with Tunicamycin. <bold>d and e,</bold> ER microsome based (ADP-ribosyl)ation and kinase assays. Microsomes containing GFP-PERK (d) or GFP-IRE1Î± (e) were (ADP-ribosyl)ated via addition of 0.5 Î¼g GST-PARP16 or GST-PARP16<sup>H152Q Y182A</sup> in the presence of <sup>32</sup>P-NAD<sup>+</sup>. Duplicate NAD<sup>+</sup> incorporation reactions performed under identical conditions using unlabeled NAD<sup>+</sup>, then kinase activity assayed via Î³<sup>32</sup>P-ATP incorporation. For d and e, n=4. <bold>f</bold>, ER microsome based (ADP-ribosyl)ation and IRE1Î± endonuclease assays. (ADP-ribosyl)ation of GFP-IRE1Î± was performed in a similar manner to (d) using unlabeled NAD<sup>+</sup>. <italic>In vitro</italic> transcribed <sup>32</sup>P labeled XBP-1 transcript was incubated with the (ADP-ribosyl)ated GFP-IRE1Î± immunoprecipitates and assayed for splicing as indicated via presence of 5â² and 3â² exons. n=4.</p>
+      </caption>
+      <graphic xlink:href="nihms405063f4"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure 5</label>
+      <caption>
+        <title>The C-tail of PARP16 is required for activation of PERK- and IRE1Î±âmediated UPR</title>
+        <p><bold>a,</bold> ER microsome based co-immunoprecipitation assays. GFP-PERK or GFP-IRE1Î± purified from ER microsomes from cells treated with control (Ctrl) or PARP16 (P-16) siRNA, then analysed for BiP binding via immunoblot. PARP16 blots from each assay are shown. <bold>b,</bold> Immunoblots of cell expressing GFP, or GFP fusions to PARP16 or PARP16<sup>Cb5</sup>. <bold>c,</bold> XBP-1 mRNA splicing assay, similar to (b) but performed on PARP16 or PARP16<sup>Cb5</sup> overexpressing cells.</p>
+      </caption>
+      <graphic xlink:href="nihms405063f5"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>
