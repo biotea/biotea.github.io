@@ -52,7 +52,7 @@
     </p>
     <p>
         Here we present a test dataset containing 2596 PubMed Central Open Access publications with 
-        annotations obtained via <a href="http://data.bioontology.org/documentation" target="_blank">
+        annotations obtained via <a href="http://data.bioontology.org/documentation#nav_annotator" target="_blank">
         NCBO Annotator</a>. Annotations have also been published in 
         <a href="http://pubannotation.org/projects/Biotea" target="_blank">PubAnnotation</a>. Articles,
         NCBO annotations and PubAnnotation annotations have beed deposited in 
@@ -77,63 +77,45 @@
     </p>
     
 <div id="bioschemas" style="display: none">
-    <biotea-bioschemas-metadata 
-        publisher="http://biotea.github.io" version="201903" 
-        metadataid="http://biotea.github.io/bioschemas?pmc={0}">
-    </biotea-bioschemas-metadata>
-    
-    <div id="bbannot"></div>
     <a name="markup"></a>
-    <h2>Biotea-2-Bioschemas markup</h2>
-    <p style="font-weight: bold">
-        See console oputput for the markup in JSON-LD or look at the last script element in the source code
-    </p>    
-
+    <h2>Biotea-2-Bioschemas proposed markup</h2>
+    <p>
+        Publication metadata showed as a table and <a href="#cloud">annotations</a> 
+        (with more than one occurrence) as a tag cloud.
+    </p>
     <div id="show"></div>
-
-    <div id="error"></div>
-    
+    <a name="cloud"></a>
+    <div><a href="#markup">Go back to markup table</a></div>
 </div>
+
+<div id="error"></div>
 
 <script src="./dist/BioteaBioschemasMetadata.js" charset="utf-8" defer></script>
 <script src="./dist/BioteaBioschemasAnnotations.js" charset="utf-8" defer></script>
+<script src="./dist/BioteaBioschemasShowcase.js" charset="utf-8" defer></script>
 
 
 <script>
-    window.onload = () => {
+    window.onload = () => {        
         const divBio = document.getElementById('bioschemas');
         divBio.style.display = "none";
+
+        const divShow = document.getElementById('show');
+        divShow.innerHTML = '';
 
         const url = new URL(window.location.href);
         const articleId = url.searchParams.get('pmc');
         if (articleId) {
           try {
-            const component = document.getElementsByTagName('biotea-bioschemas-metadata')[0];
-            component.queryurl = './resources/PMC/PMC' + articleId + '.nxml';
-            component.addEventListener('ready', e => {
-                const div = document.getElementById('bbannot');
-                const bbannot = document.createElement('biotea-bioschemas-annotations');
-                bbannot.publisher = "http://biotea.github.io";
-                bbannot.version = "201903";
-                bbannot.articleid = articleId;
-                bbannot.articledoi = e.detail.data.mainEntity["@id"];
-                bbannot.queryurl="./resources/PubAnnotation/PMC" + articleId + "_pubannotations.json";
-                div.appendChild(bbannot); 
-                
-                bbannot.addEventListener('ready', bbe => {
-                  e.detail.data.mentions = bbe.detail.data;
-                  const s = document.createElement('script');
-                  s.type = 'application/ld+json';
-                  s.innerHTML = JSON.stringify(e.detail.data, null, 2);
-                  document.body.appendChild(s); 
-                  console.log(e.detail.data);
-
-                  const divShow = document.getElementById('show');
-                  divShow.innerHTML = JSON.stringify(e.detail.data, null, 2);
-
-                  divBio.style.display = "block";
-                });                
-            });
+            const component = document.createElement('biotea-bioschemas-showcase');
+            component.render = true;
+            component.pmcid = articleId;
+            component.annpath = './resources/PubAnnotation/PMC' + articleId + '_pubannotations.json';
+            component.pmcpath = './resources/PMC/PMC' + articleId + '.nxml';
+            
+            divShow.appendChild(component);
+            divBio.style.display = "block";            
+            component.parseData();            
           } catch(error) {
             const div = document.getElementById('error');
             div.innerHTML = "Error: " + error;

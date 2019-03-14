@@ -1003,7 +1003,9 @@
 	var semAnn = {
 	  "@type": ["CreativeWork", "SemanticAnnotation"],
 	  "subjectOf": "https://doi.org/",
+	  "creator": "",
 	  "text": "",
+	  "commentCount": "",
 	  "mainEntity": []
 	};
 	var ontoTerm = {
@@ -19050,13 +19052,16 @@
 
 	      var myAnn = clone(semAnn, true);
 
+	      myAnn.creator = this.annotator;
 	      myAnn.subjectOf = this.articledoi.indexOf('doi.org') !== -1 ? this.articledoi : 'https://doi.org/' + this.articledoi;
 	      myAnn.text = text;
 	      myAnn.mainEntity = [];
 	      annText.forEach(function (el) {
 	        myAnn.mainEntity.push(_this3._createOntoTerm(el.obj));
 	      });
+	      myAnn.commentCount = myAnn.mainEntity.length;
 	      myAnn.mainEntity = uniqWith(myAnn.mainEntity, isEqual);
+	      myAnn.commentCount /= myAnn.mainEntity.length;
 	      return myAnn;
 	    }
 	  }, {
@@ -19079,22 +19084,9 @@
 	    key: "render",
 	    get: function get() {
 	      return this.getAttribute("render");
-	    }
-	  }, {
-	    key: "loading",
-	    get: function get() {
-	      return this.getAttribute("loading");
 	    },
 	    set: function set(value) {
-	      this.setAttribute("loading", value);
-	    }
-	  }, {
-	    key: "queryurl",
-	    get: function get() {
-	      return this.getAttribute("queryurl");
-	    },
-	    set: function set(value) {
-	      this.setAttribute("queryurl", value);
+	      this.setAttribute("render", value);
 	    }
 	  }, {
 	    key: "publisher",
@@ -19128,10 +19120,34 @@
 	    set: function set(value) {
 	      this.setAttribute("articleid", value);
 	    }
+	  }, {
+	    key: "loading",
+	    get: function get() {
+	      return this.getAttribute("loading");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("loading", value);
+	    }
+	  }, {
+	    key: "annotator",
+	    get: function get() {
+	      return this.getAttribute("annotator");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("annotator", value);
+	    }
+	  }, {
+	    key: "queryurl",
+	    get: function get() {
+	      return this.getAttribute("queryurl");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("queryurl", value);
+	    }
 	  }], [{
 	    key: "observedAttributes",
 	    get: function get() {
-	      return ["render", "queryurl", "publisher", "version", "articledoi", "articleid", "loading"];
+	      return ["render", "publisher", "version", "articledoi", "articleid", "loading", "annotator", "queryurl"];
 	    }
 	  }]);
 

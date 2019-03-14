@@ -20539,6 +20539,38 @@
 	      document.body.appendChild(s);
 	    }
 	  }, {
+	    key: "render",
+	    get: function get() {
+	      return this.getAttribute("render");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("render", value);
+	    }
+	  }, {
+	    key: "publisher",
+	    get: function get() {
+	      return this.getAttribute("publisher");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("publisher", value);
+	    }
+	  }, {
+	    key: "version",
+	    get: function get() {
+	      return this.getAttribute("version");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("version", value);
+	    }
+	  }, {
+	    key: "metadataid",
+	    get: function get() {
+	      return this.getAttribute("metadataid");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("loametadataidding", value);
+	    }
+	  }, {
 	    key: "loading",
 	    get: function get() {
 	      return this.getAttribute("loading");
@@ -20554,25 +20586,10 @@
 	    set: function set(value) {
 	      this.setAttribute("queryurl", value);
 	    }
-	  }, {
-	    key: "publisher",
-	    get: function get() {
-	      return this.getAttribute("publisher");
-	    }
-	  }, {
-	    key: "version",
-	    get: function get() {
-	      return this.getAttribute("version");
-	    }
-	  }, {
-	    key: "metadataid",
-	    get: function get() {
-	      return this.getAttribute("metadataid");
-	    }
 	  }], [{
 	    key: "observedAttributes",
 	    get: function get() {
-	      return ["queryurl", "publisher", "version", "metadataid", "loading"];
+	      return ["render", "publisher", "version", "metadataid", "loading", "queryurl"];
 	    }
 	  }]);
 
