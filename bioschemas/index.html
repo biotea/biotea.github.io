@@ -28,22 +28,27 @@
         <a hfer="TODO" target="_blank">sitemap</a>.
         Some examples you can explore are:
         <li>
-            <ul><a href="./?pmc=35353" target="_blank">PMC35353: "A missense mutation (Q279R) in the 
+            <ul><a href=".?pmc=35353">PMC35353: "A missense mutation (Q279R) in the 
                 Fumarylacetoacetate Hydrolase gene, responsible for hereditary tyros"</a></ul>
-            <ul><a href="./?pmc=2141713" target="_blank">PMC2141713: "The Amino-terminal Domain of 
+            <ul><a href=".?pmc=2141713">PMC2141713: "The Amino-terminal Domain of 
                 Desmoplakin Binds to Plakoglobin and Clusters Desmosomal Cadherin–Plakoglobin Complexes"</a></ul>
-            <ul><a href="./?pmc=2628407" target="_blank">PMC2628407: "A Novel Function for Fragile X Mental 
+            <ul><a href=".?pmc=2628407">PMC2628407: "A Novel Function for Fragile X Mental 
                 Retardation Protein in Translational Activation"</a></ul>                
-            <ul><a href="./?pmc=3308076" target="_blank">PMC:3308076 "A new category of autoinflammatory 
+            <ul><a href=".?pmc=3308076">PMC:3308076 "A new category of autoinflammatory 
                 disease associated with NOD2 gene mutations"</a></ul>                
-            <ul><a href="./?pmc=3855541" target="_blank">PMC:3855541 "Increased circulating levels of 
+            <ul><a href=".?pmc=3855541">PMC:3855541 "Increased circulating levels of 
                 betatrophin in individuals with long-standing type 1 diabetes"</a></ul>                
         </li>
     </p>
     
 <biotea-bioschemas-metadata 
-    render publisher="http://biotea.github.io" version="201903" 
+    publisher="http://biotea.github.io" version="201903" 
     metadataid="http://biotea.github.io/bioschemas?pmc={0}">
+</biotea-bioschemas-metadata>
+
+<div id="bbannot"></div>
+
+<div id="error"></div>
 
 <script src="./dist/BioteaBioschemasMetadata.js" charset="utf-8" defer></script>
 <script src="./dist/BioteaBioschemasAnnotations.js" charset="utf-8" defer></script>
@@ -54,36 +59,34 @@
         const url = new URL(window.location.href);
         const articleId = url.searchParams.get('pmc');
         if (articleId) {
-            //find the annotation file, if exist then find the article file
-              //parse article, do not render
-              //show article metadata
-              //parse annotations, do not render
-              //show annotation metadata
-              //add annotations to article metadata via "mentions"
-              //render joint metadata
+          try {
             const component = document.getElementsByTagName('biotea-bioschemas-metadata')[0];
             component.queryurl = './resources/PMC/PMC' + articleId + '.nxml';
-              //
-            //if annotations do not exist, report error
-        }
-        for (const el of document.querySelectorAll('biotea-bioschemas-metadata')) {
-          el.addEventListener(
-            'load',
-            e => {
-              console.log('Data loaded');
-              console.log(e.detail);
-            }
-          );
-          el.addEventListener(
-            'ready',
-            e => {
-              console.log('ready');
-              console.log(e.detail);
-            }
-          );
+            component.addEventListener('ready', e => {
+                const div = document.getElementById('bbannot');
+                const bbannot = document.createElement('biotea-bioschemas-annotations');
+                bbannot.publisher = "http://biotea.github.io";
+                bbannot.version = "201903";
+                bbannot.articleid = articleId;
+                bbannot.articledoi = e.detail.data.mainEntity["@id"];
+                bbannot.queryurl="./resources/PubAnnotation/PMC" + articleId + "_pubannotations.json";
+                div.appendChild(bbannot); 
+                bbannot.addEventListener('ready', bbe => {
+                  e.detail.data.mentions = bbe.detail.data;
+                  const s = document.createElement('script');
+                  s.type = 'application/ld+json';
+                  s.innerHTML = JSON.stringify(e.detail.data, null, 2);
+                  document.body.appendChild(s); 
+                  console.log(e.detail.data);
+                });                
+            });
+          } catch(error) {
+            const div = document.getElementById('error');
+            div.innerHTML = "Error: " + error;
+          }
         }
     }     
 </script>
 
-</body>
+<body>
 </html>

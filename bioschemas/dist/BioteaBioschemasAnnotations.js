@@ -19050,7 +19050,7 @@
 
 	      var myAnn = clone(semAnn, true);
 
-	      myAnn.isSubjectoOf += this.articledoi;
+	      myAnn.subjectOf = this.articledoi.indexOf('doi.org') !== -1 ? this.articledoi : 'https://doi.org/' + this.articledoi;
 	      myAnn.text = text;
 	      myAnn.mainEntity = [];
 	      annText.forEach(function (el) {
@@ -19100,21 +19100,33 @@
 	    key: "publisher",
 	    get: function get() {
 	      return this.getAttribute("publisher");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("publisher", value);
 	    }
 	  }, {
 	    key: "version",
 	    get: function get() {
 	      return this.getAttribute("version");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("version", value);
 	    }
 	  }, {
 	    key: "articledoi",
 	    get: function get() {
 	      return this.getAttribute("articledoi");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("articledoi", value);
 	    }
 	  }, {
 	    key: "articleid",
 	    get: function get() {
 	      return this.getAttribute("articleid");
+	    },
+	    set: function set(value) {
+	      this.setAttribute("articleid", value);
 	    }
 	  }], [{
 	    key: "observedAttributes",

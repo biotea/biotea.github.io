@@ -2227,7 +2227,7 @@
 	  "@type": "PublicationVolume",
 	  "volumeNumber": "",
 	  "isPartOf": {
-	    "@type": ["Periodical"],
+	    "@type": "Periodical",
 	    "issn": [],
 	    "name": "",
 	    "publisher": {
@@ -20257,7 +20257,8 @@
 	          }
 	        } catch (err2) {
 	          console.log('Parsing error', err2);
-	        }
+	        } //only abstract is parsed now
+
 	        /*let para = converted.article.body.p;
 	        this._bodyText = '';
 	        if (para) {
@@ -20268,7 +20269,17 @@
 	        this._parseSections(converted.article.body.sec);*/
 
 
-	        this._renderData();
+	        if (this.render != null) {
+	          this._renderData();
+	        }
+
+	        this.dispatchEvent(new CustomEvent('ready', {
+	          detail: {
+	            data: this._convertedData
+	          },
+	          bubbles: true,
+	          cancelable: true
+	        }));
 	      }
 	    }
 	  }, {
@@ -20342,7 +20353,7 @@
 	          if (_this3.metadataid) {
 	            _this3._convertedData["@id"] = _this3.metadataid.replace('{0}', el["#text"]);
 	          }
-	        } else if (el["@_pub-id-type"] === 'pmc-ui') {
+	        } else if (el["@_pub-id-type"] === 'pmc-uid') {
 	          _this3._convertedData.isBasedOn = 'https://www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi?verb=GetRecord&identifier=oai:pubmedcentral.nih.gov:' + el["#text"] + '&metadataPrefix=pmc_fm';
 
 	          _this3._convertedData.mainEntity.alternateName.push(el["@_pub-id-type"] + ':' + el["#text"]);
@@ -20526,13 +20537,6 @@
 	      s.type = 'application/ld+json';
 	      s.innerHTML = JSON.stringify(this._convertedData, null, 2);
 	      document.body.appendChild(s);
-	      this.dispatchEvent(new CustomEvent('ready', {
-	        detail: {
-	          data: this._convertedData
-	        },
-	        bubbles: true,
-	        cancelable: true
-	      }));
 	    }
 	  }, {
 	    key: "loading",
