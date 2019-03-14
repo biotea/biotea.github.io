@@ -1,0 +1,765 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:02:01Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5007465" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:5007465</identifier><datestamp>2016-09-14</datestamp><setSpec>ncomms</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC5007465</article-id>
+      <article-id pub-id-type="pmcid">PMC5007465</article-id>
+      <article-id pub-id-type="pmc-uid">5007465</article-id>
+      <article-id pub-id-type="pmid">27561354</article-id>
+      <article-id pub-id-type="pii">ncomms12628</article-id>
+      <article-id pub-id-type="doi">10.1038/ncomms12628</article-id>
+      <article-id pub-id-type="pmid">27561354</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Cullin3-KLHL15 ubiquitin ligase mediates CtIP protein turnover to fine-tune DNA-end resection</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ferretti</surname>
+            <given-names>Lorenza P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Himmels</surname>
+            <given-names>Sarah-Felicitas</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Trenner</surname>
+            <given-names>Anika</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Walker</surname>
+            <given-names>Christina</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>von Aesch</surname>
+            <given-names>Christine</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eggenschwiler</surname>
+            <given-names>Aline</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Murina</surname>
+            <given-names>Olga</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Enchev</surname>
+            <given-names>Radoslav I.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Peter</surname>
+            <given-names>Matthias</given-names>
+          </name>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Freire</surname>
+            <given-names>Raimundo</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Porro</surname>
+            <given-names>Antonio</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sartori</surname>
+            <given-names>Alessandro A.</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1">a</xref>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <aff id="a1"><label>1</label><institution>University of Zurich, Institute of Molecular Cancer Research</institution>, Winterthurerstrasse 190, 8057 Zurich, <country>Switzerland</country></aff>
+        <aff id="a2"><label>2</label><institution>ETH Zurich, Institute of Biochemistry, Department of Biology</institution>, Otto-Stern-Weg 3, 8093 Zurich, <country>Switzerland</country></aff>
+        <aff id="a3"><label>3</label><institution>Unidad de InvestigaciÃ³n, Hospital Universitario de Canarias, Instituto de TecnologÃ­as BiomÃ©dicas</institution>, Ofra s/n, La Cuesta, La Laguna, Tenerife, <country>Spain</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1">
+          <label>a</label>
+          <email>sartori@imcr.uzh.ch</email>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>26</day>
+        <month>08</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <volume>7</volume>
+      <elocation-id>12628</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>07</day>
+          <month>01</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>07</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â© 2016, The Author(s)</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <copyright-holder>The Author(s)</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Human CtIP is a decisive factor in DNA double-strand break repair pathway choice by enabling DNA-end resection, the first step that differentiates homologous recombination (HR) from non-homologous end-joining (NHEJ). To coordinate appropriate and timely execution of DNA-end resection, CtIP function is tightly controlled by multiple proteinâprotein interactions and post-translational modifications. Here, we identify the Cullin3 E3 ligase substrate adaptor Kelch-like protein 15 (KLHL15) as a new interaction partner of CtIP and show that KLHL15 promotes CtIP protein turnover via the ubiquitin-proteasome pathway. A tripeptide motif (FRY) conserved across vertebrate CtIP proteins is essential for KLHL15-binding; its mutation blocks KLHL15-dependent CtIP ubiquitination and degradation. Consequently, DNA-end resection is strongly attenuated in cells overexpressing KLHL15 but amplified in cells either expressing a CtIP-FRY mutant or lacking KLHL15, thus impacting the balance between HR and NHEJ. Collectively, our findings underline the key importance and high complexity of CtIP modulation for genome integrity.</p>
+      </abstract>
+      <abstract abstract-type="web-summary">
+        <p>
+<inline-graphic id="i1" xlink:href="ncomms12628-i1.jpg"/>CtIP has a key role in DNA double-strand break repair as its role in resecting DNA at the break commits a cell to homologous recombination. Here the authors show that KLHL15 interacts with CtIP and regulates repair by controlling protein turnover.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>To preserve genome integrity, cells have evolved a complex system of DNA damage detection, signalling and repair: the DNA damage response (DDR). Following genotoxic insults, upstream DDR factors rapidly assemble at damaged chromatin, where they activate lesion-specific DNA repair pathways as well as checkpoints to delay cell cycle progression, or, if DNA repair fails, to trigger apoptosis<xref ref-type="bibr" rid="b1">1</xref>. DNA double-strand breaks (DSBs) are one of the most lethal types of DNA damage with the potential to cause genomic instability, a hallmark and enabling characteristic of cancer<xref ref-type="bibr" rid="b2">2</xref>. DSBs are induced by ionizing irradiation (IR) or frequently arise during replication when forks collide with persistent single-strand breaks, such as those generated by camptothecin (CPT), a DNA topoisomerase I inhibitor<xref ref-type="bibr" rid="b3">3</xref>. To maintain genome stability, cells have evolved two major pathways dealing with the repair of DSBs: non-homologous end-joining (NHEJ) and homologous recombination (HR)<xref ref-type="bibr" rid="b4">4</xref>. NHEJ is the canonical pathway during G0/G1 phase of the cell cycle and repairs the majority of IR-induced DSBs. In this process, broken DNA ends are religated regardless of sequence homology, making NHEJ potentially mutagenic<xref ref-type="bibr" rid="b5">5</xref>. HR, instead, is an error-free repair pathway, which requires the presence of an undamaged homologous template, usually the sister chromatid<xref ref-type="bibr" rid="b6">6</xref>. Thus, HR is restricted to S and G2 phases of the cell cycle and preferentially repairs DSBs resulting from replication fork collapse<xref ref-type="bibr" rid="b7">7</xref>. The first step of HR, termed DNA-end resection, involves the processing of one DSB end to generate 3â²single-stranded DNA (ssDNA) tails that, after being coated by the Rad51 recombinase, mediate homology search and invasion into the sister chromatid strand. DNA-end resection is initiated by the combined action of the MRE11âRAD50âNBS1 (MRN) complex and CtIP<xref ref-type="bibr" rid="b8">8</xref>, and is a key determinant of DSB repair pathway choice, as it commits cells to HR by preventing NHEJ<xref ref-type="bibr" rid="b9">9</xref>.</p>
+    <p>The ubiquitination and neddylation machineries have recently emerged as a crucial players for maintaining genome stability by orchestrating key DDR events including various DNA repair pathways<xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref>. Ubiquitination of target proteins involves the concerted action of three factors: E1 ubiquitin-activating enzymes, E2 ubiquitin-conjugating enzymes and E3 ubiquitin ligases, which determine substrate specificity<xref ref-type="bibr" rid="b12">12</xref>. Among the estimated &gt;600 human E3s, Cullin-RING ligases (CRLs) are the most prevalent class, controlling a plethora of biological processes<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b14">14</xref>. Although few CRLs, in particular those built up by Cullin1 (also called SCF complex) and Cullin4, were shown to function in cell cycle checkpoint control and nucleotide excision repair<xref ref-type="bibr" rid="b15">15</xref>, a role for CRLs in the regulation of DSB repair has so far remained largely elusive.</p>
+    <p>Here, we identify the human Kelch-like protein 15 (KLHL15), a substrate-specific adaptor for Cullin3 (CUL3)-based E3 ubiquitin ligases, as a novel CtIP interaction partner. We show that CUL3-KLHL15 catalyses polyubiquitination and proteasome-dependent degradation of CtIP. Mechanistically, we find that KLHL15 recognizes a short-tripeptide motif (FRY) located in the conserved C-terminal domain (CTD) of CtIP and that mutation of this motif protects CtIP from KLHL15-dependent degradation resulting in prolonged CtIP protein half-life and, consequently, excessive DNA-end resection. We further demonstrate that cells lacking KLHL15 phenocopy the behaviour of FRY mutant cells, including reduced NHEJ efficiency as a consequence of CtIP protein accumulation and increased resection. Finally, we provide evidence that PIN1-dependent isomerization of CtIP facilitates its targeting by CUL3-KLHL15. Taken together, our results uncover a critical role for CUL3-KLHL15 ubiquitin ligase in governing CtIP DNA-end resection activity and DSB repair pathway choice.</p>
+    <sec disp-level="1">
+      <title>Results</title>
+      <sec disp-level="2">
+        <title>CtIP interacts with the CUL3 substrate adaptor KLHL15</title>
+        <p>To gain further insights into the regulation of DNA-end resection in human cells, we searched for novel interacting partners of CtIP by tandem affinity purification followed by mass spectrometry. To this end, we generated a stable HEK293 cell line inducibly expressing Strep-HA-tagged CtIP. To reduce the number of false positive proteinâprotein interactions, we used a tetracycline concentration (10ângâml<sup>â1</sup>) at which the expression levels were comparable to those of endogenous CtIP (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1a</xref>). Remarkably, besides the CtIP bait protein, only two proteins were identified with multiple peptides in two independent mass spectrometry analyses, Kelch-like protein 15 (KLHL15) and Cullin3 (CUL3) (<xref ref-type="fig" rid="f1">Fig. 1a</xref>; and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1b</xref>). KLHL15 belongs to a family of 42 human proteins that possess an N-terminal BTB-BACK domain and a C-terminal Kelch domain comprising five to six Kelch repeats<xref ref-type="bibr" rid="b16">16</xref>. Kelch-like proteins bind CUL3 through their BTB-BACK domain, whereas substrate recognition is mediated by the Kelch domain<xref ref-type="bibr" rid="b17">17</xref><xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b19">19</xref>. Importantly, many Kelch-like proteins function as substrate-specific adaptors in CUL3-based E3 ligase complexes to catalyse protein ubiquitination and degradation by the 26S proteasome<xref ref-type="bibr" rid="b20">20</xref>.</p>
+        <p>To confirm the result of our proteomic analysis, suggesting that CtIP and CUL3-KLHL15 form a complex, we first performed an immunoprecipitation (IP) experiment and found that endogenous KLHL15 and CUL3 efficiently co-precipitated with GFP-tagged CtIP (<xref ref-type="fig" rid="f1">Fig. 1b</xref>). Similarly, endogenous CtIP was successfully recovered following co-IP of FLAG-tagged KLHL15, but was not present in co-immunocomplexes containing CUL3 and KLHL22 (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1c</xref>), which is the closest ortholog of KLHL15 (refs <xref ref-type="bibr" rid="b18">18</xref>, <xref ref-type="bibr" rid="b21">21</xref>). Next, we generated two FLAG-KLHL15 truncation mutants lacking either the Kelch (ÎKelch) or the BTB-BACK (ÎB+B) domain (<xref ref-type="fig" rid="f1">Fig. 1c,d</xref>). As expected, CUL3-KLHL15 interaction was largely abolished in the ÎB+B mutant, whereas CtIP binding to KLHL15 was strongly impaired in the ÎKelch mutant (<xref ref-type="fig" rid="f1">Fig. 1d</xref>). Interestingly, we observed that direct interactions between the individual KLHL15 domains and CUL3 or CtIP were weakened in both truncation mutants, indicating that the structural integrity of full-length KLHL15 is important for stable ternary complex formation between CtIP, KLHL15 and CUL3 (<xref ref-type="fig" rid="f1">Fig. 1d</xref>). In case of the ÎB+B mutant, this could in part be explained by the fact that the BTB adaptor domain was shown to be required for the efficient dimerization and activation of CUL3 ubiquitin ligase complexes<xref ref-type="bibr" rid="b18">18</xref><xref ref-type="bibr" rid="b22">22</xref><xref ref-type="bibr" rid="b23">23</xref>. To identify specific amino acid residues in KLHL15 that mediate binding to CUL3, we performed multiple sequence alignments of various human BTB-Kelch proteins and the MATH-BTB protein SPOP. This revealed the presence of a conserved, paired helix structure following the BTB domain of KLHL15, which is predicted to constitute a CUL3-interacting box (3-box) (<xref ref-type="fig" rid="f1">Fig. 1c</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1d</xref>)<xref ref-type="bibr" rid="b23">23</xref>. Similar to what we observed for the ÎB+B truncation mutant, substituting either asparagine 132 or isoleucine 136 for alanine (N132A and I136A, respectively) in the 3-box of full-length FLAG-KLHL15 decreased its interaction with CUL3, especially with the neddylated form of CUL3 (<xref ref-type="fig" rid="f1">Fig. 1c,e</xref>). Neddylation, the covalent attachment of the small ubiquitin-like protein NEDD8 to proteins, has been demonstrated to be essential for the activation of most cullin-based E3 ligases<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b24">24</xref>. Next, through sequence alignments of the Kelch domain of human and zebrafish KLHL15 with the respective Keap1 (alias KLHL19) homologues, we located glycine 386 in the third repeat (G386) and tyrosine 552 (Y552) in the sixth repeat (<xref ref-type="fig" rid="f1">Fig. 1c</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1e</xref>). Importantly, mutation of these residues in Keap1 disrupted its ability to bind Nrf2 and repress Nrf2-dependent transcription<xref ref-type="bibr" rid="b25">25</xref><xref ref-type="bibr" rid="b26">26</xref>. Consistently, we observed that KLHL15-G386C and -Y552A mutants were defective in CtIP binding (<xref ref-type="fig" rid="f1">Fig. 1c,f</xref>).</p>
+        <p>In the course of these experiments, we noticed that endogenous CtIP protein levels were differentially altered in cells transfected with KLHL15 expression constructs with a marked decrease in presence of wild-type (wt) KLHL15 (<xref ref-type="fig" rid="f1">Fig. 1dâf</xref>). To further address this issue, we measured CtIP protein stability using a cycloheximide (CHX) chase assay and found that CtIP shows a decreased protein half-life and is more rapidly degraded in cells overexpressing KLHL15-wt than in cells transfected with KLHL15-Y552A mutant (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1f</xref>). Taken together, these results demonstrated that CUL3-KLHL15 specifically interacts with CtIP and controls its protein turnover.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>CRL3<sup>KLHL15</sup> ubiquitin ligase targets CtIP for degradation</title>
+        <p>To confirm our above results, using a different cell system, we generated stable U2OS cells expressing doxycycline (Dox)-inducible GFP-tagged KLHL15. As shown in <xref ref-type="fig" rid="f2">Fig. 2a</xref>, we detected a significant decrease of endogenous CtIP protein levels already at 24âh following induction of KLHL15 expression and found that this was partially restored by addition of the proteasome inhibitor MG-132. Similarly, treatment of KLHL15-induced cells with MLN-4924, a small molecule inhibitor of the NEDD8-activating enzyme<xref ref-type="bibr" rid="b27">27</xref>, greatly increased CtIP protein stability, indicating that CtIP degradation by KLHL15 requires CUL3 activation (<xref ref-type="fig" rid="f2">Fig. 2b</xref>). Specifically, our results indicated that CUL3 acts together with KLHL15 in promoting CtIP degradation, as its downregulation stabilized CtIP in cells overexpressing KLHL15 (<xref ref-type="fig" rid="f2">Fig. 2c</xref>). Consistently, transfection of three siRNA oligos targeting different regions in the KLHL15 transcript reproducibly increased CtIP protein levels in parental U2OS cells (<xref ref-type="fig" rid="f2">Fig. 2d</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2a</xref>); without affecting cell cycle distribution (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2b</xref>). Of note, we only detected a robust KLHL15 protein signal in the chromatin-enriched fraction, suggesting a role for KLHL15 in targeting substrates predominantly in the nucleus (<xref ref-type="fig" rid="f2">Fig. 2d</xref>). Furthermore, using stable U2OS<sup>GFP-KLHL15</sup> cells, siRNA oligos targeting the coding sequence of KLHL15 (#1 and #2) efficiently depleted exogenous KLHL15, thereby restoring CtIP protein levels (<xref ref-type="fig" rid="f2">Fig. 2e</xref>). In contrast, CtIP was still degraded upon induction of GFP-KLHL15 in cells transfected with siRNA against the 3â²-untranslated region of KLHL15 (#3) specifically silencing endogenously expressed KLHL15 (<xref ref-type="fig" rid="f2">Fig. 2e</xref>). Consistent with a key function of KLHL15 in regulating CtIP protein turnover, we observed that the half-life of CtIP was prolonged after KLHL15 downregulation (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2c</xref>).</p>
+        <p>Proteasome-dependent proteolysis typically requires the conjugation of ubiquitin to the target protein. Therefore, we next addressed whether KLHL15 mediates CtIP ubiquitination <italic>in vivo</italic>. To this end, we transfected HEK293 cells inducibly expressing GFP-CtIP with histidine-tagged ubiquitin and analysed the level of CtIP ubiquitination after Ni-NTA pull-down under denaturing conditions. As previously reported<xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b29">29</xref>, we readily detected polyubiquitinated species of CtIP upon MG-132 treatment (<xref ref-type="fig" rid="f2">Fig. 2f</xref>). In contrast, however, CtIP ubiquitination was severely impaired in KLHL15- or CUL3-depleted cells (<xref ref-type="fig" rid="f2">Fig. 2f</xref>). To prove that the CUL3-KLHL15 E3 ligase complex is sufficient to catalyse CtIP ubiquitination <italic>in vitro</italic>, we expressed and purified recombinant FLAG-CtIP and MBP-KLHL15 from HEK293T and Sf9 insect cells, respectively (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2d</xref>). Recombinant CUL3/RBX1 was neddylated <italic>in vitro</italic> using the purified NEDD8 (N8) conjugation system<xref ref-type="bibr" rid="b30">30</xref>. Next, CtIP and KLHL15 were mixed with CUL3-N8/RBX1 complex and incubated with ATP, ubiquitin, E1 (UBE1) and E2 (Cdc34 or UbcH5b) enzymes. Western blot analysis revealed that CtIP was extensively modified when all components of the ubiquitination machinery were present in the reaction (<xref ref-type="fig" rid="f2">Fig. 2g</xref>). Moreover, we found that this reaction was specifically catalysed by KLHL15 <italic>in vitro</italic>, since CtIP ubiquitination was not supported by KLHL21 (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2e</xref>, lanes 11â13). As it is well-established that proteins targeted for proteasomal degradation are often conjugated to lysine 48 (K48) linked ubiquitin chains, we compared the efficiency of CtIP polyubiquitination by CUL3-KLHL15 between K48-only and K48R ubiquitin mutants using the same assay. We observed that CtIP ubiquitination was almost completely abrogated in presence of the K48R mutant, whereas chain formation was indistinguishable between wild-type and K48-only ubiquitin (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2e</xref>). Collectively, our results demonstrated that CUL3-KLHL15 promotes K48-linked CtIP polyubiquitination leading to its proteasome-dependent degradation.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>CtIP protein accumulates in KLHL15 knockout cells</title>
+        <p>Since HEK293 cells were used in our proteomics screen for proteins that interact with CtIP, we rationalized that KLHL15 is adequately expressed in this cell line. Thus, we generated stable HEK293 KLHL15 knockout cells (HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup>) using the CRISPR method introduced by Munoz <italic>et al</italic>.<xref ref-type="bibr" rid="b31">31</xref> We first screened several, single-cell clones for Cas9-induced disruption of KLHL15 protein by western blotting performed with a homemade rabbit polyclonal antibody raised against a recombinant fragment (amino acids 300â604) of human KLHL15 (<xref ref-type="fig" rid="f3">Fig. 3a</xref>). Remarkably, and consistent with our previous findings, we observed a perfect positive correlation between the absence of KLHL15 and increase of CtIP protein levels (<xref ref-type="fig" rid="f3">Fig. 3a</xref>). To further prove that the <italic>KLHL15</italic> gene was efficiently knocked out, the CRISPR-targeted genomic locus in HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> clone 1 was PCR-amplified and subjected to deep-sequencing demonstrating that biallelic <italic>KLHL15</italic>-editing resulted in two truncated KLHL15 proteins harbouring only the N-terminal BTB domain (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3a,b</xref>). Consistent with our previous data in U2OS cells (<xref ref-type="fig" rid="f2">Fig. 2d</xref>), KLHL15 is strongly associated with the chromatin compartment in HEK293 cells, further indicating that KLHL15 targets CtIP for ubiquitination and degradation in the nucleus (<xref ref-type="fig" rid="f3">Fig. 3b</xref>). Notably, we found that KLHL15 loss does not affect cell cycle progression and, vice versa, that KLHL15 is expressed throughout the cell cycle (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3c,d</xref>). Finally, we observed that CtIP protein half-life was dramatically prolonged in KLHL15 knockout cells and that MG-132 treatment did not alter CtIP protein stability in those cells, further supporting the importance of KLHL15 in governing CtIP protein turnover (<xref ref-type="fig" rid="f3">Fig. 3c</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>KLHL15 expression sensitizes cells to CPT by inhibiting resection</title>
+        <p>To investigate the role of KLHL15 in the DDR, we generated U2OS clones inducibly expressing GFP-tagged KLHL15-G386C and -Y552A, two mutants defective in CtIP binding (see <xref ref-type="fig" rid="f1">Fig. 1f</xref>). However, in contrast to KLHL15-wt and KLHL15-Y552A, which localized predominantly in the nucleus and were present in the chromatin-enriched fraction, KLHL15-G386C was exclusively cytoplasmic and therefore excluded from further studies (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4a,b</xref>). Consistent with our previous findings, CtIP protein levels were reduced in KLHL15-wt compared with KLHL15-Y552A mutant cells already at 24âh following induction of KLHL15 expression (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4b</xref>).</p>
+        <p>In S and G2 phases of the cell cycle, CtIP is required for the processing of DSBs into ssDNA, triggering HR. Consequently, CtIP-deficient cells display reduced DNA-end resection and hypersensitivity towards CPT, a DNA topoisomerase inhibitor causing DSBs specifically at the replication fork<xref ref-type="bibr" rid="b8">8</xref>. In large agreement with that, we found that cells overexpressing KLHL15-wt, therefore harbouring very little amounts of CtIP, were hypersensitive to CPT (<xref ref-type="fig" rid="f4">Fig. 4a</xref>). In response to DSBs, CtIP is required for RPA2 hyperphosphorylation, a commonly accepted marker for DNA-end resection<xref ref-type="bibr" rid="b32">32</xref>. Strikingly, the level of phosphorylated RPA2 upon CPT treatment was significantly reduced in KLHL15-wt compared with KLHL15-Y552A mutant cells (<xref ref-type="fig" rid="f4">Fig. 4b</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4c</xref>). Next, using a recently established flow-cytometry-based method to detect RPA retention on damaged chromatin<xref ref-type="bibr" rid="b33">33</xref>, we observed that the percentage of CPT-induced RPA-positive cells was specifically reduced upon induction of KLHL15-wt expression (<xref ref-type="fig" rid="f4">Fig. 4c</xref>), indicative of DNA-end resection defect. To directly measure the formation of ssDNA in response to CPT treatment, we employed the same approach but instead immunostained bromodeoxyuridine (BrdU)-labelled cells with an anti-BrdU antibody. Consistently, the BrdU signal was dramatically reduced in cells overexpressing KLHL15-wt, but not in the Y552A mutant cells (<xref ref-type="fig" rid="f4">Fig. 4c</xref>). Importantly, the reported cellular phenotypes caused by KLHL15-wt overexpression were generally milder but followed the same trend as those caused by CtIP downregulation (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4dâf</xref>). On the basis of these findings, we analysed the effect of KLHL15 expression on the efficiency of DSB repair by HR in established reporter cells<xref ref-type="bibr" rid="b34">34</xref>. As expected, transient transfection of these cells with KLHL15-wt, but not with KLHL15-Y552A, resulted in a significant reduction in HR frequency compared with control cells (<xref ref-type="fig" rid="f4">Fig. 4d</xref>). Taken together, our data suggest that KLHL15 overexpression is detrimental to DNA-end resection and HR, most likely caused by enhanced CtIP proteasomal degradation.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>The C-terminal domain of CtIP mediates binding to KLHL15</title>
+        <p>To gain further insights into the mechanism by which KLHL15 promotes CtIP protein turnover, we sought to identify the region within CtIP responsible for KLHL15 interaction. Human CtIP has two recognizable domains (<xref ref-type="fig" rid="f5">Fig. 5a</xref>), a coiled-coil domain<xref ref-type="bibr" rid="b35">35</xref> and a highly conserved Sae2/Ctp1-like CTD, which is required for DNA-end resection<xref ref-type="bibr" rid="b8">8</xref>. In addition, CtIP contains several short sequence motifs (<xref ref-type="fig" rid="f5">Fig. 5a</xref>) that are important for CtIP tetramerization<xref ref-type="bibr" rid="b36">36</xref><xref ref-type="bibr" rid="b37">37</xref><xref ref-type="bibr" rid="b38">38</xref> or for physical interactions with other proteins, such as FANCD2 (ref. <xref ref-type="bibr" rid="b39">39</xref>), PIN1 (ref. <xref ref-type="bibr" rid="b28">28</xref>), BRCA1 (refs <xref ref-type="bibr" rid="b40">40</xref>, <xref ref-type="bibr" rid="b41">41</xref>) and CDH1 (ref. <xref ref-type="bibr" rid="b42">42</xref>). Interestingly, by performing MBP-KLHL15 pull-down experiments from HEK293T cell lysates expressing different CtIP constructs, we found that GFP-CtIP-wt and GFP-CtIP-ÎN (deleted of amino acids (aa) 153â322) interacted with KLHL15, whereas GFP-CtIP-ÎC1 lacking the entire CTD (aa 790â897) did not (<xref ref-type="fig" rid="f5">Fig. 5b</xref>). Moreover, when the same constructs were cotransfected with FLAG-KLHL15 into HEK293T cells, quantification of protein levels revealed that CtIP-ÎN showed rather variable abundance, whereas CtIP-ÎC1 was resistant to KLHL15 overexpression (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5a</xref>). In fact, increased protein stability of a C-terminally truncated form of CtIP has been reported previously<xref ref-type="bibr" rid="b43">43</xref>. Consistently, we observed that ubiquitination of CtIP-ÎC1 <italic>in vivo</italic> (<xref ref-type="fig" rid="f5">Fig. 5c</xref>) and <italic>in vitro</italic> (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5b</xref>) was decreased compared with CtIP-wt. These results indicated that the CTD in CtIP is required for KLHL15 binding and subsequent ubiquitin-dependent proteolysis of CtIP.</p>
+        <p>To narrow down our search for a putative KLHL15-interaction motif in CtIP, we generated two additional CtIP C-terminal truncation mutants. Interestingly, GFP-CtIP-ÎC3 (aa 1â863) was still efficiently pulled-down and degraded by KLHL15, whereas GFP-CtIP-ÎC2 (aa 1â812) was not, suggesting that KLHL15 binds to a small region in the CTD of CtIP encompassing residues 813â863 (<xref ref-type="fig" rid="f5">Fig. 5d</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5c</xref>). In addition, by using pull-down assays, we found that a synthetic 15-mer peptide consisting of CtIP residues 830â844 (<xref ref-type="fig" rid="f5">Fig. 5a</xref>) strongly interacted with GFP-KLHL15 expressed in cells as well as with endogenous KLHL15 in pull-down assay (<xref ref-type="fig" rid="f5">Fig. 5e,f</xref>). Remarkably, the short peptide was effective in outcompeting the binding of endogenous CtIP to MBP-KLHL15, indicating that its amino acid sequence contained key residues required for KLHL15 interaction (<xref ref-type="fig" rid="f5">Fig. 5g</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Tyrosine residue 842 of CtIP is essential for KLHL15 binding</title>
+        <p>To date, the protein phosphatase 2A (PP2A) regulatory subunit Bâ²-beta is the only described substrate for the CUL3-KLHL15 E3 ubiquitin ligase<xref ref-type="bibr" rid="b44">44</xref>. This study established a tyrosine residue within a conserved stretch of three amino acids (FRY) as being critically important for KLHL15-mediated degradation of PP2A/Bâ²-beta. Strikingly, when we looked for the presence of a similar motif in human CtIP, sequence alignments highlighted a well-conserved FRY motif (aa 840â842) located exactly within the region previously shown to mediate KLHL15 interaction (<xref ref-type="fig" rid="f6">Fig. 6a</xref>). Of note, CtIP homologues in <italic>Caenorhabditis elegans</italic>, <italic>Dictyostelium discoideum</italic> and <italic>Schizosaccharomyces pombe</italic> did not contain a FRY motif at this position (<xref ref-type="fig" rid="f6">Fig. 6a</xref>), which could be partly explained by the fact that BTB-BACK-Kelch family proteins are extremely rare in worms and completely absent in slime molds and yeast<xref ref-type="bibr" rid="b45">45</xref>.</p>
+        <p>To investigate whether the CtIP FRY motif is involved in KLHL15 recognition, we first generated a triple-alanine substitution mutant (GFP-CtIP-AAA) and observed that the protein was partially resistant to KLHL15-mediated degradation (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6a</xref>). Next, we focused on elucidating the role of Y842 in being the prime determinant for the physical interaction between CtIP and KLHL15, as shown for Y52 in PP2A/Bâ²-beta<xref ref-type="bibr" rid="b44">44</xref>. Indeed, pull-down assays using bacterially expressed GST-CtIP-CTD as bait showed that the replacement of tyrosine 842 with alanine (Y842A) severely impaired binding of the CUL3-KLHL15 complex (<xref ref-type="fig" rid="f6">Fig. 6b</xref>), whereas the previously established interaction with MRE11 (refs <xref ref-type="bibr" rid="b8">8</xref>, <xref ref-type="bibr" rid="b46">46</xref>, <xref ref-type="bibr" rid="b47">47</xref>) remained largely unaffected (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6b,c</xref>). Next, we subjected cell lysates expressing GFP-CtIP to IP using GFP antibody beads and found that the Y842A mutant exhibited reduced binding to endogenous KLHL15 and CUL3 as compared with wild-type protein (<xref ref-type="fig" rid="f6">Fig. 6c</xref>). Likewise, MBP-pull-down assays showed decreased interaction between KLHL15 and CtIP-Y842A (<xref ref-type="fig" rid="f6">Fig. 6d</xref>). Importantly, using the same approach, we found that replacing Y842 with a non-phosphorylatable phenylalanine completely restored KLHL15-CtIP interaction (<xref ref-type="fig" rid="f6">Fig. 6d</xref>), indicating that Y842 phosphorylation is not required for KLHL15 binding, whereas the side-chain aromatic ring at this position is. As a functional consequence of reduced KLHL15 interaction, we observed that the CtIP-Y842A mutant was partially defective in polyubiquitination <italic>in vivo</italic> (<xref ref-type="fig" rid="f6">Fig. 6e</xref>). Consistent with these findings, CtIP-Y842A was resistant to KLHL15 overexpression, whereas CtIP-Y842F was degraded to the same extent as CtIP-wt (<xref ref-type="fig" rid="f6">Fig. 6f</xref>). To examine whether the FRY motif indeed constitutes a canonical docking site for KLHL15, we constructed two additional CtIP mutants in which F840 and R839, located in the conserved neighbouring 'RHR' motif, were also substituted with alanine residues (<xref ref-type="fig" rid="f6">Fig. 6a</xref>). We again cotransfected the GFP-tagged versions together with FLAG-KLHL15 and found that F840A behaved identical to Y842A in terms of being resistant to KLHL15 overexpression, whereas R839A was degraded to a similar extent as compare to wild-type (<xref ref-type="fig" rid="f6">Fig. 6f</xref>). Taken together, these findings indicate that the FRY motif and Y842 in particular are essential for KLHL15 recognition and subsequent degradation of CtIP by the ubiquitin-proteasome pathway.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>KLHL15 regulates DNA-end resection and DSB repair</title>
+        <p>To investigate the role of CtIP ubiquitination by KLHL15 in response to DNA damage, we generated stable U2OS cell clones inducibly expressing siRNA-resistant GFP-tagged CtIP-wt or CtIP-Y842A. Importantly, cell cycle profiles, CtIP nuclear localization and accumulation to DSB-containing tracks generated by laser microirradiation were highly similar in both cell lines, indicating that these transgenes are functional (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7aâc</xref>). Interestingly, cycloheximide chase experiments revealed that CtIP-Y842A had a much prolonged half-life compared with CtIP-wt, a phenotype reminiscent of the reduced CtIP protein turnover in KLHL15 knockout cells (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7d</xref>). However, CtIP-Y842A efficiently rescued CPT hypersensitivity of CtIP-depleted cells, suggesting that increased CtIP protein stability does not negatively affect CtIP function in DSB processing (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7e</xref>). Next, we compared CPT-induced ATM/ATR activation between the two cell lines by western blotting to assess whether impairment of KLHL15 binding to CtIP has an impact on DNA damage signalling. Interestingly, we found that ATR-mediated CHK1 and RPA2 phosphorylation was increased in CtIP-Y842A mutant compared with CtIP-wt cells, indicative of elevated DNA-end resection, whereas ATM autophosphorylation remained unaltered (<xref ref-type="fig" rid="f7">Fig. 7a</xref>). Moreover, Y842A rescued defective RPA2 hyperphosphorylation in CtIP-depleted cells to a much higher extent as compared with control cells (<xref ref-type="fig" rid="f7">Fig. 7b</xref>). Next, we analysed RPA accumulation on damaged chromatin as well as the formation of ssDNA by flow-cytometry. Consistent with our immunoblot analysis, Y842A led to increased RPA chromatinization and ssDNA formation upon CPT treatment, further demonstrating that impaired CtIP protein turnover causes hyper-resection of DSBs (<xref ref-type="fig" rid="f7">Fig. 7c</xref>). Underscoring the importance of KLHL15 in regulating DNA-end resection, we observed that KLHL15 knockout cells display elevated RPA2 phosphorylation levels as compared with control cells (<xref ref-type="fig" rid="f7">Fig. 7d</xref>). Importantly, siRNA-mediated downregulation of CtIP in KLHL15 knockout cells suppressed the hyper-resection phenotype (<xref ref-type="fig" rid="f7">Fig. 7d</xref>), indicating that KLHL15 limits resection by promoting CtIP proteasomal degradation and that CtIP is most likely the key substrate of KLHL15 involved in the DDR. Next, using the flow-cytometry-based assay to quantify DNA-end resection, we observed that the amount of RPA-bound ssDNA in KLHL15 knockout cells was far higher than in control cells (<xref ref-type="fig" rid="f7">Fig. 7e</xref>). Furthermore, loss of KLHL15 resulted in a marked increase of RPA2 hyperphosphorylation after treatment with ionizing radiation (IR) (<xref ref-type="fig" rid="f7">Fig. 7f</xref>). DNA-end resection is inhibitory to the repair of DSBs by NHEJ. With regards to this view and since NHEJ is the predominant repair mechanism for IR-induced two-ended DSBs, we next addressed the survival of KLHL15 knockout cells following IR treatment using clonogenic assay. Remarkably, HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup>cells were hypersensitive to IR, indicative of compromised NHEJ activity (<xref ref-type="fig" rid="f7">Fig. 7g</xref>). To investigate whether regulation of CtIP protein turnover by KLHL15 plays a direct role in DSB repair pathway choice, we measured NHEJ or HR frequencies in HEK293 GFP-reporter cells<xref ref-type="bibr" rid="b34">34</xref>. First, we discovered that KLHL15 knockdown caused a significant reduction in NHEJ, similar to that seen after depletion of the canonical NHEJ factor XRCC4 (<xref ref-type="fig" rid="f7">Fig. 7h</xref>). In large agreement with this finding, NHEJ frequency was decreased upon overexpression the CtIP-Y842A mutant, further supporting the concept that excessive DNA-end resection is counterproductive for NHEJ (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7f</xref>). Next, we performed HR reporter assays and observed that downregulation of KLHL15 coincided with increased HR efficiency (<xref ref-type="fig" rid="f7">Fig. 7i</xref>), whereas CtIP-Y842A had no major impact on homology-directed repair of DSBs (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7g</xref>). Altogether, this data provide evidence that KLHL15 is a key factor governing DNA-end resection and DSB repair pathway choice through regulating CtIP ubiquitination and, ultimately, CtIP protein turnover.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>PIN1 and KLHL15 cooperate in promoting CtIP degradation</title>
+        <p>In an earlier study, we have reported that PIN1, a phosphorylation-specific prolyl isomerase, promotes CtIP degradation by the ubiquitin-proteasome pathway<xref ref-type="bibr" rid="b28">28</xref>. However, the responsible E3 ligase working in concert with PIN1 in CtIP ubiquitination has not been identified yet. Specifically, we demonstrated that disruption of this regulatory function by PIN1 depletion or expression of a CtIP mutant refractory to PIN1 binding resulted in hyper-resection and reduced NHEJ, meanwhile PIN1 overexpression suppressed resection and HR. As these cellular phenotypes are highly reminiscent of those observed in this study, we speculated whether CtIP isomerization by PIN1 may facilitate KLHL15-dependent CtIP degradation. Interestingly, we found that CtIP S276A/T315A (2A) impaired in PIN1 binding<xref ref-type="bibr" rid="b28">28</xref> was partially resistant to KLHL15 overexpression (<xref ref-type="fig" rid="f8">Fig. 8a</xref>). In contrast, the CtIP KEN-box mutant (K467A) defective in CDH1 binding and subsequent polyubiquitination by the APC/C<sup>Cdh1</sup> E3 ligase<xref ref-type="bibr" rid="b29">29</xref>, was as efficiently degraded by KLHL15 as the wild-type CtIP protein (<xref ref-type="fig" rid="f8">Fig. 8a</xref>). This result indicated a possible functional connection between PIN1 and KLHL15 in controlling CtIP protein turnover. To address this further, we next investigated whether CtIP isomerization by PIN1 may foster CtIP-KLHL15 interaction. MBP-pull-down assays revealed that the GFP-CtIP-2A mutant protein was fully proficient in binding to recombinant KLHL15 purified from insect cells (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8a</xref>). Interestingly, however, KLHL15-CtIP interaction was reduced in cells depleted for PIN1 (<xref ref-type="fig" rid="f8">Fig. 8b</xref>), indicating that isomerization of CtIP is not essential for physical interaction between KLHL15 and CtIP, yet that it somehow aids the formation of a ternary CUL3-KLHL15-CtIP complex in cells. Consistent with this hypothesis, simultaneous downregulation of KLHL15 and PIN1 did not further reduce CtIP ubiquitination when compared with the single knockdowns (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8b</xref>). As reported previously<xref ref-type="bibr" rid="b28">28</xref>, PIN1 overexpression destabilized CtIP particularly in response to DSBs causing reduced RPA2 hyperphosphorylation (<xref ref-type="fig" rid="f8">Fig. 8c</xref>, lanes 1â4). We now observed that both phenotypes can be reversed by transfecting PIN1 into KLHL15 knockout cells, indicating that PIN1-mediated CtIP degradation after DNA damage requires KLHL15 (<xref ref-type="fig" rid="f8">Fig. 8c</xref>, lanes 5â8). Taken together, these experiments suggested that the PIN1 isomerase, at least in certain scenarios, facilitates CtIP ubiquitination and proteasomal degradation through the CUL3-KLHL15 E3 ligase.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Discussion</title>
+      <p>Ubiquitination and its crosstalk with other post-translational modifications have recently emerged as key regulatory mechanisms in the cellular response to DNA damage<xref ref-type="bibr" rid="b48">48</xref><xref ref-type="bibr" rid="b49">49</xref>. As a consequence, defects in the ubiquitination machinery have been shown to be associated with reduced cellular survival and increased genomic instability in response to DSBs, mainly due to impaired proteinâprotein interactions causing mislocalization of DSB repair factors<xref ref-type="bibr" rid="b50">50</xref><xref ref-type="bibr" rid="b51">51</xref><xref ref-type="bibr" rid="b52">52</xref>. Of note, these processes mostly involve non-proteasomal ubiquitin signalling instead of the classical function of E3 ubiquitin ligases in targeting substrates to proteasome-dependent degradation.</p>
+      <p>Here, we demonstrate that proteasomal degradation triggered by a CRL3 E3 ligase plays a prominent role in the regulation of DSB repair. Specifically, our results indicate that the BTB-BACK-Kelch protein KLHL15 acts as an adaptor for CUL3 to target the DNA-end resection factor CtIP for ubiquitination and subsequent proteasomal degradation (<xref ref-type="fig" rid="f9">Fig. 9</xref>). We further define the molecular basis of the CUL3-KLHL15-CtIP ternary complex by showing that KLHL15 interacts with CUL3 <italic>via</italic> its canonical â3-box' motif and recruits CtIP to CUL3 via its C-terminal Kelch domain. Moreover, our data reveals that the FRY tripeptide sequence, present in the C-terminus of CtIP, may serve as general KLHL15 docking motifs present in substrate proteins targeted by the CUL3-KLHL15 E3 ubiquitin ligase. Specifically, we report that CtIP-Y842, located within a conserved âFRY motif', is essential for KLHL15-mediated CtIP ubiquitination and subsequent degradation.</p>
+      <p>CtIP is required for DNA-end resection, the initial step of homology-directed repair, and is therefore a key factor in controlling repair pathway choice as processed DSB ends can no longer serve as substrates for NHEJ<xref ref-type="bibr" rid="b53">53</xref>. Collectively, our findings support a model in which the CUL3-KLHL15 ubiquitin ligase governs the turnover of CtIP to fine-tune the balance between HR and NHEJ (<xref ref-type="fig" rid="f9">Fig. 9</xref>). Accordingly, cells that express high levels of KLHL15 exhibit unscheduled and enhanced CtIP degradation, ultimately leading to strong defects in DNA-end resection and increased channelling of DSB repair from error-free HR into error-prone NHEJ (<xref ref-type="fig" rid="f9">Fig. 9</xref>). In contrast, cells either lacking KLHL15 or expressing a mutant of CtIP refractory to KLHL15 binding display aberrant accumulation of CtIP and excessive DNA-end resection, thereby suppressing DSB repair by NHEJ (<xref ref-type="fig" rid="f9">Fig. 9</xref>). Recently, a similar regulatory function in DSB repair has been proposed for Keap1, another CUL3 substrate adaptor. However, rather than involving the proteasome, the authors of this study showed that Keap1-dependent ubiquitination of PALB2 suppresses its interaction with BRCA1, thereby prohibiting HR in G1 cells<xref ref-type="bibr" rid="b54">54</xref>.</p>
+      <p>Previously, we reported that PIN1 isomerase tips the balance between HR and NHEJ by a very similar mechanism involving CtIP ubiquitination and degradation<xref ref-type="bibr" rid="b28">28</xref>. Here, we provide circumstantial evidence that CUL3-KLHL15 is the responsible E3 ligase operating in conjunction with PIN1 to control CtIP protein turnover. Interestingly, we find that isomerization of CtIP is not essential for the direct physical interaction between CtIP and KLHL15, but that PIN1 is important for stable complex formation of CUL3-KLHL15-CtIP, thereby reinforcing CtIP polyubiquitination and degradation in specific cellular contexts. For instance, as PIN1 binding to CtIP requires initial phosphorylation of CtIP by proline-directed kinases (for example, cyclin-dependent kinases), we previously proposed that PIN1 triggers CtIP ubiquitination and degradation predominantly upon DNA damage in late S and G<sub>2</sub> phases of the cell cycle<xref ref-type="bibr" rid="b28">28</xref>. We now conclude that PIN1 and CUL3-KLHL15 collaborate in fine adjusting CtIP protein stability to attenuate DNA-end resection activity whenever NHEJ is the preferred mode of DSB repair. Interestingly, a similar mechanism has been described for PML degradation, which, in response to hypoxia, gets first isomerized by PIN1 and then ubiquitinated by the CUL3-KLHL20 E3 ubiquitin ligase<xref ref-type="bibr" rid="b55">55</xref>. Clearly, further investigations are required to elucidate how, at the molecular level, isomerization-induced conformational changes in CtIP stimulate its ubiquitination by CUL3-KLHL15 interaction.</p>
+      <p>Moreover, it also remains to be determined under which physiological conditions CUL3-KLHL15 primes CtIP for degradation in otherwise unperturbed cells. So far, studies on Keap1 and KLHL20 revealed a possible mode for regulating ubiquitination, which occurs at the level of the CUL3 adaptor rather than at the level of the substrate. CUL3-Keap1 constitutively targets Nrf2 until oxidative stress modifies several redox-sensitive cysteine residues of Keap1 interfering with the E3-ligase activity<xref ref-type="bibr" rid="b56">56</xref><xref ref-type="bibr" rid="b57">57</xref>. Similarly, DAPK is constitutively degraded by CUL3-KLHL20, until stress-induced interferon production causes sequestering of KLHL20 into PML nuclear bodies and thus away from its substrate<xref ref-type="bibr" rid="b58">58</xref>. In analogy to that, one could envision that KLHL15 controls the basal protein level of CtIP to keep DNA-end resection in check until certain stimuli modulate CUL3-KLHL15 ubiquitin ligase activity to either accelerate or delay CtIP protein turnover, thereby guiding DSB repair towards either NHEJ or HR. Furthermore, we observed that KLHL15 is predominantly chromatin-bound, suggesting that it may only target CtIP for degradation in genomic loci where error-prone repair by NHEJ is not detrimental to the cell. On the other hand, KLHL15 may be absent from transcriptionally active chromatin to allow DNA-end resection and HR<xref ref-type="bibr" rid="b59">59</xref>.</p>
+      <p>We also anticipate that KLHL15 function may be regulated at multiple levels, including gene expression and subcellular localization, as previously reported for KLHL20 (ref. <xref ref-type="bibr" rid="b60">60</xref>). Along this line, KLHL15 mRNA levels were reported to be highest in lung, muscle and spleen, suggesting tissue-specific regulation of KLHL15 expression<xref ref-type="bibr" rid="b44">44</xref>. Interestingly, publicly available gene expression databases, such as MediSapiens, indicate highest KLHL15 expression levels predominantly in hematopoietic stem cells and in all four main types of leukemia (<ext-link ext-link-type="uri" xlink:href="http://ist.medisapiens.com/#ENSG00000174010">http://ist.medisapiens.com/#ENSG00000174010</ext-link>). Notably, the role for CtIP ubiquitination by KLHL15 in the regulation of DSB repair was most likely acquired later during evolution, as both KLHL15 as well as the KLHL15-binding motif in CtIP (FRY) are highly conserved in vertebrates but missing in yeast and worms.</p>
+      <p>Based on our data and the study of Oberg <italic>et al</italic>.<xref ref-type="bibr" rid="b44">44</xref> on KLHL15-dependent degradation of PP2A/B'-beta, we further hypothesize that the FRY tripeptide sequence may constitute a consensus KLHL15-Kelch domain interaction motif. In analogy to this, the CUL3 adaptor Keap1 recognizes its substrates including NRF2 and PALB2 via a conserved E(S/T)GE motif<xref ref-type="bibr" rid="b61">61</xref><xref ref-type="bibr" rid="b62">62</xref><xref ref-type="bibr" rid="b63">63</xref>. Moreover, we demonstrate that a CtIP-Y842F mutant is proficient in being targeted for degradation by KLHL15, excluding the possibility that Y842 phosphorylation is a prerequisite for KLHL15 binding. Nevertheless, phosphorylation of Y842 may negatively interfere with CtIP-KLHL15 interaction. Consistent with this hypothesis, inhibition of substrate recruitment to CRL3s by phosphorylation has been previously reported<xref ref-type="bibr" rid="b19">19</xref>. For instance, NRF2 threonine phosphorylation of the aforementioned ETGE motif disrupts its interaction with Keap1 (ref. <xref ref-type="bibr" rid="b26">26</xref>). It did also not escape our notice that the KLHL15-binding motif is in immediate proximity to an 'RHR' motif recently shown to be important for <italic>S. pombe</italic> Ctp1 binding to DNA <italic>in vitro</italic><xref ref-type="bibr" rid="b38">38</xref>. However, based on the fact that the 'FRY motif' is not conserved in yeast and considering that, according to our data, CtIP-R839A is still degraded by KLHL15, we think it is reasonable to conclude that CtIP ubiquitination by KLHL15 (mediated through the 'FRY motif') and CtIP binding to DNA (mediated through the 'RHR motif') are mutually exclusive events in the regulation of DNA-end resection.</p>
+      <p>Lastly, our findings may have important therapeutic implications for some cancer types displaying KLHL15 overexpression. For example, high KLHL15 protein levels may render cancer cells hypersensitive to DNA topoisomerase inhibitors. Likewise, mutations of KLHL15 may lead to aberrant activation of DNA-end resection and HR-mediated DSB repair, which in turn could again provide the opportunity to design more effective personalized therapeutic strategies. In this respect, over 90 cancer-associated somatic mutations of KLHL15 are currently recorded in the Catalogue of Somatic Mutations in Cancer (COSMIC) database (<ext-link ext-link-type="uri" xlink:href="http://www.cancer.sanger.ac.uk">www.cancer.sanger.ac.uk</ext-link>), but their molecular effects on cancer pathogenesis require further investigations.</p>
+    </sec>
+    <sec disp-level="1">
+      <title>Methods</title>
+      <sec disp-level="2">
+        <title>Cell culture</title>
+        <p>U2OS and HEK293T cells (Invitrogen, Life Technologies) were grown in DMEM supplemented with 10% FCS, 100âUâml<sup>â1</sup> penicillin, and 100âÎ¼gâml<sup>â1</sup> streptomycin. U2OS Flp-In T-REx (a kind gift from Daniel Durocher, University of Toronto) and HEK293 Flp-In T-Rex (Invitrogen, Life Technologies) cells were maintained in medium supplemented with 10âÎ¼gâml<sup>â1</sup> blasticidin and 300âÎ¼gâml<sup>â1</sup> zeocin. The Flp-In T-REx system (Invitrogen Life Technologies) was used to generate cell lines stably expressing different siRNA-resistant GFP-CtIP or GFP-KLHL15 constructs under the control of a doxycycline-inducible promoter. In brief, expression vectors pcDNA5/FRT/TO-GFP-CtIP or pcDNA5/FRT/TO-GFP-KLHL15 and the Flp recombinase expression plasmid, pOG44, were mixed in a 1:9 ratio and transfected into U2OS Flp-In T-REx cells (a kind gift of Daniel Durocher, University of Toronto) using FuGENE6 Tranfection Reagent (Promega). 24âh later, cells were plated at different dilutions and 48âh post-transfection the medium was supplemented with 250âÎ¼gâml<sup>â1</sup> hygromycin B and 12.5âÎ¼gâml<sup>â1</sup> blasticidin S. The medium was replaced every 2â3 days and cells were selected for approximately 14 days. Resistant colonies were picked and single-cell clones analysed for GFP expression by immunoblotting and immunofluorescence microscopy. The CtIP-Y842A mutation in stable U2OS cells was further verified by genomic sequencing. HEK293<sup>Cas9/wt</sup> and HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> cell lines were generated as described previously<xref ref-type="bibr" rid="b31">31</xref>. In brief, HEK293/Flp-In cells inducibly expressing Cas9-FLAG (HEK293<sup>Cas9</sup>) were transfected with a plasmid (DU46129, U6_gRNA_empty vector) encoding a short guide RNA (sgRNA) targeting KLHL15 or the empty vector as control. Eight hours after transfection Cas9-FLAG expression was induced with Dox (1âÎ¼gâml<sup>â1</sup>). Forty-eight hours after transfection, cells were seeded at a high dilution to generate single-cell-derived clones. Lysates from HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> cell clones were screened for the loss of KLHL15 expression by western blotting. Finally, the targeted genomic region was amplified by PCR using the following primers (forward, 5â²-TGGTGAAGTTCTGCTGCTCT-3â²; reverse, 5â²-GCCTAGACATGAGTGGCACA-3â²) and analysed for the presence of insertion and deletion (Indel) mutations by deep-sequencing. All cell lines were confirmed to be free of mycoplasma contamination.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell irradiation</title>
+        <p>IR was given using a Faxitron X-ray machine. Laser microirradiation was performed as described previously<xref ref-type="bibr" rid="b64">64</xref>. Briefly, 24âh before irradiation, cells were grown in medium supplemented with 10âÎ¼M BrdU. Cells were microirradiated using a MMI CELLCUT system containing a UVA laser of 355ânm (Molecular Machines and Industries, Zurich, Switzerland). The laser intensity was set to 50% energy output and each cell was exposed to the laser beam for &lt;300âms.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Chemicals and peptides</title>
+        <p>MG-132, cycloheximide and CPT were purchased from Sigma. MLN-4924 was purchased from Active Biochem. The biotinylated 15-mer peptide encompassing CtIP amino acid residues 830â844 was purchased from Bachem AG (Bubendorf, Switzerland) and dissolved in water at 1âmgâml<sup>â1</sup>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Vectors</title>
+        <p>GFP or FLAG-tagged CtIP expression constructs and pGEX-4T1 plasmids for bacterial expression of CtIP fragments were described previously<xref ref-type="bibr" rid="b8">8</xref>. The pCMV6-myc-FLAG-KLHL15 expression plasmid was obtained from Origene (NM_030624 Human cDNA True ORF Clone, Origene). The pcDNA3.1-6xHis-Ubiquitin as well as the pcDNA3.1-HA-KLHL22 expression plasmid<xref ref-type="bibr" rid="b65">65</xref> were a gift from Matthias Peter (ETH Zurich, Switzerland). All CtIP and KLHL15 mutations were introduced by site-directed mutagenesis using Expand Long Template PCR System (Roche) and confirmed by sequencing. Plasmids were transfected either by using the standard calcium phosphate method or FuGENE 6 (Promega) according to manufacturer's instructions.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Antibodies</title>
+        <p>A complete list of all primary antibodies (with manufacturers, catalogue numbers and applications) used throughout this study can be found in <xref ref-type="supplementary-material" rid="S1">Supplementary Table 1</xref>. Secondary HRP-conjugated anti-mouse and anti-rabbit antibodies were from GE- Healthcare and the HRP-conjugated anti-goat antibody was from Santa Cruz Biotech. Alexa Fluor-488, -594, and -647-conjugated secondary antibodies were purchased from Invitrogen. Rabbit polyclonal antibodies specific for KLHL15 were generated as follows. Human KLHL15 cDNA corresponding to amino acids 300â604 was cloned into pET30a (Novagen) vector for expression in <italic>Escherichia coli</italic>. The recombinant His-tagged KLHL15 fragment was purified using Ni-NTA (Qiagen) following the manufacturer's instructions and subsequently used to immunize rabbits. After five immunizations, serum was obtained and purified against the recombinant antigen. For that, 100â200âÎ¼g of the KLHL15 antigen was loaded onto SDSâpolyacrylamide gel electrophoresis (SDSâPAGE) and then transferred to a nitrocellulose membrane before staining with Ponceau S. The part of the membrane containing the antigen was cut out, blocked with 2% BSA in TBS-T for 1âh and then incubated with the serum overnight at 4âÂ°C. Bound antibodies were eluted with 0.15âM glycine-HCl, pH 2.3. 1âM Tris-HCl, pH 8.8, was immediately added to neutralize the pH of the antibody solution to pH 7.5.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>siRNA</title>
+        <p>Transfection of siRNA oligos was done using Lipofectamine RNAiMAX (Invitrogen). CNTL, CtIP, CUL3 and KLHL15#2 were purchased from Microsynth and the sequences (5â² to 3â²) were as follows: CNTL (luciferase; 5â²-CGUACGCGGAAUACUUCGA-3â²)<xref ref-type="bibr" rid="b8">8</xref>, CtIP (5â²-GCUAAAACAGGAACGAAUC-3â²)<xref ref-type="bibr" rid="b8">8</xref>, CUL3 (5â²-CAACACTTGGCAAGGAGAC-3â²)<xref ref-type="bibr" rid="b66">66</xref> and KLHL15#2 (5â²-GCGTAAACATCGAGGGAG-3â²). SMARTpool ON-TARGETplus Human KLHL15 siRNA (KLHL15#1) was purchased from Dharmacon. Trisilencer-27 human KLHL15 siRNA B targeting the 3â²-untranslated region of KLHL15 (KLHL15#3) was purchased from OriGene.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Double affinity purification coupled to mass spectrometry</title>
+        <p>The procedure was performed as described previously with some minor modifications<xref ref-type="bibr" rid="b67">67</xref>. Briefly, CtIP cDNA was subcloned into the pN-TGSH plasmid (Dualsystems Biotech AG, Schlieren, Switzerland) for tetracycline (Tet)-inducible expression of strep-hemagglutinin (SH)-tagged CtIP bait protein. An isogenic cell line was generated using Flp-recombinase-mediated recombination through single FRT sites present in the pN-TGSH-CtIP expression construct and the genome of Flp-In HEK293 cells (Invitrogen) stably expressing the Tet repressor. After transfection, HEK293<sup>SH-CtIP</sup> cells were selected on hygromycin for 2 weeks, tested for Tet-inducible expression of SH-CtIP and used for subsequent double affinity purification. The affinity-purified proteins were digested into peptides and the peptide mixture was separated on a C18 HPLC column. Mass spectrometry analysis (direct liquid chromatography-tandem mass spectrometry) was performed using an LTQ Orbitrap XL mass spectrometer (Thermo Fisher Scientific). Peptides of only three proteins, CtIP (Bait), KLHL15 and Cullin-3, were identified in both biological replicates (see <xref ref-type="fig" rid="f1">Fig. 1a</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA extraction and real-time quantitative RTâPCR</title>
+        <p>Total RNA was extracted using the GenElute Mammalian Total RNA Miniprep Kit (Sigma) according to the manufacturer's protocol. Reverse transcription of mRNA was carried out using the Transcriptor First Strand Synthesis kit (Roche). KLHL15 mRNA expression analysis was performed using LightCycler 480 SYBR Green I Master (Roche) and the following primers: KLHL15 (Fw: 5â²-ATCATTCAGAATATCCGGTTTTGCT-3â², Rw: 5'-TTCAATGCTTGGTCAACTTCGTAA-3') and PBGD (Fw: 5â²-CAACGGCGGAAGAAAACAG-3â², Rw: 5â²-TCTCTCCAATCTTAGAGAGTG-3â²). PBGD expression served as an internal control for quantitative RT-PCR assays and was used to normalize KLHL15 expression levels.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Purification of recombinant human KLHL15</title>
+        <p>The KLHL15 gene was amplified from pCMV6-KLHL15 vector using PCR and subcloned into the pFB-MBP-fusion plasmid (a kind gift of Petr Cejka). The virus was produced using a Bac-to-Bac system (Invitrogen) according to manufacturers' recommendations. MBP-KLHL15 was purified as described previously<xref ref-type="bibr" rid="b68">68</xref>. Briefly, pellets of 3.2 liters of cultured Sf9 cells expressing MBP-KLHL15 were resuspended in three pellet volumes of lysis buffer (50âmM Tris-HCl, pH 7.5, 1âmM DTT, 1âmM EDTA, cOmplete EDTA-free Protease Inhibitor Cocktail tablets (Roche), 1âmM PMSF and 30âÎ¼gâml<sup>â1</sup> leupeptin). Cells were incubated for 15âmin with gentle agitation, and then two pellet volumes of ice-cold 50% glycerol were added to the sample. Next, 5âM NaCl (6.5% of the total solution volume) was added dropwise to the sample, and the solution was incubated for 30âmin with gentle agitation. The soluble extract was obtained by pelleting the insoluble material at 20,000<italic>g</italic> for 30âmin. The soluble cleared extract was bound to pre-equilibrated amylose resin (New England Biolabs). The resin was extensively washed with wash buffer (50âmM Tris-HCl, pH 7.5, 5âmM Î²-mercaptoethanol, 250âmM NaCl, 10% glycerol, 1âmM PMSF, 10âugâml<sup>â1</sup> leupeptin). The resin was incubated for an additional 10âmin in wash buffer supplemented with 2âmM ATP and 10âmM MgCl2 to remove some contaminating chaperones. MBP-KLHL15 was eluted with elution buffer (50âmM Tris-HCl, pH 7.5, 5âmM Î²-mercaptoethanol, 250âmM NaCl, 10% glycerol, 1âmM PMSF, 10âugâml<sup>â1</sup> leupeptin and 10âmM maltose). Next, the maltose-binding protein (MBP) was cleaved by PreScission protease and the sample was applied on Ni-NTA resin (Qiagen). The resin was washed with washing buffer containing 40âmM imidazole and eluted in the same buffer containing 400âmM imidazole. Pooled fractions were dialysed against dialysis buffer (50âmM Tris-HCl, pH 7.5, 5âmM Î²-mercaptoethanol, 300âmM NaCl, 10% glycerol, 0.5âmM PMSF). The sample was aliquoted, frozen in liquid nitrogen and stored at â80âÂ°C.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>CellTiter-Blue Cell Viability assay</title>
+        <p>U2OS Flp-In T-REx cells stably expressing doxycycline (Dox)-inducible siRNA-resistant forms of GFP-CtIP or GFP-KLHL15 were transfected with the indicated siRNA oligos. Twenty-four hours post-transfection, cells were seeded in triplicates at a density of 500 cells/well in 96-well plates in medium supplemented with Dox (1âÎ¼gâml<sup>â1</sup>). 24âh later, cells were continuously treated with indicated doses of camptothecin and grown for 4 days at 37âÂ°C. To measure cell viability, CellTiter-Blue reagent (Promega) was added on the last day, cells were incubated at 37âÂ°C for 4âh and fluorescence was measured at 560/590ânm.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Colony-formation assay</title>
+        <p>U2OS Flp-In T-REx cells were induced to express GFP-KLHL15-wt or GFP-KLHL15-Y552A using Dox (1âÎ¼M). Cells were either mock-treated (DMSO) or treated with the indicated doses of CPT 24âh after Dox-induction. HEK293<sup>Cas9</sup> wt or <italic>KLHL15Î</italic> cells were seeded on poly-lysine coated plates and 24âh later irradiated with 1, 2 or 4âGy. Cells were cultured for 10 days at 37âÂ°C. Colonies were stained with a crystal violet/ethanol (0.5%/20%) solution and counted.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunoblotting and triton extraction</title>
+        <p>If not specified otherwise, cell extracts were prepared in Laemmli buffer (4% SDS, 20% glycerol, 120âmM Tris-HCl pH 6.8). Proteins were resolved by SDSâPAGE and transferred to nitrocellulose. Immunoblots were performed with appropriate antibodies and proteins visualized using the Advansta WesternBright ECL reagent and the VilberLourmat Fusion Solo S imaging system. Isolation of Triton-insoluble (chromatin-enriched) fractions was performed as previously described<xref ref-type="bibr" rid="b39">39</xref>. Briefly, cells were rinsed twice in cold PBS, incubated for 5âmin on ice in pre-extraction buffer (25âmM HEPES pH 7.4, 50âmM NaCl, 1âmM EDTA, 3âmM MgCl<sub>2</sub>, 300âmM sucrose, 0.5% Triton X-100 and protease inhibitors). After buffer removal, adherent cellular material was harvested by scraping the cells into Laemmli buffer. The chromatin-enriched fraction was then heat denatured, sonicated and analysed by immunoblotting. Uncropped immunblots are shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 9</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Pull-down assays</title>
+        <p>HeLa nuclear extracts were purchased from CilBiotech (Mons, Belgium). For all pull-down assays, cells were lysed in NP-40 extraction buffer (50âmM Tris-HCl, pH 7.5, 120âmM NaCl, 1âmM EDTA, 6âmM EGTA, 15âmM sodium pyrophosphate and 1% NP-40 supplemented with phosphatase inhibitors (20âmM NaF, 1âmM sodium orthovanadate) and protease inhibitors (1âmM benzamidine and 0.1âmM PMSF) and clarified by centrifugation. For GST pull-down assays, GST fusion plasmids were grown in BL21 RIL (CodonPlus) <italic>E. coli</italic> (Stratagene) and recombinant proteins were expressed by incubating the bacteria for 24âh at 16âÂ°C after the addition of 100âÎ¼M IPTG. After centrifugation, the bacterial pellet was resuspended in cold PBS, supplemented with 1% Triton X-100 and protease inhibitors (1âmM PMSF, 1âmM benzamidine, and Roche protease inhibitor cocktail). After sonication and centrifugation, GST-tagged proteins were purified from soluble extracts using Glutathione Sepharose 4 Fast Flow beads (GE Healthcare). GST fusion proteins bound to glutathione beads were mixed with 1âmg of HeLa nuclear extract or 1âmg of HEK293 cells extracts and incubated for 1âh at 4âÂ°C in 1âml of PBS-1%Triton. Beads were then washed three times with NTEN300 buffer (0.5% NP-40, 0.1âmM EDTA, 20âmM Tris-HCl pH 7.4 and 300âmM NaCl) and once with TEN100 (20âmM Tris-HCl pH 7.4, 0.1âmM EDTA and 100âmM NaCl) buffer. Recovered complexes were boiled in SDS sample buffer and analysed by SDSâPAGE followed by immunoblotting. For MBP pull-down assays, Sf9 soluble cleared extract expressing MBP-KLHL15-His were incubated with amylose resin (New England Biolabs) and washed four times with NTEN300 buffer (0.5% NP-40, 0.1âmM EDTA, 20âmM Tris-HCl pH 7.4, 300âmM NaCl) and once with TEN100 buffer (20âmM Tris-HCl pH 7.4, 0.1âmM EDTA and 100âmM NaCl). MBP fusion proteins bound to amylose beads were mixed with 1âmg of HEK293T lysates overexpressing GFP-CtIP and incubated for 1âh at 4âÂ°C. Beads were then washed four times with NTEN300 buffer and once with TEN100 buffer, complexes were boiled in SDS sample buffer and analysed by SDSâPAGE followed by immunoblotting. For peptide pull-down assays, biotinylated CtIP peptides were incubated with Dynabeads streptavidin resin (Qiagen) and washed four times with 1%Triton-PBS. Beads were then mixed with 2.5âmg of U2OS or 1âmg of HEK293T lysates and incubated for 1âh at 4âÂ°C. Beads were then washed four times with NP-40 extraction buffer, complexes were boiled in SDS sample buffer and analysed by SDSâPAGE followed by immunoblotting.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Co-immunoprecipitation</title>
+        <p>For FLAG and HA co-IP assays, cells were lysed in NP-40 extraction buffer, sonicated and clarified by centrifugation. A total of 1â3âmg of lysates were incubated with anti-FLAG M2 or anti-HA affinity resin (Sigma) for 2âh or overnight at 4âÂ°C. Beads were then washed four times with 1xTNE-T (50âmM Tris-HCl, pH 7.5, 140âmM NaCl, 5âmM EDTA and 1%Triton) and once with 1 Ã TNE (50âmM Tris-HCl, pH 7.5, 140âmM NaCl and 5âmM EDTA), complexes were boiled in SDS sample buffer and analysed by SDSâPAGE followed by immunoblotting. For GFP co-IP assays, cells were lysed in GFP-IP buffer (100âmM NaCl, 0.2% NP-40, 1âmM MgCl<sub>2</sub>, 10% glycerol, 5âmM NaF, 50âmM Tris-HCl, pH 7.5) supplemented with phosphatase inhibitors (20âmM NaF, 1âmM sodium orthovanadate) and with protease inhibitors (1âmM benzamidine and 0.1âmM PMSF) and incubated with Benzonase (Novagen) for at least 30âmin at 4âÂ°C. After Benzonase digestion, the NaCl and ETA concentrations were adjusted to 200 and 2âmM, respectively, and lysates cleared by centrifugation. Four milligram of lysates were incubated with GFP-Trap agarose beads (ChromoTek) previously blocked with 5% BSA in GFP-IP buffer (with 200âmM NaCl and 2âmM EDTA final concentrations) for 1âh at 4âÂ°C. Beads were then washed five times with GFP-IP buffer (with 200âmM NaCl and 2âmM EDTA final concentrations), complexes were boiled in SDS sample buffer and analysed by SDSâPAGE followed by immunoblotting.</p>
+      </sec>
+      <sec disp-level="2">
+        <title><italic>In vivo</italic> ubiquitination assay</title>
+        <p>Stable HEK293 Flp-In T-REx GFP-CtIP cells were transfected with siRNA oligos (20â40ânM). Forty-eight hours later, cells were transfected with His-ubiquitin and GFP-expression was simultaneously induced with 1âÎ¼gâml<sup>â1</sup> Dox. Eight hours after induction a second transfection with siRNA oligos was performed. Alternatively, HEK293T cells were cotransfected with His-Ubiquitin and GFP-CtIP expression constructs. Twenty-four hours after induction or transfection of GFP-CtIP, respectively, cells were treated for 4â6âh with 20âÎ¼M MG-132 and then washed and scraped in 500âÎ¼l of ice-cold PBS. 2% of the cell suspension was used for direct immunoblot analysis. The remaining cells were lysed in Buffer A (6âM guanidineâHCl, 0.1âM Na<sub>2</sub>HPO<sub>4</sub>/NaH<sub>2</sub>PO<sub>4</sub> pH 8.0, 10âmM imidazole), and lysates were incubated with Ni-NTA agarose beads for 3âh under rotation at room temperature. The beads were washed two times with Buffer A, two times with Buffer A/TI (one volume Buffer A: three volume Buffer TI (25âmM Tris-HCl pH 6.8, and 20âmM imidazole)), and three times with Buffer TI. Proteins were eluted from the beads by boiling in 2 Ã SDS sample buffer supplemented with 250âmM imidazole and analysed by immunoblotting.</p>
+      </sec>
+      <sec disp-level="2">
+        <title><italic>In vitro</italic> ubiquitination assay</title>
+        <p>Recombinant E2 enzymes (UbcH5b and Cdc34) were purified as described before. In brief, UbchH5b and Cdc34 full-length constructs were expressed as GST-fusions in BL21 <italic>E. coli</italic> and purified over a 5âml GST HiTrap column (GE Healthcare) and a Superdex75 size exclusion chromatography column (GE Healthcare) using standard protocols<xref ref-type="bibr" rid="b69">69</xref><xref ref-type="bibr" rid="b70">70</xref>. Neddylated CUL3 in complex with RBX1 was produced as described before. In brief, full-length CUL3, tagged with an N-terminal PreScission-cleavable StrepII2x tag, and RBX1 were cloned into a pFBDM multibac transfer vector. Following the generation of recombinant baculoviruses, CUL3/RBX1 complexes were expressed and purified from high five insect cells following standard Strep-Tactin affinity, ion exchange and Superdex200 size exclusion chromatography procedures. Neddylation of CUL3/RBX1 was performed by incubating 10âÎ¼M CUL3/RBX1, 0.5âÎ¼M APPB1/UBA3 (NEDD8-specific activating enzyme E1), 1âÎ¼M UBC12 (NEDD8-specific conjugating enzyme E2) and 20âÎ¼M NEDD8 at room temperature for 10âmin in buffer containing 100âmM Tris-HCl pH 7.6, 100âmM NaCl, 2.5âmM MgCl<sub>2</sub> and 150âmM ATP. The neddylated CUL3-N8/RBX1 was subsequently purified by Strep-Tactin affinity chromatography with the untagged neddylation reagents retained in the flow through<xref ref-type="bibr" rid="b30">30</xref>. Full-length wild-type human KLHL21 was cloned into a pGEX-5 expression vector and expressed in BL21 <italic>E. coli</italic>. The cells were lysed by sonication in the presence of protease inhibitors and lysozyme. The soluble supernatant was bound to a 5âml GST HiTrap column (GE Healthcare) with a flow rate of 1âmlâmin<sup>â1</sup>. The column was washed with 20 column volumes (CV) of washing buffer and eluted with five CV of washing buffer supplemented with 10âmM reduced L-gluthatione (AppliChem). The eluted GST-KLHL21 was incubated in a 1:50 molar ratio with GST-tagged PreScisscion protease at 4âÂ°C and the buffer exchanged by dialysis into 150âmM NaCl, 20âmM HEPES pH 7.6, 10% glycerol, 2âmM DTT. To remove cleaved GST and GST-PreScission proteins, the sample was run through a GST HiTrap column a second time, and purified KLHL21 was collected in the flow-through. The CtIP substrate was purified as follows: NP-40 lysates of HEK293T cells transfected with FLAG-CtIP were incubated with anti-FLAG M2 beads (Sigma) for 1âh at 4âÂ°C. The resin was washed four times with NTEN500 buffer (0.5% NP-40, 0.1âmM EDTA, 20âmM Tris-HCl, pH 7.4, 500âmM NaCl) and once with TEN100 buffer. FLAG-CtIP was eluted with 3xFLAG peptides (Sigma) in TBS. If not indicated otherwise, ubiquitination reactions were performed at 37âÂ°C for 90âmin with 400ânM of FLAG-CtIP, 250ânM of KLHL15 or KLHL21, 200ânM of neddylated CUL3/RBX1, 250ânM UbE1 (Lifesensor), 500ânM UbcH5b or 2âÎ¼M Cdc34 and 75âÎ¼M ubiquitin wild-type or mutants (Bostonbiochem). The reaction was stopped by the addition of SDS sample buffer supplemented with 20âmM DTT and boiling for 5âmin at 95âÂ°C and analysed by SDSâPAGE followed by immunoblotting on PVDF membrane (Amersham).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunofluorescence microscopy</title>
+        <p>U2OS cells grown on coverslips were fixed in 4% formaldehyde (w/v) in PBS for 15âmin and permeabilized with Triton X-100 (0.1% in PBS) for 5âmin at room temperature. After incubation with indicated primary and appropriate Alexa Fluor-488, -594 and -647 conjugated secondary antibodies (1:1,000) (Life Technologies) for 30âmin, coverslips were mounted with Vectrashield (Vector Laboratories) containing DAPI and sealed. Images were acquired on a Leica DMRB fluorescence microscope.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Flow cytometry-based resection assay</title>
+        <p>U2OS Flp-In T-REx cells stably expressing Dox-inducible siRNA-resistant forms of GFP-CtIP were transfected with CtIP siRNA. 24âh post-transfection, Dox (1âÎ¼gâml<sup>â1</sup>) and BrdU (30âÎ¼M) were added to the cells. Forty-eight hours post-transfection, cells were either mock-treated or treated with CPT (1âÎ¼M). Alternatively, U2OS Flp-In T-REx cells stably expressing Dox-inducible GFP-KLHL15 were induced with Dox (1âÎ¼gâml<sup>â1</sup>) and after 24âh treated with CPT (1âÎ¼M). Alternatively, HEK293<sup>Cas9</sup> cells were directly treated with CPT (1âÎ¼M). 1âh following CPT treatment, all cells were collected, pre-extracted with Triton-X100 (0.3% in PBS) for 15âmin on ice and fixed with 4% formaldehyde for 10âmin at room temperature. Cells were then incubated with antibodies against RPA2 or BrdU for 1âh at room temperature, stained with Alexa-647 conjugated secondary antibodies (1:250) for 30âmin at room temperature and counterstained with DAPI/RNase. Samples were analysed by flow cytometry on a CyAn ADP 9 (Dako). Data analysis was performed using FlowJo X software (Tree Star).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>GFP reporter assays</title>
+        <p>DSB repair efficiency by HR or NHEJ was measured in DR-GFP or EJ5-GFP HEK293 cell lines as described previously<xref ref-type="bibr" rid="b28">28</xref>. Briefly, 0.6 Ã 10<sup>6</sup> cells were plated in poly-<sc>L</sc>-lysine-coated six-well plates and transfected with siRNA oligos (20â40ânM). The next day, 0.22 Ã 10<sup>6</sup> cells were reseeded in 12-well plates. Forty-eight hours after siRNA transfection, cells were either mock-transfected or transfected with 0.6âÎ¼g of the I-SceI expression plasmid (pCBASce) mixed with 0.2âÎ¼g of the indicated siRNA-resistant FLAG-CtIP (pcDNA3) constructs. Four hours after plasmid transfection, the medium was replaced and a second transfection with siRNA oligos was performed. Alternatively, GFP reporter assays upon siRNA-mediated knockdown conditions only were performed like described above except that the cells were either mock-transfected or transfected with 0.6âÎ¼g of the I-SceI expression plasmid. Alternatively, 0.22 Ã 10<sup>6</sup> cells were seeded in 12-well plates and 24âh later either mock-transfected or transfected with 0.6âÎ¼g I-SceI expression plasmid mixed with 0.2âÎ¼g of the indicated FLAG-KLHL15 constructs (pCMV6). Forty-eight hours after I-SceI transfection, cells were analysed for GFP expression by flow cytometry on a CyAn ADP 9 (Dako).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Data availability</title>
+        <p>The authors declare that all remaining data supporting the findings of this study are contained within the article and its <xref ref-type="supplementary-material" rid="S1">Supplementary Information Files</xref> or available from the author upon request.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Additional information</title>
+      <p><bold>How to cite this article:</bold> Ferretti, L. P. <italic>et al</italic>. Cullin3-KLHL15 ubiquitin ligase mediates CtIP protein turnover to fine-tune DNA-end resection. <italic>Nat. Commun.</italic> 7:12628 doi: 10.1038/ncomms12628 (2016).</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="d33e18" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+          <p>Supplementary Figures 1-9, Supplementary Table 1 and Supplementary References</p>
+        </caption>
+        <media xlink:href="ncomms12628-s1.pdf"/>
+      </supplementary-material>
+      <supplementary-material id="d33e24" content-type="local-data">
+        <caption>
+          <title>Peer review file</title>
+        </caption>
+        <media xlink:href="ncomms12628-s2.pdf"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are very grateful to Josef Jiricny, Pavel Janscak, Stefano Ferrari, Petr Cejka and Massimo Lopes (Institute of Molecular Cancer Research, University of Zurich, Switzerland) for sharing reagents and to Daniel Durocher (The Lunenfeld-Tanenbaum Research Institute, Mount Sinai Hospital, Toronto, Canada) for providing U2OS Flp-In T-REx cells. We thank Izabela Sumara (Institute of Genetics and Molecular and Cellular Biology, University of Strasbourg, France) for critical reading of the manuscript. R.I.E. was supported by a Marie-Curie Fellowship, and the Peter laboratory by grants of the Swiss National Science Foundation, the European Research Council and the ETH Zurich. R.F. is supported by a grant from the Spanish Ministry of Economy and Competitiveness (SAF2013-49149-R). This work was mainly supported by grants from the Swiss National Science Foundation (31003A_135507 and 31003A_156023), the Promedica Stiftung and the Vontobel Foundation (to A.A.S.).</p>
+    </ack>
+    <ref-list>
+      <ref id="b1">
+        <mixed-citation publication-type="journal"><name><surname>Ciccia</surname><given-names>A.</given-names></name> &amp; <name><surname>Elledge</surname><given-names>S. J.</given-names></name>
+<article-title>The DNA damage response: making it safe to play with knives</article-title>. <source>Mol. Cell</source>
+<volume>40</volume>, <fpage>179</fpage>â<lpage>204</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20965415</pub-id></mixed-citation>
+      </ref>
+      <ref id="b2">
+        <mixed-citation publication-type="journal"><name><surname>Hanahan</surname><given-names>D.</given-names></name> &amp; <name><surname>Weinberg</surname><given-names>R. A.</given-names></name>
+<article-title>Hallmarks of cancer: the next generation</article-title>. <source>Cell</source>
+<volume>144</volume>, <fpage>646</fpage>â<lpage>674</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21376230</pub-id></mixed-citation>
+      </ref>
+      <ref id="b3">
+        <mixed-citation publication-type="journal"><name><surname>Jackson</surname><given-names>S. P.</given-names></name> &amp; <name><surname>Bartek</surname><given-names>J.</given-names></name>
+<article-title>The DNA-damage response in human biology and disease</article-title>. <source>Nature</source>
+<volume>461</volume>, <fpage>1071</fpage>â<lpage>1078</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19847258</pub-id></mixed-citation>
+      </ref>
+      <ref id="b4">
+        <mixed-citation publication-type="journal"><name><surname>Kakarougkas</surname><given-names>A.</given-names></name> &amp; <name><surname>Jeggo</surname><given-names>P. A.</given-names></name>
+<article-title>DNA DSB repair pathway choice: an orchestrated handover mechanism</article-title>. <source>Br. J. Radiol.</source>
+<volume>87</volume>, <fpage>20130685</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24363387</pub-id></mixed-citation>
+      </ref>
+      <ref id="b5">
+        <mixed-citation publication-type="journal"><name><surname>Bunting</surname><given-names>S. F.</given-names></name> &amp; <name><surname>Nussenzweig</surname><given-names>A.</given-names></name>
+<article-title>End-joining, translocations and cancer</article-title>. <source>Nat. Rev. Cancer</source>
+<volume>13</volume>, <fpage>443</fpage>â<lpage>454</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23760025</pub-id></mixed-citation>
+      </ref>
+      <ref id="b6">
+        <mixed-citation publication-type="journal"><name><surname>Jasin</surname><given-names>M.</given-names></name> &amp; <name><surname>Rothstein</surname><given-names>R.</given-names></name>
+<article-title>Repair of strand breaks by homologous recombination</article-title>. <source>Cold Spring Harb. Perspect. Biol.</source>
+<volume>5</volume>, <fpage>a012740</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24097900</pub-id></mixed-citation>
+      </ref>
+      <ref id="b7">
+        <mixed-citation publication-type="journal"><name><surname>Helleday</surname><given-names>T.</given-names></name>
+<article-title>Homologous recombination in cancer development, treatment and development of drug resistance</article-title>. <source>Carcinogenesis</source>
+<volume>31</volume>, <fpage>955</fpage>â<lpage>960</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20351092</pub-id></mixed-citation>
+      </ref>
+      <ref id="b8">
+        <mixed-citation publication-type="journal"><name><surname>Sartori</surname><given-names>A. A.</given-names></name>
+<etal/>. <article-title>Human CtIP promotes DNA end resection</article-title>. <source>Nature</source>
+<volume>450</volume>, <fpage>509</fpage>â<lpage>514</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17965729</pub-id></mixed-citation>
+      </ref>
+      <ref id="b9">
+        <mixed-citation publication-type="journal"><name><surname>Chapman</surname><given-names>J. R.</given-names></name>, <name><surname>Sossick</surname><given-names>A. J.</given-names></name>, <name><surname>Boulton</surname><given-names>S. J.</given-names></name> &amp; <name><surname>Jackson</surname><given-names>S. P.</given-names></name>
+<article-title>BRCA1-associated exclusion of 53BP1 from DNA damage sites underlies temporal control of DNA repair</article-title>. <source>J. Cell. Sci.</source>
+<volume>125</volume>, <fpage>3529</fpage>â<lpage>3534</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22553214</pub-id></mixed-citation>
+      </ref>
+      <ref id="b10">
+        <mixed-citation publication-type="journal"><name><surname>Jackson</surname><given-names>S. P.</given-names></name> &amp; <name><surname>Durocher</surname><given-names>D.</given-names></name>
+<article-title>Regulation of DNA damage responses by ubiquitin and SUMO</article-title>. <source>Mol. Cell</source>
+<volume>49</volume>, <fpage>795</fpage>â<lpage>807</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23416108</pub-id></mixed-citation>
+      </ref>
+      <ref id="b11">
+        <mixed-citation publication-type="journal"><name><surname>Enchev</surname><given-names>R. I.</given-names></name>, <name><surname>Schulman</surname><given-names>B. A.</given-names></name> &amp; <name><surname>Peter</surname><given-names>M.</given-names></name>
+<article-title>Protein neddylation: beyond cullin-RING ligases</article-title>. <source>Nat. Rev. Mol. Cell Biol.</source>
+<volume>16</volume>, <fpage>30</fpage>â<lpage>44</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25531226</pub-id></mixed-citation>
+      </ref>
+      <ref id="b12">
+        <mixed-citation publication-type="journal"><name><surname>Berndsen</surname><given-names>C. E.</given-names></name> &amp; <name><surname>Wolberger</surname><given-names>C.</given-names></name>
+<article-title>New insights into ubiquitin E3 ligase mechanism</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>21</volume>, <fpage>301</fpage>â<lpage>307</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24699078</pub-id></mixed-citation>
+      </ref>
+      <ref id="b13">
+        <mixed-citation publication-type="journal"><name><surname>Deshaies</surname><given-names>R. J.</given-names></name> &amp; <name><surname>Joazeiro</surname><given-names>C. A. P.</given-names></name>
+<article-title>RING domain E3 ubiquitin ligases</article-title>. <source>Annu. Rev. Biochem.</source>
+<volume>78</volume>, <fpage>399</fpage>â<lpage>434</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19489725</pub-id></mixed-citation>
+      </ref>
+      <ref id="b14">
+        <mixed-citation publication-type="journal"><name><surname>Lydeard</surname><given-names>J. R.</given-names></name>, <name><surname>Schulman</surname><given-names>B. A.</given-names></name> &amp; <name><surname>Harper</surname><given-names>J. W.</given-names></name>
+<article-title>Building and remodelling Cullin-RING E3 ubiquitin ligases</article-title>. <source>EMBO Rep.</source>
+<volume>14</volume>, <fpage>1050</fpage>â<lpage>1061</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24232186</pub-id></mixed-citation>
+      </ref>
+      <ref id="b15">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>J.-M.</given-names></name> &amp; <name><surname>Jin</surname><given-names>J.</given-names></name>
+<article-title>CRL ubiquitin ligases and DNA damage response</article-title>. <source>Front. Oncol.</source>
+<volume>2</volume>, <fpage>29</fpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22655267</pub-id></mixed-citation>
+      </ref>
+      <ref id="b16">
+        <mixed-citation publication-type="journal"><name><surname>Dhanoa</surname><given-names>B. S.</given-names></name>, <name><surname>Cogliati</surname><given-names>T.</given-names></name>, <name><surname>Satish</surname><given-names>A. G.</given-names></name>, <name><surname>Bruford</surname><given-names>E. A.</given-names></name> &amp; <name><surname>Friedman</surname><given-names>J. S.</given-names></name>
+<article-title>Update on the Kelch-like (KLHL) gene family</article-title>. <source>Hum. Genomics</source>
+<volume>7</volume>, <fpage>13</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23676014</pub-id></mixed-citation>
+      </ref>
+      <ref id="b17">
+        <mixed-citation publication-type="journal"><name><surname>Furukawa</surname><given-names>M.</given-names></name>, <name><surname>He</surname><given-names>Y. J.</given-names></name>, <name><surname>Borchers</surname><given-names>C.</given-names></name> &amp; <name><surname>Xiong</surname><given-names>Y.</given-names></name>
+<article-title>Targeting of protein ubiquitination by BTB-Cullin 3-Roc1 ubiquitin ligases</article-title>. <source>Nat. Cell Biol.</source>
+<volume>5</volume>, <fpage>1001</fpage>â<lpage>1007</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14528312</pub-id></mixed-citation>
+      </ref>
+      <ref id="b18">
+        <mixed-citation publication-type="journal"><name><surname>Canning</surname><given-names>P.</given-names></name>
+<etal/>. <article-title>Structural basis for Cul3 protein assembly with the BTB-Kelch family of E3 ubiquitin ligases</article-title>. <source>J. Biol. Chem.</source>
+<volume>288</volume>, <fpage>7803</fpage>â<lpage>7814</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23349464</pub-id></mixed-citation>
+      </ref>
+      <ref id="b19">
+        <mixed-citation publication-type="journal"><name><surname>Genschik</surname><given-names>P.</given-names></name>, <name><surname>Sumara</surname><given-names>I.</given-names></name> &amp; <name><surname>Lechner</surname><given-names>E.</given-names></name>
+<article-title>The emerging family of CULLIN3-RING ubiquitin ligases (CRL3s): cellular functions and disease implications</article-title>. <source>EMBO J.</source>
+<volume>32</volume>, <fpage>2307</fpage>â<lpage>2320</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23912815</pub-id></mixed-citation>
+      </ref>
+      <ref id="b20">
+        <mixed-citation publication-type="journal"><name><surname>Pintard</surname><given-names>L.</given-names></name>, <name><surname>Willems</surname><given-names>A.</given-names></name> &amp; <name><surname>Peter</surname><given-names>M.</given-names></name>
+<article-title>Cullin-based ubiquitin ligases: Cul3-BTB complexes join the family</article-title>. <source>EMBO J.</source>
+<volume>23</volume>, <fpage>1681</fpage>â<lpage>1687</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15071497</pub-id></mixed-citation>
+      </ref>
+      <ref id="b21">
+        <mixed-citation publication-type="journal"><name><surname>Beck</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>Ubiquitylation-dependent localization of PLK1 in mitosis</article-title>. <source>Nat. Cell Biol.</source>
+<volume>15</volume>, <fpage>430</fpage>â<lpage>439</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23455478</pub-id></mixed-citation>
+      </ref>
+      <ref id="b22">
+        <mixed-citation publication-type="journal"><name><surname>McMahon</surname><given-names>M.</given-names></name>, <name><surname>Thomas</surname><given-names>N.</given-names></name>, <name><surname>Itoh</surname><given-names>K.</given-names></name>, <name><surname>Yamamoto</surname><given-names>M.</given-names></name> &amp; <name><surname>Hayes</surname><given-names>J. D.</given-names></name>
+<article-title>Dimerization of substrate adaptors can facilitate cullin-mediated ubiquitylation of proteins by a âtethering' mechanism: a two-site interaction model for the Nrf2-Keap1 complex</article-title>. <source>J. Biol. Chem.</source>
+<volume>281</volume>, <fpage>24756</fpage>â<lpage>24768</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16790436</pub-id></mixed-citation>
+      </ref>
+      <ref id="b23">
+        <mixed-citation publication-type="journal"><name><surname>Zhuang</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Structures of SPOP-substrate complexes: insights into molecular architectures of BTB-Cul3 ubiquitin ligases</article-title>. <source>Mol. Cell</source>
+<volume>36</volume>, <fpage>39</fpage>â<lpage>50</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19818708</pub-id></mixed-citation>
+      </ref>
+      <ref id="b24">
+        <mixed-citation publication-type="journal"><name><surname>Duda</surname><given-names>D. M.</given-names></name>
+<etal/>. <article-title>Structural insights into NEDD8 activation of cullin-RING ligases: conformational control of conjugation</article-title>. <source>Cell</source>
+<volume>134</volume>, <fpage>995</fpage>â<lpage>1006</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18805092</pub-id></mixed-citation>
+      </ref>
+      <ref id="b25">
+        <mixed-citation publication-type="journal"><name><surname>Padmanabhan</surname><given-names>B.</given-names></name>
+<etal/>. <article-title>Structural basis for defects of Keap1 activity provoked by its point mutations in lung cancer</article-title>. <source>Mol. Cell</source>
+<volume>21</volume>, <fpage>689</fpage>â<lpage>700</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16507366</pub-id></mixed-citation>
+      </ref>
+      <ref id="b26">
+        <mixed-citation publication-type="journal"><name><surname>Lo</surname><given-names>S.-C.</given-names></name>, <name><surname>Li</surname><given-names>X.</given-names></name>, <name><surname>Henzl</surname><given-names>M. T.</given-names></name>, <name><surname>Beamer</surname><given-names>L. J.</given-names></name> &amp; <name><surname>Hannink</surname><given-names>M.</given-names></name>
+<article-title>Structure of the Keap1:Nrf2 interface provides mechanistic insight into Nrf2 signaling</article-title>. <source>EMBO J.</source>
+<volume>25</volume>, <fpage>3605</fpage>â<lpage>3617</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16888629</pub-id></mixed-citation>
+      </ref>
+      <ref id="b27">
+        <mixed-citation publication-type="journal"><name><surname>Soucy</surname><given-names>T. A.</given-names></name>
+<etal/>. <article-title>An inhibitor of NEDD8-activating enzyme as a new approach to treat cancer</article-title>. <source>Nature</source>
+<volume>458</volume>, <fpage>732</fpage>â<lpage>736</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19360080</pub-id></mixed-citation>
+      </ref>
+      <ref id="b28">
+        <mixed-citation publication-type="journal"><name><surname>Steger</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Prolyl Isomerase PIN1 regulates DNA double-strand break repair by counteracting DNA end resection</article-title>. <source>Mol. Cell</source>
+<volume>50</volume>, <fpage>333</fpage>â<lpage>343</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23623683</pub-id></mixed-citation>
+      </ref>
+      <ref id="b29">
+        <mixed-citation publication-type="journal"><name><surname>Lafranchi</surname><given-names>L.</given-names></name>
+<etal/>. <article-title>APC/CCdh1 controls CtIP stability during the cell cycle and in response to DNA damage</article-title>. <source>EMBO J.</source>
+<volume>33</volume>, <fpage>2860</fpage>â<lpage>2879</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25349192</pub-id></mixed-citation>
+      </ref>
+      <ref id="b30">
+        <mixed-citation publication-type="journal"><name><surname>Mosadeghi</surname><given-names>R.</given-names></name>
+<etal/>. <article-title>Structural and kinetic analysis of the COP9-Signalosome activation and the cullin-RING ubiquitin ligase deneddylation cycle</article-title>. <source>Elife</source>
+<volume>5</volume>, <fpage>e12102</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27031283</pub-id></mixed-citation>
+      </ref>
+      <ref id="b31">
+        <mixed-citation publication-type="journal"><name><surname>Munoz</surname><given-names>I. M.</given-names></name>, <name><surname>Szyniarowski</surname><given-names>P.</given-names></name>, <name><surname>Toth</surname><given-names>R.</given-names></name>, <name><surname>Rouse</surname><given-names>J.</given-names></name> &amp; <name><surname>Lachaud</surname><given-names>C.</given-names></name>
+<article-title>Improved genome editing in human cell lines using the CRISPR method</article-title>. <source>PLoS ONE</source>
+<volume>9</volume>, <fpage>e109752</fpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25303670</pub-id></mixed-citation>
+      </ref>
+      <ref id="b32">
+        <mixed-citation publication-type="journal"><name><surname>Kousholt</surname><given-names>A. N.</given-names></name>
+<etal/>. <article-title>CtIP-dependent DNA resection is required for DNA damage checkpoint maintenance but not initiation</article-title>. <source>J. Cell Biol.</source>
+<volume>197</volume>, <fpage>869</fpage>â<lpage>876</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22733999</pub-id></mixed-citation>
+      </ref>
+      <ref id="b33">
+        <mixed-citation publication-type="journal"><name><surname>Forment</surname><given-names>J. V.</given-names></name> &amp; <name><surname>Jackson</surname><given-names>S. P.</given-names></name>
+<article-title>A flow cytometryâbased method to simplify the analysis and quantification of protein association to chromatin in mammalian cells</article-title>. <source>Nat. Protoc.</source>
+<volume>10</volume>, <fpage>1297</fpage>â<lpage>1307</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26226461</pub-id></mixed-citation>
+      </ref>
+      <ref id="b34">
+        <mixed-citation publication-type="journal"><name><surname>Bennardo</surname><given-names>N.</given-names></name>, <name><surname>Cheng</surname><given-names>A.</given-names></name>, <name><surname>Huang</surname><given-names>N.</given-names></name> &amp; <name><surname>Stark</surname><given-names>J. M.</given-names></name>
+<article-title>Alternative-NHEJ is a mechanistically distinct pathway of mammalian chromosome break repair</article-title>. <source>PLoS Genet.</source>
+<volume>4</volume>, <fpage>e1000110</fpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18584027</pub-id></mixed-citation>
+      </ref>
+      <ref id="b35">
+        <mixed-citation publication-type="journal"><name><surname>Dubin</surname><given-names>M. J.</given-names></name>
+<etal/>. <article-title>Dimerization of CtIP, a BRCA1- and CtBP-interacting protein, is mediated by an N-terminal coiled-coil motif</article-title>. <source>J. Biol. Chem.</source>
+<volume>279</volume>, <fpage>26932</fpage>â<lpage>26938</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15084581</pub-id></mixed-citation>
+      </ref>
+      <ref id="b36">
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>CtIP protein dimerization is critical for its recruitment to chromosomal DNA double-stranded breaks</article-title>. <source>J. Biol. Chem.</source>
+<volume>287</volume>, <fpage>21471</fpage>â<lpage>21480</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22544744</pub-id></mixed-citation>
+      </ref>
+      <ref id="b37">
+        <mixed-citation publication-type="journal"><name><surname>Davies</surname><given-names>O. R.</given-names></name>
+<etal/>. <article-title>CtIP tetramer assembly is required for DNA-end resection and repair</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>22</volume>, <fpage>150</fpage>â<lpage>157</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25558984</pub-id></mixed-citation>
+      </ref>
+      <ref id="b38">
+        <mixed-citation publication-type="journal"><name><surname>Andres</surname><given-names>S. N.</given-names></name>
+<etal/>. <article-title>Tetrameric Ctp1 coordinates DNA binding and DNA bridging in DNA double-strand-break repair</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>22</volume>, <fpage>158</fpage>â<lpage>166</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25580577</pub-id></mixed-citation>
+      </ref>
+      <ref id="b39">
+        <mixed-citation publication-type="journal"><name><surname>Murina</surname><given-names>O.</given-names></name>
+<etal/>. <article-title>FANCD2 and CtIP cooperate to repair DNA interstrand crosslinks</article-title>. <source>Cell Reports</source>
+<volume>7</volume>, <fpage>1030</fpage>â<lpage>1038</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24794434</pub-id></mixed-citation>
+      </ref>
+      <ref id="b40">
+        <mixed-citation publication-type="journal"><name><surname>Yu</surname><given-names>X.</given-names></name> &amp; <name><surname>Chen</surname><given-names>J.</given-names></name>
+<article-title>DNA damage-induced cell cycle checkpoint control requires CtIP, a phosphorylation-dependent binding partner of BRCA1 C-terminal domains</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>24</volume>, <fpage>9478</fpage>â<lpage>9486</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15485915</pub-id></mixed-citation>
+      </ref>
+      <ref id="b41">
+        <mixed-citation publication-type="journal"><name><surname>Yu</surname><given-names>X.</given-names></name> &amp; <name><surname>Baer</surname><given-names>R.</given-names></name>
+<article-title>Nuclear localization and cell cycle-specific expression of CtIP, a protein that associates with the BRCA1 tumor suppressor</article-title>. <source>J. Biol. Chem.</source>
+<volume>275</volume>, <fpage>18541</fpage>â<lpage>18549</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10764811</pub-id></mixed-citation>
+      </ref>
+      <ref id="b42">
+        <mixed-citation publication-type="journal"><name><surname>Lafranchi</surname><given-names>L.</given-names></name>
+<etal/>. <article-title>APC/C-Cdh1 controls CtIP stability during the cell cycle and in response to DNA damage</article-title>. <source>EMBO J.</source>
+<volume>33</volume>, <fpage>2860</fpage>â<lpage>2879</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25349192</pub-id></mixed-citation>
+      </ref>
+      <ref id="b43">
+        <mixed-citation publication-type="journal"><name><surname>Qvist</surname><given-names>P.</given-names></name>
+<etal/>. <article-title>CtIP mutations cause Seckel and Jawad syndromes</article-title>. <source>PLoS Genet.</source>
+<volume>7</volume>, <fpage>e1002310</fpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21998596</pub-id></mixed-citation>
+      </ref>
+      <ref id="b44">
+        <mixed-citation publication-type="journal"><name><surname>Oberg</surname><given-names>E. A.</given-names></name>, <name><surname>Nifoussi</surname><given-names>S. K.</given-names></name>, <name><surname>Gingras</surname><given-names>A.-C.</given-names></name> &amp; <name><surname>Strack</surname><given-names>S.</given-names></name>
+<article-title>Selective proteasomal degradation of the B'Î² subunit of protein phosphatase 2A by the E3 ubiquitin ligase adaptor Kelch-like 15</article-title>. <source>J. Biol. Chem.</source>
+<volume>287</volume>, <fpage>43378</fpage>â<lpage>43389</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23135275</pub-id></mixed-citation>
+      </ref>
+      <ref id="b45">
+        <mixed-citation publication-type="journal"><name><surname>Stogios</surname><given-names>P. J.</given-names></name>, <name><surname>Downs</surname><given-names>G. S.</given-names></name>, <name><surname>Jauhal</surname><given-names>J. J. S.</given-names></name>, <name><surname>Nandra</surname><given-names>S. K.</given-names></name> &amp; <name><surname>PrivÃ©</surname><given-names>G. G.</given-names></name>
+<article-title>Sequence and structural analysis of BTB domain proteins</article-title>. <source>Genome Biol.</source>
+<volume>6</volume>, <fpage>R82</fpage> (<year>2005</year>).<pub-id pub-id-type="pmid">16207353</pub-id></mixed-citation>
+      </ref>
+      <ref id="b46">
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>L.</given-names></name>, <name><surname>Nievera</surname><given-names>C. J.</given-names></name>, <name><surname>Lee</surname><given-names>A. Y.-L.</given-names></name> &amp; <name><surname>Wu</surname><given-names>X.</given-names></name>
+<article-title>Cell cycle-dependent complex formation of BRCA1.CtIP.MRN is important for DNA double-strand break repair</article-title>. <source>J. Biol. Chem.</source>
+<volume>283</volume>, <fpage>7713</fpage>â<lpage>7720</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18171670</pub-id></mixed-citation>
+      </ref>
+      <ref id="b47">
+        <mixed-citation publication-type="journal"><name><surname>Yuan</surname><given-names>J.</given-names></name> &amp; <name><surname>Chen</surname><given-names>J.</given-names></name>
+<article-title>N terminus of CtIP is critical for homologous recombination-mediated double-strand break repair</article-title>. <source>J. Biol. Chem.</source>
+<volume>284</volume>, <fpage>31746</fpage>â<lpage>31752</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19759395</pub-id></mixed-citation>
+      </ref>
+      <ref id="b48">
+        <mixed-citation publication-type="journal"><name><surname>Zhao</surname><given-names>Y.</given-names></name>, <name><surname>Brickner</surname><given-names>J. R.</given-names></name>, <name><surname>Majid</surname><given-names>M. C.</given-names></name> &amp; <name><surname>Mosammaparast</surname><given-names>N.</given-names></name>
+<article-title>Crosstalk between ubiquitin and other post-translational modifications on chromatin during double-strand break repair</article-title>. <source>Trends Cell Biol.</source>
+<volume>24</volume>, <fpage>426</fpage>â<lpage>434</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24569222</pub-id></mixed-citation>
+      </ref>
+      <ref id="b49">
+        <mixed-citation publication-type="journal"><name><surname>Brown</surname><given-names>J. S.</given-names></name> &amp; <name><surname>Jackson</surname><given-names>S. P.</given-names></name>
+<article-title>Ubiquitylation, neddylation and the DNA damage response</article-title>. <source>Open Biol.</source>
+<volume>5</volume>, <fpage>150018</fpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25833379</pub-id></mixed-citation>
+      </ref>
+      <ref id="b50">
+        <mixed-citation publication-type="journal"><name><surname>Orthwein</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>Mitosis inhibits DNA double-strand break repair to guard against telomere fusions</article-title>. <source>Science</source>
+<volume>344</volume>, <fpage>189</fpage>â<lpage>193</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24652939</pub-id></mixed-citation>
+      </ref>
+      <ref id="b51">
+        <mixed-citation publication-type="journal"><name><surname>Brown</surname><given-names>J. S.</given-names></name>
+<etal/>. <article-title>Neddylation promotes ubiquitylation and release of Ku from DNA-damage sites</article-title>. <source>Cell Rep.</source>
+<volume>11</volume>, <fpage>704</fpage>â<lpage>714</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25921528</pub-id></mixed-citation>
+      </ref>
+      <ref id="b52">
+        <mixed-citation publication-type="journal"><name><surname>Schmidt</surname><given-names>C. K.</given-names></name>
+<etal/>. <article-title>Systematic E2 screening reveals a UBE2D-RNF138-CtIP axis promoting DNA repair</article-title>. <source>Nat. Cell Biol.</source>
+<volume>17</volume>, <fpage>1458</fpage>â<lpage>1470</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26502057</pub-id></mixed-citation>
+      </ref>
+      <ref id="b53">
+        <mixed-citation publication-type="journal"><name><surname>Ceccaldi</surname><given-names>R.</given-names></name>, <name><surname>Rondinelli</surname><given-names>B.</given-names></name> &amp; <name><surname>D'Andrea</surname><given-names>A. D.</given-names></name>
+<article-title>Repair pathway choices and consequences at the double-strand break</article-title>. <source>Trends Cell Biol.</source>
+<volume>26</volume>, <fpage>52</fpage>â<lpage>64</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26437586</pub-id></mixed-citation>
+      </ref>
+      <ref id="b54">
+        <mixed-citation publication-type="journal"><name><surname>Orthwein</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>A mechanism for the suppression of homologous recombination in G1 cells</article-title>. <source>Nature</source>
+<volume>528</volume>, <fpage>422</fpage>â<lpage>426</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">26649820</pub-id></mixed-citation>
+      </ref>
+      <ref id="b55">
+        <mixed-citation publication-type="journal"><name><surname>Yuan</surname><given-names>W.-C.</given-names></name>
+<etal/>. <article-title>A Cullin3-KLHL20 ubiquitin ligase-dependent pathway targets PML to potentiate HIF-1 signaling and prostate cancer progression</article-title>. <source>Cancer Cell</source>
+<volume>20</volume>, <fpage>214</fpage>â<lpage>228</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21840486</pub-id></mixed-citation>
+      </ref>
+      <ref id="b56">
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>D. D.</given-names></name> &amp; <name><surname>Hannink</surname><given-names>M.</given-names></name>
+<article-title>Distinct cysteine residues in Keap1 are required for Keap1-dependent ubiquitination of Nrf2 and for stabilization of Nrf2 by chemopreventive agents and oxidative stress</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>23</volume>, <fpage>8137</fpage>â<lpage>8151</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">14585973</pub-id></mixed-citation>
+      </ref>
+      <ref id="b57">
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>D. D.</given-names></name>, <name><surname>Lo</surname><given-names>S.-C.</given-names></name>, <name><surname>Cross</surname><given-names>J. V.</given-names></name>, <name><surname>Templeton</surname><given-names>D. J.</given-names></name> &amp; <name><surname>Hannink</surname><given-names>M.</given-names></name>
+<article-title>Keap1 is a redox-regulated substrate adaptor protein for a Cul3-dependent ubiquitin ligase complex</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>24</volume>, <fpage>10941</fpage>â<lpage>10953</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15572695</pub-id></mixed-citation>
+      </ref>
+      <ref id="b58">
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>Y.-R.</given-names></name>
+<etal/>. <article-title>The Cullin 3 substrate adaptor KLHL20 mediates DAPK ubiquitination to control interferon responses</article-title>. <source>EMBO J.</source>
+<volume>29</volume>, <fpage>1748</fpage>â<lpage>1761</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20389280</pub-id></mixed-citation>
+      </ref>
+      <ref id="b59">
+        <mixed-citation publication-type="journal"><name><surname>Aymard</surname><given-names>F.</given-names></name>
+<etal/>. <article-title>Transcriptionally active chromatin recruits homologous recombination at DNA double-strand breaks</article-title>. <source>Nat. Struct. Mol. Biol.</source>
+<volume>21</volume>, <fpage>366</fpage>â<lpage>374</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24658350</pub-id></mixed-citation>
+      </ref>
+      <ref id="b60">
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>H.-Y.</given-names></name>, <name><surname>Liu</surname><given-names>C.-C.</given-names></name> &amp; <name><surname>Chen</surname><given-names>R.-H.</given-names></name>
+<article-title>Cul3-KLHL20 ubiquitin ligase: physiological functions, stress responses, and disease implications</article-title>. <source>Cell Div.</source>
+<volume>11</volume>, <fpage>5</fpage> (<year>2016</year>).<pub-id pub-id-type="pmid">27042198</pub-id></mixed-citation>
+      </ref>
+      <ref id="b61">
+        <mixed-citation publication-type="journal"><name><surname>Hast</surname><given-names>B. E.</given-names></name>
+<etal/>. <article-title>Proteomic analysis of ubiquitin ligase KEAP1 reveals associated proteins that inhibit NRF2 ubiquitination</article-title>. <source>Cancer Res.</source>
+<volume>73</volume>, <fpage>2199</fpage>â<lpage>2210</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23382044</pub-id></mixed-citation>
+      </ref>
+      <ref id="b62">
+        <mixed-citation publication-type="journal"><name><surname>Khan</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>Molecular effects of cancer-associated somatic mutations on the structural and target recognition properties of Keap1</article-title>. <source>Biochem. J.</source>
+<volume>467</volume>, <fpage>141</fpage>â<lpage>151</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25582950</pub-id></mixed-citation>
+      </ref>
+      <ref id="b63">
+        <mixed-citation publication-type="journal"><name><surname>Ma</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>PALB2 interacts with KEAP1 to promote NRF2 nuclear accumulation and function</article-title>. <source>Mol. Cell. Biol.</source>
+<volume>32</volume>, <fpage>1506</fpage>â<lpage>1517</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22331464</pub-id></mixed-citation>
+      </ref>
+      <ref id="b64">
+        <mixed-citation publication-type="journal"><name><surname>Eid</surname><given-names>W.</given-names></name>
+<etal/>. <article-title>DNA end resection by CtIP and exonuclease 1 prevents genomic instability</article-title>. <source>EMBO Rep.</source>
+<volume>11</volume>, <fpage>962</fpage>â<lpage>968</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">21052091</pub-id></mixed-citation>
+      </ref>
+      <ref id="b65">
+        <mixed-citation publication-type="journal"><name><surname>Metzger</surname><given-names>T.</given-names></name>, <name><surname>Kleiss</surname><given-names>C.</given-names></name> &amp; <name><surname>Sumara</surname><given-names>I.</given-names></name>
+<article-title>CUL3 and protein kinases: insights from PLK1/KLHL22 interaction</article-title>. <source>Cell Cycle</source>
+<volume>12</volume>, <fpage>2291</fpage>â<lpage>2296</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24067371</pub-id></mixed-citation>
+      </ref>
+      <ref id="b66">
+        <mixed-citation publication-type="journal"><name><surname>Sumara</surname><given-names>I.</given-names></name>
+<etal/>. <article-title>A Cul3-based E3 ligase removes Aurora B from mitotic chromosomes, regulating mitotic progression and completion of cytokinesis in human cells</article-title>. <source>Dev. Cell</source>
+<volume>12</volume>, <fpage>887</fpage>â<lpage>900</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17543862</pub-id></mixed-citation>
+      </ref>
+      <ref id="b67">
+        <mixed-citation publication-type="journal"><name><surname>Glatter</surname><given-names>T.</given-names></name>, <name><surname>Wepf</surname><given-names>A.</given-names></name>, <name><surname>Aebersold</surname><given-names>R.</given-names></name> &amp; <name><surname>Gstaiger</surname><given-names>M.</given-names></name>
+<article-title>An integrated workflow for charting the human interaction proteome: insights into the PP2A system</article-title>. <source>Mol. Syst. Biol.</source>
+<volume>5</volume>, <fpage>237</fpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19156129</pub-id></mixed-citation>
+      </ref>
+      <ref id="b68">
+        <mixed-citation publication-type="journal"><name><surname>Ranjha</surname><given-names>L.</given-names></name>, <name><surname>Anand</surname><given-names>R.</given-names></name> &amp; <name><surname>Cejka</surname><given-names>P.</given-names></name>
+<article-title>The <italic>Saccharomyces cerevisiae</italic> Mlh1-Mlh3 heterodimer is an endonuclease that preferentially binds to Holliday junctions</article-title>. <source>J. Biol. Chem.</source>
+<volume>289</volume>, <fpage>5674</fpage>â<lpage>5686</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24443562</pub-id></mixed-citation>
+      </ref>
+      <ref id="b69">
+        <mixed-citation publication-type="journal"><name><surname>Duda</surname><given-names>D. M.</given-names></name>
+<etal/>. <article-title>Structure of a glomulin-RBX1-CUL1 complex: inhibition of a RING E3 ligase through masking of its E2-binding surface</article-title>. <source>Mol. Cell</source>
+<volume>47</volume>, <fpage>371</fpage>â<lpage>382</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22748924</pub-id></mixed-citation>
+      </ref>
+      <ref id="b70">
+        <mixed-citation publication-type="journal"><name><surname>Enchev</surname><given-names>R. I.</given-names></name>
+<etal/>. <article-title>Structural basis for a reciprocal regulation between SCF and CSN</article-title>. <source>Cell Rep.</source>
+<volume>2</volume>, <fpage>616</fpage>â<lpage>627</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22959436</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Author contributions</bold> A.A.S. and L.P.F. conceived the original ideas for this study, analysed the data and wrote the manuscript together with A.P. L.P.F. performed all experiments with the help of S.-F.H., A.T., C.W., C.v.A., A.E., O.M. and R.I.E. R.I.E. and M.P. contributed reagents and helped in the experimental design and interpretation of the <italic>in vitro</italic> ubiquitination assays. R.F. generated the anti-KLHL15 antibody.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="f1">
+      <label>Figure 1</label>
+      <caption>
+        <title>CtIP interacts with the CUL3-KLHL15 complex.</title>
+        <p>(<bold>a</bold>) HEK293 cells inducibly expressing StrepHA-tagged CtIP were used for tandem affinity purification of protein complexes. The number of unique peptides and sequence coverage for the proteins identified by mass spectrometry are listed. â/' delimitates the data from two biological replicates. (<bold>b</bold>) HEK293T cells were transfected with either empty vector (EV) or the GFP-CtIP expression constructs. Forty-eight hours after transfection, cells were lysed and whole-cell extracts were subjected to IP using anti-GFP affinity resin. Inputs and recovered protein complexes were analysed by immunoblotting. (<bold>c</bold>) Schematic representation of the human KLHL15 protein indicating truncation and single-amino acid point mutants thereof used in <bold>d</bold>â<bold>f</bold>. â3-box' denotes CUL3-interacting box, whereas the six Kelch repeats are indicated in pink. (<bold>d</bold>â<bold>f</bold>) HEK293T cells were transfected with either EV or the indicated FLAG-KLHL15 expression constructs. Forty-eight hours after transfection, cells were lysed and whole-cell extracts were subjected to IP using anti-FLAG M2 affinity resin. Inputs and recovered protein complexes were analysed by immunoblotting. Asterisks indicate neddylated CUL3.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f1"/>
+    </fig>
+    <fig id="f2">
+      <label>Figure 2</label>
+      <caption>
+        <title>CUL3-KLHL15 E3 ligase promotes CtIP protein turnover via the ubiquitin-proteasome pathway.</title>
+        <p>(<bold>a</bold>) U2OS Flp-In T-REx cells stably expressing doxycycline (Dox)-inducible GFP-KLHL15-wt were cultivated in the absence (â) or presence (+) of Dox. Twenty-four hours post induction, cells were either mock-treated or treated with MG-132 (10âÎ¼M) for 6âh and whole-cell lysates were analysed by immunoblotting. (<bold>b</bold>) Twenty-four hours post induction, same cells as in <bold>a</bold> were either mock-treated or treated with MLN-4924 (100ânM) for 8âh and whole-cell lysates were analysed by immunoblotting. (<bold>c</bold>) Same cells as in <bold>a</bold> were transfected with either non-targeting (CNTL) or CUL3 siRNA oligos. 48âh later, GFP-KLHL15 expression was induced with Dox for 24âh and whole-cell lysates were analysed by immunoblotting. (<bold>d</bold>) U2OS cells were transfected with the indicated siRNA oligos for 48âh. Total cell extracts and chromatin-enriched fractions were analysed by immunoblotting using the indicated antibodies. (<bold>e</bold>) Same cells as in <bold>a</bold> were transfected with the indicated siRNA oligos. Twenty-four hours post transfection, cells were grown for 24âh in the absence (â) or presence (+) of Dox and whole-cell lysates were analysed by immunoblotting. (<bold>f</bold>) HEK293 Flp-In T-REx cells inducibly expressing GFP-CtIP were transfected with the indicated siRNAs. Forty-eight hours later, cells were transfected with His-Ub and the expression of CtIP was simultaneously induced with Dox. Eight hours post induction, cells were transfected with siRNAs for a second time. Three days after the first siRNA transfection, cells were treated with MG-132 (20âÎ¼M) for 6âh followed by lysis in buffer containing guanidium-HCl. Ubiquitin conjugates were pulled-down (PD) with Ni-NTA-agarose beads, eluted and analysed by immunoblotting with anti-GFP antibody. (<bold>g</bold>) Recombinant FLAG-CtIP was incubated with ATP, ubiquitin, E1, E2 enzymes and CUL3-N8/RBX1-KLHL15 (E3) for 30âmin at 37âÂ°C. Unmodified and ubiquitinated CtIP protein species were detected by immunoblotting with anti-FLAG antibody. Asterisks indicate neddylated CUL3.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f2"/>
+    </fig>
+    <fig id="f3">
+      <label>Figure 3</label>
+      <caption>
+        <title>CtIP protein turnover is impaired in KLHL15 knockout cells.</title>
+        <p>(<bold>a</bold>) Lysates from a stable HEK293<sup>Cas9</sup> wild-type (wt) cell clone or from six different HEK293<sup>Cas9</sup> cell clones generated with the same sgRNA targeting KLHL15 (see <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3a</xref>) were subjected to western blotting with the indicated antibodies. (<bold>b</bold>) Total (T) cell extracts and chromatin-enriched (Chr.) fractions of HEK293<sup>Cas9/wt</sup> and HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> cells were analysed by immunoblotting using the indicated antibodies. (<bold>c</bold>) Same cells as in <bold>b</bold> were either mock-treated, treated with CHX (100âÎ¼gâml<sup>â1</sup>) or MG-132 (20âÎ¼M) for the indicated time points and lysates were subjected to western blotting with the indicated antibodies (upper panel). SE and LE; short- and long-exposure times of the same immunoblot. Relative CtIP protein levels were determined by quantification of CtIP band intensity (normalized to TFIIH) with the ImageJ software (lower panels). Data are represented as mean values of densitometric quantificationÂ±s.e.m. (<italic>n</italic>=3).</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f3"/>
+    </fig>
+    <fig id="f4">
+      <label>Figure 4</label>
+      <caption>
+        <title>KLHL15 overexpression leads to camptothecin hypersensitivity and defective DNA-end resection.</title>
+        <p>(<bold>a</bold>) U2OS Flp-In T-REx cells inducibly expressing GFP-KLHL15-wt or GFP-KLHL15-Y552A were cultivated in the presence or absence of Dox. Twenty-four hours post induction, cells were treated with the indicated doses of camptothecin and survival was determined after 10 days by colony-formation assay. Data are presented as the meanÂ±s.d. (<italic>n</italic>=3). (<bold>b</bold>) Same cells as in <bold>a</bold> were mock-treated or treated with camptothecin (CPT, 1âÎ¼M) for 1âh and lysates were analysed by immunoblotting using the indicated antibodies. Asterisks indicate hyperphosphorylated forms of CtIP and RPA2, respectively. (<bold>c</bold>) Same cells as in <bold>b</bold> were labelled with BrdU (30âÎ¼M) for 24âh before CPT treatment. Cells were harvested, permeabilized, fixed, immunostained with anti-RPA2 or anti-BrdU antibody and analysed by FACS. Dot plots representing the intensity of the signals for RPA2 or BrdU staining (<italic>y</italic> axis) against the DNA content (<italic>x</italic> axis). Quantification gates were established in untreated samples and the percentage of cells within the gates is indicated. (<bold>d</bold>) HEK293 DR-GFP cells were transfected with the <italic>I-SceI</italic> in combination with the indicated FLAG-KLHL15 expression plasmids and harvested after 48âh for flow cytometry and immunoblot analysis. Data are represented as meanÂ±s.d. (<italic>n</italic>=3). Statistical analysis were carried out using unpaired, two-tailed <italic>t</italic>-tests. <italic>P</italic> values expressed as ** (<italic>P</italic>&lt;0.005) were considered significant. A.u., arbitrary units; FACS, fluorescence-activated cell sorting.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f4"/>
+    </fig>
+    <fig id="f5">
+      <label>Figure 5</label>
+      <caption>
+        <title>Mapping of a KLHL15-interacting region in CtIP.</title>
+        <p>(<bold>a</bold>) Schematic representation of GFP-tagged CtIP wild-type (wt) and truncation mutants. A 15-mer peptide encompassing amino acid residues 830â844 in the CtIP CTD important for KLHL15 binding is marked by a red box. (<bold>b</bold>) MBP-KLHL15 was coupled to amylose beads and incubated with lysates of HEK293T cells transfected with the indicated GFP-CtIP expression constructs for 48âh. Inputs and pulled-down protein complexes were analysed by immunoblotting. (<bold>c</bold>) HEK293T cells were cotransfected with the indicated GFP-CtIP expression constructs and His-Ubiquitin. Twenty-four hours post transfection cells were treated with MG-132 (20âÎ¼M) for 4âh. Cells were then lysed in buffer containing guanidium-HCl and ubiquitin conjugates were pulled-down using Ni-NTA-agarose beads, eluted, and analysed by immunoblotting with anti-GFP antibody. (<bold>d</bold>) MBP-KLHL15 pull-down assays were performed as in <bold>b</bold>. (<bold>e</bold>) Three microgram of a biotinylated 15-mer CtIP peptide (aa 830â844) indicated in <bold>a</bold> was coupled to streptavidin beads and incubated with lysates of U2OS<sup>GFP-KLHL15-wt</sup> cells cultivated in absence (â) or presence (+) of Dox for 24âh. Inputs and pulled-down protein complexes were analysed by immunoblotting. (<bold>f</bold>) Three microgram of the CtIP peptide coupled to streptavidin beads was incubated with lysates of HEK293<sup>Cas9/wt</sup> and HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> cells. Inputs and pulled-down protein complexes were analysed by immunoblotting. (<bold>g</bold>) Recombinant MBP-KLHL15 was coupled to amylose beads and incubated with lysates of HEK293T cells in the absence (â) or presence of the indicated amounts of the CtIP 15-mer peptide. Inputs and pulled-down protein complexes were analysed by immunoblotting.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f5"/>
+    </fig>
+    <fig id="f6">
+      <label>Figure 6</label>
+      <caption>
+        <title>Identification of a conserved FRY motif in vertebrate CtIP essential for KLHL15 interaction.</title>
+        <p>(<bold>a</bold>) Alignment of the KLHL15-interacting region in human CtIP (aa 830â844) with the corresponding region in CtIP/Ctp1/Com1 orthologs of other species. A part of the KLHL15 binding domain in human PP2A/B'-beta is shown below<xref ref-type="bibr" rid="b44">44</xref>. The rectangular box represents the putative KLHL15-binding motif (FRY). The highly conserved tyrosine residue (Y842 in human CtIP) is highlighted in red. Other, highly conserved amino acid residues are marked in bold typeface. (<bold>b</bold>) Bacterially expressed GST fusion proteins of the CtIP CTD (aa 790â897), either wt or Y842A mutant, were coupled to glutathione sepharose beads and incubated with lysates from HEK293T cells transfected with the FLAG-KLHL15 expression plasmid for 48âh. Pulled-down protein complexes and the input were analysed by immunoblotting. (<bold>c</bold>) HEK293T cells were transfected with either empty vector (EV) or the GFP-CtIP expression constructs. 48âh after transfection, cells were lysed and whole-cell extracts were subjected to IP using anti-GFP affinity resin. Inputs and recovered protein complexes were analysed by immunoblotting. (<bold>d</bold>) Recombinant MBP-KLHL15 was coupled to amylose beads and incubated with lysates from HEK293T cells transfected with the indicated GFP-CtIP expression constructs for 48âh. Inputs and pulled-down protein complexes were analysed by immunoblotting. (<bold>e</bold>) HEK293T cells were cotransfected with the indicated GFP-CtIP constructs and His-Ubiquitin. Twenty-four hours post transfection cells were treated with MG-132 (20âÎ¼M) for 4âh. Cells were then lysed in buffer containing guanidium-HCl and ubiquitin conjugates were pulled-down using Ni-NTA-agarose beads, eluted and analysed by immunoblotting with anti-GFP antibody. (<bold>f</bold>) HEK293T cells were transfected with CtIP siRNA and 24âh later cotransfected with the indicated siRNA-resistant GFP-CtIP expression constructs and FLAG-KLHL15. Forty-eight hours post siRNA transfection cells were analysed by immunoblotting (left). The GFP-CtIP signal intensities were quantified using ImageJ and represented as EV/FLAG-KLHL15 ratios (right). Data are represented as mean values of densitometric quantificationÂ±s.e.m. (<italic>n</italic>â¥3). Asterisks indicate neddylated CUL3.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f6"/>
+    </fig>
+    <fig id="f7">
+      <label>Figure 7</label>
+      <caption>
+        <title>KLHL15-dependent CtIP ubiquitination governs DNA-end resection and DSB repair pathway choice.</title>
+        <p>(<bold>a</bold>) U2OS cells stably expressing doxycycline (Dox)-inducible siRNA-resistant GFP-CtIP-wt or GFP-CtIP-Y842A were transfected with CtIP siRNA. 24âh later, GFP-CtIP expression was induced with Dox. Forty-eight hours post siRNA-transfection, cells were either mock-treated or treated with CPT (1âÎ¼M) for 1âh. Total cell extracts and chromatin-enriched fractions were analysed by immunoblotting. (<bold>b</bold>) Same cells as in <bold>a</bold> were transfected with the indicated siRNA oligos. One day later, GFP-CtIP expression was induced for 24âh and cells were treated with CPT for 1âh before western blot analysis. (<bold>c</bold>) Same cells as in <bold>b</bold> were simultaneously labelled with BrdU (30âÎ¼M). 48âh post siRNA-transfection, cells were treated with CPT for 1âh, immunostained with anti-RPA2 or anti-BrdU antibody and analysed by FACS. Dot plots represent the intensity of the signals for RPA2 or BrdU staining (<italic>y</italic> axis) against the DNA content (<italic>x</italic> axis). Quantification gates were established in untreated samples and the percentage of cells within the gates are indicated. (<bold>d</bold>) HEK293<sup>Cas9/wt</sup> and HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> cells were transfected with the indicated siRNA oligos. Forty-eight hours later, cells were treated with CPT for 1âh and analysed by immunoblotting. (<bold>e</bold>) Same cells as in <bold>d</bold> were processed for FACS analysis as in <bold>c</bold>. (<bold>f</bold>) Same cells as in <bold>d</bold> were irradiated at 10âGy and 3âh later analysed by immunoblotting. SE and LE denote short and long exposures of the same membrane. (<bold>g</bold>) Same cells as in <bold>d</bold> were irradiated with increasing doses of IR and survival was determined by colony-formation assay. Data are presented as the meanÂ±s.d. (<italic>n</italic>=4). (<bold>h</bold>,<bold>i</bold>) HEK293 EJ5-GFP or DR-GFP cells were transfected with the indicated siRNAs. Two days later, cells were transfected with the <italic>I-SceI</italic> expression plasmid and harvested after 48âh for flow cytometry and immunoblot analysis. Data in <bold>h</bold> and <bold>i</bold> are represented as meanÂ±s.e.m. (<italic>n</italic>=3) and as meanÂ±s.d. (<italic>n</italic>=4), respectively. Unpaired, two-tailed <italic>t</italic>-tests were performed and <italic>P</italic> values expressed as *(<italic>P</italic>&lt;0.05) and **(<italic>P</italic>&lt;0.005) were considered significant. Asterisks indicate hyperphosphorylated forms of CtIP and RPA2. A.u., arbitrary units; FACS, fluorescence-activated cell sorting.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f7"/>
+    </fig>
+    <fig id="f8">
+      <label>Figure 8</label>
+      <caption>
+        <title>PIN1 isomerase facilitates KLHL15-dependent degradation of CtIP.</title>
+        <p>(<bold>a</bold>) HEK293T cells were cotransfected with FLAG-KLHL15 and either GFP-CtIP-wt, -S276A/T315A (2A, defective in PIN1 interaction), or -K467A (KA, defective in Cdh1 interaction) expression constructs. Forty-eight hours post transfection, cells were analysed by immunoblotting (left). Relative CtIP protein levels were determined by quantification of CtIP band intensity (normalized to Actin) with the ImageJ software (right). Data are represented as mean values of densitometric quantificationÂ±s.e.m. (<italic>n</italic>â¥3). Statistical analysis was carried out using unpaired, two-tailed <italic>t</italic>-tests. <italic>P</italic> values expressed as *(<italic>P</italic>&lt;0.05) was considered significant. (<bold>b</bold>) HEK293T cells were transfected twice with the indicated siRNA oligos for two consecutive days. Forty-eight hours after the first siRNA transfection, cells were transfected with either empty vector (EV) or FLAG-KLHL15 expression constructs. 72âh after the first siRNA transfection, cells were lysed and whole-cell extracts were subjected to IP using anti-FLAG M2 affinity resin. Inputs and recovered protein complexes were analysed by immunoblotting. The asterisk indicates neddylated CUL3. (<bold>c</bold>) HEK293<sup>Cas9/wt</sup> and HEK293<sup>Cas9/<italic>KLHL15Î</italic></sup> cells were transfected with EV or HA-PIN1 expression construct. Forty-eight hours after transfection, cells were either mock-treated or treated with CPT (1âÎ¼M) for 1âh. Whole-cell lysates were analysed by immunoblotting using the indicated antibodies. SE and LE denote short and long exposures of the same membrane. Asterisks indicate hyperphosphorylated forms of CtIP and RPA2, respectively.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f8"/>
+    </fig>
+    <fig id="f9">
+      <label>Figure 9</label>
+      <caption>
+        <title>CtIP ubiquitination by CUL3-KLHL15 promotes CtIP proteasomal degradation to fine-tune DNA-end resection and DSB repair pathway choice.</title>
+        <p>Schematic model depicting the molecular architecture of the CUL3-KLHL15 E3 ubiquitin ligase complex and the functional consequences of KLHL15-mediated CtIP protein turnover in controlling the balance between NHEJ and HR in normal KLHL15-expressing cells (upper part) and under pathological conditions of altered KLHL15 expression (lower part). CtIP isomerization by PIN1 triggers CtIP proteasomal degradation<xref ref-type="bibr" rid="b28">28</xref> at least in part by facilitating CtIP ubiquitination by the CUL3-KLHL15 E3 ligase complex. See discussion for more details.</p>
+      </caption>
+      <graphic xlink:href="ncomms12628-f9"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

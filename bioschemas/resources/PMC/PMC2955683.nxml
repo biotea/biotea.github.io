@@ -1,0 +1,2407 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:38:23Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2955683" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2955683</identifier><datestamp>2010-10-18</datestamp><setSpec>silence</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Silence</journal-id>
+      <journal-title-group>
+        <journal-title>Silence</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1758-907X</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2955683</article-id>
+      <article-id pub-id-type="pmcid">PMC2955683</article-id>
+      <article-id pub-id-type="pmc-uid">2955683</article-id>
+      <article-id pub-id-type="pmid">20860814</article-id>
+      <article-id pub-id-type="publisher-id">1758-907X-1-17</article-id>
+      <article-id pub-id-type="pmid">20860814</article-id>
+      <article-id pub-id-type="doi">10.1186/1758-907X-1-17</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research </subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A structural-based statistical approach suggests a cooperative activity of PUM1 and miR-410 in human 3'-untranslated regions</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" id="A1">
+          <name>
+            <surname>Leibovich</surname>
+            <given-names>Limor</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <email>llimor@cs.technion.ac.il</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A2">
+          <name>
+            <surname>Mandel-Gutfreund</surname>
+            <given-names>Yael</given-names>
+          </name>
+          <xref ref-type="aff" rid="I2">2</xref>
+          <email>yaelmg@tx.technion.ac.il</email>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" id="A3">
+          <name>
+            <surname>Yakhini</surname>
+            <given-names>Zohar</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">1</xref>
+          <xref ref-type="aff" rid="I3">3</xref>
+          <email>zohar_yakhini@agilent.com</email>
+        </contrib>
+      </contrib-group>
+      <aff id="I1"><label>1</label>Department of Computer Sciences, Technion - Israel Institute of Technology, Technion City, Haifa 32000, Israel</aff>
+      <aff id="I2"><label>2</label>Faculty of Biology, Technion - Israel Institute of Technology, Technion City, Haifa 32000, Israel</aff>
+      <aff id="I3"><label>3</label>Agilent Laboratories Israel, Azorim Business Park, 94 Em Hamoshavot Road, 49527 Petach-Tikva, Israel</aff>
+      <pub-date pub-type="collection">
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>9</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>1</volume>
+      <fpage>17</fpage>
+      <lpage>17</lpage>
+      <history>
+        <date date-type="received">
+          <day>24</day>
+          <month>6</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>22</day>
+          <month>9</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â©2010 Leibovich et al; licensee BioMed Central Ltd.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <copyright-holder>Leibovich et al; licensee BioMed Central Ltd.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/2.0">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/2.0">http://creativecommons.org/licenses/by/2.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:href="http://www.silencejournal.com/content/1/1/17"/>
+      <abstract>
+        <sec>
+          <title>Background</title>
+          <p>Micro (mi)RNAs comprise a large family of small non-coding RNAs that are thought to regulate a large fraction of protein-coding genes. Generally, miRNAs downregulate messenger (m)RNA expression by binding to the 3' untranslated regions (UTRs) of the RNA molecules. An important factor for binding specificity is the matching in the seed region. In addition, target site accessibility is thought to be crucial for efficient repression of miRNA targets. Several recent studies indicated that miRNA repression can be facilitated by RNA-binding proteins. In this study, we examine the conjecture that RNA-binding proteins are involved in ushering miRNAs to bind targets that are initially less accessible.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>We analyzed human 3'-UTR sequences containing potential binding sites of 153 conserved miRNA families, and ranked sequences around the sites according to their miRNA accessibility. By applying a rank-based motif search tool to these miRNA targets, we found motifs that are enriched among less accessible targets. As expected from our ranking method, most of the significant motifs were GC-rich. However, one AU-rich motif was found to be enriched among miR-410 less accessible targets. This motif resembles the Pumilio homolog 1 (PUM1) consensus binding site. We observed a stronger enrichment of the PUM1 motif in conserved targets than in non-conserved targets; moreover, the enrichment of this motif was found to be conserved in a subset of placental mammals. Further, we analyzed publicly available gene expression data, and found that the mutual expression of PUM1 and miR-410 has a greater negative influence on the expression of low accessibility targets than on other targets, an effect that was stronger than when considering both miR-410 and PUM1 separately.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>Taken together, our findings suggest a cooperative relationship between miR-410 and PUM1 in regulating human highly structured 3'-UTRs. This kind of cooperation can allow a second level of regulation of such targets. Considering cases in which miRNAs bind low accessibility targets may help to improve current miRNA prediction tools and to obtain a better understanding of the mechanisms underlying miRNA regulation activity.</p>
+        </sec>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec>
+      <title>Background</title>
+      <p>Micro (mi)RNAs are small RNA molecules (approximately 22 nucleotides) participating in a large variety of cellular processes in animals, plants and viruses [<xref ref-type="bibr" rid="B1">1</xref>-<xref ref-type="bibr" rid="B3">3</xref>]. miRNAs act by binding to the 3'-untranslated region (3'-UTR) of messenger (m)RNAs, forming hybrids that consist of the binding site in the 3'-UTR and of the miRNA seed region (positions 2-8 in the miRNA) [<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B5">5</xref>]. miRNAs regulate mRNAs through two main mechanisms: mRNA degradation and inhibition of mRNA translation [<xref ref-type="bibr" rid="B6">6</xref>]. It has been shown that the match between the mRNA and the miRNA seed region is important for target recognition [<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B7">7</xref>]. However, the number of nucleotide matches in the seed is not the only factor that determines site functionality, and other factors such as site accessibility influence the target recognition [<xref ref-type="bibr" rid="B8">8</xref>].</p>
+      <p>Several recent reports have demonstrated that miRNA repression can be reversed or modulated by RNA-binding proteins (RBPs) interacting with the 3'-UTR of target mRNAs. It was reported that the RNA-binding protein ELAVL1 (embryonic lethal abnormal vision-like protein 1; also known as HuR) reverses miR-122 repression of <italic>SLC7A1 </italic>(also known as <italic>CAT-1</italic>) mRNA in human hepatocarcinoma cells subjected to stress [<xref ref-type="bibr" rid="B9">9</xref>]. This effect on <italic>SLC7A1 </italic>is mediated by ELAVL1 translocation from the nucleus to the cytoplasm upon stress, and is accompanied by <italic>SLC7A1 </italic>release from processing (P) bodies, structures involved in RNA metabolism, leading to active translation of the message. The process requires the association of ELAVL1 with AU-rich sequences in the 3'-UTR region of the <italic>SLC7A1 </italic>mRNA, through an as yet unknown mechanism. RBP modulation of miRNA-mediated repression has also been reported for dead end homolog 1 (DND1). In zebrafish, it alleviates miR-430 repression of <italic>nanos1 </italic>and <italic>tdrd7 </italic>in primordial germ cells [<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>]. DND1 can also relieve the repression of cyclin-dependent kinase inhibitor 1B (<italic>CDKN1B</italic>) mediated by miR-221 and the repression of <italic>LATS2 </italic>by miR-372 in HEK293T cells [<xref ref-type="bibr" rid="B10">10</xref>]. In zebrafish and in humans, DND1 counteracts miRNA-mediated repression by binding to uridine-rich regions located near the miRNA binding sites within the 3'-UTR of the message. DND1 binding to these sequences might interfere with miRNA-mRNA interaction. Another indication of the functional relationship between miRNAs and RBPs was found in the rat hippocampal neurons, for which treatment with brain-derived neurotrophic factor (BDNF) was shown to partially relieve miR-134 mediated repression of <italic>Limk1 </italic>[<xref ref-type="bibr" rid="B12">12</xref>]. When miRNAs regulate mRNAs, they are assembled into ribonucleoprotein complexes known as the miRNA-induced silencing complex (miRISC) [<xref ref-type="bibr" rid="B2">2</xref>]. In contrast to ELAVL1, DND1 and BDNF, which relieve the miRNA repressive function, the TRIM-NHL protein family (NHL-2 in <italic>Caenorhabtidis elegans </italic>[<xref ref-type="bibr" rid="B13">13</xref>] and TRIM32 in mouse [<xref ref-type="bibr" rid="B14">14</xref>]) increase the activity of specific miRNAs, including let-7, by binding to miRISC components.</p>
+      <p>Pumilio family (PUF) proteins constitute a highly conserved family of RNA-binding proteins that regulate target mRNAs via binding to their 3'-UTRs [<xref ref-type="bibr" rid="B15">15</xref>]. PUF proteins are vital in developmental processes, including stem cell maintenance [<xref ref-type="bibr" rid="B16">16</xref>-<xref ref-type="bibr" rid="B18">18</xref>]. They are also required for long-term memory, and control neuron excitability and development [<xref ref-type="bibr" rid="B19">19</xref>-<xref ref-type="bibr" rid="B21">21</xref>]. PUF proteins bind specific RNA sequences in 3'-UTRs that contain a core 'UGUR' tetranucleotide followed by sequences that vary between members of this family. mRNA-PUF protein complexes are thought to trigger translational repression or promote mRNA degradation [<xref ref-type="bibr" rid="B22">22</xref>-<xref ref-type="bibr" rid="B24">24</xref>]. PUF proteins have been recently shown to be associated with miRNAs. It was observed that predicted miRNA binding sites are enriched among validated PUF targets near PUF-binding motifs in humans [<xref ref-type="bibr" rid="B25">25</xref>]. In <italic>C. elegans</italic>, the Pumilio homolog PUF-9 is suggested to cooperate with let-7 family members to repress <italic>hbl-1 </italic>in the hypodermis and the ventral nerve cord [<xref ref-type="bibr" rid="B26">26</xref>]. This repression requires a region of the <italic>hbl-1 </italic>3'-UTR that contains binding sites for PUF and let-7.</p>
+      <p>Overall, many examples suggest extensive crosstalk between RBPs and miRNAs. It is likely that additional cases of RBPs modulating miRNA interactions exist. Because efficient repression of miRNA targets is strongly dependent on site accessibility [<xref ref-type="bibr" rid="B8">8</xref>], RNA-binding proteins might function as ushers that mediate the opening of the structure, thereby allowing interaction between miRNA and its low-accessibility targets. In this study, we describe a computational approach to seeking evidence for such a mechanism. The approach makes use of a statistical process that includes thermodynamics-based ranking. We highlight one of the cases for which we found significant evidence. Our findings suggest a cooperative mechanism associating the RNA-binding protein Pumilio homolog 1 (PUM1) with miR-410 targeting of low-accessibility target sites in human 3'-UTRs. We found enrichment of the PUM1 binding motif in less accessible miR-410 targets. This association between miR-410 and PUM1 in the context of low-accessibility targets was also significant in other placental mammals (chimpanzee and horse). Furthermore, as a sequence-independent test, we analyzed publicly available gene expression data. We found an inverse relationship between the mutual expression profile of PUM1 and miR-410, and between the expression profiles of the least accessible targets. This inverse relationship was significantly stronger for the combination of PUM1 and miR-410 than for each of them separately. To summarize, by demonstrating a significant association between PUM1 binding sites and highly structured miR-410 targets, our findings suggest that this pair of RBP and miRNA may work together to repress low accessibility targets. Further experiments will be needed to prove this suggested mechanism.</p>
+    </sec>
+    <sec>
+      <title>Results</title>
+      <p>Our conjecture in this work was that RNA-binding proteins might assist miRNAs in their repression of low-accessibility miRNA targets, with the RBP binding mediating the opening of the secondary structure, thus allowing the miRNA to access the mRNA. This kind of cooperation between RBP and miRNA requires a region of the target 3'-UTR to contain binding sites for both RBP and miRNA. The approach we developed for the exploration of such cooperative pairs of RBP and miRNA is described below.</p>
+      <sec>
+        <title>Approach description</title>
+        <p>To seek cooperative mechanisms for miRNA activity from sequence data, we implemented a computational process as follows (described schematically in Figure <xref ref-type="fig" rid="F1">1</xref>):</p>
+        <fig id="F1" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <p><bold>Identification of motifs enriched among low-accessibility targets of micro (mi)RNA family Î¼: the complete process</bold>. Given a miRNA family and its binding sites in 3'-untranslated regions (predicted by TargetScan), we extracted sequence elements such that the seed binding site (red V in the figure) was placed in the middle surrounded by 70 base pairs upstream and downstream. We ranked these sequences according to the global accessibility score of Î¼, and searched for enriched motifs. The motif UGUAUAUAU was found to be enriched among miR-410 low-accessibility targets.</p>
+          </caption>
+          <graphic xlink:href="1758-907X-1-17-1"/>
+        </fig>
+        <p>1) For a given miRNA family Î¼, we obtained all the conserved predicted targets of Î¼, including positions of the seed in the 3'-UTR. The predictions were taken from TargetScan [<xref ref-type="bibr" rid="B27">27</xref>-<xref ref-type="bibr" rid="B29">29</xref>].</p>
+        <p>2) For every seed occurrence (red V in Figure <xref ref-type="fig" rid="F1">1</xref>), we considered 70 base pairs on each side.</p>
+        <p>At the end of this step, we obtained a collection of sequences of length 147 bp with the binding site for Î¼ in the middle, denoted as S<sub>1</sub>,..,S<sub>L(Î¼)</sub>.</p>
+        <p>3) To reduce overlap of sequences, we reduced the collection containing S<sub>1</sub>,..,S<sub>L(Î¼) </sub>using a maximal independent set algorithm (see Methods).</p>
+        <p>We performed this process for every conserved miRNA family, defined according to [<xref ref-type="bibr" rid="B29">29</xref>]. Consequently, for every conserved miRNA family we obtained a set of minimally overlapping conserved sequences containing the predicted target site at the centre of the sequence. The sequences contained the miRNA seed binding site surrounded by 140 bases (70 upstream and 70 downstream), which is sufficient for a reliable prediction of local secondary structures [<xref ref-type="bibr" rid="B8">8</xref>].</p>
+        <p>To detect sequence elements playing a role in structure-driven cooperation with the miRNA of interest given a target sequence S<sub>i</sub>, we defined a criterion that reflects miRNA accessibility to S<sub>i</sub>. Accessibility is reflected by the global accessibility score of each miRNA family to each S<sub>i</sub>. The score takes into consideration both the accessibility of the entire target sequence and the local accessibility of the miRNA binding site (for more details, see Methods). We ranked the target sequences of the miRNA family according to miRNA accessibility, with the least accessible targets located at the top of the list and the more accessible targets ranked lower in the list. Furthermore, to avoid motifs that overlap with the miRNA binding site or with its reverse complement, we masked the miRNA binding site (located at the centre of the sequence) and the nucleotides that are predicted to form base pairs with it. We next sought motifs enriched among the least accessible targets in comparison with the accessible targets. This was done using DRIM [<xref ref-type="bibr" rid="B30">30</xref>], which was adapted for finding RNA motifs. To reduce the number of false positive results, we concentrated on relatively long motifs of length 9 bp.</p>
+      </sec>
+      <sec>
+        <title>The Pumilio binding motif is enriched in miR-410 low accessibility targets</title>
+        <p>To search for RNA-binding motifs that may be associated with low accessibility target sites, we repeated the process described above for the 153 conserved miRNA families known for humans [<xref ref-type="bibr" rid="B29">29</xref>]. We found 163 enriched motifs for the 153 miRNA families that passed the minimum hypergeometric (mHG) score threshold of 10<sup>-4 </sup>(see Methods). Every motif is associated with a miRNA family Î¼, such that it is enriched among the least accessible targets of Î¼. As expected from our accessibility score and ranking approach, sequences appearing at the top of the ranked list tended to have greater GC content than did those located at the bottom of the list (see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>, Figure S1). Therefore, we expected to find enrichment of GC-rich motifs in low-accessibility targets.</p>
+        <p>Furthermore, we clustered the identified motifs into groups based on sequence similarity, considering only clusters containing â¥ 3 motifs (Figure <xref ref-type="fig" rid="F2">2A</xref>). As control, we conducted the process described above for <italic>Saccharomyces cerevisiae </italic>3'-UTRs, working with human miRNAs and using a similar number of targets as in humans. Because the miRNA machinery is not known to exist in <italic>S. cerevisiae</italic>, we considered the results we obtained here as being random (or as negative control). In the <italic>S. cerevisiae </italic>control, we found 33 enriched motifs versus 163 motifs in humans (at mHG â¤ 10<sup>-4</sup>). Clustering the <italic>S. cerevisiae </italic>motifs yielded clusters containing only one or two motifs (see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>, Figure S2 for the mHG scores of human motifs versus <italic>S. cerevisiae </italic>motifs; for more details on this control, see Methods).</p>
+        <fig id="F2" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <p><bold>Clustered motifs found to be enriched among micro (mi)RNA low-accessibility targets in humans</bold>. <bold>(A) </bold>The motifs found to be enriched among miRNAs low-accessibility targets were clustered according to sequence similarity. Clusters containing at least three motifs are shown. For each cluster, we calculated the average GC content over all motifs in the cluster. The clusters were sorted according to their GC content. Note that the GC content axis is variable. <bold>(B) </bold>The multiple sequence alignment of the motifs belonging to the cluster with the lowest GC content is shown. For each member of the cluster, the miRNA family for which it was found and the enrichment <italic>P </italic>value are mentioned. <bold>(C) </bold>The logo of the motif enriched among miR-410 least accessible targets is shown. This motif holds the lowest GC content found. <bold>(D) </bold>On the left, the occurrences of UGUAUAUAU among miR-410 predicted targets are shown. The targets were ranked according to the miR-410 global accessibility score. The location of the miRNA binding site is marked with a pink rectangle on the <italic>x </italic>axis. In the middle, the occurrences vector plot illustrates the number of motif occurrences in each sequence (black for one occurrence, blue for two occurrences). On the right, the actual motif accumulated occurrences versus the expected motif accumulated occurrences in a random dataset are shown, highlighting the observed enrichment. The dashed line (and asterisk) indicates the minimum hypergeometric (mHG) cutoff used for partitioning the sequences into two subsets (such that the motif is enriched in the upper subset).</p>
+          </caption>
+          <graphic xlink:href="1758-907X-1-17-2"/>
+        </fig>
+        <p>Among the results for humans, we detected one exceptional cluster having a relatively low GC content (the multiple sequence alignment for this cluster is shown in Figure <xref ref-type="fig" rid="F2">2B</xref>). In this cluster, the motif found for miR-410 (UGUAUAUAU) contained only one G (11.1% GC). Interestingly, no motif having such low GC content was found in the <italic>S. cerevisiae </italic>control (at mHG score â¤ 10<sup>-4</sup>). This motif perfectly contains the consensus binding site of PUM1 and PUM2, which is UGUAHAUA [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B31">31</xref>], suggesting an association between the RNA-binding proteins of the Pumilio family and the miR-410 low accessibility targets (the motif is shown in Figure <xref ref-type="fig" rid="F2">2C</xref>, its enrichment among miR-410 low accessibility targets is illustrated in Figure <xref ref-type="fig" rid="F2">2D</xref>, and the low accessibility targets containing the motif are listed in Table <xref ref-type="table" rid="T1">1</xref>; see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>, Figure S3 for their structures).</p>
+        <table-wrap id="T1" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>MiR-410 low accessibility targets containing the motif UGUAUAUAU.</p>
+          </caption>
+          <table frame="hsides" rules="groups">
+            <thead>
+              <tr>
+                <th align="left">Gene symbol</th>
+                <th align="left">Gene name</th>
+                <th align="left">PANTHER molecular function</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left">
+                  <italic>FAM120C</italic>
+                </td>
+                <td align="left">Family with sequence similarity 120C</td>
+                <td align="left">Unclassified</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>C14orf102</italic>
+                </td>
+                <td align="left">Chromosome 14 open reading frame 102</td>
+                <td align="left">Unclassified</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>NRIP1</italic>
+                </td>
+                <td align="left">B-cell CLL/lymphoma 11B (zinc finger protein)</td>
+                <td align="left">Zinc finger transcription factor Nucleic acid binding</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>DGKG</italic>
+                </td>
+                <td align="left">Diacylglycerol kinase, gamma 90 kDa</td>
+                <td align="left">Kinase</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>RAI1</italic>
+                </td>
+                <td align="left">Retinoic acid induced 1</td>
+                <td align="left">Transcription factor</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>MCAM</italic>
+                </td>
+                <td align="left">Melanoma cell adhesion molecule</td>
+                <td align="left">CAM family adhesion molecule</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>STARD13</italic>
+                </td>
+                <td align="left">START domain containing 13</td>
+                <td align="left">Other G-protein modulator</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>CELSR1</italic>
+                </td>
+                <td align="left">Cadherin, EGF LAG seven-pass G-type receptor 1 (flamingo homolog, Drosophila)</td>
+                <td align="left">G-protein coupled receptor Cadherin</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>ZC3H7B</italic>
+                </td>
+                <td align="left">Zinc finger CCCH-type containing 7B</td>
+                <td align="left">Nucleic acid binding</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>NDST1</italic>
+                </td>
+                <td align="left"><italic>N</italic>-deacetylase/<italic>N</italic>-sulfotransferase (heparan glucosaminyl) 1</td>
+                <td align="left">Other transferase</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>FZD5</italic>
+                </td>
+                <td align="left">Frizzled homolog 5 (<italic>Drosophila</italic>)</td>
+                <td align="left">Molecular function unclassified</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>HACE1</italic>
+                </td>
+                <td align="left">HECT domain and ankyrin repeat containing, E3 ubiquitin protein ligase 1</td>
+                <td align="left">Ubiquitin-protein ligase</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>TEC</italic>
+                </td>
+                <td align="left">Tec protein tyrosine kinase</td>
+                <td align="left">Non-receptor tyrosine protein kinase</td>
+              </tr>
+              <tr>
+                <td align="left">
+                  <italic>PRRX1</italic>
+                </td>
+                <td align="left">Paired related homeobox 1</td>
+                <td align="left">Homeobox transcription factor Other DNA-binding protein</td>
+              </tr>
+            </tbody>
+          </table>
+          <table-wrap-foot>
+            <p>Fourteen genes at the subset of top 105 low accessibility targets contain the motif UGUAUAUAU. Their gene symbols, gene names and PANTHER [<xref ref-type="bibr" rid="B49">49</xref>] molecular functions are shown.</p>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec>
+        <title>Controls</title>
+        <p>To further study the proposed association, we conducted a list of control experiments, described below. Previous studies have shown that miRNA binding sites are occasionally found in multiple copies in 3'-UTRs [<xref ref-type="bibr" rid="B32">32</xref>,<xref ref-type="bibr" rid="B33">33</xref>]. Multiplicity of miRNA binding sites has been suggested to be correlated with degree of repression. Because the presence of multiple binding sites of miR-410 in the 3'-UTRs could influence our results, we checked whether binding site multiplicity was correlated with our ranking for miR-410 targets. We found that miR-410 binding site multiplicity did not correlate with the accessibility ranking of miR-410 predicted targets (Pearson correlation coefficient = 0.062), thereby ruling out multiplicity as a driver for the aforementioned enrichment (for more details, see Methods).</p>
+        <p>An alternative explanation for the observed enrichment of the Pumilio motif among low accessibility miR-410 targets is that Pumilio binding sites are generally more prevalent in highly folded targets. To test this, we calculated the enrichment of the Pumilio consensus motif [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B31">31</xref>] in UTR sequences ranked according to ÎG calculated from the predicted secondary structure. Interestingly, we did not observe any enrichment of the Pumilio motif in highly structured UTRs (<italic>P </italic>= 0.24 for the best enrichment among 100 repetitions; for more details, see Methods). These results reinforce the association between miRNA accessibility and the observed enrichment of the Pumilio motif in the least accessible miR-410 targets.</p>
+        <p>To examine whether Pumilio binding sites are generally enriched among GC-rich sequences, we ranked the predicted targets of each miRNA family in our list of conserved miRNA families according to their GC content, and recalculated the enrichment of the Pumilio consensus [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B31">31</xref>]. Among the 153 conserved miRNA families (including miR-410), the best enrichment found for the Pumilio motif had a <italic>P </italic>value of 0.21, thus excluding this explanation.</p>
+        <p>Furthermore, as a control for our ranking approach, we took the 100 least accessible targets and 100 most accessible targets (of miR-410) and searched for enriched motifs in each subset, using MEME [<xref ref-type="bibr" rid="B34">34</xref>]. We masked the miRNA binding site and its complement to avoid enrichment of motifs derived from the miRNA binding site. In the subset of least accessible targets, the most enriched motif found was an AU-rich motif that is similar to the Pumilio motif (its regular expression is AU[AG][UC]AUAUAUAUAUA; e-value = 1.4 Ã 10<sup>-30</sup>). This motif (or any similar motif) was not found for the subset of accessible targets. Moreover, the best e-value per motif in the latter subset was 7.3 Ã 10<sup>-6</sup>.</p>
+        <p>To assess whether the observed association between the Pumilio motif and the predicted, least accessible miR-410 sites could reflect a functional relationship between the RBP and the miRNA, we generated a subset of predicted miR-410 targets that are evolutionarily conserved and thus more likely to be functional miR-410 sites [<xref ref-type="bibr" rid="B35">35</xref>]. We then compared the enrichment of the Pumilio motif among predicted targets of human miR-410 taken from three datasets: conserved targets, targets with no restriction on conservation, and non-conserved targets. We found that Pumilio was most significantly enriched in the conserved dataset (<italic>P</italic> = 1.57 Ã 10<sup>-5</sup>), whereas it was less enriched in both the miR-410 predicted targets with no restriction on conservation (<italic>P</italic> = 2.15 Ã 10<sup>-3</sup>) and in the non-conserved dataset (<italic>P</italic> = 4.2 Ã 10<sup>-2</sup>; for more details, see Methods). The higher enrichment of Pumilio binding sites among the conserved, least accessible miR-410 targets may indicate that this association is related to miRNA function.</p>
+        <p>To further validate that the Pumilio motif is functionally related to miR-410, we used TargetScan to predict a set of miR-410 pseudo-targets (computed based on sequence match with the miRNA seed) in the 3'-UTRs of organisms lacking miR-410 (<italic>C. elegans</italic>) or miRNAs in general (<italic>S. cerevisiae</italic>). We then calculated the enrichment of the motif among low accessibility targets for each organism (using broadly the same process described above). As expected, the Pumilio motif was not found to be enriched in any of these organisms (<italic>S. cerevisiae</italic>: <italic>P </italic>= 0.35, <italic>C. elegans</italic>: <italic>P </italic>= 0.76). Next, we applied the latter test to placental mammals in which miR-410 is conserved [<xref ref-type="bibr" rid="B29">29</xref>]. For this analysis, we used the dataset of conserved targets predicted by TargetScan for chimpanzee, horse and dog. Here, again, the Pumilio motif was found to be enriched among miR-410 low-accessibility targets, specifically in chimpanzee (<italic>P </italic>= 5.28 Ã 10<sup>-4</sup>) and horse (<italic>P </italic>= 1.4 Ã 10<sup>-4</sup>), but it was only weakly enriched in dog (<italic>P </italic>= 3.3 Ã 10<sup>-2</sup>). It is important to note that these organisms were chosen because the sizes of their datasets are very similar to that of the human dataset, and thus the differences in <italic>P </italic>values cannot be due to the size of the datasets.</p>
+      </sec>
+      <sec>
+        <title>Additional controls using validated Pumilio targets in humans</title>
+        <p>To further investigate the relationship observed between miR-410 and the Pumilio family and to show its dependence on target accessibility, we used experimental Pumilio binding data available for humans [<xref ref-type="bibr" rid="B25">25</xref>]. We obtained 3'-UTR sequences of validated Pumilio targets and ranked them according to their corresponding affinity to Pumilio, as reported previously [<xref ref-type="bibr" rid="B25">25</xref>]. We then calculated the enrichment of the miR-410 binding site among validated Pumilio targets. The miR-410 binding site was not found to be enriched among Pumilio targets (PUM1: <italic>P </italic>= 0.86, PUM2: <italic>P </italic>= 0.48). As a control, we calculated the enrichment of the Pumilio recognition motif (UGUAHAUA [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B31">31</xref>]) among validated Pumilio targets, and found it to be strongly enriched among PUM1 targets (<italic>P </italic>= 2.47 Ã 10<sup>-9</sup>) and weakly enriched among PUM2 targets (<italic>P </italic>= 2.7 Ã 10<sup>-2</sup>). To summarize, the analysis presented here demonstrates that the miR-410 binding motif is not generally enriched in Pumilio targets (see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>, Figure S4). These findings indicate that the observed association of Pumilio and miR-410 cannot be explained by a general association between them. They therefore support a more specific role of Pumilio, closely associated to low-accessibility miR-410 targets.</p>
+        <p>Next, we evaluated the association of Pumilio proteins with other miRNAs in the context of low-accessibility targets using the knowledge of experimentally validated Pumilio targets [<xref ref-type="bibr" rid="B25">25</xref>]. We used mHG statistics to calculate the enrichment of validated Pumilio targets in the list of miRNA targets ranked according to global accessibility (see Methods). We did this for all 153 human miRNA families. Of the 153 experiments, the most significant enrichment was found for miR-410 (<italic>P </italic>= 1.4 Ã 10<sup>-2</sup>; 14 out of 388 miR-410 targets are validated Pumilio targets and all are in the list of the top 251 least accessible targets).</p>
+      </sec>
+      <sec>
+        <title>PUM1 cooperation with miR-410 based on gene expression analysis</title>
+        <p>The aforementioned experiments suggest the involvement of the Pumilio family in modulating miR-410 repression of low-accessibility targets. In this section, we used gene expression data (on the NCI60 panel [<xref ref-type="bibr" rid="B36">36</xref>,<xref ref-type="bibr" rid="B37">37</xref>]) to test PUM1 cooperation with miR-410.</p>
+        <p>According to the suggested mechanism, two main observations should hold. First, in the presence of high levels of PUM1 and miR-410, there should be a stronger repression effect on the set of least accessible targets than in the presence of low levels of PUM1 and miR-410. The set of least accessible targets (see Methods) is hereby denoted by Î¦. The difference in the extent of repression comparing the two states (defined according to PUM1 and/or miR-410 expression levels) is hereafter termed as 'differential repression'. Differential repression is expected to be more dramatic for Î¦ than it is for other (more accessible) miR-410 targets. Indeed, the significance of differential repression of the least accessible targets compared with the rest of the targets was 6.9 Ã 10<sup>-4 </sup>(for more details, see Methods). The second expected observation is that the differential repression of the least accessible targets, Î¦, versus the rest of the targets should be less significant than when partitioning samples according to only miR-410 or only PUM1, owing to the suggested cooperative interaction. Indeed, the mutual differential repression was ~25-fold more significant than when considering only miR-410, and ~10-fold more significant than when considering only PUM1 (Figure <xref ref-type="fig" rid="F3">3, A-C</xref>).</p>
+        <fig id="F3" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <p><bold>Cooperative repressive influence of PUM1 and miR-410 on least accessible targets</bold>. <bold>(A) </bold>In this test, we compared samples having high levels of PUM1 and miR-410 expression with samples having low expression, and calculated the degree of differential repression for all targets. We found that the set of least accessible targets was significantly differentially repressed compared with other targets (<italic>P </italic>= 6.9 Ã 10<sup>-4</sup>). Note that the expression values of PUM1 and miR-410 are drawn schematically. <bold>(B,C) </bold>We repeated the test described in (A) but now ignored PUM1 and miR-410, respectively. In each of these tests, the differential repression of the least accessible targets compared with other targets was weaker than in (A) (<italic>P </italic>values obtained are indicated in the figure). <bold>(D) </bold>We repeated the test described in (A) for 1,000 randomly drawn subsets instead of the subset of least accessible targets. Each random subset contained the same number of targets as the subset of least accessible targets and was disjoint from it. The differential repression of 999 subsets was less significant than 6.9 Ã 10<sup>-4</sup>.</p>
+          </caption>
+          <graphic xlink:href="1758-907X-1-17-3"/>
+        </fig>
+        <p>To validate that the mutual repressive influence of PUM1 and miR-410 is related to the low accessibility of the miRNA targets, we repeated this process 1,000 times, each time for a randomly drawn subset of genes, Î¦', taken from the pool of miR-410 predicted targets (each Î¦' contains the same number of elements as Î¦; each Î¦' is disjoint from Î¦). As shown in Figure <xref ref-type="fig" rid="F3">3D</xref>, of the 1,000 experiments, only one result was better than 6.9 Ã 10<sup>-4 </sup>(<italic>P </italic>= 3.55 Ã 10<sup>-4</sup>).</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Discussion</title>
+      <p>The extent to which miRNAs interact with low accessibility targets is not clear, but if such binding takes place there could be a molecular mechanism allowing the miRNA to bind highly structured targets, possibly by involving RNA-binding proteins. To date, there is increasing evidence for cooperation between miRNAs and RBPs [<xref ref-type="bibr" rid="B9">9</xref>,<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B12">12</xref>-<xref ref-type="bibr" rid="B14">14</xref>,<xref ref-type="bibr" rid="B26">26</xref>]; however, the possible role of RBPs in facilitating miRNA binding to inaccessible sites has yet not been examined carefully. In this study, we sought sequence motifs that are enriched among miRNA low-accessibility targets, because these motifs may point to RNA-binding proteins that take part in this kind of mechanism. We clustered the motifs found into groups based on sequence similarity (see Methods). The cluster containing the motif UGUAUAUAU that was found for miR-410 (Figure <xref ref-type="fig" rid="F2">2B</xref>) was exceptional because of its low average GC content (33%). The above motif was especially interesting because it is the well-characterized Pumilio recognition motif [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B31">31</xref>] and was unusually AU-rich. The other motifs in the cluster comprised UG runs known as binding motifs of the heterogenous RNP protein trans-activation-response DNA binding protein (TARDBP; also known as TDP-43) [<xref ref-type="bibr" rid="B38">38</xref>].</p>
+      <p>Testing the enrichment of the Pumilio motif among miR-410 low-accessibility targets using various controls strongly supported the conjecture that this association is related to the miRNA accessibility of the targets. In addition, the accessibility-dependent association between PUM1 and miR-410 was found to be conserved in humans, chimpanzee and horse, and it was more significant in the human conserved dataset than in the human non-conserved dataset, implying functionality. Moreover, analyzing publicly available gene expression data revealed that mutual expression of PUM1 and miR-410 has a greater negative influence on low-accessibility targets than on other targets. Interestingly, mutual expression of PUM1 and miR-410 had a greater negative influence than did their individual influences separately, supporting our conjecture that miR-410 and PUM1 act together, possibly by facilitating the repression of low-accessibility miR-410 targets.</p>
+      <p>In a previous study by Fiore <italic>et al</italic>. [<xref ref-type="bibr" rid="B21">21</xref>], it was demonstrated that the miRNA cluster miR379-410 (containing miR-410) is transcriptionally activated upon activation of mouse cortical neurons, and that one component of this cluster, miR-134, takes part in triggering activation-dependent dendritogenesis. The latter study further suggests that <italic>Pum2 </italic>is a miR-134 target in this process. Based on the verified cooperation between Pumilio and the miR379-410 cluster in dendritogenesis, we speculate that the cooperation between miR-410 and Pumilio suggested in this study might be part of the process regulating dendritogenesis. Clearly, further experimental assays should be carried out to validate this observed association of miR-410 and PUM1 in human 3'-UTRs, and to explain the related mechanisms.</p>
+    </sec>
+    <sec>
+      <title>Conclusions</title>
+      <p>An association between miRNAs and Pumilio was suggested previously [<xref ref-type="bibr" rid="B25">25</xref>], based on the observation that predicted miRNA binding sites are enriched among validated Pumilio targets near Pumilio binding motifs. In this work, we did in fact observe an association, specific to the context of low accessibility, between Pumilio binding sites and miR-410 targets. We suggest that PUM1 and miR-410 may cooperate in repressing highly structured targets, allowing a second level of regulation of these targets. We hypothesized a mechanism in which PUM1 plays a role in ushering miR-410 to highly structured targets. It is likely that additional pairs of miRNAs and RBPs, as yet undiscovered, cooperate in a similar way. Taking into account the possibility that miRNAs can bind low-accessibility targets with the assistance of RNA-binding proteins may help in improving the accuracy of miRNA target prediction tools and in identifying novel regulatory mechanisms.</p>
+    </sec>
+    <sec sec-type="methods">
+      <title>Methods</title>
+      <sec>
+        <title>NCI60 dataset</title>
+        <p>This dataset comprised a panel of 60 cancer-derived cell lines. For each of the 60 cell lines, we obtained mRNAs and miRNA expression data from the literature [<xref ref-type="bibr" rid="B36">36</xref>,<xref ref-type="bibr" rid="B37">37</xref>].</p>
+      </sec>
+      <sec>
+        <title>Human validated Pumilio targets dataset</title>
+        <p>Lists of PUM1 and PUM2 target mRNAs in HeLa S3 cells were obtained [<xref ref-type="bibr" rid="B25">25</xref>]. The dataset included gene information and numerical data related to the measured affinity between Pumilio proteins and the potential targets.</p>
+      </sec>
+      <sec>
+        <title>Maximal independent set</title>
+        <p>Given a set of sequence elements S<sub>1</sub>,..,S<sub>L</sub>, which are substrings of a gene 3'-UTR, there can be overlap between sequences. Each S<sub>i </sub>is associated with two coordinates that define its start and its end positions in the 3'-UTR. To reduce overlap between sequences, given S<sub>i </sub>and S<sub>j</sub>, we required that start(S<sub>i</sub>)+100 be less than or equal to start(S<sub>j</sub>) (that is, that the distance between the starts of every two sequences in the set must be greater than 100 nucleotides). Consider the interval graph [<xref ref-type="bibr" rid="B39">39</xref>] G = (V,E), whose set of vertices is V = {S<sub>1</sub>,..,S<sub>L</sub>} and set of edges is E = {(S<sub>i</sub>,S<sub>j</sub>) | i &lt; j and start(S<sub>i</sub>)+100 &gt; start(S<sub>j</sub>)}. Without loss of generality, the sequences are sorted according to their starting positions, such that the starting point of S<sub>1 </sub>is minimal. To find a maximal set of minimally overlapping sequences, we need to find a maximal independent set in G. Because G is an interval graph, the optimal solution can be found efficiently [<xref ref-type="bibr" rid="B39">39</xref>].</p>
+      </sec>
+      <sec>
+        <title>TargetScan</title>
+        <p>TargetScan predicts the biological targets of miRNAs by searching for the presence of conserved eight-mer and seven-mer sites that match the seed region of each miRNA [<xref ref-type="bibr" rid="B27">27</xref>-<xref ref-type="bibr" rid="B29">29</xref>]. As an option, non-conserved sites are also predicted. Sites with mismatches in the seed region that are compensated for by conserved 3'- pairing are also identified [<xref ref-type="bibr" rid="B29">29</xref>]. We used TargetScanHuman [<xref ref-type="bibr" rid="B40">40</xref>], which considers matches to annotated human UTRs and their orthologs.</p>
+        <p>TargetScan provides a code that enables making custom predictions of miRNA binding sites for any arbitrary given set of syntactically valid sequences. We used it to obtain predictions in a variety of organisms (such as <italic>S. cerevisiae</italic>, even if they lack miRNA activity).</p>
+        <p>Conserved miRNA families were defined according to previously published data [<xref ref-type="bibr" rid="B29">29</xref>]. They included broadly conserved families (which are conserved across most vertebrates, usually as far as zebrafish) and conserved families (which are conserved across most mammals, but usually not beyond placental mammals).</p>
+      </sec>
+      <sec>
+        <title>RNAfold and miRNA global accessibility score</title>
+        <p>RNAfold is a software application that predicts the secondary structures of single-stranded RNA or DNA sequences [<xref ref-type="bibr" rid="B41">41</xref>].</p>
+        <p>Given a miRNA family Î¼ and a target sequence S<sub>i</sub>, we defined the miRNA global accessibility criterion for S<sub>i </sub>as follows:</p>
+        <p>â¢ We calculated the free energy of the entire sequence, denoted as ÎG<sub>all</sub>(S<sub>i</sub>).</p>
+        <p>â¢ We calculated the free energy of S<sub>i </sub>when the area surrounding the seed binding site is forced to be unpaired, denoted by ÎG<sub>masked</sub>(S<sub>i</sub>).</p>
+        <p>â¢ The free energy lost in opening the structure at the binding site of Î¼ in S<sub>i </sub>was then defined as:</p>
+        <p>
+          <disp-formula>
+            <mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M1" name="1758-907X-1-17-i1" overflow="scroll">
+              <mml:mrow>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>open</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>=</mml:mo>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>all</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>â</mml:mo>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>masked</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>.</mml:mo>
+              </mml:mrow>
+            </mml:math>
+          </disp-formula>
+        </p>
+        <p>This number reflects the local accessibility of the miRNA binding site; the more negative this value, the greater the energy required for opening the target site secondary structure.</p>
+        <p>â¢ The global accessibility of S<sub>i </sub>to Î¼ binding is represented by:</p>
+        <p>
+          <disp-formula>
+            <mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M2" name="1758-907X-1-17-i2" overflow="scroll">
+              <mml:mrow>
+                <mml:mtext>GA</mml:mtext>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>=</mml:mo>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>open</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>+</mml:mo>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>all</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>=</mml:mo>
+                <mml:mtext>Â 2</mml:mtext>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>all</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+                <mml:mo>â</mml:mo>
+                <mml:mi>Î</mml:mi>
+                <mml:msub>
+                  <mml:mtext>G</mml:mtext>
+                  <mml:mrow>
+                    <mml:mtext>masked</mml:mtext>
+                  </mml:mrow>
+                </mml:msub>
+                <mml:mrow>
+                  <mml:mo>(</mml:mo>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mtext>S</mml:mtext>
+                      <mml:mtext>i</mml:mtext>
+                    </mml:msub>
+                  </mml:mrow>
+                  <mml:mo>)</mml:mo>
+                </mml:mrow>
+              </mml:mrow>
+            </mml:math>
+          </disp-formula>
+        </p>
+        <p>It should be noted that to calculate ÎG<sub>masked</sub>(S<sub>i</sub>), given a sequence S<sub>i</sub>, we masked the area surrounding the target site in S<sub>i </sub>(25 bases in total, with the miRNA binding site located in the middle) and calculated the free energy of the modified sequence using RNAfold. Technically, putting the letter N in any region in a sequence leads RNAfold to avoid base pairing in that region (see Additional file <xref ref-type="supplementary-material" rid="S1">1</xref>, Figure S5) and thereby masks the region.</p>
+      </sec>
+      <sec>
+        <title>DRIM</title>
+        <p>DRIM (discovery of rank imbalanced motifs) is a software application that identifies sequence motifs in lists of ranked DNA sequences [<xref ref-type="bibr" rid="B30">30</xref>], and it has also been adapted for RNA sequences [<xref ref-type="bibr" rid="B42">42</xref>]. DRIM employs a flexible threshold statistical approach [<xref ref-type="bibr" rid="B30">30</xref>,<xref ref-type="bibr" rid="B43">43</xref>] to discover motifs that are significantly enriched at the top of a ranked list of sequences compared with the rest of the list.</p>
+        <p>The motifs returned by DRIM are seed motifs that are sufficiently significant to be passed as input to the heuristic search mechanism of DRIM. The default threshold, which is also used here, is mHG score = 10<sup>-4 </sup>(motifs with greater scores are discarded).</p>
+      </sec>
+      <sec>
+        <title><italic>S. cerevisiae </italic>control</title>
+        <p>We downloaded 3'-UTR sequences of <italic>S. cerevisiae </italic>from the UCSC Table Browser [<xref ref-type="bibr" rid="B44">44</xref>] and predicted the (imaginary) binding sites of human miRNA families within these UTRs using TargetScan script. To allow the same statistical power as in the human dataset, we used a similar number of targets per miRNA family for the tests described in this paper (if there turned out to be more sequences than needed, we would then filter the sequences in the middle of the ranked list). The number of <italic>S. cerevisiae </italic>targets per miRNA is the same as in humans, except for sporadic cases in which there are fewer targets in <italic>S. cerevisiae </italic>(on average, the difference between the number of targets in humans and the number of targets in <italic>S. cerevisiae </italic>per miRNA is 12).</p>
+      </sec>
+      <sec>
+        <title>Procedure for clustering motifs</title>
+        <p>Given two sequences s = s<sub>1</sub>,..,s<sub>n </sub>and t = t<sub>1</sub>,..,t<sub>n</sub>, the i-level distance between s and t is defined as i plus the number of mismatches between the sequences s<sub>1</sub>,..,s<sub>n-i </sub>and t<sub>i+1</sub>,..,t<sub>n</sub>.</p>
+        <p>Given two sequences s = s<sub>1</sub>,..,s<sub>n </sub>and t = t<sub>1</sub>,..,t<sub>n</sub>, the distance between s and t is defined as the minimal i-level distance for i = 0,..,n-1.</p>
+        <p>Given two sets of sequences C<sub>1 </sub>and C<sub>2</sub>, we defined the distance between C<sub>1 </sub>and C<sub>2 </sub>as the average of distances between every two sequences s and t, such that s âC<sub>1 </sub>and t âC<sub>2</sub>.</p>
+        <p>The clustering procedure we applied here is given as its input a set of sequences to cluster and a parameter denoted as diameter. It begins with clusters that are singletons; each sequence is a single cluster. It recursively merges the pair of closest clusters, and halts when the distance between the closest clusters is greater than the diameter given as a parameter. This is a variant of the nearest neighbour hierarchical clustering approach.</p>
+        <p>To produce the motif Shannon logo for a cluster, we calculated the multiple sequence alignment for the members of the cluster using ClustalW2 [<xref ref-type="bibr" rid="B45">45</xref>] and drew the motif using WebLogo [<xref ref-type="bibr" rid="B46">46</xref>].</p>
+      </sec>
+      <sec>
+        <title>Multiplicity test</title>
+        <p>To test whether multiplicity is correlated with our ranking, we counted the number of miRNA binding sites within each predicted target sequence by counting the number of matches of the miRNA seed in the sequence. In addition to Watson-Crick base pairing, we allowed wobble base pairs (G-U). We also allowed one mismatch between the miRNA seed and its binding site and counted overlapping binding sites.</p>
+      </sec>
+      <sec>
+        <title>Testing possible association between Pumilio and ÎG</title>
+        <p>To calculate the enrichment of Pumilio in highly folded targets, we generated 100 sets of UTR sequences and ranked them according to their ÎG. The length of the sequences and the size of each set were the same as for the miR-410 dataset to allow for the same statistical power. The UTR sequences in each set were chosen randomly.</p>
+      </sec>
+      <sec>
+        <title>Conservation control</title>
+        <p>In this control, we used three datasets of miR-410 predicted targets in humans: conserved targets, non-conserved targets, and targets with no constraint on conservation. The conserved predicted targets dataset and the non-conserved predicted targets dataset were obtained from TargetScan. For the third dataset, we downloaded human 3'-UTR sequences from the UCSC Table Browser [<xref ref-type="bibr" rid="B44">44</xref>], and calculated miR-410 targets within these sequences using TargetScan script. In this control, as in the <italic>S. cerevisiae </italic>control, we used the same number of targets for the three datasets. We calculated the enrichment of the Pumilio motif among the target sequences of each set.</p>
+      </sec>
+      <sec>
+        <title>Enrichment analysis (using mHG statistics)</title>
+        <p>An approach has been previously described [<xref ref-type="bibr" rid="B30">30</xref>] to identify the enrichment of a set of genes, A, in a ranked list of genes using mHG statistics. Given a total number of genes N, with B of these genes belonging to A, and n of these genes being in the target set (for example, differentially expressed genes), the probability that b or more genes from the target set are also in A is given by the hypergeometric tail (HGT):</p>
+        <p>
+          <disp-formula>
+            <mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M3" name="1758-907X-1-17-i3" overflow="scroll">
+              <mml:mrow>
+                <mml:mi>P</mml:mi>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>X</mml:mi>
+                <mml:mo>â¥</mml:mo>
+                <mml:mi>b</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+                <mml:mo>=</mml:mo>
+                <mml:mi>H</mml:mi>
+                <mml:mi>G</mml:mi>
+                <mml:mi>T</mml:mi>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>b</mml:mi>
+                <mml:mo>;</mml:mo>
+                <mml:mi>N</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>B</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>n</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+                <mml:mo>=</mml:mo>
+                <mml:mstyle displaystyle="true">
+                  <mml:munderover>
+                    <mml:mo>â</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mo>=</mml:mo>
+                      <mml:mi>b</mml:mi>
+                    </mml:mrow>
+                    <mml:mrow>
+                      <mml:mi>min</mml:mi>
+                      <mml:mo stretchy="false">(</mml:mo>
+                      <mml:mi>n</mml:mi>
+                      <mml:mo>,</mml:mo>
+                      <mml:mi>B</mml:mi>
+                      <mml:mo stretchy="false">)</mml:mo>
+                    </mml:mrow>
+                  </mml:munderover>
+                  <mml:mrow>
+                    <mml:mfrac>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>(</mml:mo>
+                          <mml:mtable columnalign="left">
+                            <mml:mtr>
+                              <mml:mtd>
+                                <mml:mi>n</mml:mi>
+                              </mml:mtd>
+                            </mml:mtr>
+                            <mml:mtr>
+                              <mml:mtd>
+                                <mml:mi>i</mml:mi>
+                              </mml:mtd>
+                            </mml:mtr>
+                          </mml:mtable>
+                          <mml:mo>)</mml:mo>
+                        </mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>(</mml:mo>
+                          <mml:mtable columnalign="left">
+                            <mml:mtr>
+                              <mml:mtd>
+                                <mml:mi>N</mml:mi>
+                                <mml:mo>â</mml:mo>
+                                <mml:mi>n</mml:mi>
+                              </mml:mtd>
+                            </mml:mtr>
+                            <mml:mtr>
+                              <mml:mtd>
+                                <mml:mi>B</mml:mi>
+                                <mml:mo>â</mml:mo>
+                                <mml:mi>i</mml:mi>
+                              </mml:mtd>
+                            </mml:mtr>
+                          </mml:mtable>
+                          <mml:mo>)</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                      <mml:mrow>
+                        <mml:mrow>
+                          <mml:mo>(</mml:mo>
+                          <mml:mtable columnalign="left">
+                            <mml:mtr>
+                              <mml:mtd>
+                                <mml:mi>N</mml:mi>
+                              </mml:mtd>
+                            </mml:mtr>
+                            <mml:mtr>
+                              <mml:mtd>
+                                <mml:mi>B</mml:mi>
+                              </mml:mtd>
+                            </mml:mtr>
+                          </mml:mtable>
+                          <mml:mo>)</mml:mo>
+                        </mml:mrow>
+                      </mml:mrow>
+                    </mml:mfrac>
+                  </mml:mrow>
+                </mml:mstyle>
+              </mml:mrow>
+            </mml:math>
+          </disp-formula>
+        </p>
+        <p>If a ranked genes list g<sub>1</sub>,..,g<sub>N </sub>is provided in place of a target set, we define a label vector <italic>Î» = Î»</italic><sub>1</sub>,...,<italic>Î»</italic><sub>N </sub>â{0,1}<sup><italic>N </italic></sup>according to the association of the ranked genes to A, that is, Î»<sub>i </sub>= 1 if and only if g<sub>i </sub>is in A. The mHG score is then defined as:</p>
+        <p>
+          <disp-formula>
+            <mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M4" name="1758-907X-1-17-i4" overflow="scroll">
+              <mml:mrow>
+                <mml:mi>m</mml:mi>
+                <mml:mi>H</mml:mi>
+                <mml:mi>G</mml:mi>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>Î»</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+                <mml:mo>=</mml:mo>
+                <mml:munder>
+                  <mml:mrow>
+                    <mml:mi>min</mml:mi>
+                  </mml:mrow>
+                  <mml:mrow>
+                    <mml:mn>1</mml:mn>
+                    <mml:mo>â¤</mml:mo>
+                    <mml:mi>n</mml:mi>
+                    <mml:mo>&lt;</mml:mo>
+                    <mml:mi>N</mml:mi>
+                  </mml:mrow>
+                </mml:munder>
+                <mml:mi>H</mml:mi>
+                <mml:mi>G</mml:mi>
+                <mml:mi>T</mml:mi>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:msub>
+                  <mml:mi>b</mml:mi>
+                  <mml:mi>n</mml:mi>
+                </mml:msub>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>Î»</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+                <mml:mo>;</mml:mo>
+                <mml:mi>N</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>B</mml:mi>
+                <mml:mo>,</mml:mo>
+                <mml:mi>n</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+              </mml:mrow>
+            </mml:math>
+          </disp-formula>
+        </p>
+        <p>where</p>
+        <p>
+          <disp-formula>
+            <mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M5" name="1758-907X-1-17-i5" overflow="scroll">
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>b</mml:mi>
+                  <mml:mi>n</mml:mi>
+                </mml:msub>
+                <mml:mo stretchy="false">(</mml:mo>
+                <mml:mi>Î»</mml:mi>
+                <mml:mo stretchy="false">)</mml:mo>
+                <mml:mo>=</mml:mo>
+                <mml:mstyle displaystyle="true">
+                  <mml:munderover>
+                    <mml:mo>â</mml:mo>
+                    <mml:mrow>
+                      <mml:mi>i</mml:mi>
+                      <mml:mo>=</mml:mo>
+                      <mml:mn>1</mml:mn>
+                    </mml:mrow>
+                    <mml:mi>n</mml:mi>
+                  </mml:munderover>
+                  <mml:mrow>
+                    <mml:msub>
+                      <mml:mi>Î»</mml:mi>
+                      <mml:mi>i</mml:mi>
+                    </mml:msub>
+                  </mml:mrow>
+                </mml:mstyle>
+              </mml:mrow>
+            </mml:math>
+          </disp-formula>
+        </p>
+        <p>In other words, the mHG score is the optimal HGT probability that is found over all possible partitions induced by the ranking. As such, this score must be corrected for multiple testing. A dynamic programming algorithm for computing the exact <italic>P </italic>value of a given mHG score has been described previously [<xref ref-type="bibr" rid="B30">30</xref>]. More specifically, given a ranked list of genes, a subset A, and a corresponding mHG score s, the mHG <italic>P </italic>value tells us the exact probability of observing an mHG score s' â¤ s under the null assumption that all occurrence configurations of A in the ranked list are equiprobable.</p>
+      </sec>
+      <sec>
+        <title>Enrichment of Pumilio experimentally validated targets among low accessibility miRNA targets</title>
+        <p>The set of validated Pumilio targets contains 1,482 genes (comprising both PUM1 and PUM2 targets). Given a miRNA family denoted as Î¼, using the mHG statistics we calculated the enrichment of Pumilio targets in the list of Î¼ targets ranked according to their global accessibility scores (such that least accessible targets are at the top) as follows.</p>
+        <p>1) We used the list of conserved predicted targets, S<sub>1</sub>,..,S<sub>N</sub>, ranked according to global accessibility, GA(S<sub>i</sub>) of Î¼ (the calculation of GA(S<sub>i</sub>) is described above).</p>
+        <p>2) We produced a binary vector Î»(Î¼) as follows:</p>
+        <p>For each sequence S<sub>i </sub>in the list of predicted targets for Î¼, Î»<sub>i</sub>(Î¼) = 1 if and only if S<sub>i </sub>was reported as a Pumilio validated target and also contained the Pumilio consensus motif (UGUAHAUA [<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B31">31</xref>]). We required S<sub>i </sub>to contain the Pumilio motif in addition to being a validated target because Pumilio target genes have been reported [<xref ref-type="bibr" rid="B25">25</xref>] without an indication of where the binding sites reside in the 3'-UTR. In addition, we required that the Pumilio binding site did not overlap with the predicted miRNA binding site or with its complement.</p>
+        <p>3) We used the mHG statistics on Î»(Î¼) to calculate the enrichment of validated Pumilio targets in low-accessibility targets of Î¼.</p>
+      </sec>
+      <sec>
+        <title>Differential expression</title>
+        <p>To compute the differential expression, we used the threshold number of misclassifications (TNoM) score and <italic>P </italic>value previously described [<xref ref-type="bibr" rid="B47">47</xref>].</p>
+      </sec>
+      <sec>
+        <title>Samples classification algorithm (used in the gene expression analysis)</title>
+        <p>The expression analysis requires having two disjoint subsets (denoted as A and B) such that A contains the samples in which PUM1 and miR-410 are highly expressed, whereas B contains the samples in which PUM1 and miR-410 are expressed at low levels. To identify an appropriate partition for this purpose, we performed a class discovery process. Let the vector <italic>x </italic>= <italic>x</italic><sub>1</sub>,...,<italic>x</italic><sub><italic>N </italic></sub>be the expression profile of miR-410 in samples 1,..,N and let the vector <italic>y </italic>= <italic>y</italic><sub><italic>1</italic></sub>,...,<italic>y</italic><sub><italic>N </italic></sub>be the expression profile of PUM1 in samples 1,..,N. Because (<italic>x</italic><sub><italic>i</italic></sub>,<italic>y</italic><sub><italic>i</italic></sub>) is the expression of miR-410 and PUM1 in the i<sup>th </sup>sample, respectively, we can define the set P â <bold>R</bold><sup>2 </sup>that contains <italic>N </italic>points representing the expression of miR-410 and PUM1 in the <italic>N </italic>samples.</p>
+        <p>We sorted P by constructing a two-dimensional k-dimensional (kd)-tree ([<xref ref-type="bibr" rid="B48">48</xref>]) that would follow the sorting order. At the root, we split the set P with a vertical line into two subsets of roughly equal size. P<sub>left</sub>, the subset of points to the left or on the splitting line was stored in the left subtree, and P<sub>right</sub>, the subset to the right of the splitting line, was stored in the right subtree. At the left child of the root, we split P<sub>left </sub>into two subsets with a horizontal line: the points below or on it were stored in the left subtree of the left child and the points above it were stored in the right subtree. Similarly, the subset P<sub>right </sub>was split with a horizontal line into two subsets that were stored in the left and right subtrees of the right child. At the grandchildren of the root, we again split with a vertical line. In general, we split with a vertical line at nodes whose depth was even, and with a horizontal line at nodes whose depth was odd. The algorithm terminates when all the subtrees are leaves. Scanning the leaves from left to right produces the sorted list.</p>
+        <p>The construction of the kd-tree uses O(<italic>N</italic>) storage and takes O(<italic>N</italic>log<italic>N</italic>) time.</p>
+        <p>Having the sorted list of points p<sub>1</sub>,..,p<sub>N</sub>, such that p<sub>1 </sub>&lt; p<sub>2 </sub>&lt; ... &lt; p<sub>N</sub>, we defined the following configurations:</p>
+        <p>
+          <disp-formula>
+            <mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M6" name="1758-907X-1-17-i6" overflow="scroll">
+              <mml:mrow>
+                <mml:msub>
+                  <mml:mi>S</mml:mi>
+                  <mml:mi>k</mml:mi>
+                </mml:msub>
+                <mml:mo>=</mml:mo>
+                <mml:mrow>
+                  <mml:mrow>
+                    <mml:mrow>
+                      <mml:mo>{</mml:mo>
+                      <mml:mrow>
+                        <mml:mo stretchy="false">(</mml:mo>
+                        <mml:msub>
+                          <mml:mi>A</mml:mi>
+                          <mml:mi>k</mml:mi>
+                        </mml:msub>
+                        <mml:mo>,</mml:mo>
+                        <mml:msub>
+                          <mml:mi>B</mml:mi>
+                          <mml:mi>k</mml:mi>
+                        </mml:msub>
+                        <mml:mtext>)Â </mml:mtext>
+                        <mml:mo>|</mml:mo>
+                        <mml:mtext>Â </mml:mtext>
+                        <mml:msub>
+                          <mml:mi>A</mml:mi>
+                          <mml:mi>k</mml:mi>
+                        </mml:msub>
+                        <mml:mo>=</mml:mo>
+                        <mml:mo>{</mml:mo>
+                        <mml:msub>
+                          <mml:mi>p</mml:mi>
+                          <mml:mrow>
+                            <mml:mi>N</mml:mi>
+                            <mml:mo>â</mml:mo>
+                            <mml:mi>k</mml:mi>
+                            <mml:mo>+</mml:mo>
+                            <mml:mn>1</mml:mn>
+                          </mml:mrow>
+                        </mml:msub>
+                        <mml:mo>,</mml:mo>
+                        <mml:mn>...</mml:mn>
+                        <mml:mo>,</mml:mo>
+                        <mml:msub>
+                          <mml:mi>p</mml:mi>
+                          <mml:mi>N</mml:mi>
+                        </mml:msub>
+                        <mml:mtext>}Â </mml:mtext>
+                        <mml:mi>a</mml:mi>
+                        <mml:mi>n</mml:mi>
+                        <mml:mi>d</mml:mi>
+                        <mml:mtext>Â </mml:mtext>
+                        <mml:msub>
+                          <mml:mi>B</mml:mi>
+                          <mml:mi>k</mml:mi>
+                        </mml:msub>
+                        <mml:mo>=</mml:mo>
+                        <mml:mo>{</mml:mo>
+                        <mml:msub>
+                          <mml:mi>p</mml:mi>
+                          <mml:mn>1</mml:mn>
+                        </mml:msub>
+                        <mml:mo>,</mml:mo>
+                        <mml:mn>...</mml:mn>
+                        <mml:mo>,</mml:mo>
+                        <mml:msub>
+                          <mml:mi>p</mml:mi>
+                          <mml:mi>k</mml:mi>
+                        </mml:msub>
+                      </mml:mrow>
+                      <mml:mo>}</mml:mo>
+                    </mml:mrow>
+                  </mml:mrow>
+                  <mml:mo>}</mml:mo>
+                </mml:mrow>
+                <mml:mtext>Â </mml:mtext>
+                <mml:mo>,</mml:mo>
+                <mml:mtext>Â </mml:mtext>
+                <mml:mi>k</mml:mi>
+                <mml:mo>=</mml:mo>
+                <mml:mn>1</mml:mn>
+                <mml:mo>,</mml:mo>
+                <mml:mn>...</mml:mn>
+                <mml:mo>,</mml:mo>
+                <mml:mrow>
+                  <mml:mo>â</mml:mo>
+                  <mml:mrow>
+                    <mml:mfrac>
+                      <mml:mi>N</mml:mi>
+                      <mml:mn>2</mml:mn>
+                    </mml:mfrac>
+                  </mml:mrow>
+                  <mml:mo>â</mml:mo>
+                </mml:mrow>
+                <mml:mo>.</mml:mo>
+              </mml:mrow>
+            </mml:math>
+          </disp-formula>
+        </p>
+        <p>Given a figure of merit, we calculated the figure of merit for all the configurations and took the configuration S<sub>k </sub>= {A<sub>k</sub>,B<sub>k</sub>} that held the optimal value.</p>
+        <p>We now explain the figure of merit used in our process. Consider a set Î¦ of mRNAs of interest (for example, miR-410 least accessible targets). We evaluated the differential expression of Î¦ due to miR-410 and PUM1 expression levels as follows.</p>
+        <p>1) Consider a configuration A, B.</p>
+        <p>2) For every miR-410 predicted target Ï we calculated the TNoM <italic>P </italic>value, measuring whether its expression in A was lower than its expression in B (termed as the differential repression of Ï).</p>
+        <p>3) We ranked miR-410 targets according to their TNoM <italic>P </italic>values in increasing order.</p>
+        <p>4) We calculated the enrichment of the genes of Î¦ at the top of this ranked list.</p>
+        <p>5) Finally, we selected the best configuration A, B using the enrichment calculated in the previous step as the figure of merit.</p>
+      </sec>
+      <sec>
+        <title>Definition of least accessible targets</title>
+        <p>Given a list of miRNA targets ranked according to miRNA accessibility, the set of least accessible targets (denoted as Î¦) was defined as the top 20% targets of the ranked list.</p>
+      </sec>
+    </sec>
+    <sec>
+      <title>Competing interests</title>
+      <p>The authors declare that they have no competing interests.</p>
+    </sec>
+    <sec>
+      <title>Authors' contributions</title>
+      <p>LL, YMG and ZY designed the study. YMG proposed the research question. LL and ZY developed the methodology and the algorithmic approaches. LL developed the software and performed the data analysis. All authors contributed to and read and approved the final manuscript.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="S1">
+        <caption>
+          <title>Additional file 1</title>
+          <p><bold>Supplemental Figures S1-S5</bold>. Supplemental Figure <bold>S1 </bold>- Correlation between rank and GC content calculated for the targets of every micro (mi)RNA family. Supplemental Figure <bold>S2 </bold>- Minimum hypergeometric (mHG) scores of human motifs versus mHG scores of <italic>Saccharomyces cerevisiae </italic>motifs. Supplemental Figure <bold>S3 </bold>- Predicted structures of selected mRNA targets. Supplemental Figure <bold>S4 </bold>- The enrichment of the Pumilio binding motif versus the enrichment of the miR-410 binding motif in validated Pumilio targets. Supplemental Figure <bold>S5 </bold>- Illustration of masking a region in a sequence.</p>
+        </caption>
+        <media xlink:href="1758-907X-1-17-S1.PDF" mimetype="application" mime-subtype="pdf">
+          <caption>
+            <p>Click here for file</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <sec>
+      <title>Acknowledgements</title>
+      <p>We thank Yoav Arava for his valuable review of the manuscript. We thank Israel Steinfeld for his useful comments and for providing access to several software implementations and statistical enrichment tools. We thank Eran Eden, Gal Shaul and Naama Hazan for providing access to a motif visualization tool. We thank the anonymous reviewer for suggesting some controls added after the review. LL was partially supported through a Sherman Fellowship.</p>
+    </sec>
+    <ref-list>
+      <ref id="B1">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bushati</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Cohen</surname>
+            <given-names>SM</given-names>
+          </name>
+          <article-title>microRNA functions</article-title>
+          <source>Annu Rev Cell Dev Biol</source>
+          <year>2007</year>
+          <volume>23</volume>
+          <fpage>175</fpage>
+          <lpage>205</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.cellbio.23.090506.123406</pub-id>
+          <pub-id pub-id-type="pmid">17506695</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B2">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Williams</surname>
+            <given-names>AE</given-names>
+          </name>
+          <article-title>Functional aspects of animal microRNAs</article-title>
+          <source>Cell Mol Life Sci</source>
+          <year>2008</year>
+          <volume>65</volume>
+          <fpage>545</fpage>
+          <lpage>562</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-007-7355-9</pub-id>
+          <pub-id pub-id-type="pmid">17965831</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B3">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pfeffer</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Zavolan</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>GrÃ¤sser</surname>
+            <given-names>FA</given-names>
+          </name>
+          <name>
+            <surname>Chien</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Russo</surname>
+            <given-names>JJ</given-names>
+          </name>
+          <name>
+            <surname>Ju</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>John</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Enright</surname>
+            <given-names>AJ</given-names>
+          </name>
+          <name>
+            <surname>Marks</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Sander</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Tuschl</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>Identification of virus-encoded microRNAs</article-title>
+          <source>Science</source>
+          <year>2004</year>
+          <volume>304</volume>
+          <fpage>734</fpage>
+          <lpage>736</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1096781</pub-id>
+          <pub-id pub-id-type="pmid">15118162</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B4">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Eulalio</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Huntzinger</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Izaurralde</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>Getting to the root of miRNA-mediated gene silencing</article-title>
+          <source>Cell</source>
+          <year>2008</year>
+          <volume>132</volume>
+          <fpage>9</fpage>
+          <lpage>14</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2007.12.024</pub-id>
+          <pub-id pub-id-type="pmid">18191211</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B5">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Filipowicz</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Bhattacharyya</surname>
+            <given-names>SN</given-names>
+          </name>
+          <name>
+            <surname>Sonenberg</surname>
+            <given-names>N</given-names>
+          </name>
+          <article-title>Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?</article-title>
+          <source>Nat Rev Genet</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>102</fpage>
+          <lpage>114</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrg2290</pub-id>
+          <pub-id pub-id-type="pmid">18197166</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B6">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chekulaeva</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Filipowicz</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Mechanisms of miRNA-mediated post-transcriptional regulation in animal cells</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <year>2009</year>
+          <volume>21</volume>
+          <fpage>452</fpage>
+          <lpage>460</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ceb.2009.04.009</pub-id>
+          <pub-id pub-id-type="pmid">19450959</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B7">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bartel</surname>
+            <given-names>DP</given-names>
+          </name>
+          <article-title>MicroRNAs: target recognition and regulatory functions</article-title>
+          <source>Cell</source>
+          <year>2009</year>
+          <volume>136</volume>
+          <fpage>215</fpage>
+          <lpage>233</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2009.01.002</pub-id>
+          <pub-id pub-id-type="pmid">19167326</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B8">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kertesz</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Iovino</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Unnerstall</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Gaul</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Segal</surname>
+            <given-names>E</given-names>
+          </name>
+          <article-title>The role of site accessibility in microRNA target recognition</article-title>
+          <source>Nat Genet</source>
+          <year>2007</year>
+          <volume>39</volume>
+          <fpage>1278</fpage>
+          <lpage>1284</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng2135</pub-id>
+          <pub-id pub-id-type="pmid">17893677</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B9">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Bhattacharyya</surname>
+            <given-names>SN</given-names>
+          </name>
+          <name>
+            <surname>Habermacher</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Martine</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Closs</surname>
+            <given-names>EI</given-names>
+          </name>
+          <name>
+            <surname>Filipowicz</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Relief of microRNA-mediated translational repression in human cells subjected to stress</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>125</volume>
+          <fpage>1111</fpage>
+          <lpage>1124</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.04.031</pub-id>
+          <pub-id pub-id-type="pmid">16777601</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B10">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kedde</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Strasser</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Boldajipour</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Oude Vrielink</surname>
+            <given-names>JA</given-names>
+          </name>
+          <name>
+            <surname>Slanchev</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>le Sage</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Nagel</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Voorhoeve</surname>
+            <given-names>PM</given-names>
+          </name>
+          <name>
+            <surname>van Duijse</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Ãrom</surname>
+            <given-names>UA</given-names>
+          </name>
+          <name>
+            <surname>Lund</surname>
+            <given-names>AH</given-names>
+          </name>
+          <name>
+            <surname>Perrakis</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Raz</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Agami</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>RNA-binding protein Dnd1 inhibits microRNA access to target mRNA</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>131</volume>
+          <fpage>1273</fpage>
+          <lpage>1286</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2007.11.034</pub-id>
+          <pub-id pub-id-type="pmid">18155131</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B11">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ketting</surname>
+            <given-names>RF</given-names>
+          </name>
+          <article-title>A dead end for microRNAs</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>131</volume>
+          <fpage>1226</fpage>
+          <lpage>1227</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2007.12.004</pub-id>
+          <pub-id pub-id-type="pmid">18160032</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B12">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schratt</surname>
+            <given-names>GM</given-names>
+          </name>
+          <name>
+            <surname>Tuebing</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Nigh</surname>
+            <given-names>EA</given-names>
+          </name>
+          <name>
+            <surname>Kane</surname>
+            <given-names>CG</given-names>
+          </name>
+          <name>
+            <surname>Sabatini</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Kiebler</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Greenberg</surname>
+            <given-names>ME</given-names>
+          </name>
+          <article-title>A brain-specific microRNA regulates dendritic spine development</article-title>
+          <source>Nature</source>
+          <year>2006</year>
+          <volume>439</volume>
+          <fpage>283</fpage>
+          <lpage>289</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature04367</pub-id>
+          <pub-id pub-id-type="pmid">16421561</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B13">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hammell</surname>
+            <given-names>CM</given-names>
+          </name>
+          <name>
+            <surname>Lubin</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Boag</surname>
+            <given-names>PR</given-names>
+          </name>
+          <name>
+            <surname>Blackwell</surname>
+            <given-names>TK</given-names>
+          </name>
+          <name>
+            <surname>Ambros</surname>
+            <given-names>V</given-names>
+          </name>
+          <article-title>nhl-2 modulates miRNA activity in Caenorabditis elegans</article-title>
+          <source>Cell</source>
+          <year>2009</year>
+          <volume>136</volume>
+          <fpage>926</fpage>
+          <lpage>938</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2009.01.053</pub-id>
+          <pub-id pub-id-type="pmid">19269369</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B14">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schwamborn</surname>
+            <given-names>JC</given-names>
+          </name>
+          <name>
+            <surname>Berezikov</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Knoblich</surname>
+            <given-names>JA</given-names>
+          </name>
+          <article-title>The TRIM-NHL protein TRIM32 activates microRNAs and prevents self-renewal in mouse neural progenitors</article-title>
+          <source>Cell</source>
+          <year>2009</year>
+          <volume>136</volume>
+          <fpage>913</fpage>
+          <lpage>925</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2008.12.024</pub-id>
+          <pub-id pub-id-type="pmid">19269368</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B15">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Wickens</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Bernstein</surname>
+            <given-names>DS</given-names>
+          </name>
+          <name>
+            <surname>Kimble</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Parker</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>A PUF family portrait: 3'UTR regulation as a way of life</article-title>
+          <source>Trends Genet</source>
+          <year>2002</year>
+          <volume>18</volume>
+          <fpage>150</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0168-9525(01)02616-6</pub-id>
+          <pub-id pub-id-type="pmid">11858839</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B16">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Crittenden</surname>
+            <given-names>SL</given-names>
+          </name>
+          <name>
+            <surname>Bernstein</surname>
+            <given-names>DS</given-names>
+          </name>
+          <name>
+            <surname>Bachorik</surname>
+            <given-names>JL</given-names>
+          </name>
+          <name>
+            <surname>Thompson</surname>
+            <given-names>BE</given-names>
+          </name>
+          <name>
+            <surname>Gallegos</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Petcherski</surname>
+            <given-names>AG</given-names>
+          </name>
+          <name>
+            <surname>Moulder</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Barstead</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Wickens</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Kimble</surname>
+            <given-names>J</given-names>
+          </name>
+          <article-title>A conserved RNA-binding protein controls germline stem cells in Caenorhabditis elegans</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>417</volume>
+          <fpage>660</fpage>
+          <lpage>663</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature754</pub-id>
+          <pub-id pub-id-type="pmid">12050669</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B17">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Moore</surname>
+            <given-names>FL</given-names>
+          </name>
+          <name>
+            <surname>Jaruzelska</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Fox</surname>
+            <given-names>MS</given-names>
+          </name>
+          <name>
+            <surname>Urano</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Firpo</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Turek</surname>
+            <given-names>PJ</given-names>
+          </name>
+          <name>
+            <surname>Dorfman</surname>
+            <given-names>DM</given-names>
+          </name>
+          <name>
+            <surname>Pera</surname>
+            <given-names>RA</given-names>
+          </name>
+          <article-title>Human Pumilio-2 is expressed in embryonic stem cells and germ cells and interacts with DAZ (deleted in AZoospermia) and DAZ-like proteins</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>538</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0234478100</pub-id>
+          <pub-id pub-id-type="pmid">12511597</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B18">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Salvetti</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Rossi</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lena</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Batistoni</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Deri</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Rainaldi</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Locci</surname>
+            <given-names>MT</given-names>
+          </name>
+          <name>
+            <surname>Evangelista</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Gremigni</surname>
+            <given-names>V</given-names>
+          </name>
+          <article-title>DjPum, a homologue of Drosophila Pumilio, is essential to planarian stem cell maintenance</article-title>
+          <source>Development</source>
+          <year>2005</year>
+          <volume>132</volume>
+          <fpage>1863</fpage>
+          <lpage>1874</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.01785</pub-id>
+          <pub-id pub-id-type="pmid">15772127</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B19">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Schweers</surname>
+            <given-names>BA</given-names>
+          </name>
+          <name>
+            <surname>Walters</surname>
+            <given-names>KJ</given-names>
+          </name>
+          <name>
+            <surname>Stern</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>The Drosophila melanogaster translational repressor pumilio regulates neuronal excitability</article-title>
+          <source>Genetics</source>
+          <year>2002</year>
+          <volume>161</volume>
+          <fpage>1177</fpage>
+          <lpage>1185</lpage>
+          <pub-id pub-id-type="pmid">12136020</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B20">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Dubnau</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Chiang</surname>
+            <given-names>AS</given-names>
+          </name>
+          <name>
+            <surname>Grady</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Barditch</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Gossweiler</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>McNeil</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Smith</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Buldoc</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Scott</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Certa</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Broger</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Tully</surname>
+            <given-names>T</given-names>
+          </name>
+          <article-title>The staufen/pumilio pathway is involved in Drosophila long-term memory</article-title>
+          <source>Curr Biol</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>286</fpage>
+          <lpage>296</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0960-9822(03)00064-2</pub-id>
+          <pub-id pub-id-type="pmid">12593794</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B21">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Fiore</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Khudayberdiev</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Christensen</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Siegel</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Flavell</surname>
+            <given-names>SW</given-names>
+          </name>
+          <name>
+            <surname>Kim</surname>
+            <given-names>TK</given-names>
+          </name>
+          <name>
+            <surname>Greenberg</surname>
+            <given-names>ME</given-names>
+          </name>
+          <name>
+            <surname>Schratt</surname>
+            <given-names>G</given-names>
+          </name>
+          <article-title>Mef2-mediated transcription of the miR379-410 cluster regulates activity-dependent dendritogenesis by fine-tuning Pumilio2 protein levels</article-title>
+          <source>EMBO J</source>
+          <year>2009</year>
+          <volume>28</volume>
+          <fpage>697</fpage>
+          <lpage>710</lpage>
+          <pub-id pub-id-type="doi">10.1038/emboj.2009.10</pub-id>
+          <pub-id pub-id-type="pmid">19197241</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B22">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Olivas</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Parker</surname>
+            <given-names>R</given-names>
+          </name>
+          <article-title>The Puf3 protein is a transcript-specific regulator of mRNA degradation in yeast</article-title>
+          <source>EMBO J</source>
+          <year>2000</year>
+          <volume>19</volume>
+          <fpage>6602</fpage>
+          <lpage>6611</lpage>
+          <pub-id pub-id-type="doi">10.1093/emboj/19.23.6602</pub-id>
+          <pub-id pub-id-type="pmid">11101532</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B23">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Goldstrohm</surname>
+            <given-names>AC</given-names>
+          </name>
+          <name>
+            <surname>Hook</surname>
+            <given-names>BA</given-names>
+          </name>
+          <name>
+            <surname>Seay</surname>
+            <given-names>DJ</given-names>
+          </name>
+          <name>
+            <surname>Wickens</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>PUF proteins bind Pop2p to regulate messenger RNAs</article-title>
+          <source>Nat Struct Mol Biol</source>
+          <year>2006</year>
+          <volume>13</volume>
+          <fpage>533</fpage>
+          <lpage>539</lpage>
+          <pub-id pub-id-type="doi">10.1038/nsmb1100</pub-id>
+          <pub-id pub-id-type="pmid">16715093</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B24">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Kadyrova</surname>
+            <given-names>LY</given-names>
+          </name>
+          <name>
+            <surname>Habara</surname>
+            <given-names>Y</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>TH</given-names>
+          </name>
+          <name>
+            <surname>Wharton</surname>
+            <given-names>RP</given-names>
+          </name>
+          <article-title>Translational control of maternal cyclin B mRNA by Nanos in the Drosophila germline</article-title>
+          <source>Development</source>
+          <year>2007</year>
+          <volume>134</volume>
+          <fpage>1519</fpage>
+          <lpage>1527</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.002212</pub-id>
+          <pub-id pub-id-type="pmid">17360772</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B25">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Galgano</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Forrer</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Jaskiewicz</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Kanitz</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Zavolan</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Gerber</surname>
+            <given-names>AP</given-names>
+          </name>
+          <article-title>Comparative analysis of mRNA targets for human PUF-family proteins suggests extensive interaction with the miRNA regulatory system</article-title>
+          <source>PLoS One</source>
+          <year>2008</year>
+          <volume>3</volume>
+          <fpage>e3164</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0003164</pub-id>
+          <pub-id pub-id-type="pmid">18776931</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B26">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Nolde</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Saka</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Reinert</surname>
+            <given-names>KL</given-names>
+          </name>
+          <name>
+            <surname>Slack</surname>
+            <given-names>FJ</given-names>
+          </name>
+          <article-title>The Caenorhabditis elegans pumilio homolog, puf-9, is required for the 3'UTR-mediated repression of the let-7 microRNA target gene, hbl-1</article-title>
+          <source>Dev Biol</source>
+          <year>2007</year>
+          <volume>305</volume>
+          <fpage>551</fpage>
+          <lpage>563</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ydbio.2007.02.040</pub-id>
+          <pub-id pub-id-type="pmid">17412319</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B27">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Lewis</surname>
+            <given-names>BP</given-names>
+          </name>
+          <name>
+            <surname>Burge</surname>
+            <given-names>CB</given-names>
+          </name>
+          <name>
+            <surname>Bartel</surname>
+            <given-names>DP</given-names>
+          </name>
+          <article-title>Conserved seed pairing, often flanked by adenosines, indicates that thousands of human genes are microRNA targets</article-title>
+          <source>Cell</source>
+          <year>2005</year>
+          <volume>120</volume>
+          <fpage>15</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2004.12.035</pub-id>
+          <pub-id pub-id-type="pmid">15652477</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B28">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Grimson</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Farh</surname>
+            <given-names>KK</given-names>
+          </name>
+          <name>
+            <surname>Johnston</surname>
+            <given-names>WK</given-names>
+          </name>
+          <name>
+            <surname>Garrett-Engele</surname>
+            <given-names>P</given-names>
+          </name>
+          <name>
+            <surname>Lim</surname>
+            <given-names>LP</given-names>
+          </name>
+          <name>
+            <surname>Bartel</surname>
+            <given-names>DP</given-names>
+          </name>
+          <article-title>MicroRNA targeting specificity in mammals: determinants beyond seed pairing</article-title>
+          <source>Mol Cell</source>
+          <year>2007</year>
+          <volume>27</volume>
+          <fpage>91</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2007.06.017</pub-id>
+          <pub-id pub-id-type="pmid">17612493</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B29">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Friedman</surname>
+            <given-names>RC</given-names>
+          </name>
+          <name>
+            <surname>Farh</surname>
+            <given-names>KK</given-names>
+          </name>
+          <name>
+            <surname>Burge</surname>
+            <given-names>CB</given-names>
+          </name>
+          <name>
+            <surname>Bartel</surname>
+            <given-names>DP</given-names>
+          </name>
+          <article-title>Most mammalian mRNAs are conserved targets of microRNAs</article-title>
+          <source>Genome Res</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <fpage>92</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.082701.108</pub-id>
+          <pub-id pub-id-type="pmid">18955434</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B30">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Eden</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Lipson</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Yogev</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Yakhini</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>Discovering motifs in ranked lists of DNA sequences</article-title>
+          <source>PLoS Comput Biol</source>
+          <year>2007</year>
+          <volume>3</volume>
+          <fpage>e39</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pcbi.0030039</pub-id>
+          <pub-id pub-id-type="pmid">17381235</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B31">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Morris</surname>
+            <given-names>AR</given-names>
+          </name>
+          <name>
+            <surname>Mukherjee</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Keene</surname>
+            <given-names>JD</given-names>
+          </name>
+          <article-title>Ribonomic analysis of human Pum1 reveals cis-trans conservation across species despite evolution of diverse mRNA target sets</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2008</year>
+          <volume>28</volume>
+          <fpage>4093</fpage>
+          <lpage>4103</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.00155-08</pub-id>
+          <pub-id pub-id-type="pmid">18411299</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B32">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Pillai</surname>
+            <given-names>RS</given-names>
+          </name>
+          <name>
+            <surname>Artus</surname>
+            <given-names>CG</given-names>
+          </name>
+          <name>
+            <surname>Filipowicz</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>Tethering of human Ago proteins to mRNA mimics the miRNA-mediated repression of protein synthesis</article-title>
+          <source>RNA</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>1518</fpage>
+          <lpage>1525</lpage>
+          <pub-id pub-id-type="doi">10.1261/rna.7131604</pub-id>
+          <pub-id pub-id-type="pmid">15337849</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B33">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hon</surname>
+            <given-names>LS</given-names>
+          </name>
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>The roles of binding site arrangement and combinatorial targeting in microRNA repression of gene expression</article-title>
+          <source>Genome Biol</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>R166</fpage>
+          <pub-id pub-id-type="doi">10.1186/gb-2007-8-8-r166</pub-id>
+          <pub-id pub-id-type="pmid">17697356</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B34">
+        <mixed-citation publication-type="other">
+          <article-title>MEME</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://meme.sdsc.edu/meme4_4_0/cgi-bin/meme.cgi">http://meme.sdsc.edu/meme4_4_0/cgi-bin/meme.cgi</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="B35">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Chen</surname>
+            <given-names>K</given-names>
+          </name>
+          <name>
+            <surname>Rajewsky</surname>
+            <given-names>N</given-names>
+          </name>
+          <article-title>Natural selection on human microRNA binding sites inferred from SNP data</article-title>
+          <source>Nat Genet</source>
+          <year>2006</year>
+          <volume>38</volume>
+          <fpage>1452</fpage>
+          <lpage>1456</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1910</pub-id>
+          <pub-id pub-id-type="pmid">17072316</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B36">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Shankavaram</surname>
+            <given-names>UT</given-names>
+          </name>
+          <name>
+            <surname>Reinhold</surname>
+            <given-names>WC</given-names>
+          </name>
+          <name>
+            <surname>Nishizuka</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Major</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Morita</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Chary</surname>
+            <given-names>KK</given-names>
+          </name>
+          <name>
+            <surname>Reimers</surname>
+            <given-names>MA</given-names>
+          </name>
+          <name>
+            <surname>Scherf</surname>
+            <given-names>U</given-names>
+          </name>
+          <name>
+            <surname>Kahn</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Dolginow</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Cossman</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Kaldjian</surname>
+            <given-names>EP</given-names>
+          </name>
+          <name>
+            <surname>Scudiero</surname>
+            <given-names>DA</given-names>
+          </name>
+          <name>
+            <surname>Petricoin</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Liotta</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Lee</surname>
+            <given-names>JK</given-names>
+          </name>
+          <name>
+            <surname>Weinstein</surname>
+            <given-names>JN</given-names>
+          </name>
+          <article-title>Transcript and protein expression profiles of the NCI-60 cancer cell panel: an integromic microarray study</article-title>
+          <source>Mol Cancer Ther</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <fpage>820</fpage>
+          <lpage>832</lpage>
+          <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-06-0650</pub-id>
+          <pub-id pub-id-type="pmid">17339364</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B37">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Blower</surname>
+            <given-names>PE</given-names>
+          </name>
+          <name>
+            <surname>Verducci</surname>
+            <given-names>JS</given-names>
+          </name>
+          <name>
+            <surname>Lin</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Zhou</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Chung</surname>
+            <given-names>JH</given-names>
+          </name>
+          <name>
+            <surname>Dai</surname>
+            <given-names>Z</given-names>
+          </name>
+          <name>
+            <surname>Liu</surname>
+            <given-names>CG</given-names>
+          </name>
+          <name>
+            <surname>Reinhold</surname>
+            <given-names>W</given-names>
+          </name>
+          <name>
+            <surname>Lorenzi</surname>
+            <given-names>PL</given-names>
+          </name>
+          <name>
+            <surname>Kaldjian</surname>
+            <given-names>EP</given-names>
+          </name>
+          <name>
+            <surname>Croce</surname>
+            <given-names>CM</given-names>
+          </name>
+          <name>
+            <surname>Weinstein</surname>
+            <given-names>JN</given-names>
+          </name>
+          <name>
+            <surname>Sadee</surname>
+            <given-names>W</given-names>
+          </name>
+          <article-title>MicroRNA expression profiles for the NCI-60 cancer cell panel</article-title>
+          <source>Mol Cancer Ther</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <fpage>1483</fpage>
+          <lpage>1491</lpage>
+          <pub-id pub-id-type="doi">10.1158/1535-7163.MCT-07-0009</pub-id>
+          <pub-id pub-id-type="pmid">17483436</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B38">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ayala</surname>
+            <given-names>YM</given-names>
+          </name>
+          <name>
+            <surname>Pantano</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>D'Ambrogio</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Buratti</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Brindisi</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Marchetti</surname>
+            <given-names>C</given-names>
+          </name>
+          <name>
+            <surname>Romano</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Baralle</surname>
+            <given-names>FE</given-names>
+          </name>
+          <article-title>Human, Drosophila, and C.elegans TDP43: nucleic acid binding properties and splicing regulatory function</article-title>
+          <source>J Mol Biol</source>
+          <year>2005</year>
+          <volume>348</volume>
+          <fpage>575</fpage>
+          <lpage>588</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jmb.2005.02.038</pub-id>
+          <pub-id pub-id-type="pmid">15826655</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B39">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Leung</surname>
+            <given-names>JYT</given-names>
+          </name>
+          <article-title>Fast algorithms for generating all maximal independent sets of interval, circular-arc and chordal graphs</article-title>
+          <source>Journal of Algorithms</source>
+          <year>1984</year>
+          <volume>5</volume>
+          <fpage>22</fpage>
+          <lpage>35</lpage>
+          <pub-id pub-id-type="doi">10.1016/0196-6774(84)90037-3</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B40">
+        <mixed-citation publication-type="other">
+          <article-title>TargetScanHuman</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://www.targetscan.org">http://www.targetscan.org</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="B41">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Hofacker</surname>
+            <given-names>IL</given-names>
+          </name>
+          <name>
+            <surname>Stadler</surname>
+            <given-names>PF</given-names>
+          </name>
+          <article-title>Memory efficient folding algorithms for circular RNA secondary structures</article-title>
+          <source>Bioinformatics</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>1172</fpage>
+          <lpage>1176</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btl023</pub-id>
+          <pub-id pub-id-type="pmid">16452114</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B42">
+        <mixed-citation publication-type="other">
+          <article-title>DRIM</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://bioinfo.cs.technion.ac.il/drim">http://bioinfo.cs.technion.ac.il/drim</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="B43">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Eden</surname>
+            <given-names>E</given-names>
+          </name>
+          <name>
+            <surname>Navon</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Steinfeld</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Lipson</surname>
+            <given-names>D</given-names>
+          </name>
+          <name>
+            <surname>Yakhini</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>GOrilla: a tool for discovery and visualization of enriched GO terms in ranked gene lists</article-title>
+          <source>BMC Bioinformatics</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>48</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-10-48</pub-id>
+          <pub-id pub-id-type="pmid">19192299</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B44">
+        <mixed-citation publication-type="other">
+          <article-title>UCSC Table Browser</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/cgi-bin/hgTables">http://genome.ucsc.edu/cgi-bin/hgTables</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="B45">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Larkin</surname>
+            <given-names>MA</given-names>
+          </name>
+          <name>
+            <surname>Blackshields</surname>
+            <given-names>G</given-names>
+          </name>
+          <name>
+            <surname>Brown</surname>
+            <given-names>NP</given-names>
+          </name>
+          <name>
+            <surname>Chenna</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>McGettigan</surname>
+            <given-names>PA</given-names>
+          </name>
+          <name>
+            <surname>McWilliam</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Valentin</surname>
+            <given-names>F</given-names>
+          </name>
+          <name>
+            <surname>Wallace</surname>
+            <given-names>IM</given-names>
+          </name>
+          <name>
+            <surname>Wilm</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Lopez</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Thompson</surname>
+            <given-names>JD</given-names>
+          </name>
+          <name>
+            <surname>Gibson</surname>
+            <given-names>TJ</given-names>
+          </name>
+          <name>
+            <surname>Higgins</surname>
+            <given-names>DG</given-names>
+          </name>
+          <article-title>Clustal W and Clustal X version 2.0</article-title>
+          <source>Bioinformatics</source>
+          <year>2007</year>
+          <volume>23</volume>
+          <fpage>2947</fpage>
+          <lpage>2948</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btm404</pub-id>
+          <pub-id pub-id-type="pmid">17846036</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B46">
+        <mixed-citation publication-type="other">
+          <article-title>WebLogo</article-title>
+          <ext-link ext-link-type="uri" xlink:href="http://weblogo.berkeley.edu/logo.cgi">http://weblogo.berkeley.edu/logo.cgi</ext-link>
+        </mixed-citation>
+      </ref>
+      <ref id="B47">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Ben-Dor</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Bruhn</surname>
+            <given-names>L</given-names>
+          </name>
+          <name>
+            <surname>Friedman</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Nachman</surname>
+            <given-names>I</given-names>
+          </name>
+          <name>
+            <surname>Schummer</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Yakhini</surname>
+            <given-names>Z</given-names>
+          </name>
+          <article-title>Tissue classification with gene expression profiles</article-title>
+          <source>J Comput Biol</source>
+          <year>2000</year>
+          <volume>7</volume>
+          <fpage>559</fpage>
+          <lpage>583</lpage>
+          <pub-id pub-id-type="doi">10.1089/106652700750050943</pub-id>
+          <pub-id pub-id-type="pmid">11108479</pub-id>
+        </mixed-citation>
+      </ref>
+      <ref id="B48">
+        <mixed-citation publication-type="book">
+          <name>
+            <surname>de Berg</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Cheong</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>van Kreveld</surname>
+            <given-names>M</given-names>
+          </name>
+          <name>
+            <surname>Overmars</surname>
+            <given-names>M</given-names>
+          </name>
+          <article-title>Kd-trees</article-title>
+          <source>Computational Geometry - Algorithms and Applications</source>
+          <year>2008</year>
+          <edition>3</edition>
+          <publisher-name>Springer</publisher-name>
+          <fpage>99</fpage>
+          <lpage>101</lpage>
+        </mixed-citation>
+      </ref>
+      <ref id="B49">
+        <mixed-citation publication-type="journal">
+          <name>
+            <surname>Mi</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Lazareva-Ulitsky</surname>
+            <given-names>B</given-names>
+          </name>
+          <name>
+            <surname>Loo</surname>
+            <given-names>R</given-names>
+          </name>
+          <name>
+            <surname>Kejariwal</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Vandergriff</surname>
+            <given-names>J</given-names>
+          </name>
+          <name>
+            <surname>Rabkin</surname>
+            <given-names>S</given-names>
+          </name>
+          <name>
+            <surname>Guo</surname>
+            <given-names>N</given-names>
+          </name>
+          <name>
+            <surname>Muruganujan</surname>
+            <given-names>A</given-names>
+          </name>
+          <name>
+            <surname>Doremieux</surname>
+            <given-names>O</given-names>
+          </name>
+          <name>
+            <surname>Campbell</surname>
+            <given-names>MJ</given-names>
+          </name>
+          <name>
+            <surname>Kitano</surname>
+            <given-names>H</given-names>
+          </name>
+          <name>
+            <surname>Thomas</surname>
+            <given-names>PD</given-names>
+          </name>
+          <article-title>The PANTHER database of protein families, subfamilies, functions and pathways</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2005</year>
+          <volume>33</volume>
+          <fpage>D284</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gki078</pub-id>
+          <pub-id pub-id-type="pmid">15608197</pub-id>
+        </mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

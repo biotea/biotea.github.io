@@ -1,0 +1,1935 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:41:11Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3145960" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3145960</identifier><datestamp>2011-09-23</datestamp><setSpec>elsevierwt</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Cell</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Mol. Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1097-2765</issn>
+      <issn pub-type="epub">1097-4164</issn>
+      <publisher>
+        <publisher-name>Cell Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3145960</article-id>
+      <article-id pub-id-type="pmcid">PMC3145960</article-id>
+      <article-id pub-id-type="pmc-uid">3145960</article-id>
+      <article-id pub-id-type="pmid">21700224</article-id>
+      <article-id pub-id-type="publisher-id">S1097-2765(11)00372-8</article-id>
+      <article-id pub-id-type="doi">10.1016/j.molcel.2011.04.026</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Human Senataxin Resolves RNA/DNA Hybrids Formed at Transcriptional Pause Sites to Promote Xrn2-Dependent Termination</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Skourti-Stathaki</surname>
+            <given-names>Konstantina</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Proudfoot</surname>
+            <given-names>NicholasÂ J.</given-names>
+          </name>
+          <email>nicholas.proudfoot@path.ox.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="cor1" ref-type="corresp">â</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gromak</surname>
+            <given-names>Natalia</given-names>
+          </name>
+          <email>natalia.gromak@path.ox.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="cor2" ref-type="corresp">ââ</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Sir William Dunn School of Pathology, University of Oxford, South Parks Road, Oxford, OX1 3RE, UK</aff>
+      <author-notes>
+        <corresp id="cor1"><label>â</label>Corresponding author <email>nicholas.proudfoot@path.ox.ac.uk</email></corresp>
+        <corresp id="cor2"><label>ââ</label>Corresponding author <email>natalia.gromak@path.ox.ac.uk</email></corresp>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>24</day>
+        <month>6</month>
+        <year>2011</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="ppub">.-->
+      <pub-date pub-type="ppub">
+        <day>24</day>
+        <month>6</month>
+        <year>2011</year>
+      </pub-date>
+      <volume>42</volume>
+      <issue>6</issue>
+      <fpage>794</fpage>
+      <lpage>805</lpage>
+      <history>
+        <date date-type="received">
+          <day>4</day>
+          <month>11</month>
+          <year>2010</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>10</day>
+          <month>3</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>4</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2011 ELL &amp; Excerpta Medica.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <copyright-holder>Elsevier Inc.</copyright-holder>
+        <license xlink:href="https://creativecommons.org/licenses/by/3.0/">
+          <license-p>Open Access under <ext-link ext-link-type="uri" xlink:href="https://creativecommons.org/licenses/by/3.0/">CC BY 3.0</ext-link> license</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Summary</title>
+        <p>We present a molecular dissection of pause site-dependent transcriptional termination for mammalian RNA polymerase II (Pol II)-transcribed genes. We show that nascent transcripts form RNA/DNA hybrid structures (R-loops) behind elongating Pol II and are especially prevalent over G-rich pause sites positioned downstream of gene poly(A) signals. Senataxin, a helicase protein associated with AOA2/ALS4 neurodegenerative disorders, acts to resolve these R-loop structures and by so doing allows access of the 5<bold>â²</bold>â3<bold>â²</bold> exonuclease Xrn2 at 3<bold>â²</bold> cleavage poly(A) sites. This affords 3<bold>â²</bold> transcript degradation and consequent Pol II termination. In effect, R-loops formed over G-rich pause sites, followed by their resolution by senataxin, are key steps in the termination process.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <sec>
+          <title>Graphical Abstract</title>
+          <p>
+            <fig id="dfig1" position="anchor">
+              <graphic xlink:href="fx1"/>
+            </fig>
+          </p>
+        </sec>
+        <sec>
+          <title>Highlights</title>
+          <p>âº Senataxin is required for pause-dependent Pol II termination in human genes âº R-loops accumulate over G-rich pause regions and are required for termination âº R-loops dependent on transcription, functional poly(A) signal, and pause elements âº Senataxin resolves R-loops to allow Xrn2 to mediate Pol II release from the gene</p>
+        </sec>
+      </abstract>
+    </article-meta>
+    <notes>
+      <p>Published: June 23, 2011</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec1">
+      <title>Introduction</title>
+      <p>All steps in gene expression are thought to be interconnected and co-ordinately regulated (<xref rid="bib31" ref-type="bibr">Moore and Proudfoot, 2009</xref>). Transcription termination is defined as the cessation of RNA synthesis and release of RNA polymerase II (Pol II) from its DNA template. Recent evidence shows that this process is important for optimal protein production (<xref rid="bib45" ref-type="bibr">West and Proudfoot, 2009</xref>). Efficient Pol II termination is dependent on both a functional poly(A) signal and downstream terminator sequences (<xref rid="bib7 bib46 bib47 bib48" ref-type="bibr">Connelly and Manley, 1988; West etÂ al., 2004, 2008; Whitelaw and Proudfoot, 1986</xref>). Two classes of terminator sequences have been identified in human genes: cotranscriptionally cleaved (CoTC) RNA sequences and transcription pause sites. The human Î²-globin gene contains a CoTC element, located â¼1kb downstream of the poly(A) site, which is essential for efficient Pol II transcriptional termination (<xref rid="bib11 bib12" ref-type="bibr">Dye and Proudfoot, 1999, 2001</xref>). CoTC RNA undergoes rapid cleavage that exposes the 3â²-flanking RNA to degradation by the 5â²â3â² exonuclease Xrn2 (<xref rid="bib46" ref-type="bibr">West etÂ al., 2004</xref>). The function of Xrn2/Rat1 in the termination process has been studied quite extensively (<xref rid="bib23 bib25 bib28 bib50" ref-type="bibr">Kaneko etÂ al., 2007b; Kim etÂ al., 2004; Luo etÂ al., 2006; Xiang etÂ al., 2009</xref>). Alternatively, transcription pause sites act to slow down elongating Pol II and have been identified in Î±2- and Î³-globin genes (<xref rid="bib15 bib35" ref-type="bibr">Enriquez-Harris etÂ al., 1991; Plant etÂ al., 2005</xref>). Another pause site, defined as the G-rich MAZ termination element, facilitates termination of the human C2 complement gene (<xref rid="bib2" ref-type="bibr">Ashfield etÂ al., 1994</xref>). The human Î²-actin gene also possesses a G-rich pause element downstream of the poly(A) signal, which similarly acts to promote transcriptional termination through Xrn2-mediated degradation of the downstream transcript exposed by poly(A) site cleavage (<xref rid="bib18" ref-type="bibr">Gromak etÂ al., 2006</xref>). Interestingly, genome-wide analysis reveals that G-rich sequences immediately downstream of poly(A) signals are relatively common in mammalian genes (<xref rid="bib37" ref-type="bibr">Salisbury etÂ al., 2006</xref>), suggesting that these elements may play an essential function in gene regulation.</p>
+      <p>Sen1, an RNA/DNA helicase, is known to cooperate with Xrn2/Rat1 to promote efficient transcriptional termination in <italic>S.Â cerevisiae</italic> (<xref rid="bib24" ref-type="bibr">Kawauchi etÂ al., 2008</xref>). In addition a single amino acid mutation in the Sen1 helicase domain compromises its function, resulting in altered genome-wide distribution of Pol II over both coding and noncoding genes (<xref rid="bib38" ref-type="bibr">Steinmetz etÂ al., 2006</xref>). Sen1 is also involved in the processing of tRNA, snRNAs, and snoRNAs, as well as in transcription-coupled DNA repair (<xref rid="bib36 bib38 bib42" ref-type="bibr">Rasmussen and Culbertson, 1998; Steinmetz etÂ al., 2006; Ursic etÂ al., 1997</xref>). Furthermore, biochemical studies have revealed that Sen1 N-terminal domain interacts with Rpb1, the largest Pol II subunit; Rad2, required for DNA repair; and Rnt1 (RNase III), essential for the maturation of multiple RNAs (<xref rid="bib43" ref-type="bibr">Ursic etÂ al., 2004</xref>).</p>
+      <p>Human senataxin, the mammalian Sen1 homolog, was initially identified when mutations causing ataxia oculomotor apraxia 2 (AOA2) and amyotrophic lateral sclerosis type 4 (ALS4) were mapped to the senataxin gene (SETX) (reviewed in <xref rid="bib20 bib34" ref-type="bibr">James and Talbot, 2006; Palau and EspinÃ³s, 2006</xref>). These diseases result in progressive degeneration of motor neurons in the brain and spinal cord, progressive muscle weakness, and atrophy. SETX encodes a 302.8 kD widely expressed protein containing an N-terminal putative protein-protein interaction domain and a C-terminal DEAD-box helicase domain, followed by a nuclear localization signal (NLS) (<xref rid="bib5" ref-type="bibr">Chen etÂ al., 2004</xref>). Most senataxin mutations found in AOA2/ALS4 families either cause premature protein termination or interfere with the function of the helicase or N-terminal protein interaction domains (<xref rid="bib5 bib9 bib10 bib16 bib32" ref-type="bibr">Chen etÂ al., 2004; Criscuolo etÂ al., 2006; Duquette etÂ al., 2005; Fogel and Perlman, 2006; Moreira etÂ al., 2004</xref>). However, the precise mechanism of toxicity caused by these mutations and manifested in AOA2/ALS4 patients remains to be elucidated. Since senataxin localizes to both nucleus and cytoplasm, it may possess additional cytoplasmic roles in RNA metabolism and translational regulation (<xref rid="bib6" ref-type="bibr">Chen etÂ al., 2006</xref>). The domain structure of senataxin is similar to Sen1, and its C-terminal helicase domain is also homologous to helicase domains of human immunoglobulin Î¼-Binding Protein 2 (IGHMBP2) and the nonsense-mediated mRNA decay factor (UPF1). Interestingly, mutations in IGHMBP2 have been previously found to cause autosomal recessive spinal muscular atrophy (SMA) (<xref rid="bib17" ref-type="bibr">Grohmann etÂ al., 2001</xref>). At a cellular level, mutations in senataxin cause hypersensitivity to single-strand DNA damage, but not to ionizing radiation, as observed in ataxia-telangiectasia mutated (ATM)-deficient cells (<xref rid="bib6 bib39" ref-type="bibr">Chen etÂ al., 2006; Suraweera etÂ al., 2007</xref>). Similarly to its yeast counterpart, senataxin interacts with Pol II and other RNA processing factors, such as poly(A)-binding proteins 1 and 2 (PABP1/2), hnRNPs, SAP155, and SMN, pointing toward a role for senataxin in the regulation of gene expression (<xref rid="bib40" ref-type="bibr">Suraweera etÂ al., 2009</xref>).</p>
+      <p>We describe here the role of senataxin in the regulation of gene transcription. We demonstrate that senataxin depletion in HeLa cells causes an increase in readthrough RNA and Pol II density downstream of the poly(A) site, implying an involvement in transcriptional termination. Using DNA immunoprecipitation (DIP) analysis on endogenous genes and transfected constructs, we demonstrate that RNA/DNA hybrid structures (R-loops) are formed across transcription units by interaction of the nascent transcript with the ssDNA template behind the elongating PolÂ II. R-loops are dependent on transcription, functional poly(A) signals, and termination elements. Overexpression of RNase H1 inÂ vivo acts to resolve R-loops and causes transcriptional readthrough. Upon senataxin depletion, R-loops are stabilized downstream of the poly(A) signal, preventing Xrn2 recruitment, nascent RNA degradation, and efficient termination. We predict that senataxin acts to resolve R-loops in pause-dependent transcription termination.</p>
+    </sec>
+    <sec sec-type="results" id="sec2">
+      <title>Results</title>
+      <sec id="sec2.1">
+        <title>Senataxin Promotes Transcriptional Termination onÂ Transfected Gene Constructs</title>
+        <p>Previous work in <italic>S.Â cerevisiae</italic> has demonstrated that Sen1 is required to promote Pol I and Pol II transcriptional termination (<xref rid="bib24" ref-type="bibr">Kawauchi etÂ al., 2008</xref>). To test if human senataxin protein is also involved in transcriptional termination, we employed RNAi to deplete senataxin in HeLa cells to a 15% level, using SETX siRNA1 (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A). Next, we tested if the transcriptional termination profile of gene constructs transiently transfected into HeLa cells is affected in senataxin-depleted cells. Here, we used two previously described gene constructs containing the Î²-actin pause element or MAZ4 pause sequences, cloned downstream of the Î²-globin poly(A) signal instead of its termination CoTC element (<xref rid="bib18" ref-type="bibr">Gromak etÂ al., 2006</xref>) (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B). Transcription of these gene constructs is driven by the efficient HIV promoter, which is fully activated by coexpression of TAT <italic>trans</italic>-activator. Both the Î²-actin pause element and MAZ4 G-rich pause sequences have been previously shown to promote poly(A) site- and Xrn2-dependent transcriptional termination (<xref rid="bib18" ref-type="bibr">Gromak etÂ al., 2006</xref>).</p>
+        <p>To investigate if senataxin affects transcriptional termination of Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs, we performed an RNase protection analysis (RPA) on nuclear and cytoplasmic RNA harvested from mock-treated and senataxin- siRNA1-treated cells, detecting nascent transcripts that readthrough the normal termination signals (<xref rid="bib1 bib35" ref-type="bibr">Ashe etÂ al., 1995; Plant etÂ al., 2005</xref>). In these experiments we used uniformly labeled P/U3 riboprobe positioned over the HIV promoter (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B). In the nucleus it detects an 85 nt band (P), resulting from protection of correctly initiated transcripts, and a 240 nt readthrough band (U3), representing transcripts derived from nonterminated Pol II complexes that have transcribed around the plasmid. No readthrough RNA, as represented by the U3 band, was detected in the cytoplasm, reflecting a lack of its nuclear export to the cytoplasm or its cytoplasmic instability. The signal ratio between U3 and P products is indicative of the termination efficiency of Pol II on a particular construct. As demonstrated in <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B (middle and right panels), senataxin depletion causes a 2.5- to 4-fold increase in the amount of the readthrough U3 band for both Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs, suggesting a role for senataxin in transcriptional termination.</p>
+        <p>The termination efficiency of Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs in senataxin-deficient cells was also assessed using quantitative RT-PCR analysis. In this experiment, we measured the amount of readthrough transcript A and the amount of correctly initiated transcript B (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B for primer positions). The ratio of A/B represents the efficiency of transcriptional termination. As demonstrated in <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>C, senataxin depletion causes a 1.8- to 2.2-fold increase in the amount of the readthrough transcript A for both Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs, further pointing toward a role for senataxin in transcriptional termination. To avoid potential off-target effects during the RNAi procedure, we also used SETX siRNA2, targeting a different region of SETX mRNA. Both qRT-PCR and RPA revealed a transcriptional termination defect of Î²-globin/MAZ4 construct in SETX siRNA2-depleted cells (<xref rid="app2" ref-type="sec">FigureÂ S1</xref>).</p>
+      </sec>
+      <sec id="sec2.2">
+        <title>R-Loop Formation on Transfected Gene Constructs</title>
+        <p>The majority of senataxin mutations observed in AOA2/ALS4 patients are detected within the helicase or N-terminal protein interaction domains, suggesting their importance in senataxin function. Furthermore, the function of yeast Sen1 in transcription is likely to be associated with Sen1 RNA/DNA helicase activity, which acts to resolve RNA/DNA hybrids formed between nascent RNA and template DNA strand behind elongating Pol II (<xref rid="bib30" ref-type="bibr">Mischo etÂ al., 2011</xref>).</p>
+        <p>To determine if the molecular function of human senataxin is associated with R-loop resolution, we tested whether RNA/DNA hybrids are formed over the transcribed regions of human genes. We employed DNA immunoprecipitation (DIP), which relies on the immunoprecipitation of noncrosslinked purified RNA/DNA hybrids, using S9.6 antibody, which recognizes RNA/DNA duplexes (<xref rid="bib3 bib14" ref-type="bibr">Boguslawski etÂ al., 1986; El Hage etÂ al.,2010</xref>). We demonstrate that R-loops are formed over the transcription units of Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs, showing enrichment at the 5â² end of each transcription unit (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A). To verify that these R-loop signals are dependent on active transcription, we performed DIP analysis on HeLa cells transfected with Î²-globin/Î²-actin gene construct without the <italic>trans</italic>-activator TAT and observed a reduction of R-loop signal over the coding regions of the gene (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B, left panel). Some R-loop signal still remained in âTAT samples, possibly due to significant levels of âleakyâ transcription, observed in HeLa cells. Thus <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B (right panel) shows that reduced mRNA levels are still detected in -TAT samples. These results confirm the transcriptional dependency of R-loops.</p>
+        <p>Next, we investigated if <italic>cis</italic> mutations affecting transcriptional termination of Î²-globin/MAZ4 construct can affect the R-loop distribution profile. Here, we used constructs containing either mutated poly(A) signal (ÎpA) or mutant MAZ sequences (mMAZ4), which do not promote transcriptional pausing. Both of these mutations cause transcriptional termination defects (<xref rid="bib18" ref-type="bibr">Gromak etÂ al., 2006</xref>). Interestingly, both mutations decreased the levels of R-loop signal across the Î²-globin/MAZ4construct (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C). Our previous studies show that strong termination defects, as observed for these constructs, cause a partial reduction in levels of transcription (<xref rid="bib45" ref-type="bibr">West and Proudfoot, 2009</xref>) with a consequent decrease in R-loop formation. This effect is similar to that seen for the construct transfected without TAT (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B). The fact that poly(A) signal and termination pause elements are both associated with efficient transcriptional termination and the formation of R-loops implies that R-loops represent a feature of properly defined transcription units, containing functional promoter and terminator elements.</p>
+        <p>We finally tested if R-loops formed over the transfected gene constructs are dependent on senataxin. Following RNAi-mediated knockdown of senataxin, we observed a decrease in R-loops over the coding regions of the gene constructs, but their substantial increase upstream of the Î²-actin and MAZ4 pause elements (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>D). The reduction of R-loops over the ORF is most probably due to the reduced level of transcription detected upon senataxin depletion (see <xref rid="fig4" ref-type="fig">Figures 4</xref>B and 4C). However, the increase in R-loops downstream of the poly(A) signal suggests a role of senataxin in their resolution that may be connected to transcriptional termination.</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>RNase H Resolves R-Loops and Causes Transcriptional Readthrough InÂ Vivo</title>
+        <p>To investigate if R-loops are directly associated with the transcriptional termination process, we overexpressed GFP-tagged RNase H1 (<xref rid="bib4" ref-type="bibr">Cerritelli etÂ al., 2003</xref>), an enzyme which specifically degrades RNA in RNA/DNA hybrids, in HeLa cells. The level of RNase H1 overexpression was measured by western blot as compared to endogenous actin (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>A). We then investigated the effect of RNase H1overexpression on transcriptional termination of the Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs. As controls, we used constructs either lacking termination elements (ÎCoTC) or containing mMAZ4 (<xref rid="bib11 bib18" ref-type="bibr">Dye and Proudfoot, 1999; Gromak etÂ al., 2006</xref>). The termination efficiency was measured by qRT-PCR with primers positioned over regions A and B (see <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B for primer positions). As demonstrated in <xref rid="fig3" ref-type="fig">Figures 3</xref>B and <xref rid="app2" ref-type="sec">S2</xref>, progressive overexpression of RNase H1 caused an increase in the amount of readthrough transcript of Î²-globin/Î²-actin and Î²-globin/MAZ4, but not Î²-globin/mMAZ4 and ÎCoTC plasmids. This suggests a specific effect of RNase H1 on constructs containing functional terminator G-rich pause elements.</p>
+        <p>We also measured the amount of active transcription on the Î²-globin/MAZ4 construct in mock-treated and RNase H1-overexpressing HeLa cells, using nuclear run-on analysis (NRO) (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>C). Here, we employed single-stranded antisense DNA probes (cloned into M13 phage DNA), covering Î²-globin/MAZ4 regions as indicated. In mock-treated HeLa cells we observed an efficient transcriptional termination of the Î²-globin/MAZ4 construct, as indicated by reduced signals over probes A and U3. Interestingly, overexpression of RNase H1 (2Â Î¼g of plasmid) caused a 2-fold increase in the amount of readthrough transcription, observed over probe A. We also saw a slight increase in the amount of readthrough transcription over the probe U3. In addition, we detected a substantial termination defect in cells depleted of senataxin protein, as indicated by a 3- to 4-fold increase in A and U3 signals. To further investigate the mechanistic connection between the termination defect caused by either senataxin depletion or RNase H1 overexpression, we studied the R-loop profile of the Î²-globin/MAZ4 construct following RNase H1 overexpression. Using DIP analysis (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>D) we show that overexpression of RNase H1 in HeLa cells diminishes R-loop levels over both gene and termination regions of the Î²-globin/MAZ4 construct. These data suggest that R-loops are involved in the process of transcriptional termination, and their resolution by RNase H1 induces transcriptional readthrough. Next, we tested whether RNase H1 overexpression and its ability to resolve R-loops increases the termination defect, as we observed for senataxin-deficient cells. As shown in <xref rid="fig3" ref-type="fig">FigureÂ 3</xref>E, RNase H1 overexpression enhanced transcript readthrough in Î²-globin/MAZ4 construct in both mock-treated and senataxin-depleted cells. In effect, both the presence of R-loops and their subsequent resolution are required steps inÂ the termination process (see <xref rid="sec3" ref-type="sec">Discussion</xref>). Consequently, itÂ follows that RNase H1 overexpression and senataxin have additive termination defects. These results imply that R-loops are required for transcriptional termination, as is their resolution by senataxin.</p>
+      </sec>
+      <sec id="sec2.4">
+        <title>Senataxin Is Involved in Transcriptional Initiation and Termination of the Endogenous Human Î²-Actin Gene</title>
+        <p>The above experiments rely on analysis of gene constructs with different termination sequences. To validate these data using an endogenous gene system (in native chromatin), we also investigated the role of senataxin in termination of the endogenous Î²-actin gene in HeLa cells. In contrast to transiently transfected plasmids, transcriptional profiles of endogenous genes can beÂ reproducibly analyzed by chromatin immunoprecipitation (ChIP) experiments, employing a number of PCR primers located over the coding and 3â²-flanking regions. Previously, we have mapped a 3â²-flanking pause element involved in transcriptional termination of the human Î²-actin gene (<xref rid="bib18" ref-type="bibr">Gromak etÂ al., 2006</xref>). As shown (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A, left panel), we observe Pol II enrichment over the promoter of Î²-actin gene and around its pause element downstream of the poly(A) signal. Accumulated Pol II levels over Î²-actin gene are likely to be associated with pausing at the promoter and terminator regions and are resonant with gene loop conformations (<xref rid="bib41" ref-type="bibr">Tan-Wong etÂ al., 2008</xref>). Pol II detected over the coding region was lower than over the promoter, suggesting that during transcription only a subfraction of Pol II molecules undergo efficient elongation as generally found for protein-coding genes (<xref rid="bib8 bib33" ref-type="bibr">Core etÂ al., 2008; Nechaev etÂ al., 2010</xref>). To determine if senataxin binds the Î²-actin gene, we performed ChIP analysis using anti-senataxin antibody, which specifically recognizes the 303Â kDa senataxin protein in HeLa cells (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A). We demonstrate that senataxin binds upstream of the Î²-actin pause element at the highest level (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A, right panel). The association of senataxin with Î²-actin gene suggests an involvement in transcriptional regulation. Therefore, we investigated the transcriptional profiles of the Î²-actin gene in senataxin-deficient cells. ChIP analysis revealed that, upon senataxin depletion, reduced levels of Pol II occurred over the promoter region of the Î²-actin gene, implying an effect on transcriptional initiation, which in turn leads to an elongation defect (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B). Additionally, we observe an increase in Pol II density over the 5â² pause and pause regions, indicative of a defect in transcriptional termination.</p>
+        <p>To further substantiate a role for senataxin in transcriptional initiation/elongation and termination, we employed NRO using Br-UTP as the labeled nucleotide (<xref rid="bib8 bib27" ref-type="bibr">Core etÂ al., 2008; Lin etÂ al., 2008</xref>). Br-UTP NRO involves isolation of HeLa cell nuclei in such a way that transcribing polymerases remain actively bound to their DNA templates. These can resume transcription after addition of transcription bufferÂ Â± Br-UTP (or UTP in control samples) inÂ vitro. The nascent RNA containing incorporated Br-UTP is selected using anti-Br-UTP antibody. The advantage of Br-UTP NRO over Pol II ChIP is the ability of Br-UTP NRO to detect actively transcribing polymerases, as opposed to total Pol II levels detected by ChIP. As demonstrated in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>C, in mock-treated cells we observed low RNA signals over the promoter and intron 1 regions, due to lack of transcription over the promoter and the high level of paused Pol II accumulated over intron 1. Both of these amplicons are positioned over a known nucleosome-free region, where Pol II pauses prior to efficient transcription elongation (<xref rid="bib13" ref-type="bibr">Egloff etÂ al., 2009</xref>). We observed high enrichment of nascent transcripts over the intron 3 probe, positioned immediately downstream of the nucleosome-free region, indicative of efficient transcriptional elongation. Based on Br-UTP NRO, we observed a 2- to 5-fold decrease in nascent RNA levels produced over the gene body in senataxin-depleted cells as compared to mock-treated cells (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>C). In contrast, we detected higher enrichment of the nascent readthrough RNA signals over the 5â² pause, pause, C, and D regions, relative to the gene body (intron 1 and 3 probes), in senataxin knockdown cells, indicating a role for senataxin in transcriptional termination (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>C).</p>
+        <p>These data are consistent with our Pol II ChIP results (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B), confirming that senataxin plays a role in transcriptional regulation of human Î²-actin gene. Similarly, experiments in <italic>S.Â cerevisiae</italic> have shown that Sen1 is required to promote Pol I and Pol II transcriptional termination (<xref rid="bib24" ref-type="bibr">Kawauchi etÂ al., 2008</xref>). This points toward the generality of this senataxin-dependent termination mechanism.</p>
+      </sec>
+      <sec id="sec2.5">
+        <title>R-Loops Are Formed over Endogenous Human Genes</title>
+        <p>Next, we investigated if R-loops can be formed over the transcribed regions of endogenous Î²-actin gene similar to transfected gene constructs. As demonstrated in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>D (top panel), R-loops were detected over the transcribed regions of endogenous Î²-actin gene, with their specific enrichment over the intron 1 and immediately downstream of the poly(A) signal. Interestingly, the latter region is also enriched for senataxin binding (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A, right panel). To test the specificity of the signal detected by S9.6 antibody in DIPs, we performed nuclease treatment experiments prior to the immunoprecipitation step. In particular, we treated the samples with RNase H, which recognizes R-loops, and S1 nuclease, which recognizes ssRNA and ssDNA molecules and R-loops at high enzyme concentrations. As demonstrated in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>D (bottom panel), treatment of the samples with RNase H completely abolished the R-loop signals, suggesting that they are specific for RNA/DNA hybrids. As expected, R-loop signals were only partially lost by S1 nuclease treatment.</p>
+      </sec>
+      <sec id="sec2.6">
+        <title>Senataxin Is Required for Xrn2 Recruitment to Promote Efficient Transcriptional Termination</title>
+        <p>Previously, we have demonstrated the role of the human 5â²â3â² exonuclease Xrn2 in the process of transcriptional termination (<xref rid="bib46" ref-type="bibr">West etÂ al., 2004</xref>). To confirm that Xrn2 protein binds the termination region of the endogenous Î²-actin gene, we performed ChIP analysis using anti-Xrn2 antibody. A specific enrichment of Xrn2 signal downstream of the poly(A) signal and upstream of the pause element of the endogenous Î²-actin gene was clearly evident (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>E, gray bars).</p>
+        <p>Next, we tested if Xrn2 recruitment to the termination region of the endogenous Î²-actin gene is affected in senataxin-deficient cells. To that end, we performed Xrn2 ChIP in senataxin-depleted HeLa cells. As demonstrated in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>E, Xrn2 recruitment was substantially reduced in senataxin knockdown cells. These results predict that senataxin is required for the resolution of R-loops formed downstream of the poly(A) signal, allowing Xrn2 recruitment and efficient Pol II transcriptional termination.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="sec3">
+      <title>Discussion</title>
+      <p>Previous studies have extensively characterized the mechanism of transcriptional termination in mammals (<xref rid="bib23 bib28 bib46 bib47" ref-type="bibr">Kaneko etÂ al., 2007b; Luo etÂ al., 2006; West etÂ al., 2004, 2008</xref>). The 5â²â3â² exonuclease Xrn2 recognizes the nascent RNA cleaved at the poly(A) site, promotes its degradation, and so causes Pol II transcriptional termination. This requires termination elements located downstream of the poly(A) signal, such as pause sites or CoTC elements. Here, we describe a molecular function for human senataxin protein in this process. Using ChIP, NRO, and RPA approaches, we show that senataxin-deficient HeLa cells haveÂ transcription initiation/elongation and termination defects (<xref rid="fig1 fig4" ref-type="fig">Figures 1 and 4</xref>). In particular, we observe a decrease in nascent RNA and Pol II density over the gene body and an increase in the amount of readthrough RNA and Pol II density downstream of the poly(A) signal in the termination regions. We hypothesize that the function of senataxin protein in human cells may be related to its RNA/DNA helicase activity, and, in particular, its ability to unwind RNA/DNA hybrids formed behind the elongating Pol II between the nascent RNA transcript and single-stranded DNA template. Using the DIP technique, we show that R-loops can be efficiently detected over transcribed regions of the endogenous Î²-actin gene and transfected gene constructs (<xref rid="fig2 fig4" ref-type="fig">Figures 2 and 4</xref>). We observed a stronger R-loop profile over the transfected constructs than with the endogenous Î²-actin gene, most probably due to the high level of transcription induced by the strong HIV promoter. Furthermore, the RNA/DNA hybrid signature of R-loops was confirmed by RNase H treatment, specifically targeting their degradation (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>). Based on our transfected gene constructs, we show that formation of R-loops is dependent upon active transcription, the presence of a functional poly(A) signal, and termination G-rich pause elements (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>). Interestingly, senataxin depletion caused accumulation of R-loops downstream of the poly(A) signal, supporting the idea that it has a function in R-loop resolution in termination regions (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>). We also demonstrate that RNase H1 overexpression inÂ vivo resolves R-loops, resulting in transcriptional readthrough (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>). In effect, R-loops formed over pause elements can be considered as an essential component of the termination process. But once they are formed, their removal by senataxin is also required. Furthermore, senataxin depletion severely affected Xrn2 recruitment to the termination regions (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>).</p>
+      <p>These results add a new molecular layer to the mechanism of Xrn2-mediated transcriptional termination in mammals (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>). Overall, our results suggest that the formation of R-loops in transcriptional pause regions is essential in causing Pol II to pause downstream of the poly(A) site prior to termination. However, these R-loops have to be subsequently resolved by senataxin to release the nascent RNA and so allow its Xrn2-mediated degradation, which ultimately results in efficient Pol II transcriptional termination. The fact that R-loops play an important role in the process of transcriptional termination raises interesting issues for further investigation. In particular, formation of R-loops over the G-rich pause elements may result in folding of the G-richÂ nontemplate ssDNA strand into G-quadruplex structures. Indeed, genome-wide bioinformatics analysis has revealed an enrichment of G-quadruplexes in promoter and 3â²UTR regions of the genes (<xref rid="bib19" ref-type="bibr">Huppert etÂ al., 2008</xref>). Interestingly, 3â²UTR G-quadruplexes are particularly prevalent in cases where another gene was found in close proximity, suggesting that G-quadruplexes may be involved in transcriptional termination (<xref rid="bib19" ref-type="bibr">Huppert etÂ al., 2008</xref>).</p>
+      <p>Recent studies have demonstrated an interesting link between 3â² end processing and transcriptional initiation (<xref rid="bib29" ref-type="bibr">Mapendano etÂ al., 2010</xref>). In agreement with this work, our results reveal that senataxin deficiency causes a defect in both termination and initiation. This is particularly evident on the endogenous Î²-actin gene and less so with the transfected gene constructs, as their expression is driven by the strong HIV promoter. This further supports the idea of factors recycling due to established promoter-terminator âgene-loopâ interactions inÂ vivo. Significantly, constructs with mutations either in the poly(A) site or termination pause element displayed reduced R-loop levels. These gene constructs have a strong termination defect, with Pol II transcribing around the plasmids. While our previous work has demonstrated that both constructs display slightly reduced levels of transcription (<xref rid="bib45" ref-type="bibr">West and Proudfoot, 2009</xref>), it is also plausible that loss of the R-loop signal may relate to loss of gene loop interactions. Whether senataxin is involved in establishing or maintaining this gene conformation will be tested in the future. Senataxin was previously found to interact with Pol II and various RNA binding factors, such as poly(A)-binding proteins 1 and 2 (PABP1/2), hnRNPs, SMN, and SAP155 (<xref rid="bib40" ref-type="bibr">Suraweera etÂ al., 2009</xref>). Therefore, senataxin may be involved in recognition of the poly(A) signal and/or recruitment of other transcription/RNA-processing factors. Transcriptional termination in humans requires 3â²-end processing factor Pcf11, previously found to terminate stalled Pol II complexes inÂ vitro and stimulate transcript degradation by Xrn2 inÂ vivo (<xref rid="bib44 bib52 bib51" ref-type="bibr">West and Proudfoot, 2008; Zhang etÂ al., 2005; Zhang and Gilmour, 2006</xref>). Pcf11 is also implicated in the crosstalk between 3â² end processing and transcriptional initiation (<xref rid="bib29" ref-type="bibr">Mapendano etÂ al., 2010</xref>). It is unclear how Pcf11 is involved in senataxin-mediated R-loop resolution during transcriptional termination. Possibly, nascent RNA, released from R-loops by senataxin, provides a binding platform for Pcf11 prior to Xrn2-mediated termination.</p>
+      <p>Senataxin mutations observed in AOA2/ALS4 patients cause defects in DNA damage repair (<xref rid="bib6 bib39" ref-type="bibr">Chen etÂ al., 2006; Suraweera etÂ al., 2007</xref>). Similarly, deletion of Sen1 in <italic>S.Â cerevisiae</italic> causes transcription-associated DNA recombination defects, connected with transient accumulation of R-loop structures (<xref rid="bib30" ref-type="bibr">Mischo etÂ al., 2011</xref>). These findings suggest that R-loop formation is a frequent event during transcription and that Sen1 acts to prevent their accumulation and the associated genome instability events. Possibly, the tendency of transcription to induce R-loop formation is a general feature of all eukaryotic genomes, which requires a range of dedicated helicases to resolve these potentially harmful structures.</p>
+      <p>Recently, senataxin was shown to be involved in splicing regulation (<xref rid="bib40" ref-type="bibr">Suraweera etÂ al., 2009</xref>). This might be related to the defect in Pol II elongation or defects in interaction with RNA splicing factors. Interestingly, previous studies demonstrated that defects in splicing induced by the depletion of SR splicing factor ASF/SF2 correlate with increased R-loop levels, resulting in genome instability (<xref rid="bib26" ref-type="bibr">Li and Manley, 2005</xref>). In addition, capping enzyme was shown to promote R-loop formation (<xref rid="bib22" ref-type="bibr">Kaneko etÂ al., 2007a</xref>). Mutations in senataxin protein cause AOA2/ALS4 neurodegenerative disorders. Even though senataxin is ubiquitously expressed, neuronal genes display high levels of alternative splicing. Possibly, defects in senataxin function are more severely manifested in neuronal tissues. As compared to yeast Sen1, which has exclusively nuclear localization, senataxin is also detected in the cytoplasm, where it may have additional functions. Future structural studies on this protein and the analysis of its cytoplasmic roles may further clarify the role of senataxin in human cells.</p>
+    </sec>
+    <sec sec-type="methods" id="sec4">
+      <title>Experimental Procedures</title>
+      <sec id="sec4.1">
+        <title>Cell Culture Analysis</title>
+        <p>HIV promoter-driven Î²-globin/MAZ<sub>4</sub>, mMAZ<sub>4</sub>, MAZ<sub>4</sub>ÎpA, ÎCoTC, and Î²-globin/Î²-actin plasmids were cotransfected with TAT plasmid into HeLa cells (except in the experiment illustrated in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B, where TAT was omitted) as described previously (<xref rid="bib11 bib18 bib46" ref-type="bibr">Dye and Proudfoot, 1999; Gromak etÂ al., 2006; WestÂ etÂ al., 2004</xref>). GFP-RNase H1 plasmid was a kind gift from R.J. Crouch (<xref rid="bib4" ref-type="bibr">Cerritelli etÂ al., 2003</xref>). The RNAi procedure was carried out as described (<xref rid="bib49" ref-type="bibr">Wollerton etÂ al., 2004</xref>) (<xref rid="app2" ref-type="sec">Supplemental Experimental Procedures</xref>).</p>
+      </sec>
+      <sec id="sec4.2">
+        <title>RNA Analysis</title>
+        <p>Total RNA was isolated using TRIzol reagent (Invitrogen) and reverse transcribed with SuperScript III Reverse Transcriptase (Invitrogen), using gene-specific reverse primers (<xref rid="app2" ref-type="sec">Table S1</xref>). Spliced Î²-globin mRNA was detected with ex1(F)/ex3(R) primers. RNase protection analysis employed a riboprobe spanning the HIV transcription start site (â161 toÂ +123) (<xref rid="bib1 bib35" ref-type="bibr">Ashe etÂ al., 1995; Plant etÂ al., 2005</xref>). The termination efficiency of the Î²-globin-based gene constructs was calculated as a ratio between readthrough transcript A (AF/AR primers) and correctly initiated transcript B (intr1-ex2(F)/ex2(R) primers), using qRT-PCR analysis. NRO procedure is described in <xref rid="app2" ref-type="sec">Supplemental Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec4.3">
+        <title>ChIP Analysis</title>
+        <p>ChIP was carried out using anti-senataxin (Bethyl Laboratories, Inc.), anti-Pol II (H-224) (Santa Cruz Biotechnology, Inc.), and anti-Xrn2 (<xref rid="bib18" ref-type="bibr">Gromak etÂ al., 2006</xref>) antibodies as previously described (<xref rid="bib21 bib46" ref-type="bibr">Kadener etÂ al., 2002; West etÂ al., 2004</xref>). The immunoprecipitated, nonprecipitated, and input DNAs were used as templates for qPCR, containing QuantiTect SYBR Green PCR Master Mix (QIAGEN) and primers (<xref rid="app2" ref-type="sec">Table S1</xref>).</p>
+      </sec>
+      <sec id="sec4.4">
+        <title>DIP Analysis</title>
+        <p>DIP was performed without a crosslinking step, following the ChIP protocol with some modifications. After the nuclear lysis reaction, extracts were incubated with 30Â Î¼g of proteinase K (Roche) at 55Â°C for 3Â hr, and genomic DNA was isolated. Following sonication, DIP analysis was carried out using an antibody that recognized RNA/DNA hybrids, purified from S9.6 hybridoma cell lines (<xref rid="bib3" ref-type="bibr">Boguslawski etÂ al., 1986</xref>). The immunoprecipitated, nonprecipitated, and input DNAs were used as templates for qPCR. DIP RNase-sensitivity analysis was carried out by adding 200Â U of S1 Nuclease (Fermentas) and 10Â U of RNase H (NEB) prior to the immunoprecipitation step. The 100Â Î¼l nuclease digestion reaction contained 10Ã reaction buffer, and was performed for 2Â hr at 37Â°C.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="bib1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ashe</surname>
+              <given-names>M.P.</given-names>
+            </name>
+            <name>
+              <surname>Griffin</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>James</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Poly(A) site selection in the HIV-1 provirus: inhibition of promoter-proximal polyadenylation by the downstream major splice donor site</article-title>
+          <source>Genes Dev.</source>
+          <volume>9</volume>
+          <year>1995</year>
+          <fpage>3008</fpage>
+          <lpage>3025</lpage>
+          <pub-id pub-id-type="pmid">7498796</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ashfield</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Patel</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Bossone</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>R.D.</given-names>
+            </name>
+            <name>
+              <surname>Marcu</surname>
+              <given-names>K.B.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>MAZ-dependent termination between closely spaced human complement genes</article-title>
+          <source>EMBO J.</source>
+          <volume>13</volume>
+          <year>1994</year>
+          <fpage>5656</fpage>
+          <lpage>5667</lpage>
+          <pub-id pub-id-type="pmid">7988563</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boguslawski</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Michalak</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Mickelson</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Yehle</surname>
+              <given-names>C.O.</given-names>
+            </name>
+            <name>
+              <surname>Patterson</surname>
+              <given-names>W.L.</given-names>
+            </name>
+            <name>
+              <surname>Carrico</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of monoclonal antibody to DNA.RNA and its application to immunodetection of hybrids</article-title>
+          <source>J.Â Immunol. Methods</source>
+          <volume>89</volume>
+          <year>1986</year>
+          <fpage>123</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="pmid">2422282</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cerritelli</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Frolova</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Grinberg</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Love</surname>
+              <given-names>P.E.</given-names>
+            </name>
+            <name>
+              <surname>Crouch</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Failure to produce mitochondrial DNA results in embryonic lethality in Rnaseh1 null mice</article-title>
+          <source>Mol. Cell</source>
+          <volume>11</volume>
+          <year>2003</year>
+          <fpage>807</fpage>
+          <lpage>815</lpage>
+          <pub-id pub-id-type="pmid">12667461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Huynh</surname>
+              <given-names>H.M.</given-names>
+            </name>
+            <name>
+              <surname>Blair</surname>
+              <given-names>I.P.</given-names>
+            </name>
+            <name>
+              <surname>Puls</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Irobi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Dierick</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Abel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kennerson</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Rabin</surname>
+              <given-names>B.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA/RNA helicase gene mutations in a form of juvenile amyotrophic lateral sclerosis (ALS4)</article-title>
+          <source>Am. J.Â Hum. Genet.</source>
+          <volume>74</volume>
+          <year>2004</year>
+          <fpage>1128</fpage>
+          <lpage>1135</lpage>
+          <pub-id pub-id-type="pmid">15106121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y.Z.</given-names>
+            </name>
+            <name>
+              <surname>Hashemi</surname>
+              <given-names>S.H.</given-names>
+            </name>
+            <name>
+              <surname>Anderson</surname>
+              <given-names>S.K.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Moreira</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Lynch</surname>
+              <given-names>D.R.</given-names>
+            </name>
+            <name>
+              <surname>Glass</surname>
+              <given-names>I.A.</given-names>
+            </name>
+            <name>
+              <surname>Chance</surname>
+              <given-names>P.F.</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>C.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Senataxin, the yeast Sen1p orthologue: characterization of a unique protein in which recessive mutations cause ataxia and dominant mutations cause motor neuron disease</article-title>
+          <source>Neurobiol. Dis.</source>
+          <volume>23</volume>
+          <year>2006</year>
+          <fpage>97</fpage>
+          <lpage>108</lpage>
+          <pub-id pub-id-type="pmid">16644229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Connelly</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Manley</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>A functional mRNA polyadenylation signal is required for transcription termination by RNA polymerase II</article-title>
+          <source>Genes Dev.</source>
+          <volume>2</volume>
+          <year>1988</year>
+          <fpage>440</fpage>
+          <lpage>452</lpage>
+          <pub-id pub-id-type="pmid">2836265</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Core</surname>
+              <given-names>L.J.</given-names>
+            </name>
+            <name>
+              <surname>Waterfall</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Lis</surname>
+              <given-names>J.T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Nascent RNA sequencing reveals widespread pausing and divergent initiation at human promoters</article-title>
+          <source>Science</source>
+          <volume>322</volume>
+          <year>2008</year>
+          <fpage>1845</fpage>
+          <lpage>1848</lpage>
+          <pub-id pub-id-type="pmid">19056941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Criscuolo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Chessa</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Di Giandomenico</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mancini</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>SaccÃ </surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Grieco</surname>
+              <given-names>G.S.</given-names>
+            </name>
+            <name>
+              <surname>Piane</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Barbieri</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>De Michele</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Banfi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ataxia with oculomotor apraxia type 2: a clinical, pathologic, and genetic study</article-title>
+          <source>Neurology</source>
+          <volume>66</volume>
+          <year>2006</year>
+          <fpage>1207</fpage>
+          <lpage>1210</lpage>
+          <pub-id pub-id-type="pmid">16636238</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duquette</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Roddier</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>McNabb-Baltar</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gosselin</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>St-Denis</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Dicaire</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Loisel</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Labuda</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Marchand</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Mathieu</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutations in senataxin responsible for Quebec cluster of ataxia with neuropathy</article-title>
+          <source>Ann. Neurol.</source>
+          <volume>57</volume>
+          <year>2005</year>
+          <fpage>408</fpage>
+          <lpage>414</lpage>
+          <pub-id pub-id-type="pmid">15732101</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dye</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Terminal exon definition occurs cotranscriptionally and promotes termination of RNA polymerase II</article-title>
+          <source>Mol. Cell</source>
+          <volume>3</volume>
+          <year>1999</year>
+          <fpage>371</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="pmid">10198639</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dye</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple transcript cleavage precedes polymerase release in termination by RNA polymerase II</article-title>
+          <source>Cell</source>
+          <volume>105</volume>
+          <year>2001</year>
+          <fpage>669</fpage>
+          <lpage>681</lpage>
+          <pub-id pub-id-type="pmid">11389836</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Egloff</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Al-Rawaf</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>O'Reilly</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Murphy</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chromatin structure is implicated in âlateâ elongation checkpoints on the U2 snRNA and beta-actin genes</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>29</volume>
+          <year>2009</year>
+          <fpage>4002</fpage>
+          <lpage>4013</lpage>
+          <pub-id pub-id-type="pmid">19451231</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>El Hage</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Beyer</surname>
+              <given-names>A.L.</given-names>
+            </name>
+            <name>
+              <surname>Tollervey</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of Topoisomerase I leads to R-loop-mediated transcriptional blocks during ribosomal RNA synthesis</article-title>
+          <source>Genes Dev.</source>
+          <volume>24</volume>
+          <year>2010</year>
+          <fpage>1546</fpage>
+          <lpage>1558</lpage>
+          <pub-id pub-id-type="pmid">20634320</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Enriquez-Harris</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Levitt</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Briggs</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A pause site for RNA polymerase II is associated with termination of transcription</article-title>
+          <source>EMBO J.</source>
+          <volume>10</volume>
+          <year>1991</year>
+          <fpage>1833</fpage>
+          <lpage>1842</lpage>
+          <pub-id pub-id-type="pmid">2050120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fogel</surname>
+              <given-names>B.L.</given-names>
+            </name>
+            <name>
+              <surname>Perlman</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel mutations in the senataxin DNA/RNA helicase domain in ataxia with oculomotor apraxia 2</article-title>
+          <source>Neurology</source>
+          <volume>67</volume>
+          <year>2006</year>
+          <fpage>2083</fpage>
+          <lpage>2084</lpage>
+          <pub-id pub-id-type="pmid">17159128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grohmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Schuelke</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Diers</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Lucke</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bertini</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Leonhardt-Horti</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Muntoni</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ouvrier</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutations in the gene encoding immunoglobulin mu-binding protein 2 cause spinal muscular atrophy with respiratory distress type 1</article-title>
+          <source>Nat. Genet.</source>
+          <volume>29</volume>
+          <year>2001</year>
+          <fpage>75</fpage>
+          <lpage>77</lpage>
+          <pub-id pub-id-type="pmid">11528396</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gromak</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>West</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pause sites promote transcriptional termination of mammalian RNA polymerase II</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>26</volume>
+          <year>2006</year>
+          <fpage>3986</fpage>
+          <lpage>3996</lpage>
+          <pub-id pub-id-type="pmid">16648491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huppert</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Bugaut</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kumari</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Balasubramanian</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>G-quadruplexes: the beginning and end of UTRs</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>36</volume>
+          <year>2008</year>
+          <fpage>6260</fpage>
+          <lpage>6268</lpage>
+          <pub-id pub-id-type="pmid">18832370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>James</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Talbot</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The molecular genetics of non-ALS motor neuron diseases</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <volume>1762</volume>
+          <year>2006</year>
+          <fpage>986</fpage>
+          <lpage>1000</lpage>
+          <pub-id pub-id-type="pmid">16765570</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kadener</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fededa</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Rosbash</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kornblihtt</surname>
+              <given-names>A.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of alternative splicing by a transcriptional enhancer through RNA pol II elongation</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>99</volume>
+          <year>2002</year>
+          <fpage>8185</fpage>
+          <lpage>8190</lpage>
+          <pub-id pub-id-type="pmid">12060763</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaneko</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Shatkin</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Manley</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human capping enzyme promotes formation of transcriptional R loops inÂ vitro</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>104</volume>
+          <year>2007</year>
+          <fpage>17620</fpage>
+          <lpage>17625</lpage>
+          <pub-id pub-id-type="pmid">17978174</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kaneko</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Rozenblatt-Rosen</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Meyerson</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Manley</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The multifunctional protein p54nrb/PSF recruits the exonuclease XRN2 to facilitate pre-mRNA 3â² processing and transcription termination</article-title>
+          <source>Genes Dev.</source>
+          <volume>21</volume>
+          <year>2007</year>
+          <fpage>1779</fpage>
+          <lpage>1789</lpage>
+          <pub-id pub-id-type="pmid">17639083</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kawauchi</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mischo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Braglia</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rondon</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Budding yeast RNA polymerases I and II employ parallel mechanisms of transcriptional termination</article-title>
+          <source>Genes Dev.</source>
+          <volume>22</volume>
+          <year>2008</year>
+          <fpage>1082</fpage>
+          <lpage>1092</lpage>
+          <pub-id pub-id-type="pmid">18413718</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Krogan</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Vasiljeva</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Rando</surname>
+              <given-names>O.J.</given-names>
+            </name>
+            <name>
+              <surname>Nedea</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Greenblatt</surname>
+              <given-names>J.F.</given-names>
+            </name>
+            <name>
+              <surname>Buratowski</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>The yeast Rat1 exonuclease promotes transcription termination by RNA polymerase II</article-title>
+          <source>Nature</source>
+          <volume>432</volume>
+          <year>2004</year>
+          <fpage>517</fpage>
+          <lpage>522</lpage>
+          <pub-id pub-id-type="pmid">15565157</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Manley</surname>
+              <given-names>J.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Inactivation of the SR protein splicing factor ASF/SF2 results in genomic instability</article-title>
+          <source>Cell</source>
+          <volume>122</volume>
+          <year>2005</year>
+          <fpage>365</fpage>
+          <lpage>378</lpage>
+          <pub-id pub-id-type="pmid">16096057</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lin</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Coutinho-Mansfield</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Pandit</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>X.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>The splicing factor SC35 has an active role in transcriptional elongation</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>15</volume>
+          <year>2008</year>
+          <fpage>819</fpage>
+          <lpage>826</lpage>
+          <pub-id pub-id-type="pmid">18641664</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Luo</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>A.W.</given-names>
+            </name>
+            <name>
+              <surname>Bentley</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of Rat1 in coupling mRNA 3â²-end processing to transcription termination: implications for a unified allosteric-torpedo model</article-title>
+          <source>Genes Dev.</source>
+          <volume>20</volume>
+          <year>2006</year>
+          <fpage>954</fpage>
+          <lpage>965</lpage>
+          <pub-id pub-id-type="pmid">16598041</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mapendano</surname>
+              <given-names>C.K.</given-names>
+            </name>
+            <name>
+              <surname>Lykke-Andersen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kjems</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bertrand</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Jensen</surname>
+              <given-names>T.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Crosstalk between mRNA 3â² end processing and transcription initiation</article-title>
+          <source>Mol. Cell</source>
+          <volume>40</volume>
+          <year>2010</year>
+          <fpage>410</fpage>
+          <lpage>422</lpage>
+          <pub-id pub-id-type="pmid">21070967</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mischo</surname>
+              <given-names>H.E.</given-names>
+            </name>
+            <name>
+              <surname>GÃ³mez-GonzÃ¡lez</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Grzechnik</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>RondÃ³n</surname>
+              <given-names>A.G.</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Steinmetz</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Aguilera</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Yeast Sen1 helicase protects the genome from transcription-associated instability</article-title>
+          <source>Mol. Cell</source>
+          <volume>41</volume>
+          <year>2011</year>
+          <fpage>21</fpage>
+          <lpage>32</lpage>
+          <pub-id pub-id-type="pmid">21211720</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moore</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pre-mRNA processing reaches back to transcription and ahead to translation</article-title>
+          <source>Cell</source>
+          <volume>136</volume>
+          <year>2009</year>
+          <fpage>688</fpage>
+          <lpage>700</lpage>
+          <pub-id pub-id-type="pmid">19239889</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Moreira</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Klur</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>NÃ©meth</surname>
+              <given-names>A.H.</given-names>
+            </name>
+            <name>
+              <surname>Le Ber</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Moniz</surname>
+              <given-names>J.C.</given-names>
+            </name>
+            <name>
+              <surname>Tranchant</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Aubourg</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Tazir</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>SchÃ¶ls</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Senataxin, the ortholog of a yeast RNA helicase, is mutant in ataxia-ocular apraxia 2</article-title>
+          <source>Nat. Genet.</source>
+          <volume>36</volume>
+          <year>2004</year>
+          <fpage>225</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">14770181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nechaev</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Fargo</surname>
+              <given-names>D.C.</given-names>
+            </name>
+            <name>
+              <surname>dos Santos</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Adelman</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Global analysis of short RNAs reveals widespread promoter-proximal stalling and arrest of Pol II in Drosophila</article-title>
+          <source>Science</source>
+          <volume>327</volume>
+          <year>2010</year>
+          <fpage>335</fpage>
+          <lpage>338</lpage>
+          <pub-id pub-id-type="pmid">20007866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Palau</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>EspinÃ³s</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autosomal recessive cerebellar ataxias</article-title>
+          <source>Orphanet J. Rare Dis.</source>
+          <volume>1</volume>
+          <year>2006</year>
+          <fpage>47</fpage>
+          <pub-id pub-id-type="pmid">17112370</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Plant</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Dye</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Lafaille</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Strong polyadenylation and weak pausing combine to cause efficient termination of transcription in the human Ggamma-globin gene</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>25</volume>
+          <year>2005</year>
+          <fpage>3276</fpage>
+          <lpage>3285</lpage>
+          <pub-id pub-id-type="pmid">15798211</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>T.P.</given-names>
+            </name>
+            <name>
+              <surname>Culbertson</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The putative nucleic acid helicase Sen1p is required for formation and stability of termini and for maximal rates of synthesis and levels of accumulation of small nucleolar RNAs in Saccharomyces cerevisiae</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <volume>18</volume>
+          <year>1998</year>
+          <fpage>6885</fpage>
+          <lpage>6896</lpage>
+          <pub-id pub-id-type="pmid">9819377</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salisbury</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Hutchison</surname>
+              <given-names>K.W.</given-names>
+            </name>
+            <name>
+              <surname>Graber</surname>
+              <given-names>J.H.</given-names>
+            </name>
+          </person-group>
+          <article-title>A multispecies comparison of the metazoan 3â²-processing downstream elements and the CstF-64 RNA recognition motif</article-title>
+          <source>BMC Genomics</source>
+          <volume>7</volume>
+          <year>2006</year>
+          <fpage>55</fpage>
+          <pub-id pub-id-type="pmid">16542450</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Steinmetz</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>C.L.</given-names>
+            </name>
+            <name>
+              <surname>Kuehner</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Panbehi</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Ansari</surname>
+              <given-names>A.Z.</given-names>
+            </name>
+            <name>
+              <surname>Brow</surname>
+              <given-names>D.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genome-wide distribution of yeast RNA polymerase II and its control by Sen1 helicase</article-title>
+          <source>Mol. Cell</source>
+          <volume>24</volume>
+          <year>2006</year>
+          <fpage>735</fpage>
+          <lpage>746</lpage>
+          <pub-id pub-id-type="pmid">17157256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suraweera</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Becherel</surname>
+              <given-names>O.J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Rundle</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Woods</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gatei</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Criscuolo</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Filla</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chessa</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Senataxin, defective in ataxia oculomotor apraxia type 2, is involved in the defense against oxidative DNA damage</article-title>
+          <source>J.Â Cell Biol.</source>
+          <volume>177</volume>
+          <year>2007</year>
+          <fpage>969</fpage>
+          <lpage>979</lpage>
+          <pub-id pub-id-type="pmid">17562789</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suraweera</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Woods</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Birrell</surname>
+              <given-names>G.W.</given-names>
+            </name>
+            <name>
+              <surname>Nasim</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Becherel</surname>
+              <given-names>O.J.</given-names>
+            </name>
+            <name>
+              <surname>Lavin</surname>
+              <given-names>M.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional role for senataxin, defective in ataxia oculomotor apraxia type 2, in transcriptional regulation</article-title>
+          <source>Hum. Mol. Genet.</source>
+          <volume>18</volume>
+          <year>2009</year>
+          <fpage>3384</fpage>
+          <lpage>3396</lpage>
+          <pub-id pub-id-type="pmid">19515850</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tan-Wong</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>French</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>M.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic interactions between the promoter and terminator regions of the mammalian BRCA1 gene</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>105</volume>
+          <year>2008</year>
+          <fpage>5160</fpage>
+          <lpage>5165</lpage>
+          <pub-id pub-id-type="pmid">18375767</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ursic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Himmel</surname>
+              <given-names>K.L.</given-names>
+            </name>
+            <name>
+              <surname>Gurley</surname>
+              <given-names>K.A.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Culbertson</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>The yeast SEN1 gene is required for the processing of diverse RNA classes</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>25</volume>
+          <year>1997</year>
+          <fpage>4778</fpage>
+          <lpage>4785</lpage>
+          <pub-id pub-id-type="pmid">9365256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ursic</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chinchilla</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Finkel</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Culbertson</surname>
+              <given-names>M.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Multiple protein/protein and protein/RNA interactions suggest roles for yeast DNA/RNA helicase Sen1p in transcription, transcription-coupled DNA repair and RNA processing</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>32</volume>
+          <year>2004</year>
+          <fpage>2441</fpage>
+          <lpage>2452</lpage>
+          <pub-id pub-id-type="pmid">15121901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>West</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human Pcf11 enhances degradation of RNA polymerase II-associated nascent RNA and transcriptional termination</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>36</volume>
+          <year>2008</year>
+          <fpage>905</fpage>
+          <lpage>914</lpage>
+          <pub-id pub-id-type="pmid">18086705</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>West</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Transcriptional termination enhances protein expression in human cells</article-title>
+          <source>Mol. Cell</source>
+          <volume>33</volume>
+          <year>2009</year>
+          <fpage>354</fpage>
+          <lpage>364</lpage>
+          <pub-id pub-id-type="pmid">19217409</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>West</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gromak</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human 5â² â&gt; 3â² exonuclease Xrn2 promotes transcription termination at co-transcriptional cleavage sites</article-title>
+          <source>Nature</source>
+          <volume>432</volume>
+          <year>2004</year>
+          <fpage>522</fpage>
+          <lpage>525</lpage>
+          <pub-id pub-id-type="pmid">15565158</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>West</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.J.</given-names>
+            </name>
+            <name>
+              <surname>Dye</surname>
+              <given-names>M.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular dissection of mammalian RNA polymerase II transcriptional termination</article-title>
+          <source>Mol. Cell</source>
+          <volume>29</volume>
+          <year>2008</year>
+          <fpage>600</fpage>
+          <lpage>610</lpage>
+          <pub-id pub-id-type="pmid">18342606</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Whitelaw</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Proudfoot</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Alpha-thalassaemia caused by a poly(A) site mutation reveals that transcriptional termination is linked to 3â² end processing in the human alpha 2 globin gene</article-title>
+          <source>EMBO J.</source>
+          <volume>5</volume>
+          <year>1986</year>
+          <fpage>2915</fpage>
+          <lpage>2922</lpage>
+          <pub-id pub-id-type="pmid">3024968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wollerton</surname>
+              <given-names>M.C.</given-names>
+            </name>
+            <name>
+              <surname>Gooding</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>E.J.</given-names>
+            </name>
+            <name>
+              <surname>Garcia-Blanco</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>C.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autoregulation of polypyrimidine tract binding protein by alternative splicing leading to nonsense-mediated decay</article-title>
+          <source>Mol. Cell</source>
+          <volume>13</volume>
+          <year>2004</year>
+          <fpage>91</fpage>
+          <lpage>100</lpage>
+          <pub-id pub-id-type="pmid">14731397</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Cooper-Morgan</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Jiao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Kiledjian</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Manley</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and function of the 5â²â&gt;3â² exoribonuclease Rat1 and its activating partner Rai1</article-title>
+          <source>Nature</source>
+          <volume>458</volume>
+          <year>2009</year>
+          <fpage>784</fpage>
+          <lpage>788</lpage>
+          <pub-id pub-id-type="pmid">19194460</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib51">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Gilmour</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pcf11 is a termination factor in Drosophila that dismantles the elongation complex by bridging the CTD of RNA polymerase II to the nascent transcript</article-title>
+          <source>Mol. Cell</source>
+          <volume>21</volume>
+          <year>2006</year>
+          <fpage>65</fpage>
+          <lpage>74</lpage>
+          <pub-id pub-id-type="pmid">16387654</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib52">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Gilmour</surname>
+              <given-names>D.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>CTD-dependent dismantling of the RNA polymerase II elongation complex by the pre-mRNA 3â²-end processing factor, Pcf11</article-title>
+          <source>Genes Dev.</source>
+          <volume>19</volume>
+          <year>2005</year>
+          <fpage>1572</fpage>
+          <lpage>1580</lpage>
+          <pub-id pub-id-type="pmid">15998810</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app2" sec-type="supplementary-material">
+      <title>Supplemental Information</title>
+      <p>
+        <supplementary-material content-type="local-data" id="mmc1">
+          <caption>
+            <title>Document S1. Two Figures, One Table, Supplemental Experimental Procedures, and Supplemental References</title>
+          </caption>
+          <media xlink:href="mmc1.pdf"/>
+        </supplementary-material>
+      </p>
+    </sec>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>This work was supported by a Wellcome Trust Programme Grant to N.J.P. K.S.-S. is supported by a Wellcome Trust Studentship. N.G. is supported by a National Ataxia Foundation research grant. We thank Hannah Mischo for advice throughout these studies; R. Gibbons (WIMM, University of Oxford, Oxford, UK) for help in growing the S9.6 mouse hybridoma cell line, purchased from American Type Culture Collection; and R.J. Crouch (NIH, Bethesda, Maryland, USA) for the gift of GFP-RNase H1 expression plasmid.</p>
+    </ack>
+    <fn-group>
+      <fn id="app1" fn-type="supplementary-material">
+        <p>Supplemental Information includes two figures, one table, Supplemental Experimental Procedures, and Supplemental References and can be found with this article online at <ext-link ext-link-type="doi" xlink:href="10.1016/j.molcel.2011.04.026">doi:10.1016/j.molcel.2011.04.026</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>FigureÂ 1</label>
+      <caption>
+        <p>Transcriptional Termination Defect of Constructs with G-Rich Pause Sites in Senataxin-Deficient HeLa Cells</p>
+        <p>(A) RNAi-mediated depletion of human senataxin in HeLa cells. Left panel: qRT-PCR analysis of mock-treated and senataxin siRNA1-treated HeLa cells. Bars represent average valuesÂ Â± SD from three independent biological experiments. 5S rRNA was used as a control. The amount of SETX mRNA in mock cells was taken as 100%. Right panel: western blot analysis of 60Â Î¼g of protein extracts from mock-treated and senataxin siRNA1-treated HeLa cells using anti-senataxin antibody. E1B-AP5 protein (â¼120 kDa) was used as a loading control. Cut-out middle lane of this gel contained lower amount of protein extract.</p>
+        <p>(B) Left panel: diagram of Î²-globin/Î²-actin and Î²-globin/MAZ4 gene constructs, with exons shown as boxes and pause elements indicated. Poly(A) signal is denoted by arrows. P/U3 probe was used in RNase protection analysis and is shown as dashed lines. â<underline>A</underline>â and â<underline>B</underline>â in diagram denote positions of PCR products used to calculate the amount of readthrough transcript in (C). Middle panel: RNase protection analysis of Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs from mock-treated and senataxin siRNA1-treated cells performed with P/U3 riboprobe. 85 nt fragment, âP,â derives from transcripts initiated on theÂ HIV promoter, while an â¼240 nt band (U3) derives from readthrough transcription. <sup>â</sup> denotes partial RNase digestion product detected in the cytoplasm in some experiments. Right panel: readthrough transcript level was calculated as a signal ratio of U3/P (%), based on three independent experiments; values areÂ Â±SD.</p>
+        <p>(C) Termination efficiency of Î²-globin/Î²-actin and Î²-globin/MAZ4 constructs from mock-treated and senataxin siRNA1-treated cells using qRT-PCR analysis on the total RNA. Readthrough transcript level was calculated as a ratio of product A (readthrough RNA) versus product B (gene transcript) from three independent experiments; values areÂ Â±SD. The A/B ratio in mock-treated cells was taken as 1. <sup>â</sup> indicates statistical significance (pÂ &lt; 0.05), based on unpaired, two-tailed distribution Student's t test.</p>
+      </caption>
+      <graphic xlink:href="gr1"/>
+    </fig>
+    <fig id="fig2">
+      <label>FigureÂ 2</label>
+      <caption>
+        <p>R-Loops Form over Transfected Gene Constructs and Depend on Transcription, Functional Poly(A) Signal, and G-Rich Pause Elements</p>
+        <p>(A) Top panels: diagram of Î²-globin/Î²-actin (left) and Î²-globin/MAZ4 (right) gene constructs, with positions of primers used in DIP analysis indicated. Bottom panels: DIP analysis of Î²-globin/Î²-actin (left) and Î²-globin/MAZ4 (right) constructs. DIP signal was normalized to exon 1 signal.</p>
+        <p>(B) R-loops are dependent on active transcription. Left panel: R-loop profile of cells transfected with Î²-globin/Î²-actin gene constructÂ Â± <italic>trans</italic>-activator TAT. Right panel: RT-PCR analysis of the spliced mRNA detected from HeLa cells transfected with Î²-globin/Î²-actin constructÂ Â± TAT. âMâ indicates the molecular weight DNA markers. DIP signal was normalized to exon 1 signal of Î²-globin/Î²-actin construct cotrasfected with TAT.</p>
+        <p>(C) R-loop profile of Î²-globin/MAZ4 (gray bars), mMAZ4 (black bars), and MAZ4ÎpA (white bars) gene constructs. DIP signal was normalized to exon 1 signal of Î²-globin/MAZ4 construct.</p>
+        <p>(D) R-loop profile of Î²-globin/Î²-actin (left panel) and Î²-globin/MAZ4 (right panel) gene constructs in mock-treated (gray bars) and senataxin siRNA1-treated (white bars) cells. DIP signal was normalized to exon 1 signal of Î²-globin/Î²-actin (left panel) and Î²-globin/MAZ4 (right panel) constructs in mock-treated cells. DIP profile is based on average valuesÂ Â± SD from at least three independent biological experiments. <sup>â</sup> indicates statistical significance (pÂ &lt; 0.05), based on unpaired, two-tailed distribution Student's t test.</p>
+      </caption>
+      <graphic xlink:href="gr2"/>
+    </fig>
+    <fig id="fig3">
+      <label>FigureÂ 3</label>
+      <caption>
+        <p>RNase H1 Resolves R-Loops and Promotes Transcriptional Readthrough</p>
+        <p>(A) Western blot analysis of 30Â Î¼g of protein extracts obtained from HeLa cells transfected with increasing amounts (0â2Â Î¼g) of GFP-RNase H1 expression plasmid. Western blot was analyzed using anti-GFP antibody. Actin was used as loading control.</p>
+        <p>(B) Amount of readthrough transcript detected in Î²-globin/Î²-actin, Î²-globin/MAZ4, Î²-globin/mMAZ4, and ÎCoTC constructs in mock HeLa cells (sample â-â) and HeLa cells, cotransfected with increasing amounts of GFP-RNase H1 plasmid. Readthrough transcript level was calculated as a ratio of A/B, using qRT-PCR analysis (see <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B for primer positions). The A/B ratio in mock-treated cells (sample â-â) was taken as 1. This data is also presented as values for transcripts âAâ and âBâ separately, normalized to 5S rRNA (<xref rid="app2" ref-type="sec">FigureÂ S2</xref>).</p>
+        <p>(C) Top panel: diagram of Î²-globin/MAZ4 gene construct with positions of NRO probes indicated. Bottom left and right panels: NRO analysis of Î²-globin/MAZ4 construct in mock-treated cells (black bars on the right panel), HeLa cells cotransfected with 2Â Î¼g of GFP-RNase H1 (gray bars), and senataxin siRNA1-treated cells (white bars). M13 represents a background probe. Right panel: NRO signals were quantified by PhosphoImager analysis. Background (signal from probe M13) was subtracted from each hybridization signal normalized to probe B3, taken as 1. All bars represent average valuesÂ Â± SD from three independent biological experiments.</p>
+        <p>(D) DIP analysis of Î²-globin/MAZ4 construct following overexpression of 2Â Î¼g of GFP-RNase H1 in HeLa cells. Positions of primers used in DIP analysis are shown in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A. DIP profiles are based on average valuesÂ Â± SD from three independent biological experiments. DIP signal was normalized to exon 1 signal of Î²-globin/MAZ4 construct without GFP-RNase H1 overexpression.</p>
+        <p>(E) Amount of readthrough Î²-globin/MAZ4 transcript in mock-treated and senataxin-depleted HeLa cells with or without overexpression of 2Â Î¼g of GFP-RNase H1 plasmid. Readthrough transcript level was calculated as a ratio of A/B, using qRT-PCR analysis (for primer positions see <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B). The A/B ratio in mock-treated cells (âRNase H1 sample) was taken as 1. Average qRT-PCR valuesÂ Â± SD from four independent biological experiments are presented. <sup>â</sup> indicates statistical significance (pÂ &lt; 0.05), based on unpaired, two-tailed distribution Student's t test.</p>
+      </caption>
+      <graphic xlink:href="gr3"/>
+    </fig>
+    <fig id="fig4">
+      <label>FigureÂ 4</label>
+      <caption>
+        <p>Senataxin Is Required for Pol II Transcriptional Initiation, Termination, and Xrn2 Recruitment to the Termination Regions of the Endogenous Î²-Actin Gene</p>
+        <p>(A) Diagram of Î²-actin gene, with exons shown as white boxes and pause element shown as gray box. Positions of primers used in ChIP analysis are shown above the diagram. ChIP analysis was carried out with Pol II (left panel) or senataxin (right panel) antibody.</p>
+        <p>(B) Pol II ChIP analysis of Î²-actin gene in mock-treated (gray bars) and senataxin siRNA1-treated (white bars) cells.</p>
+        <p>(C) Br-UTP NRO analysis of Î²-actin gene in mock-treated (gray bars) and senataxin siRNA1-treated (white bars) cells. Amount of nascent Br-UTP RNA was normalized to intron 3 probe in mock-treated cells. All bars represent average valuesÂ Â± SD from at least three independent biological experiments. Enrichment of readthrough transcripts for probes â5â² pause,â âpause,â âC,â and âDâ in senataxin-depleted cells, as compared to mock cells, was calculated relative to intron 1 and intron 3 signals.</p>
+        <p>(D) Top panel: DIP analysis of Î²-actin gene using RNA/DNA hybrids-specific S9.6 antibody, based on average valuesÂ Â± SD from at least three independent biological experiments. DIP signal was normalized to intron 1 signal. Bottom panel: R-loops formed over Î²-actin gene are sensitive to RNase H and only partially to S1 nuclease digestion. DIP samples were either untreated (gray) or treated with 10Â U of RNase H (black bars) or 200Â U of S1 nuclease (white bars).</p>
+        <p>(E) Xrn2 ChIP of Î²-actin in mock-treated (gray bars) and senataxin-depleted (white bars) HeLa cells. ChIP values are based on average valuesÂ Â± SD from at least three independent biological experiments. <sup>â</sup> indicates statistical significance (pÂ &lt; 0.05), based on unpaired, two-tailed distribution Student's t-test.</p>
+      </caption>
+      <graphic xlink:href="gr4"/>
+    </fig>
+    <fig id="fig5">
+      <label>FigureÂ 5</label>
+      <caption>
+        <p>Model for Role of Senataxin and R-Loops in Transcriptional Termination</p>
+        <p>DNA is shown as solid lines and RNA as a dotted line. R-loops are formed between the ssDNA template strand and nascent RNA behind the elongating Pol II. Vertical black lines denote RNA/DNA hybrids. Senataxin is shown as a gray oval over the R-loop region. R-loops formed over the G-rich pause region of human Î²-actin gene are necessary for Pol II to pause downstream of the poly(A) site. Senataxin is needed to resolve R-loop structures and so allow 5â²â3â² exonuclease Xrn2 to degrade the nascent RNA from the site of poly(A) cleavage and catch up with paused Pol II, causing its transcriptional termination.</p>
+      </caption>
+      <graphic xlink:href="gr5"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

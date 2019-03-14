@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:59:36Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4710524" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4710524</identifier><datestamp>2016-01-26</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, CA USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4710524</article-id>
+      <article-id pub-id-type="pmcid">PMC4710524</article-id>
+      <article-id pub-id-type="pmc-uid">4710524</article-id>
+      <article-id pub-id-type="pmid">26756164</article-id>
+      <article-id pub-id-type="pmid">26756164</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0145155</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-15-15381</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>USP2-45 Is a Circadian Clock Output Effector Regulating Calcium Absorption at the Post-Translational Level</article-title>
+        <alt-title alt-title-type="running-head">Circadian Gene <italic>Usp2</italic> Controls Calcium Homeostasis</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pouly</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Chenaux</surname>
+            <given-names>SÃ©bastien</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Martin</surname>
+            <given-names>Virginie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Babis</surname>
+            <given-names>Maja</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Koch</surname>
+            <given-names>Rafael</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nagoshi</surname>
+            <given-names>Emi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff002">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Katanaev</surname>
+            <given-names>Vladimir L.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gachon</surname>
+            <given-names>FrÃ©dÃ©ric</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff003">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Staub</surname>
+            <given-names>Olivier</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff001">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff004">
+            <sup>4</sup>
+          </xref>
+          <xref rid="cor001" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff001"><label>1</label>
+<addr-line>University of Lausanne, Department of Pharmacology and Toxicology, Rue du Bugnon 27, CH-1005 Lausanne, Switzerland</addr-line></aff>
+      <aff id="aff002"><label>2</label>
+<addr-line>University of Geneva, Department of Genetics &amp; Evolution, 30, Quai Ernest Ansermet, CH-1211 Geneva, Switzerland</addr-line></aff>
+      <aff id="aff003"><label>3</label>
+<addr-line>Department of Diabetes and Circadian Rhythms, NestlÃ© Institute of Health Sciences, CH-1015 Lausanne, Switzerland</addr-line></aff>
+      <aff id="aff004"><label>4</label>
+<addr-line>National Centre of Competence in Research âKidney.châ, Zurich, Switzerland</addr-line></aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Oster</surname>
+            <given-names>Henrik</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <addr-line>University of LÃ¼beck, GERMANY</addr-line>
+      </aff>
+      <author-notes>
+        <fn fn-type="COI-statement" id="coi001">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con" id="contrib001">
+          <p>Conceived and designed the experiments: DP FG OS EN RK VK MB. Performed the experiments: DP SC VM MB RK VK. Analyzed the data: DP FG OS MB EN RK VK. Contributed reagents/materials/analysis tools: MB VK. Wrote the paper: DP FG OS.</p>
+        </fn>
+        <corresp id="cor001">* E-mail: <email>olivier.staub@unil.ch</email></corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>1</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <volume>11</volume>
+      <issue>1</issue>
+      <elocation-id>e0145155</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>22</day>
+          <month>4</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>12</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2016 Pouly et al</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <copyright-holder>Pouly et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article distributed under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution License</ext-link>, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are credited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:type="simple" xlink:href="pone.0145155.pdf"/>
+      <abstract>
+        <p>The mammalian circadian clock influences most aspects of physiology and behavior through the transcriptional control of a wide variety of genes, mostly in a tissue-specific manner. About 20 clock-controlled genes (CCGs) oscillate in virtually all mammalian tissues and are generally considered as core clock components. One of them is Ubiquitin-Specific Protease 2 (<italic>Usp2</italic>), whose status remains controversial, as it may be a cogwheel regulating the stability or activity of core cogwheels or an output effector. We report here that <italic>Usp2</italic> is a clock output effector related to bodily Ca<sup>2+</sup> homeostasis, a feature that is conserved across evolution. <italic>Drosophila</italic> with a whole-body knockdown of the orthologue of <italic>Usp2</italic>, CG14619 (d<italic>Usp2</italic>-kd), predominantly die during pupation but are rescued by dietary Ca<sup>2+</sup> supplementation. <italic>Usp2</italic>-KO mice show hyperabsorption of dietary Ca<sup>2+</sup> in small intestine, likely due to strong overexpression of the membrane scaffold protein NHERF4, a regulator of the Ca<sup>2+</sup> channel TRPV6 mediating dietary Ca<sup>2+</sup> uptake. In this tissue, USP2-45 is found in membrane fractions and negatively regulates NHERF4 protein abundance in a rhythmic manner at the protein level. In clock mutant animals (<italic>Cry1/Cry2</italic>-dKO), rhythmic USP2-45 expression is lost, as well as the one of NHERF4, confirming the inverse relationship between USP2-45 and NHERF4 protein levels. Finally, USP2-45 interacts <italic>in vitro</italic> with NHERF4 and endogenous Clathrin Heavy Chain. Taken together these data prompt us to define USP2-45 as the first clock output effector acting at the post-translational level at cell membranes and possibly regulating membrane permeability of Ca<sup>2+</sup>.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by: Swiss National Science Foundation: <ext-link ext-link-type="uri" xlink:href="http://www.snf.ch">www.snf.ch</ext-link>, Grant 310030_141013/1 to OS, Grant 31003A_138350 to VLK, Grant 31003A_130387 to EN; Grant NCCR Kidney.ch; the European Research Council: <ext-link ext-link-type="uri" xlink:href="http://erc.europa.eu/">http://erc.europa.eu/</ext-link>, ERC-2010-StG-260988 to FG, ERC-StG-311194 to EN; and COST Action ADMIRE BM1301 to OS. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <fig-count count="7"/>
+        <table-count count="1"/>
+        <page-count count="19"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta id="data-availability">
+          <meta-name>Data Availability</meta-name>
+          <meta-value>All relevant data are within the paper and its Supporting Information files. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium (<ext-link ext-link-type="uri" xlink:href="http://proteomecentral.proteomexchange.org">http://proteomecentral.proteomexchange.org</ext-link>) via the PRIDE partner repository with the dataset identifier PXD000659.</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <title>Data Availability</title>
+      <p>All relevant data are within the paper and its Supporting Information files. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium (<ext-link ext-link-type="uri" xlink:href="http://proteomecentral.proteomexchange.org">http://proteomecentral.proteomexchange.org</ext-link>) via the PRIDE partner repository with the dataset identifier PXD000659.</p>
+    </notes>
+  </front>
+  <body>
+    <sec sec-type="intro" id="sec001">
+      <title>Introduction</title>
+      <p>All organisms that undergo day/night cycles imposed by the rotation of earth have to anticipate these changes to consequently adapt their physiology and behavior. Throughout evolution, they have thus acquired a circadian clock to generate biological rhythms with a period of approximately 24 hours. In mammals, a central clock located in the suprachiasmatic nucleus (SCN) of the hypothalamus is reset daily by sunlight and coordinates slave peripheral clocks in virtually all cells (reviewed in [<xref rid="pone.0145155.ref001" ref-type="bibr">1</xref>]). At the molecular level, the circadian clock relies on interconnected transcriptional and translational feedback loops. Briefly, BMAL1 heterodimerizes with CLOCK or NPAS2 and drives the expression of target genes including the repressors <italic>Per1/2</italic> and <italic>Cry1/2</italic> [<xref rid="pone.0145155.ref002" ref-type="bibr">2</xref>â<xref rid="pone.0145155.ref004" ref-type="bibr">4</xref>]. PER1/2 and CRY1/2 accumulate, repress gene expression including their own [<xref rid="pone.0145155.ref005" ref-type="bibr">5</xref>, <xref rid="pone.0145155.ref006" ref-type="bibr">6</xref>] and are finally degraded by the proteasome, allowing a new cycle to start. Gene expression profilings performed in the SCN and various peripheral tissues revealed that around 10 to 20% of the known genes have a rhythmic expression. However, clock-controlled genes (CCGs) are essentially tissue-specific [<xref rid="pone.0145155.ref007" ref-type="bibr">7</xref>â<xref rid="pone.0145155.ref009" ref-type="bibr">9</xref>], but less than 20 genes including <italic>Usp2</italic> meet the criteria of rhythmic expression in all studied tissues [<xref rid="pone.0145155.ref009" ref-type="bibr">9</xref>, <xref rid="pone.0145155.ref010" ref-type="bibr">10</xref>]. They can be separated into 2 categories: the core clock cogwheels and the output effectors. Namely, core clock cogwheels were considered so since their mutation or inactivation leads to obvious defects in circadian behavior (reviewed in [<xref rid="pone.0145155.ref011" ref-type="bibr">11</xref>]). Oppositely, the output effectors do not play a role in the ticking of the molecular oscillator but participate in regulation of gene expression in various physiological processes, as exemplified by the transcription factors of the PARbZip family [<xref rid="pone.0145155.ref012" ref-type="bibr">12</xref>, <xref rid="pone.0145155.ref013" ref-type="bibr">13</xref>] or KLF15 [<xref rid="pone.0145155.ref014" ref-type="bibr">14</xref>, <xref rid="pone.0145155.ref015" ref-type="bibr">15</xref>]. In contrast to these transcriptional regulators, <italic>Usp2</italic> encodes the well conserved deubiquitylating enzyme (DUB) USP2 that is involved in post-translational regulation of protein function and stability by Ubiquitin (Ub) and its relatives the Ubiquitin-like (Ub-like) proteins SUMO, NEDD8 and ISG15 [<xref rid="pone.0145155.ref016" ref-type="bibr">16</xref>â<xref rid="pone.0145155.ref019" ref-type="bibr">19</xref>].</p>
+      <p>The murine <italic>Usp2</italic> gene encodes two protein isoforms: USP2-45, which is clock-controlled and widely if not ubiquitously expressed among mammalian tissues and USP2-69, which is clock-independent and mainly found in heart, testis and skeletal muscle [<xref rid="pone.0145155.ref004" ref-type="bibr">4</xref>, <xref rid="pone.0145155.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0145155.ref020" ref-type="bibr">20</xref>â<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>]. Up to date, USP2-45 is the only known body-wide, clock-controlled and rhythmic DUB [<xref rid="pone.0145155.ref007" ref-type="bibr">7</xref>â<xref rid="pone.0145155.ref009" ref-type="bibr">9</xref>] and was suspected to regulate the stability of core clock cogwheels (reviewed in [<xref rid="pone.0145155.ref026" ref-type="bibr">26</xref>]). In addition, the inactivation of <italic>Usp2</italic> in two independent total knockout mouse models revealed alteration of circadian functions in terms of light-induced phase resetting and controversial data on increased free-running period [<xref rid="pone.0145155.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0145155.ref027" ref-type="bibr">27</xref>â<xref rid="pone.0145155.ref029" ref-type="bibr">29</xref>]. Besides this disappointing situation in the SCN, USP2 seems to play roles in several peripheral organs. Indeed, the independent characterization of 3 different <italic>Usp2</italic>-KO mouse models pointed out the implication of <italic>Usp2</italic> in male fertility, hepatic gluconeogenesis and possibly peroxisome function [<xref rid="pone.0145155.ref022" ref-type="bibr">22</xref>, <xref rid="pone.0145155.ref023" ref-type="bibr">23</xref>, <xref rid="pone.0145155.ref030" ref-type="bibr">30</xref>].</p>
+      <p>Bodily Ca<sup>2+</sup> homeostasis in mammals is a tightly regulated process maintaining circulating Ca<sup>2+</sup> within its physiological range and disruption of this equilibrium can lead to several pathological conditions such as cardiac failure nervous system dysfunction or osteoporosis. The balance is ensured by the interplay between dietary absorption in the small intestine, bone formation and resorption and renal reabsorption and the relative transport activities of these three tissues are regulated by the endocrine system (for a review, see [<xref rid="pone.0145155.ref031" ref-type="bibr">31</xref>]).</p>
+      <p>In the present study, we aimed to disambiguate the circadian role of mUSP2-45 by taking advantage of gene orthology. We first addressed the question whether the controversial circadian status of <italic>Usp2</italic> may be deciphered thanks to functional conservation across evolution from <italic>Drosophila</italic> to mouse. In summary, we found that the inactivation of <italic>Usp2</italic> in mouse and of its orthologue CG14619 in <italic>Drosophila</italic> does not affect the circadian free-running period, but impairs bodily Ca<sup>2+</sup> homeostasis in both species, especially in dietary Ca<sup>2+</sup> absorption in mouse small intestine. We subsequently identified the PDZ-domain containing scaffolding protein NHERF4, a known regulator of the intestinal Ca<sup>2+</sup> channel TRPV6 [<xref rid="pone.0145155.ref032" ref-type="bibr">32</xref>] as a molecular target of USP2-45 in this tissue. <italic>In vitro</italic>, USP2-45 interacts with and likely forms a complex with NHERF4 and Clathrin Heavy Chain (CLH), indicating a function at the cell membrane. <italic>In vivo</italic>, biochemical studies in WT, <italic>Usp2</italic>-KO and clock defective <italic>Cry1/Cry2</italic>-dKO mouse small intestine indicate that USP2-45 negatively regulates the abundance of NHERF4 in membrane fractions at the protein level and in a rhythmic manner. We therefore propose a new model of the mammalian clock in which USP2-45 is a non-transcriptional effector that rhythmically regulates plasma membrane protein dynamics and potentially permeability of Ca<sup>2+</sup>.</p>
+    </sec>
+    <sec sec-type="results" id="sec002">
+      <title>Results</title>
+      <sec id="sec003">
+        <title><italic>Usp2</italic> and its fly orthologue both essentially act as clock output effectors</title>
+        <p>We first identified CG14619 (d<italic>Usp2</italic>) as the fly orthologue of mUSP<italic>2</italic> by pBLAST, in accordance with data on human USP2 [<xref rid="pone.0145155.ref033" ref-type="bibr">33</xref>]. Primary analysis identified 4 mammalian homologues for CG14619, namely USP2, USP8, USP21, and USP50. We then compared in more details the three hallmarks and conserved domains of mammalian USPs, specifically the Cys Box, the QDE Box and the His Box [<xref rid="pone.0145155.ref034" ref-type="bibr">34</xref>, <xref rid="pone.0145155.ref035" ref-type="bibr">35</xref>]. As shown in <xref rid="pone.0145155.s001" ref-type="supplementary-material">S1 Fig</xref>, USP2 is the closest relative to CG14619 in all three cases. Additionally, USP21, a paralogue of USP2 in vertebrates [<xref rid="pone.0145155.ref036" ref-type="bibr">36</xref>], comes in the second position. We studied the free-running period in mouse and <italic>Drosophila</italic> models lacking <italic>Usp2</italic>. In our data, <italic>Usp2</italic>-KO mice [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>] do not display alteration of circadian free-running period (<xref rid="pone.0145155.g001" ref-type="fig">Fig 1A</xref>) and have unaltered overall locomotor activity (<xref rid="pone.0145155.g001" ref-type="fig">Fig 1B and 1C</xref>). This is contradictory with the data of the Cermakian and Besharse labs, who reported slight alterations on free-running period and locomotor activity, respectively [<xref rid="pone.0145155.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0145155.ref027" ref-type="bibr">27</xref>]. Similarly to m<italic>Usp2</italic>, CG14619 is a clock-controlled gene displaying rhythmic expression and binding of dCLK, the orthologue of mCLOCK in its promoter region [<xref rid="pone.0145155.ref037" ref-type="bibr">37</xref>, <xref rid="pone.0145155.ref038" ref-type="bibr">38</xref>] and likely assumes important functions in various tissues. Indeed, whole body knockdown of all CG14619 isoforms (tub&gt;UAS d<italic>Usp2</italic><sup>KK108078</sup> RNAi) leads to shortened lifespan and slow locomotor activity (d<italic>Usp2</italic>-kd are actually dying off in the course of experiment, see the progressive reduction of locomotion on individual actograms provided in <xref rid="pone.0145155.s008" ref-type="supplementary-material">S1</xref> and <xref rid="pone.0145155.s009" ref-type="supplementary-material">S2</xref> Files [<xref rid="pone.0145155.ref033" ref-type="bibr">33</xref>]). We therefore characterized the circadian phenotype of flies lacking CG14619 specifically in clock neurons (tim&gt;UAS d<italic>Usp2</italic><sup>KK108078</sup> RNAi) and found no alteration of circadian free-running period (<xref rid="pone.0145155.t001" ref-type="table">Table 1</xref>, <xref rid="pone.0145155.g002" ref-type="fig">Fig 2A and 2B</xref>). Together, these data suggest that CG14619 essentially acts as an output effector of the fly clock.</p>
+        <fig id="pone.0145155.g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g001</object-id>
+          <label>Fig 1</label>
+          <caption>
+            <title>Inactivation of m<italic>Usp2</italic> does not affect the circadian endogenous free-running period.</title>
+            <p><bold>A:</bold> Mice were housed in individual cages equipped with a running-wheel and entrained for 2 weeks in 12h Light:12h Dark cycles (LD) before being released in constant darkness (DD) for 3 weeks. Endogenous free-running period was calculated by Fourierâs analysis. Data are presented as individual values. Black dots: WT; Gray dots: <italic>Usp2</italic>-KO, bar = median, n = 10â11 animals. <bold>B:</bold> Locomotor activity in light phase (12h L), dark phase (12h D) and over 24 hours (24h L+D) measured by running-wheel counts was plotted as individual values. Black dots: WT; Gray dots: <italic>Usp2</italic>-KO, bar = median, n = 10â11 animals. <bold>C:</bold> 5 days of LD and 12 days of DD are shown on representative actograms of WT and <italic>Usp2</italic>-KO mice. <bold>D</bold>, <bold>E:</bold> The rhythmic activity patterns of control (<bold>D</bold>) and clock neurons-specific d<italic>Usp2</italic>-knockdown (<bold>E</bold>) were studied for 3 days in LD and 12 days in DD. Activity counts were measured during 3 consecutive days in LD. Data are plotted as mean Â± standard deviation (SD) of each 30 minutes time interval. Light phase: white bars, dark phase: black bars, dot = SD. Fly activity during 12 days of DD is presented as a representative actogram of each genotype. Subjective day and night periods are indicated above the actogram in grey and black, respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0145155.g001"/>
+        </fig>
+        <fig id="pone.0145155.g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g002</object-id>
+          <label>Fig 2</label>
+          <caption>
+            <title><italic>Usp2</italic> clock output effector status and role in bodily Ca<sup>2+</sup> homeostasis are conserved across evolution.</title>
+            <p>d<italic>Usp2</italic>-kd and control siblings were bred and raised on the indicated dietary conditions. Pupal cases and adult flies were counted and Mendelian proportions were calculated on the following numbers of pupal cases / adult flies, respectively: 0 mM CaCl<sub>2</sub>: 611 / 266, 30 mM CaCl<sub>2</sub>: 468 / 236, 30 mM MgCl<sub>2</sub>: 924 / 378, 30 mM NaCl: 306 / 155, 60 mM NaCl: 255 / 128 (<bold>A, B</bold>), 0 mM CaCl<sub>2</sub> (H<sub>2</sub>O): 649 / 164, 1 mM CaCl<sub>2</sub>: 492 / 194, 3 mM CaCl<sub>2</sub>: 473 / 114, 10 mM CaCl<sub>2</sub>: 919 / 174, 30 mM CaCl<sub>2</sub>: 497 / 99 (<bold>C, D</bold>). Pupae: black: control, gray: d<italic>Usp2</italic>-kd. Adult flies: black: control males, gray: d<italic>Usp2</italic>-kd males, dark gray: control females, light gray: d<italic>Usp2</italic>-kd females. Data were tested for equiproportionality and Chi-square test associated p-value is reported when the difference is statistically significant.</p>
+          </caption>
+          <graphic xlink:href="pone.0145155.g002"/>
+        </fig>
+        <table-wrap id="pone.0145155.t001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Inactivation of CG14619 in <italic>Drosophila</italic> does not affect circadian free-running period.</title>
+            <p>Adult flies lacking CG14619 in the whole body (tub&gt;UAS CG14619<sup>KK108078</sup> RNAi) or only in clock neurons (tim&gt;UAS CG14619<sup>KK108078</sup> RNAi) and their respective controls were entrained for 3 days in LD at 25Â°C before being released in constant darkness (DD) for 10 days for calculation of their free-running period. Data are presented as mean Â± SD of the indicated number of individuals.</p>
+          </caption>
+          <alternatives>
+            <graphic id="pone.0145155.t001g" xlink:href="pone.0145155.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+                <col align="left" valign="middle" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <th align="left" rowspan="1" colspan="1"/>
+                  <th align="left" rowspan="1" colspan="1">Genotype</th>
+                  <th align="left" rowspan="1" colspan="1">Total flies [n]</th>
+                  <th align="left" rowspan="1" colspan="1">Rhythmic flies [%]</th>
+                  <th align="left" rowspan="1" colspan="1">FRP [hours]</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">WT control</td>
+                  <td align="left" rowspan="1" colspan="1">w1118</td>
+                  <td align="left" rowspan="1" colspan="1">32</td>
+                  <td align="left" rowspan="1" colspan="1">90.6</td>
+                  <td align="left" rowspan="1" colspan="1">23.9 Â± 0.34</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">tim-Gal4</td>
+                  <td align="left" rowspan="1" colspan="1">tim-Gal4/+</td>
+                  <td align="left" rowspan="1" colspan="1">32</td>
+                  <td align="left" rowspan="1" colspan="1">81.3</td>
+                  <td align="left" rowspan="1" colspan="1">24.4 Â± 0.28</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">tub-Gal4</td>
+                  <td align="left" rowspan="1" colspan="1">tub-Gal4/+</td>
+                  <td align="left" rowspan="1" colspan="1">31</td>
+                  <td align="left" rowspan="1" colspan="1">71.0</td>
+                  <td align="left" rowspan="1" colspan="1">23.5 Â± 0.33</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">UAS-d<italic>Usp2</italic><sup>KK108078</sup> RNAi</td>
+                  <td align="left" rowspan="1" colspan="1">UAS-d<italic>Usp2</italic><sup>KK108078</sup> RNAi/+</td>
+                  <td align="left" rowspan="1" colspan="1">32</td>
+                  <td align="left" rowspan="1" colspan="1">84.4</td>
+                  <td align="left" rowspan="1" colspan="1">23.6 Â± 0.40</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">tim&gt;UAS-d<italic>Usp2</italic><sup>KK108078</sup> RNAi</td>
+                  <td align="left" rowspan="1" colspan="1">tim-Gal4/UAS- d<italic>Usp2</italic><sup>KK108078</sup> RNAi</td>
+                  <td align="left" rowspan="1" colspan="1">27</td>
+                  <td align="left" rowspan="1" colspan="1">88.9</td>
+                  <td align="left" rowspan="1" colspan="1">24.5 Â± 0.36</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">tub&gt;UAS-d<italic>Usp2</italic><sup>KK108078</sup> RNAi</td>
+                  <td align="left" rowspan="1" colspan="1">UAS- d<italic>Usp2</italic><sup>KK108078</sup> RNAi/+; tub-Gal4/+</td>
+                  <td align="left" rowspan="1" colspan="1">7</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">n.d</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+      </sec>
+      <sec id="sec004">
+        <title><italic>Usp2</italic> participates in bodily Ca<sup>2+</sup> homeostasis in both mouse and <italic>Drosophila</italic></title>
+        <p>In urine samples obtained from our previous study on <italic>Usp2</italic>-KO mice [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>], we serendipitously observed a strong increase in Ca<sup>2+</sup> excretion in all 4-hour periods studied around the clock (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3A</xref>) without any change in plasma Ca<sup>2+</sup> concentration (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3B</xref>). The amplitude of the phenotype is strongly reduced by fasting and dietary Ca<sup>2+</sup> restriction (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3Câ3E</xref>), which is characteristic of absorptive hypercalciuria [<xref rid="pone.0145155.ref039" ref-type="bibr">39</xref>]. Furthermore, <italic>Usp2</italic>-KO mice handle long-term reduction of dietary Ca<sup>2+</sup> intake without loss of body weight (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3E</xref>), lowering of plasma Ca<sup>2+</sup> (Figures A and B in <xref rid="pone.0145155.s002" ref-type="supplementary-material">S2 Fig</xref>) or compensatory osteoporosis (<xref rid="pone.0145155.s010" ref-type="supplementary-material">S1</xref> and <xref rid="pone.0145155.s011" ref-type="supplementary-material">S2</xref> Tables). This deregulation is likely restricted to Ca<sup>2+</sup> transport since Mg<sup>2+</sup> and PO<sub>4</sub><sup>3-</sup>, which share transepithelial paracellular transport and hormonal regulation pathways with Ca<sup>2+</sup>, respectively are not affected (Figures C and D in <xref rid="pone.0145155.s002" ref-type="supplementary-material">S2 Fig</xref>). Additionally, circulating levels of the calciotropic hormones parathyroid hormone (PTH) and Vitamin D are not affected in both standard and Ca<sup>2+</sup>-deprived conditions (Figures A to F in <xref rid="pone.0145155.s003" ref-type="supplementary-material">S3 Fig</xref>). Finally, expression levels of their target genes [<xref rid="pone.0145155.ref040" ref-type="bibr">40</xref>â<xref rid="pone.0145155.ref042" ref-type="bibr">42</xref>] are not affected in <italic>Usp2</italic>-KO mice as evidenced by our renal transcriptome analysis (NCBI-GEO accession: GSE43517, [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>]) and qPCR data on both kidney and small intestine (Figures G and H in <xref rid="pone.0145155.s003" ref-type="supplementary-material">S3 Fig</xref>). These data demonstrate that the hypercalciuria observed in <italic>Usp2</italic>-KO mice is mainly a consequence of intestinal hyperabsorption, taking place independently of dysfunctions in calciotropic hormones levels and/or signaling cascades. USP2-45 is the main if not the only USP2 isoform expressed in the small intestine since USP2-69 was not detectable in this tissue, but was in heart and skeletal muscle, where its mRNA is present (<xref rid="pone.0145155.s004" ref-type="supplementary-material">S4 Fig</xref>, [<xref rid="pone.0145155.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0145155.ref043" ref-type="bibr">43</xref>]). In <italic>Drosophila</italic>, d<italic>Usp2</italic>-kd predominantly die during pupation (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3</xref>), but can be rescued by addition of CaCl<sub>2</sub> to their culture medium in a dose-dependent manner (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3B</xref>). The same amount of other cation-chloride salts has no rescuing effect, indicating that Ca<sup>2+</sup> is indeed critical and that neither Cl<sup>-</sup> nor osmolality are involved (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3D</xref>). Together, these data suggest a conserved function of <italic>Usp2</italic> in bodily Ca<sup>2+</sup> homeostasis.</p>
+        <fig id="pone.0145155.g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g003</object-id>
+          <label>Fig 3</label>
+          <caption>
+            <title><italic>Usp2</italic>-KO mice have hyperabsorptive hypercalciuria.</title>
+            <p><bold>A:</bold> Mice were housed in individual metabolic cages and urine was collected every four hours around the clock. Ca<sup>2+</sup> excretion was calculated as a ratio to creatinine. <bold>B:</bold> Plasma was collected every four hours around the clock and total Ca<sup>2+</sup> was measured. <bold>C:</bold> Mice were housed in individual metabolic cages with ad libitum feeding or fasted. Urine was collected at the end of the indicated time periods and Ca<sup>2+</sup> excretion was calculated as a ratio to creatinine. <bold>D, E</bold>: Mice housed in individual metabolic cages were fed a 0.61% Ca<sup>2+</sup> control diet and were then switched to a 0.02% Ca<sup>2+</sup> diet for 6 days. The same animals were then tested again after 45 days of 0.02% Ca<sup>2+</sup> diet for 6 more days. Metabolic parameters were measured every 24 hours and Ca<sup>2+</sup> to creatinine ratio and body weight were plotted. Data are presented as individual values. Black dots: WT, gray dots: <italic>Usp2</italic>-KO, bar = median, n = 12â18. (<bold>A</bold>), n = 4 (<bold>B</bold>), n = 5â7 (<bold>C, D, E</bold>).</p>
+          </caption>
+          <graphic xlink:href="pone.0145155.g003"/>
+        </fig>
+      </sec>
+      <sec id="sec005">
+        <title>NHERF4 is strongly up-regulated in the small intestine of <italic>Usp2</italic>-KO mice</title>
+        <p>We next investigated the role of USP2-45 in mouse small intestine to better characterize its action as a clock output effector. To identify its targets in this tissue, we carried out a quantitative proteomic analysis, which revealed a strong up-regulation of the membrane scaffold protein NHERF4 (encoded by the <italic>Pdzd3</italic> gene), being the only major alteration of the detectable proteome (<xref rid="pone.0145155.s005" ref-type="supplementary-material">S5 Fig</xref>). Interestingly, NHERF4 is a known regulator of the Ca<sup>2+</sup> channel TRPV6 [<xref rid="pone.0145155.ref032" ref-type="bibr">32</xref>] that mediates the entry of dietary Ca<sup>2+</sup> from the intestinal lumen into the enterocyte in the course of transepithelial transcellular Ca<sup>2+</sup> absorption (reviewed in [<xref rid="pone.0145155.ref044" ref-type="bibr">44</xref>]), which is nicely in line with the absorptive hypercalciuria we report.</p>
+      </sec>
+      <sec id="sec006">
+        <title>USP2-45 interacts with NHERF4 and Clathrin Heavy Chain (CLH)</title>
+        <p>To further validate our proteomic result, we co-expressed mUSP2-45, mUSP2-69 and hNHERF4 in HEK293 cells. We observed that USP2-45 interacts with NHERF4 (<xref rid="pone.0145155.g004" ref-type="fig">Fig 4A</xref>) and endogenous Clathrin Heavy Chain (CLH) (<xref rid="pone.0145155.g004" ref-type="fig">Fig 4B</xref>), whereas the non-circadian isoform USP2-69 does not. These data indicate that USP2-45 is possibly part of a membrane complex regulating surface proteins dynamics.</p>
+        <fig id="pone.0145155.g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g004</object-id>
+          <label>Fig 4</label>
+          <caption>
+            <title>USP2-45 interacts with NHERF4 and endogenous Clathrin Heavy Chain (CLH) in HEK293 cells.</title>
+            <p>HEK293 cells were transfected as indicated and S-tagged USP2-45 or USP2-69 were precipitated with biotinylated S-Protein and Streptavidin-Sepharose beads. Whole cell lysate (left panel, WCL) and precipitation fraction (right panel, IP S-Protein (USP2)) were analysed by SDS-PAGE and western blotting with S-protein HRP (USP2), anti-NHERF4 (<bold>A</bold>) and anti-CLH (<bold>B</bold>) antibodies. Data are western blots from one representative experiment out of three.</p>
+          </caption>
+          <graphic xlink:href="pone.0145155.g004"/>
+        </fig>
+      </sec>
+      <sec id="sec007">
+        <title>NHERF4 is rhythmically and negatively regulated by USP2-45</title>
+        <p>We subsequently compared membrane and cytoplasmic fractions of small intestine <italic>in vivo</italic> by biochemical separation [<xref rid="pone.0145155.ref045" ref-type="bibr">45</xref>] and observed a constant and strong up-regulation of NHERF4 at all time-points taken around the clock in membranes fractions of <italic>Usp2</italic>-KO compared to WT littermates (<xref rid="pone.0145155.g005" ref-type="fig">Fig 5A</xref>). This phenomenon occurs at the protein level since the expression of the <italic>Pdzd3</italic> mRNA encoding NHERF4 is not affected in <italic>Usp2</italic>-KO (<xref rid="pone.0145155.g005" ref-type="fig">Fig 5B</xref>). As expected from our previous data in the kidney [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>], USP2-45 is also rhythmically expressed in the small intestine in a phase that closely follows its mRNA and was found in the membranes fraction. In WT mice, NHERF4 abundance appears to be antiphasic to USP2-45, suggesting that it is negatively regulated at the protein level (<xref rid="pone.0145155.g005" ref-type="fig">Fig 5A</xref>, <xref rid="pone.0145155.s006" ref-type="supplementary-material">S6 Fig</xref>). We took advantage of the disturbed expression of USP2-45 existing in <italic>Cry1/Cry2</italic>-dKO mice, which lack a functional clock [<xref rid="pone.0145155.ref046" ref-type="bibr">46</xref>, <xref rid="pone.0145155.ref047" ref-type="bibr">47</xref>], to further study the action of USP2-45 on NHERF4. Despite different genetic backgrounds (<italic>Usp2</italic>-KO: C57BL6/N, <italic>Cry1/Cry2</italic>-dKO: C57BL6/J), we observed similar expression patterns of mRNA and protein expression for both USP2-45 and NHERF4 in control mice of both lines (Figs <xref rid="pone.0145155.g005" ref-type="fig">5B</xref> and <xref rid="pone.0145155.g006" ref-type="fig">6B</xref>, <xref rid="pone.0145155.s007" ref-type="supplementary-material">S7 Fig</xref>). However, in contrast to data in the liver [<xref rid="pone.0145155.ref003" ref-type="bibr">3</xref>], <italic>Usp2-45</italic> mRNA is not overexpressed in the small intestine of <italic>Cry1/Cry2</italic>-dKO, but displays a lower amplitude rhythm around the clock. In turn, NHERF4 is not down or up-regulated but keeps a lower amplitude post-transcriptional rhythm (<xref rid="pone.0145155.g006" ref-type="fig">Fig 6A</xref>). These data indicate that the levels of NHERF4 have an inverse relation to the ones of USP2-45, suggesting that USP2-45 negatively regulates NHERF4 at the protein level.</p>
+        <fig id="pone.0145155.g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g005</object-id>
+          <label>Fig 5</label>
+          <caption>
+            <title>The lack of USP2-45 leads to a loss of NHERF4 rhythm at the protein level in the membrane compartments of small intestine mucosa.</title>
+            <p><bold>A</bold>: Mucosa of the whole small intestine was dissected at the indicated time points around the clock and membrane and cytoplasmic protein extracts were prepared from the remaining tissue. Protein extracts were analysed by immunoblotting with anti-USP2-45 N-term and anti-NHERF4 antibodies. Ponceau-Red S staining of the membrane was used as loading control. Data are western blots from one representative series of mice out of three. <bold>B</bold>: RNA was extracted from mid-jejunum and the mRNA levels of the corresponding proteins were analysed by semi-quantitative real-time PCR (qPCR). Data are presented as mean Â± SD of three independent animal series. WT: black line, <italic>Usp2</italic>-KO: grey line.</p>
+          </caption>
+          <graphic xlink:href="pone.0145155.g005"/>
+        </fig>
+        <fig id="pone.0145155.g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g006</object-id>
+          <label>Fig 6</label>
+          <caption>
+            <title>USP2-45 and NHERF4 display lower amplitude rhythms in <italic>Cry1/Cry2</italic>-dKO mice.</title>
+            <p><bold>A</bold>: Mucosa of the whole small intestine was dissected at the indicated time points around the clock and membrane and cytoplasmic protein extracts were prepared from the remaining tissue. Protein extracts were analysed by immunoblotting with anti-USP2-45 N-term (arrow: USP2-45, *: non-specific) and anti-NHERF4 antibodies. Ponceau-Red S staining of the membrane was used as loading control. Data are western blots from one representative series of mice out of two. <bold>B</bold>: RNA was extracted from mid-jejunum and the mRNA levels of the corresponding proteins were analysed by semi-quantitative real-time PCR (qPCR). Data are presented as mean Â± SD of three independent animal series. WT: black line, <italic>Cry1/Cry2</italic>-dKO: grey line.</p>
+          </caption>
+          <graphic xlink:href="pone.0145155.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec sec-type="conclusions" id="sec008">
+      <title>Discussion</title>
+      <p>Up-to date, the suspected role of USP2 in the post-translational regulation of core clock components remains unclear [<xref rid="pone.0145155.ref024" ref-type="bibr">24</xref>, <xref rid="pone.0145155.ref027" ref-type="bibr">27</xref>]. Since the impact of <italic>Usp2</italic> deletion gives at best minor effects on circadian behavior, the distinction between a modest involvement of <italic>Usp2</italic> or a functional compensation by one of the numerous existing DUBs [<xref rid="pone.0145155.ref018" ref-type="bibr">18</xref>] remains a challenge. In the present study, we overcame this difficulty by using both mouse and <italic>Drosophila</italic> models of <italic>Usp2</italic> knockdown, assuming that its core clock cogwheel or output effector status may be conserved throughout evolution. We confirmed that CG14619, which is a CCG [<xref rid="pone.0145155.ref037" ref-type="bibr">37</xref>, <xref rid="pone.0145155.ref038" ref-type="bibr">38</xref>], is the orthologue of m<italic>Usp2</italic> by protein sequence alignments (<xref rid="pone.0145155.s001" ref-type="supplementary-material">S1 Fig</xref>) and that d<italic>Usp2</italic>-kd suffer from sub viability ([<xref rid="pone.0145155.ref033" ref-type="bibr">33</xref>]; <xref rid="pone.0145155.g002" ref-type="fig">Fig 2Câ2F</xref>, <xref rid="pone.0145155.s008" ref-type="supplementary-material">S1</xref> and <xref rid="pone.0145155.s009" ref-type="supplementary-material">S2</xref> Files). Interestingly, d<italic>Usp2</italic> and d<italic>Usp8</italic>, which is a core clock cogwheel in <italic>Drosophila</italic> are paralogues and possibly differentially evolved towards output effector and core cogwheel status, respectively [<xref rid="pone.0145155.ref036" ref-type="bibr">36</xref>, <xref rid="pone.0145155.ref048" ref-type="bibr">48</xref>]. We found no significant alteration of the circadian free-running period in both clock-neuron specific knockdown of d<italic>Usp2</italic> in <italic>Drosophila</italic> and in our <italic>Usp2</italic>-KO mouse (<xref rid="pone.0145155.g001" ref-type="fig">Fig 1</xref>, <xref rid="pone.0145155.g002" ref-type="fig">Fig 2A and 2B</xref>, <xref rid="pone.0145155.t001" ref-type="table">Table 1</xref>). In addition, acute silencing of <italic>USP2</italic> in human osteosarcoma U2-OS cells does not lead to an obvious alteration of the free-running period measured by bioluminescence [<xref rid="pone.0145155.ref029" ref-type="bibr">29</xref>]. The RNAi construct we used yields viable flies without affecting off-target genes as it is stated in the data of the Vienna Drosophila Resource Center (VDRC v104382 detailed view). Given the phenotype observed in whole-body knockdown, we assumed the knockdown efficiency may be comparable in the clock neurons. This has to be taken into account in the conclusion made above. In addition our data are partly conflicting with the previous studies on the circadian role of <italic>Usp2</italic>. Indeed, similarly to Besharse and coworkers, we do not observe an increase in free-running period reported by Cermakian and coworkers. However, our <italic>Usp2</italic>-KO mice do not display an increased locomotor activity. Taken altogether, these data indicate a potentially compensated role in the central clock.</p>
+      <p>Having established this framework, we investigated the hypercalciuric phenotype of <italic>Usp2</italic>-KO mice by using dietary Ca<sup>2+</sup> restriction, fasting, analyses of bone structure by micro-computed tomography, measures of circulating level of PTH and Vitamin D and expression level of their respective target genes. We could clearly establish from these data that the observed hypercalciuria essentially results from intestinal hyperabsorption rather than from other causes, namely enhanced bone resorption, renal leak or endocrine defects in calciotropic hormones (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3Aâ3C</xref>, <xref rid="pone.0145155.s002" ref-type="supplementary-material">S2</xref> and <xref rid="pone.0145155.s003" ref-type="supplementary-material">S3</xref> Figs); For a review, see [<xref rid="pone.0145155.ref031" ref-type="bibr">31</xref>]). The bodily balance of Ca<sup>2+</sup> relies on dynamic fluxes between the tissues involved in its homeostasis in order to maintain plasma Ca<sup>2+</sup> within its physiological range. In the present situation, <italic>Usp2</italic>-KO mice live in a steady-state in which an overall increased intake of Ca<sup>2+</sup> results in an increased excretion. Furthermore, the phenotype is likely caused by the lack of USP2-45, which is the only detectable USP2 isoform in mouse intestine ([<xref rid="pone.0145155.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0145155.ref043" ref-type="bibr">43</xref>]; <xref rid="pone.0145155.s004" ref-type="supplementary-material">S4 Fig</xref>). In terms of human medicine, disruption of circadian rhythms represents a major risk for nephrolithiasis, the formation of kidney stones (reviewed in [<xref rid="pone.0145155.ref049" ref-type="bibr">49</xref>]). This phenomenon may result from impaired rhythm in the expression of hUSP2-45. Indeed, it was recently reported that 14 monogenic genes account for 15% of nephrolithiasis [<xref rid="pone.0145155.ref050" ref-type="bibr">50</xref>]. This percentage may increase by screening nephrolithiasis patients for mutations in <italic>USP2</italic> or in clock genes controlling its expression such as <italic>ARNTL</italic> (<italic>BMAL1</italic>) and <italic>CLOCK</italic> and their binding sites in the promoter of USP2. This interesting perspective is supported by the conservation of <italic>Usp2</italic> towards bodily Ca<sup>2+</sup> homeostasis, which is evidenced by the Ca<sup>2+</sup>-dependent rescue of d<italic>Usp2</italic>-kd flies (<xref rid="pone.0145155.g003" ref-type="fig">Fig 3</xref>). The relationship between the gene and the physiological process nevertheless appears to be antagonist between mammalian and insect experimental models. This fact could however be explainable by the possible divergent evolution of molecular cascades, number and nature of putative intermediates, which may have taken place since the two species shared their last common ancestor.</p>
+      <p>Based on these findings, we therefore pursued our analysis of the role of USP2-45 as clock output effector in mouse small intestine. Quantitative proteomics allowed us to identify the membrane scaffolding protein NHERF4 as one of the very few deregulated proteins in <italic>Usp2</italic>-KO out of a detectable proteome of 3590 (<xref rid="pone.0145155.s005" ref-type="supplementary-material">S5 Fig</xref>), making NHERF4 a candidate target of USP2-45. Accordingly, USP2-45 interacts with NHERF4 and endogenous Clathrin Heavy Chain (CLH) in transfected HEK293 cells (<xref rid="pone.0145155.g004" ref-type="fig">Fig 4</xref>). This suggests that the three proteins are possibly part of a complex at the cell membrane, which is not the case with the non-circadian isoform USP2-69. The molecular determinants conferring these properties to USP2-45 likely reside in its 49 N-terminal amino acids since both isoforms share the same catalytic domain and have different substrate specificities [<xref rid="pone.0145155.ref016" ref-type="bibr">16</xref>, <xref rid="pone.0145155.ref021" ref-type="bibr">21</xref>]. Our present finding is however in opposition with previous data from the Loda lab indicating that hUSP2-69 interacts with Clathrin Heavy Chain [<xref rid="pone.0145155.ref051" ref-type="bibr">51</xref>, <xref rid="pone.0145155.ref052" ref-type="bibr">52</xref>]. However, these data were obtained by affinity chromatography in human LNCaP cells, thus experimental, species and/or tissue specificities may explain these discrepancies. Finally, in <italic>Schizosaccharomyces pombe</italic>, an organism in which most DUBs are found in complexes, UBP4 is the closest relative to mUSP2-45 according to pBLAST and is associated with SFP47, an SH3-domain containing protein acting in endocytosis [<xref rid="pone.0145155.ref053" ref-type="bibr">53</xref>]. These data suggest a conserved role in processes related to regulation of membrane proteins among mUSP2-45 and its ancestors.</p>
+      <p>We subsequently analyzed the expression pattern of NHERF4 together with that of USP2-45 in membrane and cytoplasmic extracts of small intestine of WT, <italic>Usp2</italic>-KO and <italic>Cry1/Cry2</italic>-dKO and report three important findings. First, accordingly to our <italic>in vitro</italic> data, USP2-45 was found in the membranes fraction in the intestinal epithelium, although previous studies located it in the nucleus [<xref rid="pone.0145155.ref020" ref-type="bibr">20</xref>] or the peroxisomes [<xref rid="pone.0145155.ref023" ref-type="bibr">23</xref>]. Second, in WT animals, NHERF4 presents a rhythmic expression in anti-phase to USP2-45 at the protein level, since the levels of its mRNA is not rhythmic and unaltered in both <italic>Usp2</italic>-KO and <italic>Cry1/Cry2</italic>-dKO (Figs <xref rid="pone.0145155.g005" ref-type="fig">5</xref> and <xref rid="pone.0145155.g006" ref-type="fig">6</xref>). Third, the deregulation of USP2-45 expression in these mice models allowed us to establish the inverse relationship between USP2-45 and NHERF4 (i.e. rhythmic in WT, constant increased level in <italic>Usp2</italic>-KO and medium but constant level in <italic>Cry1/Cry2</italic>-dKO). As mentioned above, NHERF4 regulates the activity of TRPV6, the main Ca<sup>2+</sup> channel involved in dietary Ca<sup>2+</sup> uptake [<xref rid="pone.0145155.ref032" ref-type="bibr">32</xref>]. This latter phenomenon is rhythmic in rats [<xref rid="pone.0145155.ref054" ref-type="bibr">54</xref>â<xref rid="pone.0145155.ref056" ref-type="bibr">56</xref>] and the post-translational regulation of NHERF4 we report might be partly responsible for this observation. The lack of a deubiquitylating enzyme leading to the stabilization of a target protein is not common with respect to the most known function of such enzymes towards proteasomal degradation-promoting signals such as Lys48-linked polyubiquitin chains amongst others [<xref rid="pone.0145155.ref057" ref-type="bibr">57</xref>]. This idea is supported by previous data of our laboratory suggesting that USP2-45 can promote the degradation of the mineralocorticoid receptor upon stimulation with its ligand aldosterone [<xref rid="pone.0145155.ref058" ref-type="bibr">58</xref>]. In turn, between its translation and its scaffolding function at the membrane, NHERF4 may likely be post-translationally modified with non-degradative Ubiquitin, or Ubiquitin-like modifiers such as SUMO, NEDD8 or ISG15, which can all be removed by USP2 [<xref rid="pone.0145155.ref018" ref-type="bibr">18</xref>, <xref rid="pone.0145155.ref019" ref-type="bibr">19</xref>]. Such non-degradative signals could regulate its cellular transport, its stability, or its association with its target proteins, a view that is supported by the presence of 2 ubiquitylation sites in the PDZ domains of mouse NHERF4 [<xref rid="pone.0145155.ref059" ref-type="bibr">59</xref>]. Very interestingly, the <italic>Pdzd3</italic> gene encoding NHERF4 is only 152 kb away and the fourth protein-coding gene downstream of <italic>Usp2</italic> on mouse chromosome 9 (<italic>Usp2</italic>: 44â067â021 to 44â095â627 bp; <italic>Pdzd3</italic>: 44â247â312 to 44â251â464 bp). This genomic proximity is conserved amongst vertebrates from <italic>Xenopus laevis</italic> to <italic>Homo sapiens</italic> and is in line with a common function, as suggested by gene clustering studies transposing the concept prokaryotic operons to eukaryotic genomes [<xref rid="pone.0145155.ref060" ref-type="bibr">60</xref>, <xref rid="pone.0145155.ref061" ref-type="bibr">61</xref>].</p>
+      <p>Our data lead us to propose a new model of the circadian clockwork placing USP2-45 along with DBP, HLF, TEF and KLF15 as an output effector acting at the protein level, preferentially at the cell surface and possibly to regulate membrane permeability of Ca<sup>2+</sup> (<xref rid="pone.0145155.g007" ref-type="fig">Fig 7</xref>). Total and constitutive KO mouse models may only partially reveal the function of a gene through observable phenotypes. However, several published data offer exciting perspectives on the role of USP2-45 in regulation of Ca<sup>2+</sup>-dependent processes. First, the other important phenotype reported in <italic>Usp2</italic>-KO mice is a severe male subfertility. <italic>Usp2</italic>-KO spermatozoa are immotile in PBS, but not in M199 medium containing Ca<sup>2+</sup>, amongst other solutes [<xref rid="pone.0145155.ref030" ref-type="bibr">30</xref>]. Given that sperm motility and acrosome reaction are highly dependent on Ca<sup>2+</sup>[<xref rid="pone.0145155.ref062" ref-type="bibr">62</xref>], it is possible that the male subfertility reported by Wing and colleagues relies on disturbed Ca<sup>2+</sup> homeostasis in <italic>Usp2</italic>-KO spermatozoa. A recent study suggests a physiological role in regulation of CaV<sub>1.2</sub> Ca<sup>2+</sup> channels in the heart [<xref rid="pone.0145155.ref063" ref-type="bibr">63</xref>]. Finally, oscillations in intracellular Ca<sup>2+</sup> are of importance in circadian biology in various cell types across kingdoms [<xref rid="pone.0145155.ref064" ref-type="bibr">64</xref>â<xref rid="pone.0145155.ref067" ref-type="bibr">67</xref>] and USP2-45 may participate in a rhythmic regulation of intracellular Ca<sup>2+</sup> by controlling plasma or intracellular stores membranes permeability of Ca<sup>2+</sup>. Further studies based on isoform, tissue-specific and/or inducible <italic>Usp2-45</italic>-knockout mouse or cell models are however needed to further investigate <italic>in vivo</italic> the role of USP2-45. Altogether, these findings raise exciting perspectives under the new paradigm of USP2-45 as a clock-output membrane effector and its potential role in rhythmic control of membrane proteins dynamics and membrane permeability to Ca<sup>2+</sup>.</p>
+      <fig id="pone.0145155.g007" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0145155.g007</object-id>
+        <label>Fig 7</label>
+        <caption>
+          <title>Proposed model of body-wide clock output effectors.</title>
+          <p>Based on the data presented above, USP2-45 becomes the first non-transcriptional clock output effector along with DBP, TEF, HLF and KLF15. Given the biochemical location of USP2-45 in membranes and its action on NHERF4 <italic>in vivo</italic> and its interaction with NHERF4 and the ubiquitous CLH <italic>in vitro</italic>, we propose that USP2-45 may act similarly in other tissues. Possible role could be related to Ca<sup>2+</sup> transport across the cell membrane, indirect rhythmic regulation of membrane protein function by PDZ-domain containing scaffolds or circadian gating of cell sensitivity to circulating cues by rhythmic endocytosis.</p>
+        </caption>
+        <graphic xlink:href="pone.0145155.g007"/>
+      </fig>
+    </sec>
+    <sec sec-type="materials|methods" id="sec009">
+      <title>Materials and Methods</title>
+      <sec id="sec010">
+        <title>Mouse models</title>
+        <p><italic>Usp2</italic>-KO mice were bred as previously described [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>]. <italic>Cry1/Cry2</italic>-dKO mice with C57BL6/J genetic background [<xref rid="pone.0145155.ref046" ref-type="bibr">46</xref>, <xref rid="pone.0145155.ref047" ref-type="bibr">47</xref>] were bred as described in [<xref rid="pone.0145155.ref068" ref-type="bibr">68</xref>]. All experimental procedures were approved by the Swiss animal welfare authorities (Office of Veterinary Affairs of the Canton de Vaud, Switzerland) and carried out in accordance with the local animal welfare act. Mice were sacrificed as indicated in the corresponding experimental procedures sections by decapitation or by cervical dislocation after irreversible anesthesia (0.8 mg Xylazine and 1 mg Ketamine per kg of body weight in 0.9% NaCl injected intraperitoneally).</p>
+        <p><italic>Running wheels</italic>. 8-week old <italic>Usp2</italic>-KO males and WT littermates were housed in light tight boxes and habituated for 2 weeks to 12h Light:12h Dark cycles (LD) in individual cages equipped with a running wheel (Coulbourn Instruments). Locomotor activity was measured for 1 week in LD and the mice were released in constant darkness (DD) for 3 weeks. Free running activities were calculated by using Fourierâs transformation with the Matlab software (Clocklab).</p>
+      </sec>
+      <sec id="sec011">
+        <title><italic>Drosophila</italic> circadian and locomotor activity</title>
+        <p>Knockdown of CG14619 in <italic>Drosophila</italic> was achieved by using the UAS-Gal4 system. Flies homozygously carrying the UAS-RNAi construct directed against all the transcripts of CG14619 (CG14619<sup>KK108078</sup>) were obtained from the Vienna Drosophila Resource Center (clone v104382) and crossed with <italic>tub-Gal4</italic> / <italic>TM3</italic>,<italic>Sb</italic> (Bloomington Stock Centre no. 5138) and <italic>tim-Gal4</italic> / <italic>CyO</italic> [<xref rid="pone.0145155.ref069" ref-type="bibr">69</xref>] GAL4 driver lines. Flies were kept at 25Â°C and entrained for 3 days in a 12h:12h LD cycle, followed by constant darkness for 10 days. Locomotor activity was recorded using Drosophila Activity Monitors (Trikinetics Inc, USA) and the data analysed using FaasX software [<xref rid="pone.0145155.ref070" ref-type="bibr">70</xref>]. Actograms were double-plotted with 30 min resolution and hash density 12. Statistical tests were performed using GraphPad Prism software (GraphPad Software, USA).</p>
+      </sec>
+      <sec id="sec012">
+        <title><italic>Drosophila</italic> survival studies</title>
+        <p>Standard fly food was enriched as follows: Food volume in vial was measured and food was quickly melted in a microwave oven. For the CaCl<sub>2</sub> dose response experiment, the appropriate volume of warmed 30 mM, 100 mM, 300 mM and 1M CaCl<sub>2</sub> was added to obtain the final concentrations of 1, 3, 10 and 30 mM CaCl<sub>2</sub>, respectively. For the Ca<sup>2+</sup>-specificity experiment 1M CaCl<sub>2</sub>, 1M MgCl<sub>2</sub>, 1M NaCl, 2M NaCl yielded the final concentrations of 30 mM CaCl<sub>2</sub>, 30 mM MgCl<sub>2</sub>, 30 mM NaCl, 60 mM NaCl, respectively. H<sub>2</sub>O was similarly used as a negative control and mixture was homogenized by pipetting, stored at 4Â°C and enriched with penicillin/streptomycin. The homozygous CG14619<sup>KK108078</sup> UAS-RNAi line was crossed at 25Â°C with the tubulin-Gal4 driver line balanced over the <italic>TM6b</italic> balancer carrying the "tubby" dominant marker permitting selection of the tubulin-Gal4-carrying progeny from the control siblings. Pupal cases were counted after pupation of the latest wandering 3<sup>rd</sup> instar larvae. Adults were daily sorted after hatching and Mendelian proportions were calculated.</p>
+      </sec>
+      <sec id="sec013">
+        <title>Metabolic cages</title>
+        <p>8â12 week old <italic>Usp2</italic>-KO and WT mice were fed a standard housing chow (Kliba-Nafag) and were habituated to LD for at least 2 weeks. The animals were placed in individual metabolic cages (Techniplast, Buguggiate, Italy) for body weight, water and food consumption measurements and urine collection every 4 hours for 32 hours in LD. The data from overlapping ZT intervals were pooled. For the fasting experiment, the animals were studied for two consecutive days starting at ZT12 (light offset, end of resting phase) and fed a standard housing chow on the first day and fasted from ZT12 on the second. Urine samples were collected at the end of the ZT12-18, ZT18-09 and ZT09-12 time intervals.</p>
+      </sec>
+      <sec id="sec014">
+        <title>Plasma and urine analyses</title>
+        <p>Plasma Ca<sup>2+</sup>, urine Ca<sup>2+</sup>and creatinine were measured by the clinical chemistry lab of the Lausanne University Hospital (CHUV-LCC) by using the O-cresolphtalein complexone and Jaffe reaction, respectively. Total plasma Ca<sup>2+</sup> was calculated with the Parfittâs [<xref rid="pone.0145155.ref071" ref-type="bibr">71</xref>] calculation of albumin-bound Ca<sup>2+</sup>:
+<disp-formula id="pone.0145155.e001"><alternatives><graphic xlink:href="pone.0145155.e001.jpg" id="pone.0145155.e001g" position="anchor" mimetype="image" orientation="portrait"/><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M1"><mml:mrow><mml:msub><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:msup><mml:mrow><mml:mi>C</mml:mi><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mtext>corr.</mml:mtext></mml:msub><mml:mo>=</mml:mo><mml:msub><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:msup><mml:mrow><mml:mi>C</mml:mi><mml:mi>a</mml:mi></mml:mrow><mml:mrow><mml:mn>2</mml:mn><mml:mo>+</mml:mo></mml:mrow></mml:msup><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mtext>total</mml:mtext></mml:msub><mml:mo>â</mml:mo><mml:mn>0.012</mml:mn><mml:mo>Ã</mml:mo><mml:mfrac><mml:mrow><mml:mrow><mml:mo>[</mml:mo><mml:mi>A</mml:mi><mml:mi>l</mml:mi><mml:mi>b</mml:mi><mml:mi>u</mml:mi><mml:mi>m</mml:mi><mml:mi>i</mml:mi><mml:mi>n</mml:mi><mml:mo>]</mml:mo></mml:mrow></mml:mrow><mml:mrow><mml:mn>0.9677</mml:mn><mml:mo>â</mml:mo><mml:mn>39.55</mml:mn></mml:mrow></mml:mfrac></mml:mrow></mml:math></alternatives></disp-formula></p>
+      </sec>
+      <sec id="sec015">
+        <title>Protein extraction and immunoblotting</title>
+        <p><italic>Usp2</italic>-KO, <italic>Cry1/Cry2</italic>-dKO and WT male littermates or C57BL6/J controls were entrained for 3 weeks to normal or inverted LD cycles in light tight housing boxes (Coulbourn Instruments, Whitehall, USA) and fed a standard housing chow (Kliba-Nafag #3800, Kaiseraugst, Switzerland). The animals were sacrificed by decapitation under white or red dim light and the whole small intestine was isolated and rinsed in ice cold HBSS containing protease inhibitor cocktail (Roche) and 0.5 mM PMSF. Membrane and cytoplasmic fractions were obtained by using the technique of Biber for preparation of Brush Border Membrane Vesicles (BBMV) [<xref rid="pone.0145155.ref045" ref-type="bibr">45</xref>]. However, purity checking revealed significant presence of basolateral and ER membranes. We therefore named the fractions membranes instead of BBMV. 30 Î¼g of extract were separated on SDS-PAGE and transferred onto PVDF membranes. The following antibodies were used at the indicated dilutions: anti-USP2-45-Nterm and anti-USP2-Cterm (1/50; [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>]), anti-NHERF4 (1/5000; LifeSpan Biosciences, Inc. Seattle, USA), anti-CLH TD.1 (1/200; Santa Cruz), anti-Î²ACTIN (1/1000; Sigma-Aldrich, St-Louis, USA), anti-Î²TUBULIN (1/1000; Sigma-Aldrich, St-Louis, USA). Signal was revealed by chemiluminescence ECL reagent (Amersham) and detected on autoradiography films (Amersham). Quantification of western blots were achieved by densitometry, Ponceau S was used as a loading control and data were normalized to WT at ZT 2.</p>
+      </sec>
+      <sec id="sec016">
+        <title>Affinity precipitation</title>
+        <p>HEK293 cells were seeded in 100mm dishes and transiently transfected with the following plasmids: empty pCDNA3.1 (10 Î¼g), S-tagged mUSP2-45 (5 Î¼g), S-tagged mUSP2-69 (10 Î¼g) and pCMV-SPORT6-hNHERF4 (Open Biosystems) using lipofectamine 2000 (Invitrogen). 24 hours after transfection cells were lysed and precipitation was performed at 4Â°C as described previously [<xref rid="pone.0145155.ref072" ref-type="bibr">72</xref>] and scaled to 200 Î¼g protein input.</p>
+      </sec>
+      <sec id="sec017">
+        <title>Semi-quantitative RT-PCR</title>
+        <p>Total RNA was extracted from small intestinal mucosa or one half of the left kidney using a standard Phenol / Chloroform method. Two Î¼g of total RNA was retro-transcribed as described previously [<xref rid="pone.0145155.ref025" ref-type="bibr">25</xref>] using Superscript II retro-transcriptase (Invitrogen). Real time quantitative PCR was performed using a Roche 480 Light Cycler system on cDNA corresponding to 20 ng of initial RNA by using the following TaqManÂ® (Applied Biosystems) gene expression assays: <italic>Usp2-45</italic> [<xref rid="pone.0145155.ref073" ref-type="bibr">73</xref>], <italic>Pdzd3</italic>: Mm00466964_g1, <italic>Cyp24a1</italic>: Mm00487244_m1; <italic>S100g</italic>: Mm00486654_m1; <italic>Gapdh</italic>: Mm99999915_g1. mRNA relative abundance was calculated using the standard regression curve method and normalized to <italic>Gapdh</italic>.</p>
+      </sec>
+      <sec id="sec018">
+        <title>Statistical analyses</title>
+        <p>Outliers were removed from datasets using the 1.5 interquartile range (1.5-IQR) exclusion criterion and the presented data are mean Â± SD when individual values were not plotted. Multiple comparisons were performed by two-way ANOVA and post-hoc two-tailed Student T-tests were performed using the Holm-Sidak correction of significance threshold for multiple testing if not stated otherwise.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="sec019">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0145155.s001">
+        <label>S1 Fig</label>
+        <caption>
+          <title>CG14619 is the orthologue of mUSP2.</title>
+          <p>The sequences of the 4 reported mammalian orthologues of dCG14619 were aligned and the conserved domains of Ubiquitin-specific proteases were compared. These domains comprise a stretch of amino acids around the catalytic cysteine residue (Cys Box, <bold>A</bold>), the glutamine-aspartate-glutamate triad (QDE Box, <bold>B</bold>) and the conserved histidine (His Box, <bold>C</bold>). <bold>D</bold>: The percentage of homology in these three domains between dCG14619 to its four mammalian orthologues was calculated and is reported.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s002">
+        <label>S2 Fig</label>
+        <caption>
+          <title><italic>Usp2</italic>-KO mice do not develop hypocalcemia on dietary Ca<sup>2+</sup> restriction and have unaltered excretion of Mg<sup>2+</sup> and PO43-.</title>
+          <p><bold>A, B</bold>: Plasma was collected at ZT13 after 50 days (<bold>A</bold>) and 6 months (<bold>B</bold>) of dietary Ca<sup>2+</sup> restriction. Ca<sup>2+</sup> concentration was calculated using the Parfittâs correction for albumin-bound fraction. <bold>C, D</bold>: Urine from mice placed in individual metabolic cages was collected during the indicated time intervals. The molar ratio of Mg<sup>2+</sup> (<bold>C</bold>) and PO<sub>4</sub><sup>3-</sup> (<bold>D</bold>) to creatinine was calculated and plotted as individual values of 12â18 samples obtained from 12 animals per genotype. Black dots: WT, Gray dots: <italic>Usp2</italic>-KO, bar = median.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s003">
+        <label>S3 Fig</label>
+        <caption>
+          <title><italic>Usp2</italic>-KO have no disturbances in calciotropic hormones circulating levels.</title>
+          <p><bold>A, B</bold>: PTH concentration was assayed by ELISA in plasma collected on mice fed a standard housing chow (<bold>A</bold>) or maintained under long-term dietary Ca<sup>2+</sup> restriction (<bold>B</bold>) at the acrophase of USP2-45 expression (ZT13). C: Expression levels of PTH target genes in the kidney were found in previously obtained renal transcriptome analysis dataset (NCBI-GEO accession: GSE43517). <bold>D-F</bold>: 25-(OH)-D (D) and 1,25-(OH)<sub>2</sub>-D (<bold>E, F</bold>) concentrations were assayed by radioimmunoassay. <bold>G, H</bold>: <italic>Cyp24a1</italic> and <italic>S100g</italic> expression levels in <italic>Usp2</italic>-KO and WT littermates were measured by semi-quantitative RT-PCR in kidney and duodenum, respectively. N = 12 (<bold>G</bold>), n = 6 (<bold>H</bold>). Data are presented as individual values. Black dots: WT; Gray dots: <italic>Usp2</italic>-KO. n = 14â16 (<bold>A</bold>), 5â7 (<bold>B</bold>), 6â10 (<bold>D, E</bold>) and 4â6 (<bold>F</bold>) animals per genotype.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s004">
+        <label>S4 Fig</label>
+        <caption>
+          <title>USP2-45 is the only detectable USP2 isoform in the small intestine.</title>
+          <p>Total proteins were extracted from skeletal muscle (<bold>A</bold>), Heart (<bold>B</bold>) and small intestine (<bold>C</bold>) and analysed by immunoblotting with N and C-terminal anti-USP2 antibody for USP2-45 and USP2-69 detection, respectively.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s005">
+        <label>S5 Fig</label>
+        <caption>
+          <title>Quantitative proteomics identified NHERF4 as a strongly up-regulated protein in <italic>Usp2</italic>-KO duodenal mucosa.</title>
+          <p>Proteins quantified by iTRAQ 8-plex are presented in a volcano plot. X-axis shows, for each protein, logarithmized ratio of the median of normalized iTRAQ intensities for KO channels divided by the median of normalized iTRAQ intensities for WT channels. Y-axis shows the negative logarithm of the p-value obtained from Local-Pooled-Error testing. 5 proteins (shown in red) on a total of 3590 are statistically considered as significantly differentially expressed (False Discovery Rate &lt; 0.05).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s005.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s006">
+        <label>S6 Fig</label>
+        <caption>
+          <title>The lack of USP2-45 leads to a loss of NHERF4 rhythm at the protein level in the membrane compartments of small intestine mucosa.</title>
+          <p>Western-blotting data shown on <xref rid="pone.0145155.g005" ref-type="fig">Fig 5</xref> were quantified by densitometry. Data are presented as mean Â± Standard Error of the Mean (SEM) of 2 independent experiments.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s006.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s007">
+        <label>S7 Fig</label>
+        <caption>
+          <title>USP2-45 and NHERF4 display lower amplitude rhythms in <italic>Cry1/Cry2</italic>-dKO mice.</title>
+          <p>Western-blotting data shown in <xref rid="pone.0145155.g005" ref-type="fig">Fig 5</xref> were quantified by densitometry. Data are presented as mean Â± Standard Error of the Mean (SEM) of 2 independent experiments.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s007.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s008">
+        <label>S1 File</label>
+        <caption>
+          <title>Actogram of control flies (tub&gt;Gal4/+).</title>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s008.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s009">
+        <label>S2 File</label>
+        <caption>
+          <title>Actogram of Usp2 knockdown flies (tub&gt;UAS d<italic>Usp2</italic><sup>KK108078</sup> RNAi).</title>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s009.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s010">
+        <label>S1 Table</label>
+        <caption>
+          <title><italic>Usp2</italic>-KO mice fed a standard diet for 12 months do not develop osteoporosis.</title>
+          <p>The femora of 9 <italic>Usp2</italic>-KO and 9 WT littermates were analysed by micro computed tomography (micro CT). Abbreviations: Full bone parameters (FULL): AVD: Apparent Volume Density; Cortical bone parameters (CORT): %BV: Cortical Bone Volume Density, Ct.Th: Cortical Thickness, J, Imax, Imin: Polar Moments of Inertia; Trabecular bone parameters (TRAB): BV/TV: Trabecular Bone Volume Density, BS/TV: Trabecular Bone Surface Density, BS/BV: Specific Bone Surface, Tb.Th: Trabecular Thickness. Tb.Sp: Trabecular Separation, Tb.N: Trabecular Number, Conn.D: Trabecular Connectivity Density. *: p&lt;0.01</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s010.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s011">
+        <label>S2 Table</label>
+        <caption>
+          <title><italic>Usp2</italic>-KO mice fed a 0.02% low Ca<sup>2+</sup> diet for 6 months maintain normal bone structure.</title>
+          <p>The femora of 4 <italic>Usp2</italic>-KO and 6 WT littermates were analysed by micro computed tomography (micro CT). Abbreviations: Full bone parameters (FULL): AVD: Apparent Volume Density; Cortical bone parameters (CORT): %BV: Cortical Bone Volume Density, Ct.Th: Cortical Thickness, J, Imax, Imin: Polar Moments of Inertia; Trabecular bone parameters (TRAB): BV/TV: Trabecular Bone Volume Density, BS/TV: Trabecular Bone Surface Density, BS/BV: Specific Bone Surface, Tb.Th: Trabecular Thickness. Tb.Sp: Trabecular Separation, Tb.N: Trabecular Number, Conn.D: Trabecular Connectivity Density.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s011.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0145155.s012">
+        <label>S1 Text</label>
+        <caption>
+          <title>Supplementary experimental procedures.</title>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0145155.s012.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>The authors warmly thank: Dr. Nicolas Faller for initiating calcium-related serendipity, Florence LÃ¼scher and Dehlia Chevalley for their excellent technical assistance, Florian Atger, Daniel Mauvoisin, CÃ©line Jouffe and Eva Martin for sharing access to <italic>Cry1/Cry2</italic>-dKO animals. CÃ©line Hernandez and Manfredo Quadroni of the Protein Analysis Facility of the University of Lausanne for excellent proteomic facility services, Prof. Gijsbertus van der Horst (Erasmus University Medical Center, Rotterdam, Netherland) for providing <italic>Cry1/Cry2</italic>-dKO mice. The mass spectrometry proteomics data have been deposited to the ProteomeXchange Consortium (<ext-link ext-link-type="uri" xlink:href="http://proteomecentral.proteomexchange.org/">http://proteomecentral.proteomexchange.org</ext-link>) via the PRIDE partner repository [<xref rid="pone.0145155.ref074" ref-type="bibr">74</xref>] with the dataset identifier PXD000659.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0145155.ref001">
+        <label>1</label>
+        <mixed-citation publication-type="journal"><name><surname>Dibner</surname><given-names>C</given-names></name>, <name><surname>Schibler</surname><given-names>U</given-names></name>, <name><surname>Albrecht</surname><given-names>U</given-names></name>. <article-title>The mammalian circadian timing system: organization and coordination of central and peripheral clocks</article-title>. <source>Annu Rev Physiol</source>. <year>2010</year>;<volume>72</volume>:<fpage>517</fpage>â<lpage>49</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-physiol-021909-135821</pub-id> .<?supplied-pmid 20148687?><pub-id pub-id-type="pmid">20148687</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref002">
+        <label>2</label>
+        <mixed-citation publication-type="journal"><name><surname>Young</surname><given-names>ME</given-names></name>, <name><surname>Brewer</surname><given-names>RA</given-names></name>, <name><surname>Peliciari-Garcia</surname><given-names>RA</given-names></name>, <name><surname>Collins</surname><given-names>HE</given-names></name>, <name><surname>He</surname><given-names>L</given-names></name>, <name><surname>Birky</surname><given-names>TL</given-names></name>, <etal>et al</etal>
+<article-title>Cardiomyocyte-Specific BMAL1 Plays Critical Roles in Metabolism, Signaling, and Maintenance of Contractile Function of the Heart</article-title>. <source>J Biol Rhythms</source>. <year>2014</year>;<volume>29</volume>(<issue>4</issue>):<fpage>257</fpage>â<lpage>76</lpage>. <pub-id pub-id-type="doi">10.1177/0748730414543141</pub-id> .<?supplied-pmid 25238855?><pub-id pub-id-type="pmid">25238855</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref003">
+        <label>3</label>
+        <mixed-citation publication-type="journal"><name><surname>Oishi</surname><given-names>K</given-names></name>, <name><surname>Miyazaki</surname><given-names>K</given-names></name>, <name><surname>Kadota</surname><given-names>K</given-names></name>, <name><surname>Kikuno</surname><given-names>R</given-names></name>, <name><surname>Nagase</surname><given-names>T</given-names></name>, <name><surname>Atsumi</surname><given-names>G</given-names></name>, <etal>et al</etal>
+<article-title>Genome-wide expression analysis of mouse liver reveals CLOCK-regulated circadian output genes</article-title>. <source>J Biol Chem</source>. <year>2003</year>;<volume>278</volume>(<issue>42</issue>):<fpage>41519</fpage>â<lpage>27</lpage>. .<?supplied-pmid 12865428?><pub-id pub-id-type="pmid">12865428</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref004">
+        <label>4</label>
+        <mixed-citation publication-type="journal"><name><surname>Rey</surname><given-names>G</given-names></name>, <name><surname>Cesbron</surname><given-names>F</given-names></name>, <name><surname>Rougemont</surname><given-names>J</given-names></name>, <name><surname>Reinke</surname><given-names>H</given-names></name>, <name><surname>Brunner</surname><given-names>M</given-names></name>, <name><surname>Naef</surname><given-names>F</given-names></name>. <article-title>Genome-wide and phase-specific DNA-binding rhythms of BMAL1 control circadian output functions in mouse liver</article-title>. <source>PLoS Biol</source>. <year>2011</year>;<volume>9</volume>(<issue>2</issue>):<fpage>e1000595</fpage> Epub 2011/03/03. <pub-id pub-id-type="doi">10.1371/journal.pbio.1000595</pub-id>
+<?supplied-pmid 21364973?><pub-id pub-id-type="pmid">21364973</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref005">
+        <label>5</label>
+        <mixed-citation publication-type="journal"><name><surname>Kume</surname><given-names>K</given-names></name>, <name><surname>Zylka</surname><given-names>MJ</given-names></name>, <name><surname>Sriram</surname><given-names>S</given-names></name>, <name><surname>Shearman</surname><given-names>LP</given-names></name>, <name><surname>Weaver</surname><given-names>DR</given-names></name>, <name><surname>Jin</surname><given-names>X</given-names></name>, <etal>et al</etal>
+<article-title>mCRY1 and mCRY2 are essential components of the negative limb of the circadian clock feedback loop</article-title>. <source>Cell</source>. <year>1999</year>;<volume>98</volume>(<issue>2</issue>):<fpage>193</fpage>â<lpage>205</lpage>. .<?supplied-pmid 10428031?><pub-id pub-id-type="pmid">10428031</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref006">
+        <label>6</label>
+        <mixed-citation publication-type="journal"><name><surname>Lamia</surname><given-names>KA</given-names></name>, <name><surname>Papp</surname><given-names>SJ</given-names></name>, <name><surname>Yu</surname><given-names>RT</given-names></name>, <name><surname>Barish</surname><given-names>GD</given-names></name>, <name><surname>Uhlenhaut</surname><given-names>NH</given-names></name>, <name><surname>Jonker</surname><given-names>JW</given-names></name>, <etal>et al</etal>
+<article-title>Cryptochromes mediate rhythmic repression of the glucocorticoid receptor</article-title>. <source>Nature</source>. <year>2011</year>;<volume>480</volume>(<issue>7378</issue>):<fpage>552</fpage>â<lpage>6</lpage>. Epub 2011/12/16. <pub-id pub-id-type="doi">10.1038/nature10700</pub-id>
+<?supplied-pmid 22170608?><pub-id pub-id-type="pmid">22170608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref007">
+        <label>7</label>
+        <mixed-citation publication-type="journal"><name><surname>Storch</surname><given-names>KF</given-names></name>, <name><surname>Lipan</surname><given-names>O</given-names></name>, <name><surname>Leykin</surname><given-names>I</given-names></name>, <name><surname>Viswanathan</surname><given-names>N</given-names></name>, <name><surname>Davis</surname><given-names>FC</given-names></name>, <name><surname>Wong</surname><given-names>WH</given-names></name>, <etal>et al</etal>
+<article-title>Extensive and divergent circadian gene expression in liver and heart</article-title>. <source>Nature</source>. <year>2002</year>;<volume>417</volume>(<issue>6884</issue>):<fpage>78</fpage>â<lpage>83</lpage>. .<?supplied-pmid 11967526?><pub-id pub-id-type="pmid">11967526</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref008">
+        <label>8</label>
+        <mixed-citation publication-type="journal"><name><surname>Panda</surname><given-names>S</given-names></name>, <name><surname>Antoch</surname><given-names>MP</given-names></name>, <name><surname>Miller</surname><given-names>BH</given-names></name>, <name><surname>Su</surname><given-names>AI</given-names></name>, <name><surname>Schook</surname><given-names>AB</given-names></name>, <name><surname>Straume</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Coordinated transcription of key pathways in the mouse by the circadian clock</article-title>. <source>Cell</source>. <year>2002</year>;<volume>109</volume>(<issue>3</issue>):<fpage>307</fpage>â<lpage>20</lpage>. .<?supplied-pmid 12015981?><pub-id pub-id-type="pmid">12015981</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref009">
+        <label>9</label>
+        <mixed-citation publication-type="journal"><name><surname>Yan</surname><given-names>J</given-names></name>, <name><surname>Wang</surname><given-names>H</given-names></name>, <name><surname>Liu</surname><given-names>Y</given-names></name>, <name><surname>Shao</surname><given-names>C</given-names></name>. <article-title>Analysis of gene regulatory networks in the mammalian circadian rhythm</article-title>. <source>PLoS Comput Biol</source>. <year>2008</year>;<volume>4</volume>(<issue>10</issue>):<fpage>e1000193</fpage> Epub 2008/10/11. <pub-id pub-id-type="doi">10.1371/journal.pcbi.1000193</pub-id>
+<?supplied-pmid 18846204?><pub-id pub-id-type="pmid">18846204</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref010">
+        <label>10</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>R</given-names></name>, <name><surname>Lahens</surname><given-names>NF</given-names></name>, <name><surname>Ballance</surname><given-names>HI</given-names></name>, <name><surname>Hughes</surname><given-names>ME</given-names></name>, <name><surname>Hogenesch</surname><given-names>JB</given-names></name>. <article-title>A circadian gene expression atlas in mammals: implications for biology and medicine</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2014</year>;<volume>111</volume>(<issue>45</issue>):<fpage>16219</fpage>â<lpage>24</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.1408886111</pub-id>
+<?supplied-pmid 25349387?><pub-id pub-id-type="pmid">25349387</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref011">
+        <label>11</label>
+        <mixed-citation publication-type="journal"><name><surname>Takahashi</surname><given-names>JS</given-names></name>, <name><surname>Hong</surname><given-names>HK</given-names></name>, <name><surname>Ko</surname><given-names>CH</given-names></name>, <name><surname>McDearmon</surname><given-names>EL</given-names></name>. <article-title>The genetics of mammalian circadian order and disorder: implications for physiology and disease</article-title>. <source>Nat Rev Genet</source>. <year>2008</year>;<volume>9</volume>(<issue>10</issue>):<fpage>764</fpage>â<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1038/nrg2430</pub-id><?supplied-pmid 18802415?><pub-id pub-id-type="pmid">18802415</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref012">
+        <label>12</label>
+        <mixed-citation publication-type="journal"><name><surname>Gachon</surname><given-names>F</given-names></name>, <name><surname>Fonjallaz</surname><given-names>P</given-names></name>, <name><surname>Damiola</surname><given-names>F</given-names></name>, <name><surname>Gos</surname><given-names>P</given-names></name>, <name><surname>Kodama</surname><given-names>T</given-names></name>, <name><surname>Zakany</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>The loss of circadian PAR bZip transcription factors results in epilepsy</article-title>. <source>Genes Dev</source>. <year>2004</year>;<volume>18</volume>(<issue>12</issue>):<fpage>1397</fpage>â<lpage>412</lpage>. Epub 2004/06/04. <pub-id pub-id-type="doi">10.1101/gad.301404</pub-id>
+<?supplied-pmid 15175240?><pub-id pub-id-type="pmid">15175240</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref013">
+        <label>13</label>
+        <mixed-citation publication-type="journal"><name><surname>Gachon</surname><given-names>F</given-names></name>, <name><surname>Olela</surname><given-names>FF</given-names></name>, <name><surname>Schaad</surname><given-names>O</given-names></name>, <name><surname>Descombes</surname><given-names>P</given-names></name>, <name><surname>Schibler</surname><given-names>U</given-names></name>. <article-title>The circadian PAR-domain basic leucine zipper transcription factors DBP, TEF, and HLF modulate basal and inducible xenobiotic detoxification</article-title>. <source>Cell Metab</source>. <year>2006</year>;<volume>4</volume>(<issue>1</issue>):<fpage>25</fpage>â<lpage>36</lpage>. .<?supplied-pmid 16814730?><pub-id pub-id-type="pmid">16814730</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref014">
+        <label>14</label>
+        <mixed-citation publication-type="journal"><name><surname>Jeyaraj</surname><given-names>D</given-names></name>, <name><surname>Haldar</surname><given-names>SM</given-names></name>, <name><surname>Wan</surname><given-names>X</given-names></name>, <name><surname>McCauley</surname><given-names>MD</given-names></name>, <name><surname>Ripperger</surname><given-names>JA</given-names></name>, <name><surname>Hu</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>Circadian rhythms govern cardiac repolarization and arrhythmogenesis</article-title>. <source>Nature</source>. <year>2012</year>;<volume>483</volume>(<issue>7387</issue>):<fpage>96</fpage>â<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1038/nature10852</pub-id>
+<?supplied-pmid 22367544?><pub-id pub-id-type="pmid">22367544</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref015">
+        <label>15</label>
+        <mixed-citation publication-type="journal"><name><surname>Jeyaraj</surname><given-names>D</given-names></name>, <name><surname>Scheer</surname><given-names>FA</given-names></name>, <name><surname>Ripperger</surname><given-names>JA</given-names></name>, <name><surname>Haldar</surname><given-names>SM</given-names></name>, <name><surname>Lu</surname><given-names>Y</given-names></name>, <name><surname>Prosdocimo</surname><given-names>DA</given-names></name>, <etal>et al</etal>
+<article-title>Klf15 orchestrates circadian nitrogen homeostasis</article-title>. <source>Cell Metab</source>. <year>2012</year>;<volume>15</volume>(<issue>3</issue>):<fpage>311</fpage>â<lpage>23</lpage>. <pub-id pub-id-type="doi">10.1016/j.cmet.2012.01.020</pub-id>
+<?supplied-pmid 22405069?><pub-id pub-id-type="pmid">22405069</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref016">
+        <label>16</label>
+        <mixed-citation publication-type="journal"><name><surname>Gousseva</surname><given-names>N</given-names></name>, <name><surname>Baker</surname><given-names>RT</given-names></name>. <article-title>Gene structure, alternate splicing, tissue distribution, cellular localization, and developmental expression pattern of mouse deubiquitinating enzyme isoforms Usp2-45 and Usp2-69</article-title>. <source>Gene Expr</source>. <year>2003</year>;<volume>11</volume>(<issue>3â4</issue>):<fpage>163</fpage>â<lpage>79</lpage>. .<?supplied-pmid 14686789?><pub-id pub-id-type="pmid">14686789</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref017">
+        <label>17</label>
+        <mixed-citation publication-type="journal"><name><surname>Baek</surname><given-names>SH</given-names></name>, <name><surname>Park</surname><given-names>KC</given-names></name>, <name><surname>Lee</surname><given-names>JI</given-names></name>, <name><surname>Kim</surname><given-names>KI</given-names></name>, <name><surname>Yoo</surname><given-names>YJ</given-names></name>, <name><surname>Tanaka</surname><given-names>K</given-names></name>, <etal>et al</etal>
+<article-title>A novel family of ubiquitin-specific proteases in chick skeletal muscle with distinct N- and C-terminal extensions</article-title>. <source>Biochem J</source>. <year>1998</year>;<volume>334</volume> (<issue>Pt 3</issue>):<fpage>677</fpage>â<lpage>84</lpage>. .<?supplied-pmid 9729477?><pub-id pub-id-type="pmid">9729477</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref018">
+        <label>18</label>
+        <mixed-citation publication-type="journal"><name><surname>Catic</surname><given-names>A</given-names></name>, <name><surname>Fiebiger</surname><given-names>E</given-names></name>, <name><surname>Korbel</surname><given-names>GA</given-names></name>, <name><surname>Blom</surname><given-names>D</given-names></name>, <name><surname>Galardy</surname><given-names>PJ</given-names></name>, <name><surname>Ploegh</surname><given-names>HL</given-names></name>. <article-title>Screen for ISG15-crossreactive deubiquitinases</article-title>. <source>PLoS One</source>. <year>2007</year>;<volume>2</volume>(<issue>7</issue>):<fpage>e679</fpage> Epub 2007/07/27. <pub-id pub-id-type="doi">10.1371/journal.pone.0000679</pub-id>
+<?supplied-pmid 17653289?><pub-id pub-id-type="pmid">17653289</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref019">
+        <label>19</label>
+        <mixed-citation publication-type="journal"><name><surname>Shin</surname><given-names>YC</given-names></name>, <name><surname>Tang</surname><given-names>SJ</given-names></name>, <name><surname>Chen</surname><given-names>JH</given-names></name>, <name><surname>Liao</surname><given-names>PH</given-names></name>, <name><surname>Chang</surname><given-names>SC</given-names></name>. <article-title>The Molecular Determinants of NEDD8 Specific Recognition by Human SENP8</article-title>. <source>PLoS One</source>. <year>2011</year>;<volume>6</volume>(<issue>11</issue>). doi: ARTN e27742 <pub-id pub-id-type="doi">10.1371/journal.pone.0027742</pub-id> .<?supplied-pmid ISI:000297554300050?></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref020">
+        <label>20</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>H</given-names></name>, <name><surname>Keriel</surname><given-names>A</given-names></name>, <name><surname>Morales</surname><given-names>CR</given-names></name>, <name><surname>Bedard</surname><given-names>N</given-names></name>, <name><surname>Zhao</surname><given-names>Q</given-names></name>, <name><surname>Hingamp</surname><given-names>P</given-names></name>, <etal>et al</etal>
+<article-title>Divergent N-terminal sequences target an inducible testis deubiquitinating enzyme to distinct subcellular structures</article-title>. <source>Mol Cell Biol</source>. <year>2000</year>;<volume>20</volume>(<issue>17</issue>):<fpage>6568</fpage>â<lpage>78</lpage>. .<?supplied-pmid 10938131?><pub-id pub-id-type="pmid">10938131</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref021">
+        <label>21</label>
+        <mixed-citation publication-type="journal"><name><surname>Lin</surname><given-names>H</given-names></name>, <name><surname>Yin</surname><given-names>L</given-names></name>, <name><surname>Reid</surname><given-names>J</given-names></name>, <name><surname>Wilkinson</surname><given-names>KD</given-names></name>, <name><surname>Wing</surname><given-names>SS</given-names></name>. <article-title>Divergent N-terminal sequences of a deubiquitinating enzyme modulate substrate specificity</article-title>. <source>J Biol Chem</source>. <year>2001</year>;<volume>276</volume>(<issue>23</issue>):<fpage>20357</fpage>â<lpage>63</lpage>. .<?supplied-pmid 11278432?><pub-id pub-id-type="pmid">11278432</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref022">
+        <label>22</label>
+        <mixed-citation publication-type="journal"><name><surname>Molusky</surname><given-names>MM</given-names></name>, <name><surname>Li</surname><given-names>S</given-names></name>, <name><surname>Ma</surname><given-names>D</given-names></name>, <name><surname>Yu</surname><given-names>L</given-names></name>, <name><surname>Lin</surname><given-names>JD</given-names></name>. <article-title>Ubiquitin-specific protease 2 regulates hepatic gluconeogenesis and diurnal glucose metabolism through 11beta-hydroxysteroid dehydrogenase 1</article-title>. <source>Diabetes</source>. <year>2012</year>;<volume>61</volume>(<issue>5</issue>):<fpage>1025</fpage>â<lpage>35</lpage>. Epub 2012/03/27. <pub-id pub-id-type="doi">10.2337/db11-0970</pub-id>
+<?supplied-pmid 22447855?><pub-id pub-id-type="pmid">22447855</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref023">
+        <label>23</label>
+        <mixed-citation publication-type="journal"><name><surname>Molusky</surname><given-names>MM</given-names></name>, <name><surname>Ma</surname><given-names>D</given-names></name>, <name><surname>Buelow</surname><given-names>K</given-names></name>, <name><surname>Yin</surname><given-names>L</given-names></name>, <name><surname>Lin</surname><given-names>JD</given-names></name>. <article-title>Peroxisomal localization and circadian regulation of ubiquitin-specific protease 2</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>11</issue>):<fpage>e47970</fpage> Epub 2012/11/08. <pub-id pub-id-type="doi">10.1371/journal.pone.0047970</pub-id>
+<?supplied-pmid 23133608?><pub-id pub-id-type="pmid">23133608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref024">
+        <label>24</label>
+        <mixed-citation publication-type="journal"><name><surname>Scoma</surname><given-names>HD</given-names></name>, <name><surname>Humby</surname><given-names>M</given-names></name>, <name><surname>Yadav</surname><given-names>G</given-names></name>, <name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Fogerty</surname><given-names>J</given-names></name>, <name><surname>Besharse</surname><given-names>JC</given-names></name>. <article-title>The De-Ubiquitinylating Enzyme, USP2, Is Associated with the Circadian Clockwork and Regulates Its Sensitivity to Light</article-title>. <source>PLoS One</source>. <year>2011</year>;<volume>6</volume>(<issue>9</issue>):<fpage>e25382</fpage> Epub 2011/10/04. <pub-id pub-id-type="doi">10.1371/journal.pone.0025382</pub-id> PONE-D-11-10126 [pii]. .<?supplied-pmid 21966515?><pub-id pub-id-type="pmid">21966515</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref025">
+        <label>25</label>
+        <mixed-citation publication-type="journal"><name><surname>Pouly</surname><given-names>D</given-names></name>, <name><surname>Debonneville</surname><given-names>A</given-names></name>, <name><surname>Ruffieux-Daidie</surname><given-names>D</given-names></name>, <name><surname>Maillard</surname><given-names>M</given-names></name>, <name><surname>Abriel</surname><given-names>H</given-names></name>, <name><surname>Loffing</surname><given-names>J</given-names></name>, <etal>et al</etal>
+<article-title>Mice carrying ubiquitin-specific protease 2 (Usp2) gene inactivation maintain normal sodium balance and blood pressure</article-title>. <source>Am J Physiol Renal Physiol</source>. <year>2013</year>;<volume>305</volume>(<issue>1</issue>):<fpage>F21</fpage>â<lpage>30</lpage>. Epub 2013/04/05. <pub-id pub-id-type="doi">10.1152/ajprenal.00012.2013</pub-id> .<?supplied-pmid 23552861?><pub-id pub-id-type="pmid">23552861</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref026">
+        <label>26</label>
+        <mixed-citation publication-type="journal"><name><surname>Stojkovic</surname><given-names>K</given-names></name>, <name><surname>Wing</surname><given-names>SS</given-names></name>, <name><surname>Cermakian</surname><given-names>N</given-names></name>. <article-title>A central role for ubiquitination within a circadian clock protein modification code</article-title>. <source>Front Mol Neurosci</source>. <year>2014</year>;<volume>7</volume>:<fpage>69</fpage>
+<pub-id pub-id-type="doi">10.3389/fnmol.2014.00069</pub-id>
+<?supplied-pmid 25147498?><pub-id pub-id-type="pmid">25147498</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref027">
+        <label>27</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Y</given-names></name>, <name><surname>Duguay</surname><given-names>D</given-names></name>, <name><surname>Bedard</surname><given-names>N</given-names></name>, <name><surname>Rachalski</surname><given-names>A</given-names></name>, <name><surname>Baquiran</surname><given-names>G</given-names></name>, <name><surname>Na</surname><given-names>CH</given-names></name>, <etal>et al</etal>
+<article-title>Regulation of behavioral circadian rhythms and clock protein PER1 by the deubiquitinating enzyme USP2</article-title>. <source>Biol Open</source>. <year>2012</year>;<volume>1</volume>(<issue>8</issue>):<fpage>789</fpage>â<lpage>801</lpage>. Epub 2012/12/06. <pub-id pub-id-type="doi">10.1242/bio.20121990</pub-id>
+<?supplied-pmid 23213472?><pub-id pub-id-type="pmid">23213472</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref028">
+        <label>28</label>
+        <mixed-citation publication-type="journal"><name><surname>Yang</surname><given-names>Y</given-names></name>, <name><surname>Duguay</surname><given-names>D</given-names></name>, <name><surname>Fahrenkrug</surname><given-names>J</given-names></name>, <name><surname>Cermakian</surname><given-names>N</given-names></name>, <name><surname>Wing</surname><given-names>SS</given-names></name>. <article-title>USP2 regulates the intracellular localization of PER1 and circadian gene expression</article-title>. <source>J Biol Rhythms</source>. <year>2014</year>;<volume>29</volume>(<issue>4</issue>):<fpage>243</fpage>â<lpage>56</lpage>. <pub-id pub-id-type="doi">10.1177/0748730414544741</pub-id> .<?supplied-pmid 25238854?><pub-id pub-id-type="pmid">25238854</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref029">
+        <label>29</label>
+        <mixed-citation publication-type="journal"><name><surname>Zhang</surname><given-names>EE</given-names></name>, <name><surname>Liu</surname><given-names>AC</given-names></name>, <name><surname>Hirota</surname><given-names>T</given-names></name>, <name><surname>Miraglia</surname><given-names>LJ</given-names></name>, <name><surname>Welch</surname><given-names>G</given-names></name>, <name><surname>Pongsawakul</surname><given-names>PY</given-names></name>, <etal>et al</etal>
+<article-title>A genome-wide RNAi screen for modifiers of the circadian clock in human cells</article-title>. <source>Cell</source>. <year>2009</year>;<volume>139</volume>(<issue>1</issue>):<fpage>199</fpage>â<lpage>210</lpage>. <pub-id pub-id-type="doi">10.1016/j.cell.2009.08.031</pub-id>
+<?supplied-pmid 19765810?><pub-id pub-id-type="pmid">19765810</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref030">
+        <label>30</label>
+        <mixed-citation publication-type="journal"><name><surname>Bedard</surname><given-names>N</given-names></name>, <name><surname>Yang</surname><given-names>Y</given-names></name>, <name><surname>Gregory</surname><given-names>M</given-names></name>, <name><surname>Cyr</surname><given-names>DG</given-names></name>, <name><surname>Suzuki</surname><given-names>J</given-names></name>, <name><surname>Yu</surname><given-names>X</given-names></name>, <etal>et al</etal>
+<article-title>Mice Lacking the USP2 Deubiquitinating Enzyme Have Severe Male Subfertility Associated with Defects in Fertilization and Sperm Motility</article-title>. <source>Biol Reprod</source>. <year>2011</year>. Epub 2011/05/06. doi: biolreprod.110.088542 [pii] <pub-id pub-id-type="doi">10.1095/biolreprod.110.088542</pub-id> .<?supplied-pmid 21543767?><pub-id pub-id-type="pmid">21543767</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref031">
+        <label>31</label>
+        <mixed-citation publication-type="journal"><name><surname>Moe</surname><given-names>OW</given-names></name>, <name><surname>Bonny</surname><given-names>O</given-names></name>. <article-title>Genetic hypercalciuria</article-title>. <source>J Am Soc Nephrol</source>. <year>2005</year>;<volume>16</volume>(<issue>3</issue>):<fpage>729</fpage>â<lpage>45</lpage>. Epub 2005/02/04. <pub-id pub-id-type="doi">10.1681/asn.2004100888</pub-id> .<?supplied-pmid 15689405?><pub-id pub-id-type="pmid">15689405</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref032">
+        <label>32</label>
+        <mixed-citation publication-type="journal"><name><surname>Kim</surname><given-names>HJ</given-names></name>, <name><surname>Yang</surname><given-names>DK</given-names></name>, <name><surname>So</surname><given-names>I</given-names></name>. <article-title>PDZ domain-containing protein as a physiological modulator of TRPV6</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2007</year>;<volume>361</volume>(<issue>2</issue>):<fpage>433</fpage>â<lpage>8</lpage>. Epub 2007/07/25. <pub-id pub-id-type="doi">10.1016/j.bbrc.2007.07.027</pub-id> .<?supplied-pmid 17645868?><pub-id pub-id-type="pmid">17645868</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref033">
+        <label>33</label>
+        <mixed-citation publication-type="journal"><name><surname>Tsou</surname><given-names>WL</given-names></name>, <name><surname>Sheedlo</surname><given-names>MJ</given-names></name>, <name><surname>Morrow</surname><given-names>ME</given-names></name>, <name><surname>Blount</surname><given-names>JR</given-names></name>, <name><surname>McGregor</surname><given-names>KM</given-names></name>, <name><surname>Das</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>Systematic analysis of the physiological importance of deubiquitinating enzymes</article-title>. <source>PLoS One</source>. <year>2012</year>;<volume>7</volume>(<issue>8</issue>):<fpage>e43112</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pone.0043112</pub-id>
+<?supplied-pmid 22937016?><pub-id pub-id-type="pmid">22937016</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref034">
+        <label>34</label>
+        <mixed-citation publication-type="journal"><name><surname>Renatus</surname><given-names>M</given-names></name>, <name><surname>Parrado</surname><given-names>SG</given-names></name>, <name><surname>D'Arcy</surname><given-names>A</given-names></name>, <name><surname>Eidhoff</surname><given-names>U</given-names></name>, <name><surname>Gerhartz</surname><given-names>B</given-names></name>, <name><surname>Hassiepen</surname><given-names>U</given-names></name>, <etal>et al</etal>
+<article-title>Structural basis of ubiquitin recognition by the deubiquitinating protease USP2</article-title>. <source>Structure</source>. <year>2006</year>;<volume>14</volume>(<issue>8</issue>):<fpage>1293</fpage>â<lpage>302</lpage>. .<?supplied-pmid 16905103?><pub-id pub-id-type="pmid">16905103</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref035">
+        <label>35</label>
+        <mixed-citation publication-type="journal"><name><surname>Quesada</surname><given-names>V</given-names></name>, <name><surname>Diaz-Perales</surname><given-names>A</given-names></name>, <name><surname>Gutierrez-Fernandez</surname><given-names>A</given-names></name>, <name><surname>Garabaya</surname><given-names>C</given-names></name>, <name><surname>Cal</surname><given-names>S</given-names></name>, <name><surname>Lopez-Otin</surname><given-names>C</given-names></name>. <article-title>Cloning and enzymatic analysis of 22 novel human ubiquitin-specific proteases</article-title>. <source>Biochem Biophys Res Commun</source>. <year>2004</year>;<volume>314</volume>(<issue>1</issue>):<fpage>54</fpage>â<lpage>62</lpage>. .<?supplied-pmid 14715245?><pub-id pub-id-type="pmid">14715245</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref036">
+        <label>36</label>
+        <mixed-citation publication-type="journal"><name><surname>Vilella</surname><given-names>AJ</given-names></name>, <name><surname>Severin</surname><given-names>J</given-names></name>, <name><surname>Ureta-Vidal</surname><given-names>A</given-names></name>, <name><surname>Heng</surname><given-names>L</given-names></name>, <name><surname>Durbin</surname><given-names>R</given-names></name>, <name><surname>Birney</surname><given-names>E</given-names></name>. <article-title>EnsemblCompara GeneTrees: Complete, duplication-aware phylogenetic trees in vertebrates</article-title>. <source>Genome Res</source>. <year>2009</year>;<volume>19</volume>(<issue>2</issue>):<fpage>327</fpage>â<lpage>35</lpage>. <pub-id pub-id-type="doi">10.1101/gr.073585.107</pub-id>
+<?supplied-pmid 19029536?><pub-id pub-id-type="pmid">19029536</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref037">
+        <label>37</label>
+        <mixed-citation publication-type="journal"><name><surname>Hughes</surname><given-names>ME</given-names></name>, <name><surname>Grant</surname><given-names>GR</given-names></name>, <name><surname>Paquin</surname><given-names>C</given-names></name>, <name><surname>Qian</surname><given-names>J</given-names></name>, <name><surname>Nitabach</surname><given-names>MN</given-names></name>. <article-title>Deep sequencing the circadian and diurnal transcriptome of Drosophila brain</article-title>. <source>Genome Res</source>. <year>2012</year>;<volume>22</volume>(<issue>7</issue>):<fpage>1266</fpage>â<lpage>81</lpage>. <pub-id pub-id-type="doi">10.1101/gr.128876.111</pub-id>
+<?supplied-pmid 22472103?><pub-id pub-id-type="pmid">22472103</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref038">
+        <label>38</label>
+        <mixed-citation publication-type="journal"><name><surname>Abruzzi</surname><given-names>KC</given-names></name>, <name><surname>Rodriguez</surname><given-names>J</given-names></name>, <name><surname>Menet</surname><given-names>JS</given-names></name>, <name><surname>Desrochers</surname><given-names>J</given-names></name>, <name><surname>Zadina</surname><given-names>A</given-names></name>, <name><surname>Luo</surname><given-names>W</given-names></name>, <etal>et al</etal>
+<article-title>Drosophila CLOCK target gene characterization: implications for circadian tissue-specific gene expression</article-title>. <source>Genes Dev</source>. <year>2011</year>;<volume>25</volume>(<issue>22</issue>):<fpage>2374</fpage>â<lpage>86</lpage>. <pub-id pub-id-type="doi">10.1101/gad.174110.11110.1101/gad.178079.111</pub-id>
+<?supplied-pmid 22085964?><pub-id pub-id-type="pmid">22085964</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref039">
+        <label>39</label>
+        <mixed-citation publication-type="journal"><name><surname>Pak</surname><given-names>CY</given-names></name>, <name><surname>Britton</surname><given-names>F</given-names></name>, <name><surname>Peterson</surname><given-names>R</given-names></name>, <name><surname>Ward</surname><given-names>D</given-names></name>, <name><surname>Northcutt</surname><given-names>C</given-names></name>, <name><surname>Breslau</surname><given-names>NA</given-names></name>, <etal>et al</etal>
+<article-title>Ambulatory evaluation of nephrolithiasis. Classification, clinical presentation and diagnostic criteria</article-title>. <source>Am J Med</source>. <year>1980</year>;<volume>69</volume>(<issue>1</issue>):<fpage>19</fpage>â<lpage>30</lpage>. Epub 1980/07/01. .<?supplied-pmid 6247914?><pub-id pub-id-type="pmid">6247914</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref040">
+        <label>40</label>
+        <mixed-citation publication-type="journal"><name><surname>Brenza</surname><given-names>HL</given-names></name>, <name><surname>Kimmel-Jehan</surname><given-names>C</given-names></name>, <name><surname>Jehan</surname><given-names>F</given-names></name>, <name><surname>Shinki</surname><given-names>T</given-names></name>, <name><surname>Wakino</surname><given-names>S</given-names></name>, <name><surname>Anazawa</surname><given-names>H</given-names></name>, <etal>et al</etal>
+<article-title>Parathyroid hormone activation of the 25-hydroxyvitamin D3-1alpha-hydroxylase gene promoter</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>1998</year>;<volume>95</volume>(<issue>4</issue>):<fpage>1387</fpage>â<lpage>91</lpage>. Epub 1998/03/21. <?supplied-pmid 9465024?><pub-id pub-id-type="pmid">9465024</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref041">
+        <label>41</label>
+        <mixed-citation publication-type="journal"><name><surname>Pike</surname><given-names>JW</given-names></name>. <article-title>Genome-wide principles of gene regulation by the vitamin D receptor and its activating ligand</article-title>. <source>Mol Cell Endocrinol</source>. <year>2011</year>;<volume>347</volume>(<issue>1â2</issue>):<fpage>3</fpage>â<lpage>10</lpage>. <pub-id pub-id-type="doi">10.1016/j.mce.2011.05.012</pub-id>
+<?supplied-pmid 21664239?><pub-id pub-id-type="pmid">21664239</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref042">
+        <label>42</label>
+        <mixed-citation publication-type="journal"><name><surname>Zierold</surname><given-names>C</given-names></name>, <name><surname>Mings</surname><given-names>JA</given-names></name>, <name><surname>DeLuca</surname><given-names>HF</given-names></name>. <article-title>Parathyroid hormone regulates 25-hydroxyvitamin D(3)-24-hydroxylase mRNA by altering its stability</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2001</year>;<volume>98</volume>(<issue>24</issue>):<fpage>13572</fpage>â<lpage>6</lpage>. <pub-id pub-id-type="doi">10.1073/pnas.241516798</pub-id>
+<?supplied-pmid 11698670?><pub-id pub-id-type="pmid">11698670</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref043">
+        <label>43</label>
+        <mixed-citation publication-type="journal"><name><surname>Miles</surname><given-names>RR</given-names></name>, <name><surname>Sluka</surname><given-names>JP</given-names></name>, <name><surname>Halladay</surname><given-names>DL</given-names></name>, <name><surname>Santerre</surname><given-names>RF</given-names></name>, <name><surname>Hale</surname><given-names>LV</given-names></name>, <name><surname>Bloem</surname><given-names>L</given-names></name>, <etal>et al</etal>
+<article-title>Parathyroid hormone (hPTH 1â38) stimulates the expression of UBP41, an ubiquitin-specific protease, in bone</article-title>. <source>J Cell Biochem</source>. <year>2002</year>;<volume>85</volume>(<issue>2</issue>):<fpage>229</fpage>â<lpage>42</lpage>. .<?supplied-pmid 11948679?><pub-id pub-id-type="pmid">11948679</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref044">
+        <label>44</label>
+        <mixed-citation publication-type="journal"><name><surname>Nijenhuis</surname><given-names>T</given-names></name>, <name><surname>Hoenderop</surname><given-names>JG</given-names></name>, <name><surname>Bindels</surname><given-names>RJ</given-names></name>. <article-title>TRPV5 and TRPV6 in Ca(2+) (re)absorption: regulating Ca(2+) entry at the gate</article-title>. <source>Pflugers Arch</source>. <year>2005</year>;<volume>451</volume>(<issue>1</issue>):<fpage>181</fpage>â<lpage>92</lpage>. Epub 2005/07/27. <pub-id pub-id-type="doi">10.1007/s00424-005-1430-6</pub-id> .<?supplied-pmid 16044309?><pub-id pub-id-type="pmid">16044309</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref045">
+        <label>45</label>
+        <mixed-citation publication-type="journal"><name><surname>Biber</surname><given-names>J</given-names></name>, <name><surname>Stieger</surname><given-names>B</given-names></name>, <name><surname>Stange</surname><given-names>G</given-names></name>, <name><surname>Murer</surname><given-names>H</given-names></name>. <article-title>Isolation of renal proximal tubular brush-border membranes</article-title>. <source>Nat Protoc</source>. <year>2007</year>;<volume>2</volume>(<issue>6</issue>):<fpage>1356</fpage>â<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1038/nprot.2007.156</pub-id> .<?supplied-pmid 17545973?><pub-id pub-id-type="pmid">17545973</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref046">
+        <label>46</label>
+        <mixed-citation publication-type="journal"><name><surname>van der Horst</surname><given-names>GT</given-names></name>, <name><surname>Muijtjens</surname><given-names>M</given-names></name>, <name><surname>Kobayashi</surname><given-names>K</given-names></name>, <name><surname>Takano</surname><given-names>R</given-names></name>, <name><surname>Kanno</surname><given-names>S</given-names></name>, <name><surname>Takao</surname><given-names>M</given-names></name>, <etal>et al</etal>
+<article-title>Mammalian Cry1 and Cry2 are essential for maintenance of circadian rhythms</article-title>. <source>Nature</source>. <year>1999</year>;<volume>398</volume>(<issue>6728</issue>):<fpage>627</fpage>â<lpage>30</lpage>. Epub 1999/04/27. <pub-id pub-id-type="doi">10.1038/19323</pub-id> .<?supplied-pmid 10217146?><pub-id pub-id-type="pmid">10217146</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref047">
+        <label>47</label>
+        <mixed-citation publication-type="journal"><name><surname>Bur</surname><given-names>IM</given-names></name>, <name><surname>Cohen-Solal</surname><given-names>AM</given-names></name>, <name><surname>Carmignac</surname><given-names>D</given-names></name>, <name><surname>Abecassis</surname><given-names>PY</given-names></name>, <name><surname>Chauvet</surname><given-names>N</given-names></name>, <name><surname>Martin</surname><given-names>AO</given-names></name>, <etal>et al</etal>
+<article-title>The circadian clock components CRY1 and CRY2 are necessary to sustain sex dimorphism in mouse liver metabolism</article-title>. <source>J Biol Chem</source>. <year>2009</year>;<volume>284</volume>(<issue>14</issue>):<fpage>9066</fpage>â<lpage>73</lpage>. <pub-id pub-id-type="doi">10.1074/jbc.M808360200</pub-id>
+<?supplied-pmid 19211562?><pub-id pub-id-type="pmid">19211562</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref048">
+        <label>48</label>
+        <mixed-citation publication-type="journal"><name><surname>Luo</surname><given-names>W</given-names></name>, <name><surname>Li</surname><given-names>Y</given-names></name>, <name><surname>Tang</surname><given-names>CH</given-names></name>, <name><surname>Abruzzi</surname><given-names>KC</given-names></name>, <name><surname>Rodriguez</surname><given-names>J</given-names></name>, <name><surname>Pescatore</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>CLOCK deubiquitylation by USP8 inhibits CLK/CYC transcription in Drosophila</article-title>. <source>Genes Dev</source>. <year>2012</year>;<volume>26</volume>(<issue>22</issue>):<fpage>2536</fpage>â<lpage>49</lpage>. Epub 2012/11/17. <pub-id pub-id-type="doi">10.1101/gad.200584.112</pub-id>
+<?supplied-pmid 23154984?><pub-id pub-id-type="pmid">23154984</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref049">
+        <label>49</label>
+        <mixed-citation publication-type="journal"><name><surname>Firsov</surname><given-names>D</given-names></name>, <name><surname>Bonny</surname><given-names>O</given-names></name>. <article-title>Circadian regulation of renal function</article-title>. <source>Kidney Int</source>. <year>2010</year>;<volume>78</volume>(<issue>7</issue>):<fpage>640</fpage>â<lpage>5</lpage>. <pub-id pub-id-type="doi">10.1038/ki.2010.227</pub-id> .<?supplied-pmid 20664559?><pub-id pub-id-type="pmid">20664559</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref050">
+        <label>50</label>
+        <mixed-citation publication-type="journal"><name><surname>Halbritter</surname><given-names>J</given-names></name>, <name><surname>Baum</surname><given-names>M</given-names></name>, <name><surname>Hynes</surname><given-names>AM</given-names></name>, <name><surname>Rice</surname><given-names>SJ</given-names></name>, <name><surname>Thwaites</surname><given-names>DT</given-names></name>, <name><surname>Gucev</surname><given-names>ZS</given-names></name>, <etal>et al</etal>
+<article-title>Fourteen Monogenic Genes Account for 15% of Nephrolithiasis/Nephrocalcinosis</article-title>. <source>J Am Soc Nephrol</source>. <year>2014</year>
+<pub-id pub-id-type="doi">10.1681/ASN.2014040388</pub-id> .<?supplied-pmid 25296721?><pub-id pub-id-type="pmid">25296721</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref051">
+        <label>51</label>
+        <mixed-citation publication-type="journal"><name><surname>Graner</surname><given-names>E</given-names></name>, <name><surname>Tang</surname><given-names>D</given-names></name>, <name><surname>Rossi</surname><given-names>S</given-names></name>, <name><surname>Baron</surname><given-names>A</given-names></name>, <name><surname>Migita</surname><given-names>T</given-names></name>, <name><surname>Weinstein</surname><given-names>LJ</given-names></name>, <etal>et al</etal>
+<article-title>The isopeptidase USP2a regulates the stability of fatty acid synthase in prostate cancer</article-title>. <source>Cancer Cell</source>. <year>2004</year>;<volume>5</volume>(<issue>3</issue>):<fpage>253</fpage>â<lpage>61</lpage>. Epub 2004/03/31. .<?supplied-pmid 15050917?><pub-id pub-id-type="pmid">15050917</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref052">
+        <label>52</label>
+        <mixed-citation publication-type="journal"><name><surname>Liu</surname><given-names>Z</given-names></name>, <name><surname>Zanata</surname><given-names>SM</given-names></name>, <name><surname>Kim</surname><given-names>J</given-names></name>, <name><surname>Peterson</surname><given-names>MA</given-names></name>, <name><surname>Di Vizio</surname><given-names>D</given-names></name>, <name><surname>Chirieac</surname><given-names>LR</given-names></name>, <etal>et al</etal>
+<article-title>The ubiquitin-specific protease USP2a prevents endocytosis-mediated EGFR degradation</article-title>. <source>Oncogene</source>. <year>2013</year>;<volume>32</volume>(<issue>13</issue>):<fpage>1660</fpage>â<lpage>9</lpage>. <pub-id pub-id-type="doi">10.1038/onc.2012.188</pub-id>
+<?supplied-pmid 22710717?><pub-id pub-id-type="pmid">22710717</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref053">
+        <label>53</label>
+        <mixed-citation publication-type="journal"><name><surname>Kouranti</surname><given-names>I</given-names></name>, <name><surname>McLean</surname><given-names>JR</given-names></name>, <name><surname>Feoktistova</surname><given-names>A</given-names></name>, <name><surname>Liang</surname><given-names>P</given-names></name>, <name><surname>Johnson</surname><given-names>AE</given-names></name>, <name><surname>Roberts-Galbraith</surname><given-names>RH</given-names></name>, <etal>et al</etal>
+<article-title>A global census of fission yeast deubiquitinating enzyme localization and interaction networks reveals distinct compartmentalization profiles and overlapping functions in endocytosis and polarity</article-title>. <source>PLoS Biol</source>. <year>2010</year>;<volume>8</volume>(<issue>9</issue>). <pub-id pub-id-type="doi">10.1371/journal.pbio.1000471</pub-id>
+<?supplied-pmid 20838651?><pub-id pub-id-type="pmid">20838651</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref054">
+        <label>54</label>
+        <mixed-citation publication-type="journal"><name><surname>Wrobel</surname><given-names>J</given-names></name>. <article-title>Development of circadian variations in intestinal calcium transport during maturation of the rat</article-title>. <source>Acta Physiol Pol</source>. <year>1981</year>;<volume>32</volume>(<issue>4</issue>):<fpage>407</fpage>â<lpage>17</lpage>. .<?supplied-pmid 7199246?><pub-id pub-id-type="pmid">7199246</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref055">
+        <label>55</label>
+        <mixed-citation publication-type="journal"><name><surname>Wrobel</surname><given-names>J</given-names></name>. <article-title>Diurnal variations of calcium transport in the small intestine of adrenalectomized, nephrectomized, and vitamin D-treated rats</article-title>. <source>Calcif Tissue Int</source>. <year>1983</year>;<volume>35</volume>(<issue>3</issue>):<fpage>352</fpage>â<lpage>6</lpage>. .<?supplied-pmid 6683586?><pub-id pub-id-type="pmid">6683586</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref056">
+        <label>56</label>
+        <mixed-citation publication-type="journal"><name><surname>Wrobel</surname><given-names>J</given-names></name>, <name><surname>Nagel</surname><given-names>G</given-names></name>. <article-title>Diurnal rhythm of active calcium transport in rat intestine</article-title>. <source>Experientia</source>. <year>1979</year>;<volume>35</volume>(<issue>12</issue>):<fpage>1581</fpage>â<lpage>2</lpage>. .<?supplied-pmid 574832?><pub-id pub-id-type="pmid">574832</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref057">
+        <label>57</label>
+        <mixed-citation publication-type="journal"><name><surname>Komander</surname><given-names>D</given-names></name>. <article-title>The emerging complexity of protein ubiquitination</article-title>. <source>Biochem Soc Trans</source>. <year>2009</year>;<volume>37</volume>(<issue>Pt 5</issue>):<fpage>937</fpage>â<lpage>53</lpage>. Epub 2009/09/17. <pub-id pub-id-type="doi">10.1042/bst0370937</pub-id> .<?supplied-pmid 19754430?><pub-id pub-id-type="pmid">19754430</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref058">
+        <label>58</label>
+        <mixed-citation publication-type="journal"><name><surname>Faresse</surname><given-names>N</given-names></name>, <name><surname>Debonneville</surname><given-names>A</given-names></name>, <name><surname>Staub</surname><given-names>O</given-names></name>. <article-title>USP2-45 represses aldosterone mediated responses by decreasing mineralocorticoid receptor availability</article-title>. <source>Cell Physiol Biochem</source>. <year>2013</year>;<volume>31</volume>(<issue>2â3</issue>):<fpage>462</fpage>â<lpage>72</lpage>. Epub 2013/04/04. <pub-id pub-id-type="doi">10.1159/000343382</pub-id> .<?supplied-pmid 23548632?><pub-id pub-id-type="pmid">23548632</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref059">
+        <label>59</label>
+        <mixed-citation publication-type="journal"><name><surname>Wagner</surname><given-names>SA</given-names></name>, <name><surname>Beli</surname><given-names>P</given-names></name>, <name><surname>Weinert</surname><given-names>BT</given-names></name>, <name><surname>Scholz</surname><given-names>C</given-names></name>, <name><surname>Kelstrup</surname><given-names>CD</given-names></name>, <name><surname>Young</surname><given-names>C</given-names></name>, <etal>et al</etal>
+<article-title>Proteomic analyses reveal divergent ubiquitylation site patterns in murine tissues</article-title>. <source>Mol Cell Proteomics</source>. <year>2012</year>;<volume>11</volume>(<issue>12</issue>):<fpage>1578</fpage>â<lpage>85</lpage>. Epub 2012/07/14. <pub-id pub-id-type="doi">10.1074/mcp.M112.017905</pub-id>
+<?supplied-pmid 22790023?><pub-id pub-id-type="pmid">22790023</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref060">
+        <label>60</label>
+        <mixed-citation publication-type="journal"><name><surname>Lee</surname><given-names>JM</given-names></name>, <name><surname>Sonnhammer</surname><given-names>EL</given-names></name>. <article-title>Genomic gene clustering analysis of pathways in eukaryotes</article-title>. <source>Genome Res</source>. <year>2003</year>;<volume>13</volume>(<issue>5</issue>):<fpage>875</fpage>â<lpage>82</lpage>. Epub 2003/04/16. <pub-id pub-id-type="doi">10.1101/gr.737703</pub-id>
+<?supplied-pmid 12695325?><pub-id pub-id-type="pmid">12695325</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref061">
+        <label>61</label>
+        <mixed-citation publication-type="journal"><name><surname>Lercher</surname><given-names>MJ</given-names></name>, <name><surname>Urrutia</surname><given-names>AO</given-names></name>, <name><surname>Hurst</surname><given-names>LD</given-names></name>. <article-title>Clustering of housekeeping genes provides a unified model of gene order in the human genome</article-title>. <source>Nat Genet</source>. <year>2002</year>;<volume>31</volume>(<issue>2</issue>):<fpage>180</fpage>â<lpage>3</lpage>. Epub 2002/05/07. <pub-id pub-id-type="doi">10.1038/ng887</pub-id> .<?supplied-pmid 11992122?><pub-id pub-id-type="pmid">11992122</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref062">
+        <label>62</label>
+        <mixed-citation publication-type="journal"><name><surname>Lishko</surname><given-names>PV</given-names></name>, <name><surname>Kirichok</surname><given-names>Y</given-names></name>, <name><surname>Ren</surname><given-names>D</given-names></name>, <name><surname>Navarro</surname><given-names>B</given-names></name>, <name><surname>Chung</surname><given-names>JJ</given-names></name>, <name><surname>Clapham</surname><given-names>DE</given-names></name>. <article-title>The control of male fertility by spermatozoan ion channels</article-title>. <source>Annu Rev Physiol</source>. <year>2012</year>;<volume>74</volume>:<fpage>453</fpage>â<lpage>75</lpage>. <pub-id pub-id-type="doi">10.1146/annurev-physiol-020911-153258</pub-id>
+<?supplied-pmid 22017176?><pub-id pub-id-type="pmid">22017176</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref063">
+        <label>63</label>
+        <mixed-citation publication-type="journal"><name><surname>Rougier</surname><given-names>JS</given-names></name>, <name><surname>Albesa</surname><given-names>M</given-names></name>, <name><surname>Syam</surname><given-names>N</given-names></name>, <name><surname>Halet</surname><given-names>G</given-names></name>, <name><surname>Abriel</surname><given-names>H</given-names></name>, <name><surname>Viard</surname><given-names>P</given-names></name>. <article-title>Ubiquitin-specific protease USP2-45 acts as a molecular switch to promote alphadelta-1-induced downregulation of Ca 1.2 channels</article-title>. <source>Pflugers Arch</source>. <year>2014</year> Epub 2014/11/05. <pub-id pub-id-type="doi">10.1007/s00424-014-1636-6</pub-id> .<?supplied-pmid 25366495?><pub-id pub-id-type="pmid">25366495</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref064">
+        <label>64</label>
+        <mixed-citation publication-type="journal"><name><surname>Burkeen</surname><given-names>JF</given-names></name>, <name><surname>Womac</surname><given-names>AD</given-names></name>, <name><surname>Earnest</surname><given-names>DJ</given-names></name>, <name><surname>Zoran</surname><given-names>MJ</given-names></name>. <article-title>Mitochondrial calcium signaling mediates rhythmic extracellular ATP accumulation in suprachiasmatic nucleus astrocytes</article-title>. <source>J Neurosci</source>. <year>2011</year>;<volume>31</volume>(<issue>23</issue>):<fpage>8432</fpage>â<lpage>40</lpage>. Epub 2011/06/10. <pub-id pub-id-type="doi">10.1523/jneurosci.6576-10.2011</pub-id>
+<?supplied-pmid 21653847?><pub-id pub-id-type="pmid">21653847</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref065">
+        <label>65</label>
+        <mixed-citation publication-type="journal"><name><surname>Enoki</surname><given-names>R</given-names></name>, <name><surname>Kuroda</surname><given-names>S</given-names></name>, <name><surname>Ono</surname><given-names>D</given-names></name>, <name><surname>Hasan</surname><given-names>MT</given-names></name>, <name><surname>Ueda</surname><given-names>T</given-names></name>, <name><surname>Honma</surname><given-names>S</given-names></name>, <etal>et al</etal>
+<article-title>Topological specificity and hierarchical network of the circadian calcium rhythm in the suprachiasmatic nucleus</article-title>. <source>Proc Natl Acad Sci U S A</source>. <year>2012</year>;<volume>109</volume>(<issue>52</issue>):<fpage>21498</fpage>â<lpage>503</lpage>. Epub 2012/12/06. <pub-id pub-id-type="doi">10.1073/pnas.1214415110</pub-id>
+<?supplied-pmid 23213253?><pub-id pub-id-type="pmid">23213253</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref066">
+        <label>66</label>
+        <mixed-citation publication-type="journal"><name><surname>Love</surname><given-names>J</given-names></name>, <name><surname>Dodd</surname><given-names>AN</given-names></name>, <name><surname>Webb</surname><given-names>AA</given-names></name>. <article-title>Circadian and diurnal calcium oscillations encode photoperiodic information in Arabidopsis</article-title>. <source>Plant Cell</source>. <year>2004</year>;<volume>16</volume>(<issue>4</issue>):<fpage>956</fpage>â<lpage>66</lpage>. <pub-id pub-id-type="doi">10.1105/tpc.020214</pub-id>
+<?supplied-pmid 15031410?><pub-id pub-id-type="pmid">15031410</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref067">
+        <label>67</label>
+        <mixed-citation publication-type="journal"><name><surname>Marpegan</surname><given-names>L</given-names></name>, <name><surname>Swanstrom</surname><given-names>AE</given-names></name>, <name><surname>Chung</surname><given-names>K</given-names></name>, <name><surname>Simon</surname><given-names>T</given-names></name>, <name><surname>Haydon</surname><given-names>PG</given-names></name>, <name><surname>Khan</surname><given-names>SK</given-names></name>, <etal>et al</etal>
+<article-title>Circadian regulation of ATP release in astrocytes</article-title>. <source>J Neurosci</source>. <year>2011</year>;<volume>31</volume>(<issue>23</issue>):<fpage>8342</fpage>â<lpage>50</lpage>. Epub 2011/06/10. <pub-id pub-id-type="doi">10.1523/jneurosci.6537-10.2011</pub-id>
+<?supplied-pmid 21653839?><pub-id pub-id-type="pmid">21653839</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref068">
+        <label>68</label>
+        <mixed-citation publication-type="journal"><name><surname>Jouffe</surname><given-names>C</given-names></name>, <name><surname>Cretenet</surname><given-names>G</given-names></name>, <name><surname>Symul</surname><given-names>L</given-names></name>, <name><surname>Martin</surname><given-names>E</given-names></name>, <name><surname>Atger</surname><given-names>F</given-names></name>, <name><surname>Naef</surname><given-names>F</given-names></name>, <etal>et al</etal>
+<article-title>The circadian clock coordinates ribosome biogenesis</article-title>. <source>PLoS Biol</source>. <year>2013</year>;<volume>11</volume>(<issue>1</issue>):<fpage>e1001455</fpage> Epub 2013/01/10. <pub-id pub-id-type="doi">10.1371/journal.pbio.1001455</pub-id>
+<?supplied-pmid 23300384?><pub-id pub-id-type="pmid">23300384</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref069">
+        <label>69</label>
+        <mixed-citation publication-type="journal"><name><surname>Emery</surname><given-names>P</given-names></name>, <name><surname>So</surname><given-names>WV</given-names></name>, <name><surname>Kaneko</surname><given-names>M</given-names></name>, <name><surname>Hall</surname><given-names>JC</given-names></name>, <name><surname>Rosbash</surname><given-names>M</given-names></name>. <article-title>CRY, a Drosophila clock and light-regulated cryptochrome, is a major contributor to circadian rhythm resetting and photosensitivity</article-title>. <source>Cell</source>. <year>1998</year>;<volume>95</volume>(<issue>5</issue>):<fpage>669</fpage>â<lpage>79</lpage>. .<?supplied-pmid 9845369?><pub-id pub-id-type="pmid">9845369</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref070">
+        <label>70</label>
+        <mixed-citation publication-type="journal"><name><surname>Picot</surname><given-names>M</given-names></name>, <name><surname>Cusumano</surname><given-names>P</given-names></name>, <name><surname>Klarsfeld</surname><given-names>A</given-names></name>, <name><surname>Ueda</surname><given-names>R</given-names></name>, <name><surname>Rouyer</surname><given-names>F</given-names></name>. <article-title>Light activates output from evening neurons and inhibits output from morning neurons in the Drosophila circadian clock</article-title>. <source>PLoS Biol</source>. <year>2007</year>;<volume>5</volume>(<issue>11</issue>):<fpage>e315</fpage>
+<pub-id pub-id-type="doi">10.1371/journal.pbio.0050315</pub-id>
+<?supplied-pmid 18044989?><pub-id pub-id-type="pmid">18044989</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref071">
+        <label>71</label>
+        <mixed-citation publication-type="journal"><name><surname>Parfitt</surname><given-names>AM</given-names></name>. <article-title>Letter: Correction of plasma calcium measurements</article-title>. <source>Br Med J</source>. <year>1974</year>;<volume>1</volume>(<issue>5906</issue>):<fpage>520</fpage> Epub 1974/03/16. <?supplied-pmid 4817178?><pub-id pub-id-type="pmid">4817178</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref072">
+        <label>72</label>
+        <mixed-citation publication-type="journal"><name><surname>Ruffieux-Daidie</surname><given-names>D</given-names></name>, <name><surname>Poirot</surname><given-names>O</given-names></name>, <name><surname>Boulkroun</surname><given-names>S</given-names></name>, <name><surname>Verrey</surname><given-names>F</given-names></name>, <name><surname>Kellenberger</surname><given-names>S</given-names></name>, <name><surname>Staub</surname><given-names>O</given-names></name>. <article-title>Deubiquitylation regulates activation and proteolytic cleavage of ENaC</article-title>. <source>J Am Soc Nephrol</source>. <year>2008</year>;<volume>19</volume>(<issue>11</issue>):<fpage>2170</fpage>â<lpage>80</lpage>. <pub-id pub-id-type="doi">10.1681/ASN.2007101130</pub-id>
+<?supplied-pmid 18701608?><pub-id pub-id-type="pmid">18701608</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref073">
+        <label>73</label>
+        <mixed-citation publication-type="journal"><name><surname>Fakitsas</surname><given-names>P</given-names></name>, <name><surname>Adam</surname><given-names>G</given-names></name>, <name><surname>Daidie</surname><given-names>D</given-names></name>, <name><surname>van Bemmelen</surname><given-names>MX</given-names></name>, <name><surname>Fouladkou</surname><given-names>F</given-names></name>, <name><surname>Patrignani</surname><given-names>A</given-names></name>, <etal>et al</etal>
+<article-title>Early aldosterone-induced gene product regulates the epithelial sodium channel by deubiquitylation</article-title>. <source>J Am Soc Nephrol</source>. <year>2007</year>;<volume>18</volume>(<issue>4</issue>):<fpage>1084</fpage>â<lpage>92</lpage>. <pub-id pub-id-type="doi">10.1681/ASN.2006080902</pub-id> .<?supplied-pmid 17344426?><pub-id pub-id-type="pmid">17344426</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0145155.ref074">
+        <label>74</label>
+        <mixed-citation publication-type="journal"><name><surname>Vizcaino</surname><given-names>JA</given-names></name>, <name><surname>Cote</surname><given-names>RG</given-names></name>, <name><surname>Csordas</surname><given-names>A</given-names></name>, <name><surname>Dianes</surname><given-names>JA</given-names></name>, <name><surname>Fabregat</surname><given-names>A</given-names></name>, <name><surname>Foster</surname><given-names>JM</given-names></name>, <etal>et al</etal>
+<article-title>The PRoteomics IDEntifications (PRIDE) database and associated tools: status in 2013</article-title>. <source>Nucleic Acids Res</source>. <year>2013</year>;<volume>41</volume>(Database issue):<fpage>D1063</fpage>â<lpage>9</lpage>. Epub 2012/12/04. <pub-id pub-id-type="doi">10.1093/nar/gks1262</pub-id>
+<?supplied-pmid 23203882?><pub-id pub-id-type="pmid">23203882</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

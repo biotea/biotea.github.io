@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:47:59Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3597564" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3597564</identifier><datestamp>2013-03-20</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3597564</article-id>
+      <article-id pub-id-type="pmcid">PMC3597564</article-id>
+      <article-id pub-id-type="pmc-uid">3597564</article-id>
+      <article-id pub-id-type="pmid">23516580</article-id>
+      <article-id pub-id-type="pmid">23516580</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-01459</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0058937</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>Protein Interactions</subject>
+                <subject>Protein Structure</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Biomacromolecule-Ligand Interactions</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Molecular Genetics</subject>
+              <subj-group>
+                <subject>Gene Identification and Analysis</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Gene Function</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+            <subj-group>
+              <subject>Bacterial Pathogens</subject>
+              <subj-group>
+                <subject>Gram Negative</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Bacteriology</subject>
+              <subj-group>
+                <subject>Bacterial Biochemistry</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Host-Pathogen Interaction</subject>
+              <subject>Microbial Pathogens</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular Cell Biology</subject>
+            <subj-group>
+              <subject>Cell Death</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The <italic>E. coli</italic> Effector Protein NleF Is a Caspase Inhibitor</article-title>
+        <alt-title alt-title-type="running-head">The EHEC Effector NleF Is a Caspase Inhibitor</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Blasche</surname>
+            <given-names>Sonja</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>MÃ¶rtl</surname>
+            <given-names>Mario</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Steuber</surname>
+            <given-names>Holger</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn3">
+<sup>Â¤c</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Siszler</surname>
+            <given-names>Gabriella</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Nisa</surname>
+            <given-names>Shahista</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schwarz</surname>
+            <given-names>Frank</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lavrik</surname>
+            <given-names>Inna</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn4">
+<sup>Â¤d</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gronewold</surname>
+            <given-names>Thomas M. A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maskos</surname>
+            <given-names>Klaus</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Donnenberg</surname>
+            <given-names>Michael S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Ullmann</surname>
+            <given-names>Dirk</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn2">
+<sup>Â¤b</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Uetz</surname>
+            <given-names>Peter</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>KÃ¶gl</surname>
+            <given-names>Manfred</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn1">
+<sup>Â¤a</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Genomics and Proteomics Core Facilities, German Cancer Research Center, Heidelberg, Germany</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Proteros biostructures GmbH, Martinsried, Germany</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>School of Medicine, University of Maryland, Baltimore, Maryland, United States of America</addr-line>
+</aff>
+      <aff id="aff4">
+<label>4</label>
+<addr-line>Division of Immunogenetics, German Cancer Research Center, Heidelberg, Germany</addr-line>
+</aff>
+      <aff id="aff5">
+<label>5</label>
+<addr-line>Center for the Study of Biological Complexity, Virginia Commonwealth University, Richmond, Virginia, United States of America</addr-line>
+</aff>
+      <aff id="aff6">
+<label>6</label>
+<addr-line>SAW Instruments GmbH, Bonn, Germany</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Bergmann</surname>
+            <given-names>Andreas</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>University of Massachusetts Medical School, United States of America</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>uetz@vcu.edu</email></corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>Dr. Gronewold is an employee of SAW. Mario MÃ¶rtl and Klaus Maskos are affiliated with Proteros. Dirk Ullmann and Holger Steuber used to work at Proteros, the company that solved the crystal structure of the complex we describe. This does not alter the authorsâ adherence to all the PLOS ONE policies on sharing data and materials. All other authors, including Dirk Ullmann and Holger Steuber, declare no competing interest.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: MK PU SB MSD MM KM HS. Performed the experiments: SB GS SN IL TMAG. Analyzed the data: SB MK PU FS DU MK MSD HS TMAG IL. Wrote the paper: SB HS PU MSD MK.</p>
+        </fn>
+        <fn id="fn1" fn-type="current-aff">
+          <label>Â¤a</label>
+          <p>Current address: Boehringer Ingelheim, Vienna, Austria</p>
+        </fn>
+        <fn id="fn2" fn-type="current-aff">
+          <label>Â¤b</label>
+          <p>Current address: Evotec AG, Martinsried, Germany</p>
+        </fn>
+        <fn id="fn3" fn-type="current-aff">
+          <label>Â¤c</label>
+          <p>Current address: Philipps-UniversitÃ¤t Marburg, LOEWE-Center for Synthetic Microbiology, Marburg, Germany</p>
+        </fn>
+        <fn id="fn4" fn-type="current-aff">
+          <label>Â¤d</label>
+          <p>Current address: Department of Translational Inflammation Research, Institute of Experimental Internal Medicine, Otto von Guericke University Magdeburg, Magdeburg, Germany</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>14</day>
+        <month>3</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>3</issue>
+      <elocation-id>e58937</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>7</day>
+          <month>1</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>24</day>
+          <month>1</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2013 Blasche et al</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Blasche et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Enterohemorrhagic and enteropathogenic <italic>E. coli</italic> (EHEC and EPEC) can cause severe and potentially life-threatening infections. Their pathogenicity is mediated by at least 40 effector proteins which they inject into their host cells by a type-III secretion system leading to the subversion of several cellular pathways. However, the molecular function of several effectors remains unknown, even though they contribute to virulence. Here we show that one of them, NleF, binds to caspase-4, -8, and -9 in yeast two-hybrid, LUMIER, and direct interaction assays. NleF inhibits the catalytic activity of the caspases <italic>in vitro</italic> and in cell lysate and prevents apoptosis in HeLa and Caco-2 cells. We have solved the crystal structure of the caspase-9/NleF complex which shows that NleF uses a novel mode of caspase inhibition, involving the insertion of the carboxy-terminus of NleF into the active site of the protease. In conformance with our structural model, mutagenized NleF with truncated or elongated carboxy-termini revealed a complete loss in caspase binding and apoptosis inhibition. Evasion of apoptosis helps pathogenic <italic>E. coli</italic> and other pathogens to take over the host cell by counteracting the cellâs ability to self-destruct upon infection. Recently, two other effector proteins, namely NleD and NleH, were shown to interfere with apoptosis. Even though NleF is not the only effector protein capable of apoptosis inhibition, direct inhibition of caspases by bacterial effectors has not been reported to date. Also unique so far is its mode of inhibition that resembles the one obtained for synthetic peptide-type inhibitors and as such deviates substantially from previously reported caspase-9 inhibitors such as the BIR3 domain of XIAP.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>The work was supported by the Seventh Research Framework Programme of the European Union (AntiPathoGN; EU grant HEALTH-F3-2009-223101). SN and MSD were supported by award number 1U19AI090873 from the National Institute of Allergy and Infectious Diseases. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Pathogenic bacteria that cause infectious diarrhoea are a major health problem worldwide. Among them, EHEC and EPEC are especially virulent <xref rid="pone.0058937-CDC1" ref-type="bibr">[1]</xref>, <xref rid="pone.0058937-Charatan1" ref-type="bibr">[2]</xref>. Like many other pathogenic gram negative bacteria, they possess a type III secretion system (T3SS), a syringe-like apparatus composed of more than 20 proteins, which permits injection of bacterial effector proteins directly into mammalian host cells. EHEC strain O157:H7 (Sakai) encodes for 62 putative effectors, of which 39 are verifiably translocated into the host cell <xref rid="pone.0058937-Tobe1" ref-type="bibr">[3]</xref>. These proteins, many of which are shared by EPEC, are responsible for the subversion of cellular antagonistic responses and the establishment of an environment suitable for pathogen proliferation. The precise function of many of these effectors is unknown, even though some, including NleF, have been implicated in virulence <xref rid="pone.0058937-Echtenkamp1" ref-type="bibr">[4]</xref>.</p>
+      <p>Eukaryotic cells recognise invading pathogens by pattern recognition receptors, which stimulate the secretion of inflammatory mediators such as IL-1Î², IL-6, TNFÎ± and interferons to combat the infection. In some cases, the response concludes in the induction of apoptotic cell death to remove the invading pathogen along with its host cell <xref rid="pone.0058937-Behar1" ref-type="bibr">[5]</xref>. Central to the execution of apoptosis are the caspases, a family of intracellular aspartate proteases <xref rid="pone.0058937-Elmore1" ref-type="bibr">[6]</xref> that become activated upon initiation of apoptosis. To counteract this response, many viruses express proteins which inhibit the induction of apoptosis <xref rid="pone.0058937-Callus1" ref-type="bibr">[7]</xref>. Some anti-apoptotic viral proteins act as decoys for cellular pro-apoptotic factors, such as viral inhibitors of apoptosis (vIAPs) <xref rid="pone.0058937-Vucic1" ref-type="bibr">[8]</xref>, whereas others, such as the baculoviral p35 protein, directly bind to caspases to inhibit their proteolytic activity <xref rid="pone.0058937-Zhou1" ref-type="bibr">[9]</xref>, <xref rid="pone.0058937-Xu1" ref-type="bibr">[10]</xref>. An example of a bacterial effector protein counteracting an apoptotic response has recently been reported: The EHEC and EPEC effector NleH inhibits apoptosis of host cells by targeting BI-1 (Bax inhibitor 1), a cellular inhibitor of the anti-apoptotic protein Bax <xref rid="pone.0058937-Hemrajani1" ref-type="bibr">[11]</xref>. However, direct inhibition of caspases by bacterial effectors has not been reported to date.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>NleF Binds to Caspases</title>
+        <p>In a systematic effort to elucidate the cellular targets of EHEC effector proteins, we identified caspase-9 as a binding partner of NleF. Caspase-9 was the predominant hit identified in screens of NleF against amino- and carboxy-terminally tagged yeast two-hybrid libraries (see <xref ref-type="sec" rid="s2">
+<bold>Methods</bold>
+</xref> for details). LUMIER assays with caspase-9 and NleF in HEK-293T cells confirmed the interaction<bold>.</bold> A test for interaction of NleF with caspases-1, -2, -3, -4, -6, -7, -8, -9, -10 and -14 led to the identification of caspase-4 and caspase-8 as additional binding partners (<xref ref-type="fig" rid="pone-0058937-g001">
+<bold>Fig. 1A</bold>
+</xref>). We determined the dissociation constant of the Caspase9-NleF interaction by surface acoustic wave resonance (SAW) to be â¼39 nM, a value which is well in the range of known viral inhibitors of apoptosis <xref rid="pone.0058937-Callus1" ref-type="bibr">[7]</xref>, indicating biological significance (<xref ref-type="fig" rid="pone-0058937-g001">
+<bold>Fig. 1B, C</bold>
+</xref>, <bold><xref ref-type="supplementary-material" rid="pone.0058937.s007">Table S1</xref></bold>).</p>
+        <fig id="pone-0058937-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0058937.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>NleF binds caspases -4, -8 and -9.</title>
+            <p>
+<bold>A.</bold> Binding of NleF to caspases-4, -8 and -9 using luciferase-NleF and protein-A-caspase fusions (LUMIER assays<sup>34</sup>). Interaction strengths are expressed as signal to background ratios using binding to protein A as a negative control. The interaction of JUN to FOS serves as a positive control. Squares indicate individual measurements. <bold>B,C.</bold> The affinity constant (K<sub>d</sub>) of NleF binding to immobilized caspase-9 as measured by surface acoustic wave (SAW) technology is â¼39 nM. The K<sub>d</sub> is defined as follows: K<sub>d</sub>â=âK<sub>off</sub>/K<sub>on</sub>â=ây-intercept/slope (<bold>C)</bold>, SAW overlay plot of NleF injections. NleF concentrations are indicated in the legend. The two bold curves added to each NleF measurement (on the left and right of the peak) represent the optimal K<sub>obs</sub> and K<sub>off</sub> curves.</p>
+          </caption>
+          <graphic xlink:href="pone.0058937.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>NleF Inhibits Human Caspases-4, -8, and -9</title>
+        <p>Binding of NleF to purified caspase-4, -8, and -9 resulted in potent inhibition of all three caspases (<xref ref-type="fig" rid="pone-0058937-g002">
+<bold>Fig. 2A</bold>
+</xref>
+<bold>, <xref ref-type="supplementary-material" rid="pone.0058937.s001">Fig. S1</xref></bold>). The inhibitory activity of NleF was lost after proteinase K treatment, excluding a contribution from non-proteinaceous contaminants. To accesss the inhibition of caspase activity in vitro by NleF in a dose-dependent way serial dilutions of NleF were tested for their effects on caspase activity and the IC-50 of NleF for inhibition of caspase-4, -8 and -9 were determined to be 14 nM, 40 nM and 83 nM (<xref ref-type="fig" rid="pone-0058937-g002">
+<bold>Fig. 2BâD</bold>
+</xref>). NleF, but not proteolytically inactivated NleF, significantly inhibited caspase activity in extracts of HeLa cells induced to enter apoptosis with TRAIL (Tumor Necrosis Factor Related Apoptosis Inducing Ligand; <xref ref-type="fig" rid="pone-0058937-g002">
+<bold>Fig. 2E</bold>
+</xref>). A reduction in caspase-9 activity was also observed in lysates of TRAIL-treated HeLa cells expressing the apoptosis-inhibitory protein BCL2 or wild type NleF, respectively, whereas expression of an interaction-deficient mutant of NleF (NleF 1â160, see <bold><xref ref-type="supplementary-material" rid="pone.0058937.s002">Fig. S2</xref></bold>) had no effect on caspase-9 activity (<xref ref-type="fig" rid="pone-0058937-g002">
+<bold>Fig. 2F</bold>
+</xref>).</p>
+        <fig id="pone-0058937-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0058937.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>NleF inhibits caspases <italic>in vitro</italic> and in in cells.</title>
+            <p>
+<bold>A.</bold>
+<italic>In vitro</italic> inhibition of caspase-4 (1 U), caspase-8 (1 U) and caspase-9 (1 U) by NleF (1.5 Âµg) (1.5 Âµg/unit caspase), the inhibitor Z-VAD-fluoromethylketone (Z-VAD-FMK, 20 ÂµM), and proteinase K-inactivated NleF (1.5 Âµg). <bold>B-D.</bold> Dose-dependent inhibition of purified caspase-4, -8, and -9 by NleF (logarithmic concentration indicated in the X axis): <bold>B.</bold> Caspase-4 (200 nM). <bold>C.</bold> caspase-8 (68 nM). <bold>D.</bold> caspase-9 (1.1 ÂµM). <bold>E.</bold> Recombinant NleF inhibits caspase-9 activity in lysates of apoptotic cells. HeLa cells were induced to enter apoptosis by treatment with TRAIL (25 ng/ml) for four hours (black bars) or left untreated (striped bars) before preparation of lysates and measurement of cellular caspase-9 activity in the absence or presence of an abundant amount of purified NleF. <bold>F.</bold> Caspase-9 activity in apoptotic HeLa cell extracts expressing Protein A, an inactive fragment of NleF (amino acids 1â160), wild type NleF or BCL2, respectively. Significance was determined using the two-tailed unpaired Studentâs t-test. *p&lt;0.05; **p&lt;0.01; ***p&lt;0.001; ****p&lt;0.0001.</p>
+          </caption>
+          <graphic xlink:href="pone.0058937.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>NleF Prevents the Induction of Apoptosis</title>
+        <p>To test if caspase inhibition by NleF can prevent the induction of apoptosis, we transiently expressed NleF as well as known inhibitors of apoptosis in HeLa cells prior to induction of apoptosis with TRAIL. The fraction of cells entering TRAIL-induced apoptosis as assessed by annexin V staining was markedly reduced in HeLa cells expressing YFP-tagged NleF (6.5%) compared to cells expressing a Protein A control construct (42.8%). The magnitude of this effect was comparable to the effect of known inhibitors of apoptosis, such as XIAP (6.1%) and BCL2 (13.4%, <xref ref-type="fig" rid="pone-0058937-g003">
+<bold>Fig. 3A, C</bold>
+</xref>
+<bold> and <xref ref-type="supplementary-material" rid="pone.0058937.s003">Fig. S3</xref></bold>). Experiments in Caco-2 colon carcinoma cells confirmed these observations (7.0% versus 25.2% induction for NleF- and Protein A- expressing cells, respectively; <xref ref-type="fig" rid="pone-0058937-g003">
+<bold>Fig. 3B</bold>
+</xref>). Cells expressing Protein A or an inactive fragment of NleF (amino acids 1â160) showed no significant reduction in apoptosis (<xref ref-type="fig" rid="pone-0058937-g003">
+<bold>Fig. 3B</bold>
+</xref>).</p>
+        <fig id="pone-0058937-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0058937.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>NleF inhibits apoptosis induced by TRAIL and staurosporine. </title>
+            <p>
+<bold>AâC.</bold> Percentage of apoptotic HeLa and Caco-2 cells in TRAIL (25 ng/ml) treated (+) and untreated (â) samples. <bold>A.</bold> HeLa cells expressing YFP-fusions of wild type NleF, XIAP and BCL2, respectively, exhibited decreased apoptosis in comparison to cells expressing Protein A or an inactive NleF fragment (amino acids 1â160) after TRAIL treatment. Squares: percentage of apoptotic cells (three independent experiments); bars: average. <bold>B.</bold> Caco-2 cells expressing NleF and Protein A, respectively. Significance (t-test): *<italic>P</italic>&lt;0.05. <bold>C.</bold> Representative FACS counts of HeLa cells expressing the indicated YFP-tagged constructs. Cells that stained positive for annexin V- allophycocyanine (APC+) but negative for propidium iodide were counted as apoptotic cells. <bold>D.</bold> Percentage of apoptotic HeLa cells in staurosporine treated (+) and untreated (â) samples expressing NleF and Protein A, respectively.</p>
+          </caption>
+          <graphic xlink:href="pone.0058937.g003"/>
+        </fig>
+        <p>TRAIL triggers apoptosis through the extrinsic pathway, which is executed via caspase-8 as the initiator caspase (<bold><xref ref-type="supplementary-material" rid="pone.0058937.s001">Fig. S1</xref></bold>). However, caspase-9 has been shown to be essential for execution of TRAIL-induced apoptosis of many somatic cells, including HeLa and Caco-2. To test if the anti-apoptotic effect of NleF is of comparable strength when caspase-9 is the only initiator caspase involved, we repeated the experiments using staurosporine as an inducer of intrinsic apoptosis. Only 3.7% of HeLa cells expressing NleF underwent apoptosis, as compared to 49.9% expressing Protein A (<xref ref-type="fig" rid="pone-0058937-g003">
+<bold>Fig. 3D</bold>
+</xref>), indicating that NleF is competent to inhibit caspase-9-dependent apoptosis in HeLa cells.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Structural Basis of Caspase Inhibition by NleF</title>
+        <p>To determine how NleF inhibits caspase-9, we co-crystallized the protein complex and determined its structure at a resolution of 3.49 Ã (<bold><xref ref-type="supplementary-material" rid="pone.0058937.s008">Table S2</xref></bold>). Bound to NleF, caspase-9 shows the typical fold of a mostly parallel six-stranded Î²-sheet sandwiched between two layers of Î±-helices and forms a dimer arranged in a similar geometry to that described for unbound caspase-9 <xref rid="pone.0058937-Renatus1" ref-type="bibr">[12]</xref>. NleF folds into a four-helix bundle connected by a two-stranded Î²-sheet between Î±-helices 2 and 3 as well as extended loop regions between the Î±-helices. A Dali search <xref rid="pone.0058937-Holm1" ref-type="bibr">[13]</xref> for closest structural neighbours of NleF produces results with a Z-score of 6.4 or lower, indicative of only limited topological similarity to PDB-deposited protein structures. Each caspase monomer bears one NleF molecule bound via multiple interactions of the substrate recognition site of the caspase to the effector protein (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4A</bold>
+</xref>
+<bold>, <xref ref-type="supplementary-material" rid="pone.0058937.s004">Fig. S4</xref></bold>). The interaction interface between caspase-9 and NleF comprises 902 and 1017Ã<sup>2</sup> of the two proteins, respectively. Despite moderate crystallographic resolution, the omit Fo-Fc difference electron density map allows for an unambiguous interpretation of the NleF interaction mode (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4B</bold>
+</xref>). In contrast to the published structure of a caspase-9 dimer, with one active and one inactivated protease monomer <xref rid="pone.0058937-Renatus1" ref-type="bibr">[12]</xref> per asymmetric unit, in the NleF-bound state, both caspase molecules are trapped in a binding-competent (but proteolytically inactive) state with well-established subpockets. The C-terminal amino acids Gly189, Cys188, Gln187 and Leu186 of NleF anchor the effector protein to the S1, S2, S3, and S4 pocket of the protease, respectively (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4C</bold>
+</xref>). The S1 pocket that typically recognizes the P1 aspartate residue harbours Gly189 of NleF while the C-terminal main chain carboxylate group of this moiety partly mimics the interactions of the Asp side chain carboxylate. The side chains of Arg179 and Arg341 are involved in electrostatic interactions/salt bridges to NleF Gly189, whereas Cys188 occupies the S2 pocket of the protease, which mainly consists of the space between the aromatic side chains of Trp340 and His237. This pocket typically tolerates only amino acid side chains of small and aliphatic nature such as Ala and Val <xref rid="pone.0058937-FuentesPrior1" ref-type="bibr">[14]</xref>. NleF Gln187 occupies the protease S3 pocket and mainly interacts with the Arg341 peptide NH group via its main chain carbonyl oxygen and forms a charge-assisted H-bond from the Gln side chain carbonyl to the positively charged Arg177 side chain. The S4 pocket is occupied by NleF Leu186 which establishes van der Waals contacts to the aromatic side chains of Trp340 and Trp348 of caspase-9.</p>
+        <fig id="pone-0058937-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0058937.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Crystal structure of Caspase-9 with bound NleF.</title>
+            <p>
+<bold>A.</bold> The caspase-9 protease monomers are shown in magenta and yellow, the active site cysteines (Cys285) are shown as red sticks for improved special orientation of the catalytic site. The NleF effector proteins attached to the caspase active sites are shown in green, as labeled in the figure. <bold>B.</bold> The C-terminal residues of NleF are anchoring the effector protein to the specificity pockets of the protease. The Fo-Fc omit electron density contoured at 2.5 Ï is shown in blue for a representative part of the involved C-terminal NleF residues. <bold>C.</bold> Detailed binding mode of the NleF C-terminus to the caspase-9 active site. Involved amino acids are shown as green and yellow sticks, hydrogen bonds are depicted as magenta dashed lines. <bold>D.</bold> Superposition of the NleF(green)-bound caspase-9 (yellow) with the peptide inhibitor Z-EVD-Dcbmk (magenta) bound to the caspase-9 monomer (blue) captured in active state (PDB entry 1JXQ). While the conformation of caspase residues is virtually identical, slight differences in the mode of interaction of the bound inhibitors are e.g. observed for the Asp/Gly-P1 moiety, where the Asp of Z-EVD-Dcbmk adopts a more favourable geometry for efficient salt bridge formation to Arg179. <bold>E.</bold> Superimposition of the NleF-bound caspase-9 dimer presented in this study and the previously described caspase-9 crystal structure (light blue) in complex with the BIR3 domain of the XIAP inhibitor shown as red cartoon (PDB entry 1NW9). While the latter interferes with the formation of a productive caspase dimer, NleF establishes its inhibitory activity by means of a fundamentally different mechanism of active site targeting. <bold>F.</bold> Superimposition of the caspase-9 dimer obtained for the NleF-inhibited form (yellow and magenta as in <bold>A.,</bold> both NleF molecules omitted for clarity) and the dimer of 1JXQ (grey cartoon). While the type of dimer formation and the overall protein conformation is well conserved between the two dimers, deviations arise mainly from the fact that one of the two 1JXQ monomers (left) corresponds to a non-productive, inactive conformation while in the NleF-inhibited dimer, both monomers adopt an active state with well-formed specificity pockets.</p>
+          </caption>
+          <graphic xlink:href="pone.0058937.g004"/>
+        </fig>
+        <p>The inhibition mode of NleF to some extent resembles the one obtained for synthetic peptide-type inhibitors such as Z-EVD-Dcbmk<sup>12</sup>, where the modified Asp, Val and Glu occupy the caspase-9 S1, S2, and S3 pockets while the benzyloxy-carbonyl moiety is partly solvent-exposed and occupies the S4 pocket.However, the latter inhibitor seems to establish a more efficient salt bridge between its Asp to Arg179 and Arg341, which becomes only partly mimicked by the NleF-Gly189 C-terminus (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4D</bold>
+</xref>). This inhibition mode observed for NleF deviates substantially from previously reported caspase-9 inhibitors such as the BIR3 domain of XIAP <xref rid="pone.0058937-Shiozaki1" ref-type="bibr">[15]</xref>, which occupies the dimerisation interface of two caspase-9 molecules thereby inducing a catalytically non-productive conformation of the protease (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4E</bold>
+</xref>). We have not been able to detect dimerisation of NleF by itself (<bold><xref ref-type="supplementary-material" rid="pone.0058937.s005">Fig. S5</xref></bold>). Interestingly, despite the overall structure of the caspase dimer and the type of dimerisation, caspase-9 structures share high similarities for the NleF-bound caspase presented in this contribution and the dimer inhibited by Z-EVD-Dcbmk<sup>12</sup> (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4F</bold>
+</xref>). However, in the present complex both caspase monomers are captured in a productive state with well established specificity pockets. Thus, with respect to the caspases, the two crystal structures mainly differ in the conformation of the loop beginning with Ala284 bearing the active site Cys285, which becomes undefined after Gly287 in the previously reported structure and is defined to Ser298 in the NleF-bound complex. In addition, consistent with this active conformation the loop region Ser332âSer347 between strand 7 and helix E deviates between the two structures and contributes in active state to the dimer interface (<xref ref-type="fig" rid="pone-0058937-g004">
+<bold>Fig. 4F</bold>
+</xref>).</p>
+      </sec>
+      <sec id="s2e">
+        <title>Effect of NleF in an Infection Model</title>
+        <p>To determine whether NleF can inhibit apoptosis when injected into cells via the type III secretion apparatus, HeLa cells were infected with enteropathogenic <italic>E. coli</italic> (EPEC), which shares the T3SS and many of the effectors, including an identical NleF, with EHEC. To ensure that the effect of NleF on caspases-4, -8 and -9 were captured in the infection model, activation of the downstream caspase-3/7 was assessed to measure apoptosis. We detected no significant difference between wild type EPEC and an <italic>nleF</italic> mutant in the ability to induce caspase 3/7 activation <bold>(</bold>
+<xref ref-type="fig" rid="pone-0058937-g005">
+<bold>Fig. 5</bold>
+</xref>
+<bold>)</bold>, indicating that under these conditions and in the context of the full repertoire of effector proteins NleF does not play a dominant role. However, we did find a significant difference in apoptosis between the cell lines infected with the <italic>nleF</italic> mutant complemented in single copy with the wild type <italic>nleF</italic> allele and the mutant similarly complemented with a caspase interaction-deficient <italic>nleF</italic> allele (NleF with the last four amino acids deleted, see also below). The ability to detect this difference in the complemented strains can be attributed to the fact that the complementation strains had higher levels of expression than the WT strain (<bold><xref ref-type="supplementary-material" rid="pone.0058937.s006">Fig. S6</xref></bold>). This slightly increased expression of NleF resulted in less caspase 3/7 cleavage in the mutant complemented with the wild type allele in comparison to the other strains tested (<xref ref-type="fig" rid="pone-0058937-g005">
+<bold>Fig.</bold>
+<bold>5</bold>
+</xref>).</p>
+        <fig id="pone-0058937-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0058937.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Caspase 3/7 activity in infected HeLa cells.</title>
+            <p>HeLa cells were infected with wild type EPEC strain E2348/69, Î<italic>nle</italic>F deletion mutant, or Î<italic>nle</italic>F complemented in single copy with <italic>nle</italic>F variants for 2.5 to 3 hours. Treatment of HeLa cells with staurosporine (5 ÂµM) was used as a positive control. There was no significant difference between caspase activity upon infection with the wild type strain and the Î<italic>nle</italic>F deletion mutant, however the deletion mutant complemented with the wild type allele consistently induced significantly less caspase 3/7 activity than the deletion mutant complemented with the allele lacking the last 4 codons. Significance was determined using the two-tailed Wilcoxon test *p&lt;0.02.</p>
+          </caption>
+          <graphic xlink:href="pone.0058937.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>Validation of the Structural Model</title>
+        <p>To test the predictions of this structural model, we generated versions of NleF with truncated or elongated C-termini, as well as individual mutations of the carboxy-terminal four amino acids to alanine. The effect of these alterations on binding to caspases and inhibition of apoptosis is depicted in <xref ref-type="fig" rid="pone-0058937-g006">
+<bold>Fig. 6</bold>
+</xref>. Deletion of the last four amino acids of the NleF carboxy-terminus or extension by a single amino acid reduced caspase binding and anti-apoptotic activity to background levels (<xref ref-type="fig" rid="pone-0058937-g006">
+<bold>Fig. 6AâD</bold>
+</xref>). Deletion or mutation of single amino acids also reduced the anti-apoptotic activity, but did not completely abolish it. In accordance with this effect, interaction signals above background were still detectable for the single amino acid deletion variant of NleF and caspase-9, and the Cys188Ala mutation variant and caspase-4 and -9. These data strongly support the conclusion drawn from the crystallographic analysis, showing that caspase inhibition by NleF occurs by a novel type of inhibitory interaction of the carboxy-terminus of NleF and the active site of the caspase.</p>
+        <fig id="pone-0058937-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0058937.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Caspase binding and apoptosis inhibition by modified versions of NleF.</title>
+            <p>
+<bold>AâC.</bold> Caspase-9-binding of different versions of NleF assessed by LUMIER assays. <bold>A.</bold> Caspase-4, <bold>B.</bold> caspase-8, <bold>C.</bold> caspase-9. <bold>D.</bold> Percentage of apoptotic HeLa cells expressing different versions of NleF after induction with staurosporine. NleF +1: NleF with an additional C-terminal alanine; NleF -1 and NleF -4: NleF with the terminal 1 and 4 amino acids removed, respectively; NleF L186A, NleF Q187A, NleF C188A and NleF G189A: NleF versions with indicated amino acids substituted by alanine; NleF +18: NleF with additional 18 amino acids.</p>
+          </caption>
+          <graphic xlink:href="pone.0058937.g006"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>The elimination of infected cells via apoptosis is an evolutionary conserved defence mechanism of multicellular organisms that is commonly used against viruses, pathogenic bacteria and other parasites. To counteract this mechanism, many pathogens, such as cytomegaloviruses, <italic>Mycobacterium tuberculosis</italic> and <italic>Toxoplasma gondii</italic> have evolved mechanisms to prevent apoptosis of their host cells <xref rid="pone.0058937-Behar1" ref-type="bibr">[5]</xref>, <xref rid="pone.0058937-Brune1" ref-type="bibr">[16]</xref>, <xref rid="pone.0058937-Yamada1" ref-type="bibr">[17]</xref>. The need for this countermeasure may be all the more crucial to pathogenic <italic>E. coli</italic> as the bundle-forming pili and effectors expressed by EPEC and/or EHEC, e.g. EspF and Map, have been demonstrated to induce apoptosis in host cells <xref rid="pone.0058937-AbulMilh1" ref-type="bibr">[18]</xref>, <xref rid="pone.0058937-Nougayrede1" ref-type="bibr">[19]</xref>, <xref rid="pone.0058937-BarnettFoster1" ref-type="bibr">[20]</xref>, <xref rid="pone.0058937-Nougayrede2" ref-type="bibr">[21]</xref>, <xref rid="pone.0058937-Papatheodorou1" ref-type="bibr">[22]</xref>. Despite the presence of these proapoptotic factors, a decrease in normal apoptotic rates was observed upon infection of rabbits with a related REPEC O103 strain <xref rid="pone.0058937-Heczko1" ref-type="bibr">[23]</xref>. EPEC and EHEC inject into host cells a large number of effector proteins that can influence apoptosis including pro- and anti-apoptotic proteins. In the context of this large repertoire of effectors, loss of NleF did not significantly change EPEC induced apoptosis, a result consistent with the low levels of NleF expressed <xref rid="pone.0058937-Echtenkamp1" ref-type="bibr">[4]</xref>. However, complementation of the <italic>nleF</italic> deletion mutant with wild type and mutant <italic>nleF</italic> alleles resulted in slightly higher levels of expression, even though the genes were inserted into the chromosome in single copy. Hence, NleF indeed plays a role in inhibiting apoptosis as expression of NleF variants unable to bind caspase-9 resulted in increased levels of caspase 3/7 cleavage.</p>
+      <p>With caspase-9, NleF targets a bottleneck in the intrinsic apoptotic pathway and is able to counteract apoptosis even at a point when pro-apoptotic proteins have already been released from mitochondria (<bold><xref ref-type="supplementary-material" rid="pone.0058937.s001">Fig. S1</xref>)</bold>. Most somatic cells, including enterocytes (the relevant host cells for EHEC and EPEC), depend on mitochondrially induced caspase-9 activation for induction of apoptosis <xref rid="pone.0058937-Ozoren1" ref-type="bibr">[24]</xref>, <xref rid="pone.0058937-Jost1" ref-type="bibr">[25]</xref>, <xref rid="pone.0058937-Petersen1" ref-type="bibr">[26]</xref>. In addition to caspase-9, NleF binds to and inhibits caspase-8, the initiator caspase triggering the extrinsic apoptotic pathway <xref rid="pone.0058937-Hitomi1" ref-type="bibr">[27]</xref>. NleF also blocks caspase-4, which has recently been reported to be required for the activation of the inflammasome <xref rid="pone.0058937-Sollberger1" ref-type="bibr">[28]</xref>. Inhibition of caspase-4 by NleF might thus also inhibit the inflammation response. Targeting these caspases allows NleF to block apoptotic as well as immune response signals before they reach the downstream executioner caspases 3/7 and thus prevent the host cells from erasing themselves and thereby the invading pathogen. We conclude that NleFâs interference with these cascades contributes to the preservation of the biological niche of EHEC, EPEC and possibly other pathogens that express homologous effector proteins.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Oligonucleotides and Bacterial Strains</title>
+        <p>ECs1815 (<italic>nle</italic>F) was cloned from <italic>E. coli</italic> O157:H7 str. Sakai using the GatewayÂ® Technology (Invitrogen). Two sets of primers were used; first the gene-specific primers (ECs1815 forw: 5â²- AGG CTc cacc ATG TTA CCA ACA AGT GGT TC-3â² and ECs1815 rev: 5â²- C TGG GTG GAT TCA TCC ACA TTG TAA AGA TCC TTT GTT G-3â²), and in a second PCR step the attB primers (attB1â¶5â²- G GGG ACA AGT TTG TAC AAA AAA GCA GGC TCC ACC ATG-3â² and attB2â¶5â²-GGG GAC CAC TTT GTA CAA GAA AGC TGG GTG GAT TCA-3â²) for the attachment of the attB sites. Cloning and PCR were performed according to the manufacturerâs instructions. The resulting <italic>nle</italic>F PCR product was cloned via a GatewayÂ® BP reaction in the entry vector pDONR221. Starting from the latter, <italic>nle</italic>F was shuttled into pcDNA3-Rluc-GW, pTREX-dest30-ntPrA, pGBKCg, pGBT9-GW and pdEYFP-C1amp <xref rid="pone.0058937-Tahoun1" ref-type="bibr">[29]</xref>, <xref rid="pone.0058937-Simpson1" ref-type="bibr">[30]</xref>, <xref rid="pone.0058937-Stellberger1" ref-type="bibr">[31]</xref>, <xref rid="pone.0058937-Albers1" ref-type="bibr">[32]</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Cell Lines, Transfection and Apoptosis Induction</title>
+        <p>Transient transfection of HeLa, Caco-2 and HEK293T cells was done using Lipofectamine (Invitrogen). The procedure was performed as recommended by the manufacturer. Apoptosis induction was achieved by adding 25 ng/ml SuperKillerTrail (ENZO Life Sciences) or 5 ÂµM staurosporine (Roche Diagnostics) 6 h in advance of flow cytometric analysis or 4 h before lysis for the determination of caspase-9 activity in cell lysates. Caco-2 cells were obtained from ATCC (HTB-37). HEK293 were obtained from DSMZ (No. ACC 305).</p>
+      </sec>
+      <sec id="s4c">
+        <title>Yeast Two-hybrid Pool Screening</title>
+        <p>Yeast two-hybrid (Y2H) pool screening was done as described in Albers et al. <xref rid="pone.0058937-Albers1" ref-type="bibr">[32]</xref>. Human libraries used in this study are the MGC ORF collection and the universal human cDNA library (Clontech 638874). The human ORF collection is a normalized human full length clone collection that originates from the Mammalian Gene Collection (MGC) <xref rid="pone.0058937-Temple1" ref-type="bibr">[33]</xref>. The whole collection was obtained as an entry clone collection and subsequently shuttled to different expression vectors via site specific recombination <xref rid="pone.0058937-Hartley1" ref-type="bibr">[34]</xref> using the GatewayÂ® Technology (Invitrogen). The vectors used for ORF library generation were pGAD424-GW and pGADCg, two Y2H vectors harboring N- and C-terminal fusions to the GAL4 activation domain, respectively.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Lumier Assay (LUminescence-based Mammalian IntERactome Mapping) <xref rid="pone.0058937-BarriosRodiles1" ref-type="bibr">[35]</xref>
+</title>
+        <p>The method was performed as previously described <xref rid="pone.0058937-Tahoun1" ref-type="bibr">[29]</xref>. Proteins were transiently expressed in HEK-293 cells as hybrid proteins with the <italic>Staphylococcus aureus</italic> protein A tag or with the <italic>Renilla reniformis</italic> luciferase ORF fused to their amino termini. 20 ng of each expression construct were transfected into 10,000 HEK293 cells using 0.05 Âµl of lipofectamine 2000 (Invitrogen) in 96 well plates. After 40 hours, medium was removed and cells were lysed on ice in 10 Âµl of ice-cold lysis buffer (20 mM Tris pH 7.5, 250 mM NaCl, 1% TritonX-100, 10 mM EDTA, 10 mM DTT, Protease Inhibitor Cocktail (Roche), Phosphatase Inhibitor Cocktail (Roche), Benzonase (Novagen) 0,0125 units per Âµl final concentration) containing sheep-anti-rabbit IgG-coated magnetic beads (Invitrogen, Dynabeads M280, 2 mg/ml final concentration). Lysates were incubated on ice for 15 minutes. 100 Âµl of washing buffer (PBS, 1 mM DTT) were added per well, and 10% of the diluted lysate was removed to determine the luciferase activity present in each sample before washing. The rest of the sample was washed 6 times in washing buffer in a Tecan Hydroflex plate washer. Luciferase activity was measured in the lysate as well as in washed beads. Negative controls had been transfected with the plasmid expressing the luciferase fusion protein and a vector expressing a dimer of protein A. For each sample, four values were measured: the luciferase present in 10% of the sample before washing (âinputâ), the luciferase activity present on the beads after washing (âboundâ), and the same values for the negative controls (âinput ncâ, and âbound ncâ). Normalised signal to background ratios are calculated as follows: Generate âsignals normalised for expression levelsâ by calculating âboundâ/âinputâ for both the interaction test (X-protein A+ Y-luciferase) and the negative control (protein A alone+Y luciferase [âbound ncâ/âinput ncâ]). Divide the âsignals normalised for expression levelsâ of the interaction test by the âsignals normalised for expression levelsâ of negative control to derive signal to background ratios.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Determination of the K<sub>d</sub> for Caspase-9/NleF Interaction</title>
+        <p>Binding kinetic and affinity was analysed on samÂ®5 BLUE and samÂ®5 GREEN instruments (SAW Instruments GmbH, Bonn, Germany). Both instruments use the "surface acoustic wave"-principle for label-free analysis of molecular binding in a flow-through system as described in Perpeet et al. (2006) <xref rid="pone.0058937-Perpeet1" ref-type="bibr">[36]</xref>.</p>
+        <p>The K<sub>d</sub> of NleF binding to immobilized caspase-9 was determined using the OriginPro 8.5-based FitMaster. A model derived from 1â¶1 binding was applied. BSA and Protein A references were subtracted for obtained data, respectively.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Detection of Caspase Activity in Cell Lysates</title>
+        <p>Caspase activity in lysates of HeLa cells was determined using the caspase-9 fluorometric assay kit APOPCYTO (MBL). Basic activity that could not be inhibited by the caspase inhibitor LEHD-FMK was substracted from caspase value. Caspase-9 inhibition in cell lysates by purified NleF was performed using 2.5 Âµg NleF per 25 Âµl HeLa cell lysate prepared from 25,000 cells.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Measurement of Caspase Activity <italic>in vitro</italic>
+</title>
+        <p>Caspase-9 was purified as described below with specific activities around 1000 units per mg caspase. The proteolytic activity of purified caspase-9 was determined via Caspase-GloÂ® 9 (Promega). This caspase was used for all experiments using purified caspase-9 except <xref ref-type="fig" rid="pone-0058937-g002">
+<bold>Fig.</bold>
+<bold>2</bold>
+</xref> panel A, in which caspase-9 from the Abnova caspase-9 assay kit (KA0763) had been used. Caspase-4, -8 and -9 activities were measured using caspase-4, -8 and -9 inhibitor screening kits from Abnova (CASP4: KA0747, CASP8: KA0758 and CASP9: KA0763). Purified caspases were provided as a part of above mentioned kits. Specific activities were 1111 units for caspase-4/mg, 2500 units/mg for caspase-8, and 400 units/mg for caspase-9. For NleF inhibition, 1.5 Âµg NleF was added to 1 unit of active caspase. IC-50 of caspase-4, -8, and -9 was determined using 200, 68, and 1100 nM of caspase, respectively, using the Abnova kits for caspase-4 and -8 and the Caspase-GloÂ® 9 kit (Promega) for caspase-9. Concentration of caspase active sites was determined by titration with Z-VAD-FMK (MP Biomedicals). Fluorescence and luminescence were detected using the Tecan InfiniteÂ® 200 PRO series micro plate reader. Each experiment was done at least in triplicate. IC50 values were derived from two independent data sets done in triplicate using GraphPad Prism Software.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Flow Cytometry Analysis</title>
+        <p>HeLa or Caco-2 cells were transfected with pdEYFP-C1amp containing YFP-fusions of BCL2, Protein A, XIAP, <italic>nle</italic>F and an <italic>nle</italic>F fragment (amino acids 1â160). Apoptosis was induced for 6 h, 48 hours after transfection. Subsequently, the cells were harvested and stained with propidium iodide (PI) and annexin-V-allophycocyanine (APC) (both BD Biosciences Pharmingen) for detection of necrotic and apoptotic cells, respectively. PI and Annexin-V-APC staining was performed following the manufacturerâs instructions. Flow cytometry was performed using the BD FACSCanto II flow cytometer with a 488 nm laser. PI, Annexin-APC and YFP were measured with a 670 nm long pass filter, a 660/20 nm and a 530/30 nm band pass filter, respectively. Blots were analyzed using the FACSDiva software (BD Biosciences).</p>
+      </sec>
+      <sec id="s4i">
+        <title>Protein Purification, Crystallisation and Structure Determination</title>
+        <p>The catalytic domain of caspase-9 (residues 140â416) and NleF (1â189) were co-expressed as His6- and GST-tagged fusion proteins, respectively, and co-purified via affinity chromatography against the GST-tag. After proteolytic cleavage of the GST-tag by enterokinase, the complex was purified by a second affinity chromatography step (Ni-NTA) against the NleF-fused His6 tag. Finally, a gel filtration chromatography step was performed to obtain the purified caspase-9-NleF complex. The protein complex was concentrated to 20 mg/ml in the final protein buffer (25 mM Hepes pH 7.5, 250 mM NaCl), and subjected to initial screening for appropriate crystallographic conditions. Initial crystals were obtained from a reservoir condition containing 0.75 M potassium-sodium tartrate. Data were collected under cryo-conditions at the Swiss Light Source, Villigen, Switzerland, using 15% (V/V) ethylene glycol in reservoir solution as cryoprotectant. Data were processed using XDS <xref rid="pone.0058937-Kabsch1" ref-type="bibr">[37]</xref>, phases were obtained by molecular replacement with Phaser <xref rid="pone.0058937-McCoy1" ref-type="bibr">[38]</xref> using the monomeric caspase-9 from the publicly available protease dimer <xref rid="pone.0058937-Renatus1" ref-type="bibr">[12]</xref> as a search model. Manual model building and refinement was done using Coot <xref rid="pone.0058937-Emsley1" ref-type="bibr">[39]</xref> and Refmac5 <xref rid="pone.0058937-Murshudov1" ref-type="bibr">[40]</xref>, respectively. Data collection and refinement statistics are listed in <bold><xref ref-type="supplementary-material" rid="pone.0058937.s008">Table S2</xref></bold>. Coordinates and reflection data have been deposited with the Protein Data Bank (<ext-link ext-link-type="uri" xlink:href="http://www.pdb.org">www.pdb.org</ext-link>). The structural model has been validated via the Molprobity <xref rid="pone.0058937-Chen1" ref-type="bibr">[41]</xref> server yielding an overall score of 1.02 (100<sup>th</sup> percentile) and a Clashscore of 0.25 (100<sup>th</sup> percentile), emphasizing the excellent quality of the structural model.</p>
+      </sec>
+      <sec id="s4j">
+        <title>Generation of NleF Mutations for Binding Assays</title>
+        <p>Site-directed mutagenesis of the NleF C-terminus was done using modified reverse primers along with the ECs1815 forward primer. For the NleF addition/deletion mutants, namely NleF+1 (plus one additional alanine), NleF-1 (Gly189 removed), NleF-4 (the last four amino acids removed), NleF 1â145 and NleF 1â160, the reverse primers 5â²-C TGG GTG GAT TCA ACA TTG TAA AGA TCC TTT GTT G-3â², 5â²-C TGG GTG GAT TCA CGC TCC ACA TTG TAA AGA TCC TTT GTT G-3â² 5â²-C TGG GTG GAT TCA AGA TCC TTT GTT GTA AGT AAG ATC-3â², 5â²-C TGG GTG GAT TCA GAG GCA TTT CAT TGC TCG TAG-3â² and 5â²-C TGG GTG GAT TCA ATG CGG ACA TAG CAG ATT ATA AAC-3â² were used, respectively. The construction of NleF 144â189 and NleF 160â189 required the forward primers 5â²-A GGC Tcc acc ATG CAT CAC TCT TCA GAG CTA TAT GG-3â² and 5â²-AGGCTccaccATGTATGGTGATCTACGAGCAATG-3â², respectively, along with the ECs1815 reverse primer. The five C-terminal substitution mutants of NleF, namely NleF L186A, NleF Q187A, NleF C188A, C188S and NleF G189A were constructed using the reverse primers 5â²-C TGG GTG GAT TCA TCC ACA TTG GGC AGA TCC TTT GTT G-3â², 5â²-C TGG GTG GAT TCA TCC ACA TGC TAA AGA TCC TTT GTT G-3â², 5â²-C TGG GTG GAT TCA TCC AGC TTG TAA AGA TCC TTT GTT G-3â², 5â²-C TGG GTG GAT TCA TCC A<underline>G</underline>A TTG TAA AGA TCC TTT GTT G-3â² and 5â²-C TGG GTG GAT TCA TGC ACA TTG TAA AGA TCC TTT GTT G-3â², respectively. After attachment of the attB sites in a second PCR standardized for GatewayÂ® cloning, the resulting PCR product was shuttled in the pDONR221 entry vector, as described in the manufacturerâs instructions (Invitrogen). NleF +18 (random amino acids) was generated by removal of the native stop codon. Each construct was sequenced for verification purposes. The stability of all NleF versions was assessed by expression as renilla luciferase tagged proteins in HEK-293T cells (<bold><xref ref-type="supplementary-material" rid="pone.0058937.s009">Table S3</xref></bold>).</p>
+      </sec>
+      <sec id="s4k">
+        <title>Generation and Characterization of Mutant NleF Strains</title>
+        <p>The <italic>nle</italic>F gene of EPEC strain E2348/69 <xref rid="pone.0058937-Levine1" ref-type="bibr">[42]</xref> was replaced using phage lambda red recombination <xref rid="pone.0058937-Datsenko1" ref-type="bibr">[43]</xref> with a 75 bp scar amplified with primers NleF_F6 5â²-tat cca gat ata tta gtt gta ata ata ttt atg gat tta ttt gtt aag ggg gtt ttg atG TGA AGG CTG GAG CTG CTT C-3â²(upper case letters are complimentary to the cassette) and NleF_R6 5â²-gac ggt cac ttt taa gaa aag gca ttt aca cag aat cct aaa cag gct cac agg cct cta aATC CTC CTT AGT TCC TAT TCC-3â². The resulting Î<italic>nle</italic>F strain was complemented in single copy at the chromosomal Tn7 attachment site <xref rid="pone.0058937-McKenzie1" ref-type="bibr">[44]</xref> by placement of <italic>nle</italic>F variants under the control of the <italic>per</italic> promoter <xref rid="pone.0058937-Bustamante1" ref-type="bibr">[45]</xref>. Relative expression of <italic>nle</italic>F was determined from RNA extracted from cultures activated for 3 hours in DMEM/F12 using the TRIzolÂ® Reagent. qRT-PCR was performed using SYBR green on a model Mx3005P thermocylcer (Stratagene) with control primers gyr_F <named-content content-type="gene">5â²- GTCTGCGCGACAAGCGCGA-3â²</named-content> and gyr_R <named-content content-type="gene">5â²-GAAACCTGCCAGGTGAGTACC-3â²</named-content> and <italic>nle</italic>F primers nleF_F5 <named-content content-type="gene">5â²- GGAATGACGATAGAGGATAGGGATAGTTAT-3â²</named-content> and nleF_R5 <named-content content-type="gene">5â²- AGGATTAAAATCATCACTGCATCCTTCCACG-3â²</named-content>.</p>
+        <p>The level of activated caspase 3/7 of infected HeLa cells was assessed using flow cytometry by fluorescent inhibitor of caspases (FLICAâ¢) labeling (VybrantÂ® FAM Caspase-3 and -7 Assay Kit) performed as per manufacturerâs instructions.</p>
+      </sec>
+      <sec id="s4l">
+        <title>Accession Numbers</title>
+        <p>The coordinates of the structures reported here have been submitted to PDB under accession number 3V3K.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0058937.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>
+<bold>Interference of NleF with apoptosis signalling.</bold> Abbreviations: TRAIL: Tumor necrosis factor Related Apoptosis Inducing Ligand, FADD: FAS-Associated protein with Death Domain, BID: BH3 interacting domain Death antagonist, tBID: trancated BID, TRAIL-R1: TRAIL Receptor 1, ER: Endoplasmic reticulum. Modified after <xref rid="pone.0058937-Johnstone1" ref-type="bibr">[46]</xref>.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>
+<bold>Interaction of Caspase-9, 8 and 4 with wild type and truncated versions of NleF.</bold> Numbers indicate amino acids present in the deleted versions. wt, wild type (amino acid 1 to 189).</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>
+<bold>FACS analysis of wild type NleF in HeLa cells in comparison to Protein A (negative control) and XIAP.</bold> FACS analysis of 10,000 HeLa cells. Apoptosis was induced via TRAIL for 6 h. PI: propidium iodine, APC: allophycocyanin.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>
+<bold>Stereo structure of the NleF-Caspase-9 complex.</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>
+<bold>NleF is not a dimer.</bold> LUMIER assay of NleF against itself and against caspase-9.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s005.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>
+<bold>Relative expression of nleF in cultures activated for 3 hours in DMEM/F12.</bold> Strains complemented in single copy, ÎnleF+nleF and ÎnleF+nleF-4AA, had significantly higher levels of nleF expression than the wild type E2348/69 strain. Significance was determined using the two-tailed Wilcoxon test *pâ¤0.05.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s006.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s007">
+        <label>Table S1</label>
+        <caption>
+          <p>On/off rates and K<sub>d</sub> values of the caspase-9/NleF interaction. Binding kinetics were measured five times and the average values are shown.</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s007.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s008">
+        <label>Table S2</label>
+        <caption>
+          <p>Data collection and refinement statistics for caspase-9 and NleF co-crystallisation.</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s008.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0058937.s009">
+        <label>Table S3</label>
+        <caption>
+          <p>Expression of the mutagenized NleF. N-terminally renilla luciferase-tagged NleF was expressed in HEK-293T cells and luciferase activity was measured in 10 Âµl HEK-293 cell lysate. The effects of NleF mutations on NleF protein levels as measured by luciferase activity are insufficient to explain the differential effects on caspase activity and apoptotic induction.</p>
+          <p>(DOCX)</p>
+        </caption>
+        <media xlink:href="pone.0058937.s009.docx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to Kerstin Mohr for technical assistance in performing the yeast two-hybrid screens, to Ute Ernst for help in sequencing the DNA constructs, to Monika Langlotz for help with the FACS analysis, and to Barbara Leuchs for assisting with the work done under S2 safety standards. We would like to thank Walter Spevak and Mark Pearson for critical reading of the manuscript, and Roman HÃ¤user and Stefan Wiemann for helpful discussions. Holger Bierhoff and Paul Dean provided the Caco-2 cells. Martin Augustin is gratefully acknowledged for his assistance in electron density interpretation and refinement of the protein structure. Many thanks also to Miguel Jimenez and Mihaela Stumbaum for their support with the binding kinetics and affinity analysis.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0058937-CDC1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<collab>CDC</collab> (<year>2006</year>) <article-title>Ongoing multistate outbreak of Escherichia coli serotype O157:H7 infections associated with consumption of fresh spinachâUnited States, September 2006</article-title>. <source>MMWR Morb Mortal Wkly Rep</source>
+<volume>55</volume>: <fpage>1045</fpage>â<lpage>1046</lpage>.<pub-id pub-id-type="pmid">17008868</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Charatan1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Charatan</surname><given-names>F</given-names></name> (<year>2006</year>) <article-title>FDA warns US consumers not to eat spinach after <italic>E coli</italic> outbreak</article-title>. <source>BMJ</source>
+<volume>333</volume>: <fpage>673</fpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Tobe1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tobe</surname><given-names>T</given-names></name>, <name><surname>Beatson</surname><given-names>SA</given-names></name>, <name><surname>Taniguchi</surname><given-names>H</given-names></name>, <name><surname>Abe</surname><given-names>H</given-names></name>, <name><surname>Bailey</surname><given-names>CM</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>An extensive repertoire of type III secretion effectors in <italic>Escherichia coli</italic> O157 and the role of lambdoid phages in their dissemination</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>: <fpage>14941</fpage>â<lpage>14946</lpage>.<pub-id pub-id-type="pmid">16990433</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Echtenkamp1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Echtenkamp</surname><given-names>F</given-names></name>, <name><surname>Deng</surname><given-names>W</given-names></name>, <name><surname>Wickham</surname><given-names>ME</given-names></name>, <name><surname>Vazquez</surname><given-names>A</given-names></name>, <name><surname>Puente</surname><given-names>JL</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Characterization of the NleF effector protein from attaching and effacing bacterial pathogens</article-title>. <source>FEMS Microbiol Lett</source>
+<volume>281</volume>: <fpage>98</fpage>â<lpage>107</lpage>.<pub-id pub-id-type="pmid">18279332</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Behar1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Behar</surname><given-names>SM</given-names></name>, <name><surname>Martin</surname><given-names>CJ</given-names></name>, <name><surname>Booty</surname><given-names>MG</given-names></name>, <name><surname>Nishimura</surname><given-names>T</given-names></name>, <name><surname>Zhao</surname><given-names>X</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Apoptosis is an innate defense function of macrophages against <italic>Mycobacterium tuberculosis</italic>
+</article-title>. <source>Mucosal Immunol</source>
+<volume>4</volume>: <fpage>279</fpage>â<lpage>287</lpage>.<pub-id pub-id-type="pmid">21307848</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Elmore1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Elmore</surname><given-names>S</given-names></name> (<year>2007</year>) <article-title>Apoptosis: a review of programmed cell death</article-title>. <source>Toxicol Pathol</source>
+<volume>35</volume>: <fpage>495</fpage>â<lpage>516</lpage>.<pub-id pub-id-type="pmid">17562483</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Callus1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Callus</surname><given-names>BA</given-names></name>, <name><surname>Vaux</surname><given-names>DL</given-names></name> (<year>2007</year>) <article-title>Caspase inhibitors: viral, cellular and chemical</article-title>. <source>Cell Death Differ</source>
+<volume>14</volume>: <fpage>73</fpage>â<lpage>78</lpage>.<pub-id pub-id-type="pmid">16946729</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Vucic1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Vucic</surname><given-names>D</given-names></name>, <name><surname>Kaiser</surname><given-names>WJ</given-names></name>, <name><surname>Miller</surname><given-names>LK</given-names></name> (<year>1998</year>) <article-title>Inhibitor of apoptosis proteins physically interact with and block apoptosis induced by <italic>Drosophila</italic> proteins HID and GRIM</article-title>. <source>Mol Cell Biol</source>
+<volume>18</volume>: <fpage>3300</fpage>â<lpage>3309</lpage>.<pub-id pub-id-type="pmid">9584170</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Zhou1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhou</surname><given-names>Q</given-names></name>, <name><surname>Krebs</surname><given-names>JF</given-names></name>, <name><surname>Snipas</surname><given-names>SJ</given-names></name>, <name><surname>Price</surname><given-names>A</given-names></name>, <name><surname>Alnemri</surname><given-names>ES</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>Interaction of the baculovirus anti-apoptotic protein p35 with caspases. Specificity, kinetics, and characterization of the caspase/p35 complex</article-title>. <source>Biochemistry</source>
+<volume>37</volume>: <fpage>10757</fpage>â<lpage>10765</lpage>.<pub-id pub-id-type="pmid">9692966</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Xu1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Xu</surname><given-names>G</given-names></name>, <name><surname>Rich</surname><given-names>RL</given-names></name>, <name><surname>Steegborn</surname><given-names>C</given-names></name>, <name><surname>Min</surname><given-names>T</given-names></name>, <name><surname>Huang</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Mutational analyses of the p35-caspase interaction. A bowstring kinetic model of caspase inhibition by p35</article-title>. <source>J Biol Chem</source>
+<volume>278</volume>: <fpage>5455</fpage>â<lpage>5461</lpage>.<pub-id pub-id-type="pmid">12458208</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Hemrajani1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hemrajani</surname><given-names>C</given-names></name>, <name><surname>Berger</surname><given-names>CN</given-names></name>, <name><surname>Robinson</surname><given-names>KS</given-names></name>, <name><surname>Marches</surname><given-names>O</given-names></name>, <name><surname>Mousnier</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>NleH effectors interact with Bax inhibitor-1 to block apoptosis during enteropathogenic <italic>Escherichia coli</italic> infection</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>107</volume>: <fpage>3129</fpage>â<lpage>3134</lpage>.<pub-id pub-id-type="pmid">20133763</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Renatus1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Renatus</surname><given-names>M</given-names></name>, <name><surname>Stennicke</surname><given-names>HR</given-names></name>, <name><surname>Scott</surname><given-names>FL</given-names></name>, <name><surname>Liddington</surname><given-names>RC</given-names></name>, <name><surname>Salvesen</surname><given-names>GS</given-names></name> (<year>2001</year>) <article-title>Dimer formation drives the activation of the cell death protease caspase 9</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>: <fpage>14250</fpage>â<lpage>14255</lpage>.<pub-id pub-id-type="pmid">11734640</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Holm1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Holm</surname><given-names>L</given-names></name>, <name><surname>Rosenstrom</surname><given-names>P</given-names></name> (<year>2010</year>) <article-title>Dali server: conservation mapping in 3D</article-title>. <source>Nucleic Acids Res</source>
+<volume>38</volume>: <fpage>W545</fpage>â<lpage>549</lpage>.<pub-id pub-id-type="pmid">20457744</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-FuentesPrior1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fuentes-Prior</surname><given-names>P</given-names></name>, <name><surname>Salvesen</surname><given-names>GS</given-names></name> (<year>2004</year>) <article-title>The protein structures that shape caspase activity, specificity, activation and inhibition</article-title>. <source>Biochem J</source>
+<volume>384</volume>: <fpage>201</fpage>â<lpage>232</lpage>.<pub-id pub-id-type="pmid">15450003</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Shiozaki1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Shiozaki</surname><given-names>EN</given-names></name>, <name><surname>Chai</surname><given-names>J</given-names></name>, <name><surname>Rigotti</surname><given-names>DJ</given-names></name>, <name><surname>Riedl</surname><given-names>SJ</given-names></name>, <name><surname>Li</surname><given-names>P</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Mechanism of XIAP-mediated inhibition of caspase-9</article-title>. <source>Mol Cell</source>
+<volume>11</volume>: <fpage>519</fpage>â<lpage>527</lpage>.<pub-id pub-id-type="pmid">12620238</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Brune1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Brune</surname><given-names>W</given-names></name> (<year>2010</year>) <article-title>Inhibition of programmed cell death by cytomegaloviruses</article-title>. <source>Virus Res</source>
+<volume>157</volume>: <fpage>144</fpage>â<lpage>150</lpage>.<pub-id pub-id-type="pmid">20969904</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Yamada1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yamada</surname><given-names>T</given-names></name>, <name><surname>Tomita</surname><given-names>T</given-names></name>, <name><surname>Weiss</surname><given-names>LM</given-names></name>, <name><surname>Orlofsky</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title>
+<italic>Toxoplasma gondii</italic> inhibits granzyme B-mediated apoptosis by the inhibition of granzyme B function in host cells</article-title>. <source>Int J Parasitol</source>
+<volume>41</volume>: <fpage>595</fpage>â<lpage>607</lpage>.<pub-id pub-id-type="pmid">21329693</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-AbulMilh1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Abul-Milh</surname><given-names>M</given-names></name>, <name><surname>Wu</surname><given-names>Y</given-names></name>, <name><surname>Lau</surname><given-names>B</given-names></name>, <name><surname>Lingwood</surname><given-names>CA</given-names></name>, <name><surname>Barnett Foster</surname><given-names>D</given-names></name> (<year>2001</year>) <article-title>Induction of epithelial cell death including apoptosis by enteropathogenic <italic>Escherichia coli</italic> expressing bundle-forming pili</article-title>. <source>Infect Immun</source>
+<volume>69</volume>: <fpage>7356</fpage>â<lpage>7364</lpage>.<pub-id pub-id-type="pmid">11705908</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Nougayrede1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Nougayrede</surname><given-names>JP</given-names></name>, <name><surname>Foster</surname><given-names>GH</given-names></name>, <name><surname>Donnenberg</surname><given-names>MS</given-names></name> (<year>2007</year>) <article-title>Enteropathogenic <italic>Escherichia coli</italic> effector EspF interacts with host protein Abcf2</article-title>. <source>Cell Microbiol</source>
+<volume>9</volume>: <fpage>680</fpage>â<lpage>693</lpage>.<pub-id pub-id-type="pmid">17064289</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-BarnettFoster1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Barnett Foster</surname><given-names>D</given-names></name>, <name><surname>Abul-Milh</surname><given-names>M</given-names></name>, <name><surname>Huesca</surname><given-names>M</given-names></name>, <name><surname>Lingwood</surname><given-names>CA</given-names></name> (<year>2000</year>) <article-title>Enterohemorrhagic <italic>Escherichia coli</italic> induces apoptosis which augments bacterial binding and phosphatidylethanolamine exposure on the plasma membrane outer leaflet</article-title>. <source>Infect Immun</source>
+<volume>68</volume>: <fpage>3108</fpage>â<lpage>3115</lpage>.<pub-id pub-id-type="pmid">10816451</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Nougayrede2">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Nougayrede</surname><given-names>JP</given-names></name>, <name><surname>Donnenberg</surname><given-names>MS</given-names></name> (<year>2004</year>) <article-title>Enteropathogenic <italic>Escherichia coli</italic> EspF is targeted to mitochondria and is required to initiate the mitochondrial death pathway</article-title>. <source>Cell Microbiol</source>
+<volume>6</volume>: <fpage>1097</fpage>â<lpage>1111</lpage>.<pub-id pub-id-type="pmid">15469437</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Papatheodorou1">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Papatheodorou</surname><given-names>P</given-names></name>, <name><surname>Domanska</surname><given-names>G</given-names></name>, <name><surname>Oxle</surname><given-names>M</given-names></name>, <name><surname>Mathieu</surname><given-names>J</given-names></name>, <name><surname>Selchow</surname><given-names>O</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The enteropathogenic <italic>Escherichia coli</italic> (EPEC) Map effector is imported into the mitochondrial matrix by the TOM/Hsp70 system and alters organelle morphology</article-title>. <source>Cell Microbiol</source>
+<volume>8</volume>: <fpage>677</fpage>â<lpage>689</lpage>.<pub-id pub-id-type="pmid">16548893</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Heczko1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Heczko</surname><given-names>U</given-names></name>, <name><surname>Carthy</surname><given-names>CM</given-names></name>, <name><surname>OâBrien</surname><given-names>BA</given-names></name>, <name><surname>Finlay</surname><given-names>BB</given-names></name> (<year>2001</year>) <article-title>Decreased apoptosis in the ileum and ileal Peyerâs patches: a feature after infection with rabbit enteropathogenic <italic>Escherichia coli</italic> O103</article-title>. <source>Infect Immun</source>
+<volume>69</volume>: <fpage>4580</fpage>â<lpage>4589</lpage>.<pub-id pub-id-type="pmid">11402002</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Ozoren1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ozoren</surname><given-names>N</given-names></name>, <name><surname>El-Deiry</surname><given-names>WS</given-names></name> (<year>2002</year>) <article-title>Defining characteristics of Types I and II apoptotic cells in response to TRAIL</article-title>. <source>Neoplasia</source>
+<volume>4</volume>: <fpage>551</fpage>â<lpage>557</lpage>.<pub-id pub-id-type="pmid">12407450</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Jost1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jost</surname><given-names>PJ</given-names></name>, <name><surname>Grabow</surname><given-names>S</given-names></name>, <name><surname>Gray</surname><given-names>D</given-names></name>, <name><surname>McKenzie</surname><given-names>MD</given-names></name>, <name><surname>Nachbur</surname><given-names>U</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>XIAP discriminates between type I and type II FAS-induced apoptosis</article-title>. <source>Nature</source>
+<volume>460</volume>: <fpage>1035</fpage>â<lpage>1039</lpage>.<pub-id pub-id-type="pmid">19626005</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Petersen1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Petersen</surname><given-names>L</given-names></name>, <name><surname>Bollback</surname><given-names>JP</given-names></name>, <name><surname>Dimmic</surname><given-names>M</given-names></name>, <name><surname>Hubisz</surname><given-names>M</given-names></name>, <name><surname>Nielsen</surname><given-names>R</given-names></name> (<year>2007</year>) <article-title>Genes under positive selection in <italic>Escherichia coli</italic>
+</article-title>. <source>Genome Res</source>
+<volume>17</volume>: <fpage>1336</fpage>â<lpage>1343</lpage>.<pub-id pub-id-type="pmid">17675366</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Hitomi1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hitomi</surname><given-names>J</given-names></name>, <name><surname>Katayama</surname><given-names>T</given-names></name>, <name><surname>Eguchi</surname><given-names>Y</given-names></name>, <name><surname>Kudo</surname><given-names>T</given-names></name>, <name><surname>Taniguchi</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Involvement of caspase-4 in endoplasmic reticulum stress-induced apoptosis and Abeta-induced cell death</article-title>. <source>J Cell Biol</source>
+<volume>165</volume>: <fpage>347</fpage>â<lpage>356</lpage>.<pub-id pub-id-type="pmid">15123740</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Sollberger1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sollberger</surname><given-names>G</given-names></name>, <name><surname>Strittmatter</surname><given-names>GE</given-names></name>, <name><surname>Kistowska</surname><given-names>M</given-names></name>, <name><surname>French</surname><given-names>LE</given-names></name>, <name><surname>Beer</surname><given-names>HD</given-names></name> (<year>2012</year>) <article-title>Caspase-4 is required for activation of inflammasomes</article-title>. <source>J Immunol</source>
+<volume>188</volume>: <fpage>1992</fpage>â<lpage>2000</lpage>.<pub-id pub-id-type="pmid">22246630</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Tahoun1">
+        <label>29</label>
+        <mixed-citation publication-type="other">Tahoun A, Siszler G, Spears K, McTeer S, Tree J, et al. (2011) Comparative Analysis of EspF Variants in the Inhibition of E. coli Phagocytosis by Macrophages and the Inhibition of <italic>E. coli</italic> Translocation Through Human- and Bovine-Derived M-cells. Infect Immun.</mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Simpson1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Simpson</surname><given-names>JC</given-names></name>, <name><surname>Wellenreuther</surname><given-names>R</given-names></name>, <name><surname>Poustka</surname><given-names>A</given-names></name>, <name><surname>Pepperkok</surname><given-names>R</given-names></name>, <name><surname>Wiemann</surname><given-names>S</given-names></name> (<year>2000</year>) <article-title>Systematic subcellular localization of novel proteins identified by large-scale cDNA sequencing</article-title>. <source>EMBO Rep</source>
+<volume>1</volume>: <fpage>287</fpage>â<lpage>292</lpage>.<pub-id pub-id-type="pmid">11256614</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Stellberger1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stellberger</surname><given-names>T</given-names></name>, <name><surname>Hauser</surname><given-names>R</given-names></name>, <name><surname>Baiker</surname><given-names>A</given-names></name>, <name><surname>Pothineni</surname><given-names>VR</given-names></name>, <name><surname>Haas</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Improving the yeast two-hybrid system with permutated fusions proteins: the Varicella Zoster Virus interactome</article-title>. <source>Proteome Sci</source>
+<volume>8</volume>: <fpage>8</fpage>.<pub-id pub-id-type="pmid">20205919</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Albers1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Albers</surname><given-names>M</given-names></name>, <name><surname>Kranz</surname><given-names>H</given-names></name>, <name><surname>Kober</surname><given-names>I</given-names></name>, <name><surname>Kaiser</surname><given-names>C</given-names></name>, <name><surname>Klink</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Automated yeast two-hybrid screening for nuclear receptor-interacting proteins</article-title>. <source>Mol Cell Proteomics</source>
+<volume>4</volume>: <fpage>205</fpage>â<lpage>213</lpage>.<pub-id pub-id-type="pmid">15604093</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Temple1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Temple</surname><given-names>G</given-names></name>, <name><surname>Gerhard</surname><given-names>DS</given-names></name>, <name><surname>Rasooly</surname><given-names>R</given-names></name>, <name><surname>Feingold</surname><given-names>EA</given-names></name>, <name><surname>Good</surname><given-names>PJ</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>The completion of the Mammalian Gene Collection (MGC)</article-title>. <source>Genome Res</source>
+<volume>19</volume>: <fpage>2324</fpage>â<lpage>2333</lpage>.<pub-id pub-id-type="pmid">19767417</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Hartley1">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hartley</surname><given-names>JL</given-names></name>, <name><surname>Temple</surname><given-names>GF</given-names></name>, <name><surname>Brasch</surname><given-names>MA</given-names></name> (<year>2000</year>) <article-title>DNA cloning using in vitro site-specific recombination</article-title>. <source>Genome Res</source>
+<volume>10</volume>: <fpage>1788</fpage>â<lpage>1795</lpage>.<pub-id pub-id-type="pmid">11076863</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-BarriosRodiles1">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Barrios-Rodiles</surname><given-names>M</given-names></name>, <name><surname>Brown</surname><given-names>KR</given-names></name>, <name><surname>Ozdamar</surname><given-names>B</given-names></name>, <name><surname>Bose</surname><given-names>R</given-names></name>, <name><surname>Liu</surname><given-names>Z</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>High-throughput mapping of a dynamic signaling network in mammalian cells</article-title>. <source>Science</source>
+<volume>307</volume>: <fpage>1621</fpage>â<lpage>1625</lpage>.<pub-id pub-id-type="pmid">15761153</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Perpeet1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Perpeet</surname><given-names>M</given-names></name>, <name><surname>Glass</surname><given-names>S</given-names></name>, <name><surname>Gronewold</surname><given-names>T</given-names></name>, <name><surname>Kiwitz</surname><given-names>A</given-names></name>, <name><surname>Malave</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>SAW Sensor System for Marker-Free Molecular Interaction Analysis</article-title>. <source>Analytical Letters</source>
+<volume>39</volume>: <fpage>1747</fpage>â<lpage>1757</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Kabsch1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kabsch</surname><given-names>W</given-names></name> (<year>2010</year>) <article-title>Xds</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>66</volume>: <fpage>125</fpage>â<lpage>132</lpage>.<pub-id pub-id-type="pmid">20124692</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-McCoy1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McCoy</surname><given-names>AJ</given-names></name>, <name><surname>Grosse-Kunstleve</surname><given-names>RW</given-names></name>, <name><surname>Adams</surname><given-names>PD</given-names></name>, <name><surname>Winn</surname><given-names>MD</given-names></name>, <name><surname>Storoni</surname><given-names>LC</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Phaser crystallographic software</article-title>. <source>J Appl Crystallogr</source>
+<volume>40</volume>: <fpage>658</fpage>â<lpage>674</lpage>.<pub-id pub-id-type="pmid">19461840</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Emsley1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Emsley</surname><given-names>P</given-names></name>, <name><surname>Lohkamp</surname><given-names>B</given-names></name>, <name><surname>Scott</surname><given-names>WG</given-names></name>, <name><surname>Cowtan</surname><given-names>K</given-names></name> (<year>2010</year>) <article-title>Features and development of Coot</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>66</volume>: <fpage>486</fpage>â<lpage>501</lpage>.<pub-id pub-id-type="pmid">20383002</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Murshudov1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Murshudov</surname><given-names>GN</given-names></name>, <name><surname>Skubak</surname><given-names>P</given-names></name>, <name><surname>Lebedev</surname><given-names>AA</given-names></name>, <name><surname>Pannu</surname><given-names>NS</given-names></name>, <name><surname>Steiner</surname><given-names>RA</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>REFMAC5 for the refinement of macromolecular crystal structures</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>67</volume>: <fpage>355</fpage>â<lpage>367</lpage>.<pub-id pub-id-type="pmid">21460454</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Chen1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<collab>Chen VB, Arendall WB 3rd, Headd JJ, Keedy DA, Immormino RM, et al</collab> (<year>2010</year>) <article-title>MolProbity: all-atom structure validation for macromolecular crystallography</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>66</volume>: <fpage>12</fpage>â<lpage>21</lpage>.<pub-id pub-id-type="pmid">20057044</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Levine1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Levine</surname><given-names>MM</given-names></name>, <name><surname>Bergquist</surname><given-names>EJ</given-names></name>, <name><surname>Nalin</surname><given-names>DR</given-names></name>, <name><surname>Waterman</surname><given-names>DH</given-names></name>, <name><surname>Hornick</surname><given-names>RB</given-names></name>, <etal>et al</etal> (<year>1978</year>) <article-title>
+<italic>Escherichia coli</italic> strains that cause diarrhoea but do not produce heat-labile or heat-stable enterotoxins and are non-invasive</article-title>. <source>Lancet</source>
+<volume>1</volume>: <fpage>1119</fpage>â<lpage>1122</lpage>.<pub-id pub-id-type="pmid">77415</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Datsenko1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Datsenko</surname><given-names>KA</given-names></name>, <name><surname>Wanner</surname><given-names>BL</given-names></name> (<year>2000</year>) <article-title>One-step inactivation of chromosomal genes in <italic>Escherichia coli</italic> K-12 using PCR products</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>97</volume>: <fpage>6640</fpage>â<lpage>6645</lpage>.<pub-id pub-id-type="pmid">10829079</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-McKenzie1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McKenzie</surname><given-names>GJ</given-names></name>, <name><surname>Craig</surname><given-names>NL</given-names></name> (<year>2006</year>) <article-title>Fast, easy and efficient: site-specific insertion of transgenes into enterobacterial chromosomes using Tn7 without need for selection of the insertion event</article-title>. <source>BMC Microbiol</source>
+<volume>6</volume>: <fpage>39</fpage>.<pub-id pub-id-type="pmid">16646962</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Bustamante1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bustamante</surname><given-names>VH</given-names></name>, <name><surname>Calva</surname><given-names>E</given-names></name>, <name><surname>Puente</surname><given-names>JL</given-names></name> (<year>1998</year>) <article-title>Analysis of cis-acting elements required for bfpA expression in enteropathogenic <italic>Escherichia coli</italic>
+</article-title>. <source>J Bacteriol</source>
+<volume>180</volume>: <fpage>3013</fpage>â<lpage>3016</lpage>.<pub-id pub-id-type="pmid">9603898</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0058937-Johnstone1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Johnstone</surname><given-names>RW</given-names></name>, <name><surname>Frew</surname><given-names>AJ</given-names></name>, <name><surname>Smyth</surname><given-names>MJ</given-names></name> (<year>2008</year>) <article-title>The TRAIL apoptotic pathway in cancer onset, progression and therapy</article-title>. <source>Nat Rev Cancer</source>
+<volume>8</volume>: <fpage>782</fpage>â<lpage>798</lpage>.<pub-id pub-id-type="pmid">18813321</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

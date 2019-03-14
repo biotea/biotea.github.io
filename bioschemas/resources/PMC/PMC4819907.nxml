@@ -1,0 +1,2669 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:00:33Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4819907" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4819907</identifier><datestamp>2016-04-14</datestamp><setSpec>elsevierwt</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Cell Rep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cell Rep</journal-id>
+      <journal-title-group>
+        <journal-title>Cell Reports</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2211-1247</issn>
+      <publisher>
+        <publisher-name>Cell Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4819907</article-id>
+      <article-id pub-id-type="pmcid">PMC4819907</article-id>
+      <article-id pub-id-type="pmc-uid">4819907</article-id>
+      <article-id pub-id-type="pmid">26997266</article-id>
+      <article-id pub-id-type="publisher-id">S2211-1247(16)30183-8</article-id>
+      <article-id pub-id-type="doi">10.1016/j.celrep.2016.02.062</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>CYLD Limits Lys63- and Met1-Linked Ubiquitin at Receptor Complexes to Regulate Innate Immune Signaling</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hrdinka</surname>
+            <given-names>Matous</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fiil</surname>
+            <given-names>BertheÂ Katrine</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zucca</surname>
+            <given-names>Mattia</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leske</surname>
+            <given-names>Derek</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bagola</surname>
+            <given-names>Katrin</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yabal</surname>
+            <given-names>Monica</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Elliott</surname>
+            <given-names>PaulÂ R.</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Damgaard</surname>
+            <given-names>RuneÂ Busk</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn2" ref-type="fn">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Komander</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jost</surname>
+            <given-names>PhilippÂ J.</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gyrd-Hansen</surname>
+            <given-names>Mads</given-names>
+          </name>
+          <email>mads.gyrd-hansen@ludwig.ox.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="cor1" ref-type="corresp">â</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Ludwig Institute for Cancer Research, Nuffield Department of Clinical Medicine, University of Oxford, Old Road Campus Research Building, Oxford OX3 7DQ, UK</aff>
+      <aff id="aff2"><label>2</label>III. Medizinische Klinik, Klinikum rechts der Isar, Technische UniversitÃ¤t MÃ¼nchen, Munich 81675, Germany</aff>
+      <aff id="aff3"><label>3</label>Medical Research Council Laboratory of Molecular Biology, Cambridge Biomedical Campus, Francis Crick Avenue, Cambridge CB2 0QH, UK</aff>
+      <author-notes>
+        <corresp id="cor1"><label>â</label>Corresponding author <email>mads.gyrd-hansen@ludwig.ox.ac.uk</email></corresp>
+        <fn id="fn1">
+          <label>4</label>
+          <p id="ntpara0010">Co-first author</p>
+        </fn>
+        <fn id="fn2">
+          <label>5</label>
+          <p id="ntpara0015">Present address: Medical Research Council Laboratory of Molecular Biology, Cambridge Biomedical Campus, Francis Crick Avenue, Cambridge CB2 0QH, UK</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>17</day>
+        <month>3</month>
+        <year>2016</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date
+						pub-type="epub">.-->
+      <pub-date pub-type="collection">
+        <day>29</day>
+        <month>3</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>3</month>
+        <year>2016</year>
+      </pub-date>
+      <volume>14</volume>
+      <issue>12</issue>
+      <fpage>2846</fpage>
+      <lpage>2858</lpage>
+      <history>
+        <date date-type="received">
+          <day>16</day>
+          <month>11</month>
+          <year>2015</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>28</day>
+          <month>1</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>2</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2016 The Authors</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <license license-type="CC BY" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open access article under the CC BY license (http://creativecommons.org/licenses/by/4.0/).</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Summary</title>
+        <p>Innate immune signaling relies on the deposition of non-degradative polyubiquitin at receptor-signaling complexes, but how these ubiquitin modifications are regulated by deubiquitinases remains incompletely understood. Met1-linked ubiquitin (Met1-Ub) is assembled by the linear ubiquitin assembly complex (LUBAC), and this is counteracted by the Met1-Ub-specific deubiquitinase OTULIN, which binds to the catalytic LUBAC subunit HOIP. In this study, we report that HOIP also interacts with the deubiquitinase CYLD but that CYLD does not regulate ubiquitination of LUBAC components. Instead, CYLD limits extension of Lys63-Ub and Met1-Ub conjugated to RIPK2 to restrict signaling and cytokine production. Accordingly, Met1-Ub and Lys63-Ub were individually required for productive NOD2 signaling. Our study thus suggests that LUBAC, through its associated deubiquitinases, coordinates the deposition of not only Met1-Ub but also Lys63-Ub to ensure an appropriate response to innate immune receptor activation.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <title>Graphical Abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="author-highlights">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple">
+            <list-item id="u0010">
+              <label>â¢</label>
+              <p>CYLD associates with LUBAC via HOIP and limits signaling byÂ NOD2</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>â¢</label>
+              <p>RIPK2 ubiquitination is regulated by CYLD and OTULIN</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>â¢</label>
+              <p>CYLD trims Lys63 and Met1 linkages conjugated to RIPK2</p>
+            </list-item>
+            <list-item id="u0025">
+              <label>â¢</label>
+              <p>Productive NOD2 signaling requires Lys63 and Met1 linkages</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+      <abstract abstract-type="teaser">
+        <p>Hrdinka etÂ al. show that productive signaling by the bacterial sensor NOD2 requires formation of Lys63- and Met1-linked ubiquitin. Both ubiquitin linkages are targeted by the deubiquitinase CYLD, which together with OTULIN regulates RIPK2 ubiquitination to restrict NOD2 signaling and cytokine production.</p>
+      </abstract>
+    </article-meta>
+    <notes>
+      <p id="misc0010">Published: March 17, 2016</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Introduction</title>
+      <p>Ubiquitin (Ub) chains linked via the N-terminal methionine (Met1) of Ub (Met1-Ub, also termed linear Ub) and lysine 63 (Lys63-Ub) facilitate innate immune signaling initiated by pattern recognition receptors (PRRs) such as toll-like receptors (TLRs) and nucleotide-oligomerization domain (NOD)-like receptors and cytokineÂ receptors such as tumor necrosis factor (TNF) receptor 1 (TNFR1) (<xref rid="bib14" ref-type="bibr">Fiil and Gyrd-Hansen, 2014</xref>, <xref rid="bib22" ref-type="bibr">Jiang and Chen, 2012</xref>). The linear Ub chain assembly complex (LUBAC), composed of HOIL-1, HOIP, and SHARPIN, is the only known Ub ligase to generate Met1-Ub (<xref rid="bib16" ref-type="bibr">Gerlach etÂ al., 2011</xref>, <xref rid="bib21" ref-type="bibr">Ikeda etÂ al., 2011</xref>, <xref rid="bib26" ref-type="bibr">Kirisako etÂ al., 2006</xref>, <xref rid="bib44" ref-type="bibr">Tokunaga etÂ al., 2011</xref>). LUBAC activity is counterbalanced by the Met1-specific deubiquitinase (DUB) OTULIN (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>, <xref rid="bib24" ref-type="bibr">Keusekotten etÂ al., 2013</xref>, <xref rid="bib36" ref-type="bibr">Rivkin etÂ al., 2013</xref>), which binds to the catalytic subunit HOIP via interactions between the HOIP peptide:N-glycanase/UBA- or UBX-containing proteins (PUB) domain and a PUB-interacting motif (PIM) in OTULIN (<xref rid="bib12" ref-type="bibr">Elliott etÂ al., 2014</xref>, <xref rid="bib38" ref-type="bibr">Schaeffer etÂ al., 2014</xref>). The importance of Met1-Ub in immune signaling is underscored by identification of mutations within the LUBAC-encoding genes in human patients with immunological disease (<xref rid="bib5" ref-type="bibr">Boisson etÂ al., 2012</xref>, <xref rid="bib6" ref-type="bibr">Boisson etÂ al., 2015</xref>). Lys63-Ub can be generated by Ub ligases that interact with the dimeric E2 complex Ubc13/Uev1a, which exclusively conjugates this linkage (<xref rid="bib10" ref-type="bibr">Deng etÂ al., 2000</xref>). Lys63-Ub is particularly important in MyD88-dependent immune-signaling pathways activated by TLRs and interleukin-1 receptors (IL-1R) whereas the role of Lys63-Ub in the NOD-containing protein 2 (NOD2) and TNFR1 pathways is not fully understood (<xref rid="bib14" ref-type="bibr">Fiil and Gyrd-Hansen, 2014</xref>, <xref rid="bib50" ref-type="bibr">Xu etÂ al., 2009</xref>).</p>
+      <p>NOD2 is an intracellular bacteria-sensing PRR that recognizes MDP (muramyl dipeptide) constituents of bacterial peptidoglycan and plays a critical role in gastro-intestinal immunity (<xref rid="bib33" ref-type="bibr">Philpott etÂ al., 2014</xref>). Upon stimulation, NOD2 binds receptor-interacting protein kinase 2 (RIPK2, also known as RIP2 or RICK), leading to recruitment of several Ub ligases including the inhibitor of apoptosis (IAP) proteins, cIAP1, cIAP2, and XIAP (<xref rid="bib3" ref-type="bibr">Bertrand etÂ al., 2009</xref>, <xref rid="bib8" ref-type="bibr">Damgaard etÂ al., 2012</xref>). XIAP is indispensable for NOD2 pathway functionality, where it ubiquitinates RIPK2 to facilitate recruitment of LUBAC (<xref rid="bib2" ref-type="bibr">Bauler etÂ al., 2008</xref>, <xref rid="bib8" ref-type="bibr">Damgaard etÂ al., 2012</xref>). In turn, LUBAC assembles Met1-Ub on RIPK2 to enable downstream signal transduction (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>). Additionally, TRAF2, ITCH, cIAP1/2, TRAF6, and PELI3 are reported to contribute to the assembly of Lys63-Ub on RIPK2, but their individual contribution to this process and to NOD2 signaling is not fully resolved (<xref rid="bib3" ref-type="bibr">Bertrand etÂ al., 2009</xref>, <xref rid="bib19" ref-type="bibr">Hasegawa etÂ al., 2008</xref>, <xref rid="bib42" ref-type="bibr">Tao etÂ al., 2009</xref>, <xref rid="bib48" ref-type="bibr">Watanabe etÂ al., 2014</xref>, <xref rid="bib51" ref-type="bibr">Yang etÂ al., 2013</xref>). A central regulatory point for productive innate immune signaling and transcription of nuclear factor-ÎºB (NF-ÎºB) target genes is the activation of the IKK (IÎºB kinase) complex. IKK activation is dependent on phosphorylation by the TAB/TAK1 complex that interacts with Lys63-Ub and on the conjugation of Met1-Ub by LUBAC, which is bound by the IKK subunit NEMO (also known as IKKÎ³; <xref rid="bib14" ref-type="bibr">Fiil and Gyrd-Hansen, 2014</xref>, <xref rid="bib22" ref-type="bibr">Jiang and Chen, 2012</xref>).</p>
+      <p>For appropriate and beneficial innate immune signaling, the assembly of Ub chains at receptor complexes must be carefully counterbalanced by DUBs. The linkage-selective DUBs OTULIN, CYLD, and A20 regulate various aspects of pro-inflammatory signaling (<xref rid="bib14" ref-type="bibr">Fiil and Gyrd-Hansen, 2014</xref>, <xref rid="bib18" ref-type="bibr">Harhaj and Dixit, 2012</xref>). The A20 gene (<italic>TNFAIP3</italic>) is a transcriptional target of NF-ÎºB and A20 functions as a part of the negative feedback mechanism to terminate signaling (<xref rid="bib18" ref-type="bibr">Harhaj and Dixit, 2012</xref>, <xref rid="bib29" ref-type="bibr">Lee etÂ al., 2000</xref>). Contrary to this, OTULIN functions to restrict the accumulation of Met1-Ub at basal conditions and early during signaling, and <italic>OTULIN</italic> expression is not induced by stimulation of NF-ÎºB activity (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>, <xref rid="bib24" ref-type="bibr">Keusekotten etÂ al., 2013</xref>, <xref rid="bib36" ref-type="bibr">Rivkin etÂ al., 2013</xref>).</p>
+      <p>CYLD is a bona fide tumor suppressor and negatively regulates pro-inflammatory signaling (<xref rid="bib4" ref-type="bibr">Bignell etÂ al., 2000</xref>, <xref rid="bib18" ref-type="bibr">Harhaj and Dixit, 2012</xref>). CYLD belongs to the USP (Ub-specific protease) family of DUBs (<xref rid="bib7" ref-type="bibr">Brummelkamp etÂ al., 2003</xref>, <xref rid="bib28" ref-type="bibr">Kovalenko etÂ al., 2003</xref>, <xref rid="bib45" ref-type="bibr">Trompouki etÂ al., 2003</xref>) and inÂ vitro cleaves Lys63-Ub and Met1-Ub with similar efficiency while displaying less activity toward Lys11-Ub and Lys48-Ub (<xref rid="bib27" ref-type="bibr">Komander etÂ al., 2009</xref>, <xref rid="bib35" ref-type="bibr">Ritorto etÂ al., 2014</xref>, <xref rid="bib37" ref-type="bibr">Sato etÂ al., 2015</xref>). Unexpectedly, CYLD was recently reported to interact with HOIP, the catalytic subunit of LUBAC, and to inhibit LUBAC-dependent activation of NF-ÎºB (<xref rid="bib40" ref-type="bibr">Takiuchi etÂ al., 2014</xref>).</p>
+      <p>Here, we show that, although CYLD is associated with LUBAC through HOIP binding, CYLD does not regulate ubiquitination of LUBAC components. Instead, CYLD counteracts Lys63-Ub and Met1-Ub conjugated to the LUBAC substrate RIPK2 to restrict signaling and cytokine production. Our results suggest that LUBAC not only is a Met1-specific E3 but also, through its associated DUBs, coordinates Met1- and Lys63-linked Ub chain assembly at signaling complexes.</p>
+    </sec>
+    <sec id="sec2">
+      <title>Results</title>
+      <sec id="sec2.1">
+        <title>CYLD Antagonizes LUBAC Function but Does Not Affect HOIP Ubiquitination</title>
+        <p>LUBAC function is restricted by OTULIN through its docking to the PUB domain of HOIP (<xref rid="bib12" ref-type="bibr">Elliott etÂ al., 2014</xref>, <xref rid="bib38" ref-type="bibr">Schaeffer etÂ al., 2014</xref>). Unexpectedly, CYLD also interacts with LUBAC via the HOIP PUB domain and mutations, such as N102D, that interfere with OTULIN binding also interfere with CYLD binding (<xref rid="bib40" ref-type="bibr">Takiuchi etÂ al., 2014</xref>; <xref rid="fig1" ref-type="fig">Figures 1</xref>Aâ1C). Moreover, CYLD can, akin to OTULIN, suppress LUBAC-induced NF-ÎºB activation through its DUB activity (<xref rid="bib40" ref-type="bibr">Takiuchi etÂ al., 2014</xref>; <xref rid="fig1" ref-type="fig">Figures 1</xref>D and <xref rid="mmc1" ref-type="supplementary-material">S1</xref>A). This together with the fact that CYLD cleaves Lys63-Ub and Met1-Ub inÂ vitro (<xref rid="bib27" ref-type="bibr">Komander etÂ al., 2009</xref>, <xref rid="bib37" ref-type="bibr">Sato etÂ al., 2015</xref>; <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S1</xref>B) implies that CYLD and OTULIN might function in a similar manner to control Met1-Ub conjugation by LUBAC.</p>
+        <p>To investigate this, we initially tested whether CYLD, like OTULIN, regulates HOIP ubiquitination. Surprisingly, depletion of CYLD in U2OS/NOD2 cells (a cell line expressing doxycycline [DOX]-inducible HA-NOD2 that responds to the NOD2 ligand L18-MDP without addition of DOX due to slight leakiness of the promoter; <xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>) had no effect on HOIP ubiquitination under basal conditions or after receptor stimulation (<xref rid="fig1" ref-type="fig">Figures 1</xref>E and <xref rid="mmc1" ref-type="supplementary-material">S1</xref>C). In contrast, OTULIN depletion led to extensive accumulation of Met1-Ub on HOIP (<xref rid="fig1" ref-type="fig">Figures 1</xref>E and <xref rid="mmc1" ref-type="supplementary-material">S1</xref>C). Affinity purification of Ub conjugates via linkage-specific Ub binders (SUBs) selective for Met1-Ub (M1-SUB; <xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>) or Lys63-Ub (K63-SUB; <xref rid="bib39" ref-type="bibr">Sims etÂ al., 2012</xref>, <xref rid="bib43" ref-type="bibr">Thorslund etÂ al., 2015</xref>) showed that Met1-Ub, but not Lys63-Ub, accumulated on LUBAC (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>E). Analysis of THP1 human monocytic cells or HCT-116 human colon carcinoma cells, which both express NOD2 endogenously, confirmed that CYLD was not involved in controlling Met1-Ub accumulation on HOIP whereas OTULIN was indispensable (<xref rid="fig1" ref-type="fig">Figures 1</xref>F, 1G, <xref rid="mmc1" ref-type="supplementary-material">S1</xref>D, and S1E). Accordingly, ectopic expression of inactive OTULIN (C129A), but not inactive CYLD (C601A), caused extensive accumulation of Met1-Ub on HOIP (<xref rid="fig1" ref-type="fig">Figures 1</xref>H and <xref rid="mmc1" ref-type="supplementary-material">S1</xref>F). This prompted us to explore the role of CYLD in regulating the NOD2 pathway, which relies on LUBAC.</p>
+      </sec>
+      <sec id="sec2.2">
+        <title>CYLD Activity Controls NOD2 Signaling</title>
+        <p>CYLD has been reported to inhibit RIPK2-induced signaling when overexpressed (<xref rid="bib1" ref-type="bibr">Abbott etÂ al., 2004</xref>), but the function of endogenous CYLD in NOD2 signaling remains unexplored and its role as a DUB is unknown. Depletion of CYLD showed that CYLD limits productive signaling after NOD2 stimulation as determined by accumulation of transcripts from the NF-ÎºB-responsive genes <italic>TNF</italic> and <italic>CXCL8</italic> and production of IL-8 (encoded by <italic>CXCL8</italic>; <xref rid="fig2" ref-type="fig">Figures 2</xref>A and 2B). The requirement for CYLD in restricting NOD2 responses was further validated in CYLD-deficient bone-marrow-derived dendritic cells (BMDCs), which produced markedly higher levels of pro-inflammatory cytokines than their wild-type counterparts upon NOD2 activation (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C).</p>
+        <p>OTULIN depletion also led to increased IL-8 production, but the effect was less pronounced as compared to CYLD depletion (<xref rid="fig2" ref-type="fig">Figures 2</xref>D and <xref rid="mmc1" ref-type="supplementary-material">S2</xref>A). Because both DUBs cleave Met1-Ub, we tested whether depletion of both DUBs would further deregulate NOD2 signaling. However, we found no additive or synergistic effect on IL-8 production or on MAP kinase and IKK signaling when both enzymes were depleted as compared to their individual depletion (<xref rid="fig2" ref-type="fig">Figures 2</xref>D, <xref rid="mmc1" ref-type="supplementary-material">S2</xref>A, and S2B). Interestingly, the depletion of CYLD did not affect IL-8 production after stimulation with TNF (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B), which might reflect a differential dependency of NOD2- and TNFR1-signaling pathways on LUBAC function (<xref rid="bib8" ref-type="bibr">Damgaard etÂ al., 2012</xref>, <xref rid="bib16" ref-type="bibr">Gerlach etÂ al., 2011</xref>). To test this, the transcriptional response to NOD2 and TNFR1 stimulation was tested in HOIP-deficient HCT-116 (HOIP-KO) cells (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>E). Transcriptional activation of <italic>CXCL8</italic> was ablated in HOIP-KO cells after NOD2 stimulation but was only reduced after TNF stimulation (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>F). In fact, <italic>CXCL8</italic> was induced more than 25-fold in HOIP-KO cells in response to TNF. Also, measurement of NF-ÎºB activity by a luciferase-based reporter showed that HOIP is required for NOD2-dependent NF-ÎºB activation whereas TNF-induced NF-ÎºB activation in HOIP KO cells is only partially decreased (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>C). Reconstitution of the HOIP-KO cells with ectopic HOIP restored NF-ÎºB activation in response to L18-MDP and TNF, showing that the signaling defect of the HOIP-KO cells was caused by the absence of HOIP (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>C).</p>
+        <p>Next, we investigated the role of the DUB activity of CYLD in regulating NOD2 signaling. For this, the effect of wild-type CYLD (CYLD<sup>WT</sup>) and catalytic inactive CYLD (CYLD<sup>C601A</sup>) on nuclear translocation of the NF-ÎºB subunit RelA and the production of IL-8 was determined. This showed that the ability of CYLD to antagonize productive NOD2 signaling relied on its catalytic activity (<xref rid="fig3" ref-type="fig">Figures 3</xref>Aâ3C, <xref rid="mmc1" ref-type="supplementary-material">S3</xref>A, and S3B). Also, activation of NF-ÎºB by ectopic XIAP, an essential Ub ligase for NOD2 signaling, was blocked by overexpression of CYLD<sup>WT</sup>, but not CYLD<sup>C601A</sup>, which increased NF-ÎºB activity (<xref rid="fig3" ref-type="fig">Figures 3</xref>D and <xref rid="mmc1" ref-type="supplementary-material">S3</xref>C). XIAP-induced NF-ÎºB activity relies not exclusively on Met1-Ub (<xref rid="bib8" ref-type="bibr">Damgaard etÂ al., 2012</xref>) but was also dependent on Ubc13-mediated formation of Lys63-Ub (<xref rid="fig3" ref-type="fig">Figures 3</xref>E and <xref rid="mmc1" ref-type="supplementary-material">S3</xref>D), which might explain why OTULIN only partially inhibited XIAP-induced NF-ÎºB activity (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>D). CYLD and OTULIN were not inhibiting NF-ÎºB activity per se because the DUBs did not appreciably inhibit NF-ÎºB activity induced by an engineered non-cleavable Met1-Ub4 protein targeted to inactive XIAP (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>; <xref rid="mmc1" ref-type="supplementary-material">Figures S3</xref>E and S3F).</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>CYLD Limits Extension of Ub Chains on RIPK Proteins</title>
+        <p>Because CYLD functioned as a DUB to limit NOD2-dependent signaling but did not regulate LUBAC ubiquitination, we asked whether depletion of CYLD would affect LUBAC substrate ubiquitination in response to receptor stimulation. Indeed, purification of Ub conjugates from control and CYLD-depleted cells stimulated with L18-MDP revealed that CYLD-depleted cells accumulated Ub-RIPK2 species containing Lys63 and Met1 linkages with a higher apparent molecular weight (MW) than observed in control cells, particularly at early time points (<xref rid="fig4" ref-type="fig">Figures 4</xref>A and <xref rid="mmc1" ref-type="supplementary-material">S4</xref>A). The effect of CYLD depletion on Ub-RIPK2 was strikingly different from the effect of OTULIN depletion, which promoted the accumulation of Ub-RIPK2 species but did not affect the MW of Ub-RIPK2 as compared with control cells (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>; <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B).</p>
+        <p><italic>CYLD</italic> is reported to be a transcriptional target of NF-ÎºB in response to TNF and IL-1Î² treatment and to contribute to termination of signaling (<xref rid="bib23" ref-type="bibr">Jono etÂ al., 2004</xref>). However, depletion of CYLD did not stabilize RIPK2 ubiquitination at late time points after NOD2 stimulation (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A). Also, NOD2 stimulation did not increase <italic>CYLD</italic> (or <italic>OTULIN</italic>) mRNA or protein levels whereas <italic>TNFAIP3</italic> (A20) mRNA and protein levels rapidly increased by the treatment (<xref rid="fig4" ref-type="fig">Figures 4</xref>C and 4D). This suggested that CYLD regulates ubiquitination at the initiation of signaling. In line with this, TNF treatment of CYLD-depleted cells led to accumulation of Ub-RIPK1 species with a higher apparent MW than observed in non-depleted cells within 10Â min (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>E), which coincided with the recruitment of CYLD to the TNFR-SC (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>F). CYLD also co-purified with HA-NOD2 induced by DOX in U2OS/NOD2 cells, and under these conditions, CYLD levels were unaffected by the treatment (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>G).</p>
+        <p>The ubiquitination of RIPK2 and RIPK1 after NOD2 and TNFR1 stimulation, respectively, is facilitated by several E3Â Ub ligases, including XIAP and cIAPs. The continuous assembly of Ub chains within receptor-signaling complexes might therefore mask the regulation of ubiquitination by DUBs. To better assess the regulation of Ub chains by CYLD, we therefore treated cells with a Smac-mimetic compound (compound A [CpA]) to inhibit IAP function prior to receptor stimulation. When used at high concentrations (1Â Î¼M), CpA blocks RIPK2 ubiquitination in response to L18-MDP (<xref rid="fig5" ref-type="fig">Figures 5</xref>A, lanes 1â4, and <xref rid="mmc1" ref-type="supplementary-material">S5</xref>A) because the compound antagonizes the interaction of XIAP with RIPK2 in addition to inducing degradation of cIAPs (<xref rid="bib9" ref-type="bibr">Damgaard etÂ al., 2013</xref>). Remarkably, depletion of CYLD under these conditions restored RIPK2 ubiquitination to comparable levels as in NOD2-stimulated cells not treated with CpA (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>A, compare lane 8 with lanes 3 and 7). Depletion of OTULIN also led to accumulation of Ub-RIPK2 albeit to a lesser extent than when CYLD was depleted (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>A, compare lane 12 with lanes 3 and 11). CpA also impaired the ubiquitination of RIPK1 in response to TNF, and depletion of CYLD partially restored RIPK1 ubiquitination (<xref rid="fig5" ref-type="fig">Figures 5</xref>B, compare lanes 4 and 8, and <xref rid="mmc1" ref-type="supplementary-material">S5</xref>B). This suggests that CYLD and OTULIN, especially at the NOD2 receptor complex, are highly active in regulating Ub chain stability.</p>
+        <p>CpA prevented the degradation of IÎºBÎ± by L18-MDP in non-depleted cells but in CYLD-depleted cells IÎºBÎ± levels were reduced after stimulation, suggesting that CYLD depletion restored productive signaling (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>A, compare lanes 4 andÂ 8). However, CpA inhibited IL-8 production in CYLD-depleted cells to a similar extent as in in control or OTULIN-depleted cells (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>C). In contrast, CpA had no effect on IL-8 induced by phorbol myristate acetate (PMA) and ionomycin, indicating that the compound was not interfering with IL-8 production non-specifically (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>D).</p>
+      </sec>
+      <sec id="sec2.4">
+        <title>CYLD Trims Lys63- and Met1-Ub on RIPK2</title>
+        <p>To address which Ub-linkage(s) CYLD regulates in the context of NOD2 pathway activation, we subjected Ub conjugates isolated with glutathione S-transferase (GST)-M1-SUB (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>A) or GST-UBA<sup>Ubq</sup> (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>B) to Ub chains restriction (UbiCRest) analysis (<xref rid="bib20" ref-type="bibr">Hospenthal etÂ al., 2015</xref>). Incubation with OTULIN<sup>WT</sup>, but not inactive OTULIN<sup>C129A</sup>, resulted in a gel shift of Ub-RIPK2, but the digested Ub-RIPK2 from CYLD-depleted cells still migrated significantly slower than Ub-RIPK2 from control cells (<xref rid="fig6" ref-type="fig">Figures 6</xref>A, compare lanes 1 and 3 with lanes 7 and 9, and <xref rid="fig6" ref-type="fig">6</xref>B, compare lanes 2 and 5 with lanes 9 and 12). Additional Met1 linkages could thus not alone account for the slower migrating Ub-RIPK2 species in CYLD-depleted cells. Incubation with the Lys63-selective DUBs OTUD1 or AMSH<sup>â</sup> (<xref rid="bib30" ref-type="bibr">Michel etÂ al., 2015</xref>) also resulted in a similar gel shift of Ub-RIPK2 isolated from control and CYLD-depleted cells (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>B, compare lanes 2, 3, and 6 with lanes 9, 10, and 13). However, incubation with OTULIN plus OTUD1 or OTULIN plus AMSH<sup>â</sup> resulted in similar migration patterns of Ub-RIPK2 isolated from control and CYLD-depleted cells, indicating that CYLD restricts the deposition of both Lys63 and Met1 linkages on RIPK2 (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>B, compare lanes 4 and 7 with lanes 11 and 14). The extent of Ub chain digestion and linkage specificity in the DUB reactions was determined by linkage-specific antibodies and by spiking into the reaction recombinant Met1-linked Ub4 with an N-terminal GST moiety. This indicated that OTUD1 and OTULIN cleaved the intended linkage largely to completion without detectable cross-reactivity with Met1- or Lys63-Ub, respectively (<xref rid="mmc1" ref-type="supplementary-material">Figures S6</xref>A and S6B). Curiously, a substantial fraction of the high-MW signal detected by the Met1-Ub antibody disappeared in the OTUD1-treated samples even though OTUD1 did not digest GST-Met1-Ub4. This could reflect that Met1 linkages in generalÂ are conjugated to existing Lys63-Ub although the remainingÂ signal in the OTULIN-treated samples suggests that the Met1-Ub antibody also can react with Ub chains other than Met1-Ub (<xref rid="mmc1" ref-type="supplementary-material">FigureÂ S6</xref>A).</p>
+        <p>Notably, incubation of the purified Ub conjugates with AMSH<sup>â</sup> or OTUD1, but not with OTULIN, generated significant amounts of monoUb-RIPK2 and oligoUb-RIPK2, suggesting that Lys63 linkages are generated proximal to RIPK2 whereas Met1 linkages are only conjugated to polyubiquitinated RIPK2 (<xref rid="fig6" ref-type="fig">Figures 6</xref>B, 6C, and <xref rid="mmc1" ref-type="supplementary-material">S6</xref>AâS6C). The viral DUB vOTU disassembles all Ub linkages except Met1 (<xref rid="bib20" ref-type="bibr">Hospenthal etÂ al., 2015</xref>) and served as a positive control along with USP21 in the UbiCREST analysis, where they removed virtually all Ub moieties from RIPK2 (<xref rid="fig6" ref-type="fig">Figures 6</xref>A and 6C).</p>
+      </sec>
+      <sec id="sec2.5">
+        <title>Lys63-Ub and Met1-Ub Are Individually Indispensable for NOD2 Signaling</title>
+        <p>Lys63-Ub had been suggested to contribute to NOD2 signaling, and our investigation of CYLDâs function supported this notion. However, the direct evidence for the requirement of the Lys63 linkage was still lacking. To address this, we expressed GFP-coupled variants of the K63-SUB and M1-SUB (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>A) in order to interfere with the function of Lys63-Ub and Met1-Ub, respectively, as was previously reported (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>, <xref rid="bib39" ref-type="bibr">Sims etÂ al., 2012</xref>). Indeed, expression of GFP-K63-SUB inhibited the nuclear localization of RelA and production of IL-8 after NOD2 stimulation to a similar extent as GFP-M1-SUB despite being expressed at lower levels (<xref rid="fig7" ref-type="fig">Figures 7</xref>Bâ7D, <xref rid="mmc1" ref-type="supplementary-material">S7</xref>A, and S7B). Gating of cells based on GFP expression revealed that low levels of GFP-K63-SUB were sufficient to block IL-8 production whereas GFP-M1-SUB inhibited IL-8 production only when highly expressed (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>E). As expected, GFP-negative cells (not successfully transfected) responded similarly to NOD2 stimulation in all conditions (<xref rid="fig7" ref-type="fig">Figures 7</xref>C and 7E).</p>
+        <p>A substantial fraction of GFP-K63-SUB appeared to localize to the nucleus whereas GFP-M1-SUB was more evenly distributed between cytoplasm and nucleus (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>B). We therefore generated variants with a nuclear localization signal (NLS) and transfected cells with nuclear-localized variants. This showed that the GFP-SUBs exclusively inhibited signaling in the cytoplasm because neither NLS-GFP-K63-SUB nor NLS-GFP-M1-SUB inhibited IL-8 production (<xref rid="fig7" ref-type="fig">Figures 7</xref>F and <xref rid="mmc1" ref-type="supplementary-material">S7</xref>A).</p>
+        <p>Consistent with an important function of Lys63-Ub for NOD2 signaling, depletion of Ubc13 inhibited IL-8 production to a similar extent as the depletion of HOIP (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>G). Similar effects were obtained in cells where either CYLD or OTULIN was stably silenced, albeit the inhibitory effect of Ubc13 or HOIP depletion on IL-8 production was slightly less effective and depletion of both proteins was needed to completely prevent IL-8 production (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>G). Altogether, our data reveal that the NOD2 pathway is exquisitely dependent on Lys63-Ub and Met1-Ub and suggest that the regulation of these linkages is coordinated by LUBAC through its associated DUBs CYLD and OTULIN.</p>
+      </sec>
+    </sec>
+    <sec id="sec3">
+      <title>Discussion</title>
+      <p>In this study, we revealed that CYLD restricts deposition of Lys63-Ub and Met1-Ub on the LUBAC substrate RIPK2 to limit NOD2-dependent inflammatory signaling. We showed that CYLD, like OTULIN, interacts with LUBAC, suggesting that the Ub-regulating capacity of LUBAC complexes extends beyond Met1-Ub to also include Lys63-Ub.</p>
+      <p>There are several examples of Ub ligase-DUB pairs where a DUB either regulates substrate ubiquitination or auto-ubiquitination of the Ub ligase, notably the Mdm2-USP7 complex that regulates p53 stability and the DUB A20, which also harbors Ub ligase activity (<xref rid="bib41" ref-type="bibr">Tang etÂ al., 2006</xref>, <xref rid="bib49" ref-type="bibr">Wertz etÂ al., 2004</xref>). However, we are not aware of other examples than LUBAC-OTULIN-CYLD, where an Ub ligase associates with two separate DUB activities. It is possible that LUBAC exists as different complexes containing either CYLD or OTULIN because they both require residues within the PIM-binding pocket (e.g., N102) for interaction with HOIP. However, the LUBAC complex elutes as an â¼600-kDa complex and may thus contain two or more HOIP molecules, allowing for binding of both DUBs within the same complex (<xref rid="bib26" ref-type="bibr">Kirisako etÂ al., 2006</xref>). Supporting the latter scenario, HOIP oligomerizes via the N-terminal part of the protein (<xref rid="bib12" ref-type="bibr">Elliott etÂ al., 2014</xref>), and CYLD has been shown to co-immunoprecipitate OTULIN in a LUBAC-dependent manner and vice versa (<xref rid="bib40" ref-type="bibr">Takiuchi etÂ al., 2014</xref>). Moreover, we found that the removal of Met1-Ub conjugated to HOIP was independent of CYLD but was entirely dependent on OTULINâs catalytic activity and its binding to LUBAC (<xref rid="bib12" ref-type="bibr">Elliott etÂ al., 2014</xref>), arguing for the existence of a ternary LUBAC-CYLD-OTULIN complex.</p>
+      <p>The molecular basis preventing CYLD from processing Met1-Ub on HOIP is not clear, but it could be via inaccessibility of CYLD, but not OTULIN, to the chains. OTULIN has high affinity for Met1 chains, several fold higher than reported for NEMO, the prototypical Met1-Ub-binding protein (<xref rid="bib24" ref-type="bibr">Keusekotten etÂ al., 2013</xref>, <xref rid="bib34" ref-type="bibr">Rahighi etÂ al., 2009</xref>). Possibly, HOIL-1 or another factor with Met1-Ub-binding capacity (<xref rid="bib17" ref-type="bibr">Haas etÂ al., 2009</xref>) would prevent CYLD from gaining access to and cleaving the Met1-Ub on HOIP, whereas OTULIN would have access via its higher affinity toward Met1-Ub. However, further investigations are needed to uncover the basis of this differential role of CYLD and OTULIN in regulation of HOIP ubiquitination. It will also be of interest to investigate the possibility that HOIP ubiquitination could be an auto-regulatory mechanism controlled by OTULIN, for example, by inhibiting intrinsic LUBAC activity or affecting its recruitment to receptor complexes.</p>
+      <sec id="sec3.1">
+        <title>CYLD Regulation of LUBAC Substrates</title>
+        <p>An important insight from our study was that CYLD regulates the extension of Lys63 and Met1 linkages on RIPK2. Although depletion of CYLD resulted in extended Ub modifications on RIPK2 (and RIPK1 after TNF treatment), the full extent of regulation of RIPK2 ubiquitination by CYLD (and OTULIN) was uncovered only when we functionally inhibited IAP proteins. CYLD also regulated the ubiquitination of RIPK1, but inhibition of IAP proteins had a less dramatic effect. This suggests that deposition of Ub modifications at the NOD2 complex, the TNFR1 complex, and possibly other immune complexes is continuously coordinated through the opposing activities of Ub ligases and DUBs. This could enable dynamic alterations to the linkage composition of Ub chains within these signaling complexes. Such a mechanism is described for A20, which removes Lys63 linkages and assembles Lys48-Ub to terminate signaling (<xref rid="bib49" ref-type="bibr">Wertz etÂ al., 2004</xref>). In response to IL-1R stimulation, Met1 linkages are formed almost exclusively on existing Lys63-Ub conjugated to IRAK1, a component of the MyD88 signalosome (<xref rid="bib13" ref-type="bibr">Emmerich etÂ al., 2013</xref>). Analogously, the Ub-linkage composition of Ub-RIPK2 following NOD2 stimulation showed that Lys63-Ub is the first linkage type conjugated to RIPK2 whereas Met1 linkages are formed only on RIPK2 molecules that are already polyubiquitinated (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>). An intriguing possibility is that CYLD functions to trim Lys63-linked Ub chains to facilitate their Met1 ubiquitination by LUBAC.</p>
+        <p>Of note, during revision of this manuscript, a study by <xref rid="bib11" ref-type="bibr">Draber etÂ al. (2015)</xref> reported that OTULIN was not stably associated with receptor-signaling complexes and suggested that OTULIN does not regulate ubiquitination of RIPK2. However, the data presented here and in our previous study (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>) indicate that OTULIN has access to the endogenous NOD2 complex (irrespective of whether it associates stably or not), where it restricts RIPK2 ubiquitination alongside CYLD. The underlying reason for the discrepancy is not clear at this time but could be due to a difference in experimental approaches.</p>
+      </sec>
+      <sec id="sec3.2">
+        <title>Functional Role of CYLD and Lys63-Ub</title>
+        <p>The functional requirement of Lys63-Ub for immune receptor signaling is controversial and appears to be specific to individual receptor systems (<xref rid="bib32" ref-type="bibr">Ori etÂ al., 2013</xref>, <xref rid="bib46" ref-type="bibr">van Wijk etÂ al., 2012</xref>, <xref rid="bib50" ref-type="bibr">Xu etÂ al., 2009</xref>). It was therefore important to establish whether or not K63-Ub contributes to NOD2 signaling. Using linkage-selective Ub binders to interfere with Lys63-Ub function together with silencing of the E2Â Ubc13, we established that Lys63 linkages are essential for productive NOD2 signaling. Interestingly, the NOD2 pathway is equally dependent on LUBAC function and Met1-Ub (<xref rid="bib8" ref-type="bibr">Damgaard etÂ al., 2012</xref>, <xref rid="bib47" ref-type="bibr">Warner etÂ al., 2013</xref>), illustrating the non-redundant signaling properties of these linkages. In contrast, Lys63-Ub is reported to be largely dispensable in the TNFR1 pathway (<xref rid="bib46" ref-type="bibr">van Wijk etÂ al., 2012</xref>, <xref rid="bib50" ref-type="bibr">Xu etÂ al., 2009</xref>), and although Met1-Ub contributes to pro-inflammatory signaling, it also has a prominent role in regulating the formation of cell death complexes (<xref rid="bib16" ref-type="bibr">Gerlach etÂ al., 2011</xref>, <xref rid="bib21" ref-type="bibr">Ikeda etÂ al., 2011</xref>, <xref rid="bib24" ref-type="bibr">Keusekotten etÂ al., 2013</xref>). The molecular basis underlying the receptor-specific functions of Lys63- and Met1-Ub is not understood, but it might reflect how ubiquitination is coordinated at receptor complexes. For example, the generation of Lys63/Met1 hybrid chains in the IL-1R pathway probably explains the exquisite dependency on the Lys63 linkage within the system (<xref rid="bib13" ref-type="bibr">Emmerich etÂ al., 2013</xref>).</p>
+        <p>Even though CYLD is well known to regulate inflammation andÂ innate immune responses, its role in regulating the NOD2 pathway had not been defined. In line with the requirement of Lys63- and Met1-Ub in NOD2, but not TNFR1, signaling, we found that endogenous CYLD was critical for limiting productive NOD2 signaling but that it did not appreciably affect TNF signaling as judged by IL-8 production. Interestingly, CYLD is reported to negatively regulate the innate immune response to infection by <italic>Listeria monocytogenes</italic>, an intracellular bacterial pathogen recognized by NOD1 and NOD2 (<xref rid="bib25" ref-type="bibr">Kim etÂ al., 2008</xref>, <xref rid="bib31" ref-type="bibr">Nishanth etÂ al., 2013</xref>). This suggests that the regulation of RIPK2 ubiquitination by CYLD (and LUBAC and OTULIN) could influence the response to infection by intracellular bacteria.</p>
+        <p>In conclusion, our study exemplifies how ubiquitination following innate immune receptor activation is carefully controlled by LUBAC and its associated DUB activities CYLD and OTULIN for accurate regulation of downstream signaling and pro-inflammatory responses.</p>
+      </sec>
+    </sec>
+    <sec id="sec4">
+      <title>Experimental Procedures</title>
+      <sec id="sec4.1">
+        <title>Purification of Endogenous Ub Conjugates</title>
+        <p>Ub conjugates were purified from cell lysates using affinity reagents TUBE, M1-SUB, and K63-SUB (<xref rid="bib15" ref-type="bibr">Fiil etÂ al., 2013</xref>, <xref rid="bib43" ref-type="bibr">Thorslund etÂ al., 2015</xref>) or UBA<sup>Ubq</sup>. Briefly, cells were lysed in buffer containing 20Â mM Na<sub>2</sub>HPO<sub>4</sub>, 20Â mM NaH<sub>2</sub>PO<sub>4</sub>, 1% (v/v) NP-40, and 2Â mM EDTA and supplemented with 5Â mM N-ethylmaleimide, cOmplete protease inhibitors, and PhosSTOP (Roche). The affinity reagents TUBE (50Â Î¼g/ml), M1-SUB (100Â Î¼g/ml), K63-SUB (15Â Î¼g/ml), or UBA<sup>Ubq</sup> (150Â Î¼g/ml) were either added directly to the cell lysates or pre-bound to Glutathione Sepharose 4B beads (GE Healthcare) for at least 1Â hr. For K63-SUB pull-down, the Thermo Scientific Pierce Streptavidin Magnetic Beads were washed in lysis buffer and incubated with the biotinylated K63-SUB in the lysis buffer for at least 1Â hr agitating at 4Â°C, followed by three washes. For all pull-downs, lysates were cleared by centrifugation, mixed with beads, and incubated agitating at 4Â°C for a minimum of 2Â hr. The beads were washed four times in 500Â Î¼l of ice-cold PBS 0.1% (v/v) Tween-20 or TUBE lysisÂ buffer. The bound material was eluted with 15Â mM glutathione in PBS or with 1Ã sample loading buffer.</p>
+      </sec>
+      <sec id="sec4.2">
+        <title>Immunofluorescence Staining and Confocal Microscopy</title>
+        <p>Low-density U2OS/NOD2 cell cultures grown on coverslips were transfected using Fugene6 (Promega) according to manufacturerâs protocol. After 24Â hr, the cells were stimulated with 1Â Î¼g/ml L18-MDP for 1Â hr. The cells were fixed in 4% formaldehyde and permeabilized by 0.1% (v/v) Triton X-100 in PBS. Blocking was performed in 5% (w/v) BSA and 0.01% (v/v) Triton X-100 in PBS, and cells were stained with primary antibodies and fluorescently labeled secondary antibodies in the blocking solution for 1Â hr at room temperature. The nuclei were stained with 1Â Î¼g/ml DAPI for 10Â min. Coverslips were mounted on slides using ProLong Gold Antifade Reagent (Life Technologies). Images were acquired on a Carl Zeiss LSM710 confocal microscope equipped with 20Ã dry and 63Ã oil lenses. To quantify RelA translocation, images were semi-automatically processed in FiJi software using a macro. Briefly, nuclear staining (DAPI channel) was used to create a mask, which was used to measure fluorescence intensities in green (transfected cells) and red (RelA) channels.</p>
+      </sec>
+      <sec id="sec4.3">
+        <title>Intracellular Flow Cytometry of IL-8</title>
+        <p>U2OS/NOD2 cells, transfected using Fugene6, were stimulated 24â48Â hr after transfection with 200â300Â ng/ml L18-MDP for 4â6Â hr in the presence of 5Â Î¼g/ml Brefeldin A and 2Â Î¼M Monensin (BioLegend) protein transport inhibitors. After stimulation, cells were washed with PBS, dissociated by Trypsin/EDTA solution (GIBCO Life Technologies), and collected by centrifugation. Cells were fixed with IC Fixation Buffer (eBioscence) O/N at 4Â°C; washed with PBS; permeabilized using Perm/Wash Buffer containing 2% (v/v) FCS, 0.1% (w/v) saponin, and 0.1% (w/v) NaN<sub>3</sub> in PBS; and incubated in the Perm/Wash Buffer with anti-IL-8/allophycocyanin (APC) for 1Â hr at room temperature. The cells were analyzed by FACS Canto Flow Cytometer (BD Bioscience) and data processed using FlowJo software (TreeStar). APC and GFP levels were acquired using 633Â nm and 488Â nm laser, respectively.</p>
+      </sec>
+      <sec id="sec4.4">
+        <title>DUB Assays</title>
+        <p>Ub conjugates from L18-MDP-treated cells were isolated by M1-SUB (100Â Î¼g/ml) or GST-UBA<sup>Ubq</sup> (150Â Î¼g/ml) pre-bound to GST beads as described under purification of endogenous Ub conjugates. After wash, beads were resuspended in DUB buffer (50Â mM HEPES [pH 7.5], 100Â mM NaCl, 2Â mM DTT, 1Â mM MnCl<sub>2</sub>, and 0.01% Brij-35). For siMM/shMM or siCYLD/shCYLD U2OS/NOD2 experiments, Ub conjugates incubated without or with DUBs (USP21 [0.5Â Î¼M], OTULIN [0.4â1Â Î¼M], OTULIN C/A [1Â Î¼M], vOTU [0.4Â Î¼M], OTUB1 [15Â Î¼M], OTUD1 [0.2Â Î¼M], and AMSH<sup>â</sup> [3Â Î¼M]). Samples were incubated for 15Â min (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>B) or 1Â hr (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>A). For the time course experiment, DUBs OTUD1 (0.2Â Î¼M) and OTULIN (0.4Â Î¼M) incubated with the Ub conjugates for 15, 60, or 240Â min and USP21 (0.5Â Î¼M) and the no DUB control incubated for 60Â min. For spiked in GST-Met1-Ub4 experiments, 4Â Î¼g was added to the Ub conjugates and incubated with DUBs (OTULIN [0.4Â Î¼M] and OTUD1 [0.2Â Î¼M]) or no DUB for 4Â hr. For the THP1 cells, Ub conjugates incubated for 1Â hr with or without DUBs OTULIN (1Â Î¼M), OTUD1 (1Â Î¼M), and Usp21 (0.5Â Î¼M). All samples incubated at 30Â°C with shaking, and loading sample buffer was added to stop the reaction.</p>
+      </sec>
+      <sec id="sec4.5">
+        <title>Cytometric Bead Array</title>
+        <p>Secreted cytokines (Il-1Î², IL-6, and TNF) were measured from culture supernatants from BMDC after 24Â hr with or without MDP with the Cytometric Bead Array (CBA) (BD Biosciences) according to manufacturerâs protocol.</p>
+      </sec>
+      <sec id="sec4.6">
+        <title>Generation of Stable CRISPR/Cas9 HCT-116 Cells</title>
+        <p>To generate stable HCT-116 knockout cell lines, the cells were transfected using Fugene HD with the RNF31 CRISPR/Cas9 KO Plasmid (sc-412436; Santa Cruz Biotechnology) containing gRNA, Cas9, and EGFP marker. After 36Â hr, top 10% of GFP-positive cells were sorted by flow cytometry and cloned by limiting dilution to obtain single-cell clones. Individual clones were validated by western blotting with HOIP-specific antibodies.</p>
+      </sec>
+      <sec id="sec4.7">
+        <title>Statistical Analysis</title>
+        <p>Statistical analysis was performed in Using Prism 6 (GraphPad Software). The two-tailed Studentâs tests were used to determine statistical significance in <xref rid="fig1" ref-type="fig">Figures 1</xref>D, <xref rid="fig3" ref-type="fig">3</xref>D, and 3E; at all other instances, two-way ANOVA was used to determine statistical significance.</p>
+      </sec>
+    </sec>
+    <sec id="sec5">
+      <title>Author Contributions</title>
+      <p>Conceptualization, M.G.-H.; Methodology, M.H. and B.K.F.; Investigation, M.H., B.K.F., D.L., M.Z., K.B., M.Y., and R.B.D.; Resources, P.R.E. and D.K.; Writing â Original Draft, M.G.-H., M.H., and B.K.F.; Writing â Review &amp; Editing, M.G.-H., M.H., B.K.F., P.J.J., D.K., and R.B.D. Funding Acquisition, M.G.-H., B.K.F., P.J.J., and D.K.</p>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="bib1">
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abbott</surname>
+              <given-names>D.W.</given-names>
+            </name>
+            <name>
+              <surname>Wilkins</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Asara</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Cantley</surname>
+              <given-names>L.C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The Crohnâs disease protein, NOD2, requires RIP2 in order to induce ubiquitinylation of a novel site on NEMO</article-title>
+          <source>Curr. Biol.</source>
+          <volume>14</volume>
+          <year>2004</year>
+          <fpage>2217</fpage>
+          <lpage>2227</lpage>
+          <pub-id pub-id-type="pmid">15620648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bauler</surname>
+              <given-names>L.D.</given-names>
+            </name>
+            <name>
+              <surname>Duckett</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>OâRiordan</surname>
+              <given-names>M.X.</given-names>
+            </name>
+          </person-group>
+          <article-title>XIAP regulates cytosol-specific innate immunity to Listeria infection</article-title>
+          <source>PLoS Pathog.</source>
+          <volume>4</volume>
+          <year>2008</year>
+          <fpage>e1000142</fpage>
+          <pub-id pub-id-type="pmid">18769721</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bertrand</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>Doiron</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>LabbÃ©</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Korneluk</surname>
+              <given-names>R.G.</given-names>
+            </name>
+            <name>
+              <surname>Barker</surname>
+              <given-names>P.A.</given-names>
+            </name>
+            <name>
+              <surname>Saleh</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular inhibitors of apoptosis cIAP1 and cIAP2 are required for innate immunity signaling by the pattern recognition receptors NOD1 and NOD2</article-title>
+          <source>Immunity</source>
+          <volume>30</volume>
+          <year>2009</year>
+          <fpage>789</fpage>
+          <lpage>801</lpage>
+          <pub-id pub-id-type="pmid">19464198</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bignell</surname>
+              <given-names>G.R.</given-names>
+            </name>
+            <name>
+              <surname>Warren</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Seal</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Takahashi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rapley</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Barfoot</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Biggs</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Lakhani</surname>
+              <given-names>S.R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of the familial cylindromatosis tumour-suppressor gene</article-title>
+          <source>Nat. Genet.</source>
+          <volume>25</volume>
+          <year>2000</year>
+          <fpage>160</fpage>
+          <lpage>165</lpage>
+          <pub-id pub-id-type="pmid">10835629</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boisson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Laplantine</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Prando</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Giliani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Israelsson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Abhyankar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>IsraÃ«l</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Trevejo-Nunez</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bogunovic</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunodeficiency, autoinflammation and amylopectinosis in humans with inherited HOIL-1 and LUBAC deficiency</article-title>
+          <source>Nat. Immunol.</source>
+          <volume>13</volume>
+          <year>2012</year>
+          <fpage>1178</fpage>
+          <lpage>1186</lpage>
+          <pub-id pub-id-type="pmid">23104095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boisson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Laplantine</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dobbs</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Cobat</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tarantino</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hazen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lidov</surname>
+              <given-names>H.G.</given-names>
+            </name>
+            <name>
+              <surname>Hopkins</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Du</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Belkadi</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human HOIP and LUBAC deficiency underlies autoinflammation, immunodeficiency, amylopectinosis, and lymphangiectasia</article-title>
+          <source>J.Â Exp. Med.</source>
+          <volume>212</volume>
+          <year>2015</year>
+          <fpage>939</fpage>
+          <lpage>951</lpage>
+          <pub-id pub-id-type="pmid">26008899</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brummelkamp</surname>
+              <given-names>T.R.</given-names>
+            </name>
+            <name>
+              <surname>Nijman</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Dirac</surname>
+              <given-names>A.M.</given-names>
+            </name>
+            <name>
+              <surname>Bernards</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of the cylindromatosis tumour suppressor inhibits apoptosis by activating NF-kappaB</article-title>
+          <source>Nature</source>
+          <volume>424</volume>
+          <year>2003</year>
+          <fpage>797</fpage>
+          <lpage>801</lpage>
+          <pub-id pub-id-type="pmid">12917690</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Damgaard</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Nachbur</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Yabal</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>W.W.</given-names>
+            </name>
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Kastirr</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rieser</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rickard</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Bankovacki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Peschel</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ubiquitin ligase XIAP recruits LUBAC for NOD2 signaling in inflammation and innate immunity</article-title>
+          <source>Mol. Cell</source>
+          <volume>46</volume>
+          <year>2012</year>
+          <fpage>746</fpage>
+          <lpage>758</lpage>
+          <pub-id pub-id-type="pmid">22607974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Damgaard</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Speckmann</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Yabal</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>zur Stadt</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Bekker-Jensen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Jost</surname>
+              <given-names>P.J.</given-names>
+            </name>
+            <name>
+              <surname>Ehl</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mailand</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gyrd-Hansen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Disease-causing mutations in the XIAP BIR2 domain impair NOD2-dependent immune signalling</article-title>
+          <source>EMBO Mol. Med.</source>
+          <volume>5</volume>
+          <year>2013</year>
+          <fpage>1278</fpage>
+          <lpage>1295</lpage>
+          <pub-id pub-id-type="pmid">23818254</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deng</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Braun</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>You</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Slaughter</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Pickart</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation of the IkappaB kinase complex by TRAF6 requires a dimeric ubiquitin-conjugating enzyme complex and a unique polyubiquitin chain</article-title>
+          <source>Cell</source>
+          <volume>103</volume>
+          <year>2000</year>
+          <fpage>351</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="pmid">11057907</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Draber</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kupka</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Reichert</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Draberova</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lafont</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>de Miguel</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Spilgies</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Surinova</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Taraborrelli</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Hartwig</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>LUBAC-recruited CYLD and A20 regulate gene activation and cell death by exerting opposing effects on linear ubiquitin in signaling complexes</article-title>
+          <source>Cell Rep.</source>
+          <volume>13</volume>
+          <year>2015</year>
+          <fpage>2258</fpage>
+          <lpage>2272</lpage>
+          <pub-id pub-id-type="pmid">26670046</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Elliott</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Nielsen</surname>
+              <given-names>S.V.</given-names>
+            </name>
+            <name>
+              <surname>Marco-Casanova</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Keusekotten</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mailand</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Gyrd-Hansen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular basis and regulation of OTULIN-LUBAC interaction</article-title>
+          <source>Mol. Cell</source>
+          <volume>54</volume>
+          <year>2014</year>
+          <fpage>335</fpage>
+          <lpage>348</lpage>
+          <pub-id pub-id-type="pmid">24726323</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Emmerich</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Ordureau</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Strickson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Arthur</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Pedrioli</surname>
+              <given-names>P.G.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Activation of the canonical IKK complex by K63/M1-linked hybrid ubiquitin chains</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>110</volume>
+          <year>2013</year>
+          <fpage>15247</fpage>
+          <lpage>15252</lpage>
+          <pub-id pub-id-type="pmid">23986494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Gyrd-Hansen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Met1-linked ubiquitination in immune signalling</article-title>
+          <source>FEBS J.</source>
+          <volume>281</volume>
+          <year>2014</year>
+          <fpage>4337</fpage>
+          <lpage>4350</lpage>
+          <pub-id pub-id-type="pmid">25060092</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Damgaard</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Wagner</surname>
+              <given-names>S.A.</given-names>
+            </name>
+            <name>
+              <surname>Keusekotten</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Fritsch</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Bekker-Jensen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mailand</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Choudhary</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Gyrd-Hansen</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>OTULIN restricts Met1-linked ubiquitination to control innate immune signaling</article-title>
+          <source>Mol. Cell</source>
+          <volume>50</volume>
+          <year>2013</year>
+          <fpage>818</fpage>
+          <lpage>830</lpage>
+          <pub-id pub-id-type="pmid">23806334</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerlach</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cordier</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Schmukle</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Emmerich</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Rieser</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Rickard</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Anderton</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>W.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Linear ubiquitination prevents inflammation and regulates immune signalling</article-title>
+          <source>Nature</source>
+          <volume>471</volume>
+          <year>2011</year>
+          <fpage>591</fpage>
+          <lpage>596</lpage>
+          <pub-id pub-id-type="pmid">21455173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haas</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Emmerich</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Gerlach</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Schmukle</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Cordier</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Rieser</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Feltham</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vince</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Warnken</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Wenger</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recruitment of the linear ubiquitin chain assembly complex stabilizes the TNF-R1 signaling complex and is required for TNF-mediated gene induction</article-title>
+          <source>Mol. Cell</source>
+          <volume>36</volume>
+          <year>2009</year>
+          <fpage>831</fpage>
+          <lpage>844</lpage>
+          <pub-id pub-id-type="pmid">20005846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harhaj</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Dixit</surname>
+              <given-names>V.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of NF-ÎºB by deubiquitinases</article-title>
+          <source>Immunol. Rev.</source>
+          <volume>246</volume>
+          <year>2012</year>
+          <fpage>107</fpage>
+          <lpage>124</lpage>
+          <pub-id pub-id-type="pmid">22435550</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hasegawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fujimoto</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Lucas</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fukase</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>NÃºÃ±ez</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Inohara</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>A critical role of RICK/RIP2 polyubiquitination in Nod-induced NF-kappaB activation</article-title>
+          <source>EMBO J.</source>
+          <volume>27</volume>
+          <year>2008</year>
+          <fpage>373</fpage>
+          <lpage>383</lpage>
+          <pub-id pub-id-type="pmid">18079694</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hospenthal</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Mevissen</surname>
+              <given-names>T.E.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Deubiquitinase-based analysis of ubiquitin chain architecture using Ubiquitin Chain Restriction (UbiCRest)</article-title>
+          <source>Nat. Protoc.</source>
+          <volume>10</volume>
+          <year>2015</year>
+          <fpage>349</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="pmid">25633630</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ikeda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Deribe</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>SkÃ¥nland</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Stieglitz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Grabbe</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Franz-Wachtel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van Wijk</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Goswami</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nagy</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Terzic</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>SHARPIN forms a linear ubiquitin ligase complex regulating NF-ÎºB activity and apoptosis</article-title>
+          <source>Nature</source>
+          <volume>471</volume>
+          <year>2011</year>
+          <fpage>637</fpage>
+          <lpage>641</lpage>
+          <pub-id pub-id-type="pmid">21455181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jiang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of ubiquitylation in immune defence and pathogen evasion</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <volume>12</volume>
+          <year>2012</year>
+          <fpage>35</fpage>
+          <lpage>48</lpage>
+          <pub-id pub-id-type="pmid">22158412</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jono</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Lim</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L.F.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Trompouki</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Pan</surname>
+              <given-names>Z.K.</given-names>
+            </name>
+            <name>
+              <surname>Mosialos</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>J.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>NF-kappaB is essential for induction of CYLD, the negative regulator of NF-kappaB: evidence for a novel inducible autoregulatory feedback pathway</article-title>
+          <source>J.Â Biol. Chem.</source>
+          <volume>279</volume>
+          <year>2004</year>
+          <fpage>36171</fpage>
+          <lpage>36174</lpage>
+          <pub-id pub-id-type="pmid">15226292</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Keusekotten</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Glockner</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Damgaard</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Kulathu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wauer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Hospenthal</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Gyrd-Hansen</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Krappmann</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>OTULIN antagonizes LUBAC signaling by specifically hydrolyzing Met1-linked polyubiquitin</article-title>
+          <source>Cell</source>
+          <volume>153</volume>
+          <year>2013</year>
+          <fpage>1312</fpage>
+          <lpage>1326</lpage>
+          <pub-id pub-id-type="pmid">23746843</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+            <name>
+              <surname>Park</surname>
+              <given-names>J.H.</given-names>
+            </name>
+            <name>
+              <surname>Shaw</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Franchi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Inohara</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>NÃºÃ±ez</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The cytosolic sensors Nod1 and Nod2 are critical for bacterial recognition and host defense after exposure to Toll-like receptor ligands</article-title>
+          <source>Immunity</source>
+          <volume>28</volume>
+          <year>2008</year>
+          <fpage>246</fpage>
+          <lpage>257</lpage>
+          <pub-id pub-id-type="pmid">18261938</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirisako</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kamei</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Murata</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fukumoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kanie</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Iwai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A ubiquitin ligase complex assembles linear polyubiquitin chains</article-title>
+          <source>EMBO J.</source>
+          <volume>25</volume>
+          <year>2006</year>
+          <fpage>4877</fpage>
+          <lpage>4887</lpage>
+          <pub-id pub-id-type="pmid">17006537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Reyes-Turcu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Licchesi</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Odenwaelder</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Barford</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular discrimination of structurally equivalent Lys 63-linked and linear polyubiquitin chains</article-title>
+          <source>EMBO Rep.</source>
+          <volume>10</volume>
+          <year>2009</year>
+          <fpage>466</fpage>
+          <lpage>473</lpage>
+          <pub-id pub-id-type="pmid">19373254</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kovalenko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Chable-Bessia</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Cantarella</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>IsraÃ«l</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Wallach</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Courtois</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The tumour suppressor CYLD negatively regulates NF-kappaB signalling by deubiquitination</article-title>
+          <source>Nature</source>
+          <volume>424</volume>
+          <year>2003</year>
+          <fpage>801</fpage>
+          <lpage>805</lpage>
+          <pub-id pub-id-type="pmid">12917691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>E.G.</given-names>
+            </name>
+            <name>
+              <surname>Boone</surname>
+              <given-names>D.L.</given-names>
+            </name>
+            <name>
+              <surname>Chai</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Libby</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Chien</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Lodolce</surname>
+              <given-names>J.P.</given-names>
+            </name>
+            <name>
+              <surname>Ma</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Failure to regulate TNF-induced NF-kappaB and cell death responses in A20-deficient mice</article-title>
+          <source>Science</source>
+          <volume>289</volume>
+          <year>2000</year>
+          <fpage>2350</fpage>
+          <lpage>2354</lpage>
+          <pub-id pub-id-type="pmid">11009421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Michel</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Swatek</surname>
+              <given-names>K.N.</given-names>
+            </name>
+            <name>
+              <surname>Simicek</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pruneda</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Wagstaff</surname>
+              <given-names>J.L.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assembly and specific recognition of K29- and K33-linked polyubiquitin</article-title>
+          <source>Mol. Cell</source>
+          <volume>58</volume>
+          <year>2015</year>
+          <fpage>95</fpage>
+          <lpage>109</lpage>
+          <pub-id pub-id-type="pmid">25752577</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishanth</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Deckert</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wex</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Massoumi</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Schweitzer</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Naumann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>SchlÃ¼ter</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>CYLD enhances severe listeriosis by impairing IL-6/STAT3-dependent fibrin production</article-title>
+          <source>PLoS Pathog.</source>
+          <volume>9</volume>
+          <year>2013</year>
+          <fpage>e1003455</fpage>
+          <pub-id pub-id-type="pmid">23825949</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ori</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sanjo</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Tartey</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mino</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Akira</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Takeuchi</surname>
+              <given-names>O.</given-names>
+            </name>
+          </person-group>
+          <article-title>Essential roles of K63-linked polyubiquitin-binding proteins TAB2 and TAB3 in B cell activation via MAPKs</article-title>
+          <source>J.Â Immunol.</source>
+          <volume>190</volume>
+          <year>2013</year>
+          <fpage>4037</fpage>
+          <lpage>4045</lpage>
+          <pub-id pub-id-type="pmid">23509369</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Philpott</surname>
+              <given-names>D.J.</given-names>
+            </name>
+            <name>
+              <surname>Sorbara</surname>
+              <given-names>M.T.</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Croitoru</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Girardin</surname>
+              <given-names>S.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>NOD proteins: regulators of inflammation in health and disease</article-title>
+          <source>Nat. Rev. Immunol.</source>
+          <volume>14</volume>
+          <year>2014</year>
+          <fpage>9</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="pmid">24336102</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahighi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ikeda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kawasaki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kensche</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Uejima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bloor</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific recognition of linear ubiquitin chains by NEMO is important for NF-kappaB activation</article-title>
+          <source>Cell</source>
+          <volume>136</volume>
+          <year>2009</year>
+          <fpage>1098</fpage>
+          <lpage>1109</lpage>
+          <pub-id pub-id-type="pmid">19303852</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ritorto</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Ewan</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Perez-Oliva</surname>
+              <given-names>A.B.</given-names>
+            </name>
+            <name>
+              <surname>Knebel</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Buhrlage</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Wightman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Kelly</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Wood</surname>
+              <given-names>N.T.</given-names>
+            </name>
+            <name>
+              <surname>Virdee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Gray</surname>
+              <given-names>N.S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Screening of DUB activity and specificity by MALDI-TOF mass spectrometry</article-title>
+          <source>Nat. Commun.</source>
+          <volume>5</volume>
+          <year>2014</year>
+          <fpage>4763</fpage>
+          <pub-id pub-id-type="pmid">25159004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rivkin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Almeida</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Ceccarelli</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Juang</surname>
+              <given-names>Y.C.</given-names>
+            </name>
+            <name>
+              <surname>MacLean</surname>
+              <given-names>T.A.</given-names>
+            </name>
+            <name>
+              <surname>Srikumar</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Dunham</surname>
+              <given-names>W.H.</given-names>
+            </name>
+            <name>
+              <surname>Fukumura</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>The linear ubiquitin-specific deubiquitinase gumby regulates angiogenesis</article-title>
+          <source>Nature</source>
+          <volume>498</volume>
+          <year>2013</year>
+          <fpage>318</fpage>
+          <lpage>324</lpage>
+          <pub-id pub-id-type="pmid">23708998</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sato</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Goto</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Shibata</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kubota</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yamagata</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Goto-Ito</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kubota</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Takekawa</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Fukai</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structures of CYLD USP with Met1- or Lys63-linked diubiquitin reveal mechanisms for dual specificity</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>22</volume>
+          <year>2015</year>
+          <fpage>222</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="pmid">25686088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schaeffer</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Olma</surname>
+              <given-names>M.H.</given-names>
+            </name>
+            <name>
+              <surname>Gomes</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Kawasaki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Dikic</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Binding of OTULIN to the PUB domain of HOIP controls NF-ÎºB signaling</article-title>
+          <source>Mol. Cell</source>
+          <volume>54</volume>
+          <year>2014</year>
+          <fpage>349</fpage>
+          <lpage>361</lpage>
+          <pub-id pub-id-type="pmid">24726327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sims</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Scavone</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>E.M.</given-names>
+            </name>
+            <name>
+              <surname>Kane</surname>
+              <given-names>L.A.</given-names>
+            </name>
+            <name>
+              <surname>Youle</surname>
+              <given-names>R.J.</given-names>
+            </name>
+            <name>
+              <surname>Boeke</surname>
+              <given-names>J.D.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>R.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polyubiquitin-sensor proteins reveal localization and linkage-type dependence of cellular ubiquitin signaling</article-title>
+          <source>Nat. Methods</source>
+          <volume>9</volume>
+          <year>2012</year>
+          <fpage>303</fpage>
+          <lpage>309</lpage>
+          <pub-id pub-id-type="pmid">22306808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Takiuchi</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Tamiya</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Fujita</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sasaki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Saeki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Takeda</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sawasaki</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Buchberger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kimura</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Suppression of LUBAC-mediated linear ubiquitination by a specific interaction between LUBAC and the deubiquitinases CYLD and OTULIN</article-title>
+          <source>Genes to Cells</source>
+          <volume>19</volume>
+          <year>2014</year>
+          <fpage>254</fpage>
+          <lpage>272</lpage>
+          <pub-id pub-id-type="pmid">24461064</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>L.K.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Michaelson</surname>
+              <given-names>J.S.</given-names>
+            </name>
+            <name>
+              <surname>Degenhardt</surname>
+              <given-names>Y.Y.</given-names>
+            </name>
+            <name>
+              <surname>El-Deiry</surname>
+              <given-names>W.S.</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X.</given-names>
+            </name>
+          </person-group>
+          <article-title>Critical role for Daxx in regulating Mdm2</article-title>
+          <source>Nat. Cell Biol.</source>
+          <volume>8</volume>
+          <year>2006</year>
+          <fpage>855</fpage>
+          <lpage>862</lpage>
+          <pub-id pub-id-type="pmid">16845383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib42">
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tao</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Scacheri</surname>
+              <given-names>P.C.</given-names>
+            </name>
+            <name>
+              <surname>Marinis</surname>
+              <given-names>J.M.</given-names>
+            </name>
+            <name>
+              <surname>Harhaj</surname>
+              <given-names>E.W.</given-names>
+            </name>
+            <name>
+              <surname>Matesic</surname>
+              <given-names>L.E.</given-names>
+            </name>
+            <name>
+              <surname>Abbott</surname>
+              <given-names>D.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>ITCH K63-ubiquitinates the NOD2 binding protein, RIP2, to influence inflammatory signaling pathways</article-title>
+          <source>Curr. Biol.</source>
+          <volume>19</volume>
+          <year>2009</year>
+          <fpage>1255</fpage>
+          <lpage>1263</lpage>
+          <pub-id pub-id-type="pmid">19592251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thorslund</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ripplinger</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Hoffmann</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wild</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Uckelmann</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Villumsen</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Narita</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Sixma</surname>
+              <given-names>T.K.</given-names>
+            </name>
+            <name>
+              <surname>Choudhary</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Bekker-Jensen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Mailand</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Histone H1 couples initiation and amplification of ubiquitin signalling after DNA damage</article-title>
+          <source>Nature</source>
+          <volume>527</volume>
+          <year>2015</year>
+          <fpage>389</fpage>
+          <lpage>393</lpage>
+          <pub-id pub-id-type="pmid">26503038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakahara</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saeki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakata</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Iwai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>SHARPIN is a component of the NF-ÎºB-activating linear ubiquitin chain assembly complex</article-title>
+          <source>Nature</source>
+          <volume>471</volume>
+          <year>2011</year>
+          <fpage>633</fpage>
+          <lpage>636</lpage>
+          <pub-id pub-id-type="pmid">21455180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <element-citation publication-type="journal" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Trompouki</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Hatzivassiliou</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Tsichritzis</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Farmer</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Ashworth</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mosialos</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>CYLD is a deubiquitinating enzyme that negatively regulates NF-kappaB activation by TNFR family members</article-title>
+          <source>Nature</source>
+          <volume>424</volume>
+          <year>2003</year>
+          <fpage>793</fpage>
+          <lpage>796</lpage>
+          <pub-id pub-id-type="pmid">12917689</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Wijk</surname>
+              <given-names>S.J.</given-names>
+            </name>
+            <name>
+              <surname>Fiskin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Putyrski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pampaloni</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wild</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kensche</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Grecco</surname>
+              <given-names>H.E.</given-names>
+            </name>
+            <name>
+              <surname>Bastiaens</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dikic</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorescence-based sensors to monitor localization and functions of linear and K63-linked ubiquitin chains in cells</article-title>
+          <source>Mol. Cell</source>
+          <volume>47</volume>
+          <year>2012</year>
+          <fpage>797</fpage>
+          <lpage>809</lpage>
+          <pub-id pub-id-type="pmid">22819327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <element-citation publication-type="journal" id="sref47">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warner</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Burberry</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Franchi</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>Y.G.</given-names>
+            </name>
+            <name>
+              <surname>McDonald</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sartor</surname>
+              <given-names>M.A.</given-names>
+            </name>
+            <name>
+              <surname>NÃºÃ±ez</surname>
+              <given-names>G.</given-names>
+            </name>
+          </person-group>
+          <article-title>A genome-wide siRNA screen reveals positive and negative regulators of the NOD2 and NF-ÎºB signaling pathways</article-title>
+          <source>Sci. Signal.</source>
+          <volume>6</volume>
+          <year>2013</year>
+          <fpage>rs3</fpage>
+          <pub-id pub-id-type="pmid">23322906</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <element-citation publication-type="journal" id="sref48">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watanabe</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Asano</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Meng</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Yamashita</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Arai</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Sakurai</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kudo</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fuss</surname>
+              <given-names>I.J.</given-names>
+            </name>
+            <name>
+              <surname>Kitani</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Shimosegawa</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>NOD2 downregulates colonic inflammation by IRF4-mediated inhibition of K63-linked polyubiquitination of RICK and TRAF6</article-title>
+          <source>Mucosal Immunol.</source>
+          <volume>7</volume>
+          <year>2014</year>
+          <fpage>1312</fpage>
+          <lpage>1325</lpage>
+          <pub-id pub-id-type="pmid">24670424</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <element-citation publication-type="journal" id="sref49">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wertz</surname>
+              <given-names>I.E.</given-names>
+            </name>
+            <name>
+              <surname>OâRourke</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Eby</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Aravind</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Seshagiri</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wiesmann</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Baker</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Boone</surname>
+              <given-names>D.L.</given-names>
+            </name>
+          </person-group>
+          <article-title>De-ubiquitination and ubiquitin ligase domains of A20 downregulate NF-kappaB signalling</article-title>
+          <source>Nature</source>
+          <volume>430</volume>
+          <year>2004</year>
+          <fpage>694</fpage>
+          <lpage>699</lpage>
+          <pub-id pub-id-type="pmid">15258597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <element-citation publication-type="journal" id="sref50">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Skaug</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A ubiquitin replacement strategy in human cells reveals distinct mechanisms of IKK activation by TNFalpha and IL-1beta</article-title>
+          <source>Mol. Cell</source>
+          <volume>36</volume>
+          <year>2009</year>
+          <fpage>302</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">19854138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib51">
+        <element-citation publication-type="journal" id="sref51">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Humphries</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Healy</surname>
+              <given-names>M.E.</given-names>
+            </name>
+            <name>
+              <surname>Bergin</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Aviello</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Hall</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>McNamara</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Darby</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Pellino3 ubiquitinates RIP2 and mediates Nod2-induced signaling and protective effects in colitis</article-title>
+          <source>Nat. Immunol.</source>
+          <volume>14</volume>
+          <year>2013</year>
+          <fpage>927</fpage>
+          <lpage>936</lpage>
+          <pub-id pub-id-type="pmid">23892723</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app2" sec-type="supplementary-material">
+      <title>Supplemental Information</title>
+      <p>
+        <supplementary-material content-type="local-data" id="mmc1">
+          <caption>
+            <title>Document S1. Supplemental Experimental Procedures and Figures S1âS7</title>
+          </caption>
+          <media xlink:href="mmc1.pdf"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="mmc2">
+          <caption>
+            <title>Document S2. Article plus Supplemental Information</title>
+          </caption>
+          <media xlink:href="mmc2.pdf"/>
+        </supplementary-material>
+      </p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p>This work was supported by the Ludwig Institute for Cancer Research. M.G.-H. is supported by a Wellcome Trust Fellowship (102894/Z/13/Z), a Sapere Aude: Danish Council for independent Research Starting Grant, and the Lundbeck Foundation. B.K.F. is supported by a Carlsberg travel stipend. P.J.J. is supported by a Max Eder-Program grant from the Deutsche Krebshilfe (program no. 111738), a Human Frontiers Science Program grant (program no. RGY0073/2012), and a research grant from the Deutsche Forschungsgemeinschaft (FOR2036). P.J.J. and M.Y. are supported by an Else KrÃ¶ner-Fresenius-Stiftung grant 2014_A185. Work in the D.K. lab is supported by the Medical Research Council (U105192732), the European Research Council (309756), and the Lister Institute for Preventive Medicine. M.G.-H. and D.K. are supported by the EMBO Young Investigator Programme. We thank Jonathan Pruneda for help with UbiCRest reagents, Niels Mailand and Tina Thorslund for plasmids, Tetralogic Pharmaceuticals for compound A, and members of the group for helpful suggestions and reading the manuscript.</p>
+    </ack>
+    <fn-group>
+      <fn id="d32e237">
+        <p id="ccnp0005">This is an open access article under the CC BY license (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/" id="ccintref0005">http://creativecommons.org/licenses/by/4.0/</ext-link>).</p>
+      </fn>
+      <fn id="app1" fn-type="supplementary-material">
+        <p>Supplemental Information includes Supplemental Experimental Procedures and seven figures and can be found with this article online at <ext-link ext-link-type="doi" xlink:href="10.1016/j.celrep.2016.02.062" id="intref0010">http://dx.doi.org/10.1016/j.celrep.2016.02.062</ext-link>.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>FigureÂ 1</label>
+      <caption>
+        <p>CYLD Antagonizes LUBAC Function but Does Not Affect HOIP Ubiquitination</p>
+        <p>(A) Immunoprecipitation of endogenous SHARPIN from control (MM) and HOIP-depleted U2OS/NOD2 cells. Lysates and immunoprecipitated material were examined by immunoblotting.</p>
+        <p>(B) Immunoprecipitation of exogenous FLAG-tagged CYLD. Lysates and immunoprecipitated material were examined for copurification of HOIP.</p>
+        <p>(C) Immunoprecipitation of exogenous V5-tagged HOIP<sup>WT</sup>, HOIP<sup>PUB+NZF</sup>, and HOIP<sup>N102D</sup> expressed in HEK293FT cells. Immunoprecipitated material was examined for copurification of OTULIN and CYLD.</p>
+        <p>(D) NF-ÎºB activity in HEK293FT cell lysates transfected with dual luciferase reporters, co-expressed with vector LUBAC (HOIL-1/HOIP), OTULIN, or CYLD variants as indicated. Luciferase activity is shown relative to the activity in LUBAC-transfected cells.</p>
+        <p>(E) Purification of endogenous Ub conjugates using UBA<sup>Ubq</sup>, M1-SUB, or K63-SUB in U2OS/NOD2 cell lysates stably depleted for CYLD or OTULIN and treated with L18-MDP (200Â ng/ml; 1Â hr) or TNF (10Â ng/ml; 10Â min). Purified material and lysates were examined by immunoblotting.</p>
+        <p>(F and G) Purification of endogenous Ub conjugates in THP1 cells (F) or HCT-116 cells (G) stably depleted for CYLD or OTULIN and treated with L18-MDP (200Â ng/ml; 1Â hr) or TNF (10Â ng/ml; 10Â min). Purified material and lysates were examined by immunoblotting.</p>
+        <p>(H) Purification of endogenous Ub conjugates in HEK293FT cell lysates transfected with OTULIN or CYLD variants co-expressed with LUBAC as indicated. Purified material and lysates were examined by immunoblotting.</p>
+        <p>Data in (D) represent the mean Â± SEM of at least three independent experiments, each performed in duplicate. <sup>ââ</sup>pÂ &lt; 0.01. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S1</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr1"/>
+    </fig>
+    <fig id="fig2">
+      <label>FigureÂ 2</label>
+      <caption>
+        <p>CYLD Restricts NOD2 Signaling and Cytokine Production</p>
+        <p>(A) Relative levels of <italic>TNF</italic> and <italic>CXCL8</italic> transcripts from U2OS/NOD2 control (siMM) and CYLD-depleted (siCYLD) cells treated with L18-MDP (200Â ng/ml; 3Â hr) normalized to untreated siMM.</p>
+        <p>(B) Intracellular flow cytometry analysis of IL-8 in shRNA control (shMM) U2OS/NOD2 cells or cells stably depleted for OTULIN (shOTLN) or CYLD (shCYLD) in response to L18-MDP (200Â ng/ml; 4Â hr) or TNF (10Â ng/ml; 4Â hr).</p>
+        <p>(C) WT and <italic>Cyld</italic><sup><italic>â/â</italic></sup> BMDCs were stimulated with MDP (10Â Î¼g/ml; 24Â hr), and secreted cytokines were measured in culture supernatants.</p>
+        <p>(D) Intracellular flow cytometry analysis of IL-8 in U2OS/NOD2 cells depleted for OTULIN (siOTLN) and CYLD (siCYLD) or control (siMM) using siRNA oligos in response to L18-MDP (200Â ng/ml; 4Â hr).</p>
+        <p>(E) Immunoblot of HOIP levels in control HCT-116 cells and in CRISPR/Cas9 HOIP KO cells.</p>
+        <p>(F) Relative levels of <italic>CXCL8</italic> transcripts from HCT-116 WT and HOIP KO cells treated with L18-MDP (200Â ng/ml) and TNF (10Â ng/ml) for the indicated times and normalized to untreated control cells. Data are shown on a two-segmented y axis.</p>
+        <p>Data in (A), (B), (D), and (F) represent the mean Â± SEM of at least three independent experiments, each performed in duplicate. <sup>ââ</sup>pÂ &lt; 0.01; <italic>n.s</italic>. not significant. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S2</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr2"/>
+    </fig>
+    <fig id="fig3">
+      <label>FigureÂ 3</label>
+      <caption>
+        <p>CYLD Catalytic Activity Inhibits the NOD2 Pathway Upstream of Nuclear Translocation of NF-ÎºB</p>
+        <p>(A) Immunofluorescence analysis of nuclear translocation of the NF-ÎºB subunit RelA/p65 (red) in response to L18-MDP (1Â Î¼g/ml; 1Â hr) in U2OS/NOD2 cells transfected with FLAG-CYLD variants and stained with anti-FLAG (green; scale bar, 10Â Î¼m).</p>
+        <p>(B) Quantification of cells with nuclear RelA treated as in (A).</p>
+        <p>(C) Intracellular flow cytometry analysis of IL-8 in U2OS/NOD2 cells transfected with FLAG-CYLD variants in response to L18-MDP (200Â ng/ml; 4Â hr). Cells were cotransfected with a GFP vector (ratio 1:10) as a marker of transfection.</p>
+        <p>(D) NF-ÎºB activity in HEK293FT cell lysates transfected with dual luciferase reporters, XIAP, CYLD, and OTULIN as indicated. Values are expressed relative to XIAP transfection.</p>
+        <p>(E) NF-ÎºB activity in HEK293T cell lysates transfected with luciferase reporters, vector, or XIAP and depleted for Ubc13 using two different siRNAs. Values are expressed relative to XIAP transfection.</p>
+        <p>Data in (B)â(E) represent the mean Â± SEM of at least three independent experiments, each performed in duplicate. <sup>ââ</sup>pÂ &lt; 0.01; <sup>â</sup>pÂ &lt; 0.05. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S3</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr3"/>
+    </fig>
+    <fig id="fig4">
+      <label>FigureÂ 4</label>
+      <caption>
+        <p>CYLD Limits Extension of Ub Chains on RIPK Proteins</p>
+        <p>(A) Purification of Ub conjugates from U2OS/NOD2 cells at indicated time points after treatment with L18-MDP (200Â ng/ml). Purified material was examined for ubiquitinated RIPK2 by immunoblotting.</p>
+        <p>(B) Purification of Ub conjugates from control or OTULIN- or CYLD-depleted U2OS/NOD2 cells treated with L18-MDP (200Â ng/ml; 1Â hr). Purified material and lysate were examined by immunoblotting.</p>
+        <p>(C and D) Relative mRNA (C) and protein (D) levels of <italic>CYLD</italic>, <italic>OTULIN</italic>, and <italic>TNFAIP3</italic> (<italic>A20</italic>) upon L18-MDP stimulation (200Â ng/ml) of U2OS/NOD2 cells at the time points indicated. Asterisk denotes unspecific band detected by the antibody.</p>
+        <p>(E) Purification of Ub conjugates from U2OS/NOD2 cells treated with TNF (10Â ng/ml; 10Â min). Purified material and lysate were examined for RIPK1 by immunoblotting.</p>
+        <p>(F) Purification of TNFR-SC from U2OS/NOD2 cells stimulated with FLAG-TNF using anti-FLAG agarose and analyzed by immunoblotting.</p>
+        <p>(G) Immunoprecipitation of HA-NOD2 from U2OS/NOD2 cells. HA-NOD2 expression was induced with DOX (2Â Î¼g/ml) for 24Â hr. Immunoprecipitates were examined for co-purification of CYLD and other members of the NOD2 receptor complex.</p>
+        <p>Data in (C) represent the mean Â± SEM of at least three independent experiments, each performed in duplicate. <sup>ââ</sup>pÂ &lt; 0.01. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S4</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr4"/>
+    </fig>
+    <fig id="fig5">
+      <label>FigureÂ 5</label>
+      <caption>
+        <p>Inhibition of IAPs Reveals Extensive Regulation of RIPK2Â Ubiquitination by CYLD and OTULIN</p>
+        <p>(A and B) Purification of endogenous Ub conjugates from U2OS/NOD2 cells depleted for CYLD or OTULIN by siRNA. Cells were pre-treated with DMSO (control) or with 1Â Î¼M compound A (CpA) for 30Â min before stimulation with (A) L18-MDP (200Â ng/ml; 1Â hr) or (B) TNF (10Â ng/ml; 10Â min).</p>
+        <p>(C and D) Intracellular flow cytometry analysis of IL-8 in control (MM) U2OS/NOD2 cells or cells depleted for CYLD or OTULIN by siRNA pre-treated with 1Â Î¼M CpA for 30Â min before stimulation with (C) L18-MDP (200Â ng/ml; 4Â hr) or (D) combination of phorbol myristate acetate (PMA) (50Â ng/ml) and ionomycin (500Â Î¼M) for 4Â hr. Data in (C) and (D) represent the mean Â± SEM of at least three independent experiments, each performed in duplicate. <sup>ââ</sup>pÂ &lt; 0.01.</p>
+        <p>See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S5</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr5"/>
+    </fig>
+    <fig id="fig6">
+      <label>FigureÂ 6</label>
+      <caption>
+        <p>CYLD Trims Lys63- and Met1-Ub on RIPK2</p>
+        <p>(A) UbiCRest analysis of ubiquitinated RIPK2 isolated with M1-SUB from L18-MDP-treated (200Â ng/ml; 1Â hr) control (siMM) or CYLD-depleted (siCYLD) U2OS/NOD2 cells. Purified Ub conjugates were incubated with the indicated DUBs for 1Â hr, and samples were examined by immunoblotting.</p>
+        <p>(B) As in (A) except ubiquitinated RIPK2 was isolated with GST-UBA<sup>Ubq</sup> followed by incubation with the indicated DUBs for 15Â min and cells were stably depleted for CYLD (shCYLD) or control (shMM). Black dashed line separates two scans of the same membrane but with slightly different exposure.</p>
+        <p>(C) As in (B) except that Ub conjugates were purified from THP-1 cells and incubated for 1Â hr.</p>
+        <p>See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S6</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr6"/>
+    </fig>
+    <fig id="fig7">
+      <label>FigureÂ 7</label>
+      <caption>
+        <p>Lys63-Ub and Met1-Ub Are Individually Indispensable for NOD2 Signaling</p>
+        <p>(A) Schematic representation of the GFP-tagged Ub-binding constructs used for transient expression in cells (GFP-M1-SUB: UBAN domain from NEMO; GFP-K63-SUB: three UIMs from RAP80 in tandem).</p>
+        <p>(B) Immunofluorescence analysis of nuclear translocation of RelA (red) in response to L18-MDP stimulation (1Â Î¼g/ml; 1Â hr) or no treatment (NT) in U2OS/NOD2 cells transfected with GFP, GFP-K63-SUB, or GFP-M1-SUB (green) for 24Â hr. The scale bar represents 10Â Î¼m.</p>
+        <p>(C) Quantification of (B).</p>
+        <p>(D) Intracellular flow cytometry analysis of IL-8 in U2OS/NOD2 cells transfected as indicated for 48Â hr before L18-MDP stimulation (200Â ng/ml; 4Â hr).</p>
+        <p>(E) Gating of cells in (D) based on GFP levels (relative fluorescence units [RFUs]). RFU values on x axis indicate the maximal RFU in each gate with the previous value defining the lower limit, except of the âzeroâ RFU population, which includes cells with values up to 100 RFUs.</p>
+        <p>(F) As in (D) except that GFP, GFP-K63-SUB, or GFP-M1-SUB contains a nuclear localization signal (NLS).</p>
+        <p>(G) Intracellular flow cytometry analysis of IL-8 in control (MM) U2OS/NOD2 cells or cells stably depleted for CYLD or OTULIN; depleted for HOIP, Ubc13, or both by siRNA as indicated; and treated with L18-MDP (200Â ng/ml; 4Â hr) or not treated (NT).</p>
+        <p>Data in (C)â(G) represent the mean Â± SEM of at least three independent experiments, each performed in duplicate. <sup>ââ</sup>pÂ &lt; 0.01. See also <xref rid="mmc1" ref-type="supplementary-material">FigureÂ S7</xref>.</p>
+      </caption>
+      <graphic xlink:href="gr7"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

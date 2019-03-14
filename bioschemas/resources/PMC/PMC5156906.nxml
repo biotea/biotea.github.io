@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:03:17Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5156906" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:5156906</identifier><datestamp>2016-12-20</datestamp><setSpec>scirep</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Sci Rep</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Sci Rep</journal-id>
+      <journal-title-group>
+        <journal-title>Scientific Reports</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2045-2322</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC5156906</article-id>
+      <article-id pub-id-type="pmcid">PMC5156906</article-id>
+      <article-id pub-id-type="pmc-uid">5156906</article-id>
+      <article-id pub-id-type="pmid">27974827</article-id>
+      <article-id pub-id-type="pii">srep38920</article-id>
+      <article-id pub-id-type="doi">10.1038/srep38920</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Investigating the human Calcineurin Interaction Network using the ÏÉ¸LxVP SLiM</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sheftic</surname>
+            <given-names>Sarah R.</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Page</surname>
+            <given-names>Rebecca</given-names>
+          </name>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Peti</surname>
+            <given-names>Wolfgang</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1">a</xref>
+          <xref ref-type="aff" rid="a1">1</xref>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <aff id="a1"><label>1</label><institution>Department of Molecular Pharmacology, Physiology and Biotechnology, Brown University</institution>, Providence, RI, 02912, <country>USA</country></aff>
+        <aff id="a2"><label>2</label><institution>Department of Molecular Biology, Cell Biology and Biochemistry, Brown University</institution>, Providence, RI, 02912, <country>USA</country></aff>
+        <aff id="a3"><label>3</label><institution>Department of Chemistry, Brown University</institution>, Providence, RI, 02912, <country>USA</country>.</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1">
+          <label>a</label>
+          <email>wolfgang_peti@brown.edu</email>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>12</month>
+        <year>2016</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2016</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>38920</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>08</month>
+          <year>2016</year>
+        </date>
+        <date date-type="accepted">
+          <day>15</day>
+          <month>11</month>
+          <year>2016</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â© 2016, The Author(s)</copyright-statement>
+        <copyright-year>2016</copyright-year>
+        <copyright-holder>The Author(s)</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the articleâs Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Ser/thr phosphorylation is the primary reversible covalent modification of proteins in eukaryotes. As a consequence, it is the reciprocal actions of kinases and phosphatases that act as key molecular switches to fine tune cellular events. It has been well documented that ~400 human ser/thr kinases engage substrates via consensus phosphosite sequences. Strikingly, we know comparatively little about the mechanism by which ~40 human protein ser/thr phosphatases (PSPs) dephosphorylate ~15000 different substrates with high specificity. The identification of substrates of the essential PSP calcineurin (CN) has been exceptionally challenging and only a small fraction has been biochemically confirmed. It is now emerging that CN binds regulators and substrates via two <underline>s</underline>hort <underline>li</underline>near <underline>m</underline>otifs (SLiMs), the well-studied PxIxIT SLiM and the LxVP SLiM, which remains controversial at the molecular level. Here we describe the crystal structure of CN in complex with its substrate NFATc1 and show that the LxVP SLiM is correctly defined as ÏÉ¸LxVP. Bioinformatics studies using the ÏÉ¸LxVP SLiM resulted in the identification of 567 potential CN substrates; a small subset was experimentally confirmed. This combined structural-bioinformatics approach provides a powerful method for dissecting the CN interaction network and for elucidating the role of CN in human health and disease.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>One of the primary cellular signaling mechanisms used to transmit information is phosphorylation, with â¥98% of all known phosphorylation events occurring on serine and threonine residues (ser, thr). As such, it is the opposing activities of more than 428 ser/thr kinases and only ~40 ser/thr phosphatases (PSPs; see <xref ref-type="supplementary-material" rid="S1">Table S1</xref> for abbreviations) that ensures signaling pathway fidelity. While ser/thr kinases recognize their substrates using specific phosphosite consensus sequences, PSPs act on phosphosites that share little or no sequence similarity making the identification of substrates using sequence alone challenging<xref ref-type="bibr" rid="b1">1</xref>. As a result, our understanding of the role of PSPs in systems wide investigations has been severely limited.</p>
+    <p>Calcineurin (CN; Protein Phosphatase 2B or 3) is a ubiquitously expressed Ca<sup>2+</sup>/calmodulin activated PSP<xref ref-type="bibr" rid="b2">2</xref>. It is composed of a catalytic CNA subunit, which includes a calmodulin-binding and an auto-inhibitory domain, constitutively bound to a regulatory CNB subunit that binds 4 Ca<sup>2+</sup> ions<xref ref-type="bibr" rid="b2">2</xref>. Increases in the cytoplasmic levels of Ca<sup>2+</sup> activate CN, which then catalyzes the dephosphorylation of a plethora of substrates critical for a diverse set of biological processes including development, learning and memory<xref ref-type="bibr" rid="b3">3</xref>. However, in spite of its established role in these processes, thus far only ~50 CN substrates have been experimentally confirmed; this likely represents only a small fraction of the actual CN interaction network based on its cellular distribution and abundance<xref ref-type="bibr" rid="b4">4</xref>. Clearly, new approaches for identifying CN substrates are needed.</p>
+    <p>One process in which CN plays a critical role is in the activation of T-cells<xref ref-type="bibr" rid="b5">5</xref>. CN activation results in the dephosphorylation of the NFAT family of transcription factors (<underline>N</underline>uclear <underline>F</underline>actor of <underline>A</underline>ctivated <underline>T</underline>-cell; NFATsc1-c4), resulting in their import into the nucleus and the induction of genes that activate T-cells<xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref>. A molecular understanding of how CN dephosphorylates its target substrates with high specificity in both space and time is only now beginning to emerge.</p>
+    <p>The efficient dephosphorylation of NFATs and other substrates by CN is not mediated by its recognition of specific phosphosite consensus sequences<xref ref-type="bibr" rid="b8">8</xref><xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b10">10</xref>. Rather, recent studies have shown that the NFATs bind directly to CN using two distinct <underline>s</underline>hort <underline>li</underline>near <underline>m</underline>otifs (SLiMs), the âPxIxITâ and the âLxVPâ motifs. These motifs were originally defined based on their conservation within the NFAT family (<xref ref-type="fig" rid="f1">Fig. 1A</xref>) and function to tether CN near the NFAT phosphosites, which, in some cases, can be dozens of residues away from the SLiM sequences themselves<xref ref-type="bibr" rid="b9">9</xref><xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref>. The mechanism by which PxIxIT motifs bind CN is well established (PxIxIT residues bind an extended hydrophobic pocket present on the catalytic CNA subunit) and has led to a precise definition of this SLiM<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b15">15</xref>. In contrast, a detailed understanding of how LxVP motifs engage CN is just developing. The first crystal structure of a CN-LxVP complex revealed that LxVP motifs bind CN using a second hydrophobic pocket that is ~30âÃ from the PxIxIT binding site and is located at the CNA/B dimer interface<xref ref-type="bibr" rid="b13">13</xref>. Unexpectedly, the structure also revealed that this binding pocket is identical to that of the well-known immunosuppressants cyclosporin A and FK-506. Thus, in addition to providing a molecular explanation of how immunosuppressants prevent NFAT dephosphorylation (they block LxVP containing substrates from binding CN), this observation also provides the proof-of-principle that drugs and small molecules that bind directly to SLiM interaction pockets, such as the LxVP binding pocket, are potent, specific inhibitors of PSPs.</p>
+    <p>A molecular description of how multiple distinct PxIxIT and LxVP SLiMs bind CN will also lead to a comprehensive definition of these SLiM sequences, which can then be used to identify novel CN substrates based on sequence alone, something that thus far has been unachievable due to the lack of conservation of CN phosphosites<xref ref-type="bibr" rid="b10">10</xref>. The identification of these novel interactors will then lead to the discovery of new processes that are regulated by CN and, as a consequence, greatly expand CN protein interaction networks. While this approach has been successful for the PxIxIT SLiM in yeast<xref ref-type="bibr" rid="b16">16</xref>, a lack of structural data has not allowed the LxVP SLiM to be defined to an accuracy suitable for such a genome wide analysis. Furthermore, the location of the LxVP binding pocket for LxVP-containing substrates (versus inhibitors) is still not fully resolved. Namely, while multiple studies suggest that LxVP-containing substrates and inhibitors bind the same pocket at the CNA/B interface, a study using only the CNA subunit suggested that LxVP-containing substrates may also bind near the PxIxIT binding pocket<xref ref-type="bibr" rid="b17">17</xref>. Both issues have hampered the identification of novel CN substrates. Here, we combine structural biology and biochemistry to establish a structure-based definition of the LxVP SLiM and molecularly describe how LxVP-containing substrates bind CN. We then leverage this information with bioinformatics to obtain genome wide insights into CN function and tested our predictions on a small subset of targets experimentally. This analysis resulted in the identification of nearly 600 novel potential CN substrates and significantly expands the potential physiological roles of CN in both health and disease.</p>
+    <sec disp-level="1">
+      <title>Results</title>
+      <sec disp-level="2">
+        <title>The NFATc1 LxVP SLiM is <sup>384</sup>DQY<underline>LAVP</underline>
+<sup>390</sup></title>
+        <p>To determine how LxVP-containing substrates bind CN, we determined the 2.6âÃ crystal structure of the CN:NFATc1<sub>LxVP</sub> complex (CNA-CNB-NFATc1<sub>LxVP;</sub>
+<sup>383</sup>DDQY<underline>LAVP</underline>QHPYQWAKPK<sup>400</sup>) (<xref ref-type="fig" rid="f1">Fig. 1B</xref>; <xref ref-type="supplementary-material" rid="S1">Table S2</xref>). Electron density was present for NFATc1<sub>LxVP</sub> SLiM residues <sup>384</sup>DQY<underline>LAVP</underline><sup>390</sup> (<xref ref-type="fig" rid="f1">Fig. 1B</xref>, S2A). The absence of electron density for NFATc1<sub>LxVP</sub> residues 391â400 suggests that these residues remain flexible upon complex formation. To verify that only NFATc1<sub>LxVP</sub> SLiM residues <sup>384</sup>DQY<underline>LAVP</underline><sup>390</sup> are required for CN binding, we used isothermal titration calorimetry (ITC). Both peptides (<sup>383</sup>DDQYLAVPQHPYQWAKPK<sup>400</sup> and <sup>383</sup>DDQYLAVPQH<sup>392</sup>) bind CN with statistically identical K<sub>D</sub>âs, 1.8âÂ±â0.1 and 1.6âÂ±â0.3âÎ¼M, respectively (<xref ref-type="supplementary-material" rid="S1">Fig. S1</xref>; <xref ref-type="supplementary-material" rid="S1">Table S3</xref>). These K<sub>D</sub>s are similar to those reported for other LxVP motifs<xref ref-type="bibr" rid="b13">13</xref> and confirms that the residues visible in the CN:LxVP<sub>NFATc1</sub> crystal structure define the NFATc1 LxVP sequence that is necessary and sufficient for CN binding.</p>
+        <p>The NFATc1<sub>LxVP</sub> SLiM, which buries ~950âÃ<sup>2</sup> of solvent accessible surface area, binds CN in an extended conformation to an expansive hydrophobic pocket located at the CNA/B interface (<xref ref-type="fig" rid="f1">Fig. 1B</xref>). This is the same pocket occupied by LxVP-containing inhibitors<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b18">18</xref>. As expected, the NFATc1 residues that interact most extensively with CN are Leu387<sub>NFATc1</sub> and Val389<sub>NFATc1</sub>. Leu387<sub>NFATc1</sub> binds into a deep hydrophobic pocket formed by CN residues Trp352<sub>CNA</sub>, Phe356<sub>CNA</sub> and Val119<sub>CNB</sub> while Val389<sub>NFATc1</sub> is anchored by a comparatively shallower hydrophobic pocket formed by Trp352<sub>CNA</sub>, Pro344<sub>CNA</sub>, Leu343<sub>CNA</sub>, Try341<sub>CNA</sub> and Leu123<sub>CNB</sub> (<xref ref-type="fig" rid="f1">Fig. 1C</xref>, S2B). The canonical âPâ in the LxVP sequence, Pro390<sub>NFATc1</sub>, binds a third shallow hydrophobic pocket defined by residues Trp352<sub>CNA</sub>, Pro344<sub>CNA</sub> and Leu343<sub>CNA</sub> (<xref ref-type="fig" rid="f1">Fig. 1C</xref>, S2B). While the backbone of Ala388<sub>NFATc1</sub>, the âxâ in the LxVP sequence, forms a hydrogen bond with the sidechain of Trp352<sub>CNA</sub>, its side chain makes no interactions with CN. This explains the lack of a specific amino acid requirement in this position.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>The PxIxIT and LxVP SLiM binding sites do not overlap</title>
+        <p>Our structure shows that all known LxVP-containing CN interacting proteins (substrates, regulators, inhibitors) bind the same hydrophobic pocket on CN (<xref ref-type="fig" rid="f1">Fig. 1C</xref>). This contrasts with a recent study which suggested that the NFATc1 peptide <sup>383</sup>DDQY<underline>LAVP</underline>QHPYQWAKPK<sup>400</sup> binds the CN PxIxIT, and not LxVP, binding pocket<xref ref-type="bibr" rid="b17">17</xref>. This raised the intriguing possibility that this SLiM sequence might bind to multiple, distinct pockets on a single enzyme, something that was previously thought impossible. To test this, we used ITC. Our data shows that the NFATc1<sub>LxVP</sub>
+<sup>383</sup>DDQYLAVPQHPYQWAKPK<sup>400</sup> peptide binds weakly to CNA<sub>1â348</sub> (~2-fold more weakly than to CNA/B). However, the core NFATc1<sub>LxVP</sub> peptide, <sup>383</sup>DDQYLAVPQH<sup>392</sup>, which binds CNA/B with the same affinity as the longer peptide, fails to bind CNA (<xref ref-type="supplementary-material" rid="S1">Fig. S1</xref>, <xref ref-type="supplementary-material" rid="S1">Table S3</xref>). This demonstrates that the weak interaction observed between NFATc1<sub>LxVP</sub>
+<sup>383</sup>DDQYLAVPQHPYQWAKPK<sup>400</sup> and CNA is not due to an interaction with its LxVP sequence, but instead is due to non-specific interactions with <sup>393</sup>PYQWAKPK<sup>400</sup>, the residues that are C-terminal to the LxVP motif. This confirms that the LxVP motif in NFATc1 binds, as our structure demonstrates, only the LxVP binding pocket.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Defining the LxVP SLiM: ÏÉ¸LxVP</title>
+        <p>NFATc1-c4 LxVP sequences, which are highly but not perfectly conserved, bind CN with distinct affinities<xref ref-type="bibr" rid="b19">19</xref>. Previous reports suggested that these differences were due to the variable number of residues between the LxVP motif and a second conserved sequence known as the WxK motif (<xref ref-type="fig" rid="f1">Fig. 1A</xref>; this motif, which is just C-terminal to the LxVP motif, was previously hypothesized to bind directly to CN)<xref ref-type="bibr" rid="b19">19</xref>. Our structure and ITC data show that while the NFATc1 LxVP motif (<sup>387</sup>LAVP<sup>390</sup>) binds directly to CNA/B, the NFATc1 WxK motif (<sup>396</sup>WAK<sup>398</sup>) does not. This result is fully consistent with a previous NMR study which showed that no chemical shift perturbations are observed for Trp396<sub>NFATc1</sub> in the presence of CNA/B<xref ref-type="bibr" rid="b9">9</xref>.</p>
+        <p>Thus, these data suggest that the binding affinity differences between the NFATs for CN originate from residues N-terminal to and/or including the LxVP motif. The residues immediately preceding the NFATc1-c4 LxVP motifs are similar, but not identical. First, the residues immediately N-terminal to the âLâ of the LxVP motif are always hydrophobic (i.e., Tyr386 in NFATc1, Ile387 in NFATc2; <xref ref-type="fig" rid="f1">Fig. 1A</xref>). This suggests they may bind CN using a similar mechanism. Comparing the CN:NFATc1<sub>LxVP</sub> complex with CN:A238L shows that Tyr386<sub>NFATc1</sub> overlaps perfectly with Phe288<sub>A238L</sub> (<xref ref-type="fig" rid="f1">Fig. 1C</xref>). This structural conservation confirms, as previously suggested, that the LxVP motif is more accurately defined as É¸LxVP, where É¸ represents a hydrophobic residue<xref ref-type="bibr" rid="b19">19</xref><xref ref-type="bibr" rid="b13">13</xref>.</p>
+        <p>Second, Tyr386<sub>NFATc1</sub> (É¸ residue) is part of a newly identified 3-residue hydrogen bond network (<xref ref-type="fig" rid="f1">Fig. 1D</xref>) between the É¸LxVP peptide and CNB. The network is centered on the sidechain of Gln385<sub>NFATc1</sub>, which forms hydrogen bonds with both Tyr386<sub>NFATc1</sub> and Gln50<sub>CNB</sub>. To date, 10 LxVP motifs in CN interacting proteins have been biochemically confirmed (<xref ref-type="fig" rid="f1">Fig. 1E</xref>). However, in all 10 motifs, the sidechains of amino acids in the -2 position ([-2]-É¸-L-x-V-P), such as Gln385<sub>NFATc1,</sub> function as hydrogen bond donors/acceptors. These data demonstrate that a residue capable of forming polar interactions in the -2 position is a defining feature of this motif. This is further supported by the observation that mutating the É¸ residue to an amino acid capable of hydrogen bonding in two CN substrates, DNML1<xref ref-type="bibr" rid="b20">20</xref> and NFATc2<xref ref-type="bibr" rid="b19">19</xref>, both of which have polar residues in the -2 position, enhances CN binding. Together, these data demonstrate that the LxVP SLiM is most accurately defined as ÏÉ¸LxVP, where Ï and É¸ represent a polar and hydrophobic residue, respectively (<xref ref-type="fig" rid="f1">Fig. 1E</xref>).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Identifying novel, potential CN substrates using the expanded ÏÉ¸LxVP SLiM</title>
+        <p>The ability to use the LxVP SLiM to identify new CN interacting proteins was previously hindered by conflicting models of LxVP binding<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b17">17</xref> and the lack of specificity of the motif. Our structure of CN in complex with its most well-studied substrate, NFATc1, overcomes these limitations as it confirmed that all structurally characterized LxVP sequences bind the same pocket on CN (<xref ref-type="fig" rid="f1">Fig. 1C</xref>). Our structure also led to the discovery that the NFATc1 LxVP SLiM is more specific than previously thought and defined as ÏÉ¸LxVP (<xref ref-type="fig" rid="f1">Fig. 1D,E</xref>). A search of the Uniprot human database using this expanded SLiM, which includes all residues that have polar donor/acceptor sidechains in the -2 position as well as all residues in the 10 experimentally confirmed LxVP sites in the -1 position (Ï-É¸-LxVP: [NQDESRTH]-[YTDFILV]-L-x-V-P), results in 518 hits in 499 sequences (<xref ref-type="fig" rid="f2">Fig. 2A</xref>).</p>
+        <p>To maximize the likelihood that these ÏÉ¸LxVP-containing proteins represent bona fide CN substrates, we applied three additional filters. The first filter ensured that all identified motifs were present in intrinsically disordered proteins (IDPs) or regions (IDRs; IUPREDââ¥â0.4) of their corresponding proteins. This is because all known SLiMs are intrinsically disordered and, thus far, all experimentally confirmed LxVP SLiMs have been found in IDRs. This IDP filter reduced the number of hits by more than 65%, resulting in 173 motifs in 161 proteins (<xref ref-type="fig" rid="f2">Fig. 2A</xref>; 4 proteins contained multiple ÏÉ¸LxVP motifs). The second filter ensured that the identified proteins had been previously observed to be phosphorylated on one or more ser/thr residues (Uniprot). This reduced the number of proteins to 133 (<xref ref-type="fig" rid="f2">Fig. 2A</xref>). In parallel, a third filter was used to show that 126 of the 161 original ÏÉ¸LxVP-IDR containing proteins also contained the CN-specific PxIxIT SLiM (<xref ref-type="fig" rid="f2">Fig. 2A</xref>). By taking the intersection of these two sets, we identified that 89 distinct proteins contain both a pSer/pThr residue and a PxIxIT SLiM. This provides compelling support that, at minimum, 89 (55%) of the 161 proteins with expanded ÏÉ¸LxVP motifs in IDPs or IDRs are highly likely CN substrates. Interestingly, 37 proteins contained PxIxIT SLiMs but lacked pSer and/or pThr residues, indicating that this subset of hits might be modulators of CN activity but are not CN substrates, or that their phosphorylation/dephosphorylation sites are currently unknown.</p>
+        <p>An analysis of the cellular distribution of these 89 likely CN substrates revealed that the highest fraction (33%) is found in the nucleus (<xref ref-type="fig" rid="f2">Fig. 2B</xref>), consistent with the known roles of CN to dephosphorylate transcription factors and DNA binding proteins that are critical for the G1-S transition of the cell cycle<xref ref-type="bibr" rid="b21">21</xref><xref ref-type="bibr" rid="b22">22</xref>. The large distribution of ÏÉ¸LxVP-proteins in the membrane (18%) and intracellular transport (13%) is also consistent with the prominent roles of CN in ion transport and vesicle trafficking, respectively<xref ref-type="bibr" rid="b23">23</xref><xref ref-type="bibr" rid="b24">24</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Redefining the minimal four residue LxVP core sequence</title>
+        <p>In parallel, we compiled a database of the 48 proteins that have been experimentally demonstrated to interact directly with CN (referred to as CN<sup>con</sup> â <underline>c</underline>o<underline>n</underline>firmed <underline>CN</underline> interactors; to date, no LxVP SLiM has been identified for ~80% of these interactors; <xref ref-type="supplementary-material" rid="S1">Table S4</xref>). We then searched for a ÏÉ¸LxVP SLiM in each protein. Interestingly, only 20% of CN<sup>CON</sup> returned hits on our expanded ÏÉ¸LxVP SLiM (<xref ref-type="fig" rid="f3">Fig. 3A</xref>), showing that the expanded ÏÉ¸LxVP definition is too conservative and fails to detect CN interactors that have similar, yet also binding compatible sequences. Because all CN structures determined to date (free and CN complexes), including that described here, confirm that the conformation of the LxVP pocket is rigid, the structure of the CN-based âlockâ is viewed as conformationally fixed while the SLiM-based âkeyâ is viewed as flexible. Therefore, we used the structure of the CN:ÏÉ¸LxVP<sub>NFATc1</sub> complex to identify amino acids that can be readily accommodated in the Leu, Val and Pro hydrophobic binding pockets. Critically, this structure-based approach is not biased in regards to the interaction strength of the individual LxVP sequence, i.e. all predicted sequences are most likely binding competent. This is important, as different K<sub>D</sub>âs for the same SLiM binding pocket are likely important for driving distinct signaling events.</p>
+        <p>The Leu binding pocket is very narrow and fails to accommodate other amino acids without significant changes in the sidechain rotomer conformations (<xref ref-type="fig" rid="f3">Fig. 3B</xref>). Thus we conclude that the Leu residue of the LxVP motif is conserved in the majority of CN interactors. The Val binding pocket, in contrast, is comparatively shallow and readily accommodates a Pro, Ile, His, or Leu (<xref ref-type="fig" rid="f3">Fig. 3B</xref>). Indeed, the confirmed LxVP motif of KCNK18 (NTLqLP) contains a Leu in the Val position of this SLiM (<xref ref-type="fig" rid="f1">Fig. 1E</xref>)<xref ref-type="bibr" rid="b25">25</xref>. The Pro pocket is also very shallow, allowing for a broad range of substitutions at this site. In the CN:A238L complex (NFLcVK; <xref ref-type="fig" rid="f1">Fig. 1C</xref>) the Lys residue, which lies across the Pro pocket, is nearly completely solvent exposed. Thus, we allowed this position to be any residue in a search against CN<sup>CON</sup>. Searching CN<sup>CON</sup> using this structure-based motif ([NQDESRTH]-[YTDFILV]-L-x-[VPLIH]-x â Ï-É¸-L-x-[VPLHI]-x) returned 43 of the 48 proteins (<xref ref-type="fig" rid="f3">Fig. 3A</xref>, <xref ref-type="supplementary-material" rid="S1">Table S4</xref>). A sequence alignment (Weblogo, V.3.4) of the 43 identified motifs identified favored residues in the Val and Pro positions of the ÏÉ¸LxVP SLiM (<xref ref-type="fig" rid="f3">Fig. 3C</xref>)<xref ref-type="bibr" rid="b26">26</xref>. This data immediately shows that most residues can be accommodated in the Pro position with only a slight preference for Pro and Lys, which are also experimentally, structurally confirmed residues. Interestingly, Val, Leu and Pro are nearly equally probable in the Val position, with a much lower population of Ile and His. By combining the structural data with the CN<sup>CON</sup> derived data, we derived the optimized definition for this SLiM: [NQDESRTH]-[YTDFILV]-L-x-[VPL]-[PK] â Ï-É¸-L-x-[VPL]-[PK]. Searching for this motif using ScanProsite yielded 3251 human proteins. After employing the same secondary filters used previously (requires a PxIxIT site, the motif is present in an IDP or IDR and the protein has experimentally confirmed pSer/pThr residues), the list condenses to 567 proteins, 89 of which contain a canonical âÏ-É¸-LxVPâ motif and 478 that contain a âÏ-É¸-L-x-VPL-PKâ motif (<xref ref-type="fig" rid="f3">Fig. 3D</xref>).</p>
+        <p>The cellular distribution of these new potential CN substrates remains virtually unchanged compared to that identified using the conservative SLiM definition, with the largest fraction of CN interacting proteins having key roles in the nucleus (<xref ref-type="supplementary-material" rid="S1">Fig. S3</xref>). An analysis of these 567 proteins also showed that the preferred average distance of the first pSer/pThr from the Ï-É¸-L-x-VPL-PK site is within 50 residues (<xref ref-type="supplementary-material" rid="S1">Fig. S4</xref>). Notably, there is a preference for phosphosites to be C-terminal to the SLiM (80%), similar to what is observed for the canonical CN substrate, protein kinase A (PKA) subunit RII. In contrast, there are fewer predicted interactors with phosphosites that are N-terminal of the SLiM (20%), which is where the phosphosites are located in NFATs.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Expanding the CN protein interaction and functional networks</title>
+        <p>Our study identified novel potential CN interactors, which both expanded known and suggested completely novel physiological functions for CN. An overview of these functions is shown in <xref ref-type="fig" rid="f4">Fig. 4</xref>, covering roles from immunity to signaling to transcription.</p>
+        <sec disp-level="3">
+          <title>A-kinase anchor proteins (AKAPs)</title>
+          <p>CN has been widely studied in the context of its interaction with A-kinase anchoring protein 79, AKAP79 (aka AKAP5), and its subsequent role in synaptic plasticity<xref ref-type="bibr" rid="b27">27</xref><xref ref-type="bibr" rid="b28">28</xref>. This analysis identifies additional AKAPs that are predicted to bind CN, which, like AKAP79, function to co-localize CN with PKA and protein kinase C. These new AKAPs include CRBG3/CRYBG3/vlAKAP (ÏÉ¸LxVP: <sup>1027</sup>SFLKVP<sup>1032</sup>) and AKAP12 (ÏÉ¸Lx-VPL-PK: <sup>197</sup>QLLTVK<sup>202</sup>). AKAP12 has been shown to bind Ca<sup>2+</sup>/Calmodulin via its 3 positively charged domains (PCDs)<xref ref-type="bibr" rid="b29">29</xref>. Due to its homology with AKAP5/AKAP79, AKAP12 is also predicted to interact with CN via these domains<xref ref-type="bibr" rid="b30">30</xref>. Consistent with this, our predicted AKAP12 ÏÉ¸Lx-VPL-PK site (<sup>197</sup>QLLTVK<sup>202</sup>) is between PCD1 (residues 171â187) and PCD2 (residues 297â317), which, incidentally, is also the location of the predicted AKAP12 PxIxIT site (<sup>284</sup>PTSPVT<sup>289</sup>).</p>
+        </sec>
+        <sec disp-level="3">
+          <title>JNK signaling</title>
+          <p>Our data suggest that CN has a prominent role in multiple signal transduction pathways. In particular, we show that CN likely plays a critical role in the JNK signaling pathway by directly modulating the activity of mitogen activated kinases MAP3K7/TAK1 (ÏÉ¸LxVP: <sup>420</sup>NILDVP<sup>425</sup>; activates JNK and p38 pathways), MAP3K10 (ÏÉ¸LxVP: <sup>634</sup>SYLSVP<sup>639</sup>; activates the JNK pathway), MAP3K11 (ÏÉ¸Lx-VPL-PK: <sup>659</sup>RDLQPP<sup>664</sup>; activates the JNK pathway) and MAP3K19 (ÏÉ¸Lx-VPL-PK: <sup>640</sup>NYLDLK<sup>645</sup>). Similarly, CN also dephosphorylates the transcription factors ELK1<xref ref-type="bibr" rid="b31">31</xref> and c-JUN<xref ref-type="bibr" rid="b32">32</xref>, which themselves are phosphorylated by MAPK8â10 of the JNK pathway. Taken together, this data provides compelling evidence that the CN PSP and JNK kinases act antagonistically <italic>in vivo</italic> and are critical for the regulation of the (pro)apoptotic response following cellular stress.</p>
+        </sec>
+        <sec disp-level="3">
+          <title>DNA Repair</title>
+          <p>This study also suggested new roles for CN during the cell cycle and in particular, DNA repair (<xref ref-type="supplementary-material" rid="S1">Fig. S5</xref>). Specifically, a cluster of proteins implicated in the breast cancer 2 (BRCA2) mediated DNA repair mechanism are identified. PALB2 (ÏÉ¸Lx-VPL-PK: <sup>220</sup>SVLIPP<sup>225</sup>) is an essential regulator of DNA double strand break repair whose phosphorylation leads to the recruitment of BRCA2 (ÏÉ¸Lx-VPL-PK: <sup>3378</sup>DYLRLK<sup>3383</sup>) and RAD51 (not predicted to bind CN)<xref ref-type="bibr" rid="b33">33</xref><xref ref-type="bibr" rid="b34">34</xref>. By dephosphorylating PALB2 and BRCA2, CN is able to modulate the DNA damage response. CN further moderates BRCA2 activity in the context of transcriptional repression due to its predicted direct interaction with the BRCA2-interacting transcriptional repressor (EMSY: ÏÉ¸Lx-VPL-PK: <sup>1045</sup>QVLAVK<sup>1050</sup>)<xref ref-type="bibr" rid="b35">35</xref>. Taken together, this work establishes that CN has a prominent role in modulating the DNA damage response and may be a primary mediator of DNA repair (<xref ref-type="supplementary-material" rid="S1">Fig. S5</xref>).</p>
+          <p>As DNA repair is a novel role for CN, we experimentally confirmed the interaction between PALB2 and CN. PALB2<sub>178â295</sub>, which includes the predicted PxIxIT and LxVP SLiMs, interacts directly with CN, as shown by pulldown and ITC assays (<xref ref-type="fig" rid="f3">Fig. 3E</xref>, S1; <xref ref-type="supplementary-material" rid="S1">Table S3</xref>).</p>
+        </sec>
+        <sec disp-level="3">
+          <title>Ubiquitination</title>
+          <p>Our analysis also suggested that CN is important for protein ubiquitination, a novel role for CN. Namely, CN is predicted to bind and regulate the E3 ubiquitin protein ligase CBLB (ÏÉ¸Lx-VPL-PK: <sup>803</sup>DLLIPP<sup>808</sup>; Cbl Proto-Oncogene B) and the E3 ubiquitin protein ligase adaptor protein CBL (ÏÉ¸Lx-VPL-PK: <sup>540</sup>RDLPPP<sup>545</sup>), both of which negatively regulate T-cell and B-cell receptor pathway activity<xref ref-type="bibr" rid="b36">36</xref><xref ref-type="bibr" rid="b37">37</xref>. CN is also suggested to bind the E3 ubiquitin ligase HERC2 (ÏÉ¸LxVP: <sup>3350</sup>SYLGVP<sup>3355</sup>), an enzyme that is an integral regulator of the DNA damage response to ionizing radiation<xref ref-type="bibr" rid="b38">38</xref>. Lastly, RNF8 (ÏÉ¸Lx-VPL-PK: <sup>255</sup>RILRLK<sup>260</sup>), which fulfills a key role in the DNA damage response via histone ubiquitination as it recruits repair machineries, including TP53BP1/BRCA1, and activates ATM kinase<xref ref-type="bibr" rid="b39">39</xref>, is also a potential CN interactor.</p>
+        </sec>
+        <sec disp-level="3">
+          <title>Transcription</title>
+          <p>This work also expands the CN-transcription factor interactome beyond NFATs. Our analysis suggests that CN regulates the phosphorylation state of more than 100 distinct transcription factors that affect multicellular organism development and function from embryogenesis through adulthood, including Homeobox regulating proteins Cux1 (ÏÉ¸Lx-VPL-PK: <sup>739</sup>TILTPK<sup>744</sup>), MSL1 (ÏÉ¸LxVP: <sup>471</sup>SVLAVP<sup>476</sup>) and SIX4 (ÏÉ¸LxVP: <sup>674</sup>DLLSVP<sup>679</sup>). Furthermore, CN may play a larger role in general transcriptional regulation through interactions with components of the Mediator complex, responsible for transcription from RNA polymerase II genes, MED1 (ÏÉ¸LxVP: <sup>904</sup>NTLGVP<sup>909</sup>), MED12 (ÏÉ¸Lx-VPL-PK: <sup>1637</sup>QLLPLP<sup>1642</sup>) and MED14 (ÏÉ¸Lx-VPL-PK: <sup>1183</sup>NILLLP<sup>1188</sup>).</p>
+          <p>Lastly, CNâs importance for neuronal function is well established. Here we identify 48 potential interactors that correlate CN dephosphorylation with neuronal activity and highlight an unexplored role of CN in axon generation and guidance (<xref ref-type="fig" rid="f4">Fig. 4</xref>). We demonstrate, by pulldown and ITC, that the synapse defective protein 1 homolog 2 (SYDE2) (residues 232â289; ÏÉ¸Lx-V-P: <sup>235</sup>RVLSVP<sup>240</sup>) binds CN (<xref ref-type="fig" rid="f3">Fig. 3E</xref>, S1; <xref ref-type="supplementary-material" rid="S1">Table S3</xref>). In <italic>C. elegans,</italic> SYD-1 (SYDE2 homolog) has been shown to have an important role in neuronal polarization, culminating in the formation of axons and dendrites<xref ref-type="bibr" rid="b40">40</xref>.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Discussion</title>
+      <p>Despite the clear biological importance of CN, elucidating a human genome wide interaction network for this essential enzyme has been exceptionally challenging and thus far only a small subset of proteins has been experimentally confirmed to be CN substrates (CN<sup>CON</sup>, <xref ref-type="supplementary-material" rid="S1">Table S4</xref>). This is because, in contrast to protein tyrosine phosphatases (PTPs), identifying PSP substrates has been comparatively difficult, as the approaches for identifying substrates of PTPs, including substrate trapping mutants and selective inhibitors, are much less developed for PSPs<xref ref-type="bibr" rid="b41">41</xref>. Thus, identifying and defining novel SLiMs that are specific for distinct PSPs, such as the PxIxIT SLiM in CN<xref ref-type="bibr" rid="b16">16</xref>, provides a key avenue to overcome these challenges. Here we leveraged our novel structural insights to accurately define the LxVP SLiM, Ï-É¸-L-x-VPL-PK, and then used this motif to identify novel, potential CN interacting proteins/substrates. Indeed, the structure-based SLiM analysis presented here can be thought of as a molecular ruler, in which the rigid enzyme (CN) reduces the primary sequence space of the interacting SLiM. The advantage of this technique is that all identified Ï-É¸-L-x-VPL-PK SLiMs will be binding competent. The disadvantage is that it likely only selects for strong(er) binders. However, in a cellular environment where multiple substrates compete for the same CN binding site, the stronger interactors are likely often the preferred interactors. Our analyses resulted in the discovery of 89 predicted interactors that contain a conservative Ï-É¸-L-x-V-P SLiM and 478 predicted interactors that contain the structure-based, comprehensive Ï-É¸-L-x-VPL-PK SLiM (<xref ref-type="fig" rid="f3">Fig. 3D</xref>). We confirmed the quality of our prediction method, by randomly selecting a couple of predicted interactors and experimentally confirming their interaction with CN.</p>
+      <p>The effectiveness of our study is furthermore immediately apparent as novel ÏÉ¸LxVP sites were identified in well-established, bone fide CN substrates, including <sup>2156</sup>TLLSPK<sup>2161</sup> in Cain/Cabin1 and <sup>678</sup>RDLMPK<sup>683</sup> in Dynamin1<xref ref-type="bibr" rid="b42">42</xref><xref ref-type="bibr" rid="b43">43</xref>. We also identified new ÏÉ¸LxVP sites in proteins identified as potential CN interactors in the BioGRID3.4<xref ref-type="bibr" rid="b44">44</xref><xref ref-type="bibr" rid="b45">45</xref> and STRING10.0<xref ref-type="bibr" rid="b46">46</xref> protein interaction databases, including the membrane receptor KLRG2 (ÏÉ¸LxVP: <sup>149</sup>RFLKVP<sup>154</sup>), the ser/thr kinase SIK3 (ÏÉ¸Lx-VPL-PK: <sup>472</sup>SLLQPP<sup>477</sup>) and the transcriptional regulator MEF2A (ÏÉ¸LxVP: <sup>212</sup>TDLTVP<sup>217</sup>). Critically, however, our study also identified hundreds of new potential CN interactors (<xref ref-type="fig" rid="f4">Fig. 4</xref>). The analysis identified CN interactors that have functions previously not associated with CN, including protein ubiquitination (HERC2, CBLB, CBL) and DNA repair (PALB2, BRCA2). It also substantially expanded that number of interactors that are essential for well-established functions, such as transcription (SIX4, MED12, among others). This immediately suggests a plethora of expanded and novel functions of CN in key signaling pathways and critical cellular processes in the cell. Over the next years, it will be exciting to test these predictions further and to leverage the information for the analysis of the functional consequences of CN dephosphorylation of its novel substrates in cell physiology.</p>
+    </sec>
+    <sec disp-level="1">
+      <title>Material and Methods</title>
+      <sec disp-level="2">
+        <title>Expression and Purification</title>
+        <p>CN was expressed and purified as previously described<xref ref-type="bibr" rid="b13">13</xref>. Briefly, CNA (residues 1â370), CNB (residues 1â169) was subcloned into a bicistronic p11 vector containing an N-terminal His<sub>6</sub>-TEV tag and expressed in <italic>E. coli</italic> after growth to an OD<sub>600</sub>â=â~0.8 and induction with 1âmM IPTG for 18âhours at 18âÂ°C. Cells were harvested by centrifugation at 5,400âÃâg at 4âÂ°C for 15âminutes and stored at â80âÂ°C. Cells were lysed using a high pressure cell homogenizer (Avestin) and lysates were centrifuged at 45,400âÃâg at 4âÂ°C for 60âminutes. Purification was initiated by Ni<sup>2+</sup>-NTA purification followed by TEV cleavage. CN was further purified by anion exchange chromatography (HiTrap Q HP), followed by size exclusion chromatography (SEC, Superdex 75 26/60) using 10âmM Tris pH 7.5, 100âmM NaCl, 1.0âmM DTT, 1.0âmM CaCl<sub>2</sub> as the final buffer. Peptides (<sup>383</sup>DDQY<underline>LAVP</underline>QHPYQWAKPK<sup>400</sup>; <sup>383</sup>DDQY<underline>LAVP</underline>QH<sup>392, 116</sup>ESPRIEITS<sup>124</sup>) were purchased from Biosyn Inc. (â¥95% purity; Lewisville, TX). PALB2 (residues 178â295) and SYDE2 (residues 232â289) were cloned into pJ411 vectors containing an N-terminal His<sub>6</sub>-TEV tag (DNA2.0: Newark, CA). PALB2 and SYDE2 were expressed in <italic>E. coli</italic> after growth to an OD<sub>600</sub>â=â~1.0 and induction with 1.0âmM IPTG for 20âhours at 18âÂ°C. Cells were harvested and lysed as described above. Briefly, purification was initiated by Ni<sup>2+</sup>-NTA purification followed by TEV cleavage. PALB2 and SYDE2 were further purified by SEC (Superdex 75 26/60) using 20âmM Tris pH 7.5, 100âmM NaCl, 0.5âmM TCEP as the final buffer.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Crystallization and structure determination</title>
+        <p>The CN:NFATc1<sub>LxVP</sub> complex (concentration: ~9âmg/ml) formed crystals in 0.1âM HEPES pH 7.0 and 15% (w/v) PEG4000 at 25âÂ°C. Crystals were obtained using the hanging drop vapor diffusion method (24-well Linbro plate, Hampton), with 2âÎ¼l drops containing a 1:2 ratio of precipitant solution to protein and 500âÎ¼l of precipitant solution in the reservoir. Crystals were harvested under oil and immediately flash frozen in liquid N<sub>2</sub>. Data were collected at the Stanford Synchrotron Radiation Lightsource (BL9-2) at SLAC National Accelerator Laboratory. Crystals of the CN:NFATc1<sub>LxVP</sub> complex formed in space group P2<sub>1</sub>2<sub>1</sub>2<sub>1</sub>, with unit cell dimensions <italic>a</italic>â=â57.67âÃ, <italic>b</italic>â=â106.04âÃ, <italic>c</italic>â=â111.92âÃ, and Î±<italic>Î²Î³</italic>â=â90Â°. Data were indexed, integrated and scaled with the autoxds suite<xref ref-type="bibr" rid="b47">47</xref>. The structure of the CN:NFATc1<sub>LxVP</sub> complex was determined to 2.6âÃ by molecular replacement using a CN heterodimer molecule<xref ref-type="bibr" rid="b13">13</xref> (CNA/B; PDB ID 4F0Z as the search model). The final model of the CN:NFATc1<sub>LxVP</sub> complex was obtained using iterative rounds of refinement in PHENIX<xref ref-type="bibr" rid="b48">48</xref> and model building in Coot<xref ref-type="bibr" rid="b49">49</xref>. The asymmetric unit contains one copy of the CN:NFATc1<sub>LxVP</sub> complex. CNA residues 1â10, CNB residues 1â4 and NFATc1 LxVP residues 391â400 were not visible in the electron density map and thus were not modeled. The final structure refined to a R factor of 19.5% (R<sub>free</sub>â=â23.9%). 100% of residues are in the allowed region of the Ramachandran diagram. Structure validation and stereochemistry analysis was performed with Molprobity<xref ref-type="bibr" rid="b50">50</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Isothermal Titration Calorimetry</title>
+        <p>ITC experiments were performed at 25âÂ°C using a VP-ITC microcalorimeter (Malvern). All protein samples were equilibrated in ITC buffer (20âmM Tris pH 7.5, 100âmM NaCl, 1.0âmM CaCl<sub>2</sub>, 0.5âmM TCEP). NFAT peptides, PALB2 and SYDE2 were titrated into CNA/B. Titrant (10âÎ¼L per injection for NFAT peptides and 12âÎ¼L per injection for PALB2 and SYDE2) was injected into the sample cell over a period of 20âseconds with a 250âsecond interval between titrations to allow for complete equilibration and baseline recovery. 27 (10âÎ¼L) or 21 (12âÎ¼L) injections were delivered during each experiment, and the solution in the sample cell was stirred at 307ârpm to ensure rapid mixing. Data were analyzed with a one set binding site model, based on the 1:1 stoichiometry observed in the crystal structure, using Origin 7.0 (OriginLab).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Pulldown Assay</title>
+        <p>CNA/B was purified as described, without His<sub>6</sub>-tag cleavage. All proteins were prepared in Pull Down Buffer (50âmM Tris pH 8.0, 500âmM NaCl, 1âmM CaCl<sub>2</sub>). 2âmL of 5âÎ¼M CNA/B was applied to 1.5âmL Ni<sup>2+</sup>-NTA resin (GE Healthcare). 1.5âmL of 10âÎ¼M purified PALB2 or SYDE2 was added to the CNA/B containing resin and incubated at 4âÂ°C for 45âminutes to allow for complex formation. Following incubation, beads were washed with 10âmL of pull down buffer. Complex containing fractions were eluted with 50âmM Tris pH 8.0, 500âmM NaCl, 500âmM Imidazole. 10âÎ¼L fractions were pooled with 10âÎ¼L 2x SDS loading buffer and boiled at 90âÂ°C for 5âminutes. Samples were analyzed using SDS-PAGE and stained with Coomassie Brilliant Blue.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Bioinformatics</title>
+        <p>ScanProsite<xref ref-type="bibr" rid="b51">51</xref> was used to identify additional CN interacting proteins that contain an LxVP SLiM. Definitions of the search sequences were based on the experimental 3-dimensional CN:NFATc1<sub>LxVP</sub> complex structure and experimentally confirmed LxVP motifs (<xref ref-type="fig" rid="f1">Fig. 1E</xref>). <underline>Filter 1:</underline> Disorder prediction via IUPRED<xref ref-type="bibr" rid="b52">52</xref><xref ref-type="bibr" rid="b53">53</xref> was used to ensure that identified ÏÉ¸LxVP SLiMs are in disordered protein regions, as it is well recognized that SLiMs are only identified in IDP or IDRs (IUPRED â¥0.4). <underline>Filter 2:</underline> To increase the likelihood of identifying CN substrates, a PxIxIT SLiM (ScanProsite)<xref ref-type="bibr" rid="b51">51</xref> in IDR (IDPRED â¥0.4) filter was applied. Two PxIxIT definitions were used: [P]-x-x-x-[IV]-[TDH] NFAT/PVIVIT-like<xref ref-type="bibr" rid="b54">54</xref>; or [P]-x-x-x-x-[IV]-[TDH] AKAP79-like using an extended CN binding pocket<xref ref-type="bibr" rid="b14">14</xref>; [IV]-[TDH] were based on experimentally confirmed sites<xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b55">55</xref><xref ref-type="bibr" rid="b56">56</xref>. Based on the focus on CN <italic><underline>substrates</underline></italic>, only proteins with experimentally confirmed phosphorylated Ser/Thr residues (using UniProt) were further considered as the final filter. Phosphosite distances relative to the N and C-terminal end(s) of the Ï-É¸-L-x-VPL-PK motif were also determined and analyzed. A cutoff of 9 residues was used for phosphosites C-terminal to the SLiM. A distance of 9 residues is sufficient to cover the ~30âÃ gap to the active site<xref ref-type="bibr" rid="b13">13</xref>. A cutoff of 20 residues was used for phosphosites N-terminal to the SLiM. Hits were cross-validated via literature searches and/or interaction databases<xref ref-type="bibr" rid="b45">45</xref>.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Additional Information</title>
+      <p><bold>Accession Code:</bold> The structure factors and coordinates for the CN-NFATc1 LxVP complex have been deposited with the Protein Databank with accession number 5SVE.</p>
+      <p><bold>How to cite this article:</bold> Sheftic, S. R. <italic>et al</italic>. Investigating the human Calcineurin Interaction Network using the ÏÉ¸LxVP SLiM. <italic>Sci. Rep.</italic>
+<bold>6</bold>, 38920; doi: 10.1038/srep38920 (2016).</p>
+      <p><bold>Publisher's note:</bold> Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="d32e23" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+        </caption>
+        <media xlink:href="srep38920-s1.pdf"/>
+      </supplementary-material>
+      <supplementary-material id="d32e26" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+        </caption>
+        <media xlink:href="srep38920-s2.xls"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Drs. Martha Cyert (Stanford University) and Norman Davey (University College Dublin, Dublin, Ireland) for helpful discussions. We thank Ms. Nicole M Petersen (Brown University) for help with protein expression and purification. Use of the Stanford Synchrotron Radiation Lightsource (BL9-2) at SLAC National Accelerator Laboratory was supported by the US Department of Energy, Office of Science, Office of Basic Energy Sciences under contract no. DE-AC02-98CH10886. The work was supported by grant R01NS091336 from the National Institute of Neurological Disorders and Stroke to W.P. and grant R01GM098482 from the National Institute of General Medicine to R.P. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+    </ack>
+    <ref-list>
+      <ref id="b1">
+        <mixed-citation publication-type="journal"><name><surname>Shi</surname><given-names>Y.</given-names></name>
+<article-title>Serine/threonine phosphatases: mechanism through structure</article-title>. <source>Cell</source>
+<volume>139</volume>, <fpage>468</fpage>â<lpage>84</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19879837</pub-id></mixed-citation>
+      </ref>
+      <ref id="b2">
+        <mixed-citation publication-type="journal"><name><surname>Kissinger</surname><given-names>C. R.</given-names></name>
+<etal/>. <article-title>Crystal structures of human calcineurin and the human FKBP12-FK506-calcineurin complex</article-title>. <source>Nature</source>
+<volume>378</volume>, <fpage>641</fpage>â<lpage>4</lpage> (<year>1995</year>).<pub-id pub-id-type="pmid">8524402</pub-id></mixed-citation>
+      </ref>
+      <ref id="b3">
+        <mixed-citation publication-type="journal"><name><surname>Sharma</surname><given-names>R. K.</given-names></name>, <name><surname>Desai</surname><given-names>R.</given-names></name>, <name><surname>Waisman</surname><given-names>D. M.</given-names></name> &amp; <name><surname>Wang</surname><given-names>J. H.</given-names></name>
+<article-title>Purification and Subunit Structure of Bovine Brain Modulator Binding-Protein</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>254</volume>, <fpage>4276</fpage>â<lpage>4282</lpage> (<year>1979</year>).<pub-id pub-id-type="pmid">220236</pub-id></mixed-citation>
+      </ref>
+      <ref id="b4">
+        <mixed-citation publication-type="journal"><name><surname>Kung</surname><given-names>L.</given-names></name>
+<etal/>. <article-title>Tissue distribution of calcineurin and its sensitivity to inhibition by cyclosporine</article-title>. <source>American Journal of Transplantation</source>
+<volume>1</volume>, <fpage>325</fpage>â<lpage>333</lpage> (<year>2001</year>).<pub-id pub-id-type="pmid">12099376</pub-id></mixed-citation>
+      </ref>
+      <ref id="b5">
+        <mixed-citation publication-type="journal"><name><surname>Shaw</surname><given-names>J. P.</given-names></name>
+<etal/>. <article-title>Identification of a putative regulator of early T cell activation genes</article-title>. <source>Science</source>
+<volume>241</volume>, <fpage>202</fpage>â<lpage>5</lpage> (<year>1988</year>).<pub-id pub-id-type="pmid">3260404</pub-id></mixed-citation>
+      </ref>
+      <ref id="b6">
+        <mixed-citation publication-type="journal"><name><surname>Rao</surname><given-names>A.</given-names></name>, <name><surname>Luo</surname><given-names>C.</given-names></name> &amp; <name><surname>Hogan</surname><given-names>P. G.</given-names></name>
+<article-title>Transcription factors of the NFAT family: regulation and function</article-title>. <source>Annu Rev Immunol</source>
+<volume>15</volume>, <fpage>707</fpage>â<lpage>47</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9143705</pub-id></mixed-citation>
+      </ref>
+      <ref id="b7">
+        <mixed-citation publication-type="journal"><name><surname>Hogan</surname><given-names>P. G.</given-names></name>, <name><surname>Chen</surname><given-names>L.</given-names></name>, <name><surname>Nardone</surname><given-names>J.</given-names></name> &amp; <name><surname>Rao</surname><given-names>A.</given-names></name>
+<article-title>Transcriptional regulation by calcium, calcineurin, and NFAT</article-title>. <source>Genes Dev</source>
+<volume>17</volume>, <fpage>2205</fpage>â<lpage>32</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12975316</pub-id></mixed-citation>
+      </ref>
+      <ref id="b8">
+        <mixed-citation publication-type="journal"><name><surname>Aramburu</surname><given-names>J.</given-names></name>
+<etal/>. <article-title>Selective inhibition of NFAT activation by a peptide spanning the calcineurin targeting site of NFAT</article-title>. <source>Mol Cell</source>
+<volume>1</volume>, <fpage>627</fpage>â<lpage>37</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9660947</pub-id></mixed-citation>
+      </ref>
+      <ref id="b9">
+        <mixed-citation publication-type="journal"><name><surname>Park</surname><given-names>S.</given-names></name>, <name><surname>Uesugi</surname><given-names>M.</given-names></name> &amp; <name><surname>Verdine</surname><given-names>G. L.</given-names></name>
+<article-title>A second calcineurin binding site on the NFAT regulatory domain</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>97</volume>, <fpage>7130</fpage>â<lpage>5</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10860980</pub-id></mixed-citation>
+      </ref>
+      <ref id="b10">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>X.</given-names></name>, <name><surname>Wilmanns</surname><given-names>M.</given-names></name>, <name><surname>Thornton</surname><given-names>J.</given-names></name> &amp; <name><surname>Kohn</surname><given-names>M.</given-names></name>
+<article-title>Elucidating human phosphatase-substrate networks</article-title>. <source>Sci Signal</source>
+<volume>6</volume>, <fpage>rs10</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23674824</pub-id></mixed-citation>
+      </ref>
+      <ref id="b11">
+        <mixed-citation publication-type="journal"><name><surname>Aramburu</surname><given-names>J.</given-names></name>, <name><surname>Rao</surname><given-names>A.</given-names></name> &amp; <name><surname>Klee</surname><given-names>C. B.</given-names></name>
+<article-title>Calcineurin: from structure to function</article-title>. <source>Curr Top Cell Regul</source>
+<volume>36</volume>, <fpage>237</fpage>â<lpage>95</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10842755</pub-id></mixed-citation>
+      </ref>
+      <ref id="b12">
+        <mixed-citation publication-type="journal"><name><surname>Martinez-Martinez</surname><given-names>S.</given-names></name>
+<etal/>. <article-title>Blockade of NFAT activation by the second calcineurin binding site</article-title>. <source>J Biol Chem</source>
+<volume>281</volume>, <fpage>6227</fpage>â<lpage>35</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16407284</pub-id></mixed-citation>
+      </ref>
+      <ref id="b13">
+        <mixed-citation publication-type="journal"><name><surname>Grigoriu</surname><given-names>S.</given-names></name>
+<etal/>. <article-title>The molecular mechanism of substrate engagement and immunosuppressant inhibition of calcineurin</article-title>. <source>PLoS Biol</source>
+<volume>11</volume>, <fpage>e1001492</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23468591</pub-id></mixed-citation>
+      </ref>
+      <ref id="b14">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name>
+<etal/>. <article-title>Balanced interactions of calcineurin with AKAP79 regulate Ca(2+)-calcineurin-NFAT signaling</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>19</volume>, <fpage>337</fpage>â<lpage>45</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22343722</pub-id></mixed-citation>
+      </ref>
+      <ref id="b15">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>H.</given-names></name>, <name><surname>Zhang</surname><given-names>L.</given-names></name>, <name><surname>Rao</surname><given-names>A.</given-names></name>, <name><surname>Harrison</surname><given-names>S. C.</given-names></name> &amp; <name><surname>Hogan</surname><given-names>P. G.</given-names></name>
+<article-title>Structure of calcineurin in complex with PVIVIT peptide: portrait of a low-affinity signalling interaction</article-title>. <source>J Mol Biol</source>
+<volume>369</volume>, <fpage>1296</fpage>â<lpage>306</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17498738</pub-id></mixed-citation>
+      </ref>
+      <ref id="b16">
+        <mixed-citation publication-type="journal"><name><surname>Goldman</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>The calcineurin signaling network evolves via conserved kinase-phosphatase modules that transcend substrate identity</article-title>. <source>Mol Cell</source>
+<volume>55</volume>, <fpage>422</fpage>â<lpage>35</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24930733</pub-id></mixed-citation>
+      </ref>
+      <ref id="b17">
+        <mixed-citation publication-type="journal"><name><surname>Gal</surname><given-names>M.</given-names></name>, <name><surname>Li</surname><given-names>S.</given-names></name>, <name><surname>Luna</surname><given-names>R. E.</given-names></name>, <name><surname>Takeuchi</surname><given-names>K.</given-names></name> &amp; <name><surname>Wagner</surname><given-names>G.</given-names></name>
+<article-title>The LxVP and PxIxIT NFAT motifs bind jointly to overlapping epitopes on calcineurinâs catalytic domain distant to the regulatory domain</article-title>. <source>Structure</source>
+<volume>22</volume>, <fpage>1016</fpage>â<lpage>27</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24954618</pub-id></mixed-citation>
+      </ref>
+      <ref id="b18">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>S. J.</given-names></name>
+<etal/>. <article-title>Cooperative autoinhibition and multi-level activation mechanisms of calcineurin</article-title>. <source>Cell Res</source>
+<volume>26</volume>, <fpage>336</fpage>â<lpage>49</lpage> (<year>2016</year>).<pub-id pub-id-type="pmid">26794871</pub-id></mixed-citation>
+      </ref>
+      <ref id="b19">
+        <mixed-citation publication-type="journal"><name><surname>Rodriguez</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>A conserved docking surface on calcineurin mediates interaction with substrates and immunosuppressants</article-title>. <source>Mol Cell</source>
+<volume>33</volume>, <fpage>616</fpage>â<lpage>26</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19285944</pub-id></mixed-citation>
+      </ref>
+      <ref id="b20">
+        <mixed-citation publication-type="journal"><name><surname>Slupe</surname><given-names>A. M.</given-names></name>
+<etal/>. <article-title>A calcineurin docking motif (LXVP) in dynamin-related protein 1 contributes to mitochondrial fragmentation and ischemic neuronal injury</article-title>. <source>J Biol Chem</source>
+<volume>288</volume>, <fpage>12353</fpage>â<lpage>65</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23486469</pub-id></mixed-citation>
+      </ref>
+      <ref id="b21">
+        <mixed-citation publication-type="journal"><name><surname>Tomono</surname><given-names>M.</given-names></name>, <name><surname>Toyoshima</surname><given-names>K.</given-names></name>, <name><surname>Ito</surname><given-names>M.</given-names></name>, <name><surname>Amano</surname><given-names>H.</given-names></name> &amp; <name><surname>Kiss</surname><given-names>Z.</given-names></name>
+<article-title>Inhibitors of calcineurin block expression of cyclins A and E induced by fibroblast growth factor in Swiss 3T3 fibroblasts</article-title>. <source>Archives of Biochemistry and Biophysics</source>
+<volume>353</volume>, <fpage>374</fpage>â<lpage>378</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9606972</pub-id></mixed-citation>
+      </ref>
+      <ref id="b22">
+        <mixed-citation publication-type="journal"><name><surname>Schneider</surname><given-names>G.</given-names></name>
+<etal/>. <article-title>Cyclosporine inhibits growth through the activating transcription factor/cAMP-responsive element-binding protein binding site in the cyclin D1 promoter</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>277</volume>, <fpage>43599</fpage>â<lpage>43607</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12215435</pub-id></mixed-citation>
+      </ref>
+      <ref id="b23">
+        <mixed-citation publication-type="journal"><name><surname>Nakamura</surname><given-names>T.</given-names></name>
+<etal/>. <article-title>Protein Phosphatase Type-2b (Calcineurin)-Mediated, Fk506-Sensitive Regulation of Intracellular Ions in Yeast Is an Important Determinant for Adaptation to High-Salt Stress Conditions</article-title>. <source>Embo Journal</source>
+<volume>12</volume>, <fpage>4063</fpage>â<lpage>4071</lpage> (<year>1993</year>).<pub-id pub-id-type="pmid">7693452</pub-id></mixed-citation>
+      </ref>
+      <ref id="b24">
+        <mixed-citation publication-type="journal"><name><surname>Descazeaud</surname><given-names>V.</given-names></name>, <name><surname>Mestre</surname><given-names>E.</given-names></name>, <name><surname>Marquet</surname><given-names>P.</given-names></name> &amp; <name><surname>Essig</surname><given-names>M.</given-names></name>
+<article-title>Calcineurin regulation of cytoskeleton organization: a new paradigm to analyse the effects of calcineurin inhibitors on the kidney</article-title>. <source>Journal of Cellular and Molecular Medicine</source>
+<volume>16</volume>, <fpage>218</fpage>â<lpage>227</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">21801302</pub-id></mixed-citation>
+      </ref>
+      <ref id="b25">
+        <mixed-citation publication-type="journal"><name><surname>Czirjak</surname><given-names>G.</given-names></name> &amp; <name><surname>Enyedi</surname><given-names>P.</given-names></name>
+<article-title>The LQLP Calcineurin Docking Site Is a Major Determinant of the Calcium-dependent Activation of Human TRESK Background K+ Channel</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>289</volume>, <fpage>29506</fpage>â<lpage>29518</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25202008</pub-id></mixed-citation>
+      </ref>
+      <ref id="b26">
+        <mixed-citation publication-type="journal"><name><surname>Crooks</surname><given-names>G. E.</given-names></name>, <name><surname>Hon</surname><given-names>G.</given-names></name>, <name><surname>Chandonia</surname><given-names>J. M.</given-names></name> &amp; <name><surname>Brenner</surname><given-names>S. E.</given-names></name>
+<article-title>WebLogo: A sequence logo generator</article-title>. <source>Genome Research</source>
+<volume>14</volume>, <fpage>1188</fpage>â<lpage>1190</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15173120</pub-id></mixed-citation>
+      </ref>
+      <ref id="b27">
+        <mixed-citation publication-type="journal"><name><surname>Coghlan</surname><given-names>V. M.</given-names></name>
+<etal/>. <article-title>Association of protein kinase A and protein phosphatase 2B with a common anchoring protein</article-title>. <source>Science</source>
+<volume>267</volume>, <fpage>108</fpage>â<lpage>11</lpage> (<year>1995</year>).<pub-id pub-id-type="pmid">7528941</pub-id></mixed-citation>
+      </ref>
+      <ref id="b28">
+        <mixed-citation publication-type="journal"><name><surname>Murphy</surname><given-names>J. G.</given-names></name>
+<etal/>. <article-title>AKAP-anchored PKA maintains neuronal L-type calcium channel activity and NFAT transcriptional signaling</article-title>. <source>Cell Rep</source>
+<volume>7</volume>, <fpage>1577</fpage>â<lpage>88</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24835999</pub-id></mixed-citation>
+      </ref>
+      <ref id="b29">
+        <mixed-citation publication-type="journal"><name><surname>Tao</surname><given-names>J. C.</given-names></name>, <name><surname>Shumay</surname><given-names>E.</given-names></name>, <name><surname>McLaughlin</surname><given-names>S.</given-names></name>, <name><surname>Wang</surname><given-names>H. Y.</given-names></name> &amp; <name><surname>Malbon</surname><given-names>C. C.</given-names></name>
+<article-title>Regulation of AKAP-membrane interactions by calcium</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>281</volume>, <fpage>23932</fpage>â<lpage>23944</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16762919</pub-id></mixed-citation>
+      </ref>
+      <ref id="b30">
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>M. H.</given-names></name> &amp; <name><surname>Malbon</surname><given-names>C. C.</given-names></name>
+<article-title>G-protein-coupled receptor-associated A-kinase anchoring proteins AKAP5 and AKAP12: differential trafficking and distribution</article-title>. <source>Cell Signal</source>
+<volume>21</volume>, <fpage>136</fpage>â<lpage>42</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">18950703</pub-id></mixed-citation>
+      </ref>
+      <ref id="b31">
+        <mixed-citation publication-type="journal"><name><surname>Sugimoto</surname><given-names>T.</given-names></name>, <name><surname>Stewart</surname><given-names>S.</given-names></name> &amp; <name><surname>Guan</surname><given-names>K. L.</given-names></name>
+<article-title>The calcium/calmodulin-dependent protein phosphatase calcineurin is the major Elk-1 phosphatase</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>272</volume>, <fpage>29415</fpage>â<lpage>29418</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9367995</pub-id></mixed-citation>
+      </ref>
+      <ref id="b32">
+        <mixed-citation publication-type="journal"><name><surname>Huang</surname><given-names>C. C.</given-names></name>
+<etal/>. <article-title>Calcineurin-mediated dephosphorylation of c-Jun Ser-243 is required for c-Jun protein stability and cell transformation</article-title>. <source>Oncogene</source>
+<volume>27</volume>, <fpage>2422</fpage>â<lpage>2429</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">17952113</pub-id></mixed-citation>
+      </ref>
+      <ref id="b33">
+        <mixed-citation publication-type="journal"><name><surname>Yuan</surname><given-names>S. S. F.</given-names></name>
+<etal/>. <article-title>BRCA2 is required for ionizing radiation-induced assembly of rad51 complex <italic>in vivo</italic></article-title>. <source>Cancer Research</source>
+<volume>59</volume>, <fpage>3547</fpage>â<lpage>3551</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10446958</pub-id></mixed-citation>
+      </ref>
+      <ref id="b34">
+        <mixed-citation publication-type="journal"><name><surname>Oliver</surname><given-names>A. W.</given-names></name>, <name><surname>Swift</surname><given-names>S.</given-names></name>, <name><surname>Lord</surname><given-names>C. J.</given-names></name>, <name><surname>Ashworth</surname><given-names>A.</given-names></name> &amp; <name><surname>Pearl</surname><given-names>L. H.</given-names></name>
+<article-title>Structural basis for recruitment of BRCA2 by PALB2</article-title>. <source>Embo Reports</source>
+<volume>10</volume>, <fpage>990</fpage>â<lpage>996</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19609323</pub-id></mixed-citation>
+      </ref>
+      <ref id="b35">
+        <mixed-citation publication-type="journal"><name><surname>Cousineau</surname><given-names>I.</given-names></name> &amp; <name><surname>Belmaaza</surname><given-names>A.</given-names></name>
+<article-title>EMSY overexpression disrupts the BRCA2/RAD51 pathway in the DNA-damage response: implications for chromosomal instability/recombination syndromes as checkpoint diseases</article-title>. <source>Molecular Genetics and Genomics</source>
+<volume>285</volume>, <fpage>325</fpage>â<lpage>340</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21409565</pub-id></mixed-citation>
+      </ref>
+      <ref id="b36">
+        <mixed-citation publication-type="journal"><name><surname>Paolino</surname><given-names>M.</given-names></name>
+<etal/>. <article-title>Essential Role of E3 Ubiquitin Ligase Activity in Cbl-b-Regulated T Cell Functions</article-title>. <source>Journal of Immunology</source>
+<volume>186</volume>, <fpage>2138</fpage>â<lpage>2147</lpage> (<year>2011</year>).</mixed-citation>
+      </ref>
+      <ref id="b37">
+        <mixed-citation publication-type="journal"><name><surname>Sohn</surname><given-names>H. W.</given-names></name>, <name><surname>Gu</surname><given-names>H.</given-names></name> &amp; <name><surname>Pierce</surname><given-names>S. K.</given-names></name>
+<article-title>Cbl-b negatively regulates B cell antigen receptor signaling in mature B cells through ubiquitination of the tyrosine kinase Syk</article-title>. <source>Journal of Experimental Medicine</source>
+<volume>197</volume>, <fpage>1511</fpage>â<lpage>1524</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12771181</pub-id></mixed-citation>
+      </ref>
+      <ref id="b38">
+        <mixed-citation publication-type="journal"><name><surname>Bekker-Jensen</surname><given-names>S.</given-names></name>
+<etal/>. <article-title>HERC2 coordinates ubiquitin-dependent assembly of DNA repair factors on damaged chromosomes (vol 12, pg 80, 2010)</article-title>. <source>Nature Cell Biology</source>
+<volume>12</volume>, <fpage>412</fpage>â<lpage>412</lpage> (<year>2010</year>).</mixed-citation>
+      </ref>
+      <ref id="b39">
+        <mixed-citation publication-type="journal"><name><surname>Kolas</surname><given-names>N. K.</given-names></name>
+<etal/>. <article-title>Orchestration of the DNA-damage response by the RNF8 ubiquitin ligase</article-title>. <source>Science</source>
+<volume>318</volume>, <fpage>1637</fpage>â<lpage>1640</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">18006705</pub-id></mixed-citation>
+      </ref>
+      <ref id="b40">
+        <mixed-citation publication-type="journal"><name><surname>Hallam</surname><given-names>S. J.</given-names></name>, <name><surname>Goncharov</surname><given-names>A.</given-names></name>, <name><surname>McEwen</surname><given-names>J.</given-names></name>, <name><surname>Baran</surname><given-names>R.</given-names></name> &amp; <name><surname>Jin</surname><given-names>Y. S.</given-names></name>
+<article-title>SYD-1, a presynaptic protein with PDZ, C2 and rhoGAP-like domains, specifies axon identity in C-elegans</article-title>. <source>Nature Neuroscience</source>
+<volume>5</volume>, <fpage>1137</fpage>â<lpage>1146</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12379863</pub-id></mixed-citation>
+      </ref>
+      <ref id="b41">
+        <mixed-citation publication-type="journal"><name><surname>Flint</surname><given-names>A. J.</given-names></name>, <name><surname>Tiganis</surname><given-names>T.</given-names></name>, <name><surname>Barford</surname><given-names>D.</given-names></name> &amp; <name><surname>Tonks</surname><given-names>N. K.</given-names></name>
+<article-title>Development of âsubstrate-trappingâ mutants to identify physiological substrates of protein tyrosine phosphatases</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>94</volume>, <fpage>1680</fpage>â<lpage>1685</lpage> (<year>1997</year>).<pub-id pub-id-type="pmid">9050838</pub-id></mixed-citation>
+      </ref>
+      <ref id="b42">
+        <mixed-citation publication-type="journal"><name><surname>Lai</surname><given-names>M. M.</given-names></name>, <name><surname>Burnett</surname><given-names>P. E.</given-names></name>, <name><surname>Wolosker</surname><given-names>H.</given-names></name>, <name><surname>Blackshaw</surname><given-names>S.</given-names></name> &amp; <name><surname>Snyder</surname><given-names>S. H.</given-names></name>
+<article-title>Cain, a novel physiologic protein inhibitor of calcineurin</article-title>. <source>J Biol Chem</source>
+<volume>273</volume>, <fpage>18325</fpage>â<lpage>31</lpage> (<year>1998</year>).<pub-id pub-id-type="pmid">9660798</pub-id></mixed-citation>
+      </ref>
+      <ref id="b43">
+        <mixed-citation publication-type="journal"><name><surname>Lai</surname><given-names>M. M.</given-names></name>
+<etal/>. <article-title>The calcineurin-dynamin 1 complex as a calcium sensor for synaptic vesicle endocytosis</article-title>. <source>J Biol Chem</source>
+<volume>274</volume>, <fpage>25963</fpage>â<lpage>6</lpage> (<year>1999</year>).<pub-id pub-id-type="pmid">10473536</pub-id></mixed-citation>
+      </ref>
+      <ref id="b44">
+        <mixed-citation publication-type="journal"><name><surname>Stark</surname><given-names>C.</given-names></name>
+<etal/>. <article-title>BioGRID: a general repository for interaction datasets</article-title>. <source>Nucleic Acids Research</source>
+<volume>34</volume>, <fpage>D535</fpage>â<lpage>D539</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16381927</pub-id></mixed-citation>
+      </ref>
+      <ref id="b45">
+        <mixed-citation publication-type="journal"><name><surname>Chatr-aryamontri</surname><given-names>A.</given-names></name>
+<etal/>. <article-title>The BioGRID interaction database: 2015 update</article-title>. <source>Nucleic Acids Research</source>
+<volume>43</volume>, <fpage>D470</fpage>â<lpage>D478</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25428363</pub-id></mixed-citation>
+      </ref>
+      <ref id="b46">
+        <mixed-citation publication-type="journal"><name><surname>Szklarczyk</surname><given-names>D.</given-names></name>
+<etal/>. <article-title>STRING v10: protein-protein interaction networks, integrated over the tree of life</article-title>. <source>Nucleic Acids Research</source>
+<volume>43</volume>, <fpage>D447</fpage>â<lpage>D452</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25352553</pub-id></mixed-citation>
+      </ref>
+      <ref id="b47">
+        <mixed-citation publication-type="journal"><name><surname>Kabsch</surname><given-names>W.</given-names></name>
+<article-title>Xds</article-title>. <source>Acta Crystallographica Section D-Biological Crystallography</source>
+<volume>66</volume>, <fpage>125</fpage>â<lpage>132</lpage> (<year>2010</year>).</mixed-citation>
+      </ref>
+      <ref id="b48">
+        <mixed-citation publication-type="journal"><name><surname>Adams</surname><given-names>P. D.</given-names></name>
+<etal/>. <article-title>PHENIX: a comprehensive Python-based system for macromolecular structure solution</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>66</volume>, <fpage>213</fpage>â<lpage>21</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20124702</pub-id></mixed-citation>
+      </ref>
+      <ref id="b49">
+        <mixed-citation publication-type="journal"><name><surname>Emsley</surname><given-names>P.</given-names></name> &amp; <name><surname>Cowtan</surname><given-names>K.</given-names></name>
+<article-title>Coot: model-building tools for molecular graphics</article-title>. <source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>60</volume>, <fpage>2126</fpage>â<lpage>32</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15572765</pub-id></mixed-citation>
+      </ref>
+      <ref id="b50">
+        <mixed-citation publication-type="journal"><name><surname>Lovell</surname><given-names>S. C.</given-names></name>
+<etal/>. <article-title>Structure validation by Calpha geometry: phi,psi and Cbeta deviation</article-title>. <source>Proteins</source>
+<volume>50</volume>, <fpage>437</fpage>â<lpage>50</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12557186</pub-id></mixed-citation>
+      </ref>
+      <ref id="b51">
+        <mixed-citation publication-type="journal"><name><surname>de Castro</surname><given-names>E.</given-names></name>
+<etal/>. <article-title>ScanProsite: detection of PROSITE signature matches and ProRule-associated functional and structural residues in proteins</article-title>. <source>Nucleic Acids Research</source>
+<volume>34</volume>, <fpage>W362</fpage>â<lpage>W365</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16845026</pub-id></mixed-citation>
+      </ref>
+      <ref id="b52">
+        <mixed-citation publication-type="journal"><name><surname>Dosztanyi</surname><given-names>Z.</given-names></name>, <name><surname>Csizmok</surname><given-names>V.</given-names></name>, <name><surname>Tompa</surname><given-names>P.</given-names></name> &amp; <name><surname>Simon</surname><given-names>I.</given-names></name>
+<article-title>IUPred: web server for the prediction of intrinsically unstructured regions of proteins based on estimated energy content</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>, <fpage>3433</fpage>â<lpage>3434</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15955779</pub-id></mixed-citation>
+      </ref>
+      <ref id="b53">
+        <mixed-citation publication-type="journal"><name><surname>Dosztanyi</surname><given-names>Z.</given-names></name>, <name><surname>Csizmok</surname><given-names>V.</given-names></name>, <name><surname>Tompa</surname><given-names>P.</given-names></name> &amp; <name><surname>Simon</surname><given-names>I.</given-names></name>
+<article-title>The pairwise energy content estimated from amino acid composition discriminates between folded and intrinsically unstructured proteins</article-title>. <source>Journal of Molecular Biology</source>
+<volume>347</volume>, <fpage>827</fpage>â<lpage>839</lpage> (<year>2005</year>).<pub-id pub-id-type="pmid">15769473</pub-id></mixed-citation>
+      </ref>
+      <ref id="b54">
+        <mixed-citation publication-type="journal"><name><surname>Takeuchi</surname><given-names>K.</given-names></name>, <name><surname>Roehrl</surname><given-names>M. H.</given-names></name>, <name><surname>Sun</surname><given-names>Z. Y.</given-names></name> &amp; <name><surname>Wagner</surname><given-names>G.</given-names></name>
+<article-title>Structure of the calcineurin-NFAT complex: defining a T cell activation switch using solution NMR and crystal coordinates</article-title>. <source>Structure</source>
+<volume>15</volume>, <fpage>587</fpage>â<lpage>97</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17502104</pub-id></mixed-citation>
+      </ref>
+      <ref id="b55">
+        <mixed-citation publication-type="journal"><name><surname>Czirjak</surname><given-names>G.</given-names></name> &amp; <name><surname>Enyedi</surname><given-names>P.</given-names></name>
+<article-title>Targeting of calcineurin to an NFAT-like docking site is required for the calcium-dependent activation of the background K(+)channel, TRESK</article-title>. <source>Journal of Biological Chemistry</source>
+<volume>281</volume>, <fpage>14677</fpage>â<lpage>14682</lpage> (<year>2006</year>).<pub-id pub-id-type="pmid">16569637</pub-id></mixed-citation>
+      </ref>
+      <ref id="b56">
+        <mixed-citation publication-type="journal"><name><surname>Martinez-Martineza</surname><given-names>S.</given-names></name>
+<etal/>. <article-title>The RCAN carboxyl end mediates calcineurin docking-dependent inhibition via a site that dictates binding to substrates and regulators</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>106</volume>, <fpage>6117</fpage>â<lpage>6122</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19332797</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Author Contributions</bold> S.R.S. cloned and purified all proteins. S.R.S. performed all complex purifications and crystallization trials. S.R.S. and R.P. performed data collection and together with W.P. crystal structure analysis. S.R.S. performed all ITC measurements. S.R.S., R.P. and W.P. wrote the paper and all authors discussed the results and commented on the manuscript.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="f1">
+      <label>Figure 1</label>
+      <caption>
+        <title>Structure of Calcineurin in complex with NFATc1 LxVP.</title>
+        <p>(<bold>A</bold>) Sequence alignment of the NFATc1-c4 LxVP sequences and constructs used in this study. (<bold>B</bold>) 2.6âÃ crystal structure of the CN:NFATc1<sub>LxVP</sub> complex. NFATc1 LxVP peptide (pink sticks); CNA (grey surface) and CNB (beige surface). The active site metals Zn<sup>2+</sup> and Fe<sup>3+</sup> are shown as yellow and blue spheres respectively. Electron density of the NFATc1 LxVP peptide visible residues (<sup>384</sup>DQYLAVP<sup>390</sup>) shown as blue mesh (2F<sub>o</sub>-F<sub>c</sub>, Ïâ=â1.0). <bold>C)</bold> Overlay of NFATc1 QYLaVP (pink sticks) and A238L NFLcVK (green sticks) motifs bound to CN. (<bold>D</bold>) Hydrogen bond network between Gln385<sub>NFATc1</sub>, Tyr386<sub>NFATc1</sub> and Gln50<sub>CNB</sub>. (<bold>E</bold>) Alignment of the 10 experimentally confirmed LxVP motifs in CN binding proteins. The -2 (pink) and -1 (green) positions of all sequences are highlighted and were leveraged to generate the expanded 6-residue SLiM.</p>
+      </caption>
+      <graphic xlink:href="srep38920-f1"/>
+    </fig>
+    <fig id="f2">
+      <label>Figure 2</label>
+      <caption>
+        <title>The correct LxVP SLiM is a ÏÉ¸LxVP motif.</title>
+        <p>(<bold>A</bold>) Flow chart of the ÏÉ¸LxVP motif search using Scanprosite, IUPRED and Uniprot to identify CN substrates. Scanprosite was used to probe the <italic>Homo Sapiens</italic> database for hits containing the expanded LxVP sequence generated from the experimental 3D-structure of the CN:NFATc1<sub>LxVP</sub> complex in combination with 10 other biochemically confirmed LxVP sites in CN interacting proteins (pink/green box). IUPRED was subsequently used to select only hits contained in intrinsically disordered regions (IDRs) based on a cutoff of 0.4 for IDR propensity (purple box). UniProt and Scanprosite were used to apply filters for hits containing pSer/pThr residues and putative PxIxIT sites respectively (blue boxes). A subset of 19 hits do not contain pSer/pThr residues and also lack putative PxIxIT sites (orange box). (<bold>B</bold>) Cellular distribution of the 89 proteins identified that contain putative LxVP and PxIxIT motifs in IDRs as well as experimentally confirmed pSer/pThr residues (UniProt).</p>
+      </caption>
+      <graphic xlink:href="srep38920-f2"/>
+    </fig>
+    <fig id="f3">
+      <label>Figure 3</label>
+      <caption>
+        <title>Redefining the LxVP core.</title>
+        <p>(<bold>A</bold>) The expanded ([NQDESRTH]-[YTDFILV]-L-x-[VPL]-x â Ï-É¸-L-x-VPLHI-x) SLiM was used in a search of 48 confirmed CN interacting proteins in humans (CN<sup>CON</sup>). (<bold>B</bold>) The Leu and Val core residue binding pockets (CNA, grey surface; CNB, beige surface). Residues are shown as pink sticks and dots to demonstrate Van-der-Waals distances. <bold>C)</bold> Weblogo of 43 CN<sup>CON</sup> proteins based on a Ï-É¸-L-x-VPLHI-x search. Residue symbols are weighted based on probability. (<bold>D</bold>) The expanded 6 residue [NQDESRTH]-[YTDFILV]-L-x-[VPL]-[PK] â Ï-É¸-L-x-VPL-PK SLiM was used as a search sequence in the <italic>Homo Sapiens</italic> database in ScanProsite. The resulting hits were subjected to 3 filters, i) presence of a putative PxIxIT SLiM (blue box), ii) propensity for intrinsic disorder (purple box) and iii) presence of experimentally confirmed pSer, pThr residues (blue box). (<bold>E</bold>) Direct interaction of CN with PALB2 and SYDE2.</p>
+      </caption>
+      <graphic xlink:href="srep38920-f3"/>
+    </fig>
+    <fig id="f4">
+      <label>Figure 4</label>
+      <caption>
+        <title>Human Calcineurin Interactome.</title>
+        <p>Change in the functional distribution of the CN<sup>CON</sup> and 567 predicted CN interacting proteins. Grey numbers correspond to CN<sup>CON</sup> proteins of the designated function. Black numbers correspond to the number of predicted proteins associated with the designated function. Bold outlines correspond to novel CN roles.</p>
+      </caption>
+      <graphic xlink:href="srep38920-f4"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

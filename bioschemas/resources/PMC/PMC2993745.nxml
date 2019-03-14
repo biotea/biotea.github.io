@@ -1,0 +1,1330 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:38:56Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2993745" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2993745</identifier><datestamp>2011-02-16</datestamp><setSpec>mbc</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Biol Cell</journal-id>
+      <journal-id journal-id-type="hwp">mbc</journal-id>
+      <journal-id journal-id-type="pmc">mbc</journal-id>
+      <journal-id journal-id-type="publisher-id">Mol. Bio. Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Biology of the Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1059-1524</issn>
+      <issn pub-type="epub">1939-4586</issn>
+      <publisher>
+        <publisher-name>The American Society for Cell Biology</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2993745</article-id>
+      <article-id pub-id-type="pmcid">PMC2993745</article-id>
+      <article-id pub-id-type="pmc-uid">2993745</article-id>
+      <article-id pub-id-type="pmid">20943950</article-id>
+      <article-id pub-id-type="publisher-id">3649487</article-id>
+      <article-id pub-id-type="doi">10.1091/mbc.E10-06-0495</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Articles</subject>
+          <subj-group>
+            <subject>Membrane Trafficking</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Rubicon and PLEKHM1 Negatively Regulate the Endocytic/Autophagic Pathway via a Novel Rab7-binding Domain</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tabata</surname>
+            <given-names>Keisuke</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">*</xref>
+          <xref ref-type="aff" rid="aff3">
+            <sup>Â§</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Matsunaga</surname>
+            <given-names>Kohichi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">*</xref>
+          <xref ref-type="author-notes" rid="FN1">
+            <sup>â </sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sakane</surname>
+            <given-names>Ayuko</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>â¡</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sasaki</surname>
+            <given-names>Takuya</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>â¡</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Noda</surname>
+            <given-names>Takeshi</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">*</xref>
+          <xref ref-type="aff" rid="aff3">
+            <sup>Â§</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Yoshimori</surname>
+            <given-names>Tamotsu</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">*</xref>
+        </contrib>
+        <aff id="aff1">*Department of Genetics, Graduate School of Medicine, Osaka University, Osaka 565-0871, Japan; and </aff>
+        <aff id="aff2"><sup>â¡</sup>Department of Biochemistry, Institute of Health Biosciences, University of Tokushima Graduate School, Tokushima 770-8503, Japan; </aff>
+        <aff id="aff3"><sup>Â§</sup>Laboratory of Intracellular Membrane Dynamics, Graduate School of Frontier Bioscience, Osaka University, Osaka 565â0871, Japan</aff>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Subramani</surname>
+            <given-names>Suresh</given-names>
+          </name>
+          <role>Monitoring Editor</role>
+        </contrib>
+      </contrib-group>
+      <author-notes>
+        <corresp>Address correspondence to: Tamotsu Yoshimori (<email>tamyoshi@fbs.osaka-u.ac.jp</email>).</corresp>
+        <fn fn-type="con">
+          <p>Author contributions: K.T. performed most of the experiments; K.M. performed the experiments shown in <xref ref-type="fig" rid="F7">Figure 7</xref>; A.S. and T.S. assisted with measuring the Rab7 GAP activity shown in Supplementary Figure S8; K.T., T.N., and T.Y wrote the manuscript; T.N. and T.Y. supervised the project. All the authors discussed the results.</p>
+        </fn>
+        <fn fn-type="present-address" id="FN1">
+          <p><sup>â </sup> Present address: Department of Molecular Medicine, Institute for Molecular and Cellular Regulation, Gunma University, 3-39-15 showa-machi, Maebashi 371-8512, Japan.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>1</day>
+        <month>12</month>
+        <year>2010</year>
+      </pub-date>
+      <volume>21</volume>
+      <issue>23</issue>
+      <fpage>4162</fpage>
+      <lpage>4172</lpage>
+      <history>
+        <date date-type="received">
+          <day>9</day>
+          <month>6</month>
+          <year>2010</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>6</day>
+          <month>9</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>9</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2010 by The American Society for Cell Biology</copyright-statement>
+        <license license-type="creative-commons">
+          <license-p>This article is distributed by The American Society for Cell Biology under license from the author(s). Two months after publication it is available to the public under an AttributionâNoncommercialâShare Alike 3.0 Unported Creative Commons License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0">http://creativecommons.org/licenses/by-nc-sa/3.0</ext-link>).</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:type="simple" xlink:href="zmk02310004162.pdf"/>
+      <abstract abstract-type="precis">
+        <p>Rubicon, a subunit of the Beclin 1-PI3-kinase complex and its homologue, PLEKHM1, negatively regulate endocytic pathway through the interaction with Rab7. Synchronous association with the Beclin 1âPI3-kinase complex and Rab7 is necessary for the function of Rubicon, but not PLEKHM1.</p>
+      </abstract>
+      <abstract>
+        <p>The endocytic and autophagic pathways are involved in the membrane trafficking of exogenous and endogenous materials to lysosomes. However, the mechanisms that regulate these pathways are largely unknown. We previously reported that Rubicon, a Beclin 1âbinding protein, negatively regulates both the autophagic and endocytic pathways by unidentified mechanisms. In this study, we performed database searches to identify potential Rubicon homologues that share the common C-terminal domain, termed the RH domain. One of them, <italic>PLEKHM1</italic>, the causative gene of osteopetrosis, also suppresses endocytic transport but not autophagosome maturation. Rubicon and PLEKHM1 specifically and directly interact with Rab7 via their RH domain, and this interaction is critical for their function. Furthermore, we show that Rubicon but not PLEKHM1 uniquely regulates membrane trafficking via simultaneously binding both Rab7 and PI3-kinase.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body><sec sec-type="intro"><title>INTRODUCTION</title><p>Endocytosis involves the intracellular transport of extracellular and plasma membrane substrates to endosomes/lysosomes and is involved in many physiological processes (<xref ref-type="bibr" rid="B20">Mukherjee <italic>et al.</italic>, 1997</xref>). Autophagy is also a process in which cytoplasmic constituents, including organelles, are transported within double-membraned autophagosomes to lysosomes for degradation (<xref ref-type="bibr" rid="B34">Xie and Klionsky, 2007</xref>; <xref ref-type="bibr" rid="B35">Yoshimori and Noda, 2008</xref>). Autophagy has divergent physiological roles in cancer, infection, immunity, and other processes (<xref ref-type="bibr" rid="B19">Mizushima <italic>et al.</italic>, 2008</xref>). Many reports suggest there is a common element between the endosomal and autophagic pathways (<xref ref-type="bibr" rid="B22">Raiborg and Stenmark, 2009</xref>; <xref ref-type="bibr" rid="B27">Simonsen and Tooze, 2009</xref>), but these commonalities have not been fully elucidated.</p><p>Recently, two groups identified an interesting protein, Rubicon, that may link these two pathways (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Zhong <italic>et al.</italic>, 2009</xref>). Rubicon was identified as a protein that binds to Beclin 1, a tumor suppressor protein and mammalian homologue of the yeast autophagy protein Atg6/Vps30 (<xref ref-type="bibr" rid="B17">Liang <italic>et al.</italic>, 1999</xref>; <xref ref-type="bibr" rid="B12">Kihara <italic>et al.</italic>, 2001</xref>a). Yeast Atg6/Vps30 facilitates two distinctive processes: autophagy and retrograde traffic from endosomes to the Golgi apparatus by two different phosphatidylinositol 3-kinase (PI3-kinase) complexes: class I (Atg14, Atg6, Vps34, Vps15) and class II (Atg38, Atg6, Vps34, Vps15) (<xref ref-type="bibr" rid="B13">Kihara <italic>et al.</italic>, 2001b</xref>). Mammalian Beclin 1 has a similar, albeit distinct, complex organization. One complex consists of Beclin 1, hAtg14L/Atg14/Barkor, hVps34, and p150/hVps15 and acts in autophagosome formation (<xref ref-type="bibr" rid="B8">Itakura <italic>et al.</italic>, 2008</xref>; <xref ref-type="bibr" rid="B31">Sun <italic>et al.</italic>, 2008</xref>; <xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Zhong <italic>et al.</italic>, 2009</xref>). Another complex contains Beclin 1, UVRAG, hVps34, and p150/hVps15 and functions in the endocytic pathway and autophagosomeâlysosome fusion (<xref ref-type="bibr" rid="B15">Liang <italic>et al.</italic>, 2006</xref>; <xref ref-type="bibr" rid="B8">Itakura <italic>et al.</italic>, 2008</xref>; <xref ref-type="bibr" rid="B16">Liang <italic>et al.</italic>, 2008</xref>). A third Beclin 1 complex includes Rubicon and the UVRAG complex (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>). Knockdown of Rubicon enhances endocytic transport and autophagosomeâlysosome fusion (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Zhong <italic>et al.</italic>, 2009</xref>). In addition, autophagy is induced even in the absence of nutrient starvation (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Zhong <italic>et al.</italic>, 2009</xref>). Thus, the third complex negatively regulates both the endocytic and autophagic pathways. A Rubicon homologue has not been identified in yeast, suggesting that this potential complex regulatory mechanism is specific to higher eukaryotes. However, it is unclear how Rubicon regulates membrane traffic.</p><p>To further determine the function of Rubicon, we searched mammalian gene databases for Rubicon homologues. As a result, we identified PLEKHM1, which also contains an RH domain and is reportedly a causative gene for osteopetrosis due to mutations, but the mechanisms remain unknown (<xref ref-type="bibr" rid="B33">Van Wesenbeeck <italic>et al.</italic>, 2007</xref>). Rubicon and PLEKHM1 share a common C-terminal domain, which we termed the RH (Rubicon homologous) domain. Here, we show that the RH domains of Rubicon and PLEKHM1 specifically interact with Rab7, a Rab GTPase that localizes to the late endosome/lysosome. These interactions are necessary for their functions in the endocytic pathway. In addition to binding to Rab7, Rubicon, but not PLEKHM1, also associates with the Beclin 1âPI3-kinase complex. Synchronous associations of Rubicon with the Beclin 1-PI3-kinase complex and Rab7 are necessary to regulate the endocytic and autophagic pathways. These findings provide new insights into the mechanisms that regulate membrane trafficking toward lysosomes.</p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Cells and Transfections</title><p>HeLa, MCF7, human embryonic kidney (HEK)293A, and A549 cells were cultured in DMEM D6546 (Sigma, St. Louis, MO) containing 10% fetal bovine serum supplemented with 4 mM L-glutamine in 5% CO<sub>2</sub> at 37Â°C. Cells were transiently transfected using Lipofectamine 2000 Reagent (Invitrogen, Carlsbad, CA) according to the manufacturer's protocol.</p></sec><sec><title>Plasmid Construction</title><p>The plasmids encoding monomeric red fluorescent protein (mStrawberry) and mCherry were generously provided by Dr. Roger Y. Tsien (<xref ref-type="bibr" rid="B26">Shaner <italic>et al.</italic>, 2004</xref>). The cDNAs encoding Rab5 WT, Rab5 Q79L, Rab5 S34N, Rab7 WT, Rab7 Q67L, and Rab7 T22N derived from Madin-Darby canine kidney (MDCK) cells were gifts from Dr. K. Umebayashi. Human Rab9 cDNA was reverse transcribed and subcloned into the polymeric enhanced green fluorescent protein (pEGFP)-C1 vector (Clontech, Palo Alto, CA). pEGFP-LC3 (<xref ref-type="bibr" rid="B11">Kabeya <italic>et al.</italic>, 2000</xref>) and mouse Rubicon (mRubicon) cDNA (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>) were previously described. The human Rubicon (hRubicon) was reverse transcribed using RNA extracted from A549 cells. For yeast two-hybrid analysis, the pGAD-C1 vector, pGBD-C1 vector and PJ69â4A strain were kingly provided by Dr. P. James (<xref ref-type="bibr" rid="B10">James <italic>et al.</italic>, 1996</xref>). cDNA encoding human PLEKHM1 (hPLEKHM1), also known as KIAA0356, was kindly provided by the Kazusa DNA Research Institute (Kisarazu, Japan). The PLEKHM1 (FL_CGHL) and Rubicon (FL_CGHL) mutants were generated by site-direct mutagenesis.</p></sec><sec><title>Antibodies and Reagents</title><p>Rabbit polyclonal anti-PLEKHM1 antibodies were raised against a recombinant protein encoding the C-terminal 300 amino acids, which were subcloned into the KpnI-XbaI sites of the pCold II DNA vector (TAKARA Bio, Tokyo, Japan). The plasmids were transformed into BL2 competent cells. The expressed protein was eluted from an SDS polyacrylamide gel, and the purified recombinant protein was used to immunize rabbits. The rabbit antisera against PLEKHM1 were affinity-purified using the same recombinant protein.</p><p>The following additional antibodies were used: rabbit polyclonal anti-FLAG (Sigma), mouse monoclonal anti-FLAG M2 (Sigma), rabbit polyclonal anti-Myc (MBL, Nagoya, Japan), rabbit polyclonal anti-GFP (MBL), rabbit polyclonal anti-RFP (MBL), rabbit polyclonal anti-LC3 (PM036, MBL), mouse monoclonal anti-EEA1 (BD Transduction Laboratories, Lexington, KY), mouse monoclonal anti-LAMP-1 (H4A3; Santa Cruz Biotechnology, Santa Cruz, CA), mouse monoclonal anti-Î±-tubulin (B5â1-2; Sigma), and sheep polyclonal anti-EGFR (Fitzgerald Industries, Concord, MA) antibodies. Rabbit polyclonal antibodies against Beclin 1, UVRAG, hVps34, p150 (hVps15), and Rubicon were previously described (<xref ref-type="bibr" rid="B12">Kihara <italic>et al.</italic>, 2001a</xref>; <xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>).</p></sec><sec><title>Preparation of Recombinant PLEKHM1 and Rubicon Proteins</title><p>cDNA encoding PLEKHM1 (FL) or Rubicon (FL) was subcloned into pCold TF DNA (TAKARA Bio). Recombinant proteins were expressed in BL21 cells and purified with Ni-NTA (Qiagen) according to manufacturer's instructions.</p></sec><sec><title>In vitro Glutathione <italic>S</italic>-transferase Pulldown Assay</title><p>In vitro glutathione <italic>S</italic>-transferase (GST) pulldown assays were performed as previously described (<xref ref-type="bibr" rid="B5">Christoforidis and Zerial, 2000</xref>) with some modifications. Briefly, to prepare the inactive and active forms of GST-Rab7 by nucleotide exchange, buffer 1 (50 mM Tris-HCl, pH 8.0, 2.5 mM DTT, 25 mM EDTA, and 12.5 mM MgCl<sub>2</sub>) containing 20 Î¼M GDP or GTPÎ³S and buffer 2 (20 mM Tris-Cl, pH 8.0, 1 mM DTT, 1 mM EDTA, 5 mM MgCl<sub>2</sub>, and 0.6% CHAPS) containing GST-Rab7 were mixed and incubated for 10 min at 30Â°C. Subsequently, MgCl<sub>2</sub> at a final concentration of 10 mM was added to this mixture to stabilize the nucleotides. GDP- or GTPÎ³S-loaded GST-Rab7 was incubated with glutathione Sepharose 4B (GE Heathcare Bioscience, Piscataway, NJ) for 1 h at 4Â°C and washed three times with buffer 3 (20 mM Tris-Cl, pH 8.0, 1 mM DTT, 1 mM EDTA, 5 mM MgCl<sub>2</sub>, and 0.3% CHAPS) and once with buffer 4 (20 mM Tris-Cl, pH 8.0, 1 mM DTT, 1 mM EDTA, and 5 mM MgCl<sub>2</sub>). Next, recombinant PLEKHM1 or Rubicon was added to the GST-Rab7 beads and incubated for 2 h at 4Â°C. Then, the beads were washed three times with buffer 4 and eluted with SDS-sample buffer. The samples were subjected to SDS-PAGE followed by immunoblotting.</p></sec><sec><title>Immunoblot Analysis</title><p>Cells were washed with ice-cold PBS, scraped, collected by centrifuging at 4Â°C, and then lysed in lysis buffer (20 mM Tris, pH 7.5, 150 mM NaCl, 1% Triton X-100, 1 mM phenylmethylsulfonyl fluoride, and a protease inhibitor cocktail; Roche, Mannheim, Germany) for 10 min on ice. The lysates were centrifuged at 15,000 Ã <italic>g</italic> for 10 min at 4Â°C, and the supernatants were collected. The samples were separated by SDS-PAGE and transferred to PVDF membranes. The membranes were blocked with 3% skim milk in 0.1% Tween-20/TBS and then incubated with the appropriate primary antibodies. When either the anti-PLEKHM1 antibody or anti-Rubicon antibody was used, the membranes were incubated in Can Get Signal Solution I (Toyobo, Tokyo, Japan) overnight at 4Â°C. Immunoreactive bands were detected using horseradish peroxidaseâconjugated secondary antibodies (Jackson ImmunoResearch Laboratories, West Grove, PA) and luminol solution (ECL plus; GE Healthcare Bioscience).</p></sec><sec><title>Adenoviral Overexpression System</title><p>3xFLAG-hPLEKHM1 was subcloned into the pENTR-1A plasmid (Invitrogen). The cDNA insert was subcloned into the pAd/CMV/V5-DEST vector (Invitrogen) using the Gateway system with LR clonase (Invitrogen). Recombinant adenovirus was prepared with the ViraPower Adenovirus Expression System (Invitrogen) according to the manufacturer's instructions. Adenovirus infections were performed as follows. One day before infection, â¼2 Ã 10<sup>5</sup> cells were seeded into six-well plates and incubated overnight at 37Â°C in a CO<sub>2</sub> incubator. The medium was then replaced with 2 ml of culture medium containing recombinant adenoviruses. After a 12-h incubation, the medium was replaced with 2 ml of culture medium. At 48 h after infection, the cells were used for experiments.</p></sec><sec><title>Adenovirus Small Hairpin RNA Expression System</title><p>hPLEKHM1 or hRubicon was knocked down using an adenovirus vector-based shRNA. The RNAi oligonucleotide sequences for hRubicon and GL2 luciferase (negative control) were previously described (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>). The target sequences for hPLEKHM1 were chosen using the siDirect algorithm (<ext-link ext-link-type="uri" xlink:href="http://design.rnai.jp">http://design.rnai.jp</ext-link>) and are located at base pairs 909â931 (5â²-CCGGTCTCTGCAAGAGGTATTGT-3â²). Oligonucleotides pairs were designed from these target sequences based on the Block-iT U6 RNAi Entry Vector Kit (Invitrogen). These pairs were annealed, ligated into the pENTR/U6 vector (Invitrogen), and transferred into the pAd/BLOCL-iT DEST vector (Invitrogen) through an LR recombination reaction (Invitrogen). The recombinant adenovirus was generated using ViraPower Adenoviral technology (Invitrogen). For knockdown analysis, subconfluent A549 cells in 35-mm dishes were infected with adenovirus and transferred to 60-mm dishes after 12 h. After an additional 24 h, the cells were reinfected with the virus. The medium was changed after an additional 12 h. At 5 d after infection, the cells were subjected to experiments.</p></sec><sec><title>Yeast Two-Hybrid Analysis</title><p>The yeast two-hybrid protocol was previously described (<xref ref-type="bibr" rid="B10">James <italic>et al.</italic>, 1996</xref>). The yeast strain PJ69â4A was transformed with pGBD-Rab and pGAD-hPLEKHM1 or pGAD-hRubicon. Transformants were grown on a yeast nitrogen base that was supplemented with or without histidine and contained 2.5 mM 3-amino-1,2,4-triazole (3-AT) at 30Â°C for 3â4 d.</p></sec><sec><title>Fluorescence and Immunofluorescence Microscopy</title><p>Cells were cultured on coverslips and then fixed with 3% paraformaldehyde in PBS for 20 min. For immunofluorescence microscopy, the cells were permeabilized with 50 Î¼g/ml digitonin in PBS for 10 min at room temperature. The permeabilized cells were incubated in blocking solution (0.1% gelatin in PBS) and then stained with primary and secondary antibodies diluted in blocking solution. The coverslips were mounted in Slowfade Gold Reagent (Invitrogen), and images were obtained with an Olympus FV1000 laser scanning confocal microscope (Olympus, Tokyo, Japan).</p></sec><sec><title>Immunoprecipitation</title><p>Cells were lysed with lysis buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, 10% [wt/vol] glycerol, 100 mM NaF, 10 mM EGTA, 1 mM Na<sub>3</sub>VO<sub>4</sub>, 1% Triton X-100, 5 Î¼M ZnCl<sub>2</sub>, 1 mM phenylmethylsulfonyl fluoride, and a protease inhibitor cocktail; Roche). The cell lysates were clarified by centrifuging at 15,000 rpm for 10 min at 4Â°C. The supernatants were immunoprecipitated with FLAG M2 agarose beads (Invitrogen) or the indicated primary antibody and protein G-Sepharose 4FF (GE Healthcare Bioscience). Immunocomplexes were washed five times with wash buffer (50 mM Tris-HCl, pH 7.5, 150 mM NaCl, and 0.1% Triton X-100) and then subjected to immunoblot analysis.</p></sec><sec><title>EGF Transport to Labeled Lysosomes</title><p>A549 cells were incubated with 0.1 mg/ml dextran-conjugated tetramethylrhodamine (70,000 MW; Invitrogen) in DMEM containing 10% FBS for 16â18 h. The cells were washed twice with PBS and infected with adenovirus in fresh medium for 6â9 h to overexpress the indicated proteins. After infection, the cells were washed twice with PBS and incubated in fresh medium. At 30â36 h after infection, the cells were treated with serum-free DMEM for 2 h at 37Â°C and then incubated in uptake medium (DMEM, 2% BSA, and 20 mM HEPES, pH 7.5) containing 2 Î¼g/ml Alexa 488-EGF (Invitrogen). After incubating for 15 min at 37Â°C, the cells were washed twice with PBS to remove unbound EGF and transferred to a 37Â°C incubator. After an additional incubation for 45 min, the cells were fixed and examined by confocal microscopy.</p></sec><sec><title>Epidermal Growth Factor Receptor Degradation</title><p>A549 cells were cultured in growth medium to â¼80% confluency, washed with PBS, and incubated in serum-free medium for 2 h. Epidermal growth factor receptor (EGFR) endocytosis was stimulated by adding 100 ng/ml EGF (Invitrogen) to the serum-free medium. At 15, 60, 120, and 180 min after EGF stimulation, the cells were lysed with lysis buffer and subjected to immunoblot analysis.</p></sec><sec><title>Statistical Analysis</title><p>Statistical analyses were performed using a two-tailed unpaired <italic>t</italic> test. p values &lt; 0.05 were considered statistically significant.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Rubicon and PLEKHM1 Directly Interact with Rab7 via the RH Domain</title><p>Rubicon functions in the late stage of the endocytic pathway and in the maturation step of autophagy (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Zhong <italic>et al.</italic>, 2009</xref>). Because Rab7 is involved in both processes (<xref ref-type="bibr" rid="B6">Feng <italic>et al.</italic>, 1995</xref>; <xref ref-type="bibr" rid="B7">Gutierrez <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B9">Jager <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B30">Stenmark, 2009</xref>), we examined whether Rubicon associates with Rab7. As shown in Supplementary Figure S1A, a yeast two-hybrid analysis revealed that Rubicon binds to Rab7, but not Rab5 or Rab9. In addition, a series of deletion mutants showed that Rubicon binds to Rab7 via the C-terminal RH domain (<xref ref-type="fig" rid="F1">Figure 1</xref>A). Another RH domainâcontaining protein, PLEKHM1, also interacted with Rab7. Furthermore, PLEKHM1 specifically interacted with Rab7 through its RH domain (Supplementary Figure S1A; <xref ref-type="fig" rid="F1">Figure 1</xref>A). Thus, the RH domain is a novel Rab7-binding motif that is not similar to other known Rab7-binding motifs.</p><fig id="F1" position="float"><label>Figure 1.</label><caption><p>PLEKHM1 and Rubicon preferentially bind directly to the GTP-bound form of Rab7. (A) Deletion analysis of PLEKHM1 and Rubicon. Deletion series of PLEKHM1 and Rubicon in which the indicated deletions in the Rubicon homology (RH) domains and CGHL mutagenesis are shown with magenta and asterisks (****), respectively. The interactions between the PLEKHM1 or Rubicon deletion mutants and Rab7 were examined by a yeast two-hybrid assay. In all cases, two independent colonies were tested. (B and C) The nucleotide dependency was examined by an in vitro GST pulldown assay as described in <italic>Materials and Methods</italic>. (C) Recombinant PLEKHM1 and Rubicon proteins were detected with anti-PLEKHM1 and anti-Rubicon antibodies. GST-Rab7 was visualized by staining with Coomassie Brilliant Blue (CBB). (D) The relative binding amounts were quantified and are shown as percentages.</p></caption><graphic xlink:href="zmk0231096940001"/></fig><p>The RH domain contains a zinc finger-like motif composed of nine cysteine residues and a histidine residue that is conserved among all five human RH domainâcontaining proteins (Supplementary Figure S2). We constructed a CGHL mutant in which three cysteine residues and a histidine residue in the putative core of the zinc finger-like motif were replaced with glycine and leucine residues, respectively. The CGHL mutants of PLEKHM1 and Rubicon failed to interact with Rab7 (<xref ref-type="fig" rid="F1">Figure 1</xref>A).</p><p>Rubicon only interacted with the wild-type and GTP-bound forms (QL) (Supplementary Figure S1A; <xref ref-type="fig" rid="F1">Figure 1</xref>A). However, PLEKHM1 bound to wild-type and both the GTP-bound form (QL) and GDP-bound form (TN) of Rab7 in the yeast two-hybrid assay (Supplementary Figure S1A; <xref ref-type="fig" rid="F1">Figure 1</xref>A) and a coimmunoprecipitation analysis in mammalian cells (Supplementary Figure S1B). To clarify the nucleotide dependency of this interaction, we performed an in vitro binding assay with immobilized recombinant GST-Rab7 loaded with GTPÎ³S or GDP analogs. As a result, recombinant PLEKHM1 strongly interacted with the GTPÎ³S-loaded GST-Rab7, but only minimally interacted with the GDP-bound form (<xref ref-type="fig" rid="F1">Figure 1</xref>, B and C). Recombinant proteins for Rubicon also preferentially interacted with the GTP-bound form (<xref ref-type="fig" rid="F1">Figure 1</xref>, B and C). Together, these data demonstrated that PLEKHM1 and Rubicon directly interact with the GTP-bound form of Rab7.</p></sec><sec><title>PLEKHM1 Negatively Regulates Endocytic Transport But Not Autophagic Transport</title><p>Next, we examined if PLEKHM1, like Rubicon, functions in the endocytic and autophagic pathways. Some mutations in <italic>PLEKHM1</italic> are known to cause osteopetrosis (<xref ref-type="bibr" rid="B33">Van Wesenbeeck <italic>et al.</italic>, 2007</xref>), suggesting that PLEKHM1 plays a role in osteoclast function. However, the mechanisms underlying this causative link have not been elucidated. Moreover, although PLEKHM1 is ubiquitously expressed, its role in other cell types is also unknown. The ability of PLEKHM1 to bind to Rab7, as shown in this study, and to colocalize with late endosomal/lysosomal markers, as shown previously (<xref ref-type="bibr" rid="B33">Van Wesenbeeck <italic>et al.</italic>, 2007</xref>), suggest that PLEKHM1 functions in the endocytic pathway.</p><p>To determine the role of PLEKHM1 in the endocytic pathway, we first examined the effects of PLEKHM1 overexpression on the degradation of EGFR. EGFR degradation was significantly delayed in PLEKHM1-overexpressing cells compared with the controls (<xref ref-type="fig" rid="F2">Figure 2</xref>, A and B). Next, we examined the integrity of the endocytic pathway. Internalized Alexa 488-EGF colocalized with lysosomes that were stained with tetramethylrhodamine (TMR)-dextran in the perinuclear region of control cells, but EGF minimally colocalized with TMR-dextran in PLEKHM1-overexpressing cells (<xref ref-type="fig" rid="F2">Figure 2</xref>, C and D). The overall incorporation of Alexa 488-EGF into cells was not significantly affected (<xref ref-type="fig" rid="F2">Figure 2</xref>E). In PLEKHM1-overexpressing cells, internalized EGF accumulated in EEA1-positive compartments but not in LAMP1-positive compartments (<xref ref-type="fig" rid="F2">Figure 2</xref>F). Lysotracker staining showed that the endosomes in PLEKHM1-overexpressing cells were acidic, which suggests that the effects of overexpression on the transport of cargo proteins were not due to increased endosomal/lysosomal pH (Supplementary Figure S3A). Taken together, we concluded that PLEKHM1 overexpression inhibits the transport of EGF from early endosomes to lysosomes.</p><fig id="F2" position="float"><label>Figure 2.</label><caption><p>The effects of PLEKHM1 overexpression on the endocytic pathway. (A and B) (A) EGFR degradation was impaired by overexpressing PLEKHM1. A representative anti-EGFR immunoblot of EGF-stimulated A549 cells. The same membrane was immunoblotted with an anti-Î±-tubulin antibody as a loading control. (B) The immunodetectable levels of EGFR (relative to Î±-tubulin) remained constant in PKLEMH1 cells relative to the controls (mean Â± SEM). (C) EGF transport was disrupted by overexpressing PLEKHM1. EGF transport to lysosomes was evaluated based on the colocalization of EGF and dextran. (D) The percentages of colocalization are shown as merged EGF/total EGF (mean Â± SD, n &gt; 20). Bars, 20 Î¼m. (E) The effects of PLEKHM1 overexpression on EGF uptake. The EGF intensities 15 min after adding EGF are shown as percentages (mean Â± SD, n &gt; 20). (F) Accumulation of EGF on early endosomes in PLEKHM1-overexpressing cells. Cells were stained with an anti-EEA1 antibody, an early endosomal marker, and an anti-LAMP1 antibody, a late endosomal/lysosomal marker. Bars, 20 Î¼m.</p></caption><graphic xlink:href="zmk0231096940002"/></fig><p>Next, we examined the effects of PLEKHM1 knockdown on endocytic transport. Two PLEKHM1-specific shRNAs strongly decreased PLEKHM1 protein expression in A549 cells (<xref ref-type="fig" rid="F3">Figure 3</xref>A). We found that the total EGFR levels were already decreased in PLEKHM1 knockdown cells before EGF treatment (<xref ref-type="fig" rid="F3">Figure 3</xref>, A and B). The steady-state EGFR levels were significantly decreased to 40â50% of the control (<xref ref-type="fig" rid="F3">Figure 3</xref>B), and this decrease was largely due to lysosomal degradation because lysosomal protease inhibitors blocked this decrease (<xref ref-type="fig" rid="F3">Figure 3</xref>, C and D). In addition, we kinetically measured the rate at which Alexa 488-EGF colocalized with LAMP1 in PLEKHM1 knockdown cells. The colocalization rates were increased compared with the control cells at each time point (<xref ref-type="fig" rid="F3">Figure 3</xref>E; Supplementary Figure S4), supporting the idea that PLEKHM1 knockdown accelerates transport to lysosomes. Thus, we concluded that PLEKHM1 depletion constitutively enhances EGFR degradation. Both the overexpression and knockdown experiments are consistent with the idea that PLEKHM1 negatively regulates the endocytic trafficking of EGFR.</p><fig id="F3" position="float"><label>Figure 3.</label><caption><p>The effects of PLEKHM1 knockdown on the endocytic pathway. (A and B) The effects of PLEKHM1 knockdown on the EGFR levels. (A) Whole cell extracts from knockdown cells were analyzed by immunoblotting using the indicated antibodies. The experiments were performed in triplicate and a representative gel is shown. (B) Each protein level was normalized to the Î±-tubulin level and expressed as a percentage relative to control. Data are shown as the mean Â± SEM. (C and D) PLEKHM1 knockdown enhances the degradation of EGFR. (C) Knockdown cells were repeatedly treated with lysosomal inhibitors (1 mg/ml leupeptin and 5 Î¼g/ml E-64d) for 50 h and subjected to immunoblotting. (D) The EGFR levels were normalized to the Î±-tubulin levels and are shown as a percentage relative to the control. (E) The effects of knockdown on the efficiency of EGF transport to LAMP1-positive endosomes. Knocked down cells were stained with an anti-LAMP1 antibody at each time point. The percentages of colocalization are shown as merged EGF/total EGF (mean Â± SD, n &gt; 20). Colocalization images are shown in Supplementary Figure S4.</p></caption><graphic xlink:href="zmk0231096940003"/></fig><p>In addition to the endocytic pathway, Rubicon negatively regulates the fusion between autophagosomes and lysosomes, and overexpressing Rubicon compromises this step (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; Supplementary Figure S3B). In contrast, GFP-LC3 colocalized to LAMP1-labeled lysosomes in PLEKHM1-overexpressing cells, suggesting that PLEKHM1 does not affect fusion (Supplementary Figure S3B). To further verify this finding, we examined the effects on PLEKHM1 knockdown on autophagy flux. First, we performed a tfLC3 (GFP-mRFP-LC3) assay in which the ratio of the number of red dots to that of green/red dots represents the efficiency of autophagosomeâlysosome fusion in tfLC3-expressing cells. There were no differences in the ratio between the control and PLEKHM1 knockdown cells (Supplementary Figure S5, A and B). Next, we monitored LC3 flux by immunoblotting. As shown in Supplementary Figure S5, C and D, the increase in the amount of LC3 after treating with protease inhibitors was slightly larger in PLEKHM1 knockdown cells than in control cells, but this difference was significantly smaller compared with Rubicon knockdown cells. Taken together, we conclude that PLEKHM1 is not directly involved in autophagy.</p></sec><sec><title>Function of PLEKHM1 and Rubicon in Endosomal Transport Depends on Their Abilities to Bind to the GTP-bound Form of Rab7</title><p>Given that both Rubicon and PLEKHM1 bind to Rab7 and play a role in endosomal transport, we next examined the effects expressing Rab7 dominant-active or -negative mutants on the endosomal localization of Rubicon and PLEKHM1. On expression of the dominant-active Rab7 QL mutant, mStrawberry-PLEKHM1 was increasingly recruited to endosomes with Rab7 QL, as shown previously (<xref ref-type="bibr" rid="B33">Van Wesenbeeck <italic>et al.</italic>, 2007</xref>; <xref ref-type="fig" rid="F4">Figure 4</xref>A). On the other hand, expression of the dominant-negative Rab7 TN mutant inhibited the localization of PLEKHM1 to endosomal membranes (<xref ref-type="fig" rid="F4">Figure 4</xref>A). Similarly, we also found that the recruitment of mStrawberry-Rubicon to endosomal membranes was enhanced by Rab7 QL, but inhibited by the TN mutant (<xref ref-type="fig" rid="F4">Figure 4</xref>A). Neither the dominant-negative Rab5 SN mutant nor the Rab9 SN mutant affected the localization of mStrawberry-Rubicon (Supplementary Figure S6). Furthermore, the nonâRab7-binding CGHL mutants of PLEKHM1 and Rubicon did not localize to endosomal membranes (<xref ref-type="fig" rid="F4">Figure 4</xref>B). These data show that interactions with the GTP-bound form of Rab7 are required for their localization to endosomes, which is consistent with the in vitro binding assay.</p><fig id="F4" position="float"><label>Figure 4.</label><caption><p>The localization of PLEKHM1 and Rubicon is dependent on the Rab7 interaction. (A) The effects of coexpressing Rab7 mutants on the localization of mStrawberry-PLEKHM1 and mStrawberry-Rubicon. HeLa cells were transiently cotransfected with the indicated plasmids and then examined by confocal microscopy. Bars, 20 Î¼m. (B) Mutants that cannot interact with the GTP-bound form of Rab7, such as PLEKHM1 (FL_CGHL), PLEKHM1 (1â895), and Rubicon (FL_CGHL), localize to the cytoplasm. HeLa cells were transfected with each GFP-tagged mutant. Bars, 20 Î¼m.</p></caption><graphic xlink:href="zmk0231096940004"/></fig><p>To explore whether binding to Rab7 through the RH domain is important for the function of these proteins, we tested the effects of overexpressing the CGHL mutants on EGF transport to lysosomes. Whereas PLEKHM1 or Rubicon overexpression inhibited the transport of EGF to TMR-labeled lysosomes (<xref ref-type="fig" rid="F2">Figures 2</xref>, C and D, and <xref ref-type="fig" rid="F5">5</xref>), overexpression of the CGHL mutants did not affect EGF transport (<xref ref-type="fig" rid="F5">Figure 5</xref>). Overexpression of PLEKHM1 (CGHL) also did not affect EGFR degradation (Supplementary Figure S7A). Moreover, although wild-type overexpression caused the endosomes to become abnormally enlarged, overexpression of the CGHL mutant did not affect endosomal morphology (Supplementary Figure S3C).</p><fig id="F5" position="float"><label>Figure 5.</label><caption><p>The interactions with Rab7 are important for the regulation of the endocytic pathway. The effects of overexpressing the nonâRab7-binding CGHL mutant on endocytic transport were evaluated by assessing the transport of EGF to lysosomes as shown in <xref ref-type="fig" rid="F2">Figure 2</xref>, C and D. The percentages of colocalization are shown as merged EGF/total EGF (mean Â± SD, n &gt; 30). Bars, 20 Î¼m.</p></caption><graphic xlink:href="zmk0231096940005"/></fig><p>In contrast to wild-type Rubicon, overexpressing the Rubicon CGHL mutant did not affect autophagy induction and autophagosome maturation (Supplementary Figure S7, BâE), indicating that Rab7 binding is required for Rubicon to function in autophagy as well as the endocytic pathway. These findings raise the possibility that PLEKHM1 and Rubicon act as GTP-activating proteins for Rab7. However, our attempts to monitor the GAP activity of the RH domain toward Rab7 in vitro have been unsuccessful to date (Supplementary Figure S8).</p></sec><sec><title>Simultaneous Binding to the Beclin 1-hVps34 Complex and Rab7 Is Critical for Rubicon Function</title><p>Although Rubicon was originally identified as a Beclin 1âbinding protein (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Zhong <italic>et al.</italic>, 2009</xref>), we found that PLEKHM1 does not bind to Beclin 1 (Supplementary Figure S9). Therefore, we next examined the relationship between the ability of Rubicon to bind to Beclin 1 and to Rab7. First, we determined that neither the Rab7 dominant-negative nor -active mutant affects the interaction between Rubicon and Beclin 1 (<xref ref-type="fig" rid="F6">Figure 6</xref>A). Second, we showed that the Rubicon (CGHL) mutants could also bind to Beclin 1 (<xref ref-type="fig" rid="F6">Figure 6</xref>A). These data demonstrate that the interaction with Rab7 is not required for the RubiconâBeclin 1 association. Third, we examined whether Rab7 interacts with Rubicon in the Beclin 1 complex or only with free Rubicon. Pulldown assays with FLAG-Rab7 successfully coprecipitated endogenous Rubicon together with Beclin 1, p150 (hVps15) and hVps34 (<xref ref-type="fig" rid="F6">Figure 6</xref>, B and C). Fourth, Rubicon knockdown conspicuously disturbed the coimmunoprecipitation of Rab7 with Beclin 1, p150 (hVps15), and hVps34 (<xref ref-type="fig" rid="F6">Figure 6</xref>, B and C). Taken together, these results suggest that Rubicon forms a complex that includes both the Beclin 1 complex and Rab7. Previous reports have shown that hVps34 associates with Rab7 via p150 (hVps15) (<xref ref-type="bibr" rid="B29">Stein <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B2">Cao <italic>et al.</italic>, 2007</xref>). Our data suggest that the ability of Rab7 to bind to hVps34 and p150 (hVps15) is also mediated by Rubicon.</p><fig id="F6" position="float"><label>Figure 6.</label><caption><p>Rubicon mediates simultaneous binding between the Beclin 1âPI3-kinase complex and Rab7. (A) The interaction between Beclin 1 and Rubicon is Rab7-independent. Lysates from HEK293A cells expressing a Rab7 mutant, Myc-Beclin 1 and FLAG-Rubicon (wild-type) or FLAG-Rubicon (CGHL) mutant were immunoprecipitated with anti-FLAG M2 beads. (B and C) Rubicon mediates simultaneous binding between the endogenous Beclin 1âPI3-kinase complex and Rab7. (B) Lysates from knocked down cells that were transiently transfected with the vector control or FLAG-Rab7 were immunoprecipitated with anti-FLAG M2 beads and subjected to immunoblotting with the indicated antibodies. (C) The immunoprecipitated protein levels in B were quantified.</p></caption><graphic xlink:href="zmk0231096940006"/></fig><p>Next, we examined whether the ability of Rubicon to bind to the Beclin 1 complex is also indispensable for Rubicon function. The Beclin 1âbinding region of Rubicon maps to a. a. residues 393â521, which contain a coiled-coil motif that is sufficient to associate with endogenous Beclin 1 (<xref ref-type="fig" rid="F7">Figure 7</xref>). When the sequence corresponding to this Beclin 1âassociating domain (BA domain) was overexpressed in cells, endogenous Rubicon did not coimmunoprecipitate with Beclin 1, probably due to competition (<xref ref-type="fig" rid="F7">Figure 7</xref>). Moreover, overexpression of the BA domain impaired the coimmunoprecipitation of Beclin 1 with Rab7, although it did not affect the ability of Rubicon to bind to Rab7 (<xref ref-type="fig" rid="F8">Figure 8</xref>, A and B). Therefore, Rab7 appears to be the only available binding partner for endogenous Rubicon in cells that overexpress the BA domain. In these cells, EGFR degradation and autophagy are significantly accelerated (<xref ref-type="fig" rid="F8">Figure 8</xref>, C and D; Supplementary Figure S10), similar to previously reported Rubicon knockdown phenotypes (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>). These findings strongly suggest that even if Rab7 is bound, loss of Beclin 1 association causes defects in Rubicon function. Taken together, we conclude that Rubicon functions by binding to Beclin 1 and Rab7 simultaneously.</p><fig id="F7" position="float"><label>Figure 7.</label><caption><p>The Beclin 1âassociating (BA) domain has a dominant-negative effect on Beclin 1 binding. Schematic view of the mouse Rubicon (mRubicon) structure and its deletion mutants. The mRubicon deletion mutants were subjected to immunoprecipitation analyses in HEK293A cells to map the Beclin 1âbinding region. An anti-RFP antibody was used to detect mStrawberry (mSt) and mCherry. Lysates from HEK293A cells expressing each plasmid were immunoprecipitated with an anti-Beclin 1 antibody and immunoblotted with an anti-Rubicon antibody. An asterisk indicates a nonspecific band.</p></caption><graphic xlink:href="zmk0231096940007"/></fig><fig id="F8" position="float"><label>Figure 8.</label><caption><p>The ability of Rubicon to interact with both Rab7 and Beclin 1 is important to regulate the endocytic pathway. (A and B) The effects of overexpressing the BA domain (393â521) on the simultaneous interactions among Beclin 1, Rubicon, and Rab7. (A) Coimmunoprecipitation of endogenous Beclin 1 with Rab7 was disrupted in HEK293A cells overexpressing the BA domain, whereas Rubicon coimmunoprecipitated with Rab7 in these cells. An asterisk indicates a nonspecific band. (B) Immunoprecipitated protein levels in A were quantified. (C and D) The effects of overexpressing the BA domain on EGFR degradation. (C) EGFR levels were monitored in A549 cells overexpressing the BA domain as shown in <xref ref-type="fig" rid="F2">Figure 2</xref>A. (D) Immunodetectable levels of EGFR (relative to Î±-tubulin) remained constant in cells overexpressing the BA domain relative to the controls (mean Â± SEM). An anti-RFP antibody was used to detect mCherry-mRubicon (393â521). (E) PLEKHM1 and Rubicon negatively regulate the endocytic pathway through their interactions with Rab7. Their interactions with Rab7 are also required for their localization to endosomal membranes. Rubicon mediates the simultaneous interaction between the Beclin 1âPI3-kinase complex and Rab7, which is an important step in the regulation of the endocytic pathway and autophagosome maturation.</p></caption><graphic xlink:href="zmk0231096940008"/></fig></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>In this study, we described a novel RH protein domain that associates directly with Rab7. Rubicon and PLEKHM1 negatively regulate endosomal transport by binding to Rab7 via their RH domains (<xref ref-type="fig" rid="F8">Figure 8</xref>E). Furthermore, this study provides novel insight into the function of PLEKHM1. These two RH domainâcontaining proteins also have several significant differences. Rubicon must bind to the Beclin 1âPI3-kinase complex in addition to Rab7 for its function, whereas PLEKHM1 only requires Rab7 binding. Rubicon, unlike PLEKHM1, is involved in autophagosome maturation. Both of these proteins localize to endosomes but do not show complete colocalization. Therefore, these two RH domain proteins seem to function through different mechanisms (<xref ref-type="fig" rid="F8">Figure 8</xref>E).</p><p>PLEKHM1 bound not only to wild-type Rab7 and the Rab7QL mutant but also to the Rab7TN mutant in a yeast two-hybrid assay and immunoprecipitation analyses in mammalian cells, suggesting that PLEKHM1 may bind to both the GTP-bound and GDP-bound forms of Rab7. However, the TN mutant is predicted to have reduced affinity for both GDP and GTP and may behave as a nucleotide-free Rab7 depending on the assay conditions. Hence, in order to determine the precise nucleotide dependence, we performed an in vitro GST pulldown assay and found that recombinant PLEKHM1 strongly interacted with GTPÎ³S-loaded Rab7 but only minimally interacted with GDP-loaded Rab7. The data convincingly confirm that PLEKHM1 preferentially binds to the GTP-bound form of Rab7, corroborating our hypothesis that PLEKHM1, like Rubicon, is a Rab7 effector.</p><p>The structure of the RH domain appears to be important for the recognition of Rab7. Point mutations at cysteine residues in the RH domain abrogate the interaction with Rab7, similar to the relationship between Rab3a and its effector Rabphilin3a (<xref ref-type="bibr" rid="B28">Stahl <italic>et al.</italic>, 1996</xref>). The Rab3a-binding site in Rabphilin3a has an architecture that is similar to the RH domain in Rubicon, including a long-Î±-helix-zinc fingerâshort-Î±-helix, in which both the long and short Î±-helices interact with Rab3a (<xref ref-type="bibr" rid="B21">Ostermeier and Brunger, 1999</xref>). A mutation in the zinc finger of Rabphilin3a disrupts this configuration and abolishes Rab3a binding (<xref ref-type="bibr" rid="B28">Stahl <italic>et al.</italic>, 1996</xref>). Likewise, the RH domain structure may be important for binding with Rab7.</p><p>How do Rubicon and PLEKHM1 negatively regulate EGF and its receptor transport to lysosomes? It was recently determined that Rab7 catalyzes retrograde trafficking from the endosomes to the Golgi apparatus by interacting with a retromer complex (<xref ref-type="bibr" rid="B23">Rojas <italic>et al.</italic>, 2008</xref>; <xref ref-type="bibr" rid="B24">Seaman <italic>et al.</italic>, 2009</xref>). Likewise, Rab7 may positively act in the retrieval pathway of EGFR to the plasma membrane. When Rubicon and PLEKHM1 are knocked down, retrieval trafficking to the plasma membrane may be impaired, leading to enhanced trafficking to the lysosomes. Alternatively, Rubicon and PLEKHM1 may compete with other Rab7 effectors that positively function in transport to the lysosomes. The adenovirus protein RIDÎ±, which functionally mimics Rab7 and can directly bind to the Rab7 effectors RILP and ORP1L, enhances the lysosomal degradation of EGFR even at a resting state in the absence of EGF activation (<xref ref-type="bibr" rid="B25">Shah <italic>et al.</italic>, 2007</xref>). Rab7 functions in many cell types, including osteoclasts (<xref ref-type="bibr" rid="B36">Zhao <italic>et al.</italic>, 2001</xref>). Given its ubiquitous expression pattern, PLEKHM1 also likely functions as a universal effector of Rab7.</p><p>Previously, it was shown that Rab7 associates with hVps34 and p150 (hVps15) (<xref ref-type="bibr" rid="B29">Stein <italic>et al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B2">Cao <italic>et al.</italic>, 2007</xref>). In this study, we demonstrated that Rubicon mediates this interaction. Notably, the function of Rubicon in the endocytic and autophagic pathways requires binding to both Rab7 and the Beclin 1âPI3-kinase complex. This unique feature may allow Rubicon to control these two membrane trafficking pathways, although its exact function remains unclear. One possibility is that synchronized suppression of these two positive regulators during membrane trafficking guarantees that transport can be stopped at a certain step. Rubicon may also facilitate the recycling of receptors to the plasma membrane through Rab7 and increments of local PI3P (or anchoring PI3-kinase to endosomes by binding to Rab7), causing a secondary reduction in the transport to lysosomes (<xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>). This scenario is analogous to earlier findings that retromer-mediated retrograde transport from endosomes to the Golgi apparatus is PI3P-dependent (<xref ref-type="bibr" rid="B1">Burda <italic>et al.</italic>, 2002</xref>). Furthermore, recycling of the cation-independent mannose 6-phosphate receptor, EGFR, and transferrin receptor is mediated by PI3P-binding protein, SNX1, SNX4, and SNX16 (<xref ref-type="bibr" rid="B14">Kurten <italic>et al.</italic>, 1996</xref>; <xref ref-type="bibr" rid="B3">Carlton <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B4">Choi <italic>et al.</italic>, 2004</xref>; <xref ref-type="bibr" rid="B32">Traer <italic>et al.</italic>, 2007</xref>). A previous report demonstrated that UVRAG, a component of the Beclin 1 complex, binds to the HOPS complex that has GEF activity toward Rab7 (<xref ref-type="bibr" rid="B16">Liang <italic>et al.</italic>, 2008</xref>). Therefore, Rubicon may terminate Rab7-dependent processes by modulating UVRAG in the Beclin 1 complex, and this hypothesis is supported by findings that the phenotype of the endocytic pathway in Rubicon knockdown cells is the exact opposite of the UVRAG knockdown phenotype (<xref ref-type="bibr" rid="B16">Liang <italic>et al.</italic>, 2008</xref>; <xref ref-type="bibr" rid="B18">Matsunaga <italic>et al.</italic>, 2009</xref>).</p><p>Together, our present study provides new insights into the regulation of the endocytic/autophagic pathway. We not only identified new Rab7 effectors but also discovered a direct connection between two key players in membrane traffic, a Rab protein and PI3-kinase. Rab7 and PI3-kinase function at specific stages in a concerted manner through Rubicon.</p></sec>
+      <sec sec-type="supplementary-material">
+         <title>Supplementary Material</title>
+         <supplementary-material id="PMC_1" content-type="local-data">
+            <caption>
+               <title>[Supplemental Materials]</title>
+            </caption>
+            <media mimetype="text" mime-subtype="html" xlink:href="E10-06-0495_index.html"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="E10-06-0495_1.pdf"/>
+         </supplementary-material>
+      </sec>
+   </body>
+  <back>
+    <fn-group>
+      <fn fn-type="other">
+        <p>This article was published online ahead of print in <italic>MBoC in Press</italic> (<ext-link ext-link-type="uri" xlink:href="http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E10-06-0495">http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E10-06-0495</ext-link>) on October 13, 2010.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>ACKNOWLEDGMENTS</title>
+      <p>We thank Dr. Roger Y. Tsien (University of California, San Diego, CA) for kindly providing the mStrawberry and mCherry cDNAs, Dr. Kyohei Umebayashi (University of Osaka, Japan) for kindly providing the Rab7 cDNA, Dr. P. James (University of Wisconsin, Madison) for kindly providing the pGAD-C1 vector, pGBD-C1 vector and PJ69â4A strain, and all members of the Yoshimori laboratory for helpful discussions. This work was supported in part by the Ministry of Education, Culture, Sports, Science, and Technology (T.Y. and T.N.) and the Takeda Science Foundation (T.Y.).</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burda</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Padilla</surname>
+              <given-names>S. M.</given-names>
+            </name>
+            <name>
+              <surname>Sarkar</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Emr</surname>
+              <given-names>S. D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Retromer function in endosome-to-Golgi retrograde transport is regulated by the yeast Vps34 PtdIns 3-kinase</article-title>
+          <source>J. Cell Sci</source>
+          <year>2002</year>
+          <volume>115</volume>
+          <fpage>3889</fpage>
+          <lpage>3900</lpage>
+          <pub-id pub-id-type="pmid">12244127</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cao</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Laporte</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Backer</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name>
+              <surname>Wandinger-Ness</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Stein</surname>
+              <given-names>M. P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Myotubularin lipid phosphatase binds the hVPS15/hVPS34 lipid kinase complex on endosomes</article-title>
+          <source>Traffic</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>1052</fpage>
+          <lpage>1067</lpage>
+          <pub-id pub-id-type="pmid">17651088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carlton</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Bujny</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Peter</surname>
+              <given-names>B. J.</given-names>
+            </name>
+            <name>
+              <surname>Oorschot</surname>
+              <given-names>V.M.J.</given-names>
+            </name>
+            <name>
+              <surname>Rutherford</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Mellor</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Klumperman</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>McMahon</surname>
+              <given-names>H. T.</given-names>
+            </name>
+            <name>
+              <surname>Cullen</surname>
+              <given-names>P. J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sorting nexin-1 mediates tubular endosome-to-TGN transport through coincidence sensing of high-curvature membranes and 3-phosphoinositides</article-title>
+          <source>Curr. Biol</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>1791</fpage>
+          <lpage>1800</lpage>
+          <pub-id pub-id-type="pmid">15498486</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Choi</surname>
+              <given-names>J. H.</given-names>
+            </name>
+            <name>
+              <surname>Hong</surname>
+              <given-names>W. P.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>M. J.</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>J. H.</given-names>
+            </name>
+            <name>
+              <surname>Ryu</surname>
+              <given-names>S. H.</given-names>
+            </name>
+            <name>
+              <surname>Suh</surname>
+              <given-names>P. G.</given-names>
+            </name>
+          </person-group>
+          <article-title>Sorting nexin 16 regulates EGF receptor trafficking by phosphatidylinositol-3-phosphate interaction with the Phox domain</article-title>
+          <source>J. Cell Sci</source>
+          <year>2004</year>
+          <volume>117</volume>
+          <fpage>4209</fpage>
+          <lpage>4218</lpage>
+          <pub-id pub-id-type="pmid">15292396</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Christoforidis</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zerial</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Purification and identification of novel Rab effectors using affinity chromatography</article-title>
+          <source>Methods</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>403</fpage>
+          <lpage>410</lpage>
+          <pub-id pub-id-type="pmid">10720461</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Press</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Wandingerness</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rab-7â-an important regulator of late endocytic membrane traffic</article-title>
+          <source>J. Cell Biol</source>
+          <year>1995</year>
+          <volume>131</volume>
+          <fpage>1435</fpage>
+          <lpage>1452</lpage>
+          <pub-id pub-id-type="pmid">8522602</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gutierrez</surname>
+              <given-names>M. G.</given-names>
+            </name>
+            <name>
+              <surname>Munafo</surname>
+              <given-names>D. B.</given-names>
+            </name>
+            <name>
+              <surname>Beron</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Colombo</surname>
+              <given-names>M. I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rab7 is required for the normal progression of the autophagic pathway in mammalian cells</article-title>
+          <source>J. Cell Sci</source>
+          <year>2004</year>
+          <volume>117</volume>
+          <fpage>2687</fpage>
+          <lpage>2697</lpage>
+          <pub-id pub-id-type="pmid">15138286</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Itakura</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Kishi</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Inoue</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Mizushima</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beclin 1 forms two distinct phosphatidylinositol 3-kinase complexes with ;Mammalian Atg14 and UVRAG</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2008</year>
+          <volume>19</volume>
+          <fpage>5360</fpage>
+          <lpage>5372</lpage>
+          <pub-id pub-id-type="pmid">18843052</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jager</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Bucci</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Tanida</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kominami</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Saftig</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Eskelinen</surname>
+              <given-names>E. L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Role for Rab7 in maturation of late autophagic vacuoles</article-title>
+          <source>J. Cell Sci</source>
+          <year>2004</year>
+          <volume>117</volume>
+          <fpage>4837</fpage>
+          <lpage>4848</lpage>
+          <pub-id pub-id-type="pmid">15340014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>James</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Halladay</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Craig</surname>
+              <given-names>E. A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomic libraries and a host strain designed for highly efficient two-hybrid selection in yeast</article-title>
+          <source>Genetics</source>
+          <year>1996</year>
+          <volume>144</volume>
+          <fpage>1425</fpage>
+          <lpage>1436</lpage>
+          <pub-id pub-id-type="pmid">8978031</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kabeya</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Mizushima</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ueno</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Yamamoto</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kirisako</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kominami</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Ohsumi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yoshimori</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>LC3, a mammalian homologue of yeast Apg8p, is localized in autophagosome membranes after processing</article-title>
+          <source>EMBO J</source>
+          <year>2000</year>
+          <volume>19</volume>
+          <fpage>5720</fpage>
+          <lpage>5728</lpage>
+          <pub-id pub-id-type="pmid">11060023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kihara</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Kabeya</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Ohsumi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Yoshimori</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Beclin-phosphatidylinositol 3-kinase complex functions at the trans-Golgi network</article-title>
+          <source>EMBO Rep</source>
+          <year>2001a</year>
+          <volume>2</volume>
+          <fpage>330</fpage>
+          <lpage>335</lpage>
+          <pub-id pub-id-type="pmid">11306555</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kihara</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Ishihara</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ohsumi</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Two distinct Vps34 phosphatidylinositol 3-kinase complexes function in autophagy and carboxypeptidase Y sorting in <italic>Saccharomyces cerevisiae</italic></article-title>
+          <source>J. Cell Biol</source>
+          <year>2001b</year>
+          <volume>152</volume>
+          <fpage>519</fpage>
+          <lpage>530</lpage>
+          <pub-id pub-id-type="pmid">11157979</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kurten</surname>
+              <given-names>R. C.</given-names>
+            </name>
+            <name>
+              <surname>Cadena</surname>
+              <given-names>D. L.</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>G. N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Enhanced degradation of EGF receptors by a sorting nexin, SNX1</article-title>
+          <source>Science</source>
+          <year>1996</year>
+          <volume>272</volume>
+          <fpage>1008</fpage>
+          <lpage>1010</lpage>
+          <pub-id pub-id-type="pmid">8638121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Ku</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Dotan</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Canaani</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Oh</surname>
+              <given-names>B. H.</given-names>
+            </name>
+            <name>
+              <surname>Jung</surname>
+              <given-names>J. U.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autophagic and tumour suppressor activity of a novel Beclin1-binding protein UVRAG</article-title>
+          <source>Nat. Cell Biol</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>688</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="pmid">16799551</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>C.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Beclin1-binding UVRAG targets the class C Vps complex to coordinate autophagosome maturation and endocytic trafficking</article-title>
+          <source>Nat. Cell Biol</source>
+          <year>2008</year>
+          <volume>10</volume>
+          <fpage>776</fpage>
+          <lpage>787</lpage>
+          <pub-id pub-id-type="pmid">18552835</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liang</surname>
+              <given-names>X. H.</given-names>
+            </name>
+            <name>
+              <surname>Jackson</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Seaman</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kempkes</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Hibshoosh</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>B.</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of autophagy and inhibition of tumorigenesis by beclin 1</article-title>
+          <source>Nature</source>
+          <year>1999</year>
+          <volume>402</volume>
+          <fpage>672</fpage>
+          <lpage>676</lpage>
+          <pub-id pub-id-type="pmid">10604474</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matsunaga</surname>
+              <given-names>K.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Two Beclin 1-binding proteins, Atg14L and Rubicon, reciprocally regulate autophagy at different stages</article-title>
+          <source>Nat. Cell Biol</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>385</fpage>
+          <lpage>396</lpage>
+          <pub-id pub-id-type="pmid">19270696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mizushima</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Levine</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cuervo</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name>
+              <surname>Klionsky</surname>
+              <given-names>D. J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autophagy fights disease through cellular self-digestion</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>451</volume>
+          <fpage>1069</fpage>
+          <lpage>1075</lpage>
+          <pub-id pub-id-type="pmid">18305538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mukherjee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>R. N.</given-names>
+            </name>
+            <name>
+              <surname>Maxfield</surname>
+              <given-names>F. R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Endocytosis Physiol</article-title>
+          <source>Rev</source>
+          <year>1997</year>
+          <volume>77</volume>
+          <fpage>759</fpage>
+          <lpage>803</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ostermeier</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Brunger</surname>
+              <given-names>A. T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis of Rab effector specificity: crystal structure of the small G protein Rab3A complexed with the effector domain of rabphilin-3A</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>96</volume>
+          <fpage>363</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="pmid">10025402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Raiborg</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Stenmark</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ESCRT machinery in endosomal sorting of ubiquitylated membrane proteins</article-title>
+          <source>Nature</source>
+          <year>2009</year>
+          <volume>458</volume>
+          <fpage>445</fpage>
+          <lpage>452</lpage>
+          <pub-id pub-id-type="pmid">19325624</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rojas</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van Vlijmen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Mardones</surname>
+              <given-names>G. A.</given-names>
+            </name>
+            <name>
+              <surname>Prabhu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Rojas</surname>
+              <given-names>A. L.</given-names>
+            </name>
+            <name>
+              <surname>Mohammed</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Heck</surname>
+              <given-names>A. J.</given-names>
+            </name>
+            <name>
+              <surname>Raposo</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>van der Sluijs</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Bonifacino</surname>
+              <given-names>J. S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of retromer recruitment to endosomes by sequential action of Rab5 and Rab7</article-title>
+          <source>J. Cell Biol</source>
+          <year>2008</year>
+          <volume>183</volume>
+          <fpage>513</fpage>
+          <lpage>526</lpage>
+          <pub-id pub-id-type="pmid">18981234</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seaman</surname>
+              <given-names>M.N.J.</given-names>
+            </name>
+            <name>
+              <surname>Harbour</surname>
+              <given-names>M. E.</given-names>
+            </name>
+            <name>
+              <surname>Tattersall</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Read</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Bright</surname>
+              <given-names>N.</given-names>
+            </name>
+          </person-group>
+          <article-title>Membrane recruitment of the cargo-selective retromer subcomplex is catalysed by the small GTPase Rab7 and inhibited by the Rab-GAP TBC1D5</article-title>
+          <source>J. Cell Sci</source>
+          <year>2009</year>
+          <volume>122</volume>
+          <fpage>2371</fpage>
+          <lpage>2382</lpage>
+          <pub-id pub-id-type="pmid">19531583</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shah</surname>
+              <given-names>A. H.</given-names>
+            </name>
+            <name>
+              <surname>Cianciola</surname>
+              <given-names>N. L.</given-names>
+            </name>
+            <name>
+              <surname>Mills</surname>
+              <given-names>J. L.</given-names>
+            </name>
+            <name>
+              <surname>Sonnichsen</surname>
+              <given-names>F. D.</given-names>
+            </name>
+            <name>
+              <surname>Carlin</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>Adenovirus RID alpha regulates endosome maturation by mimicking GTP-Rab7</article-title>
+          <source>J. Cell Biol</source>
+          <year>2007</year>
+          <volume>179</volume>
+          <fpage>965</fpage>
+          <lpage>980</lpage>
+          <pub-id pub-id-type="pmid">18039930</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shaner</surname>
+              <given-names>N. C.</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>R. E.</given-names>
+            </name>
+            <name>
+              <surname>Steinbach</surname>
+              <given-names>P. A.</given-names>
+            </name>
+            <name>
+              <surname>Giepmans</surname>
+              <given-names>B. N.</given-names>
+            </name>
+            <name>
+              <surname>Palmer</surname>
+              <given-names>A. E.</given-names>
+            </name>
+            <name>
+              <surname>Tsien</surname>
+              <given-names>R. Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved monomeric red, orange and yellow fluorescent proteins derived from <italic>Discosoma</italic> sp. red fluorescent protein</article-title>
+          <source>Nat. Biotechnol</source>
+          <year>2004</year>
+          <volume>22</volume>
+          <fpage>1567</fpage>
+          <lpage>1572</lpage>
+          <pub-id pub-id-type="pmid">15558047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Simonsen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Tooze</surname>
+              <given-names>S. A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Coordination of membrane events during autophagy by multiple class III PI3-kinase complexes</article-title>
+          <source>J. Cell Biol</source>
+          <year>2009</year>
+          <volume>186</volume>
+          <fpage>773</fpage>
+          <lpage>782</lpage>
+          <pub-id pub-id-type="pmid">19797076</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stahl</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Chou</surname>
+              <given-names>J. H.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Sudhof</surname>
+              <given-names>T. C.</given-names>
+            </name>
+            <name>
+              <surname>Jahn</surname>
+              <given-names>R.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rab3 reversibly recruits rabphilin to synaptic vesicles by a mechanism analogous to raf recruitment by ras</article-title>
+          <source>EMBO J</source>
+          <year>1996</year>
+          <volume>15</volume>
+          <fpage>1799</fpage>
+          <lpage>1809</lpage>
+          <pub-id pub-id-type="pmid">8617225</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stein</surname>
+              <given-names>M. P.</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Cooper</surname>
+              <given-names>K. L.</given-names>
+            </name>
+            <name>
+              <surname>Welford</surname>
+              <given-names>A. M.</given-names>
+            </name>
+            <name>
+              <surname>Wandinger-Ness</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Human VPS34 and p150 are rab7 interacting partners</article-title>
+          <source>Traffic</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>754</fpage>
+          <lpage>771</lpage>
+          <pub-id pub-id-type="pmid">14617358</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stenmark</surname>
+              <given-names>H.</given-names>
+            </name>
+          </person-group>
+          <article-title>Rab GTPases as coordinators of vesicle traffic</article-title>
+          <source>Nat. Rev. Mol. Cell Biol</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>513</fpage>
+          <lpage>525</lpage>
+          <pub-id pub-id-type="pmid">19603039</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Q. M.</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>W. L.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>K. L.</given-names>
+            </name>
+            <name>
+              <surname>Ding</surname>
+              <given-names>X. J.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Q.</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of Barkor as a mammalian autophagy-specific factor for Beclin 1 and class III phosphatidylinositol 3-kinase</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>19211</fpage>
+          <lpage>19216</lpage>
+          <pub-id pub-id-type="pmid">19050071</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Traer</surname>
+              <given-names>C. J.</given-names>
+            </name>
+            <name>
+              <surname>Rutherford</surname>
+              <given-names>A. C.</given-names>
+            </name>
+            <name>
+              <surname>Palmer</surname>
+              <given-names>K. J.</given-names>
+            </name>
+            <name>
+              <surname>Wassmer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Oakley</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Attar</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Carlton</surname>
+              <given-names>J. G.</given-names>
+            </name>
+            <name>
+              <surname>Kremerskothen</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Stephens</surname>
+              <given-names>D. J.</given-names>
+            </name>
+            <name>
+              <surname>Cullen</surname>
+              <given-names>P. J.</given-names>
+            </name>
+          </person-group>
+          <article-title>SNX4 coordinates endosomal sorting of TfnR with dynein-mediated transport into the endocytic recycling compartment</article-title>
+          <source>Nat. Cell Biol</source>
+          <year>2007</year>
+          <volume>9</volume>
+          <fpage>1370</fpage>
+          <lpage>1380</lpage>
+          <pub-id pub-id-type="pmid">17994011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Wesenbeeck</surname>
+              <given-names>L.</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Involvement of PLEKHM1 in osteoclastic vesicular transport and osteopetrosis in incisors absent rats and humans</article-title>
+          <source>J. Clin Invest</source>
+          <year>2007</year>
+          <volume>117</volume>
+          <fpage>919</fpage>
+          <lpage>930</lpage>
+          <pub-id pub-id-type="pmid">17404618</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xie</surname>
+              <given-names>Z. P.</given-names>
+            </name>
+            <name>
+              <surname>Klionsky</surname>
+              <given-names>D. J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Autophagosome formation: core machinery and adaptations</article-title>
+          <source>Nat. Cell Biol</source>
+          <year>2007</year>
+          <volume>9</volume>
+          <fpage>1102</fpage>
+          <lpage>1109</lpage>
+          <pub-id pub-id-type="pmid">17909521</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yoshimori</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward unraveling membrane biogenesis in mammalian autophagy</article-title>
+          <source>Curr. Opin. Cell Biol</source>
+          <year>2008</year>
+          <volume>20</volume>
+          <fpage>401</fpage>
+          <lpage>407</lpage>
+          <pub-id pub-id-type="pmid">18472412</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Laitala-Leinonen</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Parikka</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Vaananen</surname>
+              <given-names>H. K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Downregulation of small GTPase Rab7 impairs osteoclast polarization and bone resorption</article-title>
+          <source>J. Biol. Chem</source>
+          <year>2001</year>
+          <volume>276</volume>
+          <fpage>39295</fpage>
+          <lpage>39302</lpage>
+          <pub-id pub-id-type="pmid">11514537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhong</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Q. J.</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X. T.</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Backer</surname>
+              <given-names>J. M.</given-names>
+            </name>
+            <name>
+              <surname>Chait</surname>
+              <given-names>B. T.</given-names>
+            </name>
+            <name>
+              <surname>Heintz</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>Z. Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct regulation of autophagic activity by Atg14L and Rubicon associated with Beclin 1-phosphatidylinositol-3-kinase complex</article-title>
+          <source>Nat. Cell Biol</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>468</fpage>
+          <lpage>476</lpage>
+          <pub-id pub-id-type="pmid">19270693</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

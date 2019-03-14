@@ -1,0 +1,1615 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:07:03Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5833734" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:5833734</identifier><datestamp>2018-03-06</datestamp><setSpec>cddis</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Cell Death Dis</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cell Death Dis</journal-id>
+      <journal-title-group>
+        <journal-title>Cell Death &amp; Disease</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-4889</issn>
+      <publisher>
+        <publisher-name>Nature Publishing Group UK</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC5833734</article-id>
+      <article-id pub-id-type="pmcid">PMC5833734</article-id>
+      <article-id pub-id-type="pmc-uid">5833734</article-id>
+      <article-id pub-id-type="pmid">29358700</article-id>
+      <article-id pub-id-type="pmid">29358700</article-id>
+      <article-id pub-id-type="publisher-id">115</article-id>
+      <article-id pub-id-type="doi">10.1038/s41419-017-0115-3</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>BIM and NOXA are mitochondrial effectors of TAF6Î´-driven apoptosis</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-7887-5980</contrib-id>
+          <name>
+            <surname>Delannoy</surname>
+            <given-names>AurÃ©lie</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wilhelm</surname>
+            <given-names>Emmanuelle</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eilebrecht</surname>
+            <given-names>Sebastian</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Alvarado-Cuevas</surname>
+            <given-names>Edith Milena</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Benecke</surname>
+            <given-names>Arndt G</given-names>
+          </name>
+          <xref ref-type="aff" rid="Aff2">2</xref>
+          <xref ref-type="aff" rid="Aff4">4</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0001-6885-940X</contrib-id>
+          <name>
+            <surname>Bell</surname>
+            <given-names>Brendan</given-names>
+          </name>
+          <address>
+            <phone>+819 821 8000</phone>
+            <email>Brendan.Bell@USherbrooke.ca</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1">1</xref>
+        </contrib>
+        <aff id="Aff1"><label>1</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0000 9064 6198</institution-id><institution-id institution-id-type="GRID">grid.86715.3d</institution-id><institution>RNA Group, DÃ©partement de microbiologie et dâinfectiologie, FacultÃ© de mÃ©decine et sciences de la santÃ©, </institution><institution>UniversitÃ© de Sherbrooke and Centre de recherche du CHUS, </institution></institution-wrap>Sherbrooke, QC Canada </aff>
+        <aff id="Aff2"><label>2</label><institution-wrap><institution-id institution-id-type="ISNI">0000 0001 1955 3500</institution-id><institution-id institution-id-type="GRID">grid.5805.8</institution-id><institution>CNRS UMR8246, </institution><institution>UniversitÃ© Pierre et Marie Curie, </institution></institution-wrap>75005 Paris, France </aff>
+        <aff id="Aff3"><label>3</label>ACSIOMA GmbH, Technologiezentrum Ruhr, 44799 Bochum, Germany </aff>
+        <aff id="Aff4"><label>4</label><institution-wrap><institution-id institution-id-type="ISNI">0000000122986657</institution-id><institution-id institution-id-type="GRID">grid.34477.33</institution-id><institution>Center for Innate Immunity and Immune Disease, </institution><institution>University of Washington School of Medicine, </institution></institution-wrap>Seattle, WA 98195 USA </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>22</day>
+        <month>1</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>22</day>
+        <month>1</month>
+        <year>2018</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>2</month>
+        <year>2018</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>2</issue>
+      <elocation-id>70</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>26</day>
+          <month>6</month>
+          <year>2017</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>4</day>
+          <month>10</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>10</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© The Author(s) 2018</copyright-statement>
+        <license license-type="OpenAccess">
+          <license-p><bold>Open Access</bold> This article is licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing, adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s) and the source, provide a link to the Creative Commons license, and indicate if changes were made. The images or other third party material in this article are included in the articleâs Creative Commons license, unless indicated otherwise in a credit line to the material. If material is not included in the articleâs Creative Commons license and your intended use is not permitted by statutory regulation or exceeds the permitted use, you will need to obtain permission directly from the copyright holder. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <p id="Par1">TAF6Î´ is a pro-apoptotic splice variant of the RNA polymerase II general transcription factor, TAF6, that can dictate life vs. death decisions in animal cells. TAF6Î´ stands out from classical pro-apoptotic proteins because it is encoded by a gene that is essential at the cellular level, and because it functions as a component of the basal transcription machinery. TAF6Î´ has been shown to modulate the transcriptome landscape, but it is not known if changes in gene expression trigger apoptosis nor which TAF6Î´-regulated genes contribute to cell death. Here we used microarrays to interrogate the genome-wide impact of TAF6Î´ on transcriptome dynamics at temporal resolution. The results revealed changes in pro-apoptotic BH3-only mitochondrial genes that correlate tightly with the onset of cell death. These results prompted us to test and validate a role for the mitochondrial pathway by showing that TAF6Î´ expression causes cytochrome c release into the cytoplasm. To further dissect the mechanism by which TAF6Î´ drives apoptosis, we pinpointed BIM and NOXA as candidate effectors. siRNA experiments showed that both BIM and NOXA contribute to TAF6Î´-dependent cell death. Our results identify mitochondrial effectors of TAF6Î´-driven apoptosis, thereby providing the first of mechanistic framework underlying the atypical TAF6Î´ apoptotic pathwayâs capacity to intersect with the classically defined apoptotic machinery to trigger cell death.</p>
+      </abstract>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>Â© The Author(s) 2018</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Introduction</title>
+      <p id="Par2">Apoptosis represents a genetically programmed form of cellular suicide that is crucial for normal development and homeostasis in multicellular organisms. The TAF6Î´ pathway of apoptosis can control cell death decisions<sup><xref ref-type="bibr" rid="CR1">1</xref>â<xref ref-type="bibr" rid="CR4">4</xref></sup>, but its emerging properties distinguish it from other classical apoptotic pathways such as the Bcl-2 family, the caspase family, the death receptor pathway, or the p53 pathway. Classical pro-apoptotic genes, including tumor suppressors (e.g., p53, RB1, and APC) or members of the core apoptotic machinery (e.g., caspases, Bcl-2 family members, and death receptors) have been shown to be non-essential at the cellular level<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. In stark contrast to these classical apoptotic pathways, the TAF6Î´ pathway hinges on the expression of the <italic>TAF6</italic> gene that is essential for cellular viability from yeast to humans<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR5">5</xref></sup>. We therefore refer to TAF6Î´ as the prototypical member of type E (essential) pro-apoptotic proteins, to distinguish it from traditional type NE (non-essential) pro-apoptotic proteins that include the caspases, Bcl-2 family members, p53, and the death receptors. Another atypical feature of the TAF6Î´ pathway is that it involves coupling cell signaling pathways to cell death via subunit changes in the RNA polymerase II (Pol II) general transcription factor (GTF), TFIID<sup><xref ref-type="bibr" rid="CR2">2</xref>,<xref ref-type="bibr" rid="CR6">6</xref></sup>. In contrast, other pro-apoptotic transcription factors, such as the p53 tumor suppressor, act primarily as gene-specific DNA-binding proteins<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>.</p>
+      <p id="Par3">TFIID is a multi-protein complex composed of TATA-binding protein (TBP) and 13 TBP associated factors (TAFs)<sup><xref ref-type="bibr" rid="CR8">8</xref></sup>. TFIID plays a well-established role in the recognition of Pol II core promoter elements, cell cycle control, and the recognition of certain modified histones<sup><xref ref-type="bibr" rid="CR9">9</xref>,<xref ref-type="bibr" rid="CR10">10</xref></sup>. Once TFIID is assembled upon the core promoter, it forms a scaffold for pre-initiation complex (PIC) assembly that allows transcriptional activation. More recently, the TAFs have been shown to play a role in the establishment and maintenance of pluripotency in stem cells<sup><xref ref-type="bibr" rid="CR11">11</xref></sup>. Recently, mutations in the histone-fold domain of the core TFIID subunit TAF6 were linked to neurogenetic disorders in humans<sup><xref ref-type="bibr" rid="CR12">12</xref>,<xref ref-type="bibr" rid="CR13">13</xref></sup>. In addition to the canonical form of TFIID, tissue-specific or signal-responsive TFIID subunits can be incorporated into functionally distinct PICs that contribute to the combinatorial control of gene expression<sup><xref ref-type="bibr" rid="CR14">14</xref>â<xref ref-type="bibr" rid="CR16">16</xref></sup>.</p>
+      <p id="Par4">TAF6Î´ is a minor inducible splice variant of the TFIID subunit TAF6 whose expression drives apoptosis<sup><xref ref-type="bibr" rid="CR2">2</xref>â<xref ref-type="bibr" rid="CR4">4</xref></sup>. The major isoform of TAF6, TAF6Î±, is constitutively expressed in all cell types under normal culture conditions. In contrast, TAF6Î´ is not expressed under normal conditions, but can be induced experimentally using antisense splice-switching oligonucleotides (SSOs)<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>, or under specific pro-apoptotic conditions<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. TAF6Î´ is produced via the alternative splicing of <italic>taf6</italic> pre-mRNA that results in the loss of 10 amino acids in the second Î±-helix of its histone-fold domain<sup><xref ref-type="bibr" rid="CR1">1</xref>,<xref ref-type="bibr" rid="CR3">3</xref></sup>. TAF6Î´ therefore cannot interact with the normal dimerization partner of TAF6Î±, TAF9<sup><xref ref-type="bibr" rid="CR2">2</xref></sup>. Consequently, TAF6Î´ incorporates into a TFIID complex lacking TAF9 termed TFIIDÏ that drives apoptosis. Transcriptome analysis revealed that TAF6Î´ specifically regulated the expression of ~1000 genes, of which more than 90% were upregulated<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. Gene ontology analysis of the TAF6Î´-induced transcriptome signature showed an over-representation of the Notch, oxidative stress response, integrin, p53, apoptosis, p53 feedback loop, and angiogenesis cellular signaling pathways<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>.</p>
+      <p id="Par5">The TAF6Î´ pathway intersects the p53 signaling hub both directly and indirectly. p53 acts primarily as a transcription factor that regulates gene expression to control cell cycle arrest and induce apoptosis<sup><xref ref-type="bibr" rid="CR7">7</xref></sup>. Both the major TAF6Î± isoform<sup><xref ref-type="bibr" rid="CR17">17</xref></sup> and its pro-apoptotic TAF6Î´ counterpart<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> make direct physical contacts with the <italic>trans</italic>-activation domain of p53. In vitro the TAF6Î±-p53 interaction is essential for transcriptional activation by p53<sup><xref ref-type="bibr" rid="CR17">17</xref></sup>. Likewise, in vivo the TAF6Î±-p53 interaction is important for the apoptotic and tumor suppressive functions of p53<sup><xref ref-type="bibr" rid="CR18">18</xref>,<xref ref-type="bibr" rid="CR19">19</xref></sup>. The presence of TAF6Î± vs. TAF6Î´ can influence the activation of target genes, and the presence or absence of p53 can influence the regulation of certain TAF6Î´-dependent genes<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. Importantly, the pro-apoptotic function of TAF6Î´ is independent of p53<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. Since the mechanisms by which TAF6Î´ triggers apoptosis are currently unknown, we have focused here on defining downstream molecular events that underlie TAF6Î´-driven cell death.</p>
+      <p id="Par6">The two most extensively understood pathways of apoptosis are the extrinsic and intrinsic pathways. The extrinsic pathway is induced by extracellular cell death ligands, such as TRAIL or FAS, and proceeds via ligand-dependent formation of the death-inducing signaling complex that leads to cleavage and activation of the initiator caspase-8<sup><xref ref-type="bibr" rid="CR20">20</xref></sup>. The intrinsic pathway of apoptosis is initiated by intracellular signals, such as DNA damage, that proceeds by permeabilization of the mitochondrial outer membrane, allowing the key event of release of cytochrome c into the cytoplasm to form the apoptosome<sup><xref ref-type="bibr" rid="CR21">21</xref></sup>. Here we employed temporal analysis of TAF6Î´-driven transcriptome dynamics to identify positive effector genes of TAF6Î´-dependent cell death. Our data show that TAF6Î´ triggers cell death primarily via the intrinsic pathway, and that BIM and NOXA contribute functionally to TAF6Î´-dependent apoptosis.</p>
+    </sec>
+    <sec id="Sec2" sec-type="results">
+      <title>Results</title>
+      <sec id="Sec3">
+        <title>TAF6Î´ drives dynamic transcriptome changes</title>
+        <p id="Par7">To dissect the molecular mechanisms by which the transcription factor TAF6Î´ induces apoptosis, we employed a systems biology approach. We reasoned that the expression of functionally relevant pro-apoptotic effectors of TAF6Î´ would correlate closely in time with the induction of TAF6Î´-induced cell death. To identify such genes, we employed genome-wide microarray analysis and induced the expression of TAF6Î´ in HeLa via transfection of SSOs as we have previously described<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR22">22</xref></sup>. We verified the induction of TAF6Î´ mRNA levels by reverse transcription-PCR (RT-PCR) (Fig.Â <xref rid="Fig1" ref-type="fig">1a</xref>) and analyzed apoptosis levels by flow cytometry (Fig.Â <xref rid="Fig1" ref-type="fig">1c</xref>). As expected, SSO transfection caused steadily increased levels of TAF6Î´ mRNA (Fig.Â <xref rid="Fig1" ref-type="fig">1a</xref>). Increased levels of apoptosis achieved statistical significance 8âh after TAF6Î´ induction and continued to increase until 18âh post induction (Fig.Â <xref rid="Fig1" ref-type="fig">1c</xref>). The transcriptome dynamics were recorded and analyzed using the ace.map algorithm<sup><xref ref-type="bibr" rid="CR23">23</xref></sup> to quantitate and classify the time-course of gene expression changes. In total, 5320 transcripts displayed statistically significant TAF6Î´-dependent regulation (Supplementary TableÂ <xref rid="MOESM2" ref-type="media">1</xref>) and the 3 most common classes of changes were transcripts transiently upregulated (Fig.Â <xref rid="Fig1" ref-type="fig">1b</xref>, class b; 47.7% of changes), transcripts whose expression increased constantly throughout the time-course (Fig.Â <xref rid="Fig1" ref-type="fig">1b</xref>, class a; 20.7%), and transcripts whose expression decreased constantly during the time-course (Fig.Â <xref rid="Fig1" ref-type="fig">1b</xref>, class g; 11.8%). More complex expression patterns were detected, albeit with much lower frequencies (Fig.Â <xref rid="Fig1" ref-type="fig">1b</xref>). To further separate transient and evolving expression profiles, we also performed an overlap analysis for all time points compared to the last 18âh time point. The results show increases in the number of genes, and the statistical significance of the overlaps, with the latest time point progressively throughout the time-course (Supplementary Fig.Â <xref rid="MOESM3" ref-type="media">1</xref>). Significant changes were detected at all time points with the largest number of regulated genes detected at 14âh post transfection (Fig.Â <xref rid="Fig1" ref-type="fig">1d</xref>). Throughout the time-course more genes were upregulated than downregulated, reinforcing our previous observations<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup> showing that TAF6Î´ acts primarily to activate gene expression (Fig.Â <xref rid="Fig1" ref-type="fig">1d</xref>).<fig id="Fig1"><label>Fig. 1</label><caption><title>Time-course analysis of TAF6Î´-induced cell death</title><p>HeLa cells were transfected with 100ânM control or TAF6 SSO to induce TAF6Î´ expression and harvested every 2âh after the transfection. The samples were submitted to apoptosis measurements, RT-PCR, and transcriptome analysis by cDNA microarray. <bold>a</bold> Shift of TAF6 splicing pattern upon SSO transfection. A portion of the endogenous TAF6 mRNA was amplified by RT-PCR and the PCR products were quantified by capillary electrophoresis (<italic>n</italic>â=â3). The histogram bars represent the percentage of TAF6Î´ isoform relative to total TAF6 mRNA and error bars indicate the S.D. of three independent experiments. Statistical significance compared to the control was assessed with Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>b</bold> Classification of TAF6Î´-regulated genes depending on their expression profiles. The proportion of each group of genes relative to the total number of genes (5320) is indicated on the right. <bold>c</bold> Quantification of the apoptosis specifically induced by the Î´ isoform. Apoptosis was measured in scrambled and TAF6 SSO-transfected cells by the detection of cleaved cytokeratin-18 in flow cytometry and the difference (in percentage of cells) between both is represented. The error bars indicate the S.D. for three independent experiments assayed by three technical replicates. Means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate. Statistical significance was assessed with the Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>d</bold> Heatmaps representing the probes regulated by TAF6Î´ in a statistically significant manner (<italic>p</italic>â&lt;â0.05) at each point of the time-course. The red color represents a positive regulation and the blue a negative one. The size of each heatmap is proportional to the number of regulated genes (<italic>p</italic>â&lt;â0.05) and the maximum and minimum logQ values are indicated</p></caption><graphic xlink:href="41419_2017_115_Fig1_HTML" id="d29e538"/></fig></p>
+        <p id="Par8">To further dissect the transcriptome impact of TAF6Î´ over time, we applied gene ontology analysis to the complete set of regulated genes. We found that many of the pathways we previously identified at a single 18âh time point<sup><xref ref-type="bibr" rid="CR4">4</xref></sup> were over-represented, including oxidative stress, the p53 pathway, and importantly apoptosis (Fig.Â <xref rid="Fig2" ref-type="fig">2a</xref>). In addition, the much more extensive analyses performed here, including multiple early time points, allowed the detection of the enrichment of genes in other new pathways, for example, the transforming growth factor-Î² and Wnt signaling pathways (Fig.Â <xref rid="Fig2" ref-type="fig">2a</xref>). We further compared the transcriptome changes at the 18âh time point with our previous independent experimental analysis. The data show a statistically significant overlap, confirming the reproducibility of the microarray analysis (Fig.Â <xref rid="Fig2" ref-type="fig">2b</xref>). We next followed four key pathways that we had previously shown to be over-represented upon TAF6Î´ induction, including the Notch, p53, oxidative stress, and apoptosis pathways<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. No statistically significant changes were observed for these pathways when cells were treated with negative control SSO, but as expected they were regulated when TAF6Î´ expression was induced (Fig.Â <xref rid="Fig2" ref-type="fig">2c</xref>). Enrichment of genes within the apoptosis and p53 pathways closely correlated in time with the induction of apoptosis (Figs.Â <xref rid="Fig1" ref-type="fig">1c</xref> andÂ <xref rid="Fig2" ref-type="fig">2c</xref>). Genes in the oxidative stress and Notch pathways lagged slightly behind the induction of apoptosis (Fig.Â <xref rid="Fig2" ref-type="fig">2c</xref>). The complete ontology analysis for each time is shown in Supplementary TableÂ <xref rid="MOESM4" ref-type="media">2</xref>. We next used a correlation analysis to pinpoint TAF6Î´-induced genes whose expression correlated tightly with the levels of apoptosis. Genes that displayed positive correlation with apoptosis levels included <italic>NFKB1A</italic>, <italic>GADD45A</italic>, <italic>BIM</italic>, <italic>MCL1</italic>, and <italic>NOXA</italic> (Fig.Â <xref rid="Fig2" ref-type="fig">2d</xref>). Interestingly, heme oxygenase displayed the strongest anti-correlation with apoptosis levels and has well-documented anti-apoptotic activity<sup><xref ref-type="bibr" rid="CR24">24</xref></sup>. The complete list of genes with a correlation coefficient of 0.8 or higher is shown in Supplementary TableÂ <xref rid="MOESM5" ref-type="media">3</xref>. The transcriptomic analysis revealed dynamic changes in gene expression programs upon induction of TAF6Î´. The first clue as to the mechanism of action of TAF6Î´ that emerged from the data was the fact that the induction of genes with established roles in the mitochondrial pathway of apoptosis correlated closely temporally with the levels of apoptotic cell death.<fig id="Fig2"><label>Fig. 2</label><caption><title>Ontology analysis of microarray data reveals a correlation of apoptotic gene expression and apoptosis-related pathway regulation with TAF6Î´ induction</title><p><bold>a</bold> Representation of the pathways regulated by TAF6Î´ along the time-course with the highest significance. The size of the sliceÂ is proportional to the ratio of observed versus expected numbers of genes with of given ontology. <bold>b</bold> Venn diagram representation of the overlap between TAF6Î´-regulated genes at time point 18âh of the time-course and previous independent microarray data<sup><xref ref-type="bibr" rid="CR4">4</xref></sup>. <bold>c</bold> Enrichment of four pro-apoptotic pathways in TAF6Î´-regulated genes along the time compared to the control. The dark slices represent the ratio âlog10(<italic>p</italic>value)/âlog10(<italic>p</italic>value<sub>Max</sub>) that reflects the relative statistical significance of the enrichment at each time point. <bold>d</bold> Correlation between the expression of TAF6Î´-regulated genes and apoptosis measurements was determined by Pearson method. Correlation coefficients obtained for the two apoptosis quantification assays are aligned. Gray dots stand for genes with â0.8â&lt;â<italic>R</italic><sup>2</sup>â&lt;â0.8; Black dots for highly correlating dots (l<italic>R</italic><sup>2</sup>lâ&gt;â0.8) and red dots for probes of interest</p></caption><graphic xlink:href="41419_2017_115_Fig2_HTML" id="d29e646"/></fig></p>
+      </sec>
+      <sec id="Sec4">
+        <title>TAF6Î´ acts via the mitochondrial pathway of apoptosis</title>
+        <p id="Par9">Based on the dynamic TAF6Î´-driven transcriptome landscape recorded above, we hypothesized that TAF6Î´ could act via the mitochondrial pathway of apoptosis. To determine whether the mitochondrial pathway is important for TAF6Î´-dependent cell death, we overexpressed the anti-apoptotic Bcl-2 family members Bcl-2 and Bcl-X<sub>L</sub> to prevent the release of cytochrome c from the mitochondria<sup><xref ref-type="bibr" rid="CR25">25</xref>â<xref ref-type="bibr" rid="CR27">27</xref></sup>. Bcl-2, Bcl-X<sub>L</sub>, and Bax were transiently overexpressed in HeLa cells, and their protein levels were verified by western blot analysis (Fig.Â <xref rid="Fig3" ref-type="fig">3a</xref>). TAF6Î´ levels were induced in the overexpressing cells and confirmed by PCR (Fig.Â <xref rid="Fig3" ref-type="fig">3b</xref>). Apoptosis levels were quantitated by flow cytometry and showed that both Bcl-2 and Bcl-X<sub>L</sub> expression caused a statistically significant decrease in apoptosis (Fig.Â <xref rid="Fig3" ref-type="fig">3c</xref>). Expression of the pro-apoptotic Bax protein was included as a positive control and showed the opposite effect with increased apoptosis as expected (Fig.Â <xref rid="Fig3" ref-type="fig">3c</xref>). The inhibition of TAF6Î´-directed cell death by Bcl-2 and Bcl-X<sub>L</sub> implicates the mitochondrial pathway as an important contributor to the TAF6Î´ pathway of cell death.<fig id="Fig3"><label>Fig. 3</label><caption><title>Blockade of the mitochondrial pathway by overexpression of the anti-apoptotic proteins Bcl-2 and Bcl-X<sub>L</sub> interferes with TAF6Î´-induced apoptosis</title><p>HeLa cells were transfected with either pcDNA3.1-Bcl-2, pcDNA3.1-Bcl-X<sub>L</sub>, pcDNA3.1-Bax, or empty pcDNA3.1 vector, and 16âh later with scrambled or TAF6 SSO. Cells were collected 18âh after the second transfection to carry apoptosis and protein overexpression assessment. <bold>a</bold> Confirmation of Bcl-2, Bcl-X<sub>L</sub>, and BAX overexpression by western blot in HeLa cells. <bold>b</bold> The shift of TAF6 splicing pattern upon control (white bars) or TAF6 (black bars) SSO transfection. Endogenous TAF6 was amplified from cDNA by PCR, and PCR products were quantified by capillary electrophoresis (Agilent). The histogram represents the percentage of TAF6Î´ isoform relative to total TAF6 mRNA with error bars representing the S.D. for three independent experiments. Statistical significance of the differences of induction of the Î´ isoform was assessed with Studentâs <italic>t</italic>-test by comparing each plasmid transfection to the empty vector control: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>c</bold> Quantification of apoptosis specifically induced by the Î´ isoform. Apoptosis was measured in scrambled and TAF6 SSO-transfected cells and the difference between TAF6Î´-expressing cells and control was normalized to the empty vector (meanâÂ±âS.D.) for three independent experiments. Technical replicates were performed for each transfection and the means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate. Statistical significance was assessed with Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01</p></caption><graphic xlink:href="41419_2017_115_Fig3_HTML" id="d29e731"/></fig></p>
+        <p id="Par10">To obtain direct biochemical evidence that the mitochondrial pathway of cell death is triggered by TAF6Î´, we performed cell fractionation experiments to measure the release of cytochrome c from the mitochondrial fraction into the cytoplasmic fraction<sup><xref ref-type="bibr" rid="CR28">28</xref></sup>. TAF6Î´-dependent cell death was induced by transfection with SSO, and the presence of cytochrome c and control proteins in cell fractions was monitored by immunoblotting. The efficiency of the fractionation was validated using antibodies against the known mitochondrial protein VDAC-1 that was found in the mitochondrial but not cytoplasmic fraction (Fig.Â <xref rid="Fig4" ref-type="fig">4a</xref>, lanes 3 and 4 vs. 5 and 6). As expected, cytochrome c was found in the mitochondrial fraction (Fig.Â <xref rid="Fig4" ref-type="fig">4a</xref>, lane 3), but not in the cytoplasmic fraction of untreated cells (Fig.Â <xref rid="Fig4" ref-type="fig">4a</xref>, lane 5). Upon induction of endogenous TAF6Î´, cytochrome c became readily detectable in the cytoplasmic fraction (Fig.Â <xref rid="Fig4" ref-type="fig">4a</xref>, lane 6). The release of cytochrome c into the cytoplasm during TAF6Î´-dependent cell death was reproducible and statistically significant upon quantitation of triplicate experiments (Fig.Â <xref rid="Fig4" ref-type="fig">4b</xref>).<fig id="Fig4"><label>Fig. 4</label><caption><title>Cytochrome c release observed by cell fractionation in TAF6Î´-expressing HeLa cells</title><p>HeLa cells were transfected with 100ânM scrambled or TAF6 SSO and collected 18âh later. Those samples were subjected to cell fractionation. Then, the total, mitochondrial, and cytoplasmic fractions were used in western blots. <bold>a</bold> Western blot showing the cytochrome c release from the mitochondrial fraction (M) to the cytoplasmic fraction (C) of HeLa cells transfected with TAF6Î´ (+) or scrambled (â) SSO. The total fraction of those cells (T) was also used as a control. The immunoblot shown here is representative of three experiments. <bold>b</bold> Quantification of the signals (meanâÂ±âS.D.) for the three independent experiments performed. Statistical significance was assessed by the Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01</p></caption><graphic xlink:href="41419_2017_115_Fig4_HTML" id="d29e779"/></fig></p>
+        <p id="Par11">We next used immunofluorescence as an independent experimental approach that allows visualization of cytochrome c subcellular localization in individual cells. As expected, control cells displayed cytochrome c organized characteristically within the mitochondria (Fig.Â <xref rid="Fig5" ref-type="fig">5a</xref>). In contrast, cell populations where TAF6Î´ was induced showed statistically significant (Fig.Â <xref rid="Fig5" ref-type="fig">5b</xref>) increases in the number of cells where cytochrome c localized throughout the cytoplasm (Fig.Â <xref rid="Fig5" ref-type="fig">5a, b</xref>). We note that the release of cytochrome c was observed in cells early in the apoptotic process before the onset of gross morphological changes of apoptosis, such as nuclear fragmentation (Fig.Â <xref rid="Fig5" ref-type="fig">5a</xref>, white arrows). This observation excluded the possibility that the re-localization of cytochrome c could simply be due to late apoptotic morphological changes. These data provide further evidence that cytochrome c release into the cytoplasm, the key event in the mitochondrial pathway of death, is triggered by TAF6Î´.<fig id="Fig5"><label>Fig. 5</label><caption><title>Immunofluorescence visualization of cytochrome c delocalization</title><p>HeLa cells were transfected with 100ânM scrambled or TAF6 SSO and immunofluorescence detection of the cytochrome c was performed 18âh later. <bold>a</bold> Immunofluorescence detection of cytochrome c in control and TAF6 SSO-transfected cells. White arrows show cells undergoing early mitochondrial structure perturbation. Scale bar represents 25âÂµm. <bold>b</bold> Quantification of cells presenting a delocalization of cytochrome c in SSO-transfected cells (meanâÂ±âS.D.) for three independent experiments. Technical replicates were performed for each transfection and means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate. Statistical significance was assessed by the Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01</p></caption><graphic xlink:href="41419_2017_115_Fig5_HTML" id="d29e819"/></fig></p>
+        <p id="Par12">To establish the extent to which the mitochondrial pathway of apoptosis is triggered in other cell types, we established cell lines of different origins overexpressing Bcl-2 and/or Bcl-X<sub>L</sub> using lentiviral transduction. TAF6Î´-dependent apoptosis was induced via SSO transfection and apoptosis was measured by flow cytometry. HeLa cervical carcinoma, MDA-MB-231 breast adenocarcinoma, Saos-2 osteosarcoma, and Panc-1 pancreas ductal carcinoma cells all displayed statistically significant reductions in TAF6Î´-dependent apoptosis when the mitochondrial pathway was blocked via overexpression of anti-apoptotic Bcl-2 proteins (Supplementary Fig.Â <xref rid="MOESM6" ref-type="media">2</xref>). These data suggest that the contribution of the mitochondrial pathway to TAF6Î´-driven cell death is not limited to HeLa but occurs in a broad range of cell types. Based on the above overexpression, biochemical, and immunofluorescence data, we conclude that TAF6Î´ triggers the mitochondrial pathway of apoptosis.</p>
+      </sec>
+      <sec id="Sec5">
+        <title>BIM and NOXA are effectors of TAF6Î´-driven cell death</title>
+        <p id="Par13">Having established that the mitochondria pathway of apoptosis is triggered by TAF6Î´, we next parsed the transcriptome data to identify candidate TAF6Î´-induced apoptotic effector genes. To this end, we used the Panther database<sup><xref ref-type="bibr" rid="CR29">29</xref></sup> over-representation test to identify Reactome pathways (<ext-link ext-link-type="uri" xlink:href="http://www.reactome.org">http://www.reactome.org</ext-link>) that were over-represented within the subset of 262 mRNAs whose induction most tightly paralleled the temporal onset of apoptosis (Pearson correlation coefficientâ&gt;â0.8, Fig.Â <xref rid="Fig2" ref-type="fig">2d</xref>; Supplementary TableÂ <xref rid="MOESM5" ref-type="media">3</xref>). Within the broad category of <italic>programmed cell death</italic>, four sub-pathways within the <italic>intrinsic pathway for apoptosis</italic> were over-represented (Supplementary TableÂ <xref rid="MOESM7" ref-type="media">4</xref>). Two genes were responsible for the over-representation of the four sub-pathways of the intrinsic pathway, namely <italic>BIM</italic> and <italic>NOXA</italic> (Supplementary TableÂ <xref rid="MOESM7" ref-type="media">4</xref>). Both BIM and NOXA are pro-apoptotic mitochondrial BH3 domain-only members of the Bcl-2 family that promote the permeabilization of the mitochondrial outer membrane, the known commitment point to cell death via the intrinsic pathway<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>. Based on the facts that TAF6Î´ causes the release of cytochrome c from the mitochondria (Figs.Â <xref rid="Fig4" ref-type="fig">4</xref> and <xref rid="Fig5" ref-type="fig">5</xref>), that TAF6Î´ induces BIM and NOXA expression with a timing that closely parallels the levels of apoptosis (Fig.Â <xref rid="Fig2" ref-type="fig">2d</xref>), and that BIM and NOXA have established roles in the permeabilization of the mitochondrial outer membrane<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>, we asked whether these genes could contribute functionally to TAF6Î´-driven cell death.</p>
+        <p id="Par14">To test whether the expression of BIM and NOXA impact TAF6Î´-dependent apoptosis, we reduced their protein levels using siRNA transfection in HeLa cells. Two independent siRNAs were used to silence BIM and NOXA expression, and the reduction of protein levels was validated by immunoblotting (Fig.Â <xref rid="Fig6" ref-type="fig">6a, c</xref>). TAF6Î´-driven apoptosis was then induced by SSO transfection (Fig.Â <xref rid="Fig6" ref-type="fig">6b</xref>) and the levels of apoptosis were then analyzed by flow cytometry. Depletion of both BIM and NOXA resulted in a statistically significant reduction in the levels of TAF6Î´-induced apoptosis with both siRNAs (Fig.Â <xref rid="Fig6" ref-type="fig">6d</xref>). Together, the data reveal that BH3-only mitochondrial proteins are effectors of TAF6Î´-driven apoptosis.<fig id="Fig6"><label>Fig. 6</label><caption><title>Inhibition of BIM or NOXA expression impairs TAF6Î´-induced apoptosis</title><p>HeLa cells were transfected with 10ânM DsiRNA and 24âh later with 100ânM control or TAF6 SSO. Cells were collected 18âh later for apoptosis measurements. <bold>a</bold> Validation of NOXA and BIM DsiRNA-mediated knockdown. Immunoblot detection of NOXA, BIM, and Î±-tubulin was performed in HeLa cells transfected with either control (lane 1), NOXA Dsi1 (lane 2), NOXA Dsi2 (lane 3), BIM Dsi1 (lane 4), or BIM Dsi2 (lane 5) after 48âh. <bold>b</bold> Shifting of TAF6 splicing pattern upon SSO transfection. Endogenous TAF6 was amplified from cDNA by PCR, and PCR products were visualized on polyacrylamide gel. The top panel shows samples from HeLa cells transfected with either control, NOXA Dsi1, or Dsi2 RNA. Bottom panel show samples from HeLa cells transfected with either control, BIM Dsi1, or Dsi2 RNA. <bold>c</bold> Quantification of NOXA and BIM protein expression in scrambled (black bars), Dsi1 (white bars), or Dsi2 (gray bars) transfected cells normalized to TBP (meanâÂ±âS.D.). This histogram summarizes three independent experiments. Technical replicates were performed for each independent experiment and the means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate. Statistical significance was assessed by the Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>d</bold> Quantification of apoptosis specifically induced by the Î´ isoform. Apoptosis was measured in scrambled and TAF6 SSO-transfected cells, and the difference between TAF6Î´-expressing cells and control was normalized to the control siRNA. Black bars represent Dsi1, white bars are for Dsi2. Statistical analysis as in <bold>c</bold></p></caption><graphic xlink:href="41419_2017_115_Fig6_HTML" id="d29e930"/></fig></p>
+        <p id="Par15">Having established that BIM and NOXA are effectors of TAF6Î´-driven apoptosis in HeLa cells, we next tested whether the induction of BIM and NOXA occurs in other cell lines in response to TAF6Î´. To this end, we induced TAF6Î´ expression by SSO transfection and measured the levels of BIM and NOXA mRNAs by quantitative RT-PCR. The expression of the <italic>ACRC</italic> gene was included as a positive control since our previous work showed the ACRC mRNA to be highly induced by TAF6Î´ in different cell lines<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. The analysis showed that BIM was statistically significantly induced in HeLa cervical carcinoma, MDA-MB-231 breast adenocarcinoma, Saos-2 osteosarcoma, Hs-578T breast carcinoma, and Panc-1 cells (Fig.Â <xref rid="Fig7" ref-type="fig">7</xref>, white bars). NOXA mRNA expression was also significantly induced in most cell lines tested, with the exceptions of MDA-MB-231 and Saos-2 where no change was detected (Fig.Â <xref rid="Fig7" ref-type="fig">7</xref>, gray bars). These data suggest that the induction of the identified effector of TAF6Î´ cell death BIM occurs broadly in distinct cell types. In the case of the TAF6Î´ effector NOXA, its induction occurs in several types but is not universally induced by TAF6Î´ in all cell types.<fig id="Fig7"><label>Fig. 7</label><caption><title>TAF6Î´ induces transcriptional activation of BIM and NOXA in other cancer cell lines</title><p>Wild-type cell lines were transfected with 100ânM SSO and samples were collected 18âh later to evaluate BIM (white bars) and NOXA (gray bars) mRNA expression by qPCR. Error bars show the S.D. of three independent experiments. To control TAF6 transactivation, we also assessed ACRC mRNA expression (black bars) (meanâÂ±âS.D.) for three independent experiments. Technical replicates were performed for each independent experiment, and the means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate. Statistical significance was assessed with the Studentâs <italic>t</italic>-test: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01</p></caption><graphic xlink:href="41419_2017_115_Fig7_HTML" id="d29e968"/></fig></p>
+      </sec>
+      <sec id="Sec6">
+        <title>The extrinsic pathway of apoptosis is dispensable for TAF6Î´-mediated cell death</title>
+        <p id="Par16">The above data demonstrate a role for the mitochondrial pathway of apoptosis in TAF6Î´-directed cell death, with functional contributions from the TAF6Î´-induced genes <italic>BIM</italic> and <italic>NOXA</italic>. Nonetheless, in the time-course transcriptome analysis, certain genes with well-established roles in the extrinsic pathway were regulated by TAF6Î´. For example, tumor necrosis factor receptor superfamily member 10B (TNFR10B/DR5/Killer) is a receptor for the death ligand TRAIL<sup><xref ref-type="bibr" rid="CR31">31</xref></sup> and displayed a wave-like induction in response to TAF6Î´ (Fig.Â <xref rid="Fig8" ref-type="fig">8a</xref>). Moreover, CFLAR/c-FLIP is a known inhibitor of caspase-8 activation when the extrinsic pathway is triggered, and its expression is strongly downregulated at late time points by TAF6Î´ (Fig.Â <xref rid="Fig8" ref-type="fig">8b</xref>). We therefore asked whether the extrinsic pathway could play a role in TAF6Î´-dependent death. We expressed the cowpox CrmA protein that specifically inhibits caspase-8, thereby blocking the extrinsic pathway<sup><xref ref-type="bibr" rid="CR32">32</xref></sup>. We first verified that CrmA specifically allows discrimination between the extrinsic and intrinsic pathways of apoptosis in our experimental system. HeLa cells were transduced with lentiviral constructs that expressed CrmA or a negative control protein bearing a point mutation T291R that prevents its inhibition of caspase-8<sup><xref ref-type="bibr" rid="CR33">33</xref></sup>. Wild-type and mutated CrmA protein levels were validated by western blotting (Fig.Â <xref rid="Fig8" ref-type="fig">8c</xref>) and specifically and efficiently blocked TRAIL-induced apoptosis, but had no significant effect on the intrinsic pathway of apoptosis induced by cisplatin treatment (Fig.Â <xref rid="Fig8" ref-type="fig">8d</xref>). We next tested the impact of caspase-8 inhibition upon induction of TAF6Î´ expression (Fig.Â <xref rid="Fig8" ref-type="fig">8e</xref>) and found no detectable inhibition of TAF6Î´-induced apoptosis (Fig.Â <xref rid="Fig8" ref-type="fig">8f</xref>). The data show that in this experimental setting the extrinsic pathway of apoptosis is dispensable for TAF6Î´-mediated cell death.<fig id="Fig8"><label>Fig. 8</label><caption><title>Wild-type CrmA overexpression is sufficient to block TRAIL- but not cisplatin- or TAF6Î´-induced cell death</title><p>Stable cell lines expressing either a wild-type or a mutant versionÂ Crm mtt (CrmAT291R) of the viral inhibitor of caspase-8 CrmA were transfected with 100ânM of the scrambled or TAF6 SSO, or treated with TRAIL or cisplatin. <bold>a</bold> The differential expression of DR5/TNFRSF10B between TAF6Î´-expressing cells and controls along the time-course was assessed from the microarray data. *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>b</bold> The differential expression of c-FLIP/cFLAR between TAF6Î´-expressing cells and controls along the time-course was assessed from the microarray data. *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>c</bold> The expression of wild-type and mutant CrmA protein was controlled by the detection of their HA-tag by immunoblotting. <bold>d</bold> Quantification of apoptosis induced by cisplatin and TRAIL in control (black bars) and in stable cell lines expressing wild-type (white bars) or mutantÂ Crm mtt (gray bars) versions of CrmA. The bars indicate the averageâÂ±âS.D. of three independent experiments. Apoptosis levels were determined by technical triplicates for each experiment. The means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate, and the statistical significance was determined by the Studentâs <italic>t</italic>-test method: *<italic>p</italic>â&lt;â0.05; **<italic>p</italic>â&lt;â0.01. <bold>e</bold> The efficiency of the splicing shift of TAF6 was assessed by RT-PCR. <bold>f</bold> Apoptosis was measured 18âh after TAF6Î´ induction in control and in HeLa cells expressing wild-type and mutant CrmA. Statistical analysis as in<bold> d</bold></p></caption><graphic xlink:href="41419_2017_115_Fig8_HTML" id="d29e1065"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="Sec7" sec-type="discussion">
+      <title>Discussion</title>
+      <p id="Par17">TAF6Î´ is a transcription factor whose expression dictates cell life vs. death decisions, but the underlying mechanisms have remained unknown<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. To define the mechanism by which TAF6Î´ drives apoptosis, we have performed a transcriptome-wide microarray analysis to temporally dissect gene expression changes during TAF6Î´-dependent cell death. The results revealed that genes that correlate temporally with TAF6Î´-mediated death include genes with established roles in the permeabilization of the mitochondrial outer membrane (Fig.Â <xref rid="Fig2" ref-type="fig">2d</xref>). Based on this observation, we tested and confirmed a role for the mitochondrial pathway of apoptosis. The overexpression of anti-apoptotic Bcl-2 family proteins blocked TAF6Î´-driven apoptosis (Fig.Â <xref rid="Fig3" ref-type="fig">3</xref>), establishing the importance of mitochondrial pathway in TAF6Î´-dependent death. Furthermore, TAF6Î´-enforced death was accompanied by the release of cytochrome c from the mitochondria as measured by subcellular fractionation (Fig.Â <xref rid="Fig4" ref-type="fig">4</xref>) and immunofluorescent localization of cytochrome c (Fig.Â <xref rid="Fig5" ref-type="fig">5</xref>). These observations establish, for the first time, the importance of the mitochondrial pathway in TAF6Î´-induced apoptosis.</p>
+      <p id="Par18">Having established the role of the mitochondrial pathway as essential for TAF6Î´-dependent cell death, we then identified BIM and NOXA as pro-apoptotic BH3-only genes whose expression correlates temporally with TAF6Î´-induced apoptosis. siRNAs were used to demonstrate a functional contribution of BIM and NOXA to TAF6Î´-dependent cell death (Fig.Â <xref rid="Fig6" ref-type="fig">6</xref>). BIM and NOXA are induced by TAF6Î´ and their depletion significantly reduced TAF6Î´-driven apoptosis, revealing them as pro-apoptotic effectors of TAF6Î´. Although BIM and NOXA are induced by TAF6Î´ and their expression profiles correlate closely with the induction of apoptosis, it is presently unclear whether BIM or NOXA are direct or indirect targets of TAF6Î´. Further work will be required to establish the direct targets of TAF6Î´, a challenging task given that TAF6Î´ is significantly expressed only in cells destined to rapidly undergo apoptosis. It is noteworthy that NOXA expression can be activated by both p53-dependent and -independent apoptotic pathways<sup><xref ref-type="bibr" rid="CR34">34</xref></sup>, a finding compatible with our previous work showing that the pro-apoptotic function of TAF6Î´ is independent of p53 but shares some overlap on target genes<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. Our observation that NOXA induction is not a universal feature of TAF6Î´-induced apoptosis shows that NOXA induction is not required for death in all cell types. One possible explanation for this finding is simply that the induction of BIM alone can be sufficient for apoptosis. A second possibility is that cell-type-specific TAF6Î´-induced genes, potentially other functionally overlapping BH3-only family members<sup><xref ref-type="bibr" rid="CR30">30</xref></sup>, such as PUMA (Supplementary Fig.Â <xref rid="MOESM8" ref-type="media">3</xref>), may contribute to death via the mitochondrial pathway in different cellular contexts. The identification of BIM and NOXA as mitochondrial effectors of TAF6Î´ represents a fundamental step forward in the understanding of how changes in the subunit composition of the GTF, TFIID, can lead to cell death.</p>
+      <p id="Par19">We have focused the current study by applying stringent biological and temporal correlation criteria to identify positive effectors of TAF6Î´-dependent apoptosis. Given the complexity of the TAF6Î´-directed transcription program, further analysis of our transcriptome data should continue to provide insights into the biological impact of this splice variant. Although we have not pursued them here, reductions in gene expression may also contribute to TAF6Î´-driven apoptosis, as exemplified by the drop in mRNA levels of the anti-apoptotic protein heme oxygenase (Fig.Â <xref rid="Fig2" ref-type="fig">2d</xref>). In addition, while we have focused on genes whose expression correlate in a linear manner with apoptosis levels, genes whose mRNA expression is induced in a burst-like manner could also contribute to cell death. For example, the pro-apoptotic BH3 domain-only gene <italic>PUMA</italic><sup><xref ref-type="bibr" rid="CR30">30</xref></sup> is induced by TAF6Î´ transiently only at the 10âh time point and the pro-apoptotic <italic>p53AIP1</italic><sup><xref ref-type="bibr" rid="CR35">35</xref></sup> gene is transiently induced at 4âh (Supplementary Fig.Â <xref rid="MOESM8" ref-type="media">3</xref>). Further work will be required to exclude or validate a potential role for transient changes in gene expression as functionally contributing to TAF6Î´-induced apoptosis. By more deeply interrogating the transcriptome changes directed by TAF6Î´ at temporal resolution, the data provided here should also further contribute to our understanding of this pathway beyond the outcome of death that we have explored here. In this vein, we have recently used kinetic ontology enrichment analysis to identify and experimentally validate a functional link between the Notch signaling pathway and the TAF6Î´ pathway (Alvarado Cuevas et al., unpublished).</p>
+      <p id="Par20">The systems biology approach employed here, correlating transcriptome-wide changes in gene expression with a phenotypic outcome, should be applicable to the dissection of other subunit changes in TFIID due to alternative splicing. Such changes in transcription complex composition have biologically important consequences as highlighted by the alternative splicing of the TFIID subunits TAF1<sup><xref ref-type="bibr" rid="CR36">36</xref>,<xref ref-type="bibr" rid="CR37">37</xref></sup> and TAF4<sup><xref ref-type="bibr" rid="CR38">38</xref>,<xref ref-type="bibr" rid="CR39">39</xref></sup>, which have been shown to result in functionally distinct TFIID complexes. More broadly, the strategy we describe herein could contribute to the dissection of any subunit change within transcription factor complexes due to alternative splicing. For example, the functions of as-yet uncharacterized alternative splice variants of subunits of the Mediator complex<sup><xref ref-type="bibr" rid="CR40">40</xref></sup> could be explored using the methodology we present here.</p>
+      <p id="Par21">Drug resistance is a major challenge in the treatment of cancer, and the crippling of apoptotic pathways represents one of the major mechanisms by which tumor cells acquire chemoresistance<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. One mechanism of chemoresistance is the mutation of the p53 tumor suppressor gene<sup><xref ref-type="bibr" rid="CR41">41</xref></sup>. Elegant genetic studies with transgenic mice have revealed the sobering fact that the restoration of p53 expression in tumors via gene therapy was rapidly overcome by mutation of the non-essential p53 or other genes in the p53 pathway<sup><xref ref-type="bibr" rid="CR42">42</xref>,<xref ref-type="bibr" rid="CR43">43</xref></sup>. Likewise, mutations within the <italic>BIM</italic> gene can contribute to drug resistance<sup><xref ref-type="bibr" rid="CR44">44</xref></sup>. TAF6 contrasts with previously described pro-apoptotic proteins such as p53, Bcl-2 family members, caspases, and death receptors, which are non-essential (type NE)<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>, as the major isoform of TAF6 protein is essential at the cellular level in human cells<sup><xref ref-type="bibr" rid="CR1">1</xref></sup>. From a therapeutic standpoint, the essential nature of the <italic>TAF6</italic> gene places genetic constraints on the TAF6Î´ pathway of apoptosis that reduce the possibilities to develop resistance<sup><xref ref-type="bibr" rid="CR5">5</xref></sup>. The essential nature of TAF6 therefore underscores the strategic value in exploring this pathway as a therapeutic target in cancer, since its expression cannot be extinguished to generate resistance.</p>
+      <p id="Par22">In conclusion, the data presented here demonstrate a predominant role for the mitochondrial pathway of apoptosis in TAF6Î´-mediated cell death. Furthermore, by using temporal resolution transcriptome analysis, our data have identified BIM and NOXA as BH3-only proteins that are effectors of TAF6Î´-driven apoptosis.</p>
+    </sec>
+    <sec id="Sec8" sec-type="materials|methods">
+      <title>Methods</title>
+      <sec id="Sec9">
+        <title>Cell lines</title>
+        <p id="Par23">In this study, HeLa WS (CCL-2, American Type Culture Collection (ATCC), Manassas, VA, USA), Hek293 (CRL-1573, ATCC), MDA-MB-231 (HTB-26, ATCC) and Hs-578T (HTB-126, ATCC), and Panc-1 (CRL-1469, ATCC) cell lines were used.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Oligos</title>
+        <p id="Par24">SSOs were 2â²-O-methyl-oligoribonucleoside phosphorothioate antisense 20-mers (Sigma-Aldrich Canada, Oakville, ON, Canada) and were used to induce the splicing of TAF6 pre-messenger RNA towards the Î´ isoform as previously documented<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref></sup>. TAF6-specific SSO sequence was 5â²-CUGUGCGAUCUCUUUGAUGC-3â² and control SSO 5â²-AUGGCCUCGACGUGCGCGCU-3â². DsiRNAs as well as the PCR primers were obtained from Integrated DNA Technologies (Toronto, ON, Canada). As a negative control, we used a duplex without any target in mammalian cells: sense: 5â²-CUUCCUCUCUUUCUCUCCCUUGUdGdA-3â²; antisense: 5â²-UCACAAGGGAGAGAAAGAGAGGAAGGA-3â². The knockdown of BIM (NM_138621) using Bim_Dsi1 sense: 5â²-GACCGAGAAGGUAGACAAUUGCAGCCT-3â²; antisense: 5â²-AGGCUGCAAUUGUCUACCUUCUCGGUCUU-3â²; and Bim_Dsi2 sense sequence: 5â²-GACCGAGAAGGUAGACAAUUGCAGC-3â² and antisense: 5â²-GCUGCAAUUGUCUACCUUCUCGGUCAC-3â². The knockdown of NOXA (NM_021127) was obtained with Noxa Dsi1 sense sequence: 5â²-GCAUUGUAAUUGAGAGGAAUGUGAA-3â² and antisense: 5â²-UUCACAUUCCUCUCAAUUACAAUGCAG-3â²; Noxa Dsi2 sense sequence: 5â²-GAGAUGACCUGUGAUUAGACUGGGC-3â² and antisense: 5â²-GCCCAGUCUAAUCACAGGUCAUCUCUU-3â². The portion of TAF6 mRNA containing the splicing event involved in the determination between the Î± and Î´ isoforms was amplified by RT-PCR with the primers TAF6-1: 5â²-AAAAAGGGATCCCATGGGCATCGCCCAGATTCAGG-3â² and TAF6-2: 5â²-AAAAAGGAATTCCAAGGCGTAGTCAATGTCACTGG-3â². To amplify CrmAWT and CrmAT291R coding sequences we used the following primers: CrmA-BamHI-L: 5â²-GATCCATGGCTTACCCATACGATGTTCC-3â²; CrmA-BamHI-c: 5â²-CATGGCTTACCCATACGATGTTCC-3â²; CrmA-XhoI-L: 5â²-TCGAGTTAATTAGTTGTTGGAGAGCAATATCTACC-3â²; CrmA-XhoI-c: 5â²-GTTAATTAGTTGTTGGAGAGCAATATCTACC-3â². Finally, hRPLPO (as a normalization control) BIM, NOXA, and ACRC were quantified by quantitative PCR with the following primers: hRPLPO-F: 5â²-GCAATGTTGCCAGTGTCTG-3â²; hRPPO-R: 5â²- GCCTTGACCTTTTCAGCAA-3â²; TBP-F: 5â²-GGGGAGCTGTGATGTGAAGT-3â²; TBP-R: 5â²-GGAGAACAATTCTGGGTTGA-3â² BIM_F1: 5â²-ATGTCTGACTCTGACTCTCG-3â²; BIM_R2: 5â²-CCTTGTGGCTCTGTCTGTAG-3â²; NOXA_R1: 5â²-TCCTGAGCAGAAGAGTTTGG-3â²; NOXA_F1: 5â²-GGAGATGCCTGGGAAGAAGG-3â²; ACRC_F2: 5â²-CTCATGGTGACGCATGGAAG-3â²; and ACRC_R2: 5â²-AGCAGCCAATCCTCGTTTTG-3â².</p>
+      </sec>
+      <sec id="Sec11">
+        <title>Plasmids</title>
+        <p id="Par25">The pcDNA3.1-Bcl-X<sub>L</sub> plasmid was kindly provided by Dr. Alain PichÃ© (UniversitÃ© de Sherbrooke, QC, Canada), plenti6V5A, plp1, plp2, and plpVSVg by Pr Nathalie Rivard (UniversitÃ© de Sherbrooke, QC, Canada), and pcDNA3.1-CrmAwt and pcDNA3.1-CrmAT291R by Pr Jean-Bernard Denault (UniversitÃ© de Sherbrooke, QC, Canada).</p>
+        <p id="Par26">The plenti6V5A-Bcl-2 and plenti6V5A-Bcl-X<sub>L</sub> plasmids, which were used to produce the Bcl-2 and Bcl-X<sub>L</sub> stably overexpressing cell lines, were generated by classic restriction enzyme digestion approach. Bcl-2 and Bcl-X<sub>L</sub> were excised from pcDNA3.1 backbone with <italic>Eco</italic>RI and <italic>Apa</italic>1, and ligated into plenti6v5A digested with the same enzymes.</p>
+        <p id="Par27">To sub-clone the coding sequences of CrmAWT and CrmAT291R into the lentiviral plenti6V5A backbones, we used the PCR-based method previously described<sup><xref ref-type="bibr" rid="CR45">45</xref></sup> that allowed the addition of <italic>Bam</italic>HI and <italic>Not</italic>I restriction sites, respectively, upstream and downstream of this sequence. Then, the product was ligated into the plenti6V5A backbone digested with the same enzymes.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Antibodies</title>
+        <p id="Par28">Antibodies directed against cytochrome c (#556432 and #556433) were from BD Pharmingen (Mississauga, ON, Canada); BIM (B7929) and Î±-tubulin (B5-1-2) from Sigma-Aldrich; active caspase 3 (9661 and 9664) and Bcl-X<sub>L</sub> (2762) from Cell Signaling (Beverly, MA, USA); GAPDH (ab9485) and VDAC-1 (ab15895) from Abcam (Toronto, ON, Canada); Noxa (OP180) from Calbiochem (Etobicoke, ON, Canada); Bax (06-499) from Upstate (Etobicoke, ON, Canada); and Bcl-2 (sc492) and HA (sc7392) from Santa Cruz (Dallas, TX, USA). The TBP antibody was kindly provided by Lazlo Tora from the IGBMC (Strasbourg, France).</p>
+      </sec>
+      <sec id="Sec13">
+        <title>Cell culture</title>
+        <p id="Par29">HeLa WS cell line was maintained in Dulbeccoâs modified Eagle medium (DMEM; Wisent, St-Bruno, QC, Canada) containing 2.5% fetal calf serum (FCS; Wisent) and 2.5% calf serumÂ CS (Wisent). Hek293, MDA-MB-231, and Hs-578T cells were grown in DMEM containing 10% FCS. Saos-2 cell line was maintained in Mc Coyâs medium (Wisent) enriched with 15% FCS. Panc-1 cells were cultured in DMEM with the addition of 10% FCS, 1% sodium pyruvate (Wisent), 1% Hepes (Wisent), and 1% <sc>l</sc>-glutamine (Wisent). These cell lines were kept at 37âÂ°C with 5% CO<sub>2</sub>.</p>
+      </sec>
+      <sec id="Sec14">
+        <title>Transfections</title>
+        <p id="Par30">When 24-well plates were used, 250âng plasmid were transfected with the addition of 0.4âÂµl of DMRIE-C transfecting agent (Invitrogen, Life Technologies, Burlington, ON, Canada) per well. The SSOs were transfected at a final concentration of 100ânM with 0.8âÂµl/well (HeLa WS, Hs-578T, Saos-2, and Panc-1) or 1âÂµl/well (MDA-MB-231) Lipofectamine 2000 (Invitrogen, Life Technologies). The DsiRNAs were transfected in HeLa WS cells at a final concentration of 10ânM with 0.8âÂµl/well Lipofectamine 2000. In 100âcm<sup>2</sup> Petri dishes, 100ânM SSOs were transfected in HeLa WS cells with 20âÂµl Lipofectamine 2000. All the transfections were performed in the serum-free Opti-MEM medium (Gibco, Waltham, MA, USA) according to the manufacturerâs instructions. For the Bcl-2 and Bcl-X<sub>L</sub> overexpression experiments, HeLa WS cells were plated at a concentration of 50â000 cells/well in 24-well plates. The plasmids were transfected 24âh later and the SSOs 16âh after the plasmids. In NOXA and BIM RNA-interference-mediated knockdown experiments, HeLa WS cells were plated in 24-well plates at a concentration of 50â000 cells/well. The DsiRNAs were transfected 24âh later, and the SSOs 24âh after the DsiRNAs. In the time-course experiments and in cell lines overexpressing Bcl-2, Bcl-XL, CrmAWT, or CrmA mttÂ (CrmAT291R), the cells were plated in 24-well plates at a concentration of 70 000 (HeLa, Hs-578T and Panc-1) or 90â000 (MDA-MB-231 and Saos-2) cells/well and transfected with the SSOs 24âh later. In all these experiments, the cells were harvested 18âh after the transfection with the SSOs.</p>
+      </sec>
+      <sec id="Sec15">
+        <title>Treatment of the cells with drugs</title>
+        <p id="Par31">Cells were treated with 100âng/ml of TRAIL (Peprotech, Embrun, ON, Canada) for 12âh or 5âÂµM of cisplatin for 18âh (Pharmacy of the Oncology Service, Centre Hospitalier Universitaire de Sherbrooke, QC, Canada).</p>
+      </sec>
+      <sec id="Sec16">
+        <title>RT-PCR</title>
+        <p id="Par32">RT-PCR conditions and primers for amplification of both TAF6Î± and TAF6Î´ have been described<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. PCR products were loaded on a 15% polyacrylamide gel to resolve the 150 and 180âbp bands corresponding to the Î± and Î´ isoforms, respectively. The products were also quantified by the Agilent capillary electrophoresis system (Agilent, Santa Clara, CA, USA). For this quantification, the samples were prepared with the Agilent DNA 1000 kit, loaded on microfluidic chips and the electrophoresis was performed according to the manufacturerâs instructions (Agilent). The ratio of TAF6Î´ isoform relative to TAF6 total mRNA (TAF6Î±â+âTAF6Î´) was calculated for each sample and the histograms represent the mean as well as S.D. of three independent experiments.</p>
+      </sec>
+      <sec id="Sec17">
+        <title>Cytofluorimetric detection of apoptosis</title>
+        <p id="Par33">For the time-course measurement of apoptosis, HeLa Ws cells were submitted either to sub-G1 DNA content analysis with propidium iodide as previously described<sup><xref ref-type="bibr" rid="CR2">2</xref></sup> or detection of caspase-cleaved cytokeratin-18 by flow cytometry using Cytodeath reagent (Roche) according to the manufacturerâs recommendations.</p>
+        <p id="Par34">For the other apoptosis quantifications, cells were fixed in 3% formaldehyde, permeabilized with 90% methanol, and incubated for 10âmin with blocking buffer (1Ã phosphate-buffered saline (PBS) containing 0.5% bovine serum albumin (BSA)). Cells where then incubated overnight with anti-cleaved caspase 3 antibody (1/1500 in blocking buffer) at 4âÂ°C, washed with blocking buffer, reincubated 1âh at room temperature with R-phycoerythrin donkey anti-rabbit IgG (1/100), washed again with blocking buffer, and resuspended in PBS 1Ã before analysis with the Beckton Dickinson FACScan flow cytometer (BD Biosciences, Mississauga, ON, Canada).</p>
+        <p id="Par35">For each sample, after the exclusion of aggregates and debris, &gt;10 000 cells were analyzed by flow cytometry. For each figure, three different experiments were performed, each containing three technical replicates. Apoptosis rates were calculated by subtracting the background levels in SSO control transfected cells (Figs.Â <xref rid="Fig3" ref-type="fig">3</xref>, <xref rid="Fig6" ref-type="fig">6</xref>, and <xref rid="Fig8" ref-type="fig">8</xref>) or untreated cells (Fig.Â <xref rid="Fig8" ref-type="fig">8</xref>) from that of TAF6Î´-expressing (Figs.Â <xref rid="Fig3" ref-type="fig">3</xref>, <xref rid="Fig6" ref-type="fig">6</xref>, and <xref rid="Fig8" ref-type="fig">8</xref>) or TRAIL/cisplatin-treated (Fig.Â <xref rid="Fig8" ref-type="fig">8</xref>) cells. This difference has then been normalized relative to the empty vector (Figs.Â <xref rid="Fig3" ref-type="fig">3</xref> and <xref rid="Fig8" ref-type="fig">8</xref>) or the scrambled siRNA (Fig.Â <xref rid="Fig6" ref-type="fig">6</xref>). The histograms show the mean of three independent experiments, each assayed by three technical replicates. Means and S.D.âs for the biological replicates were calculated using the three means of the three technical replicates of each biological replicate and the <italic>p</italic> values were calculated using the Studentâs <italic>t</italic>-test.</p>
+      </sec>
+      <sec id="Sec18">
+        <title>Microarray analysis of gene expression</title>
+        <p id="Par36">HeLa WS were split into 24-well plates at a concentration of 70â000 cells/well and transfected 24âh later with 100ânM of scrambled or TAF6 SSO. The samples were collected every 2âh, from 2 to 18âh after the transfection. The samples preparation as well as the data acquisition was performed as described previously<sup><xref ref-type="bibr" rid="CR3">3</xref>,<xref ref-type="bibr" rid="CR4">4</xref>,<xref ref-type="bibr" rid="CR46">46</xref>,<xref ref-type="bibr" rid="CR47">47</xref></sup>. The microarray data are freely available at the database <ext-link ext-link-type="uri" xlink:href="http://mace.ihes.fr">http://mace.ihes.fr</ext-link> under the accession 2853724252. The genes with a statistically significant (<italic>p</italic>â&lt;â0.05) difference of expression during the time-course in response TAF6Î´ expression were selected (Supplementary TableÂ <xref rid="MOESM2" ref-type="media">1</xref>) and sorted according to their expression profiles with the kinetics function of the ace.map software<sup><xref ref-type="bibr" rid="CR23">23</xref>,<xref ref-type="bibr" rid="CR46">46</xref>â<xref ref-type="bibr" rid="CR48">48</xref></sup>. The ontology analyses were also performed with the ace.map software based on the Panther classification system (<ext-link ext-link-type="uri" xlink:href="http://pantherdb.org/">http://pantherdb.org/</ext-link>) and previously established methods<sup><xref ref-type="bibr" rid="CR49">49</xref></sup>. For the ontology studies we selected the genes, which were regulated in a statistically significant manner (<italic>p</italic>â&lt;â0.05) with a logQ under â1 or above 1 at one or several time points of the time-course. The list of these genes was submitted to the ontology enrichment function of Acemap. FigureÂ <xref rid="Fig2" ref-type="fig">2a</xref> shows the 10 pathways over-represented with the best statistical significance.</p>
+        <p id="Par37">For Fig.Â <xref rid="Fig2" ref-type="fig">2c</xref>, the gene expression of each time point was normalized to 2âh time point and the genes showing a statistically significant regulation (<italic>p</italic>â&lt;â0,05) were submitted to an ontological analysis (leo function of ace.map). Enrichment of four pro-apoptotic pathways in TAF6Î´-regulated genes along the time compared to the control is represented. The dark fragments represent the ratio âlog10(<italic>p</italic>value)/âlog10(<italic>p</italic>value<sub>Max</sub>) at each time point. The correlation analysis was performed with the genes listed in Supplementary TableÂ <xref rid="MOESM2" ref-type="media">1</xref>. Linear regressions were calculated based on the gene expression profiles as well as the apoptosis measurements with the Cytodeath and propidium iodide. For each gene, the Pearson method allowed us to determine a correlation coefficient (<italic>R</italic><sup>2</sup>) with each of the cell death detection method. The genes showing an absolute correlation coefficient above 0.8 (Supplementary TableÂ <xref rid="MOESM5" ref-type="media">3</xref>) were selected and submitted to an ontology study.</p>
+      </sec>
+      <sec id="Sec19">
+        <title>Western blots</title>
+        <p id="Par38">For the protein lysates preparation, the culture supernatants and the washing buffers were collected, pooled, and centrifuged to pellet the floating apoptotic cells. The cell layers were washed twice with PBS 1Ã, lysed in Laemmli buffer (100âmM Tris/HCl (pH 6.8), 10% glycerol, and 2.5% SDS) transferred onto the corresponding cell pellets and boiled 5âmin at 100âÂ°C. The protein quantifications were performed with the BCA reagent according to the manufacturerâs recommendations (Pierce BCA Protein Assay Kit, Thermo Scientific, Rockford, IL, USA). The proper amounts of protein were loaded and resolved on a polyacrylamide gel before the transfer on a polyvinylidene fluoride (BIM and NOXA) or nitrocellulose (for the other proteins) membrane in a tris/glycine buffer containing 20% ethanol. The membranes were blocked with PBS-T buffer (1Ã PBS with 0.05% Tween 20) containing 5% milk and incubated overnight with the primary antibodies. The membranes were then washed with PBS-T, incubated with the appropriate secondary antibody, and washed again. The signal was revealed with the ECL Western Lightning Plus reagent (Perkin-Elmer, Waltham, MA, USA) according to the manufacturerâs recommendations and detected with photographic films. Where indicated, the quantitation of western blots was performed by densitometry analysis performed with the ImageJ algorithm (<ext-link ext-link-type="uri" xlink:href="https://imagej.nih.gov/ij/">https://imagej.nih.gov/ij/</ext-link>). The signals quantified for the detection of a specific protein (cytochrome <italic>c</italic>, BIM, or NOXA) were normalized to those of the loading control (GAPDH or TBP) and the S.D. of the mean ratios obtained for three independent experiments are shown on Figs.Â <xref rid="Fig4" ref-type="fig">4</xref>b and <xref rid="Fig6" ref-type="fig">6c</xref>.</p>
+      </sec>
+      <sec id="Sec20">
+        <title>Cell fractionation</title>
+        <p id="Par39">HeLa cells were seeded in 100âcm<sup>2</sup> Petri dishes at a density of 3.10<sup>6</sup> cells/dish and transfected with either the control or TAF6 SSO and trypsinized 18âh later. Cells were resuspended in mitochondria buffer (210âmM mannitol, 70âmM sucrose, 1âmM EDTA, 10âmM HEPES (pH 7.5) and protease inhibitors (Roche)), broken with a syringe, and centrifugated at 2000âr.p.m. for 5âmin at 4âÂ°C. The supernatant was then submitted to an additionnal centrifugation at 13â000âr.p.m. for 10âmin at 4âÂ°C. The pellet was used as the mitochondrial fraction and the supernatant as the cytoplasmic fraction for immunoblotting. This method was adapted from Eskes et al.<sup><xref ref-type="bibr" rid="CR50">50</xref></sup>. To facilitate the loading on the polyacrylamide gels, the cytoplasmic fractions were concentrated with a methanol-chloroforme-based precipitation procedure.</p>
+      </sec>
+      <sec id="Sec21">
+        <title>Immunofluorescence</title>
+        <p id="Par40">HeLa WS cells were seeded in 24-well plate on polylysine-coated coverslips at a concentration of 60â000 cells/well. Cells were transfected with SSOs and fixed 14âh later in 3% paraformaldehyde, permeabilized with PBS-0.1% Triton X-100 (PBS-Tx) and incubated for 30âmin in blocking buffer (PBS-Tx containing 1% BSA and 0.5% fish gelatine (Sigma-Aldrich)). Cells were then sequentially incubated 1âh at room temperature, followed by washes, with each of the following antibodies diluted in blocking buffer; anti-cytochrome c mAb (1/500) (BD Pharmingen), Alexa Fluor 546 goat anti-mouse IgG1 secondary antibody (1/1250) (Molecular Probes). Cells were then treated with Hoechst 33342 (2âmg/ml) and visualized by fluorescence microscopy. For statistical analysis, three independent experiments were performed. Seven fields were randomly chosen for scoring and a minimum of 400 cells were scored for cytochrome c distribution (mitochondrial vs. cytoplasmic). The number of cells with cytoplasmic cytochrome c was divided by the total number of cells to express the percentage of cells with cytochome c release. The Studentâs <italic>t</italic>-test was used to assess the statistical significance through the calculation of <italic>p</italic> values.</p>
+      </sec>
+      <sec id="Sec22">
+        <title>Establishment of stable cell lines overexpressing Bcl-2, Bcl-X<sub>L</sub>, CrmAWT, or CrmAT291R</title>
+        <p id="Par41">Hek293 cells were plated in 100âcm<sup>2</sup> Petri dishes and transfected with 2.5âÎ¼g plp1, 2.5âÎ¼g plp2, 2âÎ¼g plpVSVg, and 7âÎ¼g plenti6v5A-Bcl-2, Bcl-X<sub>L,</sub> CrmAWT, or CrmAT291R with the calcium phosphate method [<xref ref-type="bibr" rid="CR52">52</xref>]. After 48âh, the supernatant was harvested, filtrated through a 0.45âÎ¼m filter and applied on HeLa WS, Saos-2, Hs-578T, MDA-MB-231, and Panc-1 cells pre-treated for 1âh with 8âÎ¼g/ml polybrene (1,5-dimethyl-1,5-diazaundecamethylene polymethobromide, hexadimethrine bromide) (Sigma-Aldrich Canada). The infected cells were then selected with the addition of 5âÎ¼M Blasticidin S (Gibco) in the culture media.</p>
+      </sec>
+      <sec id="Sec23">
+        <title>Quantitative PCR</title>
+        <p id="Par42">RNA purification and reverse transcription into cDNA have been described previously<sup><xref ref-type="bibr" rid="CR3">3</xref></sup>. The quantitative PCR were performed with 10ng of cDNA per reaction with KlenTaq Polymerase in a buffer containing 6âmM Tris-Hcl (pH 8.3), 25âmM KCl, 4âmM MgCl<sub>2</sub>, 75âmM Trealose, 0.1% Tween 20, 0.1âmg/ml non-acetylated BSA, and 0.1Ã Sybrgreen (Invitrogen, Life Technologies). The amplification of BIM, NOXA, and ACRC was performed with the BIM-F1/BIM-R2, NOXA-F1/NOXA-R1, and ACRC-F1/ACRC-R1 primers. The <italic>hRPLPO</italic> and <italic>TBP</italic> genes were used for the normalization. The raw data were analyzed using the ÎÎCt method and the average of TBP and hRPLPO Ct values for normalization<sup><xref ref-type="bibr" rid="CR51">51</xref></sup>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Electronic supplementary material</title>
+      <sec id="Sec24">
+        <p>
+<supplementary-material content-type="local-data" id="MOESM1"><media xlink:href="41419_2017_115_MOESM1_ESM.docx"><caption><p>Supplementary data legends</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM2"><media xlink:href="41419_2017_115_MOESM2_ESM.pdf"><caption><p>Supplementary Table 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM3"><media xlink:href="41419_2017_115_MOESM3_ESM.pdf"><caption><p>Supplementary Figure 1</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM4"><media xlink:href="41419_2017_115_MOESM4_ESM.pdf"><caption><p>Supplementary Table 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM5"><media xlink:href="41419_2017_115_MOESM5_ESM.pdf"><caption><p>Supplementary Table 3</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM6"><media xlink:href="41419_2017_115_MOESM6_ESM.pdf"><caption><p>Supplementary Figure 2</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM7"><media xlink:href="41419_2017_115_MOESM7_ESM.pdf"><caption><p>Supplementary Table 4</p></caption></media></supplementary-material>
+<supplementary-material content-type="local-data" id="MOESM8"><media xlink:href="41419_2017_115_MOESM8_ESM.pdf"><caption><p>Supplementary Figure 3</p></caption></media></supplementary-material>
+</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <fn-group>
+      <fn>
+        <p>Edited by M. Campanella</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Publisher's note</bold>
+        </p>
+        <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Supplementary information</bold>
+        </p>
+        <p>The online version of this article 10.1038/s41419-017-0115-3 contains supplementary material.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Publisherâs note</bold>
+        </p>
+        <p>Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>We thank Jean-Bernard Denault for the gift of plasmids containing CrmA and for helpful discussions. We thank Alain PichÃ© for plasmids containing Bcl-X<sub>L</sub>. We thank Benoit Vanderperre and Xavier Roucou for advice and antibodies for cytochrome c subcellular fractionation experiments. We are grateful to SÃ©bastien Cagnol and Nathalie Rivard for advice and reagents for stable lentiviral transduction. We thank Marc-Olivier Dancosst for technical assistance. E.W. thanks the NSERC for financial support through the award of an Alexander Graham Bell Canada Graduate Scholarships doctoral scholarship. E.M.A.C. is grateful for the Tranzyme Pharma M.Sc. bursary awarded by the FacultÃ© de mÃ©decine et sciences de la santÃ©, UniversitÃ© de Sherbrooke. A.G.B. received funding from the CNRS, France. S.E. was the recipient of a Postdoctoral Fellowship from Sidaction. This work was funded through a Discovery grant from Natural Sciences and Engineering Research Council of Canada (RGPIN-2014-04271) awarded to B.B.</p>
+    </ack>
+    <notes notes-type="COI-statement">
+      <sec id="FPar1">
+        <title>Competing interests</title>
+        <p id="Par43">The authors declare that they have no competing financial interests.</p>
+      </sec>
+    </notes>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kamtchueng</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Alternative splicing of TAF6: downstream transcriptome impacts and upstream RNA splice control elements</article-title>
+          <source>PLoS ONE.</source>
+          <year>2014</year>
+          <volume>9</volume>
+          <fpage>e102399</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0102399</pub-id>
+          <?supplied-pmid 25025302?>
+          <pub-id pub-id-type="pmid">25025302</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bell</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Scheer</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Tora</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of hTAF(II)80 delta links apoptotic signaling pathways to transcription factor TFIID function</article-title>
+          <source>Mol. Cell.</source>
+          <year>2001</year>
+          <volume>8</volume>
+          <fpage>591</fpage>
+          <lpage>600</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1097-2765(01)00325-2</pub-id>
+          <?supplied-pmid 11583621?>
+          <pub-id pub-id-type="pmid">11583621</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilhelm</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pellay</surname>
+              <given-names>FX</given-names>
+            </name>
+            <name>
+              <surname>Benecke</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>TAF6delta controls apoptosis and gene expression in the absence of p53</article-title>
+          <source>PLoS ONE.</source>
+          <year>2008</year>
+          <volume>3</volume>
+          <fpage>e2721</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0002721</pub-id>
+          <?supplied-pmid 18628956?>
+          <pub-id pub-id-type="pmid">18628956</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilhelm</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TAF6delta orchestrates an apoptotic transcriptome profile and interacts functionally with p53</article-title>
+          <source>BMC Mol. Biol.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>10</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2199-11-10</pub-id>
+          <?supplied-pmid 20096117?>
+          <pub-id pub-id-type="pmid">20096117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification and characterization of essential genes in the human genome</article-title>
+          <source>Science</source>
+          <year>2015</year>
+          <volume>350</volume>
+          <fpage>1096</fpage>
+          <lpage>1101</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.aac7041</pub-id>
+          <?supplied-pmid 26472758?>
+          <pub-id pub-id-type="pmid">26472758</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gill</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Death signals changes in TFIID</article-title>
+          <source>Mol Cell.</source>
+          <year>2001</year>
+          <volume>8</volume>
+          <fpage>482</fpage>
+          <lpage>484</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1097-2765(01)00338-0</pub-id>
+          <?supplied-pmid 11583609?>
+          <pub-id pub-id-type="pmid">11583609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kruiswijk</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Labuschagne</surname>
+              <given-names>CF</given-names>
+            </name>
+            <name>
+              <surname>Vousden</surname>
+              <given-names>KH</given-names>
+            </name>
+          </person-group>
+          <article-title>p53 in survival, death and metabolic health: a lifeguard with a licence to kill</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <fpage>393</fpage>
+          <lpage>405</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm4007</pub-id>
+          <?supplied-pmid 26122615?>
+          <pub-id pub-id-type="pmid">26122615</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Louder</surname>
+              <given-names>RK</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of promoter-bound TFIID and model of human pre-initiation complex assembly</article-title>
+          <source>Nature.</source>
+          <year>2016</year>
+          <volume>531</volume>
+          <fpage>604</fpage>
+          <lpage>609</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature17394</pub-id>
+          <?supplied-pmid 27007846?>
+          <pub-id pub-id-type="pmid">27007846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bell</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Tora</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of gene expression by multiple forms of TFIID and other novel TAFII-containing complexes</article-title>
+          <source>Exp. Cell Res.</source>
+          <year>1999</year>
+          <volume>246</volume>
+          <fpage>11</fpage>
+          <lpage>19</lpage>
+          <pub-id pub-id-type="doi">10.1006/excr.1998.4294</pub-id>
+          <?supplied-pmid 9882510?>
+          <pub-id pub-id-type="pmid">9882510</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cler</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Papai</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Schultz</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Davidson</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>Recent advances in understanding the structure and function of general transcription factor TFIID</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2009</year>
+          <volume>66</volume>
+          <fpage>2123</fpage>
+          <lpage>2134</lpage>
+          <pub-id pub-id-type="doi">10.1007/s00018-009-0009-3</pub-id>
+          <?supplied-pmid 19308322?>
+          <pub-id pub-id-type="pmid">19308322</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pijnappel</surname>
+              <given-names>WW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A central role for TFIID in the pluripotent transcription circuitry</article-title>
+          <source>Nature.</source>
+          <year>2013</year>
+          <volume>495</volume>
+          <fpage>516</fpage>
+          <lpage>519</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature11970</pub-id>
+          <?supplied-pmid 23503660?>
+          <pub-id pub-id-type="pmid">23503660</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Alazami</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Accelerating novel candidate gene discovery in neurogenetic disorders via whole-exome sequencing of prescreened multiplex consanguineous families</article-title>
+          <source>Cell Rep.</source>
+          <year>2015</year>
+          <volume>10</volume>
+          <fpage>148</fpage>
+          <lpage>161</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.celrep.2014.12.015</pub-id>
+          <?supplied-pmid 25558065?>
+          <pub-id pub-id-type="pmid">25558065</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Global transcriptional disturbances underlie Cornelia de Lange syndrome and related phenotypes</article-title>
+          <source>J. Clin. Invest.</source>
+          <year>2015</year>
+          <volume>125</volume>
+          <fpage>636</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="doi">10.1172/JCI77435</pub-id>
+          <?supplied-pmid 25574841?>
+          <pub-id pub-id-type="pmid">25574841</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goodrich</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Tjian</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Unexpected roles for core promoter recognition factors in cell-type-specific transcription and gene regulation</article-title>
+          <source>Nat. Rev. Genet.</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>549</fpage>
+          <lpage>558</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrg2847</pub-id>
+          <?supplied-pmid 20628347?>
+          <pub-id pub-id-type="pmid">20628347</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muller</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Zaucker</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tora</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Developmental regulation of transcription initiation: more than just changing the actors</article-title>
+          <source>Curr. Opin. Genet. Dev.</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>533</fpage>
+          <lpage>540</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gde.2010.06.004</pub-id>
+          <?supplied-pmid 20598874?>
+          <pub-id pub-id-type="pmid">20598874</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ohler</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Wassarman</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>Promoting developmental transcription</article-title>
+          <source>Development</source>
+          <year>2010</year>
+          <volume>137</volume>
+          <fpage>15</fpage>
+          <lpage>26</lpage>
+          <pub-id pub-id-type="doi">10.1242/dev.035493</pub-id>
+          <?supplied-pmid 20023156?>
+          <pub-id pub-id-type="pmid">20023156</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thut</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>JL</given-names>
+            </name>
+            <name>
+              <surname>Klemm</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Tjian</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>p53 transcriptional activation mediated by coactivators TAFII40 and TAFII60</article-title>
+          <source>Science</source>
+          <year>1995</year>
+          <volume>267</volume>
+          <fpage>100</fpage>
+          <lpage>104</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.7809597</pub-id>
+          <?supplied-pmid 7809597?>
+          <pub-id pub-id-type="pmid">7809597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jimenez</surname>
+              <given-names>GS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A transactivation-deficient mouse model provides insights into Trp53 regulation and function</article-title>
+          <source>Nat. Genet.</source>
+          <year>2000</year>
+          <volume>26</volume>
+          <fpage>37</fpage>
+          <lpage>43</lpage>
+          <pub-id pub-id-type="doi">10.1038/79152</pub-id>
+          <?supplied-pmid 10973245?>
+          <pub-id pub-id-type="pmid">10973245</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Johnson</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Hammond</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Giaccia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Attardi</surname>
+              <given-names>LD</given-names>
+            </name>
+          </person-group>
+          <article-title>The p53QS transactivation-deficient mutant shows stress-specific apoptotic activity and induces embryonic lethality</article-title>
+          <source>Nat. Genet.</source>
+          <year>2005</year>
+          <volume>37</volume>
+          <fpage>145</fpage>
+          <lpage>152</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1498</pub-id>
+          <?supplied-pmid 15654339?>
+          <pub-id pub-id-type="pmid">15654339</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fuchs</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Steller</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Live to die another way: modes of programmed cell death and the signals emanating from dying cells</article-title>
+          <source>Nat. Rev. Mol. Cell. Biol.</source>
+          <year>2015</year>
+          <volume>16</volume>
+          <fpage>329</fpage>
+          <lpage>344</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm3999</pub-id>
+          <?supplied-pmid 25991373?>
+          <pub-id pub-id-type="pmid">25991373</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Czabotar</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name>
+              <surname>Lessene</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Strasser</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of apoptosis by the BCL-2 protein family: implications for physiology and therapy</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <year>2014</year>
+          <volume>15</volume>
+          <fpage>49</fpage>
+          <lpage>63</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm3722</pub-id>
+          <?supplied-pmid 24355989?>
+          <pub-id pub-id-type="pmid">24355989</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilhelm</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Pellay</surname>
+              <given-names>FX</given-names>
+            </name>
+            <name>
+              <surname>Benecke</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Determining the impact of alternative splicing events on transcriptome dynamics</article-title>
+          <source>BMC Res Notes</source>
+          <year>2008</year>
+          <volume>1</volume>
+          <fpage>94</fpage>
+          <pub-id pub-id-type="doi">10.1186/1756-0500-1-94</pub-id>
+          <?supplied-pmid 18950505?>
+          <pub-id pub-id-type="pmid">18950505</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>AL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Early transcriptional programming links progression to hepatitis C virus-induced severe liver disease in transplant patients</article-title>
+          <source>Hepatology</source>
+          <year>2012</year>
+          <volume>56</volume>
+          <fpage>17</fpage>
+          <lpage>27</lpage>
+          <pub-id pub-id-type="doi">10.1002/hep.25612</pub-id>
+          <?supplied-pmid 22278598?>
+          <pub-id pub-id-type="pmid">22278598</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>HP</given-names>
+            </name>
+            <name>
+              <surname>Ryter</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Choi</surname>
+              <given-names>AM</given-names>
+            </name>
+          </person-group>
+          <article-title>CO as a cellular signaling molecule</article-title>
+          <source>Annu. Rev. Pharmacol. Toxicol.</source>
+          <year>2006</year>
+          <volume>46</volume>
+          <fpage>411</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="doi">10.1146/annurev.pharmtox.46.120604.141053</pub-id>
+          <?supplied-pmid 16402911?>
+          <pub-id pub-id-type="pmid">16402911</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kelly</surname>
+              <given-names>PN</given-names>
+            </name>
+            <name>
+              <surname>Strasser</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of Bcl-2 and its pro-survival relatives in tumourigenesis and cancer therapy</article-title>
+          <source>Cell Death. Differ.</source>
+          <year>2011</year>
+          <volume>18</volume>
+          <fpage>1414</fpage>
+          <lpage>1424</lpage>
+          <pub-id pub-id-type="doi">10.1038/cdd.2011.17</pub-id>
+          <?supplied-pmid 21415859?>
+          <pub-id pub-id-type="pmid">21415859</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kluck</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Bossy-Wetzel</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Newmeyer</surname>
+              <given-names>DD</given-names>
+            </name>
+          </person-group>
+          <article-title>The release of cytochrome c from mitochondria: a primary site for Bcl-2 regulation of apoptosis</article-title>
+          <source>Science</source>
+          <year>1997</year>
+          <volume>275</volume>
+          <fpage>1132</fpage>
+          <lpage>1136</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.275.5303.1132</pub-id>
+          <?supplied-pmid 9027315?>
+          <pub-id pub-id-type="pmid">9027315</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yang</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prevention of apoptosis by Bcl-2: release of cytochrome c from mitochondria blocked</article-title>
+          <source>Science</source>
+          <year>1997</year>
+          <volume>275</volume>
+          <fpage>1129</fpage>
+          <lpage>1132</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.275.5303.1129</pub-id>
+          <?supplied-pmid 9027314?>
+          <pub-id pub-id-type="pmid">9027314</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>CN</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Jemmerson</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Induction of apoptotic program in cell-free extracts: requirement for dATP and cytochrome c</article-title>
+          <source>Cell</source>
+          <year>1996</year>
+          <volume>86</volume>
+          <fpage>147</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(00)80085-9</pub-id>
+          <?supplied-pmid 8689682?>
+          <pub-id pub-id-type="pmid">8689682</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mi</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PANTHER version 11: expanded annotation data from Gene Ontology and Reactome pathways, and data analysis tool enhancements</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2017</year>
+          <volume>45</volume>
+          <fpage>D183</fpage>
+          <lpage>D189</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkw1138</pub-id>
+          <?supplied-pmid 27899595?>
+          <pub-id pub-id-type="pmid">27899595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <mixed-citation publication-type="other">Birkinshaw, R. W., Czabotar, P. E. The BCL-2 family of proteins and mitochondrial outer membrane permeabilisation. <italic>Semin. Cell Dev. Biol.</italic> https://doi.org/10.1016/j.semcdb.2017.04.001 (2017).</mixed-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walczak</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>TRAIL-R2: a novel apoptosis-mediating receptor for TRAIL</article-title>
+          <source>EMBO. J.</source>
+          <year>1997</year>
+          <volume>16</volume>
+          <fpage>5386</fpage>
+          <lpage>5397</lpage>
+          <pub-id pub-id-type="doi">10.1093/emboj/16.17.5386</pub-id>
+          <?supplied-pmid 9311998?>
+          <pub-id pub-id-type="pmid">9311998</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhou</surname>
+              <given-names>Q</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Target protease specificity of the viral serpin CrmA. Analysis of five caspases</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>1997</year>
+          <volume>272</volume>
+          <fpage>7797</fpage>
+          <lpage>7800</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.272.12.7797</pub-id>
+          <?supplied-pmid 9065443?>
+          <pub-id pub-id-type="pmid">9065443</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tewari</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Yama/CPP32 beta, a mammalian homolog of CED-3, is a CrmA-inhibitable protease that cleaves the death substrate poly(ADP-ribose) polymerase</article-title>
+          <source>Cell</source>
+          <year>1995</year>
+          <volume>81</volume>
+          <fpage>801</fpage>
+          <lpage>809</lpage>
+          <pub-id pub-id-type="doi">10.1016/0092-8674(95)90541-3</pub-id>
+          <?supplied-pmid 7774019?>
+          <pub-id pub-id-type="pmid">7774019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Albert</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Brinkmann</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kashkar</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Noxa and cancer therapy: Tuning up the mitochondrial death machinery in response to chemotherapy</article-title>
+          <source>Mol. Cell. Oncol.</source>
+          <year>2014</year>
+          <volume>1</volume>
+          <fpage>e29906</fpage>
+          <pub-id pub-id-type="doi">10.4161/mco.29906</pub-id>
+          <?supplied-pmid 27308315?>
+          <pub-id pub-id-type="pmid">27308315</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oda</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>p53AIP1, a potential mediator of p53-dependent apoptosis, and its regulation by Ser-46-phosphorylated p53</article-title>
+          <source>Cell</source>
+          <year>2000</year>
+          <volume>102</volume>
+          <fpage>849</fpage>
+          <lpage>862</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0092-8674(00)00073-8</pub-id>
+          <?supplied-pmid 11030628?>
+          <pub-id pub-id-type="pmid">11030628</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katzenberger</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Marengo</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Wassarman</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>Control of alternative splicing by signal-dependent degradation of splicing-regulatory proteins</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2009</year>
+          <volume>284</volume>
+          <fpage>10737</fpage>
+          <lpage>10746</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M809506200</pub-id>
+          <?supplied-pmid 19218244?>
+          <pub-id pub-id-type="pmid">19218244</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marengo</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Wassarman</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>A DNA damage signal activates and derepresses exon inclusion in Drosophila TAF1 alternative splicing</article-title>
+          <source>RNA</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>1681</fpage>
+          <lpage>1695</lpage>
+          <pub-id pub-id-type="doi">10.1261/rna.1048808</pub-id>
+          <?supplied-pmid 18596254?>
+          <pub-id pub-id-type="pmid">18596254</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kazantseva</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Alternative splicing targeting the hTAF4-TAFH domain of TAF4 represses proliferation and accelerates chondrogenic differentiation of human mesenchymal stem cells</article-title>
+          <source>PLoS ONE.</source>
+          <year>2013</year>
+          <volume>8</volume>
+          <fpage>e74799</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0074799</pub-id>
+          <?supplied-pmid 24098348?>
+          <pub-id pub-id-type="pmid">24098348</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kazantseva</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Sadam</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Neuman</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Palm</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeted alternative splicing of TAF4: a new strategy for cell reprogramming</article-title>
+          <source>Sci. Rep.</source>
+          <year>2016</year>
+          <volume>6</volume>
+          <fpage>30852</fpage>
+          <pub-id pub-id-type="doi">10.1038/srep30852</pub-id>
+          <?supplied-pmid 27499390?>
+          <pub-id pub-id-type="pmid">27499390</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rienzo</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>RNA-Seq for the identification of novel Mediator transcripts in endothelial progenitor cells</article-title>
+          <source>Gene</source>
+          <year>2014</year>
+          <volume>547</volume>
+          <fpage>98</fpage>
+          <lpage>105</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.gene.2014.06.034</pub-id>
+          <?supplied-pmid 24952135?>
+          <pub-id pub-id-type="pmid">24952135</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holohan</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Van Schaeybroeck</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Longley</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>PG</given-names>
+            </name>
+          </person-group>
+          <article-title>Cancer drug resistance: an evolving paradigm</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <year>2013</year>
+          <volume>13</volume>
+          <fpage>714</fpage>
+          <lpage>726</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrc3599</pub-id>
+          <?supplied-pmid 24060863?>
+          <pub-id pub-id-type="pmid">24060863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kastan</surname>
+              <given-names>MB</given-names>
+            </name>
+          </person-group>
+          <article-title>Wild-typep53: tumors canât stand it</article-title>
+          <source>Cell</source>
+          <year>2007</year>
+          <volume>128</volume>
+          <fpage>837</fpage>
+          <lpage>840</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2007.02.022</pub-id>
+          <?supplied-pmid 17350571?>
+          <pub-id pub-id-type="pmid">17350571</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martins</surname>
+              <given-names>CP</given-names>
+            </name>
+            <name>
+              <surname>Brown-Swigart</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Evan</surname>
+              <given-names>GI</given-names>
+            </name>
+          </person-group>
+          <article-title>Modeling the therapeutic efficacy of p53 restoration in tumors</article-title>
+          <source>Cell</source>
+          <year>2006</year>
+          <volume>127</volume>
+          <fpage>1323</fpage>
+          <lpage>1334</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.cell.2006.12.007</pub-id>
+          <?supplied-pmid 17182091?>
+          <pub-id pub-id-type="pmid">17182091</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ng</surname>
+              <given-names>KP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A common BIM deletion polymorphism mediates intrinsic resistance and inferior responses to tyrosine kinase inhibitors in cancer</article-title>
+          <source>Nat. Med.</source>
+          <year>2012</year>
+          <volume>18</volume>
+          <fpage>521</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="doi">10.1038/nm.2713</pub-id>
+          <?supplied-pmid 22426421?>
+          <pub-id pub-id-type="pmid">22426421</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ailenberg</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Goldenberg</surname>
+              <given-names>NM</given-names>
+            </name>
+            <name>
+              <surname>Silverman</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Description of a PCR-based technique for DNA splicing and mutagenesis by producing 5â² overhangs with run through stop DNA synthesis utilizing Ara-C</article-title>
+          <source>BMC Biotechnol.</source>
+          <year>2005</year>
+          <volume>5</volume>
+          <fpage>23</fpage>
+          <pub-id pub-id-type="doi">10.1186/1472-6750-5-23</pub-id>
+          <?supplied-pmid 16137330?>
+          <pub-id pub-id-type="pmid">16137330</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Firlej</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reduced tumorigenesis in mouse mammary cancer cells following inhibition of Pea3- or Erm-dependent transcription</article-title>
+          <source>J. Cell Sci.</source>
+          <year>2008</year>
+          <volume>121</volume>
+          <fpage>3393</fpage>
+          <lpage>3402</lpage>
+          <pub-id pub-id-type="doi">10.1242/jcs.027201</pub-id>
+          <?supplied-pmid 18827017?>
+          <pub-id pub-id-type="pmid">18827017</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noth</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brysbaert</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Pellay</surname>
+              <given-names>FX</given-names>
+            </name>
+            <name>
+              <surname>Benecke</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>High-sensitivity transcriptome data structure and implications for analysis and biologic interpretation</article-title>
+          <source>Genomics Proteomics Bioinformatics</source>
+          <year>2006</year>
+          <volume>4</volume>
+          <fpage>212</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1672-0229(07)60002-3</pub-id>
+          <?supplied-pmid 17531797?>
+          <pub-id pub-id-type="pmid">17531797</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brysbaert</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Pellay</surname>
+              <given-names>FX</given-names>
+            </name>
+            <name>
+              <surname>Noth</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Benecke</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Quality assessment of transcriptome data using intrinsic statistical properties</article-title>
+          <source>Genomics Proteomics Bioinformatics</source>
+          <year>2010</year>
+          <volume>8</volume>
+          <fpage>57</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="doi">10.1016/S1672-0229(10)60006-X</pub-id>
+          <?supplied-pmid 20451162?>
+          <pub-id pub-id-type="pmid">20451162</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Noth</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Benecke</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Avoiding inconsistencies over time and tracking difficulties in Applied Biosystems AB1700/Panther probe-to-gene annotations</article-title>
+          <source>BMC Bioinformatics</source>
+          <year>2005</year>
+          <volume>6</volume>
+          <fpage>307</fpage>
+          <pub-id pub-id-type="doi">10.1186/1471-2105-6-307</pub-id>
+          <?supplied-pmid 16372901?>
+          <pub-id pub-id-type="pmid">16372901</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eskes</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Desagher</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Antonsson</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Martinou</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Bid induces the oligomerization and insertion of Bax into the outer mitochondrial membrane</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2000</year>
+          <volume>20</volume>
+          <fpage>929</fpage>
+          <lpage>935</lpage>
+          <pub-id pub-id-type="doi">10.1128/MCB.20.3.929-935.2000</pub-id>
+          <?supplied-pmid 10629050?>
+          <pub-id pub-id-type="pmid">10629050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Livak</surname>
+              <given-names>KJ</given-names>
+            </name>
+            <name>
+              <surname>Schmittgen</surname>
+              <given-names>TD</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of relative gene expression data using real-time quantitative PCR and the 2(-Delta Delta C(T)) Method</article-title>
+          <source>Methods</source>
+          <year>2001</year>
+          <volume>25</volume>
+          <fpage>402</fpage>
+          <lpage>408</lpage>
+          <pub-id pub-id-type="doi">10.1006/meth.2001.1262</pub-id>
+          <?supplied-pmid 11846609?>
+          <pub-id pub-id-type="pmid">11846609</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilhelm</surname>
+              <given-names>Emmanuelle</given-names>
+            </name>
+            <name>
+              <surname>Doyle</surname>
+              <given-names>Marie-Christine</given-names>
+            </name>
+            <name>
+              <surname>Nzaramba</surname>
+              <given-names>Isaac</given-names>
+            </name>
+            <name>
+              <surname>Magdzinski</surname>
+              <given-names>Alexandre</given-names>
+            </name>
+            <name>
+              <surname>Dumais</surname>
+              <given-names>Nancy</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>Brendan</given-names>
+            </name>
+          </person-group>
+          <article-title>CTGC motifs within the HIV core promoter specify Tat-responsive pre-initiation complexes</article-title>
+          <source>Retrovirology</source>
+          <year>2012</year>
+          <volume>9</volume>
+          <fpage>62</fpage>
+          <pub-id pub-id-type="doi">10.1186/1742-4690-9-62</pub-id>
+          <?supplied-pmid 22834489?>
+          <pub-id pub-id-type="pmid">22834489</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

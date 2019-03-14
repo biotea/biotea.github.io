@@ -1,0 +1,2586 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:46:00Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3484101" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3484101</identifier><datestamp>2013-01-16</datestamp><setSpec>mbc</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Mol Biol Cell</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Mol. Biol. Cell</journal-id>
+      <journal-id journal-id-type="hwp">molbiolcell</journal-id>
+      <journal-id journal-id-type="pmc">mbc</journal-id>
+      <journal-id journal-id-type="publisher-id">Mol. Bio. Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Molecular Biology of the Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1059-1524</issn>
+      <issn pub-type="epub">1939-4586</issn>
+      <publisher>
+        <publisher-name>The American Society for Cell Biology</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3484101</article-id>
+      <article-id pub-id-type="pmcid">PMC3484101</article-id>
+      <article-id pub-id-type="pmc-uid">3484101</article-id>
+      <article-id pub-id-type="pmid">22956769</article-id>
+      <article-id pub-id-type="publisher-id">E12-03-0210</article-id>
+      <article-id pub-id-type="doi">10.1091/mbc.E12-03-0210</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Articles</subject>
+          <subj-group>
+            <subject>Cytoskeleton</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>BICD2, dynactin, and LIS1 cooperate in regulating dynein recruitment to cellular structures</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Splinter</surname>
+            <given-names>DaniÃ«l</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+          <xref ref-type="fn" rid="FN1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Razafsky</surname>
+            <given-names>David S.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>b</sup>
+          </xref>
+          <xref ref-type="fn" rid="FN1">
+            <sup>*</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schlager</surname>
+            <given-names>Max A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>c</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Serra-Marques</surname>
+            <given-names>Andrea</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>d</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grigoriev</surname>
+            <given-names>Ilya</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff5">
+            <sup>d</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Demmers</surname>
+            <given-names>Jeroen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+            <sup>e</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Keijzer</surname>
+            <given-names>Nanda</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>c</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jiang</surname>
+            <given-names>Kai</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+            <sup>d</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Poser</surname>
+            <given-names>Ina</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+            <sup>f</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hyman</surname>
+            <given-names>Anthony A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+            <sup>f</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hoogenraad</surname>
+            <given-names>Casper C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+            <sup>c</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff5">
+            <sup>d</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>King</surname>
+            <given-names>Stephen J.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+            <sup>b</sup>
+          </xref>
+          <xref ref-type="fn" rid="FN2">
+            <sup>â </sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Akhmanova</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+            <sup>a</sup>
+          </xref>
+          <xref ref-type="aff" rid="aff5">
+            <sup>d</sup>
+          </xref>
+          <xref ref-type="corresp" rid="cor1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <aff id="aff1"><sup>a</sup>Department of Cell Biology, Erasmus Medical Centre, 3000 CA Rotterdam, Netherlands</aff>
+        <aff id="aff2"><sup>c</sup>Department of Neuroscience, Erasmus Medical Centre, 3000 CA Rotterdam, Netherlands</aff>
+        <aff id="aff3"><sup>e</sup>Proteomics Centre, Erasmus Medical Centre, 3000 CA Rotterdam, Netherlands</aff>
+        <aff id="aff4"><sup>b</sup>Division of Molecular Biology and Biochemistry, University of MissouriâKansas City, Kansas City, MO 64110</aff>
+        <aff id="aff5"><sup>d</sup>Cell Biology, Faculty of Science, Utrecht University, 3584 CH Utrecht, Netherlands</aff>
+        <aff id="aff6"><sup>f</sup>Max Planck Institute of Molecular Cell Biology and Genetics, 01307 Dresden, Germany</aff>
+      </contrib-group>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Zhu</surname>
+            <given-names>Xueliang</given-names>
+          </name>
+          <role>Monitoring Editor</role>
+        </contrib>
+        <aff>Chinese Academy of Sciences</aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="cor1"><sup>1</sup>Address correspondence to: Anna Akhmanova (<email>a.akhmanova@uu.nl</email>), Stephen J. King (<email>stephen.king@ucf.edu</email>).</corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <day>01</day>
+        <month>11</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>23</volume>
+      <issue>21</issue>
+      <fpage>4226</fpage>
+      <lpage>4241</lpage>
+      <history>
+        <date date-type="received">
+          <day>14</day>
+          <month>3</month>
+          <year>2012</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>24</day>
+          <month>8</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>30</day>
+          <month>8</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2012 Splinter <italic>etÂ al.</italic> This article is distributed by The American Society for Cell Biology under license from the author(s). Two months after publication it is available to the public under an AttributionâNoncommercialâShare Alike 3.0 Unported Creative Commons License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc-sa/3.0">http://creativecommons.org/licenses/by-nc-sa/3.0</ext-link>).</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license license-type="creative-commons">
+          <license-p>âASCBÂ®,â âThe American Society for Cell BiologyÂ®,â and âMolecular Biology of the CellÂ®â are registered trademarks of The American Society of Cell BD; are registered trademarks of The American Society of Cell Biology.</license-p>
+        </license>
+      </permissions>
+      <self-uri xlink:title="pdf" xlink:type="simple" xlink:href="4226.pdf"/>
+      <abstract abstract-type="precis">
+        <p>This study dissects the recruitment of dynein and dynactin to cargo by a conserved motor adaptor BICD2. It is shown that dynein, dynactin, and BICD2 form a triple complex in vitro and in vivo. Investigation of the properties of this complex by direct visualization of dynein in live cells shows that BICD2-induced dynein transport requires LIS1.</p>
+      </abstract>
+      <abstract>
+        <p>Cytoplasmic dynein is the major microtubule minus-endâdirected cellular motor. Most dynein activities require dynactin, but the mechanisms regulating cargo-dependent dyneinâdynactin interaction are poorly understood. In this study, we focus on dyneinâdynactin recruitment to cargo by the conserved motor adaptor Bicaudal D2 (BICD2). We show that dynein and dynactin depend on each other for BICD2-mediated targeting to cargo and that BICD2 N-terminus (BICD2-N) strongly promotes stable interaction between dynein and dynactin both in vitro and in vivo. Direct visualization of dynein in live cells indicates that by itself the triple BICD2-Nâdyneinâdynactin complex is unable to interact with either cargo or microtubules. However, tethering of BICD2-N to different membranes promotes their microtubule minus-endâdirected motility. We further show that LIS1 is required for dynein-mediated transport induced by membrane tethering of BICD2-N and that LIS1 contributes to dynein accumulation at microtubule plus ends and BICD2-positive cellular structures. Our results demonstrate that dynein recruitment to cargo requires concerted action of multiple dynein cofactors.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body><sec><title>INTRODUCTION</title><p>Cytoplasmic dynein is a motor responsible for moving a large variety of cargoes to the minus ends of microtubules (MTs; <xref ref-type="bibr" rid="B24">Kardon and Vale, 2009</xref>). The majority of dynein-dependent transport processes require dynactin, a protein complex that stimulates dynein processivity and participates in cargo binding (<xref ref-type="bibr" rid="B18">Holleran <italic>etÂ al.</italic>, 1998</xref>; <xref ref-type="bibr" rid="B52">Schroer, 2004</xref>). Dynein and dynactin directly bind to each other through the interaction between the dynactin subunit p150<sup>Glued</sup> and the dynein intermediate chain (DIC; <xref ref-type="bibr" rid="B25">Karki and Holzbaur, 1995</xref>; <xref ref-type="bibr" rid="B66">Vaughan and Vallee, 1995</xref>; <xref ref-type="bibr" rid="B29">King <italic>etÂ al.</italic>, 2003</xref>). Although dynein and dynactin can be isolated from brain extracts, the purified complexes are not strongly bound to each other (<xref ref-type="bibr" rid="B3">Bingham <italic>etÂ al.</italic>, 1998</xref>). Several studies suggest that the two complexes exist as separate pools that only transiently come together to induce motility (<xref ref-type="bibr" rid="B49">Quintyne <italic>etÂ al.</italic>, 1999</xref>; <xref ref-type="bibr" rid="B48">Quintyne and Schroer, 2002</xref>; <xref ref-type="bibr" rid="B17">Habermann <italic>etÂ al.</italic>, 2001</xref>). This notion is supported by imaging studies in budding yeast, which suggest that the dyneinâdynactin interaction is tightly regulated (<xref ref-type="bibr" rid="B70">Woodruff <italic>etÂ al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Markus and Lee, 2011</xref>). Therefore it appears that additional factors must be present in cells to regulate the dyneinâdynactin association and thus dynein-dependent cargo transport.</p><p>One well-studied adaptor for MT motors is the evolutionary conserved coiled-coil protein Bicaudal D (BicD; <xref ref-type="bibr" rid="B8">Claussen and Suter, 2005</xref>). In <italic>Drosophila</italic>, BicD controls movement of messenger ribonucleoproteins and lipid droplets during development (<xref ref-type="bibr" rid="B5">Bullock <italic>etÂ al.</italic>, 2006</xref>; <xref ref-type="bibr" rid="B7">Clark <italic>etÂ al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B33">Larsen <italic>etÂ al.</italic>, 2008</xref>; <xref ref-type="bibr" rid="B11">Dienstbier <italic>etÂ al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B2">Bianco <italic>etÂ al.</italic>, 2010</xref>). The mammalian homologues of fly BicD, Bicaudal D1 (BICD1) and BICD2, participate in vesicle transport: their C-terminal cargo-binding segment associates with the small GTPase Rab6, which is present at the Golgi and exocytotic vesicles (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>; <xref ref-type="bibr" rid="B40">Matanis <italic>etÂ al.</italic>, 2002</xref>; <xref ref-type="bibr" rid="B55">Short <italic>etÂ al.</italic>, 2002</xref>; <xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>). The fly BicD also binds to Rab6 (<xref ref-type="bibr" rid="B9">Coutelis and Ephrussi, 2007</xref>; <xref ref-type="bibr" rid="B23">Januschke <italic>etÂ al.</italic>, 2007</xref>) and in addition participates in clathrin-mediated membrane trafficking (<xref ref-type="bibr" rid="B35">Li <italic>etÂ al.</italic>, 2010</xref>). Furthermore, BicD homologues in mammals, flies, and worms are involved in MT-dependent nuclear positioning (<xref ref-type="bibr" rid="B60">Swan <italic>etÂ al.</italic>, 1999</xref>; <xref ref-type="bibr" rid="B14">Fridolfsson <italic>etÂ al.</italic>, 2010</xref>; <xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>). In mammalian cells this function depends on the recruitment of BICD2 to the nuclear envelope (NE) through the interaction between BICD2 C-terminus (BICD2-C) and the nucleoporin RanBP2 (<xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>). In flies, BicD-C binds to Egalitarian and FMRP, which in turn associate with mRNAs (<xref ref-type="bibr" rid="B11">Dienstbier <italic>etÂ al</italic>., 2009</xref>), and with the clathrin heavy chain (<xref ref-type="bibr" rid="B35">Li <italic>etÂ al.</italic>, 2010</xref>), in line with the view that the C-terminal domain is the cargo-binding part of the BicD molecule.</p><p>Studies in flies, worms, and mammals have shown that BicD homologues participate in several transport pathways, which depend on cytoplasmic dynein and kinesin-1 (<xref ref-type="bibr" rid="B8">Claussen and Suter, 2005</xref>; <xref ref-type="bibr" rid="B11">Dienstbier <italic>etÂ al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B14">Fridolfsson <italic>etÂ al.</italic>, 2010</xref>; <xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>; <xref ref-type="bibr" rid="B1">Aguirre-Chen <italic>etÂ al.</italic>, 2011</xref>). The N-terminal portion of BICD (BICD-N) is responsible for the recruitment of dynein and dynactin: our previous study showed that when the N-terminal fragment of BICD2 is artificially tethered to cargoes, it induces their dynein-dependent transport to MT minus ends (<xref ref-type="bibr" rid="B22">Hoogenraad <italic>etÂ al.</italic>, 2003</xref>). These observations were confirmed for <italic>Drosophila</italic> BicD using mRNA transport as a model (<xref ref-type="bibr" rid="B11">Dienstbier <italic>etÂ al</italic>., 2009</xref>). Owing to the potent and conserved capacity to induce dynein-based motility, BICD adaptors thus represent a good model with which to dissect the molecular mechanisms of dynein targeting and activation.</p></sec><sec sec-type="results"><title>RESULTS</title><sec><title>BICD2-N forms a triple complex with dynein and dynactin in cells</title><p>To characterize the binding of BICD2 to dynein and dynactin, we investigated their interactions by immunoprecipitation (IP). HeLa cells were transfected with constructs expressing green fluorescent protein (GFP)-tagged BICD2 full length (GFP-BICD2-FL), GFP-BICD2-N, GFP-BICD2-C (<xref ref-type="fig" rid="F1">Figure 1A</xref>), or GFP alone as a negative control, and lysates of these cells were used for IP with anti-GFP antibodies (<xref ref-type="fig" rid="F1">Figure 1B</xref>, left). When GFP-BICD2-N was pulled down from HeLa cells, both dynein and dynactin were efficiently precipitated, whereas a much weaker coprecipitation was observed with GFP-BICD2-FL and no interaction was seen with GFP-BICD2-C or GFP (<xref ref-type="fig" rid="F1">Figure 1B</xref>). To determine whether BICD2 preferentially binds to dynein or dynactin, we performed IPs of endogenous dynein and dynactin using DIC and p150<sup>Glued</sup> antibodies and found that GFP-BICD2-N was efficiently coprecipitated with both complexes (<xref ref-type="fig" rid="F1">Figure 1B</xref>, middle and right). Remarkably, whereas dynein and dynactin displayed very little coprecipitation in control GFP-expressing cells or in cells expressing GFP-BICD2-C, coprecipitation of the two complexes was significantly increased in cells overexpressing GFP-BICD2-N (<xref ref-type="fig" rid="F1">Figure 1B</xref>, middle and right, vertical arrows). Expression of GFP-BICD2-FL also increased coprecipitation of dynein with dynactin, but the effect was weaker than that observed with GFP-BICD2-N (<xref ref-type="fig" rid="F1">Figure 1B</xref>, middle).</p><fig id="F1" position="float"><label>FIGURE 1:</label><caption><p>BICD2-N overexpression stabilizes the dyneinâdynactin complex in cells. (A) Scheme of BICD2 structure and GFP-BICD2 fusions. (B, C) IP assays with antibodies against GFP, dynactin (p150<sup>Glued</sup>), and dynein (DIC) were performed with extracts from control HeLa cells transiently overexpressing the indicated GFP-BICD2 fusions or GFP alone (B) or HeLa cells stably expressing GFP-tagged dynein or dynactin subunits either alone (untr.) or in combination with transiently overexpressed, HA-tagged BICD2 or GRASP1 fusions (C). Western blotting was performed with the indicated antibodies. From 1 to 2% of the cell lysate used for the IP and 25% of the IP sample were loaded on gel. In panel B, lanes where GFP-BICD2-N is present show enhanced coprecipitation of dynein and dynactin (vertical arrows below the blots). Bands corresponding to the heavy chain of the antibody used for IP are visible in Western blots with GFP antibodies shown in B (immunoglobulin G, horizontal arrows). In panel C, BICD2-N is coprecipitated with dynein and dynactin and enhances coprecipitation of the two complexes with each other (vertical arrows below the blots). Note that coimmunoprecipitation of dynactin with DIC might be weak because the antibody used, DIC 74.1, can inhibit the interaction between dynein and dynactin.</p></caption><graphic xlink:href="4226fig1"/></fig><p>To obtain an independent confirmation of these observations, we performed IP with anti-GFP antibodies from HeLa cells stably expressing endogenous levels of C-terminally tagged GFP fusions of dynein/dynactin subunits generated by BAC TransgeneOmics (<xref ref-type="bibr" rid="B47">Poser <italic>etÂ al.</italic>, 2008</xref>). For these experiments, we used stable cell lines expressing GFP-tagged dynein heavy chain (DHC), dynein IC 2 (DIC2), dynein light intermediate chain 1 (DLIC1), or p50 (also known as dynamitin or dynactin 2). We transfected these four cell lines with constructs encoding hemagglutinin (HA)-tagged BICD2-FL or BICD2-N. As a control, we used HA-tagged GRASP-1 (<xref ref-type="bibr" rid="B21">Hoogenraad <italic>etÂ al.</italic>, 2010</xref>), an endosomal coiled-coil adaptor protein that does not interact with dynein or dynactin. The same stable cell lines that were not transfected with any additional constructs were used as another control. We found that all three GFP-tagged dynein subunits coprecipitated endogenous DIC, indicating that they were incorporated into the dynein complex (<xref ref-type="fig" rid="F1">Figure 1C</xref>). The three dynein subunits weakly coprecipitated HAâBICD2-FL and strongly coprecipitated BICD2-N (<xref ref-type="fig" rid="F1">Figure 1C</xref>). Of importance, although coprecipitation of dynactin with the three dynein subunits was weak in control cells, it was strongly enhanced in cells expressing BICD2-N (<xref ref-type="fig" rid="F1">Figure 1C</xref>, vertical arrows below the blots). p50-GFP coprecipitated p150<sup>Glued</sup>, suggesting that it was incorporated into dynactin, and it also coprecipitated BICD2-N (<xref ref-type="fig" rid="F1">Figure 1C</xref>, bottom right). p50-GFP did not coprecipitate dynein from control cells, but a significant amount of coprecipitated dynein was observed in BICD2-Nâexpressing cells (<xref ref-type="fig" rid="F1">Figure 1C</xref>, vertical arrow). Taken together, the results of IP of endogenous and GFP-tagged dynein and dynactin subunits indicate that high levels of BICD2-N stabilize the interaction between dynein and dynactin. The interaction of dynein and dynactin with BICD2-FL was much weaker, suggesting that it is inhibited by the C-terminal part of BICD2, as proposed previously (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>, <xref ref-type="bibr" rid="B22">2003</xref>).</p></sec><sec><title>BICD2-N forms a triple complex with dynein and dynactin in vitro</title><p>Strong association of BICD2-N with both dynein and dynactin correlates with its capacity to induce minus endâdirected movement. When BICD2-N is artificially tethered to mitochondria and peroxisomes by a fusion with a <italic>Listeria monocytogenes</italic> ActA-derived membrane-targeting sequence (MTS), these organelles are relocated to centrosomes, where they form a distinct cluster with a compact accumulation of peroxisomes surrounded by mitochondria (<xref ref-type="bibr" rid="B22">Hoogenraad <italic>etÂ al.</italic>, 2003</xref>). We generated a series of deletion mutants of the original BICD2-N fragment and used the peroxisome/mitochondria relocalization assay to map the minimal dyneinâdynactin interaction domain of BICD2 (Supplemental Figure S1A). We found that the BICD2-N region located between residues 25 and 400 (BICD2-Nsh, the âshortâ version of BICD2-N; Supplemental Figure S1A) was sufficient to potently target peroxisomes and mitochondria to the centrosome (Supplemental Figure S1B and unpublished data).</p><p>Next we purified BICD2-Nsh fragment from <italic>Escherichia coli</italic> and examined its capacity to promote dynein-dynactin association in vitro. Dynein and dynactin were purified from bovine brain as described previously (<xref ref-type="bibr" rid="B3">Bingham <italic>etÂ al.</italic>, 1998</xref>; <xref ref-type="bibr" rid="B36">Mallik <italic>etÂ al.</italic>, 2005</xref>; Supplemental Figure S1, C and D). Mass spectrometryâbased characterization of the two complexes showed that they are not significantly contaminated with each other (Table S1, A and B). Next we analyzed the complexes using sucrose density gradient centrifugation. When analyzed separately, purified dynein and dynactin were present in successive fractions corresponding to â¼20S (<xref ref-type="fig" rid="F2">Figure 2A</xref>). In addition, when dynein and dynactin were mixed together prior to the analysis, they were still present in the same fractions, indicating that the two complexes do not stably bind each other after purification. The much smaller BICD2-Nsh molecules were found in the lighter fractions at the top of the gradient (<xref ref-type="fig" rid="F2">Figure 2A</xref>). of interest, when we combined dynein, dynactin, and BICD2-Nsh, a considerable proportion of all three components shifted to higher-density fractions, indicating that they had formed a stable supercomplex (<xref ref-type="fig" rid="F2">Figure 2, AâC</xref>). No shift in sedimentation was seen when BICD2-Nsh was added to either dynein or dynactin alone (<xref ref-type="fig" rid="F2">Figure 2, B and C</xref>), indicating that a stable interaction requires the presence of all three components: BICD2-N, dynein, and dynactin. The fact that BICD2-Nsh did not bind to dynein or dynactin alone also showed that the observed interaction is not simply the result of unspecific binding of coiled-coil domains of BICD2, dynein, and dynactin.</p><fig id="F2" position="float"><label>FIGURE 2:</label><caption><p>Purified BICD2-N, dynein, and dynactin form a triple complex in vitro. Dynein, dynactin, or their combinations with or without BICD2-Nsh (as shown on the right) were sedimented on 10â40% linear sucrose gradients. After centrifugation, equal fractions were collected from the bottom of the gradients and subjected to SDSâPAGE (fraction numbers on top). Dynein and dynactin were found in fractions corresponding to â¼20S as determined by silver staining to identify DHC or p150<sup>Glued</sup>. The position of BICD2-Nsh was determined by Western blotting with anti-BICD2 antibodies. Positions of sucrose density standards are shown at the bottom. Representative gels are shown in A, and quantifications of DHC and p150<sup>Glued</sup> in different conditions, determined from three independent experiments, are shown in B and C; error bars represent SD. Incubation of dynein and dynactin with the excess of BICD2-Nsh caused a shift of dynein and dynactin and a portion of the BICD2-Nsh protein to denser gradient fractions, indicating that a stable triple complex was present (red arrows in B and C).</p></caption><graphic xlink:href="4226fig2"/></fig><p>We next attempted to identify direct BICD2-N binding partners from the multiple subunits that comprise dynein and dynactin. An N-terminally biotinylated version of BICD2-N was purified from HEK293 cells (Supplemental Figure S1E) and mixed with purified dynein and dynactin, and the resulting complexes were cross-linked with very low doses of the chemical cross-linking reagent Bis[sulfosuccinimidyl] glutarate. The cross-linked complexes were solubilized in denaturing conditions so that only the cross-linked proteins would retain the association with BICD2-N. Subsequently, the biotinylated BICD2-N (together with any cross-linked polypeptides) was isolated by streptavidin pull-down and subjected to mass spectrometry analysis. Of interest, only a small subset of dynein and dynactin subunits was recovered: these included the dynactin p150<sup>Glued</sup> subunit, DHC, and DLICs (Supplemental Table S1C). The presence of both DHC and DLICs together is not surprising because these dynein subunits are known to bind to each other very tightly and to form a stable subcomplex even in the presence of chaotropic agents (<xref ref-type="bibr" rid="B28">King <italic>etÂ al.</italic>, 2002</xref>). Taken together, these data suggest that BICD2-N simultaneously binds p150<sup>Glued</sup> and either DHC or DLICs.</p><p>The cross-linking experiment suggests that the Arp1 filament subcomplex of dynactin is not directly involved in the formation of the triple complex with BID2-N and dynein. Of interest, unlike most other dynein-mediated processes, BICD2-Nâdependent organelle relocalization was not inhibited by overexpression of the p50/dynamitin subunit of dynactin, which is known to dissociate p150<sup>Glued</sup> from the Arp1 filament (<xref ref-type="bibr" rid="B22">Hoogenraad <italic>etÂ al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B43">Melkonian <italic>etÂ al.</italic>, 2007</xref>). These results suggest that when BICD2-N is directly tethered to membranes, it might induce their dynein-mediated relocalization in the absence of Arp1 recruitment. We tested this idea by inducing formation of the mitochondria/peroxisome cluster by expressing BICD2-N-MTS and staining it for dynein and dynactin subunits. We found that the overexpression of p50/dynamitin did not block the strong accumulation of dynein and p150<sup>Glued</sup> at the BICD2-N-MTSâinduced mitochondrial cluster but completely removed Arp1 (Supplemental Figure S2). These data are in line with the view that the Arp1 filament of dynactin does not directly participate in BICD2-Nâdependent dyneinâdynactin interaction and support our data indicating that BICD2-N binds to dynactin through the p150<sup>Glued</sup>-containing shoulder/sidearm subcomplex.</p></sec><sec><title>BICD2-N overexpression causes dynein detachment from cargo and MTs</title><p>The finding that BICD2-N stabilizes dyneinâdynactin association was unexpected because overexpressed BICD2-N acts as a potent dynein inhibitor (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>; <xref ref-type="bibr" rid="B63">Teuling <italic>etÂ al.</italic>, 2008</xref>), whereas improved binding to dynactin is supposed to enhance dynein targeting to structures that contain dynactin-interacting proteins such as spectrin (<xref ref-type="bibr" rid="B19">Holleran <italic>etÂ al.</italic>, 1996</xref>; <xref ref-type="bibr" rid="B44">Muresan <italic>etÂ al.</italic>, 2001</xref>). To investigate directly what happens to dynein when it forms a triple complex with BICD2-N and dynactin, we examined the localization of GFP-tagged dynein subunits in live cells expressing HAâBICD2-N, using mCherry-Î±-tubulin as a cotransfection marker (<xref ref-type="fig" rid="F3">Figure 3</xref>). For comparison, in these experiments we used a broadly applied and highly potent dynein inhibitor, p50/dynamitin (<xref ref-type="bibr" rid="B12">Echeverri <italic>etÂ al.</italic>, 1996</xref>). HA-tagged versions of both BICD2-N and p50 were used to allow visualization of GFP-fused dynein subunits together with mCherryâÎ±-tubulin.</p><fig id="F3" position="float"><label>FIGURE 3:</label><caption><p>BICD2-N overexpression removes cytoplasmic dynein from MTs. HeLa cells stably expressing DIC2-GFP from a GFP-tagged BAC were transfected with either mCherryâÎ±-tubulin alone or in combination with either HA-tagged p50 or BICD2-N, and simultaneous two-color live-cell imaging with 500-ms interval was performed using TIRF microscopy with high penetration depth. Five consecutive frames were averaged. Control stainings showed 100% cotransfection of mCherryâÎ±-tubulin with HA-tagged fusions. (A) Representative images of DIC2-GFP (green) and mCherryâÎ±-tubulin (red) are shown on the left, and projections of sequential frames (181 (control), 221 (p50), and 117 (BicD-N) are shown on the right. Insets show enlargements of the boxed areas. (B, C) Kymographs illustrating DIC2-GFP displacement at MT tips (B) and along MT lattice (C). In C, rapid particle movements along MTs are indicated by black arrows and the slower movements associated with the growing MT tips by white arrows. (D, E) Quantification of the mean DIC2-GFP signal at the MT plus ends or along MTs normalized by the cytoplasmic signal (a value of 1 indicates absence of enrichment along MTs). Error bars indicate SD; â¼30â70 MTs were analyzed in five to seven cells per condition. Values significantly different from control are indicated (MannâWhitney <italic>U</italic> test, **<italic>p</italic> &lt; 0.01, ***<italic>p</italic> &lt; 0.001).</p></caption><graphic xlink:href="4226fig3"/></fig><p>DIC2-GFP, DHC-GFP, and DLIC1-GFP behaved very similarly in these experiments, and therefore only the results with DIC2-GFP will be discussed in detail. DIC2-GFP was diffusely present in the cytosol, and, in addition, GFP-positive foci and comets were visible (<xref ref-type="fig" rid="F3">Figure 3A</xref> and Supplemental Movie S1). Maximum-intensity projections showed that most of these mobile structures colocalized with MTs. Kymograph analysis along individual MT tracks showed that the comet-like labeling represented growing MT tips, a dynein localization described previously (<xref ref-type="bibr" rid="B67">Vaughan <italic>etÂ al.</italic>, 1999</xref>; <xref ref-type="bibr" rid="B30">Kobayashi and Murayama, 2009</xref>; <xref ref-type="fig" rid="F3">Figure 3B</xref> and Supplemental Movie S1). In addition to these slowly moving structures (average velocity of 0.2â0.3 Î¼m/s, which corresponds to the average rate of MT polymerization), we also observed GFP-positive foci that moved rapidly along MTs in both plus- and minus-end directions with velocities in the range of 1â2 Î¼m/s (see <xref ref-type="fig" rid="F3">Figure 3C</xref> for representative kymographs). Plus endâdirected motility episodes likely represented dynein traveling as a passenger on a bidirectionally moving cargo. Cotransfection of HA-p50 had no strong effect on this localization pattern (<xref ref-type="fig" rid="F3">Figure 3, A and B</xref>, and Supplemental Movie S1). Measurements of the ratio of DIC2-GFP signal along the MTs and in the surrounding cytoplasm showed clear enrichment of the DIC2-GFP on MTs in control and HA-p50 transfected cells (<xref ref-type="fig" rid="F3">Figure 3, D and E</xref>). HA-p50 overexpression caused no significant loss of dynein from MT tips, but the number of DIC2-GFP foci moving along MTs was reduced (<xref ref-type="fig" rid="F3">Figure 3E</xref>), in agreement with the fact that p50 acts as a dynein inhibitor.</p><p>Unexpectedly, the overexpression of HAâBICD2-N caused a dramatic redistribution of both MT-associated pools of DIC2-GFP into the cytosol: we observed no DIC2-GFP particles moving along MTs to either plus or minus ends (<xref ref-type="fig" rid="F3">Figure 3, A, C, and E</xref>, and Supplemental Movie S1). The fact that dynein bound to BICD2-N and dynactin is removed from different motile cargoes suggests that BICD2-N occludes an essential interaction site used by multiple dynein adaptors and that additional binding sites present on different dynein and dynactin subunits are not sufficient to target the triple BICD-Nâdyneinâdynactin complex to cellular structures.</p><p>Moreover, BICD2-N expression abolished dynein accumulation at MT ends (<xref ref-type="fig" rid="F3">Figure 3, A, B, and D</xref>, and Supplemental Movie S1), an effect that could be confirmed by staining of fixed DIC2-GFPâexpressing cells with a MT plus-end marker EB1 (Supplemental Figure S3A). This result was surprising because the published data suggest that in mammalian cells dynein is targeted to MT tips by dynactin, which binds to MT plus ends through the interaction of the CAP-Gly domain of p150<sup>Glued</sup> with CLIP-170 and EB1 (<xref ref-type="bibr" rid="B67">Vaughan <italic>etÂ al.</italic>, 1999</xref>, <xref ref-type="bibr" rid="B68">2002</xref>; <xref ref-type="bibr" rid="B32">Lansbergen <italic>etÂ al.</italic>, 2004</xref>). To test whether this view is correct, we performed live imaging of GFP-tagged dynein subunits and the dynactin subunit p50 (<xref ref-type="fig" rid="F4">Figure 4</xref> and Supplemental Movie S2). After knockdown of p150<sup>Glued</sup>, dynein became much more diffuse: it no longer accumulated at MT tips, and the number of motile dynein foci was strongly reduced, indicating that dynein recruitment to MT tips and motile cargo is indeed dynactin dependent (<xref ref-type="fig" rid="F4">Figure 4, A, C, and E</xref>, and Supplemental Movie S2; see Supplemental Figure S4 for illustration of p150<sup>Glued</sup> knockdown efficiency). In contrast, dynactin (detected with p50-GFP) was still observed at MT plus ends in DHC-depleted cells, although the number of labeled MT ends, as well as the number of particles moving along the MTs, was decreased (<xref ref-type="fig" rid="F4">Figure 4, B, D, and F</xref>, and Supplemental Movie S3; see Supplemental Figure S4 for illustration of DHC knockdown efficiency). We thus showed in live cells that in the mammalian system dynein interaction with MT tips is dynactin dependent, whereas dynactin binds to MT plus ends in a dynein-independent manner.</p><fig id="F4" position="float"><label>FIGURE 4:</label><caption><p>Dynactin and LIS1 are required for dynein localization to MTs. HeLa cells stably expressing DHC-GFP or p50-GFP from a GFP-tagged BACs were transfected with the indicated siRNAs and used for live-cell imaging with 500-ms interval. Five consecutive frames were averaged. (A, B) Single frames (left) and projections of five consecutive frames (right). Right, odd frames (frames 1, 3 and 5) are shown in green and even frames (frames 2 and 4) are shown in red. (CâF) Analysis of DHC-GFP and p50-GFP dynamics. Quantification of the density of GFP-positive MT ends (C,D) (recognized as comet-like structures with velocity less than 0.5 Î¼m/s) and rapidly moving particles (E, F) (average velocity more than 0.5 Î¼m/s) in different conditions. Plots are represented in the same way as in <xref ref-type="fig" rid="F3">Figure 3D</xref>. Insets show representative kymographs from control cells. Ten cells were analyzed per condition.</p></caption><graphic xlink:href="4226fig4"/></fig><p>On the basis of all these observations, one could expect that an enhanced interaction between dynein and dynactin induced by BICD2-N would promote dynein recruitment to MT ends. Yet the opposite was true, suggesting that the triple complex formed by BICD2-N, dynactin, and dynein is not competent to interact with MTs. In line with this view, we never observed any enrichment of BICD2-N at the growing MT tips even when this protein was expressed at very low levels (unpublished data), indicating that in spite of its high affinity for dynein and dynactin, BICD2-N cannot be recruited by these complexes to MT ends. It is possible that by binding to dynein and dynactin, BICD2-N induces a conformational change in one or both complexes that is incompatible with their binding to MT ends. Of importance, endogenous dynactin could still be detected at the MT tips in BICD2-Nâexpressing cells (Supplemental Figure S3B), indicating that a pool of free dynactin that is not bound to BICD2-N and dynein can associate with MT ends. Taken together, our results indicate that dynein targeting to MT tips is more complex than previously believed and that the inhibition of dynein activity by BICD2-N (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>; <xref ref-type="bibr" rid="B63">Teuling <italic>etÂ al.</italic>, 2008</xref>) is due to dynein sequestration from the normal sites of its activity.</p></sec><sec><title>Detailed analysis of BICD2-Nâinduced cargo movement</title><p>The described results suggest that BICD2-N does not simply stabilize dyneinâdynactin binding, but that it also affects the properties of the complex. To analyze whether binding to BICD2-N and dynactin within the triple complex affects characteristic properties of dynein movement, we used a regulated heterodimerization system, which allowed us to recruit BICD2-N and associated proteins to different cargoes and measure parameters of their movement by high-resolution live-cell imaging. The heterodimerization system that we used was based on the fact that FKBP12 and FRAP (mTOR) proteins bind to each other with high affinity in the presence of rapamycin (<xref ref-type="bibr" rid="B46">Pollock <italic>etÂ al.</italic>, 2000</xref>). Two copies of the rapamycin-binding domain of the human FKBP12 protein (FKBP) were fused to the N-terminus of different cargo-targeting proteins, and a copy of the FRAP domain, which binds to the FKBP12-rapamycin complex (FRB), was added to the C-terminus of the HAâBICD2-N fusion (<xref ref-type="fig" rid="F5">Figure 5A</xref>). A modified version of the FRB domain that can bind to FKBP in the presence of nonimmunosuppressive rapamycin analogue AP21967 (rapalog) was used in these experiments to avoid effects on the endogenous mTOR/FRAP pathway (<xref ref-type="bibr" rid="B46">Pollock <italic>etÂ al.</italic>, 2000</xref>).</p><fig id="F5" position="float"><label>FIGURE 5:</label><caption><p>Motility of Rab6A vesicles after BICD2-N recruitment. (A) Scheme of the regulated heterodimerization constructs used to attach BICD2-N to Rab6A-positive membranes. (B) Live image of an MRC5-CV cell expressing FKBP2-GFP-Rab6A alone (left) or together with HAâBICD2-NâFRB (middle and right). The cell shown in the middle and right was treated with 1 Î¼M rapalog AP21967; time relative to the moment of drug addition is indicated. Individual Rab6A vesicles are indicated by arrows and dispersed Golgi fragments by arrowheads. Images were processed by applying Unsharp Mask and Blur filters (Photoshop); contrast is inverted. Cell outlines are indicated by stippled lines. (C) HeLa cells stably expressing DIC-GFP were transiently transfected with FKBP2-Rab6A, mStrawberry-Rab6A, and HAâBICD2-NâFRB and imaged using wide-field microscopy with a 500-ms exposure before and after rapalog addition. Contrast is inverted in single-color frames; in the overlay, DIC-GFP is shown in green and mStrawberry-Rab6A in red. Insets show enlargements of the boxed areas. (D, E) Visualization of Rab6A vesicle movement along MTs. (D) Simultaneous live imaging of FKBP2-GFP-Rab6A (green) and mCherryâÎ±-tubulin (red) in a transiently transfected MRC5 cell; time is indicated. (E) The same as in D, but in a cell cotransfected with HAxBICD2-NxFRB, starting at 47.5 s after rapalog addition. Images were processed by applying Blur filter (Photoshop). Arrowheads indicate vesicles moving toward MT plus ends (D) or minus ends (E). (F, G) Analysis of Rab6 vesicle movement within an â¼15-Î¼m-broad area at the cell periphery. Percentage of minus-endâdirected movements (F) and averages (in Î¼m/s) and the distributions of movement velocities (G) to MT plus and minus ends in MRC5-CV cells expressing FKBP2-GFP-Rab6A alone or together with HAâBICD2-NâFRB and after rapalog addition. In the latter case, measurements were performed within 25 min after rapalog was added. Approximately 30 cells were analyzed for each condition. The individual distributions and the number of measurements for G are shown in Supplemental Figure S5.</p></caption><graphic xlink:href="4226fig5"/></fig><p>Our first goal was to compare the parameters of motility induced by BICD2-N to movement of a natural BICD2 cargo, Rab6-positive exocytotic vesicles (<xref ref-type="bibr" rid="B40">Matanis <italic>etÂ al.</italic>, 2002</xref>; <xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>). To achieve this, we fused FKBP to the N-terminus of GFP-tagged Rab6A (<xref ref-type="fig" rid="F5">Figure 5A</xref>). FKBP2-GFP-Rab6A bound to the Golgi and cytoplasmic vesicles, which moved from the Golgi toward the cell periphery and fused with the plasma membrane, very similar to GFP-Rab6A (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>; <xref ref-type="fig" rid="F5">Figure 5B</xref>, left, and Supplemental Movie S4).</p><p>When HAâBICD2-NâFRB was coexpressed with FKBP2-GFP-Rab6A in the absence of rapalog, strong dispersion of the Golgi apparatus was observed, in line with the fact that BICD2-N diffusely present in the cell inhibits dynein function (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>; <xref ref-type="fig" rid="F5">Figure 5B</xref>, middle). The addition of rapalog, which induces FKBPâFRB interaction, caused relocalization of all FKBP2-GFP-Rab6Aâpositive structures to the cell center, which occurred within 15â25 min (<xref ref-type="fig" rid="F5">Figure 5B</xref>, right, and Supplemental Movie S5). When this experiment was carried out using a red (mStrawberry)-tagged Rab6A in HeLa cells expressing DIC2-GFP, we observed that the diffuse pool of dynein, induced by HAâBICD2-NâFRB overexpression, was recruited to Rab6-positive membranes (<xref ref-type="fig" rid="F5">Figure 5C</xref> and Supplemental Movies S6 and S7).</p><p>To be able to distinguish unambiguously MT plus- and minus-endâdirected vesicle movements, we used rapid two-color imaging of MRC5-SV human lung fibroblasts in which MTs were visualized with mCherryâÎ±-tubulin (<xref ref-type="bibr" rid="B53">Shaner <italic>etÂ al.</italic>, 2004</xref>). The extremely sparse MT network in this cell type permitted us to observe movement of individual vesicles along individual MTs, the plus ends of which could be distinguished by the presence of growth episodes (<xref ref-type="fig" rid="F5">Figure 5D</xref>, and Supplemental Movie S8). Rapid high resolution imaging in MRC5 cells showed that HA-BICD2-Nâmediated relocalization of Rab6 membranes to the cell center proceeded in a bidirectional manner: vesicles moving along MTs were frequently switching between MT plus-end and minus-endâdirected runs. However, in contrast to control cells, where plus-endâdirected vesicle motion predominated, BICD2-N recruitment strongly increased the frequency of MT minus-endâdirected movements (<xref ref-type="fig" rid="F5">Figure 5, E and F</xref>, and Supplemental Movie S9). In spite of the significant recruitment of dynein to Rab6A-positive membranes, the velocity of plus- and minus-endâdirected movement was the same in the absence of HAâBICD2-NâFRB fusion and after rapalog-induced HAâBICD-NâFRB tethering to Rab6A vesicles (<xref ref-type="fig" rid="F5">Figure 5G</xref> and Supplemental Figure S5).</p><p>To further investigate the velocities of BICD-Nâinduced movement, we used another cargo, Rab3C, which, in contrast to Rab6A, does not associate with endogenous BICD1/2. Rab3C-positive membranes were dispersed through the cytoplasm and showed only infrequent MT-based movements (<xref ref-type="fig" rid="F6">Figure 6, AâC</xref>). Recruitment of HAâBICD2-NâFRB to Rab3C vesicles increased the frequency of their movement, with velocities that were similar to those of Rab6A vesicles (<xref ref-type="fig" rid="F6">Figure 6, BâD</xref>). Our results show that the BICD2-Nâdyneinâdynactin complex artificially attached either to its cognate or to foreign cargo is fully functional for motility. They also suggest that an artificial increase in the number of dynein motors on the cargo through BICD-Nâmediated recruitment has no consequences for the velocity of minus-endâdirected movement or for the velocity of kinesin-dependent motility in the opposite direction. These data support the view that motors of opposite polarity on the same cargo do not affect each other's velocity and that cargo velocity is not dependent on the number of associated motors (<xref ref-type="bibr" rid="B56">Shubeita <italic>etÂ al.</italic>, 2008</xref>).</p><fig id="F6" position="float"><label>FIGURE 6:</label><caption><p>Motility of Rab3C vesicles after BICD2-N recruitment. (A) Scheme of the regulated heterodimerization constructs used to attach BICD2-N to Rab3C-positive membranes. (B) Simultaneous live imaging of FKBP2-GFP-Rab3C (green) and mCherryâÎ±-tubulin (red) in a transiently transfected MRC5-CV cell coexpressing HAâBICD2-NâFRB before and after rapalog addition; single frames are shown on the left, and projections of 40 frames are shown on the right. Imaging was performed with 100-ms interval/exposure using wide-field microscopy. Five consecutive frames were averaged. (C) Quantification of the number of FKBP2-GFP-Rab3C particle movements with length &gt;1 Î¼m. Ten cells were analyzed. (D) Distribution of FKBP2-GFP-Rab3C movement velocities to MT minus ends in MRC5-CV cells coexpressing HAâBICD2-NâFRB after rapalog addition. Approximately 90 events in 10 cells were analyzed.</p></caption><graphic xlink:href="4226fig6"/></fig></sec><sec><title>LIS1 is required for BICD-Nâinduced dynein motility</title><p>Dynein-mediated organelle motility in cells depends on a number of cofactors, such as the well-known dynein binding protein LIS1 (<xref ref-type="bibr" rid="B64">Vallee <italic>etÂ al.</italic>, 2001</xref>). LIS1 was previously implicated in BicD-dependent nuclear positioning (<xref ref-type="bibr" rid="B60">Swan <italic>etÂ al.</italic>, 1999</xref>; <xref ref-type="bibr" rid="B4">Bolhy <italic>etÂ al.</italic>, 2011</xref>), but it is unclear whether it is required for other BICD-dependent dynein transport routes. We investigated whether LIS1 was present in the complex of BICD2-N, dynein, and dynactin isolated from cells and found that this indeed was the case (<xref ref-type="fig" rid="F7">Figure 7A</xref>).</p><fig id="F7" position="float"><label>FIGURE 7:</label><caption><p>BICD2-N-dependent motility requires LIS1. (A) Streptavidin pull-down assays with BioâGFP or BioâGFPâBICD2-N were analyzed with the indicated antibodies. Two percent of the cell lysate used for the IP and 25% of the IP sample were loaded on gel. (B) Scheme of the regulated heterodimerization constructs used to attach BICD2-N to endosomes. (C, D) HeLa cells were transfected with different siRNAs; 2 d later, cells were cotransfected with HAâBICD2-NâFRB and FKBP2-GFP-VAMP2; after one additional day in culture, cells were treated with rapalog, fixed, and stained for transferrin receptor. (C) Percentage of HAâBICD2-NâFRBâ and FKBP2-GFP-VAMP2âcoexpressing HeLa cells with endosomes fully clustered in the cell center, 30 min after rapalog addition. Approximately100 cells were analyzed in three independent experiments. (D) Representative images of HAâBICD2-NâFRBâ and FKBP2-GFP-VAMP2âcoexpressing cells in different conditions.</p></caption><graphic xlink:href="4226fig7"/></fig><p>To test whether LIS1 is needed for BICD2-Nâinduced motility, we performed RNA interferenceâmediated LIS1 knockdown. LIS1 could be efficiently depleted from HeLa cells using small interfering RNAs (siRNAs) without affecting the expression of dynein and dynactin (Supplemental Figure S4). As a cargo for this experiment, we used endosomes decorated by FKBP2-VAMP2-GFP (<xref ref-type="fig" rid="F7">Figure 7B</xref>). The advantage of using endosomes as readout is that when dynein is perturbed, endosomes accumulate at the cell margin, whereas other organelles, such as mitochondria or peroxisomes, acquire a more central localization. Dynein-mediated shift to the central cytoplasm regions is thus more apparent for endosomes than for other organelles. Cotransfection of cells with HAâBICD2-NâFRB and FKBP2-VAMP2-GFP resulted in peripherally located endosomes that could be detected with antibodies against transferrin receptor (<xref ref-type="fig" rid="F7">Figure 7D</xref>). The addition of rapalog induced rapid and dramatic clustering of endosomes in the pericentrosomal region; this clustering was strongly blocked by depletion of DHC and p150<sup>Glued</sup> (<xref ref-type="fig" rid="F7">Figure 7, C and D</xref>). Depletion of LIS1 also prevented formation of a tight pericentrosomal cluster of endosomes; however, in contrast to DHC depletion, more endosomes were present in central cell regions and around the nucleus, suggesting that dynein inhibition might be incomplete (<xref ref-type="fig" rid="F7">Figure 7, C and D</xref>). These data suggest that dynein recruitment, activation, or motility is perturbed in the absence of LIS1.</p><p>Next we used HeLa cells expressing GFP-tagged dynein subunits to investigate dynein behavior and found that, very similar to dynactin depletion, LIS1 knockdown caused dynein distribution to become much more diffuse (<xref ref-type="fig" rid="F4">Figure 4A</xref>, bottom, and Supplemental Movie S2). MT plus-end accumulation of dynein was abolished, whereas p50-GFP was still detected at MT plus ends (<xref ref-type="fig" rid="F4">Figure 4, AâD</xref>, and Supplemental Movie S3). The fact that the accumulation of dynein depends not only on dynactin but also on LIS1 suggests that dynein targeting to MT ends in mammalian cells is complex and might in some aspects resemble the LIS1-dependent and dynactin-independent pathway described in budding yeast (<xref ref-type="bibr" rid="B54">Sheeman <italic>etÂ al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B39">Markus <italic>etÂ al.</italic>, 2009</xref>, <xref ref-type="bibr" rid="B38">2011</xref>) and in some aspects resemble the LIS1-independent and p150-dynactinâdependent pathway described in filamentous fungi such as <italic>Aspergillus nidulans</italic> and <italic>Ustilago maydis</italic> (<xref ref-type="bibr" rid="B73">Zhang <italic>etÂ al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B34">Lenz <italic>etÂ al.</italic>, 2006</xref>; <xref ref-type="bibr" rid="B13">Egan <italic>etÂ al.</italic>, 2012</xref>; <xref ref-type="bibr" rid="B71">Yao <italic>etÂ al.</italic>, 2012</xref>). In addition, the number of rapid bidirectional movements of DHC-GFP was strongly reduced, similar to p150<sup>Glued</sup>-depleted cells (<xref ref-type="fig" rid="F4">Figure 4E</xref>). The number of p50-GFP (dynactin) particles displaying rapid bidirectional movements was also reduced by LIS1 and DHC knockdown (<xref ref-type="fig" rid="F4">Figure 4F</xref>), supporting the inhibitory effect of LIS1 depletion on all dynein-based motility.</p></sec><sec><title>Dynein and dynactin require each other and LIS1 for efficient recruitment by BICD2 to the nuclear envelope and Rab6-positive membranes</title><p>The highly diffuse localization of dynein in LIS1-depleted cells suggested that LIS1 might contribute to dynein recruitment to different cargoes. We set out to test this hypothesis by focusing on membrane structures associated with endogenous BICD2. In G1 and S phases of the cell cycle, BICD2 is predominantly localizes to Rab6-positive membranes and participates in their dynein-mediated movement, whereas in G2 it associates with RanBP2 at the nuclear pores and recruits dynein and dynactin to the NE to ensure proper positioning of the nucleus during mitotic entry (<xref ref-type="bibr" rid="B40">Matanis <italic>etÂ al.</italic>, 2002</xref>; <xref ref-type="bibr" rid="B55">Short <italic>etÂ al.</italic>, 2002</xref>; <xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>). Strong BICD2-dependent accumulation of endogenous dynein and dynactin at the NE and cytoplasmic stacks of nuclear pores known as annulate lamellae (AL; <xref ref-type="bibr" rid="B26">Kessel, 1992</xref>; <xref ref-type="bibr" rid="B10">Daigle <italic>etÂ al.</italic>, 2001</xref>) could be observed in G2 cells in which MTs were depolymerized with nocodazole (<xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>). To observe this accumulation, we fixed cells with cold methanol because this fixation procedure permits detection of endogenous dynein (<xref ref-type="fig" rid="F8">Figure 8A</xref>; <xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>). We note that the pool of BICD2 associated with Rab6 membranes is lost in these conditions, and therefore little BICD2 staining is visible in methanol-fixed cells that are not in the G2 phase (<xref ref-type="fig" rid="F8">Figure 8A</xref>; <xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>). Depletion of dynein (DHC) or p150<sup>Glued</sup>, the large subunit of dynactin, had no effect on the recruitment of BICD2 to the NE (<xref ref-type="fig" rid="F8">Figure 8, AâC</xref>). However, not only did the depletion of dynactin block efficient recruitment of dynein (<xref ref-type="fig" rid="F8">Figure 8, C and G</xref>), as could be expected based on the cargo-targeting function of dynactin, but the reverse was also true: dynactin did not accumulate at the BICD2-decorated NE after dynein knockdown (<xref ref-type="fig" rid="F8">Figure 8, B and F</xref>). Furthermore, consistent with the hypothesis that LIS1 is required for dynein recruitment to BICD2-bound cargoes, depletion of LIS1 prevented BICD2-dependent targeting of dynein and dynactin to the NE in G2 cells (<xref ref-type="fig" rid="F8">Figure 8, D and H</xref>).</p><fig id="F8" position="float"><label>FIGURE 8:</label><caption><p>Dynein and dynactin are mutually dependent on the G2-specific recruitment to the NE and AL. HeLa cells were transfected with the indicated siRNAs; 3 d later, the cells were treated for 5 h with 10 Î¼M nocodazole, fixed with cold methanol, and stained with the antibodies against the nucleoporin RanBP2, BICD2. and DIC (AâD) or RanBP2, BICD2, and p150<sup>Glued</sup> (EâH). AL (stacks of nuclear pores in the ER membranes localized in the cytoplasm) are indicated by arrows. Note that methanol fixation preferentially preserves the nuclear poreâbound pool of BICD2 present in G2 cells but not the cytosolic and Rab6-bound BICD2 pool in G1 and S cells, as described previously (<xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>).</p></caption><graphic xlink:href="4226fig8"/></fig><p>Next we tested whether dynein and dynactin require each other and LIS1 for recruitment to Rab6 membranes. Because Rab6 and Rab6-bound BICD2 pool are not preserved in methanol-fixed cells and anti-dynein antibodies did not work in our hands with other fixations, we used DIC2-GFPâexpressing cells. After nocodazole-mediated MT disassembly, DIC2-GFP was strongly recruited to the dispersed Golgi fragments and vesicles positive for endogenous BICD2 and Rab6 (<xref ref-type="fig" rid="F9">Figure 9A</xref>). This recruitment was completely abolished when either p150<sup>Glued</sup> or LIS1 was depleted (<xref ref-type="fig" rid="F9">Figure 9, B and C</xref>). Endogenous dynactin (visualized with staining against p150<sup>Glued</sup>) was also strongly recruited to BICD2-positive structures in G1 and S cells, which could be recognized by the absence of BICD2 staining on the NE (<xref ref-type="fig" rid="F9">Figure 9D</xref>). Depletion of both dynein (DHC) and LIS1 abolished this recruitment (<xref ref-type="fig" rid="F9">Figure 9, E and F</xref>). Taken together, these data are fully in line with our biochemical observations, which indicate that dynein, dynactin, and BICD2-N form a complex only when all three components are present (<xref ref-type="fig" rid="F2">Figure 2</xref>). These data also suggest that LIS1 is needed for recruitment of the dynein motor complex to different subcellular structures associated with BICD2.</p><fig id="F9" position="float"><label>FIGURE 9:</label><caption><p>LIS1 is required for BICD2-dependent recruitment of dynein and dynactin to the NE. (AâC) HeLa cells stably expressing DIC2-GFP (AâC) or control HeLa cells (D, E) were transfected with the indicated siRNAs; 3 d later, cells were treated for 1 h with 10 Î¼M nocodazole, fixed with 4% paraformaldehyde, and stained with the antibodies against BICD2 and Rab6 (AâC) or BICD2 and p150Glued (DâF). Paraformaldehyde fixation preserves the pool of BICD2 associated with Rab6 membranes.</p></caption><graphic xlink:href="4226fig9"/></fig></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>How cytoplasmic dynein, the most ubiquitous MT minus-endâdirected motor, is recruited to the numerous cellular cargoes is still poorly understood. The vast literature on this subject suggests that multiple dynein and dynactin subunits can interact with a wide range of receptors on various cargoes (<xref ref-type="bibr" rid="B19">Holleran <italic>etÂ al.</italic>, 1996</xref>; <xref ref-type="bibr" rid="B61">Tai <italic>etÂ al.</italic>, 1999</xref>; <xref ref-type="bibr" rid="B44">Muresan <italic>etÂ al.</italic>, 2001</xref>; <xref ref-type="bibr" rid="B24">Kardon and Vale, 2009</xref>; <xref ref-type="bibr" rid="B50">Rocha <italic>etÂ al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B6">Cai <italic>etÂ al.</italic>, 2010</xref>; <xref ref-type="bibr" rid="B62">Tan <italic>etÂ al.</italic>, 2011</xref>; <xref ref-type="bibr" rid="B74">Zhang <italic>etÂ al.</italic>, 2011</xref>). Understanding of dynein targeting is further complicated by the existence of highly conserved dynein cofactors, such as LIS1 and NudE/EL, which are required for a broad set of dynein-dependent processes and have been reported to contribute to subcellular dynein recruitment (<xref ref-type="bibr" rid="B16">Guo <italic>etÂ al.</italic>, 2006</xref>; <xref ref-type="bibr" rid="B58">Stehman <italic>etÂ al.</italic>, 2007</xref>; <xref ref-type="bibr" rid="B69">Vergnolle and Taylor, 2007</xref>; <xref ref-type="bibr" rid="B31">Lam <italic>etÂ al.</italic>, 2010</xref>; <xref ref-type="bibr" rid="B4">Bolhy <italic>etÂ al.</italic>, 2011</xref>; <xref ref-type="bibr" rid="B13">Egan <italic>etÂ al.</italic>, 2012</xref>). The picture that emerges from these studies suggests that dynein, either alone or acting in a complex with dynactin and other cofactors, can be targeted to different organelles in a multitude of different ways through various interaction interfaces. In this study, we attempted to dissect the molecular basis of dynein recruitment by one particular motor adaptor, the conserved protein BICD2. We found that the N-terminal fragment of BICD2, which binds to dynein, does not form a stable complex with the motor unless dynactin is also present. Of importance, within the triple complex with BICD2-N, the association of dynein and dynactin is stabilized.</p><p>The general importance of this interaction mode is emphasized by the fact that in the absence of the C-terminal cargo-binding domain of BICD2, BICD2-N expression effectively suppresses multiple dynein-mediated cellular transport routes, including those that do not depend on BICD2 (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>; <xref ref-type="bibr" rid="B63">Teuling <italic>etÂ al.</italic>, 2008</xref>). We showed that the triple BICD2-Nâdyneinâdynactin complex is not competent to stably interact with cellular organelles, as reflected by its highly diffuse localization pattern. This result was surprising: for example, we showed that the Arp1 filament of dynactin is not directly engaged in the BICD2âdynactin interaction, and yet, apparently, the triple BICD2-Nâdyneinâdynactin complex could not be efficiently targeted to membranes by the interaction between Arp1 and its partners such as spectrin (<xref ref-type="bibr" rid="B19">Holleran <italic>etÂ al.</italic>, 1996</xref>). Thus it seems that in spite of being a very large protein assembly, the dyneinâdynactin complex occupied by one adaptor molecule cannot efficiently interact with other adaptors through potentially distinct interaction interfaces. This suggests that dyneinâdynactin is likely to be targeted to each cargo/subcellular site through a multiple set of interactions, and although some of them might be very specific, others must be common to different pathways. Stabilization of the intrinsically weak dyneinâdynactin interaction might be an important theme in this generic targeting process. In connection with this, it is interesting to note that the BICD2-N interaction mode with dynein and dynactin might be evolutionarily conserved because the N-terminal coiled-coil domain of BICD2 shares some similarity with the coiled-coil segments in other MT motor adaptors, the HAP domains of HAP1 and TRAK/Milton proteins (<xref ref-type="bibr" rid="B59">Stowers <italic>etÂ al.</italic>, 2002</xref>).</p><p>Overexpressed BICD2-N prevented dynein not only from binding to cargo, but also from association with MTs and MT tips. This result was unexpected because we showed that BICD2-N stabilizes the interaction between dynein and dynactin, and dynactin promotes dynein binding to MT plus ends (<xref ref-type="bibr" rid="B67">Vaughan <italic>etÂ al.</italic>, 1999</xref>; <xref ref-type="fig" rid="F4">Figure 4, A and C</xref>), as well as processive dynein motility along MTs (<xref ref-type="bibr" rid="B27">King and Schroer, 2000</xref>). It is possible that, depending on conditions, dynein and dynactin might exist in functionally different complexes, which are either capable or incapable of MT interaction and motility. We propose that when the triple BICD2-Nâdyneinâdynactin complex is not bound to cargo, it exists in an inactive conformation that is incompatible with MT binding. Tethering to cargo activates normal motility of dynein within the BICD2-Nâdyneinâdynactin complex, possibly due to interaction with additional cargo-associated dynein cofactors.</p><p>Of importance, dynactin is still present at MT ends in BICD2-Nâexpressing cells. Given that BICD2-N does not bind to dynein or dynactin alone and dynactin can bind to MT tips independently of dynein, it is likely that a pool of free dynactin can still recycle on MT plus ends without recruiting BICD2-N. However, if dynactin recruits dynein, the association of the two complexes might create a high-affinity binding site for BICD2-N, which would then cause a conformational change of the triple complex, resulting in its release from MT tips into the cytoplasm. Existence of functionally distinct dynein conformations is supported by studies of dynein offloading from the MT plus ends to the cell cortex in budding yeast (<xref ref-type="bibr" rid="B39">Markus <italic>etÂ al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B37">Markus and Lee, 2011</xref>).</p><p>The complexity of dynein recruitment and activation is accentuated by the fact that it requires additional cofactors, such as LIS1. We found that in the absence of LIS1, dynein became diffuse in live cells, very similar to the result of dynactin depletion. This applied not only to the cargo-bound dynein, but also to the MT tipâassociated dynein pool, indicating that similar to budding yeast, LIS1 participates in promoting dynein targeting to MT plus ends (<xref ref-type="bibr" rid="B54">Sheeman <italic>etÂ al.</italic>, 2003</xref>; <xref ref-type="bibr" rid="B39">Markus <italic>etÂ al.</italic>, 2009</xref>, <xref ref-type="bibr" rid="B38">2011</xref>). It is important to note here that the pathways responsible for MT tip recruitment of dynein and dynactin in yeast and mammals show clear differences: for example, dynactin depends on dynein and the LIS1 homologue Pac1 for MT-end localization in budding yeast (<xref ref-type="bibr" rid="B70">Woodruff <italic>etÂ al.</italic>, 2009</xref>; <xref ref-type="bibr" rid="B38">Markus <italic>etÂ al.</italic>, 2011</xref>) but not in mammalian cells.</p><p>By immunofluorescence cell staining, we showed that LIS1 depletion inhibited recruitment of dynein and dynactin to endogenous BICD2 cargoes, Rab6-positive membranes, and nuclear pores. These observations are in line with the general importance of LIS1 in dynein-mediated organelle transport, in agreement with findings by <xref ref-type="bibr" rid="B31">Lam <italic>etÂ al</italic>. (2010)</xref>. These results suggest that in addition to participation in dynein-mediated force generation (<xref ref-type="bibr" rid="B41">McKenney <italic>etÂ al.</italic>, 2010</xref>; <xref ref-type="bibr" rid="B72">Yi <italic>etÂ al.</italic>, 2011</xref>), LIS1 might also be required for some generic aspects of dynein recruitment or recycling. This conclusion is consistent with the recently published work in <italic>A. nidulans</italic>, which showed that in this fungus the LIS1 homologue is absent from moving cargo and is needed for dynein recruitment or motility initiation but not for the actual dynein-mediated movement (<xref ref-type="bibr" rid="B13">Egan <italic>etÂ al.</italic>, 2012</xref>). In our in vitro experiments, we used dynein and dynactin that contained no significant amount of copurified LIS1, suggesting that the formation of the triple BICD2-Nâdyneinâdynactin complex in the cell-free system does not require equimolar amounts of LIS1. We cannot exclude, however, that catalytic amounts of LIS1 are necessary to induce conformational changes within the complex and that the inability to undergo such changes prevents BICD2-dependent recruitment of dynein and dynactin to cargo in LIS1-depleted cells.</p><p>The complete understanding of LIS1 function in dynein-mediated processes would likely require detailed investigation of its functional interplay with NudE/EL proteins, which are also needed for a broad variety of dynein-mediated transport pathways (<xref ref-type="bibr" rid="B24">Kardon and Vale, 2009</xref>), strongly cooperate with LIS1 but might compete with dynactin (<xref ref-type="bibr" rid="B41">McKenney <italic>etÂ al.</italic>, 2010</xref>, <xref ref-type="bibr" rid="B42">2011</xref>), and act in a nonredundant manner with BICD2 in at least some dynein-targeting processes (<xref ref-type="bibr" rid="B4">Bolhy <italic>etÂ al.</italic>, 2011</xref>). Taken together, these findings emphasize the concept that dynein-induced motility cannot be explained by simple pairwise interactions of individual dynein or dynactin subunits with receptor molecules but instead rely on cooperative assembly and possibly sequential activation of large multiprotein complexes on cargoes.</p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Antibodies</title><p>We used mouse monoclonal antibodies against GFP (Roche, Indianapolis, IN), p150<sup>Glued</sup> and PEX1 (BD Biosciences, Heidelberg, Germany), DIC (74.1, Chemicon, Temecula, CA; and 74-1, sc-13525, Santa Cruz Biotech, Heidelberg, Germany), HA tag (Covance, Berkeley, CA), Arp1 (a gift of T. Schroer, Johns Hopkins University, Baltimore, MD), LIS1 (antibody 201, a gift of O. Reiner, Weizmann Institute of Science, Rehovot, Israel), Rab6 (a gift of A. Barnekow, University of MÃ¼nster, MÃ¼nster, Germany), and transferrin receptor (Boehringer Mannheim, Mannheim, Germany); rabbit antibodies against BICD2 (antibody 2293; <xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>), GFP (Abcam, Cambridge, MA), HA tag (Y-11, sc-805; Santa Cruz Biotech), and DHC (R-325, sc-9115; Santa Cruz Biotech), goat antibodies against RanBP2 (<xref ref-type="bibr" rid="B45">Pichler <italic>etÂ al.</italic>, 2002</xref>; a gift of F. Melchior, Deutschen KrebsforschungszentrumsâZentrum fÃ¼r Molekulare Biologie der UniversitÃ¤t Heidelberg, Heidelberg, Germany), and secondary goat and donkey Alexa 350, Alexa 488, and Alexa 594 anti-mouse, anti-goat, and anti-rabbit antibodies (Invitrogen, Carlsbad, CA).</p></sec><sec><title>Expression constructs, cell culture, transfection, and immunofluorescence staining</title><p>All BICD2 constructs are based on the mouse BICD2 cDNA (AJ250106; <xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>). We used the following previously described constructs: BioâGFPâBICD2-N (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>), GFP-BICD2-N-MTS (<xref ref-type="bibr" rid="B22">Hoogenraad <italic>etÂ al.</italic>, 2003</xref>), and mCherryâÎ±-tubulin (<xref ref-type="bibr" rid="B53">Shaner <italic>etÂ al.</italic>, 2004</xref>), a gift of R. Tsien (University of California, San Diego, La Jolla, CA). HAâBICD2âN-FRB and FKBP2-GFP-Rab6 were generated in pEGFP-C by PCR-based technology. FKBP2-GFP-Rab3C and FKBP2-VAMP2-GFP were generated in a similar manner using GFP-Rab3C (<xref ref-type="bibr" rid="B65">van Vlijmen <italic>etÂ al.</italic>, 2008</xref>) or VAMP2 fused to a pH-sensitive form of GFP through the lumenal domain (synapto-pHluorin; <xref ref-type="bibr" rid="B51">Sankaranarayanan and Ryan, 2001</xref>). Plasmids encoding heterodimerization domains FRB and FKBP2 and the rapamycin-derived heterodimerizer AP21967 were obtained from Ariad (Cambridge, MA). GFP- and mStrawberry-Rab6A constructs were described previously (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>).</p><p>HeLa and MRC5-SV cells were cultured and transfected using PolyFect (Qiagen, Valencia, CA) or FuGENE 6 (Roche) as described previously (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>). HeLa cells stably expressing GFP-tagged DHC, DIC2, and p50 subunits were generated as a part of a BAC TransgeneOmics project and described previously (<xref ref-type="bibr" rid="B47">Poser <italic>etÂ al.</italic>, 2008</xref>). Cells were fixed and stained essentially as described before (<xref ref-type="bibr" rid="B22">Hoogenraad <italic>etÂ al.</italic>, 2003</xref>). A 10-min fixation with cold (â20Â°C) methanol alone was used to visualize dynein, and a combination of fixation with cold methanol (10 min) followed by 4% paraformaldehyde (PFA) in phosphate-buffered saline for 10 min at room temperature was used for staining of dynactin and EB1/EB3 at MT plus ends; fixation with 4% PFA in phosphate-buffered saline for 10 min was used to visualize endosomes and Rab6-positive membranes. MitoTracker red CMXRos (Invitrogen) was applied to cells and fixed for 10 min with 4% PFA in medium (<xref ref-type="bibr" rid="B22">Hoogenraad <italic>etÂ al.</italic>, 2003</xref>). To visualize dynein and dynactin at the NE, cells were treated with 10 Î¼m nocodazole (Sigma-Aldrich, St. Louis, MO) for 5 h prior to fixation.</p><p>The siRNA transfections were performed as described previously (<xref ref-type="bibr" rid="B57">Splinter <italic>etÂ al.</italic>, 2010</xref>) using ON-TARGETplus SMARTpool siRNAs directed against human p150<sup>Glued</sup>, DHC, and LIS1 (Dharmacon, Lafayette, CO).</p></sec><sec><title>Immunoprecipitation from HeLa cells</title><p>HeLa cells were cultured as described previously (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>); 70% confluent HeLa cells were transfected with constructs expressing different GFP or HA fusions using either Lipofectamine 2000 (Invitrogen) or polyethyleneimine (molecular weight, 25,000; Polysciences, Warrington, PA). One day after transfection, cells were lysed in a buffer containing 20 mM Tris-HCl, pH 8.0, 100 mM KCl, 1% Triton X-100, and protease inhibitors (Complete, Roche), and immunoprecipitations were performed as described previously (<xref ref-type="bibr" rid="B20">Hoogenraad <italic>etÂ al.</italic>, 2001</xref>). Streptavidin pull-downs of BioâGFPâBICD2-N for Western blotting were performed as described previously (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>).</p></sec><sec><title>Protein purifications</title><p>BICD2-Nsh (residues 25â400 of mouse BICD2) was cloned into PET28a and purified with a two-step chromatography protocol using HiTrap Chelating HP resin for the oligohistidine tag, followed by anion exchange chromatography with MonoQ resin (GE Healthcare, Piscataway, NJ). BioâGFPâBICD2-N (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>) was purified from HEK293T cells. Seventy percent confluent HEK293T cells were cotransfected with the constructs Bio-GFP-TEVâBICD2-N and BirA using Lipofectamine 2000. One day after transfection, cells were lysed in a buffer containing 20 mM Tris-HCl, 100 mM KCl, 1% Triton X-100, and protease inhibitors (Complete, Roche). Proteins were isolated using Mutein beads (Roche) according to the protocol of the manufacturer, and the purified protein was concentrated with 3-kDa Vivaspin columns (Satorius, GÃ¶ttingen, Germany). Bovine brain dynactin and cytoplasmic dynein were purified as previously described (<xref ref-type="bibr" rid="B3">Bingham <italic>etÂ al.</italic>, 1998</xref>; <xref ref-type="bibr" rid="B36">Mallik <italic>etÂ al.</italic>, 2005</xref>).</p></sec><sec><title>Sucrose gradients</title><p>Different combinations of 0.05 mM dynein, 0.05 mM dynactin, and/or 0.80 mM BICD2-Nsh were incubated for 180 min on ice and then layered onto 10â40% sucrose gradients. After centrifugation, equal-size fractions were collected from the bottom of the gradients and subjected to SDSâPAGE. Dynein and dynactin were found in fractions corresponding to â¼20S, as determined by silver staining the fractions to identify the DHC or dynactin p150<sup>Glued</sup> subunit. Because BICD2-Nsh comigrates with the DLICs and the p50/dynamitin, we determined the position of BICD2-Nsh in the sucrose gradients by probing a Western blot with antibodies to BICD2.</p></sec><sec><title>Analysis of BICD2-Nâbinding partners in dynein and dynactin by cross-linking</title><p>Bio-GFPâtagged BICD2-N was incubated with equimolar amounts of bovine brain dynein and dynactin for 3 h on ice in a buffer containing 80 mM 1,4-piperazinediethanesulfonic acid, 1 mM MgCl<sub>2</sub>, 1 mM ethylene glycol tetraacetic acid, 50 mM NaCl 1 mM dithiothreitol, 0.5 mM ATP, and 0.05% nonyl phenoxylpolyethoxylethanol, pH 6.8. Bis[sulfosuccinimidyl] glutarate (Pierce, Rockford, IL) was added in an end concentration of 0.5 mM and quenched after 30 min with NH<sub>4</sub>HCO<sub>3</sub>. Formed complexes were denatured with 0.5% SDS, followed by 5 min at 65Â°C in a buffer containing 20 mM Tris-HCl, pH 8.0, 400 mM KCl, and 0.5% Triton X-100. Streptavidin pull-down was performed as described previously (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>).</p></sec><sec><title>Mass spectrometryâbased protein identification</title><p>Mass spectrometry analysis was performed essentially as described previously (<xref ref-type="bibr" rid="B15">Grigoriev <italic>etÂ al.</italic>, 2007</xref>). Peak lists were automatically created from raw data files using the Mascot Distiller software, version 2.0 (MatrixScience, Boston, MA). The Mascot search algorithm, version 2.0 (MatrixScience) was used for searching against the NCBInr database (release date, NCBInr_20080502.fasta; taxonomy <italic>Bos taurus</italic>). The peptide tolerance was typically set to 2 Da and the fragment ion tolerance to 0.8 Da. Only doubly and triply charged peptides were searched for. A maximum number of two missed cleavages by trypsin were allowed, and carbamidomethylated cysteine and oxidized methionine were set as fixed and variable modifications, respectively. The Mascot score cutoff value for a positive protein hit was set to 100. Individual peptide tandem mass spectrometry spectra with Mowse scores of &lt;40 were checked manually and either interpreted as valid identifications or discarded.</p></sec><sec><title>Image acquisition, processing, and analysis</title><p>Images of fixed cells were collected with a Leica DMRBE microscope equipped with a PL Fluotar 100Ã/1.3 numerical aperture (NA) oil objective, FITC/EGFP filter 41012 (Chroma Technology, Bellows Falls, VT), and Texas red filter 41004 (Chroma) and an ORCA-ER-1394 charge-coupled device (CCD) camera (Hamamatsu, Hamamatsu, Japan). Twelve-bit images were projected onto the CCD chip at a magnification of 0.1 Î¼m/pixel. Images of fixed samples were prepared using Photoshop (Adobe, San Jose, CA) by converting them to 8 bits and using linear adjustment of Levels; no image filtering was performed.</p><p>Live-cell imaging was performed on an Eclipse Ti-E inverted research microscope with perfect focus system (Nikon, Melville, NY) equipped with a Nikon CFI Apo total internal reflection fluorescence (TIRF) 100Ã/1.49 NA oil objective and a QuantEM 512SC electron-multiplying CCD camera (Roper Scientific, Tucson, AZ) and controlled with MetaMorph 7.5 software (Molecular Devices, Sunnyvale, CA). The 16-bit images were projected onto the CCD chip with intermediate lens, 2.5Ã, at a magnification of 0.065 Î¼m/pixel. The microscope was equipped with a Nikon TI-TIRF-E motorized TIRF illuminator. For regular imaging we used a mercury lamp (HBO-103W/2; Osram, Munich, Germany) for excitation or 491-nm, 50-mW Calypso (Cobolt, Solna, Sweden) and 561-nm, 50-mW Jive (Cobolt) lasers. We used an ET-GFP filter set (Chroma) for imaging of proteins tagged with GFP and an ET-mCherry filter set (Chroma) for imaging of proteins tagged with mCherry. For simultaneous imaging of green and red fluorescence we used an ET-mCherry/GFP filter set (Chroma) together with a DualView (DV2l Roper) equipped with a 565dcxr dichroic filter (Chroma) and a HQ530/30m emission filter (Chroma). To keep cells at 37Â°C, we used a stage-top incubator (INUG2E-ZILCS; Tokai Hit, Fujinomiya, Japan).</p><p>Image analysis was performed using MetaMorph. Live-cell images were prepared for publication using Photoshop. Details of image adjustment are indicated in the figure legends. Statistical analysis was performed using a nonparametric MannâWhitney <italic>U</italic> test in Statistica for Windows and SigmaPlot (Systat Software, San Jose, CA).</p></sec></sec>
+<sec sec-type="supplementary-material">
+<title>Supplementary Material</title>
+<supplementary-material id="PMC_1" content-type="local-data">
+<caption>
+<title>Supplemental Materials</title>
+</caption>
+<media mimetype="text" mime-subtype="html" xlink:href="supp_23_21_4226__index.html"/>
+<media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_E12-03-0210v1_SplinterSupplemetalMaterials.pdf"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s09M1.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s10M2.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s08M3.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s11M4.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s07M5.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s12M6.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s06M7.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s13M8.mov"/>
+<media xlink:role="associated-file" mimetype="video" mime-subtype="quicktime" xlink:href="supp_E12-03-0210v1_mc-E12-03-0210-s14M9.mov"/>
+</supplementary-material>
+</sec>
+</body>
+  <back>
+    <fn-group>
+      <fn fn-type="other">
+        <p>This article was published online ahead of print in MBoC in Press (<ext-link ext-link-type="uri" xlink:href="http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E12-03-0210">http://www.molbiolcell.org/cgi/doi/10.1091/mbc.E12-03-0210)</ext-link> on September 5, 2012.</p>
+      </fn>
+      <fn fn-type="equal" id="FN1">
+        <p>*These authors contributed equally to this article.</p>
+      </fn>
+      <fn fn-type="present-address" id="FN2">
+        <p><sup>â </sup>Present address: Burnett School of Biomedical Sciences, University of Central Florida, Orlando, FL 32827.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <p>We thank J. Raaijmakers and R. Medema for the help with siRNA-mediated depletion experiments; T. Schroer, F. Melchior, A. Barnekow, O. Reiner, and R. Tsien for the gift of materials; and Karel Bezstarosti for technical assistance. This work was supported by the Dutch Ministry of Economic Affairs (BSIK). A.A. is supported by the Netherlands Organization for Scientific Research (NWO-ALW VICI), Netherlands Organization for Health Research and Development (ZonMw-TOP) grants, a Foundation for Fundamental Research on Matter program grant, and a Human Frontier Science Program grant. S.J.K. is supported by the National Institutes of Health (RO1 NS48501) and the University of Missouri Research Board. C.C.H is supported by the Netherlands Organization for Scientific Research (NWO-ALW, NWO-ECHO), the Netherlands Organization for Health Research and Development (ZonMw-VIDI, ZonMw-TOP), the European Science Foundation (European Young Investigators Award), and a Human Frontier Science Program Career Development Award (HFSP-CDA). The work of I.P. and A.A.H. is supported by the European Community's Seventh Framework Program (FP7/2007-2013) under Grant Agreement 241548 (MitoSys Project).</p>
+    </ack>
+    <glossary>
+      <title>Abbreviations used:</title>
+      <def-list>
+        <def-item>
+          <term id="G1">AL</term>
+          <def>
+            <p>annulate lamellae</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G2">BICD</term>
+          <def>
+            <p>Bicaudal D</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G3">BICD2-C</term>
+          <def>
+            <p>Bicaudal D2 C-terminus</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G4">BICD2-FL</term>
+          <def>
+            <p>Bicaudal D2 full-length protein</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G5">BICD2-N</term>
+          <def>
+            <p>Bicaudal D2 N-terminus</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G6">DHC</term>
+          <def>
+            <p>dynein heavy chain</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G7">DIC</term>
+          <def>
+            <p>dynein intermediate chain</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G8">DLIC</term>
+          <def>
+            <p>dynein light intermediate chain</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G9">GFP</term>
+          <def>
+            <p>green fluorescent protein</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G10">HA</term>
+          <def>
+            <p>hemagglutinin</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G11">IP</term>
+          <def>
+            <p>immunoprecipitation</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G12">MT</term>
+          <def>
+            <p>microtubule</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term id="G13">NE</term>
+          <def>
+            <p>nuclear envelope</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Aguirre-Chen</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bulow</surname>
+              <given-names>HE</given-names>
+            </name>
+            <name>
+              <surname>Kaprielian</surname>
+              <given-names>Z</given-names>
+            </name>
+          </person-group>
+          <article-title><italic>C. elegans</italic> bicd-1, homolog of the <italic>Drosophila</italic> dynein accessory factor Bicaudal D, regulates the branching of PVD sensory neuron dendrites</article-title>
+          <source>Development</source>
+          <year>2011</year>
+          <volume>138</volume>
+          <fpage>507</fpage>
+          <lpage>518</lpage>
+          <pub-id pub-id-type="pmid">21205795</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bianco</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Dienstbier</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Salter</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Gatto</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Bullock</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Bicaudal-D regulates fragile X mental retardation protein levels, motility, and function during neuronal morphogenesis</article-title>
+          <source>Curr Biol</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>1487</fpage>
+          <lpage>1492</lpage>
+          <pub-id pub-id-type="pmid">20691595</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bingham</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Purification of dynactin and dynein from brain tissue</article-title>
+          <source>Methods Enzymol</source>
+          <year>1998</year>
+          <volume>298</volume>
+          <fpage>171</fpage>
+          <lpage>184</lpage>
+          <pub-id pub-id-type="pmid">9751880</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bolhy</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bouhlel</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Dultz</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Nayak</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Zuccolo</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gatti</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Ellenberg</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Doye</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>A Nup133-dependent NPC-anchored network tethers centrosomes to the nuclear envelope in prophase</article-title>
+          <source>J Cell Biol</source>
+          <year>2011</year>
+          <volume>192</volume>
+          <fpage>855</fpage>
+          <lpage>871</lpage>
+          <pub-id pub-id-type="pmid">21383080</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bullock</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Nicol</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Zicha</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Guidance of bidirectional motor complexes by mRNA cargoes through control of dynein number and activity</article-title>
+          <source>Curr Biol</source>
+          <year>2006</year>
+          <volume>16</volume>
+          <fpage>1447</fpage>
+          <lpage>1452</lpage>
+          <pub-id pub-id-type="pmid">16860745</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cai</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Tian</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>YB</given-names>
+            </name>
+            <name>
+              <surname>Qiao</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Sheng</surname>
+              <given-names>ZH</given-names>
+            </name>
+          </person-group>
+          <article-title>Snapin-regulated late endosomal transport is critical for efficient autophagy-lysosomal function in neurons</article-title>
+          <source>Neuron</source>
+          <year>2010</year>
+          <volume>68</volume>
+          <fpage>73</fpage>
+          <lpage>86</lpage>
+          <pub-id pub-id-type="pmid">20920792</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clark</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Meignin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>A dynein-dependent shortcut rapidly delivers axis determination transcripts into the <italic>Drosophila</italic> oocyte</article-title>
+          <source>Development</source>
+          <year>2007</year>
+          <volume>134</volume>
+          <fpage>1955</fpage>
+          <lpage>1965</lpage>
+          <pub-id pub-id-type="pmid">17442699</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Claussen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Suter</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>BicD-dependent localization processes: from <italic>Drosophilia</italic> development to human cell biology</article-title>
+          <source>Ann Anat</source>
+          <year>2005</year>
+          <volume>187</volume>
+          <fpage>539</fpage>
+          <lpage>553</lpage>
+          <pub-id pub-id-type="pmid">16320833</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coutelis</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Ephrussi</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Rab6 mediates membrane organization and determinant localization during <italic>Drosophila</italic> oogenesis</article-title>
+          <source>Development</source>
+          <year>2007</year>
+          <volume>134</volume>
+          <fpage>1419</fpage>
+          <lpage>1430</lpage>
+          <pub-id pub-id-type="pmid">17329360</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Daigle</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Beaudouin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hartnell</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Imreh</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Hallberg</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lippincott-Schwartz</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Ellenberg</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Nuclear pore complexes form immobile networks and have a very low turnover in live mammalian cells</article-title>
+          <source>J Cell Biol</source>
+          <year>2001</year>
+          <volume>154</volume>
+          <fpage>71</fpage>
+          <lpage>84</lpage>
+          <pub-id pub-id-type="pmid">11448991</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dienstbier</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Boehl</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Bullock</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Egalitarian is a selective RNA-binding protein linking mRNA localization signals to the dynein motor</article-title>
+          <source>Genes Dev</source>
+          <year>2009</year>
+          <volume>23</volume>
+          <fpage>1546</fpage>
+          <lpage>1558</lpage>
+          <pub-id pub-id-type="pmid">19515976</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Echeverri</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Paschal</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Vaughan</surname>
+              <given-names>KT</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular characterization of the 50-kD subunit of dynactin reveals function for the complex in chromosome alignment and spindle organization during mitosis</article-title>
+          <source>J Cell Biol</source>
+          <year>1996</year>
+          <volume>132</volume>
+          <fpage>617</fpage>
+          <lpage>633</lpage>
+          <pub-id pub-id-type="pmid">8647893</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Egan</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Reck-Peterson</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Lis1 is an initiation factor for dynein-driven organelle transport</article-title>
+          <source>J Cell Biol</source>
+          <year>2012</year>
+          <volume>197</volume>
+          <fpage>971</fpage>
+          <lpage>982</lpage>
+          <pub-id pub-id-type="pmid">22711696</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fridolfsson</surname>
+              <given-names>HN</given-names>
+            </name>
+            <name>
+              <surname>Ly</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Meyerzon</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Starr</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>UNC-83 coordinates kinesin-1 and dynein activities at the nuclear envelope during nuclear migration</article-title>
+          <source>Dev Biol</source>
+          <year>2010</year>
+          <volume>338</volume>
+          <fpage>237</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="pmid">20005871</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grigoriev</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Rab6 regulates transport and targeting of exocytotic carriers</article-title>
+          <source>Dev Cell</source>
+          <year>2007</year>
+          <volume>13</volume>
+          <fpage>305</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">17681140</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Zhu</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Nudel contributes to microtubule anchoring at the mother centriole and is involved in both dynein-dependent and -independent centrosomal protein assembly</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2006</year>
+          <volume>17</volume>
+          <fpage>680</fpage>
+          <lpage>689</lpage>
+          <pub-id pub-id-type="pmid">16291865</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Habermann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Griffiths</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Burkhardt</surname>
+              <given-names>JK</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunolocalization of cytoplasmic dynein and dynactin subunits in cultured macrophages: enrichment on early endocytic organelles</article-title>
+          <source>J Cell Sci</source>
+          <year>2001</year>
+          <volume>114</volume>
+          <fpage>229</fpage>
+          <lpage>240</lpage>
+          <pub-id pub-id-type="pmid">11112706</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holleran</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Karki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Holzbaur</surname>
+              <given-names>EL</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of the dynactin complex in intracellular motility</article-title>
+          <source>Int Rev Cytol</source>
+          <year>1998</year>
+          <volume>182</volume>
+          <fpage>69</fpage>
+          <lpage>109</lpage>
+          <pub-id pub-id-type="pmid">9522459</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holleran</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Tokito</surname>
+              <given-names>MK</given-names>
+            </name>
+            <name>
+              <surname>Karki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Holzbaur</surname>
+              <given-names>EL</given-names>
+            </name>
+          </person-group>
+          <article-title>Centractin (ARP1) associates with spectrin revealing a potential mechanism to link dynactin to intracellular organelles</article-title>
+          <source>J Cell Biol</source>
+          <year>1996</year>
+          <volume>135</volume>
+          <fpage>1815</fpage>
+          <lpage>1829</lpage>
+          <pub-id pub-id-type="pmid">8991093</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoogenraad</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Akhmanova</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Howell</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Dortland</surname>
+              <given-names>BR</given-names>
+            </name>
+            <name>
+              <surname>De Zeeuw</surname>
+              <given-names>CI</given-names>
+            </name>
+            <name>
+              <surname>Willemsen</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Visser</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Grosveld</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Galjart</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian Golgi-associated Bicaudal-D2 functions in the dynein-dynactin pathway by interacting with these complexes</article-title>
+          <source>EMBO J</source>
+          <year>2001</year>
+          <volume>20</volume>
+          <fpage>4041</fpage>
+          <lpage>4054</lpage>
+          <pub-id pub-id-type="pmid">11483508</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoogenraad</surname>
+              <given-names>CC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Neuron specific Rab4 effector GRASP-1 coordinates membrane specialization and maturation of recycling endosomes</article-title>
+          <source>PLoS Biol</source>
+          <year>2010</year>
+          <volume>8</volume>
+          <fpage>e1000283</fpage>
+          <pub-id pub-id-type="pmid">20098723</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hoogenraad</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Wulf</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Schiefermeier</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Stepanova</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Galjart</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Small</surname>
+              <given-names>JV</given-names>
+            </name>
+            <name>
+              <surname>Grosveld</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>de Zeeuw</surname>
+              <given-names>CI</given-names>
+            </name>
+            <name>
+              <surname>Akhmanova</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Bicaudal D induces selective dynein-mediated microtubule minus end-directed transport</article-title>
+          <source>EMBO J</source>
+          <year>2003</year>
+          <volume>22</volume>
+          <fpage>6004</fpage>
+          <lpage>6015</lpage>
+          <pub-id pub-id-type="pmid">14609947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Januschke</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Nicolas</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Compagnon</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Formstecher</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Goud</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Guichet</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Rab6 and the secretory pathway affect oocyte polarity in <italic>Drosophila</italic></article-title>
+          <source>Development</source>
+          <year>2007</year>
+          <volume>134</volume>
+          <fpage>3419</fpage>
+          <lpage>3425</lpage>
+          <pub-id pub-id-type="pmid">17827179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kardon</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Vale</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulators of the cytoplasmic dynein motor</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>854</fpage>
+          <lpage>865</lpage>
+          <pub-id pub-id-type="pmid">19935668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karki</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Holzbaur</surname>
+              <given-names>EL</given-names>
+            </name>
+          </person-group>
+          <article-title>Affinity chromatography demonstrates a direct binding between cytoplasmic dynein and the dynactin complex</article-title>
+          <source>J Biol Chem</source>
+          <year>1995</year>
+          <volume>270</volume>
+          <fpage>28806</fpage>
+          <lpage>28811</lpage>
+          <pub-id pub-id-type="pmid">7499404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kessel</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Annulate lamellae: a last frontier in cellular organelles</article-title>
+          <source>Int Rev Cytol</source>
+          <year>1992</year>
+          <volume>133</volume>
+          <fpage>43</fpage>
+          <lpage>120</lpage>
+          <pub-id pub-id-type="pmid">1374369</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>King</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynactin increases the processivity of the cytoplasmic dynein motor</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2000</year>
+          <volume>2</volume>
+          <fpage>20</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="pmid">10620802</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>King</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Bonilla</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rodgers</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Subunit organization in cytoplasmic dynein subcomplexes</article-title>
+          <source>Protein Sci</source>
+          <year>2002</year>
+          <volume>11</volume>
+          <fpage>1239</fpage>
+          <lpage>1250</lpage>
+          <pub-id pub-id-type="pmid">11967380</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>King</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Maier</surname>
+              <given-names>KC</given-names>
+            </name>
+            <name>
+              <surname>Quintyne</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis of the dynein-dynactin interaction in vitro and in vivo</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>5089</fpage>
+          <lpage>5097</lpage>
+          <pub-id pub-id-type="pmid">14565986</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Murayama</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Cell cycle-dependent microtubule-based dynamic transport of cytoplasmic dynein in mammalian cells</article-title>
+          <source>PLoS One</source>
+          <year>2009</year>
+          <volume>4</volume>
+          <fpage>e7827</fpage>
+          <pub-id pub-id-type="pmid">19915671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lam</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vergnolle</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Thorpe</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Woodman</surname>
+              <given-names>PG</given-names>
+            </name>
+            <name>
+              <surname>Allan</surname>
+              <given-names>VJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional interplay between LIS1, NDE1 and NDEL1 in dynein-dependent organelle positioning</article-title>
+          <source>J Cell Sci</source>
+          <year>2010</year>
+          <volume>123</volume>
+          <fpage>202</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="pmid">20048338</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lansbergen</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Conformational changes in CLIP-170 regulate its binding to microtubules and dynactin localisation</article-title>
+          <source>J Cell Biol</source>
+          <year>2004</year>
+          <volume>166</volume>
+          <fpage>1003</fpage>
+          <lpage>1014</lpage>
+          <pub-id pub-id-type="pmid">15381688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Larsen</surname>
+              <given-names>KS</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Cermelli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Shu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>SP</given-names>
+            </name>
+          </person-group>
+          <article-title>BicaudalD actively regulates microtubule motor activity in lipid droplet transport</article-title>
+          <source>PLoS ONE</source>
+          <year>2008</year>
+          <volume>3</volume>
+          <fpage>e3763</fpage>
+          <pub-id pub-id-type="pmid">19018277</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenz</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Schuchardt</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Straube</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Steinberg</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>A dynein loading zone for retrograde endosome motility at microtubule plus-ends</article-title>
+          <source>EMBO J</source>
+          <year>2006</year>
+          <volume>25</volume>
+          <fpage>2275</fpage>
+          <lpage>2286</lpage>
+          <pub-id pub-id-type="pmid">16688221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Kuromi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Briggs</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Green</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Rocha</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Sweeney</surname>
+              <given-names>ST</given-names>
+            </name>
+            <name>
+              <surname>Bullock</surname>
+              <given-names>SL</given-names>
+            </name>
+          </person-group>
+          <article-title>Bicaudal-D binds clathrin heavy chain to promote its transport and augments synaptic vesicle recycling</article-title>
+          <source>EMBO J</source>
+          <year>2010</year>
+          <volume>29</volume>
+          <fpage>992</fpage>
+          <lpage>1006</lpage>
+          <pub-id pub-id-type="pmid">20111007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mallik</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Petrov</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Lex</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>SP</given-names>
+            </name>
+          </person-group>
+          <article-title>Building complexity: an in vitro study of cytoplasmic dynein with in vivo implications</article-title>
+          <source>Curr Biol</source>
+          <year>2005</year>
+          <volume>15</volume>
+          <fpage>2075</fpage>
+          <lpage>2085</lpage>
+          <pub-id pub-id-type="pmid">16332532</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Markus</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>WL</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulated offloading of cytoplasmic dynein from microtubule plus ends to the cortex</article-title>
+          <source>Dev Cell</source>
+          <year>2011</year>
+          <volume>20</volume>
+          <fpage>639</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="pmid">21571221</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Markus</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Plevock</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>St Germain</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Punch</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Meaden</surname>
+              <given-names>CW</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>WL</given-names>
+            </name>
+          </person-group>
+          <article-title>Quantitative analysis of Pac1/LIS1-mediated dynein targeting: Implications for regulation of dynein activity in budding yeast</article-title>
+          <source>Cytoskeleton (Hoboken)</source>
+          <year>2011</year>
+          <volume>68</volume>
+          <fpage>157</fpage>
+          <lpage>174</lpage>
+          <pub-id pub-id-type="pmid">21294277</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Markus</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Punch</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>WL</given-names>
+            </name>
+          </person-group>
+          <article-title>Motor- and tail-dependent targeting of dynein to microtubule plus ends and the cell cortex</article-title>
+          <source>Curr Biol</source>
+          <year>2009</year>
+          <volume>19</volume>
+          <fpage>196</fpage>
+          <lpage>205</lpage>
+          <pub-id pub-id-type="pmid">19185494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matanis</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bicaudal-D regulates COPI-independent Golgi-ER transport by recruiting the dynein-dynactin motor complex</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2002</year>
+          <volume>4</volume>
+          <fpage>986</fpage>
+          <lpage>992</lpage>
+          <pub-id pub-id-type="pmid">12447383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKenney</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Vershinin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kunwar</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>SP</given-names>
+            </name>
+          </person-group>
+          <article-title>LIS1 and NudE induce a persistent dynein force-producing state</article-title>
+          <source>Cell</source>
+          <year>2010</year>
+          <volume>141</volume>
+          <fpage>304</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">20403325</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McKenney</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Weil</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Scherer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutually exclusive cytoplasmic dynein regulation by nude-LIS1 and dynactin</article-title>
+          <source>J Biol Chem</source>
+          <year>2011</year>
+          <volume>286</volume>
+          <fpage>39615</fpage>
+          <lpage>39622</lpage>
+          <pub-id pub-id-type="pmid">21911489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Melkonian</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Maier</surname>
+              <given-names>KC</given-names>
+            </name>
+            <name>
+              <surname>Godfrey</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Rodgers</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism of dynamitin-mediated disruption of dynactin</article-title>
+          <source>J Biol Chem</source>
+          <year>2007</year>
+          <volume>282</volume>
+          <fpage>19355</fpage>
+          <lpage>19364</lpage>
+          <pub-id pub-id-type="pmid">17449914</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Muresan</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Stankewich</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Steffen</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Morrow</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Holzbaur</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Schnapp</surname>
+              <given-names>BJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynactin-dependent, dynein-driven vesicle transport in the absence of membrane proteins: a role for spectrin and acidic phospholipids</article-title>
+          <source>Mol Cell</source>
+          <year>2001</year>
+          <volume>7</volume>
+          <fpage>173</fpage>
+          <lpage>183</lpage>
+          <pub-id pub-id-type="pmid">11172722</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pichler</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gast</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Seeler</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Dejean</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Melchior</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>The nucleoporin RanBP2 has SUMO1 E3 ligase activity</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>108</volume>
+          <fpage>109</fpage>
+          <lpage>120</lpage>
+          <pub-id pub-id-type="pmid">11792325</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pollock</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Issner</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Zoller</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Natesan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Rivera</surname>
+              <given-names>VM</given-names>
+            </name>
+            <name>
+              <surname>Clackson</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Delivery of a stringent dimerizer-regulated gene expression system in a single retroviral vector</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>2000</year>
+          <volume>97</volume>
+          <fpage>13221</fpage>
+          <lpage>13226</lpage>
+          <pub-id pub-id-type="pmid">11078518</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poser</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>BAC TransgeneOmics: a high-throughput method for exploration of protein function in mammals</article-title>
+          <source>Nat Methods</source>
+          <year>2008</year>
+          <volume>5</volume>
+          <fpage>409</fpage>
+          <lpage>415</lpage>
+          <pub-id pub-id-type="pmid">18391959</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quintyne</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Distinct cell cycle-dependent roles for dynactin and dynein at centrosomes</article-title>
+          <source>J Cell Biol</source>
+          <year>2002</year>
+          <volume>159</volume>
+          <fpage>245</fpage>
+          <lpage>254</lpage>
+          <pub-id pub-id-type="pmid">12391026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Quintyne</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Gill</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Eckley</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Crego</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Compton</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynactin is required for microtubule anchoring at centrosomes</article-title>
+          <source>J Cell Biol</source>
+          <year>1999</year>
+          <volume>147</volume>
+          <fpage>321</fpage>
+          <lpage>334</lpage>
+          <pub-id pub-id-type="pmid">10525538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rocha</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Kuijl</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>van der Kant</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Janssen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Houben</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Janssen</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zwart</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Neefjes</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Cholesterol sensor ORP1L contacts the ER protein VAP to control Rab7-RILP-p150 Glued and late endosome positioning</article-title>
+          <source>J Cell Biol</source>
+          <year>2009</year>
+          <volume>185</volume>
+          <fpage>1209</fpage>
+          <lpage>1225</lpage>
+          <pub-id pub-id-type="pmid">19564404</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sankaranarayanan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Ryan</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Calcium accelerates endocytosis of vSNAREs at hippocampal synapses</article-title>
+          <source>Nat Neurosci</source>
+          <year>2001</year>
+          <volume>4</volume>
+          <fpage>129</fpage>
+          <lpage>136</lpage>
+          <pub-id pub-id-type="pmid">11175872</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schroer</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynactin</article-title>
+          <source>Annu Rev Cell Dev Biol</source>
+          <year>2004</year>
+          <volume>20</volume>
+          <fpage>759</fpage>
+          <lpage>779</lpage>
+          <pub-id pub-id-type="pmid">15473859</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shaner</surname>
+              <given-names>NC</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Steinbach</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Giepmans</surname>
+              <given-names>BN</given-names>
+            </name>
+            <name>
+              <surname>Palmer</surname>
+              <given-names>AE</given-names>
+            </name>
+            <name>
+              <surname>Tsien</surname>
+              <given-names>RY</given-names>
+            </name>
+          </person-group>
+          <article-title>Improved monomeric red, orange and yellow fluorescent proteins derived from <italic>Discosoma</italic> sp. red fluorescent protein</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2004</year>
+          <volume>22</volume>
+          <fpage>1567</fpage>
+          <lpage>1572</lpage>
+          <pub-id pub-id-type="pmid">15558047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sheeman</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Sagot</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Geiser</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kho</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hoyt</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Pellman</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Determinants of <italic>S. cerevisiae</italic> dynein localization and activation: implications for the mechanism of spindle positioning</article-title>
+          <source>Curr Biol</source>
+          <year>2003</year>
+          <volume>13</volume>
+          <fpage>364</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="pmid">12620184</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Short</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Preisinger</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Schaletzky</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kopajtich</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Barr</surname>
+              <given-names>FA</given-names>
+            </name>
+          </person-group>
+          <article-title>The Rab6 GTPase regulates recruitment of the dynactin complex to Golgi membranes</article-title>
+          <source>Curr Biol</source>
+          <year>2002</year>
+          <volume>12</volume>
+          <fpage>1792</fpage>
+          <lpage>1795</lpage>
+          <pub-id pub-id-type="pmid">12401177</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B56">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shubeita</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Tran</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vershinin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Cermelli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Cotton</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Welte</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>SP</given-names>
+            </name>
+          </person-group>
+          <article-title>Consequences of motor copy number on the intracellular transport of kinesin-1-driven lipid droplets</article-title>
+          <source>Cell</source>
+          <year>2008</year>
+          <volume>135</volume>
+          <fpage>1098</fpage>
+          <lpage>1107</lpage>
+          <pub-id pub-id-type="pmid">19070579</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Splinter</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Bicaudal D2, dynein and kinesin-1 associate with nuclear pore complexes and regulate centrosome and nuclear positioning during mitotic entry</article-title>
+          <source>PLoS Biol</source>
+          <year>2010</year>
+          <volume>8</volume>
+          <fpage>e1000350</fpage>
+          <pub-id pub-id-type="pmid">20386726</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stehman</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>McKenney</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>NudE and NudEL are required for mitotic progression and are involved in dynein recruitment to kinetochores</article-title>
+          <source>J Cell Biol</source>
+          <year>2007</year>
+          <volume>178</volume>
+          <fpage>583</fpage>
+          <lpage>594</lpage>
+          <pub-id pub-id-type="pmid">17682047</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stowers</surname>
+              <given-names>RS</given-names>
+            </name>
+            <name>
+              <surname>Megeath</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Gorska-Andrzejak</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Meinertzhagen</surname>
+              <given-names>IA</given-names>
+            </name>
+            <name>
+              <surname>Schwarz</surname>
+              <given-names>TL</given-names>
+            </name>
+          </person-group>
+          <article-title>Axonal transport of mitochondria to synapses depends on milton, a novel <italic>Drosophila</italic> protein</article-title>
+          <source>Neuron</source>
+          <year>2002</year>
+          <volume>36</volume>
+          <fpage>1063</fpage>
+          <lpage>1077</lpage>
+          <pub-id pub-id-type="pmid">12495622</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Swan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Suter</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Drosophila Lissencephaly-1 functions with Bic-D and dynein in oocyte determination and nuclear positioning</article-title>
+          <source>Nat Cell Biol</source>
+          <year>1999</year>
+          <volume>1</volume>
+          <fpage>444</fpage>
+          <lpage>449</lpage>
+          <pub-id pub-id-type="pmid">10559989</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B61">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tai</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Chuang</surname>
+              <given-names>JZ</given-names>
+            </name>
+            <name>
+              <surname>Bode</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Wolfrum</surname>
+              <given-names>U</given-names>
+            </name>
+            <name>
+              <surname>Sung</surname>
+              <given-names>CH</given-names>
+            </name>
+          </person-group>
+          <article-title>Rhodopsin's carboxy-terminal cytoplasmic tail acts as a membrane receptor for cytoplasmic dynein by binding to the dynein light chain Tctex-1</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>97</volume>
+          <fpage>877</fpage>
+          <lpage>887</lpage>
+          <pub-id pub-id-type="pmid">10399916</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tan</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Scherer</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>Recruitment of dynein to late endosomes and lysosomes through light intermediate chains</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2011</year>
+          <volume>22</volume>
+          <fpage>467</fpage>
+          <lpage>477</lpage>
+          <pub-id pub-id-type="pmid">21169557</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Teuling</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>van Dis</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Wulf</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Haasdijk</surname>
+              <given-names>ED</given-names>
+            </name>
+            <name>
+              <surname>Akhmanova</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hoogenraad</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>Jaarsma</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel mouse model with impaired dynein/dynactin function develops amyotrophic lateral sclerosis (ALS)-like features in motor neurons and improves lifespan in SOD1-ALS mice</article-title>
+          <source>Hum Mol Genet</source>
+          <year>2008</year>
+          <volume>17</volume>
+          <fpage>2849</fpage>
+          <lpage>2862</lpage>
+          <pub-id pub-id-type="pmid">18579581</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+            <name>
+              <surname>Tai</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Faulkner</surname>
+              <given-names>NE</given-names>
+            </name>
+          </person-group>
+          <article-title>LIS1: cellular function of a disease-causing gene</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>155</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="pmid">11306294</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Vlijmen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Vleugel</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Evers</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mohammed</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wulf</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Heck</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Hoogenraad</surname>
+              <given-names>CC</given-names>
+            </name>
+            <name>
+              <surname>van der Sluijs</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>A unique residue in rab3c determines the interaction with novel binding protein Zwint-1</article-title>
+          <source>FEBS Lett</source>
+          <year>2008</year>
+          <volume>582</volume>
+          <fpage>2838</fpage>
+          <lpage>2842</lpage>
+          <pub-id pub-id-type="pmid">18625232</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaughan</surname>
+              <given-names>KT</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>Cytoplasmic dynein binds dynactin through a direct interaction between the intermediate chains and p150Glued</article-title>
+          <source>J Cell Biol</source>
+          <year>1995</year>
+          <volume>131</volume>
+          <fpage>1507</fpage>
+          <lpage>1516</lpage>
+          <pub-id pub-id-type="pmid">8522607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B67">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaughan</surname>
+              <given-names>KT</given-names>
+            </name>
+            <name>
+              <surname>Tynan</surname>
+              <given-names>SH</given-names>
+            </name>
+            <name>
+              <surname>Faulkner</surname>
+              <given-names>NE</given-names>
+            </name>
+            <name>
+              <surname>Echeverri</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>Colocalization of cytoplasmic dynein with dynactin and CLIP-170 at microtubule distal ends</article-title>
+          <source>J Cell Sci</source>
+          <year>1999</year>
+          <volume>112</volume>
+          <fpage>1437</fpage>
+          <lpage>1447</lpage>
+          <pub-id pub-id-type="pmid">10212138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B68">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vaughan</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Miura</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Henderson</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Byrne</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Vaughan</surname>
+              <given-names>KT</given-names>
+            </name>
+          </person-group>
+          <article-title>A role for regulated binding of p150(Glued) to microtubule plus ends in organelle transport</article-title>
+          <source>J Cell Biol</source>
+          <year>2002</year>
+          <volume>158</volume>
+          <fpage>305</fpage>
+          <lpage>319</lpage>
+          <pub-id pub-id-type="pmid">12119357</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B69">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vergnolle</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>SS</given-names>
+            </name>
+          </person-group>
+          <article-title>Cenp-F links kinetochores to Ndel1/Nde1/Lis1/dynein microtubule motor complexes</article-title>
+          <source>Curr Biol</source>
+          <year>2007</year>
+          <volume>17</volume>
+          <fpage>1173</fpage>
+          <lpage>1179</lpage>
+          <pub-id pub-id-type="pmid">17600710</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B70">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woodruff</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Drubin</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Barnes</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynein-driven mitotic spindle positioning restricted to anaphase by She1p inhibition of dynactin recruitment</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2009</year>
+          <volume>20</volume>
+          <fpage>3003</fpage>
+          <lpage>3011</lpage>
+          <pub-id pub-id-type="pmid">19403691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B71">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yao</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zhou</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>In vivo roles of the basic domain of dynactin p150 in microtubule plus-end tracking and dynein function</article-title>
+          <source>Traffic</source>
+          <year>2012</year>
+          <volume>13</volume>
+          <fpage>375</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="pmid">22106867</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B72">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yi</surname>
+              <given-names>JY</given-names>
+            </name>
+            <name>
+              <surname>Ori-McKenney</surname>
+              <given-names>KM</given-names>
+            </name>
+            <name>
+              <surname>McKenney</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Vershinin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gross</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Vallee</surname>
+              <given-names>RB</given-names>
+            </name>
+          </person-group>
+          <article-title>High-resolution imaging reveals indirect coordination of opposite motors and a role for LIS1 in high-load axonal transport</article-title>
+          <source>J Cell Biol</source>
+          <year>2011</year>
+          <volume>195</volume>
+          <fpage>193</fpage>
+          <lpage>201</lpage>
+          <pub-id pub-id-type="pmid">22006948</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B73">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Accumulation of cytoplasmic dynein and dynactin at microtubule plus ends in <italic>Aspergillus nidulans</italic> is kinesin dependent</article-title>
+          <source>Mol Biol Cell</source>
+          <year>2003</year>
+          <volume>14</volume>
+          <fpage>1479</fpage>
+          <lpage>1488</lpage>
+          <pub-id pub-id-type="pmid">12686603</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B74">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Abenza</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Penalva</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>The p25 subunit of the dynactin complex is required for dynein-early endosome interaction</article-title>
+          <source>J Cell Biol</source>
+          <year>2011</year>
+          <volume>193</volume>
+          <fpage>1245</fpage>
+          <lpage>1255</lpage>
+          <pub-id pub-id-type="pmid">21708978</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

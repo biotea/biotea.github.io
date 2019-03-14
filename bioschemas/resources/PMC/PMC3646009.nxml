@@ -1,0 +1,1322 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:48:25Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3646009" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3646009</identifier><datestamp>2013-05-13</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3646009</article-id>
+      <article-id pub-id-type="pmcid">PMC3646009</article-id>
+      <article-id pub-id-type="pmc-uid">3646009</article-id>
+      <article-id pub-id-type="pmid">23671687</article-id>
+      <article-id pub-id-type="pmid">23671687</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-19060</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0063633</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>Proteins</subject>
+              <subj-group>
+                <subject>Protein Interactions</subject>
+                <subject>Protein Structure</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Biophysics</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Macromolecular Structure Analysis</subject>
+              <subj-group>
+                <subject>Protein Structure</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Biochemical Simulations</subject>
+              <subject>Sequence Analysis</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Chemistry</subject>
+          <subj-group>
+            <subject>Computational Chemistry</subject>
+            <subj-group>
+              <subject>Molecular Dynamics</subject>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Large-Scale Modelling of the Divergent Spectrin Repeats in Nesprins: Giant Modular Proteins</article-title>
+        <alt-title alt-title-type="running-head">Modelling of Spectrin Repeats in Nesprins</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Autore</surname>
+            <given-names>Flavia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pfuhl</surname>
+            <given-names>Mark</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Quan</surname>
+            <given-names>Xueping</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Williams</surname>
+            <given-names>Aisling</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Roberts</surname>
+            <given-names>Roland G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="author-notes" rid="fn1">
+<sup>Â¤</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shanahan</surname>
+            <given-names>Catherine M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fraternali</surname>
+            <given-names>Franca</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Randall Division of Cell and Molecular Biophysics, School of Physical Sciences and Engineering, King's College London, London, United Kingdom</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Division of Cardiovascular Medicine, BHF Centre of Research Excellence, King's College London, London, United Kingdom</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>Division of Medical and Molecular Genetics, Kings College London, Guy's Hospital, London, United Kingdom</addr-line>
+</aff>
+      <aff id="aff4">
+<label>4</label>
+<addr-line>The Thomas Young Centre for Theory and Simulation of Materials, London, United Kingdom</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Kobe</surname>
+            <given-names>Bostjan</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>University of Queensland, Australia</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>franca.fraternali@kcl.ac.uk</email></corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: FA MP FF RGR. Performed the experiments: FA XQ AW. Analyzed the data: FA MP XQ RGR CMS FF. Contributed reagents/materials/analysis tools: FF MP CMS. Wrote the paper: FA XQ RGR CMS FF.</p>
+        </fn>
+        <fn id="fn1" fn-type="current-aff">
+          <label>Â¤</label>
+          <p>Current address: Public Library of Science, Carlyle House, Cambridge, United Kingdom</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>5</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>5</issue>
+      <elocation-id>e63633</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>28</day>
+          <month>6</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>9</day>
+          <month>4</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2013 Autore et al</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Autore et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Nesprin-1 and nesprin-2 are nuclear envelope (NE) proteins characterized by a common structure of an SR (spectrin repeat) rod domain and a C-terminal transmembrane KASH [KlarsichtâANCâSyne-homology] domain and display N-terminal actin-binding CH (calponin homology) domains. Mutations in these proteins have been described in Emery-Dreifuss muscular dystrophy and attributed to disruptions of interactions at the NE with nesprins binding partners, lamin A/C and emerin. Evolutionary analysis of the rod domains of the nesprins has shown that they are almost entirely composed of unbroken SR-like structures. We present a bioinformatical approach to accurate definition of the boundaries of each SR by comparison with canonical SR structures, allowing for a large-scale homology modelling of the 74 nesprin-1 and 56 nesprin-2 SRs. The exposed and evolutionary conserved residues identify important pbs for protein-protein interactions that can guide tailored binding experiments. Most importantly, the bioinformatics analyses and the 3D models have been central to the design of selected constructs for protein expression. 1D NMR and CD spectra have been performed of the expressed SRs, showing a folded, stable, high content Î±-helical structure, typical of SRs. Molecular Dynamics simulations have been performed to study the structural and elastic properties of consecutive SRs, revealing insights in the mechanical properties adopted by these modules in the cell.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported the BHF Centre of Excellence. FF is funded by the Leverhulme Trust (grant No. F/07 040/AL). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="14"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The spectrin protein superfamily, which includes spectrin, dystrophin, Î±-actinin and others, is characterized by multiple repeats of a structural unit of about 100-110 residues termed âspectrin repeatsâ (SRs) <xref rid="pone.0063633-Broderick1" ref-type="bibr">[1]</xref>, <xref rid="pone.0063633-DjinovicCarugo1" ref-type="bibr">[2]</xref>. Each SR consists of a characteristic motif of three bundled antiparallel Î±-helices (called helix A, B and C) separated by two loop regions (called loop AB and BC) (<xref ref-type="fig" rid="pone-0063633-g001">Figure 1A</xref>) <xref rid="pone.0063633-Pascual1" ref-type="bibr">[3]</xref>, <xref rid="pone.0063633-Pascual2" ref-type="bibr">[4]</xref>. Within each protein, consecutive SRs are linked by a helix region (the âlinkerâ) which connects the last helix of one repeat (helix C) with the first helix (helix A') of the adjacent one <xref rid="pone.0063633-Grum1" ref-type="bibr">[5]</xref> (<xref ref-type="fig" rid="pone-0063633-g001">Figure 1B</xref>). Often previously considered as âspacersâ serving merely to establish the physical separation of the functional N- and C-terminal domains of their parent protein, it is now established that SRs are not solely simple structural modules. Importantly, they are also involved in protein-protein interactions and protein dimerization and exhibit interesting and potentially functionally important mechanical attributes such as elasticity and structural flexibility.</p>
+      <fig id="pone-0063633-g001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g001</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>Ribbon representation of chicken brain Î±-spectrin crystal structures.</title>
+          <p>Representation of (A) single unit SR15 and (B) the three contiguous units SR15-17 of the chicken brain Î±-spectrin (pdb code1U4Q).</p>
+        </caption>
+        <graphic xlink:href="pone.0063633.g001"/>
+      </fig>
+      <p>Nesprin-1 and nesprin-2 (<underline>N</underline>uclear <underline>E</underline>nvelope <underline>SP</underline>ect<underline>RIN</underline> repeat) represent the largest members of the spectrin superfamily, where the SR units comprise the vast majority of the protein backbone. The full-length nesprin-1 and -2 isoforms are giant proteins with molecular weights of 1.01 MDa and 796 kDa, respectively. Several shorter isoforms have also been identified that are mainly generated by alternative transcriptional initiation and termination <xref rid="pone.0063633-Padmakumar1" ref-type="bibr">[6]</xref>, <xref rid="pone.0063633-Rajgor1" ref-type="bibr">[7]</xref>, <xref rid="pone.0063633-Zhang1" ref-type="bibr">[8]</xref>, <xref rid="pone.0063633-Zhang2" ref-type="bibr">[9]</xref>
+</p>
+      <p>Structurally nesprin-1 and nesprin-2 are composed of three major domains: i) a pair of N-terminal CH (calponin-homology) domains that bind F-actin; ii) a C-terminal KASH (KlarsichtâANCâSyne-homology) domain that inserts into membrane bilayers and mediates interaction with SUN-proteins (SUN1 and SUN2) at the NE; iii) an extended SR-containing rod domain separating the N- and C- terminal domains of the protein. Functionally, the CH domains of the larger outer NE nesprin isoforms connect the actin cytoskeleton to the NE via the Linker of Nucleoskeleton-and-Cytoskeleton (LINC) complex, which includes the SUN proteins and is also contiguous with the INM and the nuclear lamina. In addition, at the INM, shorter isoforms that lack the N-terminal CH domains interact with components of the lamina network (lamin A/C) and with their INM binding partner emerin <xref rid="pone.0063633-Zhang1" ref-type="bibr">[8]</xref>, <xref rid="pone.0063633-Libotte1" ref-type="bibr">[10]</xref>, <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>, <xref rid="pone.0063633-Mislow2" ref-type="bibr">[12]</xref>
+</p>
+      <p>Importantly, disruption of nesprin NE interactions is involved in the etiology of the human genetic disorder Emery-Dreifuss muscular dystrophy (EDMD). EDMD can be caused either by dominant mutations in the gene encoding nuclear lamins A/C or recessive mutations in the X-linked gene encoding emerin <xref rid="pone.0063633-Wheeler1" ref-type="bibr">[13]</xref>. It has also been shown that missense mutations in shorter nesprin isoforms, nesprin-1Î± (112 kDa) and nesprin-2Î² (87 kDa), can independently cause EDMD <xref rid="pone.0063633-Zhang3" ref-type="bibr">[14]</xref>. These C-terminal isoforms, which lack the CH-domains, contain the most conserved SR units which mediate both the interaction with emerin and lamins A/C <xref rid="pone.0063633-Libotte1" ref-type="bibr">[10]</xref>, <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>, <xref rid="pone.0063633-Wheeler2" ref-type="bibr">[15]</xref> and antiparallel homodimerisation <xref rid="pone.0063633-Mislow1" ref-type="bibr">[<bold>11</bold>]</xref>. Taken together, these data suggest that nesprin SRs have functional activity that is dependent on specific protein-protein interactions that when disrupted can cause cellular dysfunction and disease <xref rid="pone.0063633-Amann1" ref-type="bibr">[16]</xref>, <xref rid="pone.0063633-Rybakova1" ref-type="bibr">[17]</xref>, <xref rid="pone.0063633-Rybakova2" ref-type="bibr">[18]</xref>. Thus, the identification of the interaction interfaces and binding properties of these SRs is likely to provide essential information for our understanding of these disease processes and of the normal physiological function of the nesprins. Moreover the physical properties of nesprins, in terms of their elasticity and distensibility are likely to be integral to their function in cellular mechanical coupling.</p>
+      <p>To date, the identification of specific interaction sites and new, potentially functional, interfaces on the surface of nesprin SRs has been hampered by the lack of experimental structural data for nesprin rod domain repeats. Structural determination has also been compromised by the paucity of knowledge regarding evolutionary relationships and protein conservation between nesprins as well as the accurate definition of the single SR unit boundaries.</p>
+      <p>A recent paper <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref> analysing the evolutionary conservation between nesprin genes has shown that the rod domains are composed of virtually uninterrupted SR-like structures (74 SRs in nesprin-1 and 56 in nesprin-2) ranging from poorly to very highly conserved, with the latter most probably necessary for the protein-protein interaction activity of these proteins. This useful evolutionary analysis is only the starting point for an exact determination of the SR boundaries and the design of stable constructs for structure determination. In this study we had to assess these boundaries by comparison with âcanonicalâ SR as from Pfam database <xref rid="pone.0063633-Finn1" ref-type="bibr">[20]</xref> and available SR structures of single, double and triple repeats (<xref ref-type="table" rid="pone-0063633-t001">Table 1</xref>). This allowed for a large-scale comparative modelling of the 72 SRs of nesprin-1 and the 56 SRs of nesprin-2. The three-dimensional models obtained have been used to extract information on conserved and exposed surfaces, which potentially represent sites of homodimerisation or interfaces for binding interaction with known or undiscovered partners. Most importantly, this bioinformatical analysis put us in the position of designing and expressing with high yield soluble single SR domains from nesprin-1 and nesprin-2. We show by 1D NMR and CD spectra that the single SRs selected are predominantly in Î±-helix structure (60-80%), typical of a canonical SR domain <xref rid="pone.0063633-An1" ref-type="bibr">[21]</xref>, <xref rid="pone.0063633-An2" ref-type="bibr">[22]</xref>, <xref rid="pone.0063633-Bhasin1" ref-type="bibr">[23]</xref>, <xref rid="pone.0063633-MacDonald1" ref-type="bibr">[24]</xref>. Lastly, Molecular Dynamics simulations on selected consecutive nesprin SRs have been performed to characterize some of the features that might influence the flexibility and other mechanical properties of the SRs.</p>
+      <table-wrap id="pone-0063633-t001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0063633.t001</object-id>
+        <label>Table 1</label>
+        <caption>
+          <title>Template structures containing spectrin repeats (SR).</title>
+        </caption>
+        <alternatives>
+          <graphic id="pone-0063633-t001-1" xlink:href="pone.0063633.t001"/>
+          <table frame="hsides" rules="groups">
+            <colgroup span="1">
+              <col align="left" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+              <col align="center" span="1"/>
+            </colgroup>
+            <thead>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">PDB</td>
+                <td align="left" rowspan="1" colspan="1">Molecule</td>
+                <td align="left" rowspan="1" colspan="1">number of SRs</td>
+                <td align="left" rowspan="1" colspan="1">Resolution</td>
+                <td align="left" rowspan="1" colspan="1">Reference</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1HCI</td>
+                <td align="left" rowspan="1" colspan="1">Human Î±-actinin 2</td>
+                <td align="left" rowspan="1" colspan="1">4 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.80 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Ylanne1" ref-type="bibr">[62]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1SJJ</td>
+                <td align="left" rowspan="1" colspan="1">Chicken Î±-actinin 1</td>
+                <td align="left" rowspan="1" colspan="1">4 SRs</td>
+                <td align="left" rowspan="1" colspan="1">Ecec. Crystal.</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Liu1" ref-type="bibr">[63]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1QUU</td>
+                <td align="left" rowspan="1" colspan="1">Human Î±-actinin 2</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.5 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-DjinovicCarugo2" ref-type="bibr">[64]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1WLX</td>
+                <td align="left" rowspan="1" colspan="1">Human Î±-actinin 4</td>
+                <td align="left" rowspan="1" colspan="1">1 SR</td>
+                <td align="left" rowspan="1" colspan="1">NMR</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Kowalski1" ref-type="bibr">[65]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1U4Q</td>
+                <td align="left" rowspan="1" colspan="1">Chicken Î±-spectrin 2</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.5 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Kusunoki2" ref-type="bibr">[66]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1U5P</td>
+                <td align="left" rowspan="1" colspan="1">Chicken Î±âspectrin 2</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.0 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Kusunoki2" ref-type="bibr">[66]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1OWA</td>
+                <td align="left" rowspan="1" colspan="1">Human Î±âspectrin 1</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">NMR</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Park1" ref-type="bibr">[67]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1CUN</td>
+                <td align="left" rowspan="1" colspan="1">Chicken Î±âspectrin 2</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.0 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Grum1" ref-type="bibr">[5]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">3FB2</td>
+                <td align="left" rowspan="1" colspan="1">Human Î±âspectrin 2</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.3 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Vorobiev1" ref-type="bibr">[68]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1AJ3</td>
+                <td align="left" rowspan="1" colspan="1">Chicken Î±-spectrin 2</td>
+                <td align="left" rowspan="1" colspan="1">1 SR</td>
+                <td align="left" rowspan="1" colspan="1">NMR</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Pascual2" ref-type="bibr">[4]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">2SPC</td>
+                <td align="left" rowspan="1" colspan="1">Fruit fly Î±-spectrin</td>
+                <td align="left" rowspan="1" colspan="1">1 SR</td>
+                <td align="left" rowspan="1" colspan="1">1.8 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Yan1" ref-type="bibr">[69]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">3F57</td>
+                <td align="left" rowspan="1" colspan="1">Human Î²-spectrin 1</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.9 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Ipsaro1" ref-type="bibr">[70]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">3EDU</td>
+                <td align="left" rowspan="1" colspan="1">Human Î²-spectrin 1</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.1 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Stabach1" ref-type="bibr">[71]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">3EDV</td>
+                <td align="left" rowspan="1" colspan="1">Human Î²-spectrin 2</td>
+                <td align="left" rowspan="1" colspan="1">3 SRs</td>
+                <td align="left" rowspan="1" colspan="1">1.95 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Davis1" ref-type="bibr">[72]</xref>
+</td>
+              </tr>
+              <tr>
+                <td align="left" rowspan="1" colspan="1">1S35</td>
+                <td align="left" rowspan="1" colspan="1">Human Î²-spectrin 1</td>
+                <td align="left" rowspan="1" colspan="1">2 SRs</td>
+                <td align="left" rowspan="1" colspan="1">2.4 Ã</td>
+                <td align="left" rowspan="1" colspan="1">
+<xref rid="pone.0063633-Kusunoki1" ref-type="bibr">[37]</xref>
+</td>
+              </tr>
+            </tbody>
+          </table>
+        </alternatives>
+      </table-wrap>
+    </sec>
+    <sec id="s2">
+      <title>Results and Discussion</title>
+      <sec id="s2a">
+        <title>Modularity and boundaries of nesprins SRs</title>
+        <p>The recently published alignment for this class of proteins provided a useful guideline for nesprin SR boundary assignment <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref>. Neverthless the exact location of these boundaries is crucial to structural determination for these important proteins largely uncharacterised. Newly defined boundaries for nesprin-1 and -2 SRs were assigned based on the SCOP assignment for canonical SR (see <xref ref-type="sec" rid="s4">Methods</xref> session), which is based on their typical structural assembly and divides adjacent SRs into two triple-helix structure units (<xref ref-type="supplementary-material" rid="pone.0063633.s001">Figure S1</xref> and <xref ref-type="supplementary-material" rid="pone.0063633.s002">S2</xref>). This, together with the SR structures selected as templates (31 single-SR structures, 17 double-SRs and 6 triple-SRs) (see <xref ref-type="sec" rid="s4">Methods</xref> session), has allowed us to build models of single, double and triple nesprin SRs.</p>
+        <p>The percentage sequence identity between nesprins and the selected templates was low, with maximum values around 20%. Although sequences that share an identity below 20% can assume very different structures, it is known that evolutionarily related protein sequences accumulate substitutions to diverge into what is called âtwilight zoneâ, even when their three-dimensional structure is well conserved <xref rid="pone.0063633-Rost1" ref-type="bibr">[25]</xref>. The single SR structure extracted from all the templates was a highly conserved coiled-coil triple-helical structure, as confirmed by the low RMSD value (0.98 Ã) obtained by superposing the 31 single-SR selected structures.</p>
+        <p>The sequences of nesprin-1 and -2 were analysed using Pfam <xref rid="pone.0063633-Finn1" ref-type="bibr">[20]</xref>. This allowed classification of the nesprin SR units as âcanonicalâ (ie. those recognised as SR domains by Pfam) and as ânon-canonicalâ the remaining repeats that Pfam could not recognize as 'canonical' SRs. This analysis identified 35 canonical and 39 non-canonical in nesprin-1 and 16 canonical and 38 non-canonical in nesprin-2 (<xref ref-type="fig" rid="pone-0063633-g002">Figure 2</xref>). As nesprins are a novel class of proteins where details of the evolutionary relationship between the SRs composing the rod domain, have only recently been analysed <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref>, we decided to analyse the relationship of all SRs to the SR Pfam sequences in closer detail. Therefore, the consensus sequence obtained from multiple alignment of the non-canonical SRs sequences was compared with the Pfam seed alignment for SRs (<xref ref-type="fig" rid="pone-0063633-g003">Figure 3</xref>). The alignments were processed with WebLogo <xref rid="pone.0063633-Crooks1" ref-type="bibr">[26]</xref>. The sequence logo generated for the non-canonical SRs highlighted a highly conserved Leucine motif also present as a finger print in the Pfam seed for the canonical SR sequences. Moreover, also the typical Tryptophan in the helix-A highly conserved in all SRs (with a frequency of 76 in the Pfam seed) shows higher frequency when compared to the other amino acids (frequency 23 in the non-canonical SRs). This evidence further suggests the close relationship to this repeat class. In general, it has been observed before that the SR can be variable in length and in spite of low sequence identity they can nevertheless adopt the typical three helix bundle fold <xref rid="pone.0063633-Vishwanatha1" ref-type="bibr">[27]</xref>.</p>
+        <fig id="pone-0063633-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Flowchart for the nesprins SR analysis.</title>
+          </caption>
+          <graphic xlink:href="pone.0063633.g002"/>
+        </fig>
+        <fig id="pone-0063633-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Consensus sequence for the Pfam SR seed (A) and non-canonical nesprins SRs (B).</title>
+            <p>The frequency values for the conserved Trp (red) and the Leu (green) are indicated.</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g003"/>
+        </fig>
+        <p>Having established these evolutionary relationships, a comparative modelling approach was applied to build 3-D models for the SR units as defined by Simpson and Roberts <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref>. We have therefore predicted the structure of 72 single SRs, 1 double- and 2 triple-SRs of human nesprin-1 and 54 single SRs, 1 double- and 2 triple-SRs of human nesprin-2. The prediction of the nesprin-1 SRs 52 and 54 was not attempted because of their atypical length (up to twice the length of a canonical SR).</p>
+      </sec>
+      <sec id="s2b">
+        <title>Model Quality Evaluation</title>
+        <p>Since SRs are mostly extended helix-rich structures, evaluation of helical content is a good parameter for inspecting the quality of SR structure models. The templates used to build the model have on average 82% helical content in their structure. We chose this value as a threshold to evaluate the quality of the built SR models and decided to refine the SRs with a helical content within 10% of this value. In <xref ref-type="fig" rid="pone-0063633-g004">Figure 4</xref> the secondary structure content for all the modelled SRs is shown. In the nesprin-1 protein three SR units diverge substantially from this cut-off value. Structure for <sup>NES1</sup>SR7 (nesprin-1 SR7), <sup>NES1</sup>SR37 and <sup>NES1</sup>SR72 show a helical content of 73%, 66% and 72% respectively. Among these three SRs, only <sup>NES1</sup>SR7 is a canonical SR while the others,<sup>NES1</sup>SR37 and <sup>NES1</sup>SR72, are assigned as non-canonical. The same analysis performed on nesprin-2 showed that three SRs show a low helical content when compared to the selected threshold value. Two of these SRs, the <sup>NES2</sup>SR30 and <sup>NES2</sup>SR36 are non-canonical repeats showing a helical content of 73% and 68%, respectively. The third one, the <sup>NES2</sup>SR50 is a canonical SR with 69% helical content. For the six SR outliers mentioned above, we used an alternative approach to identify the best fitting template. In this procedure, each outlier sequence was aligned against all selected template structures. This strategy resulted in a better quality model only for <sup>NES2</sup>SR36. This model was in fact generated using two new templates 3FB2(SR15) and 3F57(SR14) and displayed an increased helical secondary structure content, reaching a value of 80% (<xref ref-type="fig" rid="pone-0063633-g004">Figure 4</xref>), significantly improving the helical content obtained using the model generated with the cladogram approach. For all the other outlier SRs the selected templates using this alternative strategy were identical to the ones obtained from the cladogram approach.</p>
+        <fig id="pone-0063633-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Percentage secondary structure of each SR model.</title>
+            <p>(A) Nesprin-1 SR models. (B) Nesprin-2 SR models. Green lines represent the average percentage secondary structure of the templates. SR units are coloured according Simpson and Roberts <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref>: red, SR confidently predicted in two or three paralogues; orange, SR confidently predicted in one paralogue; yellow, region with conserved SR-like secondary structure; pink, confidently predicted SR of atypical length. (C) PsoSA Z-score of the SRs modelled for nesprin-1 (red cross) and for nesprin-2 (green cross) SRs. (D) Zscore distributions of the templates (blue) for the three-helix bundle structure (orange) and for nesperin-1 (red) and nesprin-2 (green).</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g004"/>
+        </fig>
+        <p>The repeat with the lowest value of helical content (66%) is the <sup>NES1</sup>SR37 is nevertheless well within the helicity range (60% to 80%) reported for typical SRs <xref rid="pone.0063633-An1" ref-type="bibr">[21]</xref>, <xref rid="pone.0063633-An2" ref-type="bibr">[22]</xref>, <xref rid="pone.0063633-Bhasin1" ref-type="bibr">[23]</xref>, <xref rid="pone.0063633-MacDonald1" ref-type="bibr">[24]</xref>. The models were further assessed with ProSA <xref rid="pone.0063633-Wiederstein1" ref-type="bibr">[28]</xref> (<xref ref-type="supplementary-material" rid="pone.0063633.s013">Table S1</xref> and <xref ref-type="supplementary-material" rid="pone.0063633.s002">S2</xref>) and VERIFY3D <xref rid="pone.0063633-Eisenberg1" ref-type="bibr">[29]</xref> with results that indicate good quality models (data not shown).</p>
+        <p>To assess with precision a reliability score to the obtained models, we used the ProSA Z-score. Template structures where assessed with ProSA to extract the distribution of the template Z-score values (positive control). As a negative control, we extracted from the PDB database three structures (1LVF, 1M7K, 2P32) that are not SRs but have a closely related topology: the three-helix bundle motif (we will refer to these as THB). The sequences of these structures were extracted and several models for each sequence were predicted using the same 10 SR templates selected to model the nesprins SRs (pdb codes: 1AJ3, 10WA, 1CUN, 1HCI, 1SJJ, 2SPC, 3EDV, 1QUU, 1U5P, 3FB2). With this procedure we aimed at checking whether sequences unrelated (but with similar topology) to SRs once modelled with SRs templates would produce comparable scoring values to the ones obtained for the nesprins sequences.</p>
+        <p>For each of the THB models the ProSA score was extracted and the distribution of the scores calculated. The template distribution (canonical SR) is centred to a value of â5.3 whereas the distribution for the THB models is centred at -3 (<xref ref-type="fig" rid="pone-0063633-g004">Figure 4D</xref>). All the models with a value of Z-score smaller or equal to -5.3 were considered <bold>very reliable models</bold>, the models with a Z-score higher or equal to -3 wer considered <bold>less reliable</bold>, while the models in the range between -5.3 and -3 are assumed as <bold>reliable models</bold> (<xref ref-type="fig" rid="pone-0063633-g004">Figure 4C</xref>).</p>
+      </sec>
+      <sec id="s2c">
+        <title>Evolutionary conservation of amino acid positions in the Nesprin</title>
+        <p>Large-scale modelling was performed also aiming at the identification of potential functional regions of nesprin-1 and nesprin-2 rod domains that might be important for protein-protein interactions. In order to identify significant regions we analyzed the evolutionary conservation of amino acid positions using the ConSurf Server <xref rid="pone.0063633-Ashkenazy1" ref-type="bibr">[30]</xref>. The Conservation score of ConSurf is defined with a scale that goes from 1 (most variable position) to 9 (most conserved position) <xref rid="pone.0063633-Laudau1" ref-type="bibr">[31]</xref>. The evolutionary conservation for each residue was calculated and projected onto the model structures. In our analysis we defined as conserved positions those residues showing a score greater than or equal to 7. The conservation analysis for all SRs was based on the alignments for each individual SR unit of vertebrate nesprin-1 and nesprin-2 separately. The alignments used were extracted from the alignment of vertebrate nesprins built by Simpson and Roberts <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref>.</p>
+        <p>The analysis of amino acid conservation performed on the nesprin-1 and nesprin-2 vertebrate alignments revealed that the vertebrate nesprin-1 SRs are evolutionarily more conserved compared to vertebrate nesprin-2, this confirms results based on sequence only <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref>. In <xref ref-type="fig" rid="pone-0063633-g005">Figure 5A and C</xref> a schematic representation shows the SR units coloured according to the percent of conserved residues (conservation score â¥ 7). Along the nesprin-1 rod domain we identified two highly conserved SR units (percentage of conserved residues&gt;50%) at the N-terminus (SR3 and SR4). The other particularly conserved SR units were clustered at the C-terminus in the regions that form the nesprin-1 short isoforms (nesprin-1Î² and nesprin-1Î±). The most conserved SRs are SR65 and the consecutive units SR69-SR71, showing a percentage of conserved residues higher than 70%. In addition to these very conserved SRs, other repeats showing a high percentage of residue conservation in this region were observed (<xref ref-type="supplementary-material" rid="pone.0063633.s003">Figure S3A and B</xref>) and these are in fact in the region of nesprin-1 which has been shown to interact with various protein partners: lamin A/C <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>, emerin <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>, <xref rid="pone.0063633-Wheeler2" ref-type="bibr">[15]</xref>, the muscle A-kinase anchoring protein (mAKAP) <xref rid="pone.0063633-Pare1" ref-type="bibr">[32]</xref> and with MuSK, a muscle-specific tyrosine kinase of the neuromuscular junction <xref rid="pone.0063633-Apel1" ref-type="bibr">[33]</xref>. Similarly, the two SRs at the N-terminus could represent new potential sites of interaction with other partners since they are also highly conserved among the vertebrates.</p>
+        <fig id="pone-0063633-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Schematic representation of the evolutionary conservation of SR units.</title>
+            <p>(A) Nesprin-1. (C) Nesprin-2. Each SR unit is coloured according the percentage of conserved residues based on the alignments of vertebrate nesprin-1 and of nesprin-2, separately. The yellow star represents the invariant motif in the unstructured region. Arrows indicate N-termini of short isoforms. (B and D) Number of conservation pbs in each SR unit. Contiguous SR units with &gt;5 pbs are coloured red for nesprin-1 (B) and for nesprin-2 (D).</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g005"/>
+        </fig>
+        <p>The SRs forming the rod domain of nesprin-2 are on average less conserved, however as for nesprin-1, the most conserved SRs lie near the C-terminus (SR50 to SR 53) and have also been shown to interact with emerin and lamin A, as well as the kinases ERK1/2 <xref rid="pone.0063633-Zhang1" ref-type="bibr">[8]</xref>, <xref rid="pone.0063633-Libotte1" ref-type="bibr">[10]</xref>, <xref rid="pone.0063633-Wheeler2" ref-type="bibr">[15]</xref>, <xref rid="pone.0063633-Warren1" ref-type="bibr">[34]</xref>. The most conserved SR unit in the nesprin-2 rod domain is SR52 with 60% conserved residues.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Identification of surface conservation pbs: detection of possible binding sites</title>
+        <p>In order to identify new interaction binding sites on the surface of the SR units we mapped exposed and evolutionary conserved residues onto the three-dimensional SR models generated. The Solvent Accessible Surface Area (SASA) of all models was computed using the POPS program <xref rid="pone.0063633-Cavallo1" ref-type="bibr">[35]</xref>, <xref rid="pone.0063633-Fraternali1" ref-type="bibr">[36]</xref> to identify the exposed and buried residues. We defined a residue as buried when its SASA (in the protein) was lower than 20% and exposed when was higher than 20% of its SASA in the tri-peptide Ala-Xxx-Ala (isolated form), where Xxx is the considered residue. These data were merged with the conservation score information to identify those residues, which were both conserved and exposed. The percentage of buried and exposed residues among the ConSurf detected residues was also calculated. Both nesprin-1 and nesprin-2 show a similar ratio between buried and exposed residues; the general trend is that among the conserved residues, one-third is buried and the remaining two-thirds are exposed. A peculiar distribution was observed for some SRs (<xref ref-type="supplementary-material" rid="pone.0063633.s003">Figure S3C and D</xref>). The <sup>NES1</sup>SR4 and <sup>NES1</sup>SR5 have only 16% and 10% of the conserved residues buried, as well as <sup>NES1</sup>SR33 which also had a small percentage of buried and conserved residues (10%). In nesprin-2 three SRs (<sup>NES2</sup>SR7, <sup>NES2</sup>SR19, <sup>NES2</sup>SR31) had a percentage of buried and conserved residues lower than 15%.</p>
+        <p>To find possible binding sites on the surface we analysed the clusters of conserved residues on the surface of each SR unit. An exposed and conserved residue is defined as the centre of a cluster if it shows more than five exposed and conserved neighbour residues, where neighbours are identified as the CÎ± atoms of exposed and conserved residues within a distance radius of less than 10Ã. With this analysis we were able to map putative binding sites (pbs) onto the surface of the SR models. Along the nesprin rod domains the SR units showing a larger number of pbs were found to cluster together (<xref ref-type="fig" rid="pone-0063633-g005">Figure 5B and D</xref>). In particular in the nesprin-1 protein they were distributed in three regions of the rod domain: at the N-terminus (SR3-SR5), at the centre (SR31-SR37) and at the C-terminus (SR64-SR74) (<xref ref-type="fig" rid="pone-0063633-g005">Figure 5B</xref>). It is important to stress that the central region would have been missed by the use of ConSurf analysis alone. The <sup>NES1</sup>SR31-37 fragments show a high number of pbs on their surface, despite not having a residue conservation as high as <sup>NES1</sup>SR3-5 and <sup>NES1</sup>SR64-74.</p>
+        <p>The same analysis performed on nesprin-2 revealed a lower number of pbs on the overall rod domain; nevertheless we were able to identify two putative regions, at the N- and C- termini, that could play an important role in protein-protein interactions, namely the C-terminal region (<sup>NES2</sup>SR49-53), which has been shown interact with lamin A/C and emerin as described above, and the <sup>NES2</sup>SR11-SR13 region which has not yet been investigated. Some of the nesprin-2 SRs at the C-terminus were highly conserved (between 55% and 60% of conserved residues) but, unexpectedly, they presented a smaller number of pbs on the surface when compared to SRs of nesprin-1 with the same conservation profile (<xref ref-type="fig" rid="pone-0063633-g005">Figure 5D</xref>). In summary, this analysis allowed for the identification of additional potential pbs of interaction on the SR surfaces that were not identified by sequence conservation analysis alone. Thus the construction of the 3D models and their analysis has enriched substantially the available information on the conserved SR features of the nesprin family of proteins.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Nesprin-1Î± and nesprin-2Î²: differences in binding properties</title>
+        <p>It has been shown that nesprin-1Î± and nesprin-2Î² isoforms interact with emerin and lamin A/C <xref rid="pone.0063633-Zhang1" ref-type="bibr">[8]</xref>, <xref rid="pone.0063633-Libotte1" ref-type="bibr">[10]</xref>, <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>, <xref rid="pone.0063633-Wheeler2" ref-type="bibr">[15]</xref> and, furthermore that nesprin-1Î± self-associates in an antiparallel orientation <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>. Since these isoforms bind to the same partners, we decided to investigate more closely the structural features of these two proteins. In <xref ref-type="fig" rid="pone-0063633-g006">Figure 6</xref> the domain organization of nesprin-1Î± and nesprin-2Î² is shown schematically. The two isoforms are each composed of six SR units and the C-terminal KASH domain. The first three SRs (<sup>NES1</sup>SR69, <sup>NES1</sup>SR70, <sup>NES1</sup>SR71) of nesprin-1Î± are highly conserved (residue conservation&gt;70%) among vertebrate nesprin-1 proteins, showing a large number of surface pbs, wherepbsas the last three repeats (<sup>NES1</sup>SR72, <sup>NES1</sup>SR73, <sup>NES1</sup>SR74) are less conserved with a lower number of pbs. The same trend is observed in nesprin-2Î², where the N-terminal SRs are more conserved when compared to the last three SRs. In addition, nesprin-2Î² <sup>NES2</sup>SR54 and <sup>NES2</sup>SR55 do not show any surface pbs.</p>
+        <fig id="pone-0063633-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Schematic representation of nesprin-1Î± (A) and nesprin-2Î² (D); the SR units are coloured with the same colour code as in <xref ref-type="fig" rid="pone-0063633-g005">
+<bold>Figure 5</bold>
+</xref>
+<bold>.</bold>
+</title>
+            <p>Panels B-E represent the electrostatic potential surfaces (face 1 and face 2) of <sup>NES1</sup>SR69-71 (B), <sup>NES1</sup>SR72-74 (C), <sup>NES2</sup>SR51-53 (E) and <sup>NES2</sup>SR54-56 (F). Blue â positive potential; red â negative potential. Residues at the centre of a conserved cluster are highlighted with orange dots.</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g006"/>
+        </fig>
+        <p>Each isoform comprises two triple sets of SRs separated by an unstructured region (see <xref ref-type="fig" rid="pone-0063633-g006">Figure 6</xref>). The N-terminal regions of nesprin-1Î± (SR69-SR71) and nesprin-2Î² (SR51-SR53) show 76% sequence identity whereas the C-terminal ones (<sup>NES1</sup>SR72-SR74 and <sup>NES2</sup>SR54-SR56) only 38%. This difference could be important to distinguish putative protein binding sites. To better characterize and identify potential proteins binding sites, we analysed the electrostatic surface of the triple SRs and mapped onto this the pbs determined in the conservation analysis (<xref ref-type="fig" rid="pone-0063633-g006">Figure 6</xref>). The pbs in <sup>NES1</sup>SR69 and <sup>NES1</sup>SR70 are clustered on the same side (<xref ref-type="fig" rid="pone-0063633-g006">Figure 6B and C</xref>), while only a few conserved residues are present on this side in <sup>NES1</sup>SR71. On the other face we observed that <sup>NES1</sup>SR71 has the majority of the conserved residues of the molecule grouped here. Although the number of pbs in nesprin-2Î² SR54-SR56 was smaller when compared to nesprin-1Î± SR69-SR71, we observed a similar scenario in which the <sup>NES2</sup>SR51 and <sup>NES2</sup>SR52 pbs are grouped on one face with the <sup>NES2</sup>SR53 pbs clustered on the other face (<xref ref-type="fig" rid="pone-0063633-g006">Figure 6E and F</xref>). The positioning of pbs on the surfaces allowed the identification of a very similar conserved region in <sup>NES1</sup>SR71 and <sup>NES2</sup>SR53 that could be involved in binding to other proteins (and possibly their common binding partners emerin or lamin A): nesprin-1 Glu8191, Tyr8195 and Arg8202 and nesprin-2 Glu6326, Glu6327, Tyr6331 and Arg6338 (see also <xref ref-type="supplementary-material" rid="pone.0063633.s015">Table S3</xref> and <xref ref-type="supplementary-material" rid="pone.0063633.s016">S4</xref>). Moreover, comparing these two repeats we identified an extra conserved region on <sup>NES1</sup>SR71 missing on the surface of <sup>NES2</sup>SR53, whose electrostatic potential matched (patches with opposite charges on the surface) with the conserved surface region in <sup>NES1</sup>SR69: <sup>NES1</sup>SR71 Glu8112, Thr8115, Arg8117, Asp8118, Val8122, Trp8123, Glu8126, Asp8128, Gln8130, Phe8137, Asp8141, Ala8144 and Gln 8148 (see also <xref ref-type="supplementary-material" rid="pone.0063633.s015">Table S3</xref> and <xref ref-type="supplementary-material" rid="pone.0063633.s016">S4</xref>). Since the <sup>NES1</sup>SR69 and <sup>NES1</sup>SR71 units mediate the self-association of nesprin-1Î± we propose that we have here identified a putative surface and residues involved in this dimerization process.</p>
+        <p>The C-terminal regions of nesprin-1Î± and nesprin-2Î² show a sequence identity of 38% and indeed they display different electrostatic surfaces: the C-terminus of nesprin-1Î± is generally more charged then nesprin-2Î².</p>
+        <p>As expected, being the C-terminal region less conserved and characterised, Pfam predicted only one SR (SR73 and SR55 for nesprin-1 and nesprin-2, respectively) in this region both for nesprin-1Î± and nesprin-2Î², therefore we decided to proceed with further characterization involving experimental analyses.</p>
+        <p>A selection of predicted spectrin repeats amongst canonical (<sup>NES1</sup>SR73 and <sup>NES2</sup>SR55) and non-canonical (<sup>NES1</sup>SR74 and <sup>NES2</sup>SR56) was characterised by circular dichroism (CD) and nuclear magnetic resonance (NMR) spectroscopy. The results of these are summarised in <xref ref-type="fig" rid="pone-0063633-g007">Figure 7</xref> and <xref ref-type="supplementary-material" rid="pone.0063633.s004">Figure S4</xref> for a representative established (<sup>NES1</sup>SR73 and <sup>NES2</sup>SR55) and newly predicted (<sup>NES1</sup>SR74 and <sup>NES2</sup>SR56) spectrin repeat. Numerical results are summarised in <xref ref-type="table" rid="pone-0063633-t002">Table 2</xref> for all the characterised SRs. The NMR spectra show excellent dispersion in the high- and low field region indicative of the presence of hydrogen bonds and aliphatic-aromatic contacts, hallmarks of a folded protein. The relatively sharp peaks are indicative of monodisperse proteins and the absence of complex dynamics and aggregation or self-association. The absence of the latter is also confirmed by the measurement of translational diffusion coefficients that agree for all characterised repeats with monomeric species. The CD spectra show a strong, typical Î±-helical signal with minima at 208 and 222 nm. Fitting the CD spectra to standards of helix, sheet and random coil gives high proportion of helical structure from 60-80% in all of the repeats (<xref ref-type="table" rid="pone-0063633-t002">Table 2</xref>). Thermal denaturation shows high cooperativity of unfolding at high melting temperatures indicative of a well folded and stable domain.</p>
+        <fig id="pone-0063633-g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Spectroscopic characterisation of spectrin repeats SR73 and SR74.</title>
+            <p>(A) 1D NMR spectra. (B) CD spectra. (C) Thermal unfolding curves measured by CD at wavelengths of 222 and 208 nm</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g007"/>
+        </fig>
+        <table-wrap id="pone-0063633-t002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Summary of the results of the spectroscopic characterisation of the SRs.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0063633-t002-2" xlink:href="pone.0063633.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">construct</td>
+                  <td align="left" rowspan="1" colspan="1">% Î±</td>
+                  <td align="left" rowspan="1" colspan="1">%Î²</td>
+                  <td align="left" rowspan="1" colspan="1">% rc</td>
+                  <td align="left" rowspan="1" colspan="1">Tm/Â°C</td>
+                  <td align="left" rowspan="1" colspan="1">D/10<sup>â10</sup> m<sup>2</sup>s<sup>â1</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">MW/kD</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">SR55</td>
+                  <td align="left" rowspan="1" colspan="1">65</td>
+                  <td align="left" rowspan="1" colspan="1">17</td>
+                  <td align="left" rowspan="1" colspan="1">19</td>
+                  <td align="left" rowspan="1" colspan="1">72.6 +-1.9</td>
+                  <td align="left" rowspan="1" colspan="1">0.988 +- 0.06</td>
+                  <td align="left" rowspan="1" colspan="1">16.1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">SR56</td>
+                  <td align="left" rowspan="1" colspan="1">76</td>
+                  <td align="left" rowspan="1" colspan="1">12</td>
+                  <td align="left" rowspan="1" colspan="1">12</td>
+                  <td align="left" rowspan="1" colspan="1">59.9 +-0.1</td>
+                  <td align="left" rowspan="1" colspan="1">1.185 +- 0.03</td>
+                  <td align="left" rowspan="1" colspan="1">12.9</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">SR73</td>
+                  <td align="left" rowspan="1" colspan="1">80</td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">0</td>
+                  <td align="left" rowspan="1" colspan="1">77.7 +-0.1</td>
+                  <td align="left" rowspan="1" colspan="1">1.048 +- 0.04</td>
+                  <td align="left" rowspan="1" colspan="1">16.3</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">SR74</td>
+                  <td align="left" rowspan="1" colspan="1">75</td>
+                  <td align="left" rowspan="1" colspan="1">20</td>
+                  <td align="left" rowspan="1" colspan="1">5</td>
+                  <td align="left" rowspan="1" colspan="1">68.1 +- 0.1</td>
+                  <td align="left" rowspan="1" colspan="1">1.256 +- 0.03</td>
+                  <td align="left" rowspan="1" colspan="1">13.1</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>In case of multiple thermal unfolding events the temperature of the highest transition is listed in the table.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+      </sec>
+      <sec id="s2f">
+        <title>Molecular Dynamics Simulations of single and double SRs of nesprin</title>
+        <p>The flexibility of SR proteins was studied to clarify the molecular determinants involved in the elasticity and flexibility of these units. To simplify the comparative analysis and to extrapolate functional mechanical properties we investigated the flexibility of nesprin-1 and nesprin-2 using the most conserved and consecutive SRs among these proteins. As mentioned previously, <sup>NES1</sup>SR70-SR71 have 78% sequence identity with the corresponding SRs in nesprin-2 (<sup>NES2</sup>SR52-SR53). Therefore these two modules were subjected to Molecular Dynamics (MD) simulations in aqueous solution. For comparison, we also performed MD simulations of the crystal structure of human erythroid Î²-spectrin HEÎ²89 (pdb code 1S35) <xref rid="pone.0063633-Kusunoki1" ref-type="bibr">[37]</xref>, because this structure has been used previously to study the flexibility of double repeats by means of MD simulations <xref rid="pone.0063633-Mirijanian1" ref-type="bibr">[38]</xref>. MD simulations were also performed on each single SR forming the double SRs selected.</p>
+        <p>The root mean squared fluctuations (RMSFs) were used to highlight differences in terms of flexibility of isolated SRs compared to the same SR in the double repeats (<xref ref-type="fig" rid="pone-0063633-g008">Figure 8A and B</xref>). The isolated SRs in solution appeared to be very stable, maintaining all the secondary structure elements of the initial structure. The only flexible regions were the loops AB and BC that show a high mobility mainly due to the interaction with the N- and C-terminal region of the domain (<xref ref-type="fig" rid="pone-0063633-g008">Figure 8A</xref>). The double SRs show overall more flexibility. Analysis of correlated motions of the studied systems showed that in all systems the mobility of the AB loop is correlated with the linker region; in particular the loops of <sup>NES2</sup>SR52-53 seem to have a more independent motion from the linker region when compared to <sup>NES1</sup>SR70-71 (<xref ref-type="supplementary-material" rid="pone.0063633.s005">Figure S5</xref>). The observed flexibility did not influence the helical content of the SR structures. During the simulations, the Î±-helices in the starting X-ray structure (1S35) were stable and only minor secondary structure fluctuations were observed. The two models, <sup>NES1</sup>SR70-SR71 and <sup>NES2</sup>SR52-53, show a slight variation of their secondary structure elements during the simulations compared to the crystal structure, although the majority of secondary elements present before the MD simulations remained stable. The major differences between the crystal structure and the SR models (before simulation) were found in the linker region; this does not remain stable as an Î±-helix, but it is converted to a turn in the <sup>NES1</sup>SRs70-71 model and to an atypical helix (Ï-helix) in <sup>NES2</sup>SR52-53. During the simulations the residues forming the turn in <sup>NES1</sup>SR70-71 seemed to stabilize and convert into an Î±-helix, while the residues forming the Ï-helix in <sup>NES2</sup>SR52-53 did not show any variation (<xref ref-type="supplementary-material" rid="pone.0063633.s006">Figure S6</xref>).</p>
+        <fig id="pone-0063633-g008" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>RMSF of the single and double SR units.</title>
+            <p>(A) RMSF of single units (black and blue lines) and replica simulations performed on the double SR unit (red and green lines) of <sup>NES1</sup>SR70-71. (B) RMSF of single units (black and blue lines) and the replica simulations performed on the double SR unit <sup>NES2</sup>SR52-53. (C) Comparison of the RMSF of the following double SR units: 1S35 (black line), <sup>NES1</sup>SR70-71 replicas (red and green lines) and <sup>NES2</sup>SR52-53 replicas (blue and yellow lines).</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g008"/>
+        </fig>
+      </sec>
+      <sec id="s2g">
+        <title>Principal Component Analysis of motion: difference in mobility of nesprin-1 and nesprin-2 SRs?</title>
+        <p>To obtain information on the motion observed during the simulations, we performed a principal component analysis (PCA) <xref rid="pone.0063633-Amedei1" ref-type="bibr">[39]</xref> using the trajectories from the MD simulations. In the PCA analysis the motion is decomposed into principal components (PCs) that are associated with an eigenvector and an eigenvalue. The trajectory can be projected onto these eigenvectors to characterize the motion of the system along selected eigenvector directions. In order to characterize and compare the motion of the simulated systems we decided to evaluate the essential space sampled by each system. This evaluation can be performed using the inner product of the eigenvectors; since the eigenvectors are normalized, an inner product with a value of 1 means that eigenvectors are identical and therefore the essential space sampled is identical.</p>
+        <p>The inner product was extracted by calculating the average square projection of the first 10 eigenvectors of one set onto the first 10 eigenvectors of another set. The inner product between <sup>NES1</sup>SR70-71 and <sup>NES2</sup>SR52-53 showed a large overlap (&gt; 0.70) between the first and the second eigenvectors, demonstrating that the motion of double SRs along the first two principal components is very similar. The same analysis was performed to evaluate the overlap of the models <italic>versus</italic> the X-ray structure 1S35 (<xref ref-type="supplementary-material" rid="pone.0063633.s007">Figure S7</xref>). The essential space analysis between 1S35 and <sup>NES1</sup>SR70-71 shows a similarity (0.73) only between the second eigenvector (E2) of 1S35 and the first (E1) of <sup>NES1</sup>SR70-71, whereas <sup>NES2</sup>SR52-53 shows a large overlap between both the E1s (0.75) and E2s (0.83).</p>
+        <p>To visualize the nature of the motion we used porcupine plots displaying the direction of the motion of the C<italic>Î±</italic> atoms along the first eigenvector (<xref ref-type="supplementary-material" rid="pone.0063633.s008">Figure S8</xref>). The porcupine plot shows that the flexibility observed during the simulation is mainly due to a bending motion of the two SR units of the double SR with respect to each other. The bending motion appears to be a natural mode in the spectrin protein family, as it has also been observed as natural movement for the Î±-actinin rod domain <xref rid="pone.0063633-Golji1" ref-type="bibr">[40]</xref>. As expected, the observed mobility involved largely the AB and B'C' loops and the linker region. In <sup>NES1</sup>SR70-71 the motion of both loops is correlated with the linker, while for <sup>NES2</sup>SR52-53 it correlates only with the loop AB. As mentioned above the sequence identity between <sup>NES1</sup>SR70-71 and <sup>NES2</sup>SR52-53 is very high, nevertheless the B'C' loop is one of the regions with a lower identity. A visual inspection of the trajectories revealed that during the simulation there was a strong hydrophobic interaction between <sup>NES2</sup>Phe6244 (helix A') and <sup>NES2</sup>Phe6305 (helix B') (<xref ref-type="fig" rid="pone-0063633-g009">Figure 9C-D</xref>); this hydrophobic interaction stabilized the two helices, forming a strong interaction in the proximity of the linker and impeding a large degree of flexibility in that region. In comparison, in <sup>NES1</sup>SR70-71, <sup>NES1</sup>Phe8113 (helix A') formed a weaker interaction with the <sup>NES1</sup>Gln8169 (helix B') allowing the B'C' loop to move and to form additional interactions with the linker region participating in the bending motion (<xref ref-type="fig" rid="pone-0063633-g009">Figure 9A-B</xref>). The importance of loop sequences and their interaction with the linker region has been shown to be crucial in determining the forced unfolding of the linker region <xref rid="pone.0063633-Ortiz1" ref-type="bibr">[41]</xref>. Furthermore, it has been suggested that the presence of hydrophobic residues in those regions can protect the linker residues from water molecules <xref rid="pone.0063633-Ortiz1" ref-type="bibr">[41]</xref> and make them more resistant to unfolding. The hydrophobic interactions that we observed at the linker region of <sup>NES2</sup>SR52-53 could explain why its B'C' loop appears less flexible than the B'C' loop of <sup>NES1</sup>SR70-71.</p>
+        <fig id="pone-0063633-g009" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0063633.g009</object-id>
+          <label>Figure 9</label>
+          <caption>
+            <title>Ribbon representation of <sup>NES1</sup>SR70-71 (A-B) and <sup>NES2</sup>SR52-53 (C-D).</title>
+            <p>Close up of the interaction between Phe8113 (magenta spheres) and Gln8169 (cyan spheres) in <sup>NES1</sup>SR70-71 (B) and between Phe6244 Phe8113 (magenta spheres) and Gln8169 (cyan spheres) in <sup>NES2</sup>SR52-53 (D).</p>
+          </caption>
+          <graphic xlink:href="pone.0063633.g009"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Conclusions</title>
+      <p>It is now well established that nesprin-1 and nesprin-2 are proteins involved in many cellular functions <xref rid="pone.0063633-Warren2" ref-type="bibr">[42]</xref>, but little information is available on their structure, their binding characteristics and their binding partners. In particular, very little is known about the function of the central rod domain that constitutes the main structural backbone of these proteins. So far the SR units forming the rod domain were considered largely to play the role of spacers between the better-characterized N-terminal CH domains and the C-terminal KASH domain. The information distilled from our large-scale comparative modelling of each SR unit of nesprin-1 and nesprin-2 has been combined with a detailed analysis of the evolutionary conservation and the accessible surface area. The 3D models have afforded a more comprehensive and accurate characterization of the rod domain of these proteins.</p>
+      <p>One of the most remarkable achievements of this large-scale bioinformatics study is the identification of accurate boundaries of nesprin SRs, that allowed for the design, expression and purification of stable constructs of individual SRs for structural evaluation.</p>
+      <p>A set of predicted canonical (<sup>NES1</sup>SR73 and <sup>NES2</sup>SR55) and non-canonical (<sup>NES1</sup>SR74 and <sup>NES2</sup>SR56) was characterised by CD and NMR spectroscopy, highlighting a stable folded protein as confirmed from temperature denaturation studies, with a high proportion of helical structure from 60 to 80% for both the canonical and non-canonical repeats. These results are strongly indicative of the studied nesprins assuming a typical SR fold.</p>
+      <p>In addition, new potential binding regions were predicted by our analyses and mapped onto the surface of the SRs. This information can now inform experiments aimed identifying new binding partners and/or defining the interfaces and key residues directly involved in such binding processes.</p>
+      <p>A more complete analysis of the two short isoforms, nesprin-1Î± and nesprin-2Î², involved in the pathogenesis of EDMD, was also performed. These two isoforms show a very high sequence identity; nevertheless the evolutionary conservation of vertebrate nesprin-1 proteins across this region, is much higher compared to that of nesprin-2. Their similarities in terms of the conserved pbs on the surface led to the identification of potential loci for the interaction with their common partners, emerin and lamin A <xref rid="pone.0063633-Zhang1" ref-type="bibr">[8]</xref>, <xref rid="pone.0063633-Libotte1" ref-type="bibr">[10]</xref>, <xref rid="pone.0063633-Mislow1" ref-type="bibr">[11]</xref>, <xref rid="pone.0063633-Mislow2" ref-type="bibr">[12]</xref>, <xref rid="pone.0063633-Wheeler1" ref-type="bibr">[13]</xref>. A further inspection of the conserved surface, uniquely present in nesprin-1Î± and not in nesprin-2Î², indicates a potential homodimerisation interface <xref rid="pone.0063633-Mislow2" ref-type="bibr">[12]</xref> for nesprin-1Î±. EDMD can be caused by the disruption of the interaction between nesprins and the two partners, emerin and lamin A/C, but the molecular determinants of these interactions have been difficult to establish. Our models contribute to identifying these possible molecular determinants and can now be used to guide site-directed mutagenesis to more precisely experimentally define the surfaces involved in these interactions. In addition, these models can now be used to determine the effects of the nesprin mutations identified in EDMD patients on the molecular properties of SRs.</p>
+      <p>Molecular Dynamics simulation performed on the most conserved and consecutive SR, <sup>NES1</sup>SR70-71 and <sup>NES2</sup>SR52-53, showed a preferential bending motion of the SRs with respect to each other. Moreover additional analyses of the simulations have pointed out how a difference in the linker sequence region can influence the flexibility of each SRs</p>
+    </sec>
+    <sec sec-type="methods" id="s4">
+      <title>Methods</title>
+      <sec id="s4a">
+        <title>Extraction of single domain SR Structures and Boundary Assignments</title>
+        <p>Protein Structures containing SRs were extracted by BLAST <xref rid="pone.0063633-Altschul1" ref-type="bibr">[43]</xref> from the Protein Data Bank (PDB). The selected structures are: human Î±-actinin 1 (P12814), Î±-actinin 2 (P35609), Î±-actinin 3 (Q08043), Î±-actinin 4 (Q43707), chicken Î±-actinin 1 (P05094), human Î±-spectrin 1 (P02549), Î±-spectrin 2(Q13813), chicken Î±-spectrin 2 (P07751), human Î²-spectrin 1 (P11277), Î²-spectrin 2 (Q01082), chicken Î²-spectrin 2 (P07751), fruit fly Î±-spectrin (P13395), human utrophin (P46939), human dystrophin (P11532) and human nesprin-1 (Q8NF91) as reported in <xref ref-type="table" rid="pone-0063633-t001">Table 1</xref>. To be noted that some of the selected structures contain more than a single SR. To extract single SR domain structures from templates with multiple SRs to be used in the modelling procedure, we had to assign the correct boundaries that define the âcanonicalâ SR topology.</p>
+        <p>The single domain SR templates were extracted by Perl scripts following the SR assignments on their protein sequences by SCOP <xref rid="pone.0063633-Murzin1" ref-type="bibr">[44]</xref> and SWISSPROT database <xref rid="pone.0063633-Schneider1" ref-type="bibr">[45]</xref>. The sequences of these single domain SRs, were used with HMMER2.3 <xref rid="pone.0063633-Eddy1" ref-type="bibr">[46]</xref> to construct a tailored SR seed alignment based on the alignment (PF00435) <xref rid="pone.0063633-Finn1" ref-type="bibr">[20]</xref>. Newly defined boundaries were assigned based on SCOP assignment for SR, which divides adjacent SRs into two triple-helix structure units. Structural alignments of these assigned domain structures were carried out with web server MAMMOTH-mult <xref rid="pone.0063633-Lupyan1" ref-type="bibr">[47]</xref>.</p>
+        <p>3DCoffee software <xref rid="pone.0063633-OSullivan1" ref-type="bibr">[48]</xref> has been used to generate the high-quality multiple sequence alignments of nesprins SRs (<xref ref-type="supplementary-material" rid="pone.0063633.s001">Figure S1</xref>). The sequences of SR templates extracted from SCOP were used to guide the multiple alignments since the structural information extract from the templates can help to improve the quality of the alignments.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Large-scale Comparative Modelling</title>
+        <p>Individual SRs in nesprin-1 (74 SRs) and nesprin-2 (56 SRs) were extracted from the alignment of vertebrate nesprins supplied by Simpson and Roberts <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref> (their Supplementary <xref ref-type="fig" rid="pone-0063633-g001">Figure 1</xref>).</p>
+        <p>A comparative modelling approach was applied to build 3-D models for the putative nesprin SR sequences. Recognition of SRs in nesprins by Simpson and Roberts <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref> based on convergent comparative arguments was adopted in this work. Due to potential boundary assignment errors of the repeats, the flanking residues on both termini of each repeat were included for target-template sequence alignment generation. The extra appending N- and C- terminal residues of target sequences in the alignment were removed before structure modelling.</p>
+        <p>Cladograms were constructed based on template-target alignments with the program CLUSTALX2 <xref rid="pone.0063633-Thompson1" ref-type="bibr">[49]</xref> and the web server DrawTree (<ext-link ext-link-type="uri" xlink:href="http://www.phylodiversity.net/rree/drawtree/index.html">http://www.phylodiversity.net/rree/drawtree/index.html</ext-link>) (<xref ref-type="supplementary-material" rid="pone.0063633.s009">Figure S9</xref>-S11).</p>
+        <p>Here, only SRs with complete structures were included as potential template structures. Structures determined by X-ray and with high solution were preferred to structures solved by other experimental methods like NMR or cryoelectron microscopy (cryo-EM). For each target repeat sequence, the structure closest to it on the cladogram was selected as its optimal template. Alignments of all the nesprins SRs with the selected template(s) are shown in <xref ref-type="supplementary-material" rid="pone.0063633.s012">Figure S12A and B. </xref>Comparative modelling was then carried out to generate 200 models for each target sequence with MODELLER8v2 <xref rid="pone.0063633-Sali1" ref-type="bibr">[50]</xref>. Residues in these models were re-numbered according to their position in the full sequences of human nesprin-1 and -2 by Perl scripts.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Model Quality Evaluation</title>
+        <p>Secondary structures of model structures were assigned using DSSP <xref rid="pone.0063633-Kabsch1" ref-type="bibr">[51]</xref>. Helical content of model structures was assigned by a Perl script. The web server Verify3D <xref rid="pone.0063633-Eisenberg1" ref-type="bibr">[29]</xref> was used to analyze the geometry of model structures without all-atom contacts and the software ProSA <xref rid="pone.0063633-Wiederstein1" ref-type="bibr">[28]</xref> to evaluate model accuracy and statistical significance.</p>
+      </sec>
+      <sec id="s4d">
+        <title>3-D Conservation Pattern Analysis</title>
+        <p>Projection of evolutionary conservation scores of residues calculated from Simpson and Robertsâ alignment <xref rid="pone.0063633-Simpson1" ref-type="bibr">[19]</xref> (their Supplementary <xref ref-type="fig" rid="pone-0063633-g001">Figure 1</xref>) for each SR domain in nesprin-1 or nesprin-2 onto their respective 3-D structure models was performed with the web server ConSurf <xref rid="pone.0063633-Ashkenazy1" ref-type="bibr">[30]</xref>. The SASA of each residue in the 3-D models was calculated with the program POPS <xref rid="pone.0063633-Fraternali1" ref-type="bibr">[36]</xref>. A Perl script was run to extract residues that are both solvent-exposed and highly conserved (conservation score &gt;7). Non-bonded residues were defined to be neighbours if the 3-D distances between C<sub>Î±</sub> atoms of two residues in one model were less than or equal to 10 Ã.</p>
+        <p>Contact i,j â=â 0 if {|i-j| â¤ 1};</p>
+        <p>Contact i,j â=â 1 if {|i-j| &gt; 1 &amp; d(i,j) â¤ 10 Ã}</p>
+        <p>Here d(i,j) is the distance between CÎ± atoms of residues i and j.</p>
+        <p>Conservation pbs were defined as residues with more than 5 conserved neighbour residues within 10 Ã.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Molecular Dynamics Simulations</title>
+        <p>Simulations of the single and double SRs were performed with the GROMACS package <xref rid="pone.0063633-VanDerSpoel1" ref-type="bibr">[52]</xref>using the force field ffG53a6 <xref rid="pone.0063633-Oostenbrink1" ref-type="bibr">[53]</xref>. The molecules were solvated in a box of SPC water <xref rid="pone.0063633-Berendsen1" ref-type="bibr">[54]</xref> and neutralized with Na<sup>+</sup> ions. The simulated boxes contained â¼ 15000 water molecules for the single SR and â¼ 25000 for the double SRs. Simulations were carried out at a constant temperature of 300 K. The Berendsen algorithm was applied for the temperature and pressure coupling <xref rid="pone.0063633-Berendsen2" ref-type="bibr">[55]</xref>. Prior to the simulations, the potential energy of each system was minimized using a steepest descent and conjugate gradient approaches. 200 ps MD simulations steps with position restraints (using decreasing force constant from 2000 to 500 kJ mol<sup>â1</sup> nm<sup>â2</sup>) on solute atoms were performed to relax the water molecules. A 2 ns simulation without restrains was performed to equilibrate each system before starting the MD simulations. The particle mesh Ewald method (PME) <xref rid="pone.0063633-Darden1" ref-type="bibr">[56]</xref> was used for the calculation of electrostatic contributions to non-bonded interactions (grid spacing of 0.12 nm) with a cut-off of 1.4 nm and a time step of 2 fs. The trajectory length of the single and double SRs was 20 and 50 ns, respectively. The Dynamite server (<ext-link ext-link-type="uri" xlink:href="http://s12ap550.bioch.ox.ac.uk:8078/dynamite_html/index.html">http://s12ap550.bioch.ox.ac.uk:8078/dynamite_html/index.html</ext-link>) was used to produce further PCA analyses of the MD trajectories. Secondary structure assignment was performed using DSSP <xref rid="pone.0063633-Kabsch1" ref-type="bibr">[51]</xref>. Structure images were produced with Visual Molecular Dynamics (VMD 1.8.5) <xref rid="pone.0063633-Humphrey1" ref-type="bibr">[57]</xref>.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Cloning and protein expression</title>
+        <p>Multiple cDNAs encoding human nesprin-1 SRs (Ensembl Transcript ID: ENSG00000131018) residues 8416-8552 and 8554-8667, and nesprin-2 SRs (Ensembl Transcript ID: ENSG00000054654) residues 6529-6664 and 6665-6771 were amplified by PCR using full-length ÎTM (lacking the transmembrane region) nesprin-1Î± and -2Î² cDNA constructs. Each PCR product was digested with <italic>EcoRI</italic> and <italic>SalI</italic> and cloned into pGEX-4T-3 (Pharmacia Biotech Inc; N-terminal tagged glutathione S- transferase; GST). All constructs were verified by DNA sequencing (source bioscience). The constructs are expressed as a fusion protein containing GST N-terminally attached. For protein expression, constructs were transformed into <italic>Escherichia coli</italic> BL21* cells (Invitrogen). After growth to a <italic>D</italic>
+<sub>600</sub> of â¼0.5 at 37Â°C, the temperature was lowered to 18Â°C and expression was induced with 0.1 mM IPTG overnight. The cell pellet was resuspended in 30 mL of cold PBS [50 mM NaPi and 150 mM NaCl (pH 7.4)]. Cells were opened by French press followed by centrifugation at 18000 rpm for 40 min in a Sorvall SS34 rotor. The supernatant was loaded on to a gravity flow column filled with 4 ml glutathione-Sepharose 4B beads (GE Healthcare) equilibrated with PBS. The column was washed with 30 ml of PBS. To remove the GST tag, 20 U/ml of Thrombin protease were loaded on to the column at room temperature for 16 h. Where required, the protein was polished on a preparative gel-filtration column (HiLoad 26/60 Sephadex 75; GE Healthcare). The flowthrough and wash fractions were checked by SDS/PAGE, pooled and loaded in a gravity flow PD10 desalting column, (GE Healthcare) against measurement buffer [20 mM sodium phosphate, pH 7.5, 50 mM NaCl, 2 mM DTT (dithiothreitol) and 0.02% sodium azide]. The purity of protein samples was checked on SDS/PAGE 4â12% gradient gels (NuPAGEÂ®, Invitrogen).</p>
+      </sec>
+      <sec id="s4g">
+        <title>CD and NMR Spectroscopy</title>
+        <p>CD spectra were recorded on a Photophysics Chirascan spectrometer (Leatherhead, UK) using 1.0 and 0.5 mm spectrasil rectangular quartz cuvettes (Hellma, UK), 1 nm spectral bandwidth, 1 nm stepsize and 1.5 s instrument time per point. Secondary structure content was estimated using in house software tools as described previously <xref rid="pone.0063633-Fogl1" ref-type="bibr">[58]</xref>.</p>
+        <p>1D NMR spectra were recorded on a 700 MHz Bruker Avance spectrometer using watergate for water suppression <xref rid="pone.0063633-Piotto1" ref-type="bibr">[59]</xref> as described previously <xref rid="pone.0063633-Schroder1" ref-type="bibr">[60]</xref>. Diffusion coefficients were measured on a Bruker Avance 500 MHz spectrometer using a convection compensated double stimulated echo experiment <xref rid="pone.0063633-Jerschow1" ref-type="bibr">[61]</xref>. A total of twenty gradient strengths from 4-46 G/cm with a step size of 2 G/cm were used for a duration of 1.75 ms and a diffusion time of 120 ms. All experiments were measured at a temperature of 298 K and in a buffer of 20 mM sodium phosphate pH 7.0, 50 mM sodium chloride, 2 mM dithiothreitol and 0.02% sodium azide with protein concentrations ranging from 40-200 ÂµM.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0063633.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>
+<bold>nesprin-1 (A) and nesprin-2 (B) SRs multiple sequence alignment obtained with 3DCoffee.</bold> Alignment quality based on Blosum 62 scores.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>
+<bold>nesprin-1 (A) and nesprin-2 (B) boundaries.</bold> The first residue for each SR has been indicated. The residue highlighted in gray belong to the linker region at the interface of two SRs.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>
+<bold>Percentage of conserved residue for each SR unit (A-B).</bold> Percentage of buried and exposed residues among the total conserved residue for each SRs (C-D).</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>
+<bold>Spectroscopic characterisation of spectrin repeats SR55 and SR56.</bold> (A) 1D NMR spectra. (B) CD spectra.(C) Thermal unfolding curves measured by CD at wavelengths of 222 and 208 nm. (D) Purified SR proteins studied.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>
+<bold>Correlated motions of C<italic>Î±</italic> residues belonging to 1S35 (A) NES1 SR70-71 and NES2SR52-53 (C). Motions</bold> with &gt;80% correlation are indicated by lines connecting the involved residues.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s005.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>
+<bold>Time evolution of the secondary structure elements during MD simulations.</bold> Positions of secondary structure elements Î±-helices A B C and Aâ Bâ and Câ 5 are indicated on the y-axis and the simulation time in nanoseconds is indicated on the x-axis. Colour indicate secondary structure elements at a given time point as determined by DSSP classification.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s006.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s007">
+        <label>Figure S7</label>
+        <caption>
+          <p>
+<bold>Inner product of the first 10 eigenvector between 1S35 - NES2SR52-53 (A), 1S35 - NES1 SR70-71 (B) and NES2SR52-53-NES1SR70-71(C).</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s007.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s008">
+        <label>Figure S8</label>
+        <caption>
+          <p>
+<bold>Porcupine plots of the motions corresponding to the first eigenvector of the simulations of NES1SR70-71 (A) and NES2SR52-53 (B).</bold> Each CÎ± atom has a cone attached pointing in the direction of motion described by the eigenvector corresponding to that atom.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s008.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s009">
+        <label>Figure S9</label>
+        <caption>
+          <p>
+<bold>Cladogram of Nesprin-1 SRs assigned by SWISSPROT based on the alignment templates- targets performed with CLUSTALX2 program and web server DrawTree.</bold> The template used for each group of SRs is highlighted on the side.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s009.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s010">
+        <label>Figure S10</label>
+        <caption>
+          <p>
+<bold>Cladogram of Nesprin-1 SRs not assigned by SWISSPROT based on the alignment templates-targets performed with CLUSTALX2 program and web server DrawTree.</bold> The template used for each group of SRs is highlighted on the side.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s010.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s011">
+        <label>Figure S11</label>
+        <caption>
+          <p>
+<bold>Cladogram of Nesprin-2 SRs based on the alignment templates-targets performed with CLUSTALX2 program and web server DrawTree.</bold> The template used for each group of SRs is highlighted on the side.</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s011.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s012">
+        <label>Figure S12</label>
+        <caption>
+          <p>
+<bold>Alignment used to build the models of nesprin-1 (A) and nesprin-2 (B) SRs</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s012.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s013">
+        <label>Table S1</label>
+        <caption>
+          <p>
+<bold>nesprin-1 SRs Z-Score from ProSA <xref rid="pone.0063633-Wiederstein1" ref-type="bibr">[28]</xref> In bolded are higlighed the SR assigned also by Pfam.</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s013.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s014">
+        <label>Table S2</label>
+        <caption>
+          <p>
+<bold>nesprin-2 SRs Z-Score from ProSA <xref rid="pone.0063633-Wiederstein1" ref-type="bibr">[28]</xref> In bolded are higlighed the SR assigned also by Pfam.</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s014.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s015">
+        <label>Table S3</label>
+        <caption>
+          <p>
+<bold>Nesprin1Î± hot spots.</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s015.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0063633.s016">
+        <label>Table S4</label>
+        <caption>
+          <p>
+<bold>Nesprin2Î² hot spots.</bold>
+</p>
+          <p>(PDF)</p>
+        </caption>
+        <media xlink:href="pone.0063633.s016.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0063633-Broderick1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Broderick</surname><given-names>MJF</given-names></name>, <name><surname>Winder</surname><given-names>SJ</given-names></name> (<year>2005</year>) <article-title>Spectrin, alpha-actinin, and dystrophin</article-title>. <source>Adv Protein Chem</source>
+<volume>70</volume>: <fpage>203</fpage>â<lpage>246</lpage>.<pub-id pub-id-type="pmid">15837517</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-DjinovicCarugo1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Djinovic-Carugo</surname><given-names>K</given-names></name>, <name><surname>Gautel</surname><given-names>M</given-names></name>, <name><surname>YlÃ¤nne</surname><given-names>J</given-names></name>, <name><surname>Young</surname><given-names>P</given-names></name> (<year>2002</year>) <article-title>The spectrin repeat: a structural platform for cytoskeletal protein assemblies</article-title>. <source>FEBS letters</source>
+<volume>513</volume>: <fpage>119</fpage>â<lpage>123</lpage>.<pub-id pub-id-type="pmid">11911890</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Pascual1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pascual</surname><given-names>J</given-names></name>, <name><surname>Pfuhl</surname><given-names>M</given-names></name>, <name><surname>Rivas</surname><given-names>G</given-names></name>, <name><surname>Pastore</surname><given-names>a</given-names></name>, <name><surname>Saraste</surname><given-names>M</given-names></name> (<year>1996</year>) <article-title>The spectrin repeat folds into a three-helix bundle in solution</article-title>. <source>FEBS letters</source>
+<volume>383</volume>: <fpage>201</fpage>â<lpage>207</lpage>.<pub-id pub-id-type="pmid">8925896</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Pascual2">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pascual</surname><given-names>J</given-names></name>, <name><surname>Pfuhl</surname><given-names>M</given-names></name>, <name><surname>Walther</surname><given-names>D</given-names></name>, <name><surname>Saraste</surname><given-names>M</given-names></name>, <name><surname>Nilges</surname><given-names>M</given-names></name> (<year>1997</year>) <article-title>Solution structure of the spectrin repeat: a left-handed antiparallel triple-helical coiled-coil</article-title>. <source>J Mol Biol</source>
+<volume>273</volume>: <fpage>740</fpage>â<lpage>751</lpage>.<pub-id pub-id-type="pmid">9356261</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Grum1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Grum</surname><given-names>VL</given-names></name>, <name><surname>Li</surname><given-names>D</given-names></name>, <name><surname>MacDonald</surname><given-names>RI</given-names></name>, <name><surname>MondragÃ³n</surname><given-names>a</given-names></name> (<year>1999</year>) <article-title>Structures of two repeats of spectrin suggest models of flexibility</article-title>. <source>Cell</source>
+<volume>98</volume>: <fpage>523</fpage>â<lpage>535</lpage>.<pub-id pub-id-type="pmid">10481916</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Padmakumar1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Padmakumar</surname><given-names>VC</given-names></name>, <name><surname>Abraham</surname><given-names>S</given-names></name>, <name><surname>Braune</surname><given-names>S</given-names></name>, <name><surname>Noegel</surname><given-names>Aa</given-names></name>, <name><surname>Tunggal</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Enaptin, a giant actin-binding protein, is an element of the nuclear membrane and the actin cytoskeleton</article-title>. <source>Exp Cell Res</source>
+<volume>295</volume>: <fpage>330</fpage>â<lpage>339</lpage>.<pub-id pub-id-type="pmid">15093733</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Rajgor1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rajgor</surname><given-names>D</given-names></name>, <name><surname>Mellad</surname><given-names>JA</given-names></name>, <name><surname>Autore</surname><given-names>F</given-names></name>, <name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Shanahan</surname><given-names>CM</given-names></name> (<year>2012</year>) <article-title>Multiple novel nesprin-1 and nesprin-2 variants act as versatile tissue-specific intracellular scaffolds</article-title>. <source>PLoS One</source>
+<volume>7</volume>: <fpage>e40098</fpage>.<pub-id pub-id-type="pmid">22768332</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Zhang1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Ragnauth</surname><given-names>CD</given-names></name>, <name><surname>Skepper</surname><given-names>JN</given-names></name>, <name><surname>Worth</surname><given-names>NF</given-names></name>, <name><surname>Warren</surname><given-names>DT</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Nesprin-2 is a multi-isomeric protein that binds lamin and emerin at the nuclear envelope and forms a subcellular network in skeletal muscle</article-title>. <source>J Cell Sci</source>
+<volume>118</volume>: <fpage>673</fpage>â<lpage>687</lpage>.<pub-id pub-id-type="pmid">15671068</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Zhang2">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Skepper</surname><given-names>JN</given-names></name>, <name><surname>Yang</surname><given-names>F</given-names></name>, <name><surname>Davies</surname><given-names>JD</given-names></name>, <name><surname>Hegyi</surname><given-names>L</given-names></name>, <etal>et al</etal> (<year>2001</year>) <article-title>Nesprins: a novel family of spectrin-repeat-containing proteins that localize to the nuclear membrane in multiple tissues</article-title>. <source>J Cell Sci</source>
+<volume>114</volume>: <fpage>4485</fpage>â<lpage>4498</lpage>.<pub-id pub-id-type="pmid">11792814</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Libotte1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Libotte</surname><given-names>T</given-names></name>, <name><surname>Zaim</surname><given-names>H</given-names></name>, <name><surname>Abraham</surname><given-names>S</given-names></name>, <name><surname>Padmakumar</surname><given-names>VC</given-names></name>, <name><surname>Schneider</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Lamin A/C â dependent Localization of Nesprin-2, a Giant Scaffolder at the Nuclear Envelope</article-title>. <source>Mol Biol Cell</source>
+<volume>16</volume>: <fpage>3411</fpage>â<lpage>3424</lpage>.<pub-id pub-id-type="pmid">15843432</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Mislow1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mislow</surname><given-names>JMK</given-names></name>, <name><surname>Holaska</surname><given-names>JM</given-names></name>, <name><surname>Kim</surname><given-names>MS</given-names></name>, <name><surname>Lee</surname><given-names>KK</given-names></name>, <name><surname>Segura-Totten</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2002</year>) <article-title>Nesprin-1alpha self-associates and binds directly to emerin and lamin A in vitro</article-title>. <source>FEBS letters</source>
+<volume>525</volume>: <fpage>135</fpage>â<lpage>140</lpage>.<pub-id pub-id-type="pmid">12163176</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Mislow2">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mislow</surname><given-names>JMK</given-names></name>, <name><surname>Kim</surname><given-names>MS</given-names></name>, <name><surname>Davis</surname><given-names>DB</given-names></name>, <name><surname>McNally</surname><given-names>EM</given-names></name> (<year>2002</year>) <article-title>Myne-1, a spectrin repeat transmembrane protein of the myocyte inner nuclear membrane, interacts with lamin A/C</article-title>. <source>J Cell Sci</source>
+<volume>115</volume>: <fpage>61</fpage>â<lpage>70</lpage>.<pub-id pub-id-type="pmid">11801724</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Wheeler1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wheeler</surname><given-names>Ma</given-names></name>, <name><surname>Ellis</surname><given-names>Ja</given-names></name> (<year>2008</year>) <article-title>Molecular signatures of Emery-Dreifuss muscular dystrophy</article-title>. <source>Biochem Soc T</source>
+<volume>36</volume>: <fpage>1354</fpage>â<lpage>1358</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Zhang3">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Bethmann</surname><given-names>C</given-names></name>, <name><surname>Worth</surname><given-names>NF</given-names></name>, <name><surname>Davies</surname><given-names>JD</given-names></name>, <name><surname>Wasner</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Nesprin-1 and -2 are involved in the pathogenesis of Emery Dreifuss muscular dystrophy and are critical for nuclear envelope integrity</article-title>. <source>Hum Mol Genet</source>
+<volume>16</volume>: <fpage>2816</fpage>â<lpage>2833</lpage>.<pub-id pub-id-type="pmid">17761684</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Wheeler2">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wheeler</surname><given-names>Ma</given-names></name>, <name><surname>Davies</surname><given-names>JD</given-names></name>, <name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Emerson</surname><given-names>LJ</given-names></name>, <name><surname>Hunt</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>Distinct functional domains in nesprin-1alpha and nesprin-2beta bind directly to emerin and both interactions are disrupted in X-linked Emery-Dreifuss muscular dystrophy</article-title>. <source>Exp Cell Res</source>
+<volume>313</volume>: <fpage>2845</fpage>â<lpage>2857</lpage>.<pub-id pub-id-type="pmid">17462627</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Amann1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Amann</surname><given-names>KJ</given-names></name>, <name><surname>Guo</surname><given-names>aW</given-names></name>, <name><surname>Ervasti</surname><given-names>JM</given-names></name> (<year>1999</year>) <article-title>Utrophin lacks the rod domain actin binding activity of dystrophin</article-title>. <source>J Biol Chem</source>
+<volume>274</volume>: <fpage>35375</fpage>â<lpage>35380</lpage>.<pub-id pub-id-type="pmid">10585405</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Rybakova1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rybakova</surname><given-names>IN</given-names></name>, <name><surname>Ervasti</surname><given-names>JM</given-names></name> (<year>2005</year>) <article-title>Identification of spectrin-like repeats required for high affinity utrophin-actin interaction</article-title>. <source>J Biol Chem</source>
+<volume>280</volume>: <fpage>23018</fpage>â<lpage>23023</lpage>.<pub-id pub-id-type="pmid">15826935</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Rybakova2">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rybakova</surname><given-names>IN</given-names></name>, <name><surname>Humston</surname><given-names>JL</given-names></name>, <name><surname>Sonnemann</surname><given-names>KJ</given-names></name>, <name><surname>Ervasti</surname><given-names>JM</given-names></name> (<year>2006</year>) <article-title>Dystrophin and utrophin bind actin through distinct modes of contact</article-title>. <source>J Biol Chem</source>
+<volume>281</volume>: <fpage>9996</fpage>â<lpage>10001</lpage>.<pub-id pub-id-type="pmid">16478721</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Simpson1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Simpson</surname><given-names>JG</given-names></name>, <name><surname>Roberts</surname><given-names>RG</given-names></name> (<year>2008</year>) <article-title>Patterns of evolutionary conservation in the nesprin genes highlight probable functionally important protein domains and isoforms</article-title>. <source>Biochem Soc T</source>
+<volume>36</volume>: <fpage>1359</fpage>â<lpage>1367</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Finn1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Finn</surname><given-names>RD</given-names></name>, <name><surname>Tate</surname><given-names>J</given-names></name>, <name><surname>Mistry</surname><given-names>J</given-names></name>, <name><surname>Coggill</surname><given-names>PC</given-names></name>, <name><surname>Sammut</surname><given-names>SJ</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>The Pfam protein families database</article-title>. <source>Nucleic Acids Res</source>
+<volume>36</volume>: <fpage>D281</fpage>â<lpage>288</lpage>.<pub-id pub-id-type="pmid">18039703</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-An1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>An</surname><given-names>X</given-names></name>, <name><surname>Guo</surname><given-names>X</given-names></name>, <name><surname>Zhang</surname><given-names>X</given-names></name>, <name><surname>Baines</surname><given-names>AJ</given-names></name>, <name><surname>Debnath</surname><given-names>G</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Conformational stabilities of the structural repeats of erythroid spectrin and their functional implications</article-title>. <source>J Biol Chem</source>
+<volume>281</volume>: <fpage>10527</fpage>â<lpage>10532</lpage>.<pub-id pub-id-type="pmid">16476728</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-An2">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>An</surname><given-names>X</given-names></name>, <name><surname>Zhang</surname><given-names>X</given-names></name>, <name><surname>Salomao</surname><given-names>M</given-names></name>, <name><surname>Guo</surname><given-names>X</given-names></name>, <name><surname>Yang</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Thermal stabilities of brain spectrin and the constituent repeats of subunits</article-title>. <source>Biochemistry</source>
+<volume>45</volume>: <fpage>13670</fpage>â<lpage>13676</lpage>.<pub-id pub-id-type="pmid">17087521</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Bhasin1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bhasin</surname><given-names>N</given-names></name>, <name><surname>Law</surname><given-names>R</given-names></name>, <name><surname>Liao</surname><given-names>G</given-names></name>, <name><surname>Safer</surname><given-names>D</given-names></name>, <name><surname>Ellmer</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Molecular extensibility of mini-dystrophins and a dystrophin rod construct</article-title>. <source>J Mol Biol</source>
+<volume>352</volume>: <fpage>795</fpage>â<lpage>806</lpage>.<pub-id pub-id-type="pmid">16139300</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-MacDonald1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>MacDonald</surname><given-names>RI</given-names></name>, <name><surname>Cummings</surname><given-names>Ja</given-names></name> (<year>2004</year>) <article-title>Stabilities of folding of clustered, two-repeat fragments of spectrin reveal a potential hinge in the human erythroid spectrin tetramer</article-title>. <source>Proc Natl Acad Sci</source>
+<volume>101</volume>: <fpage>1502</fpage>â<lpage>1507</lpage>.<pub-id pub-id-type="pmid">14747656</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Rost1">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rost</surname><given-names>B</given-names></name> (<year>1999</year>) <article-title>Twilight zone of protein sequence alignments</article-title>. <source>Protein Eng</source>
+<volume>12</volume>: <fpage>85</fpage>â<lpage>94</lpage>.<pub-id pub-id-type="pmid">10195279</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Crooks1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Crooks</surname><given-names>GE</given-names></name>, <name><surname>Hon</surname><given-names>G</given-names></name>, <name><surname>Chandonia</surname><given-names>JM</given-names></name>, <name><surname>Brenner</surname><given-names>SE</given-names></name> (<year>2004</year>) <article-title>WebLogo: a sequence logo generator</article-title>. <source>Genome Res</source>
+<volume>14</volume>: <fpage>1188</fpage>â<lpage>1190</lpage>.<pub-id pub-id-type="pmid">15173120</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Vishwanatha1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Vishwanatha</surname><given-names>KS</given-names></name>, <name><surname>Wang</surname><given-names>YP</given-names></name>, <name><surname>Keutmann</surname><given-names>HT</given-names></name>, <name><surname>Mains</surname><given-names>RE</given-names></name>, <name><surname>Eipper</surname><given-names>BA</given-names></name> (<year>2012</year>) <article-title>Structural organization of the nine spectrin repeats of Kalirin</article-title>. <source>Biochemistry</source>
+<volume>51</volume>: <fpage>5663</fpage>â<lpage>5673</lpage>.<pub-id pub-id-type="pmid">22738176</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Wiederstein1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wiederstein</surname><given-names>M</given-names></name>, <name><surname>Sippl</surname><given-names>MJ</given-names></name> (<year>2007</year>) <article-title>ProSA-web: interactive web service for the recognition of errors in three-dimensional structures of proteins</article-title>. <source>Nucleic Acids Res</source>
+<volume>35</volume>: <fpage>W407</fpage>â<lpage>410</lpage>.<pub-id pub-id-type="pmid">17517781</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Eisenberg1">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Eisenberg</surname><given-names>D</given-names></name>, <name><surname>Luthy</surname><given-names>R</given-names></name>, <name><surname>Bowie</surname><given-names>JU</given-names></name> (<year>1997</year>) <article-title>VERIFY3D: assessment of protein models with three-dimensional profiles</article-title>. <source>Methods Enzymol</source>
+<volume>277</volume>: <fpage>396</fpage>â<lpage>404</lpage>.<pub-id pub-id-type="pmid">9379925</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Ashkenazy1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ashkenazy</surname><given-names>H</given-names></name>, <name><surname>Erez</surname><given-names>E</given-names></name>, <name><surname>Martz</surname><given-names>E</given-names></name>, <name><surname>Pupko</surname><given-names>T</given-names></name>, <name><surname>Ben-Tal</surname><given-names>N</given-names></name> (<year>2010</year>) <article-title>ConSurf 2010: calculating evolutionary conservation in sequence and structure of proteins and nucleic acids</article-title>. <source>Nucleic Acids Res</source>
+<volume>38</volume>: <fpage>W529</fpage>â<lpage>533</lpage>.<pub-id pub-id-type="pmid">20478830</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Laudau1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Laudau</surname><given-names>M</given-names></name>, <name><surname>Mayrose</surname><given-names>I</given-names></name>, <name><surname>Rosenberg</surname><given-names>Y</given-names></name>, <name><surname>Glaser</surname><given-names>F</given-names></name>, <name><surname>Martz</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>ConSurf 2005: the projection of evolutionary conservation scores of residues on protein structures</article-title>. <source>Nucleic Acids Res</source>
+<volume>33</volume>: <fpage>299</fpage>â<lpage>302</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Pare1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pare</surname><given-names>GC</given-names></name>, <name><surname>Easlick</surname><given-names>JL</given-names></name>, <name><surname>Mislow</surname><given-names>JM</given-names></name>, <name><surname>McNally</surname><given-names>EM</given-names></name>, <name><surname>Kapiloff</surname><given-names>MS</given-names></name> (<year>2005</year>) <article-title>Nesprin-1alpha contributes to the targeting of mAKAP to the cardiac myocyte nuclear envelope</article-title>. <source>Exp Cell Res</source>
+<volume>303</volume>: <fpage>388</fpage>â<lpage>399</lpage>.<pub-id pub-id-type="pmid">15652351</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Apel1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Apel</surname><given-names>ED</given-names></name>, <name><surname>Lewis</surname><given-names>RM</given-names></name>, <name><surname>Grady</surname><given-names>RM</given-names></name>, <name><surname>Sanes</surname><given-names>JR</given-names></name> (<year>2000</year>) <article-title>Syne-1, a dystrophin- and Klarsicht-related protein associated with synaptic nuclei at the neuromuscular junction</article-title>. <source>J Biol Chem</source>
+<volume>275</volume>: <fpage>31986</fpage>â<lpage>31995</lpage>.<pub-id pub-id-type="pmid">10878022</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Warren1">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Warren</surname><given-names>DT</given-names></name>, <name><surname>Tajsic</surname><given-names>T</given-names></name>, <name><surname>Mellad</surname><given-names>Ja</given-names></name>, <name><surname>Searles</surname><given-names>R</given-names></name>, <name><surname>Zhang</surname><given-names>Q</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Novel nuclear nesprin-2 variants tether active extracellular signal-regulated MAPK1 and MAPK2 at promyelocytic leukemia protein nuclear bodies and act to regulate smooth muscle cell proliferation</article-title>. <source>J Biol Chem</source>
+<volume>285</volume>: <fpage>1311</fpage>â<lpage>1320</lpage>.<pub-id pub-id-type="pmid">19861416</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Cavallo1">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cavallo</surname><given-names>L</given-names></name>, <name><surname>Kleinjung</surname><given-names>J</given-names></name>, <name><surname>Fraternali</surname><given-names>F</given-names></name> (<year>2003</year>) <article-title>POPS: a fast algorithm for solvent accessible surface areas at atomic and residue level</article-title>. <source>Nucleic Acids Res</source>
+<volume>31</volume>: <fpage>3364</fpage>â<lpage>3366</lpage>.<pub-id pub-id-type="pmid">12824328</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Fraternali1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fraternali</surname><given-names>F</given-names></name>, <name><surname>Cavallo</surname><given-names>L</given-names></name> (<year>2002</year>) <article-title>Parameter optimized surfaces (POPS): analysis of key interactions and conformational changes in the ribosome</article-title>. <source>Nucleic Acids Res</source>
+<volume>30</volume>: <fpage>2950</fpage>â<lpage>2960</lpage>.<pub-id pub-id-type="pmid">12087181</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Kusunoki1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kusunoki</surname><given-names>H</given-names></name>, <name><surname>MacDonald</surname><given-names>RI</given-names></name>, <name><surname>MondragÃ³n</surname><given-names>A</given-names></name> (<year>2004</year>) <article-title>Structural insights into the stability and flexibility of unusual erythroid spectrin repeats</article-title>. <source>Structure</source>
+<volume>12</volume>: <fpage>645</fpage>â<lpage>656</lpage>.<pub-id pub-id-type="pmid">15062087</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Mirijanian1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mirijanian</surname><given-names>DT</given-names></name>, <name><surname>Chu</surname><given-names>J-W</given-names></name>, <name><surname>Ayton</surname><given-names>GS</given-names></name>, <name><surname>Voth</surname><given-names>Ga</given-names></name> (<year>2007</year>) <article-title>Atomistic and coarse-grained analysis of double spectrin repeat units: the molecular origins of flexibility</article-title>. <source>J Mol Biol</source>
+<volume>365</volume>: <fpage>523</fpage>â<lpage>534</lpage>.<pub-id pub-id-type="pmid">17070548</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Amedei1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Amedei</surname><given-names>A</given-names></name>, <name><surname>Linssen</surname><given-names>ABM</given-names></name>, <name><surname>Berendsen</surname><given-names>HJC</given-names></name> (<year>1993</year>) <article-title>Essential Dynamics of Proteins</article-title>. <source>Proteins</source>
+<volume>17</volume>: <fpage>412</fpage>â<lpage>425</lpage>.<pub-id pub-id-type="pmid">8108382</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Golji1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Golji</surname><given-names>J</given-names></name>, <name><surname>Collins</surname><given-names>R</given-names></name>, <name><surname>Mofrad</surname><given-names>MRK</given-names></name> (<year>2009</year>) <article-title>Molecular mechanics of the alpha-actinin rod domain: bending, torsional, and extensional behavior</article-title>. <source>PLoS Comput Biol</source>
+<volume>5</volume>: <fpage>e1000389</fpage>.<pub-id pub-id-type="pmid">19436721</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Ortiz1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ortiz</surname><given-names>V</given-names></name>, <name><surname>Nielsen</surname><given-names>SO</given-names></name>, <name><surname>Klein</surname><given-names>ML</given-names></name>, <name><surname>Discher</surname><given-names>DE</given-names></name> (<year>2005</year>) <article-title>Unfolding a linker between helical repeats</article-title>. <source>J Mol Biol</source>
+<volume>349</volume>: <fpage>638</fpage>â<lpage>647</lpage>.<pub-id pub-id-type="pmid">15896349</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Warren2">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Warren</surname><given-names>DT</given-names></name>, <name><surname>Zhang</surname><given-names>Q</given-names></name>, <name><surname>Weissberg</surname><given-names>PL</given-names></name>, <name><surname>Shanahan</surname><given-names>CM</given-names></name> (<year>2005</year>) <article-title>Nesprins: intracellular scaffolds that maintain cell architecture and coordinate cell function?</article-title>
+<source>Expert Rev Mol Med</source>
+<volume>7</volume>: <fpage>1</fpage>â<lpage>15</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Altschul1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Altschul</surname><given-names>SF</given-names></name>, <name><surname>Gish</surname><given-names>W</given-names></name>, <name><surname>Miller</surname><given-names>W</given-names></name>, <name><surname>Myers</surname><given-names>EW</given-names></name>, <name><surname>Lipman</surname><given-names>DJ</given-names></name> (<year>1990</year>) <article-title>Basic local alignment search tool</article-title>. <source>J Mol Biol</source>
+<volume>215</volume>: <fpage>403</fpage>â<lpage>410</lpage>.<pub-id pub-id-type="pmid">2231712</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Murzin1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Murzin</surname><given-names>aG</given-names></name>, <name><surname>Brenner</surname><given-names>SE</given-names></name>, <name><surname>Hubbard</surname><given-names>T</given-names></name>, <name><surname>Chothia</surname><given-names>C</given-names></name> (<year>1995</year>) <article-title>SCOP: a structural classification of proteins database for the investigation of sequences and structures</article-title>. <source>J Mol Biol</source>
+<volume>247</volume>: <fpage>536</fpage>â<lpage>540</lpage>.<pub-id pub-id-type="pmid">7723011</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Schneider1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Schneider</surname><given-names>M</given-names></name>, <name><surname>Tognolli</surname><given-names>M</given-names></name>, <name><surname>Bairoch</surname><given-names>A</given-names></name> (<year>2004</year>) <article-title>The Swiss-Prot protein knowledgebase and ExPASy: providing the plant community with high quality proteomic data and tools</article-title>. <source>Plant physiology and biochemistry: PPB/SociÃ©tÃ© franÃ§aise de physiologie vÃ©gÃ©tale</source>
+<volume>42</volume>: <fpage>1013</fpage>â<lpage>1021</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Eddy1">
+        <label>46</label>
+        <mixed-citation publication-type="book">Eddy SR (1998) Profile hidden Markov models. Imagine: 755-763.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Lupyan1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lupyan</surname><given-names>D</given-names></name>, <name><surname>Leo-Macias</surname><given-names>A</given-names></name>, <name><surname>Ortiz</surname><given-names>AR</given-names></name> (<year>2005</year>) <article-title>A new progressive-iterative algorithm for multiple structure alignment</article-title>. <source>Bioinformatics</source>
+<volume>21</volume>: <fpage>3255</fpage>â<lpage>3263</lpage>.<pub-id pub-id-type="pmid">15941743</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-OSullivan1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<name><surname>O'Sullivan</surname><given-names>O</given-names></name>, <name><surname>Suhre</surname><given-names>K</given-names></name>, <name><surname>Abergel</surname><given-names>C</given-names></name>, <name><surname>Higgins</surname><given-names>DG</given-names></name>, <name><surname>Notredame</surname><given-names>C</given-names></name> (<year>2004</year>) <article-title>3DCoffee: combining protein sequences and structures within multiple sequence alignments</article-title>. <source>J Mol Biol</source>
+<volume>340</volume>: <fpage>385</fpage>â<lpage>395</lpage>.<pub-id pub-id-type="pmid">15201059</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Thompson1">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Thompson</surname><given-names>JD</given-names></name>, <name><surname>Gibson</surname><given-names>TJ</given-names></name>, <name><surname>Plewniak</surname><given-names>F</given-names></name>, <name><surname>Jeanmougin</surname><given-names>F</given-names></name>, <name><surname>Higgins</surname><given-names>DG</given-names></name> (<year>1997</year>) <article-title>The CLUSTAL_X windows interface: flexible strategies for multiple sequence alignment aided by quality analysis tools</article-title>. <source>Nucleic Acids Res</source>
+<volume>25</volume>: <fpage>4876</fpage>â<lpage>4882</lpage>.<pub-id pub-id-type="pmid">9396791</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Sali1">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sali</surname><given-names>A</given-names></name>, <name><surname>Blundell</surname><given-names>TL</given-names></name> (<year>1993</year>) <article-title>Comparative protein modelling by satisfaction of spatial restraints</article-title>. <source>J Mol Biol</source>
+<volume>234</volume>: <fpage>779</fpage>â<lpage>815</lpage>.<pub-id pub-id-type="pmid">8254673</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Kabsch1">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kabsch</surname><given-names>WCS</given-names></name> (<year>1983</year>) <article-title>Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features</article-title>. <source>Biopolymers</source>
+<volume>22</volume>: <fpage>2577</fpage>â<lpage>2637</lpage>.<pub-id pub-id-type="pmid">6667333</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-VanDerSpoel1">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Van Der Spoel</surname><given-names>D</given-names></name>, <name><surname>Lindahl</surname><given-names>E</given-names></name>, <name><surname>Hess</surname><given-names>B</given-names></name>, <name><surname>Groenhof</surname><given-names>G</given-names></name>, <name><surname>Mark</surname><given-names>AE</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>GROMACS: fast, flexible, and free</article-title>. <source>J Comput Chem</source>
+<volume>26</volume>: <fpage>1701</fpage>â<lpage>1718</lpage>.<pub-id pub-id-type="pmid">16211538</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Oostenbrink1">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Oostenbrink</surname><given-names>C</given-names></name>, <name><surname>Villa</surname><given-names>A</given-names></name>, <name><surname>Mark</surname><given-names>AE</given-names></name>, <name><surname>van Gunsteren</surname><given-names>WF</given-names></name> (<year>2004</year>) <article-title>A biomolecular force field based on the free enthalpy of hydration and solvation: the GROMOS force-field parameter sets 53A5 and 53A6</article-title>. <source>J Comput Chem</source>
+<volume>25</volume>: <fpage>1656</fpage>â<lpage>1676</lpage>.<pub-id pub-id-type="pmid">15264259</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Berendsen1">
+        <label>54</label>
+        <mixed-citation publication-type="book">Berendsen HJC, Postma JPM, van Gunsteren WF, Hermans J (1981) Interaction models for water in relation to protein hydration. In: Pullman B, editor. pp. 331-342.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Berendsen2">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Berendsen</surname><given-names>HJC</given-names></name>, <name><surname>Postma</surname><given-names>JPM</given-names></name>, <name><surname>van Gunsteren</surname><given-names>WF</given-names></name>, <name><surname>Dinola</surname><given-names>A</given-names></name>, <name><surname>Haak</surname><given-names>JR</given-names></name> (<year>1984</year>) <article-title>Molecular dynamics with coupling to an external bath</article-title>. <source>J Chem Phys</source>
+<volume>81</volume>: <fpage>3684</fpage>â<lpage>3690</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Darden1">
+        <label>56</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Darden</surname><given-names>T</given-names></name>, <name><surname>Perera</surname><given-names>L</given-names></name>, <name><surname>Li</surname><given-names>L</given-names></name>, <name><surname>Pedersen</surname><given-names>L</given-names></name> (<year>1999</year>) <article-title>New tricks for modelers from the crystallography toolkit: the particle mesh Ewald algorithm and its use in nucleic acid simulations</article-title>. <source>Structure</source>
+<volume>7</volume>: <fpage>55</fpage>â<lpage>60</lpage>.<pub-id pub-id-type="pmid">10368273</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Humphrey1">
+        <label>57</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Humphrey</surname><given-names>W</given-names></name>, <name><surname>Dalke</surname><given-names>A</given-names></name>, <name><surname>Schulten</surname><given-names>K</given-names></name> (<year>1996</year>) <article-title>VMD - Visual Molecular Dynamics</article-title>. <source>J Molec Graphics</source>
+<volume>14</volume>: <fpage>33</fpage>â<lpage>38</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Fogl1">
+        <label>58</label>
+        <mixed-citation publication-type="book">Fogl C, Puckey L, Hinssen U, Zaleska M, El-Mezgueldi M, et al.. (2011) A structural and functional dissection of the cardiac stress response factor MS1. Proteins.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Piotto1">
+        <label>59</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Piotto</surname><given-names>M</given-names></name>, <name><surname>Saudek</surname><given-names>V</given-names></name>, <name><surname>Sklenar</surname><given-names>V</given-names></name> (<year>1992</year>) <article-title>Gradient-tailored excitation for single-quantum NMR spectroscopy of aqueous solutions</article-title>. <source>J Biomol NMR</source>
+<volume>2</volume>: <fpage>661</fpage>â<lpage>665</lpage>.<pub-id pub-id-type="pmid">1490109</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Schroder1">
+        <label>60</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Schroder</surname><given-names>S</given-names></name>, <name><surname>Fraternali</surname><given-names>F</given-names></name>, <name><surname>Quan</surname><given-names>X</given-names></name>, <name><surname>Scott</surname><given-names>D</given-names></name>, <name><surname>Qian</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>When a module is not a domain: the case of the REJ module and the redefinition of the architecture of polycystin-1</article-title>. <source>Biochem J</source>
+<volume>435</volume>: <fpage>651</fpage>â<lpage>660</lpage>.<pub-id pub-id-type="pmid">21314639</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Jerschow1">
+        <label>61</label>
+        <mixed-citation publication-type="book">Jerschow A, Muller N (1997) Suppression of Convection Artifacts in Stimulated-Echo Diffusion Experiments. Double-Stimulated-Echo Experiments. J Magn Reson 125.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Ylanne1">
+        <label>62</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ylanne</surname><given-names>J</given-names></name>, <name><surname>Scheffzek</surname><given-names>K</given-names></name>, <name><surname>Young</surname><given-names>P</given-names></name>, <name><surname>Saraste</surname><given-names>M</given-names></name> (<year>2001</year>) <article-title>Crystal structure of the alpha-actinin rod reveals an extensive torsional twist</article-title>. <source>Structure</source>
+<volume>9</volume>: <fpage>597</fpage>â<lpage>604</lpage>.<pub-id pub-id-type="pmid">11470434</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Liu1">
+        <label>63</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Liu</surname><given-names>J</given-names></name>, <name><surname>Taylor</surname><given-names>DW</given-names></name>, <name><surname>Taylor</surname><given-names>KA</given-names></name> (<year>2004</year>) <article-title>A 3-D reconstruction of smooth muscle alpha-actinin by CryoEm reveals two different conformations at the actin-binding region</article-title>. <source>J Mol Biol</source>
+<volume>338</volume>: <fpage>115</fpage>â<lpage>125</lpage>.<pub-id pub-id-type="pmid">15050827</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-DjinovicCarugo2">
+        <label>64</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Djinovic-Carugo</surname><given-names>K</given-names></name>, <name><surname>Young</surname><given-names>P</given-names></name>, <name><surname>Gautel</surname><given-names>M</given-names></name>, <name><surname>Saraste</surname><given-names>M</given-names></name> (<year>1999</year>) <article-title>Structure of the alpha-actinin rod: molecular basis for cross-linking of actin filaments</article-title>. <source>Cell</source>
+<volume>98</volume>: <fpage>537</fpage>â<lpage>546</lpage>.<pub-id pub-id-type="pmid">10481917</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Kowalski1">
+        <label>65</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kowalski</surname><given-names>K</given-names></name>, <name><surname>Merkel</surname><given-names>AL</given-names></name>, <name><surname>Booker</surname><given-names>GW</given-names></name> (<year>2004</year>) <article-title>1H, 13C and 15N resonance assignments of the third spectrin repeat of alpha-actinin-4</article-title>. <source>J Biomol NMR</source>
+<volume>29</volume>: <fpage>533</fpage>â<lpage>534</lpage>.<pub-id pub-id-type="pmid">15243185</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Kusunoki2">
+        <label>66</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kusunoki</surname><given-names>H</given-names></name>, <name><surname>Minasov</surname><given-names>G</given-names></name>, <name><surname>Macdonald</surname><given-names>RI</given-names></name>, <name><surname>MondragÃ³n</surname><given-names>A</given-names></name> (<year>2004</year>) <article-title>Independent movement, dimerization and stability of tandem repeats of chicken brain alpha-spectrin</article-title>. <source>J Mol Biol</source>
+<volume>344</volume>: <fpage>495</fpage>â<lpage>511</lpage>.<pub-id pub-id-type="pmid">15522301</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Park1">
+        <label>67</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Park</surname><given-names>S</given-names></name>, <name><surname>Caffrey</surname><given-names>MS</given-names></name>, <name><surname>Johnson</surname><given-names>ME</given-names></name>, <name><surname>Fung</surname><given-names>LW</given-names></name> (<year>2003</year>) <article-title>Solution structural studies on human erythrocyte alpha-spectrin tetramerization site</article-title>. <source>J Biol Chem</source>
+<volume>278</volume>: <fpage>21837</fpage>â<lpage>21844</lpage>.<pub-id pub-id-type="pmid">12672815</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Vorobiev1">
+        <label>68</label>
+        <mixed-citation publication-type="book">Vorobiev SM, Su M, Seetharaman J, Shastry R, Foote EL, et al.. (2008) Crystal structure of the human brain alpha spectrin repeats 15 and 16. Northeast Structural Genomics Consortium target HR5563a.</mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Yan1">
+        <label>69</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yan</surname><given-names>Y</given-names></name>, <name><surname>Winograd</surname><given-names>E</given-names></name>, <name><surname>Viel</surname><given-names>A</given-names></name>, <name><surname>Cronin</surname><given-names>T</given-names></name>, <name><surname>Harrison</surname><given-names>SC</given-names></name>, <etal>et al</etal> (<year>1993</year>) <article-title>Crystal structure of the repetitive segments of spectrin</article-title>. <source>Science</source>
+<volume>262</volume>: <fpage>2027</fpage>â<lpage>2030</lpage>.<pub-id pub-id-type="pmid">8266097</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Ipsaro1">
+        <label>70</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ipsaro</surname><given-names>JJ</given-names></name>, <name><surname>Harper</surname><given-names>SL</given-names></name>, <name><surname>Messick</surname><given-names>TE</given-names></name>, <name><surname>Marmorstein</surname><given-names>R</given-names></name>, <name><surname>MondragÃ³n</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Crystal structure and functional interpretation of the erythrocyte spectrin tetramerization domain complex</article-title>. <source>Blood</source>
+<volume>115</volume>: <fpage>4843</fpage>â<lpage>4852</lpage>.<pub-id pub-id-type="pmid">20197550</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Stabach1">
+        <label>71</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stabach</surname><given-names>PR</given-names></name>, <name><surname>Simonovic</surname><given-names>I</given-names></name>, <name><surname>Ranieri</surname><given-names>MA</given-names></name>, <name><surname>Aboodi</surname><given-names>MS</given-names></name>, <name><surname>Steitz</surname><given-names>TA</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>The structure of the ankyrin-binding site of beta-spectrin reveals how tandem spectrin-repeats generate unique ligand-binding properties</article-title>. <source>Blood</source>
+<volume>113</volume>: <fpage>5377</fpage>â<lpage>5384</lpage>.<pub-id pub-id-type="pmid">19168783</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0063633-Davis1">
+        <label>72</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Davis</surname><given-names>L</given-names></name>, <name><surname>Abdi</surname><given-names>K</given-names></name>, <name><surname>Machius</surname><given-names>M</given-names></name>, <name><surname>Brautigam</surname><given-names>C</given-names></name>, <name><surname>Tomchick</surname><given-names>DR</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>Localization and structure of the ankyrin-binding site on beta2-spectrin</article-title>. <source>J Biol Chem</source>
+<volume>284</volume>: <fpage>6982</fpage>â<lpage>6987</lpage>.<pub-id pub-id-type="pmid">19098307</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

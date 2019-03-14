@@ -1,0 +1,669 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:57:34Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4510653" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4510653</identifier><datestamp>2015-07-28</datestamp><setSpec>npgopen</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nat Commun</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat Commun</journal-id>
+      <journal-title-group>
+        <journal-title>Nature Communications</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">2041-1723</issn>
+      <publisher>
+        <publisher-name>Nature Pub. Group</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4510653</article-id>
+      <article-id pub-id-type="pmcid">PMC4510653</article-id>
+      <article-id pub-id-type="pmc-uid">4510653</article-id>
+      <article-id pub-id-type="pmid">26158630</article-id>
+      <article-id pub-id-type="pii">ncomms8679</article-id>
+      <article-id pub-id-type="doi">10.1038/ncomms8679</article-id>
+      <article-id pub-id-type="pmid">26158630</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Crucial roles of RSK in cell motility by catalysing serine phosphorylation of EphA2</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Yue</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yamada</surname>
+            <given-names>Naoki</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Tanaka</surname>
+            <given-names>Tomohiro</given-names>
+          </name>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hori</surname>
+            <given-names>Takashi</given-names>
+          </name>
+          <xref ref-type="aff" rid="a2">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yokoyama</surname>
+            <given-names>Satoru</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hayakawa</surname>
+            <given-names>Yoshihiro</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yano</surname>
+            <given-names>Seiji</given-names>
+          </name>
+          <xref ref-type="aff" rid="a4">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fukuoka</surname>
+            <given-names>Junya</given-names>
+          </name>
+          <xref ref-type="aff" rid="a5">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Koizumi</surname>
+            <given-names>Keiichi</given-names>
+          </name>
+          <xref ref-type="aff" rid="a6">6</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saiki</surname>
+            <given-names>Ikuo</given-names>
+          </name>
+          <xref ref-type="aff" rid="a3">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sakurai</surname>
+            <given-names>Hiroaki</given-names>
+          </name>
+          <xref ref-type="corresp" rid="c1">a</xref>
+          <xref ref-type="aff" rid="a1">1</xref>
+        </contrib>
+        <aff id="a1"><label>1</label><institution>Department of Cancer Cell Biology, Graduate School of Medicine and Pharmaceutical Sciences, University of Toyama</institution>, Toyama 930-0194, <country>Japan</country></aff>
+        <aff id="a2"><label>2</label><institution>Department of Diagnostic Pathology, Toyama University Hospital</institution>, Toyama 930-0194, <country>Japan</country></aff>
+        <aff id="a3"><label>3</label><institution>Division of Pathogenic Biochemistry, Institute of Natural Medicine, University of Toyama</institution>, Toyama 930-0194, <country>Japan</country></aff>
+        <aff id="a4"><label>4</label><institution>Division of Medical Oncology, Cancer Research Institute, Kanazawa University</institution>, Kanazawa 920-8641, <country>Japan</country></aff>
+        <aff id="a5"><label>5</label><institution>Department of Pathology, Nagasaki University Graduate School of Biomedical Sciences</institution>, Nagasaki 852-8501, <country>Japan</country></aff>
+        <aff id="a6"><label>6</label><institution>Division of Kampo Diagnostics, Institute of Natural Medicine, University of Toyama</institution> 930-0194, Toyama, <country>Japan</country></aff>
+      </contrib-group>
+      <author-notes>
+        <corresp id="c1">
+          <label>a</label>
+          <email>hsakurai@pha.u-toyama.ac.jp</email>
+        </corresp>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>09</day>
+        <month>07</month>
+        <year>2015</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2015</year>
+      </pub-date>
+      <volume>6</volume>
+      <elocation-id>7679</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>06</day>
+          <month>01</month>
+          <year>2015</year>
+        </date>
+        <date date-type="accepted">
+          <day>31</day>
+          <month>05</month>
+          <year>2015</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â© 2015, Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-statement>
+        <copyright-year>2015</copyright-year>
+        <copyright-holder>Nature Publishing Group, a division of Macmillan Publishers Limited. All Rights Reserved.</copyright-holder>
+        <license license-type="open-access" xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <!--author-paid-->
+          <license-p>This work is licensed under a Creative Commons Attribution 4.0 International License. The images or other third party material in this article are included in the article's Creative Commons license, unless indicated otherwise in the credit line; if the material is not included under the Creative Commons license, users will need to obtain permission from the license holder to reproduce the material. To view a copy of this license, visit <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">http://creativecommons.org/licenses/by/4.0/</ext-link></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Crosstalk between inflammatory signalling pathways and receptor tyrosine kinases has been revealed as an indicator of cancer malignant progression. In the present study, we focus on EphA2 receptor tyrosine kinase, which is overexpressed in many human cancers. It has been reported that ligand-independent phosphorylation of EphA2 at Ser-897 is induced by Akt. We show that inflammatory cytokines promote RSK-, not Akt-, dependent phosphorylation of EphA2 at Ser-897. In addition, the RSKâEphA2 signalling pathway controls cell migration and invasion of metastatic breast cancer cells. Moreover, Ser-897-phosphorylated EphA2 co-localizes with phosphorylated active form of RSK in various human tumour specimens, and this double positivity is related to poor survival in lung cancer patients, especially those with a smoking history. Taken together, these results indicate that the phosphorylation of EphA2 at Ser-897 is controlled by RSK and the RSKâEphA2 axis might contribute to cell motility and promote tumour malignant progression.</p>
+      </abstract>
+      <abstract abstract-type="web-summary">
+        <p>
+<inline-graphic id="i1" xlink:href="ncomms8679-i1.jpg"/>The EphA2 receptor tyrosine kinase is overexpressed in many cancers and is reported to be phosphorylated by Akt. Here, Zhou <italic>et al.</italic> show that RSK, rather than Akt, phosphorylates EphA2 on Ser-897, and this regulates cell migration and invasion of metastatic cancer cells.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p>Receptor tyrosine kinases (RTKs) play central roles in human tumorigenesis and malignant progression<xref ref-type="bibr" rid="b1">1</xref><xref ref-type="bibr" rid="b2">2</xref>. EphA2, which belongs to the largest Eph subfamily among RTKs, regulates tissue development and maintains epithelial tissue homeostasis<xref ref-type="bibr" rid="b3">3</xref><xref ref-type="bibr" rid="b4">4</xref>. Overexpression of EphA2 is one of the prognostic factors in progressive tumours, including lung, breast, brain, ovarian, melanoma, prostate and urinary bladder cancers. EphA2 expression correlates with cancer metastasis, promotion of epithelialâmesenchymal transition (EMT) and maintenance of cancer stem cell properties<xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b5">5</xref><xref ref-type="bibr" rid="b6">6</xref><xref ref-type="bibr" rid="b7">7</xref>. An EphA2 tyrosine kinase inhibitor has been shown to induce tumour regression in human non-small cell lung cancer (NSCLC) xenografts <italic>in vivo</italic>, indicating that EphA2 is a promising molecular target in cancer therapy<xref ref-type="bibr" rid="b8">8</xref>. However, comprehensive mechanisms for receptor function remain poorly understood.</p>
+    <p>RTKs are normally activated through their own tyrosine kinase activity<xref ref-type="bibr" rid="b9">9</xref>. In addition to this classical activation model, it has become evident that the phosphorylation of serine and threonine residues plays key roles in ligand-controlled and ligand-independent functions of RTKs<xref ref-type="bibr" rid="b10">10</xref><xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b13">13</xref><xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b16">16</xref>. We have reported that tumour necrosis factor-Î± (TNF-Î±) induces the phosphorylation of epidermal growth factor receptor (EGFR) at Thr-669 in the juxtamembrane domain and Ser-1046/7 in the carboxy (C)-terminal tail through extracellular signal-regulated kinase (ERK) and p38 pathways, respectively<xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b13">13</xref>. Ser-1046/7 is involved in clathrin-mediated endocytosis of EGFR and Thr-669 phosphorylation causes negative feedback regulation of its tyrosine kinase. Similarly, three serine residues in the C-tail of fibroblast growth factor receptor 1 are phosphorylated by ERK, protein kinase CÉ (PKCÉ) and p90 ribosomal S6 kinase 2 (RSK2), which are critical for negative feedback regulation and endocytosis of the receptor<xref ref-type="bibr" rid="b14">14</xref><xref ref-type="bibr" rid="b15">15</xref><xref ref-type="bibr" rid="b16">16</xref>. Hence, study on serine/threonine phosphorylation is essential to understand fully the roles of RTKs in pathogenic alterations of cancers, but we are still far from clarifying the whole picture.</p>
+    <p>Recently, increasing evidence has shown that upregulation of EphA2 along with downregulation of its ligands, including ephrin-A1, disrupts orderly epithelial adhesion of cancer cells, suggesting ligand-independent functions of EphA2 in tumour microenvironments<xref ref-type="bibr" rid="b4">4</xref><xref ref-type="bibr" rid="b17">17</xref>. Indeed, Miao <italic>et al.</italic><xref ref-type="bibr" rid="b18">18</xref> demonstrated an alternative function of EphA2, in which ligand-independent Akt phosphorylation of EphA2 at Ser-897 promotes growth factor-induced cell polarization, lamellipodium protrusion and cell migration, and is correlated with the tumour grade of human astrocytoma. In contrast, ligand-dependent EphA2 tyrosine kinase activation inhibited cell migration and invasion. A large number of serine and threonine residues capable of being phosphorylated have been identified by mass spectral analysis<xref ref-type="bibr" rid="b19">19</xref>; therefore, further characterization of EphA2 phosphorylation is essential for understanding the ligand-independent functions of EphA2 in cancer cells.</p>
+    <p>In the present study, we try to determine whether an inflammatory cytokine promotes EphA2 phosphorylation at Ser-897. We show that TNF-Î± induces Ser-897 phosphorylation, but, unexpectedly, it is directly regulated by the ERKâRSK signalling pathway, but not by the PI3KâAkt pathway. Therefore, we further characterize activation of the RSKâEphA2 pathway by other factors activating ERK and their roles in regulating the cell motility of human cancer cells. Furthermore, we investigate the relationship between this pathway and clinical outcomes using human lung cancer tissue specimens.</p>
+    <sec disp-level="1" sec-type="results">
+      <title>Results</title>
+      <sec disp-level="2">
+        <title>Phosphorylation of EphA2 at Ser-897 is induced by TNF-Î±</title>
+        <p>In our previous studies, we detected TNF-Î±-induced Ser/Thr phosphorylation of EGFR<xref ref-type="bibr" rid="b12">12</xref>. To determine whether TNF-Î± also induces the phosphorylation of EphA2, Zn<sup>2+</sup>-Phos-tag SDSâpolyacrylamide gel electrophoresis (SDSâPAGE)<xref ref-type="bibr" rid="b20">20</xref> that is an approach for the detection and separation of phosphorylated proteins, was used (<xref ref-type="fig" rid="f1">Fig. 1a</xref>). First, we analysed the phosphorylation of EphA2 and EGFR in HeLa cells using Phos-tag SDSâPAGE. Several shifted bands of EGFR were clearly detected upon TNF-Î± stimulation, indicating different phosphorylation states. Similarly, but slightly delayed, two major shifted bands of EphA2 were observed. These results indicate that, in parallel with EGFR phosphorylation, EphA2 is targeted by an inflammatory signalling pathway. We next used phospho-Ser-897 EphA2 (pS-EphA2) antibody and phospho-Tyr-588 EphA2 (pY-EphA2) antibody in Phos-tag SDSâPAGE (<xref ref-type="fig" rid="f1">Fig. 1b</xref>). Upon stimulation with TNF-Î±, pS-EphA2 antibody recognized two major bands that showed similar gel retardation in the total EphA2 blot, whereas no band with a similar shift appeared in the pY-EphA2 blot.</p>
+        <p>In normal SDSâPAGE, TNF-Î± and ephrin-A1 selectively induced pS-EphA2 and pY-EphA2, respectively (<xref ref-type="fig" rid="f1">Fig. 1c</xref>). Selectivity of pS-EphA2 antibody to the phosphorylation of Ser-897 was confirmed in HEK293 cells expressing Ser-897 to Ala substitution mutant EphA2 (SA) (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1a</xref>). Moreover, pY-EphA2 was not induced until 60âmin after TNF-Î± stimulation, although pS-EphA2 was promoted from 10âmin and largely reduced at 60âmin (<xref ref-type="fig" rid="f1">Fig. 1d</xref>). This time course was similar to that of the phosphorylation of EGFR at Thr-669 and Ser-1046/7 (<xref ref-type="fig" rid="f1">Fig. 1d</xref>). In addition, TNF-Î± and interleukin-1Î² (IL-1Î²) induced pS-EphA2 in human lung adenocarcinoma A549 cells (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 1b</xref>). We previously demonstrated that TNF-Î± promotes EGFR endocytosis in a p38-dependent manner<xref ref-type="bibr" rid="b11">11</xref><xref ref-type="bibr" rid="b12">12</xref>. Immunofluorescence analysis demonstrated that EphA2 was not internalized and pS-EphA2 was localized on the cell surface (<xref ref-type="fig" rid="f1">Fig. 1e</xref>). Altogether, our results clearly demonstrated that TNF-Î± induces the phosphorylation of EphA2 at Ser-897 in a tyrosine kinase activity-independent manner.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Akt does not control Ser-897 phosphorylation of EphA2</title>
+        <p>Miao <italic>et al.</italic><xref ref-type="bibr" rid="b18">18</xref> previously reported that Akt directly induces EphA2 phosphorylation at Ser-897 in glioma cells. Consequently, we investigated whether Akt is also involved in pS-EphA2 in HeLa cells. Cells were pre-incubated with PI3K inhibitor (LY294002) or an allosteric Akt inhibitor (MK-2206) for 30âmin and then stimulated with TNF-Î± for 20âmin (<xref ref-type="fig" rid="f2">Fig. 2a</xref>). Unexpectedly, pS-EphA2 was not inhibited by these inhibitors, while Akt phosphorylation was significantly inhibited. We also confirmed these results using immunofluorescence analysis (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2a</xref>). As used by Miao <italic>et al.</italic>, we next attempted to evaluate pS-EphA2 in T98G human glioblastoma cells stimulated with TNF-Î± or FCS (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2b</xref>). As shown in <xref ref-type="fig" rid="f2">Fig. 2b</xref>, MK-2206 and LY294002 abolished pS-EphA2 in neither TNF-Î± stimulation nor FCS stimulation. Moreover, constitutively present pS-EphA2 in MDA-MB-231 human breast cancer cells harbouring <italic>KRAS</italic> and <italic>BRAF</italic> mutations and Panc-1 human pancreatic cancer cells carrying <italic>KRAS</italic> mutation was also resistant to PI3K inhibition (<xref ref-type="fig" rid="f2">Fig. 2c</xref>). Collectively, these results demonstrate that the phosphorylation of EphA2 at Ser-897 is not catalysed by Akt.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>TAK1 controls TNF-Î±-induced phosphorylation of EphA2</title>
+        <p>The results for the PI3KâAkt pathway as shown above are reasonable because we detected only slight activation of Akt in TNF-Î±-treated HeLa cells (<xref ref-type="fig" rid="f2">Fig. 2a</xref>). By contrast, transforming growth factor-Î²-activated kinase 1 (TAK1) is a key kinase in the TNF-Î± and IL-1Î² signalling pathway leading to MAPK and NF-ÎºB activation<xref ref-type="bibr" rid="b21">21</xref>. RNAi knockdown experiments using shRNA or siRNA against TAK1 demonstrated that TAK1 is essential for TNF-Î±-induced pS-EphA2 (<xref ref-type="fig" rid="f2">Fig. 2d,e</xref>). In addition, overexpression of EphA2 with activated TAK1 in HeLa cells caused an increase in EphA2 phosphorylation (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2c</xref>). These results indicate that EphA2 is phosphorylated by downstream kinases of TAK1.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RSK inhibitor blocks phosphorylation of EphA2 at Ser-897</title>
+        <p>To identify the kinases responsible for pS-EphA2, we obtained the substrate sequence LOGO of Ser/Thr kinases from the PhosphoSitePlus database ( <ext-link ext-link-type="uri" xlink:href="http://www.phosphosite.org/homeAction.do">http://www.phosphosite.org/homeAction.do</ext-link>)<xref ref-type="bibr" rid="b19">19</xref>. Among Ser/Thr kinases, the LOGOs of RSK1 and RSK2, downstream kinases of ERK, are similar to that of Akt. Akt and RSKs are members of the AGC family kinases that share substrate specificity characterized by Arg at position -3 relative to the phosphorylated Ser/Thr<xref ref-type="bibr" rid="b19">19</xref><xref ref-type="bibr" rid="b22">22</xref><xref ref-type="bibr" rid="b23">23</xref>; therefore, we next qualified RSK as a putative candidate for the kinase responsible for Ser-897 phosphorylation. As shown in <xref ref-type="fig" rid="f3">Fig. 3a</xref>, TNF-Î±-induced pS-EphA2 was induced from 8âmin, peaked at 14âmin and was then gradually downregulated, which closely correlated with the time course of pRSK. Pretreatment with MEK inhibitor (U0126) or RSK inhibitor (BI-D1870) abrogated the appearance of shifted bands in Phos-tag SDSâPAGE and pS-EphA2 in normal SDSâPAGE as well as pS-EphA2 staining in immunofluorescence, suggesting that the ERKâRSK pathway controls pS-EphA2 (<xref ref-type="fig" rid="f3">Fig. 3b,c</xref>, and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3a</xref>). We previously demonstrated that Thr-669 phosphorylation of EGFR is also induced by the ERK pathway<xref ref-type="bibr" rid="b12">12</xref><xref ref-type="bibr" rid="b13">13</xref>; however, it was inhibited by U0126 but not by BI-D1870 (<xref ref-type="fig" rid="f3">Fig. 3c</xref>), indicating that different kinases in the ERK pathway control pS-EphA2 and pT-EGFR. Moreover, we tried to examine the effects of various other stimuli that activate RSK, including high osmotic stress (0.3âM NaCl), 12-<italic>o</italic>-tetradecanoylphorbol 13-acetate (TPA) and EGF. As expected, pS-EphA2 was strongly induced by all of these agents and it was inhibited by BI-D1870, but not by LY294002 (<xref ref-type="fig" rid="f3">Fig. 3d</xref>). U0126 and BI-D1870 also blocked EphA2 phosphorylation in TNF-Î±-stimulated A549 cells (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3b</xref>), in FCS- or TNF-Î±-stimulated T98G and U-87 MG cells (<xref ref-type="fig" rid="f3">Fig. 3e</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3c</xref>) and in MDA-MB-231 and Panc-1 cells (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3d</xref>). BI-D1870 enhanced phosphorylation of RSK in some cell lines, including T98G and MDA-MB-231 cells (<xref ref-type="fig" rid="f3">Fig. 3e</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3d</xref>), possibly due to inhibition of the downstream negative feedback regulation<xref ref-type="bibr" rid="b24">24</xref>. However, phosphorylation of Bad at Ser-112, an RSK substrate<xref ref-type="bibr" rid="b25">25</xref>, was inhibited, indicating that BI-D1870 substantially inhibited RSK kinase activity (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 3e</xref>). Collectively, these results demonstrate that the phosphorylation of EphA2 at Ser-897 is induced by RSK or its downstream kinases.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>EphA2 at Ser-897 is directly phosphorylated by RSK</title>
+        <p>To identify RSK as the kinase responsible for pS-EphA2, HEK293 cells were transfected with EphA2 and RSK1. Coexpression of EphA2 with RSK1 induced Ser-897 phosphorylation of wild-type EphA2 but not its SA mutant (<xref ref-type="fig" rid="f4">Fig. 4a</xref>). Activation of TAK1 caused RSK phosphorylation as well as pS-EphA2 (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 2c</xref>). In addition, constitutively active RSK1 but not kinase-dead RSK1 induced pS-EphA2, indicating that the kinase activity of RSK1 is indispensable for pS-EphA2 (<xref ref-type="fig" rid="f4">Fig. 4b</xref>).</p>
+        <p>Among the four members of the RSK family, RSK1 and RSK2 are major isoforms involved in cancer metastasis and EMT<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b27">27</xref>; therefore, we carried out an RNAi experiment on RSK1 and RSK2. As shown in <xref ref-type="fig" rid="f4">Fig. 4c</xref>, single knockdown of neither RSK1 nor RSK2 reduced pS-EphA2, but RSK1/2 double knockdown attenuated pS-EphA2 completely. Moreover, pS-EphA2 was partially recovered by RSK1 re-expression (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 4</xref>), suggesting that pS-EphA2 is regulated redundantly by RSK1 and RSK2. Consequently, to obtain direct evidence for the catalysis of EphA2 phosphorylation, we performed an <italic>in vitro</italic> kinase assay using recombinant kinases and found that both GST-RSK1 and GST-RSK2 phosphorylated Ser-897 of GST-EphA2 (<xref ref-type="fig" rid="f4">Fig. 4d</xref>). Collectively, these results demonstrate that the phosphorylation of Ser-897 is catalysed by RSK1/2 directly.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RSKâEphA2 axis is involved in cell motility</title>
+        <p>It has been reported that Ser-897 phosphorylation of EphA2 promotes cell migration and invasion<xref ref-type="bibr" rid="b18">18</xref>. RSK1 and RSK2 are also known as key kinases for metastatic properties in various types of cancer cell<xref ref-type="bibr" rid="b26">26</xref><xref ref-type="bibr" rid="b27">27</xref>; therefore, we tried to determine whether the novel RSKâEphA2 axis induces cell motility. MDA-MB-231 cells, in which the RSKâEphA2 axis is constitutively activated (<xref ref-type="fig" rid="f5">Fig. 5a</xref>), were adopted for a scratch assay. Treatment of RSK inhibitor BI-D1870 continuously inhibited pS-EphA2 for 48âh (<xref ref-type="fig" rid="f5">Fig. 5b</xref>). We confirmed that there were no significant differences in cell proliferation and cell death between BI-D1870-treated cells and control cells (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5a and b</xref>). Although cells migrated to the scratched area in the control sample, significant attenuation of cell migration was observed in BI-D1870-treated cells (<xref ref-type="fig" rid="f5">Fig. 5c</xref>). Similar results were obtained using siRNAs against RSK1 and RSK2 (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5c and d</xref>). Immunofluorescence staining on the migration border demonstrated that pS-EphA2 and EphA2 were preferentially localized in the migrating front with F-actin in lamellipodia in control cells (<xref ref-type="fig" rid="f5">Fig. 5d,e</xref>). On the other hand, BI-D1870 not only inhibited staining of pS-EphA2 but also collapsed the elongated and polarized morphology. In addition, the formation of lamellipodia was notably interfered with and EphA2 diffused all over the cells by the inhibition of RSK activity (<xref ref-type="fig" rid="f5">Fig. 5e,f</xref>). Moreover, BI-D1870 and RSK1/2 knockdown reduced invasive ability in Matrigel-coated chamber (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 5e and f</xref>). These results suggested that RSK1/2 control cell motility by maintaining pS-EphA2 localization at the edge in the direction of movement, such as in lamellipodia.</p>
+        <p>To provide direct evidence for the role of the RSKâEphA2 axis in cell motility, the expression of EphA2 in EphA2-knockdown cells was restored by the transfection of siRNA-resistant complementary DNA encoding EphA2 (<xref ref-type="fig" rid="f5">Fig. 5g,h</xref>). Cell migration reduced by EphA2 knockdown was recovered by re-expression of kinase-dead EphA2, but not that of its S897A mutant. In addition, TNF-Î±-induced migration of A549 cells was inhibited by BI-D1870 or EphA2 knockdown (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 6a and b</xref>). Collectively, these results indicate that RSK-mediated Ser-897 phosphorylation of EphA2 is indispensable for cell motility in a tyrosine kinase activity-independent fashion.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Molecular-targeted agents inhibited EphA2 phosphorylation</title>
+        <p>A large proportion of driver oncogene products are known to activate the ERK signalling pathway constitutively to induce cell proliferation and metastatic properties<xref ref-type="bibr" rid="b28">28</xref><xref ref-type="bibr" rid="b29">29</xref>. First, we studied human melanoma cell lines with <italic>BRAF</italic>-V600E mutation (A2058, SK-MEL-28, A375, UACC62 and UACC257) and <italic>NRAS</italic>-Q61R mutation (SK-MEL-2). Among these melanoma cell lines, A2058, A375, UACC257 and SK-MEL-2 expressed total EphA2 protein and pS-EphA2 constitutively (<xref ref-type="fig" rid="f6">Fig. 6a</xref>). Vemurafenib, a BRAF inhibitor, reduced pS-EphA2 in cells harbouring <italic>BRAF</italic> mutation, but rather increased pS-EphA2 in <italic>NRAS</italic>-mutated SK-MEL-2 cells (<xref ref-type="fig" rid="f6">Fig. 6a</xref>) as well as in <italic>KRAS</italic>-mutated DLD-1 human colorectal cancer cells (<xref ref-type="fig" rid="f6">Fig. 6b</xref>). Paradoxical upregulation of pS-EphA2 in <italic>RAS</italic>-mutated cells might be controlled by the activation of CRAF<xref ref-type="bibr" rid="b30">30</xref><xref ref-type="bibr" rid="b31">31</xref>. Trametinib, an MEK inhibitor used for the treatment of melanoma in the clinical setting<xref ref-type="bibr" rid="b32">32</xref>, also inhibited pS-EphA2 (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref>). Most importantly, RSK inhibitor BI-D1870 abrogated pS-EphA2 in all these cell lines (<xref ref-type="fig" rid="f6">Fig. 6a,b</xref>).</p>
+        <p>We next analysed pS-EphA2 in human NSCLCs with <italic>EGFR</italic> exon 19 deletion (PC-9, HCC827, HCC4006 and NCI-H1650), <italic>EML4-ALK</italic> fusion (H2228) and <italic>KRAS</italic> mutation (A549). BI-D1870, U0126 and each targeted tyrosine kinase inhibitor, including gefitinib and crizotinib, abrogated pS-EphA2, indicating that the RSKâEphA2 axis was constitutively activated by driver oncogene products in all these lung cancer cells (<xref ref-type="fig" rid="f6">Fig. 6c</xref>). Overall, these results highlight that the RSKâEphA2 axis is under the control of driver oncogenes, and suggest that molecular-targeted agents have the potential to block cancer migration and invasion via inhibition of the RSKâEphA2 pathway.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunohistochemical co-localization of pS-EphA2 and pRSK</title>
+        <p>We immunohistochemically investigated pRSK and pS-EphA2 using a multi-cancer tissue microarray, which included 1,010 cores from 13 organ cancer tissues. We found double-positive samples in various cancers except for one stomach sample exhibiting pS-EphA2 positivity and pRSK negativity, suggesting a strong signalling correlation between EphA2 and RSK in human cancer tissues (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8aâf</xref>). <xref ref-type="fig" rid="f7">Figure 7a</xref> showing typical specimens of lung adenocarcinoma and squamous cell carcinoma indicates that pS-EphA2 and pRSK were potentially co-localized. Almost completely matched expression of pS-EphA2 and pRSK was also observed in lung adenocarcinoma tissues with activating EGFR mutations, including exon 19 deletion (<xref ref-type="fig" rid="f7">Fig. 7b</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8g</xref>). High-power magnifying images demonstrated that pS-EphA2 was stained mainly in the cell membrane, but also in the cytoplasm (<xref ref-type="fig" rid="f7">Fig. 7a</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8g</xref>). On the other hand, pRSK was located in both cytoplasm and nucleus (<xref ref-type="fig" rid="f7">Fig. 7a</xref> and <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8g</xref>). Moreover, selective luminal membrane-side staining was an interesting observation in colon cancer tissues (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 8a</xref>). Collectively, these results suggest functional correlation between the serine phosphorylation of EphA2 and the activation of RSK in human tumour microenvironments.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Poor prognosis of pS-EphA2/pRSK double-positive patients</title>
+        <p>It has been demonstrated that EphA2 protein expression is increased in smokers and predicts poor survival in NSCLCs<xref ref-type="bibr" rid="b33">33</xref>. Therefore, we finally explored the role of the RSKâEphA2 pathway in patients' prognosis using a lung cancer tissue microarray, which consists of a total of 353 samples, including 175 adenocarcinomas, 88 squamous cell carcinomas and others. There were no significant differences between clinicopathological factors, including smoking, and the expression of pS-EphA2/pRSK (<xref ref-type="supplementary-material" rid="S1">Supplementary Table</xref>). Although there was no significant difference between pRSK expression (<xref ref-type="fig" rid="f7">Fig. 7c,e</xref>) or total RSK1 expression (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 9a and b</xref>) and overall survival both in all patients and in patients with a smoking history, pS-EphA2/pRSK double-positive patients had poorer survival duration than the pS-EphA2-negative/pRSK-positive group (<xref ref-type="fig" rid="f7">Fig. 7d</xref>). Moreover, a drastic difference was observed in smoking patients (<xref ref-type="fig" rid="f7">Fig. 7f</xref>). These results indicate that RSK-mediated serine phosphorylation of EphA2 is involved in poorer overall survival in lung cancer.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1" sec-type="discussion">
+      <title>Discussion</title>
+      <p>The phosphorylation of EphA2 at Ser-897 has been characterized as an important reaction regulating tumour progression of human glioma<xref ref-type="bibr" rid="b18">18</xref>. Akt has been identified to be responsible for ligand-independent migration and invasion by inducing Ser-897 phosphorylation, in which phospho-(Ser/Thr) Akt substrate antibody that recognizes [RXXpS/pT] has mainly been used to detect the phosphorylated protein. EphA2 amino acids 894â897 [RLPpS] completely match the consensus sequence; however, it is also a putative substrate of RSK, as shown in the PhosphoSitePlus database<xref ref-type="bibr" rid="b19">19</xref>. Indeed, we report here that RSK1 and RSK2, but not Akt, catalyse Ser-897 phosphorylation directly in cytokine, growth factor and oncogenic signalling pathways in all of the human cancer cells that we tested, including glioma cells. In addition, the immunohistochemical co-localization of pS-EphA2 and activated RSK supports the existence of a novel RSKâEphA2 signalling pathway in tumour microenvironments. Nonetheless, it is still essential to consider carefully the contribution of Akt in EphA2 phosphorylation because Akt is reported to activate ERK in some conditions such as stimulation with platelet-derived growth factor.</p>
+      <p>Two major pSer-897 bands were detected in immunoblot results using Phos-tag SDSâPAGE (<xref ref-type="fig" rid="f1">Fig. 1a,b</xref>, <xref ref-type="fig" rid="f3">Figs 3b</xref> and <xref ref-type="fig" rid="f5">5a</xref>). These results demonstrate that there is at least one additional phosphorylation site other than Ser-897 in EphA2. In the PhosphoSitePlus database, more than 10 serine and threonine residues are deposited as putative phosphorylation sites in the intracellular domain of human EphA2 (ref. <xref ref-type="bibr" rid="b19">19</xref>). In particular, the amino-acid sequence around Ser-897 (<underline>S</underline>IRLP<underline>S</underline><sup>897</sup><underline>TS</underline>G<underline>S</underline>) contains several serine and threonine residues. Therefore, we are now trying to identify new phosphorylation sites and their responsible kinases to understand fully the tyrosine kinase- and ligand-independent prometastatic function of EphA2. In addition, the amino acid corresponding to Ser-897 and surrounding amino acids are largely conserved in EphA1, another RTK of the Eph receptor family, which is also involved in invasion, metastasis and poor prognosis of cancer patients<xref ref-type="bibr" rid="b34">34</xref><xref ref-type="bibr" rid="b35">35</xref>. Therefore, although the level of EphA1 expression in human cancer cells used in this study is very low (<xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 10</xref>), it is essential to characterize whether the serine residue of EphA1 is a substrate for RSK or Akt.</p>
+      <p>RSK has been reported to induce cell proliferation through promoting cell cycle progression and cell survival through modulating activity of the BCL2 family in various malignancies<xref ref-type="bibr" rid="b26">26</xref>. The ERKâRSK pathway has also been extensively studied in terms of effects that promote cancer migration, invasion, metastasis and EMT both <italic>in vitro</italic> and <italic>in vivo</italic><xref ref-type="bibr" rid="b27">27</xref>. For example, Doehn <italic>et al.</italic><xref ref-type="bibr" rid="b36">36</xref> reported that treatment with several RSK inhibitors, including BI-D1870, reduced migration as well as blocked TGF-Î²/TNF-Î±-induced, ERK-dependent EMT through inhibition of the FRA1- and c-Jun-dependent transcriptional programme of prometastatic genes, including those encoding extracellular cell matrix (ECM) components and matrix metalloproteinases (MMPs). In the present study, RSK1/2 were shown to have redundant roles in promoting both EphA2 phosphorylation and cell migration, supporting the metastasis-promoting ability of RSK1/2.</p>
+      <p>In addition, RSK can regulate cell migration by suppressing integrin-mediated cell adhesion through phosphorylation of the scaffolding protein filamin A at Ser-2125 (refs <xref ref-type="bibr" rid="b37">37</xref>, <xref ref-type="bibr" rid="b38">38</xref>). Interestingly, EphA2 on the cell surface can also interact with integrins to regulate cell adhesion. Moreover, both RSK and EphA2 have been demonstrated to control RhoA and RhoG small GTPase activities<xref ref-type="bibr" rid="b27">27</xref><xref ref-type="bibr" rid="b39">39</xref><xref ref-type="bibr" rid="b40">40</xref><xref ref-type="bibr" rid="b41">41</xref>. In particular, Kawai <italic>et al.</italic><xref ref-type="bibr" rid="b42">42</xref> reported that pS-EphA2 promotes the interaction of EphA2 with ephexin4 to induce the activation of RhoG. Consequently, our new finding on the functional connection between RSK and EphA2 encourages further study to characterize fully the cooperation of these two kinases with integrins and Rho GTPases in the motility of cancer cells, cellâcell adhesion and cellâECM interaction.</p>
+      <p>Determination of the mechanism maintaining tumour stemness is one of the most important challenges in current oncology and might also involve collaboration of RSK and EphA2. Binda <italic>et al.</italic><xref ref-type="bibr" rid="b7">7</xref> showed that EphA2 drives self-renewal and tumorigenicity in cancer stem cells derived from human glioblastoma, in which a strong signal for pS-EphA2 was detected in stem-like tumour propagating cells, but not in differentiated astrocytoma and neuroblastoma, in an ephrin-A ligand-independent manner. In addition, infiltrative invasion of glioma stem cells expressing EphA2 <italic>in vivo</italic>, which is completely independent of ephrin-A1, A3 and A4 ligands, was disrupted by S897A mutation<xref ref-type="bibr" rid="b43">43</xref>. Stratford <italic>et al.</italic><xref ref-type="bibr" rid="b44">44</xref> reported that targeting RSK2 with siRNA or small molecule inhibitors eliminates tumour-initiating cells in triple-negative breast cancers. Combining these reports with our results establishes the new idea that the RSKâEphA2 axis might have an important function in the maintenance of cancer stem properties; therefore, detailed study is needed to understand fully their roles in tumour progression.</p>
+      <p>EphA2 expression has been considered to be associated with poorer clinical outcomes in lung cancer patients<xref ref-type="bibr" rid="b33">33</xref><xref ref-type="bibr" rid="b45">45</xref><xref ref-type="bibr" rid="b46">46</xref>. Brannan <italic>et al.</italic>, for example, reported that EphA2 expression was positively correlated with activated EGFR, KRAS mutation, smoking history, poor prognosis, early recurrence and metastasis<xref ref-type="bibr" rid="b33">33</xref><xref ref-type="bibr" rid="b45">45</xref>. Here, we demonstrated that RSK-mediated EphA2 phosphorylation at Ser-897 is involved in poor patient survival, especially in smokers. It is well known that smoking is frequently associated with <italic>KRAS</italic> mutation<xref ref-type="bibr" rid="b47">47</xref>. In addition, KRAS activation of the ERK pathway induces EphA2 expression in cultured cancer cells <italic>in vitro</italic><xref ref-type="bibr" rid="b33">33</xref>. Considering these observations together with our results, KRAS-mediated activation of the ERKâRSK pathway regulates not only EphA2 protein expression but also the phosphorylation of EphA2, which consequently results in high level expression of pS-EphA2 leading to cancer metastasis. In addition to <italic>KRAS</italic> mutation, we demonstrated that <italic>EGFR</italic> mutation and <italic>ALK</italic> fusion, major causes of NSCLCs, are other potential mechanisms to activate RSK in human NSCLCs (<xref ref-type="fig" rid="f6">Fig. 6</xref>). In contrast, the regulation of EphA2 overexpression is still largely unknown; therefore, further detailed study is needed to understand fully the molecular mechanisms behind the high expression of pS-EphA2 in cancer cells.</p>
+      <p>The role of pS-EphA2 has also been demonstrated in glioblastoma multiforme, in which a high level of pS-EphA2 was only detected in grade IV human astrocytomas<xref ref-type="bibr" rid="b18">18</xref>. These results suggest that the RSKâEphA2 axis is a common pathophysiological signature for human cancers. In the present study, we demonstrated that BRAF-V600E evoked RSK-mediated EphA2 phosphorylation in melanoma cells. It has been demonstrated that both RSK and EphA2 play critical oncogenic and cancer progressive roles in melanoma<xref ref-type="bibr" rid="b48">48</xref><xref ref-type="bibr" rid="b49">49</xref>. Moreover, it has become evident that ligand-independent EphA2 signalling is a mediator of vemrafenib resistance<xref ref-type="bibr" rid="b50">50</xref><xref ref-type="bibr" rid="b51">51</xref>. Recent clinical trials clarified that combined MEK (trametinib) and BRAF (dabrafenib) inhibition is effective molecular-targeted therapy for melanoma patients harbouring BRAF mutation, suggesting that the RSKâEphA2 pathway inhibition affects the therapeutic efficacy<xref ref-type="bibr" rid="b52">52</xref>. As shown in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 7</xref>, treatment of trametinib resulted in effective downregulation of the RSKâEphA2 pathway; therefore, it is one possible strategy for intervention of phosphorylation of EphA2 for the treatment of cancers in a clinical context.</p>
+      <p>In summary, we have demonstrated the previously unknown connection of RSK to EphA2, and this pathway is involved in the malignant progression of cancer cells, such as migration and invasion. In addition to EphA2, many other RTKs are overexpressed in tumour tissues and involved in oncogenesis and acquired resistance to molecular-targeted agents. Therefore, study on ligand-controlled and ligand-independent serine and threonine phosphorylation is the next challenge to elucidate new unknown functions of RTKs, to illustrate cancer pathology and to identify new molecular targets for pharmacological interventions.</p>
+    </sec>
+    <sec disp-level="1" sec-type="methods">
+      <title>Methods</title>
+      <sec disp-level="2">
+        <title>Antibodies and reagents</title>
+        <p>The phospho-specific antibodies against EphA2 (Ser-897; #6347 and Tyr-588; #12677), Akt (Ser-473; #9271), RSK1 (Ser-380; cross-reacting with RSK2 Ser-386; #11989), ERK (Thr-202/Tyr-204; #9101) and EGFR (Thr-669; #3056, Ser-1046/7; #2238 and Tyr-1068; #2236) were purchased from Cell Signaling Technology (Danvers, MA, USA). Antibodies against total EphA2 (C-20; sc-924), RSK1 (C-21; sc-231), RSK2 (C-19; sc-1430), EGFR (1005; sc-03), TAK1 (M-579; sc-7162), Î²-actin (I-19; sc-1616) and Î±-tubulin (B-7; sc-5286) were obtained from Santa Cruz Biotechnology (Santa Cruz, CA, USA). Recombinant human TNF-Î±, ephrin-A1-Fc chimera and EGF were obtained from R&amp;D Systems (Minneapolis, MN, USA); recombinant human active GST-EphA2, GST-RSK1 and GST-RSK2 protein were from Carna Biosciences (Kobe, Japan); anti-EGFR monoclonal antibody (clone LA1; 05-101) was from Millipore (Billerica, MA, USA); Phos-tag ligand and TPA were from Wako Pure Chemical Industries (Osaka, Japan); LY294002, SB203580 and U0126 were from Merck Biosciences (Darmstadt, Germany); MK-2206 was from Active Biochemicals (Wan Chai, Hong Kong); BI-D1870 and crizotinib were from BioVision (Milpitas, CA, USA); gefitinib was from Cayman Chemical (Ann Arbor, MI, USA); and vemurafenib was from LC Laboratories (Woburn, MA, USA). All of the chemical inhibitors were dissolved in Me<sub>2</sub>SO, and the final concentration of Me<sub>2</sub>SO was &lt;0.1%.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Cell cultures</title>
+        <p>HeLa, HEK293, MDA-MB-231, Panc-1 and A375 cells were obtained from the American Type Culture Collection (ATCC, Rockville, TX, USA) and maintained in Dulbecco's modified Eagle's medium (high-glucose condition; Life Technologies Corporation, Carlsbad, CA, USA) supplemented with 10% fetal calf serum, 100âUâml<sup>â1</sup> penicillin and 100âÎ¼gâml<sup>â1</sup> streptomycin (Meiji Seika Pharma, Tokyo, Japan) at 37âÂ°C in 5% CO<sub>2</sub>. DLD-1 (kindly gifted by Dr K. Tsukada, University of Toyama, Toyama, Japan), A2058 (ATCC), SK-MEL-28, SK-MEL-2, UACC62, UACC257 (kindly gifted by Dr D. E. Fisher, Massachusetts General Hospital, Boston, MA, USA), PC-9 (kindly gifted by Dr K. Kiura, Okayama University, Okayama, Japan), HCC827 (ATCC), HCC4006 (kindly gifted by Dr A.F. Gazdar, University of Texas Southwestern Medical Center, Dallas, TX, USA), NCI-H1650 (ATCC), H2228 (ATCC) and A549 (ATCC) cells were cultured in RPMI 1640 medium (Life Technologies Corporation) supplemented with 10% fetal calf serum, 100âUâml<sup>â1</sup> penicillin and 100âÎ¼gâml<sup>â1</sup> streptomycin at 37âÂ°C in 5% CO<sub>2</sub>. T98G and U-87 MG cells kindly gifted by Dr M. Takeya (Kumamoto University, Kumamoto, Japan) and T. Imanaka (University of Toyama), respectively were maintained in Eagle's MEM (Nissui, Tokyo, Japan) supplemented with 10% fetal calf serum and 2âmM L-glutamine (Life Technologies Corporation) at 37âÂ°C in 5% CO<sub>2</sub>. Stably Luc- and TAK1-knocked down HeLa cells were as described previously<xref ref-type="bibr" rid="b12">12</xref>.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Transfection of plasmid DNAs</title>
+        <p>Expression vectors for human wild-type (WT) and kinase-dead (KD) mutant EphA2 were provided by Dr Haruhiko Sugimura (Hamamatsu University School of Medicine, Hamamatsu, Japan) and were as described previously<xref ref-type="bibr" rid="b53">53</xref><xref ref-type="bibr" rid="b54">54</xref>. The expression vector for human RSK1 was provided by Dr Yoshikazu Sugimoto (Keio University, Tokyo, Japan) and was as described previously<xref ref-type="bibr" rid="b55">55</xref>. HEK293 and MDA-MB-231 cells were transfected using Lipofectamine 2000 or Lipofectamine LTX (Life Technologies Corporation) in accordance with the manufacturer's instructions. S897A(SA)-EphA2 or KDSA-EphA2 substitution mutations for WT-EphA2 or KD-EphA2 expression plasmids, respectively, and constitutively active (CA-RSK1 (Y702A)) and kinase-dead (KD-RSK1 (K94R/K447R)) mutations for RSK1 expression plasmid were generated by PCR with PrimeSTAR DNA polymerase (Takara Bio, Shiga, Japan).</p>
+      </sec>
+      <sec disp-level="2">
+        <title>RNA interference</title>
+        <p>Small interfering RNAs (siRNAs) were synthesized at Life Technologies Corporation (Stealth RNA interference) or Hokkaido System Science Co., Ltd. (Sapporo, Japan). The target sequences were as follows: 5â²-CCAUGCUGGCAGGAUAUACUCCAUU-3â² (RSK1), 5â²-GGGAGGAGAUUUGUUUACACGCUUA-3â² (RSK2), 5â²-UGGAGUCCAUCAAGAUGCAGCAGUA-3â² (EphA2), 5â²-UGGCUUAUCUUACACUGGA-3â² (TAK1) and 5â²-UAAUGUACUGCGCGUGGAGAGGAA-3â² (negative control). HeLa and MDA-MB-231 cells were transfected with siRNAs at a final concentration of 20 to 100ânM using Lipofectamine Reagent or Lipofectamine LTX (Life Technologies Corporation) in accordance with the manufacturer's instructions, respectively.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunoblotting</title>
+        <p>Whole-cell lysates were prepared with lysis buffer (25âmM HEPES (pH 7.7), 0.3âM NaCl, 1.5âmM MgCl<sub>2</sub>, 0.2âmM EDTA, 0.1% Triton X-100, 20âmM Î²-glycerophosphate, 1âmM sodium orthovanadate, 1âmM phenylmethylsulfonyl fluoride, 1âmM dithiothreitol, 10âÎ¼gâml<sup>â1</sup> aprotinin and 10âÎ¼gâml<sup>â1</sup> leupeptin). The lysates were mixed with the same volume of SDSâPAGE sample buffer (100âmM Tris-HCl (pH 6.8), 2.0% SDS, 70âmM DTT, 10% glycerol and 0.10% bromophenol blue) and heated at 95âÂ°C for 5âmin. Samples were resolved using 6.5, 7.5 or 10% SDSâPAGE gel and transferred to an Immobilon-P nylon membrane (Millipore, Billerica, MA, USA). The membrane was treated with BlockAce (Dainippon Sumitomo Pharmaceutical Co., Ltd., Osaka, Japan) and probed with primary antibodies (diluted 1:1,000, except for phospho-ERK, RSK1, Î²-actin and Î±-tubulin, which were diluted 1:4,000). The antibodies were detected using horseradish peroxidase-conjugated anti-rabbit (P0448; diluted 1:2,000), anti-mouse (P0260; diluted 1:2,000) and anti-goat IgG (P0449; diluted 1:2,000; DAKO, Glostrup, Denmark) and visualized with the ECL system (GE Healthcare Bioscience, Piscataway, NJ, USA). Some antibody reactions were carried out in Can Get Signal solution (TOYOBO, Tokyo, Japan) or PBS containing 0.1% Tween 20 (Wako Pure Chemical Industries). Uncropped scans of the blots were supplied in <xref ref-type="supplementary-material" rid="S1">Supplementary Fig. 11</xref>. Analysis was carried out at least three times and representative results are shown.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Zn<sup>2+</sup>-Phos-tag SDSâPAGE</title>
+        <p>For phos-tag gel, whole-cell lysates were prepared with RIPA buffer (50âmM Tris-HCl (pH 7.4), 0.15âM NaCl, 0.25% sodium deoxycholate, 1.0% Nonidet P-40, 1.0âmM EDTA, 20âmM Î²-glycerophosphate, 1âmM sodium orthovanadate, 1âmM phenylmethylsulfonyl fluoride, 1âmM dithiothreitol, 10âÎ¼gâml<sup>â1</sup> aprotinin and 10âÎ¼gâml<sup>â1</sup> leupeptin). Each sample was mixed with a half volume of SDSâPAGE sample buffer (195âmM Tris-HCl (pH 6.8), 3.0% SDS, 15% 2-mercaptoethanol, 30% glycerol and 0.10% bromophenol blue) and heated at 95âÂ°C for 5âmin. The procedures for Zn<sup>2+</sup>-Phos-tag SDSâPAGE were as described previously<xref ref-type="bibr" rid="b20">20</xref>. In brief, the acrylamide pendant Phos-tag ligand and two equivalents of ZnCl<sub>2</sub> were added to the separating gel before polymerization. The running buffer consisted of 100âmM Tris and 100âmM MOPS containing 0.10% SDS and 5.0âmM sodium bisulfite. After Zn<sup>2+</sup>-Phos-tag SDSâPAGE, the gel was soaked in a solution containing 25âmM Tris, 192âmM glycine, 10% MeOH and 1.0âmM EDTA for 20âmin and then soaked in a solution containing 25âmM Tris, 192âmM glycine and 10% MeOH for 20âmin. Gel transfer, blocking, antibody reaction and detection were by the same methods as for immunoblotting.</p>
+      </sec>
+      <sec disp-level="2">
+        <title><italic>In vitro</italic> kinase assay</title>
+        <p>Recombinant human GST-EphA2 (70âng) was reacted with recombinant human active GST-RSK1 (100âng) or RSK2 (100âng) at 30âÂ°C for 30âmin in 30âÎ¼l of reaction buffer containing 20âmM HEPES (pH 7.6), 20âmM MgCl<sub>2</sub>, 0.2âmM ATP, 2âmM DTT, 20âmM Î²-glycerophosphate and 0.1âmM sodium orthovanadate. After stopping the reaction by adding 30âÎ¼l of SDSâPAGE sample buffer, immunoblotting was performed as described above.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Fluorescence microscopy</title>
+        <p>Cells seeded on a coverslip (Thermo Fisher Scientific, Waltham, MA, USA) were fixed with 2% paraformaldehyde (Muto Pure Chemicals, Tokyo, Japan) for 20âmin and permeabilized with 0.5% Triton X-100 (Wako Pure Chemical Industries) for 5âmin. The coverslips were overlaid with primary antibody diluted 1:100 for EphA2 or at 5âÎ¼gâml<sup>â1</sup> for EGFR in PBS with 0.5% BSA (Nakarai tesque, Kyoto, Japan) and incubated for 2âh, then with Alexa Fluor 488-conjugated goat anti-rabbit IgG antibody (A11008, diluted 1:500; Life Technologies Corporation) in PBS with 0.5% BSA for 1âh, and finally with Rhodamine Phalloidin âLife Technologies Corporation' for 30âmin. After being washed with PBS, the coverslips were inverted onto a slide with SlowFade Gold Antifade Reagent with DAPI (Life Technologies Corporation). Fluorescence was analysed by LSM700 confocal microscopy (Zeiss, Oberkochen, Germany). The number of cells harbouring and losing lamellipodia in the scratched area was counted. Image capture and quantification was performed masked to experimental conditions. Analysis was carried out at least three times and representative results are shown.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Scratch assay</title>
+        <p>The cells were grown as a monolayer and scratched using a pipette tip through the monolayer. The cells were washed to remove cellular debris and allowed to migrate for 48âh. The number of migrated cells in the scratched area was counted. Analysis was carried out at least three times and representative results are shown. Quantification was performed masked to experimental conditions.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Immunohistochemistry</title>
+        <p>A multi-cancer tissue microarray and a lung cancer tissue microarray, which consist of 1,010 cores from 13 organ cancer tissues (lung, breast, thyroid, liver, colon, stomach, prostate, ovary, uterine corpus, kidney, pancreas, biliary tract and urothelial cancers) and 353 cores, respectively, were obtained from Toyama University Hospital (Toyama, Japan). Detailed clinical and pathologic information, including patient demographics, smoking history and overall survival, was available for most patients in the lung cancer tissue microarray. The tumour specimens with <italic>EGFR</italic> mutations were obtained from NSCLC patients, all of whom provided written informed consent, at Kanazawa University Hospital (Kanazawa, Japan). This study was approved by the Institutional Review Boards of each institute.</p>
+        <p>Immunohistochemistry was performed at Pathology Institute Corporation (Toyama, Japan). The sections were deparaffinized and subjected to heat-induced antigen retrieval using a water bath or a pressure chamber, blocking of the endogenous peroxidase with 3% hydrogen peroxide for 10âmin and equilibration. Then, the sections were incubated with anti-phospho-Ser-897-EphA2 antibody (1:100) and anti-phospho-RSK1 antibody (1:50) at room temperature overnight. After extensive washing, the sections were incubated with EnVision+Dual Link System-HRP (DAKO) for 30âmin, visualized with DAB and counterstained with haematoxylin, dehydrated, cleared and mounted with resinous mounting medium. Cytoplasmic and/or cell membrane staining for phospho-Ser-897-EphA2 and nuclear and/or cytoplasmic staining for phospho-RSK1 were considered to indicate positivity. Image capture and evaluation was performed in a masked manner.</p>
+      </sec>
+      <sec disp-level="2">
+        <title>Statistical analysis</title>
+        <p>Statistically significant differences within each set of categorical data were determined using two-sided Fisher's exact tests. Overall survival was calculated using the KaplanâMeier method and compared by two-sided log-rank statistics. Statistical analyses were performed using JMP software version 11 (SAS Institute Japan, Tokyo, Japan). Probability values of <italic>P</italic>&lt;0.05 were considered statistically significant.</p>
+      </sec>
+    </sec>
+    <sec disp-level="1">
+      <title>Additional information</title>
+      <p><bold>How to cite this article:</bold> Zhou, Y. <italic>et al.</italic> Crucial roles of RSK in cell motility by catalysing serine phosphorylation of EphA2. <italic>Nat. Commun.</italic> 6:7679 doi: 10.1038/ncomms8679 (2015).</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S1">
+      <title>Supplementary Material</title>
+      <supplementary-material id="d33e18" content-type="local-data">
+        <caption>
+          <title>Supplementary Information</title>
+          <p>Supplementary Figures 1-11, Supplementary Table 1, Supplementary Methods and Supplementary References.</p>
+        </caption>
+        <media xlink:href="ncomms8679-s1.pdf"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to Drs Tsuneo Imanaka, Motohiro Takeya, Haruhiko Sugimura and Yoshikazu Sugimoto for providing materials. This work was supported in part by Grants-in-Aid for Scientific Research on Innovative Areas (No. 23117516) and Scientific Research (C) (No. 23590071) from the Ministry of Education, Culture, Sports, Science and Technology, Japan, and by Extramural Collaborative Research Grant of Cancer Research Institute, Kanazawa University (No. 27â50).</p>
+    </ack>
+    <ref-list>
+      <ref id="b1">
+        <mixed-citation publication-type="journal"><name><surname>Bennasroune</surname><given-names>A.</given-names></name>, <name><surname>Gardin</surname><given-names>A.</given-names></name>, <name><surname>Aunis</surname><given-names>D.</given-names></name>, <name><surname>Cremel</surname><given-names>G.</given-names></name> &amp; <name><surname>Hubert</surname><given-names>P.</given-names></name>
+<article-title>Tyrosine kinase receptors as attractive targets of cancer therapy</article-title>. <source>Crit. Rev. Oncol. Hematol.</source>
+<volume>50</volume>, <fpage>23</fpage>â<lpage>38</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15094157</pub-id></mixed-citation>
+      </ref>
+      <ref id="b2">
+        <mixed-citation publication-type="journal"><name><surname>Templeton</surname><given-names>A. J.</given-names></name>
+<italic>et al.</italic>
+<article-title>Prognostic relevance of receptor tyrosine kinase expression in breast cancer: a meta-analysis</article-title>. <source>Cancer Treat. Rev.</source>
+<volume>40</volume>, <fpage>1048</fpage>â<lpage>1055</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25217796</pub-id></mixed-citation>
+      </ref>
+      <ref id="b3">
+        <mixed-citation publication-type="journal"><name><surname>Miao</surname><given-names>H.</given-names></name> &amp; <name><surname>Wang</surname><given-names>B.</given-names></name>
+<article-title>Eph/ephrin signaling in epithelial development and homeostasis</article-title>. <source>Int. J. Biochem. Cell Biol.</source>
+<volume>41</volume>, <fpage>762</fpage>â<lpage>770</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">18761422</pub-id></mixed-citation>
+      </ref>
+      <ref id="b4">
+        <mixed-citation publication-type="journal"><name><surname>Miao</surname><given-names>H.</given-names></name> &amp; <name><surname>Wang</surname><given-names>B.</given-names></name>
+<article-title>EphA receptor signalingâcomplexity and emerging themes</article-title>. <source>Semin. Cell Dev. Biol.</source>
+<volume>23</volume>, <fpage>16</fpage>â<lpage>25</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22040915</pub-id></mixed-citation>
+      </ref>
+      <ref id="b5">
+        <mixed-citation publication-type="journal"><name><surname>Tandon</surname><given-names>M.</given-names></name>, <name><surname>Vemula</surname><given-names>S. V.</given-names></name> &amp; <name><surname>Mittal</surname><given-names>S. K.</given-names></name>
+<article-title>Emerging strategies for EphA2 receptor targeting for cancer therapeutics</article-title>. <source>Expert Opin. Ther. Targets</source>
+<volume>15</volume>, <fpage>31</fpage>â<lpage>51</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21142802</pub-id></mixed-citation>
+      </ref>
+      <ref id="b6">
+        <mixed-citation publication-type="journal"><name><surname>Huang</surname><given-names>J.</given-names></name>
+<italic>et al.</italic>
+<article-title>EphA2 promotes epithelial-mesenchymal transition through the Wnt/beta-catenin pathway in gastric cancer cells</article-title>. <source>Oncogene</source>
+<volume>33</volume>, <fpage>2737</fpage>â<lpage>2747</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">23752181</pub-id></mixed-citation>
+      </ref>
+      <ref id="b7">
+        <mixed-citation publication-type="journal"><name><surname>Binda</surname><given-names>E.</given-names></name>
+<italic>et al.</italic>
+<article-title>The EphA2 receptor drives self-renewal and tumorigenicity in stem-like tumor-propagating cells from human glioblastomas</article-title>. <source>Cancer Cell</source>
+<volume>22</volume>, <fpage>765</fpage>â<lpage>780</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23238013</pub-id></mixed-citation>
+      </ref>
+      <ref id="b8">
+        <mixed-citation publication-type="journal"><name><surname>Amato</surname><given-names>K. R.</given-names></name>
+<italic>et al.</italic>
+<article-title>Genetic and pharmacologic inhibition of EPHA2 promotes apoptosis in NSCLC</article-title>. <source>J. Clin. Invest.</source>
+<volume>124</volume>, <fpage>2037</fpage>â<lpage>2049</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24713656</pub-id></mixed-citation>
+      </ref>
+      <ref id="b9">
+        <mixed-citation publication-type="journal"><name><surname>Schlessinger</surname><given-names>J.</given-names></name>
+<article-title>Cell signaling by receptor tyrosine kinases</article-title>. <source>Cell</source>
+<volume>103</volume>, <fpage>211</fpage>â<lpage>225</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">11057895</pub-id></mixed-citation>
+      </ref>
+      <ref id="b10">
+        <mixed-citation publication-type="journal"><name><surname>Red Brewer</surname><given-names>M.</given-names></name>
+<italic>et al.</italic>
+<article-title>The juxtamembrane region of the EGF receptor functions as an activation domain</article-title>. <source>Mol. Cell</source>
+<volume>34</volume>, <fpage>641</fpage>â<lpage>651</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19560417</pub-id></mixed-citation>
+      </ref>
+      <ref id="b11">
+        <mixed-citation publication-type="journal"><name><surname>Singhirunnusorn</surname><given-names>P.</given-names></name>
+<italic>et al.</italic>
+<article-title>Transient suppression of ligand-mediated activation of epidermal growth factor receptor by tumor necrosis factor-alpha through the TAK1-p38 signaling pathway</article-title>. <source>J. Biol. Chem.</source>
+<volume>282</volume>, <fpage>12698</fpage>â<lpage>12706</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17327237</pub-id></mixed-citation>
+      </ref>
+      <ref id="b12">
+        <mixed-citation publication-type="journal"><name><surname>Nishimura</surname><given-names>M.</given-names></name>
+<italic>et al.</italic>
+<article-title>TAK1-mediated serine/threonine phosphorylation of epidermal growth factor receptor via p38/extracellular signal-regulated kinase: NF-ÎºB-independent survival pathways in tumor necrosis factor alpha signaling</article-title>. <source>Mol. Cell Biol.</source>
+<volume>29</volume>, <fpage>5529</fpage>â<lpage>5539</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19687304</pub-id></mixed-citation>
+      </ref>
+      <ref id="b13">
+        <mixed-citation publication-type="journal"><name><surname>Sato</surname><given-names>K.</given-names></name>
+<italic>et al.</italic>
+<article-title>Inverse correlation between Thr-669 and constitutive tyrosine phosphorylation in the asymmetric epidermal growth factor receptor dimer conformation</article-title>. <source>Cancer Sci.</source>
+<volume>104</volume>, <fpage>1315</fpage>â<lpage>1322</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23822636</pub-id></mixed-citation>
+      </ref>
+      <ref id="b14">
+        <mixed-citation publication-type="journal"><name><surname>Zakrzewska</surname><given-names>M.</given-names></name>
+<italic>et al.</italic>
+<article-title>ERK-mediated phosphorylation of fibroblast growth factor receptor 1 on Ser777 inhibits signaling</article-title>. <source>Sci. Signal</source>
+<volume>6</volume>, <fpage>ra11</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23405013</pub-id></mixed-citation>
+      </ref>
+      <ref id="b15">
+        <mixed-citation publication-type="journal"><name><surname>Lonic</surname><given-names>A.</given-names></name>
+<italic>et al.</italic>
+<article-title>Phosphorylation of serine 779 in fibroblast growth factor receptor 1 and 2 by protein kinase C(epsilon) regulates Ras/mitogen-activated protein kinase signaling and neuronal differentiation</article-title>. <source>J. Biol. Chem.</source>
+<volume>288</volume>, <fpage>14874</fpage>â<lpage>14885</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23564461</pub-id></mixed-citation>
+      </ref>
+      <ref id="b16">
+        <mixed-citation publication-type="journal"><name><surname>Nadratowska-Wesolowska</surname><given-names>B.</given-names></name>
+<italic>et al.</italic>
+<article-title>RSK2 regulates endocytosis of FGF receptor 1 by phosphorylation on serine 789</article-title>. <source>Oncogene</source>
+<volume>33</volume>, <fpage>4823</fpage>â<lpage>4836</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">24141780</pub-id></mixed-citation>
+      </ref>
+      <ref id="b17">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>X.</given-names></name>
+<italic>et al.</italic>
+<article-title>Up-regulation of EphA2 and down-regulation of EphrinA1 are associated with the aggressive phenotype and poor prognosis of malignant glioma</article-title>. <source>Tumour Biol.</source>
+<volume>31</volume>, <fpage>477</fpage>â<lpage>488</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20571968</pub-id></mixed-citation>
+      </ref>
+      <ref id="b18">
+        <mixed-citation publication-type="journal"><name><surname>Miao</surname><given-names>H.</given-names></name>
+<italic>et al.</italic>
+<article-title>EphA2 mediates ligand-dependent inhibition and ligand-independent promotion of cell migration and invasion via a reciprocal regulatory loop with Akt</article-title>. <source>Cancer Cell</source>
+<volume>16</volume>, <fpage>9</fpage>â<lpage>20</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19573808</pub-id></mixed-citation>
+      </ref>
+      <ref id="b19">
+        <mixed-citation publication-type="journal"><name><surname>Hornbeck</surname><given-names>P. V.</given-names></name>
+<italic>et al.</italic>
+<article-title>PhosphoSitePlus: a comprehensive resource for investigating the structure and function of experimentally determined post-translational modifications in man and mouse</article-title>. <source>Nucleic Acids Res.</source>
+<volume>40</volume>, <fpage>D261</fpage>â<lpage>D270</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22135298</pub-id></mixed-citation>
+      </ref>
+      <ref id="b20">
+        <mixed-citation publication-type="journal"><name><surname>Kinoshita</surname><given-names>E.</given-names></name> &amp; <name><surname>Kinoshita-Kikuta</surname><given-names>E.</given-names></name>
+<article-title>Improved Phos-tag SDS-PAGE under neutral pH conditions for advanced protein phosphorylation profiling</article-title>. <source>Proteomics</source>
+<volume>11</volume>, <fpage>319</fpage>â<lpage>323</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21204258</pub-id></mixed-citation>
+      </ref>
+      <ref id="b21">
+        <mixed-citation publication-type="journal"><name><surname>Sakurai</surname><given-names>H.</given-names></name>
+<article-title>Targeting of TAK1 in inflammatory disorders and cancer</article-title>. <source>Trends Pharmacol. Sci.</source>
+<volume>30</volume>, <fpage>522</fpage>â<lpage>530</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22795313</pub-id></mixed-citation>
+      </ref>
+      <ref id="b22">
+        <mixed-citation publication-type="journal"><name><surname>Obata</surname><given-names>T.</given-names></name>
+<italic>et al.</italic>
+<article-title>Peptide and protein library screening defines optimal substrate motifs for AKT/PKB</article-title>. <source>J. Biol. Chem.</source>
+<volume>275</volume>, <fpage>36108</fpage>â<lpage>36115</lpage> (<year>2000</year>).<pub-id pub-id-type="pmid">10945990</pub-id></mixed-citation>
+      </ref>
+      <ref id="b23">
+        <mixed-citation publication-type="journal"><name><surname>Cargnello</surname><given-names>M.</given-names></name> &amp; <name><surname>Roux</surname><given-names>P. P.</given-names></name>
+<article-title>Activation and function of the MAPKs and their substrates, the MAPK-activated protein kinases</article-title>. <source>Microbiol. Mol. Biol. Rev.</source>
+<volume>75</volume>, <fpage>50</fpage>â<lpage>83</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21372320</pub-id></mixed-citation>
+      </ref>
+      <ref id="b24">
+        <mixed-citation publication-type="journal"><name><surname>Sapkota</surname><given-names>G. P.</given-names></name>
+<italic>et al.</italic>
+<article-title>BI-D1870 is a specific inhibitor of the p90 RSK (ribosomal S6 kinase) isoforms <italic>in vitro</italic> and <italic>in vivo</italic></article-title>. <source>Biochem J.</source>
+<volume>401</volume>, <fpage>29</fpage>â<lpage>38</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17040210</pub-id></mixed-citation>
+      </ref>
+      <ref id="b25">
+        <mixed-citation publication-type="journal"><name><surname>Li</surname><given-names>P.</given-names></name>
+<italic>et al.</italic>
+<article-title>P90 RSK arranges Chk1 in the nucleus for monitoring of genomic integrity during cell proliferation</article-title>. <source>Mol. Biol. Cell</source>
+<volume>23</volume>, <fpage>1582</fpage>â<lpage>1592</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22357623</pub-id></mixed-citation>
+      </ref>
+      <ref id="b26">
+        <mixed-citation publication-type="journal"><name><surname>Lara</surname><given-names>R.</given-names></name>, <name><surname>Seckl</surname><given-names>M. J.</given-names></name> &amp; <name><surname>Pardo</surname><given-names>O. E.</given-names></name>
+<article-title>The p90 RSK family members: common functions and isoform specificity</article-title>. <source>Cancer Res.</source>
+<volume>73</volume>, <fpage>5301</fpage>â<lpage>5308</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23970478</pub-id></mixed-citation>
+      </ref>
+      <ref id="b27">
+        <mixed-citation publication-type="journal"><name><surname>Sulzmaier</surname><given-names>F. J.</given-names></name> &amp; <name><surname>Ramos</surname><given-names>J. W.</given-names></name>
+<article-title>RSK isoforms in cancer cell invasion and metastasis</article-title>. <source>Cancer Res.</source>
+<volume>73</volume>, <fpage>6099</fpage>â<lpage>6105</lpage> (<year>2013</year>).<pub-id pub-id-type="pmid">24097826</pub-id></mixed-citation>
+      </ref>
+      <ref id="b28">
+        <mixed-citation publication-type="journal"><name><surname>Reungwetwattana</surname><given-names>T.</given-names></name>, <name><surname>Weroha</surname><given-names>S. J.</given-names></name> &amp; <name><surname>Molina</surname><given-names>J. R.</given-names></name>
+<article-title>Oncogenic pathways, molecularly targeted therapies, and highlighted clinical trials in non-small-cell lung cancer (NSCLC)</article-title>. <source>Clin. Lung Cancer</source>
+<volume>13</volume>, <fpage>252</fpage>â<lpage>266</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22154278</pub-id></mixed-citation>
+      </ref>
+      <ref id="b29">
+        <mixed-citation publication-type="journal"><name><surname>Cantwell-Dorris</surname><given-names>E. R.</given-names></name>, <name><surname>O'Leary</surname><given-names>J. J.</given-names></name> &amp; <name><surname>Sheils</surname><given-names>O. M.</given-names></name>
+<article-title>BRAFV600E: implications for carcinogenesis and molecular therapy</article-title>. <source>Mol. Cancer Ther.</source>
+<volume>10</volume>, <fpage>385</fpage>â<lpage>394</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21388974</pub-id></mixed-citation>
+      </ref>
+      <ref id="b30">
+        <mixed-citation publication-type="journal"><name><surname>Heidorn</surname><given-names>S. J.</given-names></name>
+<italic>et al.</italic>
+<article-title>Kinase-dead BRAF and oncogenic RAS cooperate to drive tumor progression through CRAF</article-title>. <source>Cell</source>
+<volume>140</volume>, <fpage>209</fpage>â<lpage>221</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20141835</pub-id></mixed-citation>
+      </ref>
+      <ref id="b31">
+        <mixed-citation publication-type="journal"><name><surname>Poulikakos</surname><given-names>P. I.</given-names></name>
+<italic>et al.</italic>
+<article-title>RAF inhibitors transactivate RAF dimers and ERK signalling in cells with wild-type BRAF</article-title>. <source>Nature</source>
+<volume>464</volume>, <fpage>427</fpage>â<lpage>430</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20179705</pub-id></mixed-citation>
+      </ref>
+      <ref id="b32">
+        <mixed-citation publication-type="journal"><name><surname>Flaherty</surname><given-names>K. T.</given-names></name>
+<italic>et al.</italic>
+<article-title>Improved survival with MEK inhibition in BRAF-mutated melanoma</article-title>. <source>N. Engl. J. Med.</source>
+<volume>367</volume>, <fpage>107</fpage>â<lpage>114</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22663011</pub-id></mixed-citation>
+      </ref>
+      <ref id="b33">
+        <mixed-citation publication-type="journal"><name><surname>Brannan</surname><given-names>J. M.</given-names></name>
+<italic>et al.</italic>
+<article-title>Expression of the receptor tyrosine kinase EphA2 is increased in smokers and predicts poor survival in non-small cell lung cancer</article-title>. <source>Clin. Cancer Res.</source>
+<volume>15</volume>, <fpage>4423</fpage>â<lpage>4430</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19531623</pub-id></mixed-citation>
+      </ref>
+      <ref id="b34">
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>J.</given-names></name>
+<italic>et al.</italic>
+<article-title>Expression of EphA1 in gastric carcinomas is associated with metastasis and survival</article-title>. <source>Oncol. Rep.</source>
+<volume>24</volume>, <fpage>1577</fpage>â<lpage>1584</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">21042754</pub-id></mixed-citation>
+      </ref>
+      <ref id="b35">
+        <mixed-citation publication-type="journal"><name><surname>Chen</surname><given-names>G.</given-names></name>
+<italic>et al.</italic>
+<article-title>EphA1 receptor silencing by small interfering RNA has antiangiogenic and antitumor efficacy in hepatocellular carcinoma</article-title>. <source>Oncol. Rep.</source>
+<volume>23</volume>, <fpage>563</fpage>â<lpage>570</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20043122</pub-id></mixed-citation>
+      </ref>
+      <ref id="b36">
+        <mixed-citation publication-type="journal"><name><surname>Doehn</surname><given-names>U.</given-names></name>
+<italic>et al.</italic>
+<article-title>RSK is a principal effector of the RAS-ERK pathway for eliciting a coordinate promotile/invasive gene program and phenotype in epithelial cells</article-title>. <source>Mol. Cell</source>
+<volume>35</volume>, <fpage>511</fpage>â<lpage>522</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19716794</pub-id></mixed-citation>
+      </ref>
+      <ref id="b37">
+        <mixed-citation publication-type="journal"><name><surname>Woo</surname><given-names>M. S.</given-names></name>, <name><surname>Ohta</surname><given-names>Y.</given-names></name>, <name><surname>Rabinovitz</surname><given-names>I.</given-names></name>, <name><surname>Stossel</surname><given-names>T. P.</given-names></name> &amp; <name><surname>Blenis</surname><given-names>J.</given-names></name>
+<article-title>Ribosomal S6 kinase (RSK) regulates phosphorylation of filamin A on an important regulatory site</article-title>. <source>Mol. Cell Biol.</source>
+<volume>24</volume>, <fpage>3025</fpage>â<lpage>3035</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15024089</pub-id></mixed-citation>
+      </ref>
+      <ref id="b38">
+        <mixed-citation publication-type="journal"><name><surname>Gawecka</surname><given-names>J. E.</given-names></name>
+<italic>et al.</italic>
+<article-title>RSK2 protein suppresses integrin activation and fibronectin matrix assembly and promotes cell migration</article-title>. <source>J. Biol. Chem.</source>
+<volume>287</volume>, <fpage>43424</fpage>â<lpage>43437</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">23118220</pub-id></mixed-citation>
+      </ref>
+      <ref id="b39">
+        <mixed-citation publication-type="journal"><name><surname>Brantley-Sieders</surname><given-names>D. M.</given-names></name>
+<italic>et al.</italic>
+<article-title>The receptor tyrosine kinase EphA2 promotes mammary adenocarcinoma tumorigenesis and metastatic progression in mice by amplifying ErbB2 signaling</article-title>. <source>J. Clin. Invest.</source>
+<volume>118</volume>, <fpage>64</fpage>â<lpage>78</lpage> (<year>2008</year>).<pub-id pub-id-type="pmid">18079969</pub-id></mixed-citation>
+      </ref>
+      <ref id="b40">
+        <mixed-citation publication-type="journal"><name><surname>Hiramoto-Yamaki</surname><given-names>N.</given-names></name>
+<italic>et al.</italic>
+<article-title>Ephexin4 and EphA2 mediate cell migration through a RhoG-dependent mechanism</article-title>. <source>J. Cell Biol.</source>
+<volume>190</volume>, <fpage>461</fpage>â<lpage>477</lpage> (<year>2010</year>).<pub-id pub-id-type="pmid">20679435</pub-id></mixed-citation>
+      </ref>
+      <ref id="b41">
+        <mixed-citation publication-type="journal"><name><surname>Harada</surname><given-names>K.</given-names></name>, <name><surname>Hiramoto-Yamaki</surname><given-names>N.</given-names></name>, <name><surname>Negishi</surname><given-names>M.</given-names></name> &amp; <name><surname>Katoh</surname><given-names>H.</given-names></name>
+<article-title>Ephexin4 and EphA2 mediate resistance to anoikis through RhoG and phosphatidylinositol 3-kinase</article-title>. <source>Exp. Cell Res.</source>
+<volume>317</volume>, <fpage>1701</fpage>â<lpage>1713</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21621533</pub-id></mixed-citation>
+      </ref>
+      <ref id="b42">
+        <mixed-citation publication-type="journal"><name><surname>Kawai</surname><given-names>H.</given-names></name>
+<italic>et al.</italic>
+<article-title>Ephexin4-mediated promotion of cell migration and anoikis resistance is regulated by serine 897 phosphorylation of EphA2</article-title>. <source>FEBS Open Bio</source>
+<volume>3</volume>, <fpage>78</fpage>â<lpage>82</lpage> (<year>2013</year>).</mixed-citation>
+      </ref>
+      <ref id="b43">
+        <mixed-citation publication-type="journal"><name><surname>Miao</surname><given-names>H.</given-names></name>
+<italic>et al.</italic>
+<article-title>EphA2 promotes infiltrative invasion of glioma stem cells <italic>in vivo</italic> through cross-talk with Akt and regulates stem cell properties</article-title>. <source>Oncogene</source>
+<volume>34</volume>, <fpage>558</fpage>â<lpage>567</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">24488013</pub-id></mixed-citation>
+      </ref>
+      <ref id="b44">
+        <mixed-citation publication-type="journal"><name><surname>Stratford</surname><given-names>A. L.</given-names></name>
+<italic>et al.</italic>
+<article-title>Targeting p90 ribosomal S6 kinase eliminates tumor-initiating cells by inactivating Y-box binding protein-1 in triple-negative breast cancers</article-title>. <source>Stem Cells</source>
+<volume>30</volume>, <fpage>1338</fpage>â<lpage>1348</lpage> (<year>2012</year>).<pub-id pub-id-type="pmid">22674792</pub-id></mixed-citation>
+      </ref>
+      <ref id="b45">
+        <mixed-citation publication-type="journal"><name><surname>Brannan</surname><given-names>J. M.</given-names></name>
+<italic>et al.</italic>
+<article-title>EphA2 in the early pathogenesis and progression of non-small cell lung cancer</article-title>. <source>Cancer Prev. Res. (Phila.)</source>
+<volume>2</volume>, <fpage>1039</fpage>â<lpage>1049</lpage> (<year>2009</year>).<pub-id pub-id-type="pmid">19934338</pub-id></mixed-citation>
+      </ref>
+      <ref id="b46">
+        <mixed-citation publication-type="journal"><name><surname>Kinch</surname><given-names>M. S.</given-names></name>, <name><surname>Moore</surname><given-names>M. B.</given-names></name> &amp; <name><surname>Harpole</surname><given-names>D. H.</given-names><suffix>Jr.</suffix></name>
+<article-title>Predictive value of the EphA2 receptor tyrosine kinase in lung cancer recurrence and survival</article-title>. <source>Clin. Cancer Res.</source>
+<volume>9</volume>, <fpage>613</fpage>â<lpage>618</lpage> (<year>2003</year>).<pub-id pub-id-type="pmid">12576426</pub-id></mixed-citation>
+      </ref>
+      <ref id="b47">
+        <mixed-citation publication-type="journal"><name><surname>DeMarini</surname><given-names>D. M.</given-names></name>
+<article-title>Genotoxicity of tobacco smoke and tobacco smoke condensate: a review</article-title>. <source>Mutat. Res.</source>
+<volume>567</volume>, <fpage>447</fpage>â<lpage>474</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">15572290</pub-id></mixed-citation>
+      </ref>
+      <ref id="b48">
+        <mixed-citation publication-type="journal"><name><surname>Arul</surname><given-names>N.</given-names></name> &amp; <name><surname>Cho</surname><given-names>Y. Y.</given-names></name>
+<article-title>A rising cancer prevention target of RSK2 in human skin cancer</article-title>. <source>Front. Oncol.</source>
+<volume>3</volume>, <fpage>201</fpage> (<year>2013</year>).<pub-id pub-id-type="pmid">23936765</pub-id></mixed-citation>
+      </ref>
+      <ref id="b49">
+        <mixed-citation publication-type="journal"><name><surname>Udayakumar</surname><given-names>D.</given-names></name>
+<italic>et al.</italic>
+<article-title>EphA2 is a critical oncogene in melanoma</article-title>. <source>Oncogene</source>
+<volume>30</volume>, <fpage>4921</fpage>â<lpage>4929</lpage> (<year>2011</year>).<pub-id pub-id-type="pmid">21666714</pub-id></mixed-citation>
+      </ref>
+      <ref id="b50">
+        <mixed-citation publication-type="journal"><name><surname>Paraiso</surname><given-names>K. H.</given-names></name>
+<italic>et al.</italic>
+<article-title>Ligand-independent EPHA2 signaling drives the adoption of a targeted therapy-mediated metastatic melanoma phenotype</article-title>. <source>Cancer Discov.</source>
+<volume>5</volume>, <fpage>264</fpage>â<lpage>277</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25542447</pub-id></mixed-citation>
+      </ref>
+      <ref id="b51">
+        <mixed-citation publication-type="journal"><name><surname>Miao</surname><given-names>B.</given-names></name>
+<italic>et al.</italic>
+<article-title>EPHA2 is a mediator of vemurafenib resistance and a novel therapeutic target in melanoma</article-title>. <source>Cancer Discov.</source>
+<volume>5</volume>, <fpage>274</fpage>â<lpage>287</lpage> (<year>2015</year>).<pub-id pub-id-type="pmid">25542448</pub-id></mixed-citation>
+      </ref>
+      <ref id="b52">
+        <mixed-citation publication-type="journal"><name><surname>Long</surname><given-names>G. V.</given-names></name>
+<italic>et al.</italic>
+<article-title>Combined BRAF and MEK inhibition versus BRAF inhibition alone in melanoma</article-title>. <source>N. Engl. J. Med.</source>
+<volume>371</volume>, <fpage>1877</fpage>â<lpage>1888</lpage> (<year>2014</year>).<pub-id pub-id-type="pmid">25265492</pub-id></mixed-citation>
+      </ref>
+      <ref id="b53">
+        <mixed-citation publication-type="journal"><name><surname>Wang</surname><given-names>Y.</given-names></name>
+<italic>et al.</italic>
+<article-title>Negative regulation of EphA2 receptor by Cbl</article-title>. <source>Biochem. Biophys. Res. Commun.</source>
+<volume>296</volume>, <fpage>214</fpage>â<lpage>220</lpage> (<year>2002</year>).<pub-id pub-id-type="pmid">12147253</pub-id></mixed-citation>
+      </ref>
+      <ref id="b54">
+        <mixed-citation publication-type="journal"><name><surname>Tanaka</surname><given-names>M.</given-names></name>
+<italic>et al.</italic>
+<article-title>Tiam1 mediates neurite outgrowth induced by ephrin-B1 and EphA2</article-title>. <source>EMBO J.</source>
+<volume>23</volume>, <fpage>1075</fpage>â<lpage>1088</lpage> (<year>2004</year>).<pub-id pub-id-type="pmid">14988728</pub-id></mixed-citation>
+      </ref>
+      <ref id="b55">
+        <mixed-citation publication-type="journal"><name><surname>Katayama</surname><given-names>K.</given-names></name>, <name><surname>Yoshioka</surname><given-names>S.</given-names></name>, <name><surname>Tsukahara</surname><given-names>S.</given-names></name>, <name><surname>Mitsuhashi</surname><given-names>J.</given-names></name> &amp; <name><surname>Sugimoto</surname><given-names>Y.</given-names></name>
+<article-title>Inhibition of the mitogen-activated protein kinase pathway results in the down-regulation of P-glycoprotein</article-title>. <source>Mol. Cancer Ther.</source>
+<volume>6</volume>, <fpage>2092</fpage>â<lpage>2102</lpage> (<year>2007</year>).<pub-id pub-id-type="pmid">17620438</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+    <fn-group>
+      <fn>
+        <p><bold>Author contributions</bold> Y.Z. and H.S. were involved in the conception and design. Y.Z., T.T., H.S., T.H., J.F., Y.H. and S.Yo. were involved in the development of methodology. Y.Z., T.T., N.Y., H.S., T.H., S.Yo., Y.H. and S.Ya. were involved in acquisition, analysis and interpretation of data. Writing, review and/or revision of the manuscript was done by Y.Z. and H.S. Administrative, technical or material support was provided by K.K., J.F., S.Ya. and I.S. Study supervision was done by H.S.</p>
+      </fn>
+    </fn-group>
+  </back>
+  <floats-group>
+    <fig id="f1">
+      <label>Figure 1</label>
+      <caption>
+        <title>Phosphorylation of EphA2 at Ser-897 is induced by TNF-Î± stimulation.</title>
+        <p>(<bold>a</bold>) Whole-cell lysates from HeLa cells treated with TNF-Î± (20ângâml<sup>â1</sup>) for 10, 20 and 60âmin were separated by Zn<sup>2+</sup>-Phos-tag SDSâPAGE and immunoblotted with anti-EphA2 and EGFR antibodies. (<bold>b</bold>) Whole-cell lysates from HeLa cells treated with TNF-Î± for 20âmin were separated by Zn<sup>2+</sup>-Phos-tag SDSâPAGE and immunoblotted with anti-EphA2, pS-EphA2 and pY-EphA2. (<bold>c</bold>) Whole-cell lysates from HeLa cells treated with ephrin-A1 (100ângâml<sup>â1</sup>) for 10âmin or TNF-Î± for 20âmin were separated by normal SDSâPAGE and immunoblotted with anti-pS-EphA2, pY-EphA2, EphA2 and Î±-tubulin antibodies. (<bold>d</bold>) HeLa cells were stimulated with TNF-Î± for the indicated periods. Whole-cell lysates were electrophoresed and probed with primary antibodies against pS-EphA2, pY-EphA2, EphA2, pT-EGFR, pS-EGFR, EGFR and Î±-tubulin. (<bold>e</bold>) HeLa cells were stimulated with TNF-Î± for 20 and 60âmin. After fixation and permeabilization, cells were immunofluorescently stained with pS-EphA2, EphA2 or EGFR (clone LA1). Scale bar, 20âÎ¼m. Shown are representative images from three independent experiments.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f1"/>
+    </fig>
+    <fig id="f2">
+      <label>Figure 2</label>
+      <caption>
+        <title>The phosphorylation of EphA2 at Ser-897 is induced by TAK1, but not by Akt.</title>
+        <p>(<bold>a</bold>,<bold>b</bold>) HeLa (<bold>a</bold>) or T98G (<bold>b</bold> left) cells were pre-treated with LY294002 (10âÎ¼M) or MK-2206 (10âÎ¼M) for 30âmin and then stimulated with TNF-Î± for 20âmin. T98G cells were starved using FCS-free medium for 24âh, treated with LY294002 for 30âmin and then treated with 10% FCS for 10âmin (<bold>b</bold>, right). (<bold>c</bold>) MDA-MB-231 and Panc-1 cells were treated with LY294002 for 30âmin. (<bold>d</bold>) HeLa cells stably transfected shRNA expression vectors against luciferase and TAK1 were stimulated with TNF-Î± for 20âmin. (<bold>e</bold>) HeLa cells were transfected with siRNAs against TAK1 or negative control. At 72âh post transfection, cells were treated with TNF-Î± for 20âmin. Whole-cell lysates were immunoblotted with anti-pS-EphA2, EphA2, pAKT, pRSK, RSK1, RSK2, TAK1, Î²-actin and Î±-tubulin antibodies.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f2"/>
+    </fig>
+    <fig id="f3">
+      <label>Figure 3</label>
+      <caption>
+        <title>Phosphorylation of pS-EphA2 is induced by RSK.</title>
+        <p>(<bold>a</bold>) HeLa cells were stimulated with TNF-Î± for the indicated periods. Whole-cell lysates were immunoblotted with anti-pS-EphA2, EphA2, pRSK, RSK1, RSK2 and Î±-tubulin antibodies. (<bold>b</bold>,<bold>c</bold>) Whole-cell lysates from HeLa cells pre-treated with LY294002 (10âÎ¼M), SB203580 (10âÎ¼M), U0126 (5âÎ¼M) or BI-D1870 (10âÎ¼M) for 30âmin and then stimulated with TNF-Î± for 20âmin were separated by Zn<sup>2+</sup>-Phos-tag SDSâPAGE and immunoblotted with anti-EphA2 and pS-EphA2 antibodies (<bold>b</bold>), or by normal SDSâPAGE and immunoblotted with anti-pS-EphA2, EphA2, pT-EGFR, pS-EGFR, EGFR, pRSK, RSK1, RSK2 and Î±-tubulin antibodies (<bold>c</bold>). (<bold>d</bold>) HeLa cells were pre-treated with LY294002 or BI-D1870 for 30âmin and then stimulated with NaCl (0.3âM), TPA (100ângâml<sup>â1</sup>) or EGF (10ângâml<sup>â1</sup>) for 10âmin. Whole-cell lysates were immunoblotted with primary antibodies against pS-EphA2, EphA2, pRSK, RSK1, RSK2, pAKT and Î±-tubulin. (<bold>e</bold>) T98G and U-87 MG cells starved in FCS-free medium for 24âh were treated with LY294002, MK-2206, U0126 and BI-D1870 for 30âmin and then stimulated with 10% FCS for 10âmin. Whole-cell lysates were immunoblotted with primary antibodies against pS-EphA2, EphA2, pRSK, RSK1, RSK2, pAKT, pERK and Î±-tubulin.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f3"/>
+    </fig>
+    <fig id="f4">
+      <label>Figure 4</label>
+      <caption>
+        <title>EphA2 at Ser-897 is phosphorylated by RSK1/2.</title>
+        <p>(<bold>a</bold>,<bold>b</bold>) HEK293 cells were transfected with expression vectors for EphA2, RSK1 and its substitution mutants. At 24âh post transfection, whole-cell lysates were immunoblotted with anti-pS-EphA2, pY-EphA2, EphA2, pRSK, RSK1 and Î±-tubulin antibodies. (<bold>c</bold>) HeLa cells were transfected with siRNAs against RSK1, RSK2 or negative control. At 72âh post transfection, cells were stimulated with TNF-Î± for 20âmin. Whole-cell lysates were immunoblotted with primary antibodies against pS-EphA2, EphA2, pRSK, RSK1, RSK2 and Î±-tubulin. (<bold>d</bold>) Recombinant human GST-EphA2 was incubated with recombinant human active GST-RSK1 or RSK2 in the absence or presence of BI-D1870 (0.1âÎ¼M) at 30âÂ°C for 30âmin. The reaction mixtures were analysed by immunoblotting with anti-pS-EphA2, EphA2, RSK1 and RSK2 antibodies.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f4"/>
+    </fig>
+    <fig id="f5">
+      <label>Figure 5</label>
+      <caption>
+        <title>The RSKâEphA2 axis controls cell motility.</title>
+        <p>(<bold>a</bold>) Whole-cell lysates from HeLa cells treated with TNF-Î± for 20âmin or untreated MDA-MB-231 cells were separated by Zn<sup>2+</sup>-Phos-tag SDSâPAGE and immunoblotted with anti-EphA2 antibody. (<bold>b</bold>â<bold>f</bold>) MDA-MB-231 cells were pre-treated with BI-D1870 (10âÎ¼M) for 30âmin and then scratched with a pipette tip. After 48âh of incubation, whole-cell lysates were immunoblotted with primary antibodies against pS-EphA2, EphA2 and Î²-actin (<bold>b</bold>) Migrated cells were counted manually under a microscope (<bold>c</bold>) Data are the meansÂ±s.d. of at least three fields. Similar results were obtained in at least three independent experiments. *<italic>P</italic>&lt;0.05 by Student's <italic>t</italic>-test. At the same time, the migration border cells were immunofluorescently stained with anti-pS-EphA2 or EphA2 antibodies (<bold>d</bold>,<bold>e</bold>) and cells harbouring lamellipodia were counted manually under a microscope (<bold>f</bold>) Scale bar, 20âÎ¼m. Data are the meansÂ±s.d. of at least three fields. Similar results were obtained in at least three independent experiments. *<italic>P</italic>&lt;0.05 by Student's <italic>t</italic>-test. (<bold>g</bold>,<bold>h</bold>) MDA-MB-231 cells were transfected with siRNA against EphA2 or negative control and EphA2 mutation-expression plasmids. The immunoblotting results from whole-cell lysates with anti-pS-EphA2, EphA2 and Î²-actin antibodies are shown in <bold>g</bold> and the results of scratch assay are shown in <bold>h</bold>. Data are the meansÂ±s.d. of at least three fields. Similar results were obtained in at least three independent experiments. *<italic>P</italic>&lt;0.05 by analysis of variance followed by TukeyâKramer HSD test.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f5"/>
+    </fig>
+    <fig id="f6">
+      <label>Figure 6</label>
+      <caption>
+        <title>Molecular-targeted agents inhibited pS-EphA2.</title>
+        <p>(<bold>a</bold>) Human melanoma cells (A2058, SK-MEL-28, A375, UACC62, UACC257 and SK-MEL-2), (<bold>b</bold>) DLD-1 colon cancer cells and (<bold>c</bold>) lung adenocarcinoma cells (PC-9, HCC827, HCC4006, NCI-H1650, H2228 and A549) were treated with vemurafenib (1âÎ¼M), BI-D1870 (10âÎ¼M), gefitinib (1âÎ¼M), crizotinib (10âÎ¼M) or U0126 (5âÎ¼M) for 30â60âmin. Whole-cell lysates were immunoblotted with primary antibodies against pS-EphA2, EphA2, pRSK, RSK1, RSK2, pY-EGFR, EGFR, Î²-actin and Î±-tubulin.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f6"/>
+    </fig>
+    <fig id="f7">
+      <label>Figure 7</label>
+      <caption>
+        <title>pS-EphA2 and pRSK are co-localized in cancer patients' specimens and the RSKâEphA2 axis is associated with the overall survival of lung cancer patients.</title>
+        <p>(<bold>a</bold>) A multi-cancer tissue microarray, including 1,010 cores from 13 organ cancer tissues, was adopted for immunohistochemical staining using primary antibodies against pS-EphA2 and pRSK. Typical staining images of lung cancer tissues, including adenocarcinoma (AD) and squamous cell carcinoma (SCC), at low- and high-power magnifications are shown. Scale bar, 20âÎ¼m. (<bold>b</bold>) Typical immunohistochemical staining of pS-EphA2 and pRSK in <italic>EGFR</italic>-mutated (exon 19 deletion) lung adenocarcinoma tissues are shown. Scale bar, 20âÎ¼m. (<bold>c</bold>â<bold>f</bold>) Postoperative overall KaplanâMeier survival curves of all the lung cancer patients (<bold>c</bold>,<bold>d</bold>) or smoking patients (<bold>e</bold>,<bold>f</bold>) were compared according to pRSK negativity or positivity (<bold>c</bold>,<bold>e</bold>) or pS-EphA2/pRSK double positivity (<bold>d</bold>,<bold>f</bold>) <italic>P</italic> values were calculated by the log-rank tests.</p>
+      </caption>
+      <graphic xlink:href="ncomms8679-f7"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,2524 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:39:12Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3017602" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3017602</identifier><datestamp>2011-01-10</datestamp><setSpec>nar</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3017602</article-id>
+      <article-id pub-id-type="pmcid">PMC3017602</article-id>
+      <article-id pub-id-type="pmc-uid">3017602</article-id>
+      <article-id pub-id-type="pmid">20843780</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkq750</article-id>
+      <article-id pub-id-type="publisher-id">gkq750</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Computational Biology</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Identification of rare DNA variants in mitochondrial disorders with improved array-based sequencing</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Wenyi</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shen</surname>
+            <given-names>Peidong</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thiyagarajan</surname>
+            <given-names>Sreedevi</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lin</surname>
+            <given-names>Shengrong</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Palm</surname>
+            <given-names>Curtis</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Horvath</surname>
+            <given-names>Rita</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Klopstock</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cutler</surname>
+            <given-names>David</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>5</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Pique</surname>
+            <given-names>Lynn</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>6</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schrijver</surname>
+            <given-names>Iris</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>6</sup>
+          </xref>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>7</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Davis</surname>
+            <given-names>Ronald W.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Mindrinos</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Speed</surname>
+            <given-names>Terence P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Scharfe</surname>
+            <given-names>Curt</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="AFF1"><sup>1</sup>Stanford Genome Technology Center, Stanford University, Palo Alto, CA 94304, <sup>2</sup>Department of Statistics, University of California, Berkeley, CA 94720, USA, <sup>3</sup>Mitochondrial Research Group, Institute for Aging and Health, Newcastle University, Newcastle upon Tyne, NE2 4HH, UK, <sup>4</sup>Friedrich-Baur-Institute, Department of Neurology, Ludwig Maximilians University, Munich 80336, Germany, <sup>5</sup>Department of Human Genetics, Emory University, Atlanta, GA 30322, <sup>6</sup>Department of Pathology and <sup>7</sup>Department of Pediatrics, Stanford University, Stanford, CA 94305, USA</aff>
+      <author-notes>
+        <corresp id="COR1">*To whom correspondence should be addressed. Tel: <phone>+1 650 8122743</phone>; Fax: <fax>+1 650 8121975</fax>; Email: <email>curts@stanford.edu</email></corresp>
+        <corresp>Correspondence may also be addressed to Wenyi Wang. Tel: <phone>+1 650 2240952</phone>; Fax: <fax>+1 650 8121975</fax>; Email: <email>wenyiw@stanford.edu</email></corresp>
+      </author-notes>
+      <!--For NAR both ppub and collection dates generated for PMC processing 1/27/05 beck-->
+      <pub-date pub-type="collection">
+        <month>1</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>1</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>9</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>15</day>
+        <month>9</month>
+        <year>2010</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>39</volume>
+      <issue>1</issue>
+      <fpage>44</fpage>
+      <lpage>58</lpage>
+      <history>
+        <date date-type="received">
+          <day>12</day>
+          <month>4</month>
+          <year>2010</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>29</day>
+          <month>7</month>
+          <year>2010</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>8</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© The Author(s) 2010. Published by Oxford University Press.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/2.5">
+          <license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/2.5">http://creativecommons.org/licenses/by-nc/2.5</ext-link>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>A common goal in the discovery of rare functional DNA variants via medical resequencing is to incur a relatively lower proportion of false positive base-calls. We developed a novel statistical method for resequencing arrays (SRMA, sequence robust multi-array analysis) to increase the accuracy of detecting rare variants and reduce the costs in subsequent sequence verifications required in medical applications. SRMA includes single and multi-array analysis and accounts for technical variables as well as the possibility of both low- and high-frequency genomic variation. The confidence of each base-call was ranked using two quality measures. In comparison to Sanger capillary sequencing, we achieved a false discovery rate of 2% (false positive rate 1.2âÃâ10<sup>â5</sup>, false negative rate 5%), which is similar to automated second-generation sequencing technologies. Applied to the analysis of 39 nuclear candidate genes in disorders of mitochondrial DNA (mtDNA) maintenance, we confirmed mutations in the DNA polymerase gamma POLG in positive control cases, and identified novel rare variants in previously undiagnosed cases in the mitochondrial topoisomerase TOP1MT, the mismatch repair enzyme MUTYH, and the apurinic-apyrimidinic endonuclease APEX2. Some patients carried rare heterozygous variants in several functionally interacting genes, which could indicate synergistic genetic effects in these clinically similar disorders.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec sec-type="intro">
+      <title>INTRODUCTION</title>
+      <p>Rare functional DNA variants (â¤1% minor allele frequency, MAF) cause most Mendelian disorders, and they may underlie a large proportion of the inherited susceptibility to common human traits (<xref ref-type="bibr" rid="B1">1</xref>,<xref ref-type="bibr" rid="B2">2</xref>). These low frequency variants could be located in a variety of different genes, potentially interacting with other variants, and could be associated with variable clinical disease phenotypes. The identification of DNA variants in medical resequencing is traditionally performed using Sanger capillary sequencing. This methodâs per-base accuracy is as high as 99.999% (<xref ref-type="bibr" rid="B3">3</xref>), although laborious manual inspections of multiple target reads are required to sequence each position. Due to substantial variability within a single read, automated base-calling of Sanger traces has been particularly limited in the detection of rare DNA variants in diploid genomes (<xref ref-type="bibr" rid="B4">4</xref>). As an alternative method, sequencing by hybridization (SBH) has provided a potentially more cost-effective resequencing strategy (<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>). SBH is based on the principle that the differential hybridization of target DNA to an array of oligonucleotide probes can be used to decode its primary DNA sequence (<xref ref-type="bibr" rid="B3">3</xref>). Resequencing array applications have successfully identified novel and potentially pathological variants in many genes and samples (<xref ref-type="bibr" rid="B7 B8 B9 B10 B11">7â11</xref>). A key limitation of this technology has been the high false positive rate (FPR) (estimated at 3%) in the detection of heterozygous signals (<xref ref-type="bibr" rid="B3">3</xref>,<xref ref-type="bibr" rid="B12">12</xref>) leading to relatively higher costs in subsequent data verifications. Innovative DNA sample pre-processing methods coupled with array-based sequencing have recently lowered the FPRs (&lt;10<sup>â5</sup>) and false negative rates (FNR, 10%) (<xref ref-type="bibr" rid="B13">13</xref>), which is a performance level comparable to second-generation sequencing platforms (<xref ref-type="bibr" rid="B14">14</xref>). However, these newer sequencing methods are often not available to individual investigator laboratories interested in identifying rare variants in many samples and candidate genes.</p>
+      <p>In this study we developed and validated new statistical methods for resequencing array data analysis in order to improve the accuracy of this technology. Our goal was to maximize the number of: (i) called sequence bases (call rate); (ii) correct discoveries among all true variants (1âFNR); and (iii) correct discoveries among all variant calls [1 â false discovery rate (FDR)]. Specifically, we addressed limitations that are unique to resequencing arrays (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S1</ext-link>) including: (i) the heterogeneity in the data quality of array and oligonucleotide probe signals across a large number of target sequences; (ii) the detection of all variants in diploid samples, which occur at frequencies of 1 in 1000âbp or lower (<xref ref-type="bibr" rid="B15">15</xref>); and (iii) the identification of spurious signals due to technical and experimental errors to be distinguished from true signals due to sequence variation. To this end, our new methods increase the accuracy of detecting DNA variants and reduce the resequencing costs.</p>
+      <p>We applied our methods to the analysis of 39 candidate genes for disorders of mtDNA maintenance in 40 medical cases and controls using a customized Affymetrix resequencing array. Rare mutations in some of these nuclear-encoded genes (the proteins localize to mitochondria) cause secondary mtDNA deletions and depletions that are associated with debilitating multi-system diseases (<xref ref-type="bibr" rid="B16 B17 B18">16â18</xref>). While these disorders display considerable clinical overlap and often resemble those caused by mtDNA defects, they follow recessive, dominant or complex inheritance patterns (<xref ref-type="bibr" rid="B19">19</xref>). The medical cases we studied included eight patients with known disease mutations serving as positive controls, and 19 cases with an mtDNA maintenance disorder but unknown gene defect. Through comparative Sanger sequencing of all genes and samples (4.3 Mb), we show that our improved statistical methods for resequencing array analysis is powerful enough to detect 95% (FDR 2%) of both common and rare genetic variants in each individual. Some cases carried novel and predicted functional heterozygous variants in multiple genes indicating the need for parallel resequencing of many genes. The integrative analysis of gene and disease data with functional mitochondrial parameters remains important to establishing a definitive diagnosis.</p>
+    </sec>
+    <sec sec-type="materials|methods">
+      <title>MATERIALS AND METHODS</title>
+      <sec>
+        <title>Selection of candidate genes and study population</title>
+        <p>We selected 39 nuclear genes based on evidence of the localization of their gene products to human mitochondria and functions in mitochondrial DNA (mtDNA) maintenance (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S2</ext-link>). Mutations in some genes are associated with mtDNA maintenance disorders including progressive external ophthalmoplegia (PEO) and Alpers syndrome (<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>). To prioritize novel candidate genes for these disorders, we compiled data on geneâfunctional (<xref ref-type="bibr" rid="B20">20</xref>) and diseaseâphenotypic (<xref ref-type="bibr" rid="B21">21</xref>) associations of these disease genes from two recent studies. In 27 patients (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S3</ext-link>), single or multiple mtDNA deletions were detected with polymerase chain reactions (PCRs) and compared through Southern blot analysis using established protocols (<xref ref-type="bibr" rid="B22">22</xref>). Written consent was obtained from the patientâs families and the study was approved by the institutional review boards. DNA samples were available only from index cases and not their family members. We also studied 12 healthy controls and a haploid sample (Coriell Repository: NA7489a).</p>
+      </sec>
+      <sec>
+        <title>Custom-designed Affymetrix resequencing array and DNA sample preparation</title>
+        <p>We designed a medical resequencing array (Affymetrix Inc., CA) for DNA sequencing of the entire coding region and exon-splice sites of the 39 candidate genes (452 exons; 106â337 bases). We downloaded exon sequences from Ensemblâs Martview (NCBI Build 36) and designed oligo primers (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S4</ext-link>) using automated Primer3 (<ext-link ext-link-type="uri" xlink:href="http://primer3.sourceforge.net">http://primer3.sourceforge.net</ext-link>). Shorter exons separated by short introns were paired and amplified together as one amplicon, and longer exons (&gt;600âbp) were amplified using multiple overlapping amplicons resulting in 438 unique amplicons. These were PCR-amplified using AmpliTaq Gold DNA Polymerase (Applied Biosystems) and established protocols in each sample and analyzed using both resequencing arrays and bidirectional Sanger capillary sequencing. In addition, all identified non-synonymous DNA variants were verified by a second round of Sanger sequencing from a newly amplified PCR product. To obtain sufficient amounts of starting material from genomic DNA (â¼100âng), we performed whole genome amplification (WGA) using the REPLI-g Mini Kit (Qiagen, Inc., CA) following Qiagenâs protocol. DNA amounts were quantified using PicoGreen reagent (Invitrogen, Inc., CA). The PCR amplicons for each sample were inspected by 1.2% Agarose gel electrophoresis, pooled together in equimolar amounts and then purified using the QIAquick PCR Purification Kit (Qiagen, Inc., CA). Array processing was performed according to Affymetrixâ user manuals.</p>
+      </sec>
+      <sec sec-type="intro">
+        <title>Overview of the SRMA algorithm</title>
+        <p>For each nucleotide position <italic>i</italic> and each array <italic>j</italic>, we obtained eight numbers, which are log<sub>2</sub> probe intensities and denoted by (<italic>Î¸<sub>0</sub><sub>,</sub><sub>+</sub>, Î¸<sub>1</sub><sub>,</sub><sub>+</sub>, Î¸<sub>2</sub><sub>,</sub><sub>+</sub>, Î¸<sub>3</sub><sub>,+</sub></italic>) and (<italic>Î¸<sub>0,</sub><sub>â</sub>, Î¸<sub>1,</sub><sub>â</sub>, Î¸<sub>2,</sub><sub>â</sub>, Î¸<sub>3,</sub><sub>â</sub></italic>), where <italic>0</italic> denotes the reference match (<italic>RM</italic>) probe and <italic>1</italic>, <italic>2</italic> and <italic>3</italic> denote the three alternative match (<italic>AM</italic>) probes, respectively. We kept sense (+) and antisense (â) values separate as they provide correlated but also different informative signals (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B24">24</xref>). An example of <italic>Î¸</italic>âs on sense strand is shown in <xref ref-type="fig" rid="F1">Figure 1</xref>. SRMA performs base-calling in the following steps.
+<fig id="F1" position="float"><label>Figure 1.</label><caption><p>Probe intensity data for array-based resequencing in three regions. In each region, the log<sub>2</sub> intensities of four probes for the sense strand in 15 consecutive base positions are depicted. Each point represents one 25mer probe, coded for the base of interest in its center position (Tâblack circle; Gâred square; Câgreen diamond; Aâblue triangle), with reference sequences shown on the top of each panel. The only variants in these regions are at position 8 as confirmed by Sanger sequencing. The heterozygous <italic>AG</italic> in region (<bold>A</bold>) has equal intensities in probes <italic>RM<sub>A</sub></italic> and <italic>AM<sub>G</sub></italic>, whereas the heterozygous <italic>CA</italic> in region (<bold>B</bold>) has higher intensity in probe <italic>RM<sub>C</sub></italic> than <italic>AM<sub>A</sub></italic>, which in turn is higher than the other <italic>AM</italic> probes. This suggests region (<bold>B</bold>) is a harder position to call heterozygous. The homozygous variant <italic>GG</italic> (versus reference AA) in region (<bold>C</bold>) causes lower probe intensities in all flanking positions, all of which (<italic>RM</italic>s and <italic>AM</italic>s) have one off-center base mismatching the target sequence. This phenomenon is called the footprint effect.</p></caption><graphic xlink:href="gkq750f1"/></fig></p>
+      </sec>
+      <sec>
+        <title>Amplicon pre-processing</title>
+        <p>We used the R package <italic>aroma.affymetrix</italic> to read in raw intensity (.CEL) files and to perform data formatting. We implemented one strand base position normalization in <italic>aroma.affymetrix</italic>. To evaluate the quality and quantity of the amplified targets, we calculated three measures for amplicon <italic>k</italic>, which are averages of the corresponding strand specific values (denoted by <italic>s</italic>):
+<list list-type="roman-lower"><list-item><p>The median of the average (log<sub>2</sub>) probe intensity: <italic>T<sub>k</sub><sub>,</sub><sub>s</sub></italic>=median<italic><sub>i</sub><sub>â</sub><sub>=</sub></italic><sub>â1,2,â¦,<italic>I<sub>k</sub></italic></sub>(<italic>Î¸<sub>k</sub><sub>,</sub><sub>i,0,s</sub></italic>â+âmax<italic><sub>a</sub></italic><sub>â=â1,2,3</sub> <italic>Î¸<sub>k</sub><sub>,</sub><sub>i</sub><sub>,</sub><sub>a</sub><sub>,</sub><sub>s</sub></italic>)/2,</p></list-item><list-item><p>The median of the log ratios: <italic>D<sub>k</sub><sub>,</sub><sub>s</sub></italic>â=âmedian<italic><sub>i</sub><sub>â</sub><sub>=</sub></italic><sub>â1,2</sub><italic><sub>,ââ¦,âI<sub>k</sub></sub></italic>(<italic>Î¸<sub>k</sub><sub>,</sub><sub>i,0,s</sub></italic> â max<italic><sub>a</sub></italic><sub>â=â1,2,3</sub> <italic>Î¸<sub>k</sub><sub>,</sub><sub>i</sub><sub>,</sub><sub>a</sub><sub>,</sub><sub>s</sub></italic>).</p></list-item><list-item><p>The reference call rate: <italic>R<sub>k</sub></italic>=#{i: (<italic>Î¸<sub>k</sub><sub>,</sub><sub>i,0,+</sub></italic> + <italic>Î¸<sub>k</sub><sub>,</sub><sub>i,0,â</sub></italic>)â&gt;âmax<italic><sub>a</sub></italic><sub>â=â1,2,3</sub> (<italic>Î¸<sub>k</sub><sub>,</sub><sub>i</sub><sub>,</sub><sub>a</sub><sub>,</sub><sub>+</sub></italic> + <italic>Î¸<sub>k</sub><sub>,</sub><sub>i</sub><sub>,</sub><sub>a</sub><sub>,</sub><sub>â</sub></italic>)}/<italic>I<sub>k</sub></italic>, where <italic>I<sub>k</sub></italic> denotes the amplicon length and <italic>a</italic> denotes the alternative alleles.</p></list-item></list>
+These three measures together provide quantitative information about the target amplification and hybridization experiments. We used a simple and conservative criterion <italic>R</italic>â&lt;â0.9 to identify failed amplicons that were not suitable for base-calling (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figures S2 and S3</ext-link>). In order to remove some of the unwanted array-to-array variations, we performed quantile normalization on log intensities (<italic>Î¸</italic>âs) in the quality-controlled data. Log intensities in the failed amplicons are replaced with NA and are not included in the normalization. Because the identity of failed amplicons varies across samples, we divided each array into sets of probes from the 438 amplicons, and performed quantile normalization within each amplicon unit, and across samples with good log intensities.</p>
+      </sec>
+      <sec>
+        <title>Clustering of DNA variants</title>
+        <p>For each nucleotide position <italic>i</italic>, sample <italic>j</italic>, alternative allele <italic>a</italic> and strand <italic>s</italic>, we computed the differences and the averages of the signal intensities:
+<disp-formula id="M1"><label>(1)</label><graphic xlink:href="gkq750m1"/></disp-formula>
+<disp-formula id="M2"><label>(2)</label><graphic xlink:href="gkq750m2"/></disp-formula>
+It has been shown with SNP arrays that a single-chip Bayes classifier on <italic>Î´</italic> can provide an approximate assignment to the variant classes for all nucleotide positions, and a subsequent multi-chip classification at each position can then designate the exact genotype classes to the biological samples (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B25">25</xref>). Extending this single-chip followed by multi-chip approach, our algorithm has the following steps.</p>
+        <sec>
+          <title>Single-chip model</title>
+          <p>In chip <italic>j</italic> (notation dropped below), for each nucleotide position <italic>i</italic> and alternative allele <italic>a</italic>, we assess the probability of the position being one of the three variant classes: <italic>RR</italic>âwith two copies of the reference allele; <italic>RS</italic>âwith one copy of the reference allele; and <italic>SS</italic>âwith no copy of the reference allele, given (<italic>Î´<sub>a</sub><sub>,</sub><sub>i</sub><sub>,</sub><sub>+</sub></italic>, <italic>Î´<sub>a</sub><sub>,</sub><sub>i,</sub><sub>â</sub></italic>) and explanatory variables <bold><italic>X</italic></bold><italic><sub>a</sub><sub>,</sub><sub>i</sub></italic> (explained below). We use the following formula for these probabilities:
+<disp-formula id="M3"><label>(3)</label><graphic xlink:href="gkq750m3"/></disp-formula>
+where <italic>Z</italic> denotes variant class and the variables <bold><italic>X</italic></bold> are (functions of) average intensity <italic>A</italic>, amplicon length, probe GC content and central base pair composition, i.e. the central allele in the probe sequence strand versus the central allele in the target sequence strand. We assume a Gaussian distribution for <italic>Î´<sub>a</sub><sub>,</sub><sub>i</sub></italic> given <italic>Z<sub>a</sub><sub>,</sub><sub>i</sub></italic> and <bold><italic>X</italic></bold><italic><sub>a</sub><sub>,</sub><sub>i</sub></italic>, and identical and independent distributions for each strand. The prior probabilities for the three variant classes are (0.998, 0.002, 0.000001) assuming an expected variant allele frequency of 0.001 (<xref ref-type="bibr" rid="B15">15</xref>) and HardyâWeinberg Equilibrium.</p>
+          <p>Based on previous methods in SNP arrays, we account for the effect of <bold><italic>X</italic></bold> on log ratio <italic>Î´</italic> using linear regression model within each variant class <italic>z</italic> (<xref ref-type="bibr" rid="B23">23</xref>). However, we cannot implement exactly the same EM procedure as that used in (<xref ref-type="bibr" rid="B23">23</xref>) for SNP genotyping. Because there are three pairs of log ratios at each base position, we usually do not know the principal non-reference allele, and many fewer data points are present within the non-reference clusters (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S4</ext-link>). We therefore implemented an iterative procedure: (i) because &gt;99% of the nucleotide positions are expected to be reference, we used data on all positions to estimate the coefficients for <italic><bold>X</bold><sub>a</sub><sub>,</sub><sub>i</sub></italic> at <italic>Z<sub>a</sub><sub>,</sub><sub>i</sub></italic>â=â<italic>RR</italic> using least squares. (ii) Based on observations in SNP arrays (<xref ref-type="bibr" rid="B23">23</xref>), we assume no effect from all the <italic>X</italic>âs for the <italic>RS</italic> class, and symmetry about zero for the <italic>SS</italic> and the <italic>RR</italic> classes (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S4</ext-link>). We then calculated the single-chip posterior probabilities shown in Equation (<xref ref-type="bibr" rid="B3">3</xref>). (iii) Using the posterior probabilities calculated for all arrays, we choose one alternative allele out of three choices at each position (see âFrom single-chip to multi-chipâ subsection) and then perform (i) and (ii) on only the chosen alternative allele to obtain the final single-chip posterior probabilities and base calls.</p>
+          <p>The motivation for taking an iterative procedure as described above is that we aim to achieve two tasks at once, namely to distinguish a variant from a reference position and to determine the identity of the alternative allele for a variant. We have no information on either <italic>a priori</italic> and so first simplify these problems to the reference and fixed alternative alleles and then identify the few variants across all positions. We also observed heteroscedasticity during model fitting and used the weighted least squares method in the second iteration. Our weights come from the variance functions <italic>Ï<sup>2</sup></italic>(<italic>v</italic>)â=â(<italic>b</italic>â+â<italic>v<sup>c</sup></italic>), where <italic>v</italic> is the fitted value based on ordinary least squares (<xref ref-type="bibr" rid="B26">26</xref>). These weights were computed using the R package <italic>nlme</italic>.</p>
+        </sec>
+        <sec>
+          <title>From single-chip to multi-chip</title>
+          <p>Assuming all variants are bi-allelic, we selected the alternative allele <italic>a</italic> at each nucleotide position <italic>i</italic>, in order to later perform genotyping. This selection enriches the variant signals by a factor of three and represents a projection of the six <italic>Î´</italic>âs to the corresponding 2D space, in the case of variants. In heterozygous variants, the <italic>Î´</italic>âs in the other four dimensions present approximately reference signals that are orthogonal to those in the chosen pair of <italic>Î´</italic>âs (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S5</ext-link>). In homozygous variants, these <italic>Î´</italic>âs present heterozygous signals that are collinear (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S6</ext-link>). Their contribution to calling homozygous variants will be limited because homozygous variants occur less often than heterozygous variants, and the 2D data alone present strong signals for base-calling. Thus, using single-chip posterior probabilities, we choose the alternative allele as follows:
+<disp-formula id="M4"><label>(4)</label><graphic xlink:href="gkq750m4"/></disp-formula>
+In other words, we choose the alternative allele that maximizes the expected number of homozygous variants, given the data. We compared our chosen alternative allele with the known alternative at all dbSNP positions that presented variants in our samples (168 in total), and found no errors. For each nucleotide position <italic>i</italic>, we made an initial genotype designation for each sample <italic>j</italic> based on their single-chip posterior probabilities. At positions where all samples were designated as <italic>RR</italic> with the corresponding posterior probabilities &gt;0.999, we concluded they are reference-only without going to the multi-chip model. For the remaining selected positions, we calculated the minor allele count (MAC) as the total number of alternative alleles across all samples.</p>
+        </sec>
+        <sec>
+          <title>Multi-chip model</title>
+          <p>At each of the selected positions, we use a Gaussian mixture model to genotype all samples based on the <italic>Î´<sub>a</sub></italic>'s (sense and antisense strands and selected <italic>a</italic>, see <xref ref-type="fig" rid="F3">Figure 3</xref>) as previously introduced to microarray analysis (<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B28">28</xref>). We considered positions with MACââ¥â4 as likely common variants and positions with MACâ&lt;â4 as likely rare variants. At likely common variant positions, we obtained maximum likelihood estimates for the model parameters (<italic>m</italic> for the centers and <italic>v</italic> for the covariance matrices) using the EM algorithm (<xref ref-type="bibr" rid="B29">29</xref>). We allowed the orientation, volume and shape of the component distributions to vary, as determined by the covariance matrices (<xref ref-type="bibr" rid="B30">30</xref>). We determined the best-fitting model (i.e. a mixture of one, two or three clusters) using the Bayesian information criterion (BIC) (<xref ref-type="bibr" rid="B31">31</xref>). This estimation was performed using the R package <italic>mclust</italic> (<xref ref-type="bibr" rid="B32">32</xref>). At likely rare variant positions (MACâ&lt;â4), instead of estimating the model parameters with the observed <italic>Î´</italic>âs for the non-reference clusters (a computation highly susceptible to technical errors), we pre-specified the values of these parameters based on the best available knowledge. In particular, we assumed the <italic>m</italic> for the heterozygous cluster is <italic>(0,0)</italic> and the <italic>m</italic> for the homozygous variant cluster is <inline-formula><inline-graphic xlink:href="gkq750i1.jpg"/></inline-formula> which is the minus of the average values of <inline-formula><inline-graphic xlink:href="gkq750i2.jpg"/></inline-formula> for observed homozygous reference cluster across all bases. We further assumed the covariance matrices for the non-reference clusters to be identical to the corresponding reference cluster at the same base positions. This is a simple solution to a most important problem in our analysis: finding the true and unknown rare variants without making many false discoveries. As much more sequence data are collected in future, we will be able to formally implement empirical Bayes methods in order to borrow strength from observations in heterozygous and homozygous variant clusters (<xref ref-type="bibr" rid="B23">23</xref>). For each selected position <italic>i</italic> and alternative allele <italic>a</italic> (notations dropped below), we computed the multi-chip posterior probabilities:
+<disp-formula id="M5"><label>(5)</label><graphic xlink:href="gkq750m5"/></disp-formula>
+where <italic>Z</italic>â² denotes the genotype class: <italic>RR</italic>, <italic>RS</italic> and <italic>SS</italic> genotypes corresponding to the reference allele and the selected <italic>a</italic> allele, and <bold>Î</bold> denotes the parameters (means and covariances) for the mixture components. We assumed bivariate Gaussian distribution for (<italic>Î´<sub>j</sub><sub>,</sub><sub>+</sub></italic>, <italic>Î´<sub>j,</sub><sub>â</sub></italic>) given <italic>Zâ²<sub>j</sub></italic>. The prior probabilities for <italic>Zâ²</italic> are (0.998, 0.002, 0.000001) for unknown variant positions and (0.98, 0.02, 0.0001) for dbSNP positions. We then assigned to each sample the class <italic>z</italic>â² with the highest posterior probability among all classes.</p>
+        </sec>
+      </sec>
+      <sec>
+        <title>Genotype post-processing</title>
+        <sec>
+          <title>Interpreting clusters as genotypes</title>
+          <p>We often observe technical artifacts that prevent assigning genotypes to the identified clusters. These include singleton outliers caused by technical errors; multiple clusters for reference samples due to batch effects (<xref ref-type="bibr" rid="B23">23</xref>); and two clusters (i.e. heterozygous variant and reference) close to each other due to insufficient discrimination of probes for complete and incomplete hybridizations (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S7</ext-link>). To accurately identify genotypes from the clusters, we applied constraints on the estimated component distributions. We established four steps with the goal of confining genotype clusters in the upper right corner, around the origin, and the lower left corner, respectively, on a <italic>Î´</italic> plot (<xref ref-type="fig" rid="F3">Figure 3</xref>). These steps are necessary for both common and rare variants and were established using training data from 42 Sanger-sequence exons not used in the validation study. We use (<bold><italic>m</italic><sub>1</sub></bold>, <bold><italic>m</italic><sub>2</sub></bold>, <bold><italic>m</italic><sub>3</sub></bold>) to denote the centers of the three clusters and require: (i) <bold><italic>m</italic><sub>2</sub></bold> for heterozygous variant cluster and <bold><italic>m</italic><sub>3</sub></bold> for homozygous variant cluster are smaller than <bold><italic>m</italic><sub>1</sub></bold> for reference cluster on both strands; (ii) <bold><italic>m</italic><sub>3</sub></bold> are negative in both strands, and <bold><italic>m</italic><sub>1</sub></bold> are positive; (iii) the Euclidian distances among the centers and the origin follow ||<bold><italic>m</italic><sub>1</sub></bold>||&gt;||<bold><italic>m</italic><sub>2</sub></bold>||, ||<bold><italic>m</italic><sub>3</sub></bold>||&gt;||<bold><italic>m</italic><sub>2</sub></bold>||, ||<bold><italic>m</italic><sub>1</sub></bold>||&gt;||<bold><italic>m</italic><sub>1</sub></bold> â <bold><italic>m</italic><sub>2</sub></bold>|| and ||<bold><italic>m</italic><sub>3</sub></bold>||&gt;||<bold><italic>m</italic><sub>3</sub></bold> â <bold><italic>m</italic><sub>2</sub></bold>||; and (iv) Under HardyâWeinberg equilibrium, having at least four homozygous variant calls suggest the existence of heterozygous variants, while having <italic>n</italic>â1 heterozygous calls (<italic>n</italic> is the total number of samples) and only one reference suggests poor probe performance and that all are reference calls. We will explicitly correct for batch effects and probe performance in our model as more new data become available.</p>
+        </sec>
+        <sec>
+          <title>Identifying other technical artifacts</title>
+          <p>We applied filters for heterozygous calls due to the footprint effect (<xref ref-type="fig" rid="F1">Figure 1</xref>C) and to detect low-homology regions (e.g. pseudogenes), PCR errors or local array defects. In brief, rare heterozygous calls (MAFâ&lt;â4) in the flanking 24âbp of a homozygous base-call for the same sample are removed if no other homozygous calls are made at those positions. More than two heterozygous calls (MAFâ&lt;â4) in the same amplicon of one sample were removed. Similar procedures were used for resequencing arrays for haploid genomes (<xref ref-type="bibr" rid="B33">33</xref>).</p>
+          <sec>
+            <title>Quality measure for clustering and probe performance</title>
+            <p>For base <italic>i</italic>, sample <italic>j</italic> in a cluster <italic>zâ²</italic>, we modified the silhouette width measure (<xref ref-type="bibr" rid="B34">34</xref>) to
+<disp-formula id="M6"><label>(6)</label><graphic xlink:href="gkq750m6"/></disp-formula>
+as quality score, where <italic>a</italic>(â<italic>j</italic>â) is the average distance from <italic>j</italic> to all points within the cluster <italic>zâ²</italic>, and equals 1 when <italic>j</italic> is the only data point in the cluster; <italic>b</italic>(â<italic>j</italic>â) is the average distance from <italic>j</italic> to all data points outside the cluster <italic>zâ²</italic>, and equals the average distance to 0 when all data points are in this cluster. We define:
+<disp-formula id="M7"><label>(7)</label><graphic xlink:href="gkq750m7"/></disp-formula>
+in order to evaluate the underlying probe performance at each nucleotide position. Without taking the minimum across strands, we also derived Q<sub>s</sub> for sense and antisense strand, respectively.</p>
+            <p>Among all variant positions identified from the clustering analysis, we changed the calls to âNâ, when they were (i) identified as technical artifacts, or (ii) had low clustering quality as measured by the score <italic>q</italic> and the corresponding position was not previously reported (dbSNP v140), or (iii) at positions with low performance of all eight probes as measured by the score <italic>Q</italic>. In order to maintain a reasonable balance between FDR and FNR, we set as default the quality threshold (0.67) for the turning point on the error curve (<xref ref-type="fig" rid="F4">Figure 4</xref>), which was based on the validation data. We then used this threshold to identify variants in all sequencing data. Our threshold is close to a previously suggested number (0.65) on silhouette score for SNP arrays (<xref ref-type="bibr" rid="B25">25</xref>).</p>
+          </sec>
+        </sec>
+      </sec>
+    </sec>
+    <sec sec-type="results">
+      <title>RESULTS</title>
+      <sec>
+        <title>Array-based sequencing</title>
+        <p>We sequenced 106âkb (452 exons in 438 PCR-amplicons) in each of 40 samples using both array-based and bidirectional Sanger capillary sequencing. Each array contains â¼850âk 25mer-probes, with eight probes targeting each nucleotide position including four probes for sense and antisense strand. The four probes for each strand differ only at the center positions in A, T, G and C, respectively, and match the reference sequence in the flanking 24 bases. We describe the probes completely complementary to the reference sequence as reference match probes (<italic>RM</italic>s) and the probes for the other three alternative alleles as alternative match probes (<italic>AM</italic>s). We expect highest intensities in the probes that are completely complementary to the target sequence. As shown in <xref ref-type="fig" rid="F1">Figure 1</xref>, homozygous reference positions (<xref ref-type="bibr" rid="B1 B2 B3 B4 B5 B6 B7">1â7</xref>,<xref ref-type="bibr" rid="B9 B10 B11 B12 B13 B14 B15">9â15</xref>) show higher <italic>RM</italic> than <italic>AM</italic> intensities in the sense strand, and similarly in the antisense strand (not shown), while a heterozygous variant (<xref ref-type="fig" rid="F1">Figure 1</xref>A and B, position 8) shows higher values for both <italic>RM</italic> and one of the <italic>AM</italic> intensities, as compared to those from the rest of the <italic>AM</italic>s. A homozygous variant position (<xref ref-type="fig" rid="F1">Figure 1</xref>C, position 8) shows an <italic>AM</italic> intensity higher than those from all other probes. Because differences in the (log<sub>2</sub>) signal intensities (<italic>RM</italic> versus <italic>AM</italic>s) vary across positions and samples, it is difficult to identify true heterozygous positions when there are high <italic>AM</italic> intensities (<xref ref-type="fig" rid="F1">Figure 1</xref>B). In this study, we demonstrate that by combining statistical modeling with biological knowledge we can accurately identify both homozygous and heterozygous variants at rare variant positions, where supervised learning was not feasible.</p>
+      </sec>
+      <sec>
+        <title>Quality assessment</title>
+        <p>We implemented two steps to assess the quality of array sequence data. First, we verified the signal quality on each array as measured by the average differences of <italic>RM</italic> and <italic>A</italic>M intensities (<xref ref-type="bibr" rid="B35">35</xref>) (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S1</ext-link>). Second, because the target sequences are captured as PCR-amplicons, we evaluated the quality and quantity of each amplicon using three measures (<xref ref-type="fig" rid="F2">Figure 2</xref>, see âMaterials and Methodsâ section). These include the reference call rate (<italic>R</italic>) to measure the general similarity between the amplified sequence and the reference sequence; the median log ratio (<italic>D</italic>) to measure the average signal-to-noise ratio for an amplicon; and the median average intensity (<italic>T</italic>) to measure the quantity of each amplicon in array hybridization. In failed or poorly amplified sequences, these measures have low values (<italic>R</italic>â&lt;â0.9, <italic>D</italic>â&lt;â0.9 and <italic>T</italic>â&lt;â9) and are correlated (<xref ref-type="fig" rid="F2">Figure 2</xref>). In well-amplified targets, <italic>R</italic> is always close to 1 (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S2</ext-link>), while <italic>D</italic> and <italic>T</italic> show a non-linear correlation (<xref ref-type="fig" rid="F2">Figure 2</xref>) representing effects of DNA hybridization kinetics such as DNA quantity and sequence composition. The three measures in comparison provide quantitative and qualitative data on each amplicon, which is useful when monitoring many sample-preparations in parallel.
+<fig id="F2" position="float"><label>Figure 2.</label><caption><p>Evaluation of PCR amplification products (amplicons) using resequencing arrays. The distribution of the median log ratio <italic>D</italic> and the median average intensity <italic>T</italic> for all 17â520 PCR-amplicons (438 ampliconsâÃâ40 samples) are shown. The points highlighted in red correspond to amplicons with a lower reference call rate of <italic>R</italic>â&lt;â0.9. All amplicons with the lowest values in <italic>D</italic> and <italic>T</italic> coincide with the red points and are removed from the subsequent analysis.</p></caption><graphic xlink:href="gkq750f2"/></fig></p>
+        <p>To identify failed PCR-amplifications across all 17â520 amplicons (438 amplicons in 40 samples), we defined the conservative criteria for the success of target amplifications as <italic>R</italic>â&lt;â0.9. This measure is based on estimated variant frequencies in protein-coding regions of diploid genomes, with &gt;99% of all positions being reference bases. We evaluated this cutoff by manual inspections of gel-electrophoresis data of 5694 amplicons (438 amplicons in 13 samples, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figures S2 and S3</ext-link>). Based on <italic>R</italic>â&lt;â0.9, we identified a total of 726 failed amplicons (4.1%) in all 40 samples, which approximates 18 amplicons per array. The 726 amplicons included 697 (3.9%) amplicons with low values in <italic>D</italic> (&lt;0.9) and <italic>T</italic> (&lt;9), but also 29 (0.2%) amplicons with higher values in <italic>D</italic> or <italic>T</italic> which may indiciate amplification of homologous sequences. Following our quality screening, 96% of all sample amplicons (16â794/17â520) proceeded to sequence data analysis and base-calling.</p>
+      </sec>
+      <sec>
+        <title>DNA sequence base-calling</title>
+        <p>The SRMA base-caller was developed using 42 exons (training set) and validated on additional 67 randomly selected exons (test set). We independently (in a blinded manner) inspected the bidirectional Sanger traces in both sets in order to provide reference data for our algorithm. SRMA was then applied to the entire quality-controlled data for variant finding. For each nucleotide position and each array, we calculated six log ratios for <italic>RM</italic> and <italic>AM</italic> probes; one for each of the three alternative alleles per strand. The genetic variation in a body of sequence data can be summarized by the nucleotide variation within each sample and measured by the variant frequency (typically &lt;1 per 1000âbp), while the variation across samples at each variant nucleotide position is measured by the MAF with the two categories of common (MAFââ¥â5%) and rare (MAFâ&lt;â5%) variants. Accordingly, we first utilized a single-array multi-position Gaussian mixture model to highlight likely variant positions, and adjusting for explanatory variables such as average intensity, GC-content and probe base-pair composition (<xref ref-type="fig" rid="F3">Figure 3</xref>A). We then used a single-position multi-array Gaussian mixture model based on a selected alternative nucleotide (<xref ref-type="fig" rid="F3">Figure 3</xref>BâF, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figures S5 and S6</ext-link>) to identify the exact variant samples at the variant positions. Within a rare variant position, the low population frequency precludes using training data with samples of known variant genotypes to derive the genotype specific distributions of log ratios as utilized in SNP arrays (<xref ref-type="bibr" rid="B23">23</xref>). On the other hand, when only a few variant samples present log ratios that are different from those of the reference samples (<xref ref-type="fig" rid="F3">Figure 3</xref>E and F), these outliers are often confounded with technical variations. To overcome this, we determined how many variant samples are expected at a position using single-array initial calls. We then used different estimation procedures for the likely common and the likely rare variant positions (see examples in <xref ref-type="fig" rid="F3">Figure 3</xref>). The multi-array classification results are susceptible to batch effects presenting multiple clusters for the reference samples (<xref ref-type="bibr" rid="B23">23</xref>), and to weak probe performance making the heterozygous samples more similar to the reference samples (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S7</ext-link>). We inferred genotypes from the classification results using constraints on the location of the genotype groups to merge reference clusters, and by leveraging information from high confidence homozygous variant calls to identify additional heterozygous variants based on HardyâWeinberg equilibrium.
+<fig id="F3" position="float"><label>Figure 3.</label><caption><p>Examples on SRMA base-calling using the single-chip (<bold>A</bold>) and then multi-chip (<bold>BâF</bold>) procedure. (A) Shown is a smoothed density plot of the log ratio <italic>Î´â</italic>s<italic>: Î¸<sub>RM</sub>âââÎ¸<sub>AM</sub></italic>, versus the average intensity Aâs: (<italic>Î¸<sub>RM</sub>+Î¸<sub>AM</sub></italic>)/2 for selected <italic>AMâ</italic>s on a single array, where the darker color indicates higher density of data points. For one position, the Xâs in red are where we expect <italic>Î´</italic> to be for the three variant classes <italic>RR, RS</italic> and <italic>SS</italic>, respectively. We compared these values to the observed <italic>Î´</italic> (green circle) and called this position as <italic>RR</italic>. We finalized base-calling at positions (86%) where all samples present high confidence <italic>RR</italic> calls from the single-chip procedure. We next present five positions highlighted in yellow and of varying shapes (circle, square, diamond, point-up triangle, point-down triangle and star) for this array in (A) and also in individual <italic>Î´</italic> plots (BâF for positions 1â5). These plots represent our multi-chip procedure, which is based on the distribution of <italic>Î´</italic>âs with selected <italic>AM</italic>âs at one position in all 40 samples. MAC denotes minor allele count. The <italic>y</italic>-axis is for sense strand (+) and the <italic>x</italic>-axis is for antisense strand (â). Black is reference, blue is heterozygous variant and red is homozygous variant. The ellipses represent 90% confidence regions of the component distributions in our multi-chip model. (B) Model-based classification across samples identified additional reference-only positions where one cluster of positive <italic>Î´</italic>âs contained all samples. (C) In common SNP positions, each variant cluster contains enough samples to allow our clustering algorithm to estimate the right number of clusters, the varying shapes and locations of the clusters and assign each sample to a cluster. (D) The multi-chip clustering is more accurate than the single-chip calling when the location of <italic>Î´</italic>âs is abnormal. (E, F) In rare SNP positions, we perform classification based on observed reference cluster and pre-specified locations and shapes of the variant clusters. This method identified one or two variant samples (out of 40) as heterozygous and homozygous.</p></caption><graphic xlink:href="gkq750f3"/></fig></p>
+        <p>In some instances we identified strings of heterozygous calls within neighboring positions in one sample. This may occur due to a â<italic>footprint</italic>â effect incorrectly depressing reference base signals neighboring a homozygous variant position (<xref ref-type="fig" rid="F1">Figure 1</xref>C), PCR errors that passed our quality controls or other array-specific defects (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S8</ext-link>). We applied filters to recognize the known patterns of these artifacts and to remove the corresponding variant calls (see âMaterials and Methodsâ section). Visual inspection of Sanger traces for these positions (total 472) identified only a single true heterozygous variant, which was confounded by artifactual variant signals in this sample. Finally, we used two quality measures to rank the confidence of each base-call. The score <italic>q</italic> was used to evaluate the quality of base-calls for each position and sample, while score <italic>Q</italic> is used to measure the probe-performance at each position (four probes/strand). Measuring the ability of probe quartets to discriminate between reference and alternative base signals is important (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S7</ext-link>), because the inherent design of resequencing arrays require the tiling of all probe sequences to complement a reference. Our position-specific <italic>Q</italic> score identified 5.7% of all nucleotide positions with at least one probe quartet with suboptimal performance. At these positions, SRMA base-calling is still possible when all samples are reference. Only 0.4% of all positions had both probe quartets affected. The main steps and the number of bases processed in SRMA are shown in <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S9</ext-link>.</p>
+      </sec>
+      <sec>
+        <title>Accuracy of base-calling in the validation data</title>
+        <p>We assessed the accuracy of SRMA and the current most commonly used algorithm GSEQ (<xref ref-type="bibr" rid="B12">12</xref>,<xref ref-type="bibr" rid="B36">36</xref>) by comparing all quality-controlled base-calls to visually inspected Sanger sequence (674âkb; <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S5</ext-link>), which included 371 variant calls across samples (5.5âÃâ10<sup>â4</sup> per base) corresponding to 52 unique positions (3âÃâ10<sup>â3</sup> per position). We measured the performance at various thresholds by: (i) the proportion of variant calls in the Sanger sequence that were called as either reference or âNâ due to low confidence by the array base-caller (FNR); and (ii) the proportion of array variant calls that were called as reference bases in Sanger sequencing (FDR). Similar to previous studies (<xref ref-type="bibr" rid="B4">4</xref>,<xref ref-type="bibr" rid="B14">14</xref>), we based our validations on base-calls in each sample (sample-positions), as compared to unique base positions across a number of samples. Overall, SRMA made more reliable base-calls than GSEQ, while substantially reducing the FNR and FDR (<xref ref-type="fig" rid="F4">Figure 4</xref>). At the default thresholds of 0.67 for SRMA and 3 for GSEQ (see âMaterials and Methodsâ section), the estimated call rates (proportion of reliable calls among all sequences) were 99.86 versus 96.8%; the estimated FDR was 2 versus 58%; and the FNR was 5 versus 28%. SRMA found all Sanger-identified variant positions, with eight additional positions as false discoveries (<xref ref-type="table" rid="T1">Table 1</xref>). At a higher score threshold of 0.78, 13% of Sanger variants were called as reference or âNâ without false discoveries. The missed calls were from four unique positions (8% of variant positions) with one being a common SNP (MACââ¥â4) and three being rare variants (MACâ&lt;â4). As expected, SRMA achieved a lower FDR (0.01) for homozygous than for heterozygous calls at the default threshold 0.67 with zero false negatives (<xref ref-type="fig" rid="F4">Figure 4</xref>, <xref ref-type="table" rid="T1">Table 1</xref>).
+<fig id="F4" position="float"><label>Figure 4.</label><caption><p>FDR versus FNR for SRMA and GSEQ at varying cutoffs of the quality scores. The cutoffs are 0â1 for the modified silhouette score in SRMA and 0â46 for the quality score (log likelihood ratio) in GSEQ. Each base-caller has three curves: for all SNPs (black), heterozygous SNPs only (blue) and homozygous SNPs only (red). The results for the default cutoffs of 0.67 (diamond) and 3 (circle) are shown for the two base-callers, respectively. As expected, heterozygous SNPs are more difficult to call and have higher error rates than homozygous SNPs. For all three categories, SRMA out-performed GSEQ by at least one order of magnitude.</p></caption><graphic xlink:href="gkq750f4"/></fig>
+<table-wrap id="T1" position="float"><label>Table 1.</label><caption><p>Validation of the SRMA base-caller</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">Call rate</th><th rowspan="1" colspan="1">FPR</th><th rowspan="1" colspan="1">FDR</th><th rowspan="1" colspan="1">FNR</th></tr></thead><tbody align="left"><tr><td rowspan="1" colspan="1">SNP sites</td><td rowspan="1" colspan="1">1.00</td><td rowspan="1" colspan="1">4.6âÃâ10<sup>â4</sup></td><td rowspan="1" colspan="1">0.13</td><td rowspan="1" colspan="1">0</td></tr><tr><td rowspan="1" colspan="1">SNP calls</td><td rowspan="1" colspan="1">0.9986</td><td rowspan="1" colspan="1">1.2âÃâ10<sup>â5</sup></td><td rowspan="1" colspan="1">0.02</td><td rowspan="1" colspan="1">0.05</td></tr><tr><td rowspan="1" colspan="1">Heterozygous calls</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.03</td><td rowspan="1" colspan="1">0.07</td></tr><tr><td rowspan="1" colspan="1">Homozygous calls</td><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1"/><td rowspan="1" colspan="1">0.01</td><td rowspan="1" colspan="1">0</td></tr></tbody></table><table-wrap-foot><fn id="TF1"><p>The validation data include 67 randomly selected exons with manually inspected Sanger traces (674âkb; 17â551 positions). Sanger sequencing identified 371 sample-positions from 52 unique positions and called the remaining sequences (â¼674âkb) as reference. Based on this data, SRMA made reference calls at 19 heterozygous sample-positions, all of which are for only one common SNP position, which was found heterozygous in Sanger analysis. However, SRMA identified the same position through homozygous variant calling in the other 10 variant samples. In total, SRMA had eight false positive calls out of 674-kb references, with one false variant sample call per position. These eight positions represent the difficulty in accurate resequencing, which is to differentiate between rare variants and technical errors, both occurring at low frequencies.</p></fn></table-wrap-foot></table-wrap></p>
+        <p>At the SRMA default threshold, 99.99% (674â249) of the base-calls were identical to Sanger calls, with only 37 discordant calls between the two methods. These included 10 homozygous calls at three positions (10% of all homozygous calls) that SRMA misclassified as heterozygous variants, and eight false positive calls (seven heterozygous and one homozygous) at eight unique positions with one false positive per position (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figures S10âS17</ext-link>). In contrast, the 19 false negative calls, all of which were true heterozygous for the same common SNP position, presented very similar signals as the reference samples (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S18</ext-link>) and were therefore missed. In summary, the accuracy of array-based sequencing is limited by the number of technical variations giving signals highly similar to those of rare variants, and by heterozygous positions presenting with signals similar to reference signals.</p>
+      </sec>
+      <sec>
+        <title>Accuracy of base-calling and SNP detection in all data</title>
+        <p>We assessed the accuracy of SNP detection by comparing all SRMA variant calls to manually inspected positions in the corresponding Sanger traces. At default threshold (see âMaterials and Methodsâ section), SRMA predicted 2326 variant sample-positions (366 unique positions, <xref ref-type="table" rid="T2">Table 2</xref>) and we confirmed 2186 true variant calls (FDR 6%). These included 118 (5.5%) sample-positions that SRMA misclassified between homozygous and heterozygous variants. Notably, most of the correctly detected non-dbSNPs (35% of all variant sites) had a moderately rare minor allele (MACâ&lt;â4), which included 72 (81%) singleton heterozygous variants (MACâ=â1). In contrast, most false positives occurred at positions with only one variant sample, which is consistent with findings in our validation data. Cross hybridization between similar probes is a possible explanation for false positive base-calls. We found 10 of 69 false positive positions (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S7</ext-link>) with probe sets of â¥23 bases matching another probe set, while only 2 of 259 true positive positions had similar probes (<italic>P</italic>â&lt;ââ0.001).
+<table-wrap id="T2" position="float"><label>Table 2.</label><caption><p>Variant count spectrum in 39 candidate genes and 40 samples</p></caption><table frame="hsides" rules="groups"><thead align="left"><tr><th rowspan="1" colspan="1"/><th colspan="4" align="center" rowspan="1">MAC<hr/></th><th rowspan="1" colspan="1"/></tr><tr><th rowspan="1" colspan="1"/><th rowspan="1" colspan="1">1</th><th rowspan="1" colspan="1">2</th><th rowspan="1" colspan="1">3</th><th rowspan="1" colspan="1">â¥4</th><th rowspan="1" colspan="1">Total</th></tr></thead><tbody align="left"><tr><td rowspan="1" colspan="1">Total SRMA SNPs</td><td rowspan="1" colspan="1">166</td><td rowspan="1" colspan="1">33</td><td rowspan="1" colspan="1">17</td><td rowspan="1" colspan="1">112</td><td rowspan="1" colspan="1">328</td></tr><tr><td rowspan="1" colspan="1">Total SNPs found</td><td rowspan="1" colspan="1">103</td><td rowspan="1" colspan="1">30</td><td rowspan="1" colspan="1">16</td><td rowspan="1" colspan="1">110</td><td rowspan="1" colspan="1">259</td></tr><tr><td rowspan="1" colspan="1">âdbSNPs found</td><td rowspan="1" colspan="1">31</td><td rowspan="1" colspan="1">17</td><td rowspan="1" colspan="1">12</td><td rowspan="1" colspan="1">110</td><td rowspan="1" colspan="1">170</td></tr><tr><td rowspan="1" colspan="1">âNon-dbSNPs found</td><td rowspan="1" colspan="1">72</td><td rowspan="1" colspan="1">13</td><td rowspan="1" colspan="1">4</td><td rowspan="1" colspan="1">0</td><td rowspan="1" colspan="1">89</td></tr><tr><td rowspan="1" colspan="1">False discoveries</td><td rowspan="1" colspan="1">63</td><td rowspan="1" colspan="1">3</td><td rowspan="1" colspan="1">1</td><td rowspan="1" colspan="1">2</td><td rowspan="1" colspan="1">69</td></tr></tbody></table><table-wrap-foot><fn id="TF2"><p>SRMA identified 366 variant positions, among which 338 had Sanger traces available for inspection, and including 10 positions identified as insertion/deletions. The MAC represents the number of times the variant allele is detected in all samples. The âfound SNPsâ (259 in total) are positions with at least one variant call confirmed by Sanger sequencing. A comparison with dbSNP identified 89 (34%) novel SNPs, all of which had MAC &lt;4 (i.e. MAFâ&lt;0.05). The false discoveries (69 in total) are positions marked by our algorithm but unconfirmed in Sanger sequence analysis. A majority of these positions (97%) had less than four alternative alleles, which demonstrates the challenge in discriminating between technical errors and true rare variant positions.</p></fn></table-wrap-foot></table-wrap></p>
+        <p>We also analyzed the performance of SRMA for common variants using Sanger verification. Of 805 dbSNPs reported in our sequences, we selected 76 positions with a MAFââ¥â0.05 in our study population (CEU) and confirmed 74 positions using both methods. Only one position (rs11085147, MAFâ=â0.11) did not present any variant samples in our data, while one other position (rs495935, MAFâ=â0.075) was missed by SRMA at the default threshold. This position contained three variant heterozygous samples that were initially called as variants, but subsequently marked as Nâs because the position-specific quality score was below the default threshold, suggesting suboptimal probe performance.</p>
+      </sec>
+      <sec>
+        <title>Finding insertion and deletions</title>
+        <p>SRMA identified several small-scale insertion and deletions (indels) including a rare 1bp heterozygous deletion (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S19</ext-link>), a common 1bp insertion (rs33964928, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S20</ext-link>), and a common 4-bp deletion (rs10568542, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S21</ext-link>) by calling these as heterozygous variants. Because small-scale deletions present strings of heterozygous calls, those with low population frequencies may be confounded with our filters for technical artifacts. To evaluate the impact of such confounding, we visually inspected the Sanger traces for the 52 strings (472 positions) filtered out by SRMA and found no additional insertions or deletions at these positions. In summary, small-scale indels in diploid genomes can be detected by resequencing arrays, while follow-up sequencing is required to identify their architecture.</p>
+      </sec>
+      <sec>
+        <title>Analysis of DNA variants in the study population</title>
+        <p>Our ad-hoc criterion (MACâ&lt;â4) for deciding how to proceed in multi-chip analysis depends on the crude base-calls from a single-chip analysis, which carries some level of uncertainty. As a sensitivity analysis, we used a criterion that is less stringent on the confidence of single-chip base-calls and results in performing EM at more positions. This procedure had improved performance in detecting true common variants at MAC&gt;=â4 (FNRâ=â0), but resulted in a slightly higher number of false positives as more technical errors were called as rare variants in our validation data. We selected this less stringent criterion to record all potential variants in our study population for new biomedical discoveries. SRMA predicted 375 unique DNA variants (2740 sample-positions) with a FDR of 9% based on careful inspections of each variant in the corresponding Sanger traces (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S6</ext-link>). In our analysis we focused on non-synonymous variants, splice site mutations, and small insertions and deletions (indels) in protein coding regions and removed all variants identified in the 13 control samples. In the medical cases only, we detected in total 58 non-synonymous variants (69 sample-positions) that included nine dbSNP positions (17 sample-positions) indicating that most variants are rare singletons. We confirmed more than half of these variants (33 out of 58) in Sanger analysis, while 17 positions could not be confirmed and for eight positions Sanger traces were not available. A heterozygous SRMA variant was identified as a one-base deletion (Aâ) in Sanger trace inspections.</p>
+        <p>Our study included eight cases (P01â08) with known mutations in the polymerase gamma (POLG) gene serving as positive controls (<xref ref-type="fig" rid="F5">Figure 5</xref>). Array-based sequencing confirmed all mutations in four cases (P01 homozygous, P04 and 07 compound heterozygous, and P06 heterozygous), while in two cases one of two compound heterozygous variants was missed by the array but confirmed in Sanger analysis (P02 p.A467T; P03 p.R627Q). Lowering the threshold of the array quality measures would have detected the heterozygous p.R627Q in P03. In both of the remaining two positive control cases (P05 and P08), we could not confirm one of the two previously reported heterozygous variants at position p.R627Q using either array or Sanger sequencing from newly amplified PCR products. This result may be explained by allele-specific amplification. Another difference to previous findings was a heterozygous p.R1096H in P05 that we found as a homozygous variant. In addition to the above cases, we studied 19 cases (P09â27) presenting with mtDNA maintenance disorders but unknown gene defects. In 15 of these cases, we found 19 different DNA variant positions (23 sample-positions).
+<list list-type="simple"><list-item><p>(i) DNA variants in genes previously associated with mtDNA maintenance disorders:
+<list list-type="simple"><list-item><p>(a) <bold>POLG</bold>: We found a heterozygous p.A467T in P14, which is a common POLG mutation that was also confirmed in P01 and P02. This mutation is mostly recessive and unlikely to cause disease by itself (<ext-link ext-link-type="uri" xlink:href="http://tools.niehs.nih.gov/polg">http://tools.niehs.nih.gov/polg</ext-link>). We did not detect a second variant in this or other genes in P14. In P18 we found a homozygous p.R1146C, which is a neutral polymorphism (rs2307440), while one study reported it as a heterozygous variant suggesting a moderate biochemical effect (<xref ref-type="bibr" rid="B37">37</xref>). PolyPhen, a computational tool to predict the impact of amino acid substitutions on protein structure and function (<xref ref-type="bibr" rid="B38">38</xref>), predicted p.R1146C as âprobably damagingâ (score 2.2), which is on average higher than all known POLG disease mutations (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S22</ext-link>). A novel heterozygous variant p.Y282D in P21 located at a conserved position in the exonuclease domain is probably damaging (3.4).</p></list-item><list-item><p>(b) <bold>TYMP</bold>: A heterozygous p.A465T was found in P23, which is located in the C-terminal end of the thymidine phosphorylase protein (length 482aa) and predicted benign (0.6). This position was reported homozygous in a case with neurogastrointestinal encephalomyopathy syndrome (<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B37">37</xref>).</p></list-item><list-item><p>(c) <bold>C10orf2</bold>: A heterozygous p.V368I was detected in P25 and P27, which is a neutral polymorphism (rs2307440) and predicted benign (0.1) and showed no segregation with the disease phenotype in autosomal dominant progressive external ophthalmoplegia (<xref ref-type="bibr" rid="B39">39</xref>).</p></list-item><list-item><p>(d) <bold>SUCLA2</bold>: We identified a novel heterozygous p.R17G in P09, which is located at a highly conserved position 17 in the mitochondrial transit peptide sequence (position 1â60) of the Succinyl-CoA ligase beta subunit and predicted as probably damaging (2.3). An analysis for subcellular targeting using Predotar (<xref ref-type="bibr" rid="B40">40</xref>) showed a significant difference for the variant protein (0.46 mitochondrial, 0.49 elsewhere; Prediction: possibly mitochondrial) in comparison to the reference sequence (0.68 mitochondrial, 0.28 elsewhere; Prediction: mitochondrial). Subcellular mislocalization due to missense mutations in protein target signals was shown in other disorders (<xref ref-type="bibr" rid="B41">41</xref>).</p></list-item><list-item><p>(e) <bold>POLG2</bold>: A heterozygous p.G416A was detected in P16 and P20, which is a neutral polymorphism (rs17850455) and predicted as possibly damaging (1.9). A biochemical analysis of the mutant protein showed no alteration in its chromatographic properties (<xref ref-type="bibr" rid="B42">42</xref>).</p></list-item></list></p></list-item><list-item><p>(ii) DNA variants in disease genes with suspected functions in mtDNA maintenance:
+<list list-type="simple"><list-item><p>(a) <bold>GFM1</bold>: This gene encodes a mitochondrial translation elongation factor. We found a heterozygous p.N43D in P23, which is reported as polymorphisms (rs35942089) and predicted benign (0.5).</p></list-item><list-item><p>(b) <bold>MUTYH</bold>: In P20, a novel heterozygous single base deletion (Aâ) was identified at cDNA position 1307 causing an amino acid substitution p.E364D (codon: GAA-GAC), frameshift and premature termination (TGA) at peptide position 393 (p.E364Dfs393X). This mutation truncates the wild-type peptide involving the DNA-Glycosylase-C domain, and may lead to nonsense-mediated mRNA decay. Another novel heterozygous MUTYH variant (p.S501F) that is predicted benign (1.3) was found in P17. P17 also carried a heterozygous and possibly damaging (1.8) SNP p.Q324H (rs3219489).).</p></list-item></list></p></list-item></list>
+<fig id="F5" position="float"><label>Figure 5.</label><caption><p>Candidate gene analysis of mtDNA maintenance disorders. (<bold>A</bold>) The 39 genes include 10 genes causing mtDNA maintenance disorders (green nodes), 15 disease genes with suspected functions in mtDNA metabolism and/or similarities in their disease phenotypes (purple nodes), and 14 non-disease candidate genes with functions in mtDNA maintenance (grey nodes) (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S2</ext-link>). Gene relationships are predicted through functional interactions (likelihood ratios; LR) (<xref ref-type="bibr" rid="B20">20</xref>) and disease-phenotypic similarities (quantitative phenotypic associations; QPA) (<xref ref-type="bibr" rid="B21">21</xref>) with the edge colors: redâgene pairs with highest correlation of LR and QPA; blueâgene pairs with LR only; and orangeâgene pairs with QPA only (â¥0.4). The six genes at bottom left have multiple functional interactions to this network through intermediate genes (data not shown). Five disease genes (asterisk) are associated with dominant inheritance patterns and four of these genes (C10Orf2, OPA1, POLG, SLC25A4) are also causing recessive disorders (<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>). In this study we identified novel DNA variants in several cases in POLG, APEX2, MUTYH, TOP1MT (underlined). (<bold>B</bold>) The table shows amino acid changes (acronym p. not shown) identified in only the 23 cases and not controls. Five of these 14 genes (in bold) are known to cause mtDNA maintenance disorders (green nodes in A). The color codes indicate PolyPhenâs functional predictions (<xref ref-type="bibr" rid="B38">38</xref>) with âpossibly damagingâ (yellow) and âprobably damagingâ (orange), while all other amino acid changes are predicted benign (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S6</ext-link>). Positions that escaped array detection are shown in parenthesis, (asterisk) indicate dbSNP positions, and (caret symbol) are cases with rare variants in multiple genes hypothesizing a synergistic effect on the disease phenotype.</p></caption><graphic xlink:href="gkq750f5"/></fig></p>
+        <p>We further detected novel heterozygous variants that are predicted benign in SPAST in P22 (p.I163T, score 0.3), and in SURF1 in P15 (p.N249D, score 0.8).
+<list list-type="simple"><list-item><p>(iii) DNA variants in non-disease candidate genes with functions in mtDNA maintenance:
+<list list-type="simple"><list-item><p>(a) <bold>APEX2</bold>: This gene is involved in post-replicative nuclear and mitochondrial base excision repair. We identified a novel homozygous p.H269Y in P22, which is located in the conserved endo-exonuclease-phosphatase domain and possibly damaging (1.9). In addition we found a novel homozygous variant p.N392H (PolyPhen 1.8) in P05; a case which also carried compound heterozygous POLG mutations.</p></list-item><list-item><p>(b) <bold>LIG3</bold>: DNA ligase 3 is thought to function in mitochondrial base excision repair (<xref ref-type="bibr" rid="B43">43</xref>) and interacts with POLG. A novel heterozygous p.Y768H was found in P12, which is located in the highly conserved ATP-dependent DNA ligase C terminal region and possibly damaging (2.0).</p></list-item><list-item><p>(c) <bold>LONP1</bold>: LONP1 functions in mitochondrial proteolysis and catalyzes the initial steps of protein degradation. We identified novel homozygous p.V675L in P09 and P17 located at a moderately conserved position in the ATPase-AAA-core domain and predicted benign (0.2). In addition, we found the known p.V911I polymorphism (rs1062373) as a heterozygous variant in P05, P19, P21, and homozygous in P01, which is predicted benign (0.8).</p></list-item><list-item><p>(d) <bold>PPID</bold>: In P21, we found a heterozygous p.V177I (rs61756415) that is predicted benign (0.4).</p></list-item><list-item><p>(e) <bold>TOP1MT</bold>: Mitochondrial topoisomerase 1 consists of 14 exons encoding a 601 amino acid peptide, which controls the mtDNA topology during transcription. In P22 we identified a novel heterozygous nonsense mutation p.Q172X in exon 5 (c.533Câ&gt;âT) causing a termination (CAA-TAA) at peptide position 172 likely leading to a truncated product and nonsense-mediated mRNA decay. We further identified a novel heterozygous p.R571W in P13, which is predicted probably damaging (2.4), and a novel heterozygous p.Q171R in P05 that is predicted benign (1.4). P05 and P13 also had a heterozygous non-synonymous SNP p.R525W (rs2293925), and P13 and P22 a heterozygous variant p.V256I (rs11544484), both of which are predicted benign (0.1 and 0.5, respectively). These two SNPs were also detected in several controls (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S6</ext-link>). In P22 we also detected three synonymous SNPs in a heterozygous state (rs61631623, rs2450772, rs11544482) making an intragenic deletion <italic>in trans</italic> adjacent to p.Q172X less likely. Haplotype insufficiency was proposed as a disease cause in mtDNA maintenance disorders [POLG2 (<xref ref-type="bibr" rid="B44">44</xref>)] but we did not find support for such mechanism for TOP1MT homologues in other organisms such as yeast (<xref ref-type="bibr" rid="B45">45</xref>).</p></list-item></list></p></list-item></list></p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion">
+      <title>DISCUSSION</title>
+      <p>The identification of rare functional DNA variants (MAFâ&lt;â1%) requires the application of high quality DNA sequencing to well-phenotyped disease populations. These will often include sporadic cases due to purifying selection against high-risk alleles. Here we analyzed 39 candidate genes for mtDNA maintenance disorders (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S2</ext-link>) with a custom resequencing array and confirmatory Sanger sequencing. We studied 27 medical cases with these rare disorders in comparison to 13 controls and data from dbSNP. To identify DNA variants in each sample with a minimal number of false discoveries, we developed a novel statistical method that builds on the success in microarray data analysis and SNP genotyping (<xref ref-type="bibr" rid="B23">23</xref>,<xref ref-type="bibr" rid="B25">25</xref>,<xref ref-type="bibr" rid="B27">27</xref>,<xref ref-type="bibr" rid="B28">28</xref>). In this context, SRMA accounts for technical limitations such as differences in average probe intensities, base pair composition, GC content and amplicon length. In addition, while SNP arrays typically contain only two probes per base with optimal probe performance, resequencing arrays require querying all four alleles at each base position (<xref ref-type="fig" rid="F1">Figure 1</xref>) in order to detect rare and unknown sample variants (expected &lt;1 variant/1âkb). Our novel base-caller utilizes mixture models at two different data levels: (i) across all bases within a single array to predict variant positions, and (ii) for a single base across all arrays to accurately identify all variant samples at this position (<xref ref-type="fig" rid="F3">Figure 3</xref>). More than 97% of the initially predicted variant positions were removed through multi-array analysis. In addition, we ranked the confidence of each base-call using a position-specific quality score measuring a probeâs ability to discriminate between a variant and reference signal. Only 0.4% of all nucleotide positions had probe sets with suboptimal performance on both sequenced strands. Our QC and genotype post-processing contains numbers that represent an optimal balance between false negative and false positive discoveries in our training data (5694 amplicons; 500âkb). We generated this extensive data set through gel-electrophoresis experiments and manual Sanger sequence analysis (<xref ref-type="fig" rid="F2">Figure 2</xref>, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figures S2 and S3</ext-link>). Overall, SRMA detected variant positions with only one, two or three heterozygous variant samples (MAF: 1.25â3.75%), with on average 96% target sequence coverage per sample. With increased sample size and only one array per sample (2Ã sequence coverage), SRMA will have the power to identify very rare variants with MAF of 1% or less.</p>
+      <p>Array-based sequencing predicted 375 variant positions (2740 sample-variants, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Table S6</ext-link>) including 31 non-synonymous variants detected in only the medical cases (<xref ref-type="fig" rid="F5">Figure 5</xref>). Each sample-variant was verified through Sanger sequencing. In the eight positive control cases with known POLG mutations (P01â08), SRMA missed only one of two heterozygous variants in each of two samples (P02 p.A467T; P03 p.R627Q). In case P05 we identified additional novel variants in two candidate genes: APEX2 (p.N392H) and TOP1MT (p.Q171R). PolyPhen, a computational tool that we evaluated for functional effects of DNA variants (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Figure S22</ext-link>), predicted the APEX2 variant as possibly damaging. Another case (P22) with a predicted functional homozygous APEX2 variant (p.H269Y) also carried a heterozygous nonsense mutation in TOP1MT (p.Q172X) removing two thirds of this gene product including the catalytic topoisomerase domain. Another conserved missense variant in TOP1MT (p.R571W) was found in P13. In addition, we detected a heterozygous single base deletion (Aâ) in MUTYH (P20) causing a frameshift and stop at the conserved DNA-Glycosylase-C domain (p.E364Dfs393X). Decreased expression levels and DNA repair capability of MUTYH has been proposed as a cause of mtDNA damage in aged rodent retinal pigment epithelium (<xref ref-type="bibr" rid="B46">46</xref>). Notably, MUTYH is associated with inherited colorectal tumors (<xref ref-type="bibr" rid="B47">47</xref>), which immediately provides new candidate genes from this mtDNA maintenance network for the study of human cancers. Another mitochondria-related gene associated with cancer and mtDNA depletion is TP53 (<xref ref-type="bibr" rid="B48">48</xref>), while fumarate hydratase (FH) and the RNA component of mitochondrial RNA processing endoribonuclease (RMRP) are examples of genes causing both cancer and other diseases. Although no unequivocal biallelic mutations were detected, rare variants in the geneâs promoter and control regions cannot be ruled out, and considering that five of the known disease genes are linked to dominant traits (<xref ref-type="bibr" rid="B18">18</xref>) (<xref ref-type="fig" rid="F5">Figure 5</xref>), our results prioritize APEX2, MUTYH and TOP1MT as new disease candidate genes for mtDNA maintenance disorders. Studies of other cases and functional validations are now indicated, which is particularly challenging in cases carrying rare heterozygous variants in multiple genes (<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B49">49</xref>,<xref ref-type="bibr" rid="B50">50</xref>). At present, no experimental approach exists to quantitatively measure the combined phenotypic effects of multiple alleles in an individual. A number of functional variants in different genes may be compatible with normal existence (<xref ref-type="bibr" rid="B51">51</xref>) but it is conventional to believe that these defects are more likely pathologic in functionally interacting genes.</p>
+      <p>Approximately 20â30% of the individuals with mtDNA maintenance disorders remain without diagnosis (<xref ref-type="bibr" rid="B17">17</xref>,<xref ref-type="bibr" rid="B18">18</xref>). Our results highlight the need for high quality resequencing of multiple candidate genes in these diseases. In order to make a prediction as to which methods may be best applied for such studies, we compared the performance of current high-throughput technologies. The accuracy of array-based sequencing with SRMA (FDR 2â6%, FNR â¼5%; <xref ref-type="fig" rid="F4">Figure 4</xref>) is higher than for automated Sanger sequence analysis [FDR 13%, FNR 3%; (<xref ref-type="bibr" rid="B4">4</xref>)], and comparable to second-generation sequencing platforms with either optimal coverage [FDR 2â8%, FNR 0â3%; (<xref ref-type="bibr" rid="B14">14</xref>)], or minimal coverage and improved base-calling [FDR &lt;10%, FNR â¼5%; (<xref ref-type="bibr" rid="B52">52</xref>)]. The newer platforms are promising tools for large-scale exome and whole-genome analysis (<xref ref-type="bibr" rid="B53">53</xref>), while resequencing arrays could provide a robust and cost-effective alternative in some applications (<xref ref-type="bibr" rid="B54">54</xref>). These include the clinical resequencing of candidate genes in individuals with a specific disorder with the flexibility to introduce additional arrays over time. We sequenced samples in parallel (20 arrays/fluidics station/day) and quickly identified sample processing failures (<xref ref-type="fig" rid="F2">Figure 2</xref>). SRMA was computationally efficient by calling each base in all samples in â¼0.1âs. Further increase in throughput, at reduced costs, could be achieved with targeted multiplex amplification (<xref ref-type="bibr" rid="B55">55</xref>) of hundreds of candidate genes coupled with second-generation resequencing arrays (&gt;500 genes/array) (<xref ref-type="bibr" rid="B13">13</xref>). In these array applications, our new methods can be used for monitoring sample preparations and for resequencing (unpublished results). As more medical cases are analyzed, the accuracy of DNA variant discovery will continuously improve through an iterative model-training process.</p>
+    </sec>
+    <sec>
+      <title>ACCESSION NUMBERS</title>
+      <p>ArrayExpress accession: E-MTAB-346.</p>
+      <p>GenBank accession: HQ204826-HQ206385.</p>
+    </sec>
+    <sec sec-type="supplementary-material"><title>SUPPLEMENTARY DATA</title><p><ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkq750/DC1">Supplementary Data</ext-link> are available at NAR Online.</p>
+      
+         <supplementary-material id="PMC_1" content-type="local-data">
+            <caption>
+               <title>Supplementary Data</title>
+            </caption>
+            <media mimetype="text" mime-subtype="html" xlink:href="supp_39_1_44__index.html"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gkq750_NAR-WangWetal-SuppFigures.pdf"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-5.pdf"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-7.pdf"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="pdf" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-8.pdf"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="msword" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-1.doc"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-2.xls"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-3.xls"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-4.xls"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="vnd.ms-excel" xlink:href="supp_gkq750_NAR-WangWetal-SuppTable-6.xls"/>
+         </supplementary-material>
+      </sec>
+    <sec>
+      <title>FUNDING</title>
+      <p>National Eye Institute grant (R01EY016240 to R.W.D. and C.S.); T.K. is a member of MitoNET funded by the German Ministry of Education and Research (BMBF). Funding for open access charge: <funding-source>National Institutes of Health</funding-source>.</p>
+      <p><italic>Conflict of interest statement</italic>. None declared.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>ACKNOWLEDGEMENTS</title>
+      <p>The authors thank Marcus Yu and Marilyn Fukushima for experimental support, Anjo Chi for help in preparing supplemental material, Henrik Bengtsson for extending aroma.affymetrix to resequencing arrays, Chunlin Wang and Weihong Xu for bioinformatics support, and Nancy Zhang, Pierre Neuvial, Martin OâHely and Marian Thieme for questions and comments.</p>
+    </ack>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Botstein</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Risch</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Discovering genotypes underlying human phenotypes: past successes for mendelian disease, future approaches for complex disease</article-title>
+          <source>Nat. Genet.</source>
+          <year>2003</year>
+          <volume>33</volume>
+          <issue>Suppl.</issue>
+          <fpage>228</fpage>
+          <lpage>237</lpage>
+          <pub-id pub-id-type="pmid">12610532</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bodmer</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Bonilla</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Common and rare variants in multifactorial susceptibility to common diseases</article-title>
+          <source>Nat. Genet.</source>
+          <year>2008</year>
+          <volume>40</volume>
+          <fpage>695</fpage>
+          <lpage>701</lpage>
+          <pub-id pub-id-type="pmid">18509313</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shendure</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Porreca</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Church</surname>
+              <given-names>GM</given-names>
+            </name>
+          </person-group>
+          <article-title>Overview of DNA sequencing strategies</article-title>
+          <source>Curr. Protoc. Mol. Biol.</source>
+          <year>2008</year>
+          <comment><bold>Chapter 7</bold>, Unit 7.1</comment>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stephens</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sloan</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Robertson</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>Scheet</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Nickerson</surname>
+              <given-names>DA</given-names>
+            </name>
+          </person-group>
+          <article-title>Automating sequence-based detection and genotyping of SNPs from diploid samples</article-title>
+          <source>Nat. Genet.</source>
+          <year>2006</year>
+          <volume>38</volume>
+          <fpage>375</fpage>
+          <lpage>381</lpage>
+          <pub-id pub-id-type="pmid">16493422</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chee</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Hubbell</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Berno</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>XC</given-names>
+            </name>
+            <name>
+              <surname>Stern</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Winkler</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lockhart</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Morris</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Fodor</surname>
+              <given-names>SP</given-names>
+            </name>
+          </person-group>
+          <article-title>Accessing genetic information with high-density DNA arrays</article-title>
+          <source>Science</source>
+          <year>1996</year>
+          <volume>274</volume>
+          <fpage>610</fpage>
+          <lpage>614</lpage>
+          <pub-id pub-id-type="pmid">8849452</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Warrington</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Janis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kondapalli</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Reyes</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Savage</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Watts</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>New developments in high-throughput resequencing and variation detection using high density microarrays</article-title>
+          <source>Hum. Mutat.</source>
+          <year>2002</year>
+          <volume>19</volume>
+          <fpage>402</fpage>
+          <lpage>409</lpage>
+          <pub-id pub-id-type="pmid">11933194</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hacia</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Sun</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hunt</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Edgemon</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Mosbrook</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Robbins</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Fodor</surname>
+              <given-names>SP</given-names>
+            </name>
+            <name>
+              <surname>Tagle</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Collins</surname>
+              <given-names>FS</given-names>
+            </name>
+          </person-group>
+          <article-title>Strategies for mutational analysis of the large multiexon ATM gene using high-density oligonucleotide arrays</article-title>
+          <source>Genome Res.</source>
+          <year>1998</year>
+          <volume>8</volume>
+          <fpage>1245</fpage>
+          <lpage>1258</lpage>
+          <pub-id pub-id-type="pmid">9872980</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mandal</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Heckenlively</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Burch</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Vasireddy</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Koenekoop</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Sieving</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Ayyagari</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Sequencing arrays for screening multiple genes associated with early-onset human retinal degenerations on a high-throughput platform</article-title>
+          <source>Invest. Ophthalmol. Vis. Sci.</source>
+          <year>2005</year>
+          <volume>46</volume>
+          <fpage>3355</fpage>
+          <lpage>3362</lpage>
+          <pub-id pub-id-type="pmid">16123440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lebet</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chiles</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Mansfield</surname>
+              <given-names>ES</given-names>
+            </name>
+            <name>
+              <surname>Warrington</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Puck</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutations causing severe combined immunodeficiency: detection with a custom resequencing microarray</article-title>
+          <source>Genet. Med.</source>
+          <year>2008</year>
+          <volume>10</volume>
+          <fpage>575</fpage>
+          <lpage>585</lpage>
+          <pub-id pub-id-type="pmid">18641513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Waldmuller</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Rackebrandt</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Binner</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Poths</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bonin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Scheffold</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Array-based resequencing assay for mutations causing hypertrophic cardiomyopathy</article-title>
+          <source>Clin. Chem.</source>
+          <year>2008</year>
+          <volume>54</volume>
+          <fpage>682</fpage>
+          <lpage>687</lpage>
+          <pub-id pub-id-type="pmid">18258667</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szoke</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Molnar</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Solymosi</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Racz</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Gergics</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Blasko</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Vasarhelyi</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Vannay</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Mandy</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Klausz</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Polymorphisms of the ApoE, HSD3B1, IL-1beta and p53 genes are associated with the development of early uremic complications in diabetic patients: results of a DNA resequencing array study</article-title>
+          <source>Int. J. Mol. Med.</source>
+          <year>2009</year>
+          <volume>23</volume>
+          <fpage>217</fpage>
+          <lpage>227</lpage>
+          <pub-id pub-id-type="pmid">19148546</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cutler</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Zwick</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Carrasquillo</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Yohn</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>Tobin</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Kashuk</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Mathews</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Eichler</surname>
+              <given-names>EE</given-names>
+            </name>
+            <name>
+              <surname>Warrington</surname>
+              <given-names>JA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High-throughput variation detection and genotyping using microarrays</article-title>
+          <source>Genome Res</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>1913</fpage>
+          <lpage>1925</lpage>
+          <pub-id pub-id-type="pmid">11691856</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Moorhead</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Weng</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Siddiqui</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Carlton</surname>
+              <given-names>VE</given-names>
+            </name>
+            <name>
+              <surname>Ireland</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Peterson</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wilkins</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Lin</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High-throughput, high-accuracy array-based resequencing</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2009</year>
+          <volume>106</volume>
+          <fpage>6712</fpage>
+          <lpage>6717</lpage>
+          <pub-id pub-id-type="pmid">19342489</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harismendy</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>PC</given-names>
+            </name>
+            <name>
+              <surname>Strausberg</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Stockwell</surname>
+              <given-names>TB</given-names>
+            </name>
+            <name>
+              <surname>Beeson</surname>
+              <given-names>KY</given-names>
+            </name>
+            <name>
+              <surname>Schork</surname>
+              <given-names>NJ</given-names>
+            </name>
+            <name>
+              <surname>Murray</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Topol</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Evaluation of next generation sequencing platforms for population targeted sequencing studies</article-title>
+          <source>Genome Biol.</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>R32</fpage>
+          <pub-id pub-id-type="pmid">19327155</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Fan</surname>
+              <given-names>JB</given-names>
+            </name>
+            <name>
+              <surname>Siao</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <name>
+              <surname>Berno</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Sapolsky</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Ghandour</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Perkins</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Winchester</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Spencer</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Large-scale identification, mapping, and genotyping of single-nucleotide polymorphisms in the human genome</article-title>
+          <source>Science</source>
+          <year>1998</year>
+          <volume>280</volume>
+          <fpage>1077</fpage>
+          <lpage>1082</lpage>
+          <pub-id pub-id-type="pmid">9582121</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Goethem</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Dermaut</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Lofgren</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Van Broeckhoven</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutation of POLG is associated with progressive external ophthalmoplegia characterized by mtDNA deletions</article-title>
+          <source>Nat. Genet.</source>
+          <year>2001</year>
+          <volume>28</volume>
+          <fpage>211</fpage>
+          <lpage>212</lpage>
+          <pub-id pub-id-type="pmid">11431686</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poulton</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hirano</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Spinazzola</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Arenas Hernandez</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Jardel</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lombes</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Czermin</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Horvath</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Taanman</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Rotig</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Collated mutations in mitochondrial DNA (mtDNA) depletion syndrome (excluding the mitochondrial gamma polymerase, POLG1)</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2009</year>
+          <volume>1792</volume>
+          <fpage>1109</fpage>
+          <lpage>1112</lpage>
+          <pub-id pub-id-type="pmid">19748572</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Spinazzola</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zeviani</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Disorders from perturbations of nuclear-mitochondrial intergenomic cross-talk</article-title>
+          <source>J. Intern. Med.</source>
+          <year>2009</year>
+          <volume>265</volume>
+          <fpage>174</fpage>
+          <lpage>192</lpage>
+          <pub-id pub-id-type="pmid">19192035</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Suomalainen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kaukonen</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Diseases caused by nuclear genes affecting mtDNA stability</article-title>
+          <source>Am. J. Med. Genet.</source>
+          <year>2001</year>
+          <volume>106</volume>
+          <fpage>53</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="pmid">11579425</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Franke</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Bakel</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Fokkens</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>de Jong</surname>
+              <given-names>ED</given-names>
+            </name>
+            <name>
+              <surname>Egmont-Petersen</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Wijmenga</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Reconstruction of a functional human gene network, with an application for prioritizing positional candidate genes</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2006</year>
+          <volume>78</volume>
+          <fpage>1011</fpage>
+          <lpage>1025</lpage>
+          <pub-id pub-id-type="pmid">16685651</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scharfe</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>HH</given-names>
+            </name>
+            <name>
+              <surname>Neuenburg</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Allen</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>GC</given-names>
+            </name>
+            <name>
+              <surname>Klopstock</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Cowan</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Enns</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>RW</given-names>
+            </name>
+          </person-group>
+          <article-title>Mapping gene associations in human mitochondria using clinical disease phenotypes</article-title>
+          <source>PLoS Comput. Biol.</source>
+          <year>2009</year>
+          <volume>5</volume>
+          <fpage>e1000374</fpage>
+          <pub-id pub-id-type="pmid">19390613</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferlin</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Guironnet</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Barnoux</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Dumoulin</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Stepien</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Mousson</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Detection of mitochondrial DNA deletions by a screening procedure using the polymerase chain reaction</article-title>
+          <source>Mol. Cell. Biochem.</source>
+          <year>1997</year>
+          <volume>174</volume>
+          <fpage>221</fpage>
+          <lpage>225</lpage>
+          <pub-id pub-id-type="pmid">9309691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bengtsson</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Speed</surname>
+              <given-names>TP</given-names>
+            </name>
+            <name>
+              <surname>Irizarry</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Exploration, normalization, and genotype calls of high-density oligonucleotide SNP array data</article-title>
+          <source>Biostatistics</source>
+          <year>2007</year>
+          <volume>8</volume>
+          <fpage>485</fpage>
+          <lpage>499</lpage>
+          <pub-id pub-id-type="pmid">17189563</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Carvalho</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>ND</given-names>
+            </name>
+            <name>
+              <surname>Pevsner</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Chakravarti</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Irizarry</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimating genome-wide copy number using allele-specific mixture models</article-title>
+          <source>J. Comput. Biol.</source>
+          <year>2008</year>
+          <volume>15</volume>
+          <fpage>857</fpage>
+          <lpage>866</lpage>
+          <pub-id pub-id-type="pmid">18707534</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Segal</surname>
+              <given-names>MR</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>YH</given-names>
+            </name>
+            <name>
+              <surname>Yeh</surname>
+              <given-names>RF</given-names>
+            </name>
+          </person-group>
+          <article-title>A multi-array multi-SNP genotyping algorithm for Affymetrix SNP microarrays</article-title>
+          <source>Bioinformatics</source>
+          <year>2007</year>
+          <volume>23</volume>
+          <fpage>1459</fpage>
+          <lpage>1467</lpage>
+          <pub-id pub-id-type="pmid">17459966</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pinheiro</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Bates</surname>
+              <given-names>DM</given-names>
+            </name>
+          </person-group>
+          <source>Mixed-Effects Models in S and S-PLUS</source>
+          <year>2000</year>
+          <publisher-loc>New York</publisher-loc>
+          <publisher-name>Springer</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Di</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Matsuzaki</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mei</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Ryder</surname>
+              <given-names>TB</given-names>
+            </name>
+            <name>
+              <surname>Webster</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Algorithms for large-scale genotyping microarrays</article-title>
+          <source>Bioinformatics</source>
+          <year>2003</year>
+          <volume>19</volume>
+          <fpage>2397</fpage>
+          <lpage>2403</lpage>
+          <pub-id pub-id-type="pmid">14668223</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rabbee</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Speed</surname>
+              <given-names>TP</given-names>
+            </name>
+          </person-group>
+          <article-title>A genotype calling algorithm for affymetrix SNP arrays</article-title>
+          <source>Bioinformatics</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>7</fpage>
+          <lpage>12</lpage>
+          <pub-id pub-id-type="pmid">16267090</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dempster</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Laird</surname>
+              <given-names>NM</given-names>
+            </name>
+            <name>
+              <surname>Rubin</surname>
+              <given-names>DB</given-names>
+            </name>
+          </person-group>
+          <article-title>Maximum likelihood from incomplete data via the EM algorithm</article-title>
+          <source>J. Roy. Stat. Soc. Ser. B</source>
+          <year>1977</year>
+          <volume>39</volume>
+          <fpage>1</fpage>
+          <lpage>38</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Banfield</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Raftery</surname>
+              <given-names>AE</given-names>
+            </name>
+          </person-group>
+          <article-title>Model-based gaussian and non-gaussian clustering</article-title>
+          <source>Biometrics</source>
+          <year>1993</year>
+          <volume>49</volume>
+          <fpage>803</fpage>
+          <lpage>821</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schwarz</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Estimating the dimension of a model</article-title>
+          <source>Ann. Stat.</source>
+          <year>1978</year>
+          <volume>6</volume>
+          <fpage>461</fpage>
+          <lpage>464</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fraley</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Raftery</surname>
+              <given-names>AE</given-names>
+            </name>
+          </person-group>
+          <article-title>Model-based clustering, discriminant analysis, and density estimation</article-title>
+          <source>JASA</source>
+          <year>2002</year>
+          <volume>97</volume>
+          <fpage>611</fpage>
+          <lpage>631</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pandya</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Holmes</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>Sunkara</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sparks</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Verratti</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Saeed</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Venepally</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Jarrahi</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Fleischmann</surname>
+              <given-names>RD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A bioinformatic filter for improved base-call accuracy and polymorphism detection using the Affymetrix GeneChip whole-genome resequencing platform</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2007</year>
+          <volume>35</volume>
+          <fpage>e148</fpage>
+          <pub-id pub-id-type="pmid">18006572</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rousseeuw</surname>
+              <given-names>PJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Silhouettes: a graphical aid to the interpretation and validation of cluster analysis</article-title>
+          <source>J. Comput. Appl. Mathematics</source>
+          <year>1987</year>
+          <volume>20</volume>
+          <fpage>53</fpage>
+          <lpage>65</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bengtsson</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Ray</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Spellman</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Speed</surname>
+              <given-names>TP</given-names>
+            </name>
+          </person-group>
+          <article-title>A single-sample method for normalizing and combining full-resolution copy numbers from multiple platforms, labs and analysis methods</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>861</fpage>
+          <lpage>867</lpage>
+          <pub-id pub-id-type="pmid">19193730</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Di</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Cawley</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Alternative base calling method for resequencing microarrays</article-title>
+          <source>Conf. Proc. IEEE Eng. Med. Biol. Soc.</source>
+          <year>2005</year>
+          <volume>3</volume>
+          <fpage>2809</fpage>
+          <lpage>2812</lpage>
+          <pub-id pub-id-type="pmid">17282826</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonzalez-Vioque</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Blazquez</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Moreira</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Bornstein</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bautista</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Arpa</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Navarro</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Campos</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Fernandez-Moreno</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Garesse</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Association of novel POLG mutations and multiple mitochondrial DNA deletions with variable clinical phenotypes in a Spanish population</article-title>
+          <source>Arch. Neurol.</source>
+          <year>2006</year>
+          <volume>63</volume>
+          <fpage>107</fpage>
+          <lpage>111</lpage>
+          <pub-id pub-id-type="pmid">16401742</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ramensky</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Bork</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Sunyaev</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Human non-synonymous SNPs: server and survey</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>3894</fpage>
+          <lpage>3900</lpage>
+          <pub-id pub-id-type="pmid">12202775</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arenas</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Briem</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Dahl</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hutchison</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Martin</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Spelbrink</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Tiranti</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Jacobs</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Zeviani</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The V368i mutation in Twinkle does not segregate with AdPEO</article-title>
+          <source>Ann. Neurol.</source>
+          <year>2003</year>
+          <volume>53</volume>
+          <fpage>278</fpage>
+          <pub-id pub-id-type="pmid">12557300</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Small</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Peeters</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Legeai</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Lurin</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Predotar: a tool for rapidly screening proteomes for N-terminal targeting sequences</article-title>
+          <source>Proteomics</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>1581</fpage>
+          <lpage>1590</lpage>
+          <pub-id pub-id-type="pmid">15174128</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Purdue</surname>
+              <given-names>PE</given-names>
+            </name>
+            <name>
+              <surname>Allsop</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Isaya</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Rosenberg</surname>
+              <given-names>LE</given-names>
+            </name>
+            <name>
+              <surname>Danpure</surname>
+              <given-names>CJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Mistargeting of peroxisomal L-alanine:glyoxylate aminotransferase to mitochondria in primary hyperoxaluria patients depends upon activation of a cryptic mitochondrial targeting sequence by a point mutation</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1991</year>
+          <volume>88</volume>
+          <fpage>10900</fpage>
+          <lpage>10904</lpage>
+          <pub-id pub-id-type="pmid">1961759</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ferraris</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Garelli</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Davidzon</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Kardon</surname>
+              <given-names>RH</given-names>
+            </name>
+            <name>
+              <surname>Bienstock</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Longley</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Mancuso</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gutierrez Rios</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Progressive external ophthalmoplegia and vision and hearing loss in a patient with mutations in POLG2 and OPA1</article-title>
+          <source>Arch. Neurol.</source>
+          <year>2008</year>
+          <volume>65</volume>
+          <fpage>125</fpage>
+          <lpage>131</lpage>
+          <pub-id pub-id-type="pmid">18195150</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bacman</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Moraes</surname>
+              <given-names>CT</given-names>
+            </name>
+          </person-group>
+          <article-title>Intra- and inter-molecular recombination of mitochondrial DNA after in vivo induction of multiple double-strand breaks</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2009</year>
+          <volume>37</volume>
+          <fpage>4218</fpage>
+          <lpage>4226</lpage>
+          <pub-id pub-id-type="pmid">19435881</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Longley</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Clark</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yu Wai Man</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hudson</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Durham</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Nightingale</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Turnbull</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Copeland</surname>
+              <given-names>WC</given-names>
+            </name>
+            <name>
+              <surname>Chinnery</surname>
+              <given-names>PF</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutant POLG2 disrupts DNA polymerase gamma subunits and causes progressive external ophthalmoplegia</article-title>
+          <source>Am. J. Hum. Genet.</source>
+          <year>2006</year>
+          <volume>78</volume>
+          <fpage>1026</fpage>
+          <lpage>1034</lpage>
+          <pub-id pub-id-type="pmid">16685652</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Deutschbauer</surname>
+              <given-names>AM</given-names>
+            </name>
+            <name>
+              <surname>Jaramillo</surname>
+              <given-names>DF</given-names>
+            </name>
+            <name>
+              <surname>Proctor</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kumm</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hillenmeyer</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Nislow</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Giaever</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of haploinsufficiency revealed by genome-wide profiling in yeast</article-title>
+          <source>Genetics</source>
+          <year>2005</year>
+          <volume>169</volume>
+          <fpage>1915</fpage>
+          <lpage>1925</lpage>
+          <pub-id pub-id-type="pmid">15716499</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Lukas</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Neufeld</surname>
+              <given-names>AH</given-names>
+            </name>
+          </person-group>
+          <article-title>Increased mitochondrial DNA damage and down-regulation of DNA repair enzymes in aged rodent retinal pigment epithelium and choroid</article-title>
+          <source>Mol. Vis.</source>
+          <year>2008</year>
+          <volume>14</volume>
+          <fpage>644</fpage>
+          <lpage>651</lpage>
+          <pub-id pub-id-type="pmid">18392142</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al-Tassan</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Chmiel</surname>
+              <given-names>NH</given-names>
+            </name>
+            <name>
+              <surname>Maynard</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Fleming</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Livingston</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Hodges</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>David</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Sampson</surname>
+              <given-names>JR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inherited variants of MYH associated with somatic G:Câ&gt;T:A mutations in colorectal tumors</article-title>
+          <source>Nat. Genet.</source>
+          <year>2002</year>
+          <volume>30</volume>
+          <fpage>227</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="pmid">11818965</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lebedeva</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Eaton</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Shadel</surname>
+              <given-names>GS</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of p53 causes mitochondrial DNA depletion and altered mitochondrial reactive oxygen species homeostasis</article-title>
+          <source>Biochim. Biophys. Acta</source>
+          <year>2009</year>
+          <volume>1787</volume>
+          <fpage>328</fpage>
+          <lpage>334</lpage>
+          <pub-id pub-id-type="pmid">19413947</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ji</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Foo</surname>
+              <given-names>JN</given-names>
+            </name>
+            <name>
+              <surname>O'Roak</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Larson</surname>
+              <given-names>MG</given-names>
+            </name>
+            <name>
+              <surname>Simon</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Newton-Cheh</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>State</surname>
+              <given-names>MW</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Lifton</surname>
+              <given-names>RP</given-names>
+            </name>
+          </person-group>
+          <article-title>Rare independent mutations in renal salt handling genes contribute to blood pressure variation</article-title>
+          <source>Nat. Genet.</source>
+          <year>2008</year>
+          <volume>40</volume>
+          <fpage>592</fpage>
+          <lpage>599</lpage>
+          <pub-id pub-id-type="pmid">18391953</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cole</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Butte</surname>
+              <given-names>NF</given-names>
+            </name>
+            <name>
+              <surname>Voruganti</surname>
+              <given-names>VS</given-names>
+            </name>
+            <name>
+              <surname>Cai</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Haack</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Kent</surname>
+              <given-names>JW</given-names>
+              <suffix>Jr</suffix>
+            </name>
+            <name>
+              <surname>Blangero</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Comuzzie</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>McPherson</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Gibbs</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence that multiple genetic variants of MC4R play a functional role in the regulation of energy expenditure and appetite in Hispanic children</article-title>
+          <source>Am. J. Clin. Nutr.</source>
+          <year>2010</year>
+          <volume>91</volume>
+          <fpage>191</fpage>
+          <lpage>199</lpage>
+          <pub-id pub-id-type="pmid">19889825</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tarpey</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Smith</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Pleasance</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Whibley</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Edkins</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Hardy</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>O'Meara</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Latimer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Dicks</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Menzies</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A systematic, large-scale resequencing screen of X-chromosome coding exons in mental retardation</article-title>
+          <source>Nat. Genet.</source>
+          <year>2009</year>
+          <volume>41</volume>
+          <fpage>535</fpage>
+          <lpage>543</lpage>
+          <pub-id pub-id-type="pmid">19377476</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Wan</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Coarfa</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Drabek</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ostrowski</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Weinstock</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Wheeler</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Gibbs</surname>
+              <given-names>RA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A SNP discovery method to assess variant allele probability from next-generation resequencing data</article-title>
+          <source>Genome Res</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>273</fpage>
+          <lpage>280</lpage>
+          <pub-id pub-id-type="pmid">20019143</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shendure</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The beginning of the end for microarrays?</article-title>
+          <source>Nat. Methods</source>
+          <year>2008</year>
+          <volume>5</volume>
+          <fpage>585</fpage>
+          <lpage>587</lpage>
+          <pub-id pub-id-type="pmid">18587314</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gresham</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Curry</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Ward</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gordon</surname>
+              <given-names>DB</given-names>
+            </name>
+            <name>
+              <surname>Brizuela</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Kruglyak</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Botstein</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Optimized detection of sequence variation in heterozygous genomes using DNA microarrays with isothermal-melting probes</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2010</year>
+          <volume>107</volume>
+          <fpage>1482</fpage>
+          <lpage>1487</lpage>
+          <pub-id pub-id-type="pmid">20080586</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Krishnakumar</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wilhelmy</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Faham</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Mindrinos</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Davis</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>A comprehensive assay for targeted multiplex amplification of human DNA sequences</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>2008</year>
+          <volume>105</volume>
+          <fpage>9296</fpage>
+          <lpage>9301</lpage>
+          <pub-id pub-id-type="pmid">18599465</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

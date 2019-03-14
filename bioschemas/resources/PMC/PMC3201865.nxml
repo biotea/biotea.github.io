@@ -1,0 +1,2120 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:42:13Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3201865" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3201865</identifier><datestamp>2011-10-26</datestamp><setSpec>nar</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Nucleic Acids Res</journal-id>
+      <journal-id journal-id-type="publisher-id">nar</journal-id>
+      <journal-id journal-id-type="hwp">nar</journal-id>
+      <journal-title-group>
+        <journal-title>Nucleic Acids Research</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0305-1048</issn>
+      <issn pub-type="epub">1362-4962</issn>
+      <publisher>
+        <publisher-name>Oxford University Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3201865</article-id>
+      <article-id pub-id-type="pmcid">PMC3201865</article-id>
+      <article-id pub-id-type="pmc-uid">3201865</article-id>
+      <article-id pub-id-type="pmid">21745816</article-id>
+      <article-id pub-id-type="doi">10.1093/nar/gkr528</article-id>
+      <article-id pub-id-type="publisher-id">gkr528</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Gene Regulation, Chromatin and Epigenetics</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The USP7/Dnmt1 complex stimulates the DNA methylation activity of Dnmt1 and regulates the stability of UHRF1</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Felle</surname>
+            <given-names>Max</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Joppien</surname>
+            <given-names>Saskia</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>NÃ©meth</surname>
+            <given-names>Attila</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Diermeier</surname>
+            <given-names>Sarah</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Thalhammer</surname>
+            <given-names>Verena</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Dobner</surname>
+            <given-names>Thomas</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>3</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kremmer</surname>
+            <given-names>Elisabeth</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>4</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kappler</surname>
+            <given-names>Roland</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>2</sup>
+          </xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>LÃ¤ngst</surname>
+            <given-names>Gernot</given-names>
+          </name>
+          <xref ref-type="aff" rid="AFF1">
+            <sup>1</sup>
+          </xref>
+          <xref ref-type="corresp" rid="COR1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="AFF1"><sup>1</sup>Department of Biochemistry III, UniversitÃ¤t Regensburg, UniversitÃ¤tsstr. 31, 93053 Regensburg, <sup>2</sup>Department of Pediatric Surgery, Dr. von Hauner Childrenâs Hospital, Ludwig-Maximilians-University Munich, Lindwurmstr. 4, 80337 Munich, <sup>3</sup>Heinrich-Pette-Institut fÃ¼r Experimentelle Virologie und Immunologie, Abteilung fÃ¼r Molekulare Virologie, Martinistr. 52, 20251 Hamburg and <sup>4</sup>Institute for Molecular Immunology, Helmholtz Centre Munich, Marchioninistr. 25, 81377 Munich, Germany</aff>
+      <author-notes>
+        <corresp id="COR1">*To whom correspondence should be addressed. Tel: +49 89 5996 435; Fax: +49 89 5996 435; Email: <email>gernot.laengst@vkl.uni-regensburg.de</email></corresp>
+      </author-notes>
+      <!--For NAR both ppub and collection dates generated for PMC processing 1/27/05 beck-->
+      <pub-date pub-type="collection">
+        <month>10</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <month>10</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>9</day>
+        <month>7</month>
+        <year>2011</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>9</day>
+        <month>7</month>
+        <year>2011</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the
+							<pub-date pub-type="epub"/>. -->
+      <volume>39</volume>
+      <issue>19</issue>
+      <fpage>8355</fpage>
+      <lpage>8365</lpage>
+      <history>
+        <date date-type="received">
+          <day>3</day>
+          <month>1</month>
+          <year>2011</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>23</day>
+          <month>5</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>9</day>
+          <month>6</month>
+          <year>2011</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© The Author(s) 2011. Published by Oxford University Press.</copyright-statement>
+        <copyright-year>2011</copyright-year>
+        <license license-type="creative-commons" xlink:href="http://creativecommons.org/licenses/by-nc/3.0">
+          <license-p><!--CREATIVE COMMONS-->This is an Open Access article distributed under the terms of the Creative Commons Attribution Non-Commercial License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by-nc/3.0">http://creativecommons.org/licenses/by-nc/3.0</ext-link>), which permits unrestricted non-commercial use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Aberrant DNA methylation is often associated with cancer and the formation of tumors; however, the underlying mechanisms, in particular the recruitment and regulation of DNA methyltransferases remain largely unknown. In this study, we identified USP7 as an interaction partner of Dnmt1 and UHRF1 <italic>in vivo</italic>. Dnmt1 and USP7 formed a soluble dimer complex that associated with UHRF1 as a trimeric complex on chromatin. Complex interactions were mediated by the C-terminal domain of USP7 with the TS-domain of Dnmt1, whereas the TRAF-domain of USP7 bound to the SRA-domain of UHRF1. USP7 was capable of targeting UHRF1 for deubiquitination and affects UHRF1 protein stability <italic>in vivo.</italic> Furthermore, Dnmt1, UHRF1 and USP7 co-localized on silenced, methylated genes <italic>in vivo.</italic> Strikingly, when analyzing the impact of UHRF1 and USP7 on Dnmt1-dependent DNA methylation, we found that USP7 stimulated both the maintenance and <italic>de novo</italic> DNA methylation activity of Dnmt1 <italic>in vitro.</italic> Therefore, we propose a dual role of USP7, regulating the protein turnover of UHRF1 and stimulating the enzymatic activity of Dnmt1 <italic>in vitro</italic> and <italic>in vivo</italic>.</p>
+      </abstract>
+      <counts>
+        <page-count count="11"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body><sec sec-type="intro"><title>INTRODUCTION</title><p>In mammals, the majority of C-5-cytosine methylation occurs at CpG dinucleotides that are modified to 70â80% in a cell type-specific pattern and generally associated with repressed states of chromatin (<xref ref-type="bibr" rid="B1 B2 B3 B4">1â4</xref>). DNA methylation contributes to epigenetic processes such as differentiation and development, transcriptional regulation, preservation of chromosomal stability, silencing of repetitive elements, genomic imprinting, X-chromosome inactivation and DNA repair (<xref ref-type="bibr" rid="B2">2</xref>,<xref ref-type="bibr" rid="B3">3</xref>). Dnmt3a and Dnmt3b are mainly involved in <italic>de novo</italic> establishment of DNA methylation marks, whereas the maintenance DNA methyltransferase Dnmt1 maintains methylation patterns on the newly synthesized daughter strand during replication (<xref ref-type="bibr" rid="B5">5</xref>,<xref ref-type="bibr" rid="B6">6</xref>). Mice depleted for the DNA methyltransferases revealed developmental defects and die early during embryogenesis (<xref ref-type="bibr" rid="B7">7</xref>,<xref ref-type="bibr" rid="B8">8</xref>). Aberrant DNA methylation patterns are often associated with cancer (<xref ref-type="bibr" rid="B9">9</xref>), genome-wide hypo- and hypermethylation correlates with genomic instability, reactivation of retrotransposons, repression of tumor suppressor genes and loss of genomic imprinting (LOI). The DNA methyltransferases were found to interact with many chromatin-associated factors such as methyl-binding proteins (MBD2, MeCP2), histone deacetylases (HDAC), histone methyl transferases (HMT), transcriptional repressors, chromatin remodeling enzymes and Polycomb group proteins (<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>). However, so far the only Dnmt1 complex purified by means of chromatographic fractionation from HeLa nuclear extracts was a transcription repression complex consisting of Dnmt1, pRB, E2F1 and HDAC1 (<xref ref-type="bibr" rid="B12">12</xref>).</p><p>Recently, UHRF1 (also known as ICBP90 in human or NP95 in mouse) has been shown to be essential in maintaining genomic DNA methylation (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>). The DNA of UHRF1-deficient ES cells exhibited low DNA methylation levels and methylation defects of the imprinted genes (<xref ref-type="bibr" rid="B14">14</xref>), an effect reminiscent of Dnmt1 knockout in ES cells and mice (<xref ref-type="bibr" rid="B7">7</xref>). UHRF1 strongly associates with heterochromatin (<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>) and binds preferentially to hemi-methylated DNA via its SRA domain (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B17 B18 B19">17â19</xref>). The latter was also shown to interact with the TS domain of Dnmt1 (<xref ref-type="bibr" rid="B20">20</xref>,<xref ref-type="bibr" rid="B21">21</xref>). Hence, it has been proposed that UHRF1 would recruit Dnmt1 to heterochromatin to maintain DNA methylation during replication. Furthermore, UHRF1 belongs to the class of Ring finger-type E3-ubiquitin ligases (<xref ref-type="bibr" rid="B22">22</xref>) possessing <italic>in vitro</italic> autoubiquitinylation activity (<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B23">23</xref>). UHRF1 does also target histones for ubiquitinylation <italic>in vitro</italic> and <italic>in vivo</italic>, with a preference for histone H3 (<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>).</p><p>USP7 (also known as HAUSP) was initially identified in promyelocytic leukemia nuclear bodies (PML) of herpes simplex virus infected cells (<xref ref-type="bibr" rid="B24">24</xref>). It regulates the stability of p53 and MDM2 through its deubiquitination activity (<xref ref-type="bibr" rid="B25 B26 B27 B28">25â28</xref>). Furthermore, USP7 has been shown to associate with other factors and substrates including EBNA1 (<xref ref-type="bibr" rid="B29">29</xref>), DAXX (<xref ref-type="bibr" rid="B30">30</xref>), FOXO4 (<xref ref-type="bibr" rid="B31">31</xref>), PTEN (<xref ref-type="bibr" rid="B32">32</xref>) and is crucial for development, as mice depleted for USP7 die during embryogenesis (<xref ref-type="bibr" rid="B33">33</xref>). USP7 was shown to silence the homeotic genes through Polycomb in <italic>Drosophila</italic> (<xref ref-type="bibr" rid="B34">34</xref>). In particular, the GMP-synthetase interacted with USP7 to enhance the removal of the active ubiquitin mark from histone H2B and to act as a transcriptional corepressor (<xref ref-type="bibr" rid="B35">35</xref>).</p><p>We biochemically purified human Dnmt1 and show that it is associated primarily with USP7 and co-assembles with UHRF1 on DNA, forming a trimeric complex that associates with silenced genes <italic>in vivo</italic>. We show a dual role for USP7 in the complex, first stimulating the enzymatic activity of Dnmt1 and second regulating the stability of the UHRF1 protein.</p></sec><sec sec-type="materials|methods"><title>MATERIALS AND METHODS</title><sec><title>Cell culture</title><p>All cell lines were grown at 37Â°C, 5% CO<sub>2</sub> in medium containing 10% FBS (GIBCO), 100 U/ml penicillin and 100âÂµg/ml streptomycin (GIBCO). Human cervix carcinoma cells (HeLa S3 cells; ATCC 161) were grown in spinner flasks in RPMI 1640 medium (GIBCO) with a cell density of ~1âÃâ10<sup>6</sup>âcells/ml. Human colon adenocarcinoma cells HCT-116 (ATCC 581) were cultivated as mono-layers in D-MEM medium (GIBCO) and grown to a confluency of 60â70%. LS174TR1 cells, expressing the Tet-repressor (<xref ref-type="bibr" rid="B36">36</xref>,<xref ref-type="bibr" rid="B37">37</xref>) were grown in RPMI 1640/HEPES medium (GIBCO) supplemented with 10âÂµg/ml blasticidin. LS174TR1 cells with plasmids carrying either shRNA (LS88) or N-myc-USP7 (LS89) under the control of a tetracycline/doxycycline inducible promoter were cultivated as LS174TR1 but supplemented with 400âÂµg/ml Zeocin (<xref ref-type="bibr" rid="B28">28</xref>,<xref ref-type="bibr" rid="B38">38</xref>). LS174TR1 cells and their derivates were kindly provided by M. Maurice. For doxycycline treatment, cells were seeded on a 10âcm tissue culture plate with a cell number giving rise to 50â60% confluency on the day of harvest. Cells were grown in RPMI1640/HEPES (GIBCO) supplemented with blasticidin (10âÂµg/ml), Zeocin (200âÂµg/ml), TET-FBS (Clontech 631106) and 1.0âÂµg/ml doxycycline. The parental LS174TR1 cells were used as a negative control in all experiments. H1299 (p53<sup>â/â</sup>; ATCC: CRL-5803) non-small lung cancer cells were cultivated as mono-layers in D-MEM medium (GIBCO). Protein half-life studies were performed by incubating cells with cycloheximide (Sigma, 100âÂµg/ml) and proteasome inhibitor MG132 (Sigma, 20âÂµM) for the indicated time points. Transfection reactions with the Fugene6 reagent (Roche) were performed in six-well plates with 3âÃâ10<sup>5</sup>âcells/well with 2.0âÂµg total plasmid DNA for 48âh. For protein half-life studies, cells were split 1:4 36âh post-transfection and treated with cycloheximide for the indicated time points.</p><p>For knockdown experiments, 2âÃâ10<sup>6</sup> HCT-116 cells were electroporated with 80âpmol validated siRNAs (siGENOME non-targeting siRNA #1, Thermo Scientific Dharmacon; UHRF1 Silencer Select siRNA and USP7 Silencer Validated siRNA, both Applied Biosystems) for 10âms with 350âV and subsequently seeded in six-well plates for 48âh.</p></sec><sec><title>Plasmids and constructs</title><p>The plasmid pFastBAcHTa-Dnmt1 with an N-terminal 6âÃâHis-tag and TEV cleavage site were a kind gift of F. Lyko. The cDNA of the full-length Dnmt3b2 (kind gift of F. Lyko) was PCR-amplified and cloned into a modified pet11 bacterial expression vector (Novagen) carrying an N-terminal Flag-tag and a C-terminal Thrombin cleavage site followed by a 6âÃâHis-tag (pETM-Dnmt3b2). Full-length human Dnmt3a was PCR-amplified from a cDNA clone (RZPD, IRATp970A0473D) and cloned in-frame into the pENTR3C-vector (Invitrogen) with BamHI/EcoRI. Full-length USP7/HAUSP and the TRAF domain of USP7 (amino acid 1â215, without stop codon) were PCR amplified on pCin4-HAUSP [kindly provided by Yigong Shi, (<xref ref-type="bibr" rid="B39">39</xref>)] and cloned into the pENTR SD D TOPO vector (Invitrogen). USP7 C223S mutant was generated by SOE-PCR and transferred into the pDONR221 vector (Invitrogen). The GST fusion constructs of USP7-domains 2 (amino acid 212â561), 3 (amino acid 561â916) and 4 (amino acid 913â1102), cloned as BamHI/XhoI fragments in pGEX-2T (GE Healthcare), were kindly provided by Prof. Dobner. UHRF1 and UHRF1ÎRING (without stop codon) and the SRA domain (TEV protease cleavage site, amino acid 409â635) of UHRF1 were PCR-amplified on pcDNA3.1-ICBP90/UHRF1 [kindly provided by Yusuke Nakamura, (<xref ref-type="bibr" rid="B17">17</xref>)] and cloned into the pENTR SD D TOPO vector (Invitrogen). The correct sequence of all plasmids was verified by sequencing (sequences of plasmids and oligonucleotides on request). pENTR3C-Dnmt3a, pENTR-USP7 and pDONR221-USP7 C223S were subsequently transferred via LR-reaction (Invitrogen) into pDEST10 (Invitrogen) and pENTR-SRA into pDEST20 (Invitrogen) creating expression clones for baculovirus generation. pENTR-UHRF1, pENTR-UHRF1ÎRING and pENTR-TRAF-domain were transferred via LR-reaction (Invitrogen) into pDM7 (pET11 based destination vector with C-terminal 6âÃâHis-tag) and pGEX-4T1-DEST (pGEX 4T1 based destination vector), respectively. For transfection studies pIRES EGFP UHRF1-C-Flag and pIRES EGFP N-HA-USP7 were used.</p></sec><sec><title>Antibodies</title><p>The following antibodies were used for western blot analysis and immunoprecipitation: anti-actin (rabbit polyclonal, Sigma A2066), anti-Dnmt1 DNM-2C1, anti-Dnmt3a D3A2-6A4, anti-Dnmt3b D3B2-2C1 (rat monoclonal antibodies, E. Kremmer, Helmholtz Gesellschaft), anti-Flag (mouse monoclonal, Sigma M2 F1804), anti-Penta-His (mouse monoclonal, Qiagen P-21315), anti-ICBP90/UHRF1 [mouse monoclonal, generously provided by C. Bronner, (<xref ref-type="bibr" rid="B40">40</xref>)], anti-Lamin A/C (rabbit polyclonal, Santa Cruz, sc-20681), anti-RNAPII CTD 8WG16 (mouse monoclonal, generously provided by D. Eick) and anti-USP7 (rabbit polyclonal, Bethyl laboratories, A300-033A). Irrelevant IgG control and horseradish peroxidase-coupled secondary antibody antibodies were purchased from Santa Cruz.</p></sec><sec><title>DNA methyltransferase assay</title><p>Typical DNA methyltransferase reaction (50âÂµl) contained 20ânM Dnmt1, non-methylated (LP35/37) or hemi-methylated (LP35/36) oligonucleotides at 120â4320ânM (9 CpG), BSA at 0.2âÂµg/Âµl and <sup>3</sup>H-SAM (GE Healthcare, TRK581-250UCi, 9.25 MBeq with 1.0âmCi/ml 63.0âCi/mmol) at 480ânM in DNA methyltransferase buffer (20âmM Tris, pH 7.6, 1.0âmM EDTA, 1.0âmM DTT). The reaction was started with the addition of DNA, incubated at 37Â°C for 10â30âmin, and stopped with 10âÂµl of 10âmM SAM (Sigma). The reaction was spotted on DE81 filter (Whatman), washed three times with 0.2âM NH<sub>3</sub>HCO<sub>3</sub>, once with water and ethanol following drying and scintillation counting.</p><p>LP35: 5â²-GGTACGGATGCGGAATCGTCTAACGCGTGGAATCGTCCCCTTGCGAATTTCGGTGTCGAT-3â², LP36: 5â²-CGTAXGGATGXGGAATXGTCTAAXGXGTGGAATXGTCCCCTTGXGAATTTXGGTGTXGAT-3â², LP37: 5â²-ATCGACACCGAAATTCGCAAGGGGACGATTCCACGCGTTAGACGATTCCGCATCCGTACC-3â² (Xâ=âC5-methyl group).</p></sec><sec><title><italic>In vitro</italic> ubiquitinylation assay</title><p>Standard ubiquitinylation reactions (10âÂµl) contained 100âng E1 activating enzyme (Biomol, UW9410), 300âng E2 conjugating enzyme UBCH5c (BioMol, UW9070), 1.0âÂµg ubiquitin (Sigma U-6253) or 100âng Flag-tagged ubiquitin (Boston Biochem, U-120) and 250âng UHRF1 or UHRF1ÎRING in 1Ãâreaction buffer (50âmM Tris pH 7.5, 50âmM NaCl, 5.0âmM MgCl<sub>2</sub>, 0.05% NP40, 1.0âmM DTT, 5.0âmM ATP). The reaction was carried out for 2âh at 37Â°C and stopped with the addition of HU-buffer and boiled for 10âmin at 65Â°C. Samples were resolved by SDSâPAGE and ubiquitination reaction was analyzed by western blot using antibodies directed against the His-tag or Flag-tag. For autoubiquitinylation reactions of UHRF1 in the presence of USP7 or USP7 C223S, contained 5.0 and 50âng of USP7/USP7 C223S and were supplemented with 10âmM DTT.</p></sec><sec><title>Immunoprecipitation</title><p>All steps were carried out on ice or at 4Â°C and buffers supplemented with protease inhibitors PMSF (1.0âmM), Leupeptin (1â10âÂµg/ml), Aprotinin, Pepstatin (1.0âÂµg/ml) prior to use. If not stated differently, the following IP buffer was used for IP experiments: 50âmM Tris pH 7.5, 150âmM NaCl, 1.0âmM EDTA, 0.05% NP-40.</p><p>Protein mixtures (recombinant proteins, nuclear extracts) were incubated with 50âÂµl of proteinG sepharose slurry in the presence of 1ÃâIP-buffer, to analyze for unspecific interaction [referred to as âpreclearing beadsâ (PG)].</p><p>The precleared sample/lysate was added to 50âÂµl of proteinG sepharose charged with antibodies and incubated for 2âh at 4Â°C. The âbeadsâ were washed three times with 1000âÂµl IP buffer and resuspended in 50âÂµl LÃ¤mmli dye, heated to 95Â°C and subjected to SDSâPAGE following WB blot analysis.</p><p>Protein bands for identification were sent for MALDI analysis.</p></sec><sec><title>Preparation of whole-cell extracts</title><p>Cells from P15 tissue culture plates were resuspended in 150âÂµl lysis buffer (20âmM Tris pH 7.5, 100âmM NaCl, 0.1âmM EDTA, 0.5% NP40) following incubation on ice for 30âmin, while vigorously vortexing every 10âmin. After centrifugation (30âmin, 13â000<italic>g</italic>, 4Â°C) the supernatant (WCE) was recovered.</p></sec><sec><title>Real-time reverse transcriptionâPCR</title><p>Total RNA was extracted from tumor cells in Trizol (Invitrogen), depleted from DNA and subsequently purified using DNase I and RNeasy Mini Kit, respectively (Qiagen). Reverse transcription (RT) of total RNA was performed using random hexamers (Roche Diagnostics) and SuperScriptII reverse transcriptase (Invitrogen). qPCR amplifications were performed in doublets as described for the ChIP analysis. Amplification of the house-keeping gene <italic>TATA-Box-binding-Protein</italic> (TBP) was performed to standardize the amount of sample RNA. Relative quantitation of gene expression was performed using the ÎÎct method as described earlier (<xref ref-type="bibr" rid="B41">41</xref>). We used the following primer pairs (5â²âââ3â²-orientation): SFRP1-F, CCTGGGACTCAGCACATTGA; SFRP1-R, GATGGCCTCAGATTTCAACTCG; IGFBP3-F, GTCCAAGCGGGAGACAGAATAT; IGFBP3-R, CCTGGGACTCAGCACATTGA; HHIP-F, TGTACATCATTCTTGGTGATGGG, HHIP-R, AGCCGTAGCACTGAGCCTGT; HOXA7-F, TCAGGACCTGACAGGAAGCG; HOXA7-R, TCAGGTAGCGGTTGAAGTGGA and TBP-F, GCCCGAAACGCCGAATAT; TBP-R, CCGTGGTTCGTGGCTCTCT.</p></sec><sec><title>Methylation-specific PCR</title><p>Genomic DNA of tumor cells was extracted with phenol and chloroform, ethanol precipitated and dissolved in TE buffer following standard procedures (<xref ref-type="bibr" rid="B42">42</xref>,<xref ref-type="bibr" rid="B43">43</xref>). We used the EpiTect<sup>Â®</sup> Bisulfite Kit (Qiagen) for bisulfite-treatment of DNA as recommended by the manufacturer. Methylation status of the promoter region of the <italic>SFRP1</italic>, <italic>IGFBP3</italic>, <italic>HHIP</italic> and <italic>HOXA7</italic> genes was analyzed by Methylation-specific PCR (MSP) using the following primer sets (5â²âââ3â²-orientation): methylated (SFRP1-M-F, TTTGTAGTTTTCGGAGTTAGTGTCGC; SFRP1-M-R, CGACCCTCGACCTACGATCG; IGFBP3-M-F, GCGAGTTTCGAGTTGTACGTTTTC; IGFBP3-M-R, GCCGACCGCTATATAAAAACCG; HHIP-M-F, AGTAGTCGGGTAGTTTCGGAATTTTC; HHIP-M-R, GAACCTTCGAAACCAACCTCG; HOXA7-M-F, GAGTTTAGATAGACGGCGGC; HOXA7-M-R, CCGAAAACGCCTTTATAACG) and unmethylated (SFRP1-U-F, TTTTGTAGTTTTTGGAGTTAGTGTTGTGTG; SFRP1-U-R, CAATAACAACCCTCAACCTACAATCAA; IGFBP3-U-F, TTGGGTGAGTTTTGAGTTGTATGTTTTT; IGFBP3-U-R, AAACACACCAACCACTATATAAAAACCAAA; HHIP-U-F, TTGTAGTAGTTGGGTAGTTTTGGAATTTTT; HHIP-U-R, AAACCTTCAAAACCAACCTCAAAA; HOXA7-U-F, GTTTGAGTTTAGATAGATGGTGGTG; HOXA7-U-R, CATCCAAAAACACCTTTATAACAAA).</p><p>MSP primer design was accomplished using Methyl Primer Express (Applied Biosystems) using the following criteria: CpG percentage &gt;55%; observed/expected CpGâ&gt;â65%; CpG lengthâ&gt;â300âbp. The MSP reaction contained 40âng DNA, 500ânM of forward and reverse primer, 2âmM dNTPs, 1.5âmM MgCl<sub>2</sub>, 1âU Hot Start <italic>Taq</italic> DNA polymerase and 1ÃâHot Start PCR Buffer (MBI Fermentas). Conditions for MSP were 95Â°C for 4âmin, followed by 38 cycles of 94Â°C for 30âs, 61Â°C for 30âs and 72Â°C for 45âs, with a final extension cycle of 72Â°C for 10âmin. The PCR products were resolved by electrophoresis in a 2% agarose gel.</p></sec><sec><title>Pyrosequencing</title><p>Pyrosequencing was performed using standard procedures (<xref ref-type="bibr" rid="B44">44</xref>). In brief, 160âbp of the <italic>HHIP</italic> promoter region were amplified from bisulfite-treated DNA using Maxima Hot start DNA polymerase (Fermentas) and the following primers: HHIP-Pyro-F, GGGAGGAGAGAGGAGTTT; HHIP-Pyro-R, Biotin-AACCAACCTCCAAAATACTAAACC. Sequencing was performed on a PyroMark24 with PyroMark Gold Q24 reagents (Qiagen) and the sequencing primer HHIP-Pyro-Seq, TTTAGGATTGAGTTTTTGTTTTAAG.</p></sec><sec><title>Additionals</title><p>A detailed description of the ChIP procedure as well as the preparation of nuclear extracts and proteins is given in the <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Data</ext-link>.</p></sec></sec><sec sec-type="results"><title>RESULTS</title><sec><title>Dnmt1, UHRF1 and USP7 form complexes in solution and on chromatin</title><p>In order to identify Dnmt1 interaction partners, we performed immunoprecipitations with monoclonal antibodies directed against Dnmt1 using nuclear extracts from HeLa S3 cells (<xref ref-type="fig" rid="F1">Figure 1</xref>A) and human placenta (data not shown). Nuclei were isolated and nuclear extracts were either prepared according to the protocol of Dignam (<xref ref-type="bibr" rid="B45">45</xref>), or by digestion of chromatin with <italic>micrococcal nuclease</italic> (MNase) and specifically associated proteins were identified by conventional mass spectrometry of the excised bands, or determined quantitatively by iTraq labeling and mass spectrometry (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S1</ext-link>). Besides the known interaction partners UHRF1 (N), only present in the MNase-treated extract, and PCNA (P) (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B21">21</xref>,<xref ref-type="bibr" rid="B46">46</xref>), we observed a strong enrichment of the protein USP7 (U) in both kind of nuclear extracts (<xref ref-type="fig" rid="F1">Figure 1</xref>A).
+<fig id="F1" position="float"><label>Figure 1.</label><caption><p>Dnmt1, UHRF1 and USP7 interact with one another <italic>in vivo</italic>. (<bold>A</bold>) USP7 is identified as a new interaction partner of Dnmt1. Dnmt1 was immunoprecipitated from nuclear extracts (Dignam-extract and MNase-extract) and subjected to SDSâPAGE and Coomassie blue staining. Protein bands [(U) USP7, (P) PCNA, (N) UHRF1] specific for the Dnmt1-IP were identified by MS analysis (ctrl: proteinG sepharose only). Precipitated Dnmt1 (D) and the molecular weight marker (M) are indicated. (<bold>B</bold>) Immunoprecipitation of endogenous proteins of the MNase treated extract with the indicated antibodies. Co-precipitated proteins were detected by Western Blot. 2% of the input (In), 10% of the flowthrough (Ft), 10% of the control beads (PG: ProteinG Sepharose) and 10% of the antibody coupled beads (B) were loaded. (<bold>C</bold> and <bold>D</bold>) HeLa S3 nuclear extracts [Dignam-extract (<bold>C</bold>) and MNase-extract (<bold>D</bold>)] were applied on a supererose6 gelfiltration column (GE Healthcare). Every second fraction was analyzed on SDSâPAGE following western blot analysis with the indicated antibodies. Load (L), void and the migration of the molecular weight reference proteins are indicated.</p></caption><graphic xlink:href="gkr528f1"/></fig></p><p>To verify the specific interaction of the endogenous proteins, immunoprecipitations with antibodies specific for Dnmt1, UHRF1 and USP7 were performed, and the presence of the other proteins was tested by Western Blot analysis (<xref ref-type="fig" rid="F1">Figure 1</xref>B and <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S2</ext-link>). Immunoprecipitation of Dnmt1 showed co-precipitation of UHRF1 and USP7. Vice versa, immunoprecipitation of UHRF1 and USP7 showed interaction with the other proteins of interest revealing an interaction of all three proteins <italic>in vivo</italic>. Furthermore, digestion of endogenous DNA by DNaseI followed by immunoprecipitation demonstrated that these interactions are direct and not mediated by their independent binding to neighboring DNA elements (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S2</ext-link>). However, the interaction of Dnmt1 with UHRF1 was significantly weaker after DNaseI digestion, suggesting that the complex with UHRF1 is stabilized on chromatin. To further dissect the interaction of USP7 with Dnmt1 and UHRF1 <italic>in vivo</italic>, we performed gelfiltration analysis of the nuclear extracts (Dignam-extract, âMNaseâ-extract) analyzing the migration behavior of the three proteins (<xref ref-type="fig" rid="F1">Figure 1</xref>C and D). The major fractions of Dnmt1 and USP7 significantly co-migrated between 440 and 669âkDa in the Dignam-extract, whereas the majority of UHRF1 was not co-fractionating, but migrating at lower molecular weight. However, if the MNase-treated extract was used, we observed co-migration of Dnmt1, UHRF1 and USP7 suggesting the stabilization of the trimeric interaction by its interaction with chromatin (<xref ref-type="fig" rid="F1">Figure 1</xref>D). Analysis of the fractions on SDSâPAGE following silver staining of proteins clearly shows the presence of histones in the fractions of UHRF1 in the âMNaseâ-treated extract but not in the Dignam-extract (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S1</ext-link>D and E). As UHRF1 was shown to be tightly associated with chromatin (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>), our data suggest a âsolubleâ Dnmt1/USP7 complex to exist when Dnmt1 is detached from chromatin and that a trimeric complex with UHRF1 forms at the chromatin target sites <italic>in vivo</italic>. The HDAC1 protein was recently shown to form interactions with USP7, UHRF1 and Dnmt1 (<xref ref-type="bibr" rid="B47">47</xref>); however, none of our gelfiltration experiments could reveal a major fraction of HDAC1 co-migrating with the target proteins (<xref ref-type="fig" rid="F1">Figure 1</xref>C and D).</p></sec><sec><title>Dnmt1 and UHRF1 interact with USP7 <italic>in vitro</italic></title><p>To identify the protein domains mediating the interactions, we purified the recombinant full-length proteins, the TS domain (amino acid 316â601) of Dnmt1, the SRA domain (amino acid 435â586) of UHRF1 and the TRAF domain (amino acid 1â215; U-1), the proteolytic core domain (amino acid 212â561; U-2), the C-terminal domain (amino acid 561â916; U-3) and the C-terminus (amino acid 913â1102; U-4) of USP7. The purified proteins were used in <italic>in vitro</italic> pull-down experiments to reveal the interaction domains (<xref ref-type="fig" rid="F2">Figure 2</xref>A, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figures S3</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">S4</ext-link>). Dnmt1 efficiently co-precipitated USP7 <italic>in vitro</italic> and we were able to map the interaction site of Dnmt1 to the TS domain (<xref ref-type="fig" rid="F2">Figure 2</xref>B)<italic>.</italic> Vice versa USP7 interacted with Dnmt1 and the TS domain as expected. The TS domain does interact at the same time with UHRF1, an interaction that was also shown previously (<xref ref-type="bibr" rid="B21">21</xref>). So far the data suggest two dimeric complexes, i.e. Dnmt1/USP7 and Dnmt1/UHRF1. However, we observed as well a direct interaction between UHRF1 and USP7 indicating the potential existence of three different dimeric complexes. Immunoprecipitation experiments using the individual USP7 domains showed that UHRF1 interacts with the TRAF domain (amino acid 1â215, U-1), whereas Dnmt1 and the TS domain were bound by domain 3 of USP7 (amino acid 561â916, U-3) (<xref ref-type="fig" rid="F2">Figure 2</xref>C). In contrast to Dnmt1, the <italic>de novo</italic> DNA methyltransferases, Dnmt3a and Dnmt3b2 preferentially interacted with the TRAF domain of USP7 (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S4</ext-link>). Furthermore, the SRA domain of UHRF1 mediated the interaction with both Dnmt1 and USP7 (<xref ref-type="fig" rid="F2">Figure 2</xref>C). Taken together, our <italic>in vitro</italic> studies allow the discrimination of the following dimeric complexes (<xref ref-type="fig" rid="F2">Figure 2</xref>D): a Dnmt1/UHRF1 interaction between the TS and the SRA domain, an association of UHRF1 and USP7 mediated between the SRA and the TRAF domain, and a Dnmt1/USP7 complex between the U-3 and TS domains, respectively. Moreover, all interactions also suggest the formation of a trimeric complex of USP7, Dnmt1 and UHRF1, arguing for a direct interaction on chromatin <italic>in vivo</italic>.
+<fig id="F2" position="float"><label>Figure 2.</label><caption><p>Dnmt1, UHRF1 and USP7 form a trimeric complex. (<bold>A</bold>) Schematic representation of the domains of Dnmt1, USP7 and UHRF1 (proteins and domains are not in scale). TS (Targeting domain, amino acid 316â601), cat (C-terminal catalytic domain of Dnmt1). U-1 (TRAF domain, amino acid 1â215), U-2 (catalytic domain, amino acid 212â561), U-3 (C-terminal domain, amino acid 561â916), U-4 (C-terminus, amino acid 913â1102). UBQ (ubiquitin-like domain), PHD (plant homeodomain domain), SRA (SET-Ring finger associated domain, amino acid 435â586), RING (Ring finger domain). (<bold>B</bold>) Co-immunoprecipitation assay to determine the interaction of recombinant proteins with protein-specific antibodies. Detection of co-precipitated proteins via western blot. Input (In, 1.0%), protein G sepharose (PG, 20%), âspecific beadsâ (B, 20%), antibodies used for immunodetection are indicated. The Dnmt1-specific antibody DNM-2C1 recognizes the TS-domain and was used for IP and WB. (Asterisks) Five times shorter exposure of the input signal of UHRF1. (<bold>C</bold>) GST pull-down assay interaction analysis, using GST, the indicated USP7-domains and the SRA domain fused to GST with Dnmt1, TS-domain, USP7 and UHRF1. The bound proteins were separated and plotted with the respective antibodies. Input (In, 20%); GST or GST-fusion domains (25%). (<bold>D</bold>) Schematic overview of the protein interactions and protein-domains involved.</p></caption><graphic xlink:href="gkr528f2"/></fig></p></sec><sec><title>USP7 prevents UHRF1 from autoubiquitinylation <italic>in vitro</italic> and regulates its stability <italic>in vivo</italic></title><p>To study the role of the USP7 deubiquitinase activity with respect to the regulation of Dnmt1 and UHRF1 protein stability, the expression of USP7 was either down- or upregulated in doxycycline inducible LS174T cells (<xref ref-type="fig" rid="F3">Figure 3</xref>A). In agreement with previous studies, knockdown (LS88 cells) and overexpression (LS89 cells) of USP7 resulted in stabilization of p53 and thus increase of p53 levels (<xref ref-type="bibr" rid="B25 B26 B27 B28">25â28</xref>). Dnmt1 protein levels decreased after 3 days of USP7 knockdown, when USP7 levels were the lowest (<xref ref-type="fig" rid="F3">Figure 3</xref>A), confirming the observation of Wang and colleagues (<xref ref-type="bibr" rid="B47">47</xref>). More significant, UHRF1 protein levels decreased or increased after down- or upregulation of USP7, respectively (<xref ref-type="fig" rid="F3">Figure 3</xref>A). This indicates that USP7 affects the stability of Dnmt1 and UHRF1 protein <italic>in vivo.</italic> Due to the strong and reproducible effects, we further evaluated the stability of the UHRF1 protein. We used the p53 (â/â) non-small lung cancer cell line H1299 to avoid p53-dependent side effects. In order to address whether UHRF1 is turned over in the ubiquitin dependent proteasomal pathway, cells were treated with cycloheximide and the proteasome inhibitor MG132 (<xref ref-type="bibr" rid="B48">48</xref>). Incubation of the cells with cycloheximide resulted in a gradual decrease of UHRF1 protein levels (<xref ref-type="fig" rid="F3">Figure 3</xref>B). The addition of MG132 clearly stabilized UHRF1 protein levels in the presence of cycloheximide, indicating that UHRF1 is degraded via the proteasome-dependent degradation pathway.
+<fig id="F3" position="float"><label>Figure 3.</label><caption><p>USP7 regulates the stability of UHRF1 <italic>in vivo</italic> and <italic>in vitro</italic>. (<bold>A</bold>) LS174T adenocarcinoma cells (LS174TR1, parental) were treated with doxycycline (dox, 1.0âÂµg/ml) to induce USP7 knockdown (LS88 knockdown) or overexpression of USP7 (LS89 over expr.). Cells were harvested at the indicated days and a WCE was prepared. Samples were subjected to SDSâPAGE and western blot analysis with the indicated antibodies. (<bold>B</bold>) H1299 cells were treated with cycloheximide (CHX, 100âÂµg/ml) and proteasome inhibitor MG132 (20âÂµM) for the indicated time and subsequently treated as described in (A). (<bold>C</bold>) H1299 cells were transfected with 700âng Flag-UHRF1 DNA without or with 1.4âÂµg HA-USP7 DNA. Cells were split 36âh post-transfection, treated with CHX for the indicated time and analyzed as described in (A). (<bold>D</bold>) Same as for (C) but only transfection of 2.0âÂµg HA-USP7 DNA. (<bold>E</bold>) H1299 cells were transfected with 500âng Flag-UHRF1 DNA and increasing amounts of HA-USP7 DNA (0, 500, 1000, 1500, 2000âng). Forty-eight hours post-transfection cells were treated with CHX for 24âh and subsequently analyzed as described in (A). (<bold>F</bold>) <italic>In vitro</italic> autoubiquitinylation of UHRF1 in the absence or presence of either catalytically active USP7 or inactive USP7 C223S and Flag-tagged ubiquitin was analyzed (substoichiometric USP7 levels were used; 1/5th and 1/50th molar ratio with respect to UHRF1). Proteins were separated on SDSâPAGE and Flag-tagged ubiquitin adducts were detected by western blot with antibodies against the Flag-tag.</p></caption><graphic xlink:href="gkr528f3"/></fig></p><p>USP7 has been described to protect the RING-finger E3-ubiquitin ligases ICP0 (<xref ref-type="bibr" rid="B49">49</xref>), Chfr (<xref ref-type="bibr" rid="B50">50</xref>) and Mdm2 (<xref ref-type="bibr" rid="B51">51</xref>) from autoubiquitinylation, thereby stabilizing their protein levels. We therefore transfected USP7 into H1299 cells to monitor the effect of USP7 on the stability of transfected and endogenous UHRF1 protein (<xref ref-type="fig" rid="F3">Figure 3</xref>C and D). As seen before, cycloheximide treatment led to gradual decrease of UHRF1 levels, but also affected the protein stability of USP7 (timepoints 12â48âh). Notably, the transiently increased USP7 levels were sufficient to stabilize the exogenous and endogenous UHRF1 protein (timepoints: 8â24âh) compared to control cells not transfected with USP7. Transfection of increasing amounts of USP7 following cycloheximide treatment for 24âh (<xref ref-type="fig" rid="F3">Figure 3</xref>E) stabilized UHRF1 protein levels in an USP7-dose-dependent manner. Taken together, these data indicate that USP7 stabilizes UHRF1 protein levels <italic>in vivo</italic> and suggest that USP7 removes ubiquitin adducts from UHRF1 and therefore prevents proteasomal degradation of UHRF1.</p><p>To test whether USP7 directly influences the autoubiquitinylation activity of the RING-finger E3-ubiquitin ligase UHRF1 (<xref ref-type="bibr" rid="B15">15</xref>,<xref ref-type="bibr" rid="B16">16</xref>,<xref ref-type="bibr" rid="B23">23</xref>), we performed <italic>in vitro</italic> autoubiquitinylation reactions of UHRF1 in the presence of either USP7 or the catalytically inactive mutant USP7 C223S (<xref ref-type="bibr" rid="B49">49</xref>) (<xref ref-type="fig" rid="F3">Figure 3</xref>F and <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S5</ext-link>B). The activity of the enzymes and the assay conditions were initially optimized to allow quantification of enzymatic conversion of the substrates, when required (Supplementary Figures S5A and S6). UHRF1 exhibits <italic>in vitro</italic> autoubiquitinylation activity revealing mono- to tetra-ubiquitin adducts. However, it has to be mentioned that the assay cannot discriminate between the addition of ubiquitin-chains and the addition of multiple mono-ubiquitin molecules on UHRF1. Interaction of USP7 C223S with UHRF1 reduced the autoubiquitinylation activity. However, active USP7 completely abolished the autoubiquitinylation of UHRF1 by removal of ubiquitin adducts. Accordingly, these data clearly indicate that USP7 regulates UHRF1 levels <italic>in vivo</italic>, and counteracts autoubiquitinylation activity of UHRF1 by removing ubiquitin adducts.</p></sec><sec><title>USP7 stimulates the DNA methylation activity of Dnmt1 <italic>in vitro</italic> and <italic>in vivo</italic></title><p>Next, we tested in ChIP assays whether USP7 co-localizes with Dnmt1 and UHRF1 on selected silenced genes <italic>in vivo</italic> (<xref ref-type="fig" rid="F4">Figure 4</xref>A). Genes were selected according to their reduced expression levels, as determined by quantitative mRNA analysis compared to the expression levels of the <italic>TBP</italic> gene. The selected genes were either completely silenced <italic>SFRP1</italic>, <italic>IGFBP3</italic>, <italic>HHIP</italic> or active to only 6.6% (<italic>HOXA7</italic>)<italic>.</italic> Active genes exhibiting high mRNA levels and correspondingly high RNA Polymerase II and low Dnmt1 binding levels were not studied (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S7</ext-link>). Besides the <italic>HOXA7</italic> locus (<xref ref-type="bibr" rid="B52">52</xref>), as a previously published control, we show that Dnmt1 localizes as well to the <italic>SFRP1</italic>, <italic>IGFBP3</italic> and <italic>HHIP</italic> loci together with UHRF1 and in absence of RNA Polymerase II. In agreement with our biochemical characterization we observed an enrichment of USP7 at the <italic>SFRP1</italic>, <italic>IGFBP3</italic>, <italic>HHIP</italic> and <italic>HOXA7</italic> loci together with Dnmt1 and UHRF1, suggesting that they form a trimeric and functional complex on DNA<italic>.</italic>
+<fig id="F4" position="float"><label>Figure 4.</label><caption><p>USP7 associates with Dnmt1 and UHRF1 on silenced genes <italic>in vivo</italic>. (<bold>A</bold>) Chromatin immunoprecipitation (ChIP) was performed with formaldehyde cross-linked HCT-116 cells and the indicated antibodies. The average of three independent ChIP experiments for Dnmt1, UHRF1, USP7 and RNAPII are shown. Standard deviations, target genes of interest and antibodies used for ChIP are indicated. The enrichment of specific IP versus IgG background is plotted. The relative expression levels of these genes compared to the <italic>TBP</italic> gene are given. (<bold>B</bold>) Promoter regions of the SFRP1, IGFBP3, HHIP and HOXA7 genes were analyzed for methylated (M) and unmethylated (U) CpG sites by MSP in the presence or absence of USP7 and UHRF1. Proteins were depleted by RNAi-mediated knockdown and the MSP analysis was performed with bisulfite-treated genomic DNA from HCT-116 cells. Representative images of MSP experiments are given. (<bold>C</bold>) Quantitative analysis of DNA methylation levels after UHRF1 and USP7 knockdown. Pyrogram trace obtained after pyrosequencing analysis of part of the HHIP promoter region containing 13 CpG sites (with potentially methylated cytosines shaded in gray). The <italic>y</italic>-axis represents the signal intensity in arbitrary units, while the <italic>x</italic>-axis shows the dispensation order. The percentage of DNA methylation at individual CpG positions of the HHIP promoter of cells transfected with non-targeting control, USP7 and UHRF1 siRNAs are shown below the pyrogram.</p></caption><graphic xlink:href="gkr528f4"/></fig></p><p>To address the effect of the Dnmt1 interacting proteins UHRF1 and USP7 on the DNA methylation activity of Dnmt1, we performed a MSP analysis upon knockdown of UHRF1 and USP7, respectively (<xref ref-type="fig" rid="F4">Figure 4</xref>B). Downregulation of UHRF1 by siRNA resulted in a robust demethylation at the <italic>SFRP1</italic>, <italic>IGFBP3</italic>, <italic>HHIP</italic> and <italic>HOXA7</italic> loci. Similarly, knockdown of USP7 resulted in detectable demethylation of all loci analyzed, albeit to a lower degree as UHRF1 (<xref ref-type="fig" rid="F4">Figure 4</xref>B). The quantitative examination of the <italic>HHIP</italic> promoter region by pyrosequencing revealed a mean decrease in CpG methylation of 7.6 versus 36.4% upon USP7 and UHRF1 knockdown, respectively (<xref ref-type="fig" rid="F4">Figure 4</xref>C).</p></sec><sec><title>USP7 stimulates the DNA methylation activity of Dnmt1</title><p>USP7 forms a soluble complex with Dnmt1 in solution and a trimeric complex with UHRF1 in chromatin. We addressed the question whether the interaction of USP7, UHRF1 or USP7/UHRF1 with Dnmt1 would affect its DNA methylation activity <italic>in vitro.</italic> The affinities of USP1, UHRF1 and Dnmt1 toward DNA and the DNA methyltransferase assays were optimized to allow the quantitative and qualitative analysis of these reactions (<xref ref-type="fig" rid="F5">Figure 5</xref>AâC; <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figures S6</ext-link>, <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">S8</ext-link> and <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">S9</ext-link>). Although siRNA mediated knockdown of UHRF1 led to reduced DNA methylation <italic>in vivo</italic> (<xref ref-type="fig" rid="F4">Figure 4</xref>B and C), we did not detect an effect of UHRF1 on the Dnmt1-dependent DNA methylation activity (<xref ref-type="fig" rid="F5">Figure 5</xref>C). In agreement with previous data, this suggests that UHRF1 may solely serve as a recruitment platform determining the location of DNA methylation rather than influencing the activity of Dnmt1 (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>). Accordingly, we observed a reduction of DNA methylation levels at the <italic>SFRP1</italic> and <italic>HHIP</italic> genes after USP7 knockdown (<xref ref-type="fig" rid="F4">Figure 4</xref>B and C). Strikingly, both the <italic>in vitro</italic> maintenance and <italic>de novo</italic> DNA methylation activity of Dnmt1 were stimulated 2-fold in the presence of USP7 (<xref ref-type="fig" rid="F5">Figure 5</xref>D). USP7 and UHRF1 do inhibit Dnmt1-dependent DNA methylation activity when quantitatively bound to DNA, limiting the accessible substrate for Dnmt1 (Supplementary Figure S8). Therefore, the DNA substrate was used in large excess (3-to 24-fold molar ratio), suggesting that USP7 modulates Dnmt1â²s enzymatic activity rather than acting as a recruitment factor. Furthermore, USP7 exerts a stimulatory effect on the methylation activity of Dnmt1 even in the presence of UHRF1, which is in agreement to the <italic>in vivo</italic> data (<xref ref-type="fig" rid="F4">Figures 4</xref> and <xref ref-type="fig" rid="F5">5</xref>E). Hence, we identified USP7 as the first factor that has a stimulatory effect on the enzymatic activity of Dnmt1<italic>.</italic> Furthermore, we describe USP7 as a regulator of UHRF1 protein stability, hence directly affecting Dnmt1-dependent DNA methylation efficiency.
+<fig id="F5" position="float"><label>Figure 5.</label><caption><p>USP7 activates the DNA methylation activity of Dnmt1 <italic>in vitro</italic>. (<bold>A</bold>) Recombinant Dnmt1, USP7 and UHRF1 proteins, purified from baculovirus-infected Sf21 insect cells and <italic>E. coli</italic> cells via the His-tag. Proteins were separated on a SDSâPAGE and stained with Coomassie blue. (<bold>B</bold>) Dnmt1 dependent <italic>in vitro</italic> DNA methylation on non-methylated (nm DNA) and hemi-methylated DNA (hm DNA) was performed with increasing amounts of Dnmt1 and an excess of DNA (4.0âÂµM) for 15âmin. The transfer of the 3H-methyl group onto the DNA was measured and plotted. (<bold>C</bold>) Dnmt1-dependent DNA methylation reactions in the presence of increasing amounts of UHRF1 were performed in excess of hmDNA for two different time points (5 and 15âmin). The relative activity was plotted and UHRF1 ratios to DNA or Dnmt1 are given. (<bold>D</bold>) Same as for (C) but using USP7 on non-methylated (nm) and hemi-methylated DNA (hm). (<bold>E</bold>) Same as for (C) but fixed amounts of Dnmt1 and USP7 were incubated with increasing levels of UHRF1 as indicated. The relative methylation activity is plotted and molar ratios of UHRF1:Dnmt1, USP7:Dnmt1, UHRF1:DNA and USP7:DNA are given.</p></caption><graphic xlink:href="gkr528f5"/></fig></p></sec></sec><sec sec-type="discussion"><title>DISCUSSION</title><p>Dnmt1 has been extensively described and studied as an epigenetic factor transiently interacting with many other chromatin-associating proteins (<xref ref-type="bibr" rid="B10">10</xref>,<xref ref-type="bibr" rid="B11">11</xref>). In fact, so far only one Dnmt1-complex containing pRB, HDAC, E2F1 had been biochemically purified (<xref ref-type="bibr" rid="B12">12</xref>).</p><p>In this study, we identified two novel Dnmt1-containing complexes by means of immunoprecipitation and SEC analysis. First, we observed a strong interaction of Dnmt1 and USP7, forming a soluble dimer complex <italic>in vivo</italic>. Second, Dnmt1/USP7 could further interact with UHRF1 and strongly associated as a trimeric complex on chromatin (<xref ref-type="fig" rid="F1">Figures 1</xref>, <xref ref-type="fig" rid="F2">2</xref> and <xref ref-type="fig" rid="F4">4</xref>A).</p><p>UHRF1 was shown to be tightly associated with chromatin and to bind to hemi-methylated DNA (hmDNA), acting as a recruitment factor for Dnmt1 (<xref ref-type="bibr" rid="B13 B14 B15">13â15</xref>). We confirmed the preferential binding of UHRF1 to hmDNA (<ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S8</ext-link>A) and demonstrated co-binding of Dnmt1 and UHRF1 to silenced genes in addition to the subunit USP7 (<xref ref-type="fig" rid="F4">Figure 4</xref>A). Upon UHRF1 knockdown, we observed a reduction of the methylation status of the studied genes (<xref ref-type="fig" rid="F4">Figure 4</xref>B and C). As UHRF1 did not stimulate the DNA methylation activity of Dnmt1 <italic>in vitro</italic>, this clearly indicates that UHRF1â²s major function is to ensure Dnmt1 guidance to hmDNA, as previously shown (<xref ref-type="bibr" rid="B13">13</xref>,<xref ref-type="bibr" rid="B14">14</xref>). USP7 had been described to protect RING-finger E3-ubiquitin ligases from autoubiquitinylation, thereby stabilizing their protein levels (<xref ref-type="bibr" rid="B49 B50 B51">49â51</xref>). We were able to show that USP7 levels did directly influence the stability of UHRF1 and was capable to de-ubiquitinylate UHRF1 <italic>in vitro</italic> (<xref ref-type="fig" rid="F3">Figure 3</xref>F). Transfection of USP7 into H1299 cells stabilized exogenous and endogenous UHRF1 protein upon cycloheximide treatment (<xref ref-type="fig" rid="F3">Figure 3</xref>). Altogether, our data indicate that USP7 removes ubiquitin moieties from UHRF1 and thereby inhibits its proteasomal degradation in the cell. The knockdown of USP7 affected the DNA methylation status of the studied target gene loci, suggesting that it serves as an amplifying module within the trimeric methylating complex, ensuring maintenance of DNA methylation. An effect that apparently resides from UHRF1 stabilization and the upregulation of the Dnmt1 DNA methylation activity, as discussed below. Consistent with the assumption of a close collaboration of those proteins, USP7 knockout mice showed lethal defects in early embryonic development (<xref ref-type="bibr" rid="B33">33</xref>), reminiscent of Dnmt1 knockout mice (<xref ref-type="bibr" rid="B7">7</xref>).</p><p>As the expression of UHRF1 peaks during G<sub>1</sub>/S-phase transition and is downregulated during G<sub>0</sub> and G<sub>1</sub> (<xref ref-type="bibr" rid="B40">40</xref>,<xref ref-type="bibr" rid="B53">53</xref>), USP7 could stabilize UHRF1 during S-phase by constantly removing ubiquitin moieties. After replication, USP7â²s activity could be modulated by post-translational modification (<xref ref-type="bibr" rid="B54">54</xref>), eventually leading to degradation of UHRF1. Subsequently, the Dnmt1/USP7 complex would dissociate from chromatin consistent with the observation of a diffuse localization of Dnmt1 in the nucleoplasm during G<sub>1</sub> and G<sub>0</sub> (<xref ref-type="bibr" rid="B20">20</xref>).</p><p>It was recently suggested that Dnmt1 is stabilized by HDAC1 and USP7 in a cell cycle-dependent manner (<xref ref-type="bibr" rid="B47">47</xref>). The authors suggested a stable complex of Dnmt1 with HDAC1 that we did not observe in our immunoprecipitation and gelfiltration assays (<xref ref-type="fig" rid="F1">Figure 1</xref>C and D; <ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Figure S2</ext-link>B). This could be related to the fact that we used non-synchronous cells for our purifications and minor amounts of Dnmt1âHDAC1 complexes could have been overlooked, as the published effect is cell cycle dependent. However, in agreement with their data, we see a comparable destabilization of Dnmt1 after 3 days of USP7 knockdown. The mild destabilization of Dnmt1 would be further potentiated by the HDAC1 activity, as described (<xref ref-type="bibr" rid="B47">47</xref>).</p><p>Besides controlling the ubiquitination status of UHRF1, USP7 plays an additional role in this complex and stimulates both the <italic>maintenance</italic> and the <italic>de novo</italic> DNA methylation activity of Dnmt1 <italic>in vitro</italic> (<xref ref-type="fig" rid="F5">Figure 5</xref>). So far USP7 is the first factor to be shown to exhibit such an activity. Immunoprecipitation and gelfiltration experiments suggest that the majority of Dnmt1 may be associated with USP7 and as shown by Wang and colleagues USP7 does also regulate the stability of Dnmt1 (<xref ref-type="bibr" rid="B47">47</xref>). Accordingly, USP7 acts in two ways to stimulate the Dnmt1-dependent DNA methylation activity, i.e. via stimulating its activity and protecting the protein from degradation. The 2-fold activation of the Dnmt1 activity in the Dnmt1/USP7 complex could not be further activated by the addition of UHRF1 confirming the notion that UHRF1 is mainly required to target the complex to hemi-methylated DNA.</p><p>From these data, we propose a new role for USP7 as the epigenetic regulator of Dnmt1-dependent DNA methylation activity. First, the enzymatic activity of Dnmt1 in complex with USP7 is directly stimulated by USP7 by factor of two. Second, the Dnmt1-USP7 dimeric complex is recruited to the sites of methylation by UHRF1, forming a trimeric complex on chromatin. As the protein stability of UHRF1 is regulated by USP7, the Dnmt1-USP7 association on chromatin and hence the DNA methylation efficiency is controlled by USP7.</p></sec><sec><title>SUPPLEMENTARY DATA</title><p><ext-link ext-link-type="uri" xlink:href="http://nar.oxfordjournals.org/cgi/content/full/gkr528/DC1">Supplementary Data</ext-link> are available at NAR Online.</p></sec><sec><title>FUNDING</title><p>The work was funded by the <funding-source>DFG</funding-source> (<award-id>LA1331/4-1</award-id> to G.L. and <award-id>KA2274/3-1</award-id> to R.K.) and the BayGene program of the state Bavaria (Germany). Funding for open access charge: <funding-source>University of Regensburg</funding-source>.</p><p><italic>Conflict of interest statement</italic>. None declared.</p></sec>
+      <sec sec-type="supplementary-material">
+         <title>Supplementary Material</title>
+         <supplementary-material id="PMC_1" content-type="local-data">
+            <caption>
+               <title>Supplementary Data</title>
+            </caption>
+            <media mimetype="text" mime-subtype="html" xlink:href="supp_39_19_8355__index.html"/>
+            <media xlink:role="associated-file" mimetype="application" mime-subtype="msword" xlink:href="supp_gkr528_Supplementary_Information_21-5-11.doc"/>
+         </supplementary-material>
+      </sec>
+   </body>
+  <back>
+    <ref-list>
+      <title>REFERENCES</title>
+      <ref id="B1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jones</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Baylin</surname>
+              <given-names>SB</given-names>
+            </name>
+          </person-group>
+          <article-title>The fundamental role of epigenetic events in cancer</article-title>
+          <source>Nat. Rev. Genet.</source>
+          <year>2002</year>
+          <volume>3</volume>
+          <fpage>415</fpage>
+          <lpage>428</lpage>
+          <pub-id pub-id-type="pmid">12042769</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bird</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA methylation patterns and epigenetic memory</article-title>
+          <source>Genes Dev.</source>
+          <year>2002</year>
+          <volume>16</volume>
+          <fpage>6</fpage>
+          <lpage>21</lpage>
+          <pub-id pub-id-type="pmid">11782440</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Chromatin modification and epigenetic reprogramming in mammalian development</article-title>
+          <source>Nat. Rev. Genet.</source>
+          <year>2002</year>
+          <volume>3</volume>
+          <fpage>662</fpage>
+          <lpage>673</lpage>
+          <pub-id pub-id-type="pmid">12209141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Klose</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Bird</surname>
+              <given-names>AP</given-names>
+            </name>
+          </person-group>
+          <article-title>Genomic DNA methylation: the mark and its mediators</article-title>
+          <source>Trends Biochem. Sci.</source>
+          <year>2006</year>
+          <volume>31</volume>
+          <fpage>89</fpage>
+          <lpage>97</lpage>
+          <pub-id pub-id-type="pmid">16403636</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hermann</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gowher</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Jeltsch</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochemistry and biology of mammalian DNA methyltransferases</article-title>
+          <source>Cell. Mol. Life Sci.</source>
+          <year>2004</year>
+          <volume>61</volume>
+          <fpage>2571</fpage>
+          <lpage>2587</lpage>
+          <pub-id pub-id-type="pmid">15526163</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Freitag</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Selker</surname>
+              <given-names>EU</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlling DNA methylation: many roads to one modification</article-title>
+          <source>Curr. Opin. Genet. Dev.</source>
+          <year>2005</year>
+          <volume>15</volume>
+          <fpage>191</fpage>
+          <lpage>199</lpage>
+          <pub-id pub-id-type="pmid">15797202</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Bestor</surname>
+              <given-names>TH</given-names>
+            </name>
+            <name>
+              <surname>Jaenisch</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeted mutation of the DNA methyltransferase gene results in embryonic lethality</article-title>
+          <source>Cell</source>
+          <year>1992</year>
+          <volume>69</volume>
+          <fpage>915</fpage>
+          <lpage>926</lpage>
+          <pub-id pub-id-type="pmid">1606615</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okano</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bell</surname>
+              <given-names>DW</given-names>
+            </name>
+            <name>
+              <surname>Haber</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA methyltransferases Dnmt3a and Dnmt3b are essential for de novo methylation and mammalian development</article-title>
+          <source>Cell</source>
+          <year>1999</year>
+          <volume>99</volume>
+          <fpage>247</fpage>
+          <lpage>257</lpage>
+          <pub-id pub-id-type="pmid">10555141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Feinberg</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Tycko</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>The history of cancer epigenetics</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <year>2004</year>
+          <volume>4</volume>
+          <fpage>143</fpage>
+          <lpage>153</lpage>
+          <pub-id pub-id-type="pmid">14732866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robertson</surname>
+              <given-names>KD</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA methylation and chromatin - unraveling the tangled web</article-title>
+          <source>Oncogene</source>
+          <year>2002</year>
+          <volume>21</volume>
+          <fpage>5361</fpage>
+          <lpage>5379</lpage>
+          <pub-id pub-id-type="pmid">12154399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Latham</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gilbert</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Ramsahoye</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA methylation in mouse embryonic stem cells and development</article-title>
+          <source>Cell Tissue Res.</source>
+          <year>2008</year>
+          <volume>331</volume>
+          <fpage>31</fpage>
+          <lpage>55</lpage>
+          <pub-id pub-id-type="pmid">18060563</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Robertson</surname>
+              <given-names>KD</given-names>
+            </name>
+            <name>
+              <surname>Ait-Si-Ali</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yokochi</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wade</surname>
+              <given-names>PA</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>PL</given-names>
+            </name>
+            <name>
+              <surname>Wolffe</surname>
+              <given-names>AP</given-names>
+            </name>
+          </person-group>
+          <article-title>DNMT1 forms a complex with Rb, E2F1 and HDAC1 and represses transcription from E2F-responsive promoters</article-title>
+          <source>Nat. Genet.</source>
+          <year>2000</year>
+          <volume>25</volume>
+          <fpage>338</fpage>
+          <lpage>342</lpage>
+          <pub-id pub-id-type="pmid">10888886</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bostick</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>EstÃ¨ve</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Pradhan</surname>
+            </name>
+            <name>
+              <surname>Jacobsen</surname>
+            </name>
+          </person-group>
+          <article-title>UHRF1 plays a role in maintaining DNA methylation in mammalian cells</article-title>
+          <source>Science</source>
+          <year>2007</year>
+          <volume>317</volume>
+          <fpage>704</fpage>
+          <lpage>715</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sharif</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Muto</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Takebayashi</surname>
+              <given-names>S-I</given-names>
+            </name>
+            <name>
+              <surname>Suetake</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Iwamatsu</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Endo</surname>
+              <given-names>TA</given-names>
+            </name>
+            <name>
+              <surname>Shinga</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mizutani-Koseki</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Toyoda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Okamura</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The SRA protein Np95 mediates epigenetic inheritance by recruiting Dnmt1 to methylated DNA</article-title>
+          <source>Nature</source>
+          <year>2007</year>
+          <volume>450</volume>
+          <fpage>908</fpage>
+          <lpage>912</lpage>
+          <pub-id pub-id-type="pmid">17994007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Citterio</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Papait</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Nicassio</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Vecchi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gomiero</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Mantovani</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Di Fiore</surname>
+              <given-names>PP</given-names>
+            </name>
+            <name>
+              <surname>Bonapace</surname>
+              <given-names>IM</given-names>
+            </name>
+          </person-group>
+          <article-title>Np95 is a histone-binding protein endowed with ubiquitin ligase activity</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2004</year>
+          <volume>24</volume>
+          <fpage>2526</fpage>
+          <lpage>2535</lpage>
+          <pub-id pub-id-type="pmid">14993289</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karagianni</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Amazit</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>ICBP90, a novel methyl K9 H3 binding protein linking protein ubiquitination with heterochromatin formation</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2008</year>
+          <volume>28</volume>
+          <fpage>705</fpage>
+          <lpage>717</lpage>
+          <pub-id pub-id-type="pmid">17967883</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Unoki</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Nishidate</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>ICBP90, an E2F-1 target, recruits HDAC1 and binds to methyl-CpG through its SRA domain</article-title>
+          <source>Oncogene</source>
+          <year>2004</year>
+          <volume>23</volume>
+          <fpage>7601</fpage>
+          <lpage>7610</lpage>
+          <pub-id pub-id-type="pmid">15361834</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Avvakumov</surname>
+              <given-names>GV</given-names>
+            </name>
+            <name>
+              <surname>Walker</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Xue</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Duan</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bronner</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Arrowsmith</surname>
+              <given-names>CH</given-names>
+            </name>
+            <name>
+              <surname>Dhe-Paganon</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis for recognition of hemi-methylated DNA by the SRA domain of human UHRF1</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>455</volume>
+          <fpage>822</fpage>
+          <lpage>825</lpage>
+          <pub-id pub-id-type="pmid">18772889</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arita</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Ariyoshi</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Tochio</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Nakamura</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Shirakawa</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Recognition of hemi-methylated DNA by the SRA protein UHRF1 by a base-flipping mechanism</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>455</volume>
+          <fpage>818</fpage>
+          <lpage>821</lpage>
+          <pub-id pub-id-type="pmid">18772891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Leonhardt</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Page</surname>
+              <given-names>AW</given-names>
+            </name>
+            <name>
+              <surname>Weier</surname>
+              <given-names>HU</given-names>
+            </name>
+            <name>
+              <surname>Bestor</surname>
+              <given-names>TH</given-names>
+            </name>
+          </person-group>
+          <article-title>A targeting sequence directs DNA methyltransferase to sites of DNA replication in mammalian nuclei</article-title>
+          <source>Cell</source>
+          <year>1992</year>
+          <volume>71</volume>
+          <fpage>865</fpage>
+          <lpage>873</lpage>
+          <pub-id pub-id-type="pmid">1423634</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Achour</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Jacq</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>RondÃ©</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Alhosin</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Charlot</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Chataigneau</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Jeanblanc</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Macaluso</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Giordano</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hughes</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The interaction of the SRA domain of ICBP90 with a novel domain of DNMT1 is involved in the regulation of VEGF gene expression</article-title>
+          <source>Oncogene</source>
+          <year>2008</year>
+          <volume>27</volume>
+          <fpage>2187</fpage>
+          <lpage>2197</lpage>
+          <pub-id pub-id-type="pmid">17934516</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kerscher</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Felberbaum</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Hochstrasser</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Modification of proteins by ubiquitin and ubiquitin-like proteins</article-title>
+          <source>Annu. Rev. Cell. Dev. Biol.</source>
+          <year>2006</year>
+          <volume>22</volume>
+          <fpage>159</fpage>
+          <lpage>180</lpage>
+          <pub-id pub-id-type="pmid">16753028</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jenkins</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Markovtsov</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Lang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Sharma</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Pearsall</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Warner</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Franci</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Huang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Yam</surname>
+              <given-names>GC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Critical role of the ubiquitin ligase activity of UHRF1, a nuclear RING finger protein, in tumor cell growth</article-title>
+          <source>Mol. Biol. Cell</source>
+          <year>2005</year>
+          <volume>16</volume>
+          <fpage>5621</fpage>
+          <lpage>5629</lpage>
+          <pub-id pub-id-type="pmid">16195352</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Everett</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Meredith</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Orr</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Cross</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kathoria</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Parkinson</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel ubiquitin-specific protease is dynamically associated with the PML nuclear domain and binds to a herpesvirus regulatory protein</article-title>
+          <source>EMBO J.</source>
+          <year>1997</year>
+          <volume>16</volume>
+          <fpage>1519</fpage>
+          <lpage>1530</lpage>
+          <pub-id pub-id-type="pmid">9130697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Shiloh</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Nikolaev</surname>
+              <given-names>AY</given-names>
+            </name>
+            <name>
+              <surname>Qin</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Deubiquitination of p53 by HAUSP is an important pathway for p53 stabilization</article-title>
+          <source>Nature</source>
+          <year>2002</year>
+          <volume>416</volume>
+          <fpage>648</fpage>
+          <lpage>653</lpage>
+          <pub-id pub-id-type="pmid">11923872</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cummins</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Vogelstein</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>HAUSP is required for p53 destabilization</article-title>
+          <source>Cell Cycle</source>
+          <year>2004</year>
+          <volume>3</volume>
+          <fpage>689</fpage>
+          <lpage>692</lpage>
+          <pub-id pub-id-type="pmid">15118411</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cummins</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Rago</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Kohli</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kinzler</surname>
+              <given-names>KW</given-names>
+            </name>
+            <name>
+              <surname>Lengauer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vogelstein</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Tumour suppression: disruption of HAUSP gene stabilizes p53</article-title>
+          <source>Nature</source>
+          <year>2004</year>
+          <volume>428</volume>
+          <fpage>1 p following 486</fpage>
+          <pub-id pub-id-type="pmid">15058298</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Meulmeester</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Maurice</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Boutell</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Teunisse</surname>
+              <given-names>AFAS</given-names>
+            </name>
+            <name>
+              <surname>Ovaa</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Abraham</surname>
+              <given-names>TE</given-names>
+            </name>
+            <name>
+              <surname>Dirks</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Jochemsen</surname>
+              <given-names>AG</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of HAUSP-mediated deubiquitination contributes to DNA damage-induced destabilization of Hdmx and Hdm2</article-title>
+          <source>Mol. Cell</source>
+          <year>2005</year>
+          <volume>18</volume>
+          <fpage>565</fpage>
+          <lpage>576</lpage>
+          <pub-id pub-id-type="pmid">15916963</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Holowaty</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Sheng</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Arrowsmith</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Frappier</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein interaction domains of the ubiquitin-specific protease, USP7/HAUSP</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2003</year>
+          <volume>278</volume>
+          <fpage>47753</fpage>
+          <lpage>47761</lpage>
+          <pub-id pub-id-type="pmid">14506283</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Qu</surname>
+              <given-names>L-K</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Michaelson</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Degenhardt</surname>
+              <given-names>YY</given-names>
+            </name>
+            <name>
+              <surname>El-Deiry</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Critical role for Daxx in regulating Mdm2</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>855</fpage>
+          <lpage>862</lpage>
+          <pub-id pub-id-type="pmid">16845383</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van der Horst</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>de Vries-Smits</surname>
+              <given-names>AMM</given-names>
+            </name>
+            <name>
+              <surname>Brenkman</surname>
+              <given-names>AB</given-names>
+            </name>
+            <name>
+              <surname>van Triest</surname>
+              <given-names>MH</given-names>
+            </name>
+            <name>
+              <surname>van den Broek</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Colland</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Maurice</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Burgering</surname>
+              <given-names>BMT</given-names>
+            </name>
+          </person-group>
+          <article-title>FOXO4 transcriptional activity is regulated by monoubiquitination and USP7/HAUSP</article-title>
+          <source>Nat. Cell Biol.</source>
+          <year>2006</year>
+          <volume>8</volume>
+          <fpage>1064</fpage>
+          <lpage>1073</lpage>
+          <pub-id pub-id-type="pmid">16964248</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Song</surname>
+              <given-names>MS</given-names>
+            </name>
+            <name>
+              <surname>Salmena</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Carracedo</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Egia</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lo-Coco</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Teruya-Feldstein</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pandolfi</surname>
+              <given-names>PP</given-names>
+            </name>
+          </person-group>
+          <article-title>The deubiquitinylation and localization of PTEN are regulated by a HAUSP-PML network</article-title>
+          <source>Nature</source>
+          <year>2008</year>
+          <volume>455</volume>
+          <fpage>813</fpage>
+          <lpage>817</lpage>
+          <pub-id pub-id-type="pmid">18716620</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kon</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Kobayashi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Ludwig</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Inactivation of HAUSP in vivo modulates p53 function</article-title>
+          <source>Oncogene</source>
+          <year>2010</year>
+          <volume>29</volume>
+          <fpage>1270</fpage>
+          <lpage>1279</lpage>
+          <pub-id pub-id-type="pmid">19946331</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van der Knaap</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Kumar</surname>
+              <given-names>BRP</given-names>
+            </name>
+            <name>
+              <surname>Moshkin</surname>
+              <given-names>YM</given-names>
+            </name>
+            <name>
+              <surname>Langenberg</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Krijgsveld</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Heck</surname>
+              <given-names>AJR</given-names>
+            </name>
+            <name>
+              <surname>Karch</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Verrijzer</surname>
+              <given-names>CP</given-names>
+            </name>
+          </person-group>
+          <article-title>GMP synthetase stimulates histone H2B deubiquitylation by the epigenetic silencer USP7</article-title>
+          <source>Mol. Cell</source>
+          <year>2005</year>
+          <volume>17</volume>
+          <fpage>695</fpage>
+          <lpage>707</lpage>
+          <pub-id pub-id-type="pmid">15749019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van der Knaap</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Kozhevnikova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Langenberg</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Moshkin</surname>
+              <given-names>YM</given-names>
+            </name>
+            <name>
+              <surname>Verrijzer</surname>
+              <given-names>CP</given-names>
+            </name>
+          </person-group>
+          <article-title>Biosynthetic enzyme GMP synthetase cooperates with ubiquitin-specific protease 7 in transcriptional regulation of ecdysteroid target genes</article-title>
+          <source>Mol. Cell. Biol.</source>
+          <year>2010</year>
+          <volume>30</volume>
+          <fpage>736</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="pmid">19995917</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van De Wetering</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Sancho</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Verweij</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>de Lau</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Oving</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Hurlstone</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>van der Horn</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Batlle</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Coudreuse</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Haramis</surname>
+              <given-names>AP</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The beta-catenin/TCF-4 complex imposes a crypt progenitor phenotype on colorectal cancer cells</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>111</volume>
+          <fpage>241</fpage>
+          <lpage>250</lpage>
+          <pub-id pub-id-type="pmid">12408868</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van De Wetering</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Oving</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Muncan</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Pon Fong</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>Brantjes</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Van Leenen</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Holstege</surname>
+              <given-names>FCP</given-names>
+            </name>
+            <name>
+              <surname>Brummelkamp</surname>
+              <given-names>TR</given-names>
+            </name>
+            <name>
+              <surname>Agami</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Clevers</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific inhibition of gene expression using a stably integrated, inducible small-interfering-RNA vector</article-title>
+          <source>EMBO Rep.</source>
+          <year>2003</year>
+          <volume>4</volume>
+          <fpage>609</fpage>
+          <lpage>615</lpage>
+          <pub-id pub-id-type="pmid">12776180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kessler</surname>
+              <given-names>BM</given-names>
+            </name>
+            <name>
+              <surname>Fortunati</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Melis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pals</surname>
+              <given-names>CEGM</given-names>
+            </name>
+            <name>
+              <surname>Clevers</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Maurice</surname>
+              <given-names>MM</given-names>
+            </name>
+          </person-group>
+          <article-title>Proteome changes induced by knock-down of the deubiquitylating enzyme HAUSP/USP7</article-title>
+          <source>J. Proteome Res.</source>
+          <year>2007</year>
+          <volume>6</volume>
+          <fpage>4163</fpage>
+          <lpage>4172</lpage>
+          <pub-id pub-id-type="pmid">17927229</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hu</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Yao</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>J-W</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Shi</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structure of a UBP-family deubiquitinating enzyme in isolation and in complex with ubiquitin aldehyde</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>111</volume>
+          <fpage>1041</fpage>
+          <lpage>1054</lpage>
+          <pub-id pub-id-type="pmid">12507430</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hopfner</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Mousli</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Jeltsch</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Voulgaris</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lutz</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Marin</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Bellocq</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Oudet</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bronner</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>ICBP90, a novel human CCAAT binding protein, involved in the regulation of topoisomerase IIalpha expression</article-title>
+          <source>Cancer Res.</source>
+          <year>2000</year>
+          <volume>60</volume>
+          <fpage>121</fpage>
+          <lpage>128</lpage>
+          <pub-id pub-id-type="pmid">10646863</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pfaffl</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>A new mathematical model for relative quantification in real-time RT-PCR</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2001</year>
+          <volume>29</volume>
+          <fpage>e45</fpage>
+          <pub-id pub-id-type="pmid">11328886</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eichenmuller</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Gruner</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Hagl</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Haberle</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Muller-Hocker</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>von Schweinitz</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Kappler</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Blocking the hedgehog pathway inhibits hepatoblastoma growth</article-title>
+          <source>Hepatology</source>
+          <year>2009</year>
+          <volume>49</volume>
+          <fpage>482</fpage>
+          <lpage>490</lpage>
+          <pub-id pub-id-type="pmid">19177589</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herman</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Graff</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Myohanen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Nelkin</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>Baylin</surname>
+              <given-names>SB</given-names>
+            </name>
+          </person-group>
+          <article-title>Methylation-specific PCR: a novel PCR assay for methylation status of CpG islands</article-title>
+          <source>Proc. Natl Acad. Sci. USA</source>
+          <year>1996</year>
+          <volume>93</volume>
+          <fpage>9821</fpage>
+          <lpage>9826</lpage>
+          <pub-id pub-id-type="pmid">8790415</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tost</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gut</surname>
+              <given-names>IG</given-names>
+            </name>
+          </person-group>
+          <article-title>DNA methylation analysis by pyrosequencing</article-title>
+          <source>Nat. Protoc.</source>
+          <year>2007</year>
+          <volume>2</volume>
+          <fpage>2265</fpage>
+          <lpage>2275</lpage>
+          <pub-id pub-id-type="pmid">17853883</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dignam</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Lebovitz</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Roeder</surname>
+              <given-names>RG</given-names>
+            </name>
+          </person-group>
+          <article-title>Accurate transcription initiation by RNA polymerase II in a soluble extract from isolated mammalian nuclei</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>1983</year>
+          <volume>11</volume>
+          <fpage>1475</fpage>
+          <lpage>1489</lpage>
+          <pub-id pub-id-type="pmid">6828386</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chuang</surname>
+              <given-names>LS</given-names>
+            </name>
+            <name>
+              <surname>Ian</surname>
+              <given-names>HI</given-names>
+            </name>
+            <name>
+              <surname>Koh</surname>
+              <given-names>TW</given-names>
+            </name>
+            <name>
+              <surname>Ng</surname>
+              <given-names>HH</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>BF</given-names>
+            </name>
+          </person-group>
+          <article-title>Human DNA-(cytosine-5) methyltransferase-PCNA complex as a target for p21WAF1</article-title>
+          <source>Science</source>
+          <year>1997</year>
+          <volume>277</volume>
+          <fpage>1996</fpage>
+          <lpage>2000</lpage>
+          <pub-id pub-id-type="pmid">9302295</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Song</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Zhao</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Guda</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Yang</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kao</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Willis</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Markowitz</surname>
+              <given-names>SD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>DNMT1 stability is regulated by proteins coordinating deubiquitination and acetylation-driven ubiquitination</article-title>
+          <source>Sci. Signal.</source>
+          <year>2010</year>
+          <volume>3</volume>
+          <fpage>ra80</fpage>
+          <pub-id pub-id-type="pmid">21045206</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lee</surname>
+              <given-names>DH</given-names>
+            </name>
+            <name>
+              <surname>Goldberg</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>Proteasome inhibitors: valuable new tools for cell biologists</article-title>
+          <source>Trends Cell. Biol.</source>
+          <year>1998</year>
+          <volume>8</volume>
+          <fpage>397</fpage>
+          <lpage>403</lpage>
+          <pub-id pub-id-type="pmid">9789328</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Canning</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Boutell</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Parkinson</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Everett</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>A RING finger ubiquitin ligase is protected from autocatalyzed ubiquitination and degradation by binding to ubiquitin-specific protease USP7</article-title>
+          <source>J. Biol. Chem.</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>38160</fpage>
+          <lpage>38168</lpage>
+          <pub-id pub-id-type="pmid">15247261</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oh</surname>
+              <given-names>YM</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <name>
+              <surname>Seol</surname>
+              <given-names>JH</given-names>
+            </name>
+          </person-group>
+          <article-title>Deubiquitination of Chfr, a checkpoint protein, by USP7/HAUSP regulates its stability and activity</article-title>
+          <source>Biochem. Biophys. Res. Commun.</source>
+          <year>2007</year>
+          <volume>357</volume>
+          <fpage>615</fpage>
+          <lpage>619</lpage>
+          <pub-id pub-id-type="pmid">17442268</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Kon</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Gu</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>A dynamic role of HAUSP in the p53-Mdm2 pathway</article-title>
+          <source>Mol. Cell</source>
+          <year>2004</year>
+          <volume>13</volume>
+          <fpage>879</fpage>
+          <lpage>886</lpage>
+          <pub-id pub-id-type="pmid">15053880</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wu</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Gong</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yue</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Qiang</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>X</given-names>
+            </name>
+          </person-group>
+          <article-title>Cooperation between EZH2, NSPc1-mediated histone H2A ubiquitination and Dnmt1 in HOX gene silencing</article-title>
+          <source>Nucleic Acids Res.</source>
+          <year>2008</year>
+          <volume>36</volume>
+          <fpage>3590</fpage>
+          <lpage>3599</lpage>
+          <pub-id pub-id-type="pmid">18460542</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fujimori</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Matsuda</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Takemoto</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Hashimoto</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kubo</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Araki</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Fukumura</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Mita</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Tatsumi</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Muto</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Cloning and mapping of Np95 gene which encodes a novel nuclear protein associated with cell proliferation</article-title>
+          <source>Mamm. Genome</source>
+          <year>1998</year>
+          <volume>9</volume>
+          <fpage>1032</fpage>
+          <lpage>1035</lpage>
+          <pub-id pub-id-type="pmid">9880673</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>FernÃ¡ndez-MontalvÃ¡n</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bouwmeester</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Joberty</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Mader</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Mahnke</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Pierrat</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Schlaeppi</surname>
+              <given-names>J-M</given-names>
+            </name>
+            <name>
+              <surname>Worpenberg</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gerhartz</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>Biochemical characterization of USP7 reveals post-translational modification sites and structural requirements for substrate processing and subcellular localization</article-title>
+          <source>FEBS J.</source>
+          <year>2007</year>
+          <volume>274</volume>
+          <fpage>4256</fpage>
+          <lpage>4270</lpage>
+          <pub-id pub-id-type="pmid">17651432</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

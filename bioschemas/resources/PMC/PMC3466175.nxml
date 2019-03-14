@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:45:52Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3466175" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3466175</identifier><datestamp>2012-10-10</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3466175</article-id>
+      <article-id pub-id-type="pmcid">PMC3466175</article-id>
+      <article-id pub-id-type="pmc-uid">3466175</article-id>
+      <article-id pub-id-type="pmid">23056470</article-id>
+      <article-id pub-id-type="pmid">23056470</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-12-17407</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0046825</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Immunology</subject>
+            <subj-group>
+              <subject>Immunity</subject>
+              <subj-group>
+                <subject>Immune Defense</subject>
+                <subject>Immunity to Infections</subject>
+                <subject>Innate Immunity</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Molecular cell biology</subject>
+            <subj-group>
+              <subject>Gene expression</subject>
+              <subj-group>
+                <subject>RNA interference</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Signal Transduction</subject>
+              <subj-group>
+                <subject>Mechanisms of Signal Transduction</subject>
+                <subj-group>
+                  <subject>Feedback Regulation</subject>
+                </subj-group>
+              </subj-group>
+              <subj-group>
+                <subject>Signaling in Selected Disciplines</subject>
+                <subj-group>
+                  <subject>Immunological Signaling</subject>
+                </subj-group>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>TRIM38 Negatively Regulates TLR3-Mediated IFN-Î² Signaling by Targeting TRIF for Degradation</article-title>
+        <alt-title alt-title-type="running-head">TRIM38 Promotes TRIF Degradation</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Xue</surname>
+            <given-names>Qinghua</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhou</surname>
+            <given-names>Zhuo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lei</surname>
+            <given-names>Xiaobo</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Xinlei</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>He</surname>
+            <given-names>Bin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wang</surname>
+            <given-names>Jianwei</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hung</surname>
+            <given-names>Tao</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>MOH Key Laboratory of Systems Biology of Pathogens, Institute of Pathogen Biology, Chinese Academy of Medical Sciences and Peking Union Medical College, Beijing, Peopleâs Republic of China</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Department of Microbiology and Immunology, College of Medicine, University of Illinois, Chicago, Illinois, United States of America</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Li</surname>
+            <given-names>Kui</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>University of Tennessee Health Science Center, United States of America</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>wangjw28@163.com</email></corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: QX ZZ JW TH. Performed the experiments: QX ZZ X. Lei X. Liu. Analyzed the data: QX ZZ X. Lei BH. Contributed reagents/materials/analysis tools: QX X. Liu. Wrote the paper: QX ZZ JW.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>8</day>
+        <month>10</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>7</volume>
+      <issue>10</issue>
+      <elocation-id>e46825</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>15</day>
+          <month>6</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>5</day>
+          <month>9</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2012 Xue et al</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <copyright-holder>Xue et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Toll-like receptors (TLRs) mediated immune response is crucial for combating pathogens and must be tightly controlled. Tripartite motif (TRIM) proteins are a family of proteins that is involved in a variety of biological and physiological processes. Some members of the TRIM family are important in the regulation of innate immunity. Although it has been shown that TRIM38 negatively regulates innate immunity, the mechanisms by which it does so have not been fully addressed. In this study, we demonstrated that TRIM38 negatively regulates Toll-like receptor 3 (TLR3)-mediated type I interferon signaling by targeting TIR domain-containing adaptor inducing IFN-Î² (TRIF). We found that overexpression of TRIM38 inhibits TLR3-mediated type I interferon signaling, whereas knockdown of TRIM38 has the reverse effects. We further showed that TRIM38 targets TRIF, a critical adaptor protein downstream of TLR3. TRIF is co-immunoprecipitated with TRIM38, and domain mapping experiments show that PRYSPRY of TRIM38 interacts with the N-terminus of TRIF. Overexpression of TRIM38 decreased expression of overexpressed and endogenous TRIF. This effect could be inhibited by MG132 treatment. Furthermore, the RING/B-box domain of TRIM38 is critical for K48-linked polyubiquitination and proteasomal degradation of TRIF. Collectively, our results suggest that TRIM38 may act as a novel negative regulator for TLR3-mediated type I interferon signaling by targeting TRIF for degradation.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by grants from the Chinese Ministry of Education Grant for New Century Talents (NCET-07-0506) (<ext-link ext-link-type="uri" xlink:href="http://www.dost.moe.edu.cn">http://www.dost.moe.edu.cn</ext-link>) and the National Basic Research Program of China (973 Project, 2011CB504903) (<ext-link ext-link-type="uri" xlink:href="http://www.973.gov.cn">http://www.973.gov.cn</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript. No additional external funding was received for this study.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="10"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The innate immune response against invading pathogens relies on sensing of pathogen-associated molecular patterns (PAMPs) by germline-encoded pattern-recognition receptors (PRRs) <xref rid="pone.0046825-Thompson1" ref-type="bibr">[1]</xref>, <xref rid="pone.0046825-Kawai1" ref-type="bibr">[2]</xref>. These PRRs include Toll-like receptors (TLRs), RIG-I-like receptors (RLRs), NOD-like receptors (NLRs), and C-type lectin receptors (CLRs) <xref rid="pone.0046825-Kawai1" ref-type="bibr">[2]</xref>, <xref rid="pone.0046825-Kingeter1" ref-type="bibr">[3]</xref>, <xref rid="pone.0046825-Eisenacher1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046825-Elinav1" ref-type="bibr">[5]</xref>. Nucleic acids of pathogens are the major ligands of these receptors. Viral double-stranded RNA (dsRNA) is recognized by endosome TLR3 or by cytoplasmic sensors such as retinoic acid inducible gene I (RIG-I) and melanoma differentiation-associated gene 5 (MDA5) <xref rid="pone.0046825-Koyama1" ref-type="bibr">[6]</xref>, <xref rid="pone.0046825-McCartney1" ref-type="bibr">[7]</xref>. Each PRR recruits downstream adaptor protein that determines the type of response by activating distinct transcription factors, which eventually induce type I interferons (IFNs) and cytokines <xref rid="pone.0046825-Werts1" ref-type="bibr">[8]</xref>, <xref rid="pone.0046825-ONeill1" ref-type="bibr">[9]</xref>. Mitochondrial antiviral signaling protein (MAVS) interacts with RIG-I/MDA5 and mediates innate immune response by inducing the production of type I IFNs <xref rid="pone.0046825-Eisenacher1" ref-type="bibr">[4]</xref>, <xref rid="pone.0046825-Kawai2" ref-type="bibr">[10]</xref>. Toll/interleulin-1 receptor (TIR) domain-containing adaptor inducing IFN-Î² (TRIF) is the single adaptor molecule of TLR3. TRIF mediates activation of transcription factor IFN regulatory factor (IRF3), nuclear factor-kappa B (NF-ÎºB) and activator protein 1 (AP-1), leading to the induction of IFNs, cytokines, and maturation of dendritic cells (DCs) <xref rid="pone.0046825-Matsumoto1" ref-type="bibr">[11]</xref>, <xref rid="pone.0046825-Yamamoto1" ref-type="bibr">[12]</xref>, <xref rid="pone.0046825-Oshiumi1" ref-type="bibr">[13]</xref>. Upon stimulation of TLR3, TRIF transiently couples with TLR3 and then dissociates from the receptor to recruit the downstream kinase complex via TNF receptor-associated factor 3 (TRAF3), leading to the production of type I IFNs <xref rid="pone.0046825-Matsumoto1" ref-type="bibr">[11]</xref>, <xref rid="pone.0046825-Fitzgerald1" ref-type="bibr">[14]</xref>. Additionally, TRIF recruits receptor-interacting protein 1 (RIP1) and TRAF6 to induce NF-ÎºB activation <xref rid="pone.0046825-ONeill1" ref-type="bibr">[9]</xref>, <xref rid="pone.0046825-Meylan1" ref-type="bibr">[15]</xref>.</p>
+      <fig id="pone-0046825-g001" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0046825.g001</object-id>
+        <label>Figure 1</label>
+        <caption>
+          <title>Effects of TRIM38 on TLR3-induced IFN-Î² signaling.</title>
+          <p>(A) Expression of TRIM38 mRNA in HeLa cells treated with 100 Âµg/ml poly(I:C). At indicated time points, cells were harvested, and total RNA was prepared and analyzed by RT-PCR. GAPDH mRNA expression was assessed as an internal control. (B) Expression of TRIM38 protein in HeLa cells treated with 100 Âµg/ml poly(I:C). At indicated time points, cells were harvested and analyzed by immunoblot using the indicated antibodies. (C) Effect of TRIM38 overexpression on poly(I:C)-induced activation of IFN-Î². 293T/TLR3 cells were transfected with an IFN-Î²-luc plasmid and TRIM38 plasmid (0, 50, 200, and 500 ng). Twenty-four hours after transfection, cells were incubated with 100 Âµg/ml of poly(I:C) for 4 h, and then luciferase assays were performed. (D) Effect of TRIM38 overexpression on IRF3 phosphorylation. HeLa cells were transfected with TRIM38 plasmid (0, 0.5 and 2 Âµg). Twenty-four hours after transfection, cells were left untreated or incubated with 100 Âµg/ml poly(I:C) for 4 h. Immunoblot analysis was performed using the indicated antibodies. (E, F) Effect of TRIM38 overexpression on poly(I:C)-induced transcription of IFN-Î² and ISG56. HeLa cells were transfected with TRIM38 plasmid (0, 0.5, and 2 Âµg). Twenty-four hours after transfection, cells were left untreated or incubated with 100 Âµg/ml of poly(I:C) for 4 h, then total RNA was extracted and quantitative real-time PCR were performed to analyze gene expression.</p>
+        </caption>
+        <graphic xlink:href="pone.0046825.g001"/>
+      </fig>
+      <p>The innate immune response is essential for controlling microbial infection. However, over-activation of the innate immune response may lead to chronic inflammation and autoimmune diseases <xref rid="pone.0046825-Cook1" ref-type="bibr">[16]</xref>, <xref rid="pone.0046825-Kalliolias1" ref-type="bibr">[17]</xref>. Therefore, signal transduction in the immune response must be under tight regulation to maintain immune balance. Multiple mechanisms that limit the immune response have been identified, such as degradation, phosphorylation or sequestration of signaling molecules <xref rid="pone.0046825-Komuro1" ref-type="bibr">[18]</xref>. Many negative regulators reportedly exert their functions by targeting signaling molecules for ubiquitin-mediated proteasomal degradation <xref rid="pone.0046825-Bhoj1" ref-type="bibr">[19]</xref>, <xref rid="pone.0046825-Jiang1" ref-type="bibr">[20]</xref>. For example, RING-finger protein 5 (RNF5), an E3 ubiquitin ligase, promotes degradation of STING (stimulator of interferon genes, also named MITA) <xref rid="pone.0046825-Zhong1" ref-type="bibr">[21]</xref>, <xref rid="pone.0046825-Zhong2" ref-type="bibr">[22]</xref>; Cbl-b negatively regulates TLR signaling through mediating degradation of myeloid differentiation primary response gene 88 (MyD88) and TRIF <xref rid="pone.0046825-Han1" ref-type="bibr">[23]</xref>.</p>
+      <p>The tripartite motif-containing (TRIM) proteins are characterized by the tripartite motif. The TRIM motif comprises a RING domain, a B-box domain and a coiled-coil region <xref rid="pone.0046825-Napolitano1" ref-type="bibr">[24]</xref>. More than 70 members of the TRIM family, which may be involved in a variety of biological and physiological processes, have been identified in humans. As the RING domain can mediate ubiquitin conjugation, many TRIM proteins have been identified as E3 ubiquitin ligases <xref rid="pone.0046825-Napolitano1" ref-type="bibr">[24]</xref>, <xref rid="pone.0046825-Napolitano2" ref-type="bibr">[25]</xref>. Particularly, TRIM5Î±, TRIM21, and TRIM22 act as E3 ubiquitin ligases to affect viral replication directly <xref rid="pone.0046825-Eldin1" ref-type="bibr">[26]</xref>, <xref rid="pone.0046825-Mallery1" ref-type="bibr">[27]</xref>, <xref rid="pone.0046825-Kim1" ref-type="bibr">[28]</xref>. In addition, PRYSPRY domain, a typical C-terminal domain of TRIM, mediates protein-protein interaction and plays a critical role in TRIM functions <xref rid="pone.0046825-Woo1" ref-type="bibr">[29]</xref>. Recent research suggests that some TRIM proteins are involved in innate immune response <xref rid="pone.0046825-Kawai3" ref-type="bibr">[30]</xref>. However, it is not clear if additional TRIMs regulate this process.</p>
+      <fig id="pone-0046825-g002" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0046825.g002</object-id>
+        <label>Figure 2</label>
+        <caption>
+          <title>Effects of TRIM38 knockdown on TLR3-induced IFN-Î² activation.</title>
+          <p>(A) TRIM38 protein level in 293/TLR3 cell line stably expressing TRIM38-specific or non-targeting shRNA. 293/TLR3 cells were transfected with TRIM38-specific shRNA or non-targeting shRNA (NT) followed by puromycin selection and cloning. Screened cell populations were analyzed by immunoblot with an antibody specific for TRIM38. (B) Effects of TRIM38 knockdown on poly(I:C)-induced IFN-Î² activation. TRIM38 knockdown or control 293/TLR3 cells were transfected with IFN-Î²-luc plasmid. Twenty-four hours after transfection, cells were left untreated or stimulated with 100 Âµg/ml of poly(I:C) for 4 h before luciferase analysis was performed. (C) Effects of TRIM38 knockdown on poly(I:C)-induced IRF3 phosphorylation. TRIM38 knockdown or control 293/TLR3 cells were incubated with 100 Âµg/ml of poly(I:C) for 4 h before the immunoblot analysis was performed. (D, E) Effects of TRIM38 knockdown on poly(I:C)-induced transcription of IFN-Î² and ISG56 genes. Indicated cells were stimulated with poly(I:C) for 4 h, then total RNA was extracted for real-time PCR analysis. Similar results were obtained from three independent experiments.</p>
+        </caption>
+        <graphic xlink:href="pone.0046825.g002"/>
+      </fig>
+      <p>TRIM38 is reported to negatively regulate innate immunity <xref rid="pone.0046825-Zhao1" ref-type="bibr">[31]</xref>. However, the molecular mechanisms by which TRIM38 negatively regulate innate immunity are not fully understood. In this report, we demonstrate that TRIM38 negatively regulates TLR3-mediated type I interferon signaling by targeting TRIF for degradation. Overexpression or knockdown of TRIM38 could inhibit or promote TLR3-mediated type I interferon signaling respectively. Mechanistically, TRIM38 is shown to interact with TRIF and mediate TRIF degradation via the ubiquitin-proteasome pathway. Further, we suggest that the RING/B-box domain of TRIM38 is critical for K48-linked polyubiquitination and proteasomal degradation of TRIF. Our findings may provide new insights in the mechanisms for anti-viral innate immune responses that are fine tuned by TRIM family proteins.</p>
+      <fig id="pone-0046825-g003" orientation="portrait" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pone.0046825.g003</object-id>
+        <label>Figure 3</label>
+        <caption>
+          <title>TRIM38 targets TRIF.</title>
+          <p>(AâC) Effects of TRIM38 on TRIF, TBK1, or IKKi-induced IFN-Î² activation. 293T cells were transfected with an IFN-Î²-luc plasmid, together with a plasmid expressing TRIF (A), TBK1 (B), or IKKi (C), and a TRIM38 plasmid (0, 50, 100, and 200 ng), respectively. Luciferase assays were performed after 24 h post-transfection. (D) Effect of TRIM38 on TRIF-mediated IRF3 phosphorylation. 293T cells were transfected with a TRIF plasmid and a TRIM38 plasmid (0, 0.5, and 2 Âµg). Twenty-four hours post transfection, cell lysates were analyzed by immunoblot with indicated antibodies.</p>
+        </caption>
+        <graphic xlink:href="pone.0046825.g003"/>
+      </fig>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Cell Culture and Reagents</title>
+        <p>293T (ATCC, CRL-11268) cells, and HeLa (ATCC, CCL-2) cells were cultured in Dulbeccoâs modified Eagleâs medium (DMEM, HyClone, Logan, UT) supplemented with 10% fetal bovine serum (FBS, HyClone) and antibiotics. 293 cells stably expressing TLR3 (293/TLR3) were a gift form Dr. Zhengfan Jiang (Peking University, Beijing, China) <xref rid="pone.0046825-Sun1" ref-type="bibr">[32]</xref>.</p>
+        <p>MG132, NH<sub>4</sub>Cl, Z-VAD-FMK, polyinosinic: polycytidylic acid [poly(I:C)] were purchased from Sigma (St. Louis, MO).</p>
+        <p>Antibodies against Flag, Myc, HA, and Î²-actin were purchased from Sigma; rabbit anti-TRIF and anti-TRAF3 antibodies were from Cell Signaling Technology (Danvers, MA). Goat anti-TRIF antibody was from R&amp;D Systems (Minneapolis, MN). Rabbit antibodies against IRF3 and phospho-IRF3 (pS386) were from Epitomics (Burlingame, CA). Rabbit anti-TRIM38 antibody was from Sigma. Rabbit K48-linkage ubiquitin antibody was from Millipore (Billerica, MA). The IRDye 800-labeled IgG or IRDye 680-labeled IgG secondary antibodies were from LI-COR Biosciences (Lincoln, NE).</p>
+        <fig id="pone-0046825-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0046825.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Interaction of TRIM38 and TRIF.</title>
+            <p>(A) TRIM38 specifically interacts with TRIF. 293T cells transfected with plasmids expressing TRIM38-Myc and Flag-TRIF, Flag-TBK1, or Flag-IKKi. After 24 h, cell lysates were immunoprecipitated using anti-Flag agarose beads. The lysates and immunoprecipitates were analyzed by immunoblot with anti-Myc and anti-Flag antibodies. (B) Endogenous interaction of TRIF with TRIM38. Hela cells were left untreated or treated with poly(I:C) for 4 h. Cell lysates were immunoprecipitated with goat anti-TRIF antibody or control goat IgG and analyzed with rabbit anti-TRIM38 or rabbit anti-TRIF antibodies. (C, D) Schematic presentations of truncation mutants of TRIF (C) and TRIM38 (D). (E) TRIF interacts with TRIM38 through its N-terminus. 293T cells were transfected with Myc-TRIM38 together with full length Flag-tagged TRIF or TRIF truncation mutants. The immunoprecipitations were performed using anti-Flag agrose beads. Immunoblot analysis was carried out similarly as in (A). (F) TRIM38 is associated with TRIF through its PRYSPRY domain. Experiments were performed as described in panel (E). The co-immunopricipitated proteins were marked by asterisks.</p>
+          </caption>
+          <graphic xlink:href="pone.0046825.g004"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>Plasmid Construction</title>
+        <p>The plasmids expressing Flag-tagged proteins including Flag-TRIF, Flag-TBK1, and Flag-IKKi have been described elsewhere <xref rid="pone.0046825-Lei1" ref-type="bibr">[33]</xref>, <xref rid="pone.0046825-Lei2" ref-type="bibr">[34]</xref>. The plasmid expressing full length TRIM38 was purchased from Origene (Rockville, MD). The TRIF mutants, including TRIF-N (aa 1â359), TRIF-C (aa 534â712), TIR (aa 387â556), and TRIF (D281ED289E), as well as the TRIM38 mutants, including ÎRING/B-box (aa 130â465), ÎPRYSPRY (aa 1â274), ÎCC (deleted aa 130â290) and PRYSPRY (aa 274â465) were generated using a Site-Directed Mutagenesis Kit (Stratagene, La Jolla, CA).</p>
+        <fig id="pone-0046825-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0046825.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>TRIM38 induces TRIF degradation through proteasomal pathway.</title>
+            <p>(A) Overexpression of TRIM38 does not affect endogenous TRIF mRNA expression. HeLa cells were transfected with increasing amounts of a TRIM38-Flag plasmid (0, 0.5, and 2 Âµg). After 48 h, total RNA was prepared and used for RT-PCR analysis of the indicated genes. GAPDH was used as an internal control. (B) Overexpression of TRIM38 reduces TRIF protein. 293T cells were transfected with plasmids expressing Flag-TRIF or TRAF3-Flag, together with increasing amounts of TRIM38-Flag plasmid (0, 50, 100, and 200 ng). After 24 h, immunoblot analysis was performed with indicated antibodies. (C) Overexpression of TRIM38 reduces endogenous TRIF. HeLa cells were transfected with increasing amounts of TRIM38-Flag plasmid (0, 0.5, and 2 Âµg). Fourty-eight hours after transfection, immunoblot analysis was performed using indicated antibodies. (D) Caspase inhibitor does not inhibit TRIM38-mediated TRIF degradation. 293T cells were transfected with Flag-TRIF plasmid and increasing amounts of TRIM38-Flag plasmid (0, 10, 50, 100, 150, and 200 ng) for 6 h. Then cells were treated with DMSO (negative control) or 5 ÂµM Z-VAD-FMK for 16 h before immunoblot analysis was performed. (E) Overexpression of TRIM38 promotes degradation of caspase-resistant TRIF. 293T cells were transfected with plasmids expressing Flag-TRIF or TRIF mutant carrying D284E and D289E substitutions, together with increasing amounts of TRIM38-Flag plasmid (0, 50, 100, and 200 ng). After 24 h, immunoblot analysis was performed. (F) TRIM38 promotes proteasomal degradation of TRIF. 293T cells were transfected with a Flag-TRIF plasmid and increasing amounts of TRIM38-Flag plasmid (0, 10, 50, 100, 150, and 200 ng) for 6 h. Then cells were treated with DMSO, 0.1 ÂµM MG132, or 10 mM NH<sub>4</sub>Cl for 16 h before immunoblot analysis was performed.</p>
+          </caption>
+          <graphic xlink:href="pone.0046825.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>Generation of TRIM38 Knockdown Cell Line</title>
+        <p>293/TLR3 cells were transfected with non-targeting (NT) or TRIM38-specific shRNA. After selected with puromycin (1 Âµg/ml), single cells were isolated using limit dilution and screened for maximal knockdown of TRIM38 using immunoblot analyses. TRIM38-specific shRNAs were from Origene. The sequence of TRIM38-specific shRNA is <named-content content-type="gene">5â²-ATCGGAGACAAGTGACTCGTGGATACACC-3â²</named-content>, and the sequence of the non-targeting shRNA is <named-content content-type="gene">5â²-GCACTACCAGAGCTAACTCAGATAGTACT-3â²</named-content>.</p>
+        <fig id="pone-0046825-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0046825.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>RING/B-box of TRIM38 is critical for TRIF degradation.</title>
+            <p>(A) TRIM38 catalyzes K48-linked ubiquitination of TRIF. 293T cells were transfected with plasmids expressing Myc-tagged full-length or RING/B-box domain deleted (ÎRING/B-box) TRIM38, Flag-TRIF, and HA-ubiquitin plasmids. At 24 h post-transfection, cell lysates were denatured and immunoprecipitated using anti-Flag agrose beads. Immunoblot analysis was performed using an antibody specific against K48-linkage polyubiquitin. (B) Effect of TRIM38ÎRING/B-box mutant on TRIF degradation. 293T cells were transfected with Flag-TRIF plasmid and Flag-tagged full length TRIM38 or TRIM38ÎRING/B-box mutant plasmid (0, 50, and 100 ng). Twenty-four hours after transfection, immunoblot analysis using the indicated antibodies was performed. (C) Effect of TRIM38ÎRING/B-box mutant on TRIF-induced IFN-Î² promoter activation. 293T cells were transfected with IFN-Î²-Luc plasmid, Flag-TRIF plasmid, together with increasing amounts plasmid expressing of Flag-tagged full length TRIM38 or TRIM38ÎRING/B-box mutant (0, 50, and 100 ng). Luciferase assays were performed 24 h after transfection.</p>
+          </caption>
+          <graphic xlink:href="pone.0046825.g006"/>
+        </fig>
+      </sec>
+      <sec id="s2d">
+        <title>Reporter Assays</title>
+        <p>293T or 293/TLR3 cells cultured in 24-well plates (2.5Ã10<sup>5</sup> cells per well) were transfected with a control plasmid or plasmids expressing Flag-TRIF, Flag-TBK1, Flag-IKKi, and TRIM38 plasmids, along with pGL3-IFN-Î²-luc, and pRL-SV40 <xref rid="pone.0046825-Lei2" ref-type="bibr">[34]</xref> using Lipofectamine 2000 (Invitrogen, Carlsbad, CA). At 24 h post-transfection, cells were lysed, and luciferase activities were determined using a dual luciferase reporter gene assay kit (Promega, Madison, WI). The firefly luciferase activities were normalized to the Renilla luciferase activities.</p>
+      </sec>
+      <sec id="s2e">
+        <title>RT-PCR and Real-time PCR</title>
+        <p>Total RNA was extracted using TRIzol reagent (Invitrogen) and treated with DNase I (Pierce, Rockford, IL). Extracted RNA was used as template for reverse transcription using the Superscript cDNA synthesis kit (Invitrogen), according to the manufacturerâs instructions. These cDNA samples were then subjected to PCR analysis using primers specific for detection of IFN-Î² and ISG56 <xref rid="pone.0046825-Lei2" ref-type="bibr">[34]</xref>. Quantitative real-time PCR was performed using SYBR green kit (Takara Bio, Otsu, Japan), according to the manufacturerâs instructions. Expression of IFN-Î² and ISG56 mRNA was normalized to GAPDH mRNA expression.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Immunoprecipitation</title>
+        <p>293T cells were seeded in 10 cm<sup>2</sup> dishes (8Ã10<sup>6</sup> per dish). The next day, cells were transfected with indicated plasmids using Lipofectamine 2000 (Invitrogen). Twenty-four hours post-transfection, cells were harvested and lysed with RIPA buffer containing 25 mM Tris-HCl (pH7.4), 150 mM NaCl, 1 mM EDTA, 1% NP40, 0.25% sodium deoxycholate and protease inhibitor cocktail (Roche, Indianapolis, IN). For immunoprecipitation assays, cell lysates were incubated with anti-Flag M2-agrose beads (Sigma) overnight at 4Â°C with gentle shaking. The beads were washed four times with lysis buffer containing 0.2% NP40. The immunoprecipitates were boiled in 2ÃSDS loading buffer. For immunoprecipitation of endogenous TRIF, Hela cells were treated with 100 Âµg/ml poly(I:C) for 4 hours before cells were harvested and lysed in RIPA buffer. Cell lysates were incubated with 10 Âµg goat anti-TRIF antibody or control IgG overnight at 4Â°C. Then, 30 Âµl prewashed protein A/G beads were added to each sample and incubated at 4Â°C. After 4 h, the beads were washed with cold PBS four times, and were boiled in 2ÃSDS loading buffer. To detect ubiquitination of TRIF, 10 mM <italic>N</italic>-ethylmaleimide (Sigma) and 1% SDS were included in the lysis buffer. The cell lysates were denatured at 90Â°C for 5 min. Then the lysates were diluted with RIPA buffer until the concentration of SDS was decreased to 0.1%. Then immunoprecipitation assays were performed, and the samples were analyzed by immunoblot with indicated antibodies.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>Overexpression of TRIM38 Inhibits TLR3-mediated IFN-Î² Signaling</title>
+        <p>Recently, TRIM38 was shown to negatively regulate TLR-mediated NF-ÎºB activation <xref rid="pone.0046825-Zhao1" ref-type="bibr">[31]</xref>. However, its role in the TLR-medaited pathway has not been fully elucidated. To determine if TRIM38 is involved in the TLR3-medaited pathway, we measured the mRNA and protein expression of TRIM38 in HeLa cells exposed to poly(I:C), a synthetic TLR3 agonist. Expression of TRIM38 mRNA and protein were induced at different time points after exposure of cells to poly(I:C) (<xref ref-type="fig" rid="pone-0046825-g001">Fig. 1A and B</xref>), suggesting that TRIM38 may be involved in TLR3-mediated signaling. We next investigated the effects of TRIM38 overexpression on TLR3-mediated activation of IFN-Î². 293T/TLR3 cells, which stably express TLR3 <xref rid="pone.0046825-Sun1" ref-type="bibr">[32]</xref>, were transfected with an IFN-Î² promoter-driven luciferase reporter (IFN-Î²-luc) plasmid and different amounts of a TRIM38 plasmid. After 24 h, cells were incubated with poly(I:C) for 4 h, and then luciferase activities were measured. In parallel, expression of TRIM38 was verified by immunoblot analyses. Overexpression of TRIM38 inhibited poly(I:C)-induced activation of the IFN-Î² promoter in a dose-dependent manner (<xref ref-type="fig" rid="pone-0046825-g001">Fig. 1C</xref> and <xref ref-type="supplementary-material" rid="pone.0046825.s001">Fig. S1</xref>). We also assessed the phosphorylation of IRF3, a hallmark of IRF3 activation that is required for IFN-Î² signaling. Overexpression of TRIM38 inhibited poly(I:C)-induced phosphorylation of IRF3 in a dose-dependent manner in HeLa cells (<xref ref-type="fig" rid="pone-0046825-g001">Fig. 1D</xref>). Moreover, we examined if overexpression of TRIM38 alters poly(I:C)-induced mRNA expression of IFN-Î² and IFN-stimulated genes (ISGs). Consistently, quantitative real-time PCR analyses showed that overexpression of TRIM38 attenuated poly(I:C)-induced mRNA expression of IFN-Î² and ISG56 genes (<xref ref-type="fig" rid="pone-0046825-g001">Fig. 1E and F</xref>). Taken together, these findings suggest that TRIM38 negatively regulates TLR3-mediated IFN-Î² signaling.</p>
+      </sec>
+      <sec id="s3b">
+        <title>Knockdown of TRIM38 Potentiates TLR3-mediated IFN-Î² Activation</title>
+        <p>To confirm the role of TRIM38 in TLR3-mediated signaling, we investigated whether knockdown of endogenous TRIM38 affects TLR3-mediated IFN-Î² activation. To achieve constant knockdown of TRIM38, we generated the 293/TLR3 cell line that stably expresses TRIM38-specific or non-targeting shRNA. Cells transfected with the TRIM38-specific shRNA plasmid showed â¼70% reduction of TRIM38 expression than control cells (<xref ref-type="fig" rid="pone-0046825-g002">Fig. 2A</xref>). We used reporter assays to determine IFN-Î² activation in these cell lines. Knockdown of TRIM38 potentiated poly(I:C)-induced activation of IFN-Î² (<xref ref-type="fig" rid="pone-0046825-g002">Fig. 2B</xref>). We then analyzed the activation of IRF3 in both TRIM38 knockdown and control cells. Immunoblot analysis showed that poly(I:C)-induced IRF3 phosphorylation was significantly higher in TRIM38 knockdown cells than that in control cells (<xref ref-type="fig" rid="pone-0046825-g002">Fig. 2C</xref>), indicating that TRIM38 inhibits TLR3-mediated IRF3 activation. Furthermore, we used quantitative real-time PCR to assess expression of IFN-Î² and ISG56 genes in the TRIM38 knockdown cells. Exposure to poly(I:C) led to a 2â3 fold increase in IFN-Î² and ISG56 mRNA expression 4 h post-infection in the TRIM38 knockdown cells compared to control cells (<xref ref-type="fig" rid="pone-0046825-g002">Fig. 2D and E</xref>). Collectively, these results show that TRIM38 negatively regulates TLR3 signaling.</p>
+      </sec>
+      <sec id="s3c">
+        <title>TRIM38 Targets TRIF</title>
+        <p>To investigate the potential target of TRIM38 in TLR3-mediated IFN-Î² signaling, we first determined the inhibitory effect of TRIM38 on IFN-Î² activation induced by various signaling molecules in TLR3 pathway. We transfected 293T cells with plasmids encoding TRIF, TBK1, or IKKi, together with increasing amounts of TRIM38 plasmid and an IFN-Î²-luc plasmid. After 24 h, IFN-Î² promoter activity was determined using luciferase assay, and the protein expression was analyzed by immunoblot assays (<xref ref-type="supplementary-material" rid="pone.0046825.s002">Fig. S2</xref>). Overexpression of TRIM38 inhibited TRIF-induced IFN-Î² activation in a dose-dependent manner, but did not affect TBK1 or IKKi-induced IFN-Î² activation (<xref ref-type="fig" rid="pone-0046825-g003">Fig. 3A, B, and C</xref>). Furthermore, we determined whether TRIM38 inhibits TRIF-induced IRF3 phosphorylation. Immunoblot analysis shows that TRIM38 inhibited TRIF-triggered IRF3 phosphorylation in a dose-dependent manner (<xref ref-type="fig" rid="pone-0046825-g003">Fig. 3D</xref>), indicating that TRIF might be a target for TRIM38.</p>
+      </sec>
+      <sec id="s3d">
+        <title>TRIM38 Interacts with TRIF</title>
+        <p>To further investigate the underlying mechanism of TRIM38 in poly(I:C)-induced IFN-Î² activation, we examined the interaction between TRIM38 and TRIF, TBK1 or IKKi. Results of immunoprecipitation experiments indicate that TRIM38 interacts with TRIF, but not with TBK1 or IKKi (<xref ref-type="fig" rid="pone-0046825-g004">Fig. 4A</xref>). This finding was further confirmed by endogenous co-immunoprecipitation experiments (<xref ref-type="fig" rid="pone-0046825-g004">Fig. 4B</xref>).</p>
+        <p>We then mapped the region that is responsible for TRIM38-TRIF association. Various truncatants of TRIM38 and TRIF were generated (<xref ref-type="fig" rid="pone-0046825-g004">Fig. 4C and D</xref>), and the interactions were analyzed using immunoprecipitation. The N-terminus of TRIF interacts with TRIM38, whereas TIR region and the C-terminus of TRIF do not interact with TRIM38 (<xref ref-type="fig" rid="pone-0046825-g004">Fig. 4E</xref>). Moreover, TRIF interacts with the PRYSPRY domain of TRIM38, and deletion of PRYSPRY domain disrupts TRIF-TRIM38 interaction (<xref ref-type="fig" rid="pone-0046825-g004">Fig. 4F</xref>). The results suggested that N-terminus of TRIF and PRYSPRY domain of TRIM38 are the critical regions that mediate TRIM38-TRIF interaction (<xref ref-type="fig" rid="pone-0046825-g004">Fig. 4F</xref>).</p>
+      </sec>
+      <sec id="s3e">
+        <title>TRIM38 Promotes TRIF Degradation through Proteasome Pathway</title>
+        <p>Notably, the protein levels of TRIF decreased when TRIF was co-expressed with TRIM38 (<xref ref-type="fig" rid="pone-0046825-g003">Fig. 3D</xref>). Based on this observation, we speculated that TRIM38 might inhibit TRIF gene expression and/or promote TRIF degradation. To test this, we first examined whether TRIF mRNA expression was affected by TRIM38 overexpression. HeLa cells were transfected with increasing amounts of TRIM38 plasmid, with approximately 70% transfection efficiency (data not shown). At 48 h post transfection, total RNA was extracted and RT-PCR was performed. The amount of TRIF mRNA remained constant when TRIM38 was increasingly overexpressed (<xref ref-type="fig" rid="pone-0046825-g005">Fig. 5A</xref>).This indicates that TRIM38 may not downregulate TRIF at the transcription level.</p>
+        <p>We next investigated the effect of TRIM38 overexpression on TRIF protein level. HeLa cells were transfected with control or TRIF plasmid, together with increasing amounts of TRIM38 plasmid. At 48 h post transfection, cells were lysed and the expression of TRIF protein was examined using immunoblot assays. The protein levels of overexpressed TRIF (<xref ref-type="fig" rid="pone-0046825-g005">Fig. 5B</xref>) and endogenous TRIF (<xref ref-type="fig" rid="pone-0046825-g005">Fig. 5C</xref>) decreased in the presence of overexpressed TRIM38. In contrast, overexpression of TRIM38 did not affect the level of TRAF3, another critical signaling protein downstream of TRIF. Furthermore, we found that the protein level of endogenous TRIF decreased slightly upon poly(I:C) stimulation at various time points (<xref ref-type="supplementary-material" rid="pone.0046825.s003">Fig. S3</xref>). Taken together, these findings suggest that TRIM38 could specifically target TRIF for protein degradation.</p>
+        <p>Cellular caspases can cleave TRIF <xref rid="pone.0046825-Rebsamen1" ref-type="bibr">[35]</xref>. To test whether TRIM38 mediates TRIF degradation through caspase cleavage, we examined if the caspase inhibitor Z-VAD-FMK blocks TRIM38-mediated degradation of TRIF. The decrease of TRIF protein was not inhibited by Z-VAD-FMK (<xref ref-type="fig" rid="pone-0046825-g005">Fig. 5D</xref>), indicating that caspases may be not involved in this process. To confirm this, we analyzed a TRIF mutant carrying D281E and D289E substitutions, which is resistant to caspase cleavage <xref rid="pone.0046825-Rebsamen1" ref-type="bibr">[35]</xref>. Similar to wild-type TRIF, cleavage-resistant TRIF decreased in a dose-dependent manner upon TRIM38 overexpression (<xref ref-type="fig" rid="pone-0046825-g005">Fig. 5E</xref>), indicating that caspases do not contribute to TRIM38-mediated degradation of TRIF. Next, we used specific inhibitors of the proteasome or lysosome pathway to determine which degradation machinery could be associated with TRIM38-mediated degradation of TRIF. We found that the proteasome inhibitor MG132, but not the lysosome inhibitor NH<sub>4</sub>Cl, blocks TRIM38-mediated degradation of TRIF (<xref ref-type="fig" rid="pone-0046825-g005">Fig. 5F</xref>), indicating that TRIM38 mediates TRIF degradation through the proteasome pathway rather than the lysosome pathway.</p>
+      </sec>
+      <sec id="s3f">
+        <title>TRIM38 Promotes K48-linked Polyubiquitination and Proteasomal Degradation of TRIF</title>
+        <p>Considering that TRIM38 may act as an E3 ubiquitin ligase <xref rid="pone.0046825-Liu1" ref-type="bibr">[36]</xref> and that K48-linked ubiquitin chains target proteins for degradation by the proteasome pathway <xref rid="pone.0046825-Thrower1" ref-type="bibr">[37]</xref>, we examined if TRIM38 could promote K48-linked polyubiquitination of TRIF. We transfected 293T cells with control or TRIM38-Myc plasmid, together with HA-Ub and Flag-TRIF plasmids. We then immunoprecipitated TRIF using anti-Flag antibody and examined the conjugation of ubiquitin using an antibody specific for K48-linked polyubiquitin. The K48-linked polyubiquitination of TRIF was significantly induced by TRIM38 overexpression (<xref ref-type="fig" rid="pone-0046825-g006">Fig. 6A</xref>). In contrast, when TRIF was co-expressed with a TRIM38 mutant lacking the RING/B-box domain, a critical region for catalyzing ubiquitination, TRIF was not significantly ubiquitinated (<xref ref-type="fig" rid="pone-0046825-g006">Fig. 6A</xref>). These results indicate that TRIM38 might mediate K48-linked polyubiquitination of TRIF through the RING/B-box domain. Furthermore, we tested the effects of RING/B-box-deleted TRIM38 on TRIF degradation and TRIF-induced activation of IFN-Î². The RING/B-box deletion mutant of TRIM38 did not mediate TRIF degradation or inhibit TRIF-induced activation of IFN-Î² (<xref ref-type="fig" rid="pone-0046825-g006">Fig. 6B and C</xref>), suggesting that RING/B-box domain is critical for TRIF degradation mediated by TRIM38. Together, these results indicate that TRIM38 promotes K48-linked polyubiquitination and proteasomal degradation of TRIF protein.</p>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>Type I IFNs play a critical role in limiting the spread of viral infection <xref rid="pone.0046825-Thompson1" ref-type="bibr">[1]</xref>, <xref rid="pone.0046825-Kalliolias1" ref-type="bibr">[17]</xref>, <xref rid="pone.0046825-GonzalezNavajas1" ref-type="bibr">[38]</xref>. However, the production of type I IFNs must be tightly regulated to maintain immune balance. Here, we identified TRIM38 as a negative regulator of TLR3-mediated production of type I IFNs. Furthermore, our findings suggest that TRIM38 targets TRIF and promotes degradation of TRIF through K48-linked polyubiquitination. Therefore, we postulate that TRIM38 limits the excessive production of type I IFNs in response to viral infection by mediating degradation of TRIF.</p>
+      <p>Ubiquitination plays an essential role in the regulation of innate immunity. The TRIM family is one of the largest families of RING-containing E3 ubiquitin ligases, and growing evidence suggests that many TRIM proteins play an important role in the regulation of innate immunity <xref rid="pone.0046825-Kawai3" ref-type="bibr">[30]</xref>. For example, TRIM25 promotes K63-linked polyubiquitination of RIG-I and triggers antiviral signaling <xref rid="pone.0046825-Gack1" ref-type="bibr">[39]</xref>. TRIM21 negatively regulates production of type I IFN-Î² by mediating proteasomal degradation of IRF3 and IRF7 <xref rid="pone.0046825-Higgs1" ref-type="bibr">[40]</xref>, <xref rid="pone.0046825-Higgs2" ref-type="bibr">[41]</xref>. TRIM27 (RFP) negatively regulates antiviral and inflammatory responses by targeting IKKs <xref rid="pone.0046825-Zha1" ref-type="bibr">[42]</xref>. TRIM56 facilitates dsDNA-triggered signaling by targeting STING for K63-linked polyubiquitination <xref rid="pone.0046825-Tsuchida1" ref-type="bibr">[43]</xref>. More recently, it was reported that TRIM38 negatively regulates TLR-induced activition of NF-ÎºB. That report suggests that TRIM38 targets TRAF6 and promotes K48-linked ubiquitination of TRAF6 for degradation, thus limiting the production of pro-inflammatory cytokines <xref rid="pone.0046825-Zhao1" ref-type="bibr">[31]</xref>. Here, we show that TRIM38 targets TRIF for degradation, implying a novel mechanism by which TRIM38 negatively regulates the innate immune response mediated by TLR3.</p>
+      <p>TRIF is the critical adaptor of the TLR3-mediated immune response, coupling TLR3 and downstream signaling molecules to trigger production of type I IFNs <xref rid="pone.0046825-Yamamoto1" ref-type="bibr">[12]</xref>, <xref rid="pone.0046825-Oshiumi1" ref-type="bibr">[13]</xref>, <xref rid="pone.0046825-Seya1" ref-type="bibr">[44]</xref>. As TRIF plays a central role in TLR3-mediated signaling, it has been suggested that TRIF is a regulatory target for both the virus and host. On the one hand, viruses target TRIF for degradation to support their sufficient replication. For example, hepatitis C virus protease NS3-4A <xref rid="pone.0046825-Li1" ref-type="bibr">[45]</xref> and coxsackievirus B/enterovirus 71 3C<sup>pro</sup> protease target TRIF for cleavage <xref rid="pone.0046825-Lei1" ref-type="bibr">[33]</xref>, <xref rid="pone.0046825-Mukherjee1" ref-type="bibr">[46]</xref>. On the other hand, TRIF is tightly regulated by host factors to prevent excessive immune response. For example, SARM negatively regulates TRIF-dependent TLRs signaling <xref rid="pone.0046825-Carty1" ref-type="bibr">[47]</xref>, and Integrin CD11b negatively regulates TLR-induced inflammatory responses by targeting MyD88 and TRIF for degradation <xref rid="pone.0046825-Han1" ref-type="bibr">[23]</xref>. Here, we showed that TRIM38 interacts with TRIF through the PRYSPRY domain, and promotes K48-linked polyubiquitination and proteasomal degradation of TRIF through the RING/B-box domain. We speculate a model that upon stimulation of TLR3, the protein level of TRIM38 is induced, which subsequently associates with and mediates the degradation of TRIF, thus fine-tuning both inflammation and innate immune response to pathogens.</p>
+      <p>Interestingly, it seems that PRYSPRY domain play an important role in innate immune regulation. The rhesus monkey TRIM5Î± blocks HIV-1 infection by recognizing HIV-1 core via PRYSPRY domain <xref rid="pone.0046825-Stremlau1" ref-type="bibr">[48]</xref>, and the SPRY domain of TRIM25 mediates its association with RIG-I <xref rid="pone.0046825-Gack1" ref-type="bibr">[39]</xref>. Because many TRIM family proteins exert their functions by catalyzing ubiquitination, we propose that the PRYSPRY domain of TRIMs provides a critical protein interaction interface and facilitate the association between TRIMs and substrates, thus the RING domain of TRIMs can mediate ubiquitination of the associated substrates. Further investigations will provide insights into the functional significance of the PRYSPRY domain of TRIMs.</p>
+      <p>While our manuscript was in preparation, we noticed that a study of TRIM38 was published online <xref rid="pone.0046825-Zhao2" ref-type="bibr">[49]</xref>. Both this study and ours indicate that TRIM38 exterts its functions as an E3 ubiquitin ligase. Zhao et al. show that TRIM38 targets NAP1 to negatively regulate TLR3/4- and RIG-I- mediated production of IFN-Î² <xref rid="pone.0046825-Zhao2" ref-type="bibr">[49]</xref>. NAP1 is thought to bridge the interaction between TRIF and TBK1 <xref rid="pone.0046825-Sasai1" ref-type="bibr">[50]</xref>. Interestingly, our results indicate that TRIM38 targets TRIF. It is possible that TRIM38 may target multiple signaling molecules to control TLR3-mediated signaling. Overall, our findings show how TRIF is regulated by TRIM38 and provide new insight into the mechanism by which the TLR-mediated immune response is regulated over the course of viral infection.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0046825.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>
+<bold>Expression of the transfected TRIM38.</bold> 293T/TLR3 cells were transfected with an IFN-Î²-luc plasmid and TRIM38 plasmid (0, 50, 200, and 500 ng). Twenty-four hours after transfection, cells were incubated with 100 Âµg/ml of poly(I:C) for 4 h. Cell lysates were analyzed by immunoblot with indicated antibodies.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0046825.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0046825.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>
+<bold>Expression of TRIF, TBK1 and IKKi.</bold> 293T cells were transfected with an IFN-Î²-luc plasmid, together with a plasmid expressing TRIF (A), TBK1 (B), or IKKi (C), and a TRIM38 plasmid (0, 50, 100, and 200 ng), respectively. Twenty-four hours after transfection, cell lysates were analyzed by immunoblot with indicated antibodies.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0046825.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0046825.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>
+<bold>Expression of TRIF protein in HeLa cells treated with poly(I:C).</bold> HeLa cells were treated with 400 Âµg/ml poly(I:C). At indicated time points, cells were harvested and analyzed by immunoblot using the goat anti-TRIF and rabbit anti-TRIM38 antibodies. Î²-actin was used as an internal control.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0046825.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We are grateful to Dr. Zhengfan Jiang for providing 293/TLR3 cells. We also thank Xia Xiao and Xue Jia for their technical assistance.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0046825-Thompson1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Thompson</surname><given-names>MR</given-names></name>, <name><surname>Kaminski</surname><given-names>JJ</given-names></name>, <name><surname>Kurt-Jones</surname><given-names>EA</given-names></name>, <name><surname>Fitzgerald</surname><given-names>KA</given-names></name> (<year>2011</year>) <article-title>Pattern recognition receptors and the innate immune response to viral infection</article-title>. <source>Viruses</source>
+<volume>3</volume>: <fpage>920</fpage>â<lpage>940</lpage>.<pub-id pub-id-type="pmid">21994762</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Kawai1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kawai</surname><given-names>T</given-names></name>, <name><surname>Akira</surname><given-names>S</given-names></name> (<year>2010</year>) <article-title>The role of pattern-recognition receptors in innate immunity: update on Toll-like receptors</article-title>. <source>Nat Immunol</source>
+<volume>11</volume>: <fpage>373</fpage>â<lpage>384</lpage>.<pub-id pub-id-type="pmid">20404851</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Kingeter1">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kingeter</surname><given-names>LM</given-names></name>, <name><surname>Lin</surname><given-names>X</given-names></name> (<year>2012</year>) <article-title>C-type lectin receptor-induced NF-kappaB activation in innate immune and inflammatory responses</article-title>. <source>Cell Mol Immunol</source>
+<volume>9</volume>: <fpage>105</fpage>â<lpage>112</lpage>.<pub-id pub-id-type="pmid">22246129</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Eisenacher1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Eisenacher</surname><given-names>K</given-names></name>, <name><surname>Krug</surname><given-names>A</given-names></name> (<year>2011</year>) <article-title>Regulation of RLR-mediated innate immune signalingâit is all about keeping the balance</article-title>. <source>Eur J Cell Biol</source>
+<volume>91</volume>: <fpage>36</fpage>â<lpage>47</lpage>.<pub-id pub-id-type="pmid">21481967</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Elinav1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Elinav</surname><given-names>E</given-names></name>, <name><surname>Strowig</surname><given-names>T</given-names></name>, <name><surname>Henao-Mejia</surname><given-names>J</given-names></name>, <name><surname>Flavell</surname><given-names>RA</given-names></name> (<year>2011</year>) <article-title>Regulation of the antimicrobial response by NLR proteins</article-title>. <source>Immunity</source>
+<volume>34</volume>: <fpage>665</fpage>â<lpage>679</lpage>.<pub-id pub-id-type="pmid">21616436</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Koyama1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Koyama</surname><given-names>S</given-names></name>, <name><surname>Ishii</surname><given-names>KJ</given-names></name>, <name><surname>Coban</surname><given-names>C</given-names></name>, <name><surname>Akira</surname><given-names>S</given-names></name> (<year>2008</year>) <article-title>Innate immune response to viral infection</article-title>. <source>Cytokine</source>
+<volume>43</volume>: <fpage>336</fpage>â<lpage>341</lpage>.<pub-id pub-id-type="pmid">18694646</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-McCartney1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McCartney</surname><given-names>SA</given-names></name>, <name><surname>Colonna</surname><given-names>M</given-names></name> (<year>2009</year>) <article-title>Viral sensors: diversity in pathogen recognition</article-title>. <source>Immunol Rev</source>
+<volume>227</volume>: <fpage>87</fpage>â<lpage>94</lpage>.<pub-id pub-id-type="pmid">19120478</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Werts1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Werts</surname><given-names>C</given-names></name>, <name><surname>Girardin</surname><given-names>SE</given-names></name>, <name><surname>Philpott</surname><given-names>DJ</given-names></name> (<year>2006</year>) <article-title>TIR, CARD and PYRIN: three domains for an antimicrobial triad</article-title>. <source>Cell Death Differ</source>
+<volume>13</volume>: <fpage>798</fpage>â<lpage>815</lpage>.<pub-id pub-id-type="pmid">16528382</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-ONeill1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>OâNeill</surname><given-names>LA</given-names></name>, <name><surname>Bowie</surname><given-names>AG</given-names></name> (<year>2007</year>) <article-title>The family of five: TIR-domain-containing adaptors in Toll-like receptor signalling</article-title>. <source>Nat Rev Immunol</source>
+<volume>7</volume>: <fpage>353</fpage>â<lpage>364</lpage>.<pub-id pub-id-type="pmid">17457343</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Kawai2">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kawai</surname><given-names>T</given-names></name>, <name><surname>Takahashi</surname><given-names>K</given-names></name>, <name><surname>Sato</surname><given-names>S</given-names></name>, <name><surname>Coban</surname><given-names>C</given-names></name>, <name><surname>Kumar</surname><given-names>H</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>IPS-1, an adaptor triggering RIG-I- and Mda5-mediated type I interferon induction</article-title>. <source>Nat Immunol</source>
+<volume>6</volume>: <fpage>981</fpage>â<lpage>988</lpage>.<pub-id pub-id-type="pmid">16127453</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Matsumoto1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Matsumoto</surname><given-names>M</given-names></name>, <name><surname>Seya</surname><given-names>T</given-names></name> (<year>2008</year>) <article-title>TLR3: interferon induction by double-stranded RNA including poly(I:C)</article-title>. <source>Adv Drug Deliv Rev</source>
+<volume>60</volume>: <fpage>805</fpage>â<lpage>812</lpage>.<pub-id pub-id-type="pmid">18262679</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Yamamoto1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yamamoto</surname><given-names>M</given-names></name>, <name><surname>Sato</surname><given-names>S</given-names></name>, <name><surname>Hemmi</surname><given-names>H</given-names></name>, <name><surname>Hoshino</surname><given-names>K</given-names></name>, <name><surname>Kaisho</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Role of adaptor TRIF in the MyD88-independent toll-like receptor signaling pathway</article-title>. <source>Science</source>
+<volume>301</volume>: <fpage>640</fpage>â<lpage>643</lpage>.<pub-id pub-id-type="pmid">12855817</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Oshiumi1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Oshiumi</surname><given-names>H</given-names></name>, <name><surname>Matsumoto</surname><given-names>M</given-names></name>, <name><surname>Funami</surname><given-names>K</given-names></name>, <name><surname>Akazawa</surname><given-names>T</given-names></name>, <name><surname>Seya</surname><given-names>T</given-names></name> (<year>2003</year>) <article-title>TICAM-1, an adaptor molecule that participates in Toll-like receptor 3-mediated interferon-beta induction</article-title>. <source>Nat Immunol</source>
+<volume>4</volume>: <fpage>161</fpage>â<lpage>167</lpage>.<pub-id pub-id-type="pmid">12539043</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Fitzgerald1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fitzgerald</surname><given-names>KA</given-names></name>, <name><surname>McWhirter</surname><given-names>SM</given-names></name>, <name><surname>Faia</surname><given-names>KL</given-names></name>, <name><surname>Rowe</surname><given-names>DC</given-names></name>, <name><surname>Latz</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>IKKepsilon and TBK1 are essential components of the IRF3 signaling pathway</article-title>. <source>Nat Immunol</source>
+<volume>4</volume>: <fpage>491</fpage>â<lpage>496</lpage>.<pub-id pub-id-type="pmid">12692549</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Meylan1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Meylan</surname><given-names>E</given-names></name>, <name><surname>Burns</surname><given-names>K</given-names></name>, <name><surname>Hofmann</surname><given-names>K</given-names></name>, <name><surname>Blancheteau</surname><given-names>V</given-names></name>, <name><surname>Martinon</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>RIP1 is an essential mediator of Toll-like receptor 3-induced NF-kappa B activation</article-title>. <source>Nat Immunol</source>
+<volume>5</volume>: <fpage>503</fpage>â<lpage>507</lpage>.<pub-id pub-id-type="pmid">15064760</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Cook1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cook</surname><given-names>DN</given-names></name>, <name><surname>Pisetsky</surname><given-names>DS</given-names></name>, <name><surname>Schwartz</surname><given-names>DA</given-names></name> (<year>2004</year>) <article-title>Toll-like receptors in the pathogenesis of human disease</article-title>. <source>Nat Immunol</source>
+<volume>5</volume>: <fpage>975</fpage>â<lpage>979</lpage>.<pub-id pub-id-type="pmid">15454920</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Kalliolias1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kalliolias</surname><given-names>GD</given-names></name>, <name><surname>Ivashkiv</surname><given-names>LB</given-names></name> (<year>2010</year>) <article-title>Overview of the biology of type I interferons</article-title>. <source>Arthritis Res Ther</source>
+<volume>12</volume>
+<issue>Suppl 1</issue>: <fpage>S1</fpage>.<pub-id pub-id-type="pmid">20392288</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Komuro1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Komuro</surname><given-names>A</given-names></name>, <name><surname>Bamming</surname><given-names>D</given-names></name>, <name><surname>Horvath</surname><given-names>CM</given-names></name> (<year>2008</year>) <article-title>Negative regulation of cytoplasmic RNA-mediated antiviral signaling</article-title>. <source>Cytokine</source>
+<volume>43</volume>: <fpage>350</fpage>â<lpage>358</lpage>.<pub-id pub-id-type="pmid">18703349</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Bhoj1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bhoj</surname><given-names>VG</given-names></name>, <name><surname>Chen</surname><given-names>ZJ</given-names></name> (<year>2009</year>) <article-title>Ubiquitylation in innate and adaptive immunity</article-title>. <source>Nature</source>
+<volume>458</volume>: <fpage>430</fpage>â<lpage>437</lpage>.<pub-id pub-id-type="pmid">19325622</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Jiang1">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jiang</surname><given-names>X</given-names></name>, <name><surname>Chen</surname><given-names>ZJ</given-names></name> (<year>2011</year>) <article-title>The role of ubiquitylation in immune defence and pathogen evasion</article-title>. <source>Nat Rev Immunol</source>
+<volume>12</volume>: <fpage>35</fpage>â<lpage>48</lpage>.<pub-id pub-id-type="pmid">22158412</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Zhong1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhong</surname><given-names>B</given-names></name>, <name><surname>Zhang</surname><given-names>Y</given-names></name>, <name><surname>Tan</surname><given-names>B</given-names></name>, <name><surname>Liu</surname><given-names>TT</given-names></name>, <name><surname>Wang</surname><given-names>YY</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The E3 ubiquitin ligase RNF5 targets virus-induced signaling adaptor for ubiquitination and degradation</article-title>. <source>J Immunol</source>
+<volume>184</volume>: <fpage>6249</fpage>â<lpage>6255</lpage>.<pub-id pub-id-type="pmid">20483786</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Zhong2">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhong</surname><given-names>B</given-names></name>, <name><surname>Zhang</surname><given-names>L</given-names></name>, <name><surname>Lei</surname><given-names>C</given-names></name>, <name><surname>Li</surname><given-names>Y</given-names></name>, <name><surname>Mao</surname><given-names>AP</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>The ubiquitin ligase RNF5 regulates antiviral responses by mediating degradation of the adaptor protein MITA</article-title>. <source>Immunity</source>
+<volume>30</volume>: <fpage>397</fpage>â<lpage>407</lpage>.<pub-id pub-id-type="pmid">19285439</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Han1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Han</surname><given-names>C</given-names></name>, <name><surname>Jin</surname><given-names>J</given-names></name>, <name><surname>Xu</surname><given-names>S</given-names></name>, <name><surname>Liu</surname><given-names>H</given-names></name>, <name><surname>Li</surname><given-names>N</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Integrin CD11b negatively regulates TLR-triggered inflammatory responses by activating Syk and promoting degradation of MyD88 and TRIF via Cbl-b</article-title>. <source>Nat Immunol</source>
+<volume>11</volume>: <fpage>734</fpage>â<lpage>742</lpage>.<pub-id pub-id-type="pmid">20639876</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Napolitano1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Napolitano</surname><given-names>LM</given-names></name>, <name><surname>Meroni</surname><given-names>G</given-names></name> (<year>2011</year>) <article-title>TRIM family: Pleiotropy and diversification through homomultimer and heteromultimer formation</article-title>. <source>IUBMB Life</source>
+<volume>64</volume>: <fpage>64</fpage>â<lpage>71</lpage>.<pub-id pub-id-type="pmid">22131136</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Napolitano2">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Napolitano</surname><given-names>LM</given-names></name>, <name><surname>Jaffray</surname><given-names>EG</given-names></name>, <name><surname>Hay</surname><given-names>RT</given-names></name>, <name><surname>Meroni</surname><given-names>G</given-names></name> (<year>2010</year>) <article-title>Functional interactions between ubiquitin E2 enzymes and TRIM proteins</article-title>. <source>Biochem J</source>
+<volume>434</volume>: <fpage>309</fpage>â<lpage>319</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Eldin1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Eldin</surname><given-names>P</given-names></name>, <name><surname>Papon</surname><given-names>L</given-names></name>, <name><surname>Oteiza</surname><given-names>A</given-names></name>, <name><surname>Brocchi</surname><given-names>E</given-names></name>, <name><surname>Lawson</surname><given-names>TG</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>TRIM22 E3 ubiquitin ligase activity is required to mediate antiviral activity against encephalomyocarditis virus</article-title>. <source>J Gen Virol</source>
+<volume>90</volume>: <fpage>536</fpage>â<lpage>545</lpage>.<pub-id pub-id-type="pmid">19218198</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Mallery1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mallery</surname><given-names>DL</given-names></name>, <name><surname>McEwan</surname><given-names>WA</given-names></name>, <name><surname>Bidgood</surname><given-names>SR</given-names></name>, <name><surname>Towers</surname><given-names>GJ</given-names></name>, <name><surname>Johnson</surname><given-names>CM</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Antibodies mediate intracellular immunity through tripartite motif-containing 21 (TRIM21)</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>107</volume>: <fpage>19985</fpage>â<lpage>19990</lpage>.<pub-id pub-id-type="pmid">21045130</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Kim1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kim</surname><given-names>J</given-names></name>, <name><surname>Tipper</surname><given-names>C</given-names></name>, <name><surname>Sodroski</surname><given-names>J</given-names></name> (<year>2011</year>) <article-title>Role of TRIM5alpha RING domain E3 ubiquitin ligase activity in capsid disassembly, reverse transcription blockade, and restriction of simian immunodeficiency virus</article-title>. <source>J Virol</source>
+<volume>85</volume>: <fpage>8116</fpage>â<lpage>8132</lpage>.<pub-id pub-id-type="pmid">21680520</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Woo1">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Woo</surname><given-names>JS</given-names></name>, <name><surname>Imm</surname><given-names>JH</given-names></name>, <name><surname>Min</surname><given-names>CK</given-names></name>, <name><surname>Kim</surname><given-names>KJ</given-names></name>, <name><surname>Cha</surname><given-names>SS</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Structural and functional insights into the B30.2/SPRY domain</article-title>. <source>EMBO J</source>
+<volume>25</volume>: <fpage>1353</fpage>â<lpage>1363</lpage>.<pub-id pub-id-type="pmid">16498413</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Kawai3">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kawai</surname><given-names>T</given-names></name>, <name><surname>Akira</surname><given-names>S</given-names></name> (<year>2011</year>) <article-title>Regulation of innate immune signalling pathways by the tripartite motif (TRIM) family proteins</article-title>. <source>EMBO Mol Med</source>
+<volume>3</volume>: <fpage>513</fpage>â<lpage>527</lpage>.<pub-id pub-id-type="pmid">21826793</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Zhao1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zhao</surname><given-names>W</given-names></name>, <name><surname>Wang</surname><given-names>L</given-names></name>, <name><surname>Zhang</surname><given-names>M</given-names></name>, <name><surname>Yuan</surname><given-names>C</given-names></name>, <name><surname>Gao</surname><given-names>C</given-names></name> (<year>2012</year>) <article-title>E3 ubiquitin ligase tripartite motif 38 negatively regulates TLR-mediated immune responses by proteasomal degradation of TNF receptor-associated factor 6 in macrophages</article-title>. <source>J Immunol</source>
+<volume>188</volume>: <fpage>2567</fpage>â<lpage>2574</lpage>.<pub-id pub-id-type="pmid">22323536</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Sun1">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sun</surname><given-names>W</given-names></name>, <name><surname>Li</surname><given-names>Y</given-names></name>, <name><surname>Chen</surname><given-names>L</given-names></name>, <name><surname>Chen</surname><given-names>H</given-names></name>, <name><surname>You</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2009</year>) <article-title>ERIS, an endoplasmic reticulum IFN stimulator, activates innate immune signaling through dimerization</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>106</volume>: <fpage>8653</fpage>â<lpage>8658</lpage>.<pub-id pub-id-type="pmid">19433799</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Lei1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lei</surname><given-names>X</given-names></name>, <name><surname>Sun</surname><given-names>Z</given-names></name>, <name><surname>Liu</surname><given-names>X</given-names></name>, <name><surname>Jin</surname><given-names>Q</given-names></name>, <name><surname>He</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Cleavage of the adaptor protein TRIF by enterovirus 71 3C inhibits antiviral responses mediated by Toll-like receptor 3</article-title>. <source>J Virol</source>
+<volume>85</volume>: <fpage>8811</fpage>â<lpage>8818</lpage>.<pub-id pub-id-type="pmid">21697485</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Lei2">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lei</surname><given-names>X</given-names></name>, <name><surname>Liu</surname><given-names>X</given-names></name>, <name><surname>Ma</surname><given-names>Y</given-names></name>, <name><surname>Sun</surname><given-names>Z</given-names></name>, <name><surname>Yang</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The 3C protein of enterovirus 71 inhibits retinoid acid-inducible gene I-mediated interferon regulatory factor 3 activation and type I interferon responses</article-title>. <source>J Virol</source>
+<volume>84</volume>: <fpage>8051</fpage>â<lpage>8061</lpage>.<pub-id pub-id-type="pmid">20519382</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Rebsamen1">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rebsamen</surname><given-names>M</given-names></name>, <name><surname>Meylan</surname><given-names>E</given-names></name>, <name><surname>Curran</surname><given-names>J</given-names></name>, <name><surname>Tschopp</surname><given-names>J</given-names></name> (<year>2008</year>) <article-title>The antiviral adaptor proteins Cardif and Trif are processed and inactivated by caspases</article-title>. <source>Cell Death Differ</source>
+<volume>15</volume>: <fpage>1804</fpage>â<lpage>1811</lpage>.<pub-id pub-id-type="pmid">18756281</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Liu1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Liu</surname><given-names>X</given-names></name>, <name><surname>Lei</surname><given-names>X</given-names></name>, <name><surname>Zhou</surname><given-names>Z</given-names></name>, <name><surname>Sun</surname><given-names>Z</given-names></name>, <name><surname>Xue</surname><given-names>Q</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>Enterovirus 71 induces degradation of TRIM38, a potential E3 ubiquitin ligase</article-title>. <source>Virol J</source>
+<volume>8</volume>: <fpage>61</fpage>.<pub-id pub-id-type="pmid">21306652</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Thrower1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Thrower</surname><given-names>JS</given-names></name>, <name><surname>Hoffman</surname><given-names>L</given-names></name>, <name><surname>Rechsteiner</surname><given-names>M</given-names></name>, <name><surname>Pickart</surname><given-names>CM</given-names></name> (<year>2000</year>) <article-title>Recognition of the polyubiquitin proteolytic signal</article-title>. <source>EMBO J</source>
+<volume>19</volume>: <fpage>94</fpage>â<lpage>102</lpage>.<pub-id pub-id-type="pmid">10619848</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-GonzalezNavajas1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gonzalez-Navajas</surname><given-names>JM</given-names></name>, <name><surname>Lee</surname><given-names>J</given-names></name>, <name><surname>David</surname><given-names>M</given-names></name>, <name><surname>Raz</surname><given-names>E</given-names></name> (<year>2012</year>) <article-title>Immunomodulatory functions of type I interferons</article-title>. <source>Nat Rev Immunol</source>
+<volume>12</volume>: <fpage>125</fpage>â<lpage>135</lpage>.<pub-id pub-id-type="pmid">22222875</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Gack1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gack</surname><given-names>MU</given-names></name>, <name><surname>Shin</surname><given-names>YC</given-names></name>, <name><surname>Joo</surname><given-names>CH</given-names></name>, <name><surname>Urano</surname><given-names>T</given-names></name>, <name><surname>Liang</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>TRIM25 RING-finger E3 ubiquitin ligase is essential for RIG-I-mediated antiviral activity</article-title>. <source>Nature</source>
+<volume>446</volume>: <fpage>916</fpage>â<lpage>920</lpage>.<pub-id pub-id-type="pmid">17392790</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Higgs1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Higgs</surname><given-names>R</given-names></name>, <name><surname>Ni Gabhann</surname><given-names>J</given-names></name>, <name><surname>Ben Larbi</surname><given-names>N</given-names></name>, <name><surname>Breen</surname><given-names>EP</given-names></name>, <name><surname>Fitzgerald</surname><given-names>KA</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>The E3 ubiquitin ligase Ro52 negatively regulates IFN-beta production post-pathogen recognition by polyubiquitin-mediated degradation of IRF3</article-title>. <source>J Immunol</source>
+<volume>181</volume>: <fpage>1780</fpage>â<lpage>1786</lpage>.<pub-id pub-id-type="pmid">18641315</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Higgs2">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Higgs</surname><given-names>R</given-names></name>, <name><surname>Lazzari</surname><given-names>E</given-names></name>, <name><surname>Wynne</surname><given-names>C</given-names></name>, <name><surname>Ni Gabhann</surname><given-names>J</given-names></name>, <name><surname>Espinosa</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>Self protection from anti-viral responsesâRo52 promotes degradation of the transcription factor IRF7 downstream of the viral Toll-Like receptors</article-title>. <source>PLoS One</source>
+<volume>5</volume>: <fpage>e11776</fpage>.<pub-id pub-id-type="pmid">20668674</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Zha1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zha</surname><given-names>J</given-names></name>, <name><surname>Han</surname><given-names>KJ</given-names></name>, <name><surname>Xu</surname><given-names>LG</given-names></name>, <name><surname>He</surname><given-names>W</given-names></name>, <name><surname>Zhou</surname><given-names>Q</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The Ret finger protein inhibits signaling mediated by the noncanonical and canonical IkappaB kinase family members</article-title>. <source>J Immunol</source>
+<volume>176</volume>: <fpage>1072</fpage>â<lpage>1080</lpage>.<pub-id pub-id-type="pmid">16393995</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Tsuchida1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tsuchida</surname><given-names>T</given-names></name>, <name><surname>Zou</surname><given-names>J</given-names></name>, <name><surname>Saitoh</surname><given-names>T</given-names></name>, <name><surname>Kumar</surname><given-names>H</given-names></name>, <name><surname>Abe</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>The ubiquitin ligase TRIM56 regulates innate immune responses to intracellular double-stranded DNA</article-title>. <source>Immunity</source>
+<volume>33</volume>: <fpage>765</fpage>â<lpage>776</lpage>.<pub-id pub-id-type="pmid">21074459</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Seya1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Seya</surname><given-names>T</given-names></name>, <name><surname>Matsumoto</surname><given-names>M</given-names></name>, <name><surname>Ebihara</surname><given-names>T</given-names></name>, <name><surname>Oshiumi</surname><given-names>H</given-names></name> (<year>2009</year>) <article-title>Functional evolution of the TICAM-1 pathway for extrinsic RNA sensing</article-title>. <source>Immunol Rev</source>
+<volume>227</volume>: <fpage>44</fpage>â<lpage>53</lpage>.<pub-id pub-id-type="pmid">19120474</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Li1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Li</surname><given-names>K</given-names></name>, <name><surname>Foy</surname><given-names>E</given-names></name>, <name><surname>Ferreon</surname><given-names>JC</given-names></name>, <name><surname>Nakamura</surname><given-names>M</given-names></name>, <name><surname>Ferreon</surname><given-names>AC</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Immune evasion by hepatitis C virus NS3/4A protease-mediated cleavage of the Toll-like receptor 3 adaptor protein TRIF</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>102</volume>: <fpage>2992</fpage>â<lpage>2997</lpage>.<pub-id pub-id-type="pmid">15710891</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Mukherjee1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Mukherjee</surname><given-names>A</given-names></name>, <name><surname>Morosky</surname><given-names>SA</given-names></name>, <name><surname>Delorme-Axford</surname><given-names>E</given-names></name>, <name><surname>Dybdahl-Sissoko</surname><given-names>N</given-names></name>, <name><surname>Oberste</surname><given-names>MS</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>The coxsackievirus B 3C protease cleaves MAVS and TRIF to attenuate host type I interferon and apoptotic signaling</article-title>. <source>PLoS Pathog</source>
+<volume>7</volume>: <fpage>e1001311</fpage>.<pub-id pub-id-type="pmid">21436888</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Carty1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Carty</surname><given-names>M</given-names></name>, <name><surname>Goodbody</surname><given-names>R</given-names></name>, <name><surname>Schroder</surname><given-names>M</given-names></name>, <name><surname>Stack</surname><given-names>J</given-names></name>, <name><surname>Moynagh</surname><given-names>PN</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>The human adaptor SARM negatively regulates adaptor protein TRIF-dependent Toll-like receptor signaling</article-title>. <source>Nat Immunol</source>
+<volume>7</volume>: <fpage>1074</fpage>â<lpage>1081</lpage>.<pub-id pub-id-type="pmid">16964262</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Stremlau1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stremlau</surname><given-names>M</given-names></name>, <name><surname>Perron</surname><given-names>M</given-names></name>, <name><surname>Lee</surname><given-names>M</given-names></name>, <name><surname>Li</surname><given-names>Y</given-names></name>, <name><surname>Song</surname><given-names>B</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Specific recognition and accelerated uncoating of retroviral capsids by the TRIM5alpha restriction factor</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>: <fpage>5514</fpage>â<lpage>5519</lpage>.<pub-id pub-id-type="pmid">16540544</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Zhao2">
+        <label>49</label>
+        <mixed-citation publication-type="other">Zhao W, Wang L, Zhang M, Wang P, Yuan C, <etal>et al</etal>. (2012) Tripartite Motif-Containing Protein 38 Negatively Regulates TLR3/4- and RIG-I-Mediated IFN-beta Production and Antiviral Response by Targeting NAP1. J Immunol 188.</mixed-citation>
+      </ref>
+      <ref id="pone.0046825-Sasai1">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sasai</surname><given-names>M</given-names></name>, <name><surname>Oshiumi</surname><given-names>H</given-names></name>, <name><surname>Matsumoto</surname><given-names>M</given-names></name>, <name><surname>Inoue</surname><given-names>N</given-names></name>, <name><surname>Fujita</surname><given-names>F</given-names></name>, <etal>et al</etal> (<year>2005</year>) <article-title>Cutting Edge: NF-kappaB-activating kinase-associated protein 1 participates in TLR3/Toll-IL-1 homology domain-containing adapter molecule-1-mediated IFN regulatory factor 3 activation</article-title>. <source>J Immunol</source>
+<volume>174</volume>: <fpage>27</fpage>â<lpage>30</lpage>.<pub-id pub-id-type="pmid">15611223</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

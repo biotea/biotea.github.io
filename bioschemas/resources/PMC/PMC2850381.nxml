@@ -1,0 +1,1721 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:36:48Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2850381" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2850381</identifier><datestamp>2010-04-12</datestamp><setSpec>plosbiol</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Biol</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosbiol</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1544-9173</issn>
+      <issn pub-type="epub">1545-7885</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2850381</article-id>
+      <article-id pub-id-type="pmcid">PMC2850381</article-id>
+      <article-id pub-id-type="pmc-uid">2850381</article-id>
+      <article-id pub-id-type="pmid">20386726</article-id>
+      <article-id pub-id-type="pmid">20386726</article-id>
+      <article-id pub-id-type="publisher-id">09-PLBI-RA-3906R2</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pbio.1000350</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Cell Biology</subject>
+          <subject>Cell Biology/Cell Growth and Division</subject>
+          <subject>Cell Biology/Cytoskeleton</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Bicaudal D2, Dynein, and Kinesin-1 Associate with Nuclear Pore Complexes and Regulate Centrosome and Nuclear Positioning during Mitotic Entry</article-title>
+        <alt-title alt-title-type="running-head">BICD2 Targets Dynein to Nuclear Pores</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Splinter</surname>
+            <given-names>DaniÃ«l</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Tanenbaum</surname>
+            <given-names>Marvin E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lindqvist</surname>
+            <given-names>Arne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jaarsma</surname>
+            <given-names>Dick</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Flotho</surname>
+            <given-names>Annette</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Yu</surname>
+            <given-names>Ka Lou</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Grigoriev</surname>
+            <given-names>Ilya</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Engelsma</surname>
+            <given-names>Dieuwke</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Haasdijk</surname>
+            <given-names>Elize D.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Keijzer</surname>
+            <given-names>Nanda</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Demmers</surname>
+            <given-names>Jeroen</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fornerod</surname>
+            <given-names>Maarten</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Melchior</surname>
+            <given-names>Frauke</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hoogenraad</surname>
+            <given-names>Casper C.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Medema</surname>
+            <given-names>RenÃ© H.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Akhmanova</surname>
+            <given-names>Anna</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+        <label>1</label>
+        <addr-line>Department of Cell Biology, Erasmus Medical Center, Rotterdam, The Netherlands</addr-line>
+      </aff>
+      <aff id="aff2">
+        <label>2</label>
+        <addr-line>Department of Medical Oncology and Cancer Genomics Center, University Medical Center, Utrecht, The Netherlands</addr-line>
+      </aff>
+      <aff id="aff3">
+        <label>3</label>
+        <addr-line>Department of Neuroscience, Erasmus Medical Center, Rotterdam, The Netherlands</addr-line>
+      </aff>
+      <aff id="aff4">
+        <label>4</label>
+        <addr-line>Center for Molecular Biology Heidelberg (ZMBH), Heidelberg, Germany</addr-line>
+      </aff>
+      <aff id="aff5">
+        <label>5</label>
+        <addr-line>Division of Gene Regulation, The Netherlands Cancer Institute, Amsterdam, The Netherlands</addr-line>
+      </aff>
+      <aff id="aff6">
+        <label>6</label>
+        <addr-line>Proteomics Center, Erasmus Medical Center, Rotterdam, The Netherlands</addr-line>
+      </aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Pellman</surname>
+            <given-names>David</given-names>
+          </name>
+          <role>Academic Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Dana-Farber Cancer Institute, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>R.H.Medema@umcutrecht.nl</email> (RHM); <email>a.akhmanova@erasmusmc.nl</email> (AA)</corresp>
+        <fn fn-type="con">
+          <p>The author(s) have made the following declarations about their contributions: Conceived and designed the experiments: DS MET AL DJ AF IG FM CCH RHM AA. Performed the experiments: DS MET AL DJ AF KLY IG EDH NK JD AA. Analyzed the data: DS MET AL DJ AF IG JD FM CCH RHM AA. Contributed reagents/materials/analysis tools: MET DE MF CCH RHM AA. Wrote the paper: DS MET RHM AA.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>4</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>4</month>
+        <year>2010</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>6</day>
+        <month>4</month>
+        <year>2010</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+      <volume>8</volume>
+      <issue>4</issue>
+      <elocation-id>e1000350</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>7</day>
+          <month>9</month>
+          <year>2009</year>
+        </date>
+        <date date-type="accepted">
+          <day>1</day>
+          <month>3</month>
+          <year>2010</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Splinter et al.</copyright-statement>
+        <copyright-year>2010</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract abstract-type="toc">
+        <p>Mammalian Bicaudal D2 is the missing molecular link between cytoplasmic motor proteins and the nucleus during nuclear positioning prior to the onset of mitosis.</p>
+      </abstract>
+      <abstract>
+        <p>BICD2 is one of the two mammalian homologues of the <italic>Drosophila</italic> Bicaudal D, an evolutionarily conserved adaptor between microtubule motors and their cargo that was previously shown to link vesicles and mRNP complexes to the dynein motor. Here, we identified a G2-specific role for BICD2 in the relative positioning of the nucleus and centrosomes in dividing cells. By combining mass spectrometry, biochemical and cell biological approaches, we show that the nuclear pore complex (NPC) component RanBP2 directly binds to BICD2 and recruits it to NPCs specifically in G2 phase of the cell cycle. BICD2, in turn, recruits dynein-dynactin to NPCs and as such is needed to keep centrosomes closely tethered to the nucleus prior to mitotic entry. When dynein function is suppressed by RNA interference-mediated depletion or antibody microinjection, centrosomes and nuclei are actively pushed apart in late G2 and we show that this is due to the action of kinesin-1. Surprisingly, depletion of BICD2 inhibits both dynein and kinesin-1-dependent movements of the nucleus and cytoplasmic NPCs, demonstrating that BICD2 is needed not only for the dynein function at the nuclear pores but also for the antagonistic activity of kinesin-1. Our study demonstrates that the nucleus is subject to opposing activities of dynein and kinesin-1 motors and that BICD2 contributes to nuclear and centrosomal positioning prior to mitotic entry through regulation of both dynein and kinesin-1.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>Bidirectional microtubule-based transport is responsible for the positioning of a large variety of cellular organelles, but the molecular mechanisms underlying the recruitment of microtubule-based motors to their cargoes and their activation remain poorly understood. In particular, the molecular players involved in the important processes of nuclear and centrosomal positioning prior to the onset of cell division are not known. In this study we focus on the function of one of the mammalian homologues of <italic>Drosophila</italic> Bicaudal D, an adaptor for the microtubule minus-end-directed dynein-dynactin motor complex. Previously, <italic>Drosophila</italic> Bicaudal D and its mammalian homologues were shown to act as linkers between the dynein motor and mRNP complexes or secretory vesicles. Here, we identify a new cargo for mammalian Bicaudal D2 (BICD2)âthe nucleus. We show that BICD2 specifically binds to nuclear pore complexes in cells in G2 phase of the cell division cycle. We also show that this interaction is required for G2-specific recruitment of dynein to the nuclear envelope and thus for proper positioning of the nucleus relative to centrosomes prior to the onset of mitosis. Further, our findings demonstrate that the motor protein kinesin-1 opposes dynein's activity during this process and requires BICD2 for its activity. Our study therefore reveals BICD2 as the critical molecular adaptor that allows molecular motors to regulate nuclear and centrosomal positioning before cell division.</p>
+      </abstract>
+      <counts>
+        <page-count count="20"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Spatial organization of eukaryotic cells requires active transport of proteins, macromolecular assemblies, and membrane organelles along cytoskeletal fibers. Transport is driven by motor proteins, which use actin and microtubules (MTs) as tracks for their movement. Cytoskeletal elements are polarized structures, and each particular motor can move along them only in one direction. For example, MT-based motors include kinesins, which with a few exceptions walk to MT plus ends, and dyneins, which drive minus end-directed transport <xref rid="pbio.1000350-Vale1" ref-type="bibr">[1]</xref>.</p>
+      <p>Motor-dependent transport machineries display a high degree of complexity. First, the same motor can move multiple cargos. For example, cytoplasmic dynein is responsible for the movement of the majority of membrane organelles, mRNAs, and proteins to MT minus ends <xref rid="pbio.1000350-Vale1" ref-type="bibr">[1]</xref>,<xref rid="pbio.1000350-Karki1" ref-type="bibr">[2]</xref>. Second, the same cargo can simultaneously associate with multiple motors of opposite polarity and frequently switch the direction of movement <xref rid="pbio.1000350-Gross1" ref-type="bibr">[3]</xref>,<xref rid="pbio.1000350-Welte1" ref-type="bibr">[4]</xref>. Molecular mechanisms responsible for motor recruitment, activation, and switching of directions are still poorly understood. Motors are likely to be controlled by cargo-specific adaptor complexes, which often include structural components and small GTPases <xref rid="pbio.1000350-Jordens1" ref-type="bibr">[5]</xref>,<xref rid="pbio.1000350-Karcher1" ref-type="bibr">[6]</xref>.</p>
+      <p>An example of a well-studied motor adaptor is Bicaudal D (BICD), which is conserved throughout the animal kingdom <xref rid="pbio.1000350-Claussen1" ref-type="bibr">[7]</xref>. BICD consists of several coiled coil segments separated by regions expected to be highly flexible. The N-terminal part of BICD binds to cytoplasmic dynein and its accessory factor dynactin; moreover, the BICD N-terminus is sufficient to recruit these complexes to organelles <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>,<xref rid="pbio.1000350-Hoogenraad2" ref-type="bibr">[9]</xref>. The C-terminal domain of BICD is the cargo-binding part of the molecule. In mammals and flies, it directly associates with the small GTPase Rab6 <xref rid="pbio.1000350-Short1" ref-type="bibr">[10]</xref>â<xref rid="pbio.1000350-Januschke1" ref-type="bibr">[12]</xref>. In mammalian cells, BICD participates in recruitment of dynein/dynactin to Rab6-positive exocytotic vesicles and promotes their MT minus end-directed transport <xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>,<xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>. The middle portion of BICD weakly binds to kinesin-1 <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>. The functional role of this link is not yet clear, but it is noteworthy that BICD-bound Rab6 vesicles move mostly towards the MT plus ends, suggesting that kinesin motor activity on Rab6 vesicles predominates over dynein-dependent transport <xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>,<xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>. In <italic>Drosophila</italic>, BicD participates in dynein-dependent mRNP transport <xref rid="pbio.1000350-Bullock1" ref-type="bibr">[14]</xref>,<xref rid="pbio.1000350-Bullock2" ref-type="bibr">[15]</xref>. This function depends on the association of BicD C terminus with the RNA-binding protein Egalitarian <xref rid="pbio.1000350-Bullock2" ref-type="bibr">[15]</xref>â<xref rid="pbio.1000350-Dienstbier1" ref-type="bibr">[17]</xref>. BicD is also involved in both dynein and kinesin-1-dependent movement of lipid droplets in fly embryos <xref rid="pbio.1000350-Larsen1" ref-type="bibr">[18]</xref>.</p>
+      <p>To investigate whether mammalian BICD is involved in other transport routes in addition to Rab6 vesicle trafficking, we searched for partners of the cargo-binding domain of BICD2, one of the two mammalian homologues of the fly BicD <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>. We identified a component of the nuclear pore complex (NPC), RanBP2 <xref rid="pbio.1000350-Wu1" ref-type="bibr">[19]</xref>,<xref rid="pbio.1000350-Yokoyama1" ref-type="bibr">[20]</xref>, as the major interacting partner of BICD2 C terminus. RanBP2 (also known as NUP358) is a large protein, which acts as docking factor in nucleocytoplasmic transport <xref rid="pbio.1000350-Gorlich1" ref-type="bibr">[21]</xref> and is an E3 ligase for posttranslational modification with the ubiquitin-like protein SUMO1 <xref rid="pbio.1000350-Pichler1" ref-type="bibr">[22]</xref>. RanBP2 exists in a tight complex with the sumoylated form of RanGAP1, the Ran GTPase-activation protein, and targets it to the NPCs <xref rid="pbio.1000350-Matunis1" ref-type="bibr">[23]</xref>,<xref rid="pbio.1000350-Mahajan1" ref-type="bibr">[24]</xref>. RanBP2 forms extended fibers at the cytoplasmic side of the NPC and represents a good candidate for a link between the cytoskeleton and the nuclear envelope (NE).</p>
+      <p>Previous studies showed that cytoplasmic dynein is specifically recruited to the NE in late G2/mitotic prophase, where it participates in NE breakdown (NEB) during mitotic entry (<xref rid="pbio.1000350-Busson1" ref-type="bibr">[25]</xref>,<xref rid="pbio.1000350-Salina1" ref-type="bibr">[26]</xref>; for review see <xref rid="pbio.1000350-Hetzer1" ref-type="bibr">[27]</xref>,<xref rid="pbio.1000350-Rosenblatt1" ref-type="bibr">[28]</xref>). Furthermore, NE-bound dynein is thought to pull centrosomes towards the NE, through its minus-end-directed motility, thereby contributing to proper attachment of centrosomes to the NE <xref rid="pbio.1000350-Robinson1" ref-type="bibr">[29]</xref>,<xref rid="pbio.1000350-Gonczy1" ref-type="bibr">[30]</xref>. In yeast, a dynein light chain is a nucleoporin, but it likely acts at the NPC independently of the dynein motor <xref rid="pbio.1000350-Stelter1" ref-type="bibr">[31]</xref>. In <italic>C. elegans</italic>, dynein is anchored to the NE by the nuclear membrane component SUN-1 and a hook protein ZYG-12 <xref rid="pbio.1000350-Malone1" ref-type="bibr">[32]</xref>. Also in mammals, SUN1/2 and Syne/Nesprin-1/2 complexes, together with associated MT motors, are important to maintain the connection between the centrosome and nucleus during neuronal migration <xref rid="pbio.1000350-Zhang1" ref-type="bibr">[33]</xref>. However, the molecular mechanism of G2-specific dynein interaction with the NE in dividing mammalian cells has not yet been clarified.</p>
+      <p>Here, we show that BICD2 specifically associates with the NPCs through RanBP2 in the G2 phase of the cell cycle and participates in the recruitment of the dynein/dynactin complexes to these structures. In addition, BICD2 associates with kinesin-1 <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref> and we show that while dynein pulls centrosomes and the nucleus together during mitotic entry, kinesin-1 pushes them apart. During late G2, cytoplasmic dynein activity predominates over kinesin-1 activity, and the centrosomes remain tightly associated with the NE. Furthermore, we show that BICD2 not only acts to recruit dynein to the NE but is also required for the oppositely directed kinesin-1 activity, explaining why loss of BICD2 results only in a mild defect in centrosome-nuclear attachment. These results suggest that similar to most other MT motor cargos in animal cells, the prophase cell nucleus is transported bi-directionally by a molecular complex combining MT motors of opposite polarity.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>RanBP2 Directly Binds to BICD2 C Terminus</title>
+        <p>Our previous studies showed that the individual coiled coil segments of BICD2 display strong association with their binding partners, while the full-length molecule binds to the same proteins less efficiently, suggesting that it may be autoinhibited <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>,<xref rid="pbio.1000350-Hoogenraad2" ref-type="bibr">[9]</xref>,<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>. Therefore, we used the C-terminal coiled coil segment of BICD2 (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1A</xref>) as a bait to search for new BICD2 cargos. We linked this BICD2 fragment to GFP and a biotinylation tag (Bio), a short peptide sequence that can be modified by the addition of biotin when expressed together with the biotin ligase BirA <xref rid="pbio.1000350-deBoer1" ref-type="bibr">[34]</xref>. The resulting Bio-GFP-BICD2-CT fusion was transiently expressed together with BirA in HeLa cells, which were used for pull-down assays with streptavidin beads (<xref ref-type="supplementary-material" rid="pbio.1000350.s001">Figure S1</xref>). The resulting protein complexes were analyzed by mass spectrometry (<xref ref-type="supplementary-material" rid="pbio.1000350.s015">Table S1</xref>). The most abundant newly identified potential BICD2 partner was the NPC component RanBP2. RanGAP1, the sumoylated form of which is known to form a tight complex with RanBP2 <xref rid="pbio.1000350-Matunis1" ref-type="bibr">[23]</xref>,<xref rid="pbio.1000350-Mahajan1" ref-type="bibr">[24]</xref>, was also present among the isolated proteins in highly significant amounts (<xref ref-type="supplementary-material" rid="pbio.1000350.s015">Table S1</xref>).</p>
+        <fig id="pbio-1000350-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>BICD2 interacts directly with RanBP2.</title>
+            <p>(A) Schematic representation of the domains of RanBP2 and BICD2 and their fragments used for binding studies. (B) Co-IP of endogenous BICD2 and RanBP2 from HeLa cells. IPs were performed with antibodies against BICD2 or the control IgG and analyzed by Western blotting with the indicated antibodies. 2.5% of the input was loaded on gel. RanBP2, but not the negative control, GM130, is co-precipitated with BICD2. (C) Co-IP of endogenous RanBP2 and BICD2 from nocodazole-arrested HeLa cells. IPs were performed with antibodies against RanBP2 or the control IgG and analyzed by Western blotting with the indicated antibodies. 3% of the input was loaded on gel. BICD2 is co-precipitated with RanBP2, while its close homologue BICD1 and another dynactin-binding protein, CLIP-170, are not. (D) Co-IPs from HEK293 cells co-transfected with CFP-tagged RanBP2 fragments or GFP-RanGAP1 and mCherry-fused BICD2-CT. IPs were performed using mouse anti-GFP antibodies and analyzed by Western blotting using rabbit anti-GFP or anti-BICD2 antibodies. BICD2-CT and the IgG bands are indicated by an arrowhead and an arrow. BICD2-CT is coprecipitated with RanBP2 fragment 3, but not with other RanBP2 fragments or RanGAP1. (E) HIS-tagged BICD2-CT, GST, and GST fusions of RanBP2 fragments 3 and 4 were purified from <italic>E. coli</italic> and analyzed by SDS-polyacrilamide gel electrophoresis and Coomassie staining. (F) GST pull-down assays with the indicated RanBP2 fusions and purified HIS-tagged BICD2-CT, which was detected by Western blotting with anti-HIS tag antibodies. 10% of the input and the bound fractions were loaded on gel. Using 0.8 ÂµM BICD2-CT and 1.4 ÂµM GST-RanBP2 fragment 3, an almost quantitative binding was observed. This experiment confirms a direct interaction between RanBP2 fragment 3 and BICD2-CT. (G) Yeast two-hybrid analysis. BICD2 fragments were linked to GAL4 activation domain and tested in a pairwise fashion for interaction with RanBP2, GTP-bound Rab6A (Q72R), kinesin-1 (KIF5A), and kinesin-4 (KIF21B) tail regions cloned into LexA fusion vector. Interaction strength was scored according to the time needed for Î²-galactosidase reporter to generate visible blue-colored yeast colonies on X-Gal containing filters: +++0â30 min, ++30â60 min, +60â180 min and - no Î²-galactosidase activity. Similar to the previously characterized BICD2 partner Rab6, RanBP2 fragment 3 (2147â2287) specifically interacts with BICD2-CT, but not with other parts of BICD2. (H) HeLa cells were co-transfected with the indicated plasma membrane targeted CFP-RanBP2 fusions and HA-tagged BICD2-CT, fixed with paraformaldehyde, and stained with anti-HA antibodies. CFP fluorescence was visualized directly. CFP-tagged palmitoylated RanBP2 fragments are present on the plasma membrane (upper panels), while BICD2-CT (upper panels) localizes to the Golgi and cytoplasmic vesicles (middle panels). RanBP2 fragment 3, but not the other RanBP2 fragments, recruits BICD2-CT to the plasma membrane (see overlay in the bottom panels).</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g001"/>
+        </fig>
+        <p>The results of the pull-down assay were confirmed by co-immunoprecipitation (co-IP) of endogenous RanBP2 with endogenous BICD2; an abundant Golgi-associated protein GM130 served as a negative control (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1B</xref>). Further, we observed co-IP of endogenous BICD2 with RanBP2 from nocodazole-arrested HeLa cells, but neither BICD1 nor CLIP-170, another cytosolic protein known to interact with dynactin <xref rid="pbio.1000350-Lansbergen1" ref-type="bibr">[35]</xref>, were coprecipitated with RanBP2 in these conditions (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1C</xref>). Next, we investigated which domain of RanBP2 associated with BICD2. RanBP2 is a protein of â¼350 kDa, which contains a leucine-rich region, four Ran-binding domains, eight zinc finger motifs, and a C-terminal cyclophilin A-homologous region (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1A</xref>). We generated expression constructs of five RanBP2 fragments, which covered most of the RanBP2 sequence, as fusions to CFP and the plasma membrane-targeting palmitoylation motif of GAP-43 (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1A</xref>). With the exception of the N-terminal fragment 1, these fusions were expressed well in mammalian cells. Using co-IP from HEK293 cells, we found that the C-terminal domain of BICD2 specifically interacted with RanBP2 fragment 3 (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1D</xref>). This experiment also showed that BICD2-CT does not interact with the overexpressed GFP-tagged RanGAP1 (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1D</xref>), indicating that coprecipitation of RanBP2-RanGAP1 complex with BICD2-CT, observed by mass spectrometry, is due to BICD2 interaction with RanBP2. The interaction between BICD2 and RanBP2 is direct, since BICD2-CT and RanBP2 segment 3, purified from bacteria, specifically bind to each other in a glutathione S-transferase (GST) pull-down assay (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1E,F</xref>). Remarkably, the same RanBP2 fragment was previously shown to interact directly with kinesin-1 isoforms KIF5B and KIF5C <xref rid="pbio.1000350-Cai1" ref-type="bibr">[36]</xref>â<xref rid="pbio.1000350-Cho2" ref-type="bibr">[38]</xref>, supporting the notion that it is involved in MT motor recruitment.</p>
+        <p>Next, we employed a yeast two-hybrid assay, which showed that RanBP2 fragment 3 binds exclusively to the C-terminal part of BICD2 and not to its N-terminal and middle segments (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1G</xref>). This is similar to the previously described interaction between BICD2 and Rab6 <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>,<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref> and is in contrast to kinesin-1 KIF5A, which associates with the middle portion of BICD2 (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1G</xref>) <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>.</p>
+        <p>Finally, we tested if fragment 3 of RanBP2 was sufficient to recruit BICD2 C terminus to ectopic sites within the cell. For this, RanBP2 fragments were artificially targeted to the plasma membrane through addition of a palmitoylation motif, as described above. The palmitoylation motif fusions of RanBP2 fragments displayed a strong association with the plasma membrane, including filopodia, and also with the Golgi complex (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1H</xref>), but as expected, did not target to the NE. BICD2-CT expressed in mammalian cells associates with the Golgi and cytoplasmic vesicles, but not with the plasma membrane <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>,<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>. Interestingly, BICD2-CT was specifically recruited to the plasma membrane by RanBP2 fragment 3 but not by other RanBP2 fragments (<xref ref-type="fig" rid="pbio-1000350-g001">Figure 1H</xref>), suggesting that this domain of RanBP2 can serve as a recruitment factor for BICD2.</p>
+      </sec>
+      <sec id="s2b">
+        <title>RanBP2 Recruits BICD2 to NPCs during G2</title>
+        <p>We next investigated whether endogenous BICD2 and RanBP2 co-localize in HeLa cells and found that BICD2 specifically associates with the NE in a subset of cells, where it largely overlaps with the RanBP2 staining (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2A</xref>). This localization pattern was visible not only in cells subjected to fixations with paraformaldehyde or a combination of cold methanol with paraformaldehyde (which are optimal for preservation of the Golgi- and vesicle-bound fraction of BICD2) but also after fixation with cold methanol alone, which did not preserve the Golgi-bound or the cytoplasmic pool of the protein (see below); it was further enhanced by treating cells with the MT-destabilizing drug nocodazole (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2BâD</xref>). We hypothesized that the absence of BICD2 staining at the NE in a subset of cells was caused by cell cycle regulation. Indeed, all cells that showed BICD2 accumulation at the NE were positive for cyclin B1, which is expressed exclusively in G2 and mitosis, and â¼75% cyclin B1-positive cells showed BICD2 localization at the NE, indicating that BICD2 associates with the NE in the G2 phase (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2AâD</xref>). G2-specific recruitment to the NE was also observed in another human cell line, U2OS cells (<xref ref-type="supplementary-material" rid="pbio.1000350.s002">Figure S2A</xref>,B).</p>
+        <fig id="pbio-1000350-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>BICD2 associates with the NE and AL in G2 phase in a RanBP2-dependent manner.</title>
+            <p>(A) HeLa cells were transfected with a control siRNA, fixed with cold methanol followed by paraformaldehyde 3 d later, and stained for endogenous BICD2, RanBP2, and cyclin B1. Note that in the cyclin B1-positive cell, BICD2 and RanBP2 co-localize at the NE and at a perinuclear spot that is an accumulation of AL. (B) HeLa cells were treated with 10 ÂµM nocodazole for 1 h and stained as described for (A). Note that BICD2 strongly stains the NE and cytoplasmic NPC-positive dots (AL) in the cyclin B1-positive but not the cyclin B1 negative cells. (C) HeLa cells that were either treated with 10 ÂµM nocodazole or transfected with control siRNAs or a mixture of RanBP2 siRNAs #1 and #2 were stained as described for (A), and the percentage of cyclin B1-positive cells showing BICD2 accumulation at the NE was counted. In case of RanBP2 knockdown, only the cells in which RanBP2-specific nuclear staining was reduced to background levels were included in the quantification. Error bars represent SD; the number of experiments for each condition is shown in parentheses below the graph; â¼40â100 cells were counted per experiment. (D) Fluorescence intensity ratio between NE and the adjacent cytoplasm in cyclin B1 positive and negative cells (â¼50 cells per measurement); cells were either untreated or treated with 10 ÂµM nocodazole for 1 h. Measurements were performed in a region of 0.3 by 30 Âµm at the border between cytoplasm and the nucleus (NE) and in a directly adjacent region (cytoplasm). Error bars represent SEM. (E) HeLa cells were transfected with a mixture of RanBP2 siRNAs #1 and #2, fixed, and stained as described for (A). Note that the two cyclin B1-positive cells that have strongly reduced RanBP2 levels show no accumulation of BICD2 at the NE.</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g002"/>
+        </fig>
+        <p>In addition to the NE, endogenous BICD2 also co-localized with RanBP2 in puncta in the cytoplasm (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2A,B</xref>). Comparison with previous studies suggested that these puncta are cytoplasmic stacks of NPCs known as annulate lamellae (AL) <xref rid="pbio.1000350-Kessel1" ref-type="bibr">[39]</xref>. Indeed, these puncta were stained by 4 additional markers for NPCs: RanGAP1; the monoclonal antibody 414 (MAB414) that reacts with several nucleoporins <xref rid="pbio.1000350-Davis1" ref-type="bibr">[40]</xref>; an antibody against NUP214, an NPC component that binds to the cytoplasmic side of the nuclear pores independently of RanBP2 <xref rid="pbio.1000350-Hutten1" ref-type="bibr">[41]</xref>, and YFP-tagged POM121, a transmembrane NPC component that is also present in AL (<xref ref-type="supplementary-material" rid="pbio.1000350.s003">Figure S3</xref>) <xref rid="pbio.1000350-Imreh1" ref-type="bibr">[42]</xref>. In line with the recruitment of BICD2 to NPCs in the NE in G2 cells, we observed the association of BICD2 with the AL in cyclin B1-positive but not in cyclin B1-negative cells (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2A,B</xref>). These results are important as they support the view that G2-specific recruitment of BICD2 to the NE is due to its interaction with the cytoplasmic part of the NPCs and not some other NE component.</p>
+        <p>Since we found that BICD2 directly interacts with RanBP2, we examined whether the NE localization of BICD2 was RanBP2-dependent. RanBP2 could be specifically depleted from HeLa and U2OS cells without affecting the expression of BICD2 (<xref ref-type="supplementary-material" rid="pbio.1000350.s004">Figure S4A</xref>,B). Indeed, depletion of RanBP2 blocked recruitment of BICD2 to the NE of G2 cells (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2C,E</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s002">Figure S2A</xref>,B).</p>
+        <p>Based on the <xref ref-type="sec" rid="s2">results</xref> described above, BICD2 is expected to specifically associate with individual NPCs on the NE. Indeed, both full-length BICD2 and GFP-tagged BICD2-CT co-localized with individual NPCs on the NE in cells that were pre-extracted with a Triton X-100-containing buffer to reduce the cytoplasmic pool of the GFP-BICD2 fusions (<xref ref-type="supplementary-material" rid="pbio.1000350.s005">Figure S5</xref>). Similarly, colocalization of endogenous BICD2 with individual NPCs was also observed in methanol-fixed cells, in which cytosolic BICD2 signal has been removed (<xref ref-type="fig" rid="pbio-1000350-g003">Figure 3A,B</xref>). Fluorescent intensity profiles showed that most of the individual NPCs in the NE (stained with MAB414) also showed a peak of BICD2 fluorescence (<xref ref-type="fig" rid="pbio-1000350-g003">Figure 3B,C</xref>). The significance of the overlap was confirmed by quantitative analysis: the coefficient of linear correlation between properly aligned MAB414 and BICD2 images was, on average, â¼0.5, while it was close to zero when one of the two images was rotated, indicating that observed colocalization between the two markers was not due to fortuitous overlap between abundant dot-like patterns (<xref ref-type="fig" rid="pbio-1000350-g003">Figure 3DâG</xref>). Taken together, our results show that BICD2 binds RanBP2 both in vitro and in vivo, localizes to NPCs (both in the NE and in AL) in G2 cells, and that this recruitment to NPCs depends on RanBP2. It is therefore likely that a direct interaction between RanBP2 and BICD2 links BICD2 to the NE in G2 cells.</p>
+        <fig id="pbio-1000350-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>BICD2 to localizes to the nuclear pores at the NE.</title>
+            <p>(A) HeLa cells were fixed with cold methanol and stained with antibodies against BICD2 and nucleoporins (MAB414). These panels show focal planes in the middle part of the nuclei. (B) Enlargements of the flattened NE surface from the same cells as in (A) (the area from which the enlarged image is taken is indicated in (A) by a white rectangle). The insets show further enlargements, in which individual NPC can be distinguished. Colors used for the overlays are indicated above the corresponding images. Note that most NPC dots display signal in both channels, indicating that BICD2 and MAB414 antigens (NPCs) co-localize. (C) Representative fluorescence intensity profile of BICD2 (green) and MAB414 staining (red) at the NE surface. The profile was obtained using Linescan function of MetaMorph at the position indicated by a blue line in (B). Vertical axes are in arbitrary units. Note that most peaks are present in both BICD2 and MAB414 channels, although their intensities often differ, in agreement with the fact that BICD2 is not a nucleoporin. (D) Correlation between BICD2 and MAB414 signals in <xref ref-type="fig" rid="pbio-1000350-g003">Figure 3B</xref>. The intensity of each pixel in the green and red channel is represented by a dot. (E,F) The same images and analysis as in (B) and (D), but with the MAB414 panel rotated by 180Â°. Note that there is no co-localization between the green and red signals and no correlation is visible in the plot. (G) Average coefficient of linear correlation between BICD2 and MAB414 signals, determined from plots such as in (B) and (D) obtained for 19 cells. Note that the coefficient is much higher for properly aligned images compared to rotated ones, indicating that co-localization is not spurious. Error bars represent SD.</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g003"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>BICD2 Recruits the Dynein-Dynactin Complex to the NE and AL during G2</title>
+        <p>Although previous studies showed that BICD2 strongly co-localizes with Rab6 on the Golgi apparatus and cytoplasmic vesicles <xref rid="pbio.1000350-Short1" ref-type="bibr">[10]</xref>,<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>, this was not the case in G2 cells where BICD2 accumulated at the NE (<xref ref-type="fig" rid="pbio-1000350-g004">Figure 4A</xref>). This conclusion was confirmed by staining nocodazole-treated cells, where the dispersion of the Golgi and nocodazole-induced enlargement of the AL permitted better distinction of protein localization in different cytoplasmic structures (<xref ref-type="fig" rid="pbio-1000350-g004">Figure 4B</xref>). In the cells where BICD2 associated with Rab6-bound membranes, it did not stain the NE or the AL. However, in the cells where BICD2 localized to the NE and AL, it displayed virtually no colocalization with Rab6 (<xref ref-type="fig" rid="pbio-1000350-g004">Figure 4B</xref>). Combined with the <xref ref-type="sec" rid="s2">results</xref> described above, these observations indicate that BICD2 switches from Rab6-bound membranes to the NPCs in G2 phase cells.</p>
+        <fig id="pbio-1000350-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>BICD2 is required for targeting dynein/dynactin to the NE and AL.</title>
+            <p>(AâD) Control HeLa cells or HeLa cells treated with 10 ÂµM nocodazole for 1 h were fixed with paraformaldehyde (AâC) or cold methanol (D) and stained for the indicated endogenous proteins. Dynactin is visualized with an antibody to p150<sup>Glued</sup> and dynein with an antibody to dynein IC. Colors used for the overlays are indicated above the corresponding images. Note that BICD2 shows two types of localization: it colocalizes either with Rab6 or with RanBP2. In cells where BICD2 associates with RanBP2-positive NE and AL, dynein and dynactin are also targeted to these structures. (E) HeLa cells were transfected with a control siRNA (upper panels) or BICD2#1 siRNA (bottom panels). Three days later, cells were treated with 10 ÂµM nocodazole for 5 h, fixed with cold methanol, and stained for endogenous RanBP2, phosphorylated histone H3, and dynein IC. NE staining by dynein antibodies is indicated by an arrow. Colors used for the overlays are indicated above the corresponding images. Note that dynein is enriched at the NE and annulate lamellae in control phospho-histone H3 positive cell, but not in BICD2-knockdown cell. (F) Percentage of HeLa cells positive for phosphorylated histone H3 that show strong accumulation of dynein IC at the RanBP2-positive NE and AL in control or BICD2-depleted cells 3 d after siRNA transfection. Only the cells with clearly visible AL were included in the quantification. Error bars represent SD; â¼25â30 cells were counted in two experiments.</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g004"/>
+        </fig>
+        <p>We next investigated whether the dynein-dynactin complex is recruited to the NE along with BICD2. In untreated HeLa cells, both dynein and dynactin show diffuse cytosolic localization as well as an accumulation at the MT plus ends and the centrosomes (unpublished data). However, in nocodazole-treated cells, colocalization of dynein and dynactin with BICD2 could be detected in specific cytoplasmic structures <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>. While in the majority of cells these structures coincided with Rab6-positive Golgi fragments, in all cells in which BICD2 co-localized with RanBP2, both dynein and dynactin co-localized with BICD2 on RanBP2-positive membranes, suggesting that the association of BICD2 with dynein and dynactin is maintained when BICD2 switches from Rab6 to RanBP2 (<xref ref-type="fig" rid="pbio-1000350-g004">Figure 4C,D</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s006">Figure S6A</xref>). Because both BICD2 and RanBP2 were shown to bind to kinesin-1, we also attempted to investigate the localization of its isoforms. Although we were able to specifically detect the predominant kinesin-1 isoform, KIF5B, in HeLa cells (as confirmed by siRNA-mediated depletion), it displayed a largely diffuse distribution, and no clear accumulation of this protein could be detected at the NE or AL with or without nocodazole treatment (unpublished data).</p>
+        <p>Since BICD2 can directly bind both the NPCs and the dynein-dynactin complex, we next investigated whether BICD2 is required to recruit dynein and dynactin to the NPCs. Because we could not stain cells simultaneously for cyclin B1 and dynactin or dynein, we used an antibody against histone H3 phosphorylated at serine 10 (phospho-H3), which becomes highly phosphorylated in late G2/prophase cells <xref rid="pbio.1000350-Hsu1" ref-type="bibr">[43]</xref>. All phospho-H3-positive cells displayed very strong recruitment of endogenous dynactin and dynein to both the NE and AL (<xref ref-type="fig" rid="pbio-1000350-g004">Figure 4E,F</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s006">Figure S6B</xref>,C). Strikingly, this recruitment was inhibited by depletion of BICD2, but not BICD1 (<xref ref-type="fig" rid="pbio-1000350-g004">Figure 4E,F</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s006">Figure S6B</xref>,C; and unpublished data), demonstrating that BICD2 is required for the association of dynein and dynactin with the NPCs in prophase cells. In contrast, BICD2 was recruited normally to the NPCs after depletion of either the dynein heavy chain (HC) or dynactin large subunit p150<sup>Glued</sup> (see below). These results suggest that BICD2 directly links the dynein/dynactin complex to the NE through its interaction with RanBP2.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Dynein and Kinesin-1 Control Relative Positioning of the Nucleus and the Centrosomes before Mitotic Entry</title>
+        <p>Since dynein associates with the NE in G2 phase, we next examined how its depletion affected the relative position of the nucleus and centrosomes during mitotic entry. Because the perinuclear MT cytoskeleton is very dense and therefore difficult to analyze in HeLa cells, we used U2OS cells, in which MT arrays are more sparse and centrosome-centered. In control cells, the centrosomes were always located very closely to the NE in prophase (<xref ref-type="fig" rid="pbio-1000350-g005">Figure 5A,B</xref>). In contrast, in dynein-depleted cells the nucleus and the centrosomes were almost always found in opposite cell corners during prophase (<xref ref-type="fig" rid="pbio-1000350-g005">Figure 5A,B</xref>). Similarly, live cell imaging of U2OS cells stably expressing mCherry-Î±-tubulin showed that in control cells centrosomes migrate along the NE, to the opposite sides of the nucleus just before mitotic entry (<xref ref-type="supplementary-material" rid="pbio.1000350.s007">Figure S7A</xref>), allowing spindle assembly to initiate around the DNA. In contrast, in â¼90% of dynein-depleted cells, centrosomes and the nucleus had moved apart substantially at the time NEB occurred, and therefore the DNA was not positioned in between the centrosomes when spindle assembly initiated (<xref ref-type="supplementary-material" rid="pbio.1000350.s007">Figure S7A</xref>; <xref ref-type="fig" rid="pbio-1000350-g005">Figure 5B</xref>); similar results were obtained in HeLa cells after dynein or dynactin depletion (<xref ref-type="supplementary-material" rid="pbio.1000350.s007">Figure S7B</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s016">Videos S1</xref>â<xref ref-type="supplementary-material" rid="pbio.1000350.s018">S3</xref>).</p>
+        <fig id="pbio-1000350-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Dynein inactivation causes rapid separation of nuclei and centrosomes in G2.</title>
+            <p>(A) U2OS cells were transfected with the control or DHC#3 siRNAs, fixed with cold methanol, and stained for Î±-tubulin (green in overlay) and Î³-tubulin (red in overlay), as well as DNA (DAPI, blue in overlay). Note that centrosomes are located close to the nucleus in control cells but are removed far away from the nucleus in dynein-depleted cells. (B) mCherry-Î±-tubulin stable U2OS cell line was imaged with a 3 min time interval 2.5 d after transfection with the indicated siRNA mixtures, and the distance between centrosomes and the nucleus at the time of NEB was measured. Error bars represent SD. The number of experiments is indicated in parentheses below the graph. â¼20 cells per experiment were analyzed. (C) mCherry-Î±-tubulin stable U2OS cells were imaged with a 3 min interval 2.5 d after transfection with DHC#1 siRNA. Nuclei and centrosomes undergo G2-specific displacements (indicated by asterisks and arrows, respectively), resulting in their separation. (D,E) Quantification of displacement of nuclei and centrosomes starting from the moment when G2-specific enhanced nucleation of MTs at the centrosome became visible (D), and velocity of nuclear movement during 1 h before NEB (E). Nuclear movement in dynein-depleted cells was initiated 54Â±4 min (meanÂ±SD) before NEB. Measurements were performed in 10 cells in 3 independent experiments. (FâH) U2OS cells stably expressing mCherry-Î±-tubulin were microinjected with antibodies against dynein IC (70.1) or the Myc tag. Late G2 cells were chosen based on the presence of separated centrosomes. (F) An example of nucleus-centrosome separation after microinjection with dynein-inhibiting antibodies. (G,H) Distance between the nucleus and the centrosomes (G) and percentage of cells showing strong centrosome detachment (H) at 30 min after microinjection.</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g005"/>
+        </fig>
+        <p>Importantly, not only the centrosomes lost their central position (which could be explained by the loss of interactions between MT ends and the cell cortex upon dynein depletion <xref rid="pbio.1000350-Dujardin1" ref-type="bibr">[44]</xref>), but also the nucleus was rapidly pushed into one of the cell corners, towards MT plus ends (<xref ref-type="fig" rid="pbio-1000350-g005">Figure 5CâE</xref>, see <xref ref-type="supplementary-material" rid="pbio.1000350.s019">Videos S4</xref>â<xref ref-type="supplementary-material" rid="pbio.1000350.s022">S7</xref>). Nuclear movement was initiated 54Â±4 min before NEB, and the average velocity of movement was â¼160 nm/min (<xref ref-type="fig" rid="pbio-1000350-g005">Figure 5E</xref>). The final distance between the two centrosomes at the time of NEB was the same in control and dynein-depleted cells (9.8Â±1.0 Âµm in control and 9.8Â±0.6 Âµm in dynein-depleted cells (meanÂ±SD)), consistent with our previous findings <xref rid="pbio.1000350-Tanenbaum1" ref-type="bibr">[45]</xref>, indicating that centrosome separation does not require linkage to the NE or dynein function.</p>
+        <p>To rule out that the detachment of centrosomes from the nucleus was due to defects arising after long-term dynein inhibition, we microinjected U2OS cells that were in late G2 with function blocking antibodies against dynein intermediate chain (IC). As expected, dynein-inhibiting antibodies, but not the control antibodies, induced rapid separation of the nuclei and the centrosomes (<xref ref-type="fig" rid="pbio-1000350-g005">Figure 5FâH</xref>), demonstrating that dynein activity is required during late G2 to maintain the connection between centrosomes and the NE. Very similar results were obtained after microinjection of the first coiled coil fragment of the dynactin large subunit p150<sup>Glued</sup> (CC1), which is known to disrupt dynactin-dependent dynein mediated processes (<xref ref-type="supplementary-material" rid="pbio.1000350.s008">Figure S8</xref>) <xref rid="pbio.1000350-Quintyne1" ref-type="bibr">[46]</xref>.</p>
+        <p>Pushing a relatively large nucleus into a flattened corner of a cultured cell would require substantial force, which is most likely generated by kinesin motors attached to the nucleus and moving to MT plus ends. We hypothesized that KIF5B might be involved in this process because it interacts with both BICD2 and RanBP2. Indeed, co-depletion of KIF5B together with dynein fully restored centrosome and nuclear position at NEB (<xref ref-type="fig" rid="pbio-1000350-g005">Figure 5B</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s007">Figure S7A</xref>; for control of double knockdown efficiency, see <xref ref-type="supplementary-material" rid="pbio.1000350.s004">Figure S4C</xref>), indicating that it is indeed driving the separation of nuclei and centrosomes in dynein-depleted cells. Taken together, these results suggest that the prophase cell nucleus is transported bi-directionally by the opposing activities of dynein and kinesin-1, similar to many other cargoes.</p>
+      </sec>
+      <sec id="s2e">
+        <title>BICD2 and RanBP2 Are Required for Maintenance of the Association between the NE and the Centrosomes in Prophase Cells</title>
+        <p>Since we showed that BICD2 is required for dynein and dynactin recruitment to the NPCs in G2 phase, we next investigated whether its depletion has an influence on the relative positioning of the centrosomes and the nuclei. Similar to HeLa, U2OS cells express both BICD2 and BICD1, which can be depleted by a number of different siRNAs without affecting the expression of RanBP2 or MT motors (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6A</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s004">Figure S4C</xref>).</p>
+        <fig id="pbio-1000350-g006" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>Depletion of BICD2 and RanBP2 causes centrosome detachment in prophase U2OS cells.</title>
+            <p>(A) Western blots with the indicated antibodies were performed with equal amounts of extracts of U2OS cells 3 d after transfection with the indicated siRNAs. Note that BICD1 antibody cross-reacts with BICD2 (arrows). Both BICD proteins can be independently depleted, although BICD1#1 siRNA causes some co-depletion of BICD2. Levels of dynactin, dynein, KIF5B, and RanBP2 are not significantly affected BICD knockdown. (B) U2OS cells were transfected with BICD2#1 and BICD1#1 siRNAs (upper panel) or with GFP-BICD2-CT, fixed with cold methanol, and stained for Î±-tubulin and Î³-tubulin, as well as DNA (DAPI). Colors used for the overlays are indicated above the corresponding images. Note centrosome detachment caused by the loss of BICD function through siRNA-mediated depletion or overexpression of the dominant negative mutant BICD2-CT. (C) The distance between the nucleus and the centrosomes in fixed prophase U2OS cells under different conditions. (a,b) Cells were transfected with the indicated siRNAs against dynein HC or KIF5B. (c) Cells were transfected with the indicated siRNAs against BICD1 and/or BICD2. (d) Cells were transfected with GFP-BICD2-CT. (e) Cells were transfected with the indicated siRNAs against RanBP2 or NUP214. (f) The effect of RanBP2 knockdown (induced with the RanBP2#3 siRNA) was rescued by expression of the GFP-BICD2-NT-nesprin-3 fusion but not by GFP alone. (g) Cells were transfected with the indicated siRNAs against BICD2, and either untreated or incubated with 4 ÂµM STLC, an Eg5 inhibitor. Error bars represent SD; the number of experiments for each condition is shown in parentheses below the graph; 20â30 cells were counted per experiment. Strong separation of the nucleus and the centrosomes is induced by dynein depletion. Mild nuclear-centrosome separation is caused by overexpression of BICD2-CT or depletion of BICD2 or RanBP2, but not BICD1 or NUP214, which serve as negative controls. A fusion of BICD2 N-terminus to the NE-targeting domain can compensate for the loss of RanBP2. The effect of BICD2 knockdown on nuclear-centrosome positioning can be suppressed by inhibiting Eg5, suggesting that the MT sliding activity of this motor is responsible for centrosome detachment in BICD2-depleted cells. (D) HeLa cells were transfected with GFP-BICD2-NT-nesprin-3 fusion, fixed with paraformaldehyde, and stained for p150<sup>Glued</sup>. Note the recruitment of dynactin to the NE in the transfected cell.</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g006"/>
+        </fig>
+        <p>Depletion of BICD2 induced the detachment of the centrosomes from the nucleus in prophase (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6B,C(aâc))</xref>. This effect was specific, since it was not observed after depletion of BICD1 or KIF5B, but it was much less severe than after dynein knockdown (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6B,C(aâc))</xref>. Cells with simultaneous knockdown of BICD1 and BICD2 displayed a phenotype similar to that of BICD2 depletion alone, confirming the view that BICD1 does not contribute much to centrosome positioning (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6C(c))</xref>. Centrosome detachment from the NE was also observed in cells overexpressing BICD2-CT, which is expected to uncouple dynein/dynactin from BICD2-containing cargos (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6B,C(d))</xref>
+<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>. Interestingly, RanBP2 depletion, which prevents BICD2 recruitment to the NE (<xref ref-type="fig" rid="pbio-1000350-g002">Figure 2C,E</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s002">Figure S2A</xref>,B) also caused an increase in the distance between the nuclei and the centrosomes, while the depletion of another cytoplasmic nucleoporin, NUP214, had no effect (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6C(e)</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s004">Figure S4B</xref>).</p>
+        <p>To further prove that BICD2 can exert a direct effect on centrosome positioning through its localization at the NE, we constructed a fusion protein in which we attached the N-terminal portion of BICD2, including the dynein and kinesin-1 binding sites, to the C-terminal KASH (Klarsicht, ANC-1, Syne Homology) domain-containing region of nesprin-3, which is targeted to the NE by SUN proteins <xref rid="pbio.1000350-Ketema1" ref-type="bibr">[47]</xref>. This fusion localized specifically to the NE and enhanced the accumulation of dynactin at the NE (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6D</xref>). Importantly, the expression of the BICD2-NT-nesprin-3 fusion completely suppressed centrosome detachment in RanBP2-depleted prophase cells (in which endogenous BICD2 is no longer targeted to the NE, see <xref ref-type="fig" rid="pbio-1000350-g002">Figure 2C,E</xref>), even at very low expression levels (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6C(f)</xref>). Taken together, these results support the view that BICD2 can recruit MT motors to the NE and regulate the relative localization of the nucleus and the centrosomes.</p>
+        <p>Since the distance between the centrosomes and the nucleus in BICD2 or RanBP2 knockdown cells was much smaller than in the case of dynein knockdown, it appears that there is no severe imbalance between the activities of dynein and kinesin-1 at the NE under these conditions. These results suggest that BICD2 is not only involved in dynein function at the NE but might also be required for proper kinesin-1 function.</p>
+        <p>If this idea is correct, BICD2 depletion should block the kinesin-1 driven separation of centrosomes from the nuclei observed after dynein depletion. Indeed, co-depletion of BICD2 with dynein strongly reduced the distance between the centrosomes and the nuclei observed after dynein depletion alone (see <xref ref-type="fig" rid="pbio-1000350-g005">Figure 5B</xref>). This rescue of centrosome-nuclear attachment was not due to a decreased efficiency of dynein depletion (see <xref ref-type="supplementary-material" rid="pbio.1000350.s004">Figure S4C</xref>); moreover, the mitotic arrest in cells depleted of both BICD2 and dynein HC was similar to that observed for single dynein HC knockdown (unpublished data), further confirming that dynein function was similarly perturbed in both cases and indicating that BICD2 depletion does not help to overcome later mitotic phenotypes associated with dynein loss.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Eg5 Pushes the Centrosomes Away from the Nucleus in BICD2-Depleted Cells</title>
+        <p>Why do centrosomes detach from the NE in prophase after BICD2 knockdown if both kinesin-1 and dynein activities are reduced? We recently found that the plus-end directed kinesin-5 Eg5, known to slide antiparallel MTs <xref rid="pbio.1000350-Kapitein1" ref-type="bibr">[48]</xref>, pushes centrosomes apart during prophase <xref rid="pbio.1000350-Tanenbaum1" ref-type="bibr">[45]</xref>. Thus, Eg5-dependent sliding forces might drive the centrosomes away from the nucleus when it becomes uncoupled from dynein and kinesin-1 due to BICD2 depletion. In line with this idea, inhibition of Eg5 with S-trityl-L-cysteine (STLC) significantly suppressed centrosome detachment caused by BICD2 depletion, indicating that Eg5 is at least in part responsible for pushing the centrosomes away from NE in BICD2-depleted prophase cells (<xref ref-type="fig" rid="pbio-1000350-g006">Figure 6C(g)</xref>). Taken together, our data show that centrosome separation and positioning at the opposite sides of the NE at the mitotic onset is driven by forces generated by dynein, kinesin-1, and Eg5.</p>
+      </sec>
+      <sec id="s2g">
+        <title>G2-Specific Movement of AL Confirms the BICD2-Dependent Link between NPCs and MT Motors</title>
+        <p>Do dynein and kinesin-1 indeed attach to the NE through NPCs? If this were true, the positioning of AL, which contain cytoplasmic NPC components but are devoid of many other NE-specific proteins, such as the nuclear lamina and the proteins that are linked to it, should be affected by the depletion of MT motors. AL are relatively small structures that are normally located in the central cytoplasm; they can potentially serve as a sensitive readout for the forces exerted on them by cytoplasmic motors. In control cells, AL are predominantly located around the Golgi apparatus in G1 and S-phase; in G2 they shift towards the centrosome and gradually disappear (<xref rid="pbio.1000350-Cordes1" ref-type="bibr">[49]</xref>, <xref ref-type="fig" rid="pbio-1000350-g007">Figure 7A</xref>, and see also <xref ref-type="fig" rid="pbio-1000350-g002">Figures 2A</xref>, <xref ref-type="fig" rid="pbio-1000350-g004">4A</xref>, and <xref ref-type="supplementary-material" rid="pbio.1000350.s023">Video S8</xref>). The depletion of the dynein HC or dynactin subunit p150<sup>Glued</sup> induced relocalization of AL to the cell periphery of cyclin B1-positive cells (towards MT plus ends; <xref ref-type="fig" rid="pbio-1000350-g007">Figure 7A</xref>). Using a cell line stably expressing GFP-tagged RanGAP1 (<xref ref-type="supplementary-material" rid="pbio.1000350.s009">Figure S9</xref>), we observed that the timing of movement of the AL to the cell periphery coincided almost exactly with the timing of peripheral displacement of the nucleus in cells lacking dynein activity (â¼1 h before NEB) (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7B</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s024">Video S9</xref>). Furthermore, peripheral displacement of AL in dynein-depleted cells was completely dependent on kinesin-1 activity (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7C</xref>), similar to displacement of the nucleus in these cells (see <xref ref-type="fig" rid="pbio-1000350-g005">Figure 5B</xref>). Together, these results indicate that the forces that act to position the AL are mechanistically similar to those that position the nucleus. Consistent with this, knockdown of KIF5B caused a very strong accumulation of AL near centrosomes, where MT minus ends are located in G2 (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7A</xref> and <xref ref-type="supplementary-material" rid="pbio.1000350.s010">Figure S10A</xref>,B,C), and centrosomal accumulation of AL was, in turn, dependent on dynein activity (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7C</xref>). The analysis of the timing of AL movement in kinesin-1-depleted cells showed that centrosomal accumulation started â¼3 h before NEB (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7B</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s025">Video S10</xref>), which corresponds very well to the time at which BICD2 and dynein are recruited to NPCs, further suggesting that BICD2 and dynein recruitment to NPCs in G2 phase induces movement of these structures towards MT minus ends. Taken together, these results show that, similar to the nucleus, the position of AL in G2 phase is controlled by the antagonistic activities of dynein and kinesin-1 and further suggest that both dynein and kinesin-1 act to position the nucleus through their effect on NPCs, rather than through other NE-associated proteins.</p>
+        <fig id="pbio-1000350-g007" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Dynein, kinesin-1, and BICD2 control the localization of AL in G2 phase.</title>
+            <p>(A) HeLa cells were transfected with control, DHC#1, p150<sup>Glued</sup>, or KIF5B#1 siRNAs, fixed with paraformaldehyde 3 d later, and stained for endogenous BICD2, RanBP2, and cyclin B1. In the overlays, BICD2 is shown in green and RanBP2 in red. The outline of the cyclin B1-positive cell is indicated. Note AL displacement to the cell periphery in cyclin B1-positive cells depleted of dynein or dynactin, and the centripetal relocalization of AL in kinesin-1 (KIF5B) depleted cyclin B1-stained cell. (B) GFP-RanGAP1 stable HeLa cell line was imaged with a 2 or 3 min time interval 2 d after transfection with the control, p150<sup>Glued</sup>, or KIF5B#1 siRNAs. 0 min indicates the first frame after NEB (defined as the time when GFP-RanGAP1 enters the nucleus). Contrast is inverted. Arrows show the accumulation of AL at the cell periphery or the cell center. Peripheral displacement of AL after dynein or dynactin knockdown occurred at 1 hÂ±30 min before mitotic onset (mean Â± SD, measured in 6 and 10 cells, respectively); strong accumulation of AL near the nucleus in KIF5B depleted cells started at 3 hÂ±30 min before NEB (mean Â± SD, measured in 18 cells). (C) AL localization after different siRNA co-transfections. Black bars represent the percentage of HeLa cells showing a strong AL accumulation near the nucleus (like in the bottom panel in <xref ref-type="fig" rid="pbio-1000350-g007">Figure 7A</xref>) and gray bars illustrate the percentage of HeLa cells showing displacement of AL to the outmost cell periphery (like in the middle panels of <xref ref-type="fig" rid="pbio-1000350-g007">Figure 7A</xref>). In each case, cells were transfected with a combination of two siRNAs: control, KIF5B or dynein HC siRNAs (as indicated on top of the panel) in combination with the control siRNA or the siRNAs against BICD1 and BICD2 (the cotransfected siRNA is indicated at the bottom), or the combination of KIF5B siRNAs and dynein HC siRNAs. Cells with AL accumulation in the cell center or the cell periphery were scored in KIF5B or dynein knockdown cells, respectively; in a double KIF5B/dynein HC knockdown, both types of cells were counted. Error bars represent SD. â¼30â100 cells were counted in three experiments. Cells with fully aggregated AL represent a minority of the population (â¼20%) in control G2 cells but become predominant (â¼75%) after depletion of kinesin-1. This effect can be suppressed by co-depletion of BICD2 or dynein HC, but not BICD1. Similarly, control cells never display peripheral AL localization, while â¼40% of dynein-depleted cyclin B1-positive cells show this phenotype, which can be suppressed by co-depletion of BICD2 or KIF5B, but not BICD1.</p>
+          </caption>
+          <graphic xlink:href="pbio.1000350.g007"/>
+        </fig>
+        <p>We also used AL displacement to strengthen our conclusions that BICD2 controls both dynein- and kinesin-1-dependent movement of NPCs. Importantly, BICD2 remained strongly enriched at the AL and the NE when dynein, dynactin, or KIF5B were depleted, indicating that BICD2 association with the NPCs is independent of MT motors (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7A</xref>). In control G2 phase cells, AL often displayed some perinuclear accumulation in the centrosome region (see <xref ref-type="fig" rid="pbio-1000350-g002">Figures 2A</xref>, <xref ref-type="fig" rid="pbio-1000350-g007">7C</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s011">Figure S11A</xref>,B). However, BICD2 depletion reduced perinuclear accumulation of AL in G2 phase (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7C</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s011">Figure S11A</xref>,B). These findings were confirmed by observing the behavior of AL by time-lapse microscopy after BICD2 knockdown, where AL remained randomly dispersed until the beginning of mitosis (<xref ref-type="supplementary-material" rid="pbio.1000350.s011">Figure S11C</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s026">Video S11</xref>). These results further implicate BICD2 in the G2 specific activation of MT minus-end-directed force generation on NPCs. Furthermore, the shift of AL to the cell center or the cell periphery caused by kinesin-1 and dynein depletion, respectively, was strongly inhibited by co-depletion of BICD2 but not by control siRNAs or siRNAs against BICD1 or Rab6 (<xref ref-type="fig" rid="pbio-1000350-g007">Figure 7C</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s011">Figures S11C</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s012">S12</xref>; <xref ref-type="supplementary-material" rid="pbio.1000350.s027">Videos S12</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s028">S13</xref>). These results demonstrate that BICD2 is required for the G2-specific movement of the AL by both kinesin-1 and dynein and strongly support the notion that both dynein and kinesin-1 control nuclear movement by acting through BICD2 on the NPCs.</p>
+        <p>We have also investigated if other cytoskeletal systems, in addition to MTs, are directly involved in the G2-specific processes described above but found no evidence for direct involvement of the actin cytoskeleton or the intermediate filaments, keratin or vimentin, in the G2-specific nuclear-centrosome positioning pathway that relies on dynein and kinesin-1 (<xref ref-type="supplementary-material" rid="pbio.1000350.s013">Figures S13</xref>, <xref ref-type="supplementary-material" rid="pbio.1000350.s014">S14</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>During cell division the MT cytoskeleton and membrane organelles undergo a severe reorganization, which proceeds in a highly regulated manner. In many cell types, the two centrosomes move apart while maintaining their attachment to the NE. This helps to form the bipolar mitotic spindle around the chromosomes after NEB. In this study, we have obtained insight into molecular mechanisms that control the relative positioning of the nucleus and the centrosomes at mitotic onset. We show that the dynein/dynactin adaptor BICD2 is specifically recruited to the NPC in G2 phase through a direct interaction with the NPC component RanBP2. In its turn, BICD2 is important for accumulation of dynein and dynactin at the nuclear pores in prophase cells. In line with previously published data (reviewed by <xref rid="pbio.1000350-Hetzer1" ref-type="bibr">[27]</xref>,<xref rid="pbio.1000350-Rosenblatt1" ref-type="bibr">[28]</xref>), we find that cytoplasmic dynein is the major player responsible for the nucleus-centrosome attachment, but unexpectedly, we find that kinesin-1 also participates in this process by antagonizing dynein function. Since BICD2 and RanBP2 are likely involved in linking both MT motors to the NPCs, depletion of either protein causes only mild centrosome detachment from the nucleus.</p>
+      <p>Our previous studies showed that BICD2 associates with MT motors through its N-terminus and the middle portion, while the C terminus is the cargo-binding site <xref rid="pbio.1000350-Hoogenraad2" ref-type="bibr">[9]</xref>,<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>,<xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>. Here we identified a new cargo for BICD2, the nucleoporin RanBP2, which binds to the same domain of BICD2 as the small GTPase Rab6. Our data suggest that the interaction of BICD2 with the two cargos is temporally regulated during the cell cycle: during G1 and S phase, BICD2 appears to associate predominantly with Rab6, while in G2 it binds mostly to the NPCs (<xref ref-type="fig" rid="pbio-1000350-g008">Figure 8</xref>). It is currently unclear how this switch is controlled, but it is likely that mitotic kinases are involved.</p>
+      <fig id="pbio-1000350-g008" position="float">
+        <object-id pub-id-type="doi">10.1371/journal.pbio.1000350.g008</object-id>
+        <label>Figure 8</label>
+        <caption>
+          <title>A model of the concerted action of BICD2, dynein, and kinesin-1 in different phases of the cell cycle.</title>
+          <p>In G1 and S phase, BICD2, dynein, and kinesin-1 associate with Rab6 vesicles; kinesin-1 activity predominates in this complex. In G2, BICD2 with the associated motors accumulates at the NPCs, where the dynein-mediated movement predominates, resulting in tight association of the centrosome and nucleus.</p>
+        </caption>
+        <graphic xlink:href="pbio.1000350.g008"/>
+      </fig>
+      <p>Both during Rab6 vesicle trafficking and in nuclear positioning, BICD2 participates in transport processes that involve the opposing functions of cytoplasmic dynein and kinesin-1. The predominating motor in the two processes is different: Rab6 vesicles are exocytotic carriers that preferentially move to MT plus ends, suggesting that kinesin-1 activity is dominant, while the nucleus and AL are mainly pulled by dynein (<xref ref-type="fig" rid="pbio-1000350-g008">Figure 8</xref>). This indicates that BICD2 participation by itself is insufficient to determine direction of movement; therefore, additional factors or posttranslational modifications are likely to be involved. While it may appear strange that the two opposite polarity motors act together in processes that mostly depend on only one of them, this arrangement seems to represent a fundamental property of MT motor systems most likely required to allow flexibility and permit regulation of cargo distribution <xref rid="pbio.1000350-Gross1" ref-type="bibr">[3]</xref>,<xref rid="pbio.1000350-Welte1" ref-type="bibr">[4]</xref>. Our study shows that even the positioning of a very large cargo, such as the cell nucleus, is no exception to this rule.</p>
+      <p>The mechanism underlying kinesin-1 recruitment to BICD2-bound NPCs is unlikely to be explained solely by the binding between BICD2 and kinesin-1 <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>, since RanBP2 can directly bind to kinesin-1 as well <xref rid="pbio.1000350-Cai1" ref-type="bibr">[36]</xref>,<xref rid="pbio.1000350-Cho1" ref-type="bibr">[37]</xref>. Intriguingly, both BICD2 and kinesin-1 interact with the same region of RanBP2; whether these interactions are competitive or cooperative and what consequences this has on the architecture of the motor complexes remains to be determined.</p>
+      <p>It is clear that RanBP2 and BICD2 are not the only proteins participating in the motor recruitment and/or activation important for centrosome-nuclear attachment. First, other parts of the NPCs, additional dynein accessory factors, such as LIS1 and NUDE <xref rid="pbio.1000350-Hebbar1" ref-type="bibr">[50]</xref>, and cell cycle-dependent regulators of motor activation, like CDKs or Plk1, are likely to be involved. This view is supported by the observed timing of binding and transport steps. BICD2 associates with the NPCs early in G2; this results in dynein activation that is sufficient to cause strong AL accumulation around the centrosome in the absence of kinesin-1 at â¼3 h before NEB. At a later stage (â¼1 h before NEB), additional motor activation likely takes place; this is reflected by the peripheral displacement of the AL, the nucleus, and the centrosomes in dynein-depleted cells. Furthermore, Eg5 becomes active during prophase and pushes centrosomes apart. The forces induced by Eg5-dependent centrosome separation are kept in check by the complex of RanBP2-BICD2-dynein that prevents centrosome detachment from the nucleus while allowing centrosomes to separate.</p>
+      <p>Second, KASH domain proteins such as nesprins are essential for attachment of nuclei to the cytoskeleton in different systems <xref rid="pbio.1000350-Zhang1" ref-type="bibr">[33]</xref>,<xref rid="pbio.1000350-Wilhelmsen1" ref-type="bibr">[51]</xref>,<xref rid="pbio.1000350-Schneider1" ref-type="bibr">[52]</xref>. We observed that the displacement of endogenous nesprins from the NE indeed affected relative positioning of the nucleus and centrosomes in G2 phase, but the effect was much less severe than that of dynein depletion (Tanenbaum, unpublished data). Moreover, nesprin displacement from the NE could not block kinesin-1-mediated nuclear displacement in dynein-depleted cells (Splinter, unpublished data), indicating that in contrast to certain epithelial cells <xref rid="pbio.1000350-Roux1" ref-type="bibr">[53]</xref>, in cultured U2OS and HeLa cells nesprins are not essential for attachment of kinesin-1 to the NE. Nesprins bind to the NE through SUN proteins, which were shown to interact with nuclear pores <xref rid="pbio.1000350-Liu1" ref-type="bibr">[54]</xref>, and may therefore participate in the formation of the MT motor assemblies at the NE together with nucleoporins. It is likely that the relative importance of different molecular links between the NE and MT motors depends on the cell type and differentiation state.</p>
+      <p>What is the function of the complex molecular events described in this study? Clearly, positioning of the centrosomes at the opposite sides of the nucleus at NEB would decrease the chance that a kinetochore is captured by MTs emanating from both poles (merotelic attachments), which can result in chromosome missegregation and aneuploidy, hallmarks of cancer <xref rid="pbio.1000350-Cimini1" ref-type="bibr">[55]</xref>. Furthermore, spindle assembly in mammalian cells is controlled by both centrosome- and chromatin-dependent pathways, in which centrosomes are potent MT nucleation sites and chromatin can both nucleate and stabilize MTs. When centrosomes are positioned too far away from chromatin, newly nucleated MTs are unstable and as a consequence spindle assembly might be delayed. Indeed, loss of dynein results in a â¼15 min delay in bipolar spindle assembly, which can be rescued by restoring the relative positioning of centrosomes and the nucleus at mitotic entry through co-depletion of kinesin-1 (Tanenbaum, unpublished data). A mechanism coupling centrosomes to the nucleus at mitotic onset could become even more important in very large cells like fertilized oocytes, in which the distance between centrosomes and chromosomes could become so extensive that centrosomes could no longer contribute to spindle assembly.</p>
+      <p>In addition, the interaction of dynein with the NPCs through BICD2 could help to tear apart the NE <xref rid="pbio.1000350-Salina1" ref-type="bibr">[26]</xref>,<xref rid="pbio.1000350-Beaudouin1" ref-type="bibr">[56]</xref>, a possibility that was not addressed here. Furthermore, dynein-mediated coupling between the nucleus, MTs, and the centrosome plays an important role during migration of differentiated cells <xref rid="pbio.1000350-Tsai1" ref-type="bibr">[57]</xref>. In flies, BicD is involved in MT and dynein/dynactin-dependent positioning of the oocyte and photoreceptor nuclei <xref rid="pbio.1000350-Claussen1" ref-type="bibr">[7]</xref>, and since BICD2 is ubiquitously expressed during mammalian development (Akhmanova, unpublished data), it would be interesting to know if it plays a similar role in mammals.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Expression Constructs and siRNAs</title>
+        <p>We used the following previously described expression vectors: GFP-BICD2 <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>, HA-BICD2-CT <xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>, myc-KIF5B <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>, BirA <xref rid="pbio.1000350-Driegen1" ref-type="bibr">[58]</xref> (a gift of D. Meijer, Erasmus MC, Rotterdam, The Netherlands), mCherry-Î±-tubulin <xref rid="pbio.1000350-Shaner1" ref-type="bibr">[59]</xref> (a gift of R. Tsien, UCSD, San Diego, CA, USA). Biotinylation and GFP-tagged BICD2 C terminus (Bio-GFP-BICD2-CT, BICD2 amino acids 487â820, accession number CAC51393) was generated in pEGFP-C2 (Clontech) by cloning at the NheI and AgeI sites in front of the GFP a linker encoding the amino acid sequence MASGLNDIFEAQKIEWHEGGG. CFP-tagged RanBP2 fragments with the N-terminal palmitoylation signal derived from GAP-43 were generated in a modified version of the pECFP-N1 vector (Clontech) by a PCR based strategy. GFP-BICD2-NT-nesprin-3 fusion was generated by attaching the amino acids 582â975 of nesprin-3 (accession number NP_001036164, <xref rid="pbio.1000350-Wilhelmsen2" ref-type="bibr">[60]</xref>; a gift of A. Sonnenberg, Netherlands Cancer Institute, Amsterdam) to the C terminus of GFP-BICD2-NT (amino acids 1â594 of BICD2 <xref rid="pbio.1000350-Hoogenraad2" ref-type="bibr">[9]</xref>). GFP-RanGAP1 was generated in pEGFP-C1 by inserting into it the BglII-SmaI fragment of KIAA1835 (accession number AB058738, a gift of Kazusa DNA Research Institute, Japan). POM121 fused to a triple YFP tag <xref rid="pbio.1000350-Imreh1" ref-type="bibr">[42]</xref> was a gift of Dr. E. Hallberg (SÃ¶dertÃ¶rns University College, Huddinge, Sweden).</p>
+        <p>We used the following siRNAs: KIF5B#1, <named-content content-type="gene">5â²-GCCUUAUGCAUUUGAUCGG</named-content> (siRNA 118426, Ambion), KIF5B#2, <named-content content-type="gene">5â²-GCACAUCUCAAGAGCAAGU</named-content> (siRNA 118427, Ambion), dynein HC DHC#1 <named-content content-type="gene">5â²-CGUACUCCCGUGAUUGAUG</named-content> (siRNA 118309, Ambion), DHC#2 <named-content content-type="gene">5â²-GCCAAAAGUUACAGACUUU</named-content> (siRNA 118311, Ambion), DHC#3 <named-content content-type="gene">5â²-GGAUCAAACAUGACGGAAU</named-content>, RanBP2#1 <named-content content-type="gene">5â²-GGACAGUGGGAUUGUAGUG</named-content>
+<xref rid="pbio.1000350-Joseph1" ref-type="bibr">[61]</xref>, RanBP2#2 <named-content content-type="gene">5â²-CACAGACAAAGCCGUUGAA</named-content>, RanBP2#3 Dharmacon SMARTpool, p150<sup>Glued</sup>
+<named-content content-type="gene">5â² GUAUUUGAAGAUGGAGCAG</named-content>, BICD2#1 <named-content content-type="gene">5â²-GGAGCUGUCACACUACAUG</named-content>, BICD2#2 <named-content content-type="gene">5â²-GGUGGACUAUGAGGCUAUC</named-content>, BICD1#1 <named-content content-type="gene">5â²-CCUUAAUGCCAUAAUCCGG</named-content>, BICD1#2 <named-content content-type="gene">5â²-GCAAAGAGCCAAUGAAUAU</named-content>, BICD1#3 <named-content content-type="gene">5â²-GCAACUGUCUCGUCAAAGA</named-content>, NUP214 <named-content content-type="gene">5â² GUCACGGAAACAGUGAAAG</named-content>
+<xref rid="pbio.1000350-Hutten1" ref-type="bibr">[41]</xref>. As a control we used a previously described scrambled CLASP1 siRNA, the siRNA against luciferase <xref rid="pbio.1000350-Grigoriev2" ref-type="bibr">[62]</xref>, or the siRNA to GAPD (control Dharmacon SMARTpool).</p>
+      </sec>
+      <sec id="s4b">
+        <title>Pull-Downs, IP, Identification of BICD2-CT Binding Partners by Mass Spectrometry, and Yeast Two-Hybrid Analysis</title>
+        <p>Bio-GFP-BICD2-CT and BirA were transiently co-expressed in HeLa cells; cells were lysed in a buffer containing 100 mM NaCl, 20 mM Tris-HCl, pH 7.5, 1% Triton X-100, and protease inhibitors (Complete, Roche). Streptavidin pull-down assays, mass spectrometry analysis, and IP from HEK293 cells overexpressing different protein fusions were performed as described by <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>. For the IP of endogenous proteins, HeLa cells were pelleted and lyzed in a buffer containing 20 mM Tris pH 8.0, 150 mM KCl, 5% Triton X-100, Protease inhibitors (Complete Roche) and phosphatase inhibitors (Cocktail 1 and 2, Sigma). For the IP of endogenous proteins from nocodazole-arrested cells, HeLa cells were treated with 75 ng/mL nocodazole for 18 h, washed with PBS, lyzed with digitonin in the buffer containing 20 mM HEPES pH 7.3, 110 mM potassium acetate, 2 mM magnesium acetate, 1 mM EGTA, 1 mM DTT and protease and phosphatase inhibitors; lysates were centrifuged at 100000Ãg for 1 h. IP was carried out using standard procedures. 6XHIS-tagged BICD2-CT (amino acids 630â820) was generated in pET28a. GST fusions of RanBP2 fragments 3 and 4 (amino acids 2147â2287 and 2447â2887, accession number NP_006258) were generated in pGEX-3X. Protein purification and GST pull-down assays were carried out as described by <xref rid="pbio.1000350-Lansbergen2" ref-type="bibr">[63]</xref>. Binding reactions were performed in 50 mM Tris-HCl, pH 7.5, 125 mM NaCl, 0.1% NP40, and 5 mM EDTA, using â¼20 Âµg/ml of HIS-BICD2-CT and â¼70 Âµg/ml of GST fusions.</p>
+        <p>For yeast two-hybrid assays, different bait constructs were prepared in pBHA (lexA fusion vector) and tested against various BICD2 fragments cloned into pGAD10 (GAL4 activation domain vector, Clontech) as described by <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Cell Culture and Transfection of Plasmids and siRNAs</title>
+        <p>HeLa, HEK293, and U2OS cells were cultured as described previously <xref rid="pbio.1000350-MimoriKiyosue1" ref-type="bibr">[64]</xref>,<xref rid="pbio.1000350-Tanenbaum2" ref-type="bibr">[65]</xref>. PolyFect (Qiagen), Lipofectamine 2000 (Invitrogen), or FuGENE 6 (Roche) reagents were used for plasmid transfection. Stable HeLa clones expressing fluorescent proteins were selected using Fluorescence Activated Cell Sorting and cultured in the presence of 0.4 mg/ml G418 (Roche). Synthetic siRNAs were transfected into HeLa cells plated at 20% confluence using HiPerFect (Qiagen) at the final concentration 5 nM; cells were analyzed by 3 d after transfection. U2OS cells were transfected with HiPerFect during plating at â¼20% confluence using 20 nM siRNAs; a second transfection with the same siRNA concentration was performed 1 or 2 d later, and the cells were analyzed 3 or 4 d after plating.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Antibodies, Immunofluorescent Staining, and Western Blotting</title>
+        <p>We used affinity purified goat polyclonal antibodies against RanBP2 and RanGAP1 <xref rid="pbio.1000350-Pichler1" ref-type="bibr">[22]</xref>,<xref rid="pbio.1000350-Hutten2" ref-type="bibr">[66]</xref>; rabbit polyclonal antibodies against GFP (Abcam), BICD1 and BICD2 <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>,<xref rid="pbio.1000350-Matanis1" ref-type="bibr">[11]</xref>, HA tag, dynein HC, KIF5B and RanGAP1 (Santa Cruz), NUP214 <xref rid="pbio.1000350-Hutten1" ref-type="bibr">[41]</xref> (a gift of Dr. R. Kehlenbach, University of GÃ¶ttingen, Germany), and phosphorylated histone H3 (Ser 10) (Millipore); mouse monoclonal antibodies against Rab6 (which recognizes Rab6A and Rab6A', a gift of A. Barnekow, University of Muenster, Germany), Arp1 (a gift of Dr. T Schroer, Johns Hopkins University, USA), nucleoporins (antibody 414, Covance), Î±-, Î²-, and Î³-tubulin (Sigma), dynein IC (Chemicon and Santa Cruz), cyclin B1 (Santa Cruz), p150<sup>Glued</sup> and p50 (BD Biosciences), pan-keratin (clone C11, Sigma), and vimentin (Cymbus Biotechnology). For secondary antibodies we used Alexa 350, Alexa 488, and Alexa 594-conjugated goat antibodies against rabbit, rat, and mouse IgG, donkey antibodies against sheep IgG (Molecular Probes), AMCA-labeled rat anti-mouse, FITC-labeled donkey anti-rabbit, and anti-mouse antibodies (Jackson ImmunoResearch Laboratories). Actin was stained with Alexa-594-conjugated phalloidin (Invitrogen). Cell fixation and staining procedures were described previously <xref rid="pbio.1000350-Hoogenraad1" ref-type="bibr">[8]</xref>. Briefly, we used the following fixations: 4% paraformaldehyde in PBS (15 min at room temperature), â20Â°C methanol (10 min), or â20Â°C methanol (10 min) immediately followed by 4% paraformaldehyde in PBS (15 min at room temperature). For pre-extraction of live cells we used the following buffer: 60 mM PIPES, 25 mM HEPES, 10 mM EGTA, 0.5% Triton X-100, 4 mM MgSO<sub>4</sub>, and pH 7.5. Western blotting was performed as described previously <xref rid="pbio.1000350-MimoriKiyosue1" ref-type="bibr">[64]</xref>.</p>
+      </sec>
+      <sec id="s4e">
+        <title>Electron Microscopy</title>
+        <p>For preembedding immunoperoxidase electron microscopy, cells were fixed with 4% paraformaldehyde and stained with anti-RanGAP1 using the same conditions as for immunofluorescence with the exception that saponin (0.1%) was used as a detergent in the preincubation step and no detergent was used in subsequent steps. Biotinylated horse anti-goat (Vector) was used as the secondary antibody, which was followed by incubation in avidin-biotin-peroxidase complex (ABC, Vector Laboratories, USA) and staining with diaminobenzidine (DAB, 0.05%) yielding a brown reaction product. Subsequently cells were fixed in 1% osmium, dehydrated, and embedded in Durcupan. Ultrathin (50â70 nm) were contrasted with uranyl acetate and lead citrate and analyzed in a Phillips CM100 electron microscope with a bottom mounted TVIPS FastScan-F114 camera.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Fluorescence Microscopy and Image Analysis</title>
+        <p>Images of fixed cells with the exception of <xref ref-type="fig" rid="pbio-1000350-g005">Figures 5A</xref> and <xref ref-type="fig" rid="pbio-1000350-g006">6B</xref> were collected with a Leica DMRBE microscope equipped with a PL Fluotar 100Ã 1.3 N.A. or 40Ã 1.00â0.50 N.A. oil objectives, FITC/EGFP filter 41012 (Chroma) and Texas Red filter 41004 (Chroma), and an ORCA-ER-1394 CCD camera (Hamamatsu). Images in <xref ref-type="fig" rid="pbio-1000350-g005">Figures 5A</xref> and <xref ref-type="fig" rid="pbio-1000350-g006">6B</xref> were acquired on a confocal Zeiss LSM510 META (CarlZeiss) with a Plan Apochromat 63Ã 1.4 N.A. objective. Z-planes were acquired with 1 Âµm intervals. Images are maximum intensity projections of all Z-planes.</p>
+        <p>Live cell imaging experiments with U2OS cells were performed on a Zeiss Axiovert 200 M microscope equipped with a Plan-Neofluar 40Ã 1.3 N.A. oil objective in a permanently heated chamber with 5% CO<sub>2</sub>. Images were acquired every 3â5 min using a Photometrics Coolsnap HQ charged-coupled device camera (Scientific, Tucson, AZ). <italic>Z</italic>-stacks were acquired with 2 Âµm intervals between <italic>Z</italic>-slices. Live cell imaging experiments with HeLa cells were performed on the inverted microscope Nikon Eclipse TE2000E (Nikon) with a CFI Plan Fluor 40Ã 1.30 N.A. oil objective, equipped with CoolSNAP-HQ2 CCD camera (Roper Scientific) controlled by MetaMorph 7.1 software (Molecular Devices). For excitation we used HBO 103 W/2 Mercury Short Arc Lamp (Osram) and Chroma ET-GFP (49002) or Chroma ET-DsRed (49005) filter sets. Image analysis was performed by using MetaMorph software (Universal Imaging, Downington, PA). Cells were kept at 37Â°C during observation.</p>
+        <p>U2OS cells were microinjected in L-15 medium with dynein IC 70.1 (Sigma) or Myc (Covance) antibodies, diluted 1/10 from suppliers stock, or with purified CC1 fragment of p150<sup>Glued</sup> (a gift of Dr. S. King, University of MissouriâKansas City, USA) using an Eppendorf Micromanipulator 5171 coupled to a Transjector 5246, and cells were imaged as described above.</p>
+        <p>Images were prepared for publication using Adobe Photoshop. The images of fixed cells were modified by adjustments of levels and contrast. Live images were modified by adjustments of levels and contrast and applying Unsharp Mask and Gaussian Blur filters.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>
+<bold>Protein gel used for identification of bio-GFP-BICD2-CT binding partners by mass spectrometry.</bold> To identify binding partners of BICD2, streptavidin pull-down assays were performed with extracts of HeLa cells expressing BirA alone or together with bio-GFP-BICD2 full-length, N-terminus, or C terminus. Proteins were separated on a 3%â8% Tris-acetate gel and stained with Colloidal Blue Staining Kit (Invitrogen). Mass spectrometry analysis of the proteins in the last lane is shown in <xref ref-type="supplementary-material" rid="pbio.1000350.s015">Table S1</xref> (the first lane served as a control).</p>
+          <p>(0.28 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>
+<bold>BICD2 associates with the NE in G2 phase in a RanBP2-dependent manner in U2OS cells.</bold> (A) U2OS cells were transfected with a control siRNA or a mixture of RanBP2 siRNAs #1 and #2, fixed with cold methanol followed by paraformaldehyde 3 d later, and stained for endogenous BICD2, RanBP2, and cyclin B1. Note that BICD2 is strongly recruited to the NE in cyclin B1 positive cells and that this recruitment is blocked by RanBP2 depletion. (B) U2OS cells that were either treated with 10 ÂµM nocodazole or transfected with control siRNAs or a mixture of RanBP2 siRNAs #1 and #2 were stained as described for (A), and the percentage of cyclin B1-positive cells showing BICD2 accumulation at the NE was counted. In case of RanBP2 knockdown, only the cells in which RanBP2-specific nuclear staining was reduced to background levels were included in the quantification. Error bars represent SD; â¼40â100 cells were counted in three experiments.</p>
+          <p>(0.66 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>
+<bold>RanBP2 and RanGAP1-positive cytoplasmic puncta are AL.</bold> (A,B) Control HeLa cells or cells either treated for 1 h with 10 ÂµM nocodazole were fixed with cold methanol and stained with the antibodies to NPC components NUP214, RanBP2, MAB414, and RanGAP1. (C) HeLa cells stably expressing POM121-YFP(3) were fixed with paraformaldehyde and stained with antibodies against RanBP2. Where indicated, cells were treated for 1 h with 10 ÂµM nocodazole. Note complete co-localization of all NPC markers in the cytoplasmic puncta and the enlargement of these puncta after nocodazole treatment. (D) Transmission electron photomicrographs of HeLa cells treated with 10 ÂµM nocodazole for 1 h immunostained for RanGAP1 before plastic embedding using immunoperoxidase. Cells were fixed with paraformaldehyde and stained with anti-RanGAP1 using an avidin-biotin-peroxidase complex procedure with diaminobenzidine as the chromogen yielding an electron dense precipitate. Staining is selectively associated with either the cytoplasmic face of NPCs in the NE, or with cytoplasmic ensembles of nuclear pore-like structures also referred to as AL (arrows). Nu, nucleus; m, mitochondrion; bars, 250 nm. This result is fully consistent with previous descriptions of AL <xref rid="pbio.1000350-Cordes1" ref-type="bibr">[49]</xref> and shows that RanGAP1 is a good marker for these structures.</p>
+          <p>(3.88 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>
+<bold>Protein depletion in HeLa and U2OS cells.</bold> Western blots with the indicated antibodies were performed with equal amounts of extracts of HeLa or U2OS cells 3 d after transfection with the indicated siRNAs. Note that dynein, KIF5B, BICD2, and NPC components can be depleted independently of each other. The knockdown of dynein HC also causes depletion of dynein IC, in agreement with published data <xref rid="pbio.1000350-Grigoriev1" ref-type="bibr">[13]</xref>.</p>
+          <p>(0.38 MB DOC)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>
+<bold>GFP fusions of BICD2 and BICD2 C terminus co-localize with nuclear pores on the NE.</bold> HeLa cells were transfected with the indicated GFP fusions, treated with 10 ÂµM nocodazole, pre-extracted in a buffer with 0.5% Triton X-100, fixed with paraformaldehyde, and stained for RanBP2. In the overlays, BICD2 is shown in green and RanBP2 in red. Note specific co-localization of the GFP fusions with the NPCs.</p>
+          <p>(0.98 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s005.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>
+<bold>BICD2 is required for targeting dynein/dynactin to the NE and AL.</bold> (A) HeLa cells were treated with 10 ÂµM nocodazole for 1 h, fixed with cold methanol, and stained for the indicated endogenous proteins. Dynactin is visualized with antibody to Arp1 and p50/dynamitin. Colors used for the overlays are indicated above the corresponding images. Note that in cells where BICD2 associates with RanBP2-positive NE and AL, dynactin subunits are also targeted to these structures. (B) HeLa cells were transfected with a control siRNA (upper panel) or BICD2#1 siRNA (bottom panel). Three days later, cells were treated with 10 ÂµM nocodazole for 5 h, fixed with cold methanol, and stained for endogenous RanBP2, phospho-histone H3, and dynactin (p150<sup>Glued</sup>). NE staining by dynactin antibodies is indicated by an arrow. Colors used for the overlays are indicated above the corresponding images. Note that dynactin is enriched at the NE and annulate lamellae in control phospho-histone H3 positive cell, but not in BICD2-knockdown cell. (C) Percentage of HeLa cells positive for phospho-histone H3 that show strong accumulation of dynactin at the RanBP2-positive NE and AL in control or BICD2-depleted cells 3 d after siRNA transfection. Only the cells with clearly visible AL were included in the quantification. Error bars represent SD; â¼25â30 cells were counted in two experiments.</p>
+          <p>(2.51 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s006.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s007">
+        <label>Figure S7</label>
+        <caption>
+          <p>
+<bold>Depletion of dynein and dynactin causes separation of centrosomes and nuclei in prophase U2OS and HeLa cells.</bold> (A) mCherry-Î±-tubulin stable U2OS cell line was imaged with a 3 min time interval 2.5 d after transfection with the indicated siRNA mixtures. Note that the centrosomes separate completely from the NE envelope in a dynein-depleted cell and that this effect is rescued by co-depletion of KIF5B. 0 min indicates the first frame after NEB (defined as the time when mCherry-Î±-tubulin entered the nucleus). (B) mCherry-Î±-tubulin stable HeLa cell line was imaged with a 2 or 3 min time interval 2.5 d after transfection with the control, p150<sup>Glued</sup>, or DHC#2 siRNAs. 0 min indicates the first frame after NEB (defined as the time when mCherry-Î±-tubulin entered the nucleus). Note that the centrosomes separate completely from the NE envelope in a dynein- or dynactin-depleted cell.</p>
+          <p>(1.50 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s007.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s008">
+        <label>Figure S8</label>
+        <caption>
+          <p>
+<bold>Microinjection of the recombinant coiled coil fragment 1 (CC1) of p150<sup>Glued</sup> causes rapid separation of centrosomes and the nucleus in prophase cells.</bold> U2OS cells stably expressing mCherry-Î±-tubulin were microinjected with recombinant CC1 at the needle concentration 0.85 mg/ml. Late G2 cells were chosen based on the presence of separated centrosomes. Time tâ=â0:00 indicates the time-point just prior to injection.</p>
+          <p>(0.29 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s008.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s009">
+        <label>Figure S9</label>
+        <caption>
+          <p>
+<bold>Characterization of a HeLa cell line stably expressing GFP-RanGAP1.</bold> Western blots prepared with equal amounts of extracts of control HeLa cells or the stable GFP-RanGAP1 HeLa cell line and incubated with antibodies against GFP or RanGAP1. Note that the expression levels of the fusion protein exceeded the endogenous RanGAP1 levels by approximately a factor of 4; however, the amount of SUMOylated RanGAP1, which is likely to be RanBP2- and NPC-bound <xref rid="pbio.1000350-Matunis1" ref-type="bibr">[23]</xref>,<xref rid="pbio.1000350-Mahajan1" ref-type="bibr">[24]</xref>, was not significantly altered compared to control cells; in the stable cell line, this pool was predominantly represented by the GFP-tagged RanGAP1.</p>
+          <p>(0.14 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s009.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s010">
+        <label>Figure S10</label>
+        <caption>
+          <p>
+<bold>The effect of MT motor depletion on AL distribution.</bold> (A) HeLa cells were transfected with siRNAs against KIF5B, fixed with cold methanol 3 d later, and stained for RanBP2 and Î³-tubulin. Note that AL accumulate as a single pericentrosomal dot in a cell with a single centrosome and around both centrosomes after their separation. (B) HeLa cells were transfected with KIF5B or DHC siRNAs, fixed with methanol, and stained for endogenous NUP214, RanBP2, and with the MAB414 antibody. (C) HeLa cells stably expressing POM121-YFP(3) were transfected with KIF5B or DHC siRNAs, fixed with paraformaldehyde, and stained with antibodies against RanBP2. Note that all NPC markers show characteristic re-localization to the centrosome or to the cell periphery, supporting the view that these structures are indeed AL.</p>
+          <p>(1.65 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s010.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s011">
+        <label>Figure S11</label>
+        <caption>
+          <p>
+<bold>Behavior of AL in BICD2-depleted cells.</bold> (A) HeLa cells were transfected with the indicated siRNAs, fixed 3 d later with cold methanol followed by paraformaldehyde, and stained for RanBP2 and cyclin B1. Note that AL are dispersed in BICD2-depleted cyclin B1-positive cells. (B) Total area occupied by AL was measured in â¼25 cyclin B1-positive cells stained as described for (A). Error bars represent SEM. The area is decreased in KIF5B-depleted G2 cells because AL are strongly concentrated in the pericentrosomal region and enlarged in BICD2-depleted cells because AL are dispersed. (C) GFP-RanGAP1 stable HeLa cell line was imaged with a 3 min time interval 2 d after transfection with the BICD2#1 siRNA alone or in combination with siRNAs against DHC#1 or KIF5B#1. 0 min indicates the first frame after NEB. Contrast is inverted. Note that AL remain dispersed and accumulated neither at the cell periphery nor the cell center, even when dynein or KIF5B were co-depleted.</p>
+          <p>(0.93 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s011.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s012">
+        <label>Figure S12</label>
+        <caption>
+          <p>
+<bold>BICD2 depletion blocks re-localization of AL caused by the knockdown of dynein or kinesin-1.</bold> HeLa cells were transfected with the KIF5B#1 or DHC#1 siRNAs in combination with the control or BICD2#1 siRNAs, fixed with paraformaldehyde 3 d later, and stained for BICD2, RanBP2 (green in overlay), and cyclin B1 (red in overlay). Insets show enlargement of cyclin B1-positive dynein-depleted cells. Accumulations of AL at the two separated centrosomes in kinesin-1-depleted cells and at the cell periphery in dynein-depleted cells are indicated by arrows. Note that cells showing strong AL displacement to the centrosome or the cell periphery cannot be found in BICD2-codepleted cells.</p>
+          <p>(2.64 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s012.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s013">
+        <label>Figure S13</label>
+        <caption>
+          <p>
+<bold>Keratin and actin are not directly involved in G2-specific displacement of nuclei and AL after dynein and kinesin-1 depletion.</bold> (A) HeLa cells were transfected with the indicated siRNAs, fixed with cold methanol 3 d later, and stained for keratin, Î±-tubulin, and RanGAP1. Note that keratin network looks similar in dynein HC and KIF5B-delpeted G2 cells (which are identified by the characteristic position of the AL). This is in agreement with published data indicating that keratin distribution is not significantly affected by microtubule motors <xref rid="pbio.1000350-Helfand1" ref-type="bibr">[67]</xref>. (B) HeLa cells were transfected with the indicated siRNAs; 2 d later, cells were incubated overnight with 1 Âµm cytochalasin D or left untreated. At 3 d post-transfection, cells were fixed with paraformaldehyde and stained with antibodies to Î±-tubulin and RanGAP1, and with fluorescent phalloidin, to visualize the actin network. Note that cytochalasin-induced disassembly of actin fibers does not prevent separation of centrosomes (arrows) and nuclei in a dynein-depleted cell or AL aggregation in KIF5B-depleted cell.</p>
+          <p>(1.92 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s013.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s014">
+        <label>Figure S14</label>
+        <caption>
+          <p>
+<bold>Vimentin distribution is affected by knockdown of dynein and kinesin-1 but does not correlate with G2-specific displacement of nuclei and AL.</bold> (A,B) HeLa cells were transfected with the indicated siRNAs, fixed with cold methanol 3 d later, and stained for vimentin and RanGAP1. A cell with the characteristic G2-specific aggregation of AL caused by KIF5B depletion is indicated by an arrow. (B) shows a cell with the characteristic G2-specific peripheral displacement of AL and the nucleus caused by dynein HC depletion; note that vimentin network is not re-localized to the cell corner together with the nucleus. (C) Average fluorescence intensity of vimentin staining in the perinuclear region normalized to the average fluorescence intensity of the whole cell (expressed in %). Intensity of a circular area (3 Âµm in diameter) was measured in â¼20 cells; background was subtracted. In case of dynein HC and KIF5B knockdowns, two cell populations were analyzed: cells with randomly dispersed AL (corresponding to G1 and S phase) and cells with strongly aggregated (KIF5B depletion) or peripherally located (dynein HC depletion) AL, which are in G2 phase. For the other conditions, cell cycle stages were not discriminated. In agreement with published data, the distribution of vimentin became more concentrated in the center of the cell after KIF5B knockdown and shifted to the cell periphery after dynein knockdown (A,C) <xref rid="pbio.1000350-Helfand1" ref-type="bibr">[67]</xref>. However, in contrast to the positioning of the nuclei and AL, the distribution of vimentin was cell-cycle independent (C). Moreover, in dynein-depleted cells that showed a strong displacement of the nuclei into one cell corner, vimentin network remained in the central part of the cell, indicating that vimentin redistribution is not the underlying cause of the nuclear movement (B).</p>
+          <p>(1.73 MB TIF)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s014.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s015">
+        <label>Table S1</label>
+        <caption>
+          <p>
+<bold>Identification of BICD2-CT binding partners by mass spectrometry in HeLa cell extract.</bold> The table shows the proteins identified with a significant Mascot score in the pull-down with streptavidin beads from an extract of HeLa cells co-expressing Bio-GFP-BICD2-CT (BICD2 amino acids 487â820) and biotin ligase BirA. A pull-down from HeLa cells expressing BirA alone was used as a control (only proteins that displayed significantly higher Mascot score in the Bio-GFP-BICD2-CT lane compared to the control lane are listed). The proteins were separated on 3%â8% polyacrylamide gel (<xref ref-type="supplementary-material" rid="pbio.1000350.s001">Figure S1</xref>); proteins smaller than 50 kDa were not analyzed in this experiment. For each identified protein, the list is filtered for duplicates and shows only the hits with the highest score and most identified peptides.</p>
+          <p>(0.03 MB DOC)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s015.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s016">
+        <label>Video S1</label>
+        <caption>
+          <p>
+<bold>Centrosome separation in control prophase cells.</bold> Control HeLa cells expressing mCherry-Î±-tubulin were imaged with a 3 min interval for 5 h and 30 min.</p>
+          <p>(2.74 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s016.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s017">
+        <label>Video S2</label>
+        <caption>
+          <p>
+<bold>Centrosome separation in dynactin (p150<sup>Glued</sup>)-depleted prophase cells.</bold> HeLa cells expressing mCherry-Î±-tubulin were transfected with the siRNA against p150<sup>Glued</sup> and imaged 2 d later with a 3 min interval for 5 h and 30 min.</p>
+          <p>(0.44 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s017.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s018">
+        <label>Video S3</label>
+        <caption>
+          <p>
+<bold>Centrosome separation in dynein-depleted prophase cells.</bold> HeLa cells expressing mCherry-Î±-tubulin were transfected with the DHC#2 siRNA and imaged 2 d later with a 2 min interval for 4 h and 20 min.</p>
+          <p>(1.19 MB MPG)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s018.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s019">
+        <label>Video S4</label>
+        <caption>
+          <p>
+<bold>Centrosome separation in control prophase cells.</bold> Control U2OS cells expressing mCherry-Î±-tubulin were imaged with a 5 min interval for 1 h and 50 min.</p>
+          <p>(0.73 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s019.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s020">
+        <label>Video S5</label>
+        <caption>
+          <p>
+<bold>Centrosome separation in dynein-depleted prophase cells.</bold> U2OS cells expressing mCherry-Î±-tubulin were transfected with the DHC#1 siRNA and imaged 2.5 d later with a 3 min interval for 2 h and 30 min.</p>
+          <p>(0.69 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s020.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s021">
+        <label>Video S6</label>
+        <caption>
+          <p>
+<bold>Peripheral displacement of the nucleus in dynein-depleted cells prior to mitotic entry.</bold> HeLa cells stably expressing GFP-RanGAP1 were transfected with the DHC#2 siRNA and imaged 2 d later with a 3 min interval for 8 h and 30 min.</p>
+          <p>(1.17 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s021.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s022">
+        <label>Video S7</label>
+        <caption>
+          <p>
+<bold>Peripheral displacement of the nuclei in dynein-depleted cells prior to mitotic entry.</bold> HeLa cells stably expressing GFP-RanGAP1 were transfected with the DHC#2 siRNA and imaged 2 d later with a 3 min interval for 5 h and 30 min. Note abrupt separation of the nuclei.</p>
+          <p>(0.42 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s022.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s023">
+        <label>Video S8</label>
+        <caption>
+          <p>
+<bold>Behavior of the AL in control cells.</bold> HeLa cells stably expressing GFP-RanGAP1 were imaged with a 3 min interval for 11 h (every second frame is shown).</p>
+          <p>(1.52 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s023.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s024">
+        <label>Video S9</label>
+        <caption>
+          <p>
+<bold>Behavior of the AL in dynactin (p150<sup>Glued</sup>)-depleted cells.</bold> HeLa cells stably expressing GFP-RanGAP1 were transfected with the siRNA against p150<sup>Glued</sup> and imaged 2 d later with a 2 min interval for 6 h.</p>
+          <p>(4.43 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s024.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s025">
+        <label>Video S10</label>
+        <caption>
+          <p>
+<bold>Behavior of the AL in KIF5B-depleted cells.</bold> HeLa cells stably expressing GFP-RanGAP1 were transfected with the KIF5B#1 siRNA and imaged 2 d later with a 3 min interval for 6 h and 30 min.</p>
+          <p>(1.57 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s025.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s026">
+        <label>Video S11</label>
+        <caption>
+          <p>
+<bold>Behavior of the AL in BICD2-depleted cells.</bold> HeLa cells stably expressing GFP-RanGAP1 were transfected with the BICD2#1 siRNA and imaged with a 3 min interval for 5 h and 24 min.</p>
+          <p>(4.24 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s026.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s027">
+        <label>Video S12</label>
+        <caption>
+          <p>
+<bold>Behavior of the AL in dynein/BICD2-depleted cells.</bold> HeLa cells stably expressing GFP-RanGAP1 were co-transfected with the DHC#2 and BICD2#1 siRNAs and imaged 2 d later with a 3 min interval for 6 h and 6 min.</p>
+          <p>(1.45 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s027.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pbio.1000350.s028">
+        <label>Video S13</label>
+        <caption>
+          <p>
+<bold>Behavior of the AL in KIF5B/BICD2-depleted cells.</bold> HeLa cells stably expressing GFP-RanGAP1 were co-transfected with the KIF5B#1and BICD2#1 siRNAs and imaged 2 d later with a 3 min interval for 8 h.</p>
+          <p>(3.15 MB MOV)</p>
+        </caption>
+        <media xlink:href="pbio.1000350.s028.mov">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank D. Meijer, R. Tsien, A. Sonnenberg, A. Barnekow, E. Hallberg, T. Schroer, R. Kehlenbach, S. King, and Kazusa DNA Research Institute for the gift of materials. We are grateful to Phebe Wulf, Eva Teuling, and Karel Bezstarosti for technical support.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>DS was supported by grants from the Dutch Ministry of Economic Affairs (Neuro-BSIK; <ext-link ext-link-type="uri" xlink:href="http://www.neurobsik.nl">www.neurobsik.nl</ext-link>) and the Netherlands Organization for Scientific Research NWO-ECHO (<ext-link ext-link-type="uri" xlink:href="http://www.nwo.nl">www.nwo.nl</ext-link>). MET was supported by the Netherlands Organization for Scientific Research NWO-ALW. AL was supported by a VENI grant from ZonMw (<ext-link ext-link-type="uri" xlink:href="http://www.zonmw.nl">www.zonmw.nl</ext-link>). AA is supported by the Netherlands Organization for Scientific Research NWO-ALW-VICI, ZonMw TOP and open program grants; CCH is supported by NWO-ALW, NWO-ECHO, NWO-ZonMw-VIDI and European Science Foundation (European Young Investigators (EURYI)) (<ext-link ext-link-type="uri" xlink:href="http://www.esf.org">www.esf.org</ext-link>); and RHM is supported by ZonMW-VICI and the Netherlands Genomics Initiative of NWO (<ext-link ext-link-type="uri" xlink:href="http://www.genomics.nl">www.genomics.nl</ext-link>). FM and AF were supported by a grant from the German Research Foundation (SFB523, TP18) (<ext-link ext-link-type="uri" xlink:href="http://www.dfg.de">www.dfg.de</ext-link>). The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pbio.1000350-Vale1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vale</surname><given-names>R. D</given-names></name></person-group>
+<year>2003</year>
+<article-title>The molecular motor toolbox for intracellular transport.</article-title>
+<source>Cell</source>
+<volume>112</volume>
+<fpage>467</fpage>
+<lpage>480</lpage>
+<pub-id pub-id-type="pmid">12600311</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Karki1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karki</surname><given-names>S</given-names></name><name><surname>Holzbaur</surname><given-names>E. L</given-names></name></person-group>
+<year>1999</year>
+<article-title>Cytoplasmic dynein and dynactin in cell division and intracellular transport.</article-title>
+<source>Curr Opin Cell Biol</source>
+<volume>11</volume>
+<fpage>45</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="pmid">10047518</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Gross1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gross</surname><given-names>S. P</given-names></name></person-group>
+<year>2004</year>
+<article-title>Hither and yon: a review of bi-directional microtubule-based transport.</article-title>
+<source>Phys Biol</source>
+<volume>1</volume>
+<fpage>R1</fpage>
+<lpage>R11</lpage>
+<pub-id pub-id-type="pmid">16204815</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Welte1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Welte</surname><given-names>M. A</given-names></name></person-group>
+<year>2004</year>
+<article-title>Bidirectional transport along microtubules.</article-title>
+<source>Curr Biol</source>
+<volume>14</volume>
+<fpage>R525</fpage>
+<lpage>R537</lpage>
+<pub-id pub-id-type="pmid">15242636</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Jordens1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jordens</surname><given-names>I</given-names></name><name><surname>Marsman</surname><given-names>M</given-names></name><name><surname>Kuijl</surname><given-names>C</given-names></name><name><surname>Neefjes</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Rab proteins, connecting transport and vesicle fusion.</article-title>
+<source>Traffic</source>
+<volume>6</volume>
+<fpage>1070</fpage>
+<lpage>1077</lpage>
+<pub-id pub-id-type="pmid">16262719</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Karcher1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Karcher</surname><given-names>R. L</given-names></name><name><surname>Deacon</surname><given-names>S. W</given-names></name><name><surname>Gelfand</surname><given-names>V. I</given-names></name></person-group>
+<year>2002</year>
+<article-title>Motor-cargo interactions: the key to transport specificity.</article-title>
+<source>Trends Cell Biol</source>
+<volume>12</volume>
+<fpage>21</fpage>
+<lpage>27</lpage>
+<pub-id pub-id-type="pmid">11854006</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Claussen1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Claussen</surname><given-names>M</given-names></name><name><surname>Suter</surname><given-names>B</given-names></name></person-group>
+<year>2005</year>
+<article-title>BicD-dependent localization processes: from Drosophilia development to human cell biology.</article-title>
+<source>Ann Anat</source>
+<volume>187</volume>
+<fpage>539</fpage>
+<lpage>553</lpage>
+<pub-id pub-id-type="pmid">16320833</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hoogenraad1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoogenraad</surname><given-names>C. C</given-names></name><name><surname>Akhmanova</surname><given-names>A</given-names></name><name><surname>Howell</surname><given-names>S. A</given-names></name><name><surname>Dortland</surname><given-names>B. R</given-names></name><name><surname>De Zeeuw</surname><given-names>C. I</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Mammalian Golgi-associated Bicaudal-D2 functions in the dynein-dynactin pathway by interacting with these complexes.</article-title>
+<source>Embo J</source>
+<volume>20</volume>
+<fpage>4041</fpage>
+<lpage>4054</lpage>
+<pub-id pub-id-type="pmid">11483508</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hoogenraad2">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoogenraad</surname><given-names>C. C</given-names></name><name><surname>Wulf</surname><given-names>P</given-names></name><name><surname>Schiefermeier</surname><given-names>N</given-names></name><name><surname>Stepanova</surname><given-names>T</given-names></name><name><surname>Galjart</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Bicaudal D induces selective dynein-mediated microtubule minus end-directed transport.</article-title>
+<source>Embo J</source>
+<volume>22</volume>
+<fpage>6004</fpage>
+<lpage>6015</lpage>
+<pub-id pub-id-type="pmid">14609947</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Short1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Short</surname><given-names>B</given-names></name><name><surname>Preisinger</surname><given-names>C</given-names></name><name><surname>Schaletzky</surname><given-names>J</given-names></name><name><surname>Kopajtich</surname><given-names>R</given-names></name><name><surname>Barr</surname><given-names>F. A</given-names></name></person-group>
+<year>2002</year>
+<article-title>The Rab6 GTPase regulates recruitment of the dynactin complex to Golgi membranes.</article-title>
+<source>Curr Biol</source>
+<volume>12</volume>
+<fpage>1792</fpage>
+<lpage>1795</lpage>
+<pub-id pub-id-type="pmid">12401177</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Matanis1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matanis</surname><given-names>T</given-names></name><name><surname>Akhmanova</surname><given-names>A</given-names></name><name><surname>Wulf</surname><given-names>P</given-names></name><name><surname>Del Nery</surname><given-names>E</given-names></name><name><surname>Weide</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Bicaudal-D regulates COPI-independent Golgi-ER transport by recruiting the dynein-dynactin motor complex.</article-title>
+<source>Nat Cell Biol</source>
+<volume>4</volume>
+<fpage>986</fpage>
+<lpage>992</lpage>
+<pub-id pub-id-type="pmid">12447383</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Januschke1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Januschke</surname><given-names>J</given-names></name><name><surname>Nicolas</surname><given-names>E</given-names></name><name><surname>Compagnon</surname><given-names>J</given-names></name><name><surname>Formstecher</surname><given-names>E</given-names></name><name><surname>Goud</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Rab6 and the secretory pathway affect oocyte polarity in Drosophila.</article-title>
+<source>Development</source>
+<volume>134</volume>
+<fpage>3419</fpage>
+<lpage>3425</lpage>
+<pub-id pub-id-type="pmid">17827179</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Grigoriev1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grigoriev</surname><given-names>I</given-names></name><name><surname>Splinter</surname><given-names>D</given-names></name><name><surname>Keijzer</surname><given-names>N</given-names></name><name><surname>Wulf</surname><given-names>P. S</given-names></name><name><surname>Demmers</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Rab6 regulates transport and targeting of exocytotic carriers.</article-title>
+<source>Dev Cell</source>
+<volume>13</volume>
+<fpage>305</fpage>
+<lpage>314</lpage>
+<pub-id pub-id-type="pmid">17681140</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Bullock1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bullock</surname><given-names>S. L</given-names></name><name><surname>Ish-Horowicz</surname><given-names>D</given-names></name></person-group>
+<year>2001</year>
+<article-title>Conserved signals and machinery for RNA transport in Drosophila oogenesis and embryogenesis.</article-title>
+<source>Nature</source>
+<volume>414</volume>
+<fpage>611</fpage>
+<lpage>616</lpage>
+<pub-id pub-id-type="pmid">11740552</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Bullock2">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bullock</surname><given-names>S. L</given-names></name><name><surname>Nicol</surname><given-names>A</given-names></name><name><surname>Gross</surname><given-names>S. P</given-names></name><name><surname>Zicha</surname><given-names>D</given-names></name></person-group>
+<year>2006</year>
+<article-title>Guidance of bidirectional motor complexes by mRNA cargoes through control of dynein number and activity.</article-title>
+<source>Curr Biol</source>
+<volume>16</volume>
+<fpage>1447</fpage>
+<lpage>1452</lpage>
+<pub-id pub-id-type="pmid">16860745</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Mach1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mach</surname><given-names>J. M</given-names></name><name><surname>Lehmann</surname><given-names>R</given-names></name></person-group>
+<year>1997</year>
+<article-title>An Egalitarian-BicaudalD complex is essential for oocyte specification and axis determination in Drosophila.</article-title>
+<source>Genes Dev</source>
+<volume>11</volume>
+<fpage>423</fpage>
+<lpage>435</lpage>
+<pub-id pub-id-type="pmid">9042857</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Dienstbier1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dienstbier</surname><given-names>M</given-names></name><name><surname>Boehl</surname><given-names>F</given-names></name><name><surname>Li</surname><given-names>X</given-names></name><name><surname>Bullock</surname><given-names>S. L</given-names></name></person-group>
+<year>2009</year>
+<article-title>Egalitarian is a selective RNA-binding protein linking mRNA localization signals to the dynein motor.</article-title>
+<source>Genes Dev</source>
+<volume>23</volume>
+<fpage>1546</fpage>
+<lpage>1558</lpage>
+<pub-id pub-id-type="pmid">19515976</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Larsen1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Larsen</surname><given-names>K. S</given-names></name><name><surname>Xu</surname><given-names>J</given-names></name><name><surname>Cermelli</surname><given-names>S</given-names></name><name><surname>Shu</surname><given-names>Z</given-names></name><name><surname>Gross</surname><given-names>S. P</given-names></name></person-group>
+<year>2008</year>
+<article-title>BicaudalD actively regulates microtubule motor activity in lipid droplet transport.</article-title>
+<source>PLoS ONE</source>
+<volume>3</volume>
+<fpage>e3763</fpage>
+<comment>doi:<ext-link ext-link-type="uri" xlink:href="http://dx.doi.org/10.1371/journal.pone.0003763">10.1371/journal.pone.0003763</ext-link></comment>
+<pub-id pub-id-type="pmid">19018277</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Wu1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wu</surname><given-names>J</given-names></name><name><surname>Matunis</surname><given-names>M. J</given-names></name><name><surname>Kraemer</surname><given-names>D</given-names></name><name><surname>Blobel</surname><given-names>G</given-names></name><name><surname>Coutavas</surname><given-names>E</given-names></name></person-group>
+<year>1995</year>
+<article-title>Nup358, a cytoplasmically exposed nucleoporin with peptide repeats, Ran-GTP binding sites, zinc fingers, a cyclophilin A homologous domain, and a leucine-rich region.</article-title>
+<source>J Biol Chem</source>
+<volume>270</volume>
+<fpage>14209</fpage>
+<lpage>14213</lpage>
+<pub-id pub-id-type="pmid">7775481</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Yokoyama1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yokoyama</surname><given-names>N</given-names></name><name><surname>Hayashi</surname><given-names>N</given-names></name><name><surname>Seki</surname><given-names>T</given-names></name><name><surname>Pante</surname><given-names>N</given-names></name><name><surname>Ohba</surname><given-names>T</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>A giant nucleopore protein that binds Ran/TC4.</article-title>
+<source>Nature</source>
+<volume>376</volume>
+<fpage>184</fpage>
+<lpage>188</lpage>
+<pub-id pub-id-type="pmid">7603572</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Gorlich1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gorlich</surname><given-names>D</given-names></name><name><surname>Kutay</surname><given-names>U</given-names></name></person-group>
+<year>1999</year>
+<article-title>Transport between the cell nucleus and the cytoplasm.</article-title>
+<source>Annu Rev Cell Dev Biol</source>
+<volume>15</volume>
+<fpage>607</fpage>
+<lpage>660</lpage>
+<pub-id pub-id-type="pmid">10611974</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Pichler1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pichler</surname><given-names>A</given-names></name><name><surname>Gast</surname><given-names>A</given-names></name><name><surname>Seeler</surname><given-names>J. S</given-names></name><name><surname>Dejean</surname><given-names>A</given-names></name><name><surname>Melchior</surname><given-names>F</given-names></name></person-group>
+<year>2002</year>
+<article-title>The nucleoporin RanBP2 has SUMO1 E3 ligase activity.</article-title>
+<source>Cell</source>
+<volume>108</volume>
+<fpage>109</fpage>
+<lpage>120</lpage>
+<pub-id pub-id-type="pmid">11792325</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Matunis1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matunis</surname><given-names>M. J</given-names></name><name><surname>Coutavas</surname><given-names>E</given-names></name><name><surname>Blobel</surname><given-names>G</given-names></name></person-group>
+<year>1996</year>
+<article-title>A novel ubiquitin-like modification modulates the partitioning of the Ran-GTPase-activating protein RanGAP1 between the cytosol and the nuclear pore complex.</article-title>
+<source>J Cell Biol</source>
+<volume>135</volume>
+<fpage>1457</fpage>
+<lpage>1470</lpage>
+<pub-id pub-id-type="pmid">8978815</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Mahajan1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mahajan</surname><given-names>R</given-names></name><name><surname>Delphin</surname><given-names>C</given-names></name><name><surname>Guan</surname><given-names>T</given-names></name><name><surname>Gerace</surname><given-names>L</given-names></name><name><surname>Melchior</surname><given-names>F</given-names></name></person-group>
+<year>1997</year>
+<article-title>A small ubiquitin-related polypeptide involved in targeting RanGAP1 to nuclear pore complex protein RanBP2.</article-title>
+<source>Cell</source>
+<volume>88</volume>
+<fpage>97</fpage>
+<lpage>107</lpage>
+<pub-id pub-id-type="pmid">9019411</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Busson1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Busson</surname><given-names>S</given-names></name><name><surname>Dujardin</surname><given-names>D</given-names></name><name><surname>Moreau</surname><given-names>A</given-names></name><name><surname>Dompierre</surname><given-names>J</given-names></name><name><surname>De Mey</surname><given-names>J. R</given-names></name></person-group>
+<year>1998</year>
+<article-title>Dynein and dynactin are localized to astral microtubules and at cortical sites in mitotic epithelial cells.</article-title>
+<source>Curr Biol</source>
+<volume>8</volume>
+<fpage>541</fpage>
+<lpage>544</lpage>
+<pub-id pub-id-type="pmid">9560347</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Salina1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Salina</surname><given-names>D</given-names></name><name><surname>Bodoor</surname><given-names>K</given-names></name><name><surname>Eckley</surname><given-names>D. M</given-names></name><name><surname>Schroer</surname><given-names>T. A</given-names></name><name><surname>Rattner</surname><given-names>J. B</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Cytoplasmic dynein as a facilitator of nuclear envelope breakdown.</article-title>
+<source>Cell</source>
+<volume>108</volume>
+<fpage>97</fpage>
+<lpage>107</lpage>
+<pub-id pub-id-type="pmid">11792324</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hetzer1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hetzer</surname><given-names>M. W</given-names></name><name><surname>Walther</surname><given-names>T. C</given-names></name><name><surname>Mattaj</surname><given-names>I. W</given-names></name></person-group>
+<year>2005</year>
+<article-title>Pushing the envelope: structure, function, and dynamics of the nuclear periphery.</article-title>
+<source>Annu Rev Cell Dev Biol</source>
+<volume>21</volume>
+<fpage>347</fpage>
+<lpage>380</lpage>
+<pub-id pub-id-type="pmid">16212499</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Rosenblatt1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rosenblatt</surname><given-names>J</given-names></name></person-group>
+<year>2005</year>
+<article-title>Spindle assembly: asters part their separate ways.</article-title>
+<source>Nat Cell Biol</source>
+<volume>7</volume>
+<fpage>219</fpage>
+<lpage>222</lpage>
+<pub-id pub-id-type="pmid">15738974</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Robinson1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Robinson</surname><given-names>J. T</given-names></name><name><surname>Wojcik</surname><given-names>E. J</given-names></name><name><surname>Sanders</surname><given-names>M. A</given-names></name><name><surname>McGrail</surname><given-names>M</given-names></name><name><surname>Hays</surname><given-names>T. S</given-names></name></person-group>
+<year>1999</year>
+<article-title>Cytoplasmic dynein is required for the nuclear attachment and migration of centrosomes during mitosis in Drosophila.</article-title>
+<source>J Cell Biol</source>
+<volume>146</volume>
+<fpage>597</fpage>
+<lpage>608</lpage>
+<pub-id pub-id-type="pmid">10444068</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Gonczy1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gonczy</surname><given-names>P</given-names></name><name><surname>Pichler</surname><given-names>S</given-names></name><name><surname>Kirkham</surname><given-names>M</given-names></name><name><surname>Hyman</surname><given-names>A. A</given-names></name></person-group>
+<year>1999</year>
+<article-title>Cytoplasmic dynein is required for distinct aspects of MTOC positioning, including centrosome separation, in the one cell stage Caenorhabditis elegans embryo.</article-title>
+<source>J Cell Biol</source>
+<volume>147</volume>
+<fpage>135</fpage>
+<lpage>150</lpage>
+<pub-id pub-id-type="pmid">10508861</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Stelter1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Stelter</surname><given-names>P</given-names></name><name><surname>Kunze</surname><given-names>R</given-names></name><name><surname>Flemming</surname><given-names>D</given-names></name><name><surname>Hopfner</surname><given-names>D</given-names></name><name><surname>Diepholz</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Molecular basis for the functional interaction of dynein light chain with the nuclear-pore complex.</article-title>
+<source>Nat Cell Biol</source>
+<volume>9</volume>
+<fpage>788</fpage>
+<lpage>796</lpage>
+<pub-id pub-id-type="pmid">17546040</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Malone1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Malone</surname><given-names>C. J</given-names></name><name><surname>Misner</surname><given-names>L</given-names></name><name><surname>Le Bot</surname><given-names>N</given-names></name><name><surname>Tsai</surname><given-names>M. C</given-names></name><name><surname>Campbell</surname><given-names>J. M</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The C. elegans hook protein, ZYG-12, mediates the essential attachment between the centrosome and nucleus.</article-title>
+<source>Cell</source>
+<volume>115</volume>
+<fpage>825</fpage>
+<lpage>836</lpage>
+<pub-id pub-id-type="pmid">14697201</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Zhang1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>X</given-names></name><name><surname>Lei</surname><given-names>K</given-names></name><name><surname>Yuan</surname><given-names>X</given-names></name><name><surname>Wu</surname><given-names>X</given-names></name><name><surname>Zhuang</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>SUN1/2 and Syne/Nesprin-1/2 complexes connect centrosome to the nucleus during neurogenesis and neuronal migration in mice.</article-title>
+<source>Neuron</source>
+<volume>64</volume>
+<fpage>173</fpage>
+<lpage>187</lpage>
+<pub-id pub-id-type="pmid">19874786</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-deBoer1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>de Boer</surname><given-names>E</given-names></name><name><surname>Rodriguez</surname><given-names>P</given-names></name><name><surname>Bonte</surname><given-names>E</given-names></name><name><surname>Krijgsveld</surname><given-names>J</given-names></name><name><surname>Katsantoni</surname><given-names>E</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Efficient biotinylation and single-step purification of tagged transcription factors in mammalian cells and transgenic mice.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>7480</fpage>
+<lpage>7485</lpage>
+<pub-id pub-id-type="pmid">12802011</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Lansbergen1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lansbergen</surname><given-names>G</given-names></name><name><surname>Komarova</surname><given-names>Y</given-names></name><name><surname>Modesti</surname><given-names>M</given-names></name><name><surname>Wyman</surname><given-names>C</given-names></name><name><surname>Hoogenraad</surname><given-names>C. C</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Conformational changes in CLIP-170 regulate its binding to microtubules and dynactin localisation.</article-title>
+<source>J Cell Biol</source>
+<volume>166</volume>
+<fpage>1003</fpage>
+<lpage>1014</lpage>
+<pub-id pub-id-type="pmid">15381688</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Cai1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cai</surname><given-names>Y</given-names></name><name><surname>Singh</surname><given-names>B. B</given-names></name><name><surname>Aslanukov</surname><given-names>A</given-names></name><name><surname>Zhao</surname><given-names>H</given-names></name><name><surname>Ferreira</surname><given-names>P. A</given-names></name></person-group>
+<year>2001</year>
+<article-title>The docking of kinesins, KIF5B and KIF5C, to Ran-binding protein 2 (RanBP2) is mediated via a novel RanBP2 domain.</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>41594</fpage>
+<lpage>41602</lpage>
+<pub-id pub-id-type="pmid">11553612</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Cho1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cho</surname><given-names>K. I</given-names></name><name><surname>Cai</surname><given-names>Y</given-names></name><name><surname>Yi</surname><given-names>H</given-names></name><name><surname>Yeh</surname><given-names>A</given-names></name><name><surname>Aslanukov</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Association of the kinesin-binding domain of RanBP2 to KIF5B and KIF5C determines mitochondria localization and function.</article-title>
+<source>Traffic</source>
+<volume>8</volume>
+<fpage>1722</fpage>
+<lpage>1735</lpage>
+<pub-id pub-id-type="pmid">17887960</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Cho2">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cho</surname><given-names>K. I</given-names></name><name><surname>Yi</surname><given-names>H</given-names></name><name><surname>Desai</surname><given-names>R</given-names></name><name><surname>Hand</surname><given-names>A. R</given-names></name><name><surname>Haas</surname><given-names>A. L</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>RANBP2 is an allosteric activator of the conventional kinesin-1 motor protein, KIF5B, in a minimal cell-free system.</article-title>
+<source>EMBO Rep</source>
+<volume>10</volume>
+<fpage>480</fpage>
+<lpage>486</lpage>
+<pub-id pub-id-type="pmid">19305391</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Kessel1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kessel</surname><given-names>R. G</given-names></name></person-group>
+<year>1992</year>
+<article-title>Annulate lamellae: a last frontier in cellular organelles.</article-title>
+<source>Int Rev Cytol</source>
+<volume>133</volume>
+<fpage>43</fpage>
+<lpage>120</lpage>
+<pub-id pub-id-type="pmid">1374369</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Davis1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>L. I</given-names></name><name><surname>Blobel</surname><given-names>G</given-names></name></person-group>
+<year>1986</year>
+<article-title>Identification and characterization of a nuclear pore complex protein.</article-title>
+<source>Cell</source>
+<volume>45</volume>
+<fpage>699</fpage>
+<lpage>709</lpage>
+<pub-id pub-id-type="pmid">3518946</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hutten1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hutten</surname><given-names>S</given-names></name><name><surname>Kehlenbach</surname><given-names>R. H</given-names></name></person-group>
+<year>2006</year>
+<article-title>Nup214 is required for CRM1-dependent nuclear protein export in vivo.</article-title>
+<source>Mol Cell Biol</source>
+<volume>26</volume>
+<fpage>6772</fpage>
+<lpage>6785</lpage>
+<pub-id pub-id-type="pmid">16943420</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Imreh1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Imreh</surname><given-names>G</given-names></name><name><surname>Hallberg</surname><given-names>E</given-names></name></person-group>
+<year>2000</year>
+<article-title>An integral membrane protein from the nuclear pore complex is also present in the annulate lamellae: implications for annulate lamella formation.</article-title>
+<source>Exp Cell Res</source>
+<volume>259</volume>
+<fpage>180</fpage>
+<lpage>190</lpage>
+<pub-id pub-id-type="pmid">10942590</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hsu1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsu</surname><given-names>J. Y</given-names></name><name><surname>Sun</surname><given-names>Z. W</given-names></name><name><surname>Li</surname><given-names>X</given-names></name><name><surname>Reuben</surname><given-names>M</given-names></name><name><surname>Tatchell</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2000</year>
+<article-title>Mitotic phosphorylation of histone H3 is governed by Ipl1/aurora kinase and Glc7/PP1 phosphatase in budding yeast and nematodes.</article-title>
+<source>Cell</source>
+<volume>102</volume>
+<fpage>279</fpage>
+<lpage>291</lpage>
+<pub-id pub-id-type="pmid">10975519</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Dujardin1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dujardin</surname><given-names>D. L</given-names></name><name><surname>Vallee</surname><given-names>R. B</given-names></name></person-group>
+<year>2002</year>
+<article-title>Dynein at the cortex.</article-title>
+<source>Curr Opin Cell Biol</source>
+<volume>14</volume>
+<fpage>44</fpage>
+<lpage>49</lpage>
+<pub-id pub-id-type="pmid">11792543</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Tanenbaum1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tanenbaum</surname><given-names>M. E</given-names></name><name><surname>Macurek</surname><given-names>L</given-names></name><name><surname>Galjart</surname><given-names>N</given-names></name><name><surname>Medema</surname><given-names>R. H</given-names></name></person-group>
+<year>2008</year>
+<article-title>Dynein, Lis1 and CLIP-170 counteract Eg5-dependent centrosome separation during bipolar spindle assembly.</article-title>
+<source>Embo J</source>
+</element-citation>
+      </ref>
+      <ref id="pbio.1000350-Quintyne1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Quintyne</surname><given-names>N. J</given-names></name><name><surname>Gill</surname><given-names>S. R</given-names></name><name><surname>Eckley</surname><given-names>D. M</given-names></name><name><surname>Crego</surname><given-names>C. L</given-names></name><name><surname>Compton</surname><given-names>D. A</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Dynactin is required for microtubule anchoring at centrosomes.</article-title>
+<source>J Cell Biol</source>
+<volume>147</volume>
+<fpage>321</fpage>
+<lpage>334</lpage>
+<pub-id pub-id-type="pmid">10525538</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Ketema1">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ketema</surname><given-names>M</given-names></name><name><surname>Wilhelmsen</surname><given-names>K</given-names></name><name><surname>Kuikman</surname><given-names>I</given-names></name><name><surname>Janssen</surname><given-names>H</given-names></name><name><surname>Hodzic</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Requirements for the localization of nesprin-3 at the nuclear envelope and its interaction with plectin.</article-title>
+<source>J Cell Sci</source>
+<volume>120</volume>
+<fpage>3384</fpage>
+<lpage>3394</lpage>
+<pub-id pub-id-type="pmid">17881500</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Kapitein1">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kapitein</surname><given-names>L. C</given-names></name><name><surname>Peterman</surname><given-names>E. J</given-names></name><name><surname>Kwok</surname><given-names>B. H</given-names></name><name><surname>Kim</surname><given-names>J. H</given-names></name><name><surname>Kapoor</surname><given-names>T. M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The bipolar mitotic kinesin Eg5 moves on both microtubules that it crosslinks.</article-title>
+<source>Nature</source>
+<volume>435</volume>
+<fpage>114</fpage>
+<lpage>118</lpage>
+<pub-id pub-id-type="pmid">15875026</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Cordes1">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cordes</surname><given-names>V. C</given-names></name><name><surname>Reidenbach</surname><given-names>S</given-names></name><name><surname>Franke</surname><given-names>W. W</given-names></name></person-group>
+<year>1996</year>
+<article-title>Cytoplasmic annulate lamellae in cultured cells: composition, distribution, and mitotic behavior.</article-title>
+<source>Cell Tissue Res</source>
+<volume>284</volume>
+<fpage>177</fpage>
+<lpage>191</lpage>
+<pub-id pub-id-type="pmid">8625385</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hebbar1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hebbar</surname><given-names>S</given-names></name><name><surname>Mesngon</surname><given-names>M. T</given-names></name><name><surname>Guillotte</surname><given-names>A. M</given-names></name><name><surname>Desai</surname><given-names>B</given-names></name><name><surname>Ayala</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Lis1 and Ndel1 influence the timing of nuclear envelope breakdown in neural stem cells.</article-title>
+<source>J Cell Biol</source>
+<volume>182</volume>
+<fpage>1063</fpage>
+<lpage>1071</lpage>
+<pub-id pub-id-type="pmid">18809722</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Wilhelmsen1">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilhelmsen</surname><given-names>K</given-names></name><name><surname>Ketema</surname><given-names>M</given-names></name><name><surname>Truong</surname><given-names>H</given-names></name><name><surname>Sonnenberg</surname><given-names>A</given-names></name></person-group>
+<year>2006</year>
+<article-title>KASH-domain proteins in nuclear migration, anchorage and other processes.</article-title>
+<source>J Cell Sci</source>
+<volume>119</volume>
+<fpage>5021</fpage>
+<lpage>5029</lpage>
+<pub-id pub-id-type="pmid">17158909</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Schneider1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schneider</surname><given-names>M</given-names></name><name><surname>Noegel</surname><given-names>A. A</given-names></name><name><surname>Karakesisoglou</surname><given-names>I</given-names></name></person-group>
+<year>2008</year>
+<article-title>KASH-domain proteins and the cytoskeletal landscapes of the nuclear envelope.</article-title>
+<source>Biochem Soc Trans</source>
+<volume>36</volume>
+<fpage>1368</fpage>
+<lpage>1372</lpage>
+<pub-id pub-id-type="pmid">19021557</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Roux1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roux</surname><given-names>K. J</given-names></name><name><surname>Crisp</surname><given-names>M. L</given-names></name><name><surname>Liu</surname><given-names>Q</given-names></name><name><surname>Kim</surname><given-names>D</given-names></name><name><surname>Kozlov</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Nesprin 4 is an outer nuclear membrane protein that can induce kinesin-mediated cell polarization.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>106</volume>
+<fpage>2194</fpage>
+<lpage>2199</lpage>
+<pub-id pub-id-type="pmid">19164528</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Liu1">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Liu</surname><given-names>Q</given-names></name><name><surname>Pante</surname><given-names>N</given-names></name><name><surname>Misteli</surname><given-names>T</given-names></name><name><surname>Elsagga</surname><given-names>M</given-names></name><name><surname>Crisp</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Functional association of Sun1 with nuclear pore complexes.</article-title>
+<source>J Cell Biol</source>
+<volume>178</volume>
+<fpage>785</fpage>
+<lpage>798</lpage>
+<pub-id pub-id-type="pmid">17724119</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Cimini1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cimini</surname><given-names>D</given-names></name></person-group>
+<year>2008</year>
+<article-title>Merotelic kinetochore orientation, aneuploidy, and cancer.</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1786</volume>
+<fpage>32</fpage>
+<lpage>40</lpage>
+<pub-id pub-id-type="pmid">18549824</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Beaudouin1">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Beaudouin</surname><given-names>J</given-names></name><name><surname>Gerlich</surname><given-names>D</given-names></name><name><surname>Daigle</surname><given-names>N</given-names></name><name><surname>Eils</surname><given-names>R</given-names></name><name><surname>Ellenberg</surname><given-names>J</given-names></name></person-group>
+<year>2002</year>
+<article-title>Nuclear envelope breakdown proceeds by microtubule-induced tearing of the lamina.</article-title>
+<source>Cell</source>
+<volume>108</volume>
+<fpage>83</fpage>
+<lpage>96</lpage>
+<pub-id pub-id-type="pmid">11792323</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Tsai1">
+        <label>57</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tsai</surname><given-names>L. H</given-names></name><name><surname>Gleeson</surname><given-names>J. G</given-names></name></person-group>
+<year>2005</year>
+<article-title>Nucleokinesis in neuronal migration.</article-title>
+<source>Neuron</source>
+<volume>46</volume>
+<fpage>383</fpage>
+<lpage>388</lpage>
+<pub-id pub-id-type="pmid">15882636</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Driegen1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Driegen</surname><given-names>S</given-names></name><name><surname>Ferreira</surname><given-names>R</given-names></name><name><surname>van Zon</surname><given-names>A</given-names></name><name><surname>Strouboulis</surname><given-names>J</given-names></name><name><surname>Jaegle</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>A generic tool for biotinylation of tagged proteins in transgenic mice.</article-title>
+<source>Transgenic Res</source>
+<volume>14</volume>
+<fpage>477</fpage>
+<lpage>482</lpage>
+<pub-id pub-id-type="pmid">16201414</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Shaner1">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Shaner</surname><given-names>N. C</given-names></name><name><surname>Campbell</surname><given-names>R. E</given-names></name><name><surname>Steinbach</surname><given-names>P. A</given-names></name><name><surname>Giepmans</surname><given-names>B. N</given-names></name><name><surname>Palmer</surname><given-names>A. E</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Improved monomeric red, orange and yellow fluorescent proteins derived from Discosoma sp. red fluorescent protein.</article-title>
+<source>Nat Biotechnol</source>
+<volume>22</volume>
+<fpage>1567</fpage>
+<lpage>1572</lpage>
+<pub-id pub-id-type="pmid">15558047</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Wilhelmsen2">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilhelmsen</surname><given-names>K</given-names></name><name><surname>Litjens</surname><given-names>S. H</given-names></name><name><surname>Kuikman</surname><given-names>I</given-names></name><name><surname>Tshimbalanga</surname><given-names>N</given-names></name><name><surname>Janssen</surname><given-names>H</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Nesprin-3, a novel outer nuclear membrane protein, associates with the cytoskeletal linker protein plectin.</article-title>
+<source>J Cell Biol</source>
+<volume>171</volume>
+<fpage>799</fpage>
+<lpage>810</lpage>
+<pub-id pub-id-type="pmid">16330710</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Joseph1">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joseph</surname><given-names>J</given-names></name><name><surname>Liu</surname><given-names>S. T</given-names></name><name><surname>Jablonski</surname><given-names>S. A</given-names></name><name><surname>Yen</surname><given-names>T. J</given-names></name><name><surname>Dasso</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>The RanGAP1-RanBP2 complex is essential for microtubule-kinetochore interactions in vivo.</article-title>
+<source>Curr Biol</source>
+<volume>14</volume>
+<fpage>611</fpage>
+<lpage>617</lpage>
+<pub-id pub-id-type="pmid">15062103</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Grigoriev2">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grigoriev</surname><given-names>I</given-names></name><name><surname>Gouveia</surname><given-names>S. M</given-names></name><name><surname>van der Vaart</surname><given-names>B</given-names></name><name><surname>Demmers</surname><given-names>J</given-names></name><name><surname>Smyth</surname><given-names>J. T</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>STIM1 is a MT-plus-end-tracking protein involved in remodeling of the ER.</article-title>
+<source>Curr Biol</source>
+<volume>18</volume>
+<fpage>177</fpage>
+<lpage>182</lpage>
+<pub-id pub-id-type="pmid">18249114</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Lansbergen2">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lansbergen</surname><given-names>G</given-names></name><name><surname>Grigoriev</surname><given-names>I</given-names></name><name><surname>Mimori-Kiyosue</surname><given-names>Y</given-names></name><name><surname>Ohtsuka</surname><given-names>T</given-names></name><name><surname>Higa</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>CLASPs attach microtubule plus ends to the cell cortex through a complex with LL5beta.</article-title>
+<source>Dev Cell</source>
+<volume>11</volume>
+<fpage>21</fpage>
+<lpage>32</lpage>
+<pub-id pub-id-type="pmid">16824950</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-MimoriKiyosue1">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mimori-Kiyosue</surname><given-names>Y</given-names></name><name><surname>Grigoriev</surname><given-names>I</given-names></name><name><surname>Lansbergen</surname><given-names>G</given-names></name><name><surname>Sasaki</surname><given-names>H</given-names></name><name><surname>Matsui</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>CLASP1 and CLASP2 bind to EB1 and regulate microtubule plus-end dynamics at the cell cortex.</article-title>
+<source>J Cell Biol</source>
+<volume>168</volume>
+<fpage>141</fpage>
+<lpage>153</lpage>
+<pub-id pub-id-type="pmid">15631994</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Tanenbaum2">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tanenbaum</surname><given-names>M. E</given-names></name><name><surname>Galjart</surname><given-names>N</given-names></name><name><surname>van Vugt</surname><given-names>M. A</given-names></name><name><surname>Medema</surname><given-names>R. H</given-names></name></person-group>
+<year>2006</year>
+<article-title>CLIP-170 facilitates the formation of kinetochore-microtubule attachments.</article-title>
+<source>Embo J</source>
+<volume>25</volume>
+<fpage>45</fpage>
+<lpage>57</lpage>
+<pub-id pub-id-type="pmid">16362039</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Hutten2">
+        <label>66</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hutten</surname><given-names>S</given-names></name><name><surname>Flotho</surname><given-names>A</given-names></name><name><surname>Melchior</surname><given-names>F</given-names></name><name><surname>Kehlenbach</surname><given-names>R. H</given-names></name></person-group>
+<year>2008</year>
+<article-title>The Nup358-RanGAP complex is required for efficient importin {alpha}/{beta}-dependent nuclear import.</article-title>
+<source>Mol Biol Cell</source>
+<volume>19</volume>
+<fpage>2300</fpage>
+<lpage>2310</lpage>
+<pub-id pub-id-type="pmid">18305100</pub-id></element-citation>
+      </ref>
+      <ref id="pbio.1000350-Helfand1">
+        <label>67</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Helfand</surname><given-names>B. T</given-names></name><name><surname>Chang</surname><given-names>L</given-names></name><name><surname>Goldman</surname><given-names>R. D</given-names></name></person-group>
+<year>2004</year>
+<article-title>Intermediate filaments are dynamic and motile elements of cellular architecture.</article-title>
+<source>J Cell Sci</source>
+<volume>117</volume>
+<fpage>133</fpage>
+<lpage>141</lpage>
+<pub-id pub-id-type="pmid">14676269</pub-id></element-citation>
+      </ref>
+    </ref-list>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>AL</term>
+          <def>
+            <p>annulate lamellae</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>BICD</term>
+          <def>
+            <p>Bicaudal D</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>co-IP</term>
+          <def>
+            <p>co-immunoprecipitation</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GST</term>
+          <def>
+            <p>glutathione S-transferase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>HC</term>
+          <def>
+            <p>heavy chain</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>IC</term>
+          <def>
+            <p>intermediate chain</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MT</term>
+          <def>
+            <p>microtubule</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NE</term>
+          <def>
+            <p>nuclear envelope</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NEB</term>
+          <def>
+            <p>NE breakdown</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NPC</term>
+          <def>
+            <p>nuclear pore complex</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>STLC</term>
+          <def>
+            <p>S-trityl-L-cysteine</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

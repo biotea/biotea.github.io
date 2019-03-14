@@ -1,0 +1,1811 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:55:29Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4307672" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4307672</identifier><datestamp>2015-02-03</datestamp><setSpec>bmcbioi</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">BMC Bioinformatics</journal-id>
+      <journal-id journal-id-type="iso-abbrev">BMC Bioinformatics</journal-id>
+      <journal-title-group>
+        <journal-title>BMC Bioinformatics</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1471-2105</issn>
+      <publisher>
+        <publisher-name>BioMed Central</publisher-name>
+        <publisher-loc>London</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4307672</article-id>
+      <article-id pub-id-type="pmcid">PMC4307672</article-id>
+      <article-id pub-id-type="pmc-uid">4307672</article-id>
+      <article-id pub-id-type="pmid">25547411</article-id>
+      <article-id pub-id-type="pmid">25547411</article-id>
+      <article-id pub-id-type="publisher-id">440</article-id>
+      <article-id pub-id-type="doi">10.1186/s12859-014-0440-9</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Methodology Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Identifying tandem Ankyrin repeats in protein structures</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Chakrabarty</surname>
+            <given-names>Broto</given-names>
+          </name>
+          <address>
+            <email>broto.chakrabarty@research.iiit.ac.in</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes" equal-contrib="yes">
+          <name>
+            <surname>Parekh</surname>
+            <given-names>Nita</given-names>
+          </name>
+          <address>
+            <email>nita@iiit.ac.in</email>
+          </address>
+          <xref ref-type="aff" rid="Aff1"/>
+        </contrib>
+        <aff id="Aff1">Centre for Computational Natural Sciences and Bioinformatics, International Institute of Information Technology, Hyderabad, India </aff>
+      </contrib-group>
+      <pub-date pub-type="epub">
+        <day>30</day>
+        <month>12</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>30</day>
+        <month>12</month>
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <volume>15</volume>
+      <issue>1</issue>
+      <elocation-id>6599</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>9</day>
+          <month>7</month>
+          <year>2014</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>12</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© Chakrabarty and Parekh; licensee BioMed Central. 2014</copyright-statement>
+        <license license-type="open-access">
+          <license-p>This is an Open Access article distributed under the terms of the Creative Commons Attribution License (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0">http://creativecommons.org/licenses/by/4.0</ext-link>), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly credited. The Creative Commons Public Domain Dedication waiver (<ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/publicdomain/zero/1.0/">http://creativecommons.org/publicdomain/zero/1.0/</ext-link>) applies to the data made available in this article, unless otherwise stated.</license-p>
+        </license>
+      </permissions>
+      <abstract id="Abs1">
+        <sec>
+          <title>Background</title>
+          <p>Tandem repetition of structural motifs in proteins is frequently observed across all forms of life. Topology of repeating unit and its frequency of occurrence are associated to a wide range of structural and functional roles in diverse proteins, and defects in repeat proteins have been associated with a number of diseases. It is thus desirable to accurately identify specific repeat type and its copy number. Weak evolutionary constraints on repeat units and insertions/deletions between them make their identification difficult at the sequence level and structure based approaches are desired. The proposed graph spectral approach is based on protein structure represented as a graph for detecting one of the most frequently observed structural repeats, Ankyrin repeat.</p>
+        </sec>
+        <sec>
+          <title>Results</title>
+          <p>It has been shown in a large number of studies that 3-dimensional topology of a protein structure is well captured by a graph, making it possible to analyze a complex protein structure as a mathematical entity. In this study we show that eigen spectra profile of a protein structure graph exhibits a unique repetitive profile for contiguous repeating units enabling the detection of the repeat region and the repeat type. The proposed approach uses a non-redundant set of 58 Ankyrin proteins to define rules for the detection of Ankyrin repeat motifs. It is evaluated on a set of 370 proteins comprising 125 known Ankyrin proteins and remaining non-solenoid proteins and the prediction compared with UniProt annotation, sequence-based approach, RADAR, and structure-based approach, ConSole. To show the efficacy of the approach, we analyzed the complete PDB structural database and identified 641 previously unrecognized Ankyrin repeat proteins. We observe a unique eigen spectra profile for different repeat types and show that the method can be easily extended to detect other repeat types. It is implemented as a web server, AnkPred. It is freely available at <italic>âbioinf.iiit.ac.in/AnkPredâ</italic>.</p>
+        </sec>
+        <sec>
+          <title>Conclusions</title>
+          <p>AnkPred provides an elegant and computationally efficient graph-based approach for detecting Ankyrin structural repeats in proteins. By analyzing the eigen spectra of the protein structure graph and secondary structure information, characteristic features of a known repeat family are identified. This method is especially useful in correctly identifying new members of a repeat family.</p>
+        </sec>
+        <sec>
+          <title>Electronic supplementary material</title>
+          <p>The online version of this article (doi:10.1186/s12859-014-0440-9) contains supplementary material, which is available to authorized users.</p>
+        </sec>
+      </abstract>
+      <kwd-group xml:lang="en">
+        <title>Keywords</title>
+        <kwd>Ankyrin repeat</kwd>
+        <kwd>Protein contact network</kwd>
+        <kwd>Graph theory</kwd>
+      </kwd-group>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>issue-copyright-statement</meta-name>
+          <meta-value>Â© The Author(s) 2014</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="Sec1" sec-type="introduction">
+      <title>Background</title>
+      <p>In this study we address an important pattern recognition problem in protein structures, <italic>viz</italic>. the identification of structural tandem repeats. Repeats are ubiquitous in protein sequences and vary considerably from single amino acid repetitions, e.g., runs of glutamine in the protein huntingtin, to large globular domains of size 100 or more residues that fold independently [<xref ref-type="bibr" rid="CR1">1</xref>]. The structural classification of repetitive proteins based on the repeat lengths and the possible 3-dimensional structure of these proteins has been given by Kajava (2001) [<xref ref-type="bibr" rid="CR2">2</xref>]. Repeats of intermediate length of 20â50 amino acids are most commonly observed in proteins to form integrated assemblies providing multiple binding sites. This class of non-globular repeat proteins form various 3-dimensional folds, <italic>viz.</italic>, spirals, solenoids, closed structures, etc. [<xref ref-type="bibr" rid="CR3">3</xref>]. Examples of such repeats include leucine-rich repeat (LRR), Ankyrin repeat (ANK), armadillo (ARM) /HEAT repeat, tetratricopeptide repeat (TPRs), Kelch repeat, etc.</p>
+      <p>Earlier approaches for the identification of repeats in protein sequences range from methods based on Fourier analysis of amino acid sequences [<xref ref-type="bibr" rid="CR4">4</xref>-<xref ref-type="bibr" rid="CR7">7</xref>], to short-string searches [<xref ref-type="bibr" rid="CR8">8</xref>,<xref ref-type="bibr" rid="CR9">9</xref>], sequence-alignment based approaches [<xref ref-type="bibr" rid="CR10">10</xref>-<xref ref-type="bibr" rid="CR13">13</xref>], and HMM-profile based methods [<xref ref-type="bibr" rid="CR14">14</xref>,<xref ref-type="bibr" rid="CR15">15</xref>]. The Fourier transform methods fail in the presence of insertions between the repeating units, while the performance of the alignment-based methods fail when there is weak, non-detectable similarity between the repeating units. A comprehensive review of the sequence-based approaches for the detection of protein repeats is given by Kajava (2012) [<xref ref-type="bibr" rid="CR3">3</xref>]. As each copy of a repeat accumulates independent uncoordinated mutations over the evolution, weak similarities between repeated copies make their identification difficult and in certain cases non-detectable by the sequence-based approaches. The low similarities imply that the functional constraints on individual repeats are relatively weak when compared to the constraints imposed on the repeat assembly as a whole. Since proteins are more conserved at the structure level, their identification at the structural level is desirable. Over the last decade various structure based methods have been proposed to predict internal repeats in protein structures. The earlier approaches, DAVROS [<xref ref-type="bibr" rid="CR16">16</xref>] and OPASS [<xref ref-type="bibr" rid="CR17">17</xref>], based on structure-structure alignment of protein to itself, are computationally very intensive. Both these algorithms are no longer maintained, nor is the Propeat Database [<xref ref-type="bibr" rid="CR18">18</xref>] constructed using OPASS algorithm. Swelfe [<xref ref-type="bibr" rid="CR19">19</xref>] and ProSTRIP [<xref ref-type="bibr" rid="CR20">20</xref>] methods are based on the self-alignment of the sequence of Î± characters (the backbone dihedral angles) using dynamic programming for detecting internal structural repeats. These methods, based on the periodicity of dihedral angles (as a result of repetition of secondary structure elements), fail in case of large insertions/deletions. The Internal Repeat Identification System (IRIS) performs both sequence-based and structure-based approach for identifying internal repeats. When structural information for a protein is available, it verifies the sequence-based prediction by structure-comparison within itself, or with their benchmark database of internal repeat units [<xref ref-type="bibr" rid="CR21">21</xref>]. Another recent method based on the distribution of the structural alignment of continuous fragments is given by Parra et al. [<xref ref-type="bibr" rid="CR22">22</xref>]. RAPHAEL, based on Fourier analysis of C<sub>Î±</sub> coordinates in combination with support vector machine (SVM), tries to mimic visual interpretation of a manual expert and classifies a protein into solenoid/non-solenoid class [<xref ref-type="bibr" rid="CR23">23</xref>]. A large number of novel solenoid repeat proteins have been identified by this approach. With a large number of protein structures now available, reliable automatic methods of analyses are required. Algorithms from computer science have been widely used for identifying biological patterns and concepts from graph theory have been promising. ConSole [<xref ref-type="bibr" rid="CR24">24</xref>] is one such recent method which transforms the protein structure into a network and implements a rule based machine learning technique to identify solenoid repeats in proteins. Its performance on benchmark datasets is shown by the authors to be better than RAPHAEL. Here we propose a computationally efficient algorithm for the identification of an important class of protein repeat family, <italic>viz</italic>., Ankyrin (ANK) repeats, based on graph theory and secondary structure architecture of the repeating unit. The proposed approach is observed to perform better compared to ConSole especially in identifying the terminal repeats on the dataset of known ANK repeat proteins. The complete Protein Data Bank (PDB) structures are also analyzed to identify previously unrecognized ANK repeat proteins.</p>
+      <p>The particular architecture of proteins containing repeats make them attractive targets for protein engineering, being involved in innumerable biological processes as binding molecules, <italic>viz</italic>., cell-cycle regulation, transcriptional regulation, cell differentiation, apoptosis, plant defence or bacterial invasion [<xref ref-type="bibr" rid="CR25">25</xref>]. The design and engineering of repeat proteins may help to elucidate their structural and biophysical properties, such as the dependence of stability and folding on the number of repeats, as well as the importance of key intra- and inter-repeat interactions and hence considerable effort is being made in this direction. This can have important biotechnological or medical applications. So far, consensus based on multiple sequence alignment of homologous proteins has been used for the design of repeat proteins. However, because of low sequence similarity among repeating motifs, and their occurrence in non-homologous proteins, identifying repeats at the structural level and building the consensus on structure-based multiple alignment of repeating units will be more reliable. And identification of repeats at the structural level forms the first step in this direction.</p>
+      <p>The design and engineering of a number of repeat proteins has been carried out, e.g., ANK (called DARPins), TPR and LRR. In this paper we present in detail the training and performance of the proposed approach on ANK repeat proteins and then show that it can be extended for the detection of other repeats proteins, TPR, LRR, ARM/HEAT and Kelch. Below we briefly discuss the feature and function of ANK and other repeats.</p>
+      <sec id="Sec2">
+        <title>Ankyrin repeat</title>
+        <p>The Ankyrin repeat (ANK) is one of the most frequently observed structural motifs in proteins, especially in eukaryotes. It was first discovered in signalling proteins in yeast cell cycle regulator Cdc10 containing 24 copies of this repeat. In general, 4 to 6 copies of the repeat stack onto each other to form an elongated structure with a continuous hydrophobic core and a large solvent-accessible surface [<xref ref-type="bibr" rid="CR26">26</xref>]. The protein-protein interaction module is involved in a diverse set of cellular functions, such as transcriptional initiators, cell-cycle regulators, cytoskeletal, ion transporters and signal transducers, and consequently, defects in Ankyrin repeat proteins have been associated with a number of human diseases [<xref ref-type="bibr" rid="CR27">27</xref>]. For example, mutation in the ANK1 gene producing the erythrocyte ankyrin protein may lead to hereditary spherocytosis [<xref ref-type="bibr" rid="CR28">28</xref>]. Each repeat typically consists of 30â34 amino acid residues comprising two anti-parallel Î±-helices and a long loop ending in a Î²-hairpin (shown in FigureÂ <xref rid="Fig1" ref-type="fig">1</xref>(a)) and schematically in FigureÂ <xref rid="Fig1" ref-type="fig">1</xref>(b), forming a scaffold for specific, high-affinity molecular interactions. In contrast to many other protein-protein binding motifs, it has been observed that the Ankyrin repeat motif is better characterized by its tertiary structure rather than by a specific function, because of the pronounced sequence variation in the individual repeats and in the copy number variation across various protein families.<fig id="Fig1"><label>Figure 1</label><caption><p>
+<bold>Ankyrin repeat motif. (a)</bold> The second copy of the ANK structural motif in designed protein 1N0R. <bold>(b)</bold> Schematic diagram showing the secondary structure arrangement in the ANK motif. <bold>(c)</bold> The principal eigenvector of adjacency matrix plotted for the ANK motif in <bold>(a)</bold>.</p></caption><graphic xlink:href="12859_2014_440_Fig1_HTML" id="MO1"/></fig></p>
+      </sec>
+      <sec id="Sec3">
+        <title>Other repeats</title>
+        <p>The analysis of the proposed graph based approach is also discussed for other repeat types, such as Tetratricopeptide repeat (TPR), Armadillo (ARM), Leucine-rich repeat (LRR) and Kelch. The example repeats have been chosen to represent different structural classes Î±, Î² and Î±/Î², with some, such as TPR very similar to the ANK motif, while LRR and Kelch that have very different repeat lengths and architecture compared to ANK motif. A TPR motif is 34 residues long Î±-domain motif with two anti-parallel Î± helices forming the helix-turn-helix core of the repeat and the contiguous repeating units stack to form a super-helical structure [<xref ref-type="bibr" rid="CR29">29</xref>]. ARM is another example of Î±-domain repeat, typically 42 residues with each repeat unit comprising three helices and the contiguous repeats form super-helical structure [<xref ref-type="bibr" rid="CR30">30</xref>]. Kelch repeat forms a Î² propeller structure with 44â56 residues constituting 4â6 anti-parallel Î² strands in each repeat unit [<xref ref-type="bibr" rid="CR31">31</xref>]. A typical LRR repeat unit with an anti-parallel helix-strand motif 24 residues long is an example of Î±/Î² domain motif and contiguous copies form a horse-shoe like structure [<xref ref-type="bibr" rid="CR32">32</xref>]. Typically a repeat protein contains 4â8 copies of repeat, but higher copies are also observed depending on the function of the protein. The arrangement of repeating units in each of the repeat types provides structural stability and forms binding pockets for a wide range of protein-protein interactions.</p>
+      </sec>
+    </sec>
+    <sec id="Sec4" sec-type="materials|methods">
+      <title>Methods</title>
+      <p>To represent the 3-dimensional protein structure as a graph, we consider the backbone <italic>C</italic><sub>Î±</sub> carbon atoms as nodes and draw edges between them if they are within a cut-off distance, <italic>R</italic><sub><italic>c</italic></sub> (~7Â Ã) [<xref ref-type="bibr" rid="CR33">33</xref>]. The choice of <italic>R</italic><sub><italic>c</italic></sub> depends on the kind of interactions considered and for graphs constructed using <italic>C</italic><sub>Î±</sub>, the value of <italic>R</italic><sub><italic>c</italic></sub> is typically chosen to be around two times the peptide bond-length to include all possible non-covalent interactions that are known to play a significant role in protein folding. The graph thus constructed is commonly referred to as a <italic>protein contact network</italic> (PCN) or <italic>protein structure graph</italic> (PSG) in literature and the connectivity information of <italic>n</italic> nodes (residues) is represented by a symmetric <italic>nâÃân</italic> adjacency matrix of the graph, whose elements, <italic>A</italic><sub><italic>ij</italic></sub>, are given by:<disp-formula id="Equa"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+						$$ {A}_{ij}=1,\  if\ {d}_{ij}\le {R}_c\  and\ i\ne j $$
+					\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M2"><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>1</mml:mn><mml:mo>,</mml:mo><mml:mspace width="0.25em"/><mml:mi mathvariant="italic">if</mml:mi><mml:mspace width="0.25em"/><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>â¤</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mspace width="0.25em"/><mml:mi mathvariant="italic">and</mml:mi><mml:mspace width="0.25em"/><mml:mi>i</mml:mi><mml:mo>â </mml:mo><mml:mi>j</mml:mi></mml:math><graphic xlink:href="12859_2014_440_Article_Equa.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equb"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+						$$ {A}_{ij}=0,\  if\ {d}_{ij}&gt;{R}_c\  or\ i=j $$\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M4"><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:mn>0</mml:mn><mml:mo>,</mml:mo><mml:mspace width="0.25em"/><mml:mi mathvariant="italic">if</mml:mi><mml:mspace width="0.25em"/><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>&gt;</mml:mo><mml:msub><mml:mi>R</mml:mi><mml:mi>c</mml:mi></mml:msub><mml:mspace width="0.25em"/><mml:mi mathvariant="italic">or</mml:mi><mml:mspace width="0.25em"/><mml:mi>i</mml:mi><mml:mo>=</mml:mo><mml:mi>j</mml:mi></mml:math><graphic xlink:href="12859_2014_440_Article_Equb.gif" position="anchor"/></alternatives></disp-formula></p>
+      <p>where <inline-formula id="IEq1"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+						$$ {d}_{ij}=\sqrt{{\left({x}_i-{x}_j\right)}^2+{\left({y}_i-{y}_j\right)}^2+{\left({z}_i-{z}_j\right)}^2} $$
+					\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M6"><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:mo>=</mml:mo><mml:msqrt><mml:mrow><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>â</mml:mo><mml:msub><mml:mi>x</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>y</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>â</mml:mo><mml:msub><mml:mi>y</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup><mml:mo>+</mml:mo><mml:msup><mml:mfenced close=")" open="("><mml:mrow><mml:msub><mml:mi>z</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>â</mml:mo><mml:msub><mml:mi>z</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:mrow></mml:mfenced><mml:mn>2</mml:mn></mml:msup></mml:mrow></mml:msqrt></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq1.gif"/></alternatives></inline-formula> is the Euclidean distance between (<italic>i, j</italic>) pair, (<italic>x</italic><sub><italic>i</italic></sub><italic>, y</italic><sub><italic>i</italic></sub><italic>, z</italic><sub><italic>i</italic></sub>) the coordinates of the <italic>i</italic><sup><italic>th</italic></sup><italic>C</italic><sub>Î±</sub> carbon atom, and <italic>i, j</italic>â=â1, 2 â¦ <italic>n</italic>, <italic>n</italic> being the number of <italic>C</italic><sub>Î±</sub> atoms (nodes) in the graph. Nodes joined by an edge are called <italic>adjacent</italic>, and the degree of the <italic>i</italic><sup><italic>th</italic></sup> node is defined as the number of its adjacent nodes: <inline-formula id="IEq2"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+						$$ {k}_i={\displaystyle \sum_j}{A}_{ij} $$
+					\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M8"><mml:msub><mml:mi>k</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mstyle displaystyle="true"><mml:munder><mml:mo stretchy="true">â</mml:mo><mml:mi>j</mml:mi></mml:munder></mml:mstyle><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq2.gif"/></alternatives></inline-formula>. It may be noticed that the 3-dimensional topology of the designed Ankyrin protein, 1N0R (FigureÂ <xref rid="Fig2" ref-type="fig">2</xref>(a)) is captured very well by the protein contact network constructed using <italic>C</italic><sub>Î±</sub> atoms as nodes in FigureÂ <xref rid="Fig2" ref-type="fig">2</xref>(b).<fig id="Fig2"><label>Figure 2</label><caption><p>
+<bold>Designed protein 1N0R (chain A).</bold>
+<bold>(a)</bold> 3-D structure, and <bold>(b)</bold> protein contact network.</p></caption><graphic xlink:href="12859_2014_440_Fig2_HTML" id="MO2"/></fig></p>
+      <p>The degree gives the connectivity information of each node in the graph but all connections are not equal in the sense that, nodes connected to highly connected nodes contribute more compared to those connected to ones with fewer connections. This information is captured in the eigen spectra of the adjacency matrix. The principal eigen vector components (corresponding to the largest eigen value) captures not only the connectivity of a node but also that of nodes adjacent to it, and nodes adjacent to its neighbours, and so on [<xref ref-type="bibr" rid="CR34">34</xref>,<xref ref-type="bibr" rid="CR35">35</xref>]. Thus, if <italic>x</italic><sub><italic>i</italic></sub> is the weight of the vertex <italic>i</italic>, then<disp-formula id="Equc"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+						$$ {x}_i=\frac{1}{\lambda }{\displaystyle \sum_{j=1}^n}{A}_{ij}{x}_j $$
+					\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M10"><mml:msub><mml:mi>x</mml:mi><mml:mi>i</mml:mi></mml:msub><mml:mo>=</mml:mo><mml:mfrac><mml:mn>1</mml:mn><mml:mi>Î»</mml:mi></mml:mfrac><mml:mstyle displaystyle="true"><mml:munderover><mml:mo stretchy="true">â</mml:mo><mml:mrow><mml:mi>j</mml:mi><mml:mo>=</mml:mo><mml:mn>1</mml:mn></mml:mrow><mml:mi>n</mml:mi></mml:munderover></mml:mstyle><mml:msub><mml:mi>A</mml:mi><mml:mrow><mml:mi>i</mml:mi><mml:mi>j</mml:mi></mml:mrow></mml:msub><mml:msub><mml:mi>x</mml:mi><mml:mi>j</mml:mi></mml:msub></mml:math><graphic xlink:href="12859_2014_440_Article_Equc.gif" position="anchor"/></alternatives></disp-formula></p>
+      <p>where Î» is a constant. This can be written in the matrix form as<disp-formula id="Equd"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+						$$ AX=\lambda X $$
+					\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M12"><mml:mi mathvariant="italic">AX</mml:mi><mml:mo>=</mml:mo><mml:mi>Î»</mml:mi><mml:mi>X</mml:mi></mml:math><graphic xlink:href="12859_2014_440_Article_Equd.gif" position="anchor"/></alternatives></disp-formula></p>
+      <p>where, <italic>X</italic> is the eigenvector of adjacency matrix, <italic>A</italic>, with eigenvalue Î». Thus <italic>x</italic><sub><italic>i</italic></sub>, which depends on both the number and quality of connections, is proportional to the average of the centrality of its adjacent neighbours and is called the <italic>eigenvector centrality</italic> of the graph. It assigns relative scores to all the nodes in the network based on the principle that connections to high scoring nodes contribute more. In our earlier work, we carried out a comparative analysis of various graph centrality measures to identify tandemly repeated structural motifs. We observed that the principal eigenvector of the adjacency matrix was able to reliably capture the repetitive pattern of the structural units [<xref ref-type="bibr" rid="CR36">36</xref>]. Below we present our proposed approach based on this eigenvector centrality.</p>
+      <sec id="Sec5">
+        <title>Dataset</title>
+        <p>In this study, a total of 125 Ankyrin repeat proteins were manually collected from Pfam [<xref ref-type="bibr" rid="CR37">37</xref>], PROSITE (release 20.103) [<xref ref-type="bibr" rid="CR38">38</xref>] and UniProt (release 2014_05) databases [<xref ref-type="bibr" rid="CR39">39</xref>], and 5 designed Ankyrin proteins from the SCOP database (release 1.75) [<xref ref-type="bibr" rid="CR40">40</xref>]. This is a redundant set with one or more structures corresponding to the same UniProt sequence. From this set, the training dataset of 58 proteins was constructed by considering the structure with highest resolution and maximum sequence coverage from each cluster of proteins corresponding to unique UniProt entries. For testing the performance of the algorithm, a total set of 370 proteins was taken comprising 125 known ANK repeat proteins (positive test set) and 245 non-solenoid proteins (negative test set), the benchmark dataset used by ConSole (<ext-link ext-link-type="uri" xlink:href="http://console.sanfordburnham.org/GT/index.html">http://console.sanfordburnham.org/GT/index.html</ext-link>). The complete set of 98,341 protein structures from Protein Data Bank (as of June 17, 2014) [<xref ref-type="bibr" rid="CR41">41</xref>] was downloaded for detecting new Ankyrin repeat proteins.</p>
+      </sec>
+      <sec id="Sec6">
+        <title>Algorithm</title>
+        <p>The typical architecture of Ankyrin repeat motif is helix-turn-helix with the two helices anti-parallel and followed by a long variable loop which ends in a beta-turn, shown in FigureÂ <xref rid="Fig1" ref-type="fig">1</xref>(a,b) and the eigenvector components of the principal eigenvalue of the adjacency matrix (<italic>A</italic><sub><italic>levc</italic></sub>) is shown in FigureÂ <xref rid="Fig1" ref-type="fig">1</xref>(c). The two peaks marked in FigureÂ <xref rid="Fig1" ref-type="fig">1</xref>(c) fall within the helix regions and their large <italic>A</italic><sub><italic>levc</italic></sub> values are due to dense connections in the compact helical structures. A designed protein 1N0R (chain A) with four ANK repeats is shown in FigureÂ <xref rid="Fig2" ref-type="fig">2</xref>(a) and its protein contact network in FigureÂ <xref rid="Fig2" ref-type="fig">2</xref>(b). The 3-dimensional topology is well captured by the <italic>A</italic><sub><italic>levc</italic></sub> profile for each repeat unit as shown in FigureÂ <xref rid="Fig3" ref-type="fig">3</xref>(a) for protein 1N0R. Based on secondary structure annotation as provided by STRIDE [<xref ref-type="bibr" rid="CR42">42</xref>], we observe that both the helices and loop regions exhibit significant variation in their lengths as a result of insertions/deletions and is summarized in TableÂ <xref rid="Tab1" ref-type="table">1</xref>.<fig id="Fig3"><label>Figure 3</label><caption><p>
+<bold>Plot of principal eigenvectors of the adjacency matrix (</bold>
+<bold><italic>A</italic></bold>
+<sub><bold><italic>levc</italic></bold></sub>
+<bold>) for designed protein 1N0R. (a)</bold> The principal eigenvectors of the adjacency matrix (<italic>A</italic>
+<sub><italic>levc</italic></sub>) for designed protein 1N0R is shown. The start and end of each repeat are indicated by dotted and solid lines respectively. <bold>(b)</bold> The overlap of <italic>A</italic>
+<sub><italic>levc</italic></sub> profile for the repeat regions is shown. The points in different shapes correspond to the secondary structure elements.</p></caption><graphic xlink:href="12859_2014_440_Fig3_HTML" id="MO3"/></fig><table-wrap id="Tab1"><label>Table 1</label><caption><p>
+<bold>Characteristic features of Ankyrin repeat proteins</bold>
+</p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th>
+<bold>Length</bold>
+</th><th>
+<bold>1</bold>
+<sup><bold>st</bold></sup>
+<bold>helix</bold>
+</th><th>
+<bold>turn/coil</bold>
+</th><th>
+<bold>2</bold>
+<sup><bold>nd</bold></sup>
+<bold>helix</bold>
+</th><th>
+<bold>H-T-H core</bold>
+</th><th>
+<bold>Dist. between peak positions</bold>
+</th><th>
+<bold>ANK motif</bold>
+</th></tr></thead><tbody><tr valign="top"><td>
+<bold>Maximum</bold>
+</td><td align="left">12</td><td align="left">8</td><td align="left">21</td><td align="left">34</td><td align="left">15</td><td align="left">49</td></tr><tr valign="top"><td>
+<bold>Minimum</bold>
+</td><td align="left">3</td><td align="left">1</td><td align="left">4</td><td align="left">13</td><td align="left">5</td><td align="left">19</td></tr><tr valign="top"><td>
+<bold>Mean</bold>
+</td><td align="left">7.7</td><td align="left">2.4</td><td align="left">9.8</td><td align="left">20</td><td align="left">8.6</td><td align="left">31.2</td></tr></tbody></table><table-wrap-foot><p>Variations in the length of the secondary structure elements and the distance between two peaks in the <italic>A</italic>
+<sub><italic>levc</italic></sub> profile of the ANK motif for a dataset of 58 non-redundant protein structures is summarized.</p></table-wrap-foot></table-wrap></p>
+        <p>The algorithm proceeds by parsing the STRIDE secondary structure assignment along the length of protein to look for helix-turn-helix motif (<italic>H</italic><sub>1</sub><italic>TH</italic><sub>2</sub>) satisfying the following criteria:<list list-type="order"><list-item><p>The two helices are anti-parallel. Since the lengths of the two helices in ANK motif are comparable, a simple distance measure <inline-formula id="IEq3"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+											$$ {d}_{S_1{E}_2}&lt;{d}_{E_1{E}_2} $$
+										\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M14"><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:msub><mml:mi>S</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>E</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msub><mml:mo>&lt;</mml:mo><mml:msub><mml:mi>d</mml:mi><mml:mrow><mml:msub><mml:mi>E</mml:mi><mml:mn>1</mml:mn></mml:msub><mml:msub><mml:mi>E</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:mrow></mml:msub></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq3.gif"/></alternatives></inline-formula> is used to confirm that the two helices are anti-parallel; <italic>S</italic><sub>1</sub>: start of <italic>H</italic><sub>1;</sub><italic>E</italic><sub>1</sub>, <italic>E</italic><sub><italic>2</italic></sub>: end of <italic>H</italic><sub>1</sub>, <italic>H</italic><sub>2</sub>.</p></list-item><list-item><p>In the <italic>A</italic><sub><italic>levc</italic></sub> profile, <inline-formula id="IEq4"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+											$$ {A}_{H_1}&gt;{A}_{H_2} $$\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M16"><mml:msub><mml:mi>A</mml:mi><mml:msub><mml:mi>H</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:msub><mml:mo>&gt;</mml:mo><mml:msub><mml:mi>A</mml:mi><mml:msub><mml:mi>H</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:msub></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq4.gif"/></alternatives></inline-formula>, where <inline-formula id="IEq5"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+											$$ {A}_{H_1} $$
+										\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M18"><mml:msub><mml:mi>A</mml:mi><mml:msub><mml:mi>H</mml:mi><mml:mn>1</mml:mn></mml:msub></mml:msub></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq5.gif"/></alternatives></inline-formula>, <inline-formula id="IEq6"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+											$$ {A}_{H_2} $$
+										\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M20"><mml:msub><mml:mi>A</mml:mi><mml:msub><mml:mi>H</mml:mi><mml:mn>2</mml:mn></mml:msub></mml:msub></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq6.gif"/></alternatives></inline-formula>: average magnitude of <italic>A</italic><sub><italic>levc</italic></sub> in <italic>H</italic><sub>1</sub>, <italic>H</italic><sub>2</sub>. This condition confirms that the first helix, <italic>H</italic><sub>1</sub>, of the ANK motif is buried inside while the second helix, <italic>H</italic><sub>2</sub>, lies on the outer surface.</p></list-item><list-item><p>Distance between the peak positions of the two helices in the <italic>A</italic><sub><italic>levc</italic></sub> profile ranges between 5 â 15 residues, to accommodate insertions/deletions in the individual secondary structure elements (TableÂ <xref rid="Tab1" ref-type="table">1</xref>).</p></list-item><list-item><p>Length of helix-turn-helix core is at least 13, as each helix is at least 4â6 residues and a coil in between of at least 2 residues. (TableÂ <xref rid="Tab1" ref-type="table">1</xref>).</p></list-item></list></p>
+        <p>Once the presence of an ANK motif is predicted by the above criteria, we define its start-end boundaries as follows. In earlier studies on constructing the consensus for designed ANK repeat proteins, the first helix is considered to start at the 5<sup>th</sup> residue of the Ankyrin repeat [<xref ref-type="bibr" rid="CR26">26</xref>]. We observed this to be true in 78% of ANK motifs annotated in the UniProt database (of the remaining 22%, ~53% are terminal repeats, which are generally incomplete). Hence, we define â- 4â position from the start of the 1<sup>st</sup> helix (based on STRIDE annotation) as the <italic>start</italic> of the Ankyrin repeat. To define the end of the ANK motif, we look for a beta-turn from the end of the 2<sup>nd</sup> helix to the start of the next repeat or 15 residues (whichever is lower). The position in the turn having the lowest <italic>A</italic><sub><italic>levc</italic></sub> value is considered as the end of the repeat region. In some cases the terminal repeat is at the end of the protein chain and has no Î² turn, in such cases the end of the protein is taken as the end of the terminal repeat. Finally, if at least two contiguous ANK repeats are identified within a threshold distance (â¤17, half of a typical ANK motif), tandem ANK repeat region is reported.</p>
+      </sec>
+      <sec id="Sec7">
+        <title>Implementation details</title>
+        <p>We have developed a web server for the identification of tandem repeats in protein structures by implementing the above algorithm. Python scripts are developed to automate the entire process involving construction of protein contact network, computing the eigen spectra [<xref ref-type="bibr" rid="CR43">43</xref>], and obtaining secondary structure assignment using STRIDE. An implementation of the algorithm with a simple graphical output is deployed as a Web server for detecting ANK repeats, named as Ankyrin Repeat Identification by Graph Spectral Analysis (AnkPred) and is freely accessible at: <ext-link ext-link-type="uri" xlink:href="http://bioinf.iiit.ac.in/AnkPred/">http://bioinf.iiit.ac.in/AnkPred/</ext-link>. A user can enter a PDB Id or upload a structure in PDB format as input and identify ANK repeats by choosing the chain (default A). The output of the tool gives the number of predicted repeat copies, the coordinates of the repeat units and the 3-dimensional structure of the protein with each repeat unit highlighted in a different color, the non-repeat region being in grey. The overall complexity of the algorithm is O(2|<italic>n</italic>|â+â|<italic>e</italic>|â+â|<italic>h</italic>|), where <italic>n</italic> is the number of nodes (<italic>C</italic><sub><italic>Î±</italic></sub> atoms) in the network, <italic>e</italic> the number of edges in the network and <italic>h</italic> the total number of helices in the protein structure. The algorithm is computationally very efficient and the time taken to analyze the dataset of 370 proteins on a Intel(R) Coreâ¢ i5 processor with 4GB RAM isâ~â6 and Â½âminutes.</p>
+      </sec>
+    </sec>
+    <sec id="Sec8" sec-type="results">
+      <title>Results and discussion</title>
+      <p>Here we present the analysis of the proposed algorithm on a representative set of fifteen ANK repeat proteins (TableÂ <xref rid="Tab2" ref-type="table">2</xref>). We first discuss in detail our analysis on a designed ANK protein, 1N0R (chain A), comprising four exact ANK repeats in tandem as shown in FigureÂ <xref rid="Fig2" ref-type="fig">2</xref>(a) and its protein contact network given in FigureÂ <xref rid="Fig2" ref-type="fig">2</xref>(b). The principal eigenvectors of the adjacency matrix, <italic>A</italic><sub><italic>levc</italic></sub>, for designed ANK protein 1N0R is plotted in FigureÂ <xref rid="Fig3" ref-type="fig">3</xref>(a). A clear repetitive pattern in the <italic>A</italic><sub><italic>levc</italic></sub> profile is observed in the four repeat regions (dashed and solid vertical lines correspond to start-end repeat boundaries based on RADAR output). This is clearly seen by overlapping the <italic>A</italic><sub><italic>levc</italic></sub> profile for the individual repeat copies in FigureÂ <xref rid="Fig3" ref-type="fig">3</xref>(b) after normalizing with the largest peak in each repeat copy. The prediction is good both in terms of the copy number and start-end boundaries of the repeat regions compared with the sequence-based tool RADAR (see TableÂ <xref rid="Tab2" ref-type="table">2</xref>), while two repeat copies are missed by the structure based program ConSole, even in the case of designed ANK protein. The multiple sequence alignments (MSA) of the repeat regions predicted by our approach, RADAR and ConSole are shown in FigureÂ <xref rid="Fig4" ref-type="fig">4</xref>(a), (b) and (c) respectively using CLUSTALW [<xref ref-type="bibr" rid="CR44">44</xref>]. The MSA of the individual copies in both the cases is very well-conserved and in good agreement.<table-wrap id="Tab2"><label>Table 2</label><caption><p>
+<bold>Prediction of repeat regions for a representative set of 15 proteins compared with UniProt annotation, RADAR and ConSole output</bold>
+</p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th>
+<bold>Protein name</bold>
+</th><th>
+<bold>PDB (chain)</bold>
+</th><th>
+<bold>UniProt annotation</bold>
+</th><th>
+<bold>RADAR</bold>
+</th><th>
+<bold>ConSole</bold>
+</th><th>
+<bold>AnkPred</bold>
+</th></tr></thead><tbody><tr valign="top"><td>3ANK</td><td>1N0Q (A)</td><td>-</td><td>3-35, 36â68, 69-92</td><td align="left">21-52</td><td>3-33, 34â67, 68-93</td></tr><tr valign="top"><td>4ANK</td><td>1N0R (A)</td><td>-</td><td>1-33, 34â66, 67â99, 100-125</td><td>21-52, 53-84</td><td>1-33, 34â66, 67â100, 101-126</td></tr><tr valign="top"><td>Protein phosphatase 1 regulatory subunit 12A</td><td>1S70 (B)</td><td>39-68, 72â101, 105â134, 138â164, 198â227, 231-260</td><td>47-73, 77â106, 110â139, 203â232, 236-265</td><td>44-74, 75â105, 106â136, 137â167, 175â205, 206â236, 237-267</td><td>36-71, 72â104, 105â138, 198â231, 232-267</td></tr><tr valign="top"><td>Mouse GABP Î±/Î²domain</td><td>1AWC (B)</td><td>5-34, 37â66, 70â99, 103â132, 136-166</td><td>13-34, 40â67, 73â100, 106-133</td><td>16-47, 48â79, 80-111</td><td>5-36, 37â69, 70â103, 104â136, 137-157</td></tr><tr valign="top"><td>TRPV6 Ankyrin repeat domain</td><td>2RFA (A)</td><td>44-74, 78â107, 116â145, 162â191, 195â236, 238-267</td><td>46-91, 93â129, 164-208</td><td align="left">117-132</td><td>44-77, 78â114, 116â142, 162â194, 195â237, 238-265</td></tr><tr valign="top"><td>Yeast Nas6p complex with proteasome subunit, rpt3</td><td>2DZN (A)</td><td>1-30, 35â64, 71â100, 106â135, 139â168, 173-203</td><td>5-37, 38â70, 74â106, 109â141, 142-175</td><td>13-44, 45â76, 77â108, 112â143, 144â175, 176-207</td><td>3-34, 35â70, 71â105, 106â138, 139â172, 173â207, 208-228</td></tr><tr valign="top"><td>D34 of human Ankyrin-R</td><td>1Â N11 (A)</td><td>403-432, 436â465, 469â498, 502â531, 535â564, 568â597, 601â630, 634â663, 667â696, 700â729, 733â762, 766-795</td><td>406-431, 438â458, 471â487, 504â530, 537â563, 570â596, 603â629, 636â662, 669â695, 702â728, 735-761</td><td>415-446, 447â478, 479â510, 511â542, 543â574, 575â606, 607â638, 639â670, 671â702, 703â734, 735â766, 767-802</td><td>405-432, 436â458, 469â487, 503â535, 536â567, 568â600, 601â633, 634â666, 667â699, 700â733, 734â766, 767-796</td></tr><tr valign="top"><td>Human gankyrin</td><td>1UOH (A)</td><td>3-36, 37â69, 70â102, 103â135, 136â168, 169â201, 202-226</td><td>49-78, 82â111, 115â144, 148â177, 181-210</td><td>23-53, 54â84, 85â115, 116â146, 147â177, 178-208</td><td>5-38, 39â71, 72â105, 106â137, 138â170, 171â204, 205-226</td></tr><tr valign="top"><td>P53-53BP2 complex</td><td>1YCS (B)</td><td>958-990, 991-1023</td><td>959-987, 992-1020</td><td>337-352, 398-413</td><td>926-957, 958â990, 991â1024, 1025-1067</td></tr><tr valign="top"><td>Tumor Suppressor P15(INK4B)</td><td>1D9S (A)</td><td>5-34, 38â66, 71â100, 104-130</td><td>24-44, 56â86, 88-119</td><td align="left">78-111</td><td>71-104, 105-129</td></tr><tr valign="top"><td>Notch</td><td>2F8Y (A)</td><td>1927-1956, 1960â1990, 1994â2023, 2027â2056, 2060-2089</td><td>1884-1930, 1931â1963, 1964â1997, 1998â2030, 2031â2063, 2064-2096</td><td>1919-1950, 1951â1982, 1983â2014, 2015â2046, 2047â2078, 2079-2110</td><td>1928-1960, 1961â1994, 1995â2027, 2028â2060, 2061â2094, 2095-2122</td></tr><tr valign="top"><td>S. Cerevisiae Swi6 Ankyrin repeat fragmen</td><td>1SW6 (A)</td><td>318-346, 347â383, 384â469, 470â498, 499-514</td><td>348-391, 467-507</td><td>316-323, 324â331, 470-477</td><td>-</td></tr><tr valign="top"><td>Human Osteoclast Stimulating Factor</td><td>3EHQ (A)</td><td>72-101, 105â135, 139-168</td><td>94-126, 128-159</td><td>83-114, 115â147, 148-180</td><td>72-104, 105â138, 139-177</td></tr><tr valign="top"><td>Ankyrin repeat domain of Huntingtin interacting protein 14</td><td>3EU9 (A)</td><td>89-118, 123â155, 156â188, 189â219, 224-253</td><td>64-90, 94â123, 128â157, 161â190, 194â225, 229-252</td><td>70-101, 102â133, 134â165, 166â197, 198â229, 230-261</td><td>57-88, 89â122, 123â156, 157â189, 190â223, 224â257, 258-281</td></tr><tr valign="top"><td>ANKRA</td><td>3SO8 (A)</td><td>148-180, 181â213, 214â246, 247â279, 280-313</td><td>34-89, 100-155</td><td>29-60, 61â92, 93â124, 125-156</td><td>149-180, 181â213, 214â246, 247â280, 281-310</td></tr></tbody></table></table-wrap><fig id="Fig4"><label>Figure 4</label><caption><p>
+<bold>MSA of the predicted repeat regions for 1N0R. (a)</bold> predicted by the proposed approach, <bold>(b)</bold> RADAR output, and <bold>(c)</bold> ConSole output.</p></caption><graphic xlink:href="12859_2014_440_Fig4_HTML" id="MO4"/></fig></p>
+      <p>We next consider an example of a natural protein, Osteoclast-stimulating factor 1, 3EHQ (chain A), that induces bone resorption. According to the annotation in UniProt, it contains three Ankyrin repeats from 72â168 as shown in the 3-D structure by different colours in FigureÂ <xref rid="Fig5" ref-type="fig">5</xref>(a). In FigureÂ <xref rid="Fig5" ref-type="fig">5</xref>(b) is shown the <italic>A</italic><sub><italic>levc</italic></sub> profile plot for 3EHQ, clearly indicating the presence of three repeating units in the region 72â177. There is a good agreement between the predicted start-end boundaries of the three repeat units with the UniProt annotation (see TableÂ <xref rid="Tab2" ref-type="table">2</xref>). However, the prediction of the repeat regions by RADAR and ConSole are not in accordance with the UniProt annotation. The RADAR prediction differs both in terms of the copy number and the repeat boundaries, the first repeat being completely missed. ConSole predicts three copies of the ANK repeats, but the positions of the start-end boundaries of the repeating units are off by about 10 residues for each repeat copy. In FigureÂ <xref rid="Fig6" ref-type="fig">6</xref> is shown the MSA of the repeat regions (a) predicted by our approach, (b) annotated in the UniProt database, and (c) predicted by ConSole. The MSA of the predicted repeat region in FigureÂ <xref rid="Fig6" ref-type="fig">6</xref>(a) is in very good agreement with that of the UniProt annotated repeat regions (FigureÂ <xref rid="Fig6" ref-type="fig">6</xref>(b)), compared to that of the ConSole predicted region in FigureÂ <xref rid="Fig6" ref-type="fig">6</xref>(c). The results for a representative set of 15 ANK repeat proteins is summarized in TableÂ <xref rid="Tab2" ref-type="table">2</xref> along with the annotation provided in UniProt database, and predictions by sequence and structure based methods, RADAR and ConSole, respectively. By and large we observe a good agreement in the detection of Ankyrin repeats both in copy number as well as repeat boundaries with UniProt annotation and also with ConSole.<fig id="Fig5"><label>Figure 5</label><caption><p>
+<bold>Natural Ankyrin repeat protein 3EHQ (chain A). (a)</bold> The 3d structure, and <bold>(b)</bold> the eigenvector components corresponding to the largest eigenvalue of adjacency matrix (<italic>A</italic>
+<sub><italic>levc</italic></sub>).</p></caption><graphic xlink:href="12859_2014_440_Fig5_HTML" id="MO5"/></fig><fig id="Fig6"><label>Figure 6</label><caption><p>
+<bold>MSA of the repeat regions in protein 3EHQ. (a)</bold> predicted by the proposed approach, <bold>(b)</bold> annotated in the UniProt database, and <bold>(c)</bold> predicted by ConSole output.</p></caption><graphic xlink:href="12859_2014_440_Fig6_HTML" id="MO6"/></fig></p>
+      <p>In TableÂ <xref rid="Tab2" ref-type="table">2</xref> the proteins have been selected to present examples both of good agreement and of disagreement. Below we discuss a few examples in which our prediction differs from the annotation in UniProt database. For example, in the case of protein 3EU9 (chain A), five copies of ANK motifs are annotated in UniProt from 89â253, while our approach predicts seven copies, an extra copy on either side from 57â88 and 258â281. From the 3-D structure of 3EU9 in FigureÂ <xref rid="Fig7" ref-type="fig">7</xref>(a) and <italic>A</italic><sub><italic>levc</italic></sub> profile shown in FigureÂ <xref rid="Fig7" ref-type="fig">7</xref>(b), it is clear that the predicted terminal repeats (shown in red) exhibit <italic>A</italic><sub><italic>levc</italic></sub> profile similar to the five intermediate repeats (shown in gray). The structural alignment of these predicted terminal repeats with a representative structural ANK motif (from designed protein 1N0R) using Cealign module in Pymol [<xref ref-type="bibr" rid="CR45">45</xref>] is shown in FigureÂ <xref rid="Fig7" ref-type="fig">7</xref>(c) and (d); the Root Mean Square Deviation (RMSD) for each terminal copy is less than 1Â Ã indicating high structural similarity with the ANK motif. However at the sequence level these terminal repeats are not well conserved as is clear from the MSA of the predicted regions in FigureÂ <xref rid="Fig8" ref-type="fig">8</xref>(a), compared to that of the UniProt annotated repeat regions in FigureÂ <xref rid="Fig8" ref-type="fig">8</xref>(b). With one additional terminal copy predicted by ConSole, a total of six copies are predicted by it, but the boundaries of ConSole copies are shifted by around 10 residues as compared to UniProt annotation. In general, the terminal repeats are less conserved at the sequence level or incomplete, and their detection isn't easy. In 52 other proteins (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>), additional copies of the ANK repeats have been predicted by the proposed approach, thus improving the annotation of the complete repeat region in these 53 proteins. In 16 of these cases, one extra copy is also predicted by ConSole. For the protein, 3SO8 (chain A, UniProt Id: Q9H9E1), initially three ANK repeats were annotated in the earlier release of UniProt (release 2012_08) from 181â279 whereas five repeats are predicted by our approach from residue 149â310, i.e., one extra repeat at each end. In the recent release of UniProt database (release 2014_05), the protein is now annotated as having five copies of the ANK motif from 148â313, which is in agreement with the prediction of the proposed approach (TableÂ <xref rid="Tab2" ref-type="table">2</xref>).<fig id="Fig7"><label>Figure 7</label><caption><p>
+<bold>Natural Ankyrin repeat protein 3EU9 (chain A). (a)</bold> 3-D structure <bold>(b)</bold> Plot of the principal eigenvector of the adjacency matrix. <bold>(c)</bold> - <bold>(d)</bold> Structural alignment of extra Ankyrin repeat copy predicted in 3EU9 (shown in blue colour) with a repeat copy of designed protein 1N0R (shown in red colour).</p></caption><graphic xlink:href="12859_2014_440_Fig7_HTML" id="MO7"/></fig><fig id="Fig8"><label>Figure 8</label><caption><p>
+<bold>MSA of the repeat regions in protein 3EU9. (a)</bold> predicted by the proposed approach, and <bold>(b)</bold> annotated in UniProt database.</p></caption><graphic xlink:href="12859_2014_440_Fig8_HTML" id="MO8"/></fig></p>
+      <p>In protein 1D9S (chain A), four ANK repeats are reported from 5â130 in the UniProt database but only two are identified by our approach from 71â129. On analyzing the secondary structure architecture from PDBsum [<xref ref-type="bibr" rid="CR46">46</xref>] for 1D9S in FigureÂ <xref rid="Fig9" ref-type="fig">9</xref>, we observe that the region 38â66 contains only one helix assigned by both STRIDE [<xref ref-type="bibr" rid="CR42">42</xref>] and DSSP [<xref ref-type="bibr" rid="CR47">47</xref>] , while an ANK motif comprises of two anti-parallel helices, suggesting that this region may have been wrongly annotated in the UniProt database. The region 5â34 is predicted as ANK motif in the preliminary screening of our approach but is discarded in the post-processing step while reporting contiguous tandem repeat regions. A similar situation was encountered in 18 other proteins (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>) where the first repeat in UniProt annotation is initially predicted by our algorithm, but later discarded because the next repeat is not identified within a threshold of 17 residues (half-length of an ANK motif). For all these proteins, except 4HBD, one or more copies are missed by ConSole as compared to UniProt annotation (see Additional file <xref rid="MOESM1" ref-type="media">1</xref>). It is possible that in all these proteins the missing ANK motif is mutated beyond recognition even at the structure level or there is a deletion of helix. Thus, we see that the eigen spectra of the adjacency matrix captures the repetitive fold pattern of the ANK motif very well and by incorporating the secondary structure information and variation in their lengths, an accurate prediction of the repeat boundaries is possible (TableÂ <xref rid="Tab2" ref-type="table">2</xref>). However, if there is an error in the secondary structure assignment, the prediction of the proposed algorithm is affected.<fig id="Fig9"><label>Figure 9</label><caption><p>
+<bold>Secondary structure representation of Ankyrin repeat protein 1D9S (chain A) from PDBsum.</bold>
+</p></caption><graphic xlink:href="12859_2014_440_Fig9_HTML" id="MO9"/></fig></p>
+      <sec id="Sec9">
+        <title>Performance of the proposed algorithm</title>
+        <p>First, we discuss the prediction accuracy of ANK motifs with the UniProt annotation on a known set of 370 proteins comprising a positive test set of 125 Ankyrin repeat proteins and negative test set of 245 non-solenoid proteins. The results are summarized in TableÂ <xref rid="Tab3" ref-type="table">3</xref> (a), where the sensitivity and specificity of the algorithm is computed as follows:<disp-formula id="Eque"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ Sensitivity=\frac{TP}{TP+FN}\simeq 0.976 $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M22"><mml:mi mathvariant="italic">Sensitivity</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:mfrac><mml:mo>â</mml:mo><mml:mn>0.976</mml:mn></mml:math><graphic xlink:href="12859_2014_440_Article_Eque.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equf"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ Specificity=\frac{TN}{TN+FP}\simeq 1 $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M24"><mml:mi mathvariant="italic">Specificity</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>N</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>N</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>P</mml:mi></mml:mrow></mml:mfrac><mml:mo>â</mml:mo><mml:mn>1</mml:mn></mml:math><graphic xlink:href="12859_2014_440_Article_Equf.gif" position="anchor"/></alternatives></disp-formula><table-wrap id="Tab3"><label>Table 3</label><caption><p>
+<bold>Performance of the proposed approach</bold>
+</p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th valign="middle" colspan="6">
+<bold>a) Number of ANK proteins predicted on a dataset of 370 proteins (annotated in UniProt is 125)</bold>
+</th></tr><tr valign="top"><th valign="middle">
+<bold>True positive</bold>
+</th><th valign="middle">
+<bold>False positive</bold>
+</th><th valign="middle">
+<bold>False negative</bold>
+</th><th valign="middle">
+<bold>True negative</bold>
+</th><th valign="middle">
+<bold>Sensitivity</bold>
+</th><th valign="middle">
+<bold>Specificity</bold>
+</th></tr></thead><tbody><tr valign="top"><td valign="middle">122</td><td valign="middle" align="left">0</td><td valign="middle" align="left">3</td><td valign="middle" align="left">245</td><td valign="middle" align="left">0.976</td><td valign="middle" align="left">1</td></tr><tr valign="top"><td valign="middle" colspan="6">
+<bold>b) Number of ANK motifs predicted in 125 known ANK repeat proteins (annotated in UniProt is 584)</bold>
+</td></tr><tr valign="top"><td valign="middle"/><td valign="middle">
+<bold>True positive</bold>
+</td><td valign="middle">
+<bold>False positive</bold>
+</td><td valign="middle">
+<bold>False negative</bold>
+</td><td valign="middle">
+<bold>Sensitivity</bold>
+</td><td valign="middle">
+<bold>Precision</bold>
+</td></tr><tr valign="top"><td valign="middle">
+<bold>AnkPred</bold>
+</td><td valign="middle" align="left">515</td><td valign="middle" align="left">67</td><td valign="middle" align="left">69</td><td valign="middle" align="left">0.88</td><td valign="middle" align="left">0.88</td></tr><tr valign="top"><td valign="middle">
+<bold>ConSole</bold>
+</td><td valign="middle" align="left">419</td><td valign="middle" align="left">109</td><td valign="middle" align="left">165</td><td valign="middle" align="left">0.72</td><td valign="middle" align="left">0.79</td></tr><tr valign="top"><td valign="middle">
+<bold>RADAR</bold>
+</td><td valign="middle" align="left">395</td><td valign="middle" align="left">63</td><td valign="middle" align="left">189</td><td valign="middle" align="left">0.68</td><td valign="middle" align="left">0.86</td></tr></tbody></table></table-wrap></p>
+        <p>where <italic>TP</italic> corresponds to number of correctly predicted known Ankyrin repeat proteins, <italic>FN</italic> â the number of known Ankyrin repeat proteins missed by our approach, <italic>FP</italic> â the number of proteins predicted by our approach as containing tandem ANK repeats but not annotated as Ankyrin protein, and <italic>TN</italic> â the number of proteins correctly predicted by our approach as non-Ankyrin proteins. As there were only three false negatives (<italic>FN</italic>), 1SW6, 2ETB and 3ZRH, and no false positives (<italic>FP</italic>), the sensitivity and specificity of the algorithm is very high (â1).</p>
+        <p>Next, for the predicted Ankyrin proteins, we analyze the number of ANK motifs correctly predicted in the dataset of 125 known Ankyrin repeat proteins and compare with a recent structure-based approach, ConSole, and a sequence based approach RADAR. In the UniProt database, a total of 584 ANK motifs are annotated in these 125 proteins, while 582 ANK motifs are predicted by the proposed approach, 528 by ConSole and 458 by RADAR. The details of the analysis are summarized in TableÂ <xref rid="Tab3" ref-type="table">3</xref>(b) in terms of sensitivity and precision, defined as:<disp-formula id="Equg"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ Sensitivity=\frac{TP}{TP+FN} $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M26"><mml:mi mathvariant="italic">Sensitivity</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>N</mml:mi></mml:mrow></mml:mfrac></mml:math><graphic xlink:href="12859_2014_440_Article_Equg.gif" position="anchor"/></alternatives></disp-formula><disp-formula id="Equh"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ Precision=\frac{TP}{TP+FP} $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M28"><mml:mi mathvariant="italic">Precision</mml:mi><mml:mo>=</mml:mo><mml:mfrac><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi></mml:mrow><mml:mrow><mml:mi>T</mml:mi><mml:mi>P</mml:mi><mml:mo>+</mml:mo><mml:mi>F</mml:mi><mml:mi>P</mml:mi></mml:mrow></mml:mfrac></mml:math><graphic xlink:href="12859_2014_440_Article_Equh.gif" position="anchor"/></alternatives></disp-formula></p>
+        <p>where, <italic>TP</italic> is the number of ANK motifs correctly predicted by the method in known dataset of 125 proteins, <italic>FP</italic> is the number of ANK motifs predicted by the method but not annotated in the UniProt database, and <italic>FN</italic> is the number of annotated ANK motifs missed by the method. It may be observed that both the sensitivity and precision of the proposed approach, AnkPred, isâ~ 0.88, reasonably good compared to that of ConSole (0.72 and 0.79) and RADAR (0.68 and 0.86) respectively. The terminal copies are known to have low sequence conservation, resulting in lower sensitivity of the RADAR method. We recognise that the sensitivity of our algorithm, with its dependence on the secondary structure assignment, might be further improved.</p>
+        <p>To analyze the accuracy of the repeat boundaries predicted by the proposed approach, we constructed the <italic>Multiple sequence alignment</italic> (MSA) of the 582 predicted ANK motifs in the dataset of 125 known Ankyrin proteins using CLUSTALW [<xref ref-type="bibr" rid="CR44">44</xref>].The consensus of the predicted ANK motifs was then built using SeaView [<xref ref-type="bibr" rid="CR48">48</xref>] at 50% identity and is given below:<disp-formula id="Equi"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ \mathrm{XGXTPLHXAXXXGXXXXXXXLLXXXAXX} $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M30"><mml:mi mathvariant="normal">XGXTPLHXAXXXGXXXXXXXLLXXXAXX</mml:mi></mml:math><graphic xlink:href="12859_2014_440_Article_Equi.gif" position="anchor"/></alternatives></disp-formula></p>
+        <p>This is in very good agreement with the consensus ANK motif proposed by Kohl <italic>et al.</italic> [<xref ref-type="bibr" rid="CR49">49</xref>] and Mosavi <italic>et al.</italic> [<xref ref-type="bibr" rid="CR50">50</xref>]. The conserved tetrapeptide motif TPLH at positions 4â7, Glycine at positions 2 and 13, and Leucine at positions 21â22 confirms the prediction accuracy of the repeat boundaries by the proposed approach.</p>
+      </sec>
+      <sec id="Sec10">
+        <title>Analysis on protein data bank</title>
+        <p>We performed the proposed algorithm on the complete PDB. A total number of 98,341 structures represented as proteins or proteins in complex with nucleic acids were downloaded. On removing short fragmentsâ&lt;â50 residues (as these are unlikely to contain two contiguous copies of ANK motifs) and proteins with no secondary structures assigned, a total of 94,975 structures were used for analysis. The proposed algorithm identified 819 protein structures containing at least two tandemly repeated ANK motifs. Of these 181 are annotated as known ANK proteins in UniProt, Pfam, PROSITE and PDB of whichâ~â50 structures contain designed Ankyrin repeat proteins (DARPINS). The number of correctly predicted Ankyrin repeat proteins is 178 and only 3 were missed by our approach, 1SW6 (chain A), 2ETB (chain A) and 3ZRH (chain A). In the first two cases the proposed approach missed the detection of ANK motifs as the UniProt annotated repeat regions contain 3â4 helices while according to rules defined in the algorithm, an ANK motif comprises of two anti-parallel helices. In 3ZRH the two annotated copies of ANK repeats are not contiguous but separated by 23 residues, and hence missed by our approach. Thus, the remaining 641 structures are proposed as previously unrecognised Ankyrin repeats and are listed in Additional file <xref rid="MOESM2" ref-type="media">2</xref>. It is observed that 27 of these proteins are annotated as containing other repeat types, <italic>viz.</italic>, 9 TPR, 7 Pumilio repeat, 2 HEAT, 2 Annexin repeat, 2 Tumor necrosis factor receptor (TNFR-Cys), 2 Mitochondrial termination factor repeat (MTERF), 2 Clathrin heavy chain repeat (CHCR) and 1 HAT (Additional file <xref rid="MOESM2" ref-type="media">2</xref>). Structurally, TPR, HEAT and HAT motifs are very similar to ANK repeat motif, each of them comprising two anti-parallel helices forming a HelixâTurnâHelix core and are also of similar lengths, ~ 30â34 residues. The major difference being the ANK motif has a long loop ending in a Î² turn which is not present in TPR, HEAT and HAT motifs. Even with such strong similarity between these structural motifs, only 13 false positives (9 TPR, 3 HEAT and 1 HAT) are reported by our approach. To check the reliability of our prediction in these proteins, we carried out structure-structure superposition of the predicted ANK repeat region with a DARPin motif from 1N0R using Cealign module in Pymol [<xref ref-type="bibr" rid="CR45">45</xref>]. For example, in protein 1OUV (chain A), seven copies of TPR are reported in UniProt database from 29â278 (Additional file <xref rid="MOESM2" ref-type="media">2</xref>) containing 14 helices <italic>H</italic><sub>1</sub>-<italic>H</italic><sub>14</sub> as shown in the secondary structure representation from PDBsum [<xref ref-type="bibr" rid="CR46">46</xref>] in FigureÂ <xref rid="Fig10" ref-type="fig">10</xref>(a). The superposition is good with root mean square deviation (RMSD) for all the three predicted ANK repeats unitsâ&lt; 3Â Ã as shown in FigureÂ <xref rid="Fig10" ref-type="fig">10</xref>(b). The <italic>A</italic><sub><italic>levc</italic></sub> profile in the Ankyrin predicted region from 185 to 292 in FigureÂ <xref rid="Fig10" ref-type="fig">10</xref>(c) is also very similar to that for a typical ANK motif in FigureÂ <xref rid="Fig1" ref-type="fig">1</xref>(a). In this case, the predicted ANK repeat motifs are within the TPR annotated region, comprised of one helix from each adjacent TPR repeats and can be represented as <inline-formula id="IEq7"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ {H}_2^i{T}^i{H}_1^{i+1} $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M32"><mml:msubsup><mml:mi>H</mml:mi><mml:mn>2</mml:mn><mml:mi>i</mml:mi></mml:msubsup><mml:msup><mml:mi>T</mml:mi><mml:mi>i</mml:mi></mml:msup><mml:msubsup><mml:mi>H</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq7.gif"/></alternatives></inline-formula> where <inline-formula id="IEq8"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ {H}_2^i $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M34"><mml:msubsup><mml:mi>H</mml:mi><mml:mn>2</mml:mn><mml:mi>i</mml:mi></mml:msubsup></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq8.gif"/></alternatives></inline-formula> is the second helix of the <italic>i</italic><sup><italic>th</italic></sup> TPR motif and <inline-formula id="IEq9"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+							$$ {H}_1^{i+1} $$
+						\end{document}</tex-math><mml:math xmlns:mml="https://jats.nlm.nih.gov/ns/archiving/1.0/" id="M36"><mml:msubsup><mml:mi>H</mml:mi><mml:mn>1</mml:mn><mml:mrow><mml:mi>i</mml:mi><mml:mo>+</mml:mo><mml:mn>1</mml:mn></mml:mrow></mml:msubsup></mml:math><inline-graphic xlink:href="12859_2014_440_Article_IEq9.gif"/></alternatives></inline-formula> is the first helix of the (<italic>i</italic>â+â1)<sup><italic>th</italic></sup> TPR motif. The structural alignment of the 7 annotated TPR regions was performed with a representative TPR motif from designed protein 1NA0 and RMSD for each repeat unitâ&lt;â2Â Ã (results not shown) suggesting that UniProt annotation is also correct. However, the Î² turn between two helices within a TPR motif was observed to be longer than that of the typical designed TPR motif and resembling the terminal loop of the ANK motif. This suggests the possibility of multi-repeat architecture in complex proteins. For 21 other repeat proteins, a similar multi-repeat architecture was observed. In the case of HEAT repeat protein 3LWW (chain A), the annotation in UniProt is six continuous copies from 124â441 and two distant copies from 602â641 and 687â726. The predicted ANK repeat lies in the non-HEAT region from 520â621 with very small overlap of 20 residues with HEAT repeat. In this case two different repeats are present in different regions in the protein and a total of 10 proteins containing two different repeat types non-overlapping each other was observed (marked â*â in Additional file <xref rid="MOESM2" ref-type="media">2</xref>). For these proteins that exhibit multi-repeat architecture, it would be interesting to analyze the interaction sites which would help in confirming multiple annotations/functions in these proteins with complex architecture. Thus, the structure based approach proposed here is promising in detecting tandem structural repeats in proteins and is powerful enough to distinguish between very similar structural repeats, <italic>viz</italic>. Ankyrin and TPR/HEAT/HAT.<fig id="Fig10"><label>Figure 10</label><caption><p>
+<bold>Predicted Ankyrin repeat protein 1OUV (chain A). (a)</bold> Secondary structure representation from PDBsum <bold>(b)</bold> Structural alignment of predicted ANK repeat copy (shown in blue colour) with a repeat copy of designed ANK protein 1N0R (shown in orange) <bold>(c)</bold>
+<italic>A</italic>
+<sub><italic>levc</italic></sub> plot with dotted and solid lines showing the start and end of predicted ANK boundaries.</p></caption><graphic xlink:href="12859_2014_440_Fig10_HTML" id="MO10"/></fig></p>
+      </sec>
+      <sec id="Sec11">
+        <title>Functional analysis of previously unrecognized ankyrin proteins</title>
+        <p>We identified 641 previously unrecognized Ankyrin repeat proteins by the proposed approach. In TableÂ <xref rid="Tab4" ref-type="table">4</xref>, we present our analysis of 11 of these proteins. In all these proteins, we observe that the binding sites reported in PDBsum [<xref ref-type="bibr" rid="CR46">46</xref>] lie in the predicted Ankyrin repeat region. For example, the DNA polymerase lambda protein 3HWT (Human), which is important for the DNA replication process, contains four domains. The reported DNA binding sites in 3HWT are present in DNA polymerase domain (257â331) and lie on the second helix of both the copies of predicted Ankyrin units. The presence of Ankyrin repeats in the DNA binding proteins, 1SW6 and 3V30, annotated in UniProt provides support to our prediction and possible functional role of 3HWT. This analysis helps in understanding the type of interaction 3HWT is involved in and comparison with other proteins with similar functions can lead to a better understanding of the role of Ankyrin repeats. Similarly, the interaction of Ankyrin repeats with RNA is known in the case of 1WDY and 4G8K. We observe that proteins 3Q0P, 3K4E and 3V71 have binding sites reported in the predicted repeat region with RNA as the binding partner, again providing support to our prediction.<table-wrap id="Tab4"><label>Table 4</label><caption><p>
+<bold>Example proteins with binding sites in the predicted Ankyrin repeat region</bold>
+</p></caption><table frame="hsides" rules="groups"><thead><tr valign="top"><th valign="middle">
+<bold>PDB</bold>
+</th><th valign="middle">
+<bold>UniProt</bold>
+</th><th valign="middle">
+<bold>Organism</bold>
+</th><th valign="middle">
+<bold>Predicted Ankyrin region</bold>
+</th><th valign="middle">
+<bold>Binding partner in predicted region obtained from PDBsum</bold>
+</th></tr></thead><tbody><tr valign="top"><td>3HWT</td><td>Q9UGP5</td><td>Homo sapiens</td><td>257-291, 292-319</td><td>DNA</td></tr><tr valign="top"><td>1FO3</td><td>Q9UKM7</td><td>Homo sapiens</td><td>285-319, 324â381, 397â444, 458-504</td><td>Kifunensine and Sulphate</td></tr><tr valign="top"><td>1KRF</td><td>P31723</td><td>Penicillium citrinum</td><td>263-308, 325-381</td><td>Kifunensine, N-Acetyl-D-Glucosamine and Mannose</td></tr><tr valign="top"><td>2IQC</td><td>Q9NPI8</td><td>Homo sapiens</td><td>253-299, 300-341</td><td>Hg (Mercury)</td></tr><tr valign="top"><td>3Q0P*</td><td>Q14671</td><td>Homo sapiens</td><td valign="middle">894-923, 929â959, 965-995</td><td>RNA</td></tr><tr valign="top"><td>3K4E*</td><td>Q07807</td><td>S. cerevisiae</td><td>539-576, 584-613</td><td>RNA</td></tr><tr valign="top"><td>3V71*</td><td>O44169</td><td>C. elegans</td><td>203-230, 240-270</td><td>RNA</td></tr><tr valign="top"><td>4F42*</td><td>P07174</td><td>R. norvegicus</td><td>19-46, 60-85</td><td>MNB</td></tr><tr valign="top"><td>2VTB</td><td>Q84KJ5</td><td>A. thaliana</td><td>378-408, 412-445</td><td>FAD and MHF</td></tr><tr valign="top"><td>3FY4</td><td>O48652</td><td>A. thaliana</td><td>343-378, 379-417</td><td>FAD, IMD and MES</td></tr><tr valign="top"><td>4LCT</td><td>P45432</td><td>A. thaliana</td><td>221-252, 262-294</td><td>Sulphate</td></tr></tbody></table><table-wrap-foot><p>*Multi repeat protein where predicted repeat region is overlapping with other repeat annotated in UniProt.</p></table-wrap-foot></table-wrap></p>
+        <p>We predicted Ankyrin repeats in two mannosidase protein structures, 1FO3 (human) and 1KRF (P. citrinum). Kifunensine (KIF) is the inhibitor of mannosidases and regulates the activity of these proteins. In PDBsum, the KIF binding sites for the proteins 1FO3 and 1KRF are annotated in the region predicted as Ankyrin repeat by our approach. This suggests novel interactions of these Ankyrin repeat proteins. Thus one could carry out a systematic analysis of other previously unrecognized Anyrin proteins to identify their interacting partners, leading to an understanding of their functional role.</p>
+      </sec>
+      <sec id="Sec12">
+        <title>Analysis of modelled ankyrin proteins</title>
+        <p>Protein structural information is increasing at a rapid pace with advances in resolving protein structures, but is still not comparable to the wealth of sequence information. It may be noted that of over 1200 proteins annotated as containing Ankyrin repeat motifs in the UniProt database, only about 60 Ankyrin proteins have structural information available. To show the efficacy of our approach on modelled structures, we modelled 30 Ankyrin repeat proteins from UniProt database for which the structure is not yet resolved. The structures were modelled using Swiss-Model server [<xref ref-type="bibr" rid="CR51">51</xref>], which identifies template structures from PDB [<xref ref-type="bibr" rid="CR41">41</xref>] based on sequence coverage and sequence identity. The templates having high coverage and sequence identity in the repeat region are selected for homology-based modelling of these 30 protein sequences. The proposed algorithm, AnkPred, is executed on the corresponding modelled proteins and the prediction of repeat regions is given in the Additional file <xref rid="MOESM3" ref-type="media">3</xref>. In FigureÂ <xref rid="Fig11" ref-type="fig">11</xref>(a) is shown the prediction of the proposed approach on the modelled structure of the Integrin-linked protein kinase (UniProt Id: Q99J82), which is in very good agreement with annotation in UniProt. It may be noted that in about half of the proteins (marked by an asterisk in Additional file <xref rid="MOESM3" ref-type="media">3</xref>), the copy number predicted had increased, with terminal repeats being identified. It is known that terminal copies are generally less conserved and sometime incomplete [<xref ref-type="bibr" rid="CR26">26</xref>], and hence missed by sequence-based methods, but are identified by our structure-based method as shown for ANKRD (UniProt Id: Q7Z3H0) protein in FigureÂ <xref rid="Fig11" ref-type="fig">11</xref>(b). This suggests the power of our approach in improving the annotation of repeat regions for protein sequences for which no structure information is available.<fig id="Fig11"><label>Figure 11</label><caption><p>
+<bold>Prediction on modelled structures shown. (a)</bold> Integrin-linked protein kinase (UniProt Id: Q99J82). The repeat boundaries of five Ankyrin motifs predicted by AnkPred (shown in different colours) are in good agreement with five annotated copies in Uniprot. <bold>(b)</bold> ANKRD protein (UniProt Id: Q7Z3H0). In this case only 3 Ankyrin motifs are annotated in UniProt (intermediate copies) while AnkPred predicts two additional copies on either side.</p></caption><graphic xlink:href="12859_2014_440_Fig11_HTML" id="MO11"/></fig></p>
+      </sec>
+      <sec id="Sec13">
+        <title>Analysis of other structural repeats</title>
+        <p>To assess the efficacy of the proposed approach on other protein repeat families, we next present our analysis on four different repeat types: Tetratricopeptide repeat (TPR), Armadillo repeat (ARM), Leucine-rich repeat (LRR) and Kelch repeat. The 3-dimensional structure of a representative protein from each repeat type is shown in FigureÂ <xref rid="Fig12" ref-type="fig">12</xref>(a)-(d) and their respective <italic>A</italic><sub><italic>levc</italic></sub> profiles in FigureÂ <xref rid="Fig12" ref-type="fig">12</xref>(e)-(h). A unique <italic>A</italic><sub><italic>levc</italic></sub> profile is observed in the repeat regions in each of these proteins which are well conserved within the adjacent repeating units as depicted by overlapping the <italic>A</italic><sub><italic>levc</italic></sub> profile in the repeating units in FigureÂ <xref rid="Fig12" ref-type="fig">12</xref>(i)-(l). The distinct <italic>A</italic><sub><italic>levc</italic></sub> profiles for different repeats correspond to the specific orientation of the secondary structural elements in each repeat type. It may be noted that the <italic>A</italic><sub><italic>levc</italic></sub> profile for the TPR repeat is very distinct compared to that of Ankyrin repeat (FigureÂ <xref rid="Fig3" ref-type="fig">3</xref>(a)), although it is of similar length and has very similar secondary structure architecture with helix-turn-helix core. This clearly shows the power of the eigen spectra analysis of the protein contact network in the identification of structural repeats and its sensitivity in distinguishing similar structural repeats.<fig id="Fig12"><label>Figure 12</label><caption><p>
+<bold>Proteins of other structural repeat families. (a)</bold>-<bold>(d)</bold> 3-D structure: <bold>(a)</bold> 2C2L: chain A (TPR) <bold>(b)</bold> 3SL9: chain A (ARM) <bold>(c)</bold> 1D0B: chain A (LRR) <bold>(d)</bold> 1U6D: chain X (KELCH). In <bold>(e)</bold>, <bold>(f)</bold>, <bold>(g)</bold> and <bold>(h)</bold> the <italic>A</italic>
+<sub><italic>levc</italic></sub> plot for respective proteins shown. In <bold>(i)</bold>, <bold>(j)</bold>, <bold>(k)</bold> and <bold>(l)</bold> the <italic>A</italic>
+<sub><italic>levc</italic></sub> profile of the repeat regions in respective proteins are overlapped.</p></caption><graphic xlink:href="12859_2014_440_Fig12_HTML" id="MO12"/></fig></p>
+      </sec>
+    </sec>
+    <sec id="Sec14" sec-type="conclusion">
+      <title>Conclusions</title>
+      <p>Most proteins with tandemly repeated structural motifs of 20â50 residues length interact with other proteins. The identification of these repeats can be informative in understanding the structure and function of these proteins. Here we show that the structural repeat motifs exhibit a specific pattern in the eigen spectra profile of the adjacency matrix of a protein structure represented as a graph. Thus graph-spectral analysis provides an efficient tool in the detection of repeats of different shapes and forms. Analysis of the results suggest that the proposed method discovers more Ankyrin repeat proteins and repeats per protein than existing sequence and structure based methods. The annotation of the complete repeat region has been improved in 53 proteins and 641 previously unrecognized Ankyrin repeat proteins have been identified by the proposed approach. However, the performance of the proposed approach is affected by the assignment of secondary structures by STRIDE/DSSP; only if a secondary structure element is completely missed; the prediction accuracy is not affected by small insertions/deletions within secondary structure elements.</p>
+      <p>In our preliminary analysis of some of the newly predicted Ankyrin proteins we observe that the reported binding sites lie in the predicted repeat regions providing support to our prediction. A systematic analysis of these proteins can lead to the understanding of their interacting partners and help towards the functional annotation of these proteins. We also show that the proposed approach can be successfully used on modelled proteins for identification of repeats and can help in improving the annotation. Since a large number of proteins do not have any structural information, and sequence-based repeat detection methods are limited by detectable similarity in the repeating units, this analysis greatly enhances the capability of the algorithm. As shown it is possible to easily extend and automate the proposed approach for the identification of other protein repeat families by considering information available on known repeat families.</p>
+    </sec>
+  </body>
+  <back>
+    <app-group>
+      <app id="App1">
+        <sec id="Sec15">
+          <title>Additional files</title>
+          <p>
+            <media position="anchor" xlink:href="12859_2014_440_MOESM1_ESM.docx" id="MOESM1">
+              <label>Additional file 1</label>
+              <caption>
+                <p>
+<bold>Comparison of the proposed approach with UniProt, RADAR and ConSole is shown for the set of 130 known Ankyrin repeat proteins with the best resolution structure for each UniProt entry highlighted in bold.</bold>
+</p>
+              </caption>
+            </media>
+            <media position="anchor" xlink:href="12859_2014_440_MOESM2_ESM.docx" id="MOESM2">
+              <label>Additional file 2</label>
+              <caption>
+                <p>
+<bold>Previously unrecognized Ankyrin proteins predicted by the proposed approach in Protein Data Bank.</bold>
+</p>
+              </caption>
+            </media>
+            <media position="anchor" xlink:href="12859_2014_440_MOESM3_ESM.docx" id="MOESM3">
+              <label>Additional file 3</label>
+              <caption>
+                <p>
+<bold>Prediction of Ankyrin repeats by the proposed approach is compared with the UniProt annotation for a set of 30 modelled protein structures.</bold>
+</p>
+              </caption>
+            </media>
+          </p>
+        </sec>
+      </app>
+    </app-group>
+    <fn-group>
+      <fn>
+        <p>Broto Chakrabarty and Nita Parekh contributed equally to this work.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Competing interests</bold>
+        </p>
+        <p>The authors declare that they have no competing interests.</p>
+      </fn>
+      <fn>
+        <p>
+          <bold>Authorsâ contributions</bold>
+        </p>
+        <p>BC and NP conceived the study, designed the computational method, analyzed the data, and wrote the manuscript. All authors have read and approved the final manuscript.</p>
+      </fn>
+    </fn-group>
+    <ack>
+      <title>Acknowledgements</title>
+      <p>The authors acknowledge the support of CSIR for funding this work (37(1468)/11/EMR-II).</p>
+    </ack>
+    <ref-list id="Bib1">
+      <title>References</title>
+      <ref id="CR1">
+        <label>1.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Andrade</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Bork</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>HEAT repeats in the Huntingtonâs disease protein</article-title>
+          <source>Nat Genet</source>
+          <year>1995</year>
+          <volume>11</volume>
+          <fpage>115</fpage>
+          <lpage>116</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng1095-115</pub-id>
+          <?supplied-pmid 7550332?>
+          <pub-id pub-id-type="pmid">7550332</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR2">
+        <label>2.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kajava</surname>
+              <given-names>AV</given-names>
+            </name>
+          </person-group>
+          <article-title>Review: proteins with repeated sequence - structural prediction and modeling</article-title>
+          <source>J Struct Biol</source>
+          <year>2001</year>
+          <volume>134</volume>
+          <fpage>132</fpage>
+          <lpage>144</lpage>
+          <pub-id pub-id-type="doi">10.1006/jsbi.2000.4328</pub-id>
+          <?supplied-pmid 11551175?>
+          <pub-id pub-id-type="pmid">11551175</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR3">
+        <label>3.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kajava</surname>
+              <given-names>AV</given-names>
+            </name>
+          </person-group>
+          <article-title>Tandem repeats in proteins: from sequence to structure</article-title>
+          <source>J Struct Biol</source>
+          <year>2012</year>
+          <volume>179</volume>
+          <fpage>279</fpage>
+          <lpage>288</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.jsb.2011.08.009</pub-id>
+          <?supplied-pmid 21884799?>
+          <pub-id pub-id-type="pmid">21884799</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR4">
+        <label>4.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McLachlan</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Stewart</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The 14-fold periodicity in alpha-tropomyosin and the interaction with actin</article-title>
+          <source>J Mol Biol</source>
+          <year>1976</year>
+          <volume>103</volume>
+          <fpage>271</fpage>
+          <lpage>298</lpage>
+          <pub-id pub-id-type="doi">10.1016/0022-2836(76)90313-2</pub-id>
+          <?supplied-pmid 950663?>
+          <pub-id pub-id-type="pmid">950663</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR5">
+        <label>5.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Coward</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>DrablÃ¸s</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>Detecting periodic patterns in biological sequences</article-title>
+          <source>Bioinformatics</source>
+          <year>1998</year>
+          <volume>14</volume>
+          <fpage>498</fpage>
+          <lpage>507</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/14.6.498</pub-id>
+          <?supplied-pmid 9694988?>
+          <pub-id pub-id-type="pmid">9694988</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR6">
+        <label>6.</label>
+        <mixed-citation publication-type="other">Gruber M, SÃ¶ding J, Lupas AN: <bold>REPPER-repeats and their periodicities in fibrous proteins</bold>. <italic>Nucleic Acids Res</italic> 2005, <bold>33</bold>(Web Server issue):W239â243.</mixed-citation>
+      </ref>
+      <ref id="CR7">
+        <label>7.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Marsella</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Sirocco</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Trovato</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Seno</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Tosatto</surname>
+              <given-names>SCE</given-names>
+            </name>
+          </person-group>
+          <article-title>REPETITA: detection and discrimination of the periodicity of protein solenoid repeats by discrete Fourier transform</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>i289</fpage>
+          <lpage>295</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp232</pub-id>
+          <?supplied-pmid 19478001?>
+          <pub-id pub-id-type="pmid">19478001</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR8">
+        <label>8.</label>
+        <mixed-citation publication-type="other">Newman AM, Cooper JB: <bold>XSTREAM: a practical algorithm for identification and architecture modeling of tandem repeats in protein sequences.</bold><italic>BMC Bioinformatics</italic> 2007, <bold>8:</bold>382.</mixed-citation>
+      </ref>
+      <ref id="CR9">
+        <label>9.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jorda</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kajava</surname>
+              <given-names>AV</given-names>
+            </name>
+          </person-group>
+          <article-title>T-REKS: identification of Tandem REpeats in sequences with a K-meanS based algorithm</article-title>
+          <source>Bioinformatics</source>
+          <year>2009</year>
+          <volume>25</volume>
+          <fpage>2632</fpage>
+          <lpage>2638</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btp482</pub-id>
+          <?supplied-pmid 19671691?>
+          <pub-id pub-id-type="pmid">19671691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR10">
+        <label>10.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pellegrini</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Marcotte</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Yeates</surname>
+              <given-names>TO</given-names>
+            </name>
+          </person-group>
+          <article-title>A fast algorithm for genome-wide analysis of proteins with repeated sequences</article-title>
+          <source>Proteins</source>
+          <year>1999</year>
+          <volume>35</volume>
+          <fpage>440</fpage>
+          <lpage>446</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1097-0134(19990601)35:4&lt;440::AID-PROT7&gt;3.0.CO;2-Y</pub-id>
+          <?supplied-pmid 10382671?>
+          <pub-id pub-id-type="pmid">10382671</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR11">
+        <label>11.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Heger</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Holm</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Rapid automatic detection and alignment of repeats in protein sequences</article-title>
+          <source>Proteins</source>
+          <year>2000</year>
+          <volume>41</volume>
+          <fpage>224</fpage>
+          <lpage>237</lpage>
+          <pub-id pub-id-type="doi">10.1002/1097-0134(20001101)41:2&lt;224::AID-PROT70&gt;3.0.CO;2-Z</pub-id>
+          <?supplied-pmid 10966575?>
+          <pub-id pub-id-type="pmid">10966575</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR12">
+        <label>12.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Szklarczyk</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Heringa</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Tracking repeats using significance and transitivity</article-title>
+          <source>Bioinformatics</source>
+          <year>2004</year>
+          <volume>20</volume>
+          <issue>Suppl 1</issue>
+          <fpage>i311</fpage>
+          <lpage>317</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bth911</pub-id>
+          <?supplied-pmid 15262814?>
+          <pub-id pub-id-type="pmid">15262814</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR13">
+        <label>13.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Biegert</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>SÃ¶ding</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>De novo identification of highly diverged protein repeats by probabilistic consistency</article-title>
+          <source>Bioinformatics</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>807</fpage>
+          <lpage>814</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btn039</pub-id>
+          <?supplied-pmid 18245125?>
+          <pub-id pub-id-type="pmid">18245125</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR14">
+        <label>14.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gribskov</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>McLachlan</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>D</given-names>
+            </name>
+          </person-group>
+          <article-title>Profile analysis: detection of distantly related proteins</article-title>
+          <source>Proc Natl Acad Sci USA</source>
+          <year>1987</year>
+          <volume>84</volume>
+          <fpage>4355</fpage>
+          <lpage>4358</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.84.13.4355</pub-id>
+          <?supplied-pmid 3474607?>
+          <pub-id pub-id-type="pmid">3474607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR15">
+        <label>15.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bucher</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Karplus</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Moeri</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>A flexible motif search technique based on generalized profiles</article-title>
+          <source>Comput Chem</source>
+          <year>1996</year>
+          <volume>20</volume>
+          <fpage>3</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0097-8485(96)80003-9</pub-id>
+          <?supplied-pmid 8867839?>
+          <pub-id pub-id-type="pmid">8867839</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR16">
+        <label>16.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murray</surname>
+              <given-names>KB</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>WR</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Toward the detection and validation of repeats in protein structure</article-title>
+          <source>Proteins</source>
+          <year>2004</year>
+          <volume>57</volume>
+          <fpage>365</fpage>
+          <lpage>380</lpage>
+          <pub-id pub-id-type="doi">10.1002/prot.20202</pub-id>
+          <?supplied-pmid 15340924?>
+          <pub-id pub-id-type="pmid">15340924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR17">
+        <label>17.</label>
+        <mixed-citation publication-type="other">Shih ESC, Gan RR, Hwang M-J: <bold>OPAAS: a web server for optimal, permuted, and other alternative alignments of protein structures.</bold><italic>Nucleic Acids Res</italic> 2006, <bold>34</bold>(Web Server issue):W95â98.</mixed-citation>
+      </ref>
+      <ref id="CR18">
+        <label>18.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shih</surname>
+              <given-names>ESC</given-names>
+            </name>
+            <name>
+              <surname>Hwang</surname>
+              <given-names>M-J</given-names>
+            </name>
+          </person-group>
+          <article-title>Alternative alignments from comparison of protein structures</article-title>
+          <source>Proteins</source>
+          <year>2004</year>
+          <volume>56</volume>
+          <fpage>519</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1002/prot.20124</pub-id>
+          <?supplied-pmid 15229884?>
+          <pub-id pub-id-type="pmid">15229884</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR19">
+        <label>19.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Abraham</surname>
+              <given-names>A-L</given-names>
+            </name>
+            <name>
+              <surname>Rocha</surname>
+              <given-names>EPC</given-names>
+            </name>
+            <name>
+              <surname>Pothier</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Swelfe: a detector of internal repeats in sequences and structures</article-title>
+          <source>Bioinformatics</source>
+          <year>2008</year>
+          <volume>24</volume>
+          <fpage>1536</fpage>
+          <lpage>1537</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/btn234</pub-id>
+          <?supplied-pmid 18487242?>
+          <pub-id pub-id-type="pmid">18487242</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR20">
+        <label>20.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sabarinathan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Basu</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sekar</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>ProSTRIP: A method to find similar structural repeats in three-dimensional protein structures</article-title>
+          <source>Comput Biol Chem</source>
+          <year>2010</year>
+          <volume>34</volume>
+          <fpage>126</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.compbiolchem.2010.03.006</pub-id>
+          <?supplied-pmid 20430700?>
+          <pub-id pub-id-type="pmid">20430700</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR21">
+        <label>21.</label>
+        <mixed-citation publication-type="other">Kao H-Y, Shih T-H, Pai T-W, Lu M-D, Hsu H-H: <bold>A Comprehensive System for Identifying Internal Repeat Substructures of Proteins</bold>. In <italic>2010 International Conference on Complex, Intelligent and Software Intensive Systems (CISIS)</italic>, IEEE; 2010:689â693. doi: 10.1109/CISIS.2010.92.</mixed-citation>
+      </ref>
+      <ref id="CR22">
+        <label>22.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parra</surname>
+              <given-names>RG</given-names>
+            </name>
+            <name>
+              <surname>Espada</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>SÃ¡nchez</surname>
+              <given-names>IE</given-names>
+            </name>
+            <name>
+              <surname>Sippl</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Ferreiro</surname>
+              <given-names>DU</given-names>
+            </name>
+          </person-group>
+          <article-title>Detecting repetitions and periodicities in proteins by tiling the structural space</article-title>
+          <source>J Phys Chem B</source>
+          <year>2013</year>
+          <volume>117</volume>
+          <fpage>12887</fpage>
+          <lpage>12897</lpage>
+          <pub-id pub-id-type="doi">10.1021/jp402105j</pub-id>
+          <?supplied-pmid 23758291?>
+          <pub-id pub-id-type="pmid">23758291</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR23">
+        <label>23.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walsh</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Sirocco</surname>
+              <given-names>FG</given-names>
+            </name>
+            <name>
+              <surname>Minervini</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Di Domenico</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Ferrari</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Tosatto</surname>
+              <given-names>SCE</given-names>
+            </name>
+          </person-group>
+          <article-title>RAPHAEL: recognition, periodicity and insertion assignment of solenoid protein structures</article-title>
+          <source>Bioinformatics</source>
+          <year>2012</year>
+          <volume>28</volume>
+          <fpage>3257</fpage>
+          <lpage>3264</lpage>
+          <pub-id pub-id-type="doi">10.1093/bioinformatics/bts550</pub-id>
+          <?supplied-pmid 22962341?>
+          <pub-id pub-id-type="pmid">22962341</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR24">
+        <label>24.</label>
+        <mixed-citation publication-type="other">Hrabe T, Godzik A: <bold>ConSole: using modularity of Contact maps to locate Solenoid domains in protein structures.</bold><italic>BMC Bioinformatics</italic> 2014, <bold>15:</bold>119.</mixed-citation>
+      </ref>
+      <ref id="CR25">
+        <label>25.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Forrer</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Binz</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Stumpp</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>PlÃ¼ckthun</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Consensus design of repeat proteins</article-title>
+          <source>Chembiochem</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>183</fpage>
+          <lpage>189</lpage>
+          <pub-id pub-id-type="doi">10.1002/cbic.200300762</pub-id>
+          <?supplied-pmid 14760739?>
+          <pub-id pub-id-type="pmid">14760739</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR26">
+        <label>26.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosavi</surname>
+              <given-names>LK</given-names>
+            </name>
+            <name>
+              <surname>Cammett</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Desrosiers</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>Z</given-names>
+            </name>
+          </person-group>
+          <article-title>The ankyrin repeat as molecular architecture for protein recognition</article-title>
+          <source>Protein Sci</source>
+          <year>2004</year>
+          <volume>13</volume>
+          <fpage>1435</fpage>
+          <lpage>1448</lpage>
+          <pub-id pub-id-type="doi">10.1110/ps.03554604</pub-id>
+          <?supplied-pmid 15152081?>
+          <pub-id pub-id-type="pmid">15152081</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR27">
+        <label>27.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Mahajan</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Tsai</surname>
+              <given-names>M-D</given-names>
+            </name>
+          </person-group>
+          <article-title>Ankyrin repeat: a unique motif mediating protein-protein interactions</article-title>
+          <source>Biochemistry</source>
+          <year>2006</year>
+          <volume>45</volume>
+          <fpage>15168</fpage>
+          <lpage>15178</lpage>
+          <pub-id pub-id-type="doi">10.1021/bi062188q</pub-id>
+          <?supplied-pmid 17176038?>
+          <pub-id pub-id-type="pmid">17176038</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR28">
+        <label>28.</label>
+        <mixed-citation publication-type="other">Leite RC, Basseres DS, Ferreira JS, Alberto FL, Costa FF, Saad ST: <bold>Low frequency of ankyrin mutations in hereditary spherocytosis: identification of three novel mutations.</bold><italic>Hum Mutat</italic> 2000, <bold>16:</bold>529.</mixed-citation>
+      </ref>
+      <ref id="CR29">
+        <label>29.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Blatch</surname>
+              <given-names>GL</given-names>
+            </name>
+            <name>
+              <surname>LÃ¤ssle</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The tetratricopeptide repeat: a structural motif mediating protein-protein interactions</article-title>
+          <source>Bioessays</source>
+          <year>1999</year>
+          <volume>21</volume>
+          <fpage>932</fpage>
+          <lpage>939</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1521-1878(199911)21:11&lt;932::AID-BIES5&gt;3.0.CO;2-N</pub-id>
+          <?supplied-pmid 10517866?>
+          <pub-id pub-id-type="pmid">10517866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR30">
+        <label>30.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tewari</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Bailes</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Bunting</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Coates</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>Armadillo-repeat protein functions: questions for little creatures</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2010</year>
+          <volume>20</volume>
+          <fpage>470</fpage>
+          <lpage>481</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.tcb.2010.05.003</pub-id>
+          <?supplied-pmid 20688255?>
+          <pub-id pub-id-type="pmid">20688255</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR31">
+        <label>31.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Adams</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Kelso</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Cooley</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>The kelch repeat superfamily of proteins: propellers of cell function</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2000</year>
+          <volume>10</volume>
+          <fpage>17</fpage>
+          <lpage>24</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0962-8924(99)01673-6</pub-id>
+          <?supplied-pmid 10603472?>
+          <pub-id pub-id-type="pmid">10603472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR32">
+        <label>32.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kajava</surname>
+              <given-names>AV</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural diversity of leucine-rich repeat proteins</article-title>
+          <source>J Mol Biol</source>
+          <year>1998</year>
+          <volume>277</volume>
+          <fpage>519</fpage>
+          <lpage>527</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1998.1643</pub-id>
+          <?supplied-pmid 9533877?>
+          <pub-id pub-id-type="pmid">9533877</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR33">
+        <label>33.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vishveshwara</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Brinda</surname>
+              <given-names>KV</given-names>
+            </name>
+            <name>
+              <surname>Kannan</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein structure: insights from graph theory</article-title>
+          <source>J Theor Comput Chem</source>
+          <year>2002</year>
+          <volume>01</volume>
+          <fpage>187</fpage>
+          <lpage>211</lpage>
+          <pub-id pub-id-type="doi">10.1142/S0219633602000117</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR34">
+        <label>34.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kannan</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Vishveshwara</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Identification of side-chain clusters in protein structures by a graph spectral method</article-title>
+          <source>J Mol Biol</source>
+          <year>1999</year>
+          <volume>292</volume>
+          <fpage>441</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="doi">10.1006/jmbi.1999.3058</pub-id>
+          <?supplied-pmid 10493887?>
+          <pub-id pub-id-type="pmid">10493887</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR35">
+        <label>35.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Patra</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Vishveshwara</surname>
+              <given-names>S</given-names>
+            </name>
+          </person-group>
+          <article-title>Backbone cluster identification in proteins by a graph theoretical method</article-title>
+          <source>Biophys Chem</source>
+          <year>2000</year>
+          <volume>84</volume>
+          <fpage>13</fpage>
+          <lpage>25</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0301-4622(99)00134-9</pub-id>
+          <?supplied-pmid 10723541?>
+          <pub-id pub-id-type="pmid">10723541</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR36">
+        <label>36.</label>
+        <mixed-citation publication-type="other">Chakrabarty B, Parekh N: <bold>Analysis of graph centrality measures for identifying Ankyrin repeats.</bold> In <italic>2012 World Congress on Information and Communication Technologies (WICT)</italic>, IEEE; 2012:156â161. doi: 10.1109/WICT.2012.6409067</mixed-citation>
+      </ref>
+      <ref id="CR37">
+        <label>37.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sonnhammer</surname>
+              <given-names>EL</given-names>
+            </name>
+            <name>
+              <surname>Eddy</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Durbin</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Pfam: a comprehensive database of protein domain families based on seed alignments</article-title>
+          <source>Proteins</source>
+          <year>1997</year>
+          <volume>28</volume>
+          <fpage>405</fpage>
+          <lpage>420</lpage>
+          <pub-id pub-id-type="doi">10.1002/(SICI)1097-0134(199707)28:3&lt;405::AID-PROT10&gt;3.0.CO;2-L</pub-id>
+          <?supplied-pmid 9223186?>
+          <pub-id pub-id-type="pmid">9223186</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR38">
+        <label>38.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sigrist</surname>
+              <given-names>CJA</given-names>
+            </name>
+            <name>
+              <surname>Cerutti</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>de Castro</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Langendijk-Genevaux</surname>
+              <given-names>PS</given-names>
+            </name>
+            <name>
+              <surname>Bulliard</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Bairoch</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hulo</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>PROSITE, a protein domain database for functional characterization and annotation</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <issue>Database issue</issue>
+          <fpage>D161</fpage>
+          <lpage>166</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkp885</pub-id>
+          <?supplied-pmid 19858104?>
+          <pub-id pub-id-type="pmid">19858104</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR39">
+        <label>39.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Consortium</surname>
+              <given-names>UP</given-names>
+            </name>
+          </person-group>
+          <article-title>The universal protein resource (UniProt) in 2010</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2010</year>
+          <volume>38</volume>
+          <issue>Database issue</issue>
+          <fpage>D142</fpage>
+          <lpage>148</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/gkp846</pub-id>
+          <pub-id pub-id-type="pmid">19843607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR40">
+        <label>40.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murzin</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Brenner</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Chothia</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>SCOP: a structural classification of proteins database for the investigation of sequences and structures</article-title>
+          <source>J Mol Biol</source>
+          <year>1995</year>
+          <volume>247</volume>
+          <fpage>536</fpage>
+          <lpage>540</lpage>
+          <?supplied-pmid 7723011?>
+          <pub-id pub-id-type="pmid">7723011</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR41">
+        <label>41.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berman</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Westbrook</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Feng</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Gilliland</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Bhat</surname>
+              <given-names>TN</given-names>
+            </name>
+            <name>
+              <surname>Weissig</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Shindyalov</surname>
+              <given-names>IN</given-names>
+            </name>
+            <name>
+              <surname>Bourne</surname>
+              <given-names>PE</given-names>
+            </name>
+          </person-group>
+          <article-title>The protein data bank</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>2000</year>
+          <volume>28</volume>
+          <fpage>235</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/28.1.235</pub-id>
+          <?supplied-pmid 10592235?>
+          <pub-id pub-id-type="pmid">10592235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR42">
+        <label>42.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frishman</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Argos</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Knowledge-based protein secondary structure assignment</article-title>
+          <source>Proteins</source>
+          <year>1995</year>
+          <volume>23</volume>
+          <fpage>566</fpage>
+          <lpage>579</lpage>
+          <pub-id pub-id-type="doi">10.1002/prot.340230412</pub-id>
+          <?supplied-pmid 8749853?>
+          <pub-id pub-id-type="pmid">8749853</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR43">
+        <label>43.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Oliphant</surname>
+              <given-names>TE</given-names>
+            </name>
+          </person-group>
+          <article-title>Python for scientific computing</article-title>
+          <source>Computing in Science and Engg</source>
+          <year>2007</year>
+          <volume>9</volume>
+          <fpage>10</fpage>
+          <lpage>20</lpage>
+          <pub-id pub-id-type="doi">10.1109/MCSE.2007.58</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR44">
+        <label>44.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thompson</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Higgins</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Gibson</surname>
+              <given-names>TJ</given-names>
+            </name>
+          </person-group>
+          <article-title>CLUSTAL W: improving the sensitivity of progressive multiple sequence alignment through sequence weighting, position-specific gap penalties and weight matrix choice</article-title>
+          <source>Nucleic Acids Res</source>
+          <year>1994</year>
+          <volume>22</volume>
+          <fpage>4673</fpage>
+          <lpage>4680</lpage>
+          <pub-id pub-id-type="doi">10.1093/nar/22.22.4673</pub-id>
+          <?supplied-pmid 7984417?>
+          <pub-id pub-id-type="pmid">7984417</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR45">
+        <label>45.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shindyalov</surname>
+              <given-names>IN</given-names>
+            </name>
+            <name>
+              <surname>Bourne</surname>
+              <given-names>PE</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein structure alignment by incremental combinatorial extension (CE) of the optimal path</article-title>
+          <source>Protein Eng</source>
+          <year>1998</year>
+          <volume>11</volume>
+          <fpage>739</fpage>
+          <lpage>747</lpage>
+          <pub-id pub-id-type="doi">10.1093/protein/11.9.739</pub-id>
+          <?supplied-pmid 9796821?>
+          <pub-id pub-id-type="pmid">9796821</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR46">
+        <label>46.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Laskowski</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Hutchinson</surname>
+              <given-names>EG</given-names>
+            </name>
+            <name>
+              <surname>Michie</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Wallace</surname>
+              <given-names>AC</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>PDBsum: a Web-based database of summaries and analyses of all PDB structures</article-title>
+          <source>Trends Biochem Sci</source>
+          <year>1997</year>
+          <volume>22</volume>
+          <fpage>488</fpage>
+          <lpage>490</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0968-0004(97)01140-7</pub-id>
+          <?supplied-pmid 9433130?>
+          <pub-id pub-id-type="pmid">9433130</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR47">
+        <label>47.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kabsch</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Sander</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Dictionary of protein secondary structure: pattern recognition of hydrogen-bonded and geometrical features</article-title>
+          <source>Biopolymers</source>
+          <year>1983</year>
+          <volume>22</volume>
+          <fpage>2577</fpage>
+          <lpage>2637</lpage>
+          <pub-id pub-id-type="doi">10.1002/bip.360221211</pub-id>
+          <?supplied-pmid 6667333?>
+          <pub-id pub-id-type="pmid">6667333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR48">
+        <label>48.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gouy</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Guindon</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Gascuel</surname>
+              <given-names>O</given-names>
+            </name>
+          </person-group>
+          <article-title>SeaView version 4: a multiplatform graphical user interface for sequence alignment and phylogenetic tree building</article-title>
+          <source>Mol Biol Evol</source>
+          <year>2010</year>
+          <volume>27</volume>
+          <fpage>221</fpage>
+          <lpage>224</lpage>
+          <pub-id pub-id-type="doi">10.1093/molbev/msp259</pub-id>
+          <?supplied-pmid 19854763?>
+          <pub-id pub-id-type="pmid">19854763</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR49">
+        <label>49.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kohl</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Binz</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Forrer</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Stumpp</surname>
+              <given-names>MT</given-names>
+            </name>
+            <name>
+              <surname>PlÃ¼ckthun</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>GrÃ¼tter</surname>
+              <given-names>MG</given-names>
+            </name>
+          </person-group>
+          <article-title>Designed to be stable: Crystal structure of a consensus ankyrin repeat protein</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2003</year>
+          <volume>100</volume>
+          <fpage>1700</fpage>
+          <lpage>1705</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0337680100</pub-id>
+          <?supplied-pmid 12566564?>
+          <pub-id pub-id-type="pmid">12566564</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR50">
+        <label>50.</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mosavi</surname>
+              <given-names>LK</given-names>
+            </name>
+            <name>
+              <surname>Minor</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Peng</surname>
+              <given-names>Z</given-names>
+            </name>
+          </person-group>
+          <article-title>Consensus-derived structural determinants of the ankyrin repeat motif</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2002</year>
+          <volume>99</volume>
+          <fpage>16029</fpage>
+          <lpage>16034</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.252537899</pub-id>
+          <?supplied-pmid 12461176?>
+          <pub-id pub-id-type="pmid">12461176</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="CR51">
+        <label>51.</label>
+        <mixed-citation publication-type="other">Biasini M, Bienert S, Waterhouse A, Arnold K, Studer G, Schmidt T, Kiefer F, Cassarino TG, Bertoni M, Bordoli L, Schwede T: <bold>SWISS-MODEL: modelling protein tertiary and quaternary structure using evolutionary information</bold>. <italic>Nucleic Acids Res</italic> 2014, <bold>42</bold>(Web Server issue):W252â258.</mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

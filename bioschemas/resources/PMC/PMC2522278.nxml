@@ -1,0 +1,1797 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:32:35Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:2522278" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:2522278</identifier><datestamp>2008-09-08</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC2522278</article-id>
+      <article-id pub-id-type="pmcid">PMC2522278</article-id>
+      <article-id pub-id-type="pmc-uid">2522278</article-id>
+      <article-id pub-id-type="pmid">18776931</article-id>
+      <article-id pub-id-type="pmid">18776931</article-id>
+      <article-id pub-id-type="publisher-id">08-PONE-RA-05477R1</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0003164</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Cell Biology/Gene Expression</subject>
+          <subject>Computational Biology/Sequence Motif Analysis</subject>
+          <subject>Genetics and Genomics/Bioinformatics</subject>
+          <subject>Genetics and Genomics/Genomics</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Comparative Analysis of mRNA Targets for Human PUF-Family Proteins Suggests Extensive Interaction with the miRNA Regulatory System</article-title>
+        <alt-title alt-title-type="running-head">Human PUM mRNA Targets</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Galgano</surname>
+            <given-names>Alessia</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Forrer</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Jaskiewicz</surname>
+            <given-names>Lukasz</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kanitz</surname>
+            <given-names>Alexander</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zavolan</surname>
+            <given-names>Mihaela</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gerber</surname>
+            <given-names>AndrÃ© P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Institute of Pharmaceutical Sciences, ETH Zurich, Zurich, Switzerland</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Biozentrum, University of Basel, Basel, Switzerland</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>BÃ¤hler</surname>
+            <given-names>JÃ¼rg</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Wellcome Trust Sanger Institute, United Kingdom</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>andrÃ©.gerber@pharma.ethz.ch</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: AG MZ APG. Performed the experiments: AG MF LJ MZ APG. Analyzed the data: AG MF LJ AK MZ APG. Contributed reagents/materials/analysis tools: AK MZ APG. Wrote the paper: AG MZ APG.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2008</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>8</day>
+        <month>9</month>
+        <year>2008</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>9</issue>
+      <elocation-id>e3164</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>11</day>
+          <month>7</month>
+          <year>2008</year>
+        </date>
+        <date date-type="accepted">
+          <day>18</day>
+          <month>8</month>
+          <year>2008</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Galgano et al.</copyright-statement>
+        <copyright-year>2008</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Genome-wide identification of mRNAs regulated by RNA-binding proteins is crucial to uncover post-transcriptional gene regulatory systems. The conserved PUF family RNA-binding proteins repress gene expression post-transcriptionally by binding to sequence elements in 3â²-UTRs of mRNAs. Despite their well-studied implications for development and neurogenesis in metazoa, the mammalian PUF family members are only poorly characterized and mRNA targets are largely unknown. We have systematically identified the mRNAs associated with the two human PUF proteins, PUM1 and PUM2, by the recovery of endogenously formed ribonucleoprotein complexes and the analysis of associated RNAs with DNA microarrays. A largely overlapping set comprised of hundreds of mRNAs were reproducibly associated with the paralogous PUM proteins, many of them encoding functionally related proteins. A characteristic PUF-binding motif was highly enriched among PUM bound messages and validated with RNA pull-down experiments. Moreover, PUF motifs as well as surrounding sequences exhibit higher conservation in PUM bound messages as opposed to transcripts that were not found to be associated, suggesting that PUM function may be modulated by other factors that bind conserved elements. Strikingly, we found that PUF motifs are enriched around predicted miRNA binding sites and that high-confidence miRNA binding sites are significantly enriched in the 3â²-UTRs of experimentally determined PUM1 and PUM2 targets, strongly suggesting an interaction of human PUM proteins with the miRNA regulatory system. Our work suggests extensive connections between the RBP and miRNA post-transcriptional regulatory systems and provides a framework for deciphering the molecular mechanism by which PUF proteins regulate their target mRNAs.</p>
+      </abstract>
+      <counts>
+        <page-count count="16"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Gene expression is regulated at multiple levels to ensure coordinated synthesis of the cells' macromolecular components. Besides transcriptional regulation, it is becoming increasingly recognized that control of the post-transcriptional steps has substantial impact on gene expression with widespread physiological implications <xref rid="pone.0003164-Moore1" ref-type="bibr">[1]</xref>, <xref rid="pone.0003164-Halbeisen1" ref-type="bibr">[2]</xref>. This regulation is mediated by hundreds of RNA-binding proteins (RBPs) that are encoded in eukaryotic genomes and bind to sequence/structural elements in mRNAs, and thereby regulate the localization, translation or decay of messages <xref rid="pone.0003164-Dreyfuss1" ref-type="bibr">[3]</xref>â<xref rid="pone.0003164-McKee1" ref-type="bibr">[7]</xref>. On the other hand, microRNAs (miRNAs), â¼22 nucleotide (nt) long RNA molecules, can repress gene expression by base-pairing with sequences in 3â²-untranslated regions (3â²-UTRs) of messages and thus inhibit their translation or promote decay <xref rid="pone.0003164-Filipowicz1" ref-type="bibr">[8]</xref>, <xref rid="pone.0003164-Lal1" ref-type="bibr">[9]</xref>.</p>
+      <p>The PUmilio-Fem-3-binding factor (PUF) proteins comprise an evolutionarily conserved family of RNA-binding proteins that are implicated in various physiological processes <xref rid="pone.0003164-Wickens1" ref-type="bibr">10</xref>, <xref rid="pone.0003164-Spassov1" ref-type="bibr">11</xref>. They are defined by the presence of an RNA-binding domain, termed Pumilio-homology domain (Pum-HD), which consists of eight repeats, each of which makes contact with a different RNA base <xref rid="pone.0003164-Edwards1" ref-type="bibr">[12]</xref>â<xref rid="pone.0003164-Miller1" ref-type="bibr">[15]</xref>. PUF proteins bind to an RNA element that comprises a core âUGURâ tetranucleotide followed by 3â²-UTR sequences that vary among PUF proteins. In concert with other factors, PUFs repress gene expression by inhibiting translation or promoting decay <xref rid="pone.0003164-Olivas1" ref-type="bibr">[16]</xref>, <xref rid="pone.0003164-Goldstrohm1" ref-type="bibr">[17]</xref>, <xref rid="pone.0003164-Kadyrova1" ref-type="bibr">[18]</xref>.</p>
+      <p>The study of PUF proteins in diverse model organisms revealed widespread roles for these proteins in embryonic development, stem-cell maintenance and neurogenesis <xref rid="pone.0003164-Wickens1" ref-type="bibr">[10]</xref>, <xref rid="pone.0003164-Spassov1" ref-type="bibr">[11]</xref>. In the fruit fly <italic>Drosophila melanogaster</italic>, Pumilio (Pum) is required for proper anterior/posterior patterning during early embryogenesis by repression of the translation of <italic>hunchback</italic> mRNA <xref rid="pone.0003164-Murata1" ref-type="bibr">[19]</xref>. Furthermore, Pum is also involved in the development and migration of primordial germ cells <xref rid="pone.0003164-Lin1" ref-type="bibr">[20]</xref>, <xref rid="pone.0003164-Forbes1" ref-type="bibr">[21]</xref>, <xref rid="pone.0003164-AsaokaTaguchi1" ref-type="bibr">[22]</xref>, and it may be implicated in long-term memory formation and neuronal excitability <xref rid="pone.0003164-Dubnau1" ref-type="bibr">[23]</xref>, <xref rid="pone.0003164-Menon1" ref-type="bibr">[24]</xref>, <xref rid="pone.0003164-Muraro1" ref-type="bibr">[25]</xref>. In the nematode <italic>Caenorhabditis elegans</italic>, Fem-3 mRNA Binding Factors 1 and 2 (FBF-1, FBF-2) regulate the germline switch from spermatogenesis to oogenesis by repressing <italic>fem-3</italic> mRNA translation <xref rid="pone.0003164-Zhang1" ref-type="bibr">[26]</xref>. The six yeast <italic>Saccharomyces cerevisiae</italic> PUF proteins (Puf1pâPuf6p) regulate aging, mating-type switching and mitochondrial function <xref rid="pone.0003164-Wickens1" ref-type="bibr">[10]</xref>, <xref rid="pone.0003164-Tadauchi1" ref-type="bibr">[27]</xref>, <xref rid="pone.0003164-GarciaRodriguez1" ref-type="bibr">[28]</xref>.</p>
+      <p>Much less is known about the functions of PUF homologs in vertebrates. Two paralogous PUF proteins exist in human, termed Pumilio homolog 1 (PUM1) and Pumilio homolog 2 (PUM2). PUM1 and PUM2 are often co-expressed in diverse tissues suggesting that they may occasionally act redundantly <xref rid="pone.0003164-Spassov1" ref-type="bibr">[11]</xref>, <xref rid="pone.0003164-Moore2" ref-type="bibr">[29]</xref>, <xref rid="pone.0003164-Vessey1" ref-type="bibr">[30]</xref>. Based on few studies investigating PUM2 function, it is assumed that mammalian PUFs have physiological roles analogous to the non-vertebrate homologs: in germ cells, PUM2 interacts with deleted in azoospermia (DAZ), DAZ-like (DAZL) proteins, and the meiotic regulator BOULE (BOL), which are RBPs that function in early germ line stem cells <xref rid="pone.0003164-Moore2" ref-type="bibr">[29]</xref>, <xref rid="pone.0003164-Urano1" ref-type="bibr">[31]</xref>. Moreover, mouse <italic>Pum2</italic> mutants have smaller testes, although fertility seems not to be affected <xref rid="pone.0003164-Xu1" ref-type="bibr">[32]</xref>. Based on these results, a role for <italic>Pum2</italic> in the maintenance of germline stem cells was proposed <xref rid="pone.0003164-Moore2" ref-type="bibr">[29]</xref>, <xref rid="pone.0003164-Urano1" ref-type="bibr">[31]</xref>. PUM2 was recently found to negatively regulate the expression of MAPK1 (mitogen-activated protein kinase 1, ERK2) and MAPK14 (mitogen-activated protein kinase 14) in human embryonic stem cells and in the <italic>C. elegans</italic> germline. MAPK1 and MAPK14 are kinases acting in the MAPK/ERK pathway that represses stem cell self-renewal <xref rid="pone.0003164-Lee1" ref-type="bibr">[33]</xref> and hence, these results sustain an ancestral role for PUF proteins in maintenance and self-renewal of stem cells <xref rid="pone.0003164-Wickens1" ref-type="bibr">[10]</xref>. Recent evidence suggests additional roles of mammalian PUM2 in neurons i.e. for maintaining synapse morphology and function <xref rid="pone.0003164-Vessey1" ref-type="bibr">[30]</xref>, <xref rid="pone.0003164-Zhong1" ref-type="bibr">[34]</xref>.</p>
+      <p>A major obstacle in the study of PUF proteins (and of RBPs in general) is the lack of knowledge about the specific mRNA targets. Systematic identification of the RNAs associated with RBPs <italic>in vivo</italic> is therefore needed to identify the potential RNA targets that may undergo regulation. In addition, identifying target RNAs of conserved RBPs in diverse organisms should provide insight into evolutionary aspects of post-transcriptional regulatory networks. We have previously identified the mRNA targets for PUF proteins in the yeast <italic>Saccharomyces cerevisiae</italic> and the fruit fly <italic>Drosophila melanogaster</italic>, revealing association of PUFs with distinct subsets of mRNAs encoding functionally or cytotopically related proteins that are part of the same macromolecular complex, localize to the same subcellular region or act in the same signal transduction pathway <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. For example, yeast Puf3p binds nearly exclusively to nuclear encoded mRNAs for mitochondrial proteins, whereas <italic>Drosophila</italic> Pum in ovaries of adult flies associates with mRNAs encoding nuclear proteins involved in nucleotide metabolism and transcriptional regulation, and many mRNAs coding for proteins localized to organelle membranes. These studies provided strong evidence for the presence of a highly organized post-transcriptional regulatory system that coordinates the fates of functionally related groups of mRNAs as âpost-transcriptional operonsâ or RNA regulons <xref rid="pone.0003164-Halbeisen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0003164-Keene1" ref-type="bibr">[37]</xref>, <xref rid="pone.0003164-Keene2" ref-type="bibr">[38]</xref>. Moreover, the knowledge of RBP target RNAs initiated diverse follow-up experiments unraveling new functions of these proteins <xref rid="pone.0003164-Muraro1" ref-type="bibr">[25]</xref>, <xref rid="pone.0003164-GarciaRodriguez1" ref-type="bibr">[28]</xref>, <xref rid="pone.0003164-Prinz1" ref-type="bibr">[39]</xref>, <xref rid="pone.0003164-SaintGeorges1" ref-type="bibr">[40]</xref>.</p>
+      <p>We have now undertaken a systematic analysis of the mRNAs associated with the two human PUM proteins to provide a framework for the study of their functional implications. Surprisingly, our list of experimentally defined PUM targets predicts extensive connections to the miRNA regulatory system, providing a first indication that âcross-talkâ between translational regulation through RBPs and miRNAs may be more frequent than previously appreciated <xref rid="pone.0003164-Bhattacharyya1" ref-type="bibr">[41]</xref>, <xref rid="pone.0003164-Kedde1" ref-type="bibr">[42]</xref>, <xref rid="pone.0003164-Nolde1" ref-type="bibr">[43]</xref>.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>Human PUM 1 and PUM 2 associate with hundreds of mRNAs in HeLa S3 cancer cells</title>
+        <p>To identify mRNAs associated with human PUM proteins, we used a modified Ribonucleoprotein-ImmunoPrecipitation Microarray (RIP-Chip) approach on HeLa S3 cancer cells that express both PUM1 and PUM2 (<xref ref-type="supplementary-material" rid="pone.0003164.s002">Figure S1A</xref>) <xref rid="pone.0003164-Baroni1" ref-type="bibr">[44]</xref>. PUM ribonucleoprotein (RNP) complexes were captured from cell-free extracts with specific antibodies coupled to either protein G (PUM1) or protein A (PUM2) sepharose beads, and then eluted with SDS-EDTA (<xref ref-type="supplementary-material" rid="pone.0003164.s002">Figure S1B</xref>). To control for non-specifically enriched RNAs, the same procedure was performed with beads that were not coupled with immunoprecipitating antibodies (mock samples). RNA was isolated from extracts (input) and from the immunopurified (IPed) samples, amplified, and labeled with Cy3 and Cy5 fluorescent dyes, respectively. The labeled RNA probes from total RNA and IPed RNA were mixed and competitively hybridized to human cDNA microarrays that contained probes for â¼26,000 transcripts. In this assay, the ratio of the two RNA populations at a given array element reflects the enrichment of the respective mRNA by the PUM affinity purification <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>.</p>
+        <p>To generate a list of mRNAs that were consistently enriched by PUMs and hence represent likely targets, we compared association of transcripts from PUM affinity isolations to the mock isolates by unpaired two-class Significance Analysis of Microarrays (SAM) and determined false discovery rates (FDRs) for each array element <xref rid="pone.0003164-Tusher1" ref-type="bibr">[45]</xref>. 1766 transcripts representing 1424 ENSEMBL annotated genes were consistently associated with PUM1 with FDRs of less than 5%. (<xref ref-type="fig" rid="pone-0003164-g001">Figure 1A</xref>, <xref ref-type="supplementary-material" rid="pone.0003164.s003">Table S1</xref>, a complete list of PUM1 mRNA targets is provided in <xref ref-type="supplementary-material" rid="pone.0003164.s004">Table S2</xref>). Likewise, we identified 751 transcripts (575 ENSEMBL genes) that were reproducibly associated with PUM2 with FDRs of less than 5% (<xref ref-type="fig" rid="pone-0003164-g001">Figure 1B</xref>, <xref ref-type="supplementary-material" rid="pone.0003164.s003">Table S1</xref>, a complete list of PUM2 mRNA targets is provided in <xref ref-type="supplementary-material" rid="pone.0003164.s005">Table S3</xref>). Strikingly, 507 (88%) of the PUM2 target genes were also among the experimentally defined PUM1 targets, indicating that the two human PUM paralogs have very similar substrate specificities and possibly act redundantly on common targets (<xref ref-type="fig" rid="pone-0003164-g001">Figure 1C</xref>). This finding correlates with the high amino acid conservation among PUM paralogs (83% similarity) and their respective RNA-binding domains (PUM-HD; 91% identity), where all of the critical amino-acids that directly contact RNA are fully conserved <xref rid="pone.0003164-Wang1" ref-type="bibr">[13]</xref>. Furthermore, immunoblot analysis of PUM1 and PUM2 RIP eluates with Î±-PUM2 and Î±-PUM1 antibodies, respectively, did not show co-immunoprecipitation of the two paralogous proteins, thus excluding the possibility that the target overlap was simply due to simultaneous protein pull-down (<xref ref-type="supplementary-material" rid="pone.0003164.s002">Figure S1B</xref>).</p>
+        <fig id="pone-0003164-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>mRNAs specifically associated with human PUM proteins.</title>
+            <p>Rows represent unique transcripts ordered according to increasing FDRs determined by SAM analysis. Columns represent individual experiments. The colour code indicates the degree of enrichment (green-red log<sub>2</sub> ratio scale). (A) mRNAs associated with PUM1. Three experiments with PUM1 protein and three mock experiments both with dye-swap technical replicates are shown. (B) mRNAs associated with PUM2. Four experiments with PUM2 protein and three mock experiments are shown. (C). Venn diagram representing overlap between PUM1 and PUM2 targeted transcripts (right) and the corresponding genes (ENSEMBL, left).</p>
+          </caption>
+          <graphic xlink:href="pone.0003164.g001"/>
+        </fig>
+        <p>In spite of the extensive overlap between the target sets of the two proteins, 138 PUM2 associated transcripts (representing 68 ENSEMBL annotated genes) did not pass the threshold to be selected as PUM1 target. Likewise, we identified over 1000 transcripts (representing 917 genes) that were only associated with PUM1 but not with PUM2 (<xref ref-type="supplementary-material" rid="pone.0003164.s004">Tables S2</xref>, <xref ref-type="supplementary-material" rid="pone.0003164.s005">S3</xref>). However, we observed substantial PUM2 protein degradation during the RIP procedure (<xref ref-type="supplementary-material" rid="pone.0003164.s002">Figure S1</xref>, data not shown) and hence, may have lost associations with a fraction of mRNA targets during the procedure, possibly reducing the number of identified targets. Apart from this, false-positives from unspecific antibody binding, or other PUM-interacting proteins that pulled down additional mRNAs could have contributed to differential mRNA associations. However, since most transcripts bear a canonical PUF-binding motif (see below), we believe that they represent true PUM targets. Differential associations may be attributed to slightly different substrate selectivity of the paralogous PUM proteins, possibly defined by additional sequence or structural elements in the vicinity of the PUF-binding site.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Human PUM proteins associate with functionally related messages</title>
+        <p>To identify functional themes among the mRNAs associated with PUM1 and PUM2, we searched for shared Protein ANalysis THrough Evolutionary Relationships (PANTHER) <xref rid="pone.0003164-Mi1" ref-type="bibr">[46]</xref> and Gene Ontology (GO) <xref rid="pone.0003164-Boyle1" ref-type="bibr">[47]</xref> annotations in the list of PUM1 and PUM2 mRNA targets with FDR&lt;5% (<xref ref-type="table" rid="pone-0003164-t001">Table 1</xref>, for a detailed list of significant annotations see <xref ref-type="supplementary-material" rid="pone.0003164.s006">Table S4</xref>). PANTHER pathway analysis of PUM1 targets revealed significant enrichment of components that regulate angiogenesis (<italic>p</italic>&lt;8Ã10<sup>â7</sup>) or that mediate inflammatory/immune responses (T and B cell activation, <italic>p</italic>&lt;5Ã10<sup>â4</sup> and <italic>p</italic>&lt;10<sup>â2</sup>, respectively). We also found strong enrichment of pathways important for cell-proliferation and stress response such as the Ras (<italic>p</italic>&lt;1Ã10<sup>â6</sup>), the platelet-derived growth factor (PDGF, <italic>p</italic>&lt;3Ã10<sup>â4</sup>) and epidermal growth factor (EGF, <italic>p</italic>&lt;10<sup>â2</sup>) signaling pathways. Although several components of these pathways were also associated with PUM2, the respective terms did not reach statistical significance. The analysis for PUM2 targets revealed only two terms with weak statistical significance: the p53 pathway (<italic>p</italic>&lt;10<sup>â2</sup>), which was also weakly enriched among PUM1 targets (p&lt;10<sup>â3</sup>), and several messages coding for proteins related to Parkinson's disease (<italic>p</italic>&lt;2Ã10<sup>â2</sup>) (<xref ref-type="table" rid="pone-0003164-t001">Table 1</xref>, <xref ref-type="supplementary-material" rid="pone.0003164.s006">Table S4</xref>).</p>
+        <table-wrap id="pone-0003164-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Significantly shared PANTHER and GO annotations among PUM1 and PUM2 mRNA targets.</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0003164-t001-1" xlink:href="pone.0003164.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Category</td>
+                  <td align="left" rowspan="1" colspan="1">Term</td>
+                  <td align="left" rowspan="1" colspan="1">PUM1 <italic>p</italic>-value</td>
+                  <td align="left" rowspan="1" colspan="1">PUM2 <italic>p</italic>-value</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Pathway (PANTHER)</td>
+                  <td align="left" rowspan="1" colspan="1">Angiogenesis</td>
+                  <td align="left" rowspan="1" colspan="1">8Ã10<sup>â7</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Ras Pathway</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â6</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">PDGF signaling pathway</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â4</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">T cell activation</td>
+                  <td align="left" rowspan="1" colspan="1">5Ã10<sup>â4</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">p53 pathway</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â3</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">9Ã10<sup>â3</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Interleukin signaling pathway</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â2</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">EGF receptor signaling pathway</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â2</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">B cell activation</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â2</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Parkinson's disease</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">2Ã10<sup>â2</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Biological Process (PANTHER)</td>
+                  <td align="left" rowspan="1" colspan="1">Nucleoside, nucleotide and nucleic acid metabolism</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â19</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â6</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Cell cycle</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â14</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">9Ã10<sup>â7</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">mRNA transcription</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â13</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">5Ã10<sup>â4</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Protein phosphorylation</td>
+                  <td align="left" rowspan="1" colspan="1">2Ã10<sup>â8</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â2</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Intracellular protein traffic</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â7</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">6Ã10<sup>â3</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Intracellular signaling cascade</td>
+                  <td align="left" rowspan="1" colspan="1">6Ã10<sup>â6</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â2</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Cell proliferation and differentiation</td>
+                  <td align="left" rowspan="1" colspan="1">5Ã10<sup>â5</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Developmental processes</td>
+                  <td align="left" rowspan="1" colspan="1">7Ã10<sup>â5</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Oncogenesis</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â4</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">DNA repair</td>
+                  <td align="left" rowspan="1" colspan="1">4Ã10<sup>â4</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">MAPKKK cascade</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â2</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Molecular Function (PANTHER)</td>
+                  <td align="left" rowspan="1" colspan="1">Nucleic acid binding</td>
+                  <td align="left" rowspan="1" colspan="1">6Ã10<sup>â11</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">4Ã10<sup>â6</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Transcription factor</td>
+                  <td align="left" rowspan="1" colspan="1">2Ã10<sup>â10</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Kinase</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â9</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Non-receptor serine/threonine protein kinase</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â7</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">RNA-binding protein/mRNA binding</td>
+                  <td align="left" rowspan="1" colspan="1">4Ã10<sup>â4</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Membrane traffic protein</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â2</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Component (GO)</td>
+                  <td align="left" rowspan="1" colspan="1">Intracellular membrane-bound organelle</td>
+                  <td align="left" rowspan="1" colspan="1">7Ã10<sup>â62</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">2Ã10<sup>â25</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Nucleus</td>
+                  <td align="left" rowspan="1" colspan="1">6Ã10<sup>â44</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">1Ã10<sup>â14</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Cytoplasm</td>
+                  <td align="left" rowspan="1" colspan="1">2Ã10<sup>â36</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">9Ã10<sup>â12</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Organelle lumen</td>
+                  <td align="left" rowspan="1" colspan="1">4Ã10<sup>â18</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3Ã10<sup>â7</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Nuclear lumen</td>
+                  <td align="left" rowspan="1" colspan="1">2Ã10<sup>â16</sup>
+</td>
+                  <td align="left" rowspan="1" colspan="1">8Ã10<sup>â6</sup>
+</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label/>
+              <p>PANTHER: total 25,431 NCBI annotated genes.</p>
+            </fn>
+            <fn id="nt102">
+              <label/>
+              <p>GO: total 35,541 EBI annotated genes.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>We were intrigued by the finding that PUM targets often encode proteins linked to angiogenesis - the process that promotes the formation of new blood vessels - and to the Ras (rat sarcoma) signaling pathway, which virtually affects every aspect of cell biology <xref rid="pone.0003164-Rossant1" ref-type="bibr">[48]</xref>, <xref rid="pone.0003164-Molina1" ref-type="bibr">[49]</xref>. We have therefore further mapped the interactions of the encoded proteins (<xref ref-type="fig" rid="pone-0003164-g002">Figure 2</xref>). Thirty-seven PUM1 bound mRNAs are assigned to the term âangiogenesisâ by PANTHER (<xref ref-type="fig" rid="pone-0003164-g002">Figure 2A</xref>). These include messages for diverse tyrosine kinase receptors including fms-related tyrosine kinase 1 (FLT1), which is a receptor for vascular endothelial growth factor A (VEGF A), a main inducer of angiogenesis. Even though VEGF A was not selected as a PUM target (FDR&gt;86%), the 3â²-UTR binds to PUM <italic>in vitro</italic> and bears a canonical PUF-binding motif, suggesting that PUM may regulate VEGF A expression (see below). Furthermore, PUM also targets components that transduce the intracellular signals downstream of these receptors and that are, at least in part, related to angiogenesis. For instance, parts of the wingless (Wnt) signaling pathway, including the three main components of the âÃ-catenin destruction complexâ <xref rid="pone.0003164-Zerlin1" ref-type="bibr">[50]</xref>, or activators and effectors of Ras (<xref ref-type="fig" rid="pone-0003164-g002">Figure 2B</xref>) <xref rid="pone.0003164-Molina1" ref-type="bibr">[49]</xref>. Finally, PUMs also bind diverse messages that are final targets of these signaling pathways, such as transcription factors that induce expression of angiogenic modulators or regulate cell proliferation or survival (Jun, STAT1, TCF4, TCF7L2). However, there is no apparent preference for PUMs to act selectively on positive or negative regulators of angiogenesis.</p>
+        <fig id="pone-0003164-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>PUM targets encode proteins acting in cancer related pathways.</title>
+            <p>Components whose mRNAs are associated with PUM1 are depicted in yellow, those bound by both PUM1 and PUM2 are shown in red. Messages that contain a PUF motif are shown with a thick black border. (A) Regulators of angiogenesis. PUM associated messages code for the tyrosine kinase receptors fms-related tyrosine kinase 1 (FLT1), which is the vascular endothelial growth factor receptor 1, fibroblast growth factor receptor 1 (FGFR1) and EPH receptor B4 (EPHB4) and its ligand ephrin-B1 (EFNB1). These receptors and their ligands can trigger signals that induce angiogenesis <xref rid="pone.0003164-Cheng1" ref-type="bibr">[73]</xref>, <xref rid="pone.0003164-Chen1" ref-type="bibr">[74]</xref>, <xref rid="pone.0003164-Roskoski1" ref-type="bibr">[75]</xref>. ARAF (v-raf murine sarcoma 3611 viral oncogene homolog) and MAPK1 (mitogen-activated protein kinase 1) are part of the RAS/RAF/MAPK pathway that can activate ETS (E26 transformation specific sequence) family transcription factors that promote angiogenesis <xref rid="pone.0003164-Wasylyk1" ref-type="bibr">[76]</xref>. Human PUM proteins commonly target messages of both canonical (Wnt/Ã-catenin) and non-canonical (Wnt/calcium signaling and planar cell polarity) pathways: WNT5A (wingless-type MMTV integration site family, member 5A) activates non-canonical Wnt signaling <xref rid="pone.0003164-Masckauchan1" ref-type="bibr">[77]</xref>, which induces proliferation of endothelial cells <italic>in vitro</italic>. WNT5A is thought to promote the expression of the angiogenic effectors MMP1 (matrix metallopeptidase 1), and TEK (endothelial TEK tyrosine kinase, TIE-2) <xref rid="pone.0003164-Masckauchan1" ref-type="bibr">[77]</xref>. PUM1 and PUM2 commonly target components of the âÃ-catenin destruction complexâ consisting of the serine/threonine kinase GSK3A (glycogen synthase kinase 3 alpha), which phosphorylates Ã-catenin marking the protein for ubiquitylation and rapid degradation by the proteasome, the tumor suppressor APC (adenomatous polyposis coli), and the scaffold protein AXIN1. PUM1 further associates with mRNAs coding for the co-factors TCF/LEF1 (transcription factor/lymphoid enhancer-binding factor 1) that become activated when Ã-catenin enters the nucleus. This includes TCF4 and TCF7L27 (transcription factors 4 and 7-like 2), that stimulate the transcription of genes implicated in cell growth regulation <xref rid="pone.0003164-Zerlin1" ref-type="bibr">[50]</xref>. (B) Activators and effectors of RAS <xref rid="pone.0003164-Molina1" ref-type="bibr">[49]</xref>, <xref rid="pone.0003164-Colicelli1" ref-type="bibr">[78]</xref>. PUM bound messages code for EGFR (epidermal growth factor receptor), adaptor proteins GR<italic>B2</italic> (growth factor receptor-bound protein 2) and SHC1 (Src homology 2 domain containing transforming protein 1), which activate Ras proteins upon recruitment of the guanine nucleotide exchange factor SOS (son of sevenless). RAS interacts specifically with ARAF, MAP3K1 (mitogen-activated protein kinase kinase kinase 1), PIK3CB (phoshoinositide-3-kinase, catalytic, beta polypeptide) and TIAM2 (T-cell lymphoma invasion and metastasis 2), which can initiate cascades of protein-protein interactions and further activate more specific signaling pathways. Components of the Raf/MEK/ERK and the MEKK/SEK/JNK pathways are covered by PUM1 targets encoding mitogen-activated protein kinases MAPK1 and MAPKAPK5 (mitogen-activated protein kinase-activated protein kinase 5), and RPS6AK3 (ribosomal protein S6 kinase, polypeptide 3). These pathways target the transcription factors JUN (jun oncogene), ATF2 (activating transcription factor 2) and STAT1 (signal transducer and activator of transcription), which commonly induce cell proliferation <xref rid="pone.0003164-Molina1" ref-type="bibr">[49]</xref>. The PI3K-mediated (PIK3CB) signal is further triggered by activation of protein kinase B (AKT1, v-akt murine thymoma viral homolog 1) and phosphorylates GSK3A. PUM1 also targets effectors downstream of TIAM such as the GTP-binding protein RAC1 (ras-related C3 botulinum toxin substrate 1) and the Ras homologs gene family members B, F and J (RHOB, RHOF, RHOJ), which are all components of the TIAM/RAC/RHO signaling pathway implicated in the reorganization of the actin cytoskeleton <xref rid="pone.0003164-Kraemer1" ref-type="bibr">[79]</xref>. The RAC effector PAK2 (p21 protein- activated kinase 2) is involved in cell migration and invasion <xref rid="pone.0003164-Coniglio1" ref-type="bibr">[80]</xref>, and EXOC2 (exocyst complex component 2) induces vescicle trafficking upon RAL (Ras-related) activation <xref rid="pone.0003164-Molina1" ref-type="bibr">[49]</xref>.</p>
+          </caption>
+          <graphic xlink:href="pone.0003164.g002"/>
+        </fig>
+        <p>We finally searched for subcellular localization among PUM targets revealing that PUM associated mRNAs preferentially encode membrane-bound, cytoplasmic and nuclear proteins (<xref ref-type="table" rid="pone-0003164-t001">Table 1</xref>, <xref ref-type="supplementary-material" rid="pone.0003164.s006">Table S4</xref>). The latter compartment mainly relates to transcription factors and their regulators, but also to RBPs. In this regard, PUM2 mRNAs was highly associated with PUM1 and PUM2 (FDRâ¼0), suggesting the presence of negative feed-back loops for self-regulation of PUM expression. In the cytoplasm, PUM1 targets many messages coding for kinases, in particular non-receptor serine/threonine protein kinases. Most of these messages cannot be found among the PUM2 associated mRNAs, indicating the presence of additional factors that direct the binding of functional groups of mRNAs to PUM proteins.</p>
+      </sec>
+      <sec id="s2c">
+        <title>Conservation of functional groups but not of homologous messages between yeast, fly and human</title>
+        <p>We have previously mapped the mRNAs associated with <italic>Drosophila</italic> Pum in adult flies, and we wondered whether these interactions may have been evolutionarily conserved <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. We noticed partial overlap of functional groupings made of proteins encoded by PUF associated mRNAs. As seen for the human PUM proteins, <italic>Drosophila</italic> Pum preferentially targets messages coding for proteins located on membrane-bound organelle (<italic>p</italic>&lt;10<sup>â7</sup>) and nuclear proteins (<italic>p</italic>&lt;10<sup>â5</sup>), including transcription factors, cyclins and RNA-binding proteins <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. We therefore asked whether this consistency is directly reflected by association of the homologous messages with the different PUF proteins. We retrieved human homologs for the 1090 <italic>Drosophila</italic> Pum and for the 220 yeast Puf3p mRNA targets. Notably, among yeast Puf proteins, Puf3p is most related to human PUM and targets messages for nuclear encoded mitochondrial proteins <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, a functional class that is not particularly enriched among human PUMs. More than 40% of the <italic>Drosophila</italic> and yeast Puf3p targets had an assigned human homolog - however, only a small fraction of these messages were also among our experimentally determined human PUM targets: 17% and â¼7% of <italic>Drosophila</italic> Pum and a similar fraction of Puf3p homologs were among PUM1 and PUM2 targets (<xref ref-type="supplementary-material" rid="pone.0003164.s007">Table S5</xref>). Therefore, the conservation of functional themes among targets in human and <italic>Drosophila</italic> is not directly reflected by the association with homologous messages. Moreover, this indicates that the suspected conservation of PUF's physiological functions may not necessarily imply the regulation of the same critical genes.</p>
+      </sec>
+      <sec id="s2d">
+        <title>A common and conserved sequence motif among PUMILIO mRNA targets</title>
+        <p>Characteristic sequence motifs have been previously found in the 3â²-UTRs of the mRNA targets of different PUF-family members <xref rid="pone.0003164-Wickens1" ref-type="bibr">[10]</xref>, <xref rid="pone.0003164-Lee1" ref-type="bibr">[33]</xref>, <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. Thus, we examined the sets of mRNAs that associate with PUM1 and PUM2 for the presence of common motifs using Multiple Expectation maximization for Motif Elicitation (MEME) as an unbiased motif discovery tool <xref rid="pone.0003164-Bailey1" ref-type="bibr">[51]</xref>. We compiled one hundred available 3â²-UTR sequences among the most highly enriched PUM1 and PUM2 mRNA targets, and MEME analysis identified a 12-nt consensus sequence encompassing a highly conserved 8-nt core motif UGUA(AUC)AUA (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3A</xref>). The 8-nt consensus motif is highly related to the <italic>Drosophila</italic> Pum and yeast Puf3p mRNA binding site <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>, indicating the conservation of the recognition element during evolution despite the lack of conservation of the PUF targets among the considered species. We further evaluated the occurrence of this motif among PUM mRNA targets by searching UTRs and coding sequences (CDSs) for the presence of the 8-nt core motif UGUAnAUA using PatSearch <xref rid="pone.0003164-Grillo1" ref-type="bibr">[52]</xref>. 69% of the PUM1 mRNA targets (<italic>p</italic>&lt;10<sup>â100</sup>) and 74% of the PUM2 targets (<italic>p</italic>&lt;10<sup>â100</sup>) contained the consensus motif in the 3â²-UTR, which represents a striking enrichment compared to its genome-wide occurrence in 3â²-UTRs (20% of all ENSEMBL annotated genes; 22% of all genes for which data could be obtained for microarray cDNA probes). We also found the motif highly overrepresented in the CDS of mRNA targets (13% of PUM1 and PUM2 mRNA targets with <italic>p</italic> values of &lt;10<sup>â100</sup> and 10<sup>â15</sup>, respectively), but it is almost absent in 5â²-UTRs (<xref ref-type="table" rid="pone-0003164-t002">Table 2</xref>, for detailed statistics on motif occurrences see <xref ref-type="supplementary-material" rid="pone.0003164.s008">Tables S6</xref>, <xref ref-type="supplementary-material" rid="pone.0003164.s009">S7</xref>). These results are consistent with the observed enrichment of PUF-binding motifs in coding sequences of mRNAs targeted by yeast PUF proteins <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>. Moreover, the functionality of PUF motifs in CDS has recently been demonstrated for paralytic (<italic>para</italic>) mRNA, which codes for a sodium channel expressed in neurons of <italic>Drosophila</italic> larvae <xref rid="pone.0003164-Muraro1" ref-type="bibr">[25]</xref>.</p>
+        <fig id="pone-0003164-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Analysis of an RNA consensus sequence associated with human PUM proteins.</title>
+            <p>(A) PUF consensus motif in 3â²-UTR sequences associated with PUM1, PUM2, <italic>Drosophila</italic> Pum and yeast Puf3, Puf4 and Puf5 proteins <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. Height of the letters indicates the probability of appearing at the position in the motif. Nucleotides with less than 10% appearance were omitted. (B) Distribution of PUF consensus motifs. (C) Number of PUF motifs in the 3â²-UTRs of PUM bound messages. (D) Distances between double PUF motifs present in 3â²-UTR. Represented bins are 50 nts (0â4000 nts distance) and 10 nts (0â200 nts distance). (E) Analysis of PUF motif conservation among PUM1 and PUM2 targets. The x-axis shows the position (relative to the middle of the PUF motif), and the y-axis shows the logarithm (base 10) of the <italic>p</italic>-value from the Wilcoxon test determining whether conservation scores come from the same distribution for PUM targets and non-targets. The vertical blue line is drawn at position 0 corresponding to the PUF motif. The dashed black line is drawn at a <italic>p</italic>-value of 0.05, the continuous black line at a <italic>p</italic>-value of 0.01, and the red line at a <italic>p</italic>-value of 10<sup>â5</sup>, which is the threshold for significance considering multiple testing.</p>
+          </caption>
+          <graphic xlink:href="pone.0003164.g003"/>
+        </fig>
+        <table-wrap id="pone-0003164-t002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.t002</object-id>
+          <label>Table 2</label>
+          <caption>
+            <title>Number of PUF consensus motifs found in human PUMILIO targets (FDR&lt;5%).</title>
+          </caption>
+          <alternatives>
+            <graphic id="pone-0003164-t002-2" xlink:href="pone.0003164.t002"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">Search option</td>
+                  <td align="left" rowspan="1" colspan="1">Sequences</td>
+                  <td align="left" rowspan="1" colspan="1">Motifs (%)</td>
+                  <td align="left" rowspan="1" colspan="1">
+<italic>p</italic>-value</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>PUM1</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3â²-UTR</td>
+                  <td align="left" rowspan="1" colspan="1">1416</td>
+                  <td align="left" rowspan="1" colspan="1">977 (69)</td>
+                  <td align="left" rowspan="1" colspan="1">&lt;10<sup>â100</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">CDS</td>
+                  <td align="left" rowspan="1" colspan="1">1418</td>
+                  <td align="left" rowspan="1" colspan="1">187 (13)</td>
+                  <td align="left" rowspan="1" colspan="1">&lt;10<sup>â100</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">5â²-UTR</td>
+                  <td align="left" rowspan="1" colspan="1">1390</td>
+                  <td align="left" rowspan="1" colspan="1">24 (2)</td>
+                  <td align="left" rowspan="1" colspan="1">5Ã10<sup>â2</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>PUM2</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1">3â²-UTR</td>
+                  <td align="left" rowspan="1" colspan="1">571</td>
+                  <td align="left" rowspan="1" colspan="1">422 (74)</td>
+                  <td align="left" rowspan="1" colspan="1">&lt;10<sup>â100</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">CDS</td>
+                  <td align="left" rowspan="1" colspan="1">572</td>
+                  <td align="left" rowspan="1" colspan="1">73 (13)</td>
+                  <td align="left" rowspan="1" colspan="1">6Ã10<sup>â16</sup>
+</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">5â²-UTR</td>
+                  <td align="left" rowspan="1" colspan="1">558</td>
+                  <td align="left" rowspan="1" colspan="1">11 (2)</td>
+                  <td align="left" rowspan="1" colspan="1">7Ã10<sup>â2</sup>
+</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+        </table-wrap>
+        <p>We next analyzed the distribution of PUF consensus motifs. Approximately 85% of PUM1 and PUM2 mRNAs targets bear the motif exclusively in the 3â²-UTRs, 3â5% (PUM2 and PUM1, respectively) solely in the CDS, and â¼17% bear the motif in both the CDS and 3â²-UTRs (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3B</xref>). Most of the PUM bound messages have only one PUF motif (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3C</xref>). However, a substantial fraction â one third of the PUM2 bound messages (32%) - bears at least two consensus PUF-binding motifs in the 3â²-UTRs. The distance between multiple motifs is similarly distributed among the PUM1 and PUM2 mRNA targets ranging up to 4000 nts with median distances of 324 nts and 230 nts for PUM1 and PUM2 targets, respectively (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3D</xref>). Nevertheless, a large proportion of the double motifs are located within 200 nts (94, 36% PUM1 and 58, 25% PUM2), and a âpeakâ was found at a distance of â¼20 nts, indicating that the two motifs are preferentially located in close proximity (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3D, inlet</xref>). Such repetitive occurrence of PUF binding sites may affect RNA regulation: different sites could have different affinities for PUF binding leading to dose-dependent or allosteric regulation. Such a mode of regulation has been proposed for messages of <italic>C. elegans</italic> MAP Kinase 1 (<italic>mpk-1</italic>) mRNA, which bears two distinct FBF binding sites with five-fold different binding affinities <xref rid="pone.0003164-Lee1" ref-type="bibr">[33]</xref>.</p>
+        <p>We finally questioned whether the positions within and around the PUF-binding motifs were evolutionarily conserved in mammals <xref rid="pone.0003164-Xie1" ref-type="bibr">[53]</xref>. We used as measure of evolutionary conservation the phastCons score <xref rid="pone.0003164-Siepel1" ref-type="bibr">[54]</xref> representing the probability that a given nucleotide is part of a block of conservation, given the genome alignments of a number of placental mammals (human, chimpanzee, rhesus monkey, bush baby, treeshrew, rat, mouse, guinea pig, rabbit, shrew, hedgehog, dog, cat, horse, cow, armadillo, elephant and tenrec). In this way, we identified the PUF motifs in the PUM1 and PUM2 IPed transcripts (targets) and in the expressed transcripts that were not IPed (non-targets), and we used transcript-to-genome alignments to determine the genomic coordinates of the PUF motifs. For each nucleotide in the PUF motif and each nucleotide up to â400 nts upstream and to +400 nts downstream of the motif, we extracted the phastCons score. We then used the Wilcoxon test to determine whether the positions in and around PUF sites from IPed transcripts were more highly conserved than positions in and around non-IPed transcripts. The profiles of the Wilcoxon test for PUM1 and PUM2 sites, as represented by the logarithms of the <italic>p</italic>-values, are shown in <xref ref-type="fig" rid="pone-0003164-g003">Figure 3E</xref>. Position of PUF motifs in PUM1 and PUM2 targets are more conserved than in non-targets (<italic>p</italic>-values are smallest for positions within the PUM sites). Moreover, we found that the PUF motifs in PUM1 and PUM2 targets reside in longer (400 nucleotides) blocks of conservation compared to PUF motifs in non-targets. Thus, the observed constraints on the positions of PUF motifs in the PUM target mRNAs, but not in non-target RNAs suggests that these motifs are indeed functionally conserved. These findings further indicate that other factors may contribute to or modulate the functionality of PUM binding sites, for example recognition elements for cofactors like Nanos, which is known to interact with Pumilio to mediate translational repression <xref rid="pone.0003164-Parisi1" ref-type="bibr">[55]</xref>.</p>
+      </sec>
+      <sec id="s2e">
+        <title>RNA pull-down experiments confirm PUM binding to selected substrates</title>
+        <p>To evaluate some of our identified PUM mRNA substrates, we performed RNA pull-down experiments using <italic>in vitro</italic> transcribed biotinylated mRNAs added to extracts prepared from HeLa cells expressing TAP-tagged PUM1-HD or PUM2-HD. We tested biotinylated 3â²-UTR sequences of six potential targets that contain the PUF motif: integrator complex subunit 2 (INTS2), defective in cullin neddylation 1, domain containing 3 (DCUN1D<italic>3</italic>), delta-like 1 (Dll1), SDA1 domain containing 1 (SDAD1), VEGFA and hepatocyte growth factor receptor (MET). INTS2, MET and other members of the DCUN1 (DCUN1D1, DCUN1D4) and Dll gene families (Dll3) were among our list of IPed PUM mRNAs targets, whereas SDAD1 and VEGFA were not among the IPed messages, though they bear a conserved PUF binding motif. Moreover, SDAD1 was previously found to interact with PUM2 <xref rid="pone.0003164-Fox1" ref-type="bibr">[56]</xref>. We also tested yeast cytochrome c oxidase (<italic>COX10</italic>), a known target for the yeast PUF3 protein, which bears the 8-nt core consensus motif <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, and a negative control RNA (Ribosomal protein S26, RpS26) that does not bind to PUFs <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. All of the seven potential target mRNAs bound to both PUM1-HD and PUM2-HD, whereas the RpS26 control 3â²-UTR sequence did not (<xref ref-type="fig" rid="pone-0003164-g004">Figure 4A</xref>). Moreover, addition of a 10-nt competitor RNA comprising the consensus sequence prevented binding to biotinylated Dll1 RNA, but no such competition was seen with a control RNA, in which the conserved UGU trinucleotide within the core was mutated to ACA (<xref ref-type="fig" rid="pone-0003164-g004">Figure 4B</xref>, data not shown). Likewise, mutation of this PUM binding site in a fragment of the MET RNA also abolished binding (<xref ref-type="fig" rid="pone-0003164-g004">Figure 4B</xref>). Notably, probing of the same immunoblots with PUM1 and PUM2 specific antibodies to detect the full-length proteins gave analogous results (data not shown). These results suggest that PUM1 and PUM2 have identical basal substrate specificities, reminiscent of the largely overlapping set of PUM1 and PUM2 mRNA targets identified by RIP-Chip. This suggests that the presence of the computationally inferred core motif is sufficient for association with human PUM proteins <italic>in vitro</italic>. However, since SDAD1 and VEGFA were not among our IPed mRNA targets, the <italic>in vitro</italic> binding activities may not always reflect <italic>in vivo</italic> association, which may be controlled by additional factors. The discrepancy may also be due to technical issues related to the experimental procedure, or the computational analysis of the microarray data.</p>
+        <fig id="pone-0003164-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Validation of human PUM mRNA targets.</title>
+            <p>RNA-protein complexes formed between biotinylated 3â²-UTRs and extracts of HeLa S3 cells expressing PUM1-HD-TAP and PUM2-HD-TAP were purified on streptavidin magnetic beads and monitored for the presence of TAP-PUM-HD by immunoblot analysis with anti-PAP antibody. (A) Biotin-labeled 3â²-UTR sequences for indicated genes (lanes 3 to 8) were incubated with PUM1-HD-TAP and PUM2-HD-TAP extracts (lane 1). Rps26 3â²-UTR was used as negative control probe RNA (lanes 8/9). The supernatant after pull-down with INTS2 is shown in lane 2. (B) Validation of the PUF-binding motif. Biotinylated RNA corresponding to the Dll1 3â²-UTR was combined with PUM1-HD-TAP extract (lane 2) and 100-fold excess of competitor RNA (R1; AUUGUAAAUA; lane 3) or control RNA where the core motif is mutated (R2; AUACAAAAUA; lane 4). A fragment of MET 3â²-UTR bearing wild type (UGU) or mutant (ACA) PUF binding sites is shown in lanes 5 and 6.</p>
+          </caption>
+          <graphic xlink:href="pone.0003164.g004"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>The PUF motif is enriched around predicted miRNA binding sites</title>
+        <p>Initial application of the Phylogibbs algorithm for motif finding <xref rid="pone.0003164-Siddharthan1" ref-type="bibr">[57]</xref> to 3â²-UTR regions around high-confidence predicted microRNA (miRNA) target sites <xref rid="pone.0003164-Gaidatzis1" ref-type="bibr">[58]</xref> suggested that the PUF-binding motif could be enriched in these regions, as shown in <xref ref-type="fig" rid="pone-0003164-g005">Figure 5A</xref> (Zavolan, unpublished). However, this motif (UGUAnAUA) is A/U-rich, and high-confidence miRNA sites are known to reside in A/U-rich regions <xref rid="pone.0003164-Gaidatzis1" ref-type="bibr">[58]</xref>, <xref rid="pone.0003164-Grimson1" ref-type="bibr">[59]</xref>. Thus, we decided to test directly whether the PUF-binding motif indeed occurs in the vicinity of high-confidence miRNA sites at a higher frequency than expected at a random distribution, particularly given its nucleotide composition. We extracted from our miRNA target predictions <xref rid="pone.0003164-Gaidatzis1" ref-type="bibr">[58]</xref> the top 1000 target sites with the highest probability of being under evolutionary selection, and an equal number of target sites with the lowest probability of being under evolutionary selection, by choosing for each miRNA having at least one high-probability target site, an equal number of low-probability sites. We then extracted 400 nucleotides upstream or 400 nucleotides downstream of the miRNA seed match (match to the nucleotides 1â7, 2â8, or 1â8 of the miRNA), and counted how many of the 1000 sequences contained the PUF consensus motif. For the upstream regions, we found 132 positive sequences (with high-probability miRNA sites) and 71 negative sequences (with low-probability miRNA sites) containing the PUF motif, whereas for the downstream regions, 159 positive sequences and 56 negative sequences contained the PUF motif (<xref ref-type="supplementary-material" rid="pone.0003164.s010">Table S8</xref>). This indicates that the frequency of the PUF motif is significantly higher in the environment of high-probability miRNA sites (<italic>p</italic>-values of 8.9Ã10<sup>â6</sup> for the upstream and 1.8Ã10<sup>â13</sup> for the downstream regions in the chi-square test). To rule out the possibility that this enrichment was simply due to the structure of the PUF motif, we performed the same analysis for all the 16384 possible motifs of the same structure as the PUF motif (i.e. first four bases defined, the fifth any of A/C/G/U and then the next three bases defined). <xref ref-type="supplementary-material" rid="pone.0003164.s010">Table S8</xref> shows these results for all of the motifs for which the frequency was higher in regions around high-probability sites compared to regions around low-probability sites. As expected, we found that the environment of high-probability miRNA target sites is enriched in many A/U-rich elements. Strikingly, the PUF-binding motif is the second most significantly enriched motif (out of 6750 motifs) in the downstream regions of miRNA sites, and the fortieth most enriched motif (out of 6906 motifs) in the upstream regions. This test thus supports the hypothesis that the pumilio proteins share targets with the miRNA pathway.</p>
+        <fig id="pone-0003164-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0003164.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>miRNA binding sites are enriched among human PUM targets.</title>
+            <p>(A) Example of a motif identified using the Phylogibbs motif finding algorithm in the vicinity (400 nucleotides upstream) of high-confidence miR-30a target sites. The x-axis indicates the position of a nucleotide in the inferred motif, and the y-axis gives the information score (bits) at that position. The height of each letter is proportional to the frequency of the respective nucleotide at that particular position in the alignment of inferred sites. (B) Distribution of the density of high-confidence miRNA sites (sites per nucleotide of 3â²-UTR) in the 3â² UTRs of PUM targets (IPed, red) and non-targets (non-IPed, black).</p>
+          </caption>
+          <graphic xlink:href="pone.0003164.g005"/>
+        </fig>
+        <p>As we mentioned above, the PUF motif is A/U-rich. We therefore wondered whether the enrichment that we observed was simply due to spurious matches to the PUF consensus that occur in the A/U-rich regions around high-confidence miRNA target sites. To test this, we generated by sequence shuffling 100 randomized sets of sequences with the same nucleotide composition as the regions around high-probability and low-probability miRNA target sites, respectively. We then counted the number of randomized sequences containing the PUF motif and performed the chi-square test. For the downstream regions, the lowest <italic>p</italic>-value that we observed in a randomized set was 10<sup>â4</sup>, much higher than 1.8Ã10<sup>â13</sup> observed for the real data set. For comparison, the lowest <italic>p</italic>-value that we observed in a randomized set for the motif that was most enriched in the real data set (TTTTNTAA, <italic>p</italic>â=â1.3Ã10<sup>â14</sup>) was 1.4Ã10<sup>â10</sup>. For the upstream regions the <italic>p</italic>-value of the real data set was only marginally lower compared to the lowest <italic>p</italic>-value we obtained for the randomized variants (8.9Ã10<sup>â6</sup> compared to 5.1Ã10<sup>â5</sup>). These results indicate that the frequent occurrence of the PUF motif downstream of the high-confidence target sites cannot be explained simply by the nucleotide composition of these regions, and thus could suggest a functionally-relevant localization of the PUF-binding motif downstream of the miRNA sites for the interplay between the two systems.</p>
+      </sec>
+      <sec id="s2g">
+        <title>High-confidence miRNA binding sites are enriched in the 3â²-UTRs of experimentally determined PUM targets</title>
+        <p>We wondered whether our experimentally determined sets of PUM targets provide evidence that miRNAs and PUMs share target mRNAs. Thus, we first selected from our experimental data sets PUM1 or PUM2 targets (IPed), as well as expressed transcripts that were not PUM1 and PUM2 targets (non-IPed). We then computed the density of high-probability miRNA sites (<italic>p</italic>â¥0.5 computed by the method of Gaidatzis <xref rid="pone.0003164-Gaidatzis1" ref-type="bibr">[58]</xref> (<ext-link ext-link-type="uri" xlink:href="http://www.mirz.unibas.ch/ElMMo2">http://www.mirz.unibas.ch/ElMMo2</ext-link>) in the two data sets. The distribution of densities for IPed and not IPed transcripts is shown in <xref ref-type="fig" rid="pone-0003164-g005">Figure 5B</xref>. The <italic>p</italic>-value of the Wilcoxon test was &lt;2.2Ã10<sup>â16</sup> for both PUM1 and PUM2 targets, indicating that PUMs tends to target transcripts that are enriched in high-probability miRNA sites, and suggesting that there could be cross-talk between the two systems. In fact, evidence for an interaction of a PUF protein with the miRNA pathway already exists: it has been previously shown that <italic>C. elegans puf-9</italic> is required for the repression of the <italic>let-7</italic> miRNA target HunchBack Like (<italic>hbl-1</italic>) <xref rid="pone.0003164-Nolde1" ref-type="bibr">[43]</xref>. We therefore selected a set of candidates that appear most promising for follow-up studies. These are 197 PUM1 and 77 PUM2 targets that contain a high-probability miRNA site and a PUF site conserved among human, rhesus, cow, dog and mouse that are located within 50 nucleotides of each other (<xref ref-type="supplementary-material" rid="pone.0003164.s011">Table S9</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>We have systematically analyzed the mRNAs associated with the two human Pumilio RNA-binding proteins, PUM1 and PUM2 in HeLa S3 cancer cells, using a method that combines the recovery of endogenous RNP complexes and DNA microarray analysis of the associated mRNAs <xref rid="pone.0003164-Halbeisen1" ref-type="bibr">[2]</xref>, <xref rid="pone.0003164-Baroni1" ref-type="bibr">[44]</xref>, <xref rid="pone.0003164-Keene3" ref-type="bibr">[60]</xref>, <xref rid="pone.0003164-Morris1" ref-type="bibr">[61]</xref>, <xref rid="pone.0003164-Furic1" ref-type="bibr">[62]</xref>. We identified more than one thousand PUM1 and hundreds of PUM2 associated mRNAs, providing the first comparative analysis of mRNAs associated with paralogous PUF proteins in vertebrates. Our data suggests that PUM proteins potentially regulate approximately 15% of the cell's transcriptome. A similar fraction of the transcriptome was found to be associated with the five yeast PUF proteins and the <italic>Drosophila</italic> homolog Pumilio, indicating that PUF proteins generally coordinate large sets of mRNAs with functional implications that may not be simply attributed to a few specific mRNA targets.</p>
+      <p>The sets of human PUM1 and PUM2 associated mRNAs strongly overlapped, suggesting that PUM1 and PUM2 have similar substrate specificities (<xref ref-type="fig" rid="pone-0003164-g001">Figure 1</xref>). The presence of identical PUF-binding elements among the PUM1 and PUM2 associated mRNAs (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3</xref>), and equal binding of PUM1 and PUM2 to a set of synthetic RNAs in RNA pull-down experiments further corroborated this notion (<xref ref-type="fig" rid="pone-0003164-g004">Figure 4</xref>). These results agree with recent structural studies of PUM-HD in complex with RNA. The PUM-HDs of mammalian PUM proteins are highly related (91% amino acid identity) and all of the critical amino-acids that make direct contact with the RNA are fully-conserved <xref rid="pone.0003164-Spassov1" ref-type="bibr">[11]</xref>. The human PUM proteins are therefore different from the PUF proteins in <italic>S. cerevisiae</italic> or <italic>C. elegans</italic>, where individual PUF family members have altered substrate specificities and only marginally share common sets of mRNAs <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Bernstein1" ref-type="bibr">[63]</xref>. However, despite this large overlap of mRNA targets in HeLa cells, each PUM was also associated with a distinct set of mRNAs indicating that additional factors may further specify substrate selectivity <italic>in vivo</italic>.</p>
+      <p>Functionally related groups of mRNAs were often associated with both PUM1 and PUM2 (<xref ref-type="table" rid="pone-0003164-t001">Table 1</xref>, <xref ref-type="fig" rid="pone-0003164-g002">Figure 2</xref>). However, some of them were preferentially enriched with either PUM1 or PUM2. For instance, angiogenesis-related proteins were mainly enriched among PUM1 targets whereas the transcripts coding for proteins linked to Parkinson's disease were solely enriched among PUM2 targets. Notably, the same functional attributes can often be found among all genes with a conserved PUF motif in 3â²-UTRs <xref rid="pone.0003164-Xie1" ref-type="bibr">[53]</xref>, including angiogenesis (<italic>p</italic>&lt;10<sup>â13</sup>) and Parkinson's disease (<italic>p</italic>&gt;10<sup>â5</sup>) (for a list of PANTHER and GO terms that are enriched among predicted PUF targets see <xref ref-type="supplementary-material" rid="pone.0003164.s012">Table S10</xref>). However, some functional groups were differentially enriched among experimentally determined and predicted mRNA targets: for example, the Ras signaling pathway was enriched among PUM1 targets, but not among the predicted ones, whereas the Wnt signaling pathway is only significantly overrepresented among the predicted targets (<italic>p</italic>&lt;3Ã10<sup>â8</sup>). Moreover, a fraction of the predicted targets encode proteins involved in neurogenesis (p&lt;2Ã10<sup>â35</sup>) possibly relating to PUM functions in neurons <xref rid="pone.0003164-Dubnau1" ref-type="bibr">[23]</xref>, <xref rid="pone.0003164-Menon1" ref-type="bibr">[24]</xref>, <xref rid="pone.0003164-Muraro1" ref-type="bibr">[25]</xref>. However, since we have analyzed PUM targets in cancer cells, these neuron-specific mRNA targets were not expected to be identified. In conclusion, these analyses revealed PUM- and possibly cell/tissue-specific functional attributes among the potentially regulated messages, and it will be a future challenge to investigate the functional roles of PUM regulation on key targets.</p>
+      <p>During preparation of this manuscript, a ribonomic analysis has been published where mRNAs associated with PUM1 were identified and analyzed <xref rid="pone.0003164-Morris1" ref-type="bibr">[61]</xref>. This study by Morris <italic>et al.</italic> applied a very similar RIP-Chip approach as we did by using the same PUM1 antibodies on HeLa S3 cells. Morris <italic>et al.</italic> defined 726 PUM1 mRNA targets (representing 11.1% of the 6,539 expressed genes). 397 of these mRNA targets (55%) were also among our experimentally identified PUM1 targets with a 5% FDR; and for 902 of our defined PUM1 targets that were represented on their arrays, 756 (85%) were more enriched than the median IP enrichment (t-scores) of all mRNAs. Furthermore, Morris <italic>et al.</italic> also identified the core PUF motif in almost half of 3â²-UTRs of mRNA targets. Therefore, our data is in broad general agreement with the data from Morris <italic>et al.</italic> despite some significant differences in the experimental set-up and microarray data analysis. For instance, different number of replicate arrays were used (three by Morris <italic>et al. vs.</italic> six in our study), different types of arrays and hybridization conditions (separate <italic>vs.</italic> competitive hybridization, total IP-ed RNA <italic>vs.</italic> amplified mRNA and oligo- <italic>vs.</italic> cDNA-arrays) and different statistical analyses (Gaussian mixture modeling with log of odds (LOD) scores <italic>vs.</italic> SAM). For instance, the larger number of replicates used in our study, our RNA amplification strategy and microarray analysis of more transcripts has probably lead to the identification of almost twice the number of mRNA targets compared to Morris <italic>et al.</italic> (1424 vs. 726) - most of them (&gt;80%) bearing a PUM motif in the 3â²-UTR or coding sequence. Nevertheless, both studies found that PUM1 associated mRNAs belong to a relatively small number of functional groups, mainly genes coding for proteins that function in transcriptional regulation and cell cycle/proliferation. These and our own results therefore strongly support the âRNA operon/regulon modelâ, which suggests the coordinate <italic>cis</italic>-/<italic>trans</italic>-regulation of multiple mRNAs coding for proteins with related functions <xref rid="pone.0003164-Keene1" ref-type="bibr">[37]</xref>, <xref rid="pone.0003164-Keene2" ref-type="bibr">[38]</xref>.</p>
+      <p>Interestingly, some functional groups have apparently been conserved between human and <italic>Drosophila</italic>. For instance, in both <italic>Drosophila</italic> and human, PUFs preferentially target messages for nuclear proteins that encode transcription factors and membrane associated proteins. However, it is intriguing that the conservation of functional themes among targets in human and <italic>Drosophila</italic> is not reflected by conservation of the particular homologous messages, which is consistent with data obtained by Keene and his colleagues <xref rid="pone.0003164-Morris1" ref-type="bibr">[61]</xref>. This finding is intriguing in respect of the assumed conservation of physiological function of PUM proteins for germ-cell development and neurogenesis, suggesting that analogous phenotypes may be accomplished by targeting related mRNAs that are part of the same regulatory network. However, we want to note that this comparative analysis of targets in flies and human is hampered by the fact that PUM targets have been analyzed in different experimental set-ups (whole flies versus cultured cells) and therefore, the data is not directly comparable.</p>
+      <p>As seen in previous systematic analyses of mRNA targets of the yeast and <italic>Drosophila</italic> Pumilio proteins <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>, most of the human PUM targets contain a characteristic PUF-binding motif in the 3â²-UTR, and a significant number of targets bear the motif in the CDS (<xref ref-type="table" rid="pone-0003164-t002">Table 2</xref>). Moreover, almost half of the experimentally determined targets have multiple PUF binding motifs (<xref ref-type="fig" rid="pone-0003164-g003">Figure 3C</xref>). These findings raise the question about possible roles for the position and multiplicity of PUF motif in transcripts. The different binding sites may be used alternatively, or may bear different affinities as observed for the <italic>C. elegans</italic> FBF-1 and FBF-2 target <italic>mpk-1</italic>
+<xref rid="pone.0003164-Lee1" ref-type="bibr">[33]</xref>. PUM1 and PUM2 may therefore compete or synergistically act on common RNA substrates. Slightly different preferences for RNA-binding, but also in the expression levels of PUM proteins may influence binding with alternative outcomes for the fate of the mRNA. Finally, it is possible that other factors contribute to or modulate the functionality of PUM binding sites. Actually, our analysis shows that not only the PUF sites are conserved among the PUM targets compared to the non-targets, but also longer blocks upstream and downstream of the PUF binding site showed significant conservation, suggesting that these could represent recognition sites for cofactors like nanos <xref rid="pone.0003164-Parisi1" ref-type="bibr">[55]</xref>.</p>
+      <p>Our work provides first evidence that the PUF motif is enriched around predicted miRNA binding, offering the possibility for functionally relevant localization of the PUF binding site downstream the miRNA sites for the interplay between the two systems. This hypothesis is further sustained by the finding that high-confidence miRNA binding sites are significantly enriched in the 3â²-UTRs of experimentally determined PUM1 and PUM2 targets. One example for interaction of PUF proteins with the miRNA pathway has already been described in <italic>C. elegans</italic>, where <italic>puf-9</italic> is required for repression of <italic>hbl-1</italic> by <italic>let-7</italic> miRNA <xref rid="pone.0003164-Nolde1" ref-type="bibr">[43]</xref>. The 3â²-UTR of <italic>hbl-1</italic> transcript contains PUF binding sites as well as binding sites for the <italic>let-7</italic> miRNA family suggesting that PUFs and miRNAs cooperate to negatively regulate common targets <xref rid="pone.0003164-Nolde1" ref-type="bibr">[43]</xref>. On the other hand, it has also been observed that RBPs and miRNAs may directly compete with each other. For instance, the evolutionarily conserved RBP dead end homolog 1 (DND1) relieves miRNA-specific repression of several messages by binding to uridine-rich regions (URRs) which are located in close proximity to miRNA binding sites in the 3â²-UTR, and thereby, prohibits miRNAs from associating with their target sites <xref rid="pone.0003164-Kedde1" ref-type="bibr">[42]</xref>. Another example constitutes the AU-rich element (ARE) binding protein Hu antigen R (ELAVL1) that counteracts <italic>hsa-miR-122</italic> mediated repression of a cationic amino acid transporter (SLC7A1, CAT-1) after stress treatment <xref rid="pone.0003164-Bhattacharyya1" ref-type="bibr">[41]</xref>, <xref rid="pone.0003164-vonRoretz1" ref-type="bibr">[64]</xref>. Additional scenarios for how miRNAs could modulate RBP binding and function in a dynamic manner have also been hypothesized <xref rid="pone.0003164-George1" ref-type="bibr">[65]</xref>. For instance, miRNA binding could alter the structure of the mRNA, which either ablates or provides binding sites for specific RBPs and further alters the fate of the mRNA target. Therefore, the functional interactions between PUF and miRNAs may well be very mRNA target-specific because many additional factors and combinatorial binding of RBPs and miRNAs may have an impact on its final fait. It will be the topic of future investigation to determine how PUF proteins interact with miRNAs on specific model substrates.</p>
+    </sec>
+    <sec id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>Oligonucleotide primers</title>
+        <p>For a list of primers see Supporting <xref ref-type="supplementary-material" rid="pone.0003164.s001">Text S1</xref>.</p>
+      </sec>
+      <sec id="s4b">
+        <title>Plasmid construction</title>
+        <p>Sequences coding for the C-terminal tandem affinity purification (TAP)-tag were amplified with primers TAP1-NotIFw and TAP2-XhoIRev from plasmid pBS1479 <xref rid="pone.0003164-Rigaut1" ref-type="bibr">[66]</xref> by PCR, and cloned into pcDNA3.1 (Invitrogen) via NotI and XhoI restriction sites, generating plasmid pcDNA3.1-TAP. The sequences encoding the C-terminal part of PUM1 (AF315592; amino acids 746â1186) and PUM2 (AF31559; amino acids 624â1064) were PCR amplified from cDNA clones IRAUp969B1150D (PUM1) and IRAUp969G0177D (PUM2) from the Deutsches Ressourcenzentrum fÃ¼r Genomforschung (RZPD) with primer pairs PUM1-HD-EcoRVFw/PUM1-HD-NotIRev, and PUM2-HD-EcoRVFw/PUM2-HD-NotIRev, and cloned via EcoRV and NotI sites into pcDNA3.1-TAP, producing the plasmids pcDNA3.1-PUM1-HD-TAP and pcDNA3.1-PUM2-HD-TAP, respectively.</p>
+      </sec>
+      <sec id="s4c">
+        <title>Immunoblot analysis and antibodies</title>
+        <p>Protein samples were resolved on 8% SDS polyacrylamide gels and transferred to nitrocellulose membranes (BioRad). Membranes were blocked in phosphate buffered saline-0.1% Tween-20 (PBST) at 4Â°C overnight containing 5% low fat milk, probed with the designated specific antibodies and horse radish peroxidase (HRP)-coupled secondary antibodies, and developed with the enhanced chemiluminescence detection kit (Amersham). The following antibodies were used in this study (dilution indicated in brackets): goat anti-PUMILIO 1 (1â¶25,000; Bethyl Laboratories, #300-201A), rabbit anti-PUMILIO 2 (1â¶2,500; Bethyl Laboratories, #A300-202A); mouse anti-Ã-actin (1â¶3000; Sigma), HRP-linked anti-mouse (1â¶2000; Sigma), HRP-linked anti-goat (1â¶5000; Sigma); HRP-linked anti-rabbit (1â¶5000; Amersham). HRP-coupled peroxidase anti-peroxidase antibody (PAP; 1â¶5000; Sigma) was used to detect TAP-tagged proteins.</p>
+      </sec>
+      <sec id="s4d">
+        <title>Cell culture and transfections</title>
+        <p>HeLa S3 cells were grown in Dulbecco's Modified Eagle's Medium (DMEM) supplemented with 10% FBS (Gibco) and 1% penicillin/streptomycin (Gibco). The cells were grown in dishes (Falcon) in a humidified incubator at 37Â°C and 5% CO<sub>2</sub>. Two Âµg of PUM-HD expression plasmids were transfected into one million HeLa S3 cells with Superfect Transfection Reagent (Qiagen). Stable cell lines expressing PUM2-HD-TAP were obtained upon G418 antibiotic selection (400 Âµg/ml; Invitrogen).</p>
+      </sec>
+      <sec id="s4e">
+        <title>Ribonucleoprotein-ImmunoPrecipitation (RIP)</title>
+        <p>RNA affinity isolations were performed essentially as described <xref rid="pone.0003164-Baroni1" ref-type="bibr">[44]</xref>. HeLa S3 cells were grown in 15 cm dishes (Falcon) until 90% confluency, washed in PBS and collected by centrifugation at 3,000 <italic>g</italic> and 4Â°C for 5 min. Cells were resuspended in an equal volume of polysome lysis buffer (10 mM HEPES-KOH [pH 7.0], 100 mM KCl, 5 mM MgCl<sub>2</sub>, 25 mM EDTA, 0.5% IGEPAL, 2 mM dithiothreitol [DTT], 0.2 mg/ml Heparin, 50 U/ml RNase OUTâ¢ [Invitrogen], 50 U/ml Superase INâ¢ [Ambion], 1Ã complete protease inhibitor tablet [Roche]) and lysed by repeated pipetting up and down. The suspension was centrifuged three times at 14,000 <italic>g</italic> at 4Â°C for 10 min and aliquots were in liquid nitrogen and stored at â80Â°C until use. Protein concentration was determined by the Bradford method (Bio-Rad protein assay, BioRad) with bovine serum albumin (BSA) as reference standard.</p>
+        <p>50 Âµl protein G or protein A sepharose beads (Amersham) were equilibrated in NT2 buffer (50 mM Tris-HCl [pH 7.5], 150 mM NaCl, 1 mM MgCl<sub>2</sub>, 0.05% IGEPAL) supplemented with 5% BSA (Equitech Bio), 0.02% sodium azide and 0.02 mg/ml heparin. 20 Âµg of goat anti-PUM1 and 50 Âµg of rabbit anti-PUM2 antibodies were then coupled to the blocked protein G and protein A beads, respectively, which were further incubated on a rotator for 12 hours at 4Â°C. No antibodies were added in mock control experiments. The beads were subsequently washed three times in NT2 buffer and resuspended in 5â10 ml NT2 buffer supplemented with 30 mM EDTA (pH 8.0), 1 mM DTT, 50 U/ml RNase OUTâ¢ and 50 U/ml Superase INâ¢ (to decrease unspecific binding to the beads, NT2 buffer corresponding to ten volumes of extract was used). HeLa cell extract (20 mg protein) was added to the antibody-coupled or mock beads, which were then mixed on a rotator for 6 hours at 4Â°C. The beads were then thoroughly washed four times in ice-cold NT2 buffer and RNP complexes were eluted twice with 500 Âµl SDS-EDTA (50 mM Tris [pH 8.0], 100 mM NaCl, 10 mM EDTA, 1% SDS) for 10 min at 65Â°C.</p>
+      </sec>
+      <sec id="s4f">
+        <title>RNA isolation, amplification and fluorescent labeling</title>
+        <p>Total RNA was isolated from cell extracts and immunopurified samples with the <italic>mir</italic>Vanaâ¢ PARISâ¢ kit (Ambion). RNA was quantified with a NanoDrop device (Witeg AG). Poly-adenylated RNAs were amplified in the presence of aminoallyl-UTP with Amino Allyl MessageAmp II aRNA kit (Ambion). For this purpose, 500 ng total RNA from extracts and half (50â100 ng) of the immunopurified RNAs were used for amplification. 8 Âµg of the amplified RNAs (aaRNA) were fluorescently labeled with NHS-monoester Cy3 and Cy5 dyes (GE HealthSciences), except for mock RNA samples, where an aaRNA amount proportional to the yield obtained from corresponding PUM affinity isolates was used. For PUM1 RIPs, we performed three biological replicates with technical (dye swap) replicates (total six arrays). For PUM2 RIPs, we performed four biological replicates but omitted the dye swaps due to the lower aaRNA obtained after amplification (â¼10 Âµg aaRNA from PUM2 RIPs, â¼40 Âµg aaRNA from PUM1 RIPs, â¼9 Âµg aaRNA from mock RIPs). The Cy3- and Cy5-labeled aaRNA samples were mixed and hybridized to human cDNA microarrays.</p>
+      </sec>
+      <sec id="s4g">
+        <title>Microarray analysis and data selection</title>
+        <p>Detailed methods for microarray experiments are available at <ext-link ext-link-type="uri" xlink:href="http://cmgm.stanford.edu/pbrown/protocols/index.html">http://cmgm.stanford.edu/pbrown/protocols/index.html</ext-link>. cDNA microarrays were produced by the Stanford Functional Genomic Facility and contained 43,197 human probes representing 26,524 Unigene cluster IDs (12,466 ENSEMBL annotated genes) spotted on Corning Ultra GAPS slides. Spotted cDNAs were cross-linked with 65 mJ of UV irradiation on slides, which were then post-processed for 1 hour at 42Â°C in pre-hybridization solution (5Ã SSC, 0.1% SDS, 0.1 mg/ml BSA), washed twice in 400 ml of 0.1Ã SSC for 5 min, dunked in 400 ml ultrapure water for 30 sec, and dried by centrifugation at 550 rpm for 5 min. Slides were used the same day.</p>
+        <p>Cy3- and Cy5-labeled aaRNA probes were mixed and applied to arrays in hybridization solution (3Ã SSC, 20 Âµg poly(A) RNA [Invitrogen], 20 Âµg yeast tRNA [Invitrogen], 20 Âµg Human Cot-1 DNA [Invitrogen], 20 mM HEPES [pH 7.0] and 0.3% SDS) for 18 h at 65Â°C. The arrays were then washed sequentially in 400 ml of 2Ã SSC with 0.1% SDS, 1Ã SSC, and 0.2Ã SSC. The first wash was performed for 5 min at 65Â°C, the subsequent washes were performed for 5 min at RT. The arrays were dried by centrifugation and immediately scanned with an AxonScanner 4200A (Molecular Devices). Data were collected using GENEPIX 5.1 (Molecular Devices). Arrays were normalized computationally by the Stanford Microarray Database (SMD) <xref rid="pone.0003164-Ball1" ref-type="bibr">[67]</xref>. The data were filtered for signal over background of greater than 1.5 in the channel measuring aaRNA from extract, and only features that met these criteria in &gt;50% of the arrays were included for further analysis. Log<sub>2</sub> median ratios were retrieved and exported into Microsoft Excel.</p>
+        <p>To identify transcripts that were specifically enriched by association with PUM1 and PUM2, we performed two class Significance Analysis of Microarrays (SAM) on median centered arrays <xref rid="pone.0003164-Tusher1" ref-type="bibr">[45]</xref>. Comparing six arrays representing PUM1 affinity isolations (three independent experiments, each with a dye-swap replicate) with six arrays representing mock isolates (three independent experiments with dye swaps) identified 1674 transcripts representing 1266 annotated genes with FDRs&lt;1% and 2196 transcript (1755 annotated genes) with FDRs&lt;5% (<xref ref-type="supplementary-material" rid="pone.0003164.s003">Table S1</xref>; a list of PUM1 mRNA targets is shown in <xref ref-type="supplementary-material" rid="pone.0003164.s004">Table S2</xref>). Likewise, comparing four arrays representing independent PUM2 affinity isolations with three mock control arrays identified 400 transcripts (307 annotated genes) with FDR&lt;1%, and 889 transcripts (751 genes) with FDRs&lt;5% (<xref ref-type="supplementary-material" rid="pone.0003164.s003">Table S1</xref>; a list of PUM2 targets is shown in <xref ref-type="supplementary-material" rid="pone.0003164.s005">Table S3</xref>). ENSEMBL gene identifiers (ENSG accession numbers) and Reference Sequence mRNA identifiers (RefSeq; NM) were retrieved from the Clone IDs (IMAGE numbers) represented on the arrays using the CLONE|GENE ID converter (<ext-link ext-link-type="uri" xlink:href="http://idconverter.bioinfo.cnio.es/">http://idconverter.bioinfo.cnio.es/</ext-link>) <xref rid="pone.0003164-Alibes1" ref-type="bibr">[68]</xref>. Replicate probes representing the same transcript were collapsed to ENSEMBL or RefSeq annotated transcripts (â=âunique transcripts), which were then mapped to genes based on ENSG accession numbers (â=âannotated genes). All microarray data is available at the Stanford Microarray Database (SMD) or at the Gene Expression Omnibus at <ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/geo">www.ncbi.nlm.nih.gov/geo</ext-link> (GSE12357).</p>
+        <p>To compare our PUM1 mRNA targets with the ones defined by Morris <italic>et al.</italic>
+<xref rid="pone.0003164-Morris1" ref-type="bibr">[61]</xref>, we retrieved the ENSG and RefSeq accession numbers of the Morris <italic>et al.</italic> study from GEO (accession No. GSE 11301, platform GPL5770) and from the Supplemental Material published on the journal's web site.</p>
+      </sec>
+      <sec id="s4h">
+        <title>Synthesis of biotinylated RNAs and pull-down experiments</title>
+        <p>DNA templates for biotin-RNA synthesis were prepared by PCR from 200 ng of HeLa S3 genomic DNA with 5â²-oligonucleotides bearing a T7 RNA polymerase promoter sequence, except for MET where complementary pairs of oligonucleotides comprising nts 1950â2006 of MET were annealed and cloned into psiCheck-2 (Promega). The following oligonucleotide pairs were used to amplify the indicated regions (specified by nucleotide positions) of 3â²-UTRs: INTS2-T7Fw and INTS2-Rev for nucleotides (nts) 1800â2144 of INTS2, DCUN1D3-T7Fw and DCUN1D3-Rev for nts 965â1474 of DCUN1D3, Dll1-T7Fw and Dll1-Rev for nts 120â587 of Dll1, SDAD1-T7Fw and SDAD1-Rev for nts 112â529 of SDAD1, VEGFA-T7Fw and VEGFA-Rev for nts 925â1485 of VEGF-A. The ORF plus 500 nts downstream of the yeast <italic>COX10</italic> gene was amplified with primers COX10-T7Fw and COX10-Cnot from <italic>S. cerevisiae</italic> genomic DNA. The Rps26 control probe was prepared as described <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. Biotinylated RNAs were produced with T7-RNA polymerase with biotin RNA labeling mixture (Roche) as described <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>.</p>
+        <p>Biotin RNA pull-down experiments were performed essentially as described <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref>. Extracts were prepared by mechanical disruption with a Tissue Lyser (Qiagen; 6Ã 30 sec, 30 Hz, 4Â°C) from HeLa S3 cells that were either transiently transfected with pcDNA3.1-PUM1-HD-TAP and collected after 24 hours, or that stably expressed PUM2-HD-TAP. 130 Âµg (protein content) of extract was incubated with 2 pmol of biotinylated RNAs, and streptavidin captured RNA-protein complexes were resolved on a 10% SDS polyacrylamid gel. Proteins were visualized with PAP antibody or specific anti-PUM antibodies.</p>
+      </sec>
+      <sec id="s4i">
+        <title>Web-based database searches</title>
+        <p>Protein Analysis THrough Evolutionary Relationships (PANTHER) analysis was performed with PUM1 and PUM2 mRNA targets (unique transcripts with 5% FDR) at <ext-link ext-link-type="uri" xlink:href="http://www.pantherdb.org/">http://www.pantherdb.org/</ext-link>
+<xref rid="pone.0003164-Mi1" ref-type="bibr">[46]</xref>. Gene Ontology (GO) searches were performed with the Generic Gene Ontology Term Finder (<ext-link ext-link-type="uri" xlink:href="http://go.princeton.edu/cgi-bin/GOTermFinder">http://go.princeton.edu/cgi-bin/GOTermFinder</ext-link>) <xref rid="pone.0003164-Boyle1" ref-type="bibr">[47]</xref>. For comparative analysis of mRNA targets, ENSG IDs for predicted human orthologs of <italic>Drosophila</italic> Pum and <italic>S. cerevisiae</italic> Puf3p targets <xref rid="pone.0003164-Gerber1" ref-type="bibr">[35]</xref>, <xref rid="pone.0003164-Gerber2" ref-type="bibr">[36]</xref> were retrieved with Biomart (<ext-link ext-link-type="uri" xlink:href="http://www.biomart.org/">http://www.biomart.org/</ext-link>) <xref rid="pone.0003164-Durinck1" ref-type="bibr">[69]</xref>.</p>
+      </sec>
+      <sec id="s4j">
+        <title>Motif searches</title>
+        <p>3â²-UTR, 5â²-UTR and coding sequences were retrieved from ENSEMBL (via ENSG IDs; Ensembl Release 48/1st December 2007) or GenBank (via RefSeq; release 164/February 2008) <xref rid="pone.0003164-Birney1" ref-type="bibr">[70]</xref>, <xref rid="pone.0003164-Benson1" ref-type="bibr">[71]</xref>. Motif searches were performed with MEME (<ext-link ext-link-type="uri" xlink:href="http://meme.sdsc.edu/meme/meme.html">http://meme.sdsc.edu/meme/meme.html</ext-link>) <xref rid="pone.0003164-Bailey1" ref-type="bibr">[51]</xref> on the first 100 3â²-UTR sequences available corresponding to the 125 and 135 highest enriched (according to descending SAM score) PUM1 and PUM2 targets, respectively, with the following settings: searching the sense strand, one motif per sequence and 6 to 10 nucleotides expected motif length. The 3â²-UTR, 5â²-UTR and coding sequences of PUM1 and PUM2 targets (FDR&lt;5%) were searched for PUF motifs (TGTAnATA) with PatSearch (<ext-link ext-link-type="uri" xlink:href="http://www.ba.itb.cnr.it/BIG/PatSearch/">http://www.ba.itb.cnr.it/BIG/PatSearch/</ext-link>) <xref rid="pone.0003164-Grillo1" ref-type="bibr">[52]</xref>
+</p>
+        <p>For the conservation analysis of PUF motifs in PUM1 and PUM2 targets and non-targets, the genomic location of PUF motifs found in PUM1 and PUM2 targets (IPed transcripts) and non-targets (expressed but not IPed transcripts) was inferred by aligning the mRNAs to the hg18 assembly of the human genome using the Spa algorithm <xref rid="pone.0003164-vanNimwegen1" ref-type="bibr">[72]</xref>, and the genomic coordinates of the PUF motif were identified based on the coordinates in the mRNA and the mRNA-to-genome alignments. The phastCons conservation scores for each nucleotide within 8 nucleotides-long regions centered on the middle of the PUF motifs were extracted from the UCSC site (<ext-link ext-link-type="uri" xlink:href="http://hgdownload.cse.ucsc.edu/goldenPath/hg18/database/phastCons17way.txt.gz">http://hgdownload.cse.ucsc.edu/goldenPath/hg18/database/phastCons17way.txt.gz</ext-link>) <xref rid="pone.0003164-Siepel1" ref-type="bibr">[54]</xref>. For each position around the PUF motif we then constructed two vectors: one that contained the conservation scores for that particular position around PUF motifs in IPed transcripts, and the other containing the conservation scores for that position around PUF motifs in transcripts that were expressed but not IPed. Finally, we applied the Wilcoxon test to the two vectors of conservation scores and reported the position-wise profile of the logarithm of the <italic>p</italic>-value.</p>
+      </sec>
+      <sec id="s4k">
+        <title>Extraction of miRNA target sites</title>
+        <p>From <ext-link ext-link-type="uri" xlink:href="http://www.mirz.unibas.ch/ElMMo2">http://www.mirz.unibas.ch/ElMMo2</ext-link> we extracted miRNA target predictions generated based on the algorithm previously described <xref rid="pone.0003164-Gaidatzis1" ref-type="bibr">[58]</xref>. We extracted as high-confidence target sites the top 1000 sites in the order of their posterior probability of being under functional selection. An equal number of low-confidence target sites was extracted by traversing the list of predicted sites for each miRNA from the sites with lowest probability to those with the highest probability, and selecting, for each miRNA a number of low-probability sites equal to the number of high-probability sites.</p>
+      </sec>
+      <sec id="s4l">
+        <title>Motif searches with the Phylogibbs algorithm</title>
+        <p>To identify binding sites for protein cofactors of the miRNA pathway, we applied the Phylogibbs algorithm <xref rid="pone.0003164-Siddharthan1" ref-type="bibr">[57]</xref> to the 400 nucleotide upstream and downstream regions of the high-confidence sites of three miRNAs, which had a few hundred high-confidence predicted targets (miR-30a â 210 upstream/208 downstream regions, miR-19 â 126 upstream/154 downstream regions and miR-137 â 153 upstream/131 downstream regions). The 3â²-UTRs of the predicted miRNA targets were mapped to the hg18 assembly of the human genome using the Spa algorithm for mRNA-to-genome mapping <xref rid="pone.0003164-vanNimwegen1" ref-type="bibr">[72]</xref>. The genomic locations of the miRNA target sites were identified based on the location of the target sites in the 3â²-UTRs and the alignments of 3â²-UTRs to genome. The genomic coordinates of the predicted sites were then used to extract alignments that covered 400 nucleotides upstream or downstream of the miRNA match in the following species: mouse - mm8 assembly, rhesus monkey - rheMac2 assembly, dog - canFam2 assembly, cow - bosTau2 assembly and horse - equCab1 assembly. The pair-wise genome alignments were obtained from the genome browser web site of the University of California of Santa Cruz (<ext-link ext-link-type="uri" xlink:href="http://hgdownload.cse.ucsc.edu/goldenPath/hg18/vsX">http://hgdownload.cse.ucsc.edu/goldenPath/hg18/vsX</ext-link>, where X is the corresponding assembly as given above). The orthologous regions were realigned using the T-coffee algorithm, and then submitted to Phylogibbs. Without trying to perform an exhaustive study, we used the following parameters: motif length (m)â=â10, number of different motifs to infer (z)â=â2, expected number of sites in a given set of sequences (y)â=â120, order of the Markov model for background probabilities (N)â=â3.</p>
+      </sec>
+      <sec id="s4m">
+        <title>Computation of the density of high-confidence miRNA targets in the 3â²-UTRs of PUM1 and PUM2 targets and non-targets</title>
+        <p>We intersected the set of mRNAs that had at least one high-confidence (pâ¥0.5) predicted miRNA target site in their 3â²-UTRs with the sets of mRNAs that were IPed, or expressed but not IPed in the PUM1 and PUM2 experiments. Then, for each mRNA, we computed the density of high-confidence targets sites per 3â²-UTR nucleotide by dividing the number of high-confidence sites in the 3â²-UTR by the total length of the 3â²-UTR.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0003164.s001">
+        <label>Text S1</label>
+        <caption>
+          <p>Oligonucleotide primer sequences.</p>
+          <p>(0.03 MB DOC)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s001.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s002">
+        <label>Figure S1</label>
+        <caption>
+          <p>Immunoblot analysis of human PUM proteins in HeLa S3 cells. (A) Expression of endogenous human PUM proteins in HeLa S3 cells. Lane 1: Immunoblot analysis of PUM1 (127 kDa) probed with anti-PUM1 antibody (25 Âµg cell extract); lane 2: Immunoblot analysis of PUM2 (114 kDa) probed with anti-PUM2 antibody (50 Âµg cell extract). (B) Immunoblot analysis following immunoprecipitation of PUM1 and PUM2 with anti-PUM1 and anti-PUM2 antibodies. Lanes 1â4: PUM affinity isolations; lanes 5â8: mock control isolations. Lanes 1, 5: cell extract; lanes 2, 6: supernatant after incubation of extracts with antibody-coupled protein G or protein A sepharose beads; lanes 3, 7: RNP eluates after treatment of beads with SDS-EDTA; lanes 4, 8: RNP eluates probed with the alternate PUM antibody. 25 Âµg (PUM1) or 50 Âµg (PUM2) of extracts and supernatants, 5% of captured beads and 1% of eluates were loaded.</p>
+          <p>(3.61 MB TIF)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s003">
+        <label>Table S1</label>
+        <caption>
+          <p>mRNA specifically associated with PUM1 and PUM2. Columns indicate the following (from left to right): total number of transcripts (including replicates); total number of unique transcripts; total number of transcripts with ENSEMBL gene IDs; all listed according to FDRs determined by SAM.</p>
+          <p>(0.02 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s003.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s004">
+        <label>Table S2</label>
+        <caption>
+          <p>List of PUM1 target mRNAs in HeLa S3 cells. Columns indicate the following (from left to right): Clone_ID (IMAGE); gene name; gene description; average log2 ratio in PUM1 affinity isolations; average log2 ratio in mock affinity isolations; SAM score; FDR; Ensembl_Gene_ID; Ensembl_Gene (+); RefseqRNA; EntrezGene; GenBank accession number; PUM2 target (+); PUM2 affinity isolation FDR; 3â²-UTR information available (+); 3â²-UTR information available from ENSEMBL, ENSG (+); PUF motif within 3â²-UTR (+); PUF motif within 3â²-UTR from ENSG sequence (+); number of motifs within 3â²-UTR; CDS information available (+); CDS information available from ENSEMBL, ENSG (+); PUF motif within CDS (+); PUF motif within CDS from ENSG sequence (+); number of motifs within CDS; 5â²-UTR information available (+); 5â²-UTR information available from ENSEMBL, ENSG (+); PUF motif within 5â²-UTR (+); PUF motif within 5â²-UTR from ENSG sequence (+); number of motifs within 5â²-UTR; miRNA binding site close (within 50 nts) to 3â²-UTR PUF motif (+); distance between PUF and miRNA sites (nts).</p>
+          <p>(0.78 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s004.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s005">
+        <label>Table S3</label>
+        <caption>
+          <p>List of PUM2 target mRNAs in HeLa S3 cells. Columns indicate the following (from left to right): Clone_ID (IMAGE); gene name; gene description; average log2 ratio PUM2 affinity isolations; average log2 ratio mock affinity isolations; SAM score; FDR; Ensembl_Gene_ID; Ensembl_Gene (+); RefseqRNA; EntrezGene; GenBank accession number; PUM1 target (+); PUM1 affinity isolation FDR; 3â²-UTR information available (+); 3â²-UTR information available from ENSEMBL, ENSG (+); PUF motif within 3â²-UTR (+); PUF motif within 3â²-UTR from ENSG sequence (+); number of motifs within 3â²-UTR; CDS information available (+); CDS information available from ENSEMBL, ENSG (+); PUF motif within CDS (+); PUF motif within CDS from ENSG sequence (+); number of motifs within CDS; 5â²-UTR information available (+); 5â²-UTR information available from ENSEMBL, ENSG (+); PUF motif within 5â²-UTR (+); number of motifs within 5â²-UTR; PUF motif within 5â²-UTR from ENSG sequence (+); miRNA binding site close (within 50 nts) to 3â²-UTR PUF motif (+); distance between PUF and miRNA sites (nts).</p>
+          <p>(0.32 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s005.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s006">
+        <label>Table S4</label>
+        <caption>
+          <p>Significantly shared PANTHER and GO annotations among PUM1 and PUM2 mRNA targets. (A) Significantly shared PANTHER annotations among PUM1 mRNA targets. (B) Significantly shared PANTHER annotations among PUM2 mRNA targets (C) Significantly shared GO annotations among PUM1 targets (D) Significantly shared GO annotations among PUM2 targets.</p>
+          <p>(0.06 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s006.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s007">
+        <label>Table S5</label>
+        <caption>
+          <p>Conservation between yeast, Drosophila and human PUM targets. (A, B) Homologous messages conserved among yeast, Drosophila and human pumilio targets. (C) Significantly shared PANTHER annotations among 85 conserved PUM1 and Drosophila Pumilio mRNA targets.</p>
+          <p>(0.03 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s007.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s008">
+        <label>Table S6</label>
+        <caption>
+          <p>Statistics of PUF motif among PUM1 targets. (A) 3â²-UTRs. (B) CDS. (C) 5â²-UTR. Columns indicate the following (from left to right): search option; number of ENSEMBL genes; number of sequences retrieved from ENSEMBL; number of motifs (number of motifs from ENSEMBL-retrieved sequences); p-value.</p>
+          <p>(0.03 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s008.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s009">
+        <label>Table S7</label>
+        <caption>
+          <p>Statistics of PUF motif among PUM2 targets. (A) 3â²-UTRs. (B) CDS. (C) 5â²-UTR. Columns indicate the following (from left to right): search option; number of ENSEMBL genes; number of sequences retrieve from ENSEMBL; number of motifs (number of motifs from ENSEMBL-retrieved sequences); p-value.</p>
+          <p>(0.03 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s009.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s010">
+        <label>Table S8</label>
+        <caption>
+          <p>Motifs enriched in the surrounding of miRNA binding sites. Columns indicate the following: motif; number of positive sequences; number of negative sequences; p-value. (A) Motifs enriched downstream of miRNA binding sites. (B) Motifs enriched upstream of miRNA binding sites.</p>
+          <p>(1.22 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s010.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s011">
+        <label>Table S9</label>
+        <caption>
+          <p>List of PUM targets with conserved PUF and miRNA binding sites. Columns indicate the following: (A) Targets with PUF and miRNA conserved double sites among the species indicated in C (Homo sapiens, hg; Rhesus macaque, rheMac; Bos Taurus, bosTau; Canis familiaris, camFam; Mus musculus, mm). For each target, the first rows of C and D indicate the position of PUF binding sites (start-end); the first rows of F and G indicate the position of the miRNA binding sites (start-end) specified in E. H indicates the probability that the miRNA binding site is under selection; column I indicates the distance between PUM and miRNA binding sites.</p>
+          <p>(0.25 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s011.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0003164.s012">
+        <label>Table S10</label>
+        <caption>
+          <p>Significantly shared PANTHER and GO annotations among predicted human PUM targets. (A) Significantly shared PANTHER annotations among predicted human PUM targets. (B) Significantly shared GO annotations among predicted human PUM targets.</p>
+          <p>(0.05 MB XLS)</p>
+        </caption>
+        <media xlink:href="pone.0003164.s012.xls">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Raphael Kaeser for generating plasmids, Prof. Scott Tenenbaum for sharing protocols, Dr. Stefan Luschnig for critical reading of the manuscript, Dr. Adam Morris for providing the list of PUM1 targets and expressed transcripts for a comparative analysis, and Prof. Michael Detmar for general support.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p><bold>Funding: </bold>L.J. was supported by SNF grant #3100A0-114001 to M.Z. A.K. was supported by a grant from the Bonizzi-Theler Foundation to A.P.G. A.P.G. is the recipient of a Career Development Award (CDA0048/2005) from the International Human Frontier Science Program Organization (HFSP).</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0003164-Moore1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moore</surname><given-names>MJ</given-names></name></person-group>
+<year>2005</year>
+<article-title>From birth to death: the complex lives of eukaryotic mRNAs.</article-title>
+<source>Science</source>
+<volume>309</volume>
+<fpage>1514</fpage>
+<lpage>1518</lpage>
+<pub-id pub-id-type="pmid">16141059</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Halbeisen1">
+        <label>2</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Halbeisen</surname><given-names>RE</given-names></name><name><surname>Galgano</surname><given-names>A</given-names></name><name><surname>Scherrer</surname><given-names>T</given-names></name><name><surname>Gerber</surname><given-names>AP</given-names></name></person-group>
+<year>2008</year>
+<article-title>Post-transcriptional gene regulation: from genome-wide studies to principles.</article-title>
+<source>Cell Mol Life Sci</source>
+<volume>65</volume>
+<fpage>798</fpage>
+<lpage>813</lpage>
+<pub-id pub-id-type="pmid">18043867</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Dreyfuss1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dreyfuss</surname><given-names>G</given-names></name><name><surname>Kim</surname><given-names>VN</given-names></name><name><surname>Kataoka</surname><given-names>N</given-names></name></person-group>
+<year>2002</year>
+<article-title>Messenger-RNA-binding proteins and the messages they carry.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>3</volume>
+<fpage>195</fpage>
+<lpage>205</lpage>
+<pub-id pub-id-type="pmid">11994740</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-StJohnston1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>St Johnston</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Moving messages: the intracellular localization of mRNAs.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>6</volume>
+<fpage>363</fpage>
+<lpage>375</lpage>
+<pub-id pub-id-type="pmid">15852043</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Gebauer1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gebauer</surname><given-names>F</given-names></name><name><surname>Hentze</surname><given-names>MW</given-names></name></person-group>
+<year>2004</year>
+<article-title>Molecular mechanisms of translational control.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>5</volume>
+<fpage>827</fpage>
+<lpage>835</lpage>
+<pub-id pub-id-type="pmid">15459663</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Wilusz1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilusz</surname><given-names>CJ</given-names></name><name><surname>Wilusz</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Bringing the role of mRNA decay in the control of gene expression into focus.</article-title>
+<source>Trends Genet</source>
+<volume>20</volume>
+<fpage>491</fpage>
+<lpage>497</lpage>
+<pub-id pub-id-type="pmid">15363903</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-McKee1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>McKee</surname><given-names>AE</given-names></name><name><surname>Silver</surname><given-names>PA</given-names></name></person-group>
+<year>2007</year>
+<article-title>Systems perspectives on mRNA processing.</article-title>
+<source>Cell Res</source>
+<volume>17</volume>
+<fpage>581</fpage>
+<lpage>590</lpage>
+<pub-id pub-id-type="pmid">17621309</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Filipowicz1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Filipowicz</surname><given-names>W</given-names></name><name><surname>Bhattacharyya</surname><given-names>SN</given-names></name><name><surname>Sonenberg</surname><given-names>N</given-names></name></person-group>
+<year>2008</year>
+<article-title>Mechanisms of post-transcriptional regulation by microRNAs: are the answers in sight?</article-title>
+<source>Nat Rev Genet</source>
+<volume>9</volume>
+<fpage>102</fpage>
+<lpage>114</lpage>
+<pub-id pub-id-type="pmid">18197166</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Lal1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lal</surname><given-names>A</given-names></name><name><surname>Kim</surname><given-names>HH</given-names></name><name><surname>Abdelmohsen</surname><given-names>K</given-names></name><name><surname>Kuwano</surname><given-names>Y</given-names></name><name><surname>Pullmann</surname><given-names>R</given-names><suffix>Jr</suffix></name><etal/></person-group>
+<year>2008</year>
+<article-title>p16(INK4a) translation suppressed by miR-24.</article-title>
+<source>PLoS ONE</source>
+<volume>3</volume>
+<fpage>e1864</fpage>
+<pub-id pub-id-type="pmid">18365017</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Wickens1">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wickens</surname><given-names>M</given-names></name><name><surname>Bernstein</surname><given-names>DS</given-names></name><name><surname>Kimble</surname><given-names>J</given-names></name><name><surname>Parker</surname><given-names>R</given-names></name></person-group>
+<year>2002</year>
+<article-title>A PUF family portrait: 3â²UTR regulation as a way of life.</article-title>
+<source>Trends Genet</source>
+<volume>18</volume>
+<fpage>150</fpage>
+<lpage>157</lpage>
+<pub-id pub-id-type="pmid">11858839</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Spassov1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Spassov</surname><given-names>DS</given-names></name><name><surname>Jurecic</surname><given-names>R</given-names></name></person-group>
+<year>2003</year>
+<article-title>The PUF family of RNA-binding proteins: does evolutionarily conserved structure equal conserved function?</article-title>
+<source>IUBMB Life</source>
+<volume>55</volume>
+<fpage>359</fpage>
+<lpage>366</lpage>
+<pub-id pub-id-type="pmid">14584586</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Edwards1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Edwards</surname><given-names>TA</given-names></name><name><surname>Pyle</surname><given-names>SE</given-names></name><name><surname>Wharton</surname><given-names>RP</given-names></name><name><surname>Aggarwal</surname><given-names>AK</given-names></name></person-group>
+<year>2001</year>
+<article-title>Structure of Pumilio reveals similarity between RNA and peptide binding motifs.</article-title>
+<source>Cell</source>
+<volume>105</volume>
+<fpage>281</fpage>
+<lpage>289</lpage>
+<pub-id pub-id-type="pmid">11336677</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Wang1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wang</surname><given-names>X</given-names></name><name><surname>McLachlan</surname><given-names>J</given-names></name><name><surname>Zamore</surname><given-names>PD</given-names></name><name><surname>Hall</surname><given-names>TM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Modular recognition of RNA by a human pumilio-homology domain.</article-title>
+<source>Cell</source>
+<volume>110</volume>
+<fpage>501</fpage>
+<lpage>512</lpage>
+<pub-id pub-id-type="pmid">12202039</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Gupta1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gupta</surname><given-names>YK</given-names></name><name><surname>Nair</surname><given-names>DT</given-names></name><name><surname>Wharton</surname><given-names>RP</given-names></name><name><surname>Aggarwal</surname><given-names>AK</given-names></name></person-group>
+<year>2008</year>
+<article-title>Structures of human Pumilio with noncognate RNAs reveal molecular mechanisms for binding promiscuity.</article-title>
+<source>Structure</source>
+<volume>16</volume>
+<fpage>549</fpage>
+<lpage>557</lpage>
+<pub-id pub-id-type="pmid">18328718</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Miller1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Miller</surname><given-names>MT</given-names></name><name><surname>Higgin</surname><given-names>JJ</given-names></name><name><surname>Hall</surname><given-names>TM</given-names></name></person-group>
+<year>2008</year>
+<article-title>Basis of altered RNA-binding specificity by PUF proteins revealed by crystal structures of yeast Puf4p.</article-title>
+<source>Nat Struct Mol Biol</source>
+<volume>15</volume>
+<fpage>397</fpage>
+<lpage>402</lpage>
+<pub-id pub-id-type="pmid">18327269</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Olivas1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Olivas</surname><given-names>W</given-names></name><name><surname>Parker</surname><given-names>R</given-names></name></person-group>
+<year>2000</year>
+<article-title>The Puf3 protein is a transcript-specific regulator of mRNA degradation in yeast.</article-title>
+<source>Embo J</source>
+<volume>19</volume>
+<fpage>6602</fpage>
+<lpage>6611</lpage>
+<pub-id pub-id-type="pmid">11101532</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Goldstrohm1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goldstrohm</surname><given-names>AC</given-names></name><name><surname>Hook</surname><given-names>BA</given-names></name><name><surname>Seay</surname><given-names>DJ</given-names></name><name><surname>Wickens</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>PUF proteins bind Pop2p to regulate messenger RNAs.</article-title>
+<source>Nat Struct Mol Biol</source>
+<volume>13</volume>
+<fpage>533</fpage>
+<lpage>539</lpage>
+<pub-id pub-id-type="pmid">16715093</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Kadyrova1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kadyrova</surname><given-names>LY</given-names></name><name><surname>Habara</surname><given-names>Y</given-names></name><name><surname>Lee</surname><given-names>TH</given-names></name><name><surname>Wharton</surname><given-names>RP</given-names></name></person-group>
+<year>2007</year>
+<article-title>Translational control of maternal Cyclin B mRNA by Nanos in the Drosophila germline.</article-title>
+<source>Development</source>
+<volume>134</volume>
+<fpage>1519</fpage>
+<lpage>1527</lpage>
+<pub-id pub-id-type="pmid">17360772</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Murata1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Murata</surname><given-names>Y</given-names></name><name><surname>Wharton</surname><given-names>RP</given-names></name></person-group>
+<year>1995</year>
+<article-title>Binding of pumilio to maternal hunchback mRNA is required for posterior patterning in Drosophila embryos.</article-title>
+<source>Cell</source>
+<volume>80</volume>
+<fpage>747</fpage>
+<lpage>756</lpage>
+<pub-id pub-id-type="pmid">7889568</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Lin1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>H</given-names></name><name><surname>Spradling</surname><given-names>AC</given-names></name></person-group>
+<year>1997</year>
+<article-title>A novel group of pumilio mutations affects the asymmetric division of germline stem cells in the Drosophila ovary.</article-title>
+<source>Development</source>
+<volume>124</volume>
+<fpage>2463</fpage>
+<lpage>2476</lpage>
+<pub-id pub-id-type="pmid">9199372</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Forbes1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Forbes</surname><given-names>A</given-names></name><name><surname>Lehmann</surname><given-names>R</given-names></name></person-group>
+<year>1998</year>
+<article-title>Nanos and Pumilio have critical roles in the development and function of Drosophila germline stem cells.</article-title>
+<source>Development</source>
+<volume>125</volume>
+<fpage>679</fpage>
+<lpage>690</lpage>
+<pub-id pub-id-type="pmid">9435288</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-AsaokaTaguchi1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Asaoka-Taguchi</surname><given-names>M</given-names></name><name><surname>Yamada</surname><given-names>M</given-names></name><name><surname>Nakamura</surname><given-names>A</given-names></name><name><surname>Hanyu</surname><given-names>K</given-names></name><name><surname>Kobayashi</surname><given-names>S</given-names></name></person-group>
+<year>1999</year>
+<article-title>Maternal Pumilio acts together with Nanos in germline development in Drosophila embryos.</article-title>
+<source>Nat Cell Biol</source>
+<volume>1</volume>
+<fpage>431</fpage>
+<lpage>437</lpage>
+<pub-id pub-id-type="pmid">10559987</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Dubnau1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dubnau</surname><given-names>J</given-names></name><name><surname>Chiang</surname><given-names>AS</given-names></name><name><surname>Grady</surname><given-names>L</given-names></name><name><surname>Barditch</surname><given-names>J</given-names></name><name><surname>Gossweiler</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>The staufen/pumilio pathway is involved in Drosophila long-term memory.</article-title>
+<source>Curr Biol</source>
+<volume>13</volume>
+<fpage>286</fpage>
+<lpage>296</lpage>
+<pub-id pub-id-type="pmid">12593794</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Menon1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Menon</surname><given-names>KP</given-names></name><name><surname>Sanyal</surname><given-names>S</given-names></name><name><surname>Habara</surname><given-names>Y</given-names></name><name><surname>Sanchez</surname><given-names>R</given-names></name><name><surname>Wharton</surname><given-names>RP</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>The translational repressor Pumilio regulates presynaptic morphology and controls postsynaptic accumulation of translation factor eIF-4E.</article-title>
+<source>Neuron</source>
+<volume>44</volume>
+<fpage>663</fpage>
+<lpage>676</lpage>
+<pub-id pub-id-type="pmid">15541314</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Muraro1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Muraro</surname><given-names>NI</given-names></name><name><surname>Weston</surname><given-names>AJ</given-names></name><name><surname>Gerber</surname><given-names>AP</given-names></name><name><surname>Luschnig</surname><given-names>S</given-names></name><name><surname>Moffat</surname><given-names>KG</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Pumilio binds para mRNA and requires Nanos and Brat to regulate sodium current in Drosophila motoneurons.</article-title>
+<source>J Neurosci</source>
+<volume>28</volume>
+<fpage>2099</fpage>
+<lpage>2109</lpage>
+<pub-id pub-id-type="pmid">18305244</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Zhang1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>B</given-names></name><name><surname>Gallegos</surname><given-names>M</given-names></name><name><surname>Puoti</surname><given-names>A</given-names></name><name><surname>Durkin</surname><given-names>E</given-names></name><name><surname>Fields</surname><given-names>S</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>A conserved RNA-binding protein that regulates sexual fates in the C. elegans hermaphrodite germ line.</article-title>
+<source>Nature</source>
+<volume>390</volume>
+<fpage>477</fpage>
+<lpage>484</lpage>
+<pub-id pub-id-type="pmid">9393998</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Tadauchi1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tadauchi</surname><given-names>T</given-names></name><name><surname>Matsumoto</surname><given-names>K</given-names></name><name><surname>Herskowitz</surname><given-names>I</given-names></name><name><surname>Irie</surname><given-names>K</given-names></name></person-group>
+<year>2001</year>
+<article-title>Post-transcriptional regulation through the HO 3â²-UTR by Mpt5, a yeast homolog of Pumilio and FBF.</article-title>
+<source>Embo J</source>
+<volume>20</volume>
+<fpage>552</fpage>
+<lpage>561</lpage>
+<pub-id pub-id-type="pmid">11157761</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-GarciaRodriguez1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Garcia-Rodriguez</surname><given-names>LJ</given-names></name><name><surname>Gay</surname><given-names>AC</given-names></name><name><surname>Pon</surname><given-names>LA</given-names></name></person-group>
+<year>2007</year>
+<article-title>Puf3p, a Pumilio family RNA binding protein, localizes to mitochondria and regulates mitochondrial biogenesis and motility in budding yeast.</article-title>
+<source>J Cell Biol</source>
+<volume>176</volume>
+<fpage>197</fpage>
+<lpage>207</lpage>
+<pub-id pub-id-type="pmid">17210948</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Moore2">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Moore</surname><given-names>FL</given-names></name><name><surname>Jaruzelska</surname><given-names>J</given-names></name><name><surname>Fox</surname><given-names>MS</given-names></name><name><surname>Urano</surname><given-names>J</given-names></name><name><surname>Firpo</surname><given-names>MT</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Human Pumilio-2 is expressed in embryonic stem cells and germ cells and interacts with DAZ (Deleted in AZoospermia) and DAZ-like proteins.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>100</volume>
+<fpage>538</fpage>
+<lpage>543</lpage>
+<pub-id pub-id-type="pmid">12511597</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Vessey1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vessey</surname><given-names>JP</given-names></name><name><surname>Vaccani</surname><given-names>A</given-names></name><name><surname>Xie</surname><given-names>Y</given-names></name><name><surname>Dahm</surname><given-names>R</given-names></name><name><surname>Karra</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Dendritic localization of the translational repressor Pumilio 2 and its contribution to dendritic stress granules.</article-title>
+<source>J Neurosci</source>
+<volume>26</volume>
+<fpage>6496</fpage>
+<lpage>6508</lpage>
+<pub-id pub-id-type="pmid">16775137</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Urano1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Urano</surname><given-names>J</given-names></name><name><surname>Fox</surname><given-names>MS</given-names></name><name><surname>Reijo Pera</surname><given-names>RA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Interaction of the conserved meiotic regulators, BOULE (BOL) and PUMILIO-2 (PUM2).</article-title>
+<source>Mol Reprod Dev</source>
+<volume>71</volume>
+<fpage>290</fpage>
+<lpage>298</lpage>
+<pub-id pub-id-type="pmid">15806553</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Xu1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xu</surname><given-names>EY</given-names></name><name><surname>Chang</surname><given-names>R</given-names></name><name><surname>Salmon</surname><given-names>NA</given-names></name><name><surname>Reijo Pera</surname><given-names>RA</given-names></name></person-group>
+<year>2007</year>
+<article-title>A gene trap mutation of a murine homolog of the Drosophila stem cell factor Pumilio results in smaller testes but does not affect litter size or fertility.</article-title>
+<source>Mol Reprod Dev</source>
+<volume>74</volume>
+<fpage>912</fpage>
+<lpage>921</lpage>
+<pub-id pub-id-type="pmid">17219433</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Lee1">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>MH</given-names></name><name><surname>Hook</surname><given-names>B</given-names></name><name><surname>Pan</surname><given-names>G</given-names></name><name><surname>Kershner</surname><given-names>AM</given-names></name><name><surname>Merritt</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>Conserved regulation of MAP kinase expression by PUF RNA-binding proteins.</article-title>
+<source>PLoS Genet</source>
+<volume>3</volume>
+<fpage>e233</fpage>
+<pub-id pub-id-type="pmid">18166083</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Zhong1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhong</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>T</given-names></name><name><surname>Bloch</surname><given-names>LM</given-names></name></person-group>
+<year>2006</year>
+<article-title>Dendritic mRNAs encode diversified functionalities in hippocampal pyramidal neurons.</article-title>
+<source>BMC Neurosci</source>
+<volume>7</volume>
+<fpage>17</fpage>
+<pub-id pub-id-type="pmid">16503994</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Gerber1">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerber</surname><given-names>AP</given-names></name><name><surname>Herschlag</surname><given-names>D</given-names></name><name><surname>Brown</surname><given-names>PO</given-names></name></person-group>
+<year>2004</year>
+<article-title>Extensive association of functionally and cytotopically related mRNAs with Puf family RNA-binding proteins in yeast.</article-title>
+<source>PLoS Biol</source>
+<volume>2</volume>
+<fpage>E79</fpage>
+<pub-id pub-id-type="pmid">15024427</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Gerber2">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gerber</surname><given-names>AP</given-names></name><name><surname>Luschnig</surname><given-names>S</given-names></name><name><surname>Krasnow</surname><given-names>MA</given-names></name><name><surname>Brown</surname><given-names>PO</given-names></name><name><surname>Herschlag</surname><given-names>D</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genome-wide identification of mRNAs associated with the translational regulator PUMILIO in Drosophila melanogaster.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>
+<fpage>4487</fpage>
+<lpage>4492</lpage>
+<pub-id pub-id-type="pmid">16537387</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Keene1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keene</surname><given-names>JD</given-names></name><name><surname>Tenenbaum</surname><given-names>SA</given-names></name></person-group>
+<year>2002</year>
+<article-title>Eukaryotic mRNPs may represent posttranscriptional operons.</article-title>
+<source>Mol Cell</source>
+<volume>9</volume>
+<fpage>1161</fpage>
+<lpage>1167</lpage>
+<pub-id pub-id-type="pmid">12086614</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Keene2">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keene</surname><given-names>JD</given-names></name></person-group>
+<year>2007</year>
+<article-title>RNA regulons: coordination of post-transcriptional events.</article-title>
+<source>Nat Rev Genet</source>
+<volume>8</volume>
+<fpage>533</fpage>
+<lpage>543</lpage>
+<pub-id pub-id-type="pmid">17572691</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Prinz1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prinz</surname><given-names>S</given-names></name><name><surname>Aldridge</surname><given-names>C</given-names></name><name><surname>Ramsey</surname><given-names>SA</given-names></name><name><surname>Taylor</surname><given-names>RJ</given-names></name><name><surname>Galitski</surname><given-names>T</given-names></name></person-group>
+<year>2007</year>
+<article-title>Control of signaling in a MAP-kinase pathway by an RNA-binding protein.</article-title>
+<source>PLoS ONE</source>
+<volume>2</volume>
+<fpage>e249</fpage>
+<pub-id pub-id-type="pmid">17327913</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-SaintGeorges1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Saint-Georges</surname><given-names>Y</given-names></name><name><surname>Garcia</surname><given-names>M</given-names></name><name><surname>Delaveau</surname><given-names>T</given-names></name><name><surname>Jourdren</surname><given-names>L</given-names></name><name><surname>Le Crom</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2008</year>
+<article-title>Yeast mitochondrial biogenesis: a role for the PUF RNA-binding protein Puf3p in mRNA localization.</article-title>
+<source>PLoS ONE</source>
+<volume>3</volume>
+<fpage>e2293</fpage>
+<pub-id pub-id-type="pmid">18523582</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Bhattacharyya1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bhattacharyya</surname><given-names>SN</given-names></name><name><surname>Habermacher</surname><given-names>R</given-names></name><name><surname>Martine</surname><given-names>U</given-names></name><name><surname>Closs</surname><given-names>EI</given-names></name><name><surname>Filipowicz</surname><given-names>W</given-names></name></person-group>
+<year>2006</year>
+<article-title>Relief of microRNA-mediated translational repression in human cells subjected to stress.</article-title>
+<source>Cell</source>
+<volume>125</volume>
+<fpage>1111</fpage>
+<lpage>1124</lpage>
+<pub-id pub-id-type="pmid">16777601</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Kedde1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kedde</surname><given-names>M</given-names></name><name><surname>Strasser</surname><given-names>MJ</given-names></name><name><surname>Boldajipour</surname><given-names>B</given-names></name><name><surname>Vrielink</surname><given-names>JA</given-names></name><name><surname>Slanchev</surname><given-names>K</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>RNA-binding protein Dnd1 inhibits microRNA access to target mRNA.</article-title>
+<source>Cell</source>
+<volume>131</volume>
+<fpage>1273</fpage>
+<lpage>1286</lpage>
+<pub-id pub-id-type="pmid">18155131</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Nolde1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nolde</surname><given-names>MJ</given-names></name><name><surname>Saka</surname><given-names>N</given-names></name><name><surname>Reinert</surname><given-names>KL</given-names></name><name><surname>Slack</surname><given-names>FJ</given-names></name></person-group>
+<year>2007</year>
+<article-title>The Caenorhabditis elegans pumilio homolog, puf-9, is required for the 3â²UTR-mediated repression of the let-7 microRNA target gene, hbl-1.</article-title>
+<source>Dev Biol</source>
+<volume>305</volume>
+<fpage>551</fpage>
+<lpage>563</lpage>
+<pub-id pub-id-type="pmid">17412319</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Baroni1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baroni</surname><given-names>TE</given-names></name><name><surname>Chittur</surname><given-names>SV</given-names></name><name><surname>George</surname><given-names>AD</given-names></name><name><surname>Tenenbaum</surname><given-names>SA</given-names></name></person-group>
+<year>2008</year>
+<article-title>Advances in RIP-chip analysis : RNA-binding protein immunoprecipitation-microarray profiling.</article-title>
+<source>Methods Mol Biol</source>
+<volume>419</volume>
+<fpage>93</fpage>
+<lpage>108</lpage>
+<pub-id pub-id-type="pmid">18369977</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Tusher1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tusher</surname><given-names>VG</given-names></name><name><surname>Tibshirani</surname><given-names>R</given-names></name><name><surname>Chu</surname><given-names>G</given-names></name></person-group>
+<year>2001</year>
+<article-title>Significance analysis of microarrays applied to the ionizing radiation response.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>5116</fpage>
+<lpage>5121</lpage>
+<pub-id pub-id-type="pmid">11309499</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Mi1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mi</surname><given-names>H</given-names></name><name><surname>Lazareva-Ulitsky</surname><given-names>B</given-names></name><name><surname>Loo</surname><given-names>R</given-names></name><name><surname>Kejariwal</surname><given-names>A</given-names></name><name><surname>Vandergriff</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The PANTHER database of protein families, subfamilies, functions and pathways.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>33</volume>
+<fpage>D284</fpage>
+<lpage>288</lpage>
+<pub-id pub-id-type="pmid">15608197</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Boyle1">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Boyle</surname><given-names>EI</given-names></name><name><surname>Weng</surname><given-names>S</given-names></name><name><surname>Gollub</surname><given-names>J</given-names></name><name><surname>Jin</surname><given-names>H</given-names></name><name><surname>Botstein</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>GO::TermFinderâopen source software for accessing Gene Ontology information and finding significantly enriched Gene Ontology terms associated with a list of genes.</article-title>
+<source>Bioinformatics</source>
+<volume>20</volume>
+<fpage>3710</fpage>
+<lpage>3715</lpage>
+<pub-id pub-id-type="pmid">15297299</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Rossant1">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rossant</surname><given-names>J</given-names></name><name><surname>Howard</surname><given-names>L</given-names></name></person-group>
+<year>2002</year>
+<article-title>Signaling pathways in vascular development.</article-title>
+<source>Annu Rev Cell Dev Biol</source>
+<volume>18</volume>
+<fpage>541</fpage>
+<lpage>573</lpage>
+<pub-id pub-id-type="pmid">12142271</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Molina1">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Molina</surname><given-names>JR</given-names></name><name><surname>Adjei</surname><given-names>AA</given-names></name></person-group>
+<year>2006</year>
+<article-title>The Ras/Raf/MAPK pathway.</article-title>
+<source>J Thorac Oncol</source>
+<volume>1</volume>
+<fpage>7</fpage>
+<lpage>9</lpage>
+<pub-id pub-id-type="pmid">17409820</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Zerlin1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zerlin</surname><given-names>M</given-names></name><name><surname>Julius</surname><given-names>MA</given-names></name><name><surname>Kitajewski</surname><given-names>J</given-names></name></person-group>
+<year>2008</year>
+<article-title>Wnt/Frizzled signaling in angiogenesis.</article-title>
+<source>Angiogenesis</source>
+<volume>11</volume>
+<fpage>63</fpage>
+<lpage>69</lpage>
+<pub-id pub-id-type="pmid">18253847</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Bailey1">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bailey</surname><given-names>TL</given-names></name><name><surname>Williams</surname><given-names>N</given-names></name><name><surname>Misleh</surname><given-names>C</given-names></name><name><surname>Li</surname><given-names>WW</given-names></name></person-group>
+<year>2006</year>
+<article-title>MEME: discovering and analyzing DNA and protein sequence motifs.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>34</volume>
+<fpage>W369</fpage>
+<lpage>373</lpage>
+<pub-id pub-id-type="pmid">16845028</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Grillo1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grillo</surname><given-names>G</given-names></name><name><surname>Licciulli</surname><given-names>F</given-names></name><name><surname>Liuni</surname><given-names>S</given-names></name><name><surname>Sbisa</surname><given-names>E</given-names></name><name><surname>Pesole</surname><given-names>G</given-names></name></person-group>
+<year>2003</year>
+<article-title>PatSearch: A program for the detection of patterns and structural motifs in nucleotide sequences.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>31</volume>
+<fpage>3608</fpage>
+<lpage>3612</lpage>
+<pub-id pub-id-type="pmid">12824377</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Xie1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Xie</surname><given-names>X</given-names></name><name><surname>Lu</surname><given-names>J</given-names></name><name><surname>Kulbokas</surname><given-names>EJ</given-names></name><name><surname>Golub</surname><given-names>TR</given-names></name><name><surname>Mootha</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Systematic discovery of regulatory motifs in human promoters and 3â² UTRs by comparison of several mammals.</article-title>
+<source>Nature</source>
+<volume>434</volume>
+<fpage>338</fpage>
+<lpage>345</lpage>
+<pub-id pub-id-type="pmid">15735639</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Siepel1">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siepel</surname><given-names>A</given-names></name><name><surname>Bejerano</surname><given-names>G</given-names></name><name><surname>Pedersen</surname><given-names>JS</given-names></name><name><surname>Hinrichs</surname><given-names>AS</given-names></name><name><surname>Hou</surname><given-names>M</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Evolutionarily conserved elements in vertebrate, insect, worm, and yeast genomes.</article-title>
+<source>Genome Res</source>
+<volume>15</volume>
+<fpage>1034</fpage>
+<lpage>1050</lpage>
+<pub-id pub-id-type="pmid">16024819</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Parisi1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Parisi</surname><given-names>M</given-names></name><name><surname>Lin</surname><given-names>H</given-names></name></person-group>
+<year>2000</year>
+<article-title>Translational repression: a duet of Nanos and Pumilio.</article-title>
+<source>Curr Biol</source>
+<volume>10</volume>
+<fpage>R81</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="pmid">10662662</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Fox1">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fox</surname><given-names>M</given-names></name><name><surname>Urano</surname><given-names>J</given-names></name><name><surname>Reijo Pera</surname><given-names>RA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Identification and characterization of RNA sequences to which human PUMILIO-2 (PUM2) and deleted in Azoospermia-like (DAZL) bind.</article-title>
+<source>Genomics</source>
+<volume>85</volume>
+<fpage>92</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="pmid">15607425</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Siddharthan1">
+        <label>57</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Siddharthan</surname><given-names>R</given-names></name><name><surname>Siggia</surname><given-names>ED</given-names></name><name><surname>van Nimwegen</surname><given-names>E</given-names></name></person-group>
+<year>2005</year>
+<article-title>PhyloGibbs: a Gibbs sampling motif finder that incorporates phylogeny.</article-title>
+<source>PLoS Comput Biol</source>
+<volume>1</volume>
+<fpage>e67</fpage>
+<pub-id pub-id-type="pmid">16477324</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Gaidatzis1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gaidatzis</surname><given-names>D</given-names></name><name><surname>van Nimwegen</surname><given-names>E</given-names></name><name><surname>Hausser</surname><given-names>J</given-names></name><name><surname>Zavolan</surname><given-names>M</given-names></name></person-group>
+<year>2007</year>
+<article-title>Inference of miRNA targets using evolutionary conservation and pathway analysis.</article-title>
+<source>BMC Bioinformatics</source>
+<volume>8</volume>
+<fpage>69</fpage>
+<pub-id pub-id-type="pmid">17331257</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Grimson1">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Grimson</surname><given-names>A</given-names></name><name><surname>Farh</surname><given-names>KK</given-names></name><name><surname>Johnston</surname><given-names>WK</given-names></name><name><surname>Garrett-Engele</surname><given-names>P</given-names></name><name><surname>Lim</surname><given-names>LP</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>MicroRNA targeting specificity in mammals: determinants beyond seed pairing.</article-title>
+<source>Mol Cell</source>
+<volume>27</volume>
+<fpage>91</fpage>
+<lpage>105</lpage>
+<pub-id pub-id-type="pmid">17612493</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Keene3">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Keene</surname><given-names>JD</given-names></name><name><surname>Komisarow</surname><given-names>JM</given-names></name><name><surname>Friedersdorf</surname><given-names>MB</given-names></name></person-group>
+<year>2006</year>
+<article-title>RIP-Chip: the isolation and identification of mRNAs, microRNAs and protein components of ribonucleoprotein complexes from cell extracts.</article-title>
+<source>Nat Protoc</source>
+<volume>1</volume>
+<fpage>302</fpage>
+<lpage>307</lpage>
+<pub-id pub-id-type="pmid">17406249</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Morris1">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Morris</surname><given-names>AR</given-names></name><name><surname>Mukherjee</surname><given-names>N</given-names></name><name><surname>Keene</surname><given-names>JD</given-names></name></person-group>
+<year>2008</year>
+<article-title>Ribonomic analysis of human Pum1 reveals cis-trans conservation across species despite evolution of diverse mRNA target sets.</article-title>
+<source>Mol Cell Biol</source>
+<volume>12</volume>
+<fpage>4093</fpage>
+<lpage>4103</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0003164-Furic1">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Furic</surname><given-names>L</given-names></name><name><surname>Maher-Laporte</surname><given-names>M</given-names></name><name><surname>DesGroseillers</surname><given-names>L</given-names></name></person-group>
+<year>2008</year>
+<article-title>A genome-wide approach identifies distinct but overlapping subsets of cellular mRNAs associated with Staufen1- and Staufen2-containing ribonucleoprotein complexes.</article-title>
+<source>RNA</source>
+<volume>14</volume>
+<fpage>324</fpage>
+<lpage>335</lpage>
+<pub-id pub-id-type="pmid">18094122</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Bernstein1">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bernstein</surname><given-names>D</given-names></name><name><surname>Hook</surname><given-names>B</given-names></name><name><surname>Hajarnavis</surname><given-names>A</given-names></name><name><surname>Opperman</surname><given-names>L</given-names></name><name><surname>Wickens</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Binding specificity and mRNA targets of a C. elegans PUF protein, FBF-1.</article-title>
+<source>RNA</source>
+<volume>11</volume>
+<fpage>447</fpage>
+<lpage>458</lpage>
+<pub-id pub-id-type="pmid">15769874</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-vonRoretz1">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>von Roretz</surname><given-names>C</given-names></name><name><surname>Gallouzi</surname><given-names>IE</given-names></name></person-group>
+<year>2008</year>
+<article-title>Decoding ARE-mediated decay: is microRNA part of the equation?</article-title>
+<source>J Cell Biol</source>
+<volume>181</volume>
+<fpage>189</fpage>
+<lpage>194</lpage>
+<pub-id pub-id-type="pmid">18411313</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-George1">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>George</surname><given-names>AD</given-names></name><name><surname>Tenenbaum</surname><given-names>SA</given-names></name></person-group>
+<year>2006</year>
+<article-title>MicroRNA modulation of RNA-binding protein regulatory elements.</article-title>
+<source>RNA Biol</source>
+<volume>3</volume>
+<fpage>57</fpage>
+<lpage>59</lpage>
+<pub-id pub-id-type="pmid">17114943</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Rigaut1">
+        <label>66</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rigaut</surname><given-names>G</given-names></name><name><surname>Shevchenko</surname><given-names>A</given-names></name><name><surname>Rutz</surname><given-names>B</given-names></name><name><surname>Wilm</surname><given-names>M</given-names></name><name><surname>Mann</surname><given-names>M</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>A generic protein purification method for protein complex characterization and proteome exploration.</article-title>
+<source>Nat Biotechnol</source>
+<volume>17</volume>
+<fpage>1030</fpage>
+<lpage>1032</lpage>
+<pub-id pub-id-type="pmid">10504710</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Ball1">
+        <label>67</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ball</surname><given-names>CA</given-names></name><name><surname>Awad</surname><given-names>IA</given-names></name><name><surname>Demeter</surname><given-names>J</given-names></name><name><surname>Gollub</surname><given-names>J</given-names></name><name><surname>Hebert</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>The Stanford Microarray Database accommodates additional microarray platforms and data formats.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>33</volume>
+<fpage>D580</fpage>
+<lpage>582</lpage>
+<pub-id pub-id-type="pmid">15608265</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Alibes1">
+        <label>68</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Alibes</surname><given-names>A</given-names></name><name><surname>Yankilevich</surname><given-names>P</given-names></name><name><surname>Canada</surname><given-names>A</given-names></name><name><surname>Diaz-Uriarte</surname><given-names>R</given-names></name></person-group>
+<year>2007</year>
+<article-title>IDconverter and IDClight: conversion and annotation of gene and protein IDs.</article-title>
+<source>BMC Bioinformatics</source>
+<volume>8</volume>
+<fpage>9</fpage>
+<pub-id pub-id-type="pmid">17214880</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Durinck1">
+        <label>69</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Durinck</surname><given-names>S</given-names></name><name><surname>Moreau</surname><given-names>Y</given-names></name><name><surname>Kasprzyk</surname><given-names>A</given-names></name><name><surname>Davis</surname><given-names>S</given-names></name><name><surname>De Moor</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>BioMart and Bioconductor: a powerful link between biological databases and microarray data analysis.</article-title>
+<source>Bioinformatics</source>
+<volume>21</volume>
+<fpage>3439</fpage>
+<lpage>3440</lpage>
+<pub-id pub-id-type="pmid">16082012</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Birney1">
+        <label>70</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Birney</surname><given-names>E</given-names></name><name><surname>Andrews</surname><given-names>TD</given-names></name><name><surname>Bevan</surname><given-names>P</given-names></name><name><surname>Caccamo</surname><given-names>M</given-names></name><name><surname>Chen</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>An overview of Ensembl.</article-title>
+<source>Genome Res</source>
+<volume>14</volume>
+<fpage>925</fpage>
+<lpage>928</lpage>
+<pub-id pub-id-type="pmid">15078858</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Benson1">
+        <label>71</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Benson</surname><given-names>DA</given-names></name><name><surname>Karsch-Mizrachi</surname><given-names>I</given-names></name><name><surname>Lipman</surname><given-names>DJ</given-names></name><name><surname>Ostell</surname><given-names>J</given-names></name><name><surname>Wheeler</surname><given-names>DL</given-names></name></person-group>
+<year>2008</year>
+<article-title>GenBank.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>36</volume>
+<fpage>D25</fpage>
+<lpage>30</lpage>
+<pub-id pub-id-type="pmid">18073190</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-vanNimwegen1">
+        <label>72</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>van Nimwegen</surname><given-names>E</given-names></name><name><surname>Paul</surname><given-names>N</given-names></name><name><surname>Sheridan</surname><given-names>R</given-names></name><name><surname>Zavolan</surname><given-names>M</given-names></name></person-group>
+<year>2006</year>
+<article-title>SPA: a probabilistic algorithm for spliced alignment.</article-title>
+<source>PLoS Genet</source>
+<volume>2</volume>
+<fpage>e24</fpage>
+<pub-id pub-id-type="pmid">16683023</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Cheng1">
+        <label>73</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheng</surname><given-names>N</given-names></name><name><surname>Brantley</surname><given-names>DM</given-names></name><name><surname>Chen</surname><given-names>J</given-names></name></person-group>
+<year>2002</year>
+<article-title>The ephrins and Eph receptors in angiogenesis.</article-title>
+<source>Cytokine Growth Factor Rev</source>
+<volume>13</volume>
+<fpage>75</fpage>
+<lpage>85</lpage>
+<pub-id pub-id-type="pmid">11750881</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Chen1">
+        <label>74</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chen</surname><given-names>GJ</given-names></name><name><surname>Forough</surname><given-names>R</given-names></name></person-group>
+<year>2006</year>
+<article-title>Fibroblast growth factors, fibroblast growth factor receptors, diseases, and drugs.</article-title>
+<source>Recent Patents Cardiovasc Drug Discov</source>
+<volume>1</volume>
+<fpage>211</fpage>
+<lpage>224</lpage>
+</element-citation>
+      </ref>
+      <ref id="pone.0003164-Roskoski1">
+        <label>75</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roskoski</surname><given-names>R</given-names><suffix>Jr</suffix></name></person-group>
+<year>2007</year>
+<article-title>Vascular endothelial growth factor (VEGF) signaling in tumor progression.</article-title>
+<source>Crit Rev Oncol Hematol</source>
+<volume>62</volume>
+<fpage>179</fpage>
+<lpage>213</lpage>
+<pub-id pub-id-type="pmid">17324579</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Wasylyk1">
+        <label>76</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wasylyk</surname><given-names>B</given-names></name><name><surname>Hagman</surname><given-names>J</given-names></name><name><surname>Gutierrez-Hartmann</surname><given-names>A</given-names></name></person-group>
+<year>1998</year>
+<article-title>Ets transcription factors: nuclear effectors of the Ras-MAP-kinase signaling pathway.</article-title>
+<source>Trends Biochem Sci</source>
+<volume>23</volume>
+<fpage>213</fpage>
+<lpage>216</lpage>
+<pub-id pub-id-type="pmid">9644975</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Masckauchan1">
+        <label>77</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Masckauchan</surname><given-names>TN</given-names></name><name><surname>Agalliu</surname><given-names>D</given-names></name><name><surname>Vorontchikhina</surname><given-names>M</given-names></name><name><surname>Ahn</surname><given-names>A</given-names></name><name><surname>Parmalee</surname><given-names>NL</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Wnt5a signaling induces proliferation and survival of endothelial cells in vitro and expression of MMP-1 and Tie-2.</article-title>
+<source>Mol Biol Cell</source>
+<volume>17</volume>
+<fpage>5163</fpage>
+<lpage>5172</lpage>
+<pub-id pub-id-type="pmid">17035633</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Colicelli1">
+        <label>78</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Colicelli</surname><given-names>J</given-names></name></person-group>
+<year>2004</year>
+<article-title>Human RAS superfamily proteins and related GTPases.</article-title>
+<source>Sci STKE</source>
+<volume>2004</volume>
+<fpage>RE13</fpage>
+<pub-id pub-id-type="pmid">15367757</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Kraemer1">
+        <label>79</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kraemer</surname><given-names>A</given-names></name><name><surname>Goodwin</surname><given-names>M</given-names></name><name><surname>Verma</surname><given-names>S</given-names></name><name><surname>Yap</surname><given-names>AS</given-names></name><name><surname>Ali</surname><given-names>RG</given-names></name></person-group>
+<year>2007</year>
+<article-title>Rac is a dominant regulator of cadherin-directed actin assembly that is activated by adhesive ligation independently of Tiam1.</article-title>
+<source>Am J Physiol Cell Physiol</source>
+<volume>292</volume>
+<fpage>C1061</fpage>
+<lpage>1069</lpage>
+<pub-id pub-id-type="pmid">17020937</pub-id></element-citation>
+      </ref>
+      <ref id="pone.0003164-Coniglio1">
+        <label>80</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Coniglio</surname><given-names>SJ</given-names></name><name><surname>Zavarella</surname><given-names>S</given-names></name><name><surname>Symons</surname><given-names>MH</given-names></name></person-group>
+<year>2008</year>
+<article-title>Pak1 and Pak2 mediate tumor cell invasion through distinct signaling mechanisms.</article-title>
+<source>Mol Cell Biol</source>
+<volume>28</volume>
+<fpage>4162</fpage>
+<lpage>4172</lpage>
+<pub-id pub-id-type="pmid">18411304</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

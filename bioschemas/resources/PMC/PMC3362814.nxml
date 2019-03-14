@@ -1,0 +1,3947 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:44:27Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3362814" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3362814</identifier><datestamp>2012-06-04</datestamp><setSpec>advvirol</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="review-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Adv Virol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Adv Virol</journal-id>
+      <journal-id journal-id-type="publisher-id">AV</journal-id>
+      <journal-title-group>
+        <journal-title>Advances in Virology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1687-8639</issn>
+      <issn pub-type="epub">1687-8647</issn>
+      <publisher>
+        <publisher-name>Hindawi Publishing Corporation</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3362814</article-id>
+      <article-id pub-id-type="pmcid">PMC3362814</article-id>
+      <article-id pub-id-type="pmc-uid">3362814</article-id>
+      <article-id pub-id-type="pmid">22666250</article-id>
+      <article-id pub-id-type="pmid">22666250</article-id>
+      <article-id pub-id-type="doi">10.1155/2012/532723</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Review Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Budding of Enveloped Viruses: Interferon-Induced ISG15âAntivirus Mechanisms Targeting the Release Process</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Seo</surname>
+            <given-names>Eun Joo</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Leis</surname>
+            <given-names>Jonathan</given-names>
+          </name>
+          <xref ref-type="aff" rid="I1">
+</xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="I1">Department of Microbiology and Immunology, Northwestern University Feinberg School of Medicine, Ward 4-065, 303 E. Chicago Avenue, Chicago, IL 60611, USA</aff>
+      <author-notes>
+        <corresp id="cor1">*Jonathan Leis: <email>j-leis@northwestern.edu</email></corresp>
+        <fn fn-type="other">
+          <p>Academic Editor: Trudy Morrison</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>17</day>
+        <month>5</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>2012</volume>
+      <elocation-id>532723</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>23</day>
+          <month>1</month>
+          <year>2012</year>
+        </date>
+        <date date-type="accepted">
+          <day>12</day>
+          <month>3</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright Â© 2012 E. J. Seo and J. Leis.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xlink:href="https://creativecommons.org/licenses/by/3.0/">
+          <license-p>This is an open access article distributed under the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Pathogenic strains of viruses that infect humans are encapsulated in membranes derived from the host cell in which they infect. After replication, these viruses are released by a budding process that requires cell/viral membrane scission. As such, this represents a natural target for innate immunity mechanisms to interdict enveloped virus spread and recent advances in this field will be the subject of this paper.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>1. Budding of Retroviruses</title>
+      <p>Retroviruses, such as human immunodeficiency virus type 1 (HIV-1) and avian sarcoma/leukosis virus (ASLV), bud from cells using a similar mechanism (see <xref ref-type="fig" rid="fig1">Figure 1</xref>). Monoubiquitination of viral Gag polyproteins, catalyzed by an E1, E2, and E3 ubiquitin ligase complex, is important in the process where the ubiquitin most likely serves as a ligand for assembly of various protein budding complexes [<xref rid="B16" ref-type="bibr">1</xref>â<xref rid="B96" ref-type="bibr">5</xref>]. A recent study, however, has presented evidence that either ubiquitination of Gag or ubiquitination of transacting proteins can be used to assemble downstream virus-budding complexes [<xref rid="B112" ref-type="bibr">6</xref>]. Ubiquitin is a 76-amino-acid cell regulatory protein that is conjugated to proteins at lysine residues. Free ubiquitin in the cytosol is activated in an ATP-dependent reaction by an E1 enzyme, which then transfers the ubiquitin to a cysteine residue of an E2 ubiquitin-conjugating enzyme. The E2 protein interacts with a specific E3 ubiquitin ligase, which selects the target protein for the covalent transfer of the ubiquitin.</p>
+      <p>While the mechanisms of release of HIV-1 and ASLV are similar, there is evidence that these viruses traffic through different cell membranes in the process. This is based on the facts that ASLV passes through membranes containing rhodamine labeled phosphatidylethanolamine, which gets incorporated into released virus-like particles, while HIV-1 does not [<xref rid="B51" ref-type="bibr">7</xref>], the two viruses utilize different early ESCRT complexes as outlined hereinafter, and HIV-1 and ASLV Gag can colocalize with cholesterol-rich membranes, referred to as rafts. Nonetheless, when cholesterol is depleted from cells by treatment with methyl-<italic>Î²</italic>-cyclodextrin, release of HIV-1 Gag [<xref rid="B59" ref-type="bibr">8</xref>] but not ASLV Gag (Zhang and Leis, unpublished) virus-like particles is blocked.</p>
+      <p> Viral polyproteins enter the different budding pathways by recruiting specific host cell proteins, Nedd4, an E3 ubiquitin ligase, for ASLV [<xref rid="B35" ref-type="bibr">9</xref>], Tsg101, an inactive homologue of the E2 ubiquitin-conjugating enzyme, for HIV-1 [<xref rid="B98" ref-type="bibr">10</xref>], and AIP1 or Alix for both [<xref rid="B17" ref-type="bibr">11</xref>, <xref rid="B84" ref-type="bibr">12</xref>]. These proteins bind to small proline-rich sequences, referred to as L-domain. Nedd4 binds to the âPPPYâ core motif in the p2B region of ASLV Gag and Tsg101 binds to the âPTAPâ core motif in the p6 region of HIV-1 Gag [<xref rid="B24" ref-type="bibr">13</xref>â<xref rid="B108" ref-type="bibr">15</xref>]. AIP1 binds to a âLYP (X<sub><italic>n</italic></sub>)Lâ core motif in the same regions of p2B and p6, respectively, and where X is any amino acid and <italic>n</italic> is a number of residues [<xref rid="B17" ref-type="bibr">11</xref>, <xref rid="B84" ref-type="bibr">12</xref>]. EIAV uses the LYPXL sequence in the p9 region of Gag as a high affinity site to bind AIP1/ALIX [<xref rid="B70" ref-type="bibr">16</xref>]. The PPPY and PTAP L-domains are functionally exchangeable among viruses [<xref rid="B51" ref-type="bibr">7</xref>, <xref rid="B52" ref-type="bibr">17</xref>, <xref rid="B60" ref-type="bibr">18</xref>]. In the case of HIV-1, if the L-domain sequences in p6 are mutated, budding of the virus can be rescued by overexpression of a Nedd4-like ubiquitin ligase (Nedd4L or 2s) indicating that an alternative exit process was used, though the mechanism of rescue is not understood because of a lack of the PPPY motif in HIV-1 Gag [<xref rid="B11" ref-type="bibr">19</xref>â<xref rid="B102" ref-type="bibr">21</xref>]. Overexpression of AIP1/ALIX can also rescue the effects of PTAP mutations [<xref rid="B94" ref-type="bibr">20</xref>]. In some cases, viruses such as Moloney murine leukemia virus, Mason Pfizer monkey virus, and HTLV-I have both PTAP and PPPY motifs in Gag suggesting that they may use both egress pathways [<xref rid="B6" ref-type="bibr">22</xref>, <xref rid="B25" ref-type="bibr">23</xref>]. However, when two L-domains are present, one appears to be dominant [<xref rid="B6" ref-type="bibr">22</xref>].</p>
+      <p> Tsg101 is known to be involved in membrane vesicle biogenesis and cytokinesis [<xref rid="B7" ref-type="bibr">24</xref>, <xref rid="B100" ref-type="bibr">25</xref>]. It forms part of the cellular endosomal sorting complex required for transport (ESCRT), which contains at least 20 proteins that assemble into several complexes referred to as ESCRT-0, -I, -II, and -III [<xref rid="B4" ref-type="bibr">26</xref>]. HIV-1 specifically uses ESCRT-I but not ESCRT-II while ASLV utilizes ESCRT-II but not ESCRT-I proteins to assemble early budding complexes [<xref rid="B20" ref-type="bibr">27</xref>â<xref rid="B66" ref-type="bibr">29</xref>]. AIP1 is an adaptor protein for both. The early budding complexes then recruit the same ESCRT-III protein complex, which is responsible for the mechanical deformation that causes membrane scission to release particles [<xref rid="B41" ref-type="bibr">30</xref>]. The ESCRT-III complex contains 11 different charged multivesicular body proteins (CHMPs) [<xref rid="B53" ref-type="bibr">31</xref>]. Several of these contain MIT-interaction motifs (MIMs), which are the binding site for the vacuolar protein sorting protein 4 (VPS4) through interaction with a microtubule-interacting and transport domain (MIT) [<xref rid="B78" ref-type="bibr">32</xref>, <xref rid="B91" ref-type="bibr">33</xref>]. There are two types of MIM domains known; MIM1 is found in CHMP1A, 1B, 2A, and 2B and MIM2 is found in CHMP4A-C and CHMP6 [<xref rid="B34" ref-type="bibr">34</xref>, <xref rid="B86" ref-type="bibr">35</xref>]. VPS4 is normally localized in the cytosol as a homodimer. When recruited to the membrane, it forms a double hexamer ring structure in the presence of a coactivator protein, called LIP5 [<xref rid="B78" ref-type="bibr">32</xref>, <xref rid="B101" ref-type="bibr">36</xref>]. This conformational change activates its AAA ATPase. When ATP is hydrolyzed, VPS4 and the ESCRT-III complex are disassembled into the cytosol, promoting complex turnover which increases the efficiency of the budding process. A point mutation, E228Q, which inactivates the ATPase, produces a VPS4 protein that acts as a dominant negative inhibitor to virus release [<xref rid="B51" ref-type="bibr">7</xref>, <xref rid="B25" ref-type="bibr">23</xref>, <xref rid="B20" ref-type="bibr">27</xref>]. LIP5 is delivered to membranes and VPS4 by binding to several ESCRT-III proteins including CHMP1B, 2A, 3, and 5 [<xref rid="B80" ref-type="bibr">37</xref>]. CHMP5 differs from the other ESCRT-III proteins in that its LIP5 binding site is unique and it does not directly interact with VPS4 [<xref rid="B3" ref-type="bibr">38</xref>].</p>
+    </sec>
+    <sec id="sec2">
+      <title>2. Other Viruses Use an ESCRT-Dependent Budding Process</title>
+      <p> Many other enveloped viruses have the same requirements for membrane scission to release particles and employ similar mechanisms to those used by retroviruses to drive the release process. These include arena- [<xref rid="B64" ref-type="bibr">39</xref>, <xref rid="B92" ref-type="bibr">40</xref>], filo- [<xref rid="B49" ref-type="bibr">2</xref>, <xref rid="B93" ref-type="bibr">41</xref>, <xref rid="B29" ref-type="bibr">48</xref>â<xref rid="B90" ref-type="bibr">51</xref>], flavi- [<xref rid="B2" ref-type="bibr">52</xref>, <xref rid="B12" ref-type="bibr">53</xref>], hepadna- [<xref rid="B39" ref-type="bibr">42</xref>], herpes- [<xref rid="B13" ref-type="bibr">43</xref>, <xref rid="B63" ref-type="bibr">54</xref>], rhabdoviruses [<xref rid="B32" ref-type="bibr">46</xref>, <xref rid="B104" ref-type="bibr">47</xref>, <xref rid="B89" ref-type="bibr">55</xref>], and some paramyxoviruses [<xref rid="B77" ref-type="bibr">44</xref>, <xref rid="B46" ref-type="bibr">45</xref>, <xref rid="B76" ref-type="bibr">56</xref>]. Each virus contains L-domain sequences in their structural proteins and the release process is dependent upon the ESCRT-III/VPS4 ATPase complex. This was demonstrated experimentally by either directly mutating L-domain sequences within the viral proteins or by dominant negative interference caused by exogenous expression of the VPS4 (E228Q) mutant. While many of the L-domain sequences have been identified (see <xref ref-type="table" rid="tab1">Table 1</xref>), some have not. For example, even though budding of the flavivirus HCV is dependent upon the ESCRT-III/VPS4 complex, the L-domain sequences involved are not known [<xref rid="B2" ref-type="bibr">52</xref>, <xref rid="B12" ref-type="bibr">53</xref>]. Among herpesvirus proteins, there are multiple candidates for possible L-domain sequences. Which is used is not clear. However, there is evidence that the budding process is independent of Tsg101 suggesting that this virus uses a PPPY-dependent pathway [<xref rid="B63" ref-type="bibr">54</xref>]. L-domains different from those used by retroviruses include the FPIV core sequence in the paramyxoviruses SV5 and mumps (MuV) [<xref rid="B77" ref-type="bibr">44</xref>, <xref rid="B46" ref-type="bibr">45</xref>], though the mechanism of the release is not understand.</p>
+    </sec>
+    <sec id="sec3">
+      <title>3. ESCRT-Independent Release</title>
+      <p> While paramyxoviruses such as mumps and SV5 use an ESCRT-dependent pathway for release [<xref rid="B77" ref-type="bibr">44</xref>, <xref rid="B46" ref-type="bibr">45</xref>], there are reports that measles and respiratory syncytial virus use an as yet unknown ESCRT-independent pathway for budding [<xref rid="B75" ref-type="bibr">57</xref>, <xref rid="B95" ref-type="bibr">58</xref>]. There is also a report that human cytomegalovirus uses an ESCRT-independent release mechanism [<xref rid="B19" ref-type="bibr">59</xref>], based solely on siRNA suppression data. However, a subsequent report demonstrated that release of CMV was blocked by a dominant negative mutant of VPS4 but not wild type VPS4 arguing that the virus does use the ESCRT-dependent mechanism [<xref rid="B88" ref-type="bibr">60</xref>]. Similarly, there is a report that rhabdoviruses use a VPS4-independent release pathway [<xref rid="B31" ref-type="bibr">61</xref>] and a subsequent publication demonstrating that budding was also VPS4 dependent [<xref rid="B89" ref-type="bibr">55</xref>].</p>
+      <p> Some strains of influenza virus have evolved a completely different mechanism for cell release that employs the virus matrix protein (M), haemagglutinin, and neuraminidase (the latter being two major glycoproteins of the virus) [<xref rid="B9" ref-type="bibr">62</xref>â<xref rid="B109" ref-type="bibr">66</xref>]. Virus budding is initiated by haemagglutinin and neuraminidase association with the viral M1 protein at lipid rafts inside of the cell. M1 then recruits the M2 ion channel protein to catalyze the scission from the cell membrane leading to budding. A mutation introduced into an amphipathic helix of M2 results in a protein incapable of membrane scission blocking virus release. The neuraminidase facilitates the release of VLPs by cleaving the terminal sialic acid from cell membrane glycan [<xref rid="B40" ref-type="bibr">63</xref>, <xref rid="B109" ref-type="bibr">66</xref>].</p>
+    </sec>
+    <sec id="sec4">
+      <title>4. Interferon Regulation of the ESCRT-Dependent Virus Budding</title>
+      <p> To control virus infections, host cells have evolved many different antiviral immune mechanisms as well as mechanisms that target viral replication directly [<xref rid="B23" ref-type="bibr">67</xref>, <xref rid="B27" ref-type="bibr">68</xref>]. Some of the latter are based on synthesis of enzymes or restriction factors, such as APOBEC3, TRIM5, and tetherin that interfere with virus replication functions [<xref rid="B56" ref-type="bibr">69</xref>, <xref rid="B106" ref-type="bibr">70</xref>]. APOBEC3 is a cytosine deaminase that catalyzes the conversion of cytosine to uricil and ammonia [<xref rid="B18" ref-type="bibr">71</xref>]. TRIM5 is a ring finger E3 ubiquitin ligase protein that mediates an early block to retrovirus infection by interfering with virus uncoating [<xref rid="B79" ref-type="bibr">72</xref>, <xref rid="B85" ref-type="bibr">73</xref>]. Tetherin (CD317 or BST2) is an interferon-induced protein that blocks release of envelope viruses including Lassa and Marburg [<xref rid="B74" ref-type="bibr">74</xref>] and HIV-1 [<xref rid="B55" ref-type="bibr">75</xref>, <xref rid="B97" ref-type="bibr">76</xref>] by preventing diffusion of virus particles after budding. It also blocks cell-to-cell transfer of virus [<xref rid="B38" ref-type="bibr">77</xref>]. While the mechanism of how tetherin works is not fully understood, its association with membranes from which viruses bud and its propensity to dimerize suggests that it might act as a nonspecific protein-based tether to fix particles to the membranes.</p>
+      <p>Many of the cellular antiviral mechanisms are initiated by induction of interferon (IFN). There are three groups of IFNs (types I, II, and III), classified by the IFN receptor complex to which they bind. It is the type I IFNs which primarily regulate the antiviral response. For instance, recombinant forms of type I IFNs demonstrate therapeutic potential for the treatment of chronic hepatitis B and C infections [<xref rid="B14" ref-type="bibr">78</xref>]. Some of the known interferon-induced genes include PKR/2â²5â² oligoadenylate synthetase, interferon-stimulated gene 15 (ISG15), tetherin, and MxA [<xref rid="B28" ref-type="bibr">79</xref>].</p>
+      <p>ISG15 is one of the more abundant proteins induced by interferon expression which is associated with antiviral effects [<xref rid="B5" ref-type="bibr">80</xref>â<xref rid="B116" ref-type="bibr">88</xref>]. It has a molecular mass of about 15âkDa and is a covalent dimer homologue of ubiquitin [<xref rid="B8" ref-type="bibr">89</xref>, <xref rid="B54" ref-type="bibr">90</xref>]. It can be conjugated to several hundred different proteins in cells [<xref rid="B44" ref-type="bibr">91</xref>â<xref rid="B115" ref-type="bibr">93</xref>] catalyzed by an interferon-induced ISG15 E1 (Ube1L) [<xref rid="B22" ref-type="bibr">94</xref>, <xref rid="B110" ref-type="bibr">95</xref>], E2 (UbcH8) [<xref rid="B36" ref-type="bibr">96</xref>, <xref rid="B113" ref-type="bibr">97</xref>], and E3 (Herc5) [<xref rid="B15" ref-type="bibr">98</xref>, <xref rid="B107" ref-type="bibr">99</xref>] ligase complex. The targets are largely abundant constitutively expressed proteins involved in diverse cellular functions, with the exception of around 15 proteins which are themselves interferon induced [<xref rid="B114" ref-type="bibr">92</xref>, <xref rid="B107" ref-type="bibr">99</xref>, <xref rid="B21" ref-type="bibr">100</xref>]. A common sequence that serves as an ISG15 covalent attachment site has not been identified. For recent reviews of ISG15, see [<xref rid="B83" ref-type="bibr">87</xref>, <xref rid="B10" ref-type="bibr">101</xref>, <xref rid="B69" ref-type="bibr">102</xref>]. Retrovirus release from cells is blocked by interferon treatment or exogenous expression of ISG15 in cells [<xref rid="B58" ref-type="bibr">49</xref>, <xref rid="B37" ref-type="bibr">83</xref>, <xref rid="B67" ref-type="bibr">84</xref>, <xref rid="B57" ref-type="bibr">103</xref>, <xref rid="B68" ref-type="bibr">104</xref>]. Also, ISG15 is conjugated to the influenza A virus NS1A protein to block its replication [<xref rid="B115" ref-type="bibr">93</xref>]. ISG15 knockout (ISG15<sup>â/â</sup>) mice show increased susceptibility to influenza, herpes, chikungunya (alphavirus), and sindbis virus infections as measured by decreased survival rates compared to wild type mice [<xref rid="B43" ref-type="bibr">105</xref>, <xref rid="B103" ref-type="bibr">106</xref>]. In addition, expression of a conjugation-deficient form of ISG15 fails to protect ISG15<sup>â/â</sup> mice from sindbis infection [<xref rid="B22" ref-type="bibr">94</xref>, <xref rid="B43" ref-type="bibr">105</xref>, <xref rid="B42" ref-type="bibr">107</xref>].</p>
+    </sec>
+    <sec id="sec5">
+      <title>5. Mechanism of Inhibition of Enveloped Virus Budding by ISG15 Expression in Cells</title>
+      <sec sec-type="subsection" id="sec5.1">
+        <title>5.1. Blockage to Early Virus-Budding Events</title>
+        <p>When ISG15 is expressed in cells, there is a block early in the virus-budding process that appears to be virus specific. For example, for HIV-1 infections, ISG15 expression prevents the L-domain in the p6 region of HIV-1 Gag from recruiting Tsg101 [<xref rid="B57" ref-type="bibr">103</xref>]. While Tsg101 and Gag are not ISGylated, the E2 ubiquitin-conjugating enzyme is [<xref rid="B57" ref-type="bibr">103</xref>]. In contrast, for Ebola and other enveloped viruses, ISG15 expression inhibits the Nedd4 E3 ubiquitin ligase by binding to the E3 subunit thereby averting its interaction with the E2 ubiquitin-conjugating enzyme. This prevents ubiquitination of viral proteins required for the release process [<xref rid="B58" ref-type="bibr">49</xref>, <xref rid="B114" ref-type="bibr">92</xref>, <xref rid="B47" ref-type="bibr">108</xref>]. Mice lacking Ube1L are as susceptible to Chickungunya virus infections as wild type mice indicating that ISG15 conjugation to protein is not involved [<xref rid="B103" ref-type="bibr">106</xref>].</p>
+      </sec>
+      <sec sec-type="subsection" id="sec5.2">
+        <title>5.2. Blockage to Late Virus-Budding Events</title>
+        <p>Disruption of the late release process represents a more general antiviral mechanism which requires conjugation of ISG15 to several ESCRT-III proteins (see <xref ref-type="fig" rid="fig2">Figure 2</xref>). The initial target for ISGylation is the ESCRT-III-associated LIP5 binding protein, CHMP5 [<xref rid="B67" ref-type="bibr">84</xref>]. This protein is not ISGylated when a GG to AA mutant of ISG15, which cannot be conjugated to protein, is expressed in cells [<xref rid="B37" ref-type="bibr">83</xref>]. When CHMP5 is ISGylated, it no longer binds LIP5 and VPS4 is released from and/or not recruited to the budding complex in the membrane resulting in a budding defect [<xref rid="B67" ref-type="bibr">84</xref>]. CHMP5 like VPS4 is a cytoplasmic protein, which is recruited to the viral budding complex by interaction with several ESCRT-III proteins [<xref rid="B34" ref-type="bibr">34</xref>, <xref rid="B44" ref-type="bibr">91</xref>]. When CHMP5 becomes ISGylated, it accumulates in the membrane fraction [<xref rid="B37" ref-type="bibr">83</xref>, <xref rid="B67" ref-type="bibr">84</xref>]. ISG15 is also conjugated to CHMP2A, another ESCRT-III protein that binds LIP5. Like CHMP5, ISGylation of CHMP2A prevents its binding to LIP5. In contrast, the binding of LIP5 to CHMP3 was not affected under these same conditions. Because ISGylation of CHMP5 and CHMP2A correlates with the release of VPS4 from the budding complex, it suggests that CHMP5 and CHMP2A but not CHMP3 are the primary physiological delivery systems of LIP5 to VPS4.</p>
+        <p> In addition to compromising its ability to bind LIP5, CHMP2A-ISG15 shows significant decreases in binding to VPS4. In contrast, changes in CHMP1B-VPS4 and CHMP3-VPS4 interactions were not detected [<xref rid="B37" ref-type="bibr">83</xref>, <xref rid="B67" ref-type="bibr">84</xref>]. ISG15 is also conjugated to two other ESCRT-III proteins, which do not bind LIP5, CHMP4B, and CHMP6 [<xref rid="B37" ref-type="bibr">83</xref>]. Both of these proteins bind to VPS4 [<xref rid="B34" ref-type="bibr">34</xref>], and when ISGylated, their binding to this protein is weakened [<xref rid="B37" ref-type="bibr">83</xref>]. Thus the release of VPS4 into the cytosol is caused by the sum of ISGylation of several ESCRT-III proteins along with the lack of available LIP5 to form the stable VPS4/LIP5 double-hexamer-ring structure in the membrane. ISGylation of CHMP5 is pivotal to initiate the general antiviral mechanism because removal of CHMP5 from cells using specific but not nonspecific siRNAs prevents ISG15 from inhibiting virus release. In addition, ISGylation of the other ESCRT-III proteins including CHMP2A and CHMP6 is dependent upon prior ISGylation of CHMP5 [<xref rid="B37" ref-type="bibr">83</xref>].</p>
+        <p> ISG15 can be induced in cell culture by treatment with interferon or by introduction of the ISG15 expression system. For example, release of ASLV from DF-1 cells was blocked to the same extent by either treatment [<xref rid="B37" ref-type="bibr">83</xref>]. If CHMP5 expression was significantly lowered in these cells by using specific targeting siRNAs, the inhibition of virus release caused by either treatment was only partially restored. This is not surprising because ISG15 expression acts to inhibit both early steps not dependent upon CHMP5 as well as late steps dependent upon CHMP5. Based upon the degree of rescue, it was estimated that about half of the inhibition to release of ASLV was caused by blocking CHMP5-indpendent early steps and half by blocking the late CHMP-dependent steps in the budding process [<xref rid="B37" ref-type="bibr">83</xref>]. The finding that many different ESCRT-III proteins are ISGylated and that this results in changes in the binding properties of each protein to LIP5 or VPS4 strongly suggests that interferon-induced expression of ISG15 will shut down normal cellular endocytosis and MVB biogenesis.</p>
+      </sec>
+    </sec>
+    <sec id="sec6">
+      <title>6. Virus Defense Mechanisms</title>
+      <p> Ubiquitin metabolism is very important both to the spread of enveloped virus infections and for bypassing host restrictions. As mentioned previously, monoubiquitination of viral structural proteins or transacting proteins is important for recruitment of the ESCRT complexes responsible for membrane scission leading to budding. In contrast, polyubiquitination is used by viruses to remove host restriction factors. For HIV-1, the action of tetherin is downregulated by expression of the Vpu protein, which targets this protein for degradation via a <italic>Î²</italic>-TrCP2-dependent pathway [<xref rid="B48" ref-type="bibr">109</xref>]. On the other hand, release of the human herpesvirus Kaposi's sarcoma-associated herpesvirus (HHV8) is also blocked by tetherin expression. In this case, it is counteracted by expression of an E3 ubiquitin ligase, K5, which catalyzes the polyubiquitination of tetherin leading to its degradation [<xref rid="B61" ref-type="bibr">110</xref>]. When APOBEC3 interacts with the HIV-1 viral infectivity factor (Vif), it also becomes polyubiquitinated and is degraded by the ubiqutin-dependent proteasome system [<xref rid="B18" ref-type="bibr">71</xref>].</p>
+      <p> Several enveloped viruses encode proteins that target the ISGylation pathway directly in order to propagate [<xref rid="B33" ref-type="bibr">82</xref>]. For example, the NS1 protein of influenza B virus prevents the interaction of ISG15 with Ube1L to inhibit ISGylation [<xref rid="B110" ref-type="bibr">95</xref>, <xref rid="B99" ref-type="bibr">111</xref>, <xref rid="B111" ref-type="bibr">112</xref>]. A crystal structure of human ISG15 in complex with an N-terminal fragment of NS1B has been solved [<xref rid="B45" ref-type="bibr">113</xref>]. One can speculate that these results suggest that some strains of the flu virus either now or in the past utilized an ESCRT-dependent pathway for release. Other examples include nairoviruses and arteriviruses, which encode ovarian tumor domain-containing deubiquitinating enzymes that remove ISG15 from substrates [<xref rid="B30" ref-type="bibr">81</xref>, <xref rid="B1" ref-type="bibr">114</xref>, <xref rid="B87" ref-type="bibr">115</xref>]. A vaccinia virus E3 protein also prevents the antiviral action of ISG15 [<xref rid="B26" ref-type="bibr">116</xref>].</p>
+    </sec>
+    <sec id="sec7">
+      <title>7. Clinical Perspectives</title>
+      <p> The mechanism for blocking release of retroviruses from cell membranes has broad implications for many enveloped virus infections. If drugs can be identified that prevent viruses from recruiting ESCRT proteins to budding complexes, we would have compounds that would act to slow down the spread of many pathogenic enveloped viruses giving the immune system time to clear the infection. Such drugs would complement natural immune mechanisms that target virus budding. This could be a clinical game changer world-wide for treatment of viral infections and associated diseases in humans.</p>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <title>Acknowledgments</title>
+      <p>The authors wish to thank Drs. Carol Carter and Eva Gottwein for critically reading this paper.</p>
+    </ack>
+    <ref-list>
+      <ref id="B16">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Demirov</surname>
+              <given-names>DG</given-names>
+            </name>
+            <name>
+              <surname>Freed</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Retrovirus budding</article-title>
+          <source>
+            <italic>Virus Research</italic>
+          </source>
+          <year>2004</year>
+          <volume>106</volume>
+          <issue>2</issue>
+          <fpage>87</fpage>
+          <lpage>102</lpage>
+          <pub-id pub-id-type="pmid">15567490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B49">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin-Serrano</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Zang</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>PD</given-names>
+            </name>
+          </person-group>
+          <article-title>HIV-1 and Ebola virus encode small peptide motifs that recruit Tsg101 to sites of particle assembly to facilitate egress</article-title>
+          <source>
+            <italic>Nature Medicine</italic>
+          </source>
+          <year>2001</year>
+          <volume>7</volume>
+          <issue>12</issue>
+          <fpage>1313</fpage>
+          <lpage>1319</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B50">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Martin-Serrano</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The role of ubiquitin in retroviral egress</article-title>
+          <source>
+            <italic>Traffic</italic>
+          </source>
+          <year>2007</year>
+          <volume>8</volume>
+          <issue>10</issue>
+          <fpage>1297</fpage>
+          <lpage>1303</lpage>
+          <pub-id pub-id-type="pmid">17645437</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B62">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Patnaik</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chau</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Wills</surname>
+              <given-names>JW</given-names>
+            </name>
+          </person-group>
+          <article-title>Ubiquitin is part of the retrovirus budding machinery</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2000</year>
+          <volume>97</volume>
+          <issue>24</issue>
+          <fpage>13069</fpage>
+          <lpage>13074</lpage>
+          <pub-id pub-id-type="pmid">11087861</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B96">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vana</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Medina</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Role of Nedd4 and ubiquitination of rous sarcoma virus Gag in budding of virus-like particles from cells</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2004</year>
+          <volume>78</volume>
+          <issue>24</issue>
+          <fpage>13943</fpage>
+          <lpage>13953</lpage>
+          <pub-id pub-id-type="pmid">15564502</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B112">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhadina</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>PD</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional interchangeability of late domains, late domain cofactors and ubiquitin in viral budding</article-title>
+          <source>
+            <italic>Plos Pathogens</italic>
+          </source>
+          <year>2010</year>
+          <volume>6</volume>
+          <issue>10</issue>
+          <comment>Article ID e1001153.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B51">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Medina</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Tang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The functionally exchangeable L domains in RSV and HIV-1 Gag direct particle release through pathways linked by Tsg101</article-title>
+          <source>
+            <italic>Traffic</italic>
+          </source>
+          <year>2005</year>
+          <volume>6</volume>
+          <issue>10</issue>
+          <fpage>880</fpage>
+          <lpage>894</lpage>
+          <pub-id pub-id-type="pmid">16138902</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B59">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ono</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Freed</surname>
+              <given-names>EO</given-names>
+            </name>
+          </person-group>
+          <article-title>Plasma membrane rafts play a critical role in HIV-1 assembly and release</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2001</year>
+          <volume>98</volume>
+          <issue>24</issue>
+          <fpage>13925</fpage>
+          <lpage>13930</lpage>
+          <pub-id pub-id-type="pmid">11717449</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B35">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kikonyogo</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Bouamr</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Vana</surname>
+              <given-names>ML</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Proteins related to the Nedd4 family of ubiquitin protein ligases interact with the L domain of Rous sarcoma virus and are required for gag budding from cells</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2001</year>
+          <volume>98</volume>
+          <issue>20</issue>
+          <fpage>11199</fpage>
+          <lpage>11204</lpage>
+          <pub-id pub-id-type="pmid">11562473</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B98">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>VerPlank</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Agresta</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Grassa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kikonyogo</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Tsg101, the prototype of a class of dominant-negative ubiquitin regulators, binds human immunodeficiency virus type 1 Pr55Gag: the L domain is a determining of binding</article-title>
+          <source>
+            <italic>Proceedings National Academy Science USA</italic>
+          </source>
+          <year>2001</year>
+          <volume>98</volume>
+          <fpage>7724</fpage>
+          <lpage>7729</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B17">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dilley</surname>
+              <given-names>KA</given-names>
+            </name>
+            <name>
+              <surname>Gregory</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Vogt</surname>
+              <given-names>VM</given-names>
+            </name>
+          </person-group>
+          <article-title>An LYPSL late domain in the Gag protein contributes to the efficient release and replication of Rous sarcoma virus</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>84</volume>
+          <issue>13</issue>
+          <fpage>6276</fpage>
+          <lpage>6287</lpage>
+          <pub-id pub-id-type="pmid">20392845</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B84">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Strack</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Calistri</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Craig</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Popova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>GÃ¶ttlinger</surname>
+              <given-names>HG</given-names>
+            </name>
+          </person-group>
+          <article-title>AIP1/ALIX is a binding partner for HIV-1 p6 and EIAV p9 functioning in virus budding</article-title>
+          <source>
+            <italic>Cell</italic>
+          </source>
+          <year>2003</year>
+          <volume>114</volume>
+          <issue>6</issue>
+          <fpage>689</fpage>
+          <lpage>699</lpage>
+          <pub-id pub-id-type="pmid">14505569</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B24">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gottlinger</surname>
+              <given-names>HG</given-names>
+            </name>
+            <name>
+              <surname>Dorfman</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sodroski</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Haseltine</surname>
+              <given-names>WA</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of mutations affecting the p6 gag protein on human immunodeficiency virus particle release</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>1991</year>
+          <volume>88</volume>
+          <issue>8</issue>
+          <fpage>3195</fpage>
+          <lpage>3199</lpage>
+          <pub-id pub-id-type="pmid">2014240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B105">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wills</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Cameron</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>CB</given-names>
+            </name>
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Bennett</surname>
+              <given-names>RP</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>An assembly domain of the Rous sarcoma virus Gag protein required late in budding</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>1994</year>
+          <volume>68</volume>
+          <issue>10</issue>
+          <fpage>6605</fpage>
+          <lpage>6618</lpage>
+          <pub-id pub-id-type="pmid">8083996</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B108">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xiang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Cameron</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Wills</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Fine mapping and characterization of the Rous sarcoma virus Pr76<sup>gag</sup>late assembly domain</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>1996</year>
+          <volume>70</volume>
+          <issue>8</issue>
+          <fpage>5695</fpage>
+          <lpage>5700</lpage>
+          <pub-id pub-id-type="pmid">8764091</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B70">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Puffer</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Parent</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <name>
+              <surname>Wills</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Montelaro</surname>
+              <given-names>RC</given-names>
+            </name>
+          </person-group>
+          <article-title>Equine infectious anemia virus utilizes a YXXL motif within the late assembly domain of the Gag p9 protein</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>1997</year>
+          <volume>71</volume>
+          <issue>9</issue>
+          <fpage>6541</fpage>
+          <lpage>6546</lpage>
+          <pub-id pub-id-type="pmid">9261374</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B52">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Medina</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Pincetic</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Ehrlich</surname>
+              <given-names>LS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tsg101 can replace Nedd4 function in ASV Gag release but not membrane targeting</article-title>
+          <source>
+            <italic>Virology</italic>
+          </source>
+          <year>2008</year>
+          <volume>377</volume>
+          <issue>1</issue>
+          <fpage>30</fpage>
+          <lpage>38</lpage>
+          <pub-id pub-id-type="pmid">18555885</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B60">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ott</surname>
+              <given-names>DE</given-names>
+            </name>
+            <name>
+              <surname>Coren</surname>
+              <given-names>LV</given-names>
+            </name>
+            <name>
+              <surname>Sowder</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Schubert</surname>
+              <given-names>U</given-names>
+            </name>
+          </person-group>
+          <article-title>Retroviruses have differing requirements for proteasome function in the budding process</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2003</year>
+          <volume>77</volume>
+          <issue>6</issue>
+          <fpage>3384</fpage>
+          <lpage>3393</lpage>
+          <pub-id pub-id-type="pmid">12610113</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B11">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chung</surname>
+              <given-names>H-Y</given-names>
+            </name>
+            <name>
+              <surname>Moirta</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Schwedler</surname>
+              <given-names>U</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Nedd4L overexpression rescues the release and infectivity of human immunodeficiency virus type 1 constructs lacking PTAP and YPXL late domains</article-title>
+          <source>
+            <italic>Journal Virology</italic>
+          </source>
+          <year>2008</year>
+          <volume>82</volume>
+          <issue>10</issue>
+          <fpage>4884</fpage>
+          <lpage>4897</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B94">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Usami</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Popov</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Popova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>GÃ¶ttlinger</surname>
+              <given-names>HG</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient and specific rescue of human immunodeficiency virus type 1 budding defects by a Nedd4-like ubiquitin ligase</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2008</year>
+          <volume>82</volume>
+          <issue>10</issue>
+          <fpage>4898</fpage>
+          <lpage>4907</lpage>
+          <pub-id pub-id-type="pmid">18321969</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B102">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weiss</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Popova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Yamanaka</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Huibregtse</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Gottlinger</surname>
+              <given-names>H</given-names>
+            </name>
+          </person-group>
+          <article-title>Rescue of HIV-1 release by targeting widely divergent Nedd4-type ubiquitin ligases and isolated catalytic hect domains to Gag</article-title>
+          <source>
+            <italic>Plos Pathogens</italic>
+          </source>
+          <year>2010</year>
+          <volume>6</volume>
+          <fpage>13 pages</fpage>
+          <comment>Article ID e1001107.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B6">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bouamr</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Melillo</surname>
+              <given-names>JA</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>MQ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PPPYEPTAP motif is the late domain of human T-Cell leukemia virus Type 1 Gag and mediates its functional interaction with cellular proteins Nedd4 and Tsg101</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2003</year>
+          <volume>77</volume>
+          <issue>22</issue>
+          <fpage>11882</fpage>
+          <lpage>11895</lpage>
+          <pub-id pub-id-type="pmid">14581525</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B25">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gottwein</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Bodem</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>MÃ¼ller</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Schmechel</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Zentgraf</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>KrÃ¤usslich</surname>
+              <given-names>HG</given-names>
+            </name>
+          </person-group>
+          <article-title>The Mason-Pfizer monkey virus PPPY and PSAP motifs both contribute to virus release</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2003</year>
+          <volume>77</volume>
+          <issue>17</issue>
+          <fpage>9474</fpage>
+          <lpage>9485</lpage>
+          <pub-id pub-id-type="pmid">12915562</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B7">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carlton</surname>
+              <given-names>JG</given-names>
+            </name>
+            <name>
+              <surname>Martin-Serrano</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Parallels between cytokinesis and retroviral budding: a role for the budding: a role for the ESCRT</article-title>
+          <source>
+            <italic>Science</italic>
+          </source>
+          <year>2007</year>
+          <volume>316</volume>
+          <issue>5833</issue>
+          <fpage>1908</fpage>
+          <lpage>1912</lpage>
+          <pub-id pub-id-type="pmid">17556548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B100">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>von Schwedler</surname>
+              <given-names>UK</given-names>
+            </name>
+            <name>
+              <surname>Stuchell</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Muller</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The protein network of HIV budding</article-title>
+          <source>
+            <italic>Cell</italic>
+          </source>
+          <year>2003</year>
+          <volume>114</volume>
+          <fpage>701</fpage>
+          <lpage>713</lpage>
+          <pub-id pub-id-type="pmid">14505570</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B4">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Babst</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>A proteinâs final ESCRT</article-title>
+          <source>
+            <italic>Traffic</italic>
+          </source>
+          <year>2005</year>
+          <volume>6</volume>
+          <issue>1</issue>
+          <fpage>2</fpage>
+          <lpage>9</lpage>
+          <pub-id pub-id-type="pmid">15569240</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B20">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Garrus</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>von Schwedler</surname>
+              <given-names>UK</given-names>
+            </name>
+            <name>
+              <surname>Pornillos</surname>
+              <given-names>OW</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Tsg101 and the vacuolar protein sorting pathway are essential for HIV-1 budding</article-title>
+          <source>
+            <italic>Cell</italic>
+          </source>
+          <year>2001</year>
+          <volume>107</volume>
+          <issue>1</issue>
+          <fpage>55</fpage>
+          <lpage>65</lpage>
+          <pub-id pub-id-type="pmid">11595185</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B65">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pincetic</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Medina</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Carter</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Avian sarcoma virus and human immunodeficiency virus, type 1 use different subsets of ESCRT proteins to facilitate the budding process</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2008</year>
+          <volume>283</volume>
+          <issue>44</issue>
+          <fpage>29822</fpage>
+          <lpage>29830</lpage>
+          <pub-id pub-id-type="pmid">18723511</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B66">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pincetic</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The mechanism of budding of retroviruses from cell membranes</article-title>
+          <source>
+            <italic>Advances in Virology</italic>
+          </source>
+          <year>2009</year>
+          <volume>2009</volume>
+          <fpage>9 pages</fpage>
+          <comment>Article ID 623969.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B41">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lata</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Schoehn</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Solomons</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Pires</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>GÃ¶ttlinger</surname>
+              <given-names>HG</given-names>
+            </name>
+            <name>
+              <surname>Weissenhorn</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure and function of ESCRT-III</article-title>
+          <source>
+            <italic>Biochemical Society Transactions</italic>
+          </source>
+          <year>2009</year>
+          <volume>37</volume>
+          <issue>1</issue>
+          <fpage>156</fpage>
+          <lpage>160</lpage>
+          <pub-id pub-id-type="pmid">19143622</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B53">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Morita</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Sandrin</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>McCullough</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Katsuyama</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Baci Hamilton</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Sundquist</surname>
+              <given-names>WI</given-names>
+            </name>
+          </person-group>
+          <article-title>ESCRT-III protein requirements for HIV-1 budding</article-title>
+          <source>
+            <italic>Cell Host and Microbe</italic>
+          </source>
+          <year>2011</year>
+          <volume>9</volume>
+          <issue>3</issue>
+          <fpage>235</fpage>
+          <lpage>242</lpage>
+          <pub-id pub-id-type="pmid">21396898</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B78">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Scott</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>HY</given-names>
+            </name>
+            <name>
+              <surname>Gonciarz-Swiatek</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural and mechanistic studies of VPS4 proteins</article-title>
+          <source>
+            <italic>The EMBO Journal</italic>
+          </source>
+          <year>2005</year>
+          <volume>24</volume>
+          <issue>20</issue>
+          <fpage>3658</fpage>
+          <lpage>3669</lpage>
+          <pub-id pub-id-type="pmid">16193069</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B91">
+        <label>33</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tsang</surname>
+              <given-names>HTH</given-names>
+            </name>
+            <name>
+              <surname>Connell</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>SE</given-names>
+            </name>
+            <name>
+              <surname>Thompson</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Reid</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Sanderson</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>A systematic analysis of human CHMP protein interactions: additional MIT domain-containing proteins bind to multiple components of the human ESCRT III complex</article-title>
+          <source>
+            <italic>Genomics</italic>
+          </source>
+          <year>2006</year>
+          <volume>88</volume>
+          <issue>3</issue>
+          <fpage>333</fpage>
+          <lpage>346</lpage>
+          <pub-id pub-id-type="pmid">16730941</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B34">
+        <label>34</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kieffer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Skalicky</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>E</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Two distinct modes of ESCRT-III recognition are required for VPS4 functions in lysosomal protein targeting and HIV-1 budding</article-title>
+          <source>
+            <italic>Developmental Cell</italic>
+          </source>
+          <year>2008</year>
+          <volume>15</volume>
+          <issue>1</issue>
+          <fpage>62</fpage>
+          <lpage>73</lpage>
+          <pub-id pub-id-type="pmid">18606141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B86">
+        <label>35</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stuchell-Brereton</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Skalicky</surname>
+              <given-names>JJ</given-names>
+            </name>
+            <name>
+              <surname>Kieffer</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Karren</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Ghaffarian</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Sundquist</surname>
+              <given-names>WI</given-names>
+            </name>
+          </person-group>
+          <article-title>ESCRT-III recognition by VPS4 ATPases</article-title>
+          <source>
+            <italic>Nature</italic>
+          </source>
+          <year>2007</year>
+          <volume>449</volume>
+          <issue>7163</issue>
+          <fpage>740</fpage>
+          <lpage>744</lpage>
+          <pub-id pub-id-type="pmid">17928862</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B101">
+        <label>36</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ward</surname>
+              <given-names>DM</given-names>
+            </name>
+            <name>
+              <surname>Vaughn</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Shiflett</surname>
+              <given-names>SL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The role of LIP<sub>5</sub> and CHMP<sub>5</sub> in multivesicular body formation and HIV-1 budding in mammalian cells</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2005</year>
+          <volume>280</volume>
+          <issue>11</issue>
+          <fpage>10548</fpage>
+          <lpage>10555</lpage>
+          <pub-id pub-id-type="pmid">15644320</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B80">
+        <label>37</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shim</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Merrill</surname>
+              <given-names>SA</given-names>
+            </name>
+            <name>
+              <surname>Hanson</surname>
+              <given-names>PI</given-names>
+            </name>
+          </person-group>
+          <article-title>Novel interactions of ESCRT-III with LIP5 and VPS4 and their implications for ESCRT-III disassembly</article-title>
+          <source>
+            <italic>Molecular Biology of the Cell</italic>
+          </source>
+          <year>2008</year>
+          <volume>19</volume>
+          <issue>6</issue>
+          <fpage>2661</fpage>
+          <lpage>2672</lpage>
+          <pub-id pub-id-type="pmid">18385515</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B3">
+        <label>38</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azmi</surname>
+              <given-names>IF</given-names>
+            </name>
+            <name>
+              <surname>Davies</surname>
+              <given-names>BA</given-names>
+            </name>
+            <name>
+              <surname>Xiao</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Babst</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Katzmann</surname>
+              <given-names>DJ</given-names>
+            </name>
+          </person-group>
+          <article-title>ESCRT-III family members stimulate Vps4 ATPase activity directly or via Vta1</article-title>
+          <source>
+            <italic>Developmental Cell</italic>
+          </source>
+          <year>2008</year>
+          <volume>14</volume>
+          <issue>1</issue>
+          <fpage>50</fpage>
+          <lpage>61</lpage>
+          <pub-id pub-id-type="pmid">18194652</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B64">
+        <label>39</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Perez</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Craven</surname>
+              <given-names>RC</given-names>
+            </name>
+            <name>
+              <surname>de la Torre</surname>
+              <given-names>JC</given-names>
+            </name>
+          </person-group>
+          <article-title>The small RING finger protein Z drives arenavirus budding: implications for antiviral strategies</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2003</year>
+          <volume>100</volume>
+          <issue>22</issue>
+          <fpage>12978</fpage>
+          <lpage>12983</lpage>
+          <pub-id pub-id-type="pmid">14563923</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B92">
+        <label>40</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urata</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kawaoka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yokosawa</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Cellular factors required for Lassa virus budding</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2006</year>
+          <volume>80</volume>
+          <issue>8</issue>
+          <fpage>4191</fpage>
+          <lpage>4195</lpage>
+          <pub-id pub-id-type="pmid">16571837</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B93">
+        <label>41</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Urata</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Kawaoka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Morikawa</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Yokosawa</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Interaction of Tsg101 with Marburg virus VP40 depends on the PPPY motif, but not the PT/SAP motif as in the case of Ebola virus, and Tsg101 plays a critical role in the budding of Marburg virus-like particles induced by VP40, NP, and GP</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2007</year>
+          <volume>81</volume>
+          <issue>9</issue>
+          <fpage>4895</fpage>
+          <lpage>4899</lpage>
+          <pub-id pub-id-type="pmid">17301151</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B39">
+        <label>42</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lambert</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>DÃ¶ring</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Prange</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Hepatitis B virus maturation is sensitive to functional inhibition of ESCRT-III, Vps4, and <italic>Î³</italic>2-adaptin</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2007</year>
+          <volume>81</volume>
+          <issue>17</issue>
+          <fpage>9050</fpage>
+          <lpage>9060</lpage>
+          <pub-id pub-id-type="pmid">17553870</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B13">
+        <label>43</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Crump</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Yates</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Minson</surname>
+              <given-names>T</given-names>
+            </name>
+          </person-group>
+          <article-title>Herpes simplex virus type 1 cytoplasmic envelopment requires functional Vps4</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2007</year>
+          <volume>81</volume>
+          <issue>14</issue>
+          <fpage>7380</fpage>
+          <lpage>7387</lpage>
+          <pub-id pub-id-type="pmid">17507493</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B77">
+        <label>44</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmitt</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Leser</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name>
+              <surname>Morita</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Sundquist</surname>
+              <given-names>WI</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for a new viral late-domain core sequence, FPIV, necessary for budding of a paramyxovirus</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2005</year>
+          <volume>79</volume>
+          <issue>5</issue>
+          <fpage>2988</fpage>
+          <lpage>2997</lpage>
+          <pub-id pub-id-type="pmid">15709019</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B46">
+        <label>45</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schmitt</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>McCrory</surname>
+              <given-names>TS</given-names>
+            </name>
+            <name>
+              <surname>He</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Schmitt</surname>
+              <given-names>AP</given-names>
+            </name>
+          </person-group>
+          <article-title>Mumps virus matrix, fusion, and nucleocapsid proteins cooperate for efficient production of virus-like particles</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2009</year>
+          <volume>83</volume>
+          <issue>14</issue>
+          <fpage>7261</fpage>
+          <lpage>7272</lpage>
+          <pub-id pub-id-type="pmid">19439476</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B32">
+        <label>46</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Irie</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Harty</surname>
+              <given-names>RN</given-names>
+            </name>
+          </person-group>
+          <article-title>L-domain flanking sequences are important for host interactions and efficient budding of vesicular stomatitis virus recombinants</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2005</year>
+          <volume>79</volume>
+          <issue>20</issue>
+          <fpage>12617</fpage>
+          <lpage>12622</lpage>
+          <pub-id pub-id-type="pmid">16188963</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B104">
+        <label>47</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wirblich</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Tan</surname>
+              <given-names>GS</given-names>
+            </name>
+            <name>
+              <surname>Papaneri</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>PPEY motif within the Rabies Virus (RV) matrix protein is essential for efficient virion release and RV pathogenicity</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2008</year>
+          <volume>82</volume>
+          <issue>19</issue>
+          <fpage>9730</fpage>
+          <lpage>9738</lpage>
+          <pub-id pub-id-type="pmid">18667490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B29">
+        <label>48</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harty</surname>
+              <given-names>RN</given-names>
+            </name>
+            <name>
+              <surname>Brown</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Huibregtse</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Hayes</surname>
+              <given-names>FP</given-names>
+            </name>
+          </person-group>
+          <article-title>A PPxY motif within the VP40 protein of Ebola virus interacts physically and functionally with a ubiquitin ligase: implications for filovirus budding</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2000</year>
+          <volume>97</volume>
+          <issue>25</issue>
+          <fpage>13871</fpage>
+          <lpage>13876</lpage>
+          <pub-id pub-id-type="pmid">11095724</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B58">
+        <label>49</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okumura</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Harty</surname>
+              <given-names>RN</given-names>
+            </name>
+          </person-group>
+          <article-title>ISG15 inhibits Ebola VP40 VLP budding in an L-domain-dependent manner by blocking Nedd4 ligase activity</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2008</year>
+          <volume>105</volume>
+          <issue>10</issue>
+          <fpage>3974</fpage>
+          <lpage>3979</lpage>
+          <pub-id pub-id-type="pmid">18305167</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B82">
+        <label>50</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Silvestri</surname>
+              <given-names>LS</given-names>
+            </name>
+            <name>
+              <surname>Ruthel</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Kallstrom</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Involvement of vacuolar protein sorting pathway in Ebola virus release independent of TSG101 interaction</article-title>
+          <source>
+            <italic>Journal of Infectious Diseases</italic>
+          </source>
+          <year>2007</year>
+          <volume>196</volume>
+          <issue>supplement 2</issue>
+          <fpage>S264</fpage>
+          <lpage>S270</lpage>
+          <pub-id pub-id-type="pmid">17940959</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B90">
+        <label>51</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Timmins</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Schoehn</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Ricard-Blum</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ebola virus matrix protein VP40 interaction with human cellular factors Tsg101 and Nedd4</article-title>
+          <source>
+            <italic>Journal of Molecular Biology</italic>
+          </source>
+          <year>2003</year>
+          <volume>326</volume>
+          <issue>2</issue>
+          <fpage>493</fpage>
+          <lpage>502</lpage>
+          <pub-id pub-id-type="pmid">12559917</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B2">
+        <label>52</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ariumi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Kuroki</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Maki</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The ESCRT system is required for hepatitis C virus production</article-title>
+          <source>
+            <italic>Plos ONE</italic>
+          </source>
+          <year>2011</year>
+          <volume>6</volume>
+          <issue>1</issue>
+          <fpage>1</fpage>
+          <lpage>10</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B12">
+        <label>53</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corless</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Crump</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Griffin</surname>
+              <given-names>SDC</given-names>
+            </name>
+            <name>
+              <surname>Harris</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Vps4 and the ESCRT-III complex are required for the release of infectious hepatitis C virus particles</article-title>
+          <source>
+            <italic>Journal of General Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>91</volume>
+          <issue>2</issue>
+          <fpage>362</fpage>
+          <lpage>372</lpage>
+          <pub-id pub-id-type="pmid">19828764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B63">
+        <label>54</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pawliczek</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Crump</surname>
+              <given-names>CM</given-names>
+            </name>
+          </person-group>
+          <article-title>Herpes simplex virus type 1 production requires a functional ESCRT-III complex but is independent of TSG101 and ALIX expression</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2009</year>
+          <volume>83</volume>
+          <issue>21</issue>
+          <fpage>11254</fpage>
+          <lpage>11264</lpage>
+          <pub-id pub-id-type="pmid">19692479</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B89">
+        <label>55</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Taylor</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Hanson</surname>
+              <given-names>PI</given-names>
+            </name>
+            <name>
+              <surname>Kielian</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Ubiquitin depletion and dominant-negative VPS4 inhibit rhabdovirus budding without affecting alphavirus budding</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2007</year>
+          <volume>81</volume>
+          <issue>24</issue>
+          <fpage>13631</fpage>
+          <lpage>13639</lpage>
+          <pub-id pub-id-type="pmid">17913808</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B76">
+        <label>56</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmitt</surname>
+              <given-names>AP</given-names>
+            </name>
+            <name>
+              <surname>Leser</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name>
+              <surname>Waning</surname>
+              <given-names>DL</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Requirements for budding of paramyxovirus simian virus 5 virus-like particles</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2002</year>
+          <volume>76</volume>
+          <issue>8</issue>
+          <fpage>3952</fpage>
+          <lpage>3964</lpage>
+          <pub-id pub-id-type="pmid">11907235</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B75">
+        <label>57</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Salditt</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Koethe</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Pohl</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Measles virus M protein-driven particle production does not involve the endosomal sorting complex required for transport (ESCRT) system</article-title>
+          <source>
+            <italic>Journal General Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>91</volume>
+          <fpage>1464</fpage>
+          <lpage>1472</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B95">
+        <label>58</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Utley</surname>
+              <given-names>TJ</given-names>
+            </name>
+            <name>
+              <surname>Ducharme</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>Varthakavi</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Respiratory syncytial virus uses a Vps4-independent budding mechanism controlled by Rab11-FIP2</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2008</year>
+          <volume>105</volume>
+          <issue>29</issue>
+          <fpage>10209</fpage>
+          <lpage>10214</lpage>
+          <pub-id pub-id-type="pmid">18621683</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B19">
+        <label>59</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fraile-Ramos</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Pelchen-Matthews</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Risco</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The ESCRT machinery is not required for human cytomegalovirus envelopment</article-title>
+          <source>
+            <italic>Cellular Microbiology</italic>
+          </source>
+          <year>2007</year>
+          <volume>9</volume>
+          <issue>12</issue>
+          <fpage>2955</fpage>
+          <lpage>2967</lpage>
+          <pub-id pub-id-type="pmid">17760879</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B88">
+        <label>60</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tandon</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>AuCoin</surname>
+              <given-names>DP</given-names>
+            </name>
+            <name>
+              <surname>Mocarski</surname>
+              <given-names>ES</given-names>
+            </name>
+          </person-group>
+          <article-title>Human cytomegalovirus exploits ESCRT machinery in the process of virion maturation</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2009</year>
+          <volume>83</volume>
+          <issue>20</issue>
+          <fpage>10797</fpage>
+          <lpage>10807</lpage>
+          <pub-id pub-id-type="pmid">19640981</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B31">
+        <label>61</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Irie</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Licata</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>McGettigan</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Schnell</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Harty</surname>
+              <given-names>RN</given-names>
+            </name>
+          </person-group>
+          <article-title>Budding of PPxY-containing rhabdoviruses is not dependent on host proteins TSG101 and VPS4A</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2004</year>
+          <volume>78</volume>
+          <issue>10</issue>
+          <fpage>p. 5532</fpage>
+        </element-citation>
+      </ref>
+      <ref id="B9">
+        <label>62</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms for enveloped virus budding: can some viruses do without an ESCRT?</article-title>
+          <source>
+            <italic>Virology</italic>
+          </source>
+          <year>2007</year>
+          <volume>372</volume>
+          <issue>2</issue>
+          <fpage>221</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="pmid">18063004</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B40">
+        <label>63</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lai</surname>
+              <given-names>JCC</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>WWL</given-names>
+            </name>
+            <name>
+              <surname>Kien</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Nicholls</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Peiris</surname>
+              <given-names>JSM</given-names>
+            </name>
+            <name>
+              <surname>Garcia</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Formation of virus-like particles from human cell lines exclusively expressing influenza neuraminidase</article-title>
+          <source>
+            <italic>Journal of General Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>91</volume>
+          <issue>9</issue>
+          <fpage>2322</fpage>
+          <lpage>2330</lpage>
+          <pub-id pub-id-type="pmid">20505010</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B72">
+        <label>64</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rossman</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Leser</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Influenza virus M2 protein mediates ESCRT-independent membrane scission</article-title>
+          <source>
+            <italic>Cell</italic>
+          </source>
+          <year>2010</year>
+          <volume>142</volume>
+          <issue>6</issue>
+          <fpage>902</fpage>
+          <lpage>913</lpage>
+          <pub-id pub-id-type="pmid">20850012</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B73">
+        <label>65</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rossman</surname>
+              <given-names>JS</given-names>
+            </name>
+            <name>
+              <surname>Jing</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Leser</surname>
+              <given-names>GP</given-names>
+            </name>
+            <name>
+              <surname>Balannik</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Pinto</surname>
+              <given-names>LH</given-names>
+            </name>
+            <name>
+              <surname>Lamb</surname>
+              <given-names>RA</given-names>
+            </name>
+          </person-group>
+          <article-title>Influenza virus M2 ion channel protein is necessary for filamentous virion formation</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>84</volume>
+          <issue>10</issue>
+          <fpage>5078</fpage>
+          <lpage>5088</lpage>
+          <pub-id pub-id-type="pmid">20219914</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B109">
+        <label>66</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yondola</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Fernandes</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Belicha-Villanueva</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Budding capability of the influenza virus neuraminidase can be modulated by tetherin</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2011</year>
+          <volume>85</volume>
+          <issue>6</issue>
+          <fpage>2480</fpage>
+          <lpage>2491</lpage>
+          <pub-id pub-id-type="pmid">21209114</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B23">
+        <label>67</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Goodbourn</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Didcock</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Randall</surname>
+              <given-names>RE</given-names>
+            </name>
+          </person-group>
+          <article-title>Interferons: cell signalling, immune modulation, antiviral responses and virus countermeasures</article-title>
+          <source>
+            <italic>Journal of General Virology</italic>
+          </source>
+          <year>2000</year>
+          <volume>81</volume>
+          <issue>10</issue>
+          <fpage>2341</fpage>
+          <lpage>2364</lpage>
+          <pub-id pub-id-type="pmid">10993923</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B27">
+        <label>68</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guidotti</surname>
+              <given-names>LG</given-names>
+            </name>
+            <name>
+              <surname>Chisari</surname>
+              <given-names>FV</given-names>
+            </name>
+          </person-group>
+          <article-title>Noncytolytic control of viral infections by the innate and adaptive immune response</article-title>
+          <source>
+            <italic>Annual Review of Immunology</italic>
+          </source>
+          <year>2001</year>
+          <volume>19</volume>
+          <fpage>65</fpage>
+          <lpage>91</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B56">
+        <label>69</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neil</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Human immunodeficiency virus, restriction factors, and interferon</article-title>
+          <source>
+            <italic>Journal of Interferon and Cytokine Research</italic>
+          </source>
+          <year>2009</year>
+          <volume>29</volume>
+          <issue>9</issue>
+          <fpage>569</fpage>
+          <lpage>580</lpage>
+          <pub-id pub-id-type="pmid">19694548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B106">
+        <label>70</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wolf</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Goff</surname>
+              <given-names>SP</given-names>
+            </name>
+          </person-group>
+          <article-title>Host restriction factors blocking retroviral replication</article-title>
+          <source>
+            <italic>Annual Review of Genetics</italic>
+          </source>
+          <year>2008</year>
+          <volume>42</volume>
+          <fpage>143</fpage>
+          <lpage>163</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B18">
+        <label>71</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Donahue</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Vetter</surname>
+              <given-names>ML</given-names>
+            </name>
+            <name>
+              <surname>Mukhtar</surname>
+              <given-names>NA</given-names>
+            </name>
+            <name>
+              <surname>DâAquila</surname>
+              <given-names>RT</given-names>
+            </name>
+          </person-group>
+          <article-title>The HIV-1 Vif PPLP motif is necessary for human APOBEC3G binding and degradation</article-title>
+          <source>
+            <italic>Virology</italic>
+          </source>
+          <year>2008</year>
+          <volume>377</volume>
+          <issue>1</issue>
+          <fpage>49</fpage>
+          <lpage>53</lpage>
+          <pub-id pub-id-type="pmid">18499212</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B79">
+        <label>72</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sebastian</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Luban</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>TRIM5<italic>Î±</italic> selectively binds a restriction-sensitive retroviral capsid</article-title>
+          <source>
+            <italic>Retrovirology</italic>
+          </source>
+          <year>2005</year>
+          <volume>2, article 40</volume>
+        </element-citation>
+      </ref>
+      <ref id="B85">
+        <label>73</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stremlau</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Perron</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Specific recognition and accelerated uncoating of retroviral capsids by the TRIM5<italic>Î±</italic> restriction factor</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2006</year>
+          <volume>103</volume>
+          <issue>14</issue>
+          <fpage>5514</fpage>
+          <lpage>5519</lpage>
+          <pub-id pub-id-type="pmid">16540544</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B74">
+        <label>74</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sakuma</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Noda</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Urata</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kawaoka</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Yasuda</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of Lassa and Marburg virus production by tetherin</article-title>
+          <source>
+            <italic>Journal Virology</italic>
+          </source>
+          <year>2009</year>
+          <volume>83</volume>
+          <issue>5</issue>
+          <fpage>2382</fpage>
+          <lpage>2385</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B55">
+        <label>75</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neil</surname>
+              <given-names>SJD</given-names>
+            </name>
+            <name>
+              <surname>Zang</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>PD</given-names>
+            </name>
+          </person-group>
+          <article-title>Tetherin inhibits retrovirus release and is antagonized by HIV-1 Vpu</article-title>
+          <source>
+            <italic>Nature</italic>
+          </source>
+          <year>2008</year>
+          <volume>451</volume>
+          <issue>7177</issue>
+          <fpage>425</fpage>
+          <lpage>430</lpage>
+          <pub-id pub-id-type="pmid">18200009</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B97">
+        <label>76</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Van Damme</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Goff</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Katsura</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The interferon-induced protein BST-2 restricts HIV-1 release and is down regulated from the cell surface by the viral Vpu protein</article-title>
+          <source>
+            <italic>Cell Host &amp; Microbe</italic>
+          </source>
+          <year>2008</year>
+          <volume>3</volume>
+          <issue>4</issue>
+          <fpage>245</fpage>
+          <lpage>252</lpage>
+          <pub-id pub-id-type="pmid">18342597</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B38">
+        <label>77</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuhl</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>Sloan</surname>
+              <given-names>RD</given-names>
+            </name>
+            <name>
+              <surname>Donahue</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Bar-Magen</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Liang</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Wainberg</surname>
+              <given-names>MA</given-names>
+            </name>
+          </person-group>
+          <article-title>Tetherin restricts direct cell-to-cell infection of HIV-1</article-title>
+          <source>
+            <italic>Retrovirology</italic>
+          </source>
+          <year>2010</year>
+          <volume>7, article 115</volume>
+        </element-citation>
+      </ref>
+      <ref id="B14">
+        <label>78</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dao</surname>
+              <given-names>CT</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>DE</given-names>
+            </name>
+          </person-group>
+          <article-title>ISG15: a ubiquitin-like enigma</article-title>
+          <source>
+            <italic>Frontiers in Bioscience</italic>
+          </source>
+          <year>2005</year>
+          <volume>10</volume>
+          <issue>2</issue>
+          <fpage>2701</fpage>
+          <lpage>2722</lpage>
+          <pub-id pub-id-type="pmid">15970528</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B28">
+        <label>79</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haller</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Kochs</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Weber</surname>
+              <given-names>F</given-names>
+            </name>
+          </person-group>
+          <article-title>The interferon response circuit: induction and suppression by pathogenic viruses</article-title>
+          <source>
+            <italic>Virology</italic>
+          </source>
+          <year>2006</year>
+          <volume>344</volume>
+          <issue>1</issue>
+          <fpage>119</fpage>
+          <lpage>130</lpage>
+          <pub-id pub-id-type="pmid">16364743</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B5">
+        <label>80</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bednarik</surname>
+              <given-names>DP</given-names>
+            </name>
+            <name>
+              <surname>Mosca</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Raj</surname>
+              <given-names>NBK</given-names>
+            </name>
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>Inhibition of human immunodeficiency virus (HIV) replication by HIV-trans-activated <italic>Î±</italic>2-interferon</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>1989</year>
+          <volume>86</volume>
+          <issue>13</issue>
+          <fpage>4958</fpage>
+          <lpage>4962</lpage>
+          <pub-id pub-id-type="pmid">2472636</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B30">
+        <label>81</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harty</surname>
+              <given-names>RN</given-names>
+            </name>
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Okumura</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Antiviral activity of innate immune protein ISG15</article-title>
+          <source>
+            <italic>Journal of Innate Immunity</italic>
+          </source>
+          <year>2009</year>
+          <volume>1</volume>
+          <issue>5</issue>
+          <fpage>397</fpage>
+          <lpage>404</lpage>
+          <pub-id pub-id-type="pmid">19680460</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B33">
+        <label>82</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jeon</surname>
+              <given-names>YJ</given-names>
+            </name>
+            <name>
+              <surname>Yoo</surname>
+              <given-names>HM</given-names>
+            </name>
+            <name>
+              <surname>Chung</surname>
+              <given-names>CH</given-names>
+            </name>
+          </person-group>
+          <article-title>ISG15 and immune diseases</article-title>
+          <source>
+            <italic>Biochimica et Biophysica Acta</italic>
+          </source>
+          <year>2010</year>
+          <volume>1802</volume>
+          <issue>5</issue>
+          <fpage>485</fpage>
+          <lpage>496</lpage>
+          <pub-id pub-id-type="pmid">20153823</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B37">
+        <label>83</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kuang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Seo</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanism of inhibition of retrovirus release from cells by interferon-induced gene ISG15</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2011</year>
+          <volume>85</volume>
+          <issue>14</issue>
+          <fpage>7153</fpage>
+          <lpage>7161</lpage>
+          <pub-id pub-id-type="pmid">21543490</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B67">
+        <label>84</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pincetic</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kuang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Seo</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Leis</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The interferon-induced gene ISG15 blocks retrovirus release from cells late in the budding process</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>84</volume>
+          <issue>9</issue>
+          <fpage>4725</fpage>
+          <lpage>4736</lpage>
+          <pub-id pub-id-type="pmid">20164219</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B71">
+        <label>85</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Poli</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Orenstein</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Kinter</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Folks</surname>
+              <given-names>TM</given-names>
+            </name>
+            <name>
+              <surname>Fauci</surname>
+              <given-names>AS</given-names>
+            </name>
+          </person-group>
+          <article-title>Interferon-<italic>Î±</italic> but not AZT suppresses HIV expression in chronically infected cell lines</article-title>
+          <source>
+            <italic>Science</italic>
+          </source>
+          <year>1989</year>
+          <volume>244</volume>
+          <issue>4904</issue>
+          <fpage>575</fpage>
+          <lpage>577</lpage>
+          <pub-id pub-id-type="pmid">2470148</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B81">
+        <label>86</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shirazi</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>Alpha interferon inhibits early stages of the human immunodeficiency virus type 1 replication cycle</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>1992</year>
+          <volume>66</volume>
+          <issue>3</issue>
+          <fpage>1321</fpage>
+          <lpage>1328</lpage>
+          <pub-id pub-id-type="pmid">1738192</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B83">
+        <label>87</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Skaug</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>ZJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Emerging role of ISG15 in antiviral immunity</article-title>
+          <source>
+            <italic>Cell</italic>
+          </source>
+          <year>2010</year>
+          <volume>143</volume>
+          <issue>2</issue>
+          <fpage>187</fpage>
+          <lpage>190</lpage>
+          <pub-id pub-id-type="pmid">20946978</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B116">
+        <label>88</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zou</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Papov</surname>
+              <given-names>V</given-names>
+            </name>
+            <name>
+              <surname>Malakhova</surname>
+              <given-names>O</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ISG15 modification of ubiquitin E2 Ubc13 disrupts its ability to form thioester bond with ubiquitin</article-title>
+          <source>
+            <italic>Biochemical and Biophysical Research Communications</italic>
+          </source>
+          <year>2005</year>
+          <volume>336</volume>
+          <issue>1</issue>
+          <fpage>61</fpage>
+          <lpage>68</lpage>
+          <pub-id pub-id-type="pmid">16122702</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B8">
+        <label>89</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chang</surname>
+              <given-names>YG</given-names>
+            </name>
+            <name>
+              <surname>Yan</surname>
+              <given-names>XZ</given-names>
+            </name>
+            <name>
+              <surname>Xie</surname>
+              <given-names>YY</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Different roles for two ubiquitin-like domains of ISG15 in protein modification</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2008</year>
+          <volume>283</volume>
+          <issue>19</issue>
+          <fpage>13370</fpage>
+          <lpage>13377</lpage>
+          <pub-id pub-id-type="pmid">18356159</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B54">
+        <label>90</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Narasimhan</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Fu</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>JJP</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structure of the interferon-induced ubiquitin-like protein ISG15</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2005</year>
+          <volume>280</volume>
+          <issue>29</issue>
+          <fpage>27356</fpage>
+          <lpage>27365</lpage>
+          <pub-id pub-id-type="pmid">15917233</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B44">
+        <label>91</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Loeb</surname>
+              <given-names>KR</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>AL</given-names>
+            </name>
+          </person-group>
+          <article-title>The interferon-inducible 15-kDa ubiquitin homolog conjugates to intracellular proteins</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>1992</year>
+          <volume>267</volume>
+          <issue>11</issue>
+          <fpage>7806</fpage>
+          <lpage>7813</lpage>
+          <pub-id pub-id-type="pmid">1373138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B114">
+        <label>92</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Denison</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Huibregtse</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Gygi</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Krug</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Human ISG15 conjugation targets both IFN-induced and constitutively expressed proteins functioning in diverse cellular pathways</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2005</year>
+          <volume>102</volume>
+          <issue>29</issue>
+          <fpage>10200</fpage>
+          <lpage>10205</lpage>
+          <pub-id pub-id-type="pmid">16009940</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B115">
+        <label>93</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Hsiang</surname>
+              <given-names>T-Y</given-names>
+            </name>
+            <name>
+              <surname>Kuo</surname>
+              <given-names>RL</given-names>
+            </name>
+            <name>
+              <surname>Krug</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>ISG15 conjugation system targets the viral NS1 protein in influenza A virus-infected cells</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2010</year>
+          <volume>107</volume>
+          <issue>5</issue>
+          <fpage>2253</fpage>
+          <lpage>2258</lpage>
+          <pub-id pub-id-type="pmid">20133869</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B22">
+        <label>94</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giannakopoulos</surname>
+              <given-names>NV</given-names>
+            </name>
+            <name>
+              <surname>Arutyunova</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lenschow</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>AL</given-names>
+            </name>
+            <name>
+              <surname>Virgin</surname>
+              <given-names>HW</given-names>
+            </name>
+          </person-group>
+          <article-title>ISG15 Arg151 and the ISG15-conjugating enzyme UbE1L are important for innate immune control of sindbis virus</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2009</year>
+          <volume>83</volume>
+          <issue>4</issue>
+          <fpage>1602</fpage>
+          <lpage>1610</lpage>
+          <pub-id pub-id-type="pmid">19073728</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B110">
+        <label>95</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Krug</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Influenza B virus NS1 protein inhibits conjugation of the interferon (IFN)-induced ubiquitin-like ISG15 protein</article-title>
+          <source>
+            <italic>The EMBO Journal</italic>
+          </source>
+          <year>2001</year>
+          <volume>20</volume>
+          <issue>3</issue>
+          <fpage>362</fpage>
+          <lpage>371</lpage>
+          <pub-id pub-id-type="pmid">11157743</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B36">
+        <label>96</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kim</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Giannakopoulos</surname>
+              <given-names>NV</given-names>
+            </name>
+            <name>
+              <surname>Virgin</surname>
+              <given-names>HW</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>DE</given-names>
+            </name>
+          </person-group>
+          <article-title>Interferon-inducible ubiquitin E2, Ubc8, is a conjugating enzyme for protein ISGylation</article-title>
+          <source>
+            <italic>Molecular and Cellular Biology</italic>
+          </source>
+          <year>2004</year>
+          <volume>24</volume>
+          <issue>21</issue>
+          <fpage>9592</fpage>
+          <lpage>9600</lpage>
+          <pub-id pub-id-type="pmid">15485925</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B113">
+        <label>97</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhadina</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bieniasz</surname>
+              <given-names>PD</given-names>
+            </name>
+          </person-group>
+          <article-title>Functional interchangeability of late domains, late domain cofactors and ubiquitin in viral budding</article-title>
+          <source>
+            <italic>Plos Pathog</italic>
+          </source>
+          <year>2010</year>
+          <volume>6</volume>
+          <issue>10</issue>
+          <comment>Article ID e1001153.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B15">
+        <label>98</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dastur</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Beaudenon</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kelley</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Krug</surname>
+              <given-names>RM</given-names>
+            </name>
+            <name>
+              <surname>Huibregtse</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Herc5, an interferon-induced HECT E3 enzyme, is required for conjugation of ISG15 in human cells</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2006</year>
+          <volume>281</volume>
+          <issue>7</issue>
+          <fpage>4334</fpage>
+          <lpage>4338</lpage>
+          <pub-id pub-id-type="pmid">16407192</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B107">
+        <label>99</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wong</surname>
+              <given-names>JJY</given-names>
+            </name>
+            <name>
+              <surname>Pung</surname>
+              <given-names>YF</given-names>
+            </name>
+            <name>
+              <surname>Sze</surname>
+              <given-names>NSK</given-names>
+            </name>
+            <name>
+              <surname>Chin</surname>
+              <given-names>KC</given-names>
+            </name>
+          </person-group>
+          <article-title>HERC5 is an IFN-induced HECT-type E3 protein ligase that mediates type I IFN-induced ISGylation of protein targets</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2006</year>
+          <volume>103</volume>
+          <issue>28</issue>
+          <fpage>10735</fpage>
+          <lpage>10740</lpage>
+          <pub-id pub-id-type="pmid">16815975</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B21">
+        <label>100</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Giannakopoulos</surname>
+              <given-names>NV</given-names>
+            </name>
+            <name>
+              <surname>Luo</surname>
+              <given-names>JK</given-names>
+            </name>
+            <name>
+              <surname>Papov</surname>
+              <given-names>V</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Proteomic identification of proteins conjugated to ISG15 in mouse and human cells</article-title>
+          <source>
+            <italic>Biochemical and Biophysical Research Communications</italic>
+          </source>
+          <year>2005</year>
+          <volume>336</volume>
+          <issue>2</issue>
+          <fpage>496</fpage>
+          <lpage>506</lpage>
+          <pub-id pub-id-type="pmid">16139798</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B10">
+        <label>101</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chen</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>McGilvray</surname>
+              <given-names>I</given-names>
+            </name>
+          </person-group>
+          <article-title>The ISG15/USP18 ubiquitin-like pathway (ISGylation system) in Hepatitis C Virus infection and resistance to interferon therapy</article-title>
+          <source>
+            <italic>International Journal of Biochemistry and Cell Biology</italic>
+          </source>
+          <year>2011</year>
+          <volume>43</volume>
+          <issue>10</issue>
+          <fpage>1427</fpage>
+          <lpage>1431</lpage>
+          <pub-id pub-id-type="pmid">21704181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B69">
+        <label>102</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pitha-Rowe</surname>
+              <given-names>IF</given-names>
+            </name>
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>Viral defense, carcinogenesis and ISG15: novel roles for an old ISG</article-title>
+          <source>
+            <italic>Cytokine and Growth Factor Reviews</italic>
+          </source>
+          <year>2007</year>
+          <volume>18</volume>
+          <issue>5-6</issue>
+          <fpage>409</fpage>
+          <lpage>417</lpage>
+          <pub-id pub-id-type="pmid">17689132</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B57">
+        <label>103</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Okumura</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lu</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Pitha-Rowe</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+          </person-group>
+          <article-title>Innate antiviral response targets HIV-1 release by the induction of ubiquitin-like protein ISG15</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2006</year>
+          <volume>103</volume>
+          <issue>5</issue>
+          <fpage>1440</fpage>
+          <lpage>1445</lpage>
+          <pub-id pub-id-type="pmid">16434471</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B68">
+        <label>104</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pitha</surname>
+              <given-names>PM</given-names>
+            </name>
+            <name>
+              <surname>Fernie</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Maldarelli</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Hattman</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Wivel</surname>
+              <given-names>NA</given-names>
+            </name>
+          </person-group>
+          <article-title>Effect of interferon on mouse leukemia virus (MuLV). V. abnormal proteins on virions of Rauscher MuLV produced in the presence of interferon</article-title>
+          <source>
+            <italic>Journal General Virology</italic>
+          </source>
+          <year>1980</year>
+          <volume>46</volume>
+          <issue>1</issue>
+          <fpage>97</fpage>
+          <lpage>110</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B43">
+        <label>105</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenschow</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Lai</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Frias-Staheli</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>IFN-stimulated gene 15 functions as a critical antiviral molecule against influenza, herpes, and Sindbis viruses</article-title>
+          <source>
+            <italic>Proceedings of the National Academy of Sciences of the United States of America</italic>
+          </source>
+          <year>2007</year>
+          <volume>104</volume>
+          <issue>4</issue>
+          <fpage>1371</fpage>
+          <lpage>1376</lpage>
+          <pub-id pub-id-type="pmid">17227866</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B103">
+        <label>106</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Werneke</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Schilte</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Rohatgi</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>ISG15 is critical in the control of Chikungunya virus infection independent of UbE1L mediated conjugation</article-title>
+          <source>
+            <italic>Plos Pathogens</italic>
+          </source>
+          <year>2011</year>
+          <volume>7</volume>
+          <issue>10</issue>
+          <comment>Article ID e1002322.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B42">
+        <label>107</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lenschow</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Giannakopoulos</surname>
+              <given-names>NV</given-names>
+            </name>
+            <name>
+              <surname>Gunn</surname>
+              <given-names>LJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identification of interferon-stimulated gene 15 as an antiviral molecule during Sindbis virus infection in vivo</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2005</year>
+          <volume>79</volume>
+          <issue>22</issue>
+          <fpage>13974</fpage>
+          <lpage>13983</lpage>
+          <pub-id pub-id-type="pmid">16254333</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B47">
+        <label>108</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Malakhova</surname>
+              <given-names>OA</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>DE</given-names>
+            </name>
+          </person-group>
+          <article-title>ISG15 inhibits Nedd4 ubiquitin E3 activity and enhances the innate antiviral response</article-title>
+          <source>
+            <italic>Journal of Biological Chemistry</italic>
+          </source>
+          <year>2008</year>
+          <volume>283</volume>
+          <issue>14</issue>
+          <fpage>8783</fpage>
+          <lpage>8787</lpage>
+          <pub-id pub-id-type="pmid">18287095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B48">
+        <label>109</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mangeat</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Gers-Huber</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Lehmann</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Zufferey</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Luban</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Piguet</surname>
+              <given-names>V</given-names>
+            </name>
+          </person-group>
+          <article-title>HIV-1 Vpu neutralizes the antiviral factor tetherin/BST-2 by binding it and directing its beta-TrCP2-dependent degradation</article-title>
+          <source>
+            <italic>PLoS Pathogens</italic>
+          </source>
+          <year>2009</year>
+          <volume>5</volume>
+          <issue>9</issue>
+          <comment>Article ID e1000574.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B61">
+        <label>110</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pardieu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Vigan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Wilson</surname>
+              <given-names>SJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The RING-CH ligase K5 antagonizes restriction of KSHV and HIV-1 particle release by mediating ubiquitin-dependent endosomal degradation of tetherin</article-title>
+          <source>
+            <italic>Plos pathogens</italic>
+          </source>
+          <year>2010</year>
+          <volume>6</volume>
+          <issue>4</issue>
+          <fpage>16 pages</fpage>
+          <comment>Article ID e1000843.</comment>
+        </element-citation>
+      </ref>
+      <ref id="B99">
+        <label>111</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Versteeg</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Hale</surname>
+              <given-names>BG</given-names>
+            </name>
+            <name>
+              <surname>van Boheemen</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Wolff</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Lenschow</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>GarcÃ­a-Sastre</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>Species-specific antagonism of host ISGylation by the influenza B virus NS1 protein</article-title>
+          <source>
+            <italic>Journal of Virology</italic>
+          </source>
+          <year>2010</year>
+          <volume>84</volume>
+          <issue>10</issue>
+          <fpage>5423</fpage>
+          <lpage>5430</lpage>
+          <pub-id pub-id-type="pmid">20219937</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B111">
+        <label>112</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yuan</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Aramini</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Montelione</surname>
+              <given-names>GT</given-names>
+            </name>
+            <name>
+              <surname>Krug</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis for ubiquitin-like ISG 15 protein binding to the NS1 protein of influenza B virus: a protein-protein interaction function that is not shared by the corresponding N-terminal domain of the NS1 protein of influenza A virus</article-title>
+          <source>
+            <italic>Virology</italic>
+          </source>
+          <year>2002</year>
+          <volume>304</volume>
+          <issue>2</issue>
+          <fpage>291</fpage>
+          <lpage>301</lpage>
+          <pub-id pub-id-type="pmid">12504570</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B45">
+        <label>113</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Li</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Jiang</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crystal structure of human ISG15 protein in complex with Influenza B Virus NS1B</article-title>
+          <source>
+            <italic>Journal Biological Chemistry</italic>
+          </source>
+          <year>2011</year>
+          <volume>286</volume>
+          <issue>35</issue>
+          <fpage>30258</fpage>
+          <lpage>30262</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B1">
+        <label>114</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Arguello</surname>
+              <given-names>MD</given-names>
+            </name>
+            <name>
+              <surname>Hiscott</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Ub surprised: viral ovarian tumor domain proteases remove ubiquitin and ISG15 conjugates</article-title>
+          <source>
+            <italic>Cell Host and Microbe</italic>
+          </source>
+          <year>2007</year>
+          <volume>2</volume>
+          <issue>6</issue>
+          <fpage>367</fpage>
+          <lpage>369</lpage>
+          <pub-id pub-id-type="pmid">18078688</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="B87">
+        <label>115</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Li</surname>
+              <given-names>Y</given-names>
+            </name>
+            <name>
+              <surname>Ransburgh</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Snijder</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Fang</surname>
+              <given-names>Y</given-names>
+            </name>
+          </person-group>
+          <article-title>Nonstructural protein 2 of porcine reproductive and respiratory syndrome virus inhibits the antiviral function of interferon-stimulated gene 15</article-title>
+          <source>
+            <italic>Journal Virology</italic>
+          </source>
+          <year>2012</year>
+          <volume>86</volume>
+          <issue>7</issue>
+          <fpage>3839</fpage>
+          <lpage>3850</lpage>
+        </element-citation>
+      </ref>
+      <ref id="B26">
+        <label>116</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guerra</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>CÃ¡ceres</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Knobeloch</surname>
+              <given-names>KP</given-names>
+            </name>
+            <name>
+              <surname>Horak</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Esteban</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Vaccinia virus E3 protein prevents the antiviral action of ISG15</article-title>
+          <source>
+            <italic>Plos Pathogens</italic>
+          </source>
+          <year>2008</year>
+          <volume>4</volume>
+          <issue>7</issue>
+          <comment>Article ID e1000096.</comment>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="fig1" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <p>Parallel pathways used by ASLV and HIV-1 Gag to bud from cells. Retroviruses recruit components of the ESCRT machinery to assemble budding complexes. Step 1: HIV-1 and ASLV Gag L-domains bind to Tsg101 and Nedd4, respectively. They also bind the Alix adaptor protein. Whether these initial interactions take place in the cytosol or at the plasma membrane remains to be defined. Step 2: Nedd4 mediates ubiquitination of ASV Gag. HIV-1 Gag is ubiquitinated by an unidentified E3 ligase. Step 3: Gag oligomerization in the cytosol increases membrane avidity and in conjunction with the M domain signal at the N-terminus of Gag targets the polyproteins to sites of assembly/budding on the plasma membrane. ASLV Gag assembles on rhodamine labeled phosphatidylethanolamine (N-Rh-PE)-positive, endosome-derived membranes. HIV-1 Gag assembles on N-Rh-PE-negative membranes. Step 4: The ASLV Gag/Nedd4/Alix complex recruits ESCRT-II proteins while the HIV-1 Gag/Tsg101/Alix complex recruits the remainder of the ESCRT-I proteins. Each early budding complex then recruits the same ESCRT-III machinery which promotes the membrane scission to release VLPs from the cellular membranes. Step 5: The ESCRT-III subunits recruit the AAA ATPase, VPS4, and the coactivator protein LIP5 to mediate the disassembly of membrane-bound ESCRT complexes concomitant with the budding process.</p>
+      </caption>
+      <graphic xlink:href="AV2012-532723.001"/>
+    </fig>
+    <fig id="fig2" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <p>The mechanism of inhibition of budding late in the process mediated by ISG15 expression in cells. Step 1: The ESCRT-III protein, CHMP5, binds to LIP5 in the cytosol. In the presence of ISG15-specific E1, E2, and E3 ISG15 ligase complex, ISG15 is conjugated to CHMP5 and the binding to LIP5 is lost. Step 2: The CHMP5-ISG15 conjugate accumulates in the budding complex on the membrane. The interaction between VPS4 and its coactivator LIP5 is blocked preventing activation of the ATPase through formation of the VPS4/LIP5 double hexamer structure. Step 3: CHMP2A is ISGylated in the presence of ISG15-CHMP5. This results in the loss of its binding to LIP5 and weakens its direct interaction to VPS4. Step 4: CHMP6 is ISGylated in the presence of ISG15-CHMP5. This results in weakening of its binding to VPS4. Step 5: VPS4 is released into the cytosol and virus budding is arrested. (This figure was modified from Figure 7 in [<xref rid="B37" ref-type="bibr">83</xref>].)</p>
+      </caption>
+      <graphic xlink:href="AV2012-532723.002"/>
+    </fig>
+    <table-wrap id="tab1" position="float">
+      <label>Table 1</label>
+      <caption>
+        <p>L-domains found in enveloped virus proteins, which bud from the cell membrane in an ESCRT-dependent process: Lassa fever virus (LFV) [<xref rid="B64" ref-type="bibr">39</xref>], lymphocytic choriomeningitis virus (LCMV) [<xref rid="B64" ref-type="bibr">39</xref>, <xref rid="B92" ref-type="bibr">40</xref>], Ebola virus (EboV) [<xref rid="B49" ref-type="bibr">2</xref>], Marberg virus (MarV) [<xref rid="B93" ref-type="bibr">41</xref>], hepititus B virus (HBV) [<xref rid="B39" ref-type="bibr">42</xref>], Herpes simplex virus, type 1 (HSV-1) [<xref rid="B13" ref-type="bibr">43</xref>], Simian virus, type 5 (SV5) [<xref rid="B77" ref-type="bibr">44</xref>], Mumps virus (MuV) [<xref rid="B46" ref-type="bibr">45</xref>], avian sarcoma leukemia virus (ASLV) [<xref rid="B17" ref-type="bibr">11</xref>, <xref rid="B105" ref-type="bibr">14</xref>, <xref rid="B108" ref-type="bibr">15</xref>], human immunodeficiency virus, type 1 (HIV-1) [<xref rid="B49" ref-type="bibr">2</xref>, <xref rid="B98" ref-type="bibr">10</xref>, <xref rid="B20" ref-type="bibr">27</xref>], human T-lymphotropic virus, type 1 (HTLV-1) [<xref rid="B49" ref-type="bibr">2</xref>], equine infectious anemia virus (EIAV) [<xref rid="B84" ref-type="bibr">12</xref>, <xref rid="B70" ref-type="bibr">16</xref>], vesicular stomatitis virus (VSV) [<xref rid="B32" ref-type="bibr">46</xref>], and rabies virus (RV) [<xref rid="B104" ref-type="bibr">47</xref>].</p>
+      </caption>
+      <table frame="hsides" rules="groups">
+        <thead>
+          <tr>
+            <th align="left" rowspan="1" colspan="1">Virus species</th>
+            <th align="center" rowspan="1" colspan="1">Virus</th>
+            <th align="center" rowspan="1" colspan="1">Protein</th>
+            <th align="left" rowspan="1" colspan="1">Amino acid sequence containing L-domain</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" rowspan="2" colspan="1"> Arenavirus</td>
+            <td align="center" rowspan="1" colspan="1">LFV</td>
+            <td align="center" rowspan="1" colspan="1"> Z</td>
+            <td align="left" rowspan="1" colspan="1">AA<bold>PTAP</bold>PTGAADSI<bold>PPPY</bold>SP</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">LCMV</td>
+            <td align="center" rowspan="1" colspan="1"> Z</td>
+            <td align="left" rowspan="1" colspan="1">TAPSS<bold>PPPY</bold>EE</td>
+          </tr>
+          <tr>
+            <td align="left" colspan="4" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="2" colspan="1">Filovirus</td>
+            <td align="center" rowspan="1" colspan="1">EboV</td>
+            <td align="center" rowspan="1" colspan="1"> VP40</td>
+            <td align="left" rowspan="1" colspan="1">MRRVIL<bold>PTAPPEY</bold>MEAI</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">MarV</td>
+            <td align="center" rowspan="1" colspan="1"> VP40</td>
+            <td align="left" rowspan="1" colspan="1">NTYMQYLN<bold>PPPY</bold>ADHS</td>
+          </tr>
+          <tr>
+            <td align="left" colspan="4" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Hepadnavirus</td>
+            <td align="center" rowspan="1" colspan="1">HBV</td>
+            <td align="center" rowspan="1" colspan="1">Core protein</td>
+            <td align="left" rowspan="1" colspan="1">
+<bold>PPAY</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="left" colspan="4" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="1" colspan="1">Herpesvirus</td>
+            <td align="center" rowspan="1" colspan="1">HSV-1</td>
+            <td align="center" rowspan="1" colspan="1"> E</td>
+            <td align="left" rowspan="1" colspan="1">
+<bold>PPTY</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="left" colspan="4" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="2" colspan="1">Paramyxovirus</td>
+            <td align="center" rowspan="1" colspan="1">SV5</td>
+            <td align="center" rowspan="1" colspan="1"> M</td>
+            <td align="left" rowspan="1" colspan="1">QSIKA<bold>FP</bold>I<bold>V</bold>INSDG</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">MuV</td>
+            <td align="center" rowspan="1" colspan="1"> M</td>
+            <td align="left" rowspan="1" colspan="1">RLNA <bold>FPIV</bold>MGQ</td>
+          </tr>
+          <tr>
+            <td align="left" colspan="4" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="4" colspan="1">Retrovirus</td>
+            <td align="center" rowspan="1" colspan="1">ASLV</td>
+            <td align="center" rowspan="1" colspan="1">p2B of Gag</td>
+            <td align="left" rowspan="1" colspan="1">ATASAP<bold>PPPY</bold>VGSG<bold>LYP</bold>S<bold>L</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">HIV-1</td>
+            <td align="center" rowspan="1" colspan="1">p6 of Gag</td>
+            <td align="left" rowspan="1" colspan="1">PE<bold>PTAPP</bold>FLQSRPE<bold>PTAP</bold>PEES..E<bold>LYP</bold>LTS<bold>L</bold>R</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">HTLV-I</td>
+            <td align="center" rowspan="1" colspan="1">MA of Gag</td>
+            <td align="left" rowspan="1" colspan="1">DPQI<bold>PPPY</bold>VE<bold>PTAP</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">EIAV</td>
+            <td align="center" rowspan="1" colspan="1"> p9 of Gag</td>
+            <td align="left" rowspan="1" colspan="1"> QNL<bold>YPDL</bold>SEIK</td>
+          </tr>
+          <tr>
+            <td align="left" colspan="4" rowspan="1">
+<hr/>
+</td>
+          </tr>
+          <tr>
+            <td align="left" rowspan="2" colspan="1">Rhabdovirus</td>
+            <td align="center" rowspan="1" colspan="1">VSV</td>
+            <td align="center" rowspan="1" colspan="1"> M</td>
+            <td align="left" rowspan="1" colspan="1">LGIA<bold>PPPY</bold>EEDTSMEYA<bold>PSAP</bold>
+</td>
+          </tr>
+          <tr>
+            <td align="center" rowspan="1" colspan="1">RV</td>
+            <td align="center" rowspan="1" colspan="1"> M</td>
+            <td align="left" rowspan="1" colspan="1">DDLWL<bold>PPPEY</bold>VPLKEL</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

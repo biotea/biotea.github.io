@@ -1,0 +1,1204 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:50:11Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3771322" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3771322</identifier><datestamp>2014-01-04</datestamp><setSpec>nihpa</setSpec><setSpec>pmc-open</setSpec><setSpec>manuscript</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">0410462</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">6011</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nature</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nature</journal-id>
+      <journal-title-group>
+        <journal-title>Nature</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0028-0836</issn>
+      <issn pub-type="epub">1476-4687</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3771322</article-id>
+      <article-id pub-id-type="pmcid">PMC3771322</article-id>
+      <article-id pub-id-type="pmc-uid">3771322</article-id>
+      <article-id pub-id-type="pmid">23792563</article-id>
+      <article-id pub-id-type="pmid">23792563</article-id>
+      <article-id pub-id-type="doi">10.1038/nature12222</article-id>
+      <article-id pub-id-type="manuscript">nihpa472502</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>COMPREHENSIVE MOLECULAR CHARACTERIZATION OF CLEAR CELL RENAL CELL CARCINOMA</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <collab>The Cancer Genome Atlas Research Network</collab>
+        </contrib>
+      </contrib-group>
+      <pub-date pub-type="nihms-submitted">
+        <day>3</day>
+        <month>8</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>6</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <day>4</day>
+        <month>7</month>
+        <year>2013</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>04</day>
+        <month>1</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>499</volume>
+      <issue>7456</issue>
+      <fpage>43</fpage>
+      <lpage>49</lpage>
+      <!--elocation-id from pubmed: 10.1038/nature12222-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use: 
+<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P1">Genetic changes underlying clear cell renal cell carcinoma (ccRCC) include alterations in genes controlling cellular oxygen sensing (e.g. <italic>VHL</italic>) and the maintenance of chromatin states (e.g. <italic>PBRM1</italic>). We surveyed more than 400 tumors using different genomic platforms and identified 19 significantly mutated genes. The PI3K/Akt pathway was recurrently mutated, suggesting this pathway as a potential therapeutic target. Widespread DNA hypomethylation was associated with mutation of the H3K36 methyltransferase <italic>SETD2</italic>, and integrative analysis suggested that mutations involving the SWI/SNF chromatin remodeling complex (<italic>PBRM1</italic>, <italic>ARID1A</italic>, <italic>SMARCA4</italic>) could have far-reaching effects on other pathways. Aggressive cancers demonstrated evidence of a metabolic shift, involving down-regulation of genes involved in the TCA cycle, decreased AMPK and PTEN protein levels, up-regulation of the pentose phosphate pathway and the glutamine transporter genes, increased acetyl-CoA carboxylase protein, and altered promoter methylation of <italic>miR-21</italic> and <italic>GRB10</italic>. Remodeling cellular metabolism thus constitutes a recurrent pattern in ccRCC that correlates with tumor stage and severity and offers new views on the opportunities for disease treatment.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P2">Kidney cancers, or renal cell carcinomas (RCC), are a common group of chemotherapy resistant diseases that can be distinguished by histopathological features and underlying gene mutations.<sup><xref rid="R1" ref-type="bibr">1</xref></sup> Inherited predisposition to RCC has been shown to arise from genes involved in regulating cellular metabolism, making RCC a model for the role of an oncologic-metabolic shift, commonly referred to as the âWarburg effectâ, leading to malignancy.<sup><xref rid="R2" ref-type="bibr">2</xref></sup> The most common type of RCC, clear cell renal cell carcinoma (ccRCC), is closely associated with <italic>VHL</italic> gene mutations that lead to stabilization of hypoxia inducible factors (<italic>HIF-1Î±</italic> and <italic>HIF-2Î±</italic>) in both sporadic and familial forms. <italic>PBRM1</italic>, a subunit of the PBAF SWI/SNF chromatin remodeling complex, as well as histone deubiquitinase <italic>BAP1</italic> and histone methyltransferase <italic>SETD2,</italic> were recently found to be altered in 41%, 15% and 12% of ccRCCs, respectively<sup><xref rid="R3" ref-type="bibr">3</xref>â<xref rid="R5" ref-type="bibr">5</xref></sup>, implicating major roles for epigenetic regulation of additional functional pathways participating in the development and progression of the disease. Oncogenic metabolism and epigenetic reprogramming have thus emerged as central features of ccRCC.</p>
+    <p id="P3">In the present study, clinical and pathological features, genomic alterations, DNA methylation profiles, and RNA and proteomic signatures were evaluated in ccRCC. We accrued more than 500 primary nephrectomy specimens from patients with histologically confirmed ccRCC that conformed to the requirements for genomic study defined by the Cancer Genome Atlas (TCGA)<sup><xref rid="R6" ref-type="bibr">6</xref></sup>, together with matching ânormalâ genomic material. Samples were restricted to those that contained at least 60% tumor nuclei, (median 85%) by pathological review (clinical data summary provided in <xref rid="SD2" ref-type="supplementary-material">Table S1</xref>). A data freeze representing 446 samples was generated from at least one analytical platform (âExtendedâ data set) and data from all platforms were available for 372 samples for coordinated, integrative analyses (âCoreâ data set)(<xref rid="SD3" ref-type="supplementary-material">Data File S1</xref>, <xref rid="SD2" ref-type="supplementary-material">Table S2</xref>). No substantial batch effects in the data that might confound analyses were detected (<xref rid="SD1" ref-type="supplementary-material">Figures S1âS20</xref>).</p>
+    <sec id="S1">
+      <title>Somatic Alterations</title>
+      <p id="P4">The global pattern of somatic alterations, determined from analysis of 417 samples, is shown in <xref rid="F1" ref-type="fig">Figure 1A</xref>. DNA hybridizations showed that recurrent arm-level and focal somatic copy number alterations (SCNAs) occurred at a fewer sites than is generally observed in other cancers (p&lt;0.0004; <xref rid="SD1" ref-type="supplementary-material">Figures S21âS22</xref>, <xref rid="SD2" ref-type="supplementary-material">Table S3</xref>). However, SCNAs that were observed more commonly involved entire chromosomes or chromosome arms, rather than focal events (17% vs 0.4%, <xref rid="F1" ref-type="fig">Figure 1b</xref>). Notably, the most frequent arm-level events involved loss of chromosome 3p<sup>3</sup> (91% of samples), encompassing all of the four most commonly mutated genes (<italic>VHL, PBRM1, BAP1 and SETD2).</italic></p>
+      <p id="P5">The data also suggested lower and more variable tumor cellularity<sup><xref rid="R7" ref-type="bibr">7</xref></sup> in the accrued samples, compared to conventional pathological review (median 54% Â± 14%). This may reflect stromal or endothelial cell contributions, or tumor cell heterogeneity. A recent study of multiple samples from single tumors has demonstrated significant regional genomic heterogeneity, but with shared mutations in frequently mutated genes and convergent evolution of other common gene level events.<sup><xref rid="R8" ref-type="bibr">8</xref></sup> The mutation frequencies of key genes (<italic>VHL, PBRM1,</italic> etc.), as well as copy number gains and losses found here, were, however, consistent with previous reports. Tumor purity was therefore not determined to be a limitation in the current study.</p>
+      <p id="P6">Arm level losses on chromosome 14q, associated with loss of <italic>HIF1A,</italic> which has been predicted to drive more aggressive disease<sup><xref rid="R9" ref-type="bibr">9</xref></sup>, were also frequent (45% of samples). Gains of 5q were observed (67% of samples) and additional focal amplifications refined the region of interest to 60 genes in 5q35, which was particularly informative as little has been known about the importance of this region in ccRCC since the 5q gain was initially described. Focal amplification also implicated the protein kinase C member, <italic>PRKCI</italic><sup><xref rid="R5" ref-type="bibr">5</xref></sup> and the MDS1 and EVI1 complex locus <italic>MECOM</italic> at 3p26, the p53 regulator <italic>MDM4</italic> at 1q32, <italic>MYC</italic> at 8q24 and <italic>JAK2</italic> on 9p24. Focally deleted regions included the tumor suppressor genes <italic>CDKN2A</italic> at 9p21 and <italic>PTEN</italic> at 10q23, putative tumor suppressor genes <italic>NEGR1</italic> at 1p31, <italic>QKI</italic> at 6q26, and CADM2 at 3p12 and the genes that are frequently deleted in cancer, <italic>PTPRD</italic> at 9p23 and <italic>NRXN3</italic> at 14q24.<sup><xref rid="R10" ref-type="bibr">10</xref></sup></p>
+      <p id="P7">Whole exome sequencing (WES) of tumors from 417 patients identified 36,353 putative somatic mutations, including 16,821 missense mutations, 6,383 silent mutations and 2,999 indels, with an average of 1.1 Â± 0.5 non-silent mutations per megabase (<xref rid="SD1" ref-type="supplementary-material">Figures S23âS25</xref>). Mutations from 50 genes with high apparent somatic mutation frequencies (<xref rid="SD2" ref-type="supplementary-material">Table S4</xref>) were independently validated using alternative sequencing instrumentation (<xref rid="SD1" ref-type="supplementary-material">Figure S26</xref>). In tumors from 22 patients, whole genome sequencing was also used to validate and calibrate the WES data and confirmed 83% of the WES mutation-calls (<xref rid="SD2" ref-type="supplementary-material">Tables S5âS6</xref>). In line with results of previous studies (<xref rid="SD2" ref-type="supplementary-material">Tables S7âS8</xref>), the validated mutation data identified nineteen significantly mutated genes (SMGs) (q&lt; 0.1), with <italic>VHL, PBRM1</italic>, <italic>SETD2</italic>, <italic>KDM5C</italic>, <italic>PTEN</italic>, <italic>BAP1</italic>, <italic>MTOR</italic> and <italic>TP53</italic> representing the eight most extreme members (q&lt;0.00001) (<xref rid="F1" ref-type="fig">Figure 1a</xref>). Eleven additional SMGs were of considerably lower significance (q &lt; 0.1 â 0.5) but included known cancer genes. Among all SMGs, only mutation of <italic>BAP1</italic> correlated with poor survival outcome (<xref rid="SD1" ref-type="supplementary-material">Figure S27</xref>). Approximately 20% of cases had none of the 19 recorded SMGs, although many contained rare mutations in other known oncogenes or tumor suppressors, involving survival associations, illustrating the genetic complexity of ccRCC<sup><xref rid="R8" ref-type="bibr">8</xref></sup> (<xref rid="SD1" ref-type="supplementary-material">Figures S28âS30</xref> and <xref rid="SD2" ref-type="supplementary-material">Table S9</xref>).</p>
+      <p id="P8">Eighty-four putative RNA fusions were identified in 416 ccRCC samples.<sup><xref rid="R11" ref-type="bibr">11</xref></sup> Eleven of thirteen predicted events (<xref rid="F1" ref-type="fig">Figure 1c</xref>) were validated using targeted methods, consistent with an 85% true-positive rate (<xref rid="SD2" ref-type="supplementary-material">Table S10</xref> and <xref rid="SD1" ref-type="supplementary-material">Figures S31âS35</xref>). A recurrent <italic>SFPQ-TFE3</italic> fusion (previously linked to non-clear cell translocation-associated RCC<sup><xref rid="R12" ref-type="bibr">12</xref></sup>) was found in five samples, all of which were <italic>VHL</italic> wildtype, indicating either that these tumors are a clear cell variant or that translocation-associated renal tumors may be histologically indistinguishable from conventional ccRCC. Furthermore, the TFE3 protein as well as an X(p11) rearrangement was found in three of those samples, where there were available slides.</p>
+    </sec>
+    <sec id="S2">
+      <title>DNA Methylation Profiles</title>
+      <p id="P9">We observed epigenetic silencing of <italic>VHL</italic> in about 7% of ccRCC tumors, which was mutually exclusive with mutation of <italic>VHL</italic> (<xref rid="F1" ref-type="fig">Figure 1a</xref>), reflecting the central role of this locus in ccRCC.<sup><xref rid="R13" ref-type="bibr">13</xref></sup> An additional 289 genes displayed evidence of epigenetic silencing in at least 5% of tumors. The top-ranked gene by inverse correlation between gene expression and DNA methylation was <italic>UQCRH</italic>, hypermethylated in 36% of the tumors. <italic>UQCRH</italic> has been previously suggested to be a tumor suppressor<sup><xref rid="R14" ref-type="bibr">14</xref></sup>, but not linked to ccRCC. Interestingly, increasing promoter hypermethylation frequency correlated with higher stage and grade (<xref rid="F2" ref-type="fig">Figure 2a, b</xref>).</p>
+      <p id="P10">We also evaluated the global consequences of mutation in specific epigenetic modifiers. Mutations in <italic>SETD2</italic>, a non-redundant H3K36 methyltransferase, were associated with increased loss of DNA methylation at non-promoter regions (<xref rid="F2" ref-type="fig">Figures 2c, 2d</xref>). This discovery is consistent with the emerging view that H3K36 trimethylation may be involved in the maintenance of a heterochromatic state<sup><xref rid="R15" ref-type="bibr">15</xref></sup>, whereby DNA methyltransferase 3A (DNMT3A) binds H3K36me3 and methylates nearby DNA.<sup><xref rid="R16" ref-type="bibr">16</xref></sup> Thus, reductions of H3K36me3 through <italic>SETD2</italic> inactivation could lead indirectly to regional loss of DNA methylation.</p>
+    </sec>
+    <sec id="S3">
+      <title>RNA Expression</title>
+      <p id="P11">Unsupervised clustering methods identified four stable subsets in both mRNA (m1âm4) and miRNA (mi1âmi4) expression datasets (<xref rid="F3" ref-type="fig">Figures 3a</xref>, <xref rid="SD1" ref-type="supplementary-material">S36âS39</xref>). Supervised clustering revealed the similarity of these new mRNA classes to the previously reported ccA and ccB expression subtypes<sup><xref rid="R17" ref-type="bibr">17</xref></sup>, with cluster m1 corresponding to ccA and ccB divided between m2 and m3 (<xref rid="SD2" ref-type="supplementary-material">Table S11</xref>). Cluster m4 probably accounts for the roughly 15% of tumors previously unclassified in the ccA/ccB classification scheme. Similarly, the survival advantage previously observed for ccA cases was again identified for m1 tumors (<xref rid="F3" ref-type="fig">Figure 3b</xref>).</p>
+      <p id="P12">The m1-subtype was characterized by gene sets associated with chromatin remodeling processes and a higher frequency of <italic>PBRM1</italic> mutations (39% in m1 vs 27% in others, p= 0.027). Deletion of <italic>CDKN2A</italic> (53% vs 26%; p&lt; 0.0001) and mutations in <italic>PTEN</italic> (11% vs 1%; p&lt; 0.0001) were more frequent in m3 tumors (<xref rid="SD1" ref-type="supplementary-material">Figure S5</xref>). The m4 group displayed higher frequencies of <italic>BAP1</italic> mutations (17% vs 7%; p=0.002) and base excision repair; however, this group also harbored more <italic>mTOR</italic> mutations (12% vs 4%; p=0.01) and ribosomal gene sets.</p>
+      <p id="P13">Survival differences evident in miRNA-based subtypes (<xref rid="SD1" ref-type="supplementary-material">Figures S40âS44</xref>) correlated with the mRNA data (<xref rid="F3" ref-type="fig">Figures 3bâd</xref>). For example, miR-21, previously shown to demonstrate strong regulatory interactions in ccRCC<sup><xref rid="R18" ref-type="bibr">18</xref></sup> and with established roles in metabolism<sup><xref rid="R15" ref-type="bibr">15</xref>,<xref rid="R19" ref-type="bibr">19</xref>,<xref rid="R20" ref-type="bibr">20</xref></sup> correlated strongly with worse outcome, and DNA promoter methylation levels inversely correlated with expression of miR-21, miR-10b, and miR-30a (<xref rid="SD2" ref-type="supplementary-material">Table S12âS14</xref>). miRNA interactions thus represent a significant component of the epigenetic regulation observed in ccRCC.</p>
+    </sec>
+    <sec id="S4">
+      <title>Integrative data analyses</title>
+      <p id="P14">We used a combination of approaches for integrative pathway analysis. The HotNet<sup><xref rid="R21" ref-type="bibr">21</xref></sup> algorithm employs a heat diffusion model, to find subnetworks distinguished by <italic>both</italic> the frequency of mutation in genes (nodes in the network) and the topology of interactions between genes (edges in the network). In ccRCC, Hotnet identified twenty-five subnetworks of genes within a genome-scale protein-protein interaction network (<xref rid="SD2" ref-type="supplementary-material">Table S15</xref> and <xref rid="SD1" ref-type="supplementary-material">Figure S45</xref>). The largest and most frequently mutated network contained <italic>VHL</italic> and interacting partners. The second most frequently mutated subnetwork included <italic>PBRM1, ARID1A</italic> and <italic>SMARCA4</italic>, key genes in the PBAF <italic>SWI/SNF</italic> chromatin remodeling complex.</p>
+      <p id="P15">We also inferred activities for known pathways, by using the PARADIGM algorithm to incorporate mutation, copy, and mRNA expression data, with pathway information catalogued in public databases. This method identified a highly significant subnetwork of 2,398 known regulatory interactions, connecting 1,218 molecular features (645 distinct proteins) (<xref rid="SD1" ref-type="supplementary-material">Figures S46âS49</xref>, <xref rid="SD2" ref-type="supplementary-material">Tables S16âS17</xref>). Several âactiveâ transcriptional âhubsâ were identified, by searching for transcription factors with targets that were inferred to be active in the PARADIGM network. The active hubs found included HIF/ARNT, the transcription factor program activated by VHL mutation, as well as MYC/Max, SP1, FOXM1, JUN, and FOS. Together, these hubs and several less well-studied transcription factors, interlink much of the transcriptional program promoting glycolytic shift, de-differentiation, and growth promotion in ccRCC.</p>
+      <p id="P16">We next searched for causal regulatory interactions connecting ccRCC somatic mutations to these transcriptional hubs, using a bi-directional extension to HotNet (âTieDIEâ) and identified a chromatin-specific sub-network (<xref rid="F4" ref-type="fig">Figures 4a</xref>, <xref rid="SD1" ref-type="supplementary-material">S50âS52</xref>). TieDIE defines a set of transcriptional targets, whose state in the tumor cells is hypothesized to be influenced by one or more of the significantly mutated genes. The chromatin modification pathway intersects a wide variety of processes, including the regulation of hormone receptors (e.g. <italic>ESR1</italic>), RAS signaling via the <italic>SRC</italic> homolog (<italic>SHC</italic>1), immune-related signaling (e.g. <italic>NFÎºB1</italic> and <italic>IL6</italic>)<sup><xref rid="R26" ref-type="bibr">26</xref></sup>, transcriptional output (e.g. <italic>HIF1A, JUN, FOS</italic>, and <italic>SP1), BRCA1</italic> function (via <italic>BAP1</italic>) and Beta-catenin (<italic>CTNNB1</italic>) and TGF-beta (<italic>TGFBR2</italic>) signaling via interactions with a <italic>SMARC-PBRM1-ARID1A</italic> complex. The complexity of these interactions reflects the potential for highly pleiotrophic effects following primary events in chromatin modification genes.</p>
+      <p id="P17">The mutations in the chromatin regulators <italic>PBRM1</italic>, <italic>BAP1</italic>, and <italic>SETD2</italic> were differentially associated with altered expression patterns of large numbers of genes when compared to samples bearing a background of <italic>VHL</italic> mutation (<xref rid="SD2" ref-type="supplementary-material">Table S18âS21</xref>, <xref rid="SD1" ref-type="supplementary-material">Figure S53</xref>). Each chromatin regulator had a distinct set of downstream effects, reflecting diverse roles for chromatin remodeling in the transcriptome.</p>
+      <p id="P18">Additionally, an unsupervised pathway analysis using the MEMo algorithm<sup><xref rid="R22" ref-type="bibr">22</xref></sup>, identified mutually exclusive patterns of alterations targeting multiple components of the PI3K/Akt/mTOR pathway in 28% of the tumors (<xref rid="F4" ref-type="fig">Figures 4b</xref>, <xref rid="SD2" ref-type="supplementary-material">Table S22</xref>). Interestingly, the altered gene module included two genes from the broad amplicon on 5q35.3: <italic>GNB2L1/RACK1</italic> and <italic>SQSTM1/p62</italic>. Both these genes have previously been associated with activation of PI3K signaling<sup><xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>. Furthermore, mRNA expression levels of these two genes were correlated with both DNA copy number level increases and alteration status of the PI3K pathway (<xref rid="SD1" ref-type="supplementary-material">Figures S54âS55</xref>). The mutual exclusivity module also includes frequent over-expression of EGFR, which correlates with increased phosphorylation of the receptor (<xref rid="SD1" ref-type="supplementary-material">Figure S56</xref>), and which has been previously associated with Lapatinib response in ccRCC<sup><xref rid="R25" ref-type="bibr">25</xref></sup>.</p>
+    </sec>
+    <sec id="S5">
+      <title>Correlations with survival</title>
+      <p id="P19">Where unsupervised analyses had indicated that common molecular patterns were associated with patient survival, we sought to further define molecular prognostic signatures at the levels of mRNA, miRNA, DNA methylation, and protein. Data were divided into âdiscoveryâ (N=193) and âvalidationâ (N=253) sets and platform-specific signatures were defined using Cox analyses<sup><xref rid="R26" ref-type="bibr">26</xref></sup>. Kaplan-Meier analysis for each signature showed statistically significant associations with survival in the validation subset (<xref rid="F5" ref-type="fig">Figures 5a</xref> and <xref rid="SD1" ref-type="supplementary-material">S57</xref>). Multivariate Cox analyses, incorporating established clinical variables, showed that the mRNA, miRNA, and protein signatures provided additional prognostic power (<xref rid="SD2" ref-type="supplementary-material">Table S23</xref>). In addition, these signatures could provide molecular clues as to the drivers of aggressive cancers.</p>
+      <p id="P20">Top protein correlates of worse survival included reduced AMP-activated kinase (AMPK) and increased acetyl-CoA carboxylase (ACC) (<xref rid="SD1" ref-type="supplementary-material">Figure S58</xref>). Together, down-regulation of AMPK and up-regulation of ACC activity contribute to a metabolic shift towards increased fatty acid synthesis.<sup><xref rid="R27" ref-type="bibr">27</xref></sup> A metabolic shift to an altered use of key metabolites and pathways was also apparent when considering the full set of genes involved in the core metabolic processes, including a shift towards a âWarburg effectâ-like state (<xref rid="F5" ref-type="fig">Figure 5b</xref>). Poor prognosis correlated with down-regulation of AMPK complex and the Krebs cycle genes, and with up-regulation of genes involved in the pentose phosphate pathway (<italic>G6PD</italic>, <italic>PGLS</italic>, <italic>TALDO</italic>, <italic>TKT</italic>) and fatty acid synthesis (<italic>FASN</italic>, <italic>ACC</italic>).</p>
+      <p id="P21">Examination of potential genetic or epigenetic drivers of a glycolytic shift led us to identify methylation events involving <italic>miR-21</italic> and <italic>GRB10</italic>, with decreased promoter methylation of each gene (thereby higher expression) being associated with worse or better outcome, respectively (<xref rid="F5" ref-type="fig">Figure 5B</xref>, <xref rid="SD1" ref-type="supplementary-material">Figure S59</xref>, <xref rid="SD2" ref-type="supplementary-material">Table S24</xref>). Both genes regulate the PI3K pathway: <italic>miR-21</italic> is inducible by high glucose levels and down-regulates PTEN<sup><xref rid="R20" ref-type="bibr">20</xref></sup>; while the tumor suppressor Grb10 negatively regulates PI3K and insulin signaling.<sup><xref rid="R28" ref-type="bibr">28</xref></sup> Promoter methylation of <italic>miR-21</italic> and <italic>GRB10</italic> were coordinated with their mRNA expression patterns, as well as with the mRNA expression of other key genes and protein expression in the metabolic pathways (<xref rid="F5" ref-type="fig">Figures 5C</xref> and <xref rid="SD1" ref-type="supplementary-material">S60</xref>). In addition to the PI3K pathway (<xref rid="F5" ref-type="fig">Figures 5B</xref> and <xref rid="SD1" ref-type="supplementary-material">S61</xref>), molecular survival correlations involved several pro-metastatic matrix metalloproteinases (<xref rid="SD1" ref-type="supplementary-material">Figure S62</xref>).</p>
+    </sec>
+    <sec sec-type="discussion" id="S6">
+      <title>Discussion</title>
+      <p id="P22">Our study sampled a single site of the primary tumor, in a disease with a potentially high level of tumor heterogeneity<sup><xref rid="R8" ref-type="bibr">8</xref></sup>. The extent to which convergent evolutionary events are a common theme in ccRCC remains to be determined, but may indicate that critical genes will be represented across the tumor landscape for an individual mass. In general, the large sample size appeared to overcome the intrinsic challenges of studying a genetically complex disease, revealing rare variants at rates similar to what has been described previously<sup><xref rid="R29" ref-type="bibr">29</xref></sup>. The samples, taken from primary tumor specimens, were reflective of patients fit for either definitive or cytoreductive nephrectomy, while future work could explore the genomic landscape of metastatic lesions.</p>
+      <p id="P23">Pathway and integrated analyses highlighted the importance of the well-known <italic>VHL/HIF</italic> pathway, the newly emerging chromatin remodeling/histone methylation pathway, and the <italic>PI3K/AKT</italic> pathway. The observation of chromatin modifier genes being frequently mutated in ccRCC strongly supports the model of nucleosome dynamics providing a key function in renal tumorigenesis. Although the mechanistic details remain to be defined as to how such modulation promotes tumor formation, the data presented here revealed alterations in DNA methylation associated with <italic>SETD2</italic> mutations. As an epigenetic process that can potently alter many transcriptional outputs, these mutational events have the potential to alter the landscape of the tumor genome via altered expression of global sets of genes and genetic elements. Molecular correlates of patient survival further implicated PI3K/AKT as having a role in tumor progression, involving specific DNA methylation events. The PI3K/AKT pathway presents a strong therapeutic target in ccRCC, supporting the potential value of MTOR and/or related pathway inhibitor drugs for this cancer.<sup><xref rid="R30" ref-type="bibr">30</xref>,<xref rid="R31" ref-type="bibr">31</xref></sup></p>
+      <p id="P24">Cross-platform molecular analyses indicated a correlation between worsened prognosis in patients with ccRCC and a metabolic shift involving increased dependence on the pentose phosphate shunt, decreased AMPK, decreased Krebs cycle activity, increased glutamine transport and fatty acid production. These findings are consistent with the isotopomer spectral analysis of a pair of <italic>VHL</italic> â/â clear cell kidney cancer cell lines, both of which were notably derived from patients with aggressive, metastatic disease, which revealed a dependence on reductive glutamine metabolism for lipid biosynthesis.<sup><xref rid="R32" ref-type="bibr">32</xref></sup> The metabolic shift identified in poor prognosis ccRCC remarkably mirrors the Warburg metabolic phenotype (increased glycolysis, decreased AMPK, glutamine dependent lipogenesis) identified in type 2 papillary kidney cancer characterized by mutation of the Krebs cycle enzyme, fumarate hydratase.<sup><xref rid="R32" ref-type="bibr">32</xref></sup> Further studies to dissect out the role of the commonly mutated chromosome 3 chromatin remodeling genes, PBRM1, SETD2 and BAP1, in ccRCC tumorigenesis and their potential role in the metabolic remodeling associated with progression of this disease will hopefully provide the foundation for the development of effective forms of therapy for this disease.</p>
+    </sec>
+    <sec id="S7">
+      <title>Methods Summary</title>
+      <p id="P25">Specimens were obtained from patients, with appropriate consent from institutional review boards. Using a co-isolation protocol, DNA and RNA were purified. In total, 446 patients were assayed on at least one molecular profiling platform, which platforms included: (1) RNA sequencing; (2) DNA methylation arrays; (3) miRNA sequencing; (4) Affymetrix SNP arrays; (5) exome sequencing; and (6) reverse phase protein arrays. As described above and in the <xref rid="SD1" ref-type="supplementary-material">Supplemental Methods</xref>, both single platform analyses and integrated cross-platform analyses were performed.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="S8">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <media xlink:href="NIHMS472502-supplement-1.pdf" mimetype="application" mime-subtype="pdf" orientation="portrait" xlink:type="simple" id="d37e758" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>10</label>
+        <media xlink:href="NIHMS472502-supplement-10.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e762" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>11</label>
+        <media xlink:href="NIHMS472502-supplement-11.txt" mimetype="text" mime-subtype="plain" orientation="portrait" xlink:type="simple" id="d37e766" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>12</label>
+        <media xlink:href="NIHMS472502-supplement-12.docx" mimetype="application" mime-subtype="msword" orientation="portrait" xlink:type="simple" id="d37e770" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>2</label>
+        <media xlink:href="NIHMS472502-supplement-2.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e774" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>3</label>
+        <media xlink:href="NIHMS472502-supplement-3.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e778" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD7">
+        <label>4</label>
+        <media xlink:href="NIHMS472502-supplement-4.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e782" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD8">
+        <label>5</label>
+        <media xlink:href="NIHMS472502-supplement-5.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e786" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD9">
+        <label>6</label>
+        <media xlink:href="NIHMS472502-supplement-6.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e790" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD10">
+        <label>7</label>
+        <media xlink:href="NIHMS472502-supplement-7.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e794" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD11">
+        <label>8</label>
+        <media xlink:href="NIHMS472502-supplement-8.xls" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e799" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD12">
+        <label>9</label>
+        <media xlink:href="NIHMS472502-supplement-9.xlsx" mimetype="application" mime-subtype="vnd.ms-excel" orientation="portrait" xlink:type="simple" id="d37e803" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S9">
+      <p>We wish to thank all patients and families who contributed to this study. A full list of grant support and acknowledgments is included in the <xref rid="SD1" ref-type="supplementary-material">supplement</xref>.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN1">
+        <label>1</label>
+        <p>Human Genome Sequencing Center, Baylor College of Medicine, Houston, TX 77030.</p>
+      </fn>
+      <fn id="FN2">
+        <label>2</label>
+        <p>Dan L Duncan Cancer Center, Baylor College of Medicine, Houston, TX 77030.</p>
+      </fn>
+      <fn id="FN3">
+        <label>3</label>
+        <p>Department of Biology &amp; Biochemistry, University of Houston, Houston, TX 77204 USA</p>
+      </fn>
+      <fn id="FN4">
+        <label>4</label>
+        <p>Canadaâs Michael Smith Genome Sciences Centre, BC Cancer Agency, Vancouver, BC V5Z, Canada.</p>
+      </fn>
+      <fn id="FN5">
+        <label>5</label>
+        <p>Department of Medicine, Harvard Medical School, Boston, MA 02215 USA.</p>
+      </fn>
+      <fn id="FN6">
+        <label>6</label>
+        <p>The Eli and Edythe L. Broad Institute of Massachusetts Institute Of Technology and Harvard University, Cambridge, MA 02142 USA.</p>
+      </fn>
+      <fn id="FN7">
+        <label>7</label>
+        <p>Department of Pathology, Harvard Medical School, Boston, MA 02215 USA.</p>
+      </fn>
+      <fn id="FN8">
+        <label>8</label>
+        <p>Department of Computer Science, Brown University, Providence, RI 02912 USA.</p>
+      </fn>
+      <fn id="FN9">
+        <label>9</label>
+        <p>Department of Bioinformatics and Computational Biology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030 USA.</p>
+      </fn>
+      <fn id="FN10">
+        <label>10</label>
+        <p>Department of Pathology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030 USA.</p>
+      </fn>
+      <fn id="FN11">
+        <label>11</label>
+        <p>Department of Pathology, Memorial Sloan-Kettering Cancer Center, New York, NY 10065 USA.</p>
+      </fn>
+      <fn id="FN12">
+        <label>12</label>
+        <p>Human Oncology and Pathogenesis Program, Memorial Sloan-Kettering Cancer Center, New York, NY 10065 USA.</p>
+      </fn>
+      <fn id="FN13">
+        <label>13</label>
+        <p>Computational Biology Center, Memorial Sloan-Kettering Cancer Center, New York, NY 10065 USA.</p>
+      </fn>
+      <fn id="FN14">
+        <label>14</label>
+        <p>Urologic Oncology Branch, Center for Cancer Research, National Cancer Institute, Bethesda, MD 20892 USA.</p>
+      </fn>
+      <fn id="FN15">
+        <label>15</label>
+        <p>Department of Biomolecular Engineering and Center for Biomolecular Science and Engineering, University of California Santa Cruz, Santa Cruz, CA 95064 USA.</p>
+      </fn>
+      <fn id="FN16">
+        <label>16</label>
+        <p>Lineberger Comprehensive Cancer Center, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN17">
+        <label>17</label>
+        <p>USC Epigenome Center, University of Southern California, Los Angeles, CA 90033 USA.</p>
+      </fn>
+      <fn id="FN18">
+        <label>18</label>
+        <p>Eshelman School of Pharmacy, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN19">
+        <label>19</label>
+        <p>Carolina Center for Genome Sciences, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN20">
+        <label>20</label>
+        <p>Department of Biology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN21">
+        <label>21</label>
+        <p>Department of Pathology and Laboratory Medicine, University of North Carolina at Chapel Hill, Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN22">
+        <label>22</label>
+        <p>Department of Genetics, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN23">
+        <label>23</label>
+        <p>Department of Internal Medicine, Division of Medical Oncology, University of North Carolina at Chapel Hill, Chapel Hill, NC 27599 USA.</p>
+      </fn>
+      <fn id="FN24">
+        <label>24</label>
+        <p>Department of Genetics, Harvard Medical School, Boston, MA 02215 USA.</p>
+      </fn>
+      <fn id="FN25">
+        <label>25</label>
+        <p>Division of Genetics, Brigham and Womenâs Hospital, Boston, MA 02115 USA.</p>
+      </fn>
+      <fn id="FN26">
+        <label>26</label>
+        <p>The Center for Biomedical Informatics, Harvard Medical School, Boston, MA 02115 USA.</p>
+      </fn>
+      <fn id="FN27">
+        <label>27</label>
+        <p>Informatics Program, Childrenâs Hospital, Boston, MA 02115 USA.</p>
+      </fn>
+      <fn id="FN28">
+        <label>28</label>
+        <p>Cancer Biology Division, The Sidney Kimmel Comprehensive Cancer Center at Johns Hopkins University, Baltimore, MD 21231 USA.</p>
+      </fn>
+      <fn id="FN29">
+        <label>29</label>
+        <p>Institute for Systems Biology, Seattle, WA 98109 USA.</p>
+      </fn>
+      <fn id="FN30">
+        <label>30</label>
+        <p>Department of Systems Biology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030 USA.</p>
+      </fn>
+      <fn id="FN31">
+        <label>31</label>
+        <p>Department of Genomic Medicine, University of Texas MD Anderson Cancer Center, Houston, TX 77054.</p>
+      </fn>
+      <fn id="FN32">
+        <label>32</label>
+        <p>Department of Epidemiology and Biostatistics, Memorial Sloan-Kettering Cancer Center, New York, NY 10065 USA.</p>
+      </fn>
+      <fn id="FN33">
+        <label>33</label>
+        <p>Department of Molecular &amp; Medical Genetics, Oregon Health &amp; Science University, Portand, OR 97239 USA.</p>
+      </fn>
+      <fn id="FN34">
+        <label>34</label>
+        <p>Department of Radiology, Stanford University Medical Center, Stanford, CA 94305, USA.</p>
+      </fn>
+      <fn id="FN35">
+        <label>35</label>
+        <p>Howard Hughes Medical Institute, University of California Santa Cruz, Santa Cruz, CA 95064 USA.</p>
+      </fn>
+      <fn id="FN36">
+        <label>36</label>
+        <p>The Research Institute at Nationwide Childrenâs Hospital, Columbus, OH 43205.</p>
+      </fn>
+      <fn id="FN37">
+        <label>37</label>
+        <p>Georgetown-Lombardi Comprehensive Cancer Center, Georgetown University, Washington D.C. 20057 USA.</p>
+      </fn>
+      <fn id="FN38">
+        <label>38</label>
+        <p>International Genomics Consortium, Phoenix, AZ 85004 USA.</p>
+      </fn>
+      <fn id="FN39">
+        <label>39</label>
+        <p>Basic Science Program, SAIC-Frederick, Inc., Frederick National Lab, Frederick, MD 21702 USA.</p>
+      </fn>
+      <fn id="FN40">
+        <label>40</label>
+        <p>Department of Urology, The University of Texas MD Anderson Cancer Center, Houston, TX 77030 USA.</p>
+      </fn>
+      <fn id="FN41">
+        <label>41</label>
+        <p>Cancer Biology Program, Fox Chase Cancer Center, Philadelphia, PA USA 19111.</p>
+      </fn>
+      <fn id="FN42">
+        <label>42</label>
+        <p>Helen F. Graham Cancer Center, Christiana Care, Newark, Delaware 19713 USA.</p>
+      </fn>
+      <fn id="FN43">
+        <label>43</label>
+        <p>Penrose-St. Francis Health Services, Colorado Springs, CO USA 80907.</p>
+      </fn>
+      <fn id="FN44">
+        <label>44</label>
+        <p>Department of Pathology, Roswell Park Cancer Institute, Buffalo, NY 14263 USA.</p>
+      </fn>
+      <fn id="FN45">
+        <label>45</label>
+        <p>Department of Pathology, University of Pittsburgh, Pittsburgh, PA, 15213 USA.</p>
+      </fn>
+      <fn id="FN46">
+        <label>46</label>
+        <p>Cureline, Inc. South SAn Francisco, CA 94080 USA.</p>
+      </fn>
+      <fn id="FN47">
+        <label>47</label>
+        <p>St. Petersberg City Clinical Oncology Dispensary, St. Petersberg 198255, Russia.</p>
+      </fn>
+      <fn id="FN48">
+        <label>48</label>
+        <p>Department of Pathology and Laboratory Medicine, Weill Cornell College of Medicine, New York, NY 10065 USA.</p>
+      </fn>
+      <fn id="FN49">
+        <label>49</label>
+        <p>Department of Urology, Massachusetts General Hospital, Boston, MA 02114 USA.</p>
+      </fn>
+      <fn id="FN50">
+        <label>50</label>
+        <p>SRA International, 4300 Fair Lakes Court, Fairfax, VA 22033.</p>
+      </fn>
+      <fn id="FN51">
+        <label>51</label>
+        <p>The Cancer Genome Atlas Program Office, Center for Cancer Genomics, National Cancer Institute, Bethesda, MD.</p>
+      </fn>
+      <fn id="FN52">
+        <label>52</label>
+        <p>TCGA Consultant, Scimentis, LLC, Atlanta, GA.</p>
+      </fn>
+      <fn id="FN53">
+        <label>53</label>
+        <p>MLF Consulting, Arlington, MA 02474 USA.</p>
+      </fn>
+      <fn id="FN54">
+        <label>54</label>
+        <p>National Human Genome Research Institute, National Institutes of Health, Bethesda, MD, 20892.</p>
+      </fn>
+      <fn id="FN55">
+        <p>
+          <bold>DATA ACCESS STATEMENT:</bold>
+        </p>
+        <p>All of the primary sequence files are deposited in CGHub (File IDs in Data File SI) and all other data are deposted at the Data Coordinating Centrer (DCC) for public access (<ext-link ext-link-type="uri" xlink:href="http://cancergenome.nik.gov/">http://cancergenome.nik.gov/</ext-link>).</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>Reference List</title>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Linehan</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Walther</surname>
+              <given-names>MM</given-names>
+            </name>
+            <name>
+              <surname>Zbar</surname>
+              <given-names>B</given-names>
+            </name>
+          </person-group>
+          <article-title>The genetic basis of cancer of the kidney</article-title>
+          <source>The Journal of urology</source>
+          <volume>170</volume>
+          <fpage>2163</fpage>
+          <lpage>2172</lpage>
+          <pub-id pub-id-type="doi">10.1097/01.ju.0000096060.92397.ed</pub-id>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">14634372</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Linehan</surname>
+              <given-names>WM</given-names>
+            </name>
+            <name>
+              <surname>Srinivasan</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>LS</given-names>
+            </name>
+          </person-group>
+          <article-title>The genetic basis of kidney cancer: a metabolic disease</article-title>
+          <source>Nature reviews. Urology</source>
+          <volume>7</volume>
+          <fpage>277</fpage>
+          <lpage>285</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrurol.2010.47</pub-id>
+          <year>2010</year>
+          <pub-id pub-id-type="pmid">20448661</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zbar</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Brauch</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Talmadge</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Linehan</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Loss of alleles of loci on the short arm of chromosome 3 in renal cell carcinoma</article-title>
+          <source>Nature</source>
+          <volume>327</volume>
+          <fpage>721</fpage>
+          <lpage>724</lpage>
+          <pub-id pub-id-type="doi">10.1038/327721a0</pub-id>
+          <year>1987</year>
+          <pub-id pub-id-type="pmid">2885753</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Guo</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Frequent mutations of genes encoding ubiquitin-mediated proteolysis pathway components in clear cell renal cell carcinoma</article-title>
+          <source>Nature genetics</source>
+          <volume>44</volume>
+          <fpage>17</fpage>
+          <lpage>19</lpage>
+          <pub-id pub-id-type="doi">10.1038/ng.1014</pub-id>
+          <year>2012</year>
+          <pub-id pub-id-type="pmid">22138691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Eder</surname>
+              <given-names>AM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Atypical PKCiota contributes to poor prognosis through loss of apical-basal polarity and cyclin E overexpression in ovarian cancer</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>102</volume>
+          <fpage>12519</fpage>
+          <lpage>12524</lpage>
+          <pub-id pub-id-type="doi">10.1073/pnas.0505641102</pub-id>
+          <year>2005</year>
+          <pub-id pub-id-type="pmid">16116079</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wienholds</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Koudijs</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>van Eeden</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Cuppen</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Plasterk</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>The microRNA-producing enzyme Dicer1 is essential for zebrafish development</article-title>
+          <source>Nature genetics</source>
+          <volume>35</volume>
+          <fpage>217</fpage>
+          <lpage>218</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">14528306</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Carter</surname>
+              <given-names>SL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Absolute quantification of somatic DNA alterations in human cancer</article-title>
+          <source>Nature biotechnology</source>
+          <volume>30</volume>
+          <fpage>413</fpage>
+          <lpage>421</lpage>
+          <pub-id pub-id-type="doi">10.1038/nbt.2203</pub-id>
+          <year>2012</year>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerlinger</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Intratumor heterogeneity and branched evolution revealed by multiregion sequencing</article-title>
+          <source>The New England journal of medicine</source>
+          <volume>366</volume>
+          <fpage>883</fpage>
+          <lpage>892</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa1113205</pub-id>
+          <year>2012</year>
+          <pub-id pub-id-type="pmid">22397650</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shen</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Genetic and functional studies implicate HIF1alpha as a 14q kidney cancer suppressor gene</article-title>
+          <source>Cancer discovery</source>
+          <volume>1</volume>
+          <fpage>222</fpage>
+          <lpage>235</lpage>
+          <pub-id pub-id-type="doi">10.1158/2159-8290.CD-11-0098</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">22037472</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herbers</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Significance of chromosome arm 14q loss in nonpapillary renal cell carcinomas</article-title>
+          <source>Genes, chromosomes &amp; cancer</source>
+          <volume>19</volume>
+          <fpage>29</fpage>
+          <lpage>35</lpage>
+          <year>1997</year>
+          <pub-id pub-id-type="pmid">9135992</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lewis</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Shih</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Jones-Rhoades</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Bartel</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Burge</surname>
+              <given-names>C</given-names>
+            </name>
+          </person-group>
+          <article-title>Prediction of mammalian microRNA targets</article-title>
+          <source>Cell</source>
+          <volume>115</volume>
+          <fpage>787</fpage>
+          <lpage>798</lpage>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">14697198</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Clark</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Fusion of splicing factor genes PSF and NonO (p54nrb) to the TFE3 gene in papillary renal cell carcinoma</article-title>
+          <source>Oncogene</source>
+          <volume>15</volume>
+          <fpage>2233</fpage>
+          <lpage>2239</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.onc.1201394</pub-id>
+          <year>1997</year>
+          <pub-id pub-id-type="pmid">9393982</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Herman</surname>
+              <given-names>JG</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Silencing of the VHL tumor-suppressor gene by DNA methylation in renal carcinoma</article-title>
+          <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+          <volume>91</volume>
+          <fpage>9700</fpage>
+          <lpage>9704</lpage>
+          <year>1994</year>
+          <pub-id pub-id-type="pmid">7937876</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Modena</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>UQCRH gene encoding mitochondrial Hinge protein is interrupted by a translocation in a soft-tissue sarcoma and epigenetically inactivated in some cancer cell lines</article-title>
+          <source>Oncogene</source>
+          <volume>22</volume>
+          <fpage>4586</fpage>
+          <lpage>4593</lpage>
+          <pub-id pub-id-type="doi">10.1038/sj.onc.1206472</pub-id>
+          <year>2003</year>
+          <pub-id pub-id-type="pmid">12881716</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wagner</surname>
+              <given-names>EJ</given-names>
+            </name>
+            <name>
+              <surname>Carpenter</surname>
+              <given-names>PB</given-names>
+            </name>
+          </person-group>
+          <article-title>Understanding the language of Lys36 methylation at histone H3</article-title>
+          <source>Nature reviews. Molecular cell biology</source>
+          <volume>13</volume>
+          <fpage>115</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="doi">10.1038/nrm3274</pub-id>
+          <year>2012</year>
+          <pub-id pub-id-type="pmid">22266761</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dhayalan</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The Dnmt3a PWWP domain reads histone 3 lysine 36 trimethylation and guides DNA methylation</article-title>
+          <source>The Journal of biological chemistry</source>
+          <volume>285</volume>
+          <fpage>26114</fpage>
+          <lpage>26120</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M109.089433</pub-id>
+          <year>2010</year>
+          <pub-id pub-id-type="pmid">20547484</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brannon</surname>
+              <given-names>AR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Molecular Stratification of Clear Cell Renal Cell Carcinoma by Consensus Clustering Reveals Distinct Subtypes and Survival Patterns</article-title>
+          <source>Genes &amp; cancer</source>
+          <volume>1</volume>
+          <fpage>152</fpage>
+          <lpage>163</lpage>
+          <pub-id pub-id-type="doi">10.1177/1947601909359929</pub-id>
+          <year>2010</year>
+          <pub-id pub-id-type="pmid">20871783</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Liu</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Identifying mRNA targets of microRNA dysregulated in cancer: with application to clear cell Renal Cell Carcinoma</article-title>
+          <source>BMC systems biology</source>
+          <volume>4</volume>
+          <fpage>51</fpage>
+          <pub-id pub-id-type="doi">10.1186/1752-0509-4-51</pub-id>
+          <year>2010</year>
+          <pub-id pub-id-type="pmid">20420713</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Creighton</surname>
+              <given-names>CJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Integrated analyses of microRNAs demonstrate their widespread influence on gene expression in high-grade serous ovarian carcinoma</article-title>
+          <source>PloS one</source>
+          <volume>7</volume>
+          <fpage>e34546</fpage>
+          <pub-id pub-id-type="doi">10.1371/journal.pone.0034546</pub-id>
+          <year>2012</year>
+          <pub-id pub-id-type="pmid">22479643</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dey</surname>
+              <given-names>N</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>MicroRNA-21 orchestrates high glucose-induced signals to TOR complex 1, resulting in renal cell pathology in diabetes</article-title>
+          <source>The Journal of biological chemistry</source>
+          <volume>286</volume>
+          <fpage>25586</fpage>
+          <lpage>25603</lpage>
+          <pub-id pub-id-type="doi">10.1074/jbc.M110.208066</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">21613227</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vandin</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Upfal</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Raphael</surname>
+              <given-names>BJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Algorithms for detecting significantly mutated pathways in cancer</article-title>
+          <source>Journal of computational biology: a journal of computational molecular cell biology</source>
+          <volume>18</volume>
+          <fpage>507</fpage>
+          <lpage>522</lpage>
+          <pub-id pub-id-type="doi">10.1089/cmb.2010.0265</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">21385051</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ciriello</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Cerami</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Sander</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Schultz</surname>
+              <given-names>N</given-names>
+            </name>
+          </person-group>
+          <article-title>Mutual exclusivity analysis identifies oncogenic network modules</article-title>
+          <source>Genome research</source>
+          <volume>22</volume>
+          <fpage>398</fpage>
+          <lpage>406</lpage>
+          <pub-id pub-id-type="doi">10.1101/gr.125567.111</pub-id>
+          <year>2012</year>
+          <pub-id pub-id-type="pmid">21908773</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>He</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Messing</surname>
+              <given-names>EM</given-names>
+            </name>
+            <name>
+              <surname>Wu</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of receptor for activated C kinase 1 protein by the von Hippel-Lindau tumor suppressor in IGF-I-induced renal carcinoma cell invasiveness</article-title>
+          <source>Oncogene</source>
+          <volume>30</volume>
+          <fpage>535</fpage>
+          <lpage>547</lpage>
+          <pub-id pub-id-type="doi">10.1038/onc.2010.427</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">20871634</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Duran</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>p62 is a key regulator of nutrient sensing in the mTORC1 pathway</article-title>
+          <source>Molecular cell</source>
+          <volume>44</volume>
+          <fpage>134</fpage>
+          <lpage>146</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.molcel.2011.06.038</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">21981924</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ravaud</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Lapatinib versus hormone therapy in patients with advanced renal cell carcinoma: a randomized phase III clinical trial</article-title>
+          <source>J Clin Oncol</source>
+          <volume>26</volume>
+          <fpage>2285</fpage>
+          <lpage>2291</lpage>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18467719</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <collab>Cancer Genome Atlas Research N</collab>
+          <article-title>Integrated genomic analyses of ovarian carcinoma</article-title>
+          <source>Nature</source>
+          <volume>474</volume>
+          <fpage>609</fpage>
+          <lpage>615</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10166</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">21720365</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tong</surname>
+              <given-names>WH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The glycolytic shift in fumarate-hydratase-deficient kidney cancer lowers AMPK levels, increases anabolic propensities and lowers cellular iron levels</article-title>
+          <source>Cancer cell</source>
+          <volume>20</volume>
+          <fpage>315</fpage>
+          <lpage>327</lpage>
+          <pub-id pub-id-type="doi">10.1016/j.ccr.2011.07.018</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">21907923</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yu</surname>
+              <given-names>Y</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phosphoproteomic analysis identifies Grb10 as an mTORC1 substrate that negatively regulates insulin signaling</article-title>
+          <source>Science</source>
+          <volume>332</volume>
+          <fpage>1322</fpage>
+          <lpage>1326</lpage>
+          <pub-id pub-id-type="doi">10.1126/science.1199484</pub-id>
+          <year>2011</year>
+          <pub-id pub-id-type="pmid">21659605</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R29">
+        <label>29</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Dalgliesh</surname>
+              <given-names>GL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Systematic sequencing of renal carcinoma reveals inactivation of histone modifying genes</article-title>
+          <source>Nature</source>
+          <volume>463</volume>
+          <fpage>360</fpage>
+          <lpage>363</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature08672</pub-id>
+          <year>2010</year>
+          <pub-id pub-id-type="pmid">20054297</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R30">
+        <label>30</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Motzer</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Efficacy of everolimus in advanced renal cell carcinoma: a double-blind, randomised, placebo-controlled phase III trial</article-title>
+          <source>Lancet</source>
+          <volume>372</volume>
+          <fpage>449</fpage>
+          <lpage>456</lpage>
+          <pub-id pub-id-type="doi">10.1016/S0140-6736(08)61039-9</pub-id>
+          <year>2008</year>
+          <pub-id pub-id-type="pmid">18653228</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R31">
+        <label>31</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hudes</surname>
+              <given-names>G</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Temsirolimus, interferon alfa, or both for advanced renal-cell carcinoma</article-title>
+          <source>The New England journal of medicine</source>
+          <volume>356</volume>
+          <fpage>2271</fpage>
+          <lpage>2281</lpage>
+          <pub-id pub-id-type="doi">10.1056/NEJMoa066838</pub-id>
+          <year>2007</year>
+          <pub-id pub-id-type="pmid">17538086</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R32">
+        <label>32</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Metallo</surname>
+              <given-names>CM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Reductive glutamine metabolism by IDH1 mediates lipogenesis under hypoxia</article-title>
+          <source>Nature</source>
+          <volume>481</volume>
+          <fpage>380</fpage>
+          <lpage>384</lpage>
+          <pub-id pub-id-type="doi">10.1038/nature10602</pub-id>
+          <year>2012</year>
+          <pub-id pub-id-type="pmid">22101433</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <app-group>
+      <app id="APP1">
+        <title/>
+        <sec id="S10">
+          <title>Contributions</title>
+          <p id="P26">The Cancer Genome Atlas research network contributed collectively to this study. Biospecimens were provided by the tissue source sites and processed by the Biospecimen Core Resource. Data generation and analyses were performed by the genome-sequencing centers, cancer genome-characterization centers and genome data analysis centers. All data were released through the Data Coordinating Center. Project activities were coordinated by the NCI and NHGRI project teams. We also acknowledge the following TCGA investigators of the Kidney Analysis Working Group who contributed substantially to the analysis and writing of this manuscript: <bold>Project leaders:</bold> Richard A. Gibbs, W. Marston Linehan. <bold>Data Coordinator:</bold> Margaret Morgan. <bold>Analysis Coordinators:</bold> Chad J. Creighton, Roel G. W. Verhaak. <bold>Manuscript Coordinators:</bold> Richard A. Gibbs, Chad J. Creighton. <bold>Writing Team:</bold> W. Marston Linehan, Chad J. Creighton, W. Kimryn Rathmell, Roel G. W. Verhaak, Richard A. Gibbs. <bold>DNA Sequence analysis:</bold> David A Wheeler, Kristian Cibulskis. <bold>mRNA analysis:</bold> Roel G. W. Verhaak, A. Rose Brannon, W. Kimryn Rathmell, Wandaliz Torres-Garcia. <bold>microRNA analysis:</bold> A. Gordon Robertson, Andy Chu, Preethi H. Gunaratne. <bold>DNA methylation analysis:</bold> Hui Shen, Peter W. Laird. <bold>Copy number analysis:</bold> Rameen Beroukhim, Sabina Signoretti. <bold>Protein analysis:</bold> Dimitra Tsavachidou, Yiling Lu, Gordon B Mills. <bold>Pathway/Integrated Analysis:</bold> Rehan Akbani, Giovanni Ciriello, Chad J. Creighton, Suzanne S. Fei, Anders Jacobsen, Evan O. Paull, Ben Raphael, Shelia Reynolds, Christopher J. Ricketts, Nikolaus Schultz, Joshua M. Stuart, Fabio Vandin. <bold>Clinical Data:</bold> W. Kimryn Rathmell, A. Ari Hakimi, Johanna Gardener, Candace Shelton. <bold>Pathology and Clinical Expertise:</bold> James Hsieh, Marston W. Linehan, Pheroze Tamboli, W. Kimryn Rathmell, Victor Reuter.</p>
+        </sec>
+        <sec id="S11" sec-type="methods">
+          <title>Analysis Working Group</title>
+          <p id="P27"><italic>Baylor College of Medicine â</italic> Chad J. Creighton(<xref ref-type="fn" rid="FN1">1</xref>, <xref ref-type="fn" rid="FN2">2</xref>), Margaret Morgan(<xref ref-type="fn" rid="FN1">1</xref>), Preethi Gunaratne(<xref ref-type="fn" rid="FN1">1</xref>, <xref ref-type="fn" rid="FN3">3</xref>), David Wheeler(<xref ref-type="fn" rid="FN1">1</xref>), Richard Gibbs(<xref ref-type="fn" rid="FN1">1</xref>), <italic>BC Cancer Agency â</italic> A. Gordon Robertson(<xref ref-type="fn" rid="FN4">4</xref>), Andy Chu(<xref ref-type="fn" rid="FN4">4</xref>), <italic>Broad Institute -</italic> Rameen Beroukhim(<xref ref-type="fn" rid="FN5">5</xref>, <xref ref-type="fn" rid="FN6">6</xref>), Kristian Cibulskis(<xref ref-type="fn" rid="FN6">6</xref>), <italic>Brigham and Womenâs Hospital -</italic> Sabina Signoretti(<xref ref-type="fn" rid="FN7">7</xref>), <italic>Brown University -</italic> Fabio Vandin(<xref ref-type="fn" rid="FN8">8</xref>), Hsin-Ta Wu(<xref ref-type="fn" rid="FN8">8</xref>), Benjamin J. Raphael(<xref ref-type="fn" rid="FN8">8</xref>), <italic>The University of Texas M.D. Anderson Cancer Center -</italic> Roel G.W. Verhaak(<xref ref-type="fn" rid="FN9">9</xref>), Pheroze Tamboli(<xref ref-type="fn" rid="FN10">10</xref>), Wandaliz Torres-Garcia(<xref ref-type="fn" rid="FN9">9</xref>), Rehan Akbani(<xref ref-type="fn" rid="FN9">9</xref>), John N. Weinstein(<xref ref-type="fn" rid="FN9">9</xref>), <italic>Memorial Sloan-Kettering Cancer Center -</italic> Victor Reuter(<xref ref-type="fn" rid="FN11">11</xref>), James J Hsieh(<xref ref-type="fn" rid="FN12">12</xref>), A. Rose Brannon(<xref ref-type="fn" rid="FN11">11</xref>), A. Ari Hakimi(<xref ref-type="fn" rid="FN12">12</xref>), Anders Jacobsen(<xref ref-type="fn" rid="FN13">13</xref>), Giovanni Ciriello(<xref ref-type="fn" rid="FN13">13</xref>), Boris Reva(<xref ref-type="fn" rid="FN13">13</xref>), <italic>National Cancer Institute â</italic> Christopher J. Ricketts(<xref ref-type="fn" rid="FN14">14</xref>), W. Marston Linehan(<xref ref-type="fn" rid="FN14">14</xref>), <italic>UC Santa Cruz -</italic> Joshua M. Stuart(<xref ref-type="fn" rid="FN15">15</xref>), <italic>University of North Carolina, Chapel Hill</italic> - W. Kimryn Rathmell(<xref ref-type="fn" rid="FN16">16</xref>), <italic>University of Southern California</italic> - Hui Shen(<xref ref-type="fn" rid="FN17">17</xref>), Peter W. Laird(<xref ref-type="fn" rid="FN17">17</xref>).</p>
+        </sec>
+        <sec id="S12">
+          <title>Genome Sequencing Centers</title>
+          <p id="P28"><italic>Baylor College of Medicine -</italic> Donna Muzny(<xref ref-type="fn" rid="FN1">1</xref>), Caleb Davis(<xref ref-type="fn" rid="FN1">1</xref>), Margaret Morgan(<xref ref-type="fn" rid="FN1">1</xref>), Liu Xi(<xref ref-type="fn" rid="FN1">1</xref>), Kyle Chang(<xref ref-type="fn" rid="FN1">1</xref>), Nipun Kakkar(<xref ref-type="fn" rid="FN1">1</xref>), Lisa R. TreviÃ±o(<xref ref-type="fn" rid="FN1">1</xref>), Susan Benton(<xref ref-type="fn" rid="FN1">1</xref>), Jeffrey G. Reid(<xref ref-type="fn" rid="FN1">1</xref>), Donna Morton(<xref ref-type="fn" rid="FN1">1</xref>), Harsha Doddapaneni(<xref ref-type="fn" rid="FN1">1</xref>), Yi Han(<xref ref-type="fn" rid="FN1">1</xref>), Lora Lewis(<xref ref-type="fn" rid="FN1">1</xref>), Huyen Dinh(<xref ref-type="fn" rid="FN1">1</xref>), Christie Kovar(<xref ref-type="fn" rid="FN1">1</xref>), Yiming Zhu(<xref ref-type="fn" rid="FN1">1</xref>), Jireh Santibanez(<xref ref-type="fn" rid="FN1">1</xref>), Min Wang(<xref ref-type="fn" rid="FN1">1</xref>), Walker Hale(<xref ref-type="fn" rid="FN1">1</xref>), Divya Kalra(<xref ref-type="fn" rid="FN1">1</xref>), Chad J. Creighton(<xref ref-type="fn" rid="FN1">1</xref>, <xref ref-type="fn" rid="FN2">2</xref>), David A. Wheeler(<xref ref-type="fn" rid="FN1">1</xref>), Richard Gibbs(<xref ref-type="fn" rid="FN1">1</xref>), <italic>Broad Institute -</italic> Andrew Cherniack(<xref ref-type="fn" rid="FN6">6</xref>), Barbara Tabak(<xref ref-type="fn" rid="FN6">6</xref>), Gad Getz(<xref ref-type="fn" rid="FN6">6</xref>), Gordon Saksena(<xref ref-type="fn" rid="FN6">6</xref>), Jeff Gentry(<xref ref-type="fn" rid="FN6">6</xref>), Kristin Ardlie(<xref ref-type="fn" rid="FN6">6</xref>), Robert C. Onofrio(<xref ref-type="fn" rid="FN6">6</xref>), Scott L. Carter(<xref ref-type="fn" rid="FN6">6</xref>), Stacey B. Gabriel(<xref ref-type="fn" rid="FN6">6</xref>), Kristian Cibulskis(<xref ref-type="fn" rid="FN6">6</xref>), Carrie Sougnez(<xref ref-type="fn" rid="FN6">6</xref>), Steve Schumacher(<xref ref-type="fn" rid="FN6">6</xref>), Matthew Meyerson(<xref ref-type="fn" rid="FN6">6</xref>).</p>
+        </sec>
+        <sec id="S13">
+          <title>Genome Characterization Centers</title>
+          <p id="P29"><italic>Broad Institute -</italic> Rameen Beroukhim(<xref ref-type="fn" rid="FN5">5</xref>, <xref ref-type="fn" rid="FN6">6</xref>), <italic>BC Cancer Agency -</italic> A. Gordon Robertson(<xref ref-type="fn" rid="FN4">4</xref>), Andy Chu(<xref ref-type="fn" rid="FN4">4</xref>), Hye-Jung E. Chun(<xref ref-type="fn" rid="FN4">4</xref>), Andrew J. Mungall(<xref ref-type="fn" rid="FN4">4</xref>), Payal Sipahimalani(<xref ref-type="fn" rid="FN4">4</xref>), Dominik Stoll(<xref ref-type="fn" rid="FN4">4</xref>), Adrian Ally(<xref ref-type="fn" rid="FN4">4</xref>), Miruna Balasundaram(<xref ref-type="fn" rid="FN4">4</xref>), Yaron S.N. Butterfield(<xref ref-type="fn" rid="FN4">4</xref>), Rebecca Carlsen(<xref ref-type="fn" rid="FN4">4</xref>), Candace Carter(<xref ref-type="fn" rid="FN4">4</xref>), Eric Chuah(<xref ref-type="fn" rid="FN4">4</xref>), Robin J.N. Coope(<xref ref-type="fn" rid="FN4">4</xref>), Noreen Dhalla(<xref ref-type="fn" rid="FN4">4</xref>), Sharon Gorski(<xref ref-type="fn" rid="FN4">4</xref>), Ranabir Guin(<xref ref-type="fn" rid="FN4">4</xref>), Carrie Hirst(<xref ref-type="fn" rid="FN4">4</xref>), Martin Hirst(<xref ref-type="fn" rid="FN4">4</xref>), Robert A. Holt(<xref ref-type="fn" rid="FN4">4</xref>), Chandra Lebovitz(<xref ref-type="fn" rid="FN4">4</xref>), Darlene Lee(<xref ref-type="fn" rid="FN4">4</xref>), Haiyan I. Li(<xref ref-type="fn" rid="FN4">4</xref>), Michael Mayo(<xref ref-type="fn" rid="FN4">4</xref>), Richard A. Moore(<xref ref-type="fn" rid="FN4">4</xref>), Erin Pleasance(<xref ref-type="fn" rid="FN4">4</xref>), Patrick Plettner(<xref ref-type="fn" rid="FN4">4</xref>), Jacqueline E. Schein(<xref ref-type="fn" rid="FN4">4</xref>), Arash Shafiei(<xref ref-type="fn" rid="FN4">4</xref>), Jared R. Slobodan(<xref ref-type="fn" rid="FN4">4</xref>), Angela Tam(<xref ref-type="fn" rid="FN4">4</xref>), Nina Thiessen(<xref ref-type="fn" rid="FN4">4</xref>), Richard J. Varhol(<xref ref-type="fn" rid="FN4">4</xref>), Natasja Wye(<xref ref-type="fn" rid="FN4">4</xref>), Yongjun Zhao(<xref ref-type="fn" rid="FN4">4</xref>), Inanc Birol(<xref ref-type="fn" rid="FN4">4</xref>), Steven J.M. Jones(<xref ref-type="fn" rid="FN4">4</xref>), Marco A. Marra(<xref ref-type="fn" rid="FN4">4</xref>), <italic>University of North Carolina, Chapel Hill</italic> - J. Todd Auman(<xref ref-type="fn" rid="FN18">18</xref>), Donghui Tan(<xref ref-type="fn" rid="FN19">19</xref>), Corbin D. Jones(<xref ref-type="fn" rid="FN20">20</xref>), Katherine A. Hoadley(<xref ref-type="fn" rid="FN16">16</xref>, <xref ref-type="fn" rid="FN21">21</xref>, <xref ref-type="fn" rid="FN22">22</xref>), Piotr A. Mieczkowski(<xref ref-type="fn" rid="FN22">22</xref>), Lisle E. Mose(<xref ref-type="fn" rid="FN21">21</xref>), Stuart R. Jefferys(<xref ref-type="fn" rid="FN22">22</xref>), Michael D. Topal(<xref ref-type="fn" rid="FN21">21</xref>, <xref ref-type="fn" rid="FN22">22</xref>), Christina Liquori(<xref ref-type="fn" rid="FN16">16</xref>), Yidi J. Turman(<xref ref-type="fn" rid="FN16">16</xref>), Yan Shi(<xref ref-type="fn" rid="FN16">16</xref>), Scot Waring(<xref ref-type="fn" rid="FN16">16</xref>), Elizabeth Buda(<xref ref-type="fn" rid="FN16">16</xref>), Jesse Walsh(<xref ref-type="fn" rid="FN16">16</xref>), Junyuan Wu(<xref ref-type="fn" rid="FN16">16</xref>), Tom Bodenheimer(<xref ref-type="fn" rid="FN16">16</xref>), Alan P. Hoyle(<xref ref-type="fn" rid="FN16">16</xref>), Janae V. Simons(<xref ref-type="fn" rid="FN16">16</xref>), Mathew G. Soloway(<xref ref-type="fn" rid="FN16">16</xref>), Saianand Balu(<xref ref-type="fn" rid="FN16">16</xref>), Joel S. Parker(<xref ref-type="fn" rid="FN16">16</xref>), D. Neil Hayes(<xref ref-type="fn" rid="FN16">16</xref>, <xref ref-type="fn" rid="FN23">23</xref>), Charles M. Perou(<xref ref-type="fn" rid="FN16">16</xref>, <xref ref-type="fn" rid="FN21">21</xref>, <xref ref-type="fn" rid="FN22">22</xref>), <italic>Harvard Medical School -</italic> Raju Kucherlapati(<xref ref-type="fn" rid="FN24">24</xref>, <xref ref-type="fn" rid="FN25">25</xref>), Peter Park(<xref ref-type="fn" rid="FN25">25</xref>â<xref ref-type="fn" rid="FN27">27</xref>), <italic>University of Southern California and Johns Hopkins University -</italic> Hui Shen(<xref ref-type="fn" rid="FN17">17</xref>), Timothy Triche Jr.(<xref ref-type="fn" rid="FN17">17</xref>), Daniel J. Weisenberger(<xref ref-type="fn" rid="FN17">17</xref>), Phillip H. Lai(<xref ref-type="fn" rid="FN17">17</xref>), Moiz S. Bootwalla(<xref ref-type="fn" rid="FN17">17</xref>), Dennis T. Maglinte(<xref ref-type="fn" rid="FN17">17</xref>), Swapna Mahurkar(<xref ref-type="fn" rid="FN17">17</xref>), Benjamin P. Berman(<xref ref-type="fn" rid="FN17">17</xref>), David J. Van Den Berg(<xref ref-type="fn" rid="FN17">17</xref>), Leslie Cope(<xref ref-type="fn" rid="FN28">28</xref>), Stephen B. Baylin(<xref ref-type="fn" rid="FN28">28</xref>), Peter W. Laird(<xref ref-type="fn" rid="FN17">17</xref>).</p>
+        </sec>
+        <sec id="S14" sec-type="methods">
+          <title>Genome Data Analysis</title>
+          <p id="P30"><italic>Baylor College of Medicine â</italic> Chad J. Creighton(<xref ref-type="fn" rid="FN1">1</xref>, <xref ref-type="fn" rid="FN2">2</xref>), <italic>Brown University -</italic> Fabio Vandin(<xref ref-type="fn" rid="FN8">8</xref>), Hsin-Ta Wu(<xref ref-type="fn" rid="FN8">8</xref>), Benjamin J. Raphael(<xref ref-type="fn" rid="FN8">8</xref>), <italic>Institute for Systems Biology -</italic> Sheila M. Reynolds(<xref ref-type="fn" rid="FN29">29</xref>), <italic>The University of Texas M.D. Anderson Cancer Center -</italic> Roel G.W. Verhaak(<xref ref-type="fn" rid="FN9">9</xref>), Wandaliz Torres-Garca(<xref ref-type="fn" rid="FN9">9</xref>), Rahul Vegesna(<xref ref-type="fn" rid="FN9">9</xref>), Hoon Kim(<xref ref-type="fn" rid="FN9">9</xref>), Wei Zhang(<xref ref-type="fn" rid="FN9">9</xref>), David Cogdell(<xref ref-type="fn" rid="FN9">9</xref>), Eric Jonasch(<xref ref-type="fn" rid="FN9">9</xref>), Zhiyong Ding(<xref ref-type="fn" rid="FN9">9</xref>), Yiling Lu(<xref ref-type="fn" rid="FN30">30</xref>), Rehan Akbani(<xref ref-type="fn" rid="FN9">9</xref>), Nianxiang Zhang(<xref ref-type="fn" rid="FN9">9</xref>), Anna K. Unruh(<xref ref-type="fn" rid="FN9">9</xref>), Tod D. Casasent(<xref ref-type="fn" rid="FN9">9</xref>), Chris Wakefield(<xref ref-type="fn" rid="FN9">9</xref>), Dimitra Tsavachidou(<xref ref-type="fn" rid="FN30">30</xref>), Lynda Chin(<xref ref-type="fn" rid="FN31">31</xref>), Gordon B. Mills(<xref ref-type="fn" rid="FN30">30</xref>), John N. Weinstein(<xref ref-type="fn" rid="FN9">9</xref>), <italic>Memorial Sloan-Kettering Cancer Center -</italic> Anders Jacobsen(<xref ref-type="fn" rid="FN13">13</xref>), A. Rose Brannon(<xref ref-type="fn" rid="FN11">11</xref>), Giovanni Ciriello(<xref ref-type="fn" rid="FN13">13</xref>), Nikolaus Schultz(<xref ref-type="fn" rid="FN13">13</xref>), A Ari Hakimi(<xref ref-type="fn" rid="FN12">12</xref>), Boris Reva(<xref ref-type="fn" rid="FN13">13</xref>), Yevgeniy Antipin(<xref ref-type="fn" rid="FN13">13</xref>), Jianjiong Gao(<xref ref-type="fn" rid="FN13">13</xref>), Ethan Cerami(<xref ref-type="fn" rid="FN13">13</xref>), Benjamin Gross(<xref ref-type="fn" rid="FN13">13</xref>), B. Arman Aksoy(<xref ref-type="fn" rid="FN13">13</xref>), Rileen Sinha(<xref ref-type="fn" rid="FN13">13</xref>), Nils Weinhold(<xref ref-type="fn" rid="FN13">13</xref>), S. Onur Sumer(<xref ref-type="fn" rid="FN13">13</xref>), Barry S. Taylor(<xref ref-type="fn" rid="FN13">13</xref>), Ronglai Shen(<xref ref-type="fn" rid="FN13">13</xref>), Irina Ostrovnaya(<xref ref-type="fn" rid="FN32">32</xref>), James J Hsieh(<xref ref-type="fn" rid="FN12">12</xref>), Michael F. Berger(<xref ref-type="fn" rid="FN11">11</xref>), Marc Ladanyi(<xref ref-type="fn" rid="FN12">12</xref>), Chris Sander(<xref ref-type="fn" rid="FN13">13</xref>), <italic>Oregon Health &amp; Science University -</italic> Suzanne S. Fei(<xref ref-type="fn" rid="FN33">33</xref>), Andrew Stout(<xref ref-type="fn" rid="FN33">33</xref>), Paul T Spellman(<xref ref-type="fn" rid="FN33">33</xref>), <italic>Stanford University -</italic> Daniel L. Rubin(<xref ref-type="fn" rid="FN34">34</xref>), Tiffany T. Liu(<xref ref-type="fn" rid="FN34">34</xref>), <italic>UC Santa Cruz -</italic> Joshua M. Stuart(<xref ref-type="fn" rid="FN15">15</xref>), Sam Ng(<xref ref-type="fn" rid="FN15">15</xref>), Evan O. Paull(<xref ref-type="fn" rid="FN15">15</xref>), Daniel Carlin(<xref ref-type="fn" rid="FN15">15</xref>), Theodore Goldstein(<xref ref-type="fn" rid="FN15">15</xref>), Peter Waltman(<xref ref-type="fn" rid="FN15">15</xref>), Kyle Ellrott(<xref ref-type="fn" rid="FN15">15</xref>), Jing Zhu(<xref ref-type="fn" rid="FN15">15</xref>), David Haussler(<xref ref-type="fn" rid="FN15">15</xref>, <xref ref-type="fn" rid="FN35">35</xref>), <italic>University of Houston â</italic> Preethi H Gunaratne(<xref ref-type="fn" rid="FN1">1</xref>, <xref ref-type="fn" rid="FN3">3</xref>), Weimin Xiao(<xref ref-type="fn" rid="FN3">3</xref>).</p>
+        </sec>
+        <sec id="S15">
+          <title>Biospecimen Core Resource</title>
+          <p id="P31"><italic>International Genomics Consortium -</italic> Candace Shelton(<xref ref-type="fn" rid="FN36">36</xref>), Johanna Gardner(<xref ref-type="fn" rid="FN36">36</xref>), Robert Penny(<xref ref-type="fn" rid="FN36">36</xref>), Mark Sherman(<xref ref-type="fn" rid="FN36">36</xref>), David Mallery(<xref ref-type="fn" rid="FN36">36</xref>), Scott Morris(<xref ref-type="fn" rid="FN36">36</xref>), Joseph Paulauskis(<xref ref-type="fn" rid="FN36">36</xref>), Ken Burnett(<xref ref-type="fn" rid="FN36">36</xref>), Troy Shelton(<xref ref-type="fn" rid="FN36">36</xref>).</p>
+        </sec>
+        <sec id="S16">
+          <title>Tissue Source Sites</title>
+          <p id="P32"><italic>Brigham and Womenâs Hospital -</italic> Sabina Signoretti(<xref ref-type="fn" rid="FN7">7</xref>), <italic>Dana-Farber Cancer Institute -</italic> William G. Kaelin(<xref ref-type="fn" rid="FN5">5</xref>), Toni Choueiri(<xref ref-type="fn" rid="FN5">5</xref>), <italic>Georgetown University-</italic> Michael B. Atkins(<xref ref-type="fn" rid="FN37">37</xref>), <italic>International Genomics Consortium -</italic> Robert Penny(<xref ref-type="fn" rid="FN38">38</xref>), Ken Burnett(<xref ref-type="fn" rid="FN38">38</xref>), David Mallery(<xref ref-type="fn" rid="FN38">38</xref>), Erin Curley(<xref ref-type="fn" rid="FN38">38</xref>), <italic>Memorial Sloan-Kettering Cancer Center -</italic> Satish Tickoo(<xref ref-type="fn" rid="FN11">11</xref>), Victor Reuter(<xref ref-type="fn" rid="FN11">11</xref>), <italic>University of North Carolina at Chapel Hill -</italic> W. Kimryn Rathmell(<xref ref-type="fn" rid="FN16">16</xref>), Leigh Thorne(<xref ref-type="fn" rid="FN16">16</xref>), Lori Boice(<xref ref-type="fn" rid="FN16">16</xref>), Mei Huang(<xref ref-type="fn" rid="FN16">16</xref>), Jennifer C. Fisher(<xref ref-type="fn" rid="FN16">16</xref>). <italic>National Cancer Institute</italic> - W. Marston Linehan(<xref ref-type="fn" rid="FN14">14</xref>), Cathy D. Vocke(<xref ref-type="fn" rid="FN14">14</xref>), James Peterson(<xref ref-type="fn" rid="FN14">14</xref>), Robert Worrell(<xref ref-type="fn" rid="FN14">14</xref>), Maria J. Merino(<xref ref-type="fn" rid="FN14">14</xref>), Laura S. Schmidt(<xref ref-type="fn" rid="FN14">14</xref>, <xref ref-type="fn" rid="FN39">39</xref>), <italic>The University of Texas M.D. Anderson Cancer Center -</italic> Pheroze Tamboli(<xref ref-type="fn" rid="FN10">10</xref>), Bogdan A. Czerniak(<xref ref-type="fn" rid="FN10">10</xref>), Kenneth D. Aldape(<xref ref-type="fn" rid="FN10">10</xref>), Christopher G. Wood(<xref ref-type="fn" rid="FN40">40</xref>). <italic>Fox Chase Cancer Center</italic> - Jeff Boyd(<xref ref-type="fn" rid="FN41">41</xref>), JoEllen Weaver(<xref ref-type="fn" rid="FN41">41</xref>), <italic>Helen F Graham Cancer Center at Christiana Care</italic> - Mary V. Iacocca(<xref ref-type="fn" rid="FN42">42</xref>), Nicholas Petrelli(<xref ref-type="fn" rid="FN42">42</xref>), Gary Witkin(<xref ref-type="fn" rid="FN42">42</xref>), Jennifer Brown(<xref ref-type="fn" rid="FN42">42</xref>), Christine Czerwinski(<xref ref-type="fn" rid="FN42">42</xref>), Lori Huelsenbeck-Dill(<xref ref-type="fn" rid="FN42">42</xref>), Brenda Rabeno(<xref ref-type="fn" rid="FN42">42</xref>), <italic>Penrose-St. Francis Health Services</italic> â Jerome Myers(<xref ref-type="fn" rid="FN43">43</xref>), Carl Morrison(<xref ref-type="fn" rid="FN43">43</xref>), Julie Bergsten(<xref ref-type="fn" rid="FN43">43</xref>), John Eckman(<xref ref-type="fn" rid="FN43">43</xref>), Jodi Harr(<xref ref-type="fn" rid="FN43">43</xref>), Christine Smith(<xref ref-type="fn" rid="FN43">43</xref>), Kelinda Tucker(<xref ref-type="fn" rid="FN43">43</xref>), Leigh Anne Zach(<xref ref-type="fn" rid="FN43">43</xref>), <italic>Roswell Park Cancer Institute</italic> - Wiam Bshara(<xref ref-type="fn" rid="FN44">44</xref>), Carmelo Gaudioso(<xref ref-type="fn" rid="FN44">44</xref>), Carl Morrison(<xref ref-type="fn" rid="FN44">44</xref>), <italic>University of Pittsburgh</italic> - Rajiv Dhir(<xref ref-type="fn" rid="FN45">45</xref>), Jodi Maranchie(<xref ref-type="fn" rid="FN45">45</xref>), Joel Nelson(<xref ref-type="fn" rid="FN45">45</xref>), Anil Parwani(<xref ref-type="fn" rid="FN45">45</xref>), <italic>Cureline</italic> â Olga Potapova(<xref ref-type="fn" rid="FN46">46</xref>), <italic>St. Petersberg City Clinical Oncology Dispensary</italic> - Konstantin Fedosenko(<xref ref-type="fn" rid="FN47">47</xref>).</p>
+        </sec>
+        <sec id="S17">
+          <title>Disease working group</title>
+          <p id="P33"><italic>Brigham and Womenâs Hospital -</italic> Sabina Signoretti(<xref ref-type="fn" rid="FN7">7</xref>), <italic>Dana-Farber Cancer Institute -</italic> William G. Kaelin(<xref ref-type="fn" rid="FN5">5</xref>), <italic>Georgetown University -</italic> Michael B. Atkins(<xref ref-type="fn" rid="FN37">37</xref>), <italic>Memorial Sloan-Kettering Cancer Center -</italic> Satish Tickoo(<xref ref-type="fn" rid="FN11">11</xref>), Victor Reuter(<xref ref-type="fn" rid="FN11">11</xref>), <italic>National Cancer Institute -</italic> W. Marston Linehan(<xref ref-type="fn" rid="FN14">14</xref>), Cathy D. Vocke(<xref ref-type="fn" rid="FN14">14</xref>), James Peterson(<xref ref-type="fn" rid="FN14">14</xref>), Maria J. Merino(<xref ref-type="fn" rid="FN14">14</xref>), Laura S. Schmidt(<xref ref-type="fn" rid="FN14">14</xref>, <xref ref-type="fn" rid="FN39">39</xref>), <italic>The University of Texas M.D. Anderson Cancer Center -</italic> Pheroze Tamboli(<xref ref-type="fn" rid="FN10">10</xref>), <italic>Weill Cornell Medical College -</italic> Juan M. Mosquera(<xref ref-type="fn" rid="FN48">48</xref>), Mark A. Rubin(<xref ref-type="fn" rid="FN48">48</xref>), <italic>Massachusetts General Hospital</italic> - Michael L. Blute(<xref ref-type="fn" rid="FN49">49</xref>), <italic>University of North Carolina, Chapel Hill</italic> - W. Kimryn Rathmell(<xref ref-type="fn" rid="FN16">16</xref>)</p>
+        </sec>
+        <sec id="S18" sec-type="methods">
+          <title>Data Coordination Center</title>
+          <p id="P34">Todd Pihl(<xref ref-type="fn" rid="FN50">50</xref>), Mark Jensen(<xref ref-type="fn" rid="FN50">50</xref>), Robert Sfeir(<xref ref-type="fn" rid="FN50">50</xref>), Ari Kahn(<xref ref-type="fn" rid="FN50">50</xref>), Anna Chu(<xref ref-type="fn" rid="FN50">50</xref>), Prachi Kothiyal(<xref ref-type="fn" rid="FN50">50</xref>), Zhining Wang(<xref ref-type="fn" rid="FN50">50</xref>), Eric Snyder(<xref ref-type="fn" rid="FN50">50</xref>), Joan Pontius(<xref ref-type="fn" rid="FN50">50</xref>), Brenda Ayala(<xref ref-type="fn" rid="FN50">50</xref>), Mark Backus(<xref ref-type="fn" rid="FN50">50</xref>), Jessica Walton(<xref ref-type="fn" rid="FN50">50</xref>), Julien Baboud(<xref ref-type="fn" rid="FN50">50</xref>), Dominique Berton(<xref ref-type="fn" rid="FN50">50</xref>), Matthew Nicholls(<xref ref-type="fn" rid="FN50">50</xref>), Deepak Srinivasan(<xref ref-type="fn" rid="FN50">50</xref>), Rohini Raman(<xref ref-type="fn" rid="FN50">50</xref>), Stanley Girshik(<xref ref-type="fn" rid="FN50">50</xref>), Peter Kigonya(<xref ref-type="fn" rid="FN50">50</xref>), Shelley Alonso(<xref ref-type="fn" rid="FN50">50</xref>), Rashmi Sanbhadti(<xref ref-type="fn" rid="FN50">50</xref>), Sean Barletta(<xref ref-type="fn" rid="FN50">50</xref>), David Pot(<xref ref-type="fn" rid="FN50">50</xref>)</p>
+        </sec>
+        <sec id="S19">
+          <title>Project Team</title>
+          <p id="P35"><italic>National Cancer Institute -</italic> Margi Sheth(<xref ref-type="fn" rid="FN51">51</xref>), Kenna R. Mills Shaw(<xref ref-type="fn" rid="FN51">51</xref>), John A. Demchok(<xref ref-type="fn" rid="FN51">51</xref>), Tanja Davidsen(<xref ref-type="fn" rid="FN51">51</xref>), Liming Yang(<xref ref-type="fn" rid="FN51">51</xref>), Roy W. Tarnuzzer(<xref ref-type="fn" rid="FN51">51</xref>), Jiashan Zhang(<xref ref-type="fn" rid="FN51">51</xref>), Greg Eley(<xref ref-type="fn" rid="FN52">52</xref>), Martin L. Ferguson(<xref ref-type="fn" rid="FN53">53</xref>), <italic>National Human Genome Research Institute -</italic> Mark S. Guyer(<xref ref-type="fn" rid="FN54">54</xref>), Bradley A. Ozenberger(<xref ref-type="fn" rid="FN54">54</xref>), Heidi J. Sofia(<xref ref-type="fn" rid="FN54">54</xref>).</p>
+        </sec>
+      </app>
+    </app-group>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure One</label>
+      <caption>
+        <title>Somatic alterations in ccRCC</title>
+        <p><bold>(a)</bold> Top histogram, mutation events per sample; left histogram, samples affected per alteration. Upper heat map, distribution of fusion transcripts and <italic>VHL</italic> methylation across samples (n=385 samples, with overlapping exome/CNA/RNA-seq/Methylation data); middle heatmap, mutation events; bottom heatmap, copy number gains (red) and losses (blue). Lower chart, mutation spectrum by indicated categories. <bold>(b)</bold> Left panel, frequency of arm level copy number alterations versus focal copy number alterations. Right panel, comparison of the average numbers of arm level and focal copy number changes in ccRCC, colon cancer (CRC), glioblastoma (GBM), breast cancer (BRCA) and ovarian cancer (OVCA). <bold>(c)</bold> Circos plot of fusion transcripts identified in 416 samples of ccRCC, with recurrent fusions highlighted.</p>
+      </caption>
+      <graphic xlink:href="nihms472502f1"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure Two</label>
+      <caption>
+        <title>DNA methylation and ccRCC</title>
+        <p><bold>(aâb)</bold> Overall promoter DNA hypermethylation frequency in the tumor increases with rising stage (a) and grade (b). The promoter DNA hypermethylation frequency is calculated as the percentage of CpG loci hypermethylated among 15,101 loci which are unmethylated in the normal kidney tissue and normal white blood cells (boxplots, median with 95% confidence interval). <bold>(c)</bold> Volcano plots showing a comparison of DNA methylation for <italic>SETD2</italic> mutant versus non-mutant tumors (n=224, Human Methylation 450 platform). Unshaded area: CpG loci with Benjamini-Hochberg FDR=0.001 and difference in mean beta value &gt;0.1 (n=2,557). <bold>(d)</bold> Heatmap showing CpG loci with <italic>SETD2</italic> mutation-associated DNA methylation (from part c); blue to red indicates low to high DNA methylation. The loci are split into those hypomethylated (top panel; n=1,251) or hypermethylated (bottom panel; n=1,306) in <italic>SETD2</italic> mutants. Top color bars indicate <italic>SETD2</italic> mRNA expression (red: high, green: low) and <italic>SETD2</italic> mutation status. Gray-scale row-side color bar on left-hand side represents the relative number of overlapping reads, based on H3K36me3 ChIP-seq experiment in normal adult kidney (<ext-link ext-link-type="uri" xlink:href="http://nihroadmap.nih.gov/epigenomics/">http://nihroadmap.nih.gov/epigenomics/</ext-link>); black, high read count. DNA methylation patterns include 14 normal kidney samples. Among the tumors without <italic>SETD2</italic> mutations, six (arrowhead) have both the signature pattern of <italic>SETD2</italic> mutation and low <italic>SETD2</italic> mRNA expression.</p>
+      </caption>
+      <graphic xlink:href="nihms472502f2"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure Three</label>
+      <caption>
+        <title>mRNA and miRNA patterns reflect molecular subtypes of ccRCC</title>
+        <p><bold>(a)</bold> By unsupervised analyses, tumors separated into four sample groups (i.e. âclustersâ), based on either differentially expressed mRNA patterns (left panel, showing 500 representative genes: m1â4) or differentially expressed miRNA patterns (right panel, showing 26 representative miRNAs: mi1â4). <bold>(b)</bold> Significant differences in patient survival were identified among either the mRNA-based clusters (left panel) or the miRNA-based clusters (right panel). <bold>(c)</bold> Numbers of samples overlapping between the two sets of clusters, with significant concordance observed between m1 and mi3 and between m3 and mi2; Red, significant overlap (<italic>P</italic>&lt;1E-5, chi-squared test). <bold>(d)</bold> mRNA-miRNA correlations, for predicted targeting interactions. Rows indicate miRNAs from part a (indicated by cluster specific color bar); columns, mRNAs (5000 differentially regulated genes selected for average RPKM&gt;10 and at least one predicted miRNA interaction); mRNA-miRNA entries with no predicted targeting show as white. To the right of the correlation matrix, t-statistics (Spearmanâs rank) indicate group target enrichment.</p>
+      </caption>
+      <graphic xlink:href="nihms472502f3"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure Four</label>
+      <caption>
+        <title>Genomically-altered pathways in ccRCC</title>
+        <p><bold>(a)</bold> Alterations in chromatin remodeling genes were predicted to impact a large network of genes and pathways (larger implicated network in supplemental). Each gene is depicted as a multi-ring circle with various levels of data, plotted such that each âspokeâ in the ring represents a single patient sample (same sample ordering for all genes). âPARADIGMâ ring, bioinformatically inferred levels of gene activity (red, higher activity); âExpressionâ, mRNA levels relative to normal (red, high); âMutationâ, somatic event; center, correlation of gene expression or activity to mutation events in chromatin-related genes (red, positive). Protein-protein relationships inferred using public resources. <bold>(b)</bold> For the PI3K/Akt/mTOR pathway (altered in ~28% of tumors), the MEMo algorithm identified a pattern of mutually exclusive gene alterations (somatic mutations, copy alterations, and aberrant mRNA expression) targeting multiple components, including 2 genes from the recurrent amplicon on 5q35.3. The alteration frequency and inferred alteration type (blue for inactivation, and red for activation) is shown for each gene in the pathway diagram.</p>
+      </caption>
+      <graphic xlink:href="nihms472502f4"/>
+    </fig>
+    <fig id="F5" orientation="portrait" position="float">
+      <label>Figure Five</label>
+      <caption>
+        <title>Molecular correlates of patient survival involve metabolic pathways</title>
+        <p><bold>(a)</bold> Sample profiles were separated into discovery and validation subsets, with the top survival correlates within the discovery subset being defined for each of the four platforms examined (mRNA, microRNA, protein, DNA methylation). Kaplan-Meier plots show results of applying the four prognostic signatures to the validation subset, comparing survival for patients with predicted higher risk (red, top third of signature scores), lower risk (blue, bottom third), or intermediate risk (gray, middle third); successful predictions were observed in each case. <bold>(b)</bold> When viewed in the context of metabolism, the molecular survival correlates highlight a widespread metabolic shift, with tumors altering their usage of key pathways and metabolites (red and blue shading representing the correlation of increased gene expression with worse or better survival respectively, univariate Cox based on extended cohort). Worse survival correlates with up-regulation of pentose phosphate pathway genes (<italic>G6PH</italic>, <italic>PGLS</italic>, <italic>TALDO</italic> and <italic>TKT</italic>), fatty acid synthesis genes (<italic>ACC</italic> and <italic>FASN</italic>), and PI3K pathway enhancing genes (<italic>miR-21</italic>). Better survival correlates with up-regulation of AMPK complex genes, multiple Krebs cycle genes, and PI3K pathway inhibitors (<italic>PTEN</italic>, <italic>TSC2</italic>). Additionally, specific promoter methylation events, including hypermethylation of PI3K pathway repressor <italic>GRB10</italic>, associate with outcome. <bold>(c)</bold> Heat map of selected key features from the metabolic shift schematic (b) demonstrating coordinate expression by stage at DNA methylation, RNA, and protein levels (data from validation subset).</p>
+      </caption>
+      <graphic xlink:href="nihms472502f5"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

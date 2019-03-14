@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:53:38Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:4099370" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:4099370</identifier><datestamp>2014-07-18</datestamp><setSpec>plosone</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS One</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS ONE</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plosone</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS ONE</journal-title>
+      </journal-title-group>
+      <issn pub-type="epub">1932-6203</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC4099370</article-id>
+      <article-id pub-id-type="pmcid">PMC4099370</article-id>
+      <article-id pub-id-type="pmc-uid">4099370</article-id>
+      <article-id pub-id-type="pmid">25025302</article-id>
+      <article-id pub-id-type="pmid">25025302</article-id>
+      <article-id pub-id-type="publisher-id">PONE-D-13-40775</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pone.0102399</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology and life sciences</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+            <subj-group>
+              <subject>RNA</subject>
+              <subj-group>
+                <subject>RNA processing</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Nucleic Acids</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Cell Biology</subject>
+            <subj-group>
+              <subject>Cell Processes</subject>
+              <subj-group>
+                <subject>Cell Death</subject>
+              </subj-group>
+            </subj-group>
+            <subj-group>
+              <subject>Chromosome Biology</subject>
+              <subject>Molecular Cell Biology</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Computational Biology</subject>
+            <subj-group>
+              <subject>Genome Analysis</subject>
+              <subj-group>
+                <subject>Transcriptome Analysis</subject>
+              </subj-group>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Genetics</subject>
+            <subj-group>
+              <subject>Gene Expression</subject>
+              <subject>Genomics</subject>
+            </subj-group>
+          </subj-group>
+          <subj-group>
+            <subject>Systems Biology</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Alternative Splicing of TAF6: Downstream Transcriptome Impacts and Upstream RNA Splice Control Elements</article-title>
+        <alt-title alt-title-type="running-head">Splicing of TAF6: Transcriptome Impacts and RNA Splicing Elements</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kamtchueng</surname>
+            <given-names>Catherine</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>StÃ©benne</surname>
+            <given-names>Marie-Ãve</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Delannoy</surname>
+            <given-names>AurÃ©lie</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wilhelm</surname>
+            <given-names>Emmanuelle</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>LÃ©ger</surname>
+            <given-names>HÃ©lÃ¨ne</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Benecke</surname>
+            <given-names>Arndt G.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bell</surname>
+            <given-names>Brendan</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>RNA Group, DÃ©partement de microbiologie et d'infectiologie, FacultÃ© de mÃ©decine et sciences de la santÃ©, UniversitÃ© de Sherbrooke, and Centre de recherche du CHUS, Pavillon de recherche appliquÃ©e sur le cancer, 3201 rue Jean-Migneault, Sherbrooke, QuÃ©bec, Canada</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Institut des Hautes Etudes Scientifiques, Centre National de la Recherche Scientifique, 35 route de Chartres, Bures sur Yvette, France</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>UniversitÃ© Pierre et Marie Curie, UMR8246 CNRS, 7 quai Saint Bernard, Paris, France</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Buratti</surname>
+            <given-names>Emanuele</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+<addr-line>International Centre for Genetic Engineering and Biotechnology, Italy</addr-line>
+</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>Brendan.Bell@USherbrooke.ca</email></corresp>
+        <fn fn-type="COI-statement">
+          <p><bold>Competing Interests: </bold>The authors have declared that no competing interests exist.</p>
+        </fn>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: AB BB. Performed the experiments: CK MES AD EW HL. Analyzed the data: CK MES AD EW HL AB BB. Wrote the paper: CK AD AB BB.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <year>2014</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>15</day>
+        <month>7</month>
+        <year>2014</year>
+      </pub-date>
+      <volume>9</volume>
+      <issue>7</issue>
+      <elocation-id>e102399</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>4</day>
+          <month>10</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>19</day>
+          <month>6</month>
+          <year>2014</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2014 Kamtchueng et al</copyright-statement>
+        <copyright-year>2014</copyright-year>
+        <copyright-holder>Kamtchueng et al</copyright-holder>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>The TAF6Î´ pathway of apoptosis can dictate life versus death decisions independently of the status of p53 tumor suppressor. TAF6Î´ is an inducible pro-apoptotic subunit of the general RNA polymerase II (Pol II) transcription factor TFIID. Alternative splice site choice of TAF6Î´ has been shown to be a pivotal event in triggering death via the TAF6Î´ pathway, yet nothing is currently known about the mechanisms that promote TAF6Î´ splicing. Furthermore the transcriptome impact of the gain of function of TAF6Î´ versus the loss of function of the major TAF6Î± splice form remains undefined. Here we employ comparative microarray analysis to show that TAF6Î´ drives a transcriptome profile distinct from that resulting from depletion of TAF6Î±. To define the <italic>cis</italic>-acting RNA elements responsible for TAF6Î´ alternative splicing we performed a mutational analysis of a TAF6 minigene system. The data point to several new RNA elements that can modulate TAF6Î´ and also reveal a role for RNA secondary structure in the selection of TAF6Î´.</p>
+      </abstract>
+      <funding-group>
+        <funding-statement>This work was supported by the award of a NSERC Discover Grant to B. Bell. The funding agency website is <ext-link ext-link-type="uri" xlink:href="http://www.nserc-crsng.gc.ca/">http://www.nserc-crsng.gc.ca/</ext-link>. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</funding-statement>
+      </funding-group>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The TAF6Î´ pathway of apoptosis (<xref ref-type="supplementary-material" rid="pone.0102399.s001">Fig. S1</xref>) can control cell death versus life decisions of human cells <xref rid="pone.0102399-Bell1" ref-type="bibr">[1]</xref>, <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>, <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref>. TAF6Î´ is a splice variant of the TAF6 protein that is a core subunit of the general RNA polymerase II (Pol II) transcription factor, TFIID <xref rid="pone.0102399-Bieniossek1" ref-type="bibr">[4]</xref>, <xref rid="pone.0102399-Wright1" ref-type="bibr">[5]</xref>. TFIID nucleates the formation of the Pol II pre-initiation complex and therefore represents a highly regulated step in the gene expression pathway of protein-coding genes <xref rid="pone.0102399-Burley1" ref-type="bibr">[6]</xref>. TFIID is the major core promoter recognition complex of the Pol II machinery and consists of TATA-binding protein (TBP) and a constellation of approximately 14 TBP-associated factors (TAFs) <xref rid="pone.0102399-Cler1" ref-type="bibr">[7]</xref>. TAF6Î´ is an inducible pro-apoptotic isoform of TAF6 that lacks 10 amino acids in its histone-fold domain. In contrast to the major TAF6Î± isoform, TAF6Î´ cannot interact with TAF9 and instead forms a TAF9-lacking complex termed TFIIDÏ that drives a pro-apoptotic gene expression <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>. The TAF6Î´ pathway has emerged as a model system to investigate the mechanisms that transduce extracellular signals to trigger cellular suicide by impinging on the basal Pol II machinery. Moreover, because the TAF6Î´ pathway induces cell death independently of p53 <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref>, it represents a potential therapeutic target of strategic value for the killing of tumor cells that frequently lack functional p53 <xref rid="pone.0102399-Vousden1" ref-type="bibr">[8]</xref>.</p>
+      <p>Modified antisense RNA oligonucleotides that force the splicing machinery to switch from producing a majority of TAF6Î± to producing a majority of TAF6Î´ in living cells trigger apoptosis demonstrating that changes in alternative splicing can trigger the TAF6Î´ pathway of programmed cell death <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>, <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref>. Alternative splicing plays a major role in proteomic diversification <xref rid="pone.0102399-Pan1" ref-type="bibr">[9]</xref>, <xref rid="pone.0102399-Wang1" ref-type="bibr">[10]</xref>. In the case of programmed cell death, alternative splicing can control cell life versus death decisions by regulating the balance of anti-apoptotic versus pro-apoptotic splice variants of genes within cell death pathways <xref rid="pone.0102399-Schwerk1" ref-type="bibr">[11]</xref>. <italic>Cis</italic>-acting RNA elements can either enhance or silence the selection of alternative splice sites by the spliceosome to control splice site decisions <xref rid="pone.0102399-Chen1" ref-type="bibr">[12]</xref>. These elements are classified upon their effect on a given splicing event and their location. Regulatory <italic>cis</italic>-acting RNA elements thus include exonic splicing enhancers (ESE), exonic splicing silencers (ESS), intronic splicing enhancers (ISE), and intronic splicing silencers (ISS). These <italic>cis</italic>-acting RNA elements act to recruit <italic>trans</italic>-acting protein factors, often from the SR protein family <xref rid="pone.0102399-Shepard1" ref-type="bibr">[13]</xref> or the hnRNP family <xref rid="pone.0102399-MartinezContreras1" ref-type="bibr">[14]</xref>. Layered upon the network of RNA-protein interactions that underpin alternative splicing decisions is the key role of RNA secondary structure within the pre-mRNA that has an impact on splice site recognition by the spliceosome as well as on RNA-protein interactions <xref rid="pone.0102399-Buratti1" ref-type="bibr">[15]</xref>, <xref rid="pone.0102399-Jin1" ref-type="bibr">[16]</xref>, <xref rid="pone.0102399-McManus1" ref-type="bibr">[17]</xref>, <xref rid="pone.0102399-Warf1" ref-type="bibr">[18]</xref>.</p>
+      <p>One important challenge in the study of all alternative splice events is to define the relative biological impact of the gain of the alternative splice form versus the loss of the constitutive form. While the induction of alternative splice variants often have important biological effects, in extreme cases alternative splicing serves only to dampen gene expression, as is the case when these events are coupled to the nonsense-mediated decay pathway <xref rid="pone.0102399-Lewis1" ref-type="bibr">[19]</xref>, <xref rid="pone.0102399-Pan2" ref-type="bibr">[20]</xref>. To shed light on the mechanism controlling the TAF6Î´ pathway of apoptosis, here we have compared the transcriptome impacts of loss of function of the major TAF6Î± splice variant via siRNA depletion versus those resulting from the induction of the pro-apoptotic TAF6Î´ splice variant. The results reveal an essential function for TAF6Î´ induction in the reprogramming of a specific pro-apoptotic transcriptome landscape. Despite the importance of inducible TAF6Î´ expression, nothing is currently known about the mechanisms governing alternative TAF6Î´ splicing. We therefore developed and validated a minigene system for the mutational dissection of TAF6 <italic>cis</italic>-acting RNA elements. We report here the first identification of RNA elements that can influence splicing of TAF6Î´.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s2">
+      <title>Materials and Methods</title>
+      <sec id="s2a">
+        <title>Cell culture</title>
+        <p>Hela ws cell line was maintained in culture in Dulbecco's modified Eagle's medium supplemented with 2.5% fetal calf serum and 2.5% calf serum.</p>
+      </sec>
+      <sec id="s2b">
+        <title>Plasmids</title>
+        <p>To construct the TAF6 minigene (pTAF6mg), the genomic region of TAF6 containing exon 2 to exon 3 was amplified by PCR from HeLa cell genomic DNA with primers <named-content content-type="gene">5â²-AAAAAGGGATCCCATGGGCATCGCCCAGATTCAGG-3â²</named-content> (forward) and <named-content content-type="gene">5â²-AAAAAGGAATTCCAAGGCGTAGTCAATGTCACTGG-3â²</named-content> (reverse). The PCR product was ligated into pTZ57R/T (Fermentas). The new plasmid was digested with EcoRI and BamHI and the TAF6 fragment was inserted into the same sites of pcDNA3.1+. The mutated minigenes were created by PCR mutagenesis using Pfu DNA polymerase with specific primers bearing mutations <xref rid="pone.0102399-Papworth1" ref-type="bibr">[21]</xref> (all sequences of oligonucleotides used in this study are listed in <xref ref-type="supplementary-material" rid="pone.0102399.s007">Table S1</xref>).</p>
+      </sec>
+      <sec id="s2c">
+        <title>Transfections</title>
+        <p>Dicer substrate (dsi) RNA <named-content content-type="gene">5â²-rGrGrArGrUrGrUrCrCrArGrArArGrUrArCrArUrCrGrUrGGT-3â²</named-content> (T6-1) and <named-content content-type="gene">5â²-rCrGrCrUrArArGrCrGrGrArArGrGrArArGrUrUrGrUrArGAT-3â²</named-content> (T6-2) were employed to deplete all known splice variants of TAF6. dsiRNA were transfected at a final concentration of 10 nM with lipofectamine 2000 (Invitrogen) as a delivery agent (1.6 Âµl/ml) according to the manufacturer's recommendations. 250 to 300 ng of wild-type or mutant TAF6 minigene were transfected with 1 Âµl DMRIE-C (Invitrogen) per well in 24 well plate according to the manufacturer's recommendations. Cells were transfected by dsiRNA T6-1 two times. The second transfection was performed 24 h after the first one and culture was maintained for a total of 48 or 72 h before harvesting cells for RNA extraction (RNeasy Qiagen) for microarray analysis or 64 h for protein analysis. All transfections were performed with OptiMEM medium (Invitrogen). Each transfection experiment was repeated three times.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Viability assay by methylene blue staining</title>
+        <p>HeLa cells were split in 24 well plates at a concentration of 75 000 cells/well and transfected 12 hours later with 10 nM dsiRNA combined with lipofectamine 2000 (Invitrogen) as recommended by the supplier. dsiRNA were transfected again 24 and 48 h after the first transfection. The culture was maintained for a total of 4 days after the first transfection. The culture medium was removed and the cell monolayer was washed carefully with 500 Âµl PBS. Cells were stained for 30 min at RT by the addition of 200 Âµl of a solution containing 5 mg/ml of methylene blue in 50% ethanol. The plate was carefully and extensively washed with water until no blue stain remained in the water. The plate was air dried completely. 500 Âµl of a PBS solution containing 10 mg/ml N-lauroyl sarcosine (Sigma L-5125) was added to each well. Lysis was performed for 1 h at RT. 100 Âµl of each lysate was used to measure absorbance at 595 nm (A515 nmâ=âcontrol), corresponding to methylene blue incorporation and cell content.</p>
+      </sec>
+      <sec id="s2e">
+        <title>RT-PCR</title>
+        <p>Total RNA was extracted from cells using Trizol (Invitrogen) according to the manufacturer's recommendations. RNA was treated with 1 unit of DNase I (Promega) for 30 minutes at 37Â°C to remove any contaminating DNA. 1 Âµg of total RNA was reverse transcribed using MMuLV reverse transcriptase. Specific oligonucleotides for endogenous TAF6 (forward <named-content content-type="gene">5â²-ATGGGCATCGCCCAGATTCAGG-3â²</named-content> and reverse <named-content content-type="gene">5â²-AAGGCGTAGTCAATGTCACTGG-3â²</named-content>) and exogenous TAF6 minigene constructs (forward <named-content content-type="gene">5â²-ATGGGCATCGCCCAGATTCAGG-3â²</named-content> and reverse <named-content content-type="gene">5â²-AATAGCGATCCACGCGACTAGTGG-3â²</named-content>) were used for PCR amplification of 1/10 of the total cDNA (25 cycles, 1 min at 94Â°C, 45 sec at 58Â°C, 50 sec at 68Â°C, initial step 3 min at 95Â°C, final extension 5 min at 68Â°C), using Taq DNA polymerase. The splicing isoforms were quantified by capillary electrophoresis on a BioAnalyser 2100 (Agilent) according to the manufacturer's instructions.</p>
+      </sec>
+      <sec id="s2f">
+        <title>Western blot analysis</title>
+        <p>After treatment as described, cells were lysed in 1.5Ã laemmli sample buffer, sonicated and electrophoresed on 7.5 and 12% SDS-PAGE before electro-transfer to PVDF membrane. Blots were probed with previously described antibodies against TAF6Î±, TAF6Î´ or TBP <xref rid="pone.0102399-Bell1" ref-type="bibr">[1]</xref> followed by goat anti-mouse HRP-conjugate secondary antibodies (Jackson Immunoresearch Laboratories) before enhanced chemiluminescence detection. Mouse monoclonal antibodies that detect total TAF6 proteins levels were from BD transduction laboratories #610304.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Microarrays</title>
+        <p>RNA isolation and quality control were performed as previously described <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>, <xref rid="pone.0102399-Wilhelm3" ref-type="bibr">[22]</xref> from cells treated with siRNA T6-1. Applied Biosystems HGS V2 arrays <xref rid="pone.0102399-Noth1" ref-type="bibr">[23]</xref> were hybridized, washed, and exposed according to the protocols of the technology provider. Raw data were quality controlled <xref rid="pone.0102399-Brysbaert1" ref-type="bibr">[24]</xref>, and normalized using NeONORM (k-parameterâ=â0.2) <xref rid="pone.0102399-Noth2" ref-type="bibr">[25]</xref>. Longitudinal analysis was performed using a Kohonen-maps based classifier as described in <xref rid="pone.0102399-Rasmussen1" ref-type="bibr">[26]</xref>, using the CDS statistical test <xref rid="pone.0102399-Tchitchek1" ref-type="bibr">[27]</xref>. The data are freely accessible through the MACE database at <ext-link ext-link-type="uri" xlink:href="http://mace.ihes.fr">http://mace.ihes.fr</ext-link> under accession no. (maceid): 2732656872.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Results</title>
+      <sec id="s3a">
+        <title>SiRNA-mediated depletion of TAF6 causes a loss of viability in human cells</title>
+        <p>We have previously analyzed the transcriptome impact of the induction of TAF6Î´ by using microarray experiments <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>. To define the impact of the loss of total TAF6 protein in human cells we performed transcriptome-wide analysis of gene expression following depletion of total TAF6 proteins by siRNA. Importantly, the minor TAF6Î´ protein isoform is not expressed at detectable levels in HeLa cells under normal growth conditions, so that the effects of the siRNA cannot be due to significant reductions in TAF6Î´ protein levels <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>, <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref> (see also <xref ref-type="supplementary-material" rid="pone.0102399.s002">Fig. S2</xref>). siRNAs were designed and validated for their ability to reduce TAF6 protein levels. Two siRNAs resulted in reduction of TAF6 mRNA levels (<xref ref-type="fig" rid="pone-0102399-g001">Fig. 1A</xref>) and protein levels (<xref ref-type="fig" rid="pone-0102399-g001">Fig. 1B</xref>). Quantification of TAF6Î± protein levels from three independent experiments using the ImageJ software package (<ext-link ext-link-type="uri" xlink:href="http://rsbweb.nih.gov/ij/">http://rsbweb.nih.gov/ij/</ext-link>) indicated that si1 and si2 typically reduced TAF6Î± protein levels by 70â80% and 40â60%, respectively. To determine the impact of the loss of total TAF6 protein on cell viability we employed the methylene blue colorimetric assay (see <xref ref-type="sec" rid="s2">materials and methods</xref>). Both siRNAs that depleted TAF6 resulted in a concomitant loss of cell viability (<xref ref-type="fig" rid="pone-0102399-g001">Fig. 1CâD</xref>). We conclude that TAF6 expression is essential for cell viability in human cells, extending previous results demonstrating that TAF6 is essential for viability in distinct organisms including <italic>S. cerevisae</italic>
+<xref rid="pone.0102399-Michel1" ref-type="bibr">[28]</xref>, <xref rid="pone.0102399-Shen1" ref-type="bibr">[29]</xref>, Drosophila <xref rid="pone.0102399-Aoyagi1" ref-type="bibr">[30]</xref> and zebrafish <xref rid="pone.0102399-Amsterdam1" ref-type="bibr">[31]</xref>. We next used si1, the siRNA that most efficiently reduced total TAF6 expression and resulted in the highest loss of viability, to further determine the impact of knock-down of TAF6 on the transcriptome using microarray analysis. Total RNA was isolated from HeLa cells treated with siRNA directed against TAF6 and from cells treated with control siRNA for microarray analysis <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>, <xref rid="pone.0102399-Wilhelm3" ref-type="bibr">[22]</xref>, <xref rid="pone.0102399-Noth3" ref-type="bibr">[32]</xref>. Two time points (48 and 72 hours) were chosen for transcriptome analysis to ensure the detection of the broadest possible number of TAF6-dependent transcripts as well as to ensure measurements before the onset of massive cell death. The levels of TAF6 mRNA were internally controlled in the transcriptome analysis by probes for <italic>taf6</italic> and showed at least 80% reduction at both 48 and 72 hours post-transfection (data not shown).</p>
+        <fig id="pone-0102399-g001" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>TAF6 is essential for human cell viability.</title>
+            <p>(A) PCR analysis of TAF6 mRNA levels 72 hours post-transfection with siRNAs targeting all TAF6 mRNAs. (B) Total cell extracts from HeLa cells transfected with the indicated siRNAs for 72 hours were separated by SDS-PAGE subject to Western blot analysis with monoclonal antibodies specific for TAF6Î± and tubulin as a loading control. (C) The viability of HeLa cells transfected with siRNA directed against TAF6 was measured 4 days post-transfection by methylene blue staining (see <xref ref-type="sec" rid="s2">materials and methods</xref>). Viability (y-axis) is expressed relative to that of cells transfected with control siRNA. (D) TAF6 depletion results in loss of HeLa cell viability. HeLa cells were treated for 4 days with control siRNA (panel 1), or siRNA that target the TAF6 mRNA (panels 2 &amp; 3). Cells were photographed with a phase-contrast microscope.</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g001"/>
+        </fig>
+      </sec>
+      <sec id="s3b">
+        <title>Distinct transcriptome impacts of depleting TAF6Î± versus inducing TAF6Î´</title>
+        <p>The knock-down of total TAF6 resulted in statistically significant changes in gene expression levels including a global reduction in transcription accompanied by the increase in a minority of mRNA transcripts 48 hours after siRNA transfection and particularly after 72 hours (<xref ref-type="fig" rid="pone-0102399-g002">Fig. 2A</xref>). Since siRNA can potentially have off-target effects, we sought to validate the specificity of the siRNA used by comparing the expression of a panel of genes with an independent siRNA directed against TAF6. The genes assayed showed comparable changes in response to treatment with both the most efficient siRNA, si1 and the less efficient siRNA, si2 (<xref ref-type="supplementary-material" rid="pone.0102399.s003">Fig. S3</xref>). These data are compatible with the interpretation that the gene expression measured by microarray is due largely to specific interference with TAF6 expression. We also compared the changes in gene expression of the 961 previously identified TAF6Î´-dependent transcripts <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref> to changes in response to siRNA depletion of total TAF6 and found that the two conditions result in distinct transcriptome landscapes (<xref ref-type="fig" rid="pone-0102399-g002">Fig. 2C</xref>). To examine more closely the changes resulting from the induction of TAF6Î´ versus depletion of TAF6, we filtered the microarray data to compare the overlap between the two sets of regulated transcripts. Of 961 TAF6Î´-dependent transcripts 128 were also significantly regulated by the siRNA against TAF6 at either 48 or 72 hours (<xref ref-type="fig" rid="pone-0102399-g002">Fig. 2D</xref>). Of the 128 regulated transcripts the majority (81) were oppositely regulated (induction versus repression). 44 transcripts were induced by both the loss of TAF6 and the induction of TAF6Î´, and the overlap between these genes was statistically significant (Pâ=â1,05Ã10<sup>â09</sup>, hypergeometric distribution). In contrast, 1513 genes were repressed in the absence of TAF6 and only three transcripts were repressed in both conditions (<xref ref-type="fig" rid="pone-0102399-g002">Fig. 2D</xref>) and there was no statistically significant overlap between repressed genes. The microarray results revealed a minor subset of common effects in the induction of TAF6Î´ versus depletion of total TAF6 transcripts. Importantly, the data also reveal that the induction of TAF6Î´ drives a distinct pro-apoptotic gene expression program and therefore underscore the necessity for TAF6Î´ isoform expression to trigger this specific pathway of apoptosis. To further explore the effects of TAF6 depletion gene ontology analysis was applied. Of the seven pathways that are statistically overrepresented during TAF6 depletion, only three including the integrin signaling pathway, the p53 pathway and apoptosis signaling pathways were also found in the TAF6Î´ transcriptome signature (<xref ref-type="fig" rid="pone-0102399-g002">Fig. 2E</xref>) <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>. To extent the comparison of gene expression patterns we compared the loss of total TAF6 at the earlier time point of 48 hours of treatment with siRNA, since these changes could potentially represent direct TAF6 target genes, with the gain of TAF6Î´ (<xref ref-type="supplementary-material" rid="pone.0102399.s004">Fig. S4</xref>). The data reinforce the distinct impact of TAF6Î´ induction compared to loss of TAF6 (<xref ref-type="supplementary-material" rid="pone.0102399.s004">Fig. S4</xref>). Taken altogether, the microarray data underscore the fact that the simple loss of total TAF6 mRNA does not recapitulate the same transcriptome impact that is observed when splicing of TAF6Î´ is selected at the expense of TAF6Î± expression.</p>
+        <fig id="pone-0102399-g002" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Distinct impact of TAF6Î´ induction versus total TAF6 mRNA depletion on the transcriptome of HeLa cells.</title>
+            <p>(A) Heat map showing the impact of statistically significantly (p&lt;0.05) changes in gene expression during TAF6 mRNA depletion by siRNA at 48 and 72 hours post transfection. Red indicates induction and blue repression. Genes were ordered according to fold change at 72 hours post transfection. (B) Distribution of expression profiles amongst the six possible outcomes. Genes upregulated or downregulated at the both time points are schematized with lines. (C) The previously defined TAF6Î´ transcriptome signature compared to the transcriptome resulting from depletion of total TAF6 mRNA. The heat map shows the gene expression during siRNA-mediated total TAF6 mRNA depletion for the 961 TAF6Î´ signature genes. (D) Venn diagrams depicting genes subsets statistically significantly regulated by total TAF6 mRNA depletion versus by TAF6Î´ induction. Upper diagram contains all regulated genes, middle diagram includes induces genes (upward arrow) and the lower Venn diagram includes repressed genes (downward arrow). (E) Gene ontology analysis of statistically significantly regulated genes during total TAF6 mRNA depletion. Enriched pathways are shown with their associated p-values.</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g002"/>
+        </fig>
+      </sec>
+      <sec id="s3c">
+        <title>Development and validation of a minigene system to study TAF6 alternative splicing</title>
+        <p>Having established the importance of the induction of TAF6Î´ versus the loss of TAF6Î± in driving a specific transcriptome profile and cell death programme, we next sought to investigate the molecular mechanisms that control the expression of the minor TAF6Î´ splice variant versus the major TAF6Î± splice variant. We cloned the genomic region from the TAF6 gene that contains part of exon 2, the alternative portion of exon 2, the natural full-length intron 2, and a part of exon 3 into the eukaryotic expression pcDNA3.1+ under the control of the CMV promoter (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3A</xref>). No deletions, truncations or other modifications to the short (99 nucelotides) intron were performed so that it retains the full-length endogenous sequence. HeLa cells were chosen as a model to study TAF6 alternative splicing since the pro-apoptotic TAF6Î´ splice variant was originally cloned from a HeLa cell cDNA library <xref rid="pone.0102399-Bell1" ref-type="bibr">[1]</xref>. PCR primers specific to the transcribed flanking vector sequences were used to amplify exogenous TAF6 transcripts after transient transfection of the minigene into HeLa cells (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3A</xref>). PCR products corresponding to the expected sizes for the minigene products of unspliced pre-messenger, the major TAF6Î± transcript, and the minor TAF6Î´ transcript were detected by RT-PCR (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3A</xref>). Sequencing of each of these PCR products showed that they corresponded exactly to the expected splice products (B.B., unpublished results). Importantly, the ratio of TAF6Î´ versus total transcripts was found to range from 10% to 20% between independent transfections (<xref ref-type="fig" rid="pone-0102399-g003">Figs. 3B</xref>, <xref ref-type="fig" rid="pone-0102399-g004">4A and 4B</xref>), a percentage that corresponds well to the endogenous TAF6 splicing pattern in HeLa cells <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref>. The growth conditions of independent transfections appeared to influence basal levels of TAF6Î´ since biological triplicates within a single wave of transfections were highly reproducible (<xref ref-type="fig" rid="pone-0102399-g003">Figs. 3</xref>â<xref ref-type="fig" rid="pone-0102399-g007">7</xref>). Taken together, these data indicate that the plasmid minigene system accurately recapitulates endogenous TAF6Î´ splicing patterns in transfected HeLa cells.</p>
+        <fig id="pone-0102399-g003" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Development and validation of a minigene system to study the alternative splicing of TAF6.</title>
+            <p>(A) A schematic diagram showing the workflow used to study <italic>cis</italic>-acting RNA sequences in TAF6 alternative splicing using a TAF6 minigene plasmid. The plasmid containing an uninterrupted genomic sequence from the <italic>taf6</italic> gene that includes portions of exons 2 and 3, as well as the natural intron 2 is depicted alone with the positions of primers used to detect exogenously expressed RNA species by RT-PCR. Minigenes were transfected into HeLa and 42 hours later total RNA was isolated for use in RT-PCR with primers from flanking plasmid sequences. PCR products were quantified by analysis using an Agilent Bioanalyzer. The percentage TAF6Î´ is expressed as a ratio of total spliced TAF6 mRNAs (Î´ + Î±). (B) Validation of the minigene system via mutagenesis. The proximal (P) 5â² splice site (SS) and distal (D) 5â² SS are illustrated. Mutations that knock-out (ko) SS or strengthen by creating consensus (cons) SS and their impact on the percentage of TAF6Î´ produced (x-axis), are indicated. (P&lt;0.05â=â*; P&lt;0.01â=â**; P&lt;0.001â=â***).</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g003"/>
+        </fig>
+        <fig id="pone-0102399-g004" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Scanning mutagenesis of constitutive exon 2 and exon 3.</title>
+            <p>(A) Scanning mutations (black rectangles) in the TAF6 minigene were generated by PCR before transfection into HeLa. RNA was isolated and splice products were analysed by RT-PCR as in <xref ref-type="fig" rid="pone-0102399-g003">Figure 3</xref>. The percentage of exogenous TAF6Î´ mRNA produced by a given mutated construct are graphically shown (x-axis). (B) As in panel A, except that mutations were in exon 3. (P&lt;0.05â=â*; P&lt;0.01â=â**; P&lt;0.001â=â***).</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g004"/>
+        </fig>
+        <fig id="pone-0102399-g005" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Targeted mutagenesis of intron 2 of the <italic>taf6</italic> gene.</title>
+            <p>(A) Mutations of intron motifs are indicated with arrows in the TAF6 minigene constructs. HeLa cell transfection and splice product analysis was carried out as in <xref ref-type="fig" rid="pone-0102399-g003">Figure 3</xref>. The percentage of exogenous TAF6Î´ mRNA is graphically shown (x-axis). (B) As in panel A except mutations were focused on poly G motifs found within intron 2. (P&lt;0.05â=â*; P&lt;0.01â=â**; P&lt;0.001â=â***).</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g005"/>
+        </fig>
+        <fig id="pone-0102399-g006" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g006</object-id>
+          <label>Figure 6</label>
+          <caption>
+            <title>RNA secondary structure at the proximal 5â² splice site can force the selection of TAF6Î´.</title>
+            <p>(A) The sequence and names of mutations within alternative exon 2 (2a) of the TAF6 minigene constructs are indicated at the left. A potential SF2/ASF binding site is indicated by a blue box. HeLa cell transfection and splice product analysis was carried out as in <xref ref-type="fig" rid="pone-0102399-g003">Figure 3</xref>. The percentage of exogenous TAF6Î´ mRNA is graphically shown (x-axis). (B) As in panel A except that mutations (red nucleotides) are shown to the right in hypothetical RNA secondary structures generated using the M-Fold algorithm. The proximal 5â² splice site (SS) is indicated as green boxes. (C) As in B with further mutations. (D) As in B with further mutations. (P&lt;0.05â=â*; P&lt;0.01â=â**; P&lt;0.001â=â***).</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g006"/>
+        </fig>
+        <fig id="pone-0102399-g007" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g007</object-id>
+          <label>Figure 7</label>
+          <caption>
+            <title>Evidence for an exonic splicing silencer in alternative exon 2.</title>
+            <p>(A) A hypothetical RNA structure generated by M-fold is illustrated along with the position of the proximal TAF6 5â² splice site (green box). Selected mutation are indicated with arrows (red text) (B) The names of mutations within alternative exon 2 (2a) of the TAF6 minigene constructs are indicated at the right. HeLa cell transfection and splice product analysis was carried out as in <xref ref-type="fig" rid="pone-0102399-g003">Figure 3</xref>. The percentage of exogenous TAF6Î´ mRNA is graphically shown (x-axis). Mutations (red nucleotides) are shown to the right in hypothetical RNA secondary structures generated using the M-Fold algorithm. (C) As in panel A except that mutations (red nucleotides) are shown to the left. (P&lt;0.05â=â*; P&lt;0.01â=â**; P&lt;0.001â=â***).</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g007"/>
+        </fig>
+        <p>To further characterize the minigene system we tested constructs bearing point mutations within one of the two alternative 5â² splice sites (SSs). When we crippled the proximal (Î±) 5â² SS by mutating the first two nucleotides of the intronic SS from the consensus GT to CA, the transfected minigene spliced uniquely at the alternative distal (Î´) 5â² SS, as expected (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3B</xref>, Pko). Likewise, the same crippling mutation of the distal (Î´) 5â² SS resulted in splicing in HeLa cells uniquely at the proximal (Î±) 5â² SS (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3B</xref>, Dko). We used a web tool <ext-link ext-link-type="uri" xlink:href="http://rulai.cshl.edu/new_alt_exon_db2/HTML/score.html">http://rulai.cshl.edu/new_alt_exon_db2/HTML/score.html</ext-link> provided by Zhang laboratory (Cold Spring Harbor Laboratories) to calculate the alternative distal 5â² SS and the constitutive proximal 5â² SS strength scores as 2.8 and 6.4 respectively. These are relatively weak given that a perfect consensus site score is 12.6 and the average value for a constitutive 5â² SS is 8.1. To test the impact of splice site strength we mutated both sites individually to the consensus (AG/GUAAGU). When the proximal 5â² SS is changed to the consensus no residual detection of the alternative Î´ variant was detected (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3B</xref>, Pcons). When the alternative distal 5â² SS was changed to a consensus sequence all of the splice products used the distal site (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3B</xref>, Dcons). We conclude that one parameter that impacts the alternative splice site choice of TAF6 is the complementarity of the 5â² SSs to U1 snRNP as expected. We further conclude that the minigene system we developed provides a useful system to dissect the <italic>cis</italic>-acting RNA elements that control the expression of TAF6Î´.</p>
+        <p>Having established a minigene system to study TAF6 alternative splicing we next set out to perform a mutational dissection of the RNA elements within the minigene that impact the expression of the pro-apoptotic TAF6Î´ isoform. We have applied a combination of resources to guide our mutational analysis including predictive algorithms for RNA binding proteins and <italic>cis</italic>-acting elements including RESCUE-ESE <xref rid="pone.0102399-Fairbrother1" ref-type="bibr">[33]</xref>, ESE finder <xref rid="pone.0102399-Cartegni1" ref-type="bibr">[34]</xref>, and âSplicing Rainbowâ <xref rid="pone.0102399-Stamm1" ref-type="bibr">[35]</xref>. We also considered evolutionary conservation of intronic sequences and employed scanning mutagenesis to identify <italic>cis</italic>-acting RNA splicing elements. For simplicity we have subdivided the minigene into several sub-regions and our mutational analysis of each region is presented below.</p>
+      </sec>
+      <sec id="s3d">
+        <title>Scanning mutagenesis of constitutive exon 2 and exon 3</title>
+        <p>To search for <italic>cis</italic>-acting RNA elements we initially performed scanning by mutating blocks of 10 nucleotides within the constitutive portion of exon 2 (<xref ref-type="fig" rid="pone-0102399-g004">Fig. 4A</xref>). The mutation of two nucleotide blocks Exon 2-1 and Exon 2-3 had no significant effect on the TAF6 splicing pattern (<xref ref-type="fig" rid="pone-0102399-g004">Fig. 4A</xref>). Another nucleotide block in exon 2, exon 2-2 produced reproducible reductions in the levels of TAF6Î´ (<xref ref-type="fig" rid="pone-0102399-g004">Fig. 4A</xref>). These results evoke that a possible <italic>cis</italic>-acting RNA sequence within the exon 2-2 could favour the selection of the distal (Î´) 5â² SS. We note that in HeLa cells the endogenous basal levels (â¼10%) of TAF6Î´ do not produce detectable TAF6Î´ protein by Western blotting or immunofluorescence with sensitive antibodies, suggesting the exon 2-2 mutation would not be expected to have profound biological impacts.</p>
+        <p>We next used the same scanning mutagenesis to query whether exon 3 contained RNA elements important for the selection of TAF6Î´. We mutated three 10 nucleotide blocks near the 3â² SS of our TAF6 minigene (<xref ref-type="fig" rid="pone-0102399-g004">Fig. 4B</xref>). We found no significant differences in the ratio of TAF6Î´ for any of the three mutations exon 3-1, 3-2 or 3-3 (<xref ref-type="fig" rid="pone-0102399-g004">Fig. 4B</xref>). We conclude that the region of exon 3 proximal to intron 2 does not play a major role in the selection of the TAF6Î´ splice variant.</p>
+      </sec>
+      <sec id="s3e">
+        <title>Targeted mutagenesis of intron 2 of the <italic>taf6</italic> gene</title>
+        <p>To begin characterizing intron 2 of the minigene, we first examined sequence homology between the ninety-nine nucleotide long natural human intron 2 and forty-six vertebrate species (<ext-link ext-link-type="uri" xlink:href="http://genome.ucsc.edu/">http://genome.ucsc.edu/</ext-link>). Minimal informative sequence conservation was found within intron 2, however a small conserved motif that fits the degenerate yUnAy consensus <xref rid="pone.0102399-Gao1" ref-type="bibr">[36]</xref> for a human branch point site was identified at nucleotides 153â157 (<xref ref-type="supplementary-material" rid="pone.0102399.s005">Fig. S5</xref>). To determine if the adenine at position 156 corresponds to the branchpoint we mutated it to a guanosine. Upon transfection in HeLa cells the mutated minigene showed profoundly reduced splicing activity (<xref ref-type="supplementary-material" rid="pone.0102399.s006">Fig. S6</xref>). The residual splicing activity is low but detectable and could represent the inefficient use of alternative neighboring adenines. We conclude that adenine 156 is essential for splicing of the TAF6 minigene and most likely represents the major branchpoint site in intron 2.</p>
+        <p>To further explore <italic>cis</italic>-acting RNA elements within intron 2 that could impact the selection of the distal 5â² SS, we chose candidate motifs after manual and software-assisted (see above) analysis of potential regulatory sequence motifs. We decided to test the roles of several sequence motifs in the TAF6 minigene system including poly C motifs <xref rid="pone.0102399-ExpertBezancon1" ref-type="bibr">[37]</xref>, poly G motifs <xref rid="pone.0102399-SirandPugnet1" ref-type="bibr">[38]</xref> and a potential binding site for hnRNPA1 <xref rid="pone.0102399-Yang1" ref-type="bibr">[39]</xref> because these motifs have been previously shown to influence alternative splicing. The mutation of a potential hnRNPA1 binding site <xref rid="pone.0102399-Ishikawa1" ref-type="bibr">[40]</xref> within intron had no significant effect on the TAF6 splicing pattern (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5A</xref>, koA1). Likewise, a mutation of the CCCC (C<sub>4</sub>) motif at position 175â178 had little effect on TAF6 alternative splicing (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5A</xref>, C<sub>4</sub>-175). The mutation of a C<sub>3</sub> motif at positions 125â127 and C<sub>4</sub> combined significantly reduced levels of the TAF6Î´ splice variant (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5A</xref>, C<sub>3</sub>-125; C<sub>4</sub>-132). To determine if one of these motifs was more important for TAF6Î´ expression we mutated them individually and found that mutation of C<sub>3</sub>-125 alone caused a small but measurable reduction in TAF6Î´ levels (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5A</xref>, C<sub>3</sub>-125). Mutation of the C<sub>4</sub>-132 motif alone caused a reduction in TAF6Î´ expression similar to that of the double mutation (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5B</xref>, C<sub>4</sub>-132), suggesting that the C<sub>4</sub>-132 motif plays the predominant role in TAF6Î´ splice site selection. To complete our investigation of poly C motifs, we mutated a C<sub>3</sub> motif at position 91â93 in the minigene and found it produced modestly reduced splice selection of TAF6Î´ (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5A</xref>, C<sub>3</sub>-91).</p>
+        <p>We next turned our attention to the potential function of three poly G sequences within intron 2 of the TAF6 minigene. The mutation of a G<sub>3</sub> motif at position 113â115 resulted in reduced expression of the TAF6Î´ splice variant (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5B</xref>, G<sub>3</sub>-113). The mutation of a G<sub>3</sub> motif at position 129â131 had little impact on TAF6 splicing ratios (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5B</xref>, G<sub>3</sub>-129). The mutation of a G<sub>3</sub> motif at position 150â152 generated wild type splicing ratios. (<xref ref-type="fig" rid="pone-0102399-g005">Fig. 5B</xref>, G<sub>3</sub>-150). Taken together, our analysis of intron 2 of the TAF6 minigene define a putative branchpoint adenosine at position 156 that is essential for splicing, and shows that specific poly C and poly G motifs in the intron can enhance the selection of the pro-apoptotic TAF6Î´ splice form.</p>
+      </sec>
+      <sec id="s3f">
+        <title>RNA secondary structure at the proximal 5â² splice site can force the selection of TAF6Î´</title>
+        <p>We then focused on the alternative exon 2 (exon 2a) a critical region of the minigene because it lies physically between the Î± and Î´ alternative 5â² splice sites (<xref ref-type="fig" rid="pone-0102399-g003">Fig. 3A</xref>), and because modified antisense RNA oligonucleotides that anneal to it can shift the splicing from the major to the pro-apoptotic Î´ form in living cells <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref>. The ESEfinder algorithm <xref rid="pone.0102399-Cartegni1" ref-type="bibr">[34]</xref> was employed and detected a potential SF2 binding site in exon 2a (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>). To test a potential role for the SF2 motif in the 5â² splice site choice we designed two point mutations to prevent (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>, SF2-) or enhance (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>, SF2+) SF2 binding. Upon transfection these mutations both gave strong increases in the levels of the Î´ splice form (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>), a result not compatible with a role for SF2 binding to this motif. To further dissect the impact of the two-nucleotide mutation within SF2+ that caused a complete reversal of the splicing pattern, we mutated these positions individually. Mutation of position 68 alone had little effect on the splicing pattern (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>, A68C). In contrast, mutation of adenosine 73 to guanosine alone resulted in a complete shift towards the usage of the distal Î´ 5â² SS (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>, A73G). Having ruled out a role for SF2, we sought an alternative hypothesis for the strong impact of this mutation. Given the well-documented importance of RNA secondary structure on alternative splicing <xref rid="pone.0102399-Buratti1" ref-type="bibr">[15]</xref>, <xref rid="pone.0102399-McManus1" ref-type="bibr">[17]</xref>, <xref rid="pone.0102399-Warf1" ref-type="bibr">[18]</xref>, <xref rid="pone.0102399-Roca1" ref-type="bibr">[41]</xref>, we employed the M-Fold algorithm <xref rid="pone.0102399-Zuker1" ref-type="bibr">[42]</xref> to test for potential impacts on RNA structure. When compared to the wild type sequence the A73G mutation was predicted to form a stem-loop that based on precedence <xref rid="pone.0102399-Hutton1" ref-type="bibr">[43]</xref> would be stable enough to potentially block U1 snRNP from binding to the proximal 5â² splice site (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6A</xref>, right). To test the hypothesis that mutation A73G reverses TAF6 splicing via the formation of secondary structure we performed further mutagenesis to provide support for the putative G73 - C86 base pair in cells. Mutation of C86U in the wild type context A73 did not change TAF6 splicing pattern (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6B</xref>). We also performed mutations that are predicted to form a stem-loop of equal stability to A73G replacing the natural C86 within position 5 of the proximal 5â² splice site with G to increase its strength. This construct showed less Î´ splicing that the wild type (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6B</xref> mutant A73C-C86U), compatible with a competition between splice site strength and RNA secondary structure in cells. To test whether the potential weak secondary structure formed by the wild type sequence could impact basal TAF6 splicing ratios we performed a series of mutations that would weaken such a potential structure, but found no strict correlation between the stability of such a structure and splice site selection (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6C</xref>). We conclude that any secondary structure forming with the wild type pre-mRNA under normal cellular conditions is not strong enough to impact selection of the distal 5â² SS. To further confirm the putative structure formed by the A73G mutation we performed mutations that disrupt the structure while leaving the proximal 5â² SS untouched and found no change in splicing (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6D</xref>, GC 74). Mutations that weaken but do not ablate the putative A73G-induced stem-loop showed intermediate levels of distal 5â² SS usage (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6D</xref>, GC 75 &amp; GC 76). A point mutation in the loop of the predicted stem-loop had no effect, as expected (<xref ref-type="fig" rid="pone-0102399-g006">Fig. 6D</xref>, GC 78). Taken collectively, these findings indicate that a stem-loop structure competing for the proximal 5â² SS can strongly enhance the use of the distal Î´ 5â² SS.</p>
+      </sec>
+      <sec id="s3g">
+        <title>Evidence for an exonic splicing silencer in alternative exon 2</title>
+        <p>Given that local secondary structure occurs at the proximal 5â² SS, and that it is located only 30 nucleotides from the distal 5â² SS, we postulated that competition between RNA structure and the distal 5â² SS might also play a role in the expression of TAF6Î´. We used the M-Fold algorithm <xref rid="pone.0102399-Zuker1" ref-type="bibr">[42]</xref> to predict potential secondary structures overlapping the distal 5â² SS. The most probable theoretical stem-loop structure predicted could potentially occlude the interaction of U1 snRNP interaction with the distal Î´ 5â² SS (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7A</xref>). To provide evidence to confirm or exclude the existence of such a stem-loop we constructed a series of minigenes with mutations that would weaken, destroy or maintain it. No correlation was observed between potential stem-loop strength and the splicing outcome, ruling out a major role for such a structure in the regulation of TAF6 alternative splicing (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7A</xref>).</p>
+        <p>Interestingly, however, our mutational analysis revealed that a single nucleotide change (C66U) produced a greater than two-fold increase in the production of the TAF6Î´ splice form (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7A and B</xref>, C66U). To further delineate the role of cytosine 66 we mutated it to uridine, adenosine and guanosine respectively. Mutations C66U and C66A both resulted in clear increases in TAF6Î´ splice form production (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7C</xref>), even though these nucleotides have distinct hydrogen bonding specificities within RNA secondary structures. C66G had much less effect than these mutations, although the mutation would also be expected to have altered base-pairing within RNA structure. To further dissect a potential regulatory RNA sequence in the region of cytosine 66 we performed further point mutations. Changing adenosine 67 to thymine significantly increased TAF6Î´ splice selection (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7C</xref>, A67T). A nearby change, G70T, also increased TAF6Î´ splice selection (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7C</xref>). In contrast, a slightly more distant mutation C60G did not significantly change the splicing ratio (<xref ref-type="fig" rid="pone-0102399-g007">Fig. 7C</xref>). Taken together, the above results suggest that an exonic splicing silencer (ESS) is located in the region of nucleotides 66â70 within the alternative exon of TAF6. We found no evidence that RNA secondary structure within this region plays an important role in splice site choice. The mutational data described above support a hypothetical model for <italic>cis</italic>-acting RNA elements in the regulation of TAF6 alternative splicing that is presented schematically in <xref ref-type="fig" rid="pone-0102399-g008">Figure 8</xref>.</p>
+        <fig id="pone-0102399-g008" orientation="portrait" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.pone.0102399.g008</object-id>
+          <label>Figure 8</label>
+          <caption>
+            <title>A hypothetical model for TAF6Î´ alternative splicing.</title>
+            <p>(A) The TAF6 minigene construct is schematically shown with putative exonic splicing enhancer (ESE), exonic splicing silencer (ESS) and intronic splicing enhancer (ISE) motifs indicated with boxes. Enhancer or silencer definitions are given with respect to the pro-apoptotic TAF6Î´ isoform but likely act simultaneously to repress one 5â² SS while enhancing the other because of the small distance (30 nucleotides) between them. (B) As in panel A, except that mutations were focused on poly G motifs found within intron 2.</p>
+          </caption>
+          <graphic xlink:href="pone.0102399.g008"/>
+        </fig>
+      </sec>
+    </sec>
+    <sec id="s4">
+      <title>Discussion</title>
+      <p>TAF6 is a core subunit of the general RNA Pol II transcription factor TFIID <xref rid="pone.0102399-Wright1" ref-type="bibr">[5]</xref>, and has previously demonstrated to be essential for viability in several organisms including the budding yeast <italic>Saccharomyces cerevisiae</italic>
+<xref rid="pone.0102399-Michel1" ref-type="bibr">[28]</xref>, <xref rid="pone.0102399-Poon1" ref-type="bibr">[44]</xref>, <italic>Drosophila</italic> fruit flies <xref rid="pone.0102399-Aoyagi1" ref-type="bibr">[30]</xref>, the flowering plant <italic>Arabidopsis thaliana</italic> as well as the fresh water fish <italic>Danio rerio</italic>
+<xref rid="pone.0102399-Amsterdam1" ref-type="bibr">[31]</xref>. Here we show for the first time that TAF6 is essential for viability in human cells (<xref ref-type="fig" rid="pone-0102399-g001">Fig. 1</xref>). Although this result is not unexpected, the significance of the finding derives from the potential of TAF6 as a therapeutic target for numerous diseases that result from deregulated apoptosis <xref rid="pone.0102399-Reed1" ref-type="bibr">[45]</xref>. Many apoptotic genes are required for normal development at the organismal level but tumor suppressors such as BRCA1, PTEN, CDKN2A (ARF/p16INK4), RB1, APC, and p53, Bcl-2 family members, the caspases and death receptors are all dispensable for viability at the cellular level <xref rid="pone.0102399-Ranger1" ref-type="bibr">[46]</xref>, <xref rid="pone.0102399-Vogelstein1" ref-type="bibr">[47]</xref>. TAF6 therefore represents a rare class of genes that are essential for cell viability, but also possess splice variants with potent pro-apoptotic activity. As an essential gene with pro-apoptotic potential TAF6 is of high strategic interest in the development of anti-cancer treatments that avoid the development of chemoresistance and to target p53 negative tumors <xref rid="pone.0102399-Watson1" ref-type="bibr">[48]</xref>.</p>
+      <p>Using a minigene system that recapitulates the endogenous TAF6 splicing pattern we identified several <italic>cis</italic>-RNA elements that modulate TAF6Î´ splicing as schematically shown in <xref ref-type="fig" rid="pone-0102399-g008">Figure 8</xref>. The sensitivity of the proximal 5â² splice site evokes the possibility that the modulation of RNA folding could contribute to the physiological selection of TAF6Î´. Further work will be required to confirm or exclude this hypothesis. The first mapping of the <italic>cis</italic>-acting RNA within elements provides the essential groundwork for future studies to identify <italic>trans</italic>-acting factors that regulate TAF6Î´ splicing. Indeed, the identification of the important RNA elements will be crucial for both proteomic <xref rid="pone.0102399-Kar1" ref-type="bibr">[49]</xref> and genomic <xref rid="pone.0102399-Moore1" ref-type="bibr">[50]</xref> approaches to identify <italic>trans</italic>-acting splice regulatory proteins. A limitation of the current study is the fact that the mutations could conceivably differentially alter RNA stability in addition to splice site choice. In addition potential long-range <italic>cis</italic>-acting RNA elements will not have been identified due to the limited size of our TAF6 minigene. Further work will be required to address these possibilities.</p>
+      <p>Accumulating evidence points to a potential link between the TAF6Î´ pathway and cancer biology. A cDNA encoding the major TAF6Î± variant was identified in a large-scale screen as being able to increase colony formation in human hepatocellular carcinoma cells and mouse embryonic fibroblasts <xref rid="pone.0102399-Wan1" ref-type="bibr">[51]</xref>. Integrative genomic data show that the taf6 gene is amplified in lung cancer <xref rid="pone.0102399-Campbell1" ref-type="bibr">[52]</xref>. TAF6 has been reported as a genomic marker of poor prognosis in lung adenocarcinoma <xref rid="pone.0102399-AvielRonen1" ref-type="bibr">[53]</xref>. TAF6 mRNA was identified as being overexpressed in inflammatory breast cancer <xref rid="pone.0102399-Dressman1" ref-type="bibr">[54]</xref>. Interestingly, a specific splice variant of TAF6 with an extended exon 2 is reportedly overrepresented in ductal cell carcinoma <xref rid="pone.0102399-Wang2" ref-type="bibr">[55]</xref>. Taken together these findings suggest that the major anti-apoptotic TAF6Î± splice variant possesses oncogenic potential. In stark contrast, the minor TAF6Î´ splice variant has pro-apoptotic activity evoking a potential tumor suppressor activity <xref rid="pone.0102399-Bell1" ref-type="bibr">[1]</xref>, <xref rid="pone.0102399-Wilhelm1" ref-type="bibr">[2]</xref>, <xref rid="pone.0102399-Wilhelm2" ref-type="bibr">[3]</xref>. It is conceivable that anti-apoptotic TAF6Î± expression can be decoupled from pro-apoptotic TAF6Î´ in certain tumor types. The mapping of key <italic>cis</italic>-acting RNA elements we present here paves the way to experimentally test the existence of mutations in the essential taf6 gene that could reduce or prevent TAF6Î´ expression in human tumors.</p>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="pone.0102399.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>The role of alternative splicing in the TAF6Î´ pathway of apoptosis. A schematic model depicts the exon 2, intron 2, exon 3 region of the <italic>taf6</italic> gene. Use of proximal 5â² splice site (SS) generates the major TAF6Î± isoform that dimerizes with its normal partner TAF9 within the TFIID complex resulting in a gene expression program allowing cell growth. Selection of the distal alternative 5â² SS removes 10 amino acids to generate TAF6Î´ that cannot interact with TAF9 but is incorporated into a TFIIDÏ complex that drives a pro-apoptotic gene expression and consequently cell death.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0102399.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>Endogenous TAF6Î´ is not detectable in HeLa cells under normal growth conditions. (A) Protein samples from HeLa cells that were transfected with a scrambled (Ctl), TAF6-1 (si1) or TAF6-2 (si2) siRNA were used to perform western blots. The resulting membranes were incubated with either a TAF6Î± or a TAF6 total targetting antibody. (B) The TAF6Î± and TAF6Î´ specific antibodies were used to detect the protein in lysates of untransfected HeLa cells (NT). Protein extracts of mock (M), empty vector (EV), TAF6Î´ (Î´) of TAF6Î± (Î±) transfected cells were used as controls. (C) Overexposure of membranes incubated with two different TAF6Î´ antibodies show no signal in the untransfected cells. The 37TA 2D5 antibody, which was raised against the Î´ isoform, but also recognizes TAF6Î±, detects no protein in non-transfected cells. The 37TA 1C2 antibody is highly specific for TAF6Î´. The white asterisk indicates an non-specific band that migrates slightly slower than the Î´ splice variant.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0102399.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Validation of TAF6 siRNA specificity. Quantitative real-time PCR was used to assess the similarity of gene regulation 48 h after the transfection by two different siRNAs targetting TAF6.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0102399.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>Distinct impact of TAF6Î´ induction versus total early (48 hour) TAF6 mRNA depletion on the transcriptome of HeLa cells. (A) Heat map comparing the impact of statistically significantly (p&lt;0.05) changes in gene expression during TAF6 mRNA depletion by siRNA at 48 hours post transfection to the TAF6delta expression profile. Red indicates induction and blue repression. Genes were ordered independently according to fold change. (B) Gene ontology analysis of statistically significantly regulated genes during total TAF6 mRNA depletion at 48 hours post-transfection. Enriched pathways are shown with their associated p-values. (C) Venn diagram depicting genes statistically significantly regulated by total TAF6 mRNA depletion versus TAF6Î´ induction. (D) Logarithmic fold-changes of genes regulated statistically significantly by TAF6 mRNA depletion 48 hours post-transfection and by TAF6Î´ induction are shown side by side.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0102399.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>Schematic representation of mutations used in this study. (A) The TAF6 minigene construct is shown schematically. (B) A nucleotide resolution list of mutations (altered nucleotides shown in red) from different regions of the minigene are illustrated. Black text corresponds to wild type sequences and the exons 2 and 3 (white boxes), alternative exon 2a (grey box) and intron 2 (black line) are indicated above the sequences.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s005.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0102399.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>Mapping of the branchpoint in intron 2 of the TAF6 minigene. (A) A TAF6 minigene construct bearing a point mutation in a putative branchpoint (adenine 156 to guanosine) was transfected into HeLa cells for splicing analysis as in <xref ref-type="fig" rid="pone-0102399-g003">Figure 3</xref>. The pre-mRNA as well as the spliced products are indicated with arrows. (B) Exogenously expressed TAF6 pre-mRNA and spliced products were quantified as in <xref ref-type="fig" rid="pone-0102399-g003">Figure 3</xref> and the percentage of exogenous TAF6 minigene splicing is graphically shown (y-axis).</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s006.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="pone.0102399.s007">
+        <label>Table S1</label>
+        <caption>
+          <p>List of synthetic oligonucleotides used in this study. The names of mutations are given in the left column and the oligonucleotide sequence is listed in the right column.</p>
+          <p>(XLSX)</p>
+        </caption>
+        <media xlink:href="pone.0102399.s007.xlsx">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>BB thanks the European Union for support via a Marie-Curie Fellowship as well as Dr. Juan ValcÃ¡rcel and the members of his team for helpful input at the inception of this work. E. Wilhelm holds an Alexandre Graham Bell Canada Graduate Scholarship from the National Science and Engineering Council of Canada (NSERC). We gratefully acknowledge Annie Leclerc for the preparation of figures. BB is a member of the Centre de recherche sur la biologie de l'ARN and the FRSQ-funded Centre de recherche clinique Ãtienne-Le Bel.</p>
+    </ack>
+    <ref-list>
+      <title>References</title>
+      <ref id="pone.0102399-Bell1">
+        <label>1</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bell</surname><given-names>B</given-names></name>, <name><surname>Scheer</surname><given-names>E</given-names></name>, <name><surname>Tora</surname><given-names>L</given-names></name> (<year>2001</year>) <article-title>Identification of hTAF(II)80 delta links apoptotic signaling pathways to transcription factor TFIID function</article-title>. <source>Mol Cell</source>
+<volume>8</volume>: <fpage>591</fpage>â<lpage>600</lpage>.<pub-id pub-id-type="pmid">11583621</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wilhelm1">
+        <label>2</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wilhelm</surname><given-names>E</given-names></name>, <name><surname>Kornete</surname><given-names>M</given-names></name>, <name><surname>Targat</surname><given-names>B</given-names></name>, <name><surname>Vigneault-Edwards</surname><given-names>J</given-names></name>, <name><surname>Frontini</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2010</year>) <article-title>TAF6delta orchestrates an apoptotic transcriptome profile and interacts functionally with p53</article-title>. <source>BMC molecular biology</source>
+<volume>11</volume>: <fpage>10</fpage>.<pub-id pub-id-type="pmid">20096117</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wilhelm2">
+        <label>3</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wilhelm</surname><given-names>E</given-names></name>, <name><surname>Pellay</surname><given-names>FX</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name>, <name><surname>Bell</surname><given-names>B</given-names></name> (<year>2008</year>) <article-title>TAF6delta controls apoptosis and gene expression in the absence of p53</article-title>. <source>PLoS ONE</source>
+<volume>3</volume>: <fpage>e2721</fpage>.<pub-id pub-id-type="pmid">18628956</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Bieniossek1">
+        <label>4</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Bieniossek</surname><given-names>C</given-names></name>, <name><surname>Papai</surname><given-names>G</given-names></name>, <name><surname>Schaffitzel</surname><given-names>C</given-names></name>, <name><surname>Garzoni</surname><given-names>F</given-names></name>, <name><surname>Chaillet</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2013</year>) <article-title>The architecture of human general transcription factor TFIID core complex</article-title>. <source>Nature</source>
+</mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wright1">
+        <label>5</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wright</surname><given-names>KJ</given-names></name>, <name><surname>Marr</surname><given-names>MT</given-names><suffix>2nd</suffix></name>, <name><surname>Tjian</surname><given-names>R</given-names></name> (<year>2006</year>) <article-title>TAF4 nucleates a core subcomplex of TFIID and mediates activated transcription from a TATA-less promoter</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>103</volume>: <fpage>12347</fpage>â<lpage>12352</lpage>.<pub-id pub-id-type="pmid">16895980</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Burley1">
+        <label>6</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Burley</surname><given-names>SK</given-names></name>, <name><surname>Roeder</surname><given-names>RG</given-names></name> (<year>1996</year>) <article-title>Biochemistry and structural biology of transcription factor IID (TFIID)</article-title>. <source>Annu Rev Biochem</source>
+<volume>65</volume>: <fpage>769</fpage>â<lpage>799</lpage>.<pub-id pub-id-type="pmid">8811195</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Cler1">
+        <label>7</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cler</surname><given-names>E</given-names></name>, <name><surname>Papai</surname><given-names>G</given-names></name>, <name><surname>Schultz</surname><given-names>P</given-names></name>, <name><surname>Davidson</surname><given-names>I</given-names></name> (<year>2009</year>) <article-title>Recent advances in understanding the structure and function of general transcription factor TFIID</article-title>. <source>Cellular and molecular life sciences : CMLS</source>
+<volume>66</volume>: <fpage>2123</fpage>â<lpage>2134</lpage>.<pub-id pub-id-type="pmid">19308322</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Vousden1">
+        <label>8</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Vousden</surname><given-names>KH</given-names></name>, <name><surname>Lane</surname><given-names>DP</given-names></name> (<year>2007</year>) <article-title>p53 in health and disease</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>8</volume>: <fpage>275</fpage>â<lpage>283</lpage>.<pub-id pub-id-type="pmid">17380161</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Pan1">
+        <label>9</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pan</surname><given-names>Q</given-names></name>, <name><surname>Shai</surname><given-names>O</given-names></name>, <name><surname>Lee</surname><given-names>LJ</given-names></name>, <name><surname>Frey</surname><given-names>BJ</given-names></name>, <name><surname>Blencowe</surname><given-names>BJ</given-names></name> (<year>2008</year>) <article-title>Deep surveying of alternative splicing complexity in the human transcriptome by high-throughput sequencing</article-title>. <source>Nature genetics</source>
+<volume>40</volume>: <fpage>1413</fpage>â<lpage>1415</lpage>.<pub-id pub-id-type="pmid">18978789</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wang1">
+        <label>10</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>ET</given-names></name>, <name><surname>Sandberg</surname><given-names>R</given-names></name>, <name><surname>Luo</surname><given-names>S</given-names></name>, <name><surname>Khrebtukova</surname><given-names>I</given-names></name>, <name><surname>Zhang</surname><given-names>L</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Alternative isoform regulation in human tissue transcriptomes</article-title>. <source>Nature</source>
+<volume>456</volume>: <fpage>470</fpage>â<lpage>476</lpage>.<pub-id pub-id-type="pmid">18978772</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Schwerk1">
+        <label>11</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Schwerk</surname><given-names>C</given-names></name>, <name><surname>Schulze-Osthoff</surname><given-names>K</given-names></name> (<year>2005</year>) <article-title>Regulation of apoptosis by alternative pre-mRNA splicing</article-title>. <source>Mol Cell</source>
+<volume>19</volume>: <fpage>1</fpage>â<lpage>13</lpage>.<pub-id pub-id-type="pmid">15989960</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Chen1">
+        <label>12</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Chen</surname><given-names>M</given-names></name>, <name><surname>Manley</surname><given-names>JL</given-names></name> (<year>2009</year>) <article-title>Mechanisms of alternative splicing regulation: insights from molecular and genomics approaches</article-title>. <source>Nature reviews Molecular cell biology</source>
+<volume>10</volume>: <fpage>741</fpage>â<lpage>754</lpage>.<pub-id pub-id-type="pmid">19773805</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Shepard1">
+        <label>13</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Shepard</surname><given-names>PJ</given-names></name>, <name><surname>Hertel</surname><given-names>KJ</given-names></name> (<year>2009</year>) <article-title>The SR protein family</article-title>. <source>Genome biology</source>
+<volume>10</volume>: <fpage>242</fpage>.<pub-id pub-id-type="pmid">19857271</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-MartinezContreras1">
+        <label>14</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Martinez-Contreras</surname><given-names>R</given-names></name>, <name><surname>Cloutier</surname><given-names>P</given-names></name>, <name><surname>Shkreta</surname><given-names>L</given-names></name>, <name><surname>Fisette</surname><given-names>JF</given-names></name>, <name><surname>Revil</surname><given-names>T</given-names></name>, <etal>et al</etal> (<year>2007</year>) <article-title>hnRNP proteins and splicing control</article-title>. <source>Advances in experimental medicine and biology</source>
+<volume>623</volume>: <fpage>123</fpage>â<lpage>147</lpage>.<pub-id pub-id-type="pmid">18380344</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Buratti1">
+        <label>15</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Buratti</surname><given-names>E</given-names></name>, <name><surname>Baralle</surname><given-names>FE</given-names></name> (<year>2004</year>) <article-title>Influence of RNA secondary structure on the pre-mRNA splicing process</article-title>. <source>Molecular and cellular biology</source>
+<volume>24</volume>: <fpage>10505</fpage>â<lpage>10514</lpage>.<pub-id pub-id-type="pmid">15572659</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Jin1">
+        <label>16</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Jin</surname><given-names>Y</given-names></name>, <name><surname>Yang</surname><given-names>Y</given-names></name>, <name><surname>Zhang</surname><given-names>P</given-names></name> (<year>2011</year>) <article-title>New insights into RNA secondary structure in the alternative splicing of pre-mRNAs</article-title>. <source>RNA biology</source>
+<volume>8</volume>: <fpage>450</fpage>â<lpage>457</lpage>.<pub-id pub-id-type="pmid">21558794</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-McManus1">
+        <label>17</label>
+        <mixed-citation publication-type="journal">
+<name><surname>McManus</surname><given-names>CJ</given-names></name>, <name><surname>Graveley</surname><given-names>BR</given-names></name> (<year>2011</year>) <article-title>RNA structure and the mechanisms of alternative splicing</article-title>. <source>Current opinion in genetics &amp; development</source>
+<volume>21</volume>: <fpage>373</fpage>â<lpage>379</lpage>.<pub-id pub-id-type="pmid">21530232</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Warf1">
+        <label>18</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Warf</surname><given-names>MB</given-names></name>, <name><surname>Berglund</surname><given-names>JA</given-names></name> (<year>2010</year>) <article-title>Role of RNA structure in regulating pre-mRNA splicing</article-title>. <source>Trends in biochemical sciences</source>
+<volume>35</volume>: <fpage>169</fpage>â<lpage>178</lpage>.<pub-id pub-id-type="pmid">19959365</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Lewis1">
+        <label>19</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Lewis</surname><given-names>BP</given-names></name>, <name><surname>Green</surname><given-names>RE</given-names></name>, <name><surname>Brenner</surname><given-names>SE</given-names></name> (<year>2003</year>) <article-title>Evidence for the widespread coupling of alternative splicing and nonsense-mediated mRNA decay in humans</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>100</volume>: <fpage>189</fpage>â<lpage>192</lpage>.<pub-id pub-id-type="pmid">12502788</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Pan2">
+        <label>20</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Pan</surname><given-names>Q</given-names></name>, <name><surname>Saltzman</surname><given-names>AL</given-names></name>, <name><surname>Kim</surname><given-names>YK</given-names></name>, <name><surname>Misquitta</surname><given-names>C</given-names></name>, <name><surname>Shai</surname><given-names>O</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Quantitative microarray profiling provides evidence against widespread coupling of alternative splicing with nonsense-mediated mRNA decay to control gene expression</article-title>. <source>Genes &amp; development</source>
+<volume>20</volume>: <fpage>153</fpage>â<lpage>158</lpage>.<pub-id pub-id-type="pmid">16418482</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Papworth1">
+        <label>21</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Papworth</surname><given-names>C</given-names></name>, <name><surname>Bauer</surname><given-names>JC</given-names></name>, <name><surname>Braman</surname><given-names>J</given-names></name>, <name><surname>Wright</surname><given-names>DA</given-names></name> (<year>1996</year>) <article-title>Site-directed mutagenesis in one day with &gt;80% efficiency</article-title>. <source>Strategies</source>
+<volume>9</volume>: <fpage>3</fpage>â<lpage>4</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wilhelm3">
+        <label>22</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wilhelm</surname><given-names>E</given-names></name>, <name><surname>Pellay</surname><given-names>FX</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name>, <name><surname>Bell</surname><given-names>B</given-names></name> (<year>2008</year>) <article-title>Determining the impact of alternative splicing events on transcriptome dynamics</article-title>. <source>BMC Res Notes</source>
+<volume>1</volume>: <fpage>94</fpage>.<pub-id pub-id-type="pmid">18950505</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Noth1">
+        <label>23</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Noth</surname><given-names>S</given-names></name>, <name><surname>Brysbaert</surname><given-names>G</given-names></name>, <name><surname>Pellay</surname><given-names>FX</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name> (<year>2006</year>) <article-title>High-sensitivity transcriptome data structure and implications for analysis and biologic interpretation</article-title>. <source>Genomics Proteomics Bioinformatics</source>
+<volume>4</volume>: <fpage>212</fpage>â<lpage>229</lpage>.<pub-id pub-id-type="pmid">17531797</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Brysbaert1">
+        <label>24</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Brysbaert</surname><given-names>G</given-names></name>, <name><surname>Pellay</surname><given-names>FX</given-names></name>, <name><surname>Noth</surname><given-names>S</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name> (<year>2010</year>) <article-title>Quality assessment of transcriptome data using intrinsic statistical properties</article-title>. <source>Genomics, proteomics &amp; bioinformatics</source>
+<volume>8</volume>: <fpage>57</fpage>â<lpage>71</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Noth2">
+        <label>25</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Noth</surname><given-names>S</given-names></name>, <name><surname>Brysbaert</surname><given-names>G</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name> (<year>2006</year>) <article-title>Normalization using weighted negative second order exponential error functions (NeONORM) provides robustness against asymmetries in comparative transcriptome profiles and avoids false calls</article-title>. <source>Genomics Proteomics Bioinformatics</source>
+<volume>4</volume>: <fpage>90</fpage>â<lpage>109</lpage>.<pub-id pub-id-type="pmid">16970549</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Rasmussen1">
+        <label>26</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Rasmussen</surname><given-names>AL</given-names></name>, <name><surname>Tchitchek</surname><given-names>N</given-names></name>, <name><surname>Susnow</surname><given-names>NJ</given-names></name>, <name><surname>Krasnoselsky</surname><given-names>AL</given-names></name>, <name><surname>Diamond</surname><given-names>DL</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>Early transcriptional programming links progression to hepatitis C virus-induced severe liver disease in transplant patients</article-title>. <source>Hepatology</source>
+<volume>56</volume>: <fpage>17</fpage>â<lpage>27</lpage>.<pub-id pub-id-type="pmid">22278598</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Tchitchek1">
+        <label>27</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Tchitchek</surname><given-names>N</given-names></name>, <name><surname>Dzib</surname><given-names>JF</given-names></name>, <name><surname>Targat</surname><given-names>B</given-names></name>, <name><surname>Noth</surname><given-names>S</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name>, <etal>et al</etal> (<year>2012</year>) <article-title>CDS: a fold-change based statistical test for concomitant identification of distinctness and similarity in gene expression analysis</article-title>. <source>Genomics, proteomics &amp; bioinformatics</source>
+<volume>10</volume>: <fpage>127</fpage>â<lpage>135</lpage>.</mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Michel1">
+        <label>28</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Michel</surname><given-names>B</given-names></name>, <name><surname>Komarnitsky</surname><given-names>P</given-names></name>, <name><surname>Buratowski</surname><given-names>S</given-names></name> (<year>1998</year>) <article-title>Histone-like TAFs are essential for transcription in vivo</article-title>. <source>Mol Cell</source>
+<volume>2</volume>: <fpage>663</fpage>â<lpage>673</lpage>.<pub-id pub-id-type="pmid">9844638</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Shen1">
+        <label>29</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Shen</surname><given-names>WC</given-names></name>, <name><surname>Bhaumik</surname><given-names>SR</given-names></name>, <name><surname>Causton</surname><given-names>HC</given-names></name>, <name><surname>Simon</surname><given-names>I</given-names></name>, <name><surname>Zhu</surname><given-names>X</given-names></name>, <etal>et al</etal> (<year>2003</year>) <article-title>Systematic analysis of essential yeast TAFs in genome-wide transcription and preinitiation complex assembly</article-title>. <source>Embo J</source>
+<volume>22</volume>: <fpage>3395</fpage>â<lpage>3402</lpage>.<pub-id pub-id-type="pmid">12840001</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Aoyagi1">
+        <label>30</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Aoyagi</surname><given-names>N</given-names></name>, <name><surname>Wassarman</surname><given-names>DA</given-names></name> (<year>2001</year>) <article-title>Developmental and transcriptional consequences of mutations in Drosophila TAF(II)60</article-title>. <source>Mol Cell Biol</source>
+<volume>21</volume>: <fpage>6808</fpage>â<lpage>6819</lpage>.<pub-id pub-id-type="pmid">11564865</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Amsterdam1">
+        <label>31</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Amsterdam</surname><given-names>A</given-names></name>, <name><surname>Nissen</surname><given-names>RM</given-names></name>, <name><surname>Sun</surname><given-names>Z</given-names></name>, <name><surname>Swindell</surname><given-names>EC</given-names></name>, <name><surname>Farrington</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Identification of 315 genes essential for early zebrafish development</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>: <fpage>12792</fpage>â<lpage>12797</lpage>.<pub-id pub-id-type="pmid">15256591</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Noth3">
+        <label>32</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Noth</surname><given-names>S</given-names></name>, <name><surname>Benecke</surname><given-names>A</given-names></name> (<year>2005</year>) <article-title>Avoiding inconsistencies over time and tracking difficulties in Applied Biosystems AB1700/Panther probe-to-gene annotations</article-title>. <source>BMC Bioinformatics</source>
+<volume>6</volume>: <fpage>307</fpage>.<pub-id pub-id-type="pmid">16372901</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Fairbrother1">
+        <label>33</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Fairbrother</surname><given-names>WG</given-names></name>, <name><surname>Yeo</surname><given-names>GW</given-names></name>, <name><surname>Yeh</surname><given-names>R</given-names></name>, <name><surname>Goldstein</surname><given-names>P</given-names></name>, <name><surname>Mawson</surname><given-names>M</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>RESCUE-ESE identifies candidate exonic splicing enhancers in vertebrate exons</article-title>. <source>Nucleic acids research</source>
+<volume>32</volume>: <fpage>W187</fpage>â<lpage>190</lpage>.<pub-id pub-id-type="pmid">15215377</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Cartegni1">
+        <label>34</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Cartegni</surname><given-names>L</given-names></name>, <name><surname>Wang</surname><given-names>J</given-names></name>, <name><surname>Zhu</surname><given-names>Z</given-names></name>, <name><surname>Zhang</surname><given-names>MQ</given-names></name>, <name><surname>Krainer</surname><given-names>AR</given-names></name> (<year>2003</year>) <article-title>ESEfinder: A web resource to identify exonic splicing enhancers</article-title>. <source>Nucleic Acids Res</source>
+<volume>31</volume>: <fpage>3568</fpage>â<lpage>3571</lpage>.<pub-id pub-id-type="pmid">12824367</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Stamm1">
+        <label>35</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Stamm</surname><given-names>S</given-names></name>, <name><surname>Riethoven</surname><given-names>JJ</given-names></name>, <name><surname>Le Texier</surname><given-names>V</given-names></name>, <name><surname>Gopalakrishnan</surname><given-names>C</given-names></name>, <name><surname>Kumanduri</surname><given-names>V</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>ASD: a bioinformatics resource on alternative splicing</article-title>. <source>Nucleic acids research</source>
+<volume>34</volume>: <fpage>D46</fpage>â<lpage>55</lpage>.<pub-id pub-id-type="pmid">16381912</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Gao1">
+        <label>36</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Gao</surname><given-names>K</given-names></name>, <name><surname>Masuda</surname><given-names>A</given-names></name>, <name><surname>Matsuura</surname><given-names>T</given-names></name>, <name><surname>Ohno</surname><given-names>K</given-names></name> (<year>2008</year>) <article-title>Human branch point consensus sequence is yUnAy</article-title>. <source>Nucleic acids research</source>
+<volume>36</volume>: <fpage>2257</fpage>â<lpage>2267</lpage>.<pub-id pub-id-type="pmid">18285363</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-ExpertBezancon1">
+        <label>37</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Expert-Bezancon</surname><given-names>A</given-names></name>, <name><surname>Le Caer</surname><given-names>JP</given-names></name>, <name><surname>Marie</surname><given-names>J</given-names></name> (<year>2002</year>) <article-title>Heterogeneous nuclear ribonucleoprotein (hnRNP) K is a component of an intronic splicing enhancer complex that activates the splicing of the alternative exon 6A from chicken beta-tropomyosin pre-mRNA</article-title>. <source>The Journal of biological chemistry</source>
+<volume>277</volume>: <fpage>16614</fpage>â<lpage>16623</lpage>.<pub-id pub-id-type="pmid">11867641</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-SirandPugnet1">
+        <label>38</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Sirand-Pugnet</surname><given-names>P</given-names></name>, <name><surname>Durosay</surname><given-names>P</given-names></name>, <name><surname>Brody</surname><given-names>E</given-names></name>, <name><surname>Marie</surname><given-names>J</given-names></name> (<year>1995</year>) <article-title>An intronic (A/U)GGG repeat enhances the splicing of an alternative intron of the chicken beta-tropomyosin pre-mRNA</article-title>. <source>Nucleic acids research</source>
+<volume>23</volume>: <fpage>3501</fpage>â<lpage>3507</lpage>.<pub-id pub-id-type="pmid">7567462</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Yang1">
+        <label>39</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Yang</surname><given-names>X</given-names></name>, <name><surname>Bani</surname><given-names>MR</given-names></name>, <name><surname>Lu</surname><given-names>SJ</given-names></name>, <name><surname>Rowan</surname><given-names>S</given-names></name>, <name><surname>Ben-David</surname><given-names>Y</given-names></name>, <etal>et al</etal> (<year>1994</year>) <article-title>The A1 and A1B proteins of heterogeneous nuclear ribonucleoparticles modulate 5â² splice site selection in vivo</article-title>. <source>Proceedings of the National Academy of Sciences of the United States of America</source>
+<volume>91</volume>: <fpage>6924</fpage>â<lpage>6928</lpage>.<pub-id pub-id-type="pmid">8041722</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Ishikawa1">
+        <label>40</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ishikawa</surname><given-names>F</given-names></name>, <name><surname>Matunis</surname><given-names>MJ</given-names></name>, <name><surname>Dreyfuss</surname><given-names>G</given-names></name>, <name><surname>Cech</surname><given-names>TR</given-names></name> (<year>1993</year>) <article-title>Nuclear proteins that bind the pre-mRNA 3â² splice site sequence r(UUAG/G) and the human telomeric DNA sequence d(TTAGGG)n</article-title>. <source>Molecular and cellular biology</source>
+<volume>13</volume>: <fpage>4301</fpage>â<lpage>4310</lpage>.<pub-id pub-id-type="pmid">8321232</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Roca1">
+        <label>41</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Roca</surname><given-names>X</given-names></name>, <name><surname>Krainer</surname><given-names>AR</given-names></name>, <name><surname>Eperon</surname><given-names>IC</given-names></name> (<year>2013</year>) <article-title>Pick one, but be quick: 5â² splice sites and the problems of too many choices</article-title>. <source>Genes &amp; development</source>
+<volume>27</volume>: <fpage>129</fpage>â<lpage>144</lpage>.<pub-id pub-id-type="pmid">23348838</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Zuker1">
+        <label>42</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Zuker</surname><given-names>M</given-names></name> (<year>2003</year>) <article-title>Mfold web server for nucleic acid folding and hybridization prediction</article-title>. <source>Nucleic acids research</source>
+<volume>31</volume>: <fpage>3406</fpage>â<lpage>3415</lpage>.<pub-id pub-id-type="pmid">12824337</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Hutton1">
+        <label>43</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Hutton</surname><given-names>M</given-names></name>, <name><surname>Lendon</surname><given-names>CL</given-names></name>, <name><surname>Rizzu</surname><given-names>P</given-names></name>, <name><surname>Baker</surname><given-names>M</given-names></name>, <name><surname>Froelich</surname><given-names>S</given-names></name>, <etal>et al</etal> (<year>1998</year>) <article-title>Association of missense and 5â²-splice-site mutations in tau with the inherited dementia FTDP-17</article-title>. <source>Nature</source>
+<volume>393</volume>: <fpage>702</fpage>â<lpage>705</lpage>.<pub-id pub-id-type="pmid">9641683</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Poon1">
+        <label>44</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Poon</surname><given-names>D</given-names></name>, <name><surname>Bai</surname><given-names>Y</given-names></name>, <name><surname>Campbell</surname><given-names>AM</given-names></name>, <name><surname>Bjorklund</surname><given-names>S</given-names></name>, <name><surname>Kim</surname><given-names>YJ</given-names></name>, <etal>et al</etal> (<year>1995</year>) <article-title>Identification and characterization of a TFIID-like multiprotein complex from Saccharomyces cerevisiae</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>92</volume>: <fpage>8224</fpage>â<lpage>8228</lpage>.<pub-id pub-id-type="pmid">7667272</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Reed1">
+        <label>45</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Reed</surname><given-names>JC</given-names></name> (<year>2002</year>) <article-title>Apoptosis-based therapies</article-title>. <source>Nat Rev Drug Discov</source>
+<volume>1</volume>: <fpage>111</fpage>â<lpage>121</lpage>.<pub-id pub-id-type="pmid">12120092</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Ranger1">
+        <label>46</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Ranger</surname><given-names>AM</given-names></name>, <name><surname>Malynn</surname><given-names>BA</given-names></name>, <name><surname>Korsmeyer</surname><given-names>SJ</given-names></name> (<year>2001</year>) <article-title>Mouse models of cell death</article-title>. <source>Nat Genet</source>
+<volume>28</volume>: <fpage>113</fpage>â<lpage>118</lpage>.<pub-id pub-id-type="pmid">11381252</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Vogelstein1">
+        <label>47</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Vogelstein</surname><given-names>B</given-names></name>, <name><surname>Kinzler</surname><given-names>KW</given-names></name> (<year>2004</year>) <article-title>Cancer genes and the pathways they control</article-title>. <source>Nat Med</source>
+<volume>10</volume>: <fpage>789</fpage>â<lpage>799</lpage>.<pub-id pub-id-type="pmid">15286780</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Watson1">
+        <label>48</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Watson</surname><given-names>J</given-names></name> (<year>2013</year>) <article-title>Oxidants, antioxidants and the current incurability of metastatic cancers</article-title>. <source>Open biology</source>
+<volume>3</volume>: <fpage>120144</fpage>.<pub-id pub-id-type="pmid">23303309</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Kar1">
+        <label>49</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Kar</surname><given-names>A</given-names></name>, <name><surname>Fushimi</surname><given-names>K</given-names></name>, <name><surname>Zhou</surname><given-names>X</given-names></name>, <name><surname>Ray</surname><given-names>P</given-names></name>, <name><surname>Shi</surname><given-names>C</given-names></name>, <etal>et al</etal> (<year>2011</year>) <article-title>RNA helicase p68 (DDX5) regulates tau exon 10 splicing by modulating a stem-loop structure at the 5â² splice site</article-title>. <source>Molecular and cellular biology</source>
+<volume>31</volume>: <fpage>1812</fpage>â<lpage>1821</lpage>.<pub-id pub-id-type="pmid">21343338</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Moore1">
+        <label>50</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Moore</surname><given-names>MJ</given-names></name>, <name><surname>Wang</surname><given-names>Q</given-names></name>, <name><surname>Kennedy</surname><given-names>CJ</given-names></name>, <name><surname>Silver</surname><given-names>PA</given-names></name> (<year>2010</year>) <article-title>An alternative splicing network links cell-cycle control to apoptosis</article-title>. <source>Cell</source>
+<volume>142</volume>: <fpage>625</fpage>â<lpage>636</lpage>.<pub-id pub-id-type="pmid">20705336</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wan1">
+        <label>51</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wan</surname><given-names>D</given-names></name>, <name><surname>Gong</surname><given-names>Y</given-names></name>, <name><surname>Qin</surname><given-names>W</given-names></name>, <name><surname>Zhang</surname><given-names>P</given-names></name>, <name><surname>Li</surname><given-names>J</given-names></name>, <etal>et al</etal> (<year>2004</year>) <article-title>Large-scale cDNA transfection screening for genes related to cancer development and progression</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>: <fpage>15724</fpage>â<lpage>15729</lpage>.<pub-id pub-id-type="pmid">15498874</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Campbell1">
+        <label>52</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Campbell</surname><given-names>JM</given-names></name>, <name><surname>Lockwood</surname><given-names>WW</given-names></name>, <name><surname>Buys</surname><given-names>TP</given-names></name>, <name><surname>Chari</surname><given-names>R</given-names></name>, <name><surname>Coe</surname><given-names>BP</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Integrative genomic and gene expression analysis of chromosome 7 identified novel oncogene loci in non-small cell lung cancer</article-title>. <source>Genome</source>
+<volume>51</volume>: <fpage>1032</fpage>â<lpage>1039</lpage>.<pub-id pub-id-type="pmid">19088816</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-AvielRonen1">
+        <label>53</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Aviel-Ronen</surname><given-names>S</given-names></name>, <name><surname>Coe</surname><given-names>BP</given-names></name>, <name><surname>Lau</surname><given-names>SK</given-names></name>, <name><surname>da Cunha Santos</surname><given-names>G</given-names></name>, <name><surname>Zhu</surname><given-names>CQ</given-names></name>, <etal>et al</etal> (<year>2008</year>) <article-title>Genomic markers for malignant progression in pulmonary adenocarcinoma with bronchioloalveolar features</article-title>. <source>Proc Natl Acad Sci U S A</source>
+<volume>105</volume>: <fpage>10155</fpage>â<lpage>10160</lpage>.<pub-id pub-id-type="pmid">18632575</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Dressman1">
+        <label>54</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Dressman</surname><given-names>HK</given-names></name>, <name><surname>Hans</surname><given-names>C</given-names></name>, <name><surname>Bild</surname><given-names>A</given-names></name>, <name><surname>Olson</surname><given-names>JA</given-names></name>, <name><surname>Rosen</surname><given-names>E</given-names></name>, <etal>et al</etal> (<year>2006</year>) <article-title>Gene expression profiles of multiple breast cancer phenotypes and response to neoadjuvant chemotherapy</article-title>. <source>Clin Cancer Res</source>
+<volume>12</volume>: <fpage>819</fpage>â<lpage>826</lpage>.<pub-id pub-id-type="pmid">16467094</pub-id></mixed-citation>
+      </ref>
+      <ref id="pone.0102399-Wang2">
+        <label>55</label>
+        <mixed-citation publication-type="journal">
+<name><surname>Wang</surname><given-names>W</given-names></name>, <name><surname>Nahta</surname><given-names>R</given-names></name>, <name><surname>Huper</surname><given-names>G</given-names></name>, <name><surname>Marks</surname><given-names>JR</given-names></name> (<year>2004</year>) <article-title>TAFII70 isoform-specific growth suppression correlates with its ability to complex with the GADD45a protein</article-title>. <source>Mol Cancer Res</source>
+<volume>2</volume>: <fpage>442</fpage>â<lpage>452</lpage>.<pub-id pub-id-type="pmid">15328371</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

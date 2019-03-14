@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:43:21Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3290711" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3290711</identifier><datestamp>2012-09-01</datestamp><setSpec>nihpa</setSpec><setSpec>pmc-open</setSpec><setSpec>manuscript</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-journal-id">100890575</journal-id>
+      <journal-id journal-id-type="pubmed-jr-id">21417</journal-id>
+      <journal-id journal-id-type="nlm-ta">Nat Cell Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Nat. Cell Biol.</journal-id>
+      <journal-title-group>
+        <journal-title>Nature cell biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1465-7392</issn>
+      <issn pub-type="epub">1476-4679</issn>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3290711</article-id>
+      <article-id pub-id-type="pmcid">PMC3290711</article-id>
+      <article-id pub-id-type="pmc-uid">3290711</article-id>
+      <article-id pub-id-type="pmid">22327364</article-id>
+      <article-id pub-id-type="pmid">22327364</article-id>
+      <article-id pub-id-type="doi">10.1038/ncb2440</article-id>
+      <article-id pub-id-type="manuscript">nihpa349613</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Chromosome and spindle pole-derived signals generate an intrinsic code for spindle position and orientation</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kiyomitsu</surname>
+            <given-names>Tomomi</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cheeseman</surname>
+            <given-names>Iain M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="A1">1</xref>
+          <xref ref-type="corresp" rid="CR1">2</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="A1"><label>1</label>Whitehead Institute, Nine Cambridge Center Cambridge, MA 02142
+</aff>
+      <author-notes>
+        <corresp id="CR1"><label>2</label>Corresponding author: <email>icheese@wi.mit.edu</email> Phone: (617)-324-2503 Fax: (617) 258-5578
+</corresp>
+      </author-notes>
+      <pub-date pub-type="nihms-submitted">
+        <day>23</day>
+        <month>1</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>12</day>
+        <month>2</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="collection">
+        <month>3</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>01</day>
+        <month>9</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>14</volume>
+      <issue>3</issue>
+      <fpage>311</fpage>
+      <lpage>317</lpage>
+      <!--elocation-id from pubmed: 10.1038/ncb2440-->
+      <permissions>
+        <license>
+          <license-p>Users may view, print, copy, download and text and data- mine the content in such documents, for the purposes of academic research, subject always to the full Conditions of use:
+<uri xlink:type="simple" xlink:href="http://www.nature.com/authors/editorial_policies/license.html#terms">http://www.nature.com/authors/editorial_policies/license.html#terms</uri></license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p id="P1">Mitotic spindle positioning by cortical pulling forces<sup><xref rid="R1" ref-type="bibr">1</xref></sup> defines the cell division axis and location<sup><xref rid="R2" ref-type="bibr">2</xref></sup>, which is critical for proper cell division and development<sup><xref rid="R3" ref-type="bibr">3</xref></sup>. Although recent work has identified developmental and extrinsic cues that regulate spindle orientation<sup><xref rid="R4" ref-type="bibr">4</xref>-<xref rid="R6" ref-type="bibr">6</xref></sup>, the contribution of intrinsic signals to spindle positioning and orientation remains unclear. Here, we demonstrate that cortical force generation in human cells is controlled by distinct spindle pole and chromosome-derived signals that regulate cytoplasmic dynein localization. First, dynein displays a dynamic asymmetric cortical localization that is negatively regulated by spindle pole proximity resulting in spindle oscillations to center the spindle within the cell. We find that this signal is comprised of the spindle pole localized Polo-like kinase (Plk1), which regulates dynein localization by controlling the interaction between dynein-dynactin and its upstream cortical targeting factors NuMA and LGN. Second, a chromosome-derived Ran-GTP gradient restricts the localization of NuMA-LGN to the lateral cell cortex to define and maintain the spindle orientation axis. Ran-GTP acts in part through NuMAâs nuclear localization sequence to locally alter the ability of NuMA-LGN to associate with the cell cortex in the vicinity of chromosomes. We propose that these chromosome and spindle pole-derived gradients generate an intrinsic code to control spindle position and orientation.</p>
+      </abstract>
+      <kwd-group>
+        <kwd>Dynein</kwd>
+        <kwd>spindle</kwd>
+        <kwd>microtubule</kwd>
+        <kwd>Ran-GTP Gradient</kwd>
+        <kwd>Polo-like kinase</kwd>
+      </kwd-group>
+    </article-meta>
+  </front>
+  <body>
+    <p id="P2">The position and orientation of the mitotic spindle are determined by forces generated at the cell cortex<sup><xref rid="R1" ref-type="bibr">1</xref></sup>, where astral microtubules emanating from the mitotic spindle pole are anchored to the plasma membrane<sup><xref rid="R6" ref-type="bibr">6</xref></sup>. To understand the intrinsic mechanisms that control spindle positioning, we first observed the mitotic cortical localization of established players that contribute to spindle orientation<sup><xref rid="R6" ref-type="bibr">6</xref>,<xref rid="R7" ref-type="bibr">7</xref></sup> including the minus end directed microtubule-based motor cytoplasmic dynein, dynactin, NuMA, and LGN, the human homologue of <italic>C. elegans</italic> GPR-1/2 and <italic>Drosophila</italic> Pins. In HeLa cells, LGN localizes to the cell cortex from prometaphase through telophase (<xref ref-type="fig" rid="F1">Fig. 1a</xref>), whereas dynein and the dynactin subunit Arp1A accumulate at the cell cortex subsequently to LGN (<xref ref-type="fig" rid="F1">Fig. 1a</xref>; data not shown). Consistent with this ordered temporal localization, we found that LGN was required for the cortical localization of dynein-dynactin (<xref ref-type="fig" rid="F1">Fig. 1b</xref> and <xref ref-type="supplementary-material" rid="SD1">Fig. S1a, b</xref>). LGN depletion specifically disrupts cortically localized dynein-dynactin, but not dynein localized to kinetochore, spindle, or spindle pole (<xref ref-type="supplementary-material" rid="SD1">Fig. S1c</xref>). Finally, consistent with previous work<sup><xref rid="R8" ref-type="bibr">8</xref>,<xref rid="R9" ref-type="bibr">9</xref></sup>, we found that the LGN binding proteins GÎ±i and NuMA were required for LGN and dynein localization to the cell cortex (<xref ref-type="fig" rid="F1">Fig. 1b</xref> and <xref ref-type="supplementary-material" rid="SD1">Fig. S1d, e, f</xref>).</p>
+    <p id="P3">Live-cell imaging revealed that LGN showed a symmetric distribution to the cell cortex during metaphase, even if the spindle is displaced from the center of the cell (<xref ref-type="fig" rid="F1">Fig. 1a</xref>). NuMA and GÎ±i1 also displayed symmetric cortical localization, although GÎ±i1 showed more homogenous localization (<xref ref-type="supplementary-material" rid="SD2">Fig. S2a, c</xref>). In contrast, Arp1A accumulated asymmetrically at the cell cortex during metaphase such that it is preferentially localized to the cortex that is distal to the mitotic spindle (<xref ref-type="fig" rid="F1">Fig. 1a</xref>). All tested dynein and dynactin subunits displayed similar asymmetric localization to the cell cortex in HeLa (<xref ref-type="supplementary-material" rid="SD2">Fig. S2a, b, d, e</xref>) and non-transformed Rpe1 cells (<xref ref-type="supplementary-material" rid="SD2">Fig. S2f</xref>). To analyze the effect of asymmetric cortical dynein localization on spindle movement during metaphase, we acquired time-lapse movies of HeLa cells stably expressing dynein heavy chain (DHC)-GFP to monitor both cortical dynein and spindle poles (<xref ref-type="fig" rid="F1">Fig. 1c</xref>). Kymographs of these movies revealed that the spindle moves toward the dynein-enriched side of the cell and oscillates as cortical dynein is dynamically redistributed (<xref ref-type="fig" rid="F1">Fig. 1c</xref>; <xref ref-type="supplementary-material" rid="SD3">Fig. S3a, b</xref>). The vast majority of cells (n = 24/26) displayed at least one round trip spindle oscillation event with the spindle moving at ~0.4 Î¼m/min, but decreasing as the oscillations dampen and the spindle becomes aligned (<xref ref-type="supplementary-material" rid="SD3">Fig. S3b</xref>). Importantly, we found that LGN depletion eliminates spindle oscillations as well as cortical dynein localization (n = 21; <xref ref-type="fig" rid="F1">Fig. 1c</xref>), suggesting that cortical dynein is responsible for generating this pulling force. Low dose nocodazole treatment, which has been shown to selectively disrupt astral microtubules<sup><xref rid="R4" ref-type="bibr">4</xref></sup>, caused a dose-dependent impairment of spindle oscillations without affecting cortical dynein enrichment (<xref ref-type="fig" rid="F1">Fig. 1c</xref>). Taken together, these results suggest that cortical dynein-dynactin localization, but not LGN, is regulated to correct spindle positioning in HeLa cells by generating asymmetric forces to center the spindle within the cell.</p>
+    <p id="P4">We next sought to precisely analyze the effect of the spindle pole on cortical dynein-dynactin localization. We found that this effect is strongly distance-dependent. Dynein localizes to the cortex when the pole-to-cortex distance is greater than ~3 Î¼m, but becomes delocalized when the pole moves to within 2 Î¼m of the cortex (<xref ref-type="fig" rid="F1">Fig. 1d</xref>). In addition, when the position of the spindle pole was manipulated by inducing monopolar spindles using the Eg5 inhibitor STLC, LGN localized to both sides of the cell cortex, whereas Arp1A only accumulates at the cell cortex distal from the spindle pole (<xref ref-type="fig" rid="F1">Fig. 1e</xref>). In total, these data suggest that the spindle pole negatively regulates the cortical localization of dynein-dynactin downstream of LGN.</p>
+    <p id="P5">The proximity of the spindle pole to the cell cortex creates a precise change in dynein localization, suggesting the presence of a signal emanating from the spindle pole. We hypothesized that a spindle pole-localized kinase may generate signals to regulate cortical dynein-dynactin localization. Indeed, we found that inhibiting Polo-like kinase 1 (Plk1) activity (using BI2536 treatment) in STLC treated cells allowed dynein to localize to the cell cortex in proximity of the spindle pole (<xref ref-type="fig" rid="F2">Fig. 2a</xref>). Plk1 inhibition has pleiotropic effects on spindle structure<sup><xref rid="R10" ref-type="bibr">10</xref></sup>, preventing us from analyzing the effect of Plk1 inhibition on spindle oscillations. Therefore, as a complementary approach, we artificially targeted Plk1 to the plasma membrane. Membrane-targeted Plk1 severely reduced cortical dynein accumulation and eliminated spindle oscillations (<xref ref-type="fig" rid="F2">Fig. 2b, c, d</xref>). In contrast, targeting of the spindle pole-localized Aurora A kinase or the Aurora A-associated domain of TPX2 (1-43 aa)<sup><xref rid="R11" ref-type="bibr">11</xref></sup> to the plasma membrane had no effect on cortical dynein localization (<xref ref-type="fig" rid="F2">Fig. 2c</xref>; <xref ref-type="supplementary-material" rid="SD3">Fig. S3c</xref>). The effect of membrane-targeted Plk1 was dependent on its kinase activity as cortical dynein localization was unchanged following membrane targeting of kinase dead or polo-box mutants of Plk1 (<xref ref-type="fig" rid="F2">Fig. 2b, c</xref>; <xref ref-type="supplementary-material" rid="SD3">Fig. S3c</xref>). LGN remained localized to the cell cortex in the cells expressing membrane-targeted Plk1 (<xref ref-type="fig" rid="F2">Fig. 2b</xref>), consistent with the observed effect of spindle pole proximity in controlling dynein-dynactin localization, but not LGN (<xref ref-type="fig" rid="F1">Fig. 1a</xref>).</p>
+    <p id="P6">To define the biochemical interactions that underlie the regulation of asymmetric dynein localization during mitosis, we isolated GFP-LGN from HeLa cells arrested in mitosis with nocodazole. Using mass spectrometry, we defined the complete set of interacting proteins identified in these purifications, but not unrelated controls. GFP-LGN co-purified with NuMA, as well as the dynactin complex and dynein (<xref ref-type="table" rid="T1">Table 1</xref>). Interestingly, if the isolated GFP-LGN complexes were incubated in the presence of Plk1 and ATP, this resulted in the disassociation of dynactin and dynein from LGN and NuMA (<xref ref-type="fig" rid="F2">Fig. 2e</xref>; <xref ref-type="table" rid="T1">Table 1</xref>). Plk1 phosphorylated multiple different proteins in these samples including NuMA, p150<sup>Glued</sup>-Dynactin1, and p50-Dynactin2 (<xref ref-type="supplementary-material" rid="SD3">Fig. S3d, e</xref>), suggesting that Plk1 may coordinately regulate multiple downstream targets to control NuMA-dynactin interactions. Taken together, these results suggest that phosphorylation from spindle pole-localized Plk1 causes cortical dynein-dynactin to disassociate from LGN-NuMA when the spindle pole comes in close proximity to the cell cortex (<xref ref-type="fig" rid="F2">Fig. 2f</xref>). This regulated cortical dynein localization is critical for generating asymmetric pulling forces on astral microtubules to direct spindle positioning.</p>
+    <p id="P7">To direct and maintain a defined spindle orientation axis, cortical force must be confined to lateral cell cortex. Indeed, we found that both LGN and dynein-dynactin were restricted from regions near the spindle midzone (<xref ref-type="fig" rid="F1">Fig. 1a</xref> and <xref ref-type="supplementary-material" rid="SD1">S1b</xref>). However, the mechanisms that exclude LGN and dynein from the center of the cortex remain unclear. We hypothesized that this might be controlled either by external regulation of the cell cortex by substrate interactions or polarity proteins <sup><xref rid="R3" ref-type="bibr">3</xref>,<xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R6" ref-type="bibr">6</xref></sup>, or internal signals from the spindle or chromosomes. To distinguish between these possibilities, we perturbed spindle organization in HeLa cells to analyze cells with tripolar spindles (<xref ref-type="supplementary-material" rid="SD4">Fig. S4a</xref>), monopolar spindles generated by treatment with STLC (<xref ref-type="fig" rid="F1">Fig. 1e</xref>), and cells treated with high doses of nocodazole to depolymerize the spindle (<xref ref-type="fig" rid="F3">Fig. 3a</xref>). In each case, LGN was excluded from the cortex in regions close to chromosomes. For example, LGN showed a uniform distribution throughout the cell cortex in nocodazole treated cells in which the chromosomes collapse to the center of the cell (<xref ref-type="fig" rid="F3">Fig. 3a</xref>). However, in cases where the chromosome mass is located near the cell cortex, we found that LGN localization was locally disrupted (<xref ref-type="fig" rid="F3">Fig. 3a</xref>). LGN is also selectively excluded from the cell cortex in regions proximal to even a single misaligned chromosome (<xref ref-type="fig" rid="F3">Fig. 3b</xref>). A similar sensitivity of LGN to chromosome position was observed in Rpe1 cells (<xref ref-type="supplementary-material" rid="SD4">Fig. S4b, c</xref>). To define the properties of this chromosome-derived signal, we measured the distance between chromosomes and the cell cortex. We found that LGN is excluded from the cell cortex in cases where a chromosome is within ~2 Î¼m (<xref ref-type="fig" rid="F3">Fig. 3c</xref>).</p>
+    <p id="P8">To identify the molecules responsible for this chromosome-derived signal, we tested two possible chromosome-localized signaling molecules: Aurora B kinase<sup><xref rid="R12" ref-type="bibr">12</xref></sup> and Ran-GTP<sup><xref rid="R13" ref-type="bibr">13</xref>,<xref rid="R14" ref-type="bibr">14</xref></sup>. Inhibition of Aurora B kinase activity by the specific inhibitor ZM447439 had no effect on cortical LGN localization (<xref ref-type="supplementary-material" rid="SD4">Fig. S4d</xref>). In contrast, transiently transfected dominant negative mCherry-Ran T24N<sup><xref rid="R15" ref-type="bibr">15</xref></sup> allowed LGN to localize homogenously throughout the cell cortex including to regions near chromosomes (<xref ref-type="fig" rid="F3">Fig. 3d, e, f</xref>). Under these conditions, transfected cells entered mitosis and aligned their chromosomes, indicating that the disruption of interphase nuclear transport by RanT24N expression did not block cell cycle progression during the time course of these experiments. To test the effect of the Ran gradient in the absence of potential prior defects in nuclear-cytoplasmic transport, we used the tsBN2 cell line which contains a temperature sensitive mutant of the Ran GEF, RCC1<sup><xref rid="R16" ref-type="bibr">16</xref></sup>. In tsBN2 cells arrested in mitosis at the permissive temperature using nocodazole, LGN is restricted from the cortex when chromosomes are close to the edge of the cell (<xref ref-type="fig" rid="F3">Fig. 3g</xref>). In contrast, when arrested tsBN2 cells were subsequently shifted to the restrictive temperature, LGN localized throughout the cell cortex even when chromosomes are located close to the cortex (<xref ref-type="fig" rid="F3">Fig. 3g</xref> and <xref ref-type="supplementary-material" rid="SD4">Fig. S4e</xref>). The temperature shift does not affect cortical LGN localization in the parental BHK cell line (<xref ref-type="supplementary-material" rid="SD4">Fig. S4f</xref>). Taken together, these results suggest that a chromosome-derived Ran-GTP gradient negatively regulates cortical LGN localization to generate a bi-lobed distribution. Prior work demonstrated that the Ran-GTP gradient contributes to spindle assembly, particularly in the absence of centrosomes<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. However, specific roles for this gradient in somatic cells have remained elusive. The implication of the Ran-GTP gradient in negatively regulating cortical LGN represents an intriguing new activity for this chromosome-derived signal.</p>
+    <p id="P9">To test the functional contributions of restricted LGN localization to spindle orientation, we utilized âLâ-shaped fibronectin patterned coverslips (<xref ref-type="fig" rid="F3">Fig. 3h</xref>). Recent work has established that HeLa cells orient their spindles along the hypotenuse of the âLâ with high efficiency<sup><xref rid="R4" ref-type="bibr">4</xref></sup>. Although &gt;70% of control cells orient their spindle (<xref ref-type="fig" rid="F3">Fig. 3i, j</xref>), depletion of LGN or the dynactin subunit p150 randomized this orientation (<xref ref-type="fig" rid="F3">Fig. 3i</xref>). Consistent with the regulation of cortical dynein localization by Plk1 described above, membrane targeted Plk1 disrupted proper spindle orientation (<xref ref-type="fig" rid="F3">Fig. 3i</xref>). Importantly, expression of mCherry-RanT24N also severely perturbed proper spindle orientation (<xref ref-type="fig" rid="F3">Fig. 3i, j</xref>). These data indicate that the bipolar pattern of LGN localization downstream of the Ran-GTP gradient is required to maintain the spindle orientation axis.</p>
+    <p id="P10">We next sought to define the mechanisms by which LGN is regulated by the chromosome-derived Ran-GTP gradient. Previous work demonstrated that NuMA interacts with the N-terminus of LGN and is required to recruit LGN to the plasma membrane<sup><xref rid="R9" ref-type="bibr">9</xref></sup> by facilitating the interaction of the LGN C-terminus with GÎ±i (<xref ref-type="fig" rid="F4">Fig. 4a</xref>). Importantly, NuMA is an established downstream target of the Ran gradient<sup><xref rid="R17" ref-type="bibr">17</xref>,<xref rid="R18" ref-type="bibr">18</xref></sup>. Consistent with this, we identified Importin Î± and Î² in affinity purifications of the NLS containing GFP-NuMA C-terminus from HeLa cells (data not shown), although we note that the Importin proteins are occasionally found at low coverage in control purifications. NuMA is released from Importin Î² by Ran-GTP, which has been suggested to promote spindle assembly in the vicinity of chromosomes<sup><xref rid="R14" ref-type="bibr">14</xref></sup>. In contrast to the effect of Plk1 on the GFP-LGN purifications described above, incubation of the GFP-LGN complex in the presence of GTP loaded Ran Q69L, a GTP hydrolysis defective mutant of Ran, did not disrupt this complex (<xref ref-type="supplementary-material" rid="SD6">Supplementary Table 1</xref>). Thus, Ran-GTP likely acts by locally altering the ability of the NuMA-LGN complex to interact with the membrane instead of regulating NuMA-LGN interactions.</p>
+    <p id="P11">To analyze the interactions and regulation of LGN, we assessed the localization of the N-terminal and C-terminal regions of LGN (<xref ref-type="fig" rid="F4">Fig. 4b</xref> and <xref ref-type="supplementary-material" rid="SD5">S5a, b</xref>). In contrast to full length LGN, the N-terminus of LGN (LGN-N) localizes to spindle poles during mitosis and to the nucleus in interphase, similar to NuMA<sup><xref rid="R9" ref-type="bibr">9</xref></sup> (<xref ref-type="supplementary-material" rid="SD5">Fig. S5b</xref>). The C-terminus of LGN (LGN-C) shows increased interactions with GÎ±i and lacks NuMA binding (<xref ref-type="supplementary-material" rid="SD6">Supplementary Table 1</xref>), and localized throughout the cell cortex and to retraction fibers (<xref ref-type="fig" rid="F4">Fig. 4b</xref>), identically to GÎ±i1 (<xref ref-type="supplementary-material" rid="SD5">Fig. S5c</xref>) including near misaligned chromosomes (<xref ref-type="fig" rid="F4">Fig. 4c</xref>). Interestingly, when the C-terminus of NuMA was fused directly to the C-terminus of LGN, this in frame fusion displayed similar restricted cortical localization to full length LGN in metaphase even in the absence of endogenous LGN (<xref ref-type="fig" rid="F4">Fig. 4d</xref>). However, upon elimination of the Importin Î²-binding nuclear localization sequence (NLS) in NuMA, this fusion showed more homogenous mitotic cortical localization (<xref ref-type="fig" rid="F4">Fig. 4d</xref>) and also localized to retraction fibers (<xref ref-type="supplementary-material" rid="SD5">Fig. S5d</xref>). These data suggest that chromosome-derived Ran-GTP acts at least in part to locally regulate binding of Importin Î² to the NuMA NLS, altering the ability of the LGN-NuMA complex to target to the membrane. However, it is possible that additional downstream targets for Ran-GTP to control LGN-NuMA localization may exist. We also note that others have suggested recently that Ran is required for spindle orientation in artificially induced asymmetric cell divisions in <italic>Drosophila</italic> cells<sup><xref rid="R19" ref-type="bibr">19</xref></sup>. However, in this case, the authors suggested that Ran plays a global positive role in promoting Mud-Pins (the NuMA-LGN counterparts) recruitment to membranes instead of locally inhibiting localization downstream of a chromosome-derived Ran-GTP gradient.</p>
+    <p id="P12">Defining the mechanisms that control spindle position and orientation are key to understanding cell division. Here, we demonstrated that cortical dynein localization is regulated by two distinct intrinsic signals to correct spindle position and orientation in symmetrically dividing human cells: a spindle-pole derived signal of Plk1 and a chromosome-derived gradient of Ran-GTP. Plk1 negatively regulates cortical dynein localization downstream of LGN-NuMA and Ran-GTP restricts LGN-NuMA localization to the lateral cell cortex. These two gradients function cooperatively to center the spindle and maintain spindle orientation (<xref ref-type="fig" rid="F4">Fig 4e</xref>; <xref ref-type="supplementary-material" rid="SD1">Supplemental Movie 1</xref>). Future work will be required to define the functional contributions of these signals in larger cell types (where spindle positioning may be more critical) and asymmetrically dividing cells, as well as to define the precise biochemical basis for the regulation downstream of Plk1 and Ran-GTP. Importantly, these intrinsic signals are likely to cooperate with extrinsic information from cell shape and substrate interactions<sup><xref rid="R4" ref-type="bibr">4</xref>,<xref rid="R5" ref-type="bibr">5</xref>,<xref rid="R20" ref-type="bibr">20</xref></sup>. Indeed, we found that GÎ±i and LGN-C localize to retraction fibers (<xref ref-type="supplementary-material" rid="SD2">Fig. S2c</xref> and <xref ref-type="supplementary-material" rid="SD5">S5c</xref>), which have been proposed to dictate spindle orientation on patterned substrates<sup><xref rid="R20" ref-type="bibr">20</xref></sup>. Based on the connections between spindle orientation and tumorigenesis<sup><xref rid="R21" ref-type="bibr">21</xref></sup>, this work also has important relevance to studies on cancer progression.</p>
+    <sec sec-type="methods" id="S1">
+      <title>Materials and methods</title>
+      <sec id="S2">
+        <title>Cell culture and siRNA transfection</title>
+        <p id="P13">HeLa cells, Rpe1 cells, and tsBN2 cells were maintained as described previously<sup><xref rid="R16" ref-type="bibr">16</xref>,<xref rid="R22" ref-type="bibr">22</xref></sup>. Clonal cell lines stably expressing GFP<sup>LAP</sup> fusions were generated as described previously<sup><xref rid="R23" ref-type="bibr">23</xref>,<xref rid="R24" ref-type="bibr">24</xref></sup>. HeLa cells expressing mouse DHC-GFP were obtained from MitoCheck<sup><xref rid="R25" ref-type="bibr">25</xref></sup>. GFP-LGN and DHC-GFP cell lines functionally complement depletion of the corresponding endogenous protein based on dynein recruitment and spindle orientation respectively (<xref ref-type="supplementary-material" rid="SD5">Fig. S5e, f</xref>; data not shown). To inactivate RCC1, tsBN2 cells were cultured at 39.7Â°C for 1.5-3 hrs. mCherry-Ran T24N and mCherry-membrane targeting constructs (âMemâ from Neuormodulin; Clontech) were tested following transient transfection using Effectene (Qiagen). To generate the NuMA NLS mutant, the NLS sequence QQRKR was removed by PCR. For drug treatment, HeLa cells were incubated for 1-3 hrs with drugs at the following concentrations: STLC: 10 Î¼M; Nocodazole: 100 nM (high dose), or 10-20 nM (low dose); ZM447439, 2 Î¼M; BI2536, 10 Î¼M; MG132, 20 Î¼M; Thymidine, 2 mM.</p>
+        <p id="P14">RNAi experiments were conducted using RNAi MAX transfection reagent (Invitrogen) according to the manufacturerâs guidelines. Pools of 4 pre-designed siRNAs against LGN-GPMS2 (GAACUAACAGCACGACUUA, CUUCAGGGAUGCAGUUAUA, ACAGUGAAAUUCUUGCUAA, UGAAGGGUUCUUUGACUUA), p150-DCTN1 (CUGGAGCGUGUAUCGUAA, GAAGAUCGAGAGACAGUUA, GCUCAUGCCUCGUCUCAUU, CGAGCUCACUACUGACUUA), DHC-DYNC1H1 (GAUCAAACAUGACGGAAUU, CAGAACAUCUCACCGGAUA, GAAAUCAACUUGCCAGAUA, GCAAGAAUGUCGCUAAAUU), siRNAs targeting NuMA (GGCGUGGCAGGAGAAGUUCUU)<sup><xref rid="R9" ref-type="bibr">9</xref></sup> the three GÎ±i isoforms (CCGAAUGCAUGAAGCAUGUU, CUUGAGCGCCUAUGACUUGUU)<sup><xref rid="R8" ref-type="bibr">8</xref></sup>, and a non-targeting control were obtained from Dharmacon. For RNAi rescue experiments withLGN, a single siRNA (GAACUAACAGCACGACUUA) was used and target sequence on the plasmid was mutated to be insensitive to this siRNA.</p>
+      </sec>
+      <sec id="S3">
+        <title>Immunofluorescence and Microscopy</title>
+        <p id="P15">For live cell imaging, cells were cultured in CO<sub>2</sub> independent media (Invitrogen) with 50-100 ng/ml Hoechst33342 for 30 min prior to observation. Immunofluorescence in human cells was conducted as described previously<sup><xref rid="R22" ref-type="bibr">22</xref></sup> using antibodies against fibronectin (a generous gift from Richard Hynes, 1:10,000), tubulin (DM1Î±; Sigma, 1:500), p150 dynactin (610473, BD transduction Laboratories, 1:500), GÎ±i-1 (sc-56536, Santa Cruz Biotechnology, 1:200), and NuMA (ab36999, Abcam, 1:1,000). To test spindle orientation, cells were plated on L-patterned fibronectin coated coverslips (CYTOO). For RNAi experiments on patterned coverslips, cells were synchronized using a double thymidine block prior to plating.</p>
+        <p id="P16">Images were acquired on a DeltaVision Core microscope (Applied Precision) equipped with a CoolSnap HQ2 CCD camera. 30 to 40 Z-sections were acquired at 0.5-Î¼m steps using Olympus 40x, 1.35 NA U-PlanApo, 20x, 0.75 NA UApo, or a 4x, 0.16 NA U-PlanSApo objective with 1Ã1 binning. Images were deconvolved using the DeltaVision software. Equivalent exposure conditions and scaling was used as appropriate. Fluorescence intensity and distance measurements were analyzed using Softworx (Applied Precision) and Metamorph (Molecular Devices). Line scans were generated using Metamorph (Molecular Devices). Kymographs were generated using Photoshop (Adobe).</p>
+      </sec>
+      <sec id="S4">
+        <title>Affinity Purifications and Mass Spectrometry</title>
+        <p id="P17">GFP<sup>LAP</sup> tagged LGN was isolated from HeLa cells as described previously<sup><xref rid="R26" ref-type="bibr">26</xref></sup>, with 1% TritonX-100 added to prepare the cell lysate. Purified proteins were identified by mass spectrometry using an LTQ XL Ion trap mass spectrometer (Thermo) using MudPIT and SEQUEST software as described previously<sup><xref rid="R27" ref-type="bibr">27</xref></sup>. Plk1 phosphorylation was conducted on GFP-LGN isolated beads for 60 min at 30Â°C using 1 Î¼g Plk1 (Invitrogen). GST-Ran Q69L was purified from bacteria, loaded with GTP<sup><xref rid="R28" ref-type="bibr">28</xref></sup>, and incubated at 10 Î¼M with the LGN purification in the cell lysate and first wash.</p>
+      </sec>
+      <sec id="S5">
+        <title>Statistics</title>
+        <p id="P18">To determine the significance between the data obtained for two experimental conditions, a Studentâs Tâtest (GraphPad Software) or Zâtest (McCallum Layton) was used as indicated in the figure legends.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="SM">
+      <title>Supplementary Material</title>
+      <supplementary-material content-type="local-data" id="SD1">
+        <label>1</label>
+        <caption>
+          <p id="P19">Supplemental Figure 1. Analysis of dependency relationships between cortically localized proteins. (<italic>a</italic>) Table summarizing the tested dependency relationships for cortical localization (<italic>b</italic>) Analysis of the interdependent localization for dynein (DHC-GFP), dynactin (GFP-Arp1A), and GFP-LGN to the cell cortex during metaphase following RNAi-based depletion of the selected proteins. (<italic>c</italic>) Images of DHC-GFP in control cells or following LGN depletion. LGN is required for the cortical localization of dynein, but does not affect kinetochore or spindle localized dynein. (<italic>d</italic>) Summary of dependency relationships. (<italic>e</italic>) Images of GFP-LGN expressing cells in either controls, cells depleted for the three GÎ±i isoforms, or cells depleted for NuMA. LGN localization requires GÎ±i and NuMA. (<italic>f</italic>) Images of DHC-GFP, GÎ±i, and NuMA in control cells and the indicated depletions. Scale bars, 10 Î¼m.</p>
+        </caption>
+        <media xlink:href="NIHMS349613-supplement-1.eps" mimetype="application" mime-subtype="postscript" orientation="portrait" xlink:type="simple" id="d37e611" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD2">
+        <label>2</label>
+        <caption>
+          <p id="P20">Supplemental Figure 2. Analysis of asymmetric cortical localization. (<italic>a</italic>) Top, immunofluorescence images showing the co-localization of NuMA and DHC-GFP. Bottom, line scans for the indicated lines showing the symmetric localization of NuMA and the asymmetric localization of dynein to the cell cortex. (<italic>b</italic>) Immunofluorescence images and line scans as in (a) showing the symmetric cortical localization of GFP-LGN and the asymmetric localization of the dynactin subunit p150. (<italic>c</italic>) Top, GÎ±i displays symmetric localization to the cell cortex similar to LGN, but localizes more homogenously throughout the membrane. Bottom, GÎ±i, but not LGN, localizes to retraction fibers. Immunofluorescence images of cells expressing GFP-LGN probed with anti-GÎ±i antibodies. (<italic>d</italic>) Cortically-localized dynein is dynamically redistributed during spindle movement. Top, images from a time lapse sequence DHC-GFP expressing HeLa cells. Bottom, schematic diagrams showing the distribution of DHC-GFP to the cortex in each image. (<italic>e</italic>) Fluorescent images showing the asymmetric cortical localization of diverse dynein and dynactin subunits. (<italic>f</italic>) Fluorescent images and a line scan showing the asymmetric localization of the dynein light chain Tctex in Rpe1 cells. Scale bars, 10 Î¼m.</p>
+        </caption>
+        <media xlink:href="NIHMS349613-supplement-2.eps" mimetype="application" mime-subtype="postscript" orientation="portrait" xlink:type="simple" id="d37e637" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD3">
+        <label>3</label>
+        <caption>
+          <p id="P21">Supplemental Figure 3. Analysis of cortical dynein localization and Plk1 dependent phosphorylation. (<italic>a</italic>) A second example of a kymograph showing DHC-GFP localization during spindle oscillations as in <xref ref-type="fig" rid="F1">Fig. 1d</xref>. (<italic>b</italic>) Left, kymograph from <xref ref-type="fig" rid="F1">Fig. 1d</xref> extended to show dampening of spindle oscillations. Right, trace of spindle pole position in the kymograph together with the average spindle movement during each stage of the oscillation. (<italic>c</italic>) Top, fluorescent images showing the localization of the indicated mCherry tagged membrane targeted fusions and DNA (Hoechst). Bottom, fluorescent images showing DHC-GFP localization in the corresponding cells. Scale bars, 10 Î¼m. (<italic>d</italic>) Plk1 directly phosphorylates NuMA and subunits of the dynactin complex. Immunoprecipitated beads for GFP-Arp1A or GFP-LGN were incubated with recombinant His-Plk1 in the presence of [Î³-<sup>32</sup>P]ATP. The incorporation of the radioactive phosphate group was visualized by autoradiography (<sup>32</sup>P). Specific bands were detected (arrows) corresponding to NuMA and multiple different dynactin subunits. (<italic>e</italic>) Phosphorylation sites in NuMA (NM_006185), DNCT1-p150 (NM_001135040), and DCTN2-p50 (NM_006400) following Plk1 treatment were identified by mass spectrometry. Phosphorylated Serine or Threonine residues are marked by an asterisk. Only those phosphorylation sites specific to samples with Plk1 added are shown.</p>
+        </caption>
+        <media xlink:href="NIHMS349613-supplement-3.eps" mimetype="application" mime-subtype="postscript" orientation="portrait" xlink:type="simple" id="d37e672" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD4">
+        <label>4</label>
+        <caption>
+          <p id="P22">Supplemental Figure 4. Ran, but not Aurora B, acts as the chromosome-derived signal to restrict LGN localization. (<italic>a</italic>) Image of GFP-LGN, DHC-GFP, and anti-p150 in cells with tripolar spindles showing the localization to the cell cortex adjacent to the spindle poles and distal to the chromosomes. (<italic>b</italic>, <italic>c</italic>) Images of GFP-LGN expressing Rpe1 cells either in controls or following treatment with nocodazole showing the effect of chromosomes on cortical LGN localization. (<italic>d</italic>) Images of GFP-LGN expressing cells treated with the Aurora B inhibitor ZM447439 for 1.5-2 hrs. In the absence of Aurora B activity, chromosomes still perturb the cortical localization of LGN. (<italic>e</italic>) Analysis of GFP-LGN localization in Ran temperature sensitive tsBN2 cells. Top, schematic depicting the arrest and temperature shift regimen. Bottom, images of cells from the indicated conditions showing the localization of GFP-LGN to the cell cortex at the restrictive temperature, but not at the permissive temperature. (<italic>f</italic>) Temperature shift experiments as in (e) for the parental, non-temperature sensitive BHK cell line. Scale bars, 10 Î¼m.</p>
+        </caption>
+        <media xlink:href="NIHMS349613-supplement-4.eps" mimetype="application" mime-subtype="postscript" orientation="portrait" xlink:type="simple" id="d37e698" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD5">
+        <label>5</label>
+        <caption>
+          <p id="P23">Supplemental Figure 5. Localization and functional analysis of LGN and LGN truncation mutants. (<italic>a</italic>) Schematic of LGN showing its binding partners relative to the N- and C-terminal truncations. (<italic>b</italic>) Localization of the LGN N-terminus (GFP-LGN-N) and NuMA in mitotic and interphase cells. (<italic>c</italic>) Images showing the co-localization of GFP-LGN-C and GÎ±i1 to the cell cortex and retraction fibers. (<italic>d</italic>) Localization of the indicated LGN fragments and fusions in interphase cells (top) or to the cell cortex near the coverslip in mitotic cells (bottom) to assess localization to retraction fibers (arrows). (<italic>e</italic>) Immunofluorescence images showing the ability of an RNAi-resistant LGN or the LGN C-terminus to complement depletion of endogenous LGN for p150 and NuMA localization. (<italic>f</italic>) Immunofluorescence images as in (e) showing the ability of full length LGN or LGN-C to rescue dynein localization. Scale bars, 10 Î¼m.</p>
+        </caption>
+        <media xlink:href="NIHMS349613-supplement-5.eps" mimetype="application" mime-subtype="postscript" orientation="portrait" xlink:type="simple" id="d37e724" position="anchor"/>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="SD6">
+        <label>6</label>
+        <media xlink:href="NIHMS349613-supplement-6.doc" mimetype="application" mime-subtype="msword" orientation="portrait" xlink:type="simple" id="d37e728" position="anchor"/>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="S6">
+      <title>Acknowledgments</title>
+      <p>We thank Patrick Meraldi, David Pellman, Defne Yarar, Katharina Ribbeck, members of the Cheeseman and Hochwagen labs for discussions and critical reading of the manuscript, and Tom DiCesare for generating with the movie. We also thank Duane Compton, Tony Hyman-Mitocheck, Claudio Basilico, and Aaron Christopher Groen for reagents. This work was supported by awards to IMC from the Massachusetts Life Sciences Center, the Searle Scholars Program, and the Human Frontiers Science Foundation, a grant from the National Institute of General Medical Sciences (GM088313), and a Research Scholar Grant (121776) from the American Cancer Society. IMC is a Thomas D. and Virginia W. Cabot Career Development Professor of Biology. TK is supported by a long-term fellowship of the Human Frontiers Science Program.</p>
+    </ack>
+    <fn-group>
+      <fn id="FN1">
+        <p id="P24"><bold>AUTHOR CONTRIBUTIONS</bold> TK and IMC designed the experiments. TK carried out all the experiments. IMC assisted with some experiments including protein purification and mass spectrometry. TK and IMC analyzed the data and wrote the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="R1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Grill</surname>
+              <given-names>SW</given-names>
+            </name>
+            <name>
+              <surname>Hyman</surname>
+              <given-names>AA</given-names>
+            </name>
+          </person-group>
+          <article-title>Spindle positioning by cortical pulling forces</article-title>
+          <source>Dev Cell</source>
+          <year>2005</year>
+          <volume>8</volume>
+          <fpage>461</fpage>
+          <lpage>465</lpage>
+          <pub-id pub-id-type="pmid">15809029</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R2">
+        <label>2</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Glotzer</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>The mechanism and control of cytokinesis</article-title>
+          <source>Curr Opin Cell Biol</source>
+          <year>1997</year>
+          <volume>9</volume>
+          <fpage>815</fpage>
+          <lpage>823</lpage>
+          <pub-id pub-id-type="pmid">9425346</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R3">
+        <label>3</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonczy</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of asymmetric cell division: flies and worms pave the way</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <year>2008</year>
+          <volume>9</volume>
+          <fpage>355</fpage>
+          <lpage>366</lpage>
+          <pub-id pub-id-type="pmid">18431399</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R4">
+        <label>4</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Thery</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The extracellular matrix guides the orientation of the cell division axis</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2005</year>
+          <volume>7</volume>
+          <fpage>947</fpage>
+          <lpage>953</lpage>
+          <pub-id pub-id-type="pmid">16179950</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R5">
+        <label>5</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Toyoshima</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Nishida</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Integrin-mediated adhesion orients the spindle parallel to the substratum in an EB1- and myosin X-dependent manner</article-title>
+          <source>EMBO J</source>
+          <year>2007</year>
+          <volume>26</volume>
+          <fpage>1487</fpage>
+          <lpage>1498</lpage>
+          <pub-id pub-id-type="pmid">17318179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R6">
+        <label>6</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Siller</surname>
+              <given-names>KH</given-names>
+            </name>
+            <name>
+              <surname>Doe</surname>
+              <given-names>CQ</given-names>
+            </name>
+          </person-group>
+          <article-title>Spindle orientation during asymmetric cell division</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2009</year>
+          <volume>11</volume>
+          <fpage>365</fpage>
+          <lpage>374</lpage>
+          <pub-id pub-id-type="pmid">19337318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R7">
+        <label>7</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kardon</surname>
+              <given-names>JR</given-names>
+            </name>
+            <name>
+              <surname>Vale</surname>
+              <given-names>RD</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulators of the cytoplasmic dynein motor</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <year>2009</year>
+          <volume>10</volume>
+          <fpage>854</fpage>
+          <lpage>865</lpage>
+          <pub-id pub-id-type="pmid">19935668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R8">
+        <label>8</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Woodard</surname>
+              <given-names>GE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Ric-8A and Gi alpha recruit LGN, NuMA, and dynein to the cell cortex to help orient the mitotic spindle</article-title>
+          <source>Mol Cell Biol</source>
+          <year>2010</year>
+          <volume>30</volume>
+          <fpage>3519</fpage>
+          <lpage>3530</lpage>
+          <pub-id pub-id-type="pmid">20479129</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R9">
+        <label>9</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Du</surname>
+              <given-names>Q</given-names>
+            </name>
+            <name>
+              <surname>Macara</surname>
+              <given-names>IG</given-names>
+            </name>
+          </person-group>
+          <article-title>Mammalian Pins is a conformational switch that links NuMA to heterotrimeric G proteins</article-title>
+          <source>Cell</source>
+          <year>2004</year>
+          <volume>119</volume>
+          <fpage>503</fpage>
+          <lpage>516</lpage>
+          <pub-id pub-id-type="pmid">15537540</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R10">
+        <label>10</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sumara</surname>
+              <given-names>I</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Roles of polo-like kinase 1 in the assembly of functional mitotic spindles</article-title>
+          <source>Curr Biol</source>
+          <year>2004</year>
+          <volume>14</volume>
+          <fpage>1712</fpage>
+          <lpage>1722</lpage>
+          <pub-id pub-id-type="pmid">15458642</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R11">
+        <label>11</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bayliss</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Sardon</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Vernos</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Conti</surname>
+              <given-names>E</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis of Aurora-A activation by TPX2 at the mitotic spindle</article-title>
+          <source>Mol Cell</source>
+          <year>2003</year>
+          <volume>12</volume>
+          <fpage>851</fpage>
+          <lpage>862</lpage>
+          <pub-id pub-id-type="pmid">14580337</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R12">
+        <label>12</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lampson</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Cheeseman</surname>
+              <given-names>IM</given-names>
+            </name>
+          </person-group>
+          <article-title>Sensing centromere tension: Aurora B and the regulation of kinetochore function</article-title>
+          <source>Trends Cell Biol</source>
+          <year>2011</year>
+          <volume>21</volume>
+          <fpage>133</fpage>
+          <lpage>140</lpage>
+          <pub-id pub-id-type="pmid">21106376</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R13">
+        <label>13</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalab</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Weis</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Heald</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>Visualization of a Ran-GTP gradient in interphase and mitotic Xenopus egg extracts</article-title>
+          <source>Science</source>
+          <year>2002</year>
+          <volume>295</volume>
+          <fpage>2452</fpage>
+          <lpage>2456</lpage>
+          <pub-id pub-id-type="pmid">11923538</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R14">
+        <label>14</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kalab</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Heald</surname>
+              <given-names>R</given-names>
+            </name>
+          </person-group>
+          <article-title>The RanGTP gradient - a GPS for the mitotic spindle</article-title>
+          <source>J Cell Sci</source>
+          <year>2008</year>
+          <volume>121</volume>
+          <fpage>1577</fpage>
+          <lpage>1586</lpage>
+          <pub-id pub-id-type="pmid">18469014</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R15">
+        <label>15</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kornbluth</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Dasso</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Newport</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Evidence for a dual role for TC4 protein in regulating nuclear structure and cell cycle progression</article-title>
+          <source>J Cell Biol</source>
+          <year>1994</year>
+          <volume>125</volume>
+          <fpage>705</fpage>
+          <lpage>719</lpage>
+          <pub-id pub-id-type="pmid">8188741</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R16">
+        <label>16</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nishitani</surname>
+              <given-names>H</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Loss of RCC1, a nuclear DNA-binding protein, uncouples the completion of DNA replication from the activation of cdc2 protein kinase and mitosis</article-title>
+          <source>EMBO J</source>
+          <year>1991</year>
+          <volume>10</volume>
+          <fpage>1555</fpage>
+          <lpage>1564</lpage>
+          <pub-id pub-id-type="pmid">1851087</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R17">
+        <label>17</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiese</surname>
+              <given-names>C</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Role of importin-beta in coupling Ran to downstream targets in microtubule assembly</article-title>
+          <source>Science</source>
+          <year>2001</year>
+          <volume>291</volume>
+          <fpage>653</fpage>
+          <lpage>656</lpage>
+          <pub-id pub-id-type="pmid">11229403</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R18">
+        <label>18</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nachury</surname>
+              <given-names>MV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Importin beta is a mitotic target of the small GTPase Ran in spindle assembly</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>104</volume>
+          <fpage>95</fpage>
+          <lpage>106</lpage>
+          <pub-id pub-id-type="pmid">11163243</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R19">
+        <label>19</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wee</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Johnston</surname>
+              <given-names>CA</given-names>
+            </name>
+            <name>
+              <surname>Prehoda</surname>
+              <given-names>KE</given-names>
+            </name>
+            <name>
+              <surname>Doe</surname>
+              <given-names>CQ</given-names>
+            </name>
+          </person-group>
+          <article-title>Canoe binds RanGTP to promote Pins<sup>TPR</sup>/Mud-mediated spindle orientation</article-title>
+          <source>J Cell Biol</source>
+          <year>2011</year>
+          <comment>doi: 10.1083/jcb.201102130</comment>
+        </element-citation>
+      </ref>
+      <ref id="R20">
+        <label>20</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fink</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>External forces control mitotic spindle positioning</article-title>
+          <source>Nat Cell Biol</source>
+          <year>2011</year>
+          <volume>13</volume>
+          <fpage>771</fpage>
+          <lpage>778</lpage>
+          <pub-id pub-id-type="pmid">21666685</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R21">
+        <label>21</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Knoblich</surname>
+              <given-names>JA</given-names>
+            </name>
+          </person-group>
+          <article-title>Asymmetric cell division: recent developments and their implications for tumour biology</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <year>2010</year>
+          <volume>11</volume>
+          <fpage>849</fpage>
+          <lpage>860</lpage>
+          <pub-id pub-id-type="pmid">21102610</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R22">
+        <label>22</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kline</surname>
+              <given-names>SL</given-names>
+            </name>
+            <name>
+              <surname>Cheeseman</surname>
+              <given-names>IM</given-names>
+            </name>
+            <name>
+              <surname>Hori</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Fukagawa</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Desai</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>The human Mis12 complex is required for kinetochore assembly and proper chromosome segregation</article-title>
+          <source>J Cell Biol</source>
+          <year>2006</year>
+          <volume>173</volume>
+          <fpage>9</fpage>
+          <lpage>17</lpage>
+          <pub-id pub-id-type="pmid">16585270</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R23">
+        <label>23</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheeseman</surname>
+              <given-names>IM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A conserved protein network controls assembly of the outer kinetochore and its ability to sustain tension</article-title>
+          <source>Genes Dev</source>
+          <year>2004</year>
+          <volume>18</volume>
+          <fpage>2255</fpage>
+          <lpage>2268</lpage>
+          <pub-id pub-id-type="pmid">15371340</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R24">
+        <label>24</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schmidt</surname>
+              <given-names>JC</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Aurora B kinase controls the targeting of the Astrin-SKAP complex to bioriented kinetochores</article-title>
+          <source>J Cell Biol</source>
+          <year>2010</year>
+          <volume>191</volume>
+          <fpage>269</fpage>
+          <lpage>280</lpage>
+          <pub-id pub-id-type="pmid">20937697</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R25">
+        <label>25</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hutchins</surname>
+              <given-names>JR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Systematic analysis of human protein complexes identifies chromosome segregation proteins</article-title>
+          <source>Science</source>
+          <year>2010</year>
+          <volume>328</volume>
+          <fpage>593</fpage>
+          <lpage>599</lpage>
+          <pub-id pub-id-type="pmid">20360068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R26">
+        <label>26</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cheeseman</surname>
+              <given-names>IM</given-names>
+            </name>
+            <name>
+              <surname>Desai</surname>
+              <given-names>A</given-names>
+            </name>
+          </person-group>
+          <article-title>A combined approach for the localization and tandem affinity purification of protein complexes from metazoans</article-title>
+          <source>Sci STKE</source>
+          <year>2005</year>
+          <volume>2005</volume>
+          <fpage>pl1</fpage>
+          <pub-id pub-id-type="pmid">15644491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R27">
+        <label>27</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Washburn</surname>
+              <given-names>MP</given-names>
+            </name>
+            <name>
+              <surname>Wolters</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Yates</surname>
+              <given-names>JR</given-names>
+              <suffix>3rd</suffix>
+            </name>
+          </person-group>
+          <article-title>Large-scale analysis of the yeast proteome by multidimensional protein identification technology</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2001</year>
+          <volume>19</volume>
+          <fpage>242</fpage>
+          <lpage>247</lpage>
+          <pub-id pub-id-type="pmid">11231557</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="R28">
+        <label>28</label>
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Weis</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Dingwall</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Lamond</surname>
+              <given-names>AI</given-names>
+            </name>
+          </person-group>
+          <article-title>Characterization of the nuclear protein import mechanism using Ran mutants with altered nucleotide binding specificities</article-title>
+          <source>Embo J</source>
+          <year>1996</year>
+          <volume>15</volume>
+          <fpage>7120</fpage>
+          <lpage>7128</lpage>
+          <pub-id pub-id-type="pmid">9003787</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+  </back>
+  <floats-group>
+    <fig id="F1" orientation="portrait" position="float">
+      <label>Figure 1</label>
+      <caption>
+        <title>Dynein and dynactin localize asymmetrically to the cell cortex during metaphase</title>
+        <p>(<italic>a</italic>) Left, time lapse images from a clonal HeLa cell line stably expressing GFP-LGN and mCherry-Arp1A. LGN localizes to the cell cortex prior to Arp1A, and displays symmetric localization. Arp1A displays asymmetric localization to the cell cortex when the spindle is mis-positioned (arrowhead). Right, graph of relative fluorescence intensity for a line scan of the indicated lines showing the spatial distribution of LGN and Arp1A. (<italic>b</italic>) Schematic showing the dependency relationships and symmetric-asymmetric behavior for cortical localization. (<italic>c</italic>) Kymographs showing DHC-GFP and chromosomes (Hoechst) generated from time lapse movies at 5 min intervals as indicated showing the oscillation of the spindle and its effect on cortical dynein localization in MG132 arrested control cells, LGN depleted cells, and cells treated with low dose nocodazole. Arrows indicate cortically localized DHC-GFP and arrowheads indicate spindle poles. (<italic>d</italic>) Graphs showing the relationship between spindle pole-cortex distance and dynein localization based on data from (c) for spindle poles moving towards the cell cortex. The numbers in parentheses indicate the average spindle pole-cortex distance when dynein localizes to the cortex (blue) or is delocalized (red). (<italic>e</italic>) Fluorescent images (left) and line scan (right) as in (a) showing GFP-LGN and mCherry-Arp1A localization in cells treated with the Eg5 inhibitor STLC to create monopolar spindles. Scale bars, 10 Î¼m.</p>
+      </caption>
+      <graphic xlink:href="nihms-349613-f0001"/>
+    </fig>
+    <fig id="F2" orientation="portrait" position="float">
+      <label>Figure 2</label>
+      <caption>
+        <title>Plk1 negatively regulates the localization of cortical dynein</title>
+        <p>(<italic>a</italic>) Fluorescent images showing DHC-GFP and DNA (Hoechst) localization in cells treated with the Eg5 inhibitor STLC to create monopolar spindles with or without inhibition of Plk1 (BI2536). (<italic>b</italic>) Fluorescent images showing the localization of DHC-GFP or GFP-LGN (bottom), DNA (Hoechst, top), and the indicated membrane targeted mCherry fusions (top). Membrane targeted Plk1, but not Plk1 mutants, disrupt cortical dynein localization, but not LGN. (<italic>c</italic>) Graph showing quantification of the data in (a) for the frequency of cortical dynein localization +/â SD for the indicated conditions. Control; n=34, Wild type; n=50, Kinase dead; n=32, Polo-box mutant; n=19, Aurora-A; n=31, TPX2; n=11. ** indicates that the Plk1 targeted cells are statistically different from the other conditions with a 99.9% confidence interval based on a z test for a difference between proportions (<italic>d</italic>) Kymographs showing cortical dynein localization and spindle oscillations as in <xref ref-type="fig" rid="F1">Fig. 1d</xref> for the indicated membrane targeted fusions. (<italic>e</italic>) Western blots showing the presence of selected proteins in the samples in <xref ref-type="table" rid="T1">Table1</xref>. (<italic>f</italic>) Model indicating the effect of Plk1 and spindle pole proximity on the localization of cortically localized dynein downstream of LGN. Scale bars, 10 Î¼m.</p>
+      </caption>
+      <graphic xlink:href="nihms-349613-f0002"/>
+    </fig>
+    <fig id="F3" orientation="portrait" position="float">
+      <label>Figure 3</label>
+      <caption>
+        <title>The chromosome-derived Ran gradient negatively regulates LGN localization</title>
+        <p>(<italic>a</italic>) Fluorescent images of live cells showing the localization of GFP-LGN and DNA (Hoechst) for the indicated conditions. (<italic>b</italic>) Fluorescent image as in (a) showing the localization of GFP-LGN in cells treated with low dose nocodazole to generate unaligned chromosomes (arrow). (<italic>c</italic>) Graph showing the effect of chromosome position on cortical LGN localization. Chromosome-cortex distance was measured for cases where localization of LGN was (positive) or was not (negative) observed. (<italic>d</italic>) Fluorescent images of live cells showing the localization of GFP-LGN and DNA (Hoechst) in control cells, or cells expressing dominant negative mCherry-Ran T24N. (<italic>e</italic>) Enlargement of the indicated images in (d) showing the effect on LGN localization to the spindle midzone. (<italic>f</italic>) Quantification of the data from (d) showing the ratio of centrally localized and laterally localized LGN in the indicated conditions +/â SD (n=3). * indicates that the difference is statistically significant based on a studentâs T test (p &lt; 0.001) (<italic>g</italic>) Top, fluorescent images of tsBN2 (RCC1<sup>ts</sup> mutant) stably expressing GFP-LGN. Cells were arrested with nocodazole (n=30), and then either maintained at the permissive temperature (33Â°C; n=45) or shifted to the restrictive temperature (39.7Â°C; n=55). Bottom, graph showing the quantification of the localization data. (<italic>h</italic>) Fluorescent image showing the analysis of spindle orientation on L-patterned fibronectin coated coverslips. L-shaped fibronectin patterns cause cells to divide preferentially along the hypotenuse of the L. (<italic>i</italic>) Quantification of spindle orientation in control cells (Control RNAi; n=25, Mem-mCherry; n=48, untransfected control; n=60), or cells treated with the indicated conditions (LGN RNAi; n=21, p150 RNAi; n=11, Mem-mCherry Plk1; n=42, mCherry-RanT24N, n=31). Each treatment is statistically different from its paired control with either a 99% (*) or 99.9% (**) confidence interval based on a z test for a difference between proportions. (<italic>j</italic>) Images from time lapse movies of control cells (properly aligned), or cells expressing mCherry-Ran T24N (mis-aligned). Scale bars, 10 Î¼m.</p>
+      </caption>
+      <graphic xlink:href="nihms-349613-f0003"/>
+    </fig>
+    <fig id="F4" orientation="portrait" position="float">
+      <label>Figure 4</label>
+      <caption>
+        <title>The Ran gradient regulates the association of the LGN-NuMA complex with membranes</title>
+        <p>(<italic>a</italic>) Diagram showing the interactions of different regions of LGN with NuMA and GÎ±i. (<italic>b</italic>) Fluorescent images showing the localization of full length GFP-LGN, or the LGN C-terminus. (<italic>c</italic>) Fluorescent images showing the localization of LGN-C and GÎ±i1 to the cell cortex in regions adjacent to individual aligned chromosomes in cells treated with low dose nocodazole. (<italic>d</italic>) Left, fluorescent images showing the localization of full length LGN (n=10), LGN-C (n=9), a fusion between the NuMA and LGN C-termini (n=6), and the NuMA-C-LGN-C fusion with a mutated NLS (n=14). In each case, endogenous LGN was depleted by RNAi. Right, graph showing the relative cortical enrichment of the fusion as in <xref ref-type="fig" rid="F3">Fig. 3f</xref>. * indicates that the difference is statistically significant based on a studentâs T test (p &lt; 0.01) (<italic>e</italic>) Diagram showing a model for spindle pole and chromosome derived signals regulating cortical dynein localization. Spindle pole-localized Plk1 negatively regulates dynein localization downstream of LGN, and the chromosome-derived Ran-GTP gradient negatively regulates NuMA-LGN distribution. Together, these two intrinsic signals act to control spindle position and orientation in symmetrically dividing cells. Also see <xref ref-type="supplementary-material" rid="SD1">Supplemental Movie 1</xref>. Scale bars, 10 Î¼m.</p>
+      </caption>
+      <graphic xlink:href="nihms-349613-f0004"/>
+    </fig>
+    <table-wrap id="T1" position="float" orientation="portrait">
+      <label>Table 1</label>
+      <caption>
+        <title>Plk1 dissociates dynactin-dynein from LGN-NuMA complex</title>
+        <p>Summary of mass spectrometry data showing the percent sequence coverage for the proteins that co-purify with GFP-LGN, but not controls, in the presence or absence of treatment with Plk1 and ATP.</p>
+      </caption>
+      <table frame="box" rules="all">
+        <thead>
+          <tr>
+            <th rowspan="2" align="left" valign="middle" colspan="1">Protein</th>
+            <th colspan="2" align="right" valign="middle" rowspan="1">GFP-LGN IP<break/>(% Seq. Coverage)</th>
+            <th rowspan="2" align="right" valign="middle" colspan="1">Molecular Weight<break/>(kD)</th>
+          </tr>
+          <tr>
+            <th align="right" valign="middle" rowspan="1" colspan="1">âPlk1</th>
+            <th align="right" valign="middle" rowspan="1" colspan="1">+Plk1</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">LGN</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">63.9</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">63.0</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">76.6</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">NuMA</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">56.7</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">56.9</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">238.3</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynactin1, p150</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">7.4</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">141.6</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynactin2, p50</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">42.1</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">44.8</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynactin3</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">19.3</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">19.4</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynactin, Arp1A</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">25.3</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">42.6</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynein 1 heavy. Chain 1</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">4.8</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">532.4</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynein 1 Light Inter. Chain 1</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">16.6</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">56.6</td>
+          </tr>
+          <tr>
+            <td align="left" valign="middle" rowspan="1" colspan="1">Dynein 1 Light Inter. Chain 2</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1">3.7</td>
+            <td align="right" valign="middle" rowspan="1" colspan="1"/>
+            <td align="right" valign="middle" rowspan="1" colspan="1">54.0</td>
+          </tr>
+        </tbody>
+      </table>
+    </table-wrap>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

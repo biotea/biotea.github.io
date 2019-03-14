@@ -1,0 +1,1711 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:43:16Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3285596" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3285596</identifier><datestamp>2012-03-01</datestamp><setSpec>plospath</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Pathog</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Pathog</journal-id>
+      <journal-id journal-id-type="publisher-id">plos</journal-id>
+      <journal-id journal-id-type="pmc">plospath</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Pathogens</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-7366</issn>
+      <issn pub-type="epub">1553-7374</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3285596</article-id>
+      <article-id pub-id-type="pmcid">PMC3285596</article-id>
+      <article-id pub-id-type="pmc-uid">3285596</article-id>
+      <article-id pub-id-type="pmid">22383882</article-id>
+      <article-id pub-id-type="pmid">22383882</article-id>
+      <article-id pub-id-type="publisher-id">PPATHOGENS-D-11-01511</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.ppat.1002550</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline-v2">
+          <subject>Biology</subject>
+          <subj-group>
+            <subject>Biochemistry</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Immunology</subject>
+          </subj-group>
+          <subj-group>
+            <subject>Microbiology</subject>
+          </subj-group>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>The Ebola Virus Interferon Antagonist VP24 Directly Binds STAT1 and Has a Novel, Pyramidal Fold</article-title>
+        <alt-title alt-title-type="running-head">Structures of the Ebolavirus Protein VP24</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Zhang</surname>
+            <given-names>Adrianna P. P.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Bornholdt</surname>
+            <given-names>Zachary A.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Liu</surname>
+            <given-names>Tong</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Abelson</surname>
+            <given-names>Dafna M.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Lee</surname>
+            <given-names>David E.</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Li</surname>
+            <given-names>Sheng</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Woods</surname>
+            <given-names>Virgil L.</given-names>
+            <suffix>Jr</suffix>
+          </name>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Saphire</surname>
+            <given-names>Erica Ollmann</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="corresp" rid="cor1">
+<sup>*</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1">
+<label>1</label>
+<addr-line>Department of Immunology and Microbial Science, The Scripps Research Institute, La Jolla, California, United States of America</addr-line>
+</aff>
+      <aff id="aff2">
+<label>2</label>
+<addr-line>Department of Medicine and Biomedical Sciences Graduate Program, University of California at San Diego, La Jolla, California, United States of America</addr-line>
+</aff>
+      <aff id="aff3">
+<label>3</label>
+<addr-line>The Skaggs Institute for Chemical Biology, The Scripps Research Institute, La Jolla, California, United States of America</addr-line>
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Rey</surname>
+            <given-names>FÃ©lix A.</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Institut Pasteur, France</aff>
+      <author-notes>
+        <corresp id="cor1">* E-mail: <email>erica@scripps.edu</email></corresp>
+        <fn fn-type="con">
+          <p>Conceived and designed the experiments: APPZ ZAB EOS. Performed the experiments: APPZ DMA SL TL DEL VLW. Analyzed the data: APPZ SL TL DEL VLW. Wrote the paper: APPZ EOS.</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="collection">
+        <month>2</month>
+        <year>2012</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>23</day>
+        <month>2</month>
+        <year>2012</year>
+      </pub-date>
+      <volume>8</volume>
+      <issue>2</issue>
+      <elocation-id>e1002550</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>8</day>
+          <month>7</month>
+          <year>2011</year>
+        </date>
+        <date date-type="accepted">
+          <day>10</day>
+          <month>1</month>
+          <year>2012</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Zhang et al.</copyright-statement>
+        <copyright-year>2012</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <p>Ebolaviruses cause hemorrhagic fever with up to 90% lethality and in fatal cases, are characterized by early suppression of the host innate immune system. One of the proteins likely responsible for this effect is VP24. VP24 is known to antagonize interferon signaling by binding host karyopherin Î± proteins, thereby preventing them from transporting the tyrosine-phosphorylated transcription factor STAT1 to the nucleus. Here, we report that VP24 binds STAT1 directly, suggesting that VP24 can suppress at least two distinct branches of the interferon pathway. Here, we also report the first crystal structures of VP24, derived from different species of ebolavirus that are pathogenic (Sudan) and nonpathogenic to humans (Reston). These structures reveal that VP24 has a novel, pyramidal fold. A site on a particular face of the pyramid exhibits reduced solvent exchange when in complex with STAT1. This site is above two highly conserved pockets in VP24 that contain key residues previously implicated in virulence. These crystal structures and accompanying biochemical analysis map differences between pathogenic and nonpathogenic viruses, offer templates for drug design, and provide the three-dimensional framework necessary for biological dissection of the many functions of VP24 in the virus life cycle.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <p>Ebolaviruses cause severe hemorrhagic fever that is exacerbated by immediate suppression of host immune function. VP24, one of only eight proteins encoded by ebolaviruses, functions in virus replication and assembly, and is thought to contribute to immune suppression by binding to a certain class of molecules called karyopherins to prevent them from transporting a transcription factor termed STAT1. Here we report that VP24 is also able to directly bind STAT1 by itself, and thereby likely contributes to immune suppression by an additional mechanism. Analysis of these multiple roles of VP24 and design of drugs against them have been hindered by the lack of structural information on VP24 and its lack of homology to any other known protein. Hence, here we also present X-ray structures of VP24 derived from two different ebolavirus species that are pathogenic and nonpathogenic to humans. These structures and accompanying deuterium exchange mass spectrometry identify the likely binding site of STAT1 onto VP24, map sites that are conserved or differ between pathogenic and nonpathogenic species, and provide the critical 3D templates by which we may dissect and interpret the many roles that VP24 plays in the virus life cycle.</p>
+      </abstract>
+      <counts>
+        <page-count count="12"/>
+      </counts>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The ebolaviruses and marburgviruses are enveloped, non-segmented, negative-strand RNA viruses that belong to the family Filoviridae. There are five antigenically distinct ebolaviruses that are â¼40% different in amino acid sequence, and are each named after the location of the outbreak during which they were first identified: Zaire (now known simply as Ebola virus or EBOV), Sudan virus (SUDV), TaÃ¯ Forest virus (TAFV), Reston virus (RESTV) and Bundibugyo virus (BDBV). Marburgviruses and most ebolaviruses cause severe hemorrhagic fever in both humans and nonhuman primates, with fatality up to 90%. The exception is RESTV, which appears to be non-pathogenic in humans, although it remains pathogenic to non-human primates <xref rid="ppat.1002550-Retuya1" ref-type="bibr">[1]</xref>, <xref rid="ppat.1002550-Sanchez1" ref-type="bibr">[2]</xref>. Reasons why RESTV has not caused disease in humans are unclear. However, microarray analyses have shown that RESTV has a reduced ability to suppress host immune responses <xref rid="ppat.1002550-Kash1" ref-type="bibr">[3]</xref>.</p>
+      <p>For the pathogenic ebolaviruses, early suppression of host interferon (IFN) production and signaling plays a decisive factor in disease outcome <xref rid="ppat.1002550-Wauquier1" ref-type="bibr">[4]</xref>, <xref rid="ppat.1002550-Baize1" ref-type="bibr">[5]</xref>. Two proteins of the ebolaviruses are used in this strike. The protein VP35 blocks production of IFN-Î±/Î² <xref rid="ppat.1002550-Cardenas1" ref-type="bibr">[6]</xref> by binding dsRNA, a key hallmark of viral infection, and shielding it from recognition by host immune sensors such as RIG-I and MDA-5 <xref rid="ppat.1002550-Kimberlin1" ref-type="bibr">[7]</xref>, <xref rid="ppat.1002550-Leung1" ref-type="bibr">[8]</xref>. By contrast, the protein VP24 inhibits signaling downstream of both IFN-Î±/Î² and IFN-Î³ by sequestering karyopherin Î± proteins (Î±1, Î±5 and Î±6) <xref rid="ppat.1002550-Reid1" ref-type="bibr">[9]</xref>. Binding to these proteins prevents them from shuttling otherwise activated, phosphorylated STAT1 to the nucleus <xref rid="ppat.1002550-Reid1" ref-type="bibr">[9]</xref>â<xref rid="ppat.1002550-Mateo1" ref-type="bibr">[11]</xref>.</p>
+      <p>STAT1 belongs to the STAT family of transcription factors, is a key mediator of the IFN response pathway <xref rid="ppat.1002550-Dale1" ref-type="bibr">[12]</xref>â<xref rid="ppat.1002550-Najjar1" ref-type="bibr">[14]</xref> and plays an essential role in the immune response to viruses <xref rid="ppat.1002550-Horvath1" ref-type="bibr">[15]</xref>â<xref rid="ppat.1002550-Meraz1" ref-type="bibr">[17]</xref>. STAT1 predominately exists in an unphosphorylated form (U-STAT1). Numerous immune factors like type I and type II interferon <xref rid="ppat.1002550-Najjar1" ref-type="bibr">[14]</xref>, <xref rid="ppat.1002550-Darnell1" ref-type="bibr">[18]</xref>, <xref rid="ppat.1002550-Schindler1" ref-type="bibr">[19]</xref>, interleukins like IL-6 and IL-10 <xref rid="ppat.1002550-Subramaniam1" ref-type="bibr">[20]</xref>â<xref rid="ppat.1002550-Yoshimoto1" ref-type="bibr">[23]</xref>, growth factors <xref rid="ppat.1002550-Subramaniam1" ref-type="bibr">[20]</xref>, <xref rid="ppat.1002550-Leaman1" ref-type="bibr">[24]</xref>â<xref rid="ppat.1002550-Hackett1" ref-type="bibr">[26]</xref>, angiotensin <xref rid="ppat.1002550-Marrero1" ref-type="bibr">[27]</xref>, and TNFÎ± <xref rid="ppat.1002550-Guo1" ref-type="bibr">[28]</xref> cause STAT1 to be phosphorylated (P-STAT1) by the Janus family kinases (JAKs). Upon phosphorylation, P-STAT1 either dimerizes or forms a complex with IFN Î±/Î²-stimulated gene factor 3 (ISGF3) <xref rid="ppat.1002550-Darnell1" ref-type="bibr">[18]</xref>, <xref rid="ppat.1002550-Greenlund1" ref-type="bibr">[29]</xref>, <xref rid="ppat.1002550-Heim1" ref-type="bibr">[30]</xref>, and is subsequently transported to the nucleus via karyopherin Î± proteins where it regulates genes involved in the immune response <xref rid="ppat.1002550-Platanias1" ref-type="bibr">[31]</xref>â<xref rid="ppat.1002550-Levy2" ref-type="bibr">[33]</xref>.</p>
+      <p>The importance of STAT1 to the antiviral response is underlined by the fact that viruses (and other microbes) have evolved proteins that inhibit every step of STAT1 activation <xref rid="ppat.1002550-Najjar1" ref-type="bibr">[14]</xref>. As examples, the V proteins of Nipah and Hendra viruses and the P protein of rabies virus directly bind to P-STAT1 to sequester it in the cytoplasm <xref rid="ppat.1002550-Rodriguez1" ref-type="bibr">[34]</xref>â<xref rid="ppat.1002550-Vidy1" ref-type="bibr">[36]</xref>. By contrast, the P protein of measles virus and an unidentified protein of human metapneumovirus prevent phosphorylation of STAT1 <xref rid="ppat.1002550-Devaux1" ref-type="bibr">[37]</xref>, <xref rid="ppat.1002550-Dinwiddie1" ref-type="bibr">[38]</xref>, while the VH1 protein of vaccinia virus and the NS5 protein of Japanese encephalitis virus actively dephosphorylate the P-STAT1 complex <xref rid="ppat.1002550-Najarro1" ref-type="bibr">[39]</xref>, <xref rid="ppat.1002550-Lin1" ref-type="bibr">[40]</xref>, and the V protein of mumps causes ubiquitination and degradation of P-STAT1 <xref rid="ppat.1002550-Yokosawa1" ref-type="bibr">[41]</xref>. The VP24 protein of ebolavirus, in yet another mechanism, prevents nuclear translocation of P-STAT1 by binding to the karyopherin Î± transporter proteins <xref rid="ppat.1002550-Reid1" ref-type="bibr">[9]</xref>â<xref rid="ppat.1002550-Mateo1" ref-type="bibr">[11]</xref>.</p>
+      <p>In addition to its role in interferon antagonism, ebolavirus VP24 has also been proposed to associate with membranes <xref rid="ppat.1002550-Bamberg1" ref-type="bibr">[42]</xref>, <xref rid="ppat.1002550-Han1" ref-type="bibr">[43]</xref>, and is important for assembly and function of the viral ribonucleoprotein complex (RNP) <xref rid="ppat.1002550-Noda1" ref-type="bibr">[44]</xref>â<xref rid="ppat.1002550-Hoenen1" ref-type="bibr">[46]</xref>, where VP24 binds to the viral nucleoprotein NP <xref rid="ppat.1002550-Watanabe1" ref-type="bibr">[45]</xref>. VP24 has no sequence homology to any known protein and the molecular mechanisms by which VP24 suppresses immune signaling and contributes to RNP assembly are poorly understood.</p>
+      <p>Here, we demonstrate that VP24 also binds directly to STAT1 itself, present the first X-ray crystal structures of VP24 from both Sudan and Reston viruses, and map a possible site of STAT1 interaction on the VP24 crystal structure by deuterium exchange mass spectrometry (DXMS). The biochemical and structural analysis presented here identifies a new function by which VP24 may contribute to and/or prolong innate immunosuppression, and provides the necessary three-dimensional templates for understanding the multiple roles of VP24 in the ebolavirus life cycle and design of antiviral compounds against them.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results</title>
+      <sec id="s2a">
+        <title>VP24 binds purified STAT1<sub>1â683</sub>
+</title>
+        <p>Other negative-sense viruses encode proteins that suppress innate immune signaling by direct interaction with STAT1. VP24 was previously known to indirectly affect STAT1 by binding karyopherins to prevent them from translocating phosphorylated STAT1 (P-STAT1). However, we wondered if VP24 could play a more direct role as well. To answer this question, we performed an ELISA to test binding of purified Ebola virus VP24 or Sudan virus VP24 to purified STAT1<sub>1â683</sub> (truncated prior to its phosphorylation site at Tyr701). BSA was used as a negative control. Indeed, VP24 is able directly associate with STAT1<sub>1â683</sub> (<xref ref-type="fig" rid="ppat-1002550-g001">Figure 1</xref>). Although it remains to be determined if VP24 binds equally well to full-length P-STAT1 and U-STAT1, the initial finding that VP24 binds STAT1<sub>1â683</sub> suggests an additional, unexplored way by which VP24 might contribute to innate immune suppression.</p>
+        <fig id="ppat-1002550-g001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002550.g001</object-id>
+          <label>Figure 1</label>
+          <caption>
+            <title>Purified truncated VP24s, SUDV<sub>1â233</sub> and EBOV<sub>1â233</sub>, were determined to bind to purified STAT1<sub>1â683</sub> using an ELISA assay.</title>
+            <p>Either SUDV<sub>1â233</sub> or EBOV<sub>1â233</sub> was coated onto the ELISA plate at 0.01 mg/ml as described in the <xref ref-type="sec" rid="s4">Materials and methods</xref> section. Upon subsequent incubation with STAT1<sub>1â683</sub>, binding was detected with HRP conjugated secondary antibody and O.D. was read at 450 nm. BSA was used as a negative control.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002550.g001"/>
+        </fig>
+      </sec>
+      <sec id="s2b">
+        <title>VP24 adopts a novel âpyramidalâ fold</title>
+        <p>In order to provide 3D templates for understanding VP24 and its many roles in immune evasion, replication and assembly, we crystallized VP24 from Sudan virus (two versions crystallized: SUDV<sub>1â233</sub> and SUDV<sub>11â233</sub>) and Reston virus (one version crystallized: RESTV<sub>11â237</sub>) (<xref ref-type="supplementary-material" rid="ppat.1002550.s001">Figure S1a</xref>). We determined the structure of SUDV<sub>11â233</sub> at 2.1 Ã resolution by multiwavelength anomalous diffraction (MAD) using selenomethionine-incorporated protein expressed recombinantly in <italic>E. coli</italic>. We subsequently determined structures of SUDV<sub>1â233</sub> and RESTV<sub>11â237</sub> by molecular replacement, both at 2.0 Ã resolution (<xref ref-type="table" rid="ppat-1002550-t001">Table 1</xref>).</p>
+        <table-wrap id="ppat-1002550-t001" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002550.t001</object-id>
+          <label>Table 1</label>
+          <caption>
+            <title>Data collection and refinement statistics.</title>
+          </caption>
+          <alternatives>
+            <graphic id="ppat-1002550-t001-1" xlink:href="ppat.1002550.t001"/>
+            <table frame="hsides" rules="groups">
+              <colgroup span="1">
+                <col align="left" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+                <col align="center" span="1"/>
+              </colgroup>
+              <thead>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Crystals</td>
+                  <td align="left" rowspan="1" colspan="1">SUDV<sub>11â233</sub> (Native)</td>
+                  <td align="left" rowspan="1" colspan="1">SUDV<sub>11â233</sub> (Se<sub>peak</sub>)</td>
+                  <td align="left" rowspan="1" colspan="1">SUDV<sub>11â233</sub> (Se<sub>inflection</sub>)</td>
+                  <td align="left" rowspan="1" colspan="1">SUDV<sub>1â233</sub> (Native)</td>
+                  <td align="left" rowspan="1" colspan="1">RESTV<sub>11â237</sub> (Native)</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Data collection</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Space group</td>
+                  <td align="left" rowspan="1" colspan="1">P3<sub>1</sub>21</td>
+                  <td align="left" rowspan="1" colspan="1">P3<sub>1</sub>21</td>
+                  <td align="left" rowspan="1" colspan="1">P3<sub>1</sub>21</td>
+                  <td align="left" rowspan="1" colspan="1">P3<sub>1</sub>21</td>
+                  <td align="left" rowspan="1" colspan="1">P12<sub>1</sub>1</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Cell dimensions:</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">a, b, c (Ã)</td>
+                  <td align="left" rowspan="1" colspan="1">61.1, 61.1, 126.8</td>
+                  <td align="left" rowspan="1" colspan="1">61.2, 61.2, 106.9</td>
+                  <td align="left" rowspan="1" colspan="1">61.3, 61.3, 106.7</td>
+                  <td align="left" rowspan="1" colspan="1">61.1, 61.1, 130.4</td>
+                  <td align="left" rowspan="1" colspan="1">38.4, 103.9, 59.8</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Î±, Î², Î³ (Â°)</td>
+                  <td align="left" rowspan="1" colspan="1">90, 90, 120</td>
+                  <td align="left" rowspan="1" colspan="1">90, 90, 120</td>
+                  <td align="left" rowspan="1" colspan="1">90, 90, 120</td>
+                  <td align="left" rowspan="1" colspan="1">90, 90, 120</td>
+                  <td align="left" rowspan="1" colspan="1">90, 94, 90</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Resolution (Ã)</td>
+                  <td align="left" rowspan="1" colspan="1">50â2.1</td>
+                  <td align="left" rowspan="1" colspan="1">50â2.2</td>
+                  <td align="left" rowspan="1" colspan="1">50â2.3</td>
+                  <td align="left" rowspan="1" colspan="1">50â2.0</td>
+                  <td align="left" rowspan="1" colspan="1">50â2.0</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Solvent content (%)</td>
+                  <td align="left" rowspan="1" colspan="1">63</td>
+                  <td align="left" rowspan="1" colspan="1">63</td>
+                  <td align="left" rowspan="1" colspan="1">63</td>
+                  <td align="left" rowspan="1" colspan="1">63</td>
+                  <td align="left" rowspan="1" colspan="1">63</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">R<sub>sym</sub>
+<xref ref-type="table-fn" rid="nt101">a</xref> (%)</td>
+                  <td align="left" rowspan="1" colspan="1">0.075</td>
+                  <td align="left" rowspan="1" colspan="1">0.065</td>
+                  <td align="left" rowspan="1" colspan="1">0.095</td>
+                  <td align="left" rowspan="1" colspan="1">0.068</td>
+                  <td align="left" rowspan="1" colspan="1">0.046</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">I/Ï(I)<xref ref-type="table-fn" rid="nt102">b</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1">8.3 (1.6)</td>
+                  <td align="left" rowspan="1" colspan="1">9.5 (2.3)</td>
+                  <td align="left" rowspan="1" colspan="1">6.0 (1.8)</td>
+                  <td align="left" rowspan="1" colspan="1">8.4 (1.3)</td>
+                  <td align="left" rowspan="1" colspan="1">21 (1.9)</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Completeness (%)</td>
+                  <td align="left" rowspan="1" colspan="1">95.8</td>
+                  <td align="left" rowspan="1" colspan="1">99.6</td>
+                  <td align="left" rowspan="1" colspan="1">100.0</td>
+                  <td align="left" rowspan="1" colspan="1">99.6</td>
+                  <td align="left" rowspan="1" colspan="1">98.7</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Redundancy</td>
+                  <td align="left" rowspan="1" colspan="1">8.3</td>
+                  <td align="left" rowspan="1" colspan="1">5.7</td>
+                  <td align="left" rowspan="1" colspan="1">5.7</td>
+                  <td align="left" rowspan="1" colspan="1">10.5</td>
+                  <td align="left" rowspan="1" colspan="1">3.0</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">
+<bold>Refinement</bold>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Resolution (Ã)</td>
+                  <td align="left" rowspan="1" colspan="1">33â2.1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">34â2.0</td>
+                  <td align="left" rowspan="1" colspan="1">31â2.0</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">No. reflections</td>
+                  <td align="left" rowspan="1" colspan="1">16550</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">18009</td>
+                  <td align="left" rowspan="1" colspan="1">29379</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">R<sub>work</sub>/R<sub>free</sub>
+</td>
+                  <td align="left" rowspan="1" colspan="1">23.4/27.0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">22.0/26.3</td>
+                  <td align="left" rowspan="1" colspan="1">18.6/22.7</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">No. of atoms:</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Protein</td>
+                  <td align="left" rowspan="1" colspan="1">1592</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1727</td>
+                  <td align="left" rowspan="1" colspan="1">3166</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Water</td>
+                  <td align="left" rowspan="1" colspan="1">46</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">78</td>
+                  <td align="left" rowspan="1" colspan="1">110</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">R.m.s deviations</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Bond lengths (Ã)</td>
+                  <td align="left" rowspan="1" colspan="1">0.014</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">0.015</td>
+                  <td align="left" rowspan="1" colspan="1">0.013</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Bond angles (Â°)</td>
+                  <td align="left" rowspan="1" colspan="1">1.102</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">1.106</td>
+                  <td align="left" rowspan="1" colspan="1">1.047</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Ramachandran plot<xref ref-type="table-fn" rid="nt103">c</xref>
+</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Most Favored</td>
+                  <td align="left" rowspan="1" colspan="1">93.1</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">92.7</td>
+                  <td align="left" rowspan="1" colspan="1">92.3</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Additionally Allowed</td>
+                  <td align="left" rowspan="1" colspan="1">6.9</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">7.3</td>
+                  <td align="left" rowspan="1" colspan="1">7.4</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Generously Allowed</td>
+                  <td align="left" rowspan="1" colspan="1">0.0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">0.0</td>
+                  <td align="left" rowspan="1" colspan="1">0.3</td>
+                </tr>
+                <tr>
+                  <td align="left" rowspan="1" colspan="1">Disallowed</td>
+                  <td align="left" rowspan="1" colspan="1">0.0</td>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1"/>
+                  <td align="left" rowspan="1" colspan="1">0.0</td>
+                  <td align="left" rowspan="1" colspan="1">0.0</td>
+                </tr>
+              </tbody>
+            </table>
+          </alternatives>
+          <table-wrap-foot>
+            <fn id="nt101">
+              <label>a</label>
+              <p>R linearâ=ââ | (Iâ&lt;I&gt;)|/â (I).</p>
+            </fn>
+            <fn id="nt102">
+              <label>b</label>
+              <p>Values in parentheses refer to the last shell.</p>
+            </fn>
+            <fn id="nt103">
+              <label>c</label>
+              <p>As defined in MolProbity.</p>
+            </fn>
+          </table-wrap-foot>
+        </table-wrap>
+        <p>VP24 adopts a compact, single domain, Î±/Î² structure of novel fold (DaliLite v.3 <xref rid="ppat.1002550-Holm1" ref-type="bibr">[47]</xref>). The overall shape of VP24 resembles a triangular pyramid of dimensions 73 ÃÃ30 ÃÃ30 Ã. The three faces of the pyramid are numbered 1, 2 and 3 (<xref ref-type="fig" rid="ppat-1002550-g002">Figures 2</xref> and <xref ref-type="supplementary-material" rid="ppat.1002550.s001">S1b</xref>). A collection of Î± helices (Î±1 and Î±5-10) and a small, three-stranded, antiparallel Î² sheet (Î²1-3) form the top of the pyramid with the N-terminus at the apex. A five-stranded antiparallel Î² sheet (Î²4-8) forms the center, while a second collection of Î± helices (Î±2-4) forms the base. Portions of the C-terminal region resemble prior <italic>de novo</italic> predictions: as predicted, helices 5â8 are indeed observed, helix 8 is quite long, and a Î² sheet exists at the base of the structure. Differences between the prediction and the experimental structure are that a three-stranded sheet was predicted, but a five-stranded sheet is observed <xref rid="ppat.1002550-Lee1" ref-type="bibr">[48]</xref> and that an armadillo repeat-type domain structure was predicted, but no such domain is observed in VP24.</p>
+        <fig id="ppat-1002550-g002" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002550.g002</object-id>
+          <label>Figure 2</label>
+          <caption>
+            <title>Alternate views of VP24 secondary structure.</title>
+            <p>The overall shape of VP24 resembles a three-sided pyramid with Faces 1 (<bold>a</bold>), 2 (<bold>b</bold>), and 3 (<bold>c</bold>) as illustrated. Only SUDV<sub>1â233</sub> is shown for clarity. Arrows indicate conserved pockets on Faces 1 and 3.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002550.g002"/>
+        </fig>
+      </sec>
+      <sec id="s2c">
+        <title>Two adjacent, conserved pockets</title>
+        <p>VP24 is 63% identical among ebolaviruses and â¼30% identical between ebola- and marburgviruses. Regions of high sequence conservation congregate on Faces 1 and 3 (<xref ref-type="fig" rid="ppat-1002550-g003">Figures 3</xref> and <xref ref-type="supplementary-material" rid="ppat.1002550.s002">S2a</xref>). The conserved center of Face 1 is formed by Î±5, Î²3, Î²5 and Î²8. The conserved center of Face 3 is formed by Î±5, Î±8, Î²5 and Î²6. The base of each of Faces 1 and 3 also contains a conserved cavity, and the two cavities are located adjacent to each other on the protein surface.</p>
+        <fig id="ppat-1002550-g003" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002550.g003</object-id>
+          <label>Figure 3</label>
+          <caption>
+            <title>Conservation map of VP24.</title>
+            <p>(<bold>a</bold>) Sequence conservation in VP24 among Ebola (Zaire), Sudan, Reston, TaÃ¯ Forest, and Bundibugyo viruses mapped onto the structure of SUDV<sub>1â233</sub>. (<bold>b</bold>) Sequence conservation in VP24 between ebola- and marburgviruses. Sequence conservation is mapped as navy (completely conserved) to red (least conserved). A hydrophobic cavity in Face 1 and a polar cavity in Face 3 are indicated by arrows. Least conserved regions are clustered around Face 2. Sequence identity is calculated using Homolmapper <xref rid="ppat.1002550-Rockwell1" ref-type="bibr">[83]</xref>. Figures are illustrated using SUDV<sub>1â233</sub>.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002550.g003"/>
+        </fig>
+        <p>The Face 1 cavity is hydrophobic and is 14Ã14Ã12 Ã in size (<xref ref-type="fig" rid="ppat-1002550-g004">Figure 4a</xref>). The interior of the cavity is lined with five absolutely conserved leucine residues: L57, L75, L79, L198, and L221. The entrance to the hydrophobic cavity (11 Ã wide) appears to be gated by two residues (Y172 and M71) that point away from each other in RESTV VP24 but toward each other in SUDV VP24, appearing to block the hydrophobic cavity (<xref ref-type="supplementary-material" rid="ppat.1002550.s003">Figure S3a</xref>â<xref ref-type="supplementary-material" rid="ppat.1002550.s003">S3b</xref>).</p>
+        <fig id="ppat-1002550-g004" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002550.g004</object-id>
+          <label>Figure 4</label>
+          <caption>
+            <title>Key sites of VP24.</title>
+            <p>(<bold>a</bold>) The hydrophobic cavity at the base of Face 1. Leucines 57, 75, 79, 198, and 221 are completely conserved across the filoviruses. Electrostatic surface calculated with APBS <xref rid="ppat.1002550-Baker1" ref-type="bibr">[84]</xref> is shown inset, with Y172 and M71 drawn in magenta. (<bold>b</bold>) Polar cavity at the base of Face 3. Residues Y186 and A187 are conserved across all ebolaviruses except SUDV. Residues P77, T193, K206, and M209 are conserved among ebolaviruses and the remaining residues are conserved across both ebola- and marburgviruses. Inset is calculated with APBS. Color scale ranges from â6kT/<underline>z</underline> (bright red) to +6kT/<underline>z</underline> (dark blue). (<bold>c</bold>) Residues important for virulence are colored navy; residues important for binding karyopherin â©1 are colored cyan. Figures are illustrated using SUDV<sub>1â233</sub>.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002550.g004"/>
+        </fig>
+        <p>The Face 3 cavity is shallower than that of Face 1 (18Ã14Ã5 Ã), and is hydrophilic rather than hydrophobic (<xref ref-type="fig" rid="ppat-1002550-g004">Figure 4b</xref>). Five residues that are conserved across all filoviruses (S178, E180, I189, T191, and E200) populate the base of the cavity. Six conserved residues circle the rim (P77, T193, K206, and M209 are conserved across all ebolaviruses; H78 and N82 are conserved across all filoviruses). Also, three residues conserved across the filoviruses (L75, F76, and L198) line the edge between the Face 1 and Face 3 cavities and are accessible from either side.</p>
+        <p>Serial passage studies to confer lethality of EBOV to rodents resulted in five mutations in VP24 (H186Y, T187I, M71I, L147P <xref rid="ppat.1002550-Volchkov1" ref-type="bibr">[49]</xref>, and T50I <xref rid="ppat.1002550-Ebihara1" ref-type="bibr">[50]</xref>), four of which lie in or near these cavities. H186 (Y186 in SUDV), T187 (A187 in SUDV) and T50 (N50 in SUDV and S50 in RESTV) lie on the rim of the Face 3 cavity (<xref ref-type="fig" rid="ppat-1002550-g004">Figure 4c</xref>). M71 forms the âgateâ to the Face 1 cavity. The fifth residue, L147 (M147 in SUDV), is located toward the top of the pyramid in helix Î±8, and is accessible from Face 3. L147 is thought to be involved in karyopherin Î± binding (<xref ref-type="fig" rid="ppat-1002550-g004">Figure 4c</xref>).</p>
+      </sec>
+      <sec id="s2d">
+        <title>Residues implicated in karyopherin Î± binding</title>
+        <p>In infected cells, EBOV VP24 binds to karyopherin Î±1, Î±5, and Î±6 to prevent translocation of P-STAT1 into the nucleus <xref rid="ppat.1002550-Reid2" ref-type="bibr">[10]</xref>. Previous mutagenesis studies have shown VP24 residues W42 and 142â146 to be critical for karyopherin Î±1 binding <xref rid="ppat.1002550-Mateo1" ref-type="bibr">[11]</xref>. W42 is buried in the interior of the single globular VP24 fold. Hence, mutagenesis of W42 most likely compromised the VP24 structure and affected karyopherin Î±1 affinity indirectly (<xref ref-type="fig" rid="ppat-1002550-g004">Figure 4c</xref>). By contrast, residues 142â146 are exposed to solvent and would be available to directly bind karyopherin Î±1. As previously described, an L147P mutation (Î±8, adjacent to residues 142â146) in EBOV VP24 increases virulence in guinea pigs <xref rid="ppat.1002550-Volchkov1" ref-type="bibr">[49]</xref>.</p>
+        <p>Unlike the ebolaviruses, the VP24 protein of Marburg virus does not block interaction of P-STAT1 with karyopherin Î±1 <xref rid="ppat.1002550-Valmas1" ref-type="bibr">[51]</xref>. W42 is conserved between ebola- and marburgviruses, but residues 142â147 are not. Residues 142â147 are K<sub>(E/D)</sub>Q<bold>L</bold>S<sub>(L/M)</sub> in the ebolaviruses but are GIY<bold>L</bold>TS in the marburgviruses (<xref ref-type="supplementary-material" rid="ppat.1002550.s002">Figure S2a</xref>).</p>
+      </sec>
+      <sec id="s2e">
+        <title>Interaction with STAT1<sub>1â683</sub>
+</title>
+        <p>Deuterium exchange mass spectrometry (DXMS) is able to rapidly map footprints of protein-protein binding sites and offers a broader picture than analysis of point mutants alone <xref rid="ppat.1002550-Li1" ref-type="bibr">[52]</xref>â<xref rid="ppat.1002550-Hastie1" ref-type="bibr">[56]</xref>. In this method the ability of peptide amide hydrogens to freely and reversibly exchange with solvent deuterium is measured. Hydrogens for which mobility is restricted (by conformational anchoring and/or ligand binding) exchange more slowly. Hydrogens for which mobility is unrestricted (conformational mobility) exchange more rapidly. We performed comparative DXMS studies on VP24 alone and VP24 in complex with STAT1<sub>1â683</sub>. The resulting exchange maps identify some peptidic regions of VP24 that exchange with solvent less rapidly when in complex with STAT1 (possible binding sites), and other regions of VP24 that exchange with solvent more rapidly when in complex with STAT1, perhaps due to conformational change and increased mobility.</p>
+        <p>In the presence of purified STAT1<sub>1â683</sub>, VP24 peptidic regions 96â98 and 106â121 demonstrate slower H/D exchange kinetics, suggesting a site of protein-protein interaction (<xref ref-type="fig" rid="ppat-1002550-g005">Figure 5</xref>). By contrast, VP24 peptidic regions 71â79 and 181â198 demonstrated increased H/D exchange in the presence of STAT1<sub>1â683</sub>, suggesting possible conformational change with enhanced flexibility. The faster exchanging peptides 71â79 and 181â198 map to helix Î±3â4 and strands Î²5â7, respectively. Both of these secondary structure elements exist in the polar cavity at the bottom of Face 3 and are highly conserved across the filoviruses. The slower-exchanging peptides 96â98 and 106â121 map to helices Î±5 and Î±6, also on the conserved portion of Face 3. Helices Î±5 and Î±6 are amphipathic in nature: the hydrophobic side of each coil points into the core of VP24. Hydrophilic residues extend to the surface of Face 3. The C-terminal region of Î±5 is negatively charged and the N-terminal portion of Î±6 is positively charged.</p>
+        <fig id="ppat-1002550-g005" position="float">
+          <object-id pub-id-type="doi">10.1371/journal.ppat.1002550.g005</object-id>
+          <label>Figure 5</label>
+          <caption>
+            <title>Results of deuterium exchange mass spectrometry analysis of SUDV<sub>1â233</sub> in complex with STAT1<sub>1â683</sub>.</title>
+            <p>(<bold>a</bold>) Exchange results are mapped onto SUDV<sub>1â233</sub>. Peptidic segments colored blue exhibit slowing of H/D exchange kinetics, while segments colored red exhibit an increase in H/D exchange kinetics. Segments colored white exhibit no change. Segments colored grey were not observed in these experiments. (<bold>b</bold>) Conservation map of SUDV<sub>1â233</sub>. Circles indicate sites of change in H/D exchange upon binding to STAT1<sub>1â683</sub>. Green arrows denote the position of the Face 3 cavity. Deuterium exchange mass spectrometry of (<bold>c</bold>) SUDV<sub>1â233</sub> alone and (<bold>d</bold>) in complex with STAT1<sub>1â683</sub> illustrated as sequence representations. Each block indicates peptidic regions defined by overlapping peptides and is consist of three time points (10 s, 100 s, and 1000 s). Deuteration levels at each time point are illustrated as blue (&lt;10% deuteration) to red (&gt;90% deuteration). Grey indicates residues that are not observed. Box indicates regions of either speeding up or slowing down of deuteration upon binding to STAT1<sub>1â683</sub>. The average standard deviation of deuterium incorporation is 1.5% between replicates.</p>
+          </caption>
+          <graphic xlink:href="ppat.1002550.g005"/>
+        </fig>
+      </sec>
+      <sec id="s2f">
+        <title>Sites in VP24 that differ between ebolaviruses that are pathogenic and nonpathogenic to humans</title>
+        <p>Mapping of sequence differences between RESTV and the major pathogenic ebolaviruses (SUDV and EBOV) onto the RESTV<sub>11â237</sub> structure indicates that RESTV VP24 differs in â¼30 sites (<xref ref-type="supplementary-material" rid="ppat.1002550.s004">Figure S4</xref>). One of these sites, a cluster of residues L136, R139 and S140 (in RESTV), is next to the 142â146 loop, which is important for binding karyopherin Î±1 <xref rid="ppat.1002550-Mateo1" ref-type="bibr">[11]</xref> (<xref ref-type="supplementary-material" rid="ppat.1002550.s004">Figure S4</xref> and <xref ref-type="supplementary-material" rid="ppat.1002550.s002">Figure S2a</xref> for sequence alignment). A second site is the cluster of residues L107, H109, T116 and G120 that exists within the 106â121 polypeptide that exhibits decreased H/D exchange in complex with STAT1<sub>1â683</sub> and may serve as a STAT1 binding site. A third site, the cluster of residues S184, T185, H186, T187 and F197, lies in the 181â198 polypeptide that undergoes enhanced H/D exchange in the presence of STAT1<sub>1â683</sub>. A fourth site, V201, lies next to this region. A fifth site, residue S50, was previously implicated in a serial passage study to confer lethality to mice <xref rid="ppat.1002550-Ebihara1" ref-type="bibr">[50]</xref>.</p>
+      </sec>
+      <sec id="s2g">
+        <title>Purified VP24 is monomeric</title>
+        <p>Previous studies analyzing VP24 in the context of whole cell lysate found that the majority of VP24 was monomeric. A smaller portion appeared as a high molecular weight aggregate and a smaller oligomer, likely a tetramer <xref rid="ppat.1002550-Bamberg1" ref-type="bibr">[42]</xref>, <xref rid="ppat.1002550-Han1" ref-type="bibr">[43]</xref>. We performed gel filtration analysis of purified, full-length SUDV, RESTV and EBOV VP24 (whether produced in <italic>E. coli</italic> or 293T cells) and find that purified VP24 from all three viruses is monomeric in solution (<xref ref-type="supplementary-material" rid="ppat.1002550.s005">Figure S5</xref>). The significance of the multimerized portion observed in cell lysate is unclear. Perhaps a portion of VP24 homo-oligomerizes in cells, or perhaps factors present in whole-cell lysate are needed for VP24 to form oligomers.</p>
+        <p>Crystal packing can sometimes illustrate biologically relevant assemblies, but no tetrameric or other higher oligomeric interactions are observed in crystals of SUDV or RESTV VP24. One pairwise VP24-VP24 interaction is conserved in the crystal packing between the SUDV (P3<sub>1</sub>21) and RESTV VP24 (P12<sub>1</sub>1) structures, although it is currently unclear if it is biologically relevant (<xref ref-type="supplementary-material" rid="ppat.1002550.s003">Figure S3c</xref>). This interaction involves Î±1, Î²1â3 and the N-terminal region of Î±8, and buries residue L147 that was previously implicated for virulence <xref rid="ppat.1002550-Volchkov1" ref-type="bibr">[49]</xref>, although 142â146 remain solvent exposed. Another crystal lattice interaction observed in both RESTV and SUDV structures involves packing of the hydrophobic N-terminal regions of VP24 into the Face 3 pocket of a neighboring molecule (<xref ref-type="supplementary-material" rid="ppat.1002550.s003">Figure S3d</xref>â<xref ref-type="supplementary-material" rid="ppat.1002550.s003">S3e</xref>).</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Discussion</title>
+      <p>The crystal structures presented here illustrate the novel, pyramidal fold of ebolavirus VP24. In this work, we have also identified STAT1 as a new binding partner of VP24 and have used DXMS to suggest that residues 96â98 and 106â121 are contained in a putative binding site for STAT1<sub>1â683</sub>.</p>
+      <p>Although VP24 differs by 37% in protein sequence among the ebolaviruses, there are large patches of complete conservation on Faces 1 and 3 including the two pockets in these faces at the base of the pyramid. Several residues, found in serial passage studies to increase virulence of Ebola virus, map to these sites, although the precise role of the conserved pockets remains unclear. Another residue identified in these studies maps to a site thought to be involved in binding host karyopherin Î± proteins. The putative STAT1-binding site identified by DXMS lies in the conserved region of Face 3 and is distinct from the site proposed to interact with karyopherin Î±1.</p>
+      <p>Crystal structures presented here include VP24 from an ebolavirus that is pathogenic to humans (Sudan virus; SUDV) and VP24 from an ebolavirus that thus far, appears nonpathogenic to humans (Reston virus; RESTV), although it is lethal to nonhuman primates. The overall folds of SUDV and RESTV VP24 are similar, as expected (r.m.s.d. of 0.81 Ã; also see <xref ref-type="supplementary-material" rid="ppat.1002550.s002">Figure S2b</xref> for structural alignment). Specific viral or host factors responsible for the differences in pathogenicity between these viruses have not yet been identified, but it has been proposed that RESTV has a diminished ability to suppress cellular IFN-Î±/Î² and IFN-Î³ responses <xref rid="ppat.1002550-Kash1" ref-type="bibr">[3]</xref>. Residues in VP24 that are unique to RESTV often colocalize with residues that appear to be important for karyopherin and STAT1 binding, or are important for virulence in rodents through an unknown mechanism. The location of these RESTV-specific amino acids invites speculation that RESTV VP24 and EBOV/SUDV VP24 could potentially bind immune factors like karyopherins and STAT1 with differing affinity.</p>
+      <p>Here we have found that purified VP24 binds directly to purified STAT1 truncated prior to its phosphorylation site. In a healthy cell, STAT1 exists in an unphosphorylated form. During viral infection, production of interferons and cytokines leads to phosphorylation and homodimerization of STAT1 or heterodimerization of STAT1 with its Î² isoform. The resulting P-STAT1 dimer is then transported by karyopherin Î± proteins into the nucleus where it controls transcription-regulated genes. Interestingly, this P-STAT1 may have a different oligomeric structure than U-STAT1 <xref rid="ppat.1002550-Wenta1" ref-type="bibr">[57]</xref>, <xref rid="ppat.1002550-Mao1" ref-type="bibr">[58]</xref>.</p>
+      <p>U-STAT1 is not inactive, but rather, is also important in regulation of the immune response. Interestingly, U-STAT1 functions in different ways than its phosphorylated counterpart. U-STAT1 is transported into the nucleus <xref rid="ppat.1002550-ChatterjeeKishore1" ref-type="bibr">[59]</xref>, <xref rid="ppat.1002550-Meyer1" ref-type="bibr">[60]</xref> by direct involvement with nucleoporins <xref rid="ppat.1002550-Meyer2" ref-type="bibr">[61]</xref>, and does not need transport by karyopherins. In the nucleus, U-STAT1 activates and prolongs the expression of a number of IFN-induced immune regulatory genes like IFI27, IFI44, OAS, and BST2 <xref rid="ppat.1002550-Cheon1" ref-type="bibr">[62]</xref>. U-STAT1 functions independently of P-STAT1 and the set of genes on which it operates can be distinct from those of P-STAT1 <xref rid="ppat.1002550-ChatterjeeKishore1" ref-type="bibr">[59]</xref>. U-STAT1 and P-STAT1 also differ temporally: the phosphorylation of STAT1 lasts for several hours, but the presence of U-STAT1 persists for several days <xref rid="ppat.1002550-Cheon1" ref-type="bibr">[62]</xref>, <xref rid="ppat.1002550-Lehtonen1" ref-type="bibr">[63]</xref>. In this way, U-STAT1 is likely to be able to prolong an antiviral state.</p>
+      <p>Hence, both P-STAT1 and U-STAT1 play multiple roles in antiviral defense, and may play somewhat different roles in different cell types. By affecting both P-STAT1 (by binding karyopherins and/or possibly by forming a karyopherin-STAT1-VP24 tertiary complex) and U-STAT1 (if it binds full-length U-STAT1 as well as unphosphorylated STAT1<sub>1â683</sub>), VP24 could prevent or dampen antiviral responses through multiple routes. The combination of both ebolavirus VP24 and ebolavirus VP35 (which acts upon virally induced dsRNA) in the infected cell offers greater coverage of the different pathways by which antiviral responses occur. Interestingly, plasmocytoid dendritic cells (pDCs), which are major producers of type I interferon <xref rid="ppat.1002550-FitzgeraldBocarsly1" ref-type="bibr">[64]</xref>, are insensitive to VP35 inhibition <xref rid="ppat.1002550-Leung2" ref-type="bibr">[65]</xref>. Perhaps VP35 and VP24 exert a synergistic effect, and/or VP24 functions in cells where VP35 does not.</p>
+      <p>Although VP24 is key to the virulence of ebolaviruses, little is known about it due, in part, to the lack of any structural information on VP24 and the lack of any homology to other known proteins. We have shown that purified VP24 and purified STAT1<sub>1â683</sub> interact. The functional manifestation of this interaction remains to be determined. Does VP24 target STAT1 for degradation, sequester it in the cytoplasm or in high-molecular weight complexes, or prevent its phosphorylation? Does VP24 also bind P-STAT, and does it exhibit a preference for one form over the other? Does VP24 bind other STATs in addition to STAT1? Intriguingly, STAT3 shares about 72% sequence homology with STAT1 <xref rid="ppat.1002550-Ehret1" ref-type="bibr">[66]</xref>, and operates in intestinal epithelia where it regulates mucosal wound healing <xref rid="ppat.1002550-Pickert1" ref-type="bibr">[67]</xref>. Inactivation of STAT3 may contribute to colitis and clinical manifestations of Ebola virus infection like abdominal pain and bloody stools <xref rid="ppat.1002550-Bwaka1" ref-type="bibr">[68]</xref>, <xref rid="ppat.1002550-Mahanty1" ref-type="bibr">[69]</xref>. Another question is if any of the mapped differences between RESTV and EBOV/SUDV VP24 are linked to or are responsible for the differences in pathogenicity in humans. The structures presented here provide a framework for answering these and other questions about the multiple roles of VP24 in the viral lifecycle. These structures also provide the much-needed templates for design of antiviral drugs to inhibit key functions of VP24 in transcription, replication, and immunosuppression.</p>
+    </sec>
+    <sec sec-type="materials|methods" id="s4">
+      <title>Materials and Methods</title>
+      <sec id="s4a">
+        <title>VP24 expression and purification</title>
+        <p>VP24 from Sudan virus (SUDV<sub>1â233</sub> and SUDV<sub>11â233</sub> in pET46 Ek/LIC vector) was expressed in <italic>E. coli</italic> Rosetta-gami 2(DE3)pLysS cells. Truncation of the C terminus permitted protein solubility in the absence of detergents. The N-terminal truncation used in the first SUDV constructs was based on general construct screening. Cultures were grown in LB medium supplemented with ampicillin (100 Âµg ml<sup>â1</sup>), and expression was induced by the addition of 0.5 mM IPTG at 16Â°C. Harvested cells from overnight induction were resuspended in lysis buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 8.0, 0.3 M NaCl, 10 mM imidazole) for lysis at 25,000 psi using a Microfluidizer processor. The lysed mixture was then centrifuged for 50 minutes at 16,000 r.p.m. in a JA-17 rotor (Beckman Coulter). The supernatant was loaded on a HisTrap FF crude column (GE Healthcare) with a step gradient of 30 mM and 500 mM imidazole in lysis buffer. SUDV<sub>1â233</sub> and SUDV<sub>11â233</sub> VP24 were further purified by size exclusion on a HiLoad 16/60 Superdex 75 prep grade column (Amersham Pharmacia) in 10 mM Tris-HCl, pH 8.0, 0.3 M NaCl.</p>
+        <p>Full-length SUDV VP24 was expressed and purified essentially as above. Addition of 2.5 mM CHAPS throughout the purification enhanced solubility, and a Superdex 200 column was used for size exclusion.</p>
+        <p>Selenomethionine-incorporated SUDV<sub>11â233</sub> was expressed and purified as follows: 2 mL of an overnight culture in LB broth was transferred into 20 mL LB containing 0.4% glycerol and 100 Âµg ml<sup>â1</sup> ampicillin. After a one-hour incubation, the cells were harvested by centrifugation at 3000 r.p.m. and resuspended in 20 mL M9 minimal media, then transferred into 1 L M9 media containing ampicillin. At OD<sub>600</sub> 0.4, L-isoleucine, L-leucine, L-lysine, L-phenylalanine, L-threonine, and L-valine were added to final concentrations of 100 mg/L each, prior to addition of L-selenomethionine (to 60 mg/L). The culture was induced with IPTG after 15 min. Cells were harvested after 4 hr and purified as described above.</p>
+        <p>Full-length SUDV (in pTriEx 5 vector (Novagen)) was also transiently expressed in mammalian HEK293T cells in a five-layer CellStack (corning). The cells were transfected at 60% confluency with 420 Âµg of DNA and 1.2 mg of PEI diluted in 42 ml of PBS. The PEI mixture was incubated at room temperature for 20 min. before adding to the cells. After 48 hours, cells were freeze-thawed three times and lysed in 10 mM Tris-HCl, pH 8.0, 0.3 M NaCl. Protein was affinity purified with strep-tactin superflow beads (Qiagen), then further purified by size exclusion on a Superdex 200 10/300 GL (GE Healthcare). 10 Âµl of the peak fraction was run on SDS-PAGE, and probed by Western blot with an anti-strep antibody.</p>
+        <p>All SUDV VP24 proteins contain a valine to alanine substitution at position 22 from the GenBank deposited sequence. Residue 22 is on helix Î±1 and is buried within the structure (<xref ref-type="supplementary-material" rid="ppat.1002550.s006">Figure S6</xref>). The Sudan virus (strain Boniface) replicon was a gift of Dr. John M. Dye (USAMRIID). Oligonucleotides were purchased from Valuegene Inc.</p>
+        <p>Full-length Ebola virus (Zaire, EBOV) VP24 and both full-length and N- and C-terminally truncated Reston (RESTV) virus VP24 were expressed and purified in <italic>E. coli</italic> as previously described. Full-length EBOV VP24 was cloned into the pET46 Ek/LIC vector from cDNA that was a gift from Dr. Viktor Volchkov (Claude Bernard UniversitÃ© de Lyon 1). cDNA for RESTV VP24 was synthesized by GenScript (Piscataway, NJ). Both full length RESTV and RESTV<sub>11â237</sub> were subcloned into pET46 Ek/LIC for expression.</p>
+      </sec>
+      <sec id="s4b">
+        <title>STAT1 expression and purification</title>
+        <p>Truncated, unphosphorylated STAT1<sub>1â683</sub> (human) in a pET46 Ek/LIC vector was expressed in <italic>E. coli</italic> Rosetta-gami 2(DE3)pLysS cells. Cultures were grown in LB medium supplemented with ampicillin (100 Âµg ml<sup>â1</sup>), and expression was induced by the addition of 0.5 mM IPTG at 25Â°C overnight. Harvested cells were then resuspended in lysis buffer (50 mM NaH<sub>2</sub>PO<sub>4</sub>, pH 8.0, 0.3 M NaCl, 5 mM BME, 10 mM imidazole) for lysis at 25,000 psi using a Microfluidizer processor. Next, the lysed mixture was centrifuged for 50 minutes at 16,000 r.p.m. in a JA-17 rotor (Beckman Coulter). The supernatant was loaded on a HisTrap FF crude column (GE Healthcare) with a gradient of 10 mM to 500 mM imidazole in lysis buffer. STAT1<sub>1â683</sub> was further purified by size exclusion on a Superdex 200 10/300 GL (GE Healthcare) in 10 mM Tris-HCl, pH 8.0, 0.3 M NaCl, 5 mM BME. STAT1 cDNA was a gift from Dr. Christopher Basler (Mount Sinai School of Medicine).</p>
+      </sec>
+      <sec id="s4c">
+        <title>Crystallization and data collection</title>
+        <p>SUDV<sub>1â233</sub> crystallized in 0.1 M HEPES, pH 7.5, 0.1 M MgCl<sub>2</sub>, and 8% (v/v) PEG 550 mme. SUDV<sub>11â233</sub> crystallized in 0.1 M HEPES, pH 7.0, 6% MPD, and 15% (w/v) D-(+)-sucrose. SeMet-derivatized SUDV<sub>11â233</sub> crystallized in 0.1 M HEPES, pH 7.0, 10% MPD, and 1 mM DTT. RESTV<sub>11â237</sub> crystallized in 0.1 M Bis-Tris, pH 5.5, 0.2 M NaCl, 8% (w/v) PEG 3350, and 14% (w/v) D-(+)-sucrose. All crystals were grown by the hanging-drop vapor diffusion method at 22Â°C. Crystals were flash frozen in liquid nitrogen and cryoprotected with their reservoir solutions supplemented with 40% PEG 550 mme for SUDV<sub>1â233</sub>, 40% sucrose for SUDV<sub>11â233</sub> and RESTV<sub>11â237</sub>, and 40% MPD for SeMet-derivatized SUDV<sub>11â233</sub>.</p>
+        <p>Both SUDV structures contain one molecule in the asymmetric unit while RESTV<sub>11â237</sub> contains two molecules in the asymmetric unit. Diffraction data were collected at 100 K on SBC 19ID (Advanced Photon Source, Argonne National Laboratory) and BCSB 5.0.2 (Advanced Light Source, Lawrence Berkeley National Laboratory), and were processed either with HKL2000 <xref rid="ppat.1002550-Otwinowski1" ref-type="bibr">[70]</xref> or d*Trek <xref rid="ppat.1002550-Pflugrath1" ref-type="bibr">[71]</xref> (<xref ref-type="table" rid="ppat-1002550-t001">Table 1</xref>).</p>
+      </sec>
+      <sec id="s4d">
+        <title>Structure determination and refinement</title>
+        <p>Experimental phases for SUDV<sub>11â233</sub> were generated by MAD (multiwavelength anomalous diffraction) using Auto-Rickshaw <xref rid="ppat.1002550-Panjikar1" ref-type="bibr">[72]</xref>. Five of the seven internal SeMet residues were located and their locations were verified by hand through a difference Fourier anomalous electron-density map. Using the experimentally phased map, the orientations of two helices were determined in the initial partial model and the rest of the model was built using the MRSAD (molecular replacement with single-wavelength anomalous diffraction <xref rid="ppat.1002550-Panjikar2" ref-type="bibr">[73]</xref>) method in Auto-Rickshaw <xref rid="ppat.1002550-Panjikar1" ref-type="bibr">[72]</xref>. The structure of SUDV<sub>1â233</sub> was determined by molecular replacement (also Auto-Rickshaw <xref rid="ppat.1002550-Panjikar1" ref-type="bibr">[72]</xref>) using SUDV<sub>11â233</sub> as the search model. Refinement of both structures was performed with Phenix.refine <xref rid="ppat.1002550-Afonine1" ref-type="bibr">[74]</xref> in PHENIX <xref rid="ppat.1002550-Adams1" ref-type="bibr">[75]</xref> and rebuilding was carried out in COOT <xref rid="ppat.1002550-Emsley1" ref-type="bibr">[76]</xref>. Final rounds of refinement included TLS parameters <xref rid="ppat.1002550-Painter1" ref-type="bibr">[77]</xref> for SUDV<sub>1â233</sub> and SUDV<sub>11â233</sub>. The quality of the structures was validated with MolProbity <xref rid="ppat.1002550-Davis1" ref-type="bibr">[78]</xref> and Procheck <xref rid="ppat.1002550-Laskowski1" ref-type="bibr">[79]</xref>. 92.7% (SUDV<sub>1â233</sub>) and 93.1% (SUDV<sub>11â233</sub>) of residues are in the most favored region of Ramachandran plots, with no residues in the disallowed regions. The final model of SUDV<sub>1â233</sub> contains residues 9â106 and 113â232 with residues 113 and 210â213 replaced with alanines. The final model of SUDV<sub>11â233</sub> contains residues 13â61, 71â107, 114â209, and 212â228. Residue 209 was replaced with alanine.</p>
+        <p>RESTV<sub>11â237</sub> was determined by molecular replacement in Auto-Rickshaw <xref rid="ppat.1002550-Panjikar1" ref-type="bibr">[72]</xref> using SUDV<sub>11â233</sub> as the initial search model. The structure was refined with Phenix.refine <xref rid="ppat.1002550-Afonine1" ref-type="bibr">[74]</xref> in PHENIX <xref rid="ppat.1002550-Adams1" ref-type="bibr">[75]</xref> and rebuilt in COOT <xref rid="ppat.1002550-Emsley1" ref-type="bibr">[76]</xref>. Separate NCS restraints and TLS parameters <xref rid="ppat.1002550-Painter1" ref-type="bibr">[77]</xref> over the two molecules of VP24 in the asymmetric unit were used during initial refinement. The quality of the structure was validated with MolProbity <xref rid="ppat.1002550-Davis1" ref-type="bibr">[78]</xref> and Procheck <xref rid="ppat.1002550-Laskowski1" ref-type="bibr">[79]</xref>. 92.3% of residues are in the most favored region of Ramachandran plots and no residues are in the disallowed regions. The final model contains residues 11â62, 70â203, and 217â231 in molecule A and residues 15â61, 70â108, 113â203, and 216â231 in molecule B. Two residues (203 and 216) in molecule B were replaced with alanines. Figures were created using PyMol <xref rid="ppat.1002550-DeLano1" ref-type="bibr">[80]</xref> (Delano Scientific).</p>
+        <p>Atomic coordinates and structure factors have been deposited in the Protein Data Bank under the accession codes 3VNE, 3VNF, and 4D9O for SUDV<sub>1â233</sub>, SUDV<sub>11â233</sub>, and RESTV<sub>11â237</sub>, respectively.</p>
+      </sec>
+      <sec id="s4e">
+        <title>ELISA</title>
+        <p>50 Âµl of each VP24 (SUDV<sub>1â233</sub> and EBOV<sub>1â233</sub>) was bound to ELISA plates (Corning Costar 3690) at 0.01 mg/ml in 10 mM Tris-HCl, pH 8.0, 0.3 M NaCl, overnight at 4Â°C. Plates were then blocked for one hour at room temperature with 3% BSA. After washing with PBS containing 0.05% TWEEN 20, 50 Âµl of STAT1<sub>1â683</sub> with a C-terminal HA-tag was added at 0.03 mg/ml and allowed to bind for two hours at room temperature. Plates were again washed, 50 Âµl of anti-HA (Covance) was added at 1 Âµg/ml and incubated at room temperature for one hour. After a third washing step, 50 Âµl of HRP-conjugated secondary antibody (Thermo Scientific Pierce) was added and allowed to incubate for one hour at room temperature. Plates were developed with TMB Substrate Kit (Pierce) and read at 450 nm. BSA was used as a negative control.</p>
+      </sec>
+      <sec id="s4f">
+        <title>Deuterium exchange mass spectrometry</title>
+        <p>Peptide amide hydrogens continuously and reversibly interchange with hydrogen present in water. In structured proteins, most amide hydrogens are infrequently exposed to water, and exchange only when dynamic fluctuations in the protein structure transiently reveal them to solvent. Changes in exchange rates after ligand binding or other protein perturbations allow detection and localization of protein binding surfaces and conformational changes. In DXMS, the aqueous phase is supplemented with deuterated water, so that each exchange event produces a 1 Dalton increase in the mass of exchanged peptide amide protons in the protein. An initial exchange-dependent labeling step is performed by adding deuterated water to a solution of the protein at physiologic pH, and ionic strength. As deuterium-labeling progresses, aliquots are exchange-âquenchedâ by shifting pH to 2.7 and cooling to 0Â°C or below, conditions that dramatically slow further exchange and loss of deuterium label from the protein even when the protein structure is subsequently disrupted. The site and amount of deuterium that exchanged onto the protein are quantified (under continued quench conditions) by rapid denaturation, optional disulfide-reduction and digestion by solid-phase pepsin into overlapping fragments of â¼3â15 amino acids. The perturbed masses of the resulting peptides, and therefore their deuterium content, are quantified by liquid chromatography- mass spectrometry.</p>
+        <p>Prior to the deuteration studies, quench conditions that produced an optimal pepsin fragmentation pattern were established as previously described <xref rid="ppat.1002550-Li1" ref-type="bibr">[52]</xref>, <xref rid="ppat.1002550-Hsu1" ref-type="bibr">[53]</xref>, <xref rid="ppat.1002550-Bale1" ref-type="bibr">[55]</xref>, <xref rid="ppat.1002550-Hastie1" ref-type="bibr">[56]</xref>. For SUDV VP24 (10 mg/ml stock solution) and SUDV VP24-STAT1 (12 mg/ml stock solution), functional deuteration of proteins was performed by mixing 1 Âµl of stock solution with 1 Âµl of H<sub>2</sub>O buffer (8.3 mM Tris, 150 mM NaCl, in H<sub>2</sub>O, pH 7.2) and then diluted into 6 Âµl of D<sub>2</sub>O buffer (8.3 mM Tris, 150 mM NaCl, in D<sub>2</sub>O, pDREAD 7.2) at 0Â°C. At 10 s, 100 s and 1000 s, the deuterium exchange was quenched by adding 12 Âµl of optimized quench (1.6 M GuHCl, 0.8% formic acid, 16.6% glycerol) and then samples were frozen at â80Â°C. In addition, nondeuterated samples (incubated in H<sub>2</sub>O buffer mentioned above) and equilibrium-deuterated samples (incubated in D<sub>2</sub>O buffer containing 0.5% formic acid overnight at 25Â°C) were prepared. The samples were later thawed at 5Â°C and passed over an AL-20-pepsin column (16 Âµl bed volume (Sigma)) at a flow rate of 20 Âµl/min <xref rid="ppat.1002550-Wong1" ref-type="bibr">[81]</xref>. The resulting peptides were collected on a C18 trap (Michrom MAGIC C18AQ 0.2Ã2) and separated using a C18 reversed phase column (Michrom MAGIC C18AQ 0.2Ã50) running a linear gradient of 8â48% solvent B (80% acetonitrile and 0.01% TFA) over 30 minutes with column effluent directed into an LCQ mass spectrometer (Thermo-Finnigan LCQ Classic). Data were acquired in both data-dependent MS1:MS2 mode and MS1 profile mode.</p>
+        <p>SEQUEST software (Thermo Finnigan Inc.) was used to identify the sequence of the peptide ions. The centroids of the isotopic envelopes of nondeuterated, functionally deuterated and equilibrium-deuterated peptides were measured using DXMS Explorer (Sierra Analytics Inc., Modesto, CA) and then converted to corresponding deuteration levels <xref rid="ppat.1002550-Zhang1" ref-type="bibr">[82]</xref>.</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s5">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="ppat.1002550.s001">
+        <label>Figure S1</label>
+        <caption>
+          <p>Additional details of VP24 structures. (<bold>a</bold>) Crystallized constructs of VP24 from SUDV and RESTV. The first five residues of both the N- and C-termini are indicated respectively. The N-terminal 6xHis-tag was retained throughout purification and crystallization. (<bold>b</bold>) Stereo view of SUDV VP24 Faces 1, 2, and 3 in rainbow with blue indicating the N-terminus and red indicating the C-terminus.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="ppat.1002550.s001.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002550.s002">
+        <label>Figure S2</label>
+        <caption>
+          <p>Sequence and structural alignment of VP24. (<bold>a</bold>) Sequence alignment of ebola- and marburgviruses. Secondary structures are assigned according to the crystal structures. Mostly conserved residues are in white boxes (red characters) while absolutely conserved residues are in red boxes (white characters). Grey stars indicate residues with alternate side-chain conformations observed in electron density maps. (<bold>b</bold>) Structural alignment of SUDV<sub>1â233</sub> (pink), SUDV<sub>11â233</sub> (green), and RESTV<sub>11â237</sub> (blue) VP24. SUDV<sub>1â233</sub> and SUDV<sub>11â233</sub> align with an r.m.s.d. of 0.67 Ã, and SUDV<sub>1â233</sub> and RESTV<sub>11â237</sub> align with an r.m.s.d. of 0.81 Ã (CCP4: LSQKAB <xref rid="ppat.1002550-Kabsch1" ref-type="bibr">[85]</xref>). Loop residues 63â69 and 210â211 are visible in their entirety only in SUDV<sub>1â233</sub>. Loop residues 108â112 are only visible in their entirety in RESTV<sub>11â237</sub>.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="ppat.1002550.s002.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002550.s003">
+        <label>Figure S3</label>
+        <caption>
+          <p>Close-up of Face 1 cavity. (<bold>a</bold>) Zoomed-in view of the cavity on Face 1 in RESTV. In RESTV, Tyr 172 is rotated 180Â° away from Met 71. (<bold>b</bold>) Zoomed-in view of the Face 1 cavity in SUDV. Tyr 172 is rotated toward Met 71. (<bold>c</bold>) The pairwise VP24-VP24 interface observed between the two RESTV<sub>11â237</sub> in the asymmetric unit (blue) superposed onto the essentially identical pair of SUDV<sub>1â233</sub> molecules (magenta) formed by a crystallographic two-fold axis. Residues 51â90 and 167â222 are not illustrated in order to enhance clarity. Molecular surface representations of the pairwise interactions (light and dark grey) are inset. (<bold>d and e</bold>) Crystal lattice interactions in RESTV and SUDV. (<bold>d</bold>) Met10 (a result of construct design) and Val11 (RESTV<sub>11â237</sub>, molecule 2) form hydrophobic interactions with the Face 1 cavity of a neighboring RESTV<sub>11â237</sub> VP24 (molecule 1). The backbone of Met10 and Val11 hydrogen bonds to the surrounding residues. (<bold>e</bold>) Leu10 and Val11 (SUDV<sub>1â233</sub>, molecule 2) bind into the same pocket of another SUDV<sub>1â233</sub> VP24 (molecule 1). Additional hydrogen bonding with surrounding residues is also illustrated.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="ppat.1002550.s003.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002550.s004">
+        <label>Figure S4</label>
+        <caption>
+          <p>Sequence comparison of RESTV, SUDV, and EBOV mapped onto RESTV<sub>11â237</sub>. (<bold>a</bold>) Sequence differences (red) between RESTV and SUDV and (<bold>b</bold>) between RESTV and EBOV (Zaire) are mapped onto Faces 1, 2, and 3. RESTV and SUDV are 75% identical and RESTV and EBOV are 81% identical. Circles indicate region shown to interact with karyopherin Î±1 and regions highlighted by DXMS study. Interestingly, these regions primarily concentrate on Face 3. To a lesser degree, two regions, 71â79 and 181â198 are also accessible through Face 1. Residue 50, which has been shown to increase virulence in a mice serial passage study <xref rid="ppat.1002550-Ebihara1" ref-type="bibr">[50]</xref>, is located near the region 181â198 and is only accessible through Face 1. Residue names shown as RESTV to SUDV/EBOV. Green arrows indicate cavities on Faces 1 and 3.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="ppat.1002550.s004.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002550.s005">
+        <label>Figure S5</label>
+        <caption>
+          <p>Gel filtration analysis of full-length VP24. (<bold>a</bold>) SUDV (Sudan) VP24 (expressed in <italic>E. coli</italic>) was separated by size on a Superdex-200 10/30 prep grade column. Log of molecular mass standards (670, 413, 158, 44, and 17) plotted with the elution chromatogram is shown inset within the graph. (<bold>b</bold>) RESTV (Reston) and (<bold>c</bold>) EBOV (Zaire) protein samples (also expressed in <italic>E. coli</italic>) were separated by size on a Superdex-200 column with elution buffer containing 2.5 mM CHAPS. Log of molecular mass standards (158, 44, and 17) plotted with elution chromatogram is shown inset. A single peak of VP24 was eluted from each ebolavirus and corresponds to about 28 kD in mass (monomer). (<bold>d</bold>) Similarly, when SUDV VP24, expressed in mammalian HEK293T cells was separated by size exclusion on a Superdex-200 10/30 prep grade column, only a monomeric species was observed. The small peak at â¼8 ml corresponds to aggregated protein eluted in the void volume (much larger than tetramer). Log of molecular mass standards (669, 443, 150, 75, 44, 29, 13.7, 6.5) plotted with elution chromatogram is shown inset. The elution buffer consists of 10 mM Tris-HCl, pH 8.0, and 0.3 M NaCl. (<bold>e</bold>) Peak fraction from the S200 column (d) probed by Western blot with an anti-strep tag antibody. Full-length purified SUDV and RESTV precipitated at pH 7.4, and 0.15 M NaCl. Therefore, gel filtration analysis was carried out at pH 8.0 and 0.3 M NaCl where the proteins remained soluble.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="ppat.1002550.s005.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="ppat.1002550.s006">
+        <label>Figure S6</label>
+        <caption>
+          <p>Close-up view of VP24 residue V22. (<bold>a</bold>) Residue 22 (magenta) is on helix Î±1 and forms hydrophobic interactions with neighboring residues E18, L26, L145, S146, M147, and L150. All SUDV structures contain a valine to alanine substitution at position 22. (<bold>b</bold>) Comparison of SUDV (grey) and RESTV (teal) with residue 22 shown as stick. The loop region connecting helices Î±7 and Î±8 is slightly shifted in RESTV to accommodate the bulkier isoleucine side chain.</p>
+          <p>(TIF)</p>
+        </caption>
+        <media xlink:href="ppat.1002550.s006.tif">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Dr. John M. Dye Jr. for his gift of SUDV VP24 cDNA, Dr. Viktor Volchkov for his gift of EBOV VP24 cDNA, and Dr. Christopher Basler (MSSM) for his gift of STAT1 cDNA. We thank Drs. Kerri Mowen (TSRI), Christopher Kimberlin (now UCSF) and members of the Ollmann Saphire laboratory for helpful discussions; Dr. Xiaoping Dai of TSRI and Beamline staff of SBC19-ID at the Advanced Photon Source and BCSB 5.0.2 of the Advanced Light Source for assistance with data collection, Jon Huntoon and Dr. Art Olson of TSRI for production of tangible molecular models that aided in analysis of conserved pockets in the VP24 surface and Christina Corbaci of TSRI for figure preparation. This is manuscript # 21547 from The Scripps Research Institute.</p>
+    </ack>
+    <fn-group>
+      <fn fn-type="COI-statement">
+        <p>The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn fn-type="financial-disclosure">
+        <p>The research is supported by The Skaggs Institute for Chemical Biology (EOS), an Investigators in the Pathogenesis of Infectious Diseases award from the Burroughs Wellcome Fund (EOS), NIAID R43 AI1088843 (EOS), NIH Grants AI081982 and AI2008031 (EOS and VLW) and GM020501, GM066170, NS070899, GM093325 and RR029388 (VLW). Salary support for A.P.P.Z. was provided by training grant 5T32 NS041219 from the National Institute of Neurological Disorders and Stroke of the National Institutes of Health. The funders had no role in study design, data collection and analysis, decision to publish, or preparation of the manuscript.</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="ppat.1002550-Retuya1">
+        <label>1</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Retuya</surname><given-names>TJA</given-names></name><name><surname>Miranda</surname><given-names>MEG</given-names></name><name><surname>Ksiazek</surname><given-names>TG</given-names></name><name><surname>Khan</surname><given-names>AS</given-names></name><name><surname>Sanchez</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Is the ebola-reston virus a threat to occupationally exposed humans?</article-title>
+<source>J Clin Epidemiol</source>
+<volume>50</volume>
+<fpage>32S</fpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Sanchez1">
+        <label>2</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Sanchez</surname><given-names>A</given-names></name><name><surname>Khan</surname><given-names>AS</given-names></name><name><surname>Zaki</surname><given-names>SR</given-names></name><name><surname>Nabel</surname><given-names>GJ</given-names></name><name><surname>Ksiazek</surname><given-names>TG</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Filoviridae: Marburg and Ebola Viruses.</article-title>
+<person-group person-group-type="editor"><name><surname>Fields</surname><given-names>BN</given-names></name><name><surname>Knipe</surname><given-names>DM</given-names></name><name><surname>Howley</surname><given-names>PM</given-names></name><name><surname>Griffin</surname><given-names>DE</given-names></name><name><surname>Lamb</surname><given-names>RA</given-names></name><etal/></person-group>
+<source>Fields virology. 4 ed</source>
+<publisher-loc>Philadelphia</publisher-loc>
+<publisher-name>Lippincott Williams &amp; Wilkins</publisher-name>
+<fpage>1279</fpage>
+<lpage>1304</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Kash1">
+        <label>3</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kash</surname><given-names>JC</given-names></name><name><surname>Muhlberger</surname><given-names>E</given-names></name><name><surname>Carter</surname><given-names>V</given-names></name><name><surname>Grosch</surname><given-names>M</given-names></name><name><surname>Perwitasari</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Global suppression of the host antiviral response by Ebola- and Marburgviruses: increased antagonism of the type I interferon response is associated with enhanced virulence.</article-title>
+<source>J Virol</source>
+<volume>80</volume>
+<fpage>3009</fpage>
+<lpage>3020</lpage>
+<pub-id pub-id-type="pmid">16501110</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Wauquier1">
+        <label>4</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wauquier</surname><given-names>N</given-names></name><name><surname>Becquart</surname><given-names>P</given-names></name><name><surname>Padilla</surname><given-names>C</given-names></name><name><surname>Baize</surname><given-names>S</given-names></name><name><surname>Leroy</surname><given-names>EM</given-names></name></person-group>
+<year>2010</year>
+<article-title>Human fatal zaire ebola virus infection is associated with an aberrant innate immunity and with massive lymphocyte apoptosis.</article-title>
+<source>PLoS Negl Trop Dis</source>
+<volume>4</volume>
+<fpage>e837</fpage>
+<pub-id pub-id-type="pmid">20957152</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Baize1">
+        <label>5</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baize</surname><given-names>S</given-names></name><name><surname>Leroy</surname><given-names>EM</given-names></name><name><surname>Georges-Courbot</surname><given-names>MC</given-names></name><name><surname>Capron</surname><given-names>M</given-names></name><name><surname>Lansoud-Soukate</surname><given-names>J</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Defective humoral responses and extensive intravascular apoptosis are associated with fatal outcome in Ebola virus-infected patients.</article-title>
+<source>Nat Med</source>
+<volume>5</volume>
+<fpage>423</fpage>
+<lpage>426</lpage>
+<pub-id pub-id-type="pmid">10202932</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Cardenas1">
+        <label>6</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cardenas</surname><given-names>WB</given-names></name><name><surname>Loo</surname><given-names>YM</given-names></name><name><surname>Gale</surname><given-names>M</given-names><suffix>Jr</suffix></name><name><surname>Hartman</surname><given-names>AL</given-names></name><name><surname>Kimberlin</surname><given-names>CR</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Ebola virus VP35 protein binds double-stranded RNA and inhibits alpha/beta interferon production induced by RIG-I signaling.</article-title>
+<source>J Virol</source>
+<volume>80</volume>
+<fpage>5168</fpage>
+<lpage>5178</lpage>
+<pub-id pub-id-type="pmid">16698997</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Kimberlin1">
+        <label>7</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kimberlin</surname><given-names>CR</given-names></name><name><surname>Bornholdt</surname><given-names>ZA</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Woods</surname><given-names>VL</given-names><suffix>Jr</suffix></name><name><surname>MacRae</surname><given-names>IJ</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Ebolavirus VP35 uses a bimodal strategy to bind dsRNA for innate immune suppression.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>107</volume>
+<fpage>314</fpage>
+<lpage>319</lpage>
+<pub-id pub-id-type="pmid">20018665</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Leung1">
+        <label>8</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leung</surname><given-names>DW</given-names></name><name><surname>Prins</surname><given-names>KC</given-names></name><name><surname>Borek</surname><given-names>DM</given-names></name><name><surname>Farahbakhsh</surname><given-names>M</given-names></name><name><surname>Tufariello</surname><given-names>JM</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Structural basis for dsRNA recognition and interferon antagonism by Ebola VP35.</article-title>
+<source>Nat Struct Mol Biol</source>
+<volume>17</volume>
+<fpage>165</fpage>
+<lpage>172</lpage>
+<pub-id pub-id-type="pmid">20081868</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Reid1">
+        <label>9</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reid</surname><given-names>SP</given-names></name><name><surname>Leung</surname><given-names>LW</given-names></name><name><surname>Hartman</surname><given-names>AL</given-names></name><name><surname>Martinez</surname><given-names>O</given-names></name><name><surname>Shaw</surname><given-names>ML</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Ebola virus VP24 binds karyopherin alpha1 and blocks STAT1 nuclear accumulation.</article-title>
+<source>J Virol</source>
+<volume>80</volume>
+<fpage>5156</fpage>
+<lpage>5167</lpage>
+<pub-id pub-id-type="pmid">16698996</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Reid2">
+        <label>10</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Reid</surname><given-names>SP</given-names></name><name><surname>Valmas</surname><given-names>C</given-names></name><name><surname>Martinez</surname><given-names>O</given-names></name><name><surname>Sanchez</surname><given-names>FM</given-names></name><name><surname>Basler</surname><given-names>CF</given-names></name></person-group>
+<year>2007</year>
+<article-title>Ebola virus VP24 proteins inhibit the interaction of NPI-1 subfamily karyopherin alpha proteins with activated STAT1.</article-title>
+<source>J Virol</source>
+<volume>81</volume>
+<fpage>13469</fpage>
+<lpage>13477</lpage>
+<pub-id pub-id-type="pmid">17928350</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Mateo1">
+        <label>11</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mateo</surname><given-names>M</given-names></name><name><surname>Reid</surname><given-names>SP</given-names></name><name><surname>Leung</surname><given-names>LW</given-names></name><name><surname>Basler</surname><given-names>CF</given-names></name><name><surname>Volchkov</surname><given-names>VE</given-names></name></person-group>
+<year>2010</year>
+<article-title>Ebolavirus VP24 binding to karyopherins is required for inhibition of interferon signaling.</article-title>
+<source>J Virol</source>
+<volume>84</volume>
+<fpage>1169</fpage>
+<lpage>1175</lpage>
+<pub-id pub-id-type="pmid">19889762</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Dale1">
+        <label>12</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dale</surname><given-names>TC</given-names></name><name><surname>Imam</surname><given-names>AM</given-names></name><name><surname>Kerr</surname><given-names>IM</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name></person-group>
+<year>1989</year>
+<article-title>Rapid activation by interferon alpha of a latent DNA-binding protein present in the cytoplasm of untreated cells.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>86</volume>
+<fpage>1203</fpage>
+<lpage>1207</lpage>
+<pub-id pub-id-type="pmid">2919169</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Levy1">
+        <label>13</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Levy</surname><given-names>DE</given-names></name><name><surname>Kessler</surname><given-names>DS</given-names></name><name><surname>Pine</surname><given-names>R</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<year>1989</year>
+<article-title>Cytoplasmic activation of ISGF3, the positive regulator of interferon-alpha-stimulated transcription, reconstituted in vitro.</article-title>
+<source>Genes Dev</source>
+<volume>3</volume>
+<fpage>1362</fpage>
+<lpage>1371</lpage>
+<pub-id pub-id-type="pmid">2606351</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Najjar1">
+        <label>14</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Najjar</surname><given-names>I</given-names></name><name><surname>Fagard</surname><given-names>R</given-names></name></person-group>
+<year>2010</year>
+<article-title>STAT1 and pathogens, not a friendly relationship.</article-title>
+<source>Biochimie</source>
+<volume>92</volume>
+<fpage>425</fpage>
+<lpage>444</lpage>
+<pub-id pub-id-type="pmid">20159032</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Horvath1">
+        <label>15</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Horvath</surname><given-names>CM</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<year>1996</year>
+<article-title>The antiviral state induced by alpha interferon and gamma interferon requires transcriptionally active Stat1 protein.</article-title>
+<source>J Virol</source>
+<volume>70</volume>
+<fpage>647</fpage>
+<lpage>650</lpage>
+<pub-id pub-id-type="pmid">8523587</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Dupuis1">
+        <label>16</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dupuis</surname><given-names>S</given-names></name><name><surname>Jouanguy</surname><given-names>E</given-names></name><name><surname>Al-Hajjar</surname><given-names>S</given-names></name><name><surname>Fieschi</surname><given-names>C</given-names></name><name><surname>Al-Mohsen</surname><given-names>IZ</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Impaired response to interferon-alpha/beta and lethal viral disease in human STAT1 deficiency.</article-title>
+<source>Nat Genet</source>
+<volume>33</volume>
+<fpage>388</fpage>
+<lpage>391</lpage>
+<pub-id pub-id-type="pmid">12590259</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Meraz1">
+        <label>17</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meraz</surname><given-names>MA</given-names></name><name><surname>White</surname><given-names>JM</given-names></name><name><surname>Sheehan</surname><given-names>KC</given-names></name><name><surname>Bach</surname><given-names>EA</given-names></name><name><surname>Rodig</surname><given-names>SJ</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Targeted disruption of the Stat1 gene in mice reveals unexpected physiologic specificity in the JAK-STAT signaling pathway.</article-title>
+<source>Cell</source>
+<volume>84</volume>
+<fpage>431</fpage>
+<lpage>442</lpage>
+<pub-id pub-id-type="pmid">8608597</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Darnell1">
+        <label>18</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name><name><surname>Kerr</surname><given-names>IM</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name></person-group>
+<year>1994</year>
+<article-title>Jak-STAT pathways and transcriptional activation in response to IFNs and other extracellular signaling proteins.</article-title>
+<source>Science</source>
+<volume>264</volume>
+<fpage>1415</fpage>
+<lpage>1421</lpage>
+<pub-id pub-id-type="pmid">8197455</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Schindler1">
+        <label>19</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Schindler</surname><given-names>C</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<year>1995</year>
+<article-title>Transcriptional responses to polypeptide ligands: the JAK-STAT pathway.</article-title>
+<source>Annu Rev Biochem</source>
+<volume>64</volume>
+<fpage>621</fpage>
+<lpage>651</lpage>
+<pub-id pub-id-type="pmid">7574495</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Subramaniam1">
+        <label>20</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Subramaniam</surname><given-names>PS</given-names></name><name><surname>Torres</surname><given-names>BA</given-names></name><name><surname>Johnson</surname><given-names>HM</given-names></name></person-group>
+<year>2001</year>
+<article-title>So many ligands, so few transcription factors: a new paradigm for signaling through the STAT transcription factors.</article-title>
+<source>Cytokine</source>
+<volume>15</volume>
+<fpage>175</fpage>
+<lpage>187</lpage>
+<pub-id pub-id-type="pmid">11563878</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Asao1">
+        <label>21</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Asao</surname><given-names>H</given-names></name><name><surname>Okuyama</surname><given-names>C</given-names></name><name><surname>Kumaki</surname><given-names>S</given-names></name><name><surname>Ishii</surname><given-names>N</given-names></name><name><surname>Tsuchiya</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Cutting edge: the common gamma-chain is an indispensable subunit of the IL-21 receptor complex.</article-title>
+<source>J Immunol</source>
+<volume>167</volume>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">11418623</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Sheikh1">
+        <label>22</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sheikh</surname><given-names>F</given-names></name><name><surname>Baurin</surname><given-names>VV</given-names></name><name><surname>Lewis-Antes</surname><given-names>A</given-names></name><name><surname>Shah</surname><given-names>NK</given-names></name><name><surname>Smirnov</surname><given-names>SV</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Cutting edge: IL-26 signals through a novel receptor complex composed of IL-20 receptor 1 and IL-10 receptor 2.</article-title>
+<source>J Immunol</source>
+<volume>172</volume>
+<fpage>2006</fpage>
+<lpage>2010</lpage>
+<pub-id pub-id-type="pmid">14764663</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Yoshimoto1">
+        <label>23</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yoshimoto</surname><given-names>T</given-names></name><name><surname>Okada</surname><given-names>K</given-names></name><name><surname>Morishima</surname><given-names>N</given-names></name><name><surname>Kamiya</surname><given-names>S</given-names></name><name><surname>Owaki</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Induction of IgG2a class switching in B cells by IL-27.</article-title>
+<source>J Immunol</source>
+<volume>173</volume>
+<fpage>2479</fpage>
+<lpage>2485</lpage>
+<pub-id pub-id-type="pmid">15294962</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Leaman1">
+        <label>24</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leaman</surname><given-names>DW</given-names></name><name><surname>Leung</surname><given-names>S</given-names></name><name><surname>Li</surname><given-names>X</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name></person-group>
+<year>1996</year>
+<article-title>Regulation of STAT-dependent pathways by growth factors and cytokines.</article-title>
+<source>FASEB J</source>
+<volume>10</volume>
+<fpage>1578</fpage>
+<lpage>1588</lpage>
+<pub-id pub-id-type="pmid">9002549</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Finbloom1">
+        <label>25</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Finbloom</surname><given-names>DS</given-names></name><name><surname>Petricoin</surname><given-names>EF</given-names><suffix>3rd</suffix></name><name><surname>Hackett</surname><given-names>RH</given-names></name><name><surname>David</surname><given-names>M</given-names></name><name><surname>Feldman</surname><given-names>GM</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Growth hormone and erythropoietin differentially activate DNA-binding proteins by tyrosine phosphorylation.</article-title>
+<source>Mol Cell Biol</source>
+<volume>14</volume>
+<fpage>2113</fpage>
+<lpage>2118</lpage>
+<pub-id pub-id-type="pmid">7509451</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Hackett1">
+        <label>26</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hackett</surname><given-names>RH</given-names></name><name><surname>Wang</surname><given-names>YD</given-names></name><name><surname>Larner</surname><given-names>AC</given-names></name></person-group>
+<year>1995</year>
+<article-title>Mapping of the cytoplasmic domain of the human growth hormone receptor required for the activation of Jak2 and Stat proteins.</article-title>
+<source>J Biol Chem</source>
+<volume>270</volume>
+<fpage>21326</fpage>
+<lpage>21330</lpage>
+<pub-id pub-id-type="pmid">7673169</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Marrero1">
+        <label>27</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Marrero</surname><given-names>MB</given-names></name><name><surname>Schieffer</surname><given-names>B</given-names></name><name><surname>Paxton</surname><given-names>WG</given-names></name><name><surname>Heerdt</surname><given-names>L</given-names></name><name><surname>Berk</surname><given-names>BC</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Direct stimulation of Jak/STAT pathway by the angiotensin II AT1 receptor.</article-title>
+<source>Nature</source>
+<volume>375</volume>
+<fpage>247</fpage>
+<lpage>250</lpage>
+<pub-id pub-id-type="pmid">7746328</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Guo1">
+        <label>28</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Guo</surname><given-names>D</given-names></name><name><surname>Dunbar</surname><given-names>JD</given-names></name><name><surname>Yang</surname><given-names>CH</given-names></name><name><surname>Pfeffer</surname><given-names>LM</given-names></name><name><surname>Donner</surname><given-names>DB</given-names></name></person-group>
+<year>1998</year>
+<article-title>Induction of Jak/STAT signaling by activation of the type 1 TNF receptor.</article-title>
+<source>J Immunol</source>
+<volume>160</volume>
+<fpage>2742</fpage>
+<lpage>2750</lpage>
+<pub-id pub-id-type="pmid">9510175</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Greenlund1">
+        <label>29</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Greenlund</surname><given-names>AC</given-names></name><name><surname>Morales</surname><given-names>MO</given-names></name><name><surname>Viviano</surname><given-names>BL</given-names></name><name><surname>Yan</surname><given-names>H</given-names></name><name><surname>Krolewski</surname><given-names>J</given-names></name><etal/></person-group>
+<year>1995</year>
+<article-title>Stat recruitment by tyrosine-phosphorylated cytokine receptors: an ordered reversible affinity-driven process.</article-title>
+<source>Immunity</source>
+<volume>2</volume>
+<fpage>677</fpage>
+<lpage>687</lpage>
+<pub-id pub-id-type="pmid">7796299</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Heim1">
+        <label>30</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heim</surname><given-names>MH</given-names></name><name><surname>Kerr</surname><given-names>IM</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<year>1995</year>
+<article-title>Contribution of STAT SH2 groups to specific interferon signaling by the Jak-STAT pathway.</article-title>
+<source>Science</source>
+<volume>267</volume>
+<fpage>1347</fpage>
+<lpage>1349</lpage>
+<pub-id pub-id-type="pmid">7871432</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Platanias1">
+        <label>31</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Platanias</surname><given-names>LC</given-names></name></person-group>
+<year>2005</year>
+<article-title>Mechanisms of type-I- and type-II-interferon-mediated signalling.</article-title>
+<source>Nat Rev Immunol</source>
+<volume>5</volume>
+<fpage>375</fpage>
+<lpage>386</lpage>
+<pub-id pub-id-type="pmid">15864272</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Kerr1">
+        <label>32</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kerr</surname><given-names>IM</given-names></name><name><surname>Costa-Pereira</surname><given-names>AP</given-names></name><name><surname>Lillemeier</surname><given-names>BF</given-names></name><name><surname>Strobl</surname><given-names>B</given-names></name></person-group>
+<year>2003</year>
+<article-title>Of JAKs, STATs, blind watchmakers, jeeps and trains.</article-title>
+<source>FEBS Lett</source>
+<volume>546</volume>
+<fpage>1</fpage>
+<lpage>5</lpage>
+<pub-id pub-id-type="pmid">12829228</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Levy2">
+        <label>33</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Levy</surname><given-names>DE</given-names></name><name><surname>Darnell</surname><given-names>JE</given-names><suffix>Jr</suffix></name></person-group>
+<year>2002</year>
+<article-title>Stats: transcriptional control and biological impact.</article-title>
+<source>Nat Rev Mol Cell Biol</source>
+<volume>3</volume>
+<fpage>651</fpage>
+<lpage>662</lpage>
+<pub-id pub-id-type="pmid">12209125</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Rodriguez1">
+        <label>34</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez</surname><given-names>JJ</given-names></name><name><surname>Parisien</surname><given-names>JP</given-names></name><name><surname>Horvath</surname><given-names>CM</given-names></name></person-group>
+<year>2002</year>
+<article-title>Nipah virus V protein evades alpha and gamma interferons by preventing STAT1 and STAT2 activation and nuclear accumulation.</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>11476</fpage>
+<lpage>11483</lpage>
+<pub-id pub-id-type="pmid">12388709</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Rodriguez2">
+        <label>35</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rodriguez</surname><given-names>JJ</given-names></name><name><surname>Wang</surname><given-names>LF</given-names></name><name><surname>Horvath</surname><given-names>CM</given-names></name></person-group>
+<year>2003</year>
+<article-title>Hendra virus V protein inhibits interferon signaling by preventing STAT1 and STAT2 nuclear accumulation.</article-title>
+<source>J Virol</source>
+<volume>77</volume>
+<fpage>11842</fpage>
+<lpage>11845</lpage>
+<pub-id pub-id-type="pmid">14557668</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Vidy1">
+        <label>36</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vidy</surname><given-names>A</given-names></name><name><surname>Chelbi-Alix</surname><given-names>M</given-names></name><name><surname>Blondel</surname><given-names>D</given-names></name></person-group>
+<year>2005</year>
+<article-title>Rabies virus P protein interacts with STAT1 and inhibits interferon signal transduction pathways.</article-title>
+<source>J Virol</source>
+<volume>79</volume>
+<fpage>14411</fpage>
+<lpage>14420</lpage>
+<pub-id pub-id-type="pmid">16254375</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Devaux1">
+        <label>37</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Devaux</surname><given-names>P</given-names></name><name><surname>von Messling</surname><given-names>V</given-names></name><name><surname>Songsungthong</surname><given-names>W</given-names></name><name><surname>Springfeld</surname><given-names>C</given-names></name><name><surname>Cattaneo</surname><given-names>R</given-names></name></person-group>
+<year>2007</year>
+<article-title>Tyrosine 110 in the measles virus phosphoprotein is required to block STAT1 phosphorylation.</article-title>
+<source>Virology</source>
+<volume>360</volume>
+<fpage>72</fpage>
+<lpage>83</lpage>
+<pub-id pub-id-type="pmid">17112561</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Dinwiddie1">
+        <label>38</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Dinwiddie</surname><given-names>DL</given-names></name><name><surname>Harrod</surname><given-names>KS</given-names></name></person-group>
+<year>2008</year>
+<article-title>Human metapneumovirus inhibits IFN-alpha signaling through inhibition of STAT1 phosphorylation.</article-title>
+<source>Am J Respir Cell Mol Biol</source>
+<volume>38</volume>
+<fpage>661</fpage>
+<lpage>670</lpage>
+<pub-id pub-id-type="pmid">18218993</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Najarro1">
+        <label>39</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Najarro</surname><given-names>P</given-names></name><name><surname>Traktman</surname><given-names>P</given-names></name><name><surname>Lewis</surname><given-names>JA</given-names></name></person-group>
+<year>2001</year>
+<article-title>Vaccinia virus blocks gamma interferon signal transduction: viral VH1 phosphatase reverses Stat1 activation.</article-title>
+<source>J Virol</source>
+<volume>75</volume>
+<fpage>3185</fpage>
+<lpage>3196</lpage>
+<pub-id pub-id-type="pmid">11238845</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Lin1">
+        <label>40</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lin</surname><given-names>RJ</given-names></name><name><surname>Chang</surname><given-names>BL</given-names></name><name><surname>Yu</surname><given-names>HP</given-names></name><name><surname>Liao</surname><given-names>CL</given-names></name><name><surname>Lin</surname><given-names>YL</given-names></name></person-group>
+<year>2006</year>
+<article-title>Blocking of interferon-induced Jak-Stat signaling by Japanese encephalitis virus NS5 through a protein tyrosine phosphatase-mediated mechanism.</article-title>
+<source>J Virol</source>
+<volume>80</volume>
+<fpage>5908</fpage>
+<lpage>5918</lpage>
+<pub-id pub-id-type="pmid">16731929</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Yokosawa1">
+        <label>41</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Yokosawa</surname><given-names>N</given-names></name><name><surname>Yokota</surname><given-names>S</given-names></name><name><surname>Kubota</surname><given-names>T</given-names></name><name><surname>Fujii</surname><given-names>N</given-names></name></person-group>
+<year>2002</year>
+<article-title>C-terminal region of STAT-1alpha is not necessary for its ubiquitination and degradation caused by mumps virus V protein.</article-title>
+<source>J Virol</source>
+<volume>76</volume>
+<fpage>12683</fpage>
+<lpage>12690</lpage>
+<pub-id pub-id-type="pmid">12438594</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Bamberg1">
+        <label>42</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bamberg</surname><given-names>S</given-names></name><name><surname>Kolesnikova</surname><given-names>L</given-names></name><name><surname>Moller</surname><given-names>P</given-names></name><name><surname>Klenk</surname><given-names>HD</given-names></name><name><surname>Becker</surname><given-names>S</given-names></name></person-group>
+<year>2005</year>
+<article-title>VP24 of Marburg virus influences formation of infectious particles.</article-title>
+<source>J Virol</source>
+<volume>79</volume>
+<fpage>13421</fpage>
+<lpage>13433</lpage>
+<pub-id pub-id-type="pmid">16227263</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Han1">
+        <label>43</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Han</surname><given-names>Z</given-names></name><name><surname>Boshra</surname><given-names>H</given-names></name><name><surname>Sunyer</surname><given-names>JO</given-names></name><name><surname>Zwiers</surname><given-names>SH</given-names></name><name><surname>Paragas</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Biochemical and functional characterization of the Ebola virus VP24 protein: implications for a role in virus assembly and budding.</article-title>
+<source>J Virol</source>
+<volume>77</volume>
+<fpage>1793</fpage>
+<lpage>1800</lpage>
+<pub-id pub-id-type="pmid">12525613</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Noda1">
+        <label>44</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Noda</surname><given-names>T</given-names></name><name><surname>Halfmann</surname><given-names>P</given-names></name><name><surname>Sagara</surname><given-names>H</given-names></name><name><surname>Kawaoka</surname><given-names>Y</given-names></name></person-group>
+<year>2007</year>
+<article-title>Regions in Ebola virus VP24 that are important for nucleocapsid formation.</article-title>
+<source>J Infect Dis</source>
+<volume>196</volume>
+<issue>Suppl 2</issue>
+<fpage>S247</fpage>
+<lpage>250</lpage>
+<pub-id pub-id-type="pmid">17940956</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Watanabe1">
+        <label>45</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Watanabe</surname><given-names>S</given-names></name><name><surname>Noda</surname><given-names>T</given-names></name><name><surname>Halfmann</surname><given-names>P</given-names></name><name><surname>Jasenosky</surname><given-names>L</given-names></name><name><surname>Kawaoka</surname><given-names>Y</given-names></name></person-group>
+<year>2007</year>
+<article-title>Ebola virus (EBOV) VP24 inhibits transcription and replication of the EBOV genome.</article-title>
+<source>J Infect Dis</source>
+<volume>196</volume>
+<issue>Suppl 2</issue>
+<fpage>S284</fpage>
+<lpage>290</lpage>
+<pub-id pub-id-type="pmid">17940962</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Hoenen1">
+        <label>46</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hoenen</surname><given-names>T</given-names></name><name><surname>Jung</surname><given-names>S</given-names></name><name><surname>Herwig</surname><given-names>A</given-names></name><name><surname>Groseth</surname><given-names>A</given-names></name><name><surname>Becker</surname><given-names>S</given-names></name></person-group>
+<year>2010</year>
+<article-title>Both matrix proteins of Ebola virus contribute to the regulation of viral genome replication and transcription.</article-title>
+<source>Virology</source>
+<volume>403</volume>
+<fpage>56</fpage>
+<lpage>66</lpage>
+<pub-id pub-id-type="pmid">20444481</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Holm1">
+        <label>47</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Holm</surname><given-names>L</given-names></name><name><surname>Rosenstrom</surname><given-names>P</given-names></name></person-group>
+<year>2010</year>
+<article-title>Dali server: conservation mapping in 3D.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>38</volume>
+<fpage>W545</fpage>
+<lpage>549</lpage>
+<pub-id pub-id-type="pmid">20457744</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Lee1">
+        <label>48</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lee</surname><given-names>MS</given-names></name><name><surname>Lebeda</surname><given-names>FJ</given-names></name><name><surname>Olson</surname><given-names>MA</given-names></name></person-group>
+<year>2009</year>
+<article-title>Fold prediction of VP24 protein of Ebola and Marburg viruses using de novo fragment assembly.</article-title>
+<source>J Struct Biol</source>
+<volume>167</volume>
+<fpage>136</fpage>
+<lpage>144</lpage>
+<pub-id pub-id-type="pmid">19447180</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Volchkov1">
+        <label>49</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Volchkov</surname><given-names>VE</given-names></name><name><surname>Chepurnov</surname><given-names>AA</given-names></name><name><surname>Volchkova</surname><given-names>VA</given-names></name><name><surname>Ternovoj</surname><given-names>VA</given-names></name><name><surname>Klenk</surname><given-names>HD</given-names></name></person-group>
+<year>2000</year>
+<article-title>Molecular characterization of guinea pig-adapted variants of Ebola virus.</article-title>
+<source>Virology</source>
+<volume>277</volume>
+<fpage>147</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">11062045</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Ebihara1">
+        <label>50</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ebihara</surname><given-names>H</given-names></name><name><surname>Takada</surname><given-names>A</given-names></name><name><surname>Kobasa</surname><given-names>D</given-names></name><name><surname>Jones</surname><given-names>S</given-names></name><name><surname>Neumann</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Molecular determinants of Ebola virus virulence in mice.</article-title>
+<source>PLoS Pathog</source>
+<volume>2</volume>
+<fpage>e73</fpage>
+<pub-id pub-id-type="pmid">16848640</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Valmas1">
+        <label>51</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valmas</surname><given-names>C</given-names></name><name><surname>Grosch</surname><given-names>MN</given-names></name><name><surname>Schumann</surname><given-names>M</given-names></name><name><surname>Olejnik</surname><given-names>J</given-names></name><name><surname>Martinez</surname><given-names>O</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>Marburg virus evades interferon responses by a mechanism distinct from ebola virus.</article-title>
+<source>PLoS Pathog</source>
+<volume>6</volume>
+<fpage>e1000721</fpage>
+<pub-id pub-id-type="pmid">20084112</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Li1">
+        <label>52</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Tsalkova</surname><given-names>T</given-names></name><name><surname>White</surname><given-names>MA</given-names></name><name><surname>Mei</surname><given-names>FC</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Mechanism of intracellular cAMP sensor Epac2 activation: cAMP-induced conformational changes identified by amide hydrogen/deuterium exchange mass spectrometry (DXMS).</article-title>
+<source>J Biol Chem</source>
+<volume>286</volume>
+<fpage>17889</fpage>
+<lpage>17897</lpage>
+<pub-id pub-id-type="pmid">21454623</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Hsu1">
+        <label>53</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hsu</surname><given-names>S</given-names></name><name><surname>Kim</surname><given-names>Y</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Durrant</surname><given-names>ES</given-names></name><name><surname>Pace</surname><given-names>RM</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>Structural insights into glucan phosphatase dynamics using amide hydrogen-deuterium exchange mass spectrometry.</article-title>
+<source>Biochemistry</source>
+<volume>48</volume>
+<fpage>9891</fpage>
+<lpage>9902</lpage>
+<pub-id pub-id-type="pmid">19754155</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Brudler1">
+        <label>54</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brudler</surname><given-names>R</given-names></name><name><surname>Gessner</surname><given-names>CR</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Tyndall</surname><given-names>S</given-names></name><name><surname>Getzoff</surname><given-names>ED</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>PAS domain allostery and light-induced conformational changes in photoactive yellow protein upon I2 intermediate formation, probed with enhanced hydrogen/deuterium exchange mass spectrometry.</article-title>
+<source>J Mol Biol</source>
+<volume>363</volume>
+<fpage>148</fpage>
+<lpage>160</lpage>
+<pub-id pub-id-type="pmid">16952373</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Bale1">
+        <label>55</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bale</surname><given-names>S</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>Li</surname><given-names>S</given-names></name><name><surname>Wang</surname><given-names>Y</given-names></name><name><surname>Abelson</surname><given-names>DM</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Ebolavirus glycoprotein needs additional trigger, beyond proteolytic priming for membrane fusion.</article-title>
+<source>PLoS Negl Trop Dis</source>
+<volume>5</volume>
+<fpage>e1395</fpage>
+<pub-id pub-id-type="pmid">22102923</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Hastie1">
+        <label>56</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Hastie</surname><given-names>KM</given-names></name><name><surname>Liu</surname><given-names>T</given-names></name><name><surname>King</surname><given-names>LB</given-names></name><name><surname>Zandonatti</surname><given-names>MA</given-names></name><name><surname>Ngo</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Crystal Structure of the Lassa Virus Nucleoprotein-RNA Complex Reveals a Gating Mechanism for RNA binding.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>48</volume>
+<fpage>19365</fpage>
+<lpage>19370</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Wenta1">
+        <label>57</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wenta</surname><given-names>N</given-names></name><name><surname>Strauss</surname><given-names>H</given-names></name><name><surname>Meyer</surname><given-names>S</given-names></name><name><surname>Vinkemeier</surname><given-names>U</given-names></name></person-group>
+<year>2008</year>
+<article-title>Tyrosine phosphorylation regulates the partitioning of STAT1 between different dimer conformations.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>105</volume>
+<fpage>9238</fpage>
+<lpage>9243</lpage>
+<pub-id pub-id-type="pmid">18591661</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Mao1">
+        <label>58</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mao</surname><given-names>X</given-names></name><name><surname>Ren</surname><given-names>Z</given-names></name><name><surname>Parker</surname><given-names>GN</given-names></name><name><surname>Sondermann</surname><given-names>H</given-names></name><name><surname>Pastorello</surname><given-names>MA</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Structural bases of unphosphorylated STAT1 association and receptor binding.</article-title>
+<source>Mol Cell</source>
+<volume>17</volume>
+<fpage>761</fpage>
+<lpage>771</lpage>
+<pub-id pub-id-type="pmid">15780933</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-ChatterjeeKishore1">
+        <label>59</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Chatterjee-Kishore</surname><given-names>M</given-names></name><name><surname>Wright</surname><given-names>KL</given-names></name><name><surname>Ting</surname><given-names>JP</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name></person-group>
+<year>2000</year>
+<article-title>How Stat1 mediates constitutive gene expression: a complex of unphosphorylated Stat1 and IRF1 supports transcription of the LMP2 gene.</article-title>
+<source>EMBO J</source>
+<volume>19</volume>
+<fpage>4111</fpage>
+<lpage>4122</lpage>
+<pub-id pub-id-type="pmid">10921891</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Meyer1">
+        <label>60</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyer</surname><given-names>T</given-names></name><name><surname>Gavenis</surname><given-names>K</given-names></name><name><surname>Vinkemeier</surname><given-names>U</given-names></name></person-group>
+<year>2002</year>
+<article-title>Cell type-specific and tyrosine phosphorylation-independent nuclear presence of STAT1 and STAT3.</article-title>
+<source>Exp Cell Res</source>
+<volume>272</volume>
+<fpage>45</fpage>
+<lpage>55</lpage>
+<pub-id pub-id-type="pmid">11740864</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Meyer2">
+        <label>61</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Meyer</surname><given-names>T</given-names></name><name><surname>Vinkemeier</surname><given-names>U</given-names></name></person-group>
+<year>2004</year>
+<article-title>Nucleocytoplasmic shuttling of STAT transcription factors.</article-title>
+<source>Eur J Biochem</source>
+<volume>271</volume>
+<fpage>4606</fpage>
+<lpage>4612</lpage>
+<pub-id pub-id-type="pmid">15606747</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Cheon1">
+        <label>62</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cheon</surname><given-names>H</given-names></name><name><surname>Stark</surname><given-names>GR</given-names></name></person-group>
+<year>2009</year>
+<article-title>Unphosphorylated STAT1 prolongs the expression of interferon-induced immune regulatory genes.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>106</volume>
+<fpage>9373</fpage>
+<lpage>9378</lpage>
+<pub-id pub-id-type="pmid">19478064</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Lehtonen1">
+        <label>63</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Lehtonen</surname><given-names>A</given-names></name><name><surname>Matikainen</surname><given-names>S</given-names></name><name><surname>Julkunen</surname><given-names>I</given-names></name></person-group>
+<year>1997</year>
+<article-title>Interferons up-regulate STAT1, STAT2, and IRF family transcription factor gene expression in human peripheral blood mononuclear cells and macrophages.</article-title>
+<source>J Immunol</source>
+<volume>159</volume>
+<fpage>794</fpage>
+<lpage>803</lpage>
+<pub-id pub-id-type="pmid">9218597</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-FitzgeraldBocarsly1">
+        <label>64</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Fitzgerald-Bocarsly</surname><given-names>P</given-names></name></person-group>
+<year>1993</year>
+<article-title>Human natural interferon-alpha producing cells.</article-title>
+<source>Pharmacol Ther</source>
+<volume>60</volume>
+<fpage>39</fpage>
+<lpage>62</lpage>
+<pub-id pub-id-type="pmid">8127923</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Leung2">
+        <label>65</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Leung</surname><given-names>LW</given-names></name><name><surname>Park</surname><given-names>MS</given-names></name><name><surname>Martinez</surname><given-names>O</given-names></name><name><surname>Valmas</surname><given-names>C</given-names></name><name><surname>Lopez</surname><given-names>CB</given-names></name><etal/></person-group>
+<year>2011</year>
+<article-title>Ebolavirus VP35 suppresses IFN production from conventional but not plasmacytoid dendritic cells.</article-title>
+<source>Immunol Cell Biol</source>
+<volume>89</volume>
+<fpage>792</fpage>
+<lpage>802</lpage>
+<pub-id pub-id-type="pmid">21263462</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Ehret1">
+        <label>66</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Ehret</surname><given-names>GB</given-names></name><name><surname>Reichenbach</surname><given-names>P</given-names></name><name><surname>Schindler</surname><given-names>U</given-names></name><name><surname>Horvath</surname><given-names>CM</given-names></name><name><surname>Fritz</surname><given-names>S</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>DNA binding specificity of different STAT proteins. Comparison of in vitro specificity with natural target sites.</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>6675</fpage>
+<lpage>6688</lpage>
+<pub-id pub-id-type="pmid">11053426</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Pickert1">
+        <label>67</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pickert</surname><given-names>G</given-names></name><name><surname>Neufert</surname><given-names>C</given-names></name><name><surname>Leppkes</surname><given-names>M</given-names></name><name><surname>Zheng</surname><given-names>Y</given-names></name><name><surname>Wittkopf</surname><given-names>N</given-names></name><etal/></person-group>
+<year>2009</year>
+<article-title>STAT3 links IL-22 signaling in intestinal epithelial cells to mucosal wound healing.</article-title>
+<source>J Exp Med</source>
+<volume>206</volume>
+<fpage>1465</fpage>
+<lpage>1472</lpage>
+<pub-id pub-id-type="pmid">19564350</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Bwaka1">
+        <label>68</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Bwaka</surname><given-names>MA</given-names></name><name><surname>Bonnet</surname><given-names>MJ</given-names></name><name><surname>Calain</surname><given-names>P</given-names></name><name><surname>Colebunders</surname><given-names>R</given-names></name><name><surname>De Roo</surname><given-names>A</given-names></name><etal/></person-group>
+<year>1999</year>
+<article-title>Ebola hemorrhagic fever in Kikwit, Democratic Republic of the Congo: clinical observations in 103 patients.</article-title>
+<source>J Infect Dis</source>
+<volume>179</volume>
+<issue>Suppl 1</issue>
+<fpage>S1</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">9988155</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Mahanty1">
+        <label>69</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Mahanty</surname><given-names>S</given-names></name><name><surname>Bray</surname><given-names>M</given-names></name></person-group>
+<year>2004</year>
+<article-title>Pathogenesis of filoviral haemorrhagic fevers.</article-title>
+<source>Lancet Infect Dis</source>
+<volume>4</volume>
+<fpage>487</fpage>
+<lpage>498</lpage>
+<pub-id pub-id-type="pmid">15288821</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Otwinowski1">
+        <label>70</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Otwinowski</surname><given-names>Z</given-names></name><name><surname>Minor</surname><given-names>W</given-names></name></person-group>
+<year>1997</year>
+<source>Processing of X-ray Diffraction Data Collected in Oscillation Mode; C.W. Carter JRMS, editor</source>
+<publisher-loc>New York</publisher-loc>
+<publisher-name>Academic Press</publisher-name>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Pflugrath1">
+        <label>71</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pflugrath</surname><given-names>JW</given-names></name></person-group>
+<year>1999</year>
+<article-title>The finer things in X-ray diffraction data collection.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>55</volume>
+<fpage>1718</fpage>
+<lpage>1725</lpage>
+<pub-id pub-id-type="pmid">10531521</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Panjikar1">
+        <label>72</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Panjikar</surname><given-names>S</given-names></name><name><surname>Parthasarathy</surname><given-names>V</given-names></name><name><surname>Lamzin</surname><given-names>VS</given-names></name><name><surname>Weiss</surname><given-names>MS</given-names></name><name><surname>Tucker</surname><given-names>PA</given-names></name></person-group>
+<year>2005</year>
+<article-title>Auto-Rickshaw: an automated crystal structure determination platform as an efficient tool for the validation of an X-ray diffraction experiment.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>61</volume>
+<fpage>449</fpage>
+<lpage>457</lpage>
+<pub-id pub-id-type="pmid">15805600</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Panjikar2">
+        <label>73</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Panjikar</surname><given-names>S</given-names></name><name><surname>Parthasarathy</surname><given-names>V</given-names></name><name><surname>Lamzin</surname><given-names>VS</given-names></name><name><surname>Weiss</surname><given-names>MS</given-names></name><name><surname>Tucker</surname><given-names>PA</given-names></name></person-group>
+<year>2009</year>
+<article-title>On the combination of molecular replacement and single-wavelength anomalous diffraction phasing for automated structure determination.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>65</volume>
+<fpage>1089</fpage>
+<lpage>1097</lpage>
+<pub-id pub-id-type="pmid">19770506</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Afonine1">
+        <label>74</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>Afonine</surname><given-names>PV</given-names></name><name><surname>Grosse-Kunstleve</surname><given-names>RW</given-names></name><name><surname>Adams</surname><given-names>PD</given-names></name></person-group>
+<year>2005</year>
+<source>The Phenix refinement framework</source>
+<publisher-name>CCP4 Newsletter</publisher-name>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Adams1">
+        <label>75</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adams</surname><given-names>PD</given-names></name><name><surname>Afonine</surname><given-names>PV</given-names></name><name><surname>Bunkoczi</surname><given-names>G</given-names></name><name><surname>Chen</surname><given-names>VB</given-names></name><name><surname>Davis</surname><given-names>IW</given-names></name><etal/></person-group>
+<year>2010</year>
+<article-title>PHENIX: a comprehensive Python-based system for macromolecular structure solution.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>66</volume>
+<fpage>213</fpage>
+<lpage>221</lpage>
+<pub-id pub-id-type="pmid">20124702</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Emsley1">
+        <label>76</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Emsley</surname><given-names>P</given-names></name><name><surname>Cowtan</surname><given-names>K</given-names></name></person-group>
+<year>2004</year>
+<article-title>Coot: model-building tools for molecular graphics.</article-title>
+<source>Acta Crystallogr D Biol Crystallogr</source>
+<volume>60</volume>
+<fpage>2126</fpage>
+<lpage>2132</lpage>
+<pub-id pub-id-type="pmid">15572765</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Painter1">
+        <label>77</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Painter</surname><given-names>J</given-names></name><name><surname>Merritt</surname><given-names>EA</given-names></name></person-group>
+<year>2006</year>
+<article-title>TLSMD web server for the generation of multi-group TLS models.</article-title>
+<source>J Appl Cryst</source>
+<volume>39</volume>
+<fpage>109</fpage>
+<lpage>111</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Davis1">
+        <label>78</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Davis</surname><given-names>IW</given-names></name><name><surname>Leaver-Fay</surname><given-names>A</given-names></name><name><surname>Chen</surname><given-names>VB</given-names></name><name><surname>Block</surname><given-names>JN</given-names></name><name><surname>Kapral</surname><given-names>GJ</given-names></name><etal/></person-group>
+<year>2007</year>
+<article-title>MolProbity: all-atom contacts and structure validation for proteins and nucleic acids.</article-title>
+<source>Nucleic Acids Res</source>
+<volume>35</volume>
+<fpage>W375</fpage>
+<lpage>383</lpage>
+<pub-id pub-id-type="pmid">17452350</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Laskowski1">
+        <label>79</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Laskowski</surname><given-names>RA</given-names></name><name><surname>MacArthur</surname><given-names>MW</given-names></name><name><surname>Moss</surname><given-names>DS</given-names></name><name><surname>Thornton</surname><given-names>JM</given-names></name></person-group>
+<year>1993</year>
+<article-title>PROCHECK: a program to check the stereochemical quality of protein structures.</article-title>
+<source>J Appl Cryst</source>
+<volume>26</volume>
+<fpage>283</fpage>
+<lpage>291</lpage>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-DeLano1">
+        <label>80</label>
+        <element-citation publication-type="book">
+<person-group person-group-type="author"><name><surname>DeLano</surname><given-names>WL</given-names></name></person-group>
+<year>2002</year>
+<source>The PyMOL Molecular Graphics System</source>
+<publisher-loc>San Carlos (California)</publisher-loc>
+<publisher-name>DeLano Scientific</publisher-name>
+</element-citation>
+      </ref>
+      <ref id="ppat.1002550-Wong1">
+        <label>81</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wong</surname><given-names>L</given-names></name><name><surname>Lieser</surname><given-names>S</given-names></name><name><surname>Chie-Leon</surname><given-names>B</given-names></name><name><surname>Miyashita</surname><given-names>O</given-names></name><name><surname>Aubol</surname><given-names>B</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Dynamic coupling between the SH2 domain and active site of the COOH terminal Src kinase, Csk.</article-title>
+<source>J Mol Biol</source>
+<volume>341</volume>
+<fpage>93</fpage>
+<lpage>106</lpage>
+<pub-id pub-id-type="pmid">15312765</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Zhang1">
+        <label>82</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Zhang</surname><given-names>Z</given-names></name><name><surname>Smith</surname><given-names>DL</given-names></name></person-group>
+<year>1993</year>
+<article-title>Determination of amide hydrogen exchange by mass spectrometry: a new tool for protein structure elucidation.</article-title>
+<source>Protein Sci</source>
+<volume>2</volume>
+<fpage>522</fpage>
+<lpage>531</lpage>
+<pub-id pub-id-type="pmid">8390883</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Rockwell1">
+        <label>83</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Rockwell</surname><given-names>NC</given-names></name><name><surname>Lagarias</surname><given-names>JC</given-names></name></person-group>
+<year>2007</year>
+<article-title>Flexible mapping of homology onto structure with homolmapper.</article-title>
+<source>BMC Bioinformatics</source>
+<volume>8</volume>
+<fpage>123</fpage>
+<pub-id pub-id-type="pmid">17428344</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Baker1">
+        <label>84</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Baker</surname><given-names>NA</given-names></name><name><surname>Sept</surname><given-names>D</given-names></name><name><surname>Joseph</surname><given-names>S</given-names></name><name><surname>Holst</surname><given-names>MJ</given-names></name><name><surname>McCammon</surname><given-names>JA</given-names></name></person-group>
+<year>2001</year>
+<article-title>Electrostatics of nanosystems: application to microtubules and the ribosome.</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>98</volume>
+<fpage>10037</fpage>
+<lpage>10041</lpage>
+<pub-id pub-id-type="pmid">11517324</pub-id></element-citation>
+      </ref>
+      <ref id="ppat.1002550-Kabsch1">
+        <label>85</label>
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kabsch</surname><given-names>W</given-names></name></person-group>
+<year>1976</year>
+<article-title>A solution for the best rotation to relate two sets of vectors.</article-title>
+<source>Acta Crystallogr A</source>
+<volume>32</volume>
+<fpage>922</fpage>
+<lpage>923</lpage>
+</element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

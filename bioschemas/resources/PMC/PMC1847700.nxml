@@ -1,0 +1,1191 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:26:56Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:1847700" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:1847700</identifier><datestamp>2007-04-26</datestamp><setSpec>ploscomp</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Comput Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Comput. Biol</journal-id>
+      <journal-id journal-id-type="publisher-id">pcbi</journal-id>
+      <journal-id journal-id-type="publisher-id">plcb</journal-id>
+      <journal-id journal-id-type="pmc">ploscomp</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Computational Biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1553-734X</issn>
+      <issn pub-type="epub">1553-7358</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC1847700</article-id>
+      <article-id pub-id-type="pmcid">PMC1847700</article-id>
+      <article-id pub-id-type="pmc-uid">1847700</article-id>
+      <article-id pub-id-type="pmid">17411337</article-id>
+      <article-id pub-id-type="pmid">17411337</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pcbi.0030066</article-id>
+      <article-id pub-id-type="publisher-id">06-PLCB-RA-0377R2</article-id>
+      <article-id pub-id-type="sici">plcb-03-04-02</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Biochemistry</subject>
+          <subject>Cell Biology</subject>
+          <subject>Computational Biology</subject>
+          <subject>Evolutionary Biology</subject>
+          <subject>Oncology</subject>
+          <subject>Plant Biology</subject>
+          <subject>Virology</subject>
+        </subj-group>
+        <subj-group subj-group-type="System Taxonomy">
+          <subject>Eukaryotes</subject>
+          <subject>Viruses</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Towards Complete Sets of Farnesylated and Geranylgeranylated Proteins</article-title>
+        <alt-title alt-title-type="running-head">PRENbase</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Maurer-Stroh</surname>
+            <given-names>Sebastian</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+          <xref ref-type="aff" rid="aff2">2</xref>
+          <xref ref-type="aff" rid="aff2">3</xref>
+          <xref ref-type="corresp" rid="cor1">*</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Koranda</surname>
+            <given-names>Manfred</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Benetka</surname>
+            <given-names>Wolfgang</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Schneider</surname>
+            <given-names>Georg</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Sirota</surname>
+            <given-names>Fernanda L</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff3">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Eisenhaber</surname>
+            <given-names>Frank</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">1</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label> Research Institute of Molecular Pathology, Vienna, Austria
+</aff>
+      <aff id="aff2"><label>2</label> VIB, SWITCH Lab, Flanders Interuniversity Institute for Biotechnology, Brussels, Belgium
+</aff>
+      <aff id="aff3"><label>3</label> Vrije Universiteit Brussel, Brussels, Belgium
+</aff>
+      <aff id="aff4"><label>4</label> ULB, Service de Conformation des MacromolÃ©cules Biologiques et de BioInformatique, Brussels, Belgium
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Rost</surname>
+            <given-names>Burkhard</given-names>
+          </name>
+          <role>Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">Columbia University, United States of America</aff>
+      <author-notes>
+        <corresp id="cor1">* To whom correspondence should be addressed. E-mail: <email>smaurers@vub.ac.be</email></corresp>
+      </author-notes>
+      <pub-date pub-type="ppub">
+        <month>4</month>
+        <year>2007</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>6</day>
+        <month>4</month>
+        <year>2007</year>
+      </pub-date>
+      <pub-date pub-type="epreprint">
+        <day>23</day>
+        <month>2</month>
+        <year>2007</year>
+      </pub-date>
+      <volume>3</volume>
+      <issue>4</issue>
+      <elocation-id>e66</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>6</day>
+          <month>9</month>
+          <year>2006</year>
+        </date>
+        <date date-type="accepted">
+          <day>23</day>
+          <month>2</month>
+          <year>2007</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement> Â© 2007 Maurer-Stroh et al.</copyright-statement>
+        <copyright-year>2007</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <!--<related-article preprintResearch Article10.1371/journal.pcbi.0030066.eorsimple>Towards Complete Sets of Farnesylated and Geranylgeranylated Proteins</related-article>-->
+      <abstract>
+        <p>Three different prenyltransferases attach isoprenyl anchors to C-terminal motifs in substrate proteins. These lipid anchors serve for membrane attachment or proteinâprotein interactions in many pathways. Although well-tolerated selective prenyltransferase inhibitors are clinically available, their mode of action remains unclear since the known substrate sets of the various prenyltransferases are incomplete. The Prenylation Prediction Suite (PrePS) has been applied for large-scale predictions of prenylated proteins. To prioritize targets for experimental verification, we rank the predictions by their functional importance estimated by evolutionary conservation of the prenylation motifs within protein families. The ranked lists of predictions are accessible as PRENbase (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.univie.ac.at/sat/PrePS/PRENbase">http://mendel.imp.univie.ac.at/sat/PrePS/PRENbase</ext-link>) and can be queried for verification status, type of modifying enzymes (anchor type), and taxonomic distribution. Our results highlight a large group of plant metal-binding chaperones as well as several newly predicted proteins involved in ubiquitin-mediated protein degradation, enriching the known functional repertoire of prenylated proteins. Furthermore, we identify two possibly prenylated proteins in Mimivirus. The section HumanPRENbase provides complete lists of predicted prenylated human proteinsâfor example, the list of farnesyltransferase targets that cannot become substrates of geranylgeranyltransferase 1 and, therefore, are especially affected by farnesyltransferase inhibitors (FTIs) used in cancer and anti-parasite therapy. We report direct experimental evidence verifying the prediction of the human proteins Prickle1, Prickle2, the BRO1 domainâcontaining FLJ32421 (termed BROFTI), and Rab28 (short isoform) as exclusive farnesyltransferase targets. We introduce PRENbase, a database of large-scale predictions of protein prenylation substrates ranked by evolutionary conservation of the motif. Experimental evidence is presented for the selective farnesylation of targets with an evolutionary conserved modification site.</p>
+      </abstract>
+      <abstract abstract-type="summary">
+        <title>Author Summary</title>
+        <sec id="st1">
+          <title/>
+          <p>Various cellular functions require reversible membrane localization of proteins. This is often facilitated by attaching lipids to the respective proteins, thus anchoring them to the membrane. For example, addition of prenyl lipid anchors (prenylation) is directed by a motif in the protein sequence that can be predicted using a recently developed method. We describe the prediction of protein prenylation in all currently known proteins. The annotated results are available as an online database: PRENbase. A ranking of the predictions is introduced, assuming that existence of a prenylation sequence motif in related proteins from different species (evolutionary conservation) relates to functional importance of the lipid anchor. We present experimental evidence for high-ranked human proteins predicted to be affected by anticancer drugs inhibiting prenylation.</p>
+        </sec>
+      </abstract>
+      <counts>
+        <page-count count="15"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>citation</meta-name>
+          <meta-value>Maurer-Stroh S, Koranda M, Benetka W, Schneider G, Sirota FL, et al. (2007) Towards complete sets of farnesylated and geranylgeranylated proteins. PLoS Comput Biol 3(4): e66. doi:<ext-link ext-link-type="doi" xlink:href="10.1371/journal.pcbi.0030066">10.1371/journal.pcbi.0030066</ext-link></meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>Protein prenylation is facilitated by three eukaryotic enzymes with partially overlapping substrate specificities [<xref rid="pcbi-0030066-b001" ref-type="bibr">1</xref>â<xref rid="pcbi-0030066-b003" ref-type="bibr">3</xref>]. Farnesyltransferase (FT) and geranylgeranyltransferase I (GGT1) recognize the so-called C-terminal CaaX box of substrate proteins to attach either a farnesyl (15 carbons) or geranylgeranyl (20 carbons) anchor to the conserved cysteine via a thioether linkage. Rab geranylgeranyltransferase or geranylgeranyltransferase II (GGT2) requires the formation of a complex of the substrate protein with a dedicated escort protein, REP (Rab escort protein) [<xref rid="pcbi-0030066-b004" ref-type="bibr">4</xref>], and typically attaches two geranylgeranyl anchors to C-terminal cysteines in motifs such as -XXXCC, -XXCXC, -XXCCX, -XCCXX, or -CCXXX [<xref rid="pcbi-0030066-b005" ref-type="bibr">5</xref>]. Isoprenyl lipid anchor attachment to C-termini of proteins not only serves for membrane targeting but can also be crucial for proteinâprotein interactions [<xref rid="pcbi-0030066-b006" ref-type="bibr">6</xref>]. Inhibition of protein prenylation is a promising approach for developing anti-cancer drugs [<xref rid="pcbi-0030066-b007" ref-type="bibr">7</xref>] as well as for treating parasitic diseases [<xref rid="pcbi-0030066-b008" ref-type="bibr">8</xref>,<xref rid="pcbi-0030066-b009" ref-type="bibr">9</xref>]. Therefore, it is of great scientific and applied medical interest to clarify which proteins and pathways are affected by farnesyl- or geranylgeranyltransferase inhibitors in human cells or in unicellular parasites.</p>
+      <p>Based on the refinement of descriptions of sequence motifs recognized by the three enzymes (FT, GGT1, and GGT2) in substrate proteins, we have recently developed amino acid sequenceâbased predictors for various types of protein prenylation (PrePS [<xref rid="pcbi-0030066-b010" ref-type="bibr">10</xref>]). PrePS is available as a WWW service (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.ac.at/sat/PrePS/index2.html">http://mendel.imp.ac.at/sat/PrePS/index2.html</ext-link>). Since the rate of false-positive predictions of PrePS is low (for proteins with CXXX C-terminus, the false-positive rate is estimated at â¼5% at a sensitivity for true targets of â¼98% [<xref rid="pcbi-0030066-b010" ref-type="bibr">10</xref>]), this tool is appropriate for large-scale automated annotation (for example, for proteome scans). In this work, we apply PrePS to finding all potential protein substrates of the three prenyltransferases. With the analyses of these protein sets, it can be determined which prenylation targets are preferentially affected if enzyme-specific prenyltransferase inhibitors are applied.</p>
+      <p>As previous experience with a similar project (the application of the MyrPS/NMT myristoylation predictor [<xref rid="pcbi-0030066-b011" ref-type="bibr">11</xref>,<xref rid="pcbi-0030066-b012" ref-type="bibr">12</xref>] for searching the nonredundant database and the resulting MYRbase [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>]) has shown, large-scale scans produce a considerable number of hits, and, for their ranking with respect to the biological significance, additional criteria are necessary. It should be noted that the score function of PrePS tests the concordance of C-termini of query proteins (the terminal 12 residues) with a simplified binding site model of the respective prenyltransferase without consideration of other sequence properties. It is not rare that sites for posttranslational modifications and sequence motifs coding for subcellular translocation are not conserved among proteins with otherwise highly similar sequences (exemplary cases of myristoylation [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>], GPI lipid anchoring [<xref rid="pcbi-0030066-b014" ref-type="bibr">14</xref>], and prenylation [<xref rid="pcbi-0030066-b015" ref-type="bibr">15</xref>]). More surprisingly, functional motifs can be hidden in proteins without the proper biological context and be masked by other sequence signals (e.g., the case of peroxisomal targeting signal type 1 (PTS1) in proteins destined for other subcellular localizations [<xref rid="pcbi-0030066-b016" ref-type="bibr">16</xref>]). Nevertheless, conservation of the prenylation site among a larger number of homologues will indicate enhanced biological importance of the potential lipid modification and increase the confidence in correct prediction (evOluation concept in MYRbase [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>]). Therefore, evolutionary conservation of prenylation sites in homologous families can be used for ranking in hit lists and for the selection of potential targets for experimental verification in conditions of limited resources.</p>
+      <p>Here, we report the results obtained after applying the three prenylation predictors over the National Center for Biotechnology Institute's (NCBI) nonredundant protein sequence database (NR). The proteins predicted to be prenylated have been clustered into homologous families and are made available as the annotated database PRENbase. A sophisticated interface can generate target lists with regard to the experimental status of the modification (known, predicted, etc.), exclusive or shared types of modifying enzymes (FT, GGT1, GGT2), as well as for evolutionary conservation by constraining the taxonomic distribution within clusters or for single sequences. We investigate the validity of various hit-ranking schemes relying on sequence homology information and taxonomic distribution. Finally, we use PRENbase to list human proteins that could represent elusive cellular targets of FT inhibitors (lack of alternative prenylation by GGT1 under FT inhibition) [<xref rid="pcbi-0030066-b017" ref-type="bibr">17</xref>] and verify experimentally the prenylation status of selected human proteins (versions of Rab28, the BRO1/rhophilin domain containing FLJ32421 [termed BROFTI], Prickle1, and Prickle2) following our published protocols [<xref rid="pcbi-0030066-b018" ref-type="bibr">18</xref>].</p>
+      <sec id="s1a">
+        <title>PRENbase: Methodological Workflow and Database Description</title>
+        <p>The three predictors included in PrePS [<xref rid="pcbi-0030066-b010" ref-type="bibr">10</xref>] have been run over the NR at NCBI. After removing protein fragments with an incomplete C-terminus (as annotated in Genbank), 5,410 proteins were predicted to be prenylated. <xref ref-type="fig" rid="pcbi-0030066-g001">Figure 1</xref> shows the distribution among the three modifying enzymes, including their substrate protein overlaps. While the number of predicted substrates shared between FT and GGT1 is not surprising (mainly due to the fact that FT can also prenylate substrates with terminal leucine [<xref rid="pcbi-0030066-b010" ref-type="bibr">10</xref>]), it is interesting that there also is a substantial overlap with GGT2. At least for Rab8 and Rab11, this enzyme ambiguity has been demonstrated in vitro [<xref rid="pcbi-0030066-b019" ref-type="bibr">19</xref>,<xref rid="pcbi-0030066-b020" ref-type="bibr">20</xref>]. It has to be mentioned that the predictions by PrePS merely represent the capability of a substrate sequence to be modified when presented to the enzyme. In vivo, activity, relative affinity, and availability of FT, GGT1, and GGT2 in the cellular context determine which enzyme will execute the prenylation for a given substrate protein.</p>
+        <fig id="pcbi-0030066-g001" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <title>Distribution of Predicted Substrate Proteins among the Three Prenyltransferases</title>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.g001"/>
+        </fig>
+        <sec id="s1a1">
+          <title>Family clustering.</title>
+          <p>To facilitate the selection of targets for experimental validation, we tried to rank the predictions by the importance of the lipid anchor for their function based on the analysis of evolutionary motif conservation within protein families. It would be of special interest to study the conservation of farnesyl, geranylgeranyl, and double geranylgeranyl anchors within protein families, as this can indicate exclusive or overlapping substrate specificity between the three enzymes. Thus, the extent of variation can give additional hints on the importance of the specific anchor size [<xref rid="pcbi-0030066-b008" ref-type="bibr">8</xref>]. We employed BLAST [<xref rid="pcbi-0030066-b021" ref-type="bibr">21</xref>] and the MCL (Markov chain clustering) algorithm [<xref rid="pcbi-0030066-b022" ref-type="bibr">22</xref>] to assign the 5,410 predicted sequences to a total of 1,024 clusters (protein families). For details on the clustering procedure, see the Materials and Methods section.</p>
+        </sec>
+        <sec id="s1a2">
+          <title>Annotation of families of predicted homologous prenylation targets.</title>
+          <p>We have manually curated protein family annotations for clusters with at least three sequences (201 clusters total). Due to the power lawâlike behavior of protein family cluster sizes [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>], we could provide curated cluster annotation for approximately 83% of the predicted sequences by looking at only 20% of all clusters. The remaining clusters of size 1 or 2 have been annotated with names automatically extracted from their description lines.</p>
+          <p>In addition to the protein family name and function description, we annotated clusters with respect to verification status. This is not a trivial task because it requires manual lookup of hundreds of literature sources. While the actual number of experimentally verified proteins is small compared with the total number of predictions, many proteins can safely be assumed to be prenylated simply by similarity to known examples. We annotate clusters/families as KNOWN (+) when they include at least one from a list of 113 proteins experimentally verified to be prenylated. In addition, we created the annotation category LIKELY (*) for clusters that do not have an experimentally verified example included directly, but where members of the cluster show a clear similarity (BLAST E-value &lt; 1eâ10) to at least one of the verified cases. Finally, clusters without any detectable similarity to any of the 113 proteins experimentally verified to be prenylated are categorized in PRENbase as NEW (?). While the former families (with annotation KNOWN and LIKELY) form a basis to summarize existing knowledge of prenylated proteins, the latter (NEW) are of special interest because their function apparently has not been recognized yet in the context of prenylation.</p>
+          <p>During the annotation process, we have also encountered a few predictions where conservation of a C-terminal cysteine in CaaX box arrangement can also occur for prenylation-independent functions such as disulfide bridges (e.g., metridin-like ShK toxin family members). Although these do not appear to be prenylation targets in vivo, it cannot be excluded that they become prenylated in a different context when their C-termini would be exposed to the prenylating enzyme. The endothelin-converting enzyme 1 (ECE1) from the neprilysin-like zinc metallopeptidase family is another example with a CaaX box where the capacity for prenylation is apparently not used in vivo (possibly because of a disulfide bond). It is predicted by PrePS to be weakly prenylated and, indeed, its C-terminus has been shown to be weakly prenylatable in vitro [<xref rid="pcbi-0030066-b015" ref-type="bibr">15</xref>]. However, it is known to be a type II transmembrane protein. Therefore, the C-terminus and, hence, the potential prenylation motif moves to the lumenal side of the endoplasmic reticulum membrane and becomes inaccessible for the prenyltransferases. In agreement with the cellular context, the protein does not appear to be prenylated in vivo [<xref rid="pcbi-0030066-b015" ref-type="bibr">15</xref>,<xref rid="pcbi-0030066-b023" ref-type="bibr">23</xref>]. Thus, these predictions are not necessarily false positives. We have annotated these predictions in PRENbase as OUT-OF-CONTEXT (â).</p>
+        </sec>
+        <sec id="s1a3">
+          <title>Family ranking.</title>
+          <p>If a predicted protein feature, such as a prenylated C-terminus, is conserved among a large number of homologues (large cluster size), this feature appears more critical for biological function and more reliably predicted. Thus, predictions can be scored by
+<disp-formula id="pcbi-0030066-e001"><graphic xlink:href="pcbi.0030066.e001.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>N<sub>ph</sub></italic> is the number of family members with a predicted prenylation site. However, the number of homologous proteins sharing the motif becomes less indicative for ranking purposes when the protein family in general is overrepresented in nature or in the databases, respectively (e.g., immunoglobulin chains). Hence, knowledge of the total family size, including proteins with and without the investigated motif, can be used to balance for such overrepresentation. As suggested earlier [<xref rid="pcbi-0030066-b024" ref-type="bibr">24</xref>], ranking of families by evolutionary motif conservation could be performed with a scoring function such as
+<disp-formula id="pcbi-0030066-e002"><graphic xlink:href="pcbi.0030066.e002.jpg" position="anchor" mimetype="image"/></disp-formula>where <italic>N<sub>ph</sub></italic> is the number of predicted and <italic>N<sub>th</sub></italic> is the total number of homologues or family members. This ratio balances for overrepresented sequences when compared with the simple ranking by cluster size (<xref ref-type="disp-formula" rid="pcbi-0030066-e001">Equation 1</xref>). The square of <italic>N<sub>ph</sub></italic> also helps to downrank very small clusters or orphans relative to clusters with large <italic>N<sub>ph</sub></italic>; e.g., <italic>N<sub>ph</sub></italic> as well as <italic>N<sub>th</sub></italic> is 1 in these cases.
+</p>
+          <p>Instead of ranking based on counting the number of homologues, it is also possible to analyze the taxonomic distribution and score the families according to how widespread (or old) the motif is in the evolution of the protein family. Such phylogenic complexity can simply be estimated as a score function of the number of species (<italic>N<sub>spec</sub></italic>) that have family members with the motif. To remove artificial bias introduced through disproportional sequencing coverage of specific proteins of closely related species, we suggest multiplying <italic>N<sub>spec</sub></italic> by a factor that evaluates the broad distribution throughout all kingdoms and selected divisions. In our case, we count how many of 12 selected taxonomic groups from all kingdoms (archaea, bacteria, viruses, mammals, birds, amphibiae, fishes, insects, nematodes, fungi, plants, and âother eukaryotesâ) are covered by the investigated family (<italic>N</italic>
+<sub>12</sub> â¤ 12). Then, the final phylogenic complexity scoring function can be written as:
+<disp-formula id="pcbi-0030066-e003"><graphic xlink:href="pcbi.0030066.e003.jpg" position="anchor" mimetype="image"/></disp-formula>
+</p>
+          <p>It should be noted that ranking based on phylogenic complexity does not require the computationally costly determination of the total family size (including members without the motif). Large clusters that consist mainly of sequences of closely related species are downranked in favor of families with a more widespread taxonomic distribution.</p>
+          <p>To investigate the performance of the different ranking schemes, we plotted the distribution of clusters colored by their annotated modification status (<xref ref-type="fig" rid="pcbi-0030066-g002">Figure 2</xref>). Clusters that are homologous to proteins that have already been shown experimentally to be prenylated are shown in green. Those without known prenylated homologues are colored blue (or yellow if the cluster size is smaller than three). Clusters where the motif appears conserved for prenylation-independent functions are colored red. The median values for the distribution of the different cluster and ranking types are marked in <xref ref-type="fig" rid="pcbi-0030066-g002">Figure 2</xref> and listed in <xref ref-type="table" rid="pcbi-0030066-t001">Table 1</xref>.</p>
+          <fig id="pcbi-0030066-g002" position="float">
+            <label>Figure 2</label>
+            <caption>
+              <title>Performance of Different Ranking Schemes for Clusters with Predicted Prenylation Targets</title>
+            </caption>
+            <graphic xlink:href="pcbi.0030066.g002"/>
+          </fig>
+          <table-wrap id="pcbi-0030066-t001" content-type="1col" position="float">
+            <label>Table 1</label>
+            <caption>
+              <p>Values of Cluster Medians from <xref ref-type="fig" rid="pcbi-0030066-g002">Figure 2</xref>
+</p>
+            </caption>
+            <graphic xlink:href="pcbi.0030066.t001"/>
+          </table-wrap>
+          <p>It can be seen that the simple ranking by cluster size brings the known or likely prenylated proteins (green clusters) to the front of the list. However, the red clusters also appear to be highly ranked. Using the evOluation score [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>] for ranking retains the green in front and moves the red to the back. The phylogenic complexity approach performs somewhat worse in downranking the red clusters, but, in contrast, it keeps larger unknown clusters (blue) closer to the top of the list. In conclusion, the different ranking schemes substantially influence the distribution of clusters and might be used to select targets based on emphasis of specificity of the motif for the complete protein family (evOluation [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>]) or on taxonomic diversity (phylogenic complexity).</p>
+        </sec>
+        <sec id="s1a4">
+          <title>Estimate of gain of performance when adding evOluation to PrePS.</title>
+          <p>We previously estimated that PrePS misses about 2% of yet unknown prenylation motifs (cross-validated average sensitivity of PrePS: 98%) while predicting only 0.1% false positives in complete database searches (average specificity of PrePS: 99.9%) [<xref rid="pcbi-0030066-b010" ref-type="bibr">10</xref>]. This estimate for false positive predictions includes motifs that can be prenylated in vitro, while the in vivo context makes the lipid modification rather unlikely. In this work, we identified and discussed such examples (see the previous subsection Annotation of families of predicted homologous prenylation targets). We referred to these predictions as OUT-OF-CONTEXT rather than as false positives. Since there are no new cutoffs and the âevOluationâ score is only used for a priority ranking of all predictions, the absolute rates of false negative and false positive predictions in PRENbase are by definition the same as those reported for the PrePS method. We do, however, show that the evOluation score widens the gap between true positives (KNOWN) and contextual false positives OUT-OF-CONTEXT in the ranking. This is visualized in <xref ref-type="fig" rid="pcbi-0030066-g002">Figure 2</xref>, quantified in <xref ref-type="table" rid="pcbi-0030066-t001">Table 1</xref>, and further discussed in the previous paragraphs.</p>
+          <p>To estimate the performance gain of adding the evOluation ranking compared with the standard PrePS prediction alone, we apply ROC analysis by sliding an artificial threshold over the cluster ranks and count the true positive (KNOWN) and contextual false positive (OUT-OF-CONTEXT) clusters above or below the given thresholds. This allows plotting sensitivity (100-rate of false negatives) versus specificity (100-rate of false positives) for the different methods (<xref ref-type="fig" rid="pcbi-0030066-g003">Figure 3</xref>). As can be seen, the evOluation score clearly outperforms the other ranking schemes and results in a gain in contextual specificity of up to 60% at high sensitivities compared with the standard PrePS. Apparently, random occurrences of small motifs, a typical source of false positives, are indicated by a lower conservation within their protein family, and this feature can therefore be used to further reduce false positives in the context of the biological importance of the motif for the protein. We propose that similarly significant performance gains could also be reached for other methods predicting small sequence motifs by considering the evolutionary conservation of the predicted motifs within protein families.</p>
+          <fig id="pcbi-0030066-g003" position="float">
+            <label>Figure 3</label>
+            <caption>
+              <title>Performance Gain of Ranking Schemes over Standard PrePS without Ranking</title>
+            </caption>
+            <graphic xlink:href="pcbi.0030066.g003"/>
+          </fig>
+        </sec>
+        <sec id="s1a5">
+          <title>PRENbase Web interface.</title>
+          <p>The manually annotated clusters/families of prenylated proteins described above are available as PRENbase. A Web interface (<xref ref-type="fig" rid="pcbi-0030066-g004">Figure 4</xref>, <ext-link ext-link-type="uri" xlink:href="http://mendel.imp.univie.ac.at/sat/PrePS/PRENbase/">http://mendel.imp.univie.ac.at/sat/PrePS/PRENbase/</ext-link>) has been designed to allow sophisticated queries to PRENbase: (1) for the experimental status of the modification (KNOWN/LIKELY/NEW/OUT-OF-CONTEXT); (2) for the range of prenyltransferasesexclusive or shared types of modifying enzymes (FT, GGT1, GGT2); as well as (3) for evolutionary conservation by constraining the taxonomic distribution within clusters or for single sequences. The output can be ranked by cluster size, by the evOluation score that also takes into account the total family size in databases, or by an estimated phylogenic complexity. The default settings give access to the collection of both known and predicted eukaryotic and viral prenylated proteins, which can then be browsed. To facilitate tasks for less-experienced users, we have listed a series of standard queries that might be of particular biological interest. Queries are assigned to a unique query code that can be used to recover previous queries without having to readjust the multiple parameters of the interface. Furthermore, users can map their own sequence against PRENbase using a BLAST module linked to the PrePS server (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.univie.ac.at/sat/PrePS/">http://mendel.imp.univie.ac.at/sat/PrePS/</ext-link>).</p>
+          <fig id="pcbi-0030066-g004" position="float">
+            <label>Figure 4</label>
+            <caption>
+              <title>Screenshot of PRENbase Query Interface</title>
+            </caption>
+            <graphic xlink:href="pcbi.0030066.g004"/>
+          </fig>
+        </sec>
+        <sec id="s1a6">
+          <title>HumanPRENbase.</title>
+          <p>For biomedical applications, it is of great interest to know which human proteins are particularly affected by prenyltransferase inhibitors that have already passed phase II and III clinical trials [<xref rid="pcbi-0030066-b025" ref-type="bibr">25</xref>] but whose molecular mode of action is not fully understood yet [<xref rid="pcbi-0030066-b002" ref-type="bibr">2</xref>]. For example, farnesyltransferase (FT) inhibitors can abolish the prenyl modification only for substrates that cannot be alternatively modified by GGT1 (<xref ref-type="fig" rid="pcbi-0030066-g005">Figure 5</xref>). The classical examples are (1) H-Ras that can only be modified by FT (hereafter, proteins of this type are called pF) and (2) K-Ras that can be a substrate of both FT and GGT1 (hereafter, pFGG). The distinction of pF- and pFGG-type proteins is critical since it helps to identify the exclusive cellular targets affected by FT inhibition (pFs) and give hints to the molecular mechanisms involved in various cancer types [<xref rid="pcbi-0030066-b002" ref-type="bibr">2</xref>,<xref rid="pcbi-0030066-b017" ref-type="bibr">17</xref>].</p>
+          <fig id="pcbi-0030066-g005" position="float">
+            <label>Figure 5</label>
+            <caption>
+              <title>Altered Prenylation under FT Inhibition</title>
+            </caption>
+            <graphic xlink:href="pcbi.0030066.g005"/>
+          </fig>
+          <p>The most prominent group of prenylated oncogenes comprises members of the Ras superfamily of small GTPases. In PRENbase, these are clustered together in a small number of large families with high <italic>S<sub>evOluation</sub></italic> (<xref ref-type="disp-formula" rid="pcbi-0030066-e002">Equation 2</xref>) and <italic>S<sub>phylocomplex</sub></italic> (<xref ref-type="disp-formula" rid="pcbi-0030066-e003">Equation 3</xref>). This example shows that it is useful to clearly identify the orthologous counterparts of individual human proteins. A procedure to derive clusters of such orthologous groups is described in detail in the Materials and Methods section and has allowed the creation of a list of 242 unique human clusters with their isoforms and in-paralogues merged together in the same cluster with at least one (human) member predicted to be prenylated. We removed sequences that are less than 50% of the length of the query sequence (in cases of multidomain proteins) to avoid ambiguous cluster assignments of short homologous sequences. Furthermore, the resulting clusters made up by the orthologues and a representative human sequence are available in a style similar to the original PRENbase. The listed status annotation is derived using the same criteria as for the general PRENbase clusters. For example, there are few members of the large Ras, Rab, and Rho families of GTPases where the prenylation has been shown directly (annotated as KNOWN). However, for many other related clusters (annotated as LIKELY), prenylation can often be safely inferred if a valid motif exists. On the other hand, clusters annotated as NEW signify that this protein family is not yet known to be prenylated and could involve a completely new mode of action for prenyltransferase inhibitors. This HumanPRENbase (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.univie.ac.at/sat/PrePS/HumanPRENbase/">http://mendel.imp.univie.ac.at/sat/PrePS/HumanPRENbase/</ext-link>) can now be queried for the experimental status of the modification of homologues (known/newâ¦), and exclusive or shared types of modifying enzymes (FT, GGT1, GGT2) as well as for evolutionary conservation by constraining the taxonomic distribution within clusters or for single sequences. The output can also be ranked by cluster size, by evOluation, score or by phylogenic complexity.</p>
+        </sec>
+      </sec>
+    </sec>
+    <sec id="s2">
+      <title>Results/Discussion</title>
+      <sec id="s2a">
+        <title>Review of Previous Knowledge of Prenylated Proteins</title>
+        <p>In total, we have collected a list of at least 113 individual proteins experimentally verified to be prenylated that are part of 41 âKNOWNâ clusters, and similarity to these justifies the annotation as âLIKELYâ for another 106 clusters in PRENbase. Thus, a major strength of this work is the complete proteomic view of prenylation with an added evolutionary perspective. For example, by querying PRENbase for families with conserved prenylation motif in mammals, insects, nematodes, fungi, and plants, we derive a core set of only three clusters of already known prenylated proteins. These are the Rab, the Rho/Rac, and the DnaJ-like heat shock chaperone families which, therefore, could be postulated as being the oldest examples of prenylated proteins due to their most widespread taxonomic distribution. When weakening the conservation requirements and âonlyâ considering conservation in mammals, insects, and nematodes, several other families join this list of presumably important prenylated proteins. These are (in the order of the evOluation ranking): the Ras/Ral/Rap family, the Lamin B cluster (linking also more generally coiled coil proteins), a cluster of mixed serine/threonine kinases, geranylgeranylated G gamma subunits, protein tyrosine phosphatase IVA, protein phosphatase 1 regulatory subunit 16 (in cluster with other Ankyrin domain containing proteins), as well as phosphorylase B kinase Î±+Î² subunits. Although spread over multiple clusters due to their sequence diversity, fungal mating factors/pheromones compose another large functionally related group of prenylated proteins.</p>
+        <p>In contrast to the examples above where the prenylation site is highly conserved among various taxa, there are many cases where the predicted prenylation is specific to taxonomic lineages or even single species. Nevertheless, this posttranslational modification can be an important requirement for function of the respective proteins. Therefore, the smaller clusters that can be found in PRENbase also merit deeper investigation.</p>
+      </sec>
+      <sec id="s2b">
+        <title>âThe Mother of Rasâ</title>
+        <p>It is no surprise that the small GTPase families, well-known for their prenylation, top the evolutionary ranked lists in PRENbase. Apparently, multiple duplication events of common prenylated ancestor genes led to the numerous paralogous proteins in the Ras superfamily of small GTPases, resulting in the observed phylogeny of function [<xref rid="pcbi-0030066-b026" ref-type="bibr">26</xref>,<xref rid="pcbi-0030066-b027" ref-type="bibr">27</xref>].</p>
+        <p>Although the historical research focus [<xref rid="pcbi-0030066-b026" ref-type="bibr">26</xref>] is clearly on the Ras subfamily due to the oncogenic potential of its most famous members H-Ras and K-Ras, the evolutionary history paints a different picture of importance of the Ras/Rap, Rho/Rac, and Rab families. The Rab family [<xref rid="pcbi-0030066-b027" ref-type="bibr">27</xref>] is not only the most populated one in PRENbase (followed by the Rho/Rac subfamily), but it also has a much wider taxonomic distribution. In fact, there are no Ras proteins in plants, while there are several different Rabs and some Rac homologues spread in the plant kingdom [<xref rid="pcbi-0030066-b028" ref-type="bibr">28</xref>]. Although highly speculative and by no means unambiguously conclusive, one can attempt to narrow down the candidates for closest living relatives of the common ancestor of Ras GTPases by searching for the taxonomically most conserved individual Ras-related proteins. In HumanPRENbase, the respective hits are (in decreasing order of the phylogeny-based ranking): Rab1B, Rab7, Rac1, and Rab6A. So the âmother of Rasâ would have been more likely to be related to Rab or Rac proteins nowadays. Since Rab proteins are typically dually geranylgeranylated by the type II prenyltransferase GGT2 and both Ras and Rac proteins are specifically processed by type I prenyltransferases FT and GGT1, the similarity of substrate characteristics would point to a closer relationship of Rac to Ras, rather than to Rab proteins. In agreement with the co-clustering of Ras and Rac proteins in phylogenetic tree analyses, including other Rab and more distantly related GTPases, Ras proteins appear to have emerged from a common ancestor shared with the Rho/Rac family.</p>
+      </sec>
+      <sec id="s2c">
+        <title>The Anonymous âKnownâ Group of Plant Copper Chaperones</title>
+        <p>In our predictions for prenylated protein families, we find a large group of 88 homologous plant proteins that are annotated to be metal-binding copper chaperones spread over 21 clusters. Surprisingly, the mainstream prenylation-related publications have not mentioned these proteins as prenylated, so far. A thorough search of the literature, however, reveals that a previous work has already shown prenylation for three of these proteins (all in soybean) [<xref rid="pcbi-0030066-b029" ref-type="bibr">29</xref>]. Therefore, the corresponding clusters of related proteins appear in PRENbase annotated as âKNOWNâ or âLIKELY,â respectively. Functional characterization of this protein family appears scarce, and given the large number of members and the additional information of a conserved prenylation motif, their likely importance should be subject to further investigations.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Predictions with New Functional Context for Prenylation</title>
+        <p>Our approach identifies 979 sequences in 114 clusters that do not share similarity with already known prenylated proteins and whose predicted prenylation, therefore, would expand the possible functional repertoire of prenylated proteins in cells. Surprisingly, we find several proteins that are related to ubiquitin-mediated protein degradation.</p>
+        <p>One of these groups comprises some ubiquitin-like proteins. In particular, UBL3 and its prenylation motif are not only conserved in organisms from mammals to insects and worms but, apparently, also in some fungi and plants. Fitting into the related functional context of ubiquitin-mediated degradation, it is also interesting to observe predicted prenylation for several ubiquitin hydrolases. For example, ubiquitin specific protease 32 is conserved in mammals, pufferfish, and insects with a domain architecture of an N-terminal EF-hand domain, a central DUF1055 domain, followed by a C-terminal ubiquitin hydrolase domain which finally precedes the conserved prenylation motif. Furthermore, we predict several fungal proteins that have a carboxy-terminal ubiquitin hydrolase domain in addition to a prenylation motif. Interestingly, there also exists an E2 ubiquitin-conjugating enzyme with conserved prenylation motif in <italic>Arabidopsis</italic> and rice.</p>
+        <p>The connection of prenylation and protein degradation continues with the prediction of a prenylation site in F-box and leucine-rich repeat proteins, with FBL2 being conserved in organisms from mammals to insects, worms, and fungi. These proteins typically serve as adaptors targeting substrate proteins of SCF (skip-cullin-F-box) and analogous degradation complexes [<xref rid="pcbi-0030066-b030" ref-type="bibr">30</xref>].</p>
+        <p>Besides proteins with already known functions, a conserved prenylation motif is also valuable information for proteins with domains of unknown functions. Most prominently in our list, proteins containing a DUF544 domain appear conserved in organisms from mammals to worms, plants, and fungi. In another cluster, integral membrane proteins from mammals, insects, and worms share a DUF1339 domain together with the prenylation motif.</p>
+      </sec>
+      <sec id="s2e">
+        <title>Selection and Experimental Verification of Human FTI Targets</title>
+        <p>The selection of candidates for experimental verification focuses on predictions related to possible human target proteins for FTIs, because of the implications for important upcoming cancer therapeutics [<xref rid="pcbi-0030066-b025" ref-type="bibr">25</xref>]. <xref ref-type="fig" rid="pcbi-0030066-g005">Figure 5</xref> depicts the different types of prenylation substrates distinguished by their enzyme preference, which determines the effectiveness of FT inhibition. While H-Ras has long been seen as a primary target for FTIs, it has become clear that other proteins are affected as well, and the hunt is on for these elusive FTI targets [<xref rid="pcbi-0030066-b017" ref-type="bibr">17</xref>].</p>
+        <p>The experimental verification of prenylation predictions follows a new, recently described methodology [<xref rid="pcbi-0030066-b018" ref-type="bibr">18</xref>] based on fast scanning of the incorporation of <sup>3</sup>H-labelled prenyl precursors with a thin layer chromatography (TLC) analyzer. Details are given in the Materials and Methods section. Conceptually, we test the site of prenylation by comparing the incorporation of <sup>3</sup>H-labelled mevalonate (general prenyl anchor precursor) in the wild-type protein and a mutant protein where the predicted prenylated cysteine is mutated to alanine (<xref ref-type="fig" rid="pcbi-0030066-g006">Figures 6</xref>â<xref ref-type="fig" rid="pcbi-0030066-g009">9</xref>, lanes 1 and 2). The type of prenyl anchor preferentially attached to the target proteins in vitro is tested by comparing the incorporation of <sup>3</sup>H-labelled farnesylpyrophosphate (farnesyl anchor precursor) and geranylgeranylpyrophosphate (geranylgeranyl anchor precursor), respectively (<xref ref-type="fig" rid="pcbi-0030066-g006">Figures 6</xref>â<xref ref-type="fig" rid="pcbi-0030066-g009">9</xref>, lanes 3 and 4). Furthermore, we investigate the role of prenylation for in vivo localization of GFP-tagged target proteins (<xref ref-type="fig" rid="pcbi-0030066-g010">Figure 10</xref>). Besides the wild-type and cysteine-mutant protein, we also analyze the effect of farnesyltransferase and geranylgeranyltransferase inhibitors on localization of the wild-type protein. From a true FTI target (pF) we expect the same mislocalisation phenotype with cysteine mutation and under FT inhibition, but no phenotype with GGT inhibitor (<xref ref-type="fig" rid="pcbi-0030066-g010">Figure 10</xref>A).</p>
+        <fig id="pcbi-0030066-g006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <title>Western Blots and TLC Scanning Results for Rab28 with Radioactive Prenyl Anchor Precursors</title>
+            <p>Western blot and corresponding scans from TLC linear analyzer of wild-type GST-Rab28-fusion protein translated with [<sup>3</sup>H]mevalonic acid (lane 1), GST-Rab28 C218A with [<sup>3</sup>H]mevalonic acid (lane 2), GST-Rab28 with [<sup>3</sup>H]FPP (lane 3), and GST-Rab28 with [<sup>3</sup>H]GGPP (lane 4). There is significant incorporation of a product of mevalonic acid as well as FPP, while incorporation of GGPP is not detectable, suggesting that Rab28 is primarily a farnesylation target.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.g006"/>
+        </fig>
+        <p>
+<xref ref-type="table" rid="pcbi-0030066-t002">Table 2</xref> shows the predicted human FTI targets (pFs as defined in <xref ref-type="fig" rid="pcbi-0030066-g005">Figure 5</xref>), top-ranked by evOluation score, and with numerical and taxonomy statistics of the cluster of orthologues. Several well-known prenylated proteins are among the top ten on the list. NAP1-like 1 (first) has recently been shown to be farnesylated [<xref rid="pcbi-0030066-b031" ref-type="bibr">31</xref>]. H-Ras (second) is the classically known FTI target [<xref rid="pcbi-0030066-b007" ref-type="bibr">7</xref>]. Also, prenylation of phosphorylase kinase Î² (fourth, [<xref rid="pcbi-0030066-b032" ref-type="bibr">32</xref>]), Dexras1 (fifth, [<xref rid="pcbi-0030066-b033" ref-type="bibr">33</xref>]), DnaJ/Hsp40 homologues (seventh, [<xref rid="pcbi-0030066-b034" ref-type="bibr">34</xref>]), and certain transducins (tenth, [<xref rid="pcbi-0030066-b035" ref-type="bibr">35</xref>]) is well established.</p>
+        <table-wrap id="pcbi-0030066-t002" content-type="2col" position="float">
+          <label>Table 2</label>
+          <caption>
+            <p>High-Ranked Predicted FTI-Targets (pFs) Sorted by EvOluation Score with Cluster and Taxonomy Statistics</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.t002"/>
+        </table-wrap>
+        <p>The selective preference of RasD2 (eighth) for farnesyl anchors has been unambiguously shown in our previous work [<xref rid="pcbi-0030066-b018" ref-type="bibr">18</xref>]. Direct experimental evidence for the prenylation of Prickle1 (third), the BRO1-domain containing cluster (sixth), Prickle2 (ninth), as well as for another important protein, the Rab28 short isoform (12th), is provided here (see paragraph below). Thus, the experimental verification of the prenylation status of the top clusters is completed with this work.</p>
+        <p>In humans, Rab28 exists in at least two isoforms, differing in an insertion at the C-terminus. They are distantly related to the Rab proteins (â¼30% sequence identity), which are important in vesicle fusion and targeting. While the short isoform is expressed in most tissues, the long isoform is predominately found in testis [<xref rid="pcbi-0030066-b036" ref-type="bibr">36</xref>]. As the enzymological tests in vitro show (<xref ref-type="fig" rid="pcbi-0030066-g006">Figure 6</xref>), Rab28 (motif: -CAVQ) can be prenylated exclusively by FT. This conclusion is supported also by in vivo cell culture studies (as well as for Prickle2 and FLJ32421/BROFTI; see <xref ref-type="fig" rid="pcbi-0030066-g010">Figure 10</xref>).</p>
+        <p>The in vitro experimental study provides direct evidence that FLJ32421 (motif: -CYIS), a hypothetical human protein, is a preferential farnesylation target (<xref ref-type="fig" rid="pcbi-0030066-g007">Figure 7</xref>). The protein contains a BRO1/Rhophilin-like domain that is known to interact with Rho proteins (which often carry prenyl anchors themselves [<xref rid="pcbi-0030066-b037" ref-type="bibr">37</xref>]), and the lipid anchors could generally serve to co-localize the binding partners [<xref rid="pcbi-0030066-b013" ref-type="bibr">13</xref>]. We suggest the name BROFTI instead of the generic FLJ32421 in tribute to its domain architecture and prenyltransferase substrate characteristics.</p>
+        <fig id="pcbi-0030066-g007" position="float">
+          <label>Figure 7</label>
+          <caption>
+            <title>Western Blots and TLC Scanning Results for FLJ32421 (BROFTI) with Radioactive Prenyl Anchor Precursors</title>
+            <p>Western blot and corresponding scans from TLC linear analyzer of wild-type GST-FLJ32421-fusion protein translated with [<sup>3</sup>H]mevalonic acid (lane 1), GST-FLJ32421 C408A with [<sup>3</sup>H]mevalonic acid (lane 2), GST-FLJ32421 with [<sup>3</sup>H]FPP (lane 3) and GST-FLJ32421 with [<sup>3</sup>H]GGPP (lane 4). There is significant incorporation of a product of mevalonic acid as well as FPP, while incorporation of GGPP is close to the detection limit, suggesting that FLJ32421 (BROFTI) is primarily a farnesylation target.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.g007"/>
+        </fig>
+        <p>Prickle1 (motif: -CIIS, <xref ref-type="fig" rid="pcbi-0030066-g008">Figure 8</xref>) and Prickle2 (motif: -CIIS, <xref ref-type="fig" rid="pcbi-0030066-g009">Figure 9</xref>), the human homologues to the prickle gene of <named-content content-type="genus-species">Drosophila melanogaster</named-content> [<xref rid="pcbi-0030066-b038" ref-type="bibr">38</xref>], are both preferential farnesylation targets. In fly, the gene product is important for establishing planar cell polarity [<xref rid="pcbi-0030066-b039" ref-type="bibr">39</xref>,<xref rid="pcbi-0030066-b040" ref-type="bibr">40</xref>]. Similar functions in cell polarity have been demonstrated in frog (<named-content content-type="genus-species">Xenopus laevis</named-content>) [<xref rid="pcbi-0030066-b041" ref-type="bibr">41</xref>], zebrafish (<named-content content-type="genus-species">Danio rerio</named-content>) [<xref rid="pcbi-0030066-b042" ref-type="bibr">42</xref>], and ascidians (<named-content content-type="genus-species">Cioni savignyi</named-content>) [<xref rid="pcbi-0030066-b043" ref-type="bibr">43</xref>], indicating that the function in human might also be in the localization of the planar cell polarity proteins Frizzled and Dishevelled. The CaaX box in zebrafish Prickle was already shown to be important for localization of the protein [<xref rid="pcbi-0030066-b042" ref-type="bibr">42</xref>].</p>
+        <fig id="pcbi-0030066-g008" position="float">
+          <label>Figure 8</label>
+          <caption>
+            <title>Western Blots and TLC Scanning Results for a 15 Amino Acid C-terminal Fragment of Prickle1 with Radioactive Prenyl Anchor Precursors</title>
+            <p>Western blot and corresponding scans from TLC linear analyzer of wild-type GST-ÎPrickle1 fusion protein translated with [<sup>3</sup>H]mevalonic acid (lane 1), GST-ÎPrickle1 C828A with [<sup>3</sup>H]mevalonic acid (lane 2), GST-ÎPrickle1 with [<sup>3</sup>H]FPP (lane 3) and GST-ÎPrickle1 with [<sup>3</sup>H]GGPP (lane 4). There is significant incorporation of a product of mevalonic acid as well as FPP, while incorporation of GGPP is lower despite a higher total amount of protein in the latter case, suggesting that Prickle1 is primarily a farnesylation target.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.g008"/>
+        </fig>
+        <fig id="pcbi-0030066-g009" position="float">
+          <label>Figure 9</label>
+          <caption>
+            <title>Western Blots and TLC Scanning Results for a 15 Amino Acid C-terminal Fragment of Prickle2 with Radioactive Prenyl Anchor Precursors</title>
+            <p>Western blot and corresponding scans from TLC linear analyzer of wild-type GST-ÎPrickle2-fusion protein translated with [<sup>3</sup>H]mevalonic acid (lane 1), GST-ÎPrickle2 C842A with [<sup>3</sup>H]mevalonic acid (lane 2), GST-ÎPrickle2 with [<sup>3</sup>H]FPP (lane 3), and GST-ÎPrickle2 with [<sup>3</sup>H]GGPP (lane 4). There is significant incorporation of a product of mevalonic acid as well as FPP, while incorporation of GGPP is lower despite a higher total amount of protein, suggesting that Prickle2 is primarily a farnesylation target.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.g009"/>
+        </fig>
+        <fig id="pcbi-0030066-g010" position="float">
+          <label>Figure 10</label>
+          <caption>
+            <title>Localization of N-terminal GFP Constructs of Rab28, FLJ32421/BROFTI, Prickle2 (507â844), and RhoA63L in HeLa Cells</title>
+            <p>HeLa cells were analysed by fluorescence microscopy after transfection with the following constructs: inserts 1, 3, and 4âGFP-Rab28; insert 2âGFP-Rab28 C218A; inserts 5, 7, and 8âGFP-FLJ32421; insert 6âGFP-FLJ32421 C408A; inserts 9, 11, and 12âPrickle2; insert 10âGFP-Prickle2 C841A; inserts 13, 15, and 16âGFP-RhoA63L (as positive control for a geranylgeranylated target); insert 14âGFP-RhoA63L C190S. The GFP-RhoA plasmids were kindly provided by Channing J. Der (University of North Carolina Chapel Hill, Chapel Hill, North Carolina, United States). Nuclei were co-stained with DAPI (blue color).</p>
+            <p>(A) GFP-Rab28, GFP-FLJ32421, and GFP-Prickle2 are membrane-localized with (4, 8, 12) or without (1, 5, 9) GGTI-298 treatment. Mutation of the Cys in the CaaX box (2, 6, 10) or treatment with FTI-277 (3, 7, 11) cause mislocalization and accumulation of the fusion proteins in the nucleus.</p>
+            <p>(B) GFP-RhoA is membrane-localized with (15) or without (13) FTI-277 treatment. Mutation of the Cys in the CaaX box (14) or treatment with GGTI-298 (16) cause mislocalization and accumulation of RhoA in the nucleus.</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.g010"/>
+        </fig>
+        <p>While we have tested the prenylation status of evolu-tionarily widely conserved, high-ranking examples in our list, there are in total 128 human proteins that serve as predicted FTI targets. The full list is available online at (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.ac.at/sat/PrePS/tmp/Hcs2220ce111ct11111111111111cm1se200st00202222222221r3.html">http://mendel.imp.ac.at/sat/PrePS/tmp/Hcs2220ce111ct11111111111111cm1se200st00202222222221r3.html</ext-link>)</p>
+      </sec>
+      <sec id="s2f">
+        <title>Dual FT/GGT1 Targets Unaffected by FT Inhibition</title>
+        <p>As opposed to pFs, pFGGs are classified due to their ability to be prenylated by either FT or GGT1 (<xref ref-type="fig" rid="pcbi-0030066-g005">Figure 5</xref>). These pFGGs include (1) proteins with motifs ending in Leucine that are better GGT1 than FT substrates, as well as (2) proteins that are normally farnesylated in the cell (better FT substrates), but can be alternatively prenylated by GGT1 if FT is inhibited. <xref ref-type="table" rid="pcbi-0030066-t003">Table 3</xref> lists the top 15 of the latter group. Among these are oncogenic proteins such as K-Ras and N-Ras, with the severe result that FTI inhibitors are ineffective against associated cancers.</p>
+        <table-wrap id="pcbi-0030066-t003" content-type="1col" position="float">
+          <label>Table 3</label>
+          <caption>
+            <p>High-Ranked FT Substrates Predicted To Be Unaffected by FT Inhibition</p>
+          </caption>
+          <graphic xlink:href="pcbi.0030066.t003"/>
+        </table-wrap>
+      </sec>
+      <sec id="s2g">
+        <title>New Viral Proteins Processed by Eukaryotic Host Enzymes</title>
+        <p>Previously, the only known examples of prenylation of viral proteins by the eukaryotic host were the Hepatitis Delta large antigen and viral variants of H-Ras and K-Ras, as well as the US2 tegument protein of bovine Herpes viruses.</p>
+        <p>Surprisingly, our search reveals two candidate proteins from Mimivirus, a giant virus in amoebae that might be a pneumonia-associated human pathogen [<xref rid="pcbi-0030066-b044" ref-type="bibr">44</xref>,<xref rid="pcbi-0030066-b045" ref-type="bibr">45</xref>]. The first predicted prenylated Mimivirus protein is most closely related to Rab GTPases, while the second is a DnaJ-like molecular chaperone. This particularly large DNA virus is known for its extraordinary gene content normally absent in other viruses [<xref rid="pcbi-0030066-b046" ref-type="bibr">46</xref>]. Since there is no similarity to the prenylating enzymes in the Mimivirus genome, the predicted prenylation motifs would only be able to receive a lipid anchor by eukaryotic host enzymes. In light of the fact that several Mimivirus proteins originate from horizontal gene transfer from eukaryotes [<xref rid="pcbi-0030066-b047" ref-type="bibr">47</xref>], it is interesting to note that the Rab-like protein is most similar to Rabs found in three different Alveolata species, while the DnaJ-like protein has its closest homologues in Trypanosomes. If, indeed, the prenylation motif would have remained functional and been processed by eukaryotic host enzymes, FTI inhibitors could eventually affect the lipid modification of the DnaJ-like protein whose -CAQQ motif cannot be prenylated by enzymes other than farnesyltransferase.</p>
+        <p>While there are several other predictions of prenylation motifs in viral proteins (170 sequences in 46 clusters), it is difficult to estimate the likelihood of their functionality, given the requirement that eukaryotic host enzymes be available. Hence, we are more confident in predicted prenylation motifs in proteins that are at least homologous to proteins with known prenylation in Eukaryotes. As an additional example to the above Mimivirus proteins, we find an ankyrin domainâcontaining protein with FT-specific prenylation motif conserved in canarypox and fowlpox virus.</p>
+      </sec>
+      <sec id="s2h">
+        <title>Importance of Specific Prenyl Anchor Length and Evolutionary Exchangeability</title>
+        <p>Farnesyl (C15) and geranylgeranyl (C20) anchors differ in length by one isoprene unit (C5). However, this difference does not seem to matter for some proteins, such as the yeast a-factor mating pheromone [<xref rid="pcbi-0030066-b048" ref-type="bibr">48</xref>] and RhoA [<xref rid="pcbi-0030066-b049" ref-type="bibr">49</xref>]. On the contrary, importance of the specific prenyl anchor length has been shown, at least, for G gamma 1 and 2 [<xref rid="pcbi-0030066-b050" ref-type="bibr">50</xref>], rhodopsin kinase [<xref rid="pcbi-0030066-b051" ref-type="bibr">51</xref>], H-Ras [<xref rid="pcbi-0030066-b052" ref-type="bibr">52</xref>,<xref rid="pcbi-0030066-b053" ref-type="bibr">53</xref>], R-Ras [<xref rid="pcbi-0030066-b053" ref-type="bibr">53</xref>], and RhoB [<xref rid="pcbi-0030066-b054" ref-type="bibr">54</xref>]. Besides the change in hydrophobicity and altered membrane affinity, the cause of the length dependency might lie in specific interactions with prenyl-binding domains of other proteins [<xref rid="pcbi-0030066-b006" ref-type="bibr">6</xref>].</p>
+        <p>In PRENbase, we observe that protein families differ in the evolutionary exchangeability of farnesyl and geranylgeranyl anchors. While there are several pFGG families where both anchor types are predicted to occur, there are a few pF-only families where farnesyl anchors appear to be the strongly preferred lipid type. From the above list of known examples for length dependency, we find that only G gamma 1 and 2 have a purely conserved farnesyl preference. While for rhodopsin kinase only the chicken orthologue switched to geranylgeranyl, there are several lower eukaryotes with an H-Ras orthologue ending in a geranylgeranylation motif. R-Ras and RhoB end with a -CXXL motif that by itself already can be substrate of either FT or GGT1.</p>
+        <p>At the same time, the a-factor mating pheromones, where anchor length should be less important, also appear in pF-only families, which, however, could be due to the confinement of clustering together only very closely related species lacking evolutionary time to diverge. The same probably applies to the many almost identical large subunits of Hepatitis delta virus, which are clustered into a pF-only family. On the other hand, the FT restriction also represents a possible vulnerability to FT inhibitors.</p>
+        <p>Given the above listed ambiguities, one cannot conclude with certainty whether a specific prenyl anchor length is important for a protein family based on the evolutionary variability of substrate preferences. However, in a taxonomically widely conserved family, a clear preference for farnesylation could still indicate a length dependency and, consequently, a requirement of farnesyl for specific proteinâprotein interactions. In HumanPRENbase, besides the above mentioned G gamma 1 and 2, the following families fall under these criteria: nucleosome assembly protein 1-like 1, prickle-like 1, phosphorylase kinase Î², FLJ32421/BROFTI, RasD2/Rhes, RhoH, Rab28 long isoform, RhoQ, EH domain binding protein 1, DnaJ-homolog A4, 72kDa inositol polyphosphate-5-phosphatase E, and WD+tetratricopeptide repeats protein 1.</p>
+      </sec>
+      <sec id="s2i">
+        <title>Conclusions</title>
+        <p>PRENbase provides (1) a review of previous knowledge of known and likely prenylated proteins resulting in the rediscovery of the large group of prenylated metal-binding chaperones in plants; (2) target lists for experimental validation of newly predicted prenylation are ranked by evolutionary conservation, which leads to the notion that several proteins involved in ubiquitin-mediated protein degradation could be prenylated; (3) lists of possible targets for FT inhibition (human proteins that are unique substrates of FT and not GGT1 or GGT2) with the experimental evidence for Prickle1, Prickle2, the BRO1-domain-containing FLJ32421 (termed BROFTI), and Rab28 (short isoform); (4) lists of dual FT/GGT substrates that are essentially not affected by FT inhibition or that can receive an altered anchor type under FT inhibition; (5) a list of viral proteins possibly processed by eukaryotic host enzymes, most notably two proteins from Mimivirus; as well as (6) examples of the importance of specific farnesyl anchor length (clusters that only include FT but not GGT1 or GGT2 substrates) that could be indicative of involvement in proteinâprotein interactions.</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Materials and Methods</title>
+      <sec id="s3a">
+        <title>PRENbase family clustering procedure.</title>
+        <p>In MYRbase, sequences with higher than 40% sequence identity have been clustered into protein families. This rather conservative threshold is reasonable to infer similarity of biological function [<xref rid="pcbi-0030066-b055" ref-type="bibr">55</xref>â<xref rid="pcbi-0030066-b057" ref-type="bibr">57</xref>] with confidence, but frequently leads to spreading protein families with many remotely similar members and from phylogenetically distant taxa over several clusters. In the case of PRENbase, we applied the MCL procedure to unite many of these clusters [<xref rid="pcbi-0030066-b022" ref-type="bibr">22</xref>] and to facilitate a more comprehensive phylogenetic comparison. The use of BLAST [<xref rid="pcbi-0030066-b021" ref-type="bibr">21</xref>] allows finding more remote homologues, but simple single linkage clustering based merely on significant BLAST similarity cannot account for the multidomain modular architecture of proteins. For example, frequently occurring regulatory domains (such as SH3) can appear in different contexts with other domains. Therefore, proteins with different functions would be clustered together according to their similarity in such a single overlapping domain hit. These problems seem to have been largely overcome by the MCL algorithm [<xref rid="pcbi-0030066-b022" ref-type="bibr">22</xref>] that allows for a certain flexibility of intercluster BLAST connections that are weaker than respective average intracluster links. More precisely, the MCL method understands sequences as nodes in a graph with edges between nodes weighted by the negative logarithm of the BLAST E-value of the two sequences (the average of backward and forward searches); hence, their sequence similarity. The graph is transformed into a matrix with edge weights being normalized to probabilities of walking between nodes. When simulating random walks within the graph, walks within clusters are much more likely than walks between clusters. Through iterative expansion and inflation of the matrix (until the matrix essentially remains unaltered by further iterations), the links within clusters are strengthened and intercluster connections downweighted.</p>
+        <p>To cluster predicted proteins into their natural families independent of the existence/prediction of a lipid anchor, we have executed BLAST searches (E-value 0.005) starting with the 5,410 predicted proteins against the same complete database from which the predictions were derived (NCBI's NR with 2,179,151 entries, based on GenBank/GenPept version 144). Using the measured BLAST similarity as input for MCL [<xref rid="pcbi-0030066-b022" ref-type="bibr">22</xref>], with the inflation parameter I set to 5.0 (for fine-grained clusterings, best precision in a benchmark of clustering SCOP families [<xref rid="pcbi-0030066-b022" ref-type="bibr">22</xref>]), we obtain 1,024 clusters. For comparison, single linkage clustering of the 5410 proteins at an E-value threshold of 0.005 would result in 615 clusters, merging several clusters compared with the MCL clustering.</p>
+      </sec>
+      <sec id="s3b">
+        <title>HumanPRENbase orthologue clustering.</title>
+        <p>We first generated a list of human proteins that are predicted to be prenylated by at least one of the three enzymes FT, GGT1, and GGT2 by running PrePS over NCBI's NR. Then, we determined the orthologues in other organisms with the condition of best reciprocal BLAST hits. The algorithm employed here follows in the steps of earlier methods to detect orthology and paralogy relationships [<xref rid="pcbi-0030066-b058" ref-type="bibr">58</xref>,<xref rid="pcbi-0030066-b059" ref-type="bibr">59</xref>], employing the definition of orthologues and in-paralogues as in [<xref rid="pcbi-0030066-b060" ref-type="bibr">60</xref>]. This scheme, however, is not straightforward due to several problems. First, the reciprocal similarity search started with the nonhuman organism might find an isoform or in-paralogue (duplication has occurred after the last speciation event) of the initial human query as best hit. We have found that a threshold of greater than or equal to 98% identity (within the aligned segments) is a reasonable threshold with which to classify isoforms. In-paralogues were identified as human proteins that occur as BLAST hits with an E-value smaller than E-50 (this threshold is set to limit the number of noninformative reciprocal BLASTs) and that find the initial query or find one of its known isoforms in a reciprocal BLAST before proteins of any nonhuman species. Finally, we define orthologues as proteins that are the best hits of their species to a human query protein and that in a back-BLAST find either the initial query or its isoforms or in-paralogues as best human hit.</p>
+      </sec>
+      <sec id="s3c">
+        <title>Construct production and cloning.</title>
+        <p>We generated plasmids containing GST and pEGFP fusions of all genes studied in this work. The cDNAs of Rab28 short isoform and FLJ32421/BROFTI were cloned into the pGEX5X1-vector, thereby creating N-terminal GST-fusion proteins. Since the cDNAs received for Prickle1 and Prickle2 did not match or only partially matched the desired sequence, we used oligonucleotides representing the last 15 residues at the C-terminus instead. The Stratagene QuikChange XL Site-Directed Mutagenesis Kit was used to introduce a cysteine-to-alanine mutation in the CaaX motif. Since this residue is the site of covalent thioether linkage of the isoprenoid modification, the ability to become modified should be abolished. Both wild-type and mutant cDNA of Rab28 short isoform and FLJ32421/BROFTI were also cloned into the pEGFP C2 vector. For Prickle2, we used a C-terminal fragment representing the last 338 residues at the C-terminus, which is the longest matching sequence we had available. The N-terminal GFP-fusion proteins were used to investigate the subcellular localization in transiently transfected HeLa cells. No GFP-construct of Prickle1 was cloned, since the localization of the last 15 amino acids would not have been representative at all.</p>
+      </sec>
+      <sec id="s3d">
+        <title>In vitro prenylation assay.</title>
+        <p>The cDNA of the GST fusion proteins was amplified by PCR and transcribed and translated in vitro using the Promega TNT Quick Coupled Transcription/Translation Kit in the presence of the radioactive label of choice (typically, 20 Î¼Ci [<sup>3</sup>H]mevalonic acid, 10 Î¼Ci [<sup>3</sup>H]FPP, or [<sup>3</sup>H]GGPP, all purchased from American Radiolabeled Chemicals, <ext-link ext-link-type="uri" xlink:href="http://www.arc-inc.com">http://www.arc-inc.com</ext-link>). The target protein was purified using glutathione sepharose 4B-beads (75% slurry, from Amersham Biosciences, <ext-link ext-link-type="uri" xlink:href="http://www.gelifesciences.com">http://www.gelifesciences.com</ext-link>), precipitated with ice-cold acetone and resuspended in sample buffer. After SDS-PAGE and transfer to a nitrocellulose membrane by electroblotting, the incorporated label was detected using a Berthold TLC linear analyzer LB 282. The protein yield was detected by standard Western blotting techniques (primary antibody: anti-GST-antibody from rabbit, 1:5,000; secondary antibody: ECL Anti-rabbit IgG, Horseradish peroxidase linked whole antibody from donkey purchased from Amersham Biosciences, 1:10.000; ECL plus Western Blotting Detection Kit solution, Hyperfilm ECL from Amersham Biosciences).</p>
+      </sec>
+      <sec id="s3e">
+        <title>Determination of intracellular localization.</title>
+        <p>HeLa cells were transfected with the GFP-expression vector constructs for Rab28 short isoform, FLJ32421/BROFTI and Prickle2 using Lipofectamine and Plus Reagent in serum-free medium (Life Technologies, <ext-link ext-link-type="uri" xlink:href="http://www.invitrogen.com">http://www.invitrogen.com</ext-link>). The cells were grown to sufficient density, fixed, permeabilized, washed, and mounted in vectashield (Vector Laboratories, <ext-link ext-link-type="uri" xlink:href="http://www.vectorlabs.com">http://www.vectorlabs.com</ext-link>). Localization of the fusion proteins was investigated by fluorescence microscopy. The effect of farnesylation and geranylgeranylation inhibitors was assessed by treatment of the cells with FTI-277 (10 Î¼M) or GGTI-298 (5 Î¼M) (Sigma, <ext-link ext-link-type="uri" xlink:href="http://www.sigmaaldrich.com">http://www.sigmaaldrich.com</ext-link>). All experimental procedures were performed as previously described [<xref rid="pcbi-0030066-b018" ref-type="bibr">18</xref>].</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s4">
+      <title>Supporting Information</title>
+      <sec id="s4a">
+        <title>Accession Numbers</title>
+        <p>Accession numbers (IMAGE clone ID) of cDNA clones from the RZPD clone libraries (<ext-link ext-link-type="uri" xlink:href="http://www.rzpd.de/products/clones">http://www.rzpd.de/products/clones</ext-link>) used in this paper are: FLJ32421/BROFTI (IMAGp961F02139Q2), Prickle1 (IMAGp998C0210744Q1), Prickle2 (IMAGp686N1787Q2), and Rab28 short isoform (IMAGp686F1021Q2).</p>
+        <p>Accession numbers from GenBank (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/Genbank">http://www.ncbi.nlm.nih.gov/Genbank</ext-link>) of mRNA corresponding to the cDNA clones used in this paper are: Rab28 short isoform (NM_001017979), Prickle1 (NM_153026), Prickle2 (NM_198859), and FLJ32421/BROFTI (NM_144695).</p>
+        <p>Accession numbers of clusters from PRENbase (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.ac.at/sat/PrePS/PRENbase">http://mendel.imp.ac.at/sat/PrePS/PRENbase</ext-link>) mentioned in this paper are: a-factor mating pheromones (6324184), mammalian, insect and nematode UBL3s (22137475), fungal and plant UBL3s (50912815), ubiquitin specific protease 32 (13560797), fungal ubiquitin hydrolases (50426781) and (40744684), E2 ubiquitin-conjugating enzyme from <italic>Arabidopsis</italic> and rice (50918253), F-box and leucine-rich repeat proteins (47218849), proteins containing a DUF544 domain (35193062 and 40740499), integral membrane proteins from mammals, insects, and worms sharing a DUF1339 domain (20521916).</p>
+        <p>Accession numbers of clusters from HumanPRENbase (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.ac.at/sat/PrePS/HumanPRENbase/">http://mendel.imp.ac.at/sat/PrePS/HumanPRENbase/</ext-link>) mentioned in this paper are: nucleosome assembly protein 1-like 1 (21327708), prickle-like 1 (23308518), phosphorylase kinase Î² (4505783), FLJ32421/BROFTI (55665085), RasD2/Rhes (4092830), RhoH (4757770), Rab28 long isoform (4758994), RhoQ (51460469), EH domain binding protein 1 (45501001), DnaJ-homolog A4 (21758015), 72kDa inositol polyphosphate-5-phosphatase E (38327539), WD+tetratricopeptide repeats protein 1 (41018470), G gamma 1 (2695592), G gamma 2 (14589849), rhodopsin kinase (4506529), H-Ras (4885425), R-Ras (5454028), and RhoB (37718739).</p>
+        <p>Accession numbers (GI numbers) from GenBank (<ext-link ext-link-type="uri" xlink:href="http://www.ncbi.nlm.nih.gov/Genbank">http://www.ncbi.nlm.nih.gov/Genbank</ext-link>) of proteins mentioned in this paper are: ankyrin-repeat containing proteins from canarypox (40555979) and fowlpox virus (41023315), Mimivirus Rab-like protein (55819093), and Mimivirus DnaJ-like molecular chaperone (55819138).</p>
+        <p>Additional accession numbers of clusters from HumanPRENbase (<ext-link ext-link-type="uri" xlink:href="http://mendel.imp.ac.at/sat/PrePS/HumanPRENbase/">http://mendel.imp.ac.at/sat/PrePS/HumanPRENbase/</ext-link>) can be found in <xref ref-type="table" rid="pcbi-0030066-t002">Tables 2</xref> and <xref ref-type="table" rid="pcbi-0030066-t003">3</xref>.</p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>The authors are grateful for generous financial support from Boehringer Ingelheim. The computational facilities have been supported by SUN Microsystems through their academic Center of Excellence sponsorship program. Since November 2005, SMS is recipient of a Marie Curie Intra-European Fellowship.</p>
+    </ack>
+    <fn-group>
+      <fn id="ack3" fn-type="COI-statement">
+        <p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.</p>
+      </fn>
+      <fn id="n102" fn-type="previously-at">
+        <p>A previous version of this article appeared as an Early Online Release on February 23, 2007 (doi:<ext-link ext-link-type="doi" xlink:href="10.1371/journal.pcbi.0030066.eor">10.1371/journal.pcbi.0030066.eor</ext-link>).</p>
+      </fn>
+      <fn id="ack1" fn-type="con">
+        <p>
+<bold>Author contributions.</bold> SMS, MK, and FE conceived and designed the experiments. SMS, MK, and WB performed the experiments. SMS and FLS analyzed the data. GS contributed reagents/materials/analysis tools. SMS and FE wrote the paper.</p>
+      </fn>
+      <fn id="ack2" fn-type="financial-disclosure">
+        <p>
+<bold>Funding.</bold> This project has been partly funded by the Gen-AU (Genome Research in Austria) Bioinformatics Integration Network (BIN) sponsored by BMBWK (Austrian Federal Ministry for Education, Science, and Culture).</p>
+      </fn>
+    </fn-group>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>FT</term>
+          <def>
+            <p>farnesyltransferase</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>FTI</term>
+          <def>
+            <p>FT inhibitor</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GGT1</term>
+          <def>
+            <p>geranylgeranyltransferase type I</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>GGT2</term>
+          <def>
+            <p>geranylgeranyltransferase type II</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>MCL</term>
+          <def>
+            <p>Markov chain clustering</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NCBI</term>
+          <def>
+            <p>National Center for Biotechnology Information</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>NR</term>
+          <def>
+            <p>nonredundant protein sequence database</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>pF</term>
+          <def>
+            <p>protein prenylated by FT but not GGT1</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PF</term>
+          <def>
+            <p>prenyltransferases</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>pFGG</term>
+          <def>
+            <p>protein prenylated by FT and GGT1</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>pGG</term>
+          <def>
+            <p>protein prenylated by GGT1</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>PrePS</term>
+          <def>
+            <p>Prenylation Prediction Suite</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>REP</term>
+          <def>
+            <p>Rab escort protein</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>TLC</term>
+          <def>
+            <p>thin layer chromatography</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+    <ref-list>
+      <title>References</title>
+      <ref id="pcbi-0030066-b001">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Casey</surname><given-names>PJ</given-names></name><name><surname>Seabra</surname><given-names>MC</given-names></name></person-group>
+<year>1996</year>
+<article-title>Protein prenyltransferases</article-title>
+<source>J Biol Chem</source>
+<volume>271</volume>
+<fpage>5289</fpage>
+<lpage>5292</lpage>
+<pub-id pub-id-type="pmid">8621375</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b002">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Washietl</surname><given-names>S</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name></person-group>
+<year>2003</year>
+<article-title>Protein prenyltransferases</article-title>
+<source>Genome Biol</source>
+<volume>4</volume>
+<fpage>212</fpage>
+<pub-id pub-id-type="pmid">12702202</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b003">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Roskoski</surname><given-names>R</given-names><suffix>Jr</suffix></name></person-group>
+<year>2003</year>
+<article-title>Protein prenylation: A pivotal posttranslational process</article-title>
+<source>Biochem Biophys Res Commun</source>
+<volume>303</volume>
+<fpage>1</fpage>
+<lpage>7</lpage>
+<pub-id pub-id-type="pmid">12646157</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b004">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pylypenko</surname><given-names>O</given-names></name><name><surname>Rak</surname><given-names>A</given-names></name><name><surname>Reents</surname><given-names>R</given-names></name><name><surname>Niculae</surname><given-names>A</given-names></name><name><surname>Sidorovitch</surname><given-names>V</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Structure of rab escort protein-1 in complex with rab geranylgeranyltransferase</article-title>
+<source>Mol Cell</source>
+<volume>11</volume>
+<fpage>483</fpage>
+<lpage>494</lpage>
+<pub-id pub-id-type="pmid">12620235</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b005">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pereira-Leal</surname><given-names>JB</given-names></name><name><surname>Hume</surname><given-names>AN</given-names></name><name><surname>Seabra</surname><given-names>MC</given-names></name></person-group>
+<year>2001</year>
+<article-title>Prenylation of Rab GTPases: Molecular mechanisms and involvement in genetic disease</article-title>
+<source>FEBS Lett</source>
+<volume>498</volume>
+<fpage>197</fpage>
+<lpage>200</lpage>
+<pub-id pub-id-type="pmid">11412856</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b006">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sinensky</surname><given-names>M</given-names></name></person-group>
+<year>2000</year>
+<article-title>Functional aspects of polyisoprenoid protein substituents: Roles in proteinâprotein interaction and trafficking</article-title>
+<source>Biochim Biophys Acta</source>
+<volume>1529</volume>
+<fpage>203</fpage>
+<lpage>209</lpage>
+<pub-id pub-id-type="pmid">11111089</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b007">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sebti</surname><given-names>SM</given-names></name><name><surname>Hamilton</surname><given-names>AD</given-names></name></person-group>
+<year>2000</year>
+<article-title>Farnesyltransferase and geranylgeranyltransferase I inhibitors and cancer therapy: Lessons from mechanism and bench-to-bedside translational studies</article-title>
+<source>Oncogene</source>
+<volume>19</volume>
+<fpage>6584</fpage>
+<lpage>6593</lpage>
+<pub-id pub-id-type="pmid">11426643</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b008">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Washietl</surname><given-names>S</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name></person-group>
+<year>2003</year>
+<article-title>Protein prenyltransferases: Anchor size, pseudogenes, and parasites</article-title>
+<source>Biol Chem</source>
+<volume>384</volume>
+<fpage>977</fpage>
+<lpage>989</lpage>
+<pub-id pub-id-type="pmid">12956414</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b009">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gelb</surname><given-names>MH</given-names></name><name><surname>Van Voorhis</surname><given-names>WC</given-names></name><name><surname>Buckner</surname><given-names>FS</given-names></name><name><surname>Yokoyama</surname><given-names>K</given-names></name><name><surname>Eastman</surname><given-names>R</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>Protein farnesyl and N-myristoyl transferases: Piggy-back medicinal chemistry targets for the development of antitrypanosomatid and antimalarial therapeutics</article-title>
+<source>Mol Biochem Parasitol</source>
+<volume>126</volume>
+<fpage>155</fpage>
+<lpage>163</lpage>
+<pub-id pub-id-type="pmid">12615314</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b010">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name></person-group>
+<year>2005</year>
+<article-title>Refinement and prediction of protein prenylation motifs</article-title>
+<source>Genome Biol</source>
+<volume>6</volume>
+<fpage>R55</fpage>
+<pub-id pub-id-type="pmid">15960807</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b011">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Eisenhaber</surname><given-names>B</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name></person-group>
+<year>2002</year>
+<article-title>N-terminal N-myristoylation of proteins: Prediction of substrate proteins from amino acid sequence</article-title>
+<source>J Mol Biol</source>
+<volume>317</volume>
+<fpage>541</fpage>
+<lpage>557</lpage>
+<pub-id pub-id-type="pmid">11955008</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b012">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Eisenhaber</surname><given-names>B</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name></person-group>
+<year>2002</year>
+<article-title>N-terminal N-myristoylation of proteins: Refinement of the sequence motif and its taxon-specific differences</article-title>
+<source>J Mol Biol</source>
+<volume>317</volume>
+<fpage>523</fpage>
+<lpage>540</lpage>
+<pub-id pub-id-type="pmid">11955007</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b013">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Gouda</surname><given-names>M</given-names></name><name><surname>Novatchkova</surname><given-names>M</given-names></name><name><surname>Schleiffer</surname><given-names>A</given-names></name><name><surname>Schneider</surname><given-names>G</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>MYRbase: Analysis of genome-wide glycine myristoylation enlarges the functional spectrum of eukaryotic myristoylated proteins</article-title>
+<source>Genome Biol</source>
+<volume>5</volume>
+<fpage>R21</fpage>
+<pub-id pub-id-type="pmid">15003124</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b014">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Connor</surname><given-names>E</given-names></name><name><surname>Eisenhaber</surname><given-names>B</given-names></name><name><surname>Dalley</surname><given-names>J</given-names></name><name><surname>Wang</surname><given-names>T</given-names></name><name><surname>Missen</surname><given-names>C</given-names></name><etal/></person-group>
+<year>2005</year>
+<article-title>Species-specific membrane anchoring of nyctalopin, a small leucine-rich repeat protein</article-title>
+<source>Hum Mol Genet</source>
+<volume>14</volume>
+<fpage>1877</fpage>
+<lpage>1887</lpage>
+<pub-id pub-id-type="pmid">15905181</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b015">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>MacLeod</surname><given-names>KJ</given-names></name><name><surname>Fuller</surname><given-names>RS</given-names></name><name><surname>Scholten</surname><given-names>JD</given-names></name><name><surname>Ahn</surname><given-names>K</given-names></name></person-group>
+<year>2001</year>
+<article-title>Conserved cysteine and tryptophan residues of the endothelin-converting enzyme-1 CXAW motif are critical for protein maturation and enzyme activity</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>30608</fpage>
+<lpage>30614</lpage>
+<pub-id pub-id-type="pmid">11397811</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b016">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Neuberger</surname><given-names>G</given-names></name><name><surname>Kunze</surname><given-names>M</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name><name><surname>Berger</surname><given-names>J</given-names></name><name><surname>Hartig</surname><given-names>A</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>Hidden localization motifs: naturally occurring peroxisomal targeting signals in non-peroxisomal proteins</article-title>
+<source>Genome Biol</source>
+<volume>5</volume>
+<fpage>R97</fpage>
+<pub-id pub-id-type="pmid">15575971</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b017">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sebti</surname><given-names>SM</given-names></name><name><surname>Der</surname><given-names>CJ</given-names></name></person-group>
+<year>2003</year>
+<article-title>Opinion: Searching for the elusive targets of farnesyltransferase inhibitors</article-title>
+<source>Nat Rev Cancer</source>
+<volume>3</volume>
+<fpage>945</fpage>
+<lpage>951</lpage>
+<pub-id pub-id-type="pmid">14737124</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b018">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Benetka</surname><given-names>W</given-names></name><name><surname>Koranda</surname><given-names>M</given-names></name><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Pittner</surname><given-names>F</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name></person-group>
+<year>2006</year>
+<article-title>Farnesylation or geranylgeranylation? Efficient assays for testing protein prenylation in vitro and in vivo</article-title>
+<source>BMC Biochem</source>
+<volume>7</volume>
+<fpage>6</fpage>
+<pub-id pub-id-type="pmid">16507103</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b019">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Joberty</surname><given-names>G</given-names></name><name><surname>Tavitian</surname><given-names>A</given-names></name><name><surname>Zahraoui</surname><given-names>A</given-names></name></person-group>
+<year>1993</year>
+<article-title>Isoprenylation of Rab proteins possessing a C-terminal CaaX motif</article-title>
+<source>FEBS Lett</source>
+<volume>330</volume>
+<fpage>323</fpage>
+<lpage>328</lpage>
+<pub-id pub-id-type="pmid">8375503</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b020">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Wilson</surname><given-names>AL</given-names></name><name><surname>Erdman</surname><given-names>RA</given-names></name><name><surname>Castellano</surname><given-names>F</given-names></name><name><surname>Maltese</surname><given-names>WA</given-names></name></person-group>
+<year>1998</year>
+<article-title>Prenylation of Rab8 GTPase by type I and type II geranylgeranyl transferases</article-title>
+<source>Biochem J</source>
+<volume>333</volume>
+<issue>( Part 3)</issue>
+<fpage>497</fpage>
+<lpage>504</lpage>
+<pub-id pub-id-type="pmid">9677305</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b021">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Altschul</surname><given-names>SF</given-names></name><name><surname>Madden</surname><given-names>TL</given-names></name><name><surname>Schaffer</surname><given-names>AA</given-names></name><name><surname>Zhang</surname><given-names>J</given-names></name><name><surname>Zhang</surname><given-names>Z</given-names></name><etal/></person-group>
+<year>1997</year>
+<article-title>Gapped BLAST and PSI-BLAST: A new generation of protein database search programs</article-title>
+<source>Nucleic Acids Res</source>
+<volume>25</volume>
+<fpage>3389</fpage>
+<lpage>3402</lpage>
+<pub-id pub-id-type="pmid">9254694</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b022">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Enright</surname><given-names>AJ</given-names></name><name><surname>Van Dongen</surname><given-names>S</given-names></name><name><surname>Ouzounis</surname><given-names>CA</given-names></name></person-group>
+<year>2002</year>
+<article-title>An efficient algorithm for large-scale detection of protein families</article-title>
+<source>Nucleic Acids Res</source>
+<volume>30</volume>
+<fpage>1575</fpage>
+<lpage>1584</lpage>
+<pub-id pub-id-type="pmid">11917018</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b023">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Navarrete</surname><given-names>SA</given-names></name><name><surname>Wulfanger</surname><given-names>J</given-names></name><name><surname>Helbing</surname><given-names>G</given-names></name><name><surname>Blosz</surname><given-names>T</given-names></name><name><surname>Langner</surname><given-names>J</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Two C-terminal cysteines are necessary for proper folding of the peptidase neprilysin/CD10</article-title>
+<source>Biochem Biophys Res Commun</source>
+<volume>295</volume>
+<fpage>423</fpage>
+<lpage>427</lpage>
+<pub-id pub-id-type="pmid">12150966</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b024">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Eisenhaber</surname><given-names>B</given-names></name><name><surname>Eisenhaber</surname><given-names>F</given-names></name><name><surname>Maurer-Stroh</surname><given-names>S</given-names></name><name><surname>Neuberger</surname><given-names>G</given-names></name></person-group>
+<year>2004</year>
+<article-title>Prediction of sequence signals for lipid post-translational modifications: Insights from case studies</article-title>
+<source>Proteomics</source>
+<volume>4</volume>
+<fpage>1614</fpage>
+<lpage>1625</lpage>
+<pub-id pub-id-type="pmid">15174131</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b025">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Doll</surname><given-names>RJ</given-names></name><name><surname>Kirschmeier</surname><given-names>P</given-names></name><name><surname>Bishop</surname><given-names>WR</given-names></name></person-group>
+<year>2004</year>
+<article-title>Farnesyltransferase inhibitors as anticancer agents: Critical crossroads</article-title>
+<source>Curr Opin Drug Discov Devel</source>
+<volume>7</volume>
+<fpage>478</fpage>
+<lpage>486</lpage>
+</element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b026">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Valencia</surname><given-names>A</given-names></name><name><surname>Chardin</surname><given-names>P</given-names></name><name><surname>Wittinghofer</surname><given-names>A</given-names></name><name><surname>Sander</surname><given-names>C</given-names></name></person-group>
+<year>1991</year>
+<article-title>The ras protein family: Evolutionary tree and role of conserved amino acids</article-title>
+<source>Biochemistry</source>
+<volume>30</volume>
+<fpage>4637</fpage>
+<lpage>4648</lpage>
+<pub-id pub-id-type="pmid">2029511</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b027">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Pereira-Leal</surname><given-names>JB</given-names></name><name><surname>Seabra</surname><given-names>MC</given-names></name></person-group>
+<year>2001</year>
+<article-title>Evolution of the Rab family of small GTP-binding proteins</article-title>
+<source>J Mol Biol</source>
+<volume>313</volume>
+<fpage>889</fpage>
+<lpage>901</lpage>
+<pub-id pub-id-type="pmid">11697911</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b028">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vernoud</surname><given-names>V</given-names></name><name><surname>Horton</surname><given-names>AC</given-names></name><name><surname>Yang</surname><given-names>Z</given-names></name><name><surname>Nielsen</surname><given-names>E</given-names></name></person-group>
+<year>2003</year>
+<article-title>Analysis of the small GTPase gene superfamily of Arabidopsis</article-title>
+<source>Plant Physiol</source>
+<volume>131</volume>
+<fpage>1191</fpage>
+<lpage>1208</lpage>
+<pub-id pub-id-type="pmid">12644670</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b029">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Biermann</surname><given-names>BJ</given-names></name><name><surname>Morehead</surname><given-names>TA</given-names></name><name><surname>Tate</surname><given-names>SE</given-names></name><name><surname>Price</surname><given-names>JR</given-names></name><name><surname>Randall</surname><given-names>SK</given-names></name><etal/></person-group>
+<year>1994</year>
+<article-title>Novel isoprenylated proteins identified by an expression library screen</article-title>
+<source>J Biol Chem</source>
+<volume>269</volume>
+<fpage>25251</fpage>
+<lpage>25254</lpage>
+<pub-id pub-id-type="pmid">7929216</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b030">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Vodermaier</surname><given-names>HC</given-names></name></person-group>
+<year>2004</year>
+<article-title>APC/C and SCF: Controlling each other and the cell cycle</article-title>
+<source>Curr Biol</source>
+<volume>14</volume>
+<fpage>R787</fpage>
+<lpage>R796</lpage>
+<pub-id pub-id-type="pmid">15380093</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b031">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kho</surname><given-names>Y</given-names></name><name><surname>Kim</surname><given-names>SC</given-names></name><name><surname>Jiang</surname><given-names>C</given-names></name><name><surname>Barma</surname><given-names>D</given-names></name><name><surname>Kwon</surname><given-names>SW</given-names></name><etal/></person-group>
+<year>2004</year>
+<article-title>A tagging-via-substrate technology for detection and proteomics of farnesylated proteins</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>101</volume>
+<fpage>12479</fpage>
+<lpage>12484</lpage>
+<pub-id pub-id-type="pmid">15308774</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b032">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Heilmeyer</surname><given-names>LM</given-names><suffix>Jr</suffix></name><name><surname>Serwe</surname><given-names>M</given-names></name><name><surname>Weber</surname><given-names>C</given-names></name><name><surname>Metzger</surname><given-names>J</given-names></name><name><surname>Hoffmann-Posorske</surname><given-names>E</given-names></name><etal/></person-group>
+<year>1992</year>
+<article-title>Farnesylcysteine, a constituent of the alpha and beta subunits of rabbit skeletal muscle phosphorylase kinase: Localization by conversion to S-ethylcysteine and by tandem mass spectrometry</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>89</volume>
+<fpage>9554</fpage>
+<lpage>9558</lpage>
+<pub-id pub-id-type="pmid">1409665</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b033">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Nguyen</surname><given-names>CH</given-names></name><name><surname>Watts</surname><given-names>VJ</given-names></name></person-group>
+<year>2006</year>
+<article-title>Dexamethasone-induced ras protein 1 negatively regulates protein kinase C <italic>Î´</italic>: Implications for adenylyl cyclase 2 signaling</article-title>
+<source>Mol Pharmacol</source>
+<volume>69</volume>
+<fpage>1763</fpage>
+<lpage>1771</lpage>
+<pub-id pub-id-type="pmid">16489124</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b034">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Kanazawa</surname><given-names>M</given-names></name><name><surname>Terada</surname><given-names>K</given-names></name><name><surname>Kato</surname><given-names>S</given-names></name><name><surname>Mori</surname><given-names>M</given-names></name></person-group>
+<year>1997</year>
+<article-title>HSDJ, a human homolog of DnaJ, is farnesylated and is involved in protein import into mitochondria</article-title>
+<source>J Biochem (Tokyo)</source>
+<volume>121</volume>
+<fpage>890</fpage>
+<lpage>895</lpage>
+<pub-id pub-id-type="pmid">9192730</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b035">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Matsuda</surname><given-names>T</given-names></name><name><surname>Hashimoto</surname><given-names>Y</given-names></name><name><surname>Ueda</surname><given-names>H</given-names></name><name><surname>Asano</surname><given-names>T</given-names></name><name><surname>Matsuura</surname><given-names>Y</given-names></name><etal/></person-group>
+<year>1998</year>
+<article-title>Specific isoprenyl group linked to transducin gamma-subunit is a determinant of its unique signaling properties among G-proteins</article-title>
+<source>Biochemistry</source>
+<volume>37</volume>
+<fpage>9843</fpage>
+<lpage>9850</lpage>
+<pub-id pub-id-type="pmid">9657698</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b036">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Brauers</surname><given-names>A</given-names></name><name><surname>Schurmann</surname><given-names>A</given-names></name><name><surname>Massmann</surname><given-names>S</given-names></name><name><surname>Muhl-Zurbes</surname><given-names>P</given-names></name><name><surname>Becker</surname><given-names>W</given-names></name><etal/></person-group>
+<year>1996</year>
+<article-title>Alternative mRNA splicing of the novel GTPase Rab28 generates isoforms with different C-termini</article-title>
+<source>Eur J Biochem</source>
+<volume>237</volume>
+<fpage>833</fpage>
+<lpage>840</lpage>
+<pub-id pub-id-type="pmid">8647132</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b037">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Adamson</surname><given-names>P</given-names></name><name><surname>Marshall</surname><given-names>CJ</given-names></name><name><surname>Hall</surname><given-names>A</given-names></name><name><surname>Tilbrook</surname><given-names>PA</given-names></name></person-group>
+<year>1992</year>
+<article-title>Post-translational modifications of p21rho proteins</article-title>
+<source>J Biol Chem</source>
+<volume>267</volume>
+<fpage>20033</fpage>
+<lpage>20038</lpage>
+<pub-id pub-id-type="pmid">1400319</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b038">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Katoh</surname><given-names>M</given-names></name><name><surname>Katoh</surname><given-names>M</given-names></name></person-group>
+<year>2003</year>
+<article-title>Identification and characterization of human PRICKLE1 and PRICKLE2 genes as well as mouse Prickle1 and Prickle2 genes homologous to <italic>Drosophila</italic> tissue polarity gene prickle</article-title>
+<source>Int J Mol Med</source>
+<volume>11</volume>
+<fpage>249</fpage>
+<lpage>256</lpage>
+<pub-id pub-id-type="pmid">12525887</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b039">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Tree</surname><given-names>DR</given-names></name><name><surname>Shulman</surname><given-names>JM</given-names></name><name><surname>Rousset</surname><given-names>R</given-names></name><name><surname>Scott</surname><given-names>MP</given-names></name><name><surname>Gubb</surname><given-names>D</given-names></name><etal/></person-group>
+<year>2002</year>
+<article-title>Prickle mediates feedback amplification to generate asymmetric planar cell polarity signaling</article-title>
+<source>Cell</source>
+<volume>109</volume>
+<fpage>371</fpage>
+<lpage>381</lpage>
+<pub-id pub-id-type="pmid">12015986</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b040">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jenny</surname><given-names>A</given-names></name><name><surname>Reynolds-Kenneally</surname><given-names>J</given-names></name><name><surname>Das</surname><given-names>G</given-names></name><name><surname>Burnett</surname><given-names>M</given-names></name><name><surname>Mlodzik</surname><given-names>M</given-names></name></person-group>
+<year>2005</year>
+<article-title>Diego and Prickle regulate Frizzled planar cell polarity signalling by competing for Dishevelled binding</article-title>
+<source>Nat Cell Biol</source>
+<volume>7</volume>
+<fpage>691</fpage>
+<lpage>697</lpage>
+<pub-id pub-id-type="pmid">15937478</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b041">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Goto</surname><given-names>T</given-names></name><name><surname>Davidson</surname><given-names>L</given-names></name><name><surname>Asashima</surname><given-names>M</given-names></name><name><surname>Keller</surname><given-names>R</given-names></name></person-group>
+<year>2005</year>
+<article-title>Planar cell polarity genes regulate polarized extracellular matrix deposition during frog gastrulation</article-title>
+<source>Curr Biol</source>
+<volume>15</volume>
+<fpage>787</fpage>
+<lpage>793</lpage>
+<pub-id pub-id-type="pmid">15854914</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b042">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Veeman</surname><given-names>MT</given-names></name><name><surname>Slusarski</surname><given-names>DC</given-names></name><name><surname>Kaykas</surname><given-names>A</given-names></name><name><surname>Louie</surname><given-names>SH</given-names></name><name><surname>Moon</surname><given-names>RT</given-names></name></person-group>
+<year>2003</year>
+<article-title>Zebrafish prickle, a modulator of noncanonical Wnt/Fz signaling, regulates gastrulation movements</article-title>
+<source>Curr Biol</source>
+<volume>13</volume>
+<fpage>680</fpage>
+<lpage>685</lpage>
+<pub-id pub-id-type="pmid">12699626</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b043">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jiang</surname><given-names>D</given-names></name><name><surname>Munro</surname><given-names>EM</given-names></name><name><surname>Smith</surname><given-names>WC</given-names></name></person-group>
+<year>2005</year>
+<article-title>Ascidian prickle regulates both mediolateral and anteriorâposterior cell polarity of notochord cells</article-title>
+<source>Curr Biol</source>
+<volume>15</volume>
+<fpage>79</fpage>
+<lpage>85</lpage>
+<pub-id pub-id-type="pmid">15700379</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b044">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>La Scola</surname><given-names>B</given-names></name><name><surname>Audic</surname><given-names>S</given-names></name><name><surname>Robert</surname><given-names>C</given-names></name><name><surname>Jungang</surname><given-names>L</given-names></name><name><surname>de Lamballerie</surname><given-names>X</given-names></name><etal/></person-group>
+<year>2003</year>
+<article-title>A giant virus in amoebae</article-title>
+<source>Science</source>
+<volume>299</volume>
+<fpage>2033</fpage>
+<pub-id pub-id-type="pmid">12663918</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b045">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Berger</surname><given-names>P</given-names></name><name><surname>Papazian</surname><given-names>L</given-names></name><name><surname>Drancourt</surname><given-names>M</given-names></name><name><surname>La Scola</surname><given-names>B</given-names></name><name><surname>Auffray</surname><given-names>JP</given-names></name><etal/></person-group>
+<year>2006</year>
+<article-title>Ameba-associated microorganisms and diagnosis of nosocomial pneumonia</article-title>
+<source>Emerg Infect Dis</source>
+<volume>12</volume>
+<fpage>248</fpage>
+<lpage>255</lpage>
+<pub-id pub-id-type="pmid">16494750</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b046">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Suzan-Monti</surname><given-names>M</given-names></name><name><surname>La Scola</surname><given-names>B</given-names></name><name><surname>Raoult</surname><given-names>D</given-names></name></person-group>
+<year>2006</year>
+<article-title>Genomic and evolutionary aspects of Mimivirus</article-title>
+<source>Virus Res</source>
+<volume>117</volume>
+<fpage>145</fpage>
+<lpage>155</lpage>
+<pub-id pub-id-type="pmid">16181700</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b047">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Iyer</surname><given-names>LM</given-names></name><name><surname>Balaji</surname><given-names>S</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name><name><surname>Aravind</surname><given-names>L</given-names></name></person-group>
+<year>2006</year>
+<article-title>Evolutionary genomics of nucleo-cytoplasmic large DNA viruses</article-title>
+<source>Virus Res</source>
+<volume>117</volume>
+<fpage>156</fpage>
+<lpage>184</lpage>
+<pub-id pub-id-type="pmid">16494962</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b048">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Caldwell</surname><given-names>GA</given-names></name><name><surname>Wang</surname><given-names>SH</given-names></name><name><surname>Naider</surname><given-names>F</given-names></name><name><surname>Becker</surname><given-names>JM</given-names></name></person-group>
+<year>1994</year>
+<article-title>Consequences of altered isoprenylation targets on a-factor export and bioactivity</article-title>
+<source>Proc Natl Acad Sci U S A</source>
+<volume>91</volume>
+<fpage>1275</fpage>
+<lpage>1279</lpage>
+<pub-id pub-id-type="pmid">8108401</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b049">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Solski</surname><given-names>PA</given-names></name><name><surname>Helms</surname><given-names>W</given-names></name><name><surname>Keely</surname><given-names>PJ</given-names></name><name><surname>Su</surname><given-names>L</given-names></name><name><surname>Der</surname><given-names>CJ</given-names></name></person-group>
+<year>2002</year>
+<article-title>RhoA biological activity is dependent on prenylation but independent of specific isoprenoid modification</article-title>
+<source>Cell Growth Differ</source>
+<volume>13</volume>
+<fpage>363</fpage>
+<lpage>373</lpage>
+<pub-id pub-id-type="pmid">12193475</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b050">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Jian</surname><given-names>X</given-names></name><name><surname>Clark</surname><given-names>WA</given-names></name><name><surname>Kowalak</surname><given-names>J</given-names></name><name><surname>Markey</surname><given-names>SP</given-names></name><name><surname>Simonds</surname><given-names>WF</given-names></name><etal/></person-group>
+<year>2001</year>
+<article-title>Gbetagamma affinity for bovine rhodopsin is determined by the carboxyl-terminal sequences of the gamma subunit</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>48518</fpage>
+<lpage>48525</lpage>
+<pub-id pub-id-type="pmid">11602594</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b051">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Inglese</surname><given-names>J</given-names></name><name><surname>Koch</surname><given-names>WJ</given-names></name><name><surname>Caron</surname><given-names>MG</given-names></name><name><surname>Lefkowitz</surname><given-names>RJ</given-names></name></person-group>
+<year>1992</year>
+<article-title>Isoprenylation in regulation of signal transduction by G-proteinâcoupled receptor kinases</article-title>
+<source>Nature</source>
+<volume>359</volume>
+<fpage>147</fpage>
+<lpage>150</lpage>
+<pub-id pub-id-type="pmid">1522899</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b052">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Cox</surname><given-names>AD</given-names></name><name><surname>Hisaka</surname><given-names>MM</given-names></name><name><surname>Buss</surname><given-names>JE</given-names></name><name><surname>Der</surname><given-names>CJ</given-names></name></person-group>
+<year>1992</year>
+<article-title>Specific isoprenoid modification is required for function of normal, but not oncogenic, Ras protein</article-title>
+<source>Mol Cell Biol</source>
+<volume>12</volume>
+<fpage>2606</fpage>
+<lpage>2615</lpage>
+<pub-id pub-id-type="pmid">1375323</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b053">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Gotoh</surname><given-names>T</given-names></name><name><surname>Tian</surname><given-names>X</given-names></name><name><surname>Feig</surname><given-names>LA</given-names></name></person-group>
+<year>2001</year>
+<article-title>Prenylation of target GTPases contributes to signaling specificity of Ras-guanine nucleotide exchange factors</article-title>
+<source>J Biol Chem</source>
+<volume>276</volume>
+<fpage>38029</fpage>
+<lpage>38035</lpage>
+<pub-id pub-id-type="pmid">11500499</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b054">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Prendergast</surname><given-names>GC</given-names></name></person-group>
+<year>2001</year>
+<article-title>Actin' up: RhoB in cancer and apoptosis</article-title>
+<source>Nat Rev Cancer</source>
+<volume>1</volume>
+<fpage>162</fpage>
+<lpage>168</lpage>
+<pub-id pub-id-type="pmid">11905808</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b055">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Devos</surname><given-names>D</given-names></name><name><surname>Valencia</surname><given-names>A</given-names></name></person-group>
+<year>2000</year>
+<article-title>Practical limits of function prediction</article-title>
+<source>Proteins</source>
+<volume>41</volume>
+<fpage>98</fpage>
+<lpage>107</lpage>
+<pub-id pub-id-type="pmid">10944397</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b056">
+        <element-citation publication-type="other">
+<person-group person-group-type="author"><name><surname>Pawlowski</surname><given-names>K</given-names></name><name><surname>Jaroszewski</surname><given-names>L</given-names></name><name><surname>Rychlewski</surname><given-names>L</given-names></name><name><surname>Godzik</surname><given-names>A</given-names></name></person-group>
+<year>2000</year>
+<article-title>Sensitive sequence comparison as protein function predictor</article-title>
+<source>Pac Symp Biocomput</source>
+<fpage>42</fpage>
+<lpage>53</lpage>
+<pub-id pub-id-type="pmid">10902155</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b057">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Todd</surname><given-names>AE</given-names></name><name><surname>Orengo</surname><given-names>CA</given-names></name><name><surname>Thornton</surname><given-names>JM</given-names></name></person-group>
+<year>2001</year>
+<article-title>Evolution of function in protein superfamilies, from a structural perspective</article-title>
+<source>J Mol Biol</source>
+<volume>307</volume>
+<fpage>1113</fpage>
+<lpage>1143</lpage>
+<pub-id pub-id-type="pmid">11286560</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b058">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>O'Brien</surname><given-names>KP</given-names></name><name><surname>Remm</surname><given-names>M</given-names></name><name><surname>Sonnhammer</surname><given-names>EL</given-names></name></person-group>
+<year>2005</year>
+<article-title>Inparanoid: A comprehensive database of eukaryotic orthologs</article-title>
+<source>Nucleic Acids Res</source>
+<volume>33</volume>
+<fpage>D476</fpage>
+<lpage>D480</lpage>
+<pub-id pub-id-type="pmid">15608241</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b059">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Remm</surname><given-names>M</given-names></name><name><surname>Storm</surname><given-names>CE</given-names></name><name><surname>Sonnhammer</surname><given-names>EL</given-names></name></person-group>
+<year>2001</year>
+<article-title>Automatic clustering of orthologs and in-paralogs from pairwise species comparisons</article-title>
+<source>J Mol Biol</source>
+<volume>314</volume>
+<fpage>1041</fpage>
+<lpage>1052</lpage>
+<pub-id pub-id-type="pmid">11743721</pub-id></element-citation>
+      </ref>
+      <ref id="pcbi-0030066-b060">
+        <element-citation publication-type="journal">
+<person-group person-group-type="author"><name><surname>Sonnhammer</surname><given-names>EL</given-names></name><name><surname>Koonin</surname><given-names>EV</given-names></name></person-group>
+<year>2002</year>
+<article-title>Orthology, paralogy, and proposed classification for paralog subtypes</article-title>
+<source>Trends Genet</source>
+<volume>18</volume>
+<fpage>619</fpage>
+<lpage>620</lpage>
+<pub-id pub-id-type="pmid">12446146</pub-id></element-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

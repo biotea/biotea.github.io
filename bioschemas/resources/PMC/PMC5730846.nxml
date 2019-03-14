@@ -1,0 +1,2035 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T20:06:39Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:5730846" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:5730846</identifier><datestamp>2017-12-18</datestamp><setSpec>emboj</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">EMBO J</journal-id>
+      <journal-id journal-id-type="iso-abbrev">EMBO J</journal-id>
+      <journal-id journal-id-type="doi">10.1002/(ISSN)1460-2075</journal-id>
+      <journal-id journal-id-type="publisher-id">EMBJ</journal-id>
+      <journal-id journal-id-type="hwp">embojnl</journal-id>
+      <journal-title-group>
+        <journal-title>The EMBO Journal</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0261-4189</issn>
+      <issn pub-type="epub">1460-2075</issn>
+      <publisher>
+        <publisher-name>John Wiley and Sons Inc.</publisher-name>
+        <publisher-loc>Hoboken</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC5730846</article-id>
+      <article-id pub-id-type="pmcid">PMC5730846</article-id>
+      <article-id pub-id-type="pmc-uid">5730846</article-id>
+      <article-id pub-id-type="pmid">29127155</article-id>
+      <article-id pub-id-type="doi">10.15252/embj.201796700</article-id>
+      <article-id pub-id-type="publisher-id">EMBJ201796700</article-id>
+      <article-categories>
+        <subj-group subj-group-type="overline">
+          <subject>Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="heading">
+          <subject>Articles</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>Tumor suppressor Tsc1 is a new Hsp90 coâchaperone that facilitates folding of kinase and nonâkinase clients</article-title>
+        <alt-title alt-title-type="left-running-head">Mark R Woodford <italic>etÂ al</italic></alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib id="embj201796700-cr-0001" contrib-type="author">
+          <name>
+            <surname>Woodford</surname>
+            <given-names>Mark R</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="author-notes" rid="embj201796700-note-1001">
+<sup>â </sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0002" contrib-type="author">
+          <name>
+            <surname>Sager</surname>
+            <given-names>Rebecca A</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+          <xref ref-type="author-notes" rid="embj201796700-note-1001">
+<sup>â </sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0003" contrib-type="author">
+          <name>
+            <surname>Marris</surname>
+            <given-names>Elijah</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0004" contrib-type="author">
+          <name>
+            <surname>Dunn</surname>
+            <given-names>Diana M</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0005" contrib-type="author">
+          <name>
+            <surname>Blanden</surname>
+            <given-names>Adam R</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0006" contrib-type="author">
+          <name>
+            <surname>Murphy</surname>
+            <given-names>Ryan L</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0007" contrib-type="author">
+          <name>
+            <surname>Rensing</surname>
+            <given-names>Nicholas</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0004">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0008" contrib-type="author">
+          <name>
+            <surname>Shapiro</surname>
+            <given-names>Oleg</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0009" contrib-type="author">
+          <name>
+            <surname>Panaretou</surname>
+            <given-names>Barry</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0006">
+<sup>6</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0010" contrib-type="author">
+          <name>
+            <surname>Prodromou</surname>
+            <given-names>Chrisostomos</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0007">
+<sup>7</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0011" contrib-type="author">
+          <name>
+            <surname>Loh</surname>
+            <given-names>Stewart N</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0012" contrib-type="author">
+          <name>
+            <surname>Gutmann</surname>
+            <given-names>David H</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0004">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0013" contrib-type="author">
+          <name>
+            <surname>Bourboulia</surname>
+            <given-names>Dimitra</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0014" contrib-type="author">
+          <name>
+            <surname>Bratslavsky</surname>
+            <given-names>Gennady</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0015" contrib-type="author">
+          <name>
+            <surname>Wong</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref ref-type="aff" rid="embj201796700-aff-0004">
+<sup>4</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0005">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib id="embj201796700-cr-0016" contrib-type="author" corresp="yes">
+          <name>
+            <surname>Mollapour</surname>
+            <given-names>Mehdi</given-names>
+          </name>
+          <contrib-id contrib-id-type="orcid">http://orcid.org/0000-0002-2144-1361</contrib-id>
+          <address>
+            <email>mollapom@upstate.edu</email>
+          </address>
+          <xref ref-type="aff" rid="embj201796700-aff-0001">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0002">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="embj201796700-aff-0003">
+<sup>3</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="embj201796700-aff-0001">
+<label><sup>1</sup></label>
+<named-content content-type="organisation-division">Department of Urology</named-content>
+<institution>SUNY Upstate Medical University</institution>
+<named-content content-type="city">Syracuse</named-content>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff>
+      <aff id="embj201796700-aff-0002">
+<label><sup>2</sup></label>
+<named-content content-type="organisation-division">Upstate Cancer Center</named-content>
+<institution>SUNY Upstate Medical University</institution>
+<named-content content-type="city">Syracuse</named-content>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff>
+      <aff id="embj201796700-aff-0003">
+<label><sup>3</sup></label>
+<named-content content-type="organisation-division">Department of Biochemistry and Molecular Biology</named-content>
+<institution>SUNY Upstate Medical University</institution>
+<named-content content-type="city">Syracuse</named-content>
+<named-content content-type="country-part">NY</named-content>
+<country country="US">USA</country>
+</aff>
+      <aff id="embj201796700-aff-0004">
+<label><sup>4</sup></label>
+<named-content content-type="organisation-division">Department of Neurology</named-content>
+<institution>Washington University School of Medicine</institution>
+<named-content content-type="city">St. Louis</named-content>
+<named-content content-type="country-part">MO</named-content>
+<country country="US">USA</country>
+</aff>
+      <aff id="embj201796700-aff-0005">
+<label><sup>5</sup></label>
+<named-content content-type="organisation-division">Hope Center for Neurological Disorders</named-content>
+<institution>Washington University School of Medicine</institution>
+<named-content content-type="city">St. Louis</named-content>
+<named-content content-type="country-part">MO</named-content>
+<country country="US">USA</country>
+</aff>
+      <aff id="embj201796700-aff-0006">
+<label><sup>6</sup></label>
+<named-content content-type="organisation-division">Institute of Pharmaceutical Science</named-content>
+<institution>King's College London</institution>
+<named-content content-type="city">London</named-content>
+<country country="GB">UK</country>
+</aff>
+      <aff id="embj201796700-aff-0007">
+<label><sup>7</sup></label>
+<named-content content-type="organisation-division">Genome Damage and Stability Centre</named-content>
+<institution>University of Sussex</institution>
+<named-content content-type="city">Brighton</named-content>
+<country country="GB">UK</country>
+</aff>
+      <author-notes>
+        <corresp id="correspondenceTo"><label>*</label>Corresponding author. Tel: +1 315 464 8749; Eâmail: <email>mollapom@upstate.edu</email></corresp>
+        <fn fn-type="equal" id="embj201796700-note-1001">
+          <label>â </label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="epub">
+        <day>10</day>
+        <month>11</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="ppub">
+        <day>15</day>
+        <month>12</month>
+        <year>2017</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>10</day>
+        <month>11</month>
+        <year>2017</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+      <volume>36</volume>
+      <issue>24</issue>
+      <issue-id pub-id-type="doi">10.1002/embj.v36.24</issue-id>
+      <fpage>3650</fpage>
+      <lpage>3665</lpage>
+      <history>
+        <date date-type="received">
+          <day>08</day>
+          <month>2</month>
+          <year>2017</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>15</day>
+          <month>9</month>
+          <year>2017</year>
+        </date>
+        <date date-type="accepted">
+          <day>02</day>
+          <month>10</month>
+          <year>2017</year>
+        </date>
+      </history>
+      <permissions>
+        <!--<copyright-statement content-type="issue-copyright"> &#x000a9; 2017 EMBO <copyright-statement>-->
+        <copyright-statement content-type="article-copyright">Â© 2017 The Authors. Published under the terms of the CC BY 4.0 license</copyright-statement>
+        <license license-type="creativeCommonsBy">
+          <license-p>This is an open access article under the terms of the <ext-link ext-link-type="uri" xlink:href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0</ext-link> License, which permits use, distribution and reproduction in any medium, provided the original work is properly cited.</license-p>
+        </license>
+      </permissions>
+      <self-uri content-type="pdf" xlink:type="simple" xlink:href="file:EMBJ-36-3650.pdf"/>
+      <abstract id="embj201796700-abs-0001">
+        <title>Abstract</title>
+        <p>The tumor suppressors Tsc1 and Tsc2 form the tuberous sclerosis complex (<styled-content style="fixed-case">TSC</styled-content>), a regulator of <styled-content style="fixed-case">mTOR</styled-content> activity. Tsc1 stabilizes Tsc2; however, the precise mechanism involved remains elusive. The molecular chaperone heatâshock protein 90 (Hsp90) is an essential component of the cellular homeostatic machinery in eukaryotes. Here, we show that Tsc1 is a new coâchaperone for Hsp90 that inhibits its <styled-content style="fixed-case">ATP</styled-content>ase activity. The Câterminal domain of Tsc1 (998â1,164Â aa) forms a homodimer and binds to both protomers of the Hsp90 middle domain. This ensures inhibition of both subunits of the Hsp90 dimer and prevents the activating coâchaperone Aha1 from binding the middle domain of Hsp90. Conversely, phosphorylation of Aha1âY223 increases its affinity for Hsp90 and displaces Tsc1, thereby providing a mechanism for equilibrium between binding of these two coâchaperones to Hsp90. Our findings establish an active role for Tsc1 as a facilitator of Hsp90âmediated folding of kinase and nonâkinase clientsâincluding Tsc2âthereby preventing their ubiquitination and proteasomal degradation.</p>
+      </abstract>
+      <kwd-group kwd-group-type="author-generated">
+        <kwd id="embj201796700-kwd-0001">Aha1</kwd>
+        <kwd id="embj201796700-kwd-0002">heatâshock protein 90</kwd>
+        <kwd id="embj201796700-kwd-0003">Tsc1</kwd>
+        <kwd id="embj201796700-kwd-0004">Tsc2</kwd>
+        <kwd id="embj201796700-kwd-0005">tuberous sclerosis complex</kwd>
+      </kwd-group>
+      <kwd-group kwd-group-type="subject-categories">
+        <title>Subject Categories</title>
+        <kwd>Protein Biosynthesis &amp; Quality Control</kwd>
+        <kwd>Signal Transduction</kwd>
+      </kwd-group>
+      <funding-group>
+        <award-group>
+          <funding-source>SUNY Upstate Medical University, Upstate Foundation</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>One Square Mile of Hope Foundation</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>Carol M. Baldwin Breast Cancer Fund</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>Urology Care FoundationâAmerican Urological Association</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>HHS | NIH | National Institute of General Medical Sciences (NIGMS)</funding-source>
+          <award-id>R01GM124256</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Carol M. Baldwin Breast Cancer Research Fund (Carol M. Baldwin Breast Cancer Research Fund, Inc.)</funding-source>
+          <award-id>MOL1</award-id>
+          <award-id>BOU1</award-id>
+        </award-group>
+        <award-group>
+          <funding-source>Urology Care Foundation (Urology Care Foundation, Inc.)</funding-source>
+        </award-group>
+        <award-group>
+          <funding-source>Wellcome</funding-source>
+          <award-id>095605/Z11/Z</award-id>
+        </award-group>
+      </funding-group>
+      <counts>
+        <fig-count count="11"/>
+        <table-count count="0"/>
+        <page-count count="16"/>
+        <word-count count="10293"/>
+      </counts>
+      <custom-meta-group>
+        <custom-meta>
+          <meta-name>source-schema-version-number</meta-name>
+          <meta-value>2.0</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>component-id</meta-name>
+          <meta-value>embj201796700</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>cover-date</meta-name>
+          <meta-value>15 December 2017</meta-value>
+        </custom-meta>
+        <custom-meta>
+          <meta-name>details-of-publishers-convertor</meta-name>
+          <meta-value>Converter:WILEY_ML3GV2_TO_NLMPMC version:5.2.8 mode:remove_FC converted:15.12.2017</meta-value>
+        </custom-meta>
+      </custom-meta-group>
+    </article-meta>
+    <notes>
+      <p content-type="self-citation">
+<mixed-citation publication-type="journal" id="embj201796700-cit-1001">
+<source>The EMBO Journal</source> (<year>2017</year>) <volume>36</volume>: <fpage>3650</fpage>â<lpage>3665</lpage>
+</mixed-citation>
+</p>
+    </notes>
+  </front>
+  <body>
+    <sec id="embj201796700-sec-0001">
+      <title>Introduction</title>
+      <p>Molecular chaperones, as indicated by their names, are involved in folding, stability, and activity of many proteins also known as âclient proteinsâ (Schopf <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0025" ref-type="ref">2017</xref>). The molecular chaperone heatâshock protein 90 (Hsp90) looks after many clients (&gt;Â 200 known) that are involved in tumor initiation, progression, and metastasis. Therefore, Hsp90 is recognized as a suitable target for cancer therapy (Neckers &amp; Workman, <xref rid="embj201796700-bib-0020" ref-type="ref">2012</xref>). Hsp90 chaperone function is linked to its ability to bind and hydrolyze ATP and depends on a cycle of Hsp90 conformational changes (Prodromou, <xref rid="embj201796700-bib-0023" ref-type="ref">2012</xref>). Hsp90 drugs bind to the ATPâbinding pocket of Hsp90 and inhibit its chaperone activity. In turn, this prevents Hsp90 association with client proteins, causing their proteasomal degradation. Unlike other antiâcancer drugs, Hsp90 inhibitors target multiple drivers of oncogenesis simultaneously.</p>
+      <p>Coâchaperones regulate Hsp90 chaperone cycle by directly interacting with Hsp90 and providing directionality to the cycle (Cox &amp; Johnson, <xref rid="embj201796700-bib-0008" ref-type="ref">2011</xref>). Additionally, certain coâchaperones, for example, HOP and Cdc37<sup>p50</sup>, decelerate or inhibit the Hsp90 chaperone cycle, loading distinct sets of clients such as steroid hormone receptors and kinases, respectively, to the Hsp90 (Verba <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0027" ref-type="ref">2016</xref>). Conversely, the Aha1 coâchaperone aids in highâenergy conformational modulations necessary for Hsp90 ATPase competence. This markedly increases the weak endogenous enzymatic activity of Hsp90 and establishes Aha1 as a crucial component of active Hsp90 chaperone complexes (Panaretou <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0022" ref-type="ref">2002</xref>; Li <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0016" ref-type="ref">2013a</xref>).</p>
+      <p>Tuberous sclerosis complex (TSC) is a rare autosomal dominant syndrome that is characterized by the development of benign tumors in various organs, including skin, brain, heart, kidneys, and bladder (Henske <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0012" ref-type="ref">2016</xref>). TSC is also frequently associated with epilepsy, intellectual disability, and autism (Banerjee <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0002" ref-type="ref">2011</xref>; Zeng <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0038" ref-type="ref">2011</xref>). Mutations in one of the tumor suppressor genes, <italic>TSC1</italic> or <italic>TSC2</italic>, cause TSC (Huang &amp; Manning, <xref rid="embj201796700-bib-0015" ref-type="ref">2008</xref>). Tsc2 protein (tuberin) of approximately 200Â kDa in size behaves as a GTPaseâactivating protein (GAP), and Tsc1 (hamartin) with a molecular weight of 130Â kDa is required to stabilize Tsc2 and prevent its ubiquitinâmediated degradation (Benvenuto <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0004" ref-type="ref">2000</xref>). More specifically, Tsc1 prevents the interaction between Tsc2 and the E3 ubiquitin ligase HERC1 (ChongâKopera <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0006" ref-type="ref">2006</xref>). However, the precise protective role of Tsc1 toward Tsc2 remains elusive. Here, we show Tsc1 is a new coâchaperone of Hsp90. Tsc1 carboxyâdomain forms a homodimer and it binds to the Hsp90 middle domain where it inhibits Hsp90 ATPase activity and also blocks interaction of the activating coâchaperone Aha1 with the Hsp90 middle domain. Tsc1 also increases the binding of Hsp90 to ATP and inhibitors. Tsc1 has a higher affinity for binding to Hsp90 than Aha1. However, this affinity is reversed when câAblâmediated phosphorylation of Aha1âY223 increases its binding to Hsp90 and displaces Tsc1. This provides a mechanism of equilibrium between these two coâchaperones binding to Hsp90. Tsc1 functions as a facilitator of Hsp90 in chaperoning the kinase and nonâkinase clients including Tsc2, therefore preventing their ubiquitination and degradation in the proteasome.</p>
+    </sec>
+    <sec id="embj201796700-sec-0002">
+      <title>Results</title>
+      <sec id="embj201796700-sec-0003">
+        <title>Tsc2 is a client of Hsp70 and Hsp90</title>
+        <p>Molecular chaperones are generally involved in the folding and stability of proteins. We therefore tested whether the integrity of Tsc2 depended on the Hsp70 and Hsp90 chaperones. Endogenous Tsc2 was immunoprecipitated from HEK293 cells and it was shown to interact with both Hsp70 and Hsp90 and their coâchaperones including HOP, Cdc37<sup>p50</sup>, PP5, and p23, but not Aha1 (FigsÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>A and <xref rid="embj201796700-fig-0001ev" ref-type="fig">EV1</xref>). We next showed that treating HEK293 cells with the Hsp70 inhibitor JGâ98 (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>B) (Li <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0017" ref-type="ref">2013b</xref>), or Hsp90 inhibitors ganetespib GB (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>C) (Ying <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0035" ref-type="ref">2012</xref>), or SNX2112 (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>D) (Barrott <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0003" ref-type="ref">2013</xref>) cause the degradation of Tsc2. Surprisingly, inhibition of Hsp70 or Hsp90 did not affect the stability of Tsc1 (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>BâD). It is noteworthy that we used the degradation of Akt and phosphoâS473âAkt as a positive control for Hsp90 inhibition in cells, since Akt is a <italic>bona fide</italic> Hsp90 client protein.</p>
+        <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0001" orientation="portrait" position="float">
+          <label>Figure 1</label>
+          <caption>
+            <title>Tsc2 is a new client of Hsp90</title>
+            <p>
+<list list-type="simple" id="embj201796700-list-0002"><list-item><label>A</label><p>Tsc2 was immunoprecipitated from HEK293 cell lysates using antiâTsc2 antibody or IgG (control) and immunoblotted with indicated antibodies to confirm chaperone and coâchaperone interaction.</p></list-item><list-item><label>B</label><p>HEK293 cells were treated with 10Â Î¼M JGâ98 (Hsp70 inhibitor) for the indicated times. Tsc1 protein stability and Tsc2 protein stability were assessed by Western blotting.</p></list-item><list-item><label>C, D</label><p>HEK293 cells were treated with either (C) 1Â Î¼M GB or (D) 2Â Î¼M SNXâ2112 (Hsp90 inhibitors) for the indicated times. Tsc1 protein stability and Tsc2 protein stability were assessed by immunoblotting. Akt and phosphoâS473âAkt were used as positive controls.</p></list-item><list-item><label>E</label><p>HEK293 cells were treated with 50Â nM bortezomib (BZ) for the indicated times, and Tsc1 and Tsc2 proteins were evaluated by immunoblotting.</p></list-item><list-item><label>F</label><p>50Â nM BZ was added to HEK293 cells for 1Â h followed by addition of 1Â Î¼M GB for 8Â h. HEK293 cells were also treated individually with BZ or GB. UN represents untreated cells. Stability of Tsc2 was examined by immunoblotting.</p></list-item><list-item><label>G</label><p>Empty vector (EV) or Tsc2âFLAG was used to transiently transfect HEK293 cells for 24Â h followed by no treatment (UN), or treatment with either 50Â nm BZ, 1Â Î¼M GB, or 10Â Î¼M JGâ98 for 4Â h. Tsc2âFLAG was immunoprecipitated, and ubiquitination was examined by immunoblotting with a antiâpanâubiquitin antibody.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-5" xlink:href="EMBJ-36-3650-g002"/>
+        </fig>
+        <fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201796700-fig-0001ev" orientation="portrait" position="float">
+          <label>Figure EV1</label>
+          <caption>
+            <title>Tsc2 interaction with the chaperone and coâchaperone machinery (related to FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>)</title>
+            <p>Tsc2 was immunoprecipitated from HEK293 cell lysates using antiâTsc2 antibody and immunoblotted with indicated antibodies. IgG was used as control. These samples are the same as those presented in FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>A. <named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-7" xlink:href="EMBJ-36-3650-g003"/>
+        </fig>
+        <p>Inhibition of Hsp70 or Hsp90 generally leads to ubiquitination and degradation of its client proteins in the proteasome (Xu <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0032" ref-type="ref">1999</xref>). Treating HEK293 cells with 50Â nM proteasome inhibitor bortezomib (BZ) for 2Â h stabilizes Tsc2 (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>E). These data suggest that Tsc2 experiences protein turnover at steady state. We next showed that treating HEK293 cells with BZ for 1Â h prior to addition of GB (Hsp90 inhibitor) blocked the degradation of Tsc2 (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>F). Finally, to determine whether Hsp70 or Hsp90 inhibition leads to ubiquitination of Tsc2 prior to its degradation in the proteasome, Tsc2âFLAG was transiently expressed, immunoprecipitated, and saltâstripped (with 0.5Â M NaCl) from HEK293 cells treated with either 50Â nM BZ, 1Â Î¼M GB, or 10Â Î¼M JGâ98 for 4Â h. Tsc2 is ubiquitinated upon inhibition of Hsp70, Hsp90, or the proteasome (FigÂ <xref rid="embj201796700-fig-0001" ref-type="fig">1</xref>G). Taken together, Tsc2 appears to be a new client of Hsp70 and Hsp90, and pharmacologic inhibition of Hsp90 leads to ubiquitination and degradation of Tsc2 in the proteasome.</p>
+      </sec>
+      <sec id="embj201796700-sec-0004">
+        <title>The new coâchaperone Tsc1 inhibits Hsp90 ATPase activity</title>
+        <p>Tsc1 stability does not depend on Hsp70 and Hsp90; however, because of its relationship with Tsc2, we asked whether Tsc1 interacts with these two molecular chaperone machineries. We first immunoprecipitated endogenous Tsc1 from HEK293 cells and detected both Hsp70 and Hsp90 (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>A). We also observed Tsc1 interaction with Hsp90 coâchaperones PP5 and Cdc37<sup>p50</sup> (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>A) but not Aha1, HOP, or p23 (FigÂ <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>A). We also coâimmunoprecipitated Hsp90 client proteins Rafâ1, Akt, Cdk4, glucocorticoid receptor (GR), and Tsc2 (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>A). Hsp90 consists of N (amino)â, M (middle)â, and C (carboxy)âdomains. To determine Tsc1 and Tsc2 interaction with these Hsp90 domains, we transiently transfected and expressed each domain with FLAGâtag in HEK293 cells. Using antiâFLAG M2 affinity gel, each Hsp90 domain was immunoprecipitated and coâimmunoprecipitation of Tsc1 and Tsc2 was observed by immunoblotting. Tsc1 interacts with the Hsp90Î± Mâ and Câdomains (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>B), whereas Tsc2 bound only to the Hsp90Î± Câdomain (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>B). The MEEVD motif at the extreme Câterminus of Hsp90 is a highly conserved tetratricopeptide repeat (TPR) domainâbinding site, which mediates interaction with many coâchaperones (Chadli <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0005" ref-type="ref">2008</xref>). Deletion of MEEVD from Hsp90Î± (Î±âTPR) or Hsp90Î² (Î²âTPR) completely abrogated the interaction of Hsp90 with Tsc1 (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>C).</p>
+        <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0002" orientation="portrait" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <title>Tsc1 coâchaperone inhibits Hsp90 chaperone function</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0003"><list-item><p>Tsc1 was immunoprecipitated from HEK293 cell lysates using antiâTsc1 antibody and immunoblotted with indicated antibodies to confirm chaperone, coâchaperone, and client protein interaction. IgG was used as control.</p></list-item><list-item><p>FLAGâtagged Hsp90Î± Nâ, Mâ, and Câdomains were transiently expressed and immunoprecipitated from HEK293 cells. Coâimmunoprecipitation (CoâIP) of endogenous Tsc1 and Tsc2 was examined by immunoblotting. Empty vector (EV) was used as a control.</p></list-item><list-item><p>Hsp90Î±âFLAG, Hsp90Î²âFLAG, and their deleted TPR domainâbinding site constructs were transiently expressed and immunoprecipitated from HEK293 cells. Interaction of Tsc1 was assessed by immunoblotting. HOP was used as a positive control. Empty vector (EV) was used as a control.</p></list-item><list-item><p>FLAGâtagged Tsc1 domains were transiently expressed and isolated from HEK293 cells. CoâIP of endogenous Hsp70 and Hsp90 was assessed by immunoblotting. Empty vector (EV) was used as a control.</p></list-item><list-item><p>Tsc1âDâHA was coâexpressed with FLAGâtagged Hsp90Î± Nâ, Mâ, or Câ domains in HEK293 cells. Different domains of Hsp90Î±âFLAG were immunoprecipitated, and Tsc1âDâHA interaction was assessed by immunoblotting. Empty vector (EV) was used as a control.</p></list-item><list-item><p>Bacterially expressed and purified Tsc1âDâHis<sub>6</sub> and Hsp90Î± binding affinity in the presence of AMPPNP, ADP, and GB were measured by fluorescence anisotropy. The error bars represent meanÂ Â±Â SD of three independent experiments.</p></list-item><list-item><p>ATPase activity of Hsp90Î± <italic>inÂ vitro</italic>. Inhibitory effects of purified Tsc1âDâHis<sub>6</sub> on the ATPase activity of Hsp90Î± are shown. All the data represent meanÂ Â±Â SD of three biological replicates. A Student's <italic>t</italic>âtest was performed to assess statistical significance (**<italic>P</italic>Â &lt;Â 0.005, ****<italic>P</italic>Â &lt;Â 0.0001).</p></list-item><list-item><p>Hsp90 was isolated and ATPase activity was measured from five <italic>Tsc1</italic>
+<sup>GFAP</sup>CKO mice with conditional inactivation of the <italic>TSC1</italic> gene predominantly in glia and five <italic>Tsc1</italic>
+<sup>flox/+</sup>âGFAPâCre and <italic>Tsc1</italic>
+<sup>flox/flox</sup> littermate controls (Tsc1âWT). A Student's <italic>t</italic>âtest was performed to assess statistical significance (**<italic>P</italic>Â &lt;Â 0.005).</p></list-item><list-item><p>Tsc1, Hsp90, and client proteins from samples in (H) were examined by immunoblotting. SE (short exposure) and LE (long exposure) of the radiographic film.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-9" xlink:href="EMBJ-36-3650-g004"/>
+        </fig>
+        <fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201796700-fig-0002ev" orientation="portrait" position="float">
+          <label>Figure EV2</label>
+          <caption>
+            <title>Inhibition of the Hsp90 function by the coâchaperone Tsc1 (related to FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>)</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0008"><list-item><p>Tsc1 was immunoprecipitated from HEK293 cell lysates using antiâTsc1 antibody and immunoblotted with indicated antibodies. IgG was used as control. These samples are the same as those presented in FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>A.</p></list-item><list-item><p>BSA binding affinity to bacterially expressed and purified Hsp90Î± was determined by fluorescence anisotropy. The error bars represent meanÂ Â±Â SD of three independent experiments.</p></list-item><list-item><p>Inorganic phosphate (P<sub>i</sub>) standard curve. The <italic>x</italic>âaxis shows Î¼M of P<sub>i</sub> per assay and the <italic>y</italic>âaxis shows absorbance at 565Â nm. MeanÂ Â±Â SD from values obtained in three independent experiments.</p></list-item><list-item><p>ATPase activity of Hsp90Î± <italic>inÂ vitro</italic>. Inhibitory effects of purified Tsc1âDâHis<sub>6</sub> on the ATPase activity of Hsp90Î± are shown. All the data represent meanÂ Â±Â SD of three biological replicates. A Student's <italic>t</italic>âtest was performed to assess statistical significance (**<italic>P</italic>Â &lt;Â 0.005, ****<italic>P</italic>Â &lt;Â 0.0001).</p></list-item><list-item><p>Different amounts of BSA have no effect on Hsp90 ATPase activity <italic>inÂ vitro</italic>. All the data represent meanÂ Â±Â SD of three biological replicates.</p></list-item><list-item><p>ATPase activity of Hsp90 from five <italic>Tsc1</italic>
+<sup>GFAP</sup>CKO (K1âK5) mice with conditional inactivation of the <italic>TSC1</italic> gene in glia and five <italic>Tsc1</italic>
+<sup>flox/+</sup>âGFAPâCre and <italic>Tsc1</italic>
+<sup>flox/flox</sup> littermate controls (C1âC5). All the data represent meanÂ Â±Â SD of three biological replicates. A Student's <italic>t</italic>âtest was performed to assess statistical significance (**<italic>P</italic>Â &lt;Â 0.005); 50Â ng of the isolated Hsp90 was resolved on the SDSâPAGE gel and stained with Coomassie stain.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-11" xlink:href="EMBJ-36-3650-g005"/>
+        </fig>
+        <p>We next determined the region in Tsc1 that interacts with Hsp90. Based on previous work, we decided to express FLAGâtag Tsc1âfragmentâA (Nâdomain; amino acid 1â301), Tsc1âfragmentâB (Tsc2âbinding domain; amino acid 302â430), and Tsc1âfragmentâD (Câdomain; amino acid 998â1,164) in HEK293 cells. Our data indicate that the carboxyâdomain of Tsc1 (amino acid 998â1,164 or fragment D) interacts with Hsp90Î± (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>D). In fact, Tsc1âDâHA interacts with the middle domain of Hsp90Î±âFLAG (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>E). It is noteworthy that we were unable to express Tsc1âfragmentâC (amino acid 431â718) in HEK293 cells.</p>
+        <p>We next bacterially expressed and purified fragment D (Tsc1âDâHis<sub>6</sub>) and examined its affinity for binding to Hsp90Î± in the presence of ADP, AMPPNP, and GB <italic>inÂ vitro</italic> by fluorescently labeling Tsc1âDâHis<sub>6</sub> with Texas Red maleimide, and measuring the K<sub>d</sub> by fluorescence anisotropy (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>F). Our bacterially expressed and purified Hsp90Î± was functional based on its ATPase activity. The titration fit to a singleâsite binding equationÂ with a K<sub>d</sub> of 0.48Â Â±Â 0.19Â Î¼M (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>F). This K<sub>d</sub> was not significantly affected by the presence of ADP or nonâhydrolyzing AMPPNP (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>F). However, the presence of GB produced a K<sub>d</sub> of &gt;Â 5Â Î¼M, therefore suggesting Tsc1âDâHis<sub>6</sub> binding to Hsp90 is significantly reduced in the presence of GB. Binding of bovine serum albumin (BSA) was used as a negative control (FigÂ <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>B).</p>
+        <p>The chaperone function of Hsp90 is linked to its ATPase activity (Panaretou <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0021" ref-type="ref">1998</xref>). We therefore tested the impact of Tsc1 on Hsp90 ATPase activity. Recombinant Hsp90Î± and Tsc1âDâHis<sub>6</sub> were used in the molar ratio indicated (FigsÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>G and <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>C and D) in the PiPer Phosphate Assay Kit (Thermo Fisher Scientific), in the presence of ATP as substrate. Hsp90Î± ATPase activity was measured <italic>inÂ vitro</italic> as previously described (see <xref rid="embj201796700-sec-0010" ref-type="sec">Materials and Methods</xref>; Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>; FigsÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>G and <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>C and D). 10Â Î¼M GB inhibited Hsp90Î± ATPase activity (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>G). Addition of Tsc1âD also significantly inhibited the ATPase activity of Hsp90Î± (FigsÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>G and <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>D). Percentage ATPase activity was based on mmol P<sub>i</sub> per mol Hsp90Î± per minute for Hsp90Î± alone and Tsc1âD was titrated until inhibition was achieved (Hsp90Î±Â =Â 300Â nM, Tsc1âDÂ =Â 1000Â nM). We repeated the experiments in FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>G using BSA as a negative control (FigÂ <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>E).</p>
+        <p>To obtain further evidence that Tsc1 is a regulator of Hsp90 ATPase activity, we used previously created Cre knockout (<italic>Tsc1</italic>
+<sup>GFAP</sup>CKO) mice with conditional inactivation of the <italic>TSC1</italic> gene predominantly in glia (Uhlmann <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0026" ref-type="ref">2002</xref>; Zeng <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0037" ref-type="ref">2008</xref>) Brain tissue was harvested from <italic>Tsc1</italic>
+<sup>GFAP</sup>CKO (<italic>Tsc1</italic>
+<sup>flox/flox</sup>âGFAPâCre) mice, as well as <italic>Tsc1</italic>
+<sup>flox/+</sup>âGFAPâCre and <italic>Tsc1</italic>
+<sup>flox/flox</sup> littermate controls (Uhlmann <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0026" ref-type="ref">2002</xref>; Zeng <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0037" ref-type="ref">2008</xref>). Hsp90 was isolated from <italic>Tsc1</italic>
+<sup>GFAP</sup>CKO and control brains (FigÂ <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>F). PiPer Phosphate Assay was used to measure the isolated Hsp90 ATPase activity. Our data show that the conditional knockout of <italic>TSC1</italic> in mouse brain caused a significant increase in ATPase activity compared to the control samples (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>H). Compromised Hsp90 chaperone function impacts the stability and/or the activity of its client proteins. We therefore examined the stability of a selection of client proteins in lysates prepared from <italic>Tsc1</italic>
+<sup>GFAP</sup>CKO and control mouse brains by immunoblotting. Conditional inactivation of Tsc1 in mouse brains caused a downâregulation of the kinase clients such ErbB2 and Ulk1 and nonâkinase client proteins such as estrogen receptor (ER) and GR (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>I). Our data suggest that Tsc1 is a coâchaperone of Hsp90 and a potent inhibitor of the chaperone cycle. Furthermore, Tsc1 coâchaperone can influence and impact the stability and activity of a large number of Hsp90 client proteins.</p>
+      </sec>
+      <sec id="embj201796700-sec-0005">
+        <title>Tsc1 coâchaperone enables Tsc2 binding to Hsp90</title>
+        <p>To gain further insight into Tsc1 function as a new coâchaperone of Hsp90, we examined a selection of its <italic>bona fide</italic> clients in wildâtype and <italic>TSC1</italic>âdeficient (Tsc1<sup>â/â</sup>) murine embryo fibroblast (MEF) cell lines. Absence of Tsc1 significantly reduced both the activity and the stability of kinase clients phosphoâY416âcâSrc, total câSrc, ErbB2, Ulk1, Rafâ1, and Cdk4, and nonâkinase clients phosphoâS211âGR, total GR, FLCN, and Tsc2 (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>A). To determine the effects of Tsc1 overâexpression on the Hsp90 clients, HEK293 cells were transiently transfected with either 2 or 4Â Î¼g of Tsc1âHAâtagged plasmid. Overâexpression of Tsc1 also caused a reduction in the stability of the Hsp90 kinase clients such as ErbB2, Ulk1, and Rafâ1 (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>B). Conversely, high levels of Tsc1 increased the total amount of GR (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>B), but did not impact the stability of Cdk4 kinase. It also had a slight positive impact on the stability of both FLCN and Tsc2 (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>B). We next examined the effects of Tsc1 on Hsp90 chaperone function by assessing the steadyâstate expression of cystic fibrosis transmembrane conductance regulator (CFTR). CFTR is a client protein of Hsp90 (Youker <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0036" ref-type="ref">2004</xref>; Wang <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0029" ref-type="ref">2006</xref>) and relies on the Hsp90 chaperone cycle for correct folding (Youker <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0036" ref-type="ref">2004</xref>; Wang <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0029" ref-type="ref">2006</xref>). HEK293 cells were transiently coâtransfected with CFTR and either pcDNA3 (control) or Tsc1âFLAG plasmids. Immunoblot analysis of these samples using antiâCFTR antibody showed a doublet (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>C). The upper band is the mature Golgiâprocessed glycoform of CFTR located at the cell surface and the lower band an immature coreâglycosylated protein (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>C). Overâexpression of Tsc1 significantly increased CFTR protein, suggesting a deceleration in Hsp90 chaperone activity and, consequently, an increase in CFTR expression. Our data provide further evidence that Tsc1 functions as a new coâchaperone of Hsp90, and its levels compromise Hsp90 chaperoning of client proteins.</p>
+        <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0003" orientation="portrait" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <title>Tsc1 facilitates the chaperoning of Hsp90 clients</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0004"><list-item><p>Endogenous protein levels of Hsp90 kinase and nonâkinase clients from wildâtype and Tsc1<sup>â/â</sup> MEF cells were assessed by immunoblotting.</p></list-item><list-item><p>Transient overâexpression of Tsc1âHA in HEK293 cells and its impact on levels of Hsp90 clients was assessed by immunoblotting. Empty vector (EV) was used as a control.</p></list-item><list-item><p>HEK293 cells were coâtransfected with CFTR and Tsc1âFLAG. CFTR and Tsc1âFLAG were detected by immunoblotting after 24Â h. Empty vector (EV) was used as a control.</p></list-item><list-item><p>Tsc1 interacts with Hsp90Î±âHis<sub>6</sub>
+<italic>inÂ vitro</italic>. Bacterially expressed and purified Hsp90Î±âHis<sub>6</sub> was bound to NiâNTA agarose and then incubated with 10Â ng pure Tsc1. Hsp90Î±âHis<sub>6</sub> pulldown and Tsc1 coâpulldown were examined by immunoblotting.</p></list-item><list-item><p>Tsc1 binds to Tsc2 <italic>inÂ vitro</italic>. Purified Tsc2 was bound to recombinant protein G agarose using antiâTsc2 antibody and then incubated with 10Â ng pure Tsc1. Tsc2 immunoprecipitation and Tsc1 coâimmunoprecipitation were assessed by immunoblotting.</p></list-item><list-item><p>Tsc1, Tsc2, and Hsp90Î± form a trimeric complex <italic>inÂ vitro</italic>. Bacterially expressed and purified Hsp90Î±âHis<sub>6</sub> was bound to NiâNTA agarose and followed by incubation with 10Â ng Tsc1 and then 10Â ng Tsc2 <italic>inÂ vitro</italic>. Hsp90Î±âHis<sub>6</sub> pulldown and Tsc1 and Tsc2 coâpulldown were examined by immunoblotting.</p></list-item><list-item><p>Samples from (D) were treated with indicated GB for 1Â h at 4Â°C. Hsp90Î±âHis<sub>6</sub> pulldown and Tsc1 coâpulldown were examined by immunoblotting.</p></list-item><list-item><p>Samples from (E) were treated with indicated GB for 1Â h at 4Â°C. Tsc2 immunoprecipitation and Tsc1 coâimmunoprecipitation were assessed by immunoblotting.</p></list-item><list-item><p>Samples from (F) were treated with indicated GB for 1Â h at 4Â°C. Tsc2 immunoprecipitation and Tsc1 and Hsp90Î± coâimmunoprecipitation were assessed by immunoblotting.</p></list-item><list-item><p>Supernatant from (I) was used to immunoprecipitate Hsp90Î±âHis<sub>6</sub> and coâimmunoprecipitate Tsc1, which were examined by immunoblotting.</p></list-item><list-item><p>Coâchaperone Tsc1 binds to Tsc2 (1) and acts as a loading scaffold facilitating the direct binding of Tsc2 to Hsp90 (2), eventually leading to dissociation of Tsc1 from Hsp90 (3).</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-13" xlink:href="EMBJ-36-3650-g006"/>
+        </fig>
+        <p>We next explored the role of Tsc1 in Hsp90âmediated chaperoning of the Tsc2 client protein. We managed to express and purify a small amount of Tsc1 and Tsc2 from HEK293 cells. Tsc1 directly associates with bacterially expressed and purified Hsp90Î±âHis<sub>6</sub> (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>D) and Tsc2 (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>E). Surprisingly, direct interaction of Tsc2 and Hsp90Î±âHis<sub>6</sub> did not occur <italic>inÂ vitro</italic>; however, preâincubation of Hsp90Î±âHis<sub>6</sub> with Tsc1 facilitated the formation of Hsp90Î±:Tsc1:Tsc2 complex (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>F). To explore whether Tsc2 may directly interact with Hsp90 in this trimeric complex, we first showed that treating the Tsc1:Hsp90 complex with Hsp90 inhibitor GB did not disrupt Hsp90 interaction with Tsc1 (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>G). The interaction of Tsc1:Tsc2 was also not disrupted with GB (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>H). However, treating the trimeric Tsc1:Tsc2:Hsp90Î± complex with GB led to dissociation of Tsc2 from the complex (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>I), whereas Tsc1:Hsp90 interaction from these treated samples was unaffected (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>J). It is noteworthy that we were unable to produce large amounts of Tsc1 and Tsc2 proteins from bacteria, yeast, or baculovirus expression systems for biophysical analysis. Taken together, our data, at least qualitatively, suggest that the coâchaperone Tsc1 acts as a loading scaffold facilitating the direct binding of Tsc2 to Hsp90 (FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>K).</p>
+        <p>In terms of the clinical relevance of our findings, we explored the pathogenic mutant L117P, which is in the aminoâterminus domain of Tsc1 but not within the Tsc2âbinding domain. In agreement with previous works (HoogeveenâWesterveld <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0013" ref-type="ref">2010</xref>, <xref rid="embj201796700-bib-0014" ref-type="ref">2012</xref>), the L117PâTsc1âHA is unstable when transiently expressed in the Tsc1<sup>â/â</sup> MEF cell line. However, overâexpression of this mutant (i.e., using 6Â Î¼g L117PâTsc1âHA plasmid for transfection) slightly stabilized the L117PâTsc1 as well as Tsc2 in the Tsc1<sup>â/â</sup> MEF cells (FigÂ <xref rid="embj201796700-fig-0003ev" ref-type="fig">EV3</xref>A). We next showed that transfection of the Tsc1<sup>â/â</sup> MEF cells with either 1Â Î¼g of empty vector or L117PâTsc1âHA plasmid for 24Â h and followed by treatment with 50Â nM proteasome inhibitor BZ led to increased stability of L117PâTsc1âHA (FigÂ <xref rid="embj201796700-fig-0003ev" ref-type="fig">EV3</xref>B). Finally, we overexpressed (6Â Î¼g L117PâTsc1âHA plasmid) in Tsc1<sup>â/â</sup> MEF cells followed by immunoprecipitation and detection of Tsc2 and Hsp90 CoâIP by immunoblotting (FigÂ <xref rid="embj201796700-fig-0003ev" ref-type="fig">EV3</xref>C). Our findings here suggest that loss of Tsc1 as the result of mutation in its Nâdomain destabilizes Tsc1 and therefore prevents Tsc2 from binding to Hsp90. This makes Tsc2 susceptible to proteasomeâmediated degradation.</p>
+        <fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201796700-fig-0003ev" orientation="portrait" position="float">
+          <label>Figure EV3</label>
+          <caption>
+            <title>Expression and interaction of the pathogenic mutant L117PâTsc1 with Hsp90 and Tsc2 (related to FigÂ <xref rid="embj201796700-fig-0003" ref-type="fig">3</xref>)</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0009"><list-item><p>Tsc1<sup>â/â</sup> MEF cells were transiently transfected with indicated amounts of L117PâTsc1âHA and detected by immunoblotting. SE (short exposure) and LE (long exposure) of the radiographic film.</p></list-item><list-item><p>Tsc1<sup>â/â</sup> MEF cells transiently expressing either 1Â Î¼g of empty vector or L117PâTsc1âHA plasmid for 24Â h, followed by 50Â nM proteasome inhibitor BZ treatment for 2Â h. Samples were analyzed by immunoblotting.</p></list-item><list-item><p>6Â Î¼g of empty vector or L117PâTsc1âHA plasmid for was transiently expressed in Tsc1<sup>â/â</sup> MEF cells, and L117PâTsc1âHA was immunoprecipitated and coâimmunoprecipitation of Hsp90 and Tsc2 was analyzed by immunoblotting.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-15" xlink:href="EMBJ-36-3650-g007"/>
+        </fig>
+      </sec>
+      <sec id="embj201796700-sec-0006">
+        <title>The coâchaperone Tsc1 binds to the closed conformation of Hsp90</title>
+        <p>Some coâchaperones have been shown to impact the affinity of Hsp90 for binding to ATP or aminoâdomain inhibitors of Hsp90 both <italic>inÂ vitro</italic> and <italic>inÂ vivo</italic> (WaltonâDiaz <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0028" ref-type="ref">2013</xref>). Here we used the wildâtype and Tsc1<sup>â/â</sup> MEF cell lines and showed that absence of Tsc1 significantly reduces Hsp90 binding to ATPâagarose (FigÂ <xref rid="embj201796700-fig-0004" ref-type="fig">4</xref>A). Conversely, overâexpression of Tsc1âHA or its Hsp90âbinding fragment Tsc1âDâFLAG in HEK293 cells increased Hsp90 binding to ATPâagarose (FigÂ <xref rid="embj201796700-fig-0004" ref-type="fig">4</xref>B and C). We obtained similar results with the Hsp90 inhibitor GB, where lack of Tsc1 in MEF cells significantly reduced the binding of Hsp90 to 1Â Î¼M biotinylated GB (FigÂ <xref rid="embj201796700-fig-0004" ref-type="fig">4</xref>D). However, overâexpression of Tsc1âHA or Tsc1âDâFLAG in HEK293 cells increased the binding of Hsp90 to 0.1Â Î¼M biotinylated GB (FigÂ <xref rid="embj201796700-fig-0004" ref-type="fig">4</xref>E and F). Taken together, our results suggest that Tsc1 increases the binding of Hsp90 to ATP and its inhibitor GB.</p>
+        <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0004" orientation="portrait" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <title>Tsc1 increases Hsp90 binding to <styled-content style="fixed-case">ATP</styled-content> and drugs</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0005"><list-item><p>Lysates from wildâtype and Tsc1<sup>â/â</sup> MEF cells were incubated with ATPâagarose. Hsp90 binding to ATPâagarose was examined by immunoblotting.</p></list-item><list-item><p>Tsc1âHA or empty vector (EV) was transiently expressed in HEK293 cells for 24Â h followed by incubating the lysates with ATPâagarose. Hsp90 binding to ATPâagarose was examined by immunoblotting.</p></list-item><list-item><p>Tsc1âDâFLAG or empty vector (EV) was transiently expressed in HEK293 cells for 24Â h. Lysates were incubated with ATPâagarose. Hsp90 binding to ATPâagarose was examined by immunoblotting.</p></list-item><list-item><p>Lysates from (A) were incubated with indicated amounts of biotinylated GB followed by streptavidin agarose beads. Hsp90 was detected by immunoblotting.</p></list-item><list-item><p>Lysates from (B) were incubated with indicated amounts of biotinylated GB followed by streptavidin agarose beads. Hsp90 was detected by immunoblotting.</p></list-item><list-item><p>Lysates from (C) were incubated with indicated amounts of biotinylated GB followed by streptavidin agarose beads. Hsp90 was detected by immunoblotting.</p></list-item><list-item><p>Hsp90Î±âFLAG WT and its âopenâ D93A or âclosedâ E47A mutants were transiently expressed in HEK293 cells. Hsp90âFLAG proteins were immunoprecipitated, and coâimmunoprecipitation of the endogenous Tsc1 was examined by immunoblotting.</p></list-item><list-item><p>Hsp90Î±âFLAG, D93A, and E47A mutants were coâexpressed with Tsc1âDâHA in HEK293 cells. Hsp90âFLAG and its mutants were immunoprecipitated, and coâimmunoprecipitation of Tsc1âDâHA was examined by immunoblotting.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-17" xlink:href="EMBJ-36-3650-g008"/>
+        </fig>
+        <p>Hsp90 ATPase activity is coupled to a conformational cycle in which the Hsp90 dimer progresses from an Nâterminally âopenâ state to a closed conformation. Human Hsp90Î±âE47A and D93A mutants can promote either âclosedâ or âopen,â respectively (Panaretou <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0021" ref-type="ref">1998</xref>). These two mutants and wildâtype Hsp90Î±âFLAG were transiently expressed and immunoprecipitated from HEK293 cells. Tsc1 interacts with both Hsp90Î±âFLAG and the E47A mutant. However, Tsc1 binding with the âopenâ conformation mutant D93A was reduced (FigÂ <xref rid="embj201796700-fig-0004" ref-type="fig">4</xref>G). We repeated these experiments with Tsc1âDâHA and show that this fragment binds with the same affinity to the wildâtype Hsp90Î±âFLAG, E47A, and D93A mutants (FigÂ <xref rid="embj201796700-fig-0004" ref-type="fig">4</xref>H). These data suggest that the Tsc1âD fragment, which binds to the Hsp90 middle domain (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>E), associates with Hsp90, andÂ the âopenâ or âclosedâ conformations do not impact this interaction.</p>
+      </sec>
+      <sec id="embj201796700-sec-0007">
+        <title>Tsc1 dimer binds to both protomers of the Hsp90 middle domain</title>
+        <p>Our initial data revealed that Tsc1 inhibits Hsp90 chaperone function (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>G) and also that Tsc1 is not in a same complex as Aha1 (FigÂ <xref rid="embj201796700-fig-0002ev" ref-type="fig">EV2</xref>A). To gain further insight into the mechanism of Tsc1 competition with Aha1 for binding to Hsp90, we first showed that Hsp90 binds stronger to Aha1 in the absence of Tsc1 in MEF cells (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>A). Our previous work showed that phosphomimetic Hsp90Î±âY313E has a stronger affinity for binding to Aha1 than wildâtype Hsp90 (Xu <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0033" ref-type="ref">2012</xref>). Here, we showed that Hsp90Î±âY313E does not interact with Tsc1 (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>B). We next explored whether Tsc1 binds to the same amino acids in the middle domain of Hsp90 that are occupied by Aha1. This was achieved using the V410EâFLAG mutant, because this residue is known to participate in the interaction of Aha1âN with the middle domain of Hsp90 (Retzlaff <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0024" ref-type="ref">2010</xref>). Like Aha1, Tsc1 interaction with Hsp90Î±âV410E (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>C) was completely abrogated. Previous work has shown that Aha1 binds in an asymmetric manner to an Hsp90 dimer (Retzlaff <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0024" ref-type="ref">2010</xref>). To test whether Tsc1 also binds to Hsp90 in a similar manner as Aha1, we transiently coâexpressed both Hsp90Î±âFLAG and Hsp90Î±âHA in HEK293 cells. Following immunoprecipitation with antiâFLAG M2 affinity gel, Hsp90Î±âFLAG was competed from the agarose with FLAG peptide and then subjected to a second round of immunoprecipitation using HAâagarose. The isolated Hsp90 (WTâFLAG:WTâHA) is a homodimer with one protomer tagged with FLAG and the other protomer with HA. We were able to coâimmunoprecipitate Tsc1 and Aha1 with Hsp90Î±âFLAG:HA (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>D). We also carried out similar experiment with the exception of coâexpressing Hsp90Î±âV410EâFLAG with Hsp90Î±âHA in HEK293 cells. The isolated Hsp90Î± (V410EâFLAG:WTâHA) consists of an Hsp90Î±âFLAGâV410E protomer and a second subunit with the wildâtype Hsp90Î±âHA (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>D). We coâimmunoprecipitated Aha1 in this sample, which is in agreement with Aha1 interaction with one subunit of the Hsp90 dimer (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>D; Retzlaff <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0024" ref-type="ref">2010</xref>; Mollapour <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0019" ref-type="ref">2014</xref>). Tsc1 however did not bind to Hsp90Î±âV410EâFLAG:WTâHA, suggesting that Tsc1 interacts symmetrically with both subunits of the Hsp90 dimer.</p>
+        <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0005" orientation="portrait" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <title>Tsc1 dimer binds to both protomers of Hsp90 middle domain</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0006"><list-item><p>Hsp90 was isolated from wildâtype and Tsc1<sup>â/â</sup> MEF cells lysates using antiâHsp90Î±/Î² antibody and immunoblotted with Aha1 antibody.</p></list-item><list-item><p>Hsp90Î±âFLAG and the phosphomutants Y313F and Y313E were transiently expressed and isolated from HEK293 cells. Coâimmunoprecipitation of Tsc1 and Aha1 was examined by immunoblotting.</p></list-item><list-item><p>Hsp90Î±âFLAG and V410E mutant were transiently expressed and isolated from HEK293 cells. Coâimmunoprecipitation of Tsc1 and Aha1 was examined by immunoblotting.</p></list-item><list-item><p>Hsp90Î±âFLAG and Hsp90Î±âHA were coâexpressed in HEK293 cells. Hsp90Î±âFLAG was first isolated by antiâFLAG M2 affinity gel and then competed with FLAG peptide. Hsp90Î±âFLAG:Hsp90Î±âHA heterodimer protein was isolated by second immunoprecipitation using HAâagarose. Coâimmunoprecipitation of Tsc1 and Aha1 was examined by immunoblotting.</p></list-item><list-item><p>HEK293 cells transiently expressed Tsc1âDâFLAG. Immunoprecipitation of Tsc1âDâFLAG and coâimmunoprecipitation of Hsp90 and Aha1 were examined by immunoblotting.</p></list-item><list-item><p>Tsc1âDâFLAG and Tsc1âDâHA were coâexpressed in HEK293 cells. Tsc1âDâFLAG was immunoprecipitated, and coâimmunoprecipitation of Tsc1âDâHA was examined by immunoblotting.</p></list-item><list-item><p>Bacterially expressed Tsc1âDâHis<sub>6</sub> was concentrated to 10Â mg/ml and subjected to gel filtration using a Superdex 75 column. The protein migrates as a monodisperse peak with an apparent MW of Ë52Â kDa.</p></list-item><list-item><p>Tsc1 and Aha1 compete for binding to Hsp90Î±. Tsc1âDâHis<sub>6</sub> was attached to NiâNTA agarose and then incubated with Hsp90Î±. NiâNTA agarose was then washed and incubated with the indicated amounts of Aha1âFLAG.</p></list-item><list-item><p>Aha1âFLAG attached to antiâFLAG M2 affinity gel was incubated with Hsp90Î± initially and then washed and incubated with indicated amounts of the Tsc1âDâHis<sub>6</sub>.</p></list-item><list-item><p>Tsc1âDâHis<sub>6</sub> inhibits Hsp90Î± ATPase activity after 30Â min. Addition of 1.3Â Î¼M Aha1âFLAG stimulated the ATPase activity. All the data represent meanÂ Â±Â SD of three biological replicates. A Student's <italic>t</italic>âtest was performed to assess statistical significance (*<italic>P</italic>Â &lt;Â 0.05, ***<italic>P</italic>Â &lt;Â 0.0005).</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-19" xlink:href="EMBJ-36-3650-g010"/>
+        </fig>
+        <p>Our initial data identified that region D within Tsc1 (Tsc1âD) binds to the middle domain of Hsp90Î± (FigÂ <xref rid="embj201796700-fig-0002" ref-type="fig">2</xref>E). We next confirmed that as with the fullâlength Tsc1, Tsc1âD does not coâimmunoprecipitate Aha1 from HEK293 cells (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>E). We also showed that Tsc1âD exists as a homodimer, by first coâexpressing Tsc1âDâFLAG and Tsc1âDâHA in HEK293 cells. Immunoprecipitation of Tsc1âDâFLAG led to coâimmunoprecipitation of Tsc1âDâHA (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>F). We next bacterially expressed and purified Tsc1âDâHis<sub>6</sub>. Gel filtration of the purified protein indicates that Tsc1âDâHis<sub>6</sub> exists as a dimer in solution, as it migrates with an apparent size of approximately twice the predicted molecular weight of the monomer (22.1Â kDa; FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>G).</p>
+        <p>To dissect the competitive binding of Aha1 and Tsc1 to Hsp90, we first bound bacterially expressed and purified Tsc1âDâHis<sub>6</sub> to NiâNTA agarose and then incubated with 100Â ng recombinant Hsp90Î±. After washing the NiâNTA agarose with the wash buffer, we added different amounts of recombinant Aha1âFLAG. We found that addition of 200Â ng recombinant Aha1âFLAG completely disrupted Hsp90Î± and Tsc1âDâHis<sub>6</sub> interaction (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>H). We next used a similar experiment by first binding Aha1âFLAG to antiâFLAG M2 affinity gel followed by addition of 100Â ng recombinant Hsp90Î± to form an Aha1:Hsp90Î± complex. After washing the agarose beads with the wash buffer, different amounts of Tsc1âDâHis<sub>6</sub> were added to the complex. Our data show that addition of 1Â ng Tsc1âDâHis<sub>6</sub> was sufficient to completely disrupt the Aha1:Hsp90Î± complex (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>I). These data indicate that Tsc1 has a stronger affinity for association with Hsp90 than Aha1. Lastly, we tested the simultaneous impact of both Tsc1 and Aha1 on Hsp90 ATPase activity. Our data show that Aha1 stimulates and Tsc1 inhibits Hsp90Î± ATPase (FigsÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>J and <xref rid="embj201796700-fig-0004ev" ref-type="fig">EV4</xref>A and B). We also show that addition of 1.3Â Î¼M Aha1 to Hsp90Î± after incubation with 1Â Î¼M Tsc1 was capable of stimulating Hsp90Î± ATPase to approximately 100% (FigsÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>J and <xref rid="embj201796700-fig-0004ev" ref-type="fig">EV4</xref>B). Our data suggest that Tsc1 and Aha1 compete for binding to the same sites in the middle domain of Hsp90 in order to fineâtune its ATPase activity.</p>
+        <fig fig-type="Figure" xml:lang="en" specific-use="collapsible" id="embj201796700-fig-0004ev" orientation="portrait" position="float">
+          <label>Figure EV4</label>
+          <caption>
+            <title>Tsc1 and Aha1 compete for binding and regulating Hsp90 function (related to FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>)</title>
+            <p>
+<list list-type="alpha-upper"><list-item><p>Inorganic phosphate (P<sub>i</sub>) standard curve. The <italic>x</italic>âaxis shows Î¼M of P<sub>i</sub> per assay and the <italic>y</italic>âaxis shows absorbance at 565Â nm. MeanÂ Â±Â SD from values obtained in three independent experiments.</p></list-item><list-item><p>Tsc1âDâHis<sub>6</sub> inhibits Hsp90Î± ATPase activity after 30Â min. Addition of 1.3Â Î¼M Aha1âFLAG stimulated the ATPase activity. All the data represent meanÂ Â±Â SD of three biological replicates. A Student's <italic>t</italic>âtest was performed to assess statistical significance (*<italic>P</italic>Â &lt;Â 0.05, ***<italic>P</italic>Â &lt;Â 0.0005).</p></list-item></list>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-21" xlink:href="EMBJ-36-3650-g009"/>
+        </fig>
+      </sec>
+      <sec id="embj201796700-sec-0008">
+        <title>Phosphorylation of Aha1 displaces Tsc1 from Hsp90</title>
+        <p>We previously showed that câAblâmediated phosphorylation of Aha1âY223 promotes its interaction with Hsp90 (Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>). We therefore examined the influence of phosphoâAha1âY223 on Tsc1 binding to Hsp90. We bound Tsc1âDâHis<sub>6</sub> to NiâNTA agarose and incubated with 100Â ng recombinant Hsp90Î±. After washing the agarose with buffer, we added different amounts of Aha1âY223EâFLAG. Our data show that addition of 1Â ng of phosphomimetic Y223E mutant completely dissociated Hsp90Î± from Tsc1âDâHis<sub>6</sub> (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>A) as opposed to 200Â ng WT Aha1 (FigÂ <xref rid="embj201796700-fig-0005" ref-type="fig">5</xref>H). Tsc1 has no similarities with other proteins and although orthologs can be found in most eukaryotic cells, including the fission yeast <italic>Schizosaccharomyces pombe</italic>, no <italic>TSC1</italic> gene exists in <italic>Saccharomyces cerevisiae</italic>. We used this system to express <italic>TSC1âFLAG</italic> under galactoseâinducible promoter <italic>GAL1</italic> in yeast containing either human Hsp90Î± or yeast Hsp82 (yHsp90) as the sole functional Hsp90. Tsc1âFLAG was detectable only in <italic>S.Â cerevisiae</italic> containing Hsp90Î± (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>B) and this expression caused lethality in yeast cells (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>C). We next used this strain to transform an empty vector (ADHâpRS424) or human Aha1 or its phosphomimetic Y223E under alcohol dehydrogenase 1 (<italic>ADH1</italic>) promoter. Consistent with our previous work (Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>), immunoprecipitation of Hsp90Î± led to coâimmunoprecipitation of human Aha1 and strongly to Aha1âY223E (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>D). However, growing these yeast cells on galactose media and consequent expression of Tsc1âFLAG led to its association with Hsp90Î± in the absence of human Aha1 (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>D). Presence of human Aha1 slightly reduced the interaction of Tsc1âFLAG with Hsp90Î± and this association was completely abrogated in the presence of the phosphomimetic Aha1âY223E mutant (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>D). This mutant also rescued the toxic effect of Tsc1âFLAG in yeast cells (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>E).</p>
+        <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0006" orientation="portrait" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <title>Phosphorylation of Aha1 displaces Tsc1 from Hsp90</title>
+            <p>
+<list list-type="alpha-upper" id="embj201796700-list-0007"><list-item><p>Tsc1âDâHis<sub>6</sub> was attached to NiâNTA agarose and then incubated with Hsp90Î±. NiâNTA agarose was then washed and incubated with the indicated amounts of phosphomimetic Aha1âY223EâFLAG.</p></list-item><list-item><p>PP30 yeast strain expressing either yHsp90 or Hsp90Î± as the sole copies of Hsp90 was transformed by <italic>GAL1âTSC1âFLAG</italic> and grown on raffinose (Raf) overnight. The cells were shifted to galactose (Gal) media for 4Â h. Expression of Tsc1âFLAG was assessed by immunoblotting. Sba1 was used as a loading control.</p></list-item><list-item><p>Strains in (B) were spotted at 1:10 dilution series on YPED or YPGal media. Plates were incubated at 30Â°C for 2Â days.</p></list-item><list-item><p>Yeast strains in (B) were also transformed with <italic>ADH1âAHA1</italic> or the phosphomimetic mutant Y223E. Cells were grown in similar conditions as (B) and the expression of Aha1, Tsc1âFLAG, and Hsp90Î± was examined by immunoblotting.</p></list-item><list-item><p>Yeast strains from (D) were spotted at 1:10 dilution series on YPED or YPGal media. Plates were incubated at 30Â°C for 2Â days.</p></list-item><list-item><p>Wildâtype and Tsc1<sup>â/â</sup> MEF cells were treated with 20Â Î¼M DPH (câAbl activator) for 6Â h prior to lysis. Hsp90 (Hsp90Î±/Î²) was immunoprecipitated, and coâimmunoprecipitation of Aha1 and Tsc1 was examined by immunoblotting.</p></list-item><list-item><p>Wildâtype and Tsc1<sup>â/â</sup> MEF cells were treated with 5Â Î¼M GNFâ5 (câAbl inhibitor) for 24Â h prior to lysis. Hsp90 (Hsp90Î±/Î²) was immunoprecipitated, and coâimmunoprecipitation of Aha1 and Tsc1 was examined by immunoblotting.</p></list-item><list-item><p>Hsp90 (Hsp90Î±/Î²) was immunoprecipitated from wildâtype and câAbl<sup>â/â</sup> MEF cell lysate. Coâimmunoprecipitation of Aha1 and Tsc1 was examined by immunoblotting.</p></list-item><list-item><p>Hsp90 (Hsp90Î±/Î²) was immunoprecipitated from câAbl<sup>â/â</sup> MEF with siRNA knockdown of <italic>TSC1</italic>. Coâimmunoprecipitation of Aha1 and Tsc1 was examined by immunoblotting.</p></list-item></list>
+</p>
+            <p>
+<named-content content-type="attribution">Source data are available online for this figure.</named-content>
+</p>
+          </caption>
+          <graphic id="nlm-graphic-23" xlink:href="EMBJ-36-3650-g011"/>
+        </fig>
+        <p>We obtained further evidence by treating the Tsc1<sup>â/â</sup> and wildâtype MEF cell lines with 20Â Î¼M 5â(1,3âdiâarylâ1Hâpyrazolâ4âyl)hydantoin, 5â[3â(4âfluorophenyl)â1âphenylâ1Hâpyrazolâ4âyl]â2,4âimidazolidinedione (DPH), which binds to the myristoyl binding site of câAbl and leads to its activation (Yang <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0034" ref-type="ref">2011</xref>). As expected, Hsp90 binds to both Aha1 and Tsc1 (presumably separate complexes) in the wildâtype MEF cells (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>F). DPHâmediated activation of câAbl and hyperphosphorylation of Aha1 in the wildâtype MEF cells increased Hsp90 binding to Aha1 but abrogated its interaction with Tsc1 (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>F). Hsp90 also bound stronger to Aha1 in Tsc1<sup>â/â</sup> MEF cells (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>F). We repeated the same experiment but treated the MEF cells with 5Â Î¼M GNFâ5 (a selective allosteric câAbl inhibitor) for 24Â h (Yang <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0034" ref-type="ref">2011</xref>). Inhibition of câAbl in wildâtype MEF cells reduced phosphorylation of Aha1 and its association with Hsp90 and led to enhanced interaction of Tsc1 with Hsp90 (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>G). Interestingly, Aha1 did not dissociate from Hsp90 in Tsc1<sup>â/â</sup> MEF cells treated with GNFâ5 (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>G). These data suggest that Tsc1 plays an essential role in dissociation of Aha1 from Hsp90 in cells.</p>
+        <p>We further explored the role of câAblâmediated phosphorylation of Aha1 and its competition with Tsc1 for binding to Hsp90 by using the câAbl<sup>â/â</sup> MEF cells. Absence of câAbl in this MEF cell line, and therefore lack of Aha1âY223 phosphorylation, abrogated Aha1 interaction with Hsp90, which is consistent with our previous work (Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>; FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>H). Conversely, Tsc1 binding to Hsp90 was enhanced in the câAbl<sup>â/â</sup> MEF cells compared to the wildâtype MEF cells (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>H). Lastly, silencing of <italic>TSC1</italic> by siRNA in câAbl<sup>â/â</sup> MEF cells restored Aha1 binding with Hsp90 (FigÂ <xref rid="embj201796700-fig-0006" ref-type="fig">6</xref>I, <xref rid="embj201796700-sup-0001" ref-type="supplementary-material">AppendixÂ TableÂ S1</xref>). Taken together, our data here suggest a dynamic equilibrium in binding of Aha1 and Tsc1 to Hsp90 that can be influenced in part by phosphorylation of Aha1.</p>
+      </sec>
+    </sec>
+    <sec id="embj201796700-sec-0009">
+      <title>Discussion</title>
+      <p>Mutations in either the <italic>TSC1</italic> or <italic>TSC2</italic> tumor suppressor genes cause TSC, which is a genetic syndrome that leads to manifestation of benign tumors in the brain and other organs such as kidneys, heart, eyes, lungs, and skin. Tsc1 and Tsc2 form a physical and functional complex that ultimately inhibits mTOR. Tsc2 is a GTPaseâactivating protein, and Tsc1 prevents Tsc2 interaction with HERC1 ubiquitin ligase (Crino <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0009" ref-type="ref">2006</xref>; Henske <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0012" ref-type="ref">2016</xref>). Previous work has also shown that Tsc1 and Tsc2 both interact with the coâchaperone complex R2TP/Prefoldinâlike (R2TP/PFDL) complex (Cloutier <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0007" ref-type="ref">2017</xref>). In this study, we demonstrate that Tsc2 is a client of the molecular chaperones Hsp70 and Hsp90, since treating the cells with Hsp70 or Hsp90 inhibitors leads to Tsc2 ubiquitination and proteasomal degradation. We further demonstrate that Tsc1 is a new coâchaperone of Hsp90. Tsc1 carboxyâdomain (998â1,164Â aa; Tsc1âD) exists as a homodimer and interacts with the middle domain of Hsp90. 100Â nM of Tsc1âD is sufficient to inhibit or decelerate Hsp90 ATPase activity by 72%. Conversely, Hsp90 isolated from mouse brains with conditional inactivation of Tsc1 had a higher ATPase activity compared to the Hsp90 from control samples. Furthermore, inactivation of Tsc1 in these samples caused a downâregulation of the kinase clients such as ErbB2 and Ulk1 as well as nonâkinase client proteins such as estrogen receptor (ER) and GR. This is consistent with our findings obtained from the Tsc1<sup>â/â</sup> MEF cells, which showed downâregulation of kinase clients such as ErbB2, Ulk1, câSrc, Raf1, and Cdk4 and nonâkinase clients such as GR, FLCN, and Tsc2. Overâexpression of Tsc1 in HEK293 cells also downâregulated the kinase clients but surprisingly stabilized the steroid hormone receptors and nonâkinase clients such as FLCN and CFTR possibly because of the slow chaperone cycle of Hsp90. Our findings suggest that the newly identified function of Tsc1 is to regulate the chaperoning of Hsp90 clients including Tsc2. Like other coâchaperones such as Cdc37 and HOP, Tsc1 behaves as a scaffold in order to load clients, in this case Tsc2, to Hsp90. It is also conceivable that Tsc1 regulates the chaperone function of Hsp70 and perhaps like HOP, connects the transfer of clients between Hsp70 and Hsp90.</p>
+      <p>Previous works have shown that pathogenic missense mutations of Tsc1 in its Nâdomain can destabilize the Tsc1 protein (HoogeveenâWesterveld <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0013" ref-type="ref">2010</xref>, <xref rid="embj201796700-bib-0014" ref-type="ref">2012</xref>). We have shown that the pathogenic mutant L117PâTsc1 is unstable and also prevents Tsc2 from binding to Hsp90. This leads to destabilization of Tsc2 and perhaps proteasomeâmediated degradation.</p>
+      <p>What is the mechanism of Tsc1 interaction with and inhibition of Hsp90? Hsp90 chaperone cycle is linked to its ability to bind and hydrolyze ATP (Panaretou <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0021" ref-type="ref">1998</xref>). This provides a series of conformational changes in which the Hsp90 dimer progresses from an Nâterminally âopenâ state to a âclosedâ conformation. Tsc1 prefers binding to the closed conformation mutant E47A rather than the open state mutant D93A. While the Tsc1âD fragment interacts with the middle domain of Hsp90, deletion of the MEEVD motif (the TPR domainâbinding site) at the very Câterminus of Hsp90 completely abrogates Tsc1 binding to Hsp90. Our data suggest that the binding of Tsc1 to Hsp90 is complex, and it requires multiple surfaces of Tsc1 to interact with Hsp90. Tsc1 is also not in the same Hsp90 complex with Aha1, p23, or HOP coâchaperones. Because Tsc1 and the coâchaperone Aha1 both bind the middle domain and do not exist in the same Hsp90 complex, we examined Aha1 binding site mutants for Tsc1 interaction. Hsp90Î±âV410 participates in the interaction of Aha1âN with the middle domain of Hsp90Î± (Meyer <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0018" ref-type="ref">2004</xref>). The Hsp90Î±âV410E mutant does not bind to either Aha1 or Tsc1. Interestingly, although V410E mutation of only one protomer of the Hsp90 middle domain binds to Aha1, this mutant does not interact with Tsc1. We conclude that a Tsc1 dimer needs to bind to both protomers of the Hsp90 middle domain. This observation also provides an explanation for Tsc1 competing with and masking Aha1 and p23 binding to Hsp90 (FigÂ <xref rid="embj201796700-fig-0007" ref-type="fig">7</xref>). Because Tsc1 interacts with the Aha1 binding sites on Hsp90 middle domain, we predict that Tsc1 prevents the conformational changes in the catalytic loop of Hsp90 that stops the release of R400 from its retracted inactivating conformation consequently inhibiting Hsp90 ATPase activity.</p>
+      <fig fig-type="Figure" xml:lang="en" id="embj201796700-fig-0007" orientation="portrait" position="float">
+        <label>Figure 7</label>
+        <caption>
+          <title>Impact of Tsc1 coâchaperone on the Hsp90 chaperone cycle</title>
+          <p>(1) Tsc1 binds weakly to the Hsp90 âopenâ conformation in the absence of nucleotides. (2) Upon ATP binding to the Nâdomain of Hsp90, Tsc1 interaction strengthens to the âclosedâ conformation of Hsp90. (3) câAblâmediated phosphorylation of Aha1âY223 displaces Tsc1 from Hsp90. (4) Later in the chaperone cycle, p23 is predicted to expel phosphorylated Aha1âY223 from Hsp90, (5) allowing Hsp90 to hydrolyze ATP.</p>
+        </caption>
+        <graphic id="nlm-graphic-25" xlink:href="EMBJ-36-3650-g012"/>
+      </fig>
+      <p>Tsc1 has a high affinity for Hsp90 and significantly increases Hsp90 binding to nucleotides or Nâdomain inhibitors. In contrast, almost 200âfold more Aha1 protein is required to displace Tsc1âD from Hsp90 <italic>inÂ vitro</italic>. We have previously shown that câAbl phosphorylation of Aha1âY223 increases Aha1 association with Hsp90 (Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>). The phosphomimetic Aha1âY223E binds with similar affinity as Tsc1 to Hsp90, therefore providing a mechanism for equilibrium between these two coâchaperones with respect to binding to Hsp90 (FigÂ <xref rid="embj201796700-fig-0007" ref-type="fig">7</xref>). These results establish an active role for Tsc1 as a facilitator of Hsp90 chaperoning of kinase and nonâkinase clients, including Tsc2 therefore preventing their ubiquitination and degradation in the proteasome.</p>
+      <p>This work provides an explanation of how Tsc1 is involved in the stability of Tsc2 specifically as well as a broader function for Tsc1 as a new coâchaperone of Hsp90. We show here that loss of Tsc1 leads to dysregulation of Hsp90 chaperone function and instability of its client proteins, including Tsc2. It is unclear what effect inactivation of Tsc1 and the resultant hyperactive Hsp90 have on maintaining protein homeostasis in tumors in TSC. This crucial point in TSC biology warrants further study.</p>
+    </sec>
+    <sec id="embj201796700-sec-0010">
+      <title>Materials and Methods</title>
+      <sec id="embj201796700-sec-0011">
+        <title>Mice</title>
+        <p>All the mice experiments were performed under the ethical guidelines of the Washington University School of Medicine, and animal protocols were reviewed and approved by the Washington University School of Medicine Institutional Animal Care and Use Committee (IACUC #Aâ3381â01; Protocol #20160091). All mice used in this study were obtained from an existing breeding colony of <italic>Tsc1</italic>
+<sup>GFAP</sup>CKO mice (Uhlmann <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0026" ref-type="ref">2002</xref>; Zeng <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0037" ref-type="ref">2008</xref>) in the animal facility of the Washington University School of Medicine.</p>
+      </sec>
+      <sec id="embj201796700-sec-0012">
+        <title>Plasmids</title>
+        <p>pcDNA3âTsc1âHA and pcDNA3âTsc2âFLAG vectors were purchased from Addgene. Tsc1âFLAG was subsequently subcloned into pcDNA3.1 and the 2Â Î¼ yeast expression plasmid pYES2 (<xref rid="embj201796700-sup-0001" ref-type="supplementary-material">AppendixÂ TableÂ S1</xref>). Primers for the creation of Tsc1 domainâspecific plasmids and L117P point mutation can also be found in the primer table. The empty vectors (EV) containing these tags were used and also referred to as controls. Hsp90 mutants lacking the TPR domain and point mutants were developed by PCR (<xref rid="embj201796700-sup-0001" ref-type="supplementary-material">AppendixÂ TableÂ S1</xref>). Hsp90Î± domainâspecific plasmids were previously generated by M.R.W. (Woodford <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0031" ref-type="ref">2016b</xref>). Human Aha1 and Aha1âY223E mutant were previously cloned into pcDNA3 (Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>). They were subcloned into 2Â Î¼ yeast expression plasmid p424<italic>ADH</italic> (ATCC<sup>Â®</sup> 87373â¢).</p>
+      </sec>
+      <sec id="embj201796700-sec-0013">
+        <title>Yeast strains and growth media</title>
+        <p>Yeast strains listed in <xref rid="embj201796700-sup-0001" ref-type="supplementary-material">AppendixÂ TableÂ S1</xref> were grown on YPDA (2% (w/v) Bacto peptone, 1% yeast extract, 2% glucose, 20Â mg/l adenine), YPGal (2% (w/v) Bacto peptone, 1% yeast extract, 2% galactose, 20Â mg/l adenine), and YPRaf (2% (w/v) Bacto peptone, 1% yeast extract, 2% raffinose, 20Â mg/l adenine). Selective growth was on dropout 2% glucose (DO) medium with appropriate amino acids (Adams <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0001" ref-type="ref">1997</xref>). Medium pH was adjusted to 6.8 with NaOH before autoclaving.</p>
+      </sec>
+      <sec id="embj201796700-sec-0014">
+        <title>Mammalian cell culture</title>
+        <p>Cultured cell lines human embryonic kidney (HEK293), wildâtype, Tsc1<sup>â/â</sup> cells, and câAbl<sup>â/â</sup> MEF cells were grown in Dulbecco's modified Eagle's medium (DMEM, SigmaâAldrich) supplemented with 10% fetal bovine serum (FBS, SigmaâAldrich). HEK293 were acquired from American Type Culture Collection (ATCC). All cell lines were maintained in a CellQ incubator (Panasonic Healthcare) at 37<bold>Â°</bold>C in an atmosphere containing 5% CO<sub>2</sub>.</p>
+      </sec>
+      <sec id="embj201796700-sec-0015">
+        <title>Bacterial expression and protein purification</title>
+        <p>Hsp90Î±âHis<sub>6</sub> was expressed and purified as previously described (Woodford <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0030" ref-type="ref">2016a</xref>). The plasmid coding for Tsc1âD was transformed into <italic>E.Â coli</italic> strain Tuner pLysS and grown on agar plates containing Luria broth (LB), 34Â mg/l chloramphenicol, and 50Â mg/l ampicillin overnight. Colonies were picked and grown in LB with 34Â mg/l chloromphenicol and 200Â mg/l ampicillin at 37Â°C with continuous 200Â rpm shaking until OD<sub>600</sub>Â =Â 0.6. The temperature was then dropped to 18Â°C and cells were induced with 100Â mg/l IPTG for 18Â h. Cells were then harvested by centrifugation, lysed enzymatically, and purified by Ni<sup>2+</sup>âNTA chromatography (Qiagen) using a single step gradient (20Â mM Tris pH 7.5, 300Â mM NaCl, 10Â mM Î²âME, 10â250Â mM imidazole). The protein was then dialyzed against 20Â mM Tris pH 7.5, 10Â mM 10Â mM Î²âME at 4Â°C overnight. A mild precipitate formed, which was removed by centrifugation. Proteins were &gt;Â 90% pure by SDSâPAGE. Concentrations were determined using calculated extinction coefficients as previously described (Gasteiger <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0011" ref-type="ref">2003</xref>). Proteins were flashâfrozen on dry ice and stored at â80Â°C until use.</p>
+      </sec>
+      <sec id="embj201796700-sec-0016">
+        <title>Protein extraction, IP, and immunoblotting</title>
+        <p>Protein extraction from both yeast and mammalian cells was carried out using methods previously described (Woodford <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0031" ref-type="ref">2016b</xref>). For immunoprecipitation, mammalian cell lysates were incubated with antiâFLAG antibodyâconjugated beads (Sigma) for 2Â h at 4Â°C. Pulldowns were achieved by incubating lysate with NiâNTA agarose (Qiagen) for 2Â h at 4Â°C, or with antiâHsp90 antibody (835â16F1, Enzo Life Sciences), or Tsc1 or Tsc2 (Cell Signaling) for 1Â h followed by protein G agarose for 2Â h at 4Â°C. Immunopellets were washed four times with fresh lysis buffer (20Â mM HEPES (pH 7.0), 100Â mM NaCl, 1Â mM MgCl<sub>2</sub>, 0.1% NPâ40, protease inhibitor cocktail (Roche), and PhosSTOP (Roche)) and eluted in 5Ã Laemmli buffer. For purification, immunopellets were washed four times with fresh high salt lysis buffer (20Â mM HEPES (pH 7.0), 500Â mM NaCl, 1Â mM MgCl<sub>2</sub>, 0.1% NPâ40, protease inhibitor cocktail (Roche), and PhosSTOP (Roche)) and subsequently competed off with 3Ã FLAG peptide (SigmaâAldrich). Proteins bound to NiâNTA agarose were washed with 50Â mM imidazole in lysis buffer [20Â mM TrisâHCl (pH 7.5), 100Â mM NaCl, protease inhibitor cocktail (Roche), and PhosSTOP (Roche)] and eluted with either 300Â mM imidazole in lysis buffer or with 5Ã Laemmli buffer. Precipitated proteins were separated by SDSâPAGE and transferred to nitrocellulose membranes as previously described (Woodford <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0031" ref-type="ref">2016b</xref>). Coâimmunoprecipitated proteins were detected by immunoblotting as previously demonstrated (Woodford <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0031" ref-type="ref">2016b</xref>). Dilutions of antibodies are indicated in <xref rid="embj201796700-sup-0001" ref-type="supplementary-material">AppendixÂ TableÂ S1</xref>.</p>
+      </sec>
+      <sec id="embj201796700-sec-0017">
+        <title>Protein labeling and K<sub>d</sub> measurements</title>
+        <p>Protein labeling and K<sub>d</sub> measurements were carried out using methods previously described (Woodford <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0031" ref-type="ref">2016b</xref>). Tsc1âD was desalted into 20Â mM Tris pH 7.5, 150Â mM NaCl, and 1Â mM TCEP using a PDâ10 desalting column (GE Healthcare BioâSciences Marlborough, MA) and labeled with Texas Red C2 maleimide per the manufacturer's instructions (Thermo Fisher Scientific, Grand Island, NY). Labeling stoichiometry was 0.8 labels/Tsc1âD using Îµ<sub>595</sub>Â =Â 104,000Â M<sup>â1</sup>Â cm<sup>â1</sup> for Texas Red and a correction factor of 0.26Â ÃÂ Îµ<sub>595</sub> to account for its absorbance at 280Â nm. Hsp90Î± at the indicated concentrations was incubated on ice in 50Â mM Tris pH 7.2, 150Â mM NaCl, 1Â mM TCEP, 4Â mM MgCl<sub>2</sub> with or without 1Â mM ATP, ADP, AMPPNP or 1Â Î¼M GB for 10Â min and then incubated with 1Â Î¼M labeled Tsc1âD for 30Â min. Fluorescence anisotropy was measured using a SpectraMax i3 equipped with rhodamine fluorescence polarization module (Î»<sub>ex</sub>\Î»<sub>em</sub>Â =Â 535Â nm/595Â nm) (Molecular Devices, Sunnyvale, CA). Curve fitting was done in SigmaPlot 10.0.</p>
+      </sec>
+      <sec id="embj201796700-sec-0018">
+        <title>Hsp90 ATPase activity measurement</title>
+        <p>Purified Hsp90 protein was quantified by Micro BCAâ¢ Protein Assay Kit (Thermo Scientific) and 2.5Â Î¼g Hsp90Î± was assayed in triplicate as outlined in the P<sub>i</sub>Perâ¢ Phosphate Assay Kit (Life Technologies) and previously described (Dunn <italic>etÂ al</italic>, <xref rid="embj201796700-bib-0010" ref-type="ref">2015</xref>). ATP turnover was calculated as mmol P<sub>i</sub> per mol Hsp90Î± per minute, and relative ATPase activity was calculated from those values, with the value of Hsp90Î± alone representing 100% activity.</p>
+      </sec>
+      <sec id="embj201796700-sec-0019">
+        <title>Quantification and statistical analysis</title>
+        <p>The data presented are the representative or examples of three biological replicates unless it is specified. Data were analyzed with unpaired <italic>t</italic>âtest. Asterisks in figures indicate significant differences (*<italic>P</italic>Â &lt;Â 0.05, **<italic>P</italic>Â &lt;Â 0.005, ***<italic>P</italic>Â &lt;Â 0.0005, and ****<italic>P</italic>Â &lt;Â 0.0001). Error bars represent the standard deviation (SD) for three independent experiments, unless it is indicated.</p>
+      </sec>
+    </sec>
+    <sec id="embj201796700-sec-0021">
+      <title>Author contributions</title>
+      <p>MRW, RAS, DMD, EM, ARB, RLM, NR, BP, CP, DB, and MM performed experiments. MRW, RAS, DMD, DB, OS, GB, SNL, DHG, MW, and MM designed experiments. MRW, RAS, and MM wrote the manuscript. MM conceived the project.</p>
+    </sec>
+    <sec id="embj201796700-sec-0022">
+      <title>Conflict of interest</title>
+      <p>The authors declare that they have no conflict of interest.</p>
+    </sec>
+    <sec sec-type="supplementary-material">
+      <title>Supporting information</title>
+      <supplementary-material content-type="local-data"/>
+      <supplementary-material content-type="local-data" id="embj201796700-sup-0001">
+        <caption>
+          <p>Appendix</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-sup-0002">
+        <caption>
+          <p>Expanded View Figures PDF</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-sup-0009">
+        <caption>
+          <p>Source Data for Expanded View</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s009.zip">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data">
+        <caption>
+          <p>Review Process File</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s010.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-supp-data-0001">
+        <caption>
+          <p>Source Data for FigureÂ 1</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-supp-data-0002">
+        <caption>
+          <p>Source Data for FigureÂ 2</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-supp-data-0003">
+        <caption>
+          <p>Source Data for FigureÂ 3</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s005.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-supp-data-0004">
+        <caption>
+          <p>Source Data for FigureÂ 4</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s006.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-supp-data-0005">
+        <caption>
+          <p>Source Data for FigureÂ 5</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s007.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="embj201796700-supp-data-0006">
+        <caption>
+          <p>Source Data for FigureÂ 6</p>
+        </caption>
+        <media xlink:href="EMBJ-36-3650-s008.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack id="embj201796700-sec-0020">
+      <title>Acknowledgments</title>
+      <p>We are indebted to Dr. David J. Kwiatkowski (Brigham and Women's Hospital) and Dr Brendan D. Manning (Harvard School of Public Health) for their comments and advice on the manuscript. We are grateful to Dr. Kwiatkowski for Tsc1<sup>â/â</sup> MEF cell line, Dr. Stephen Goff (Columbia University) for câAbl<sup>â/â</sup> MEF cell line, Dr. Brodsky (University of Pittsburgh) for CFTR plasmid, Dr. Timothy Haystead (Duke University) for SNXâ2112, and Dr. Jason Gestwicki for JGâ98 (University of California San Francisco). This work was supported by the National Institute of General Medical Sciences of the National Institutes of Health under Award Number R01GM124256 (M.M.). The content is solely the responsibility of the authors and does not necessarily represent the official views of the National Institutes of Health. This work was also supported by the Wellcome Trust 095605/Z11/Z (C.P.), SUNY Upstate Medical University, Upstate Foundation, One Square Mile of Hope Foundation, Carol M. Baldwin Breast Cancer Fund (D.B., M.M.), and Urology Care FoundationâAmerican Urological Association (M.M.).</p>
+    </ack>
+    <ref-list content-type="cited-references" id="embj201796700-bibl-0001">
+      <title>References</title>
+      <ref id="embj201796700-bib-0001">
+        <mixed-citation publication-type="book" id="embj201796700-cit-0001">
+<string-name>
+<surname>Adams</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Gottschling</surname>
+<given-names>DE</given-names>
+</string-name>, <string-name>
+<surname>Kaiser</surname>
+<given-names>CA</given-names>
+</string-name>, <string-name>
+<surname>Stearns</surname>
+<given-names>T</given-names>
+</string-name> (<year>1997</year>) <source>Methods in yeast genetics</source>. <publisher-loc>New York</publisher-loc>: <publisher-name>Cold Spring Harbor Laboratory Press</publisher-name>
+</mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0002">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0002">
+<string-name>
+<surname>Banerjee</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Crouse</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name>
+<surname>Emnett</surname>
+<given-names>RJ</given-names>
+</string-name>, <string-name>
+<surname>Gianino</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Gutmann</surname>
+<given-names>DH</given-names>
+</string-name> (<year>2011</year>) <article-title>Neurofibromatosisâ1 regulates mTORâmediated astrocyte growth and glioma formation in a TSC/Rhebâindependent manner</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>108</volume>: <fpage>15996</fpage>â<lpage>16001</lpage>
+<pub-id pub-id-type="pmid">21896734</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0003">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0003">
+<string-name>
+<surname>Barrott</surname>
+<given-names>JJ</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name>
+<surname>Osada</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Yang</surname>
+<given-names>XY</given-names>
+</string-name>, <string-name>
+<surname>Hartman</surname>
+<given-names>ZC</given-names>
+</string-name>, <string-name>
+<surname>Loiselle</surname>
+<given-names>DR</given-names>
+</string-name>, <string-name>
+<surname>Spector</surname>
+<given-names>NL</given-names>
+</string-name>, <string-name>
+<surname>Neckers</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Rajaram</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Hu</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Ramanujam</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Vaidyanathan</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Zalutsky</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Lyerly</surname>
+<given-names>HK</given-names>
+</string-name>, <string-name>
+<surname>Haystead</surname>
+<given-names>TA</given-names>
+</string-name> (<year>2013</year>) <article-title>Optical and radioiodinated tethered Hsp90 inhibitors reveal selective internalization of ectopic Hsp90 in malignant breast tumor cells</article-title>. <source>Chem Biol</source>
+<volume>20</volume>: <fpage>1187</fpage>â<lpage>1197</lpage>
+<pub-id pub-id-type="pmid">24035283</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0004">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0004">
+<string-name>
+<surname>Benvenuto</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Brown</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Braverman</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Vass</surname>
+<given-names>WC</given-names>
+</string-name>, <string-name>
+<surname>Cheadle</surname>
+<given-names>JP</given-names>
+</string-name>, <string-name>
+<surname>Halley</surname>
+<given-names>DJ</given-names>
+</string-name>, <string-name>
+<surname>Sampson</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Wienecke</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>DeClue</surname>
+<given-names>JE</given-names>
+</string-name> (<year>2000</year>) <article-title>The tuberous sclerosisâ1 (TSC1) gene product hamartin suppresses cell growth and augments the expression of the TSC2 product tuberin by inhibiting its ubiquitination</article-title>. <source>Oncogene</source>
+<volume>19</volume>: <fpage>6306</fpage>â<lpage>6316</lpage>
+<pub-id pub-id-type="pmid">11175345</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0005">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0005">
+<string-name>
+<surname>Chadli</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Bruinsma</surname>
+<given-names>ES</given-names>
+</string-name>, <string-name>
+<surname>Stensgard</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Toft</surname>
+<given-names>D</given-names>
+</string-name> (<year>2008</year>) <article-title>Analysis of Hsp90 cochaperone interactions reveals a novel mechanism for TPR protein recognition</article-title>. <source>Biochemistry</source>
+<volume>47</volume>: <fpage>2850</fpage>â<lpage>2857</lpage>
+<pub-id pub-id-type="pmid">18211007</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0006">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0006">
+<string-name>
+<surname>ChongâKopera</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Inoki</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Zhu</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>GarciaâGonzalo</surname>
+<given-names>FR</given-names>
+</string-name>, <string-name>
+<surname>Rosa</surname>
+<given-names>JL</given-names>
+</string-name>, <string-name>
+<surname>Guan</surname>
+<given-names>KL</given-names>
+</string-name> (<year>2006</year>) <article-title>TSC1 stabilizes TSC2 by inhibiting the interaction between TSC2 and the HERC1 ubiquitin ligase</article-title>. <source>J Biol Chem</source>
+<volume>281</volume>: <fpage>8313</fpage>â<lpage>8316</lpage>
+<pub-id pub-id-type="pmid">16464865</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0007">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0007">
+<string-name>
+<surname>Cloutier</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Poitras</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Durand</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hekmat</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>FiolaâMasson</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Bouchard</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Faubert</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Chabot</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Coulombe</surname>
+<given-names>B</given-names>
+</string-name> (<year>2017</year>) <article-title>R2TP/Prefoldinâlike component RUVBL1/RUVBL2 directly interacts with ZNHIT2 to regulate assembly of U5 small nuclear ribonucleoprotein</article-title>. <source>Nat Commun</source>
+<volume>8</volume>: <fpage>15615</fpage>
+<pub-id pub-id-type="pmid">28561026</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0008">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0008">
+<string-name>
+<surname>Cox</surname>
+<given-names>MB</given-names>
+</string-name>, <string-name>
+<surname>Johnson</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2011</year>) <article-title>The Role of p23, Hop, Immunophilins, and Other Coâchaperones in Regulating Hsp90 Function</article-title>. <source>Methods Mol Biol</source>
+<volume>787</volume>: <fpage>45</fpage>â<lpage>66</lpage>
+<pub-id pub-id-type="pmid">21898226</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0009">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0009">
+<string-name>
+<surname>Crino</surname>
+<given-names>PB</given-names>
+</string-name>, <string-name>
+<surname>Nathanson</surname>
+<given-names>KL</given-names>
+</string-name>, <string-name>
+<surname>Henske</surname>
+<given-names>EP</given-names>
+</string-name> (<year>2006</year>) <article-title>The tuberous sclerosis complex</article-title>. <source>N Engl J Med</source>
+<volume>355</volume>: <fpage>1345</fpage>â<lpage>1356</lpage>
+<pub-id pub-id-type="pmid">17005952</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0010">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0010">
+<string-name>
+<surname>Dunn</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Woodford</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Truman</surname>
+<given-names>AW</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Schulman</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Caza</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Remillard</surname>
+<given-names>TC</given-names>
+</string-name>, <string-name>
+<surname>Loiselle</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Wolfgeher</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Blagg</surname>
+<given-names>BS</given-names>
+</string-name>, <string-name>
+<surname>Franco</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Haystead</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Daturpalli</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Trepel</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Morgan</surname>
+<given-names>RM</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kron</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>StetlerâStevenson</surname>
+<given-names>WG</given-names>
+</string-name>, <italic>etÂ al</italic> (<year>2015</year>) <article-title>câAbl mediated tyrosine phosphorylation of Aha1 activates its coâchaperone function in cancer cells</article-title>. <source>Cell Rep</source>
+<volume>12</volume>: <fpage>1006</fpage>â<lpage>1018</lpage>
+<pub-id pub-id-type="pmid">26235616</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0011">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0011">
+<string-name>
+<surname>Gasteiger</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Gattiker</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Hoogland</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Ivanyi</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Appel</surname>
+<given-names>RD</given-names>
+</string-name>, <string-name>
+<surname>Bairoch</surname>
+<given-names>A</given-names>
+</string-name> (<year>2003</year>) <article-title>ExPASy: the proteomics server for inâdepth protein knowledge and analysis</article-title>. <source>Nucleic Acids Res</source>
+<volume>31</volume>: <fpage>3784</fpage>â<lpage>3788</lpage>
+<pub-id pub-id-type="pmid">12824418</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0012">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0012">
+<string-name>
+<surname>Henske</surname>
+<given-names>EP</given-names>
+</string-name>, <string-name>
+<surname>Jozwiak</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Kingswood</surname>
+<given-names>JC</given-names>
+</string-name>, <string-name>
+<surname>Sampson</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Thiele</surname>
+<given-names>EA</given-names>
+</string-name> (<year>2016</year>) <article-title>Tuberous sclerosis complex</article-title>. <source>Nat Rev Dis Primers</source>
+<volume>2</volume>: <fpage>16035</fpage>
+<pub-id pub-id-type="pmid">27226234</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0013">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0013">
+<string-name>
+<surname>HoogeveenâWesterveld</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Exalto</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>MaatâKievit</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>van den Ouweland</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Halley</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Nellist</surname>
+<given-names>M</given-names>
+</string-name> (<year>2010</year>) <article-title>Analysis of TSC1 truncations defines regions involved in TSC1 stability, aggregation and interaction</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1802</volume>: <fpage>774</fpage>â<lpage>781</lpage>
+<pub-id pub-id-type="pmid">20547222</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0014">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0014">
+<string-name>
+<surname>HoogeveenâWesterveld</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Ekong</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Povey</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Karbassi</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Batish</surname>
+<given-names>SD</given-names>
+</string-name>, <string-name>
+<surname>den Dunnen</surname>
+<given-names>JT</given-names>
+</string-name>, <string-name>
+<surname>van Eeghen</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Thiele</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Mayer</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Dies</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Wen</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Thompson</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Sparagana</surname>
+<given-names>SP</given-names>
+</string-name>, <string-name>
+<surname>Davies</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Aalfs</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>van den Ouweland</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Halley</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Nellist</surname>
+<given-names>M</given-names>
+</string-name> (<year>2012</year>) <article-title>Functional assessment of TSC1 missense variants identified in individuals with tuberous sclerosis complex</article-title>. <source>Hum Mutat</source>
+<volume>33</volume>: <fpage>476</fpage>â<lpage>479</lpage>
+<pub-id pub-id-type="pmid">22161988</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0015">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0015">
+<string-name>
+<surname>Huang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Manning</surname>
+<given-names>BD</given-names>
+</string-name> (<year>2008</year>) <article-title>The TSC1âTSC2 complex: a molecular switchboard controlling cell growth</article-title>. <source>Biochem J</source>
+<volume>412</volume>: <fpage>179</fpage>â<lpage>190</lpage>
+<pub-id pub-id-type="pmid">18466115</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0016">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0016">
+<string-name>
+<surname>Li</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Richter</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Reinstein</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Buchner</surname>
+<given-names>J</given-names>
+</string-name> (<year>2013a</year>) <article-title>Integration of the accelerator Aha1 in the Hsp90 coâchaperone cycle</article-title>. <source>Nat Struct Mol Biol</source>
+<volume>20</volume>: <fpage>326</fpage>â<lpage>331</lpage>
+<pub-id pub-id-type="pmid">23396352</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0017">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0017">
+<string-name>
+<surname>Li</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Srinivasan</surname>
+<given-names>SR</given-names>
+</string-name>, <string-name>
+<surname>Connarn</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ahmad</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Young</surname>
+<given-names>ZT</given-names>
+</string-name>, <string-name>
+<surname>Kabza</surname>
+<given-names>AM</given-names>
+</string-name>, <string-name>
+<surname>Zuiderweg</surname>
+<given-names>ER</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Gestwicki</surname>
+<given-names>JE</given-names>
+</string-name> (<year>2013b</year>) <article-title>Analogs of the allosteric heat shock protein 70 (Hsp70) inhibitor, MKTâ077, as antiâcancer agents</article-title>. <source>ACS Med Chem Lett</source>
+<volume>4</volume>: <fpage>1042</fpage>â<lpage>1047</lpage>
+</mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0018">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0018">
+<string-name>
+<surname>Meyer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Liao</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Hu</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Mark Roe</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Vaughan</surname>
+<given-names>CK</given-names>
+</string-name>, <string-name>
+<surname>Vlasic</surname>
+<given-names>I</given-names>
+</string-name>, <string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Piper</surname>
+<given-names>PW</given-names>
+</string-name>, <string-name>
+<surname>Pearl</surname>
+<given-names>LH</given-names>
+</string-name> (<year>2004</year>) <article-title>Structural basis for recruitment of the ATPase activator Aha1 to the Hsp90 chaperone machinery</article-title>. <source>EMBO J</source>
+<volume>23</volume>: <fpage>511</fpage>â<lpage>519</lpage>
+<pub-id pub-id-type="pmid">14739935</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0019">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0019">
+<string-name>
+<surname>Mollapour</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Bourboulia</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Beebe</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Woodford</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Polier</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Hoang</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Chelluri</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Li</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Guo</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>FotoohâAbadi</surname>
+<given-names>E</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Prince</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Miyajima</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Yoshida</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Tsutsumi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>StetlerâStevenson</surname>
+<given-names>WG</given-names>
+</string-name>, <string-name>
+<surname>Bratslavsky</surname>
+<given-names>G</given-names>
+</string-name>, <italic>etÂ al</italic> (<year>2014</year>) <article-title>Asymmetric Hsp90Â N domain SUMOylation recruits Aha1 and ATPâcompetitive inhibitors</article-title>. <source>Mol Cell</source>
+<volume>53</volume>: <fpage>317</fpage>â<lpage>329</lpage>
+<pub-id pub-id-type="pmid">24462205</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0020">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0020">
+<string-name>
+<surname>Neckers</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Workman</surname>
+<given-names>P</given-names>
+</string-name> (<year>2012</year>) <article-title>Hsp90 molecular chaperone inhibitors: are we there yet?</article-title>
+<source>Clin Cancer Res</source>
+<volume>18</volume>: <fpage>64</fpage>â<lpage>76</lpage>
+<pub-id pub-id-type="pmid">22215907</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0021">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0021">
+<string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Roe</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>O'Brien</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Ladbury</surname>
+<given-names>JE</given-names>
+</string-name>, <string-name>
+<surname>Piper</surname>
+<given-names>PW</given-names>
+</string-name>, <string-name>
+<surname>Pearl</surname>
+<given-names>LH</given-names>
+</string-name> (<year>1998</year>) <article-title>ATP binding and hydrolysis are essential to the function of the Hsp90 molecular chaperone inÂ vivo</article-title>. <source>EMBO J</source>
+<volume>17</volume>: <fpage>4829</fpage>â<lpage>4836</lpage>
+<pub-id pub-id-type="pmid">9707442</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0022">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0022">
+<string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Siligardi</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Meyer</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Maloney</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Sullivan</surname>
+<given-names>JK</given-names>
+</string-name>, <string-name>
+<surname>Singh</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Millson</surname>
+<given-names>SH</given-names>
+</string-name>, <string-name>
+<surname>Clarke</surname>
+<given-names>PA</given-names>
+</string-name>, <string-name>
+<surname>NaabyâHansen</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Stein</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Cramer</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Mollapour</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Workman</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Piper</surname>
+<given-names>PW</given-names>
+</string-name>, <string-name>
+<surname>Pearl</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name> (<year>2002</year>) <article-title>Activation of the ATPase activity of hsp90 by the stressâregulated cochaperone aha1</article-title>. <source>Mol Cell</source>
+<volume>10</volume>: <fpage>1307</fpage>â<lpage>1318</lpage>
+<pub-id pub-id-type="pmid">12504007</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0023">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0023">
+<string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name> (<year>2012</year>) <article-title>The âactive lifeâ of Hsp90 complexes</article-title>. <source>Biochim Biophys Acta</source>
+<volume>1823</volume>: <fpage>614</fpage>â<lpage>623</lpage>
+<pub-id pub-id-type="pmid">21840346</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0024">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0024">
+<string-name>
+<surname>Retzlaff</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Hagn</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Mitschke</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Hessling</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Gugel</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Kessler</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Richter</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Buchner</surname>
+<given-names>J</given-names>
+</string-name> (<year>2010</year>) <article-title>Asymmetric activation of the hsp90 dimer by its cochaperone aha1</article-title>. <source>Mol Cell</source>
+<volume>37</volume>: <fpage>344</fpage>â<lpage>354</lpage>
+<pub-id pub-id-type="pmid">20159554</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0025">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0025">
+<string-name>
+<surname>Schopf</surname>
+<given-names>FH</given-names>
+</string-name>, <string-name>
+<surname>Biebl</surname>
+<given-names>MM</given-names>
+</string-name>, <string-name>
+<surname>Buchner</surname>
+<given-names>J</given-names>
+</string-name> (<year>2017</year>) <article-title>The HSP90 chaperone machinery</article-title>. <source>Nat Rev Mol Cell Biol</source>
+<volume>18</volume>: <fpage>345</fpage>â<lpage>360</lpage>
+<pub-id pub-id-type="pmid">28429788</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0026">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0026">
+<string-name>
+<surname>Uhlmann</surname>
+<given-names>EJ</given-names>
+</string-name>, <string-name>
+<surname>Apicelli</surname>
+<given-names>AJ</given-names>
+</string-name>, <string-name>
+<surname>Baldwin</surname>
+<given-names>RL</given-names>
+</string-name>, <string-name>
+<surname>Burke</surname>
+<given-names>SP</given-names>
+</string-name>, <string-name>
+<surname>Bajenaru</surname>
+<given-names>ML</given-names>
+</string-name>, <string-name>
+<surname>Onda</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Kwiatkowski</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Gutmann</surname>
+<given-names>DH</given-names>
+</string-name> (<year>2002</year>) <article-title>Heterozygosity for the tuberous sclerosis complex (TSC) gene products results in increased astrocyte numbers and decreased p27âKip1 expression in TSC2+/â cells</article-title>. <source>Oncogene</source>
+<volume>21</volume>: <fpage>4050</fpage>â<lpage>4059</lpage>
+<pub-id pub-id-type="pmid">12037687</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0027">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0027">
+<string-name>
+<surname>Verba</surname>
+<given-names>KA</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>RY</given-names>
+</string-name>, <string-name>
+<surname>Arakawa</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Liu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Shirouzu</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Yokoyama</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Agard</surname>
+<given-names>DA</given-names>
+</string-name> (<year>2016</year>) <article-title>Atomic structure of Hsp90âCdc37âCdk4 reveals that Hsp90 traps and stabilizes an unfolded kinase</article-title>. <source>Science</source>
+<volume>352</volume>: <fpage>1542</fpage>â<lpage>1547</lpage>
+<pub-id pub-id-type="pmid">27339980</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0028">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0028">
+<string-name>
+<surname>WaltonâDiaz</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Khan</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Bourboulia</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Trepel</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Neckers</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Mollapour</surname>
+<given-names>M</given-names>
+</string-name> (<year>2013</year>) <article-title>Contributions of coâchaperones and postâtranslational modifications towards Hsp90 drug sensitivity</article-title>. <source>Future Med Chem</source>
+<volume>5</volume>: <fpage>1059</fpage>â<lpage>1071</lpage>
+<pub-id pub-id-type="pmid">23734688</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0029">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0029">
+<string-name>
+<surname>Wang</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Venable</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>LaPointe</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hutt</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Koulov</surname>
+<given-names>AV</given-names>
+</string-name>, <string-name>
+<surname>Coppinger</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Gurkan</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Kellner</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Matteson</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Plutner</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Riordan</surname>
+<given-names>JR</given-names>
+</string-name>, <string-name>
+<surname>Kelly</surname>
+<given-names>JW</given-names>
+</string-name>, <string-name>
+<surname>Yates</surname>
+<given-names>JR</given-names>
+<suffix>III</suffix>
+</string-name>, <string-name>
+<surname>Balch</surname>
+<given-names>WE</given-names>
+</string-name> (<year>2006</year>) <article-title>Hsp90 cochaperone Aha1 downregulation rescues misfolding of CFTR in cystic fibrosis</article-title>. <source>Cell</source>
+<volume>127</volume>: <fpage>803</fpage>â<lpage>815</lpage>
+<pub-id pub-id-type="pmid">17110338</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0030">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0030">
+<string-name>
+<surname>Woodford</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Blanden</surname>
+<given-names>AR</given-names>
+</string-name>, <string-name>
+<surname>Capriotti</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Loiselle</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Hughes</surname>
+<given-names>PF</given-names>
+</string-name>, <string-name>
+<surname>Smith</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Ackerman</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Haystead</surname>
+<given-names>TA</given-names>
+</string-name>, <string-name>
+<surname>Loh</surname>
+<given-names>SN</given-names>
+</string-name>, <string-name>
+<surname>Bourboulia</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Schmidt</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Marston Linehan</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Bratslavsky</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Mollapour</surname>
+<given-names>M</given-names>
+</string-name> (<year>2016a</year>) <article-title>The FNIP coâchaperones decelerate the Hsp90 chaperone cycle and enhance drug binding</article-title>. <source>Nat Commun</source>
+<volume>7</volume>: <fpage>12037</fpage>
+<pub-id pub-id-type="pmid">27353360</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0031">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0031">
+<string-name>
+<surname>Woodford</surname>
+<given-names>MR</given-names>
+</string-name>, <string-name>
+<surname>Truman</surname>
+<given-names>AW</given-names>
+</string-name>, <string-name>
+<surname>Dunn</surname>
+<given-names>DM</given-names>
+</string-name>, <string-name>
+<surname>Jensen</surname>
+<given-names>SM</given-names>
+</string-name>, <string-name>
+<surname>Cotran</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Bullard</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Abouelleil</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Beebe</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Wolfgeher</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Wierzbicki</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Post</surname>
+<given-names>DE</given-names>
+</string-name>, <string-name>
+<surname>Caza</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Tsutsumi</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Panaretou</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Kron</surname>
+<given-names>SJ</given-names>
+</string-name>, <string-name>
+<surname>Trepel</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Landas</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Shapiro</surname>
+<given-names>O</given-names>
+</string-name>, <string-name>
+<surname>StetlerâStevenson</surname>
+<given-names>WG</given-names>
+</string-name>, <italic>etÂ al</italic> (<year>2016b</year>) <article-title>Mps1 mediated phosphorylation of Hsp90 confers renal cell carcinoma sensitivity and selectivity to Hsp90 inhibitors</article-title>. <source>Cell Rep</source>
+<volume>14</volume>: <fpage>872</fpage>â<lpage>884</lpage>
+<pub-id pub-id-type="pmid">26804907</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0032">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0032">
+<string-name>
+<surname>Xu</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Singer</surname>
+<given-names>MA</given-names>
+</string-name>, <string-name>
+<surname>Lindquist</surname>
+<given-names>S</given-names>
+</string-name> (<year>1999</year>) <article-title>Maturation of the tyrosine kinase câsrc as a kinase and as a substrate depends on the molecular chaperone Hsp90</article-title>. <source>Proc Natl Acad Sci USA</source>
+<volume>96</volume>: <fpage>109</fpage>â<lpage>114</lpage>
+<pub-id pub-id-type="pmid">9874780</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0033">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0033">
+<string-name>
+<surname>Xu</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Mollapour</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Prodromou</surname>
+<given-names>C</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Scroggins</surname>
+<given-names>BT</given-names>
+</string-name>, <string-name>
+<surname>Palchick</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Beebe</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Siderius</surname>
+<given-names>M</given-names>
+</string-name>, <string-name>
+<surname>Lee</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Couvillon</surname>
+<given-names>A</given-names>
+</string-name>, <string-name>
+<surname>Trepel</surname>
+<given-names>JB</given-names>
+</string-name>, <string-name>
+<surname>Miyata</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Matts</surname>
+<given-names>R</given-names>
+</string-name>, <string-name>
+<surname>Neckers</surname>
+<given-names>L</given-names>
+</string-name> (<year>2012</year>) <article-title>Dynamic tyrosine phosphorylation modulates cycling of the HSP90âP50(CDC37)âAHA1 chaperone machine</article-title>. <source>Mol Cell</source>
+<volume>47</volume>: <fpage>434</fpage>â<lpage>443</lpage>
+<pub-id pub-id-type="pmid">22727666</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0034">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0034">
+<string-name>
+<surname>Yang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Campobasso</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Biju</surname>
+<given-names>MP</given-names>
+</string-name>, <string-name>
+<surname>Fisher</surname>
+<given-names>K</given-names>
+</string-name>, <string-name>
+<surname>Pan</surname>
+<given-names>XQ</given-names>
+</string-name>, <string-name>
+<surname>Cottom</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Galbraith</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Ho</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>H</given-names>
+</string-name>, <string-name>
+<surname>Hong</surname>
+<given-names>X</given-names>
+</string-name>, <string-name>
+<surname>Ward</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Hofmann</surname>
+<given-names>G</given-names>
+</string-name>, <string-name>
+<surname>Siegfried</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Zappacosta</surname>
+<given-names>F</given-names>
+</string-name>, <string-name>
+<surname>Washio</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Cao</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Qu</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Bertrand</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Wang</surname>
+<given-names>DY</given-names>
+</string-name>, <string-name>
+<surname>Head</surname>
+<given-names>MS</given-names>
+</string-name>, <italic>etÂ al</italic> (<year>2011</year>) <article-title>Discovery and characterization of a cellâpermeable, smallâmolecule câAbl kinase activator that binds to the myristoyl binding site</article-title>. <source>Chem Biol</source>
+<volume>18</volume>: <fpage>177</fpage>â<lpage>186</lpage>
+<pub-id pub-id-type="pmid">21338916</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0035">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0035">
+<string-name>
+<surname>Ying</surname>
+<given-names>W</given-names>
+</string-name>, <string-name>
+<surname>Du</surname>
+<given-names>Z</given-names>
+</string-name>, <string-name>
+<surname>Sun</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Foley</surname>
+<given-names>KP</given-names>
+</string-name>, <string-name>
+<surname>Proia</surname>
+<given-names>DA</given-names>
+</string-name>, <string-name>
+<surname>Blackman</surname>
+<given-names>RK</given-names>
+</string-name>, <string-name>
+<surname>Zhou</surname>
+<given-names>D</given-names>
+</string-name>, <string-name>
+<surname>Inoue</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Tatsuta</surname>
+<given-names>N</given-names>
+</string-name>, <string-name>
+<surname>Sang</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ye</surname>
+<given-names>S</given-names>
+</string-name>, <string-name>
+<surname>Acquaviva</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Ogawa</surname>
+<given-names>LS</given-names>
+</string-name>, <string-name>
+<surname>Wada</surname>
+<given-names>Y</given-names>
+</string-name>, <string-name>
+<surname>Barsoum</surname>
+<given-names>J</given-names>
+</string-name>, <string-name>
+<surname>Koya</surname>
+<given-names>K</given-names>
+</string-name> (<year>2012</year>) <article-title>Ganetespib, a unique triazoloneâcontaining Hsp90 inhibitor, exhibits potent antitumor activity and a superior safety profile for cancer therapy</article-title>. <source>Mol Cancer Ther</source>
+<volume>11</volume>: <fpage>475</fpage>â<lpage>484</lpage>
+<pub-id pub-id-type="pmid">22144665</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0036">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0036">
+<string-name>
+<surname>Youker</surname>
+<given-names>RT</given-names>
+</string-name>, <string-name>
+<surname>Walsh</surname>
+<given-names>P</given-names>
+</string-name>, <string-name>
+<surname>Beilharz</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Lithgow</surname>
+<given-names>T</given-names>
+</string-name>, <string-name>
+<surname>Brodsky</surname>
+<given-names>JL</given-names>
+</string-name> (<year>2004</year>) <article-title>Distinct roles for the Hsp40 and Hsp90 molecular chaperones during cystic fibrosis transmembrane conductance regulator degradation in yeast</article-title>. <source>Mol Biol Cell</source>
+<volume>15</volume>: <fpage>4787</fpage>â<lpage>4797</lpage>
+<pub-id pub-id-type="pmid">15342786</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0037">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0037">
+<string-name>
+<surname>Zeng</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name>
+<surname>Xu</surname>
+<given-names>L</given-names>
+</string-name>, <string-name>
+<surname>Gutmann</surname>
+<given-names>DH</given-names>
+</string-name>, <string-name>
+<surname>Wong</surname>
+<given-names>M</given-names>
+</string-name> (<year>2008</year>) <article-title>Rapamycin prevents epilepsy in a mouse model of tuberous sclerosis complex</article-title>. <source>Ann Neurol</source>
+<volume>63</volume>: <fpage>444</fpage>â<lpage>453</lpage>
+<pub-id pub-id-type="pmid">18389497</pub-id></mixed-citation>
+      </ref>
+      <ref id="embj201796700-bib-0038">
+        <mixed-citation publication-type="journal" id="embj201796700-cit-0038">
+<string-name>
+<surname>Zeng</surname>
+<given-names>LH</given-names>
+</string-name>, <string-name>
+<surname>Rensing</surname>
+<given-names>NR</given-names>
+</string-name>, <string-name>
+<surname>Zhang</surname>
+<given-names>B</given-names>
+</string-name>, <string-name>
+<surname>Gutmann</surname>
+<given-names>DH</given-names>
+</string-name>, <string-name>
+<surname>Gambello</surname>
+<given-names>MJ</given-names>
+</string-name>, <string-name>
+<surname>Wong</surname>
+<given-names>M</given-names>
+</string-name> (<year>2011</year>) <article-title>Tsc2 gene inactivation causes a more severe epilepsy phenotype than Tsc1 inactivation in a mouse model of tuberous sclerosis complex</article-title>. <source>Hum Mol Genet</source>
+<volume>20</volume>: <fpage>445</fpage>â<lpage>454</lpage>
+<pub-id pub-id-type="pmid">21062901</pub-id></mixed-citation>
+      </ref>
+    </ref-list>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

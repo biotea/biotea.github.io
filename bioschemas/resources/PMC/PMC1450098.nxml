@@ -1,0 +1,2977 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:26:24Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:1450098" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:1450098</identifier><datestamp>2006-05-16</datestamp><setSpec>plosbiol</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">PLoS Biol</journal-id>
+      <journal-id journal-id-type="iso-abbrev">PLoS Biol</journal-id>
+      <journal-id journal-id-type="publisher-id">pbio</journal-id>
+      <journal-id journal-id-type="pmc">plosbiol</journal-id>
+      <journal-title-group>
+        <journal-title>PLoS Biology</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">1544-9173</issn>
+      <issn pub-type="epub">1545-7885</issn>
+      <publisher>
+        <publisher-name>Public Library of Science</publisher-name>
+        <publisher-loc>San Francisco, USA</publisher-loc>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC1450098</article-id>
+      <article-id pub-id-type="pmcid">PMC1450098</article-id>
+      <article-id pub-id-type="pmc-uid">1450098</article-id>
+      <article-id pub-id-type="pmid">16640460</article-id>
+      <article-id pub-id-type="pmid">16640460</article-id>
+      <article-id pub-id-type="doi">10.1371/journal.pbio.0040144</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Research Article</subject>
+        </subj-group>
+        <subj-group subj-group-type="Discipline">
+          <subject>Bioinformatics/Computational Biology</subject>
+          <subject>Biophysics</subject>
+          <subject>Cancer Biology</subject>
+          <subject>Molecular Biology/Structural Biology</subject>
+          <subject>Biochemistry</subject>
+        </subj-group>
+        <subj-group subj-group-type="System Taxonomy">
+          <subject>In Vitro</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>A Src-Like Inactive Conformation in the Abl Tyrosine Kinase Domain</article-title>
+        <alt-title alt-title-type="running-head">A Src-Like Conformation of Abl</alt-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Levinson</surname>
+            <given-names>Nicholas M</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" equal-contrib="yes">
+          <name>
+            <surname>Kuchment</surname>
+            <given-names>Olga</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Shen</surname>
+            <given-names>Kui</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Young</surname>
+            <given-names>Matthew A</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="fn" rid="n2">Â¤</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Koldobskiy</surname>
+            <given-names>Michael</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Karplus</surname>
+            <given-names>Martin</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff5">
+<sup>5</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Cole</surname>
+            <given-names>Philip A</given-names>
+          </name>
+          <xref ref-type="aff" rid="aff4">
+<sup>4</sup>
+</xref>
+        </contrib>
+        <contrib contrib-type="author" corresp="yes">
+          <name>
+            <surname>Kuriyan</surname>
+            <given-names>John</given-names>
+          </name>
+          <email>kuriyan@berkeley.edu</email>
+          <xref ref-type="aff" rid="aff1">
+<sup>1</sup>
+</xref>
+          <xref ref-type="aff" rid="aff2">
+<sup>2</sup>
+</xref>
+          <xref ref-type="aff" rid="aff3">
+<sup>3</sup>
+</xref>
+          <xref ref-type="aff" rid="aff6">
+<sup>6</sup>
+</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><bold>1</bold>Department of Molecular and Cell Biology, University of California Berkeley, Berkeley, California, United States of America
+</aff>
+      <aff id="aff2"><bold>2</bold>Department of Chemistry, University of California Berkeley, Berkeley, California, United States of America
+</aff>
+      <aff id="aff3"><bold>3</bold>Howard Hughes Medical Institute, University of California Berkeley, Berkeley, California, United States of America
+</aff>
+      <aff id="aff4"><bold>4</bold>Department of Pharmacology, Johns Hopkins University School of Medicine, Baltimore, Maryland, United States of America
+</aff>
+      <aff id="aff5"><bold>5</bold>Department of Chemistry and Chemical Biology, Harvard University, Cambridge, Massachusetts, United States of America
+</aff>
+      <aff id="aff6"><bold>6</bold>Physical Biosciences Division, Lawrence Berkeley National Laboratory, Berkeley, California, United States of America
+</aff>
+      <contrib-group>
+        <contrib contrib-type="editor">
+          <name>
+            <surname>Pawson</surname>
+            <given-names>Tony</given-names>
+          </name>
+          <role>Academic Editor</role>
+          <xref ref-type="aff" rid="edit1"/>
+        </contrib>
+      </contrib-group>
+      <aff id="edit1">
+        <institution>Samuel Lunenfeld Research Institute</institution>
+        <country>Canada</country>
+      </aff>
+      <pub-date pub-type="ppub">
+        <month>5</month>
+        <year>2006</year>
+      </pub-date>
+      <pub-date pub-type="epub">
+        <day>2</day>
+        <month>5</month>
+        <year>2006</year>
+      </pub-date>
+      <pub-date pub-type="pmc-release">
+        <day>2</day>
+        <month>5</month>
+        <year>2006</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on the <pub-date pub-type="epub"/>. -->
+      <volume>4</volume>
+      <issue>5</issue>
+      <elocation-id>e144</elocation-id>
+      <history>
+        <date date-type="received">
+          <day>8</day>
+          <month>11</month>
+          <year>2005</year>
+        </date>
+        <date date-type="accepted">
+          <day>3</day>
+          <month>3</month>
+          <year>2006</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Copyright: Â© 2006 Levinson et al.</copyright-statement>
+        <copyright-year>2006</copyright-year>
+        <license xlink:href="http://creativecommons.org/licenses/by/4.0/">
+          <license-p>This is an open-access article distributed under the terms of the Creative Commons Attribution License, which permits unrestricted use, distribution, and reproduction in any medium, provided the original author and source are properly credited.</license-p>
+        </license>
+      </permissions>
+      <related-article id="d35e265" related-article-type="companion" ext-link-type="doi" xlink:href="10.1371/journal.pbio.0040166" xlink:title="synopsis" vol="4" page="e166">
+<article-title>Conformational Variations of a Key Enzyme Offer Clues to Cancer-Drug Resistance</article-title>
+</related-article>
+      <abstract>
+        <p>The improper activation of the Abl tyrosine kinase results in chronic myeloid leukemia (CML). The recognition of an inactive conformation of Abl, in which a catalytically important Asp-Phe-Gly (DFG) motif is flipped by approximately 180Â° with respect to the active conformation, underlies the specificity of the cancer drug imatinib, which is used to treat CML. The DFG motif is not flipped in crystal structures of inactive forms of the closely related Src kinases, and imatinib does not inhibit c-Src. We present a structure of the kinase domain of Abl, determined in complex with an ATPâpeptide conjugate, in which the protein adopts an inactive conformation that resembles closely that of the Src kinases. An interesting aspect of the Src-like inactive structure, suggested by molecular dynamics simulations and additional crystal structures, is the presence of features that might facilitate the flip of the DFG motif by providing room for the phenylalanine to move and by coordinating the aspartate side chain as it leaves the active site. One class of mutations in BCRâAbl that confers resistance to imatinib appears more likely to destabilize the inactive Src-like conformation than the active or imatinib-bound conformations. Our results suggest that interconversion between distinctly different inactive conformations is a characteristic feature of the Abl kinase domain.</p>
+      </abstract>
+      <abstract abstract-type="toc">
+        <p>Src- and Abl-kinases are thought to have distinct inactive conformations, accounting for differential responses to the drug imantinib, used to treat chronic myeloid leukemia. Here, however, Abl-kinases are shown to also have Src-like conformational states.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="s1">
+      <title>Introduction</title>
+      <p>The evolution of specialized regulatory mechanisms in protein kinases is reflected in the range of distinct inactive conformations of kinase domains from different subfamilies [
+<xref rid="pbio-0040144-b001" ref-type="bibr">1</xref>,
+<xref rid="pbio-0040144-b002" ref-type="bibr">2</xref>]. This array of alternative inactive states provides opportunities for the development of selective kinase inhibitors, as exemplified by the success of imatinib (Gleevec, Glivec; Novartis) in blocking the activity of BCRâAbl [
+<xref rid="pbio-0040144-b003" ref-type="bibr">3</xref>] and its efficacy in the treatment of chronic myelogenous leukemia. BCRâAbl is a constitutively activated form of the nonreceptor tyrosine kinase c-Abl. The kinase domains of BCRâAbl and c-Abl are identical in sequence, and we shall use âAblâ to refer jointly to BCRâAbl and c-Abl in this paper. Structural differences between the inactive conformations of tyrosine kinase domains of Abl and its close relative c-Src suggest possible explanations for why imatinib can inhibit the kinase domain of Abl but not that of c-Src [
+<xref rid="pbio-0040144-b003" ref-type="bibr">3</xref>,
+<xref rid="pbio-0040144-b004" ref-type="bibr">4</xref>].
+</p>
+      <p>The structural analysis of small molecule inhibitors bound to p38-Map kinase [
+<xref rid="pbio-0040144-b005" ref-type="bibr">5</xref>] and imatinib bound to Abl [
+<xref rid="pbio-0040144-b004" ref-type="bibr">4</xref>] have illustrated how the recognition of inactive conformations of kinase domains can lead to specificity in kinase inhibition. These and subsequent studies have led to the concept that the inactive states of kinases, which have varied structures because they are not constrained by the necessity of catalyzing the phospho-transfer reaction, can provide additional opportunities for specificity in inhibitor interactions with the highly conserved kinase active sites. In this paper we present the results of new crystallographic studies on the kinase domain of Abl, which reveal a hitherto unappreciated degree of conformational variability in this kinase domain.
+</p>
+      <p>c-Src and c-Abl are closely related nonreceptor tyrosine kinases whose catalytic activities are controlled by their Src homology domains SH2 and SH3 [
+<xref rid="pbio-0040144-b006" ref-type="bibr">6</xref>]. In structures of inactive Src kinases, the SH2 and SH3 domains stabilize a conformation of the kinase domain in which a prominent Î±-helix (helix Î±C) in the N-terminal lobe (N-lobe) is swung out of the active site, breaking an ion pair between two conserved residues, Glu 310 in helix Î±C and Lys 295 in the Î²-sheet of the N-lobe [
+<xref rid="pbio-0040144-b007" ref-type="bibr">7</xref>,
+<xref rid="pbio-0040144-b008" ref-type="bibr">8</xref>]. The N-lobe closes down over the C-terminal lobe (C-lobe) of the kinase domain. A centrally located âactivation loopâ also changes structure, switching from an open and extended conformation in the active state to a more closed conformation in the inactive state. A conserved and catalytically crucial Asp-Phe-Gly (DFG) motif [
+<xref rid="pbio-0040144-b002" ref-type="bibr">2</xref>] is located at the base of the activation loop. The portion of the activation loop that immediately follows the DFG motif forms a helical turn that packs against the outwardly displaced helix Î±C (
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>). The rest of the activation loop is flexible and is not always visualized in the same conformation in inactive Src kinases.
+</p>
+      <fig id="pbio-0040144-g001" position="float">
+        <label>Figure 1</label>
+        <caption>
+          <title>Distinct States of the c-Abl and c-Src Kinase Domains</title>
+          <p>Three key kinase domain conformations considered at length in the text are shown in (AâC). At the top, a schematic representation of each state and an enlarged schematic are shown, detailing the conformations of the DFG motif (red) and helix Î±C (blue). Below the schematics the crystal structure of each conformation is shown. The activation loop is colored red, helix Î±C blue, and the catalytic loop orange.</p>
+          <p>(A) The conformation of inactive c-Abl, bound to imatinib (molecule A).</p>
+          <p>(B) The conformation of the inactive Src family kinases. This conformation is now seen in Abl as well (molecule B, structure 1). Both the c-Src and Abl numbering are indicated.</p>
+          <p>(C) Active Abl (molecule C, structure 2).</p>
+          <p>(D) In cells the active conformation of Abl undergoes rapid autophosphorylation that is expected to trap the protein in the active conformation (indicated as C*). Similarly, imatinib only binds to Abl when the kinase domain adopts conformation A and forms a stable complex with the protein (A*). The interconversion between the different states of Abl is shown in the context of this competition.</p>
+        </caption>
+        <graphic xlink:href="pbio.0040144.g001"/>
+      </fig>
+      <p>We refer to the mode of inactivation used by the Src family kinases as âÎ±C-Glu Out,â because the breaking of the conserved ion pair and the outward movement of helix Î±C are distinctive features of this conformation. The Src-like inactive conformation is illustrated in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>B and is contrasted to the conformation of an active kinase domain shown in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>C. The conformation of the active kinase domain is usually stabilized by phosphorylation of the activation loop.
+</p>
+      <p>The SH2 and SH3 domains of inactive c-Abl dock onto the kinase domain in a slightly different manner than in the inactive Src kinases, and this difference is correlated with differences in the structures of the inactive kinase domains of Abl and Src [
+<xref rid="pbio-0040144-b009" ref-type="bibr">9</xref>,
+<xref rid="pbio-0040144-b010" ref-type="bibr">10</xref>]. Helix Î±C is rotated inward in inactive c-Abl, and the conserved ion pair between Lys 271 and Glu 286 (Abl 1a numbering) is formed (âÎ±C-Glu Inâ in contrast to âÎ±C-Glu Outâ in c-Src). The orientation of the two lobes of the kinase domain of inactive c-Abl is essentially the same as in active kinases and is more open than inactive c-Src. The critical conformational change in inactive c-Abl with respect to the active form involves an approximately 180Â° rotation in the backbone torsion angle Ï of Asp 381 of the DFG motif, which removes the side chain of Asp 381 from the site of Mg
+<sup>2+</sup> coordination (âDFG-Asp Out,â in contrast to the conformation in active kinases, which we call âDFG-Asp Inâ). The region of the activation loop that is C-terminal to the DFG motif blocks substrate binding by mimicking the conformation of a kinase substrate peptide [
+<xref rid="pbio-0040144-b004" ref-type="bibr">4</xref>,
+<xref rid="pbio-0040144-b011" ref-type="bibr">11</xref>,
+<xref rid="pbio-0040144-b012" ref-type="bibr">12</xref>]. Because the activation loop is clearly flexible, we view the DFG flip as the defining inactivating transition of the Abl kinase domain (
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>A).
+</p>
+      <p>The flipped conformation of the DFG motif (DFG-Asp Out) is required for high-affinity imatinib binding, and the Src family inactive conformation (Î±C-Glu Out and DFG-Asp In) is not bound with high affinity by imatinib. The crystal structures of the tyrosine kinase domains of the insulin receptor, c-Kit (with and without imatinib bound), Flt3, Csk, and the Ser/Thr kinases Raf and p38, have revealed that many different kinases, with no specific relationship to Abl, can adopt conformations in which the DFG motif is flipped [
+<xref rid="pbio-0040144-b012" ref-type="bibr">12</xref>â
+<xref rid="pbio-0040144-b017" ref-type="bibr">17</xref>]. Kinase inhibitors that recognize the flipped DFG conformation are promising drug development leads. Imatinib itself is already being used successfully in the treatment of gastrointestinal stromal tumors and myeloproliferative diseases caused by the activation of the tyrosine kinases c-Kit and PDGFR [
+<xref rid="pbio-0040144-b018" ref-type="bibr">18</xref>â
+<xref rid="pbio-0040144-b020" ref-type="bibr">20</xref>].
+</p>
+      <p>The key attributes of the inactive conformation of the Src kinases are also seen in the cyclin-free inactive form of CDK2 [
+<xref rid="pbio-0040144-b021" ref-type="bibr">21</xref>], the kinase domain of the epidermal growth factor receptor [
+<xref rid="pbio-0040144-b022" ref-type="bibr">22</xref>], and the kinase domain of GCN2, a protein kinase involved in the cellular stress response [
+<xref rid="pbio-0040144-b023" ref-type="bibr">23</xref>]. Thus, the inactive conformations of c-Abl and c-Src appear to be representative of two disparate groups of kinases that, in their inactive forms, either have the DFG motif flipped (DFG-Asp Out) or have helix Î±C rotated out of the active site (Î±C-Glu Out).
+</p>
+      <p>The work presented here concerns structures of the isolated kinase domain of Abl, determined in the absence of the SH2 and SH3 domains or other regulatory domains. The presence of these additional domains significantly influences the catalytic properties of full-length c-Abl and BCRâAbl. The BCR segment of BCRâAbl, for example, induces oligomerization of the protein, which facilitates the trans-autophosphorylation of the Abl kinase domain [
+<xref rid="pbio-0040144-b024" ref-type="bibr">24</xref>]. Autophosphorylation, in turn, is believed to stabilize the kinase domain in the active conformation. Nevertheless, understanding the conformational landscape of the isolated and unphosphorylated kinase domain is of interest because the presence of additional domains, or posttranslational modifications, such as phosphorylation, is likely to modulate the degree to which conformations that are accessible to the isolated kinase domain are populated.
+</p>
+      <p>In the first part of this paper we present crystal structures of the Abl kinase domain bound to substrate-mimicking ATP analogâpeptide conjugates that represent four distinct conformations of the unphosphorylated kinase domain. Unexpectedly, one of these structures of the Abl kinase domain has a striking similarity to the conformation of inactive Src kinases (DFG-Asp In, Î±C-Glu Out). This is the first time that the same protein has been seen to adopt both the DFG-Asp Out and the Î±C-Glu Out inactive conformations. The other structures include active and various inactive conformations that suggest how the kinase domain might convert between the Î±C-Glu In and Î±C-Glu Out conformations. In the second part of the paper we present a speculation, based on computer simulations and the new crystal structures, regarding a potential role for the Src-like inactive structure in facilitating the DFG flip. In the last part of the paper we identify a class of imatinib resistance mutations in the BCRâAbl kinase domain whose locations in the structure suggest that destabilization of the Src-like inactive structure might impact the binding of imatinib to Abl.</p>
+    </sec>
+    <sec id="s2">
+      <title>Results/Discussion</title>
+      <sec id="s2a">
+        <title>Crystal Structures</title>
+        <p>In this paper we discuss five distinct conformations of the kinase domain of Abl, based on four new crystal structures as well as the previously published structure of the Abl:imatinib complex (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>). The protein samples used for crystallization consisted of the isolated kinase domain that was not phosphorylated on the activation loop, and we assume that increased flexibility of the protein under these conditions is responsible for the isolation of multiple distinct conformations. The crystallographic data and refinement statistics are noted in
+<xref ref-type="supplementary-material" rid="st001">Table S1</xref>.
+</p>
+        <table-wrap id="pbio-0040144-t001" position="float">
+          <label>Table 1</label>
+          <caption>
+            <p>Crystal Structures of the Kinase Domain of Abl</p>
+          </caption>
+          <graphic xlink:href="pbio.0040144.t001"/>
+        </table-wrap>
+        <p>The first of these conformations is that of the kinase domain bound to imatinib, determined previously [
+<xref rid="pbio-0040144-b009" ref-type="bibr">9</xref>], and is denoted molecule A (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref> and
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>A). The remaining conformations are derived from three different crystal forms obtained in the presence of ATP analogâpeptide conjugates [
+<xref rid="pbio-0040144-b025" ref-type="bibr">25</xref>]. These bisubstrate analogs inhibit the activity of the Abl kinase domain with K
+<sub>i</sub> values of approximately 1 Î¼M (see
+<xref ref-type="supplementary-material" rid="sd001">Protocol S1</xref> for a description of the kinetic characterization). In the first of our new structures (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, molecule B; and
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>B), the kinase domain of Abl assumes a conformation that is strikingly similar to that of the inactive Src kinases (DFG-Asp In/Î±C-Glu Out). We obtained two additional crystal forms, representing three different conformations of the kinase domain, using a construct of Abl that contains a patient-derived imatinib resistance mutation in the activation loop, His 396 Pro (H396P).
+</p>
+        <p>One crystal form of the H396P mutant has Abl in an active conformation (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, molecule C). These crystals diffracted X-rays weakly, and the structure was solved to 3.1 Ã resolution. Molecule C is shown in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>C and is very similar to the crystal structure of the kinase domain of Abl H396P bound to the small molecule inhibitor VX-680 [
+<xref rid="pbio-0040144-b026" ref-type="bibr">26</xref>], which has provided a high-resolution (2.0 Ã) model of the active conformation of the Abl kinase domain [
+<xref rid="pbio-0040144-b027" ref-type="bibr">27</xref>]. The isolation of the same conformation in the presence of an ATP analogâpeptide conjugate demonstrates that these substrate analogs are compatible with the active form of the kinase domain.
+</p>
+        <p>The other crystal form of the H396P mutant has two molecules in the asymmetric unit that are in different conformations. The first of these molecules (molecule D) is in an inactive conformation with a flipped DFG motif (DFG-Asp Out/Î±C-Glu In) despite the presence of the ATP analog in the nucleotide-binding site. Previously, DFG-Asp Out conformations of Abl have only been seen in the presence of high-affinity kinase inhibitors such as imatinib and PD166326. The appearance of the DFG-Asp Out conformation in the presence of a nucleotide analog shows that this conformation is an accessible state of the kinase domain of Abl and is not induced only by the binding of high-affinity kinase inhibitors. Because of the similarity to previously reported structures of Abl [
+<xref rid="pbio-0040144-b009" ref-type="bibr">9</xref>,
+<xref rid="pbio-0040144-b028" ref-type="bibr">28</xref>], we do not consider this conformation further.
+</p>
+        <p>The second molecule (molecule E) in this crystal form is in an intermediate conformation, with helix Î±C partially swung out of the active site and with disruption of the conserved ion pair between Glu 286 and Lys 271 (DFG-Asp Out/Î±C-Glu Out). The same crystal form was also obtained with the small molecule inhibitor PD166326 [
+<xref rid="pbio-0040144-b029" ref-type="bibr">29</xref>]. Crystals obtained with PD166326 are isomorphous to those obtained with the peptideâATP conjugate, but diffract X-rays to higher resolution (see
+<xref ref-type="sec" rid="s3">Materials and Methods</xref>). The resulting models are very similar, with differences limited to local changes that are a consequence of the different ligands. The conformation of Abl represented by molecules E and G suggests a mechanism by which Abl can interconvert between Î±C-Glu In and Î±C-Glu Out conformations.
+</p>
+      </sec>
+      <sec id="s2b">
+        <title>A Structure of the Abl Kinase Domain That Resembles Inactive Src Kinases</title>
+        <p>The structure of molecule B is shown in
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>A. The peptide portion of the substrate analog is bound to the activation loop and the C-lobe of the kinase domain essentially as seen previously in crystal structures of the insulin receptor kinase domain [
+<xref rid="pbio-0040144-b011" ref-type="bibr">11</xref>,
+<xref rid="pbio-0040144-b030" ref-type="bibr">30</xref>], except that the activation loop and the bound peptide have rotated outward as a unit with respect to the center of the kinase domain (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>A and
+<xref ref-type="supplementary-material" rid="sg001">Figure S1</xref>).
+</p>
+        <fig id="pbio-0040144-g002" position="float">
+          <label>Figure 2</label>
+          <caption>
+            <title>Molecule B Closely Resembles the Structure of the Inactive Src Kinases</title>
+            <p>(A) The kinase domain of Abl (molecule B) is shown as a cartoon with the bisubstrate analog inhibitor depicted as a stick model.</p>
+            <p>(B) Structure of the ATPâpeptide conjugate at the active site.</p>
+            <p>(C) Comparison between molecule B (left) and the structure of a Src-family kinase (right).</p>
+            <p>(D) Backbone torsion angles of Asp 381 of the DFG motif.</p>
+            <p>(E) The backbone of Asp 381 can start to move from DFG-In to the DFG-Out conformations by three paths in torsion angle space [
+<xref rid="pbio-0040144-b032" ref-type="bibr">32</xref>].
+</p>
+            <p>(F) Illustration of rotations about Ï(Asp 381) and Ï(Asp 381) in the Src-like inactive versus the active structures of Abl.</p>
+          </caption>
+          <graphic xlink:href="pbio.0040144.g002"/>
+        </fig>
+        <p>The conformation of molecule B is dramatically different from all other structures of Abl determined to date, all of which adopt the Î±C-Glu In conformation. In molecule B, helix Î±C is swung out of the active site (Î±C-Glu Out), a conformational change corresponding to an outward rotation of 34Â° about the helix axis and a 31Â° pivot of the helix axis with respect to the conformation of helix Î±C in active Abl (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, molecule C; and
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>C). As a result of the movement of the helix, the conserved salt bridge between Lys 271 and Glu 286 is broken. Both of these charged residues form new ion-pairing interactions.
+</p>
+        <p>The side chain of Glu 286, which is surface-exposed because of the rotation of helix Î±C, forms an ion pair with Arg 386 within the activation loop (
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>A). The side chain of Lys 271 forms a salt bridge with the side chain of Asp 381 of the DFG motif in molecule B. As a consequence, the side chain of Asp 381 is moved relative to its position in active structures. The coordinated Mg
+<sup>2+</sup> ion is also displaced and bound between the Î± and Î² phosphates of ATP, and not between the Î² and Î³ phosphates (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>B).
+</p>
+        <p>The region of the activation loop immediately C-terminal to the DFG motif in molecule B forms a single turn of a 3
+<sub>10</sub> helix that packs against helix Î±C, forming an extensive hydrophobic interface that stabilizes the Î±C-Glu Out conformation (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>A; the activation loop is colored blue). The DFG motif and the leucine residue immediately following a canonical type II Î² turn [
+<xref rid="pbio-0040144-b031" ref-type="bibr">31</xref>], with Asp 381 occupying the first position in the turn.
+</p>
+        <p>Abl molecule B closely resembles the inactive Src kinases (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>C). Alignment of Abl molecule B (residues 246 to 500, excluding residues 381 to 402 in the activation loop, see below) with the corresponding regions of c-Src [
+<xref rid="pbio-0040144-b007" ref-type="bibr">7</xref>] and Hck [
+<xref rid="pbio-0040144-b008" ref-type="bibr">8</xref>] yields root mean square (r.m.s.) deviations of 1.17 Ã and 0.99 Ã, respectively, for CÎ± atoms. The major difference between the structures of Src kinases and the structure of Abl molecule B concerns the central region of the activation loop, residues 389 to 402 in Abl (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>C). In Abl, this region of the activation loop adopts a conformation in which Tyr 393 is pointed outward and appears to be presented for phosphorylation by another kinase molecule.
+</p>
+      </sec>
+      <sec id="s2c">
+        <title>A Speculation Regarding DFG Flips and Src-Like Inactive Conformations, Based on the Ramachandran Diagram</title>
+        <p>The structure of molecule B indicates, for the first time, that a Src-like inactive conformation is accessible to Abl (
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>B). This led us to ask whether there is a particular functional significance for this conformation. In addition to a possible autoinhibitory role as a stable form of the unphosphorylated kinase domain, certain features of molecule B suggested to us that a Src-like inactive conformation may function as an intermediate conformation that facilitates the DFG flip. The DFG motif is located at the base of the activation loop, in an environment that is tightly packed in the active conformation. A salient feature in both inactive Src and Abl molecule B (Src-like inactive) is the presence of a sizable internal cavity around the DFG motif that is created by the outward rotation of helix Î±C [
+<xref rid="pbio-0040144-b008" ref-type="bibr">8</xref>]. This cavity is an enlargement of the ATP-binding pocket, and its presence results in the environment of the DFG motif being considerably less hindered sterically in the Src-like inactive conformation than in the active conformation of protein kinases.
+</p>
+        <p>The backbone torsion angles involved in the DFG-Asp In/Out transition are shown in
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>D. The torsion angles of Asp 381 are very similar in the active (Ï = 48.0Â°, Ï = 83.2Â°) and Src-like inactive conformations of Abl (Ï = 49.6Â°, Ï = 36.4Â°), but distinct in the DFG-flipped conformation (Ï = â152.9Â°, Ï = 98.6Â°). A Ramachandran diagram based on free energy calculations on the isolated alanine dipeptide in aqueous solution [
+<xref rid="pbio-0040144-b032" ref-type="bibr">32</xref>] shows that there are three low-energy paths in backbone torsion angle space for the Ï and Ï torsion angles of Asp 381 by which the aspartate residue can begin the transition from the active or the Src-like conformation toward the DFG-flipped conformation (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>E). The most direct route in backbone torsion angle space for this transition involves decreasing the value of Ï while increasing the value of Ï (Path C in
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>E). Such a coupled set of torsion angle changes immediately drives the side chain of Phe 382 into the C-lobe and cannot be counteracted by changes in any other downstream torsion angles. Path C therefore seems unlikely.
+</p>
+        <p>The two other low-energy paths, A and B, when coupled to backbone rotations in Phe 382, are nearly equivalent in terms of the movements of the side chains of Asp 381 and Phe 382 (this point is discussed further below). The initial steps along Path A involve increasing the values of both Ï and Ï for Asp 381. The consequence of a +30Â° rotation in both Ï and Ï for Asp 381 in the structure of active Abl is illustrated in
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>F. Asp 381 moves down into the base of the ATP-binding site and away from Lys 271, while Phe 382 moves up toward the ATP-binding pocket, but does not enter it. Further movement of Phe 382 appears to be blocked by side chains of helix Î±C. If the same set of rotations is made in the context of Abl molecule B (Src-like inactive), there is a striking difference. The side chain of Phe 382 now enters the enlarged ATP-binding cavity, and there is no obvious steric block to its continued movement (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>F).
+</p>
+        <p>This simple analysis suggests that structural features in the Src-like inactive structure might facilitate the DFG flip, but a particularly difficult question concerns the mechanism by which the charged side chain of Asp 381 is stabilized as it moves away from the highly polar environment of the ATP-binding site. To gain more insight into this issue we turned to molecular dynamics simulations of the DFG flip mechanism.</p>
+      </sec>
+      <sec id="s2d">
+        <title>Targeted Molecular Dynamics Simulations of the DFG-Asp In/Out Transition</title>
+        <p>The DFG-Asp In/Out transition is unlikely to occur spontaneously in conventional molecular dynamics simulations, which are currently restricted to the nanosecond timescale for proteins the size of the Abl kinase domain [
+<xref rid="pbio-0040144-b033" ref-type="bibr">33</xref>]. We therefore employed a version of the targeted molecular dynamics simulation method [
+<xref rid="pbio-0040144-b034" ref-type="bibr">34</xref>], in which an external force is applied to a selected portion of the protein structure in order to drive a desired conformational transition [
+<xref rid="pbio-0040144-b035" ref-type="bibr">35</xref>]. Here we used targeted molecular dynamics to drive the conformation of the DFG motif from the active conformation (DFG-Asp In) or the Src-like conformation (DFG-Asp In) to the imatinib-bound conformation (DFG-Asp Out). These simulations explore the transitions denoted 1 and 2 in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D.
+</p>
+        <p>The targeted molecular dynamics method drives a selected portion of the simulated structure to be at a desired r.m.s. distance from a target structure. The entire kinase domain as well as the surrounding box of water molecules is allowed to move in response to the driving force, which is applied directly to only a portion of the simulated system. The desired r.m.s. distance is decreased gradually during the simulation so that, eventually, the simulated structure is driven to be close to the target structure. The restraint energy, E
+<sub>restraint</sub>, is given by
+</p>
+        <p>
+<disp-formula id="pbio-0040144-e001"><graphic xlink:href="pbio.0040144.e001.jpg" mimetype="image" position="float"/></disp-formula>
+</p>
+        <p>where
+<italic>k</italic> is force constant,
+<italic>N</italic> is the number of atoms included in the restraint,
+<italic>D</italic> is the current mass-weighted r.m.s. distance of the restrained region from the target, and
+<italic>D
+<sub>T</sub></italic> is the desired value of the r.m.s. distance.
+</p>
+        <p>For a fully solvated simulation system containing the kinase domain we are able to obtain a 0.2-ns trajectory in about a day using two Intel 3.06 GHz Xeon processors. We carried out multiple trajectories of this length (86 in total) to gauge the effects of parameters such as the force constant and the atoms in the restraint set. A few simulations (12 in total) extended for longer times (1â4.5 ns). The essential features of the transitions are the same in the long and the short trajectories.</p>
+        <p>Simulations were carried out using restraint sets ranging from the entire kinase domain to only four residues, including the Asp 381 and the Phe 382 residues of the DFG motif (
+<sup>379</sup>VADF
+<sup>382</sup>). The manner in which the DFG flip occurs is essentially the same in every trajectory (
+<xref ref-type="fig" rid="pbio-0040144-g003">Figure 3</xref>), and most of our analysis focuses on simulations in which the restraint force was applied to the four-residue segment
+<sup>379</sup>VADF
+<sup>382</sup>. More details regarding the force constants and the restraint sets are given in
+<xref ref-type="supplementary-material" rid="sd001">Protocol S1</xref>.
+</p>
+        <fig id="pbio-0040144-g003" position="float">
+          <label>Figure 3</label>
+          <caption>
+            <title>Targeted Molecular Dynamics Simulations Suggest a Path for DFG Flipping</title>
+            <p>(A) Coordination of Asp 381 during the DFG flip, shown in stereo, starting from the Src-like structure and following transition path A in backbone torsion angle space (see
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>E). The coordination of Asp 381 is almost identical for transition path B, except that the carbonyl of Asp 381 flips in the other direction (see
+<xref ref-type="supplementary-material" rid="sg003">Figure S3</xref>).
+</p>
+            <p>(B) The side chain of Phe 382 passing through a hydrophobic pocket in the Src-like inactive molecule B.</p>
+            <p>(C) The paths of Asp 381 and Phe 382 in backbone torsion angle space for two trajectories starting with the Src-like inactive structure. Shown in red are the torsion angles seen in the first quarter of a TMD time series, in green, the second quarter of the time series, in blue, the third quarter, and in purple, the last quarter.</p>
+            <p>(D) Unfavorable interactions between the backbone carbonyl of Phe 382 and the carboxylate group of Glu 286 during TMD simulations starting from the active structure, where the Glu 286-Lys 271 salt bridge is present.</p>
+          </caption>
+          <graphic xlink:href="pbio.0040144.g003"/>
+        </fig>
+        <p>Because of the strong driving forces necessitated by the short simulation times (see
+<xref ref-type="supplementary-material" rid="sd001">Protocol S1</xref> and
+<xref ref-type="supplementary-material" rid="sg002">Figure S2</xref>), these simulations cannot be used to obtain meaningful estimates as to whether the DFG flip occurs at a faster rate in transition 1 (active to DFG flipped) or transition 2 (Src-like inactive to DFG flipped,
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D). Such estimates would require calculation of the free energy barriers to the transitions [
+<xref rid="pbio-0040144-b036" ref-type="bibr">36</xref>â
+<xref rid="pbio-0040144-b038" ref-type="bibr">38</xref>] with proper consideration of the role of ATP/ADPâ¢Mg
+<sup>2+</sup> (not included in most of the present simulations; see
+<xref ref-type="supplementary-material" rid="sd001">Protocol S1</xref>). This is a time-consuming calculation and is left for future investigations. Instead, the highly consistent pathways generated by the simulations are analyzed in terms of the intermediate structures that are present in the trajectories. Coordinates sampled from representative trajectories are available for download as
+<xref ref-type="supplementary-material" rid="sd001">Datasets S1</xref> and
+<xref ref-type="supplementary-material" rid="sd002">S2</xref>.
+</p>
+      </sec>
+      <sec id="s2e">
+        <title>Phe 382 Uses the Enlarged ATP-Binding Pocket in the Src-Like Inactive Conformation during Simulated DFG Transitions</title>
+        <p>The simulations reveal two different transition pathways between the Src-like inactive and the imatinib-bound structures (
+<xref ref-type="fig" rid="pbio-0040144-g003">Figure 3</xref>C) that correspond to the two low-energy paths A and B for Asp 381 backbone torsion angles in the Ramachandran diagram (
+<xref ref-type="fig" rid="pbio-0040144-g002">Figure 2</xref>E). Both paths show the side chain of Phe 382 passing through the enlarged ATP-binding cavity found in the Src-like inactive conformation (
+<xref ref-type="fig" rid="pbio-0040144-g003">Figure 3</xref>B); this is in accord with the analysis based on the Ramachandran diagram, described earlier. The differences between the two paths, A and B, are restricted to the direction of the movement of the backbone carbonyl group of Asp 381 (see
+<xref ref-type="supplementary-material" rid="sg003">Figure S3</xref> for an illustration of a path B transition).
+</p>
+        <p>Analogous simulations starting with the active structure of the Abl kinase domain (transition 1 in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D) show that the active structure can also accommodate the DFG flip, but apparently less well than the Src-like structure. The presence of the salt bridge between Glu 286 and Lys 271 impedes the flip of the phenylalanine residue in the DFG motif, as a significant clash occurs between the oxygen atoms of the Glu side chain and the carbonyl group of Phe 382 in the approximately 30 simulations started from the active conformation (
+<xref ref-type="fig" rid="pbio-0040144-g003">Figure 3</xref>D).
+</p>
+      </sec>
+      <sec id="s2f">
+        <title>Features in the Src-Like Inactive Structure That Stabilize Asp 381 during Simulated DFG Flips</title>
+        <p>All of the simulations initiated from the Src-like inactive structure (transition 2 in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D) reveal a similar mechanism for how the negative charge of Asp 381 can be coordinated during the transition. The aspartate side chain passes underneath the polypeptide backbone of the DFG motif and forms an extensive hydrogen-bonding network with the backbone amide groups of the next three residues (
+<xref ref-type="fig" rid="pbio-0040144-g003">Figure 3</xref>A). This type of interaction between an Asp side chain and the backbone is commonly seen in crystal structures and is referred to as an Asx turn [
+<xref rid="pbio-0040144-b039" ref-type="bibr">39</xref>]. When this interaction occurs immediately N-terminal to Î±-helices, the arrangement of the backbone NH groups helps to stabilize the negative charge of the Asp side chain. The 3
+<sub>10</sub> helix immediately following the DFG motif in the molecule B has a corresponding stabilizing interaction with the aspartate of the DFG motif during the flip. This 3
+<sub>10</sub> helix in the activation loop is a characteristic feature of the Src-like inactive conformation, and it has now been observed in four different protein kinase families: Abl, Src, epidermal growth factor receptor, and CDK2 (
+<xref ref-type="fig" rid="pbio-0040144-g004">Figure 4</xref>A).
+</p>
+        <fig id="pbio-0040144-g004" position="float">
+          <label>Figure 4</label>
+          <caption>
+            <title>The Helical Turn following the DFG motif in Src-Like Inactive Structures</title>
+            <p>(A) The helical turn in the activation loop of molecule B that immediately follows the DFG motif is a characteristic feature of the Src-like conformation and is conserved in four different kinase families.</p>
+            <p>(B and C) The side chain of Arg 386, presented by the helical turn, forms a hydrogen bond to a backbone carbonyl of Ile 360, a salt bridge with Glu 286, and an aminoâaromatic interaction with Phe 359 that positions it for interacting with Asp 381 during the DFG flip.</p>
+            <p>(D) An intermediate structure during one of the TMD simulations, showing the capture of Asp 381 by Arg 386.</p>
+          </caption>
+          <graphic xlink:href="pbio.0040144.g004"/>
+        </fig>
+        <p>Asp 381 is also stabilized during the transition by an interaction with Arg 386, a conserved ligand of the phosphorylated tyrosine residue in activated kinases [
+<xref rid="pbio-0040144-b011" ref-type="bibr">11</xref>,
+<xref rid="pbio-0040144-b040" ref-type="bibr">40</xref>]. The side chain of Arg 386, which is part of the 3
+<sub>10</sub> helix, forms a salt bridge to the flipped-out Glu 286 in molecule B, an interaction that is also seen in the structures of inactive c-Src and Hck [
+<xref rid="pbio-0040144-b007" ref-type="bibr">7</xref>,
+<xref rid="pbio-0040144-b008" ref-type="bibr">8</xref>]. Arg 386 in Abl molecule B is also oriented by an aminoâaromatic interaction [
+<xref rid="pbio-0040144-b041" ref-type="bibr">41</xref>] with Phe 359 in the catalytic loop and a hydrogen bond to a backbone carbonyl (
+<xref ref-type="fig" rid="pbio-0040144-g004">Figure 4</xref>B). This orientation of Arg 386 allows it to capture Asp 381 in many of the simulations as it emerges from beneath the backbone of the activation loop (
+<xref ref-type="fig" rid="pbio-0040144-g003">Figure 3</xref>A and
+<xref ref-type="fig" rid="pbio-0040144-g004">Figure 4</xref>C and
+<xref ref-type="fig" rid="pbio-0040144-g004">4</xref>D).
+</p>
+        <p>There is a qualitative difference between intermediate structures formed in simulations initiated with the Src-like structure (transition 2,
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D) and the active structure (transition 1,
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D). In simulations of both transitions, the first structural changes to occur are the breakage of the ionic interactions between Asp 381 and Lys 271 and the entrance of Phe 382 into the nucleotide-binding pocket, which happen in a concerted manner. In simulations initiated from the Src-like inactive structure, an intermediate is formed in which Asp 381 is coordinated by the backbone amide groups of the next three residues. In the simulations starting from the active structure, Asp 381 is either not coordinated when the ionic interaction breaks, or is coordinated by only one amide group.
+</p>
+        <p>The simulations also reveal a potential role for the type II Î² turn adopted by the
+<sup>381</sup>DFGL
+<sup>384</sup> residues of the DFG motif that is a characteristic feature of the Src-like inactive structure but not the active structure. This type II Î² turn aligns the backbone amide groups of residues Gly 383 and Leu 384 so that they are pointing down toward the C-lobe of the kinase domain, allowing for coordination of the aspartate as it undergoes the transition. A hydrogen bond to a backbone carbonyl in the C-lobe anchors the backbone amide of Gly 383, such that a type II Î² turn is favored over a type I Î² turn in the Src-like inactive conformation. The backbone conformation following the DFG motif in the Src-like inactive structure can also be classified as a potential anion-binding site [
+<xref rid="pbio-0040144-b042" ref-type="bibr">42</xref>].
+</p>
+        <p>The glycine of the DFG motif is essentially invariant among protein kinases. A role for this residue in the active conformation is suggested by the structure of the serine threonine kinase protein kinase A, in which the presence of glycine in the DFG motif appears to be necessary for proper coordination of Mg
+<sup>2+</sup>â¢ATP [
+<xref rid="pbio-0040144-b043" ref-type="bibr">43</xref>]. Interestingly, type II Î² turns display a strong preference for glycine at the third position [
+<xref rid="pbio-0040144-b031" ref-type="bibr">31</xref>], suggesting that the Src-like inactive conformation also imposes a requirement for glycine in the DFG motif.
+</p>
+      </sec>
+      <sec id="s2g">
+        <title>Additional Structures of Abl Suggest How Helix Î±C Might Transition to the Î±C-Glu Out Conformation</title>
+        <p>The simulations do not address the question of how Glu 286, in helix Î±C, moves out of the active site to adopt its solvent-exposed position in the Src-like inactive structure. This is an important question because such a transition involves breaking the ion pair between Glu 286 and Lys 271 and is unlikely to happen unless compensating electrostatic interactions are provided (
+<xref ref-type="supplementary-material" rid="st002">Table S2</xref>). Two crystal structures of Abl reported in this work (molecules E and G) advance our understanding of this question.
+</p>
+        <p>Molecules E and G were obtained from the same crystal form of Abl and are very similar, except for the presence of either the ATP-peptide analog (molecule E) or the kinase inhibitor PD166326 (molecule G). In these structures, the kinase adopts a conformation intermediate between Î±C-Glu In and Î±C-Glu Out: while helix Î±C is not rotated out of the active site of the kinase, a rotation of the side chain of Glu 286 has occurred, resulting in the breakage of the Glu 286âLys 271 salt bridge. This interaction is replaced by an ion pair between Glu 286 and Arg 362 in the catalytic loop, part of a conserved His-Arg-Asp (HRD) motif (
+<xref ref-type="fig" rid="pbio-0040144-g005">Figure 5</xref>A). The existence of a salt bridge between Glu 286 and the HRD arginine (Arg 362) in molecules E and G would be expected to offset the energetic cost of breaking the Glu 286âLys 271 salt bridge. Once the salt bridge is broken, the interface between helix Î±C and the rest of the N-lobe of the kinase is exclusively hydrophobic. The helix could then rotate relative to the Î²-sheet of the N-lobe. We propose that this rotation could occur without breaking the stabilizing interaction between Glu 286 and Arg 362 (
+<xref ref-type="fig" rid="pbio-0040144-g005">Figure 5</xref>B).
+</p>
+        <fig id="pbio-0040144-g005" position="float">
+          <label>Figure 5</label>
+          <caption>
+            <title>The Structure of Abl in an Intermediate Conformation Suggests a Path for the Transition between the Active and Src-Like Conformations</title>
+            <p>(A) The intermediate structure of Abl (molecule E) is shown, with helix Î±C shown in blue, the activation loop in red, and the catalytic loop containing Arg 362 in orange.</p>
+            <p>(B) The proposed pathway by which Abl makes the transition to the Src-like conformation.</p>
+          </caption>
+          <graphic xlink:href="pbio.0040144.g005"/>
+        </fig>
+        <p>In support of the idea that Arg 362 in the HRD motif might provide electrostatic stabilization as Glu 286 moves out of the active site, the same ion pair corresponding to Glu 286 and the HRD Arg 362 is seen in the earliest reported structures of the inactive Src kinases, Src and Hck [
+<xref rid="pbio-0040144-b044" ref-type="bibr">44</xref>,
+<xref rid="pbio-0040144-b045" ref-type="bibr">45</xref>]. In these structures, helix Î±C has rotated out while maintaining the Glu-HRD Arg ion pair. In the crystal structure of GCN2, the same ion pair is formed in the context of an Î±C-Glu Out conformation [
+<xref rid="pbio-0040144-b023" ref-type="bibr">23</xref>]. Thus this ion pair is compatible with both the Î±C-Glu In and Î±C-Glu Out conformations. A schematic of the proposed Î±C-Glu In/Out transition pathway is shown in
+<xref ref-type="fig" rid="pbio-0040144-g005">Figure 5</xref>B.
+</p>
+      </sec>
+      <sec id="s2h">
+        <title>Potential Relevance for a Src-Like Inactive Structure in Imatinib Resistance</title>
+        <p>Clinical resistance to imatinib therapy is a growing problem in the treatment of chronic myeloid leukemia [
+<xref rid="pbio-0040144-b046" ref-type="bibr">46</xref>]. Mutations that confer resistance to imatinib have been mapped using patient-derived samples and by using in vitro screens [
+<xref rid="pbio-0040144-b047" ref-type="bibr">47</xref>,
+<xref rid="pbio-0040144-b048" ref-type="bibr">48</xref>]. Surprisingly, only a minority of the imatinib resistance mutations result in direct blockage of the drug-binding site. A larger class of mutations appear to act by destabilizing the specific inactive conformation of Abl to which imatinib binds [
+<xref rid="pbio-0040144-b047" ref-type="bibr">47</xref>]. A third class of mutations cannot be rationalized easily in this manner; many of these occur in regions of the structure that have essentially identical conformation in the imatinib-bound and active conformations, or are solvent-exposed. It is unclear how mutations at such sites preferentially destabilize the imatinib-bound conformation, while allowing the kinase to retain catalytic activity.
+</p>
+        <p>Notably, a striking number of resistance mutations map to the interface between helix Î±C and the N-lobe of the kinase (
+<xref ref-type="fig" rid="pbio-0040144-g006">Figure 6</xref>A). This interface is preserved between the active and imatinib-bound structures, but in the Src-like inactive structure (molecule B) the altered orientation of helix Î±C and the presence of the 3
+<sub>10</sub> helix in the activation loop result in a much larger interface. Mapping the location of the resistance mutations onto molecule B shows that almost every residue at the enlarged Î±C/N-lobe interface can confer imatinib resistance when mutated (
+<xref ref-type="fig" rid="pbio-0040144-g006">Figure 6</xref>A).
+</p>
+        <fig id="pbio-0040144-g006" position="float">
+          <label>Figure 6</label>
+          <caption>
+            <title>Molecule B Helps Explain Mutations in the Kinase Domain of Abl That Confer Resistance to Imatinib</title>
+            <p>(A) The side chains of residues implicated in imatinib resistance in the Azam et al. study [
+<xref rid="pbio-0040144-b048" ref-type="bibr">48</xref>] are shown in blue in the context of molecule B. A large number of these mutations cluster in the interface between helix Î±C, the N-lobe, and the helical turn in the activation loop.
+</p>
+            <p>(BâD) For three of these mutations we have shown the surface for all atoms within 6 Ã of the mutated residue in the context of different structures. The Abl:imatinib complex is in green and the Src-like structure (molecule B) in yellow-orange. (B) Asp 276. (C) Leu 387. (D) Met 278.</p>
+          </caption>
+          <graphic xlink:href="pbio.0040144.g006"/>
+        </fig>
+        <p>Several of the resistance mutations play a particularly important structural role in the Src-like conformation of Abl, but are of less obvious importance in the imatinib-bound or active conformations. For example, the side chain of Asp 276 makes two strong hydrogen bonds with backbone amide groups in the activation loop immediately following the helical turn in molecule B (
+<xref ref-type="fig" rid="pbio-0040144-g006">Figure 6</xref>B, right). These interactions help anchor the activation loop in the Src-like conformation and would be disrupted by the patient-derived resistance mutation identified at this position (D276G) [
+<xref rid="pbio-0040144-b049" ref-type="bibr">49</xref>] as well as by the D276V mutation isolated in the in vitro screen [
+<xref rid="pbio-0040144-b048" ref-type="bibr">48</xref>]. The importance of similar interactions in the maintenance of the inactive form of c-Src has been demonstrated previously [
+<xref rid="pbio-0040144-b050" ref-type="bibr">50</xref>]. In contrast, Asp 276 is solvent-exposed in the Abl:imatinib complex (
+<xref ref-type="fig" rid="pbio-0040144-g006">Figure 6</xref>B, left) and in the active structure.
+</p>
+        <p>Two more examples are the hydrophobic residues Leu 387 and Met 278, which are completely buried in the extended interface between helix Î±C, the N-lobe, and the helical turn in the activation loop in the Src-like inactive structure (molecule B;
+<xref ref-type="fig" rid="pbio-0040144-g006">Figure 6</xref>C and
+<xref ref-type="fig" rid="pbio-0040144-g006">6</xref>D, right). Mutations of Leu 387 have been isolated in the patient-resistance studies (L387F/M), while a mutation of Met 278 (M278L) was identified in the in vitro screen. In the imatinib complex, both Leu 387 and Met 278 are largely solvent-exposed (
+<xref ref-type="fig" rid="pbio-0040144-g006">Figure 6</xref>C and
+<xref ref-type="fig" rid="pbio-0040144-g006">6</xref>D, left). Other mutations are discussed in
+<xref ref-type="supplementary-material" rid="sd001">Protocol S1</xref> and
+<xref ref-type="supplementary-material" rid="sg004">Figure S4</xref>.
+</p>
+        <p>Activation-loop phosphorylation is expected to stabilize Abl in the active conformation, and imatinib binds to phosphorylated Abl with greatly reduced affinity. Although BCRâAbl is phosphorylated constitutively in cells, tyrosine phosphatases ensure that a dynamic interconversion exists between the phosphorylated and unphosphorylated forms of the protein (
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D [
+<xref rid="pbio-0040144-b051" ref-type="bibr">51</xref>]), and the continual formation of unphosphorylated BCRâAbl through this interconversion is critical for the efficacy of imatinib [
+<xref rid="pbio-0040144-b004" ref-type="bibr">4</xref>,
+<xref rid="pbio-0040144-b028" ref-type="bibr">28</xref>,
+<xref rid="pbio-0040144-b051" ref-type="bibr">51</xref>]. Because of the competition between autophosphorylation and imatinib binding, mutations that perturb the balance between the different conformational states of Abl could have a dramatic effect on the efficacy of imatinib.
+</p>
+      </sec>
+      <sec id="s2i">
+        <title>Conclusions</title>
+        <p>The central result of this paper is the discovery that the kinase domain of Abl can readily adopt a conformation that resembles closely that of the inactive Src kinases. This is a surprise, because all previously seen conformations of the inactive forms of the Abl kinase domain have in common a flipped DFG motif (DFG-Asp Out/Î±C-Glu In), whereas the DFG motif is not flipped in the structures of the inactive Src kinases. The high-affinity binding of imatinib to Abl and its other targets requires a flipped DFG motif. Although c-Src binds to imatinib with low affinity, other Src kinases, such as Lck, bind to imatinib with greater affinity [
+<xref rid="pbio-0040144-b052" ref-type="bibr">52</xref>,
+<xref rid="pbio-0040144-b053" ref-type="bibr">53</xref>]. This suggests that just as Abl can adopt a Src-like inactive structure, the Src kinases can, with varying ease, adopt the inactive conformation that is characteristic of Abl.
+</p>
+        <p>Our results link, for the first time, Src-like inactive and DFG-flipped inactive conformations in the same protein molecule. Because of the location of the DFG motif deep within the active-site cleft of the kinase, the flipping of the DFG motif is unlikely to occur without significant rearrangements in the rest of the kinase domain. We hypothesize, based on analysis of the structures in combination with targeted molecular dynamics simulations, that the DFG flip might be facilitated by adoption of the Src-like inactive structure. When helix Î±C is moved out of the active site, the DFG motif is freed from the steric hindrance imposed by the salt bridge between Glu 286 and Lys 271. The side chain of Phe 382 can then move through the sizable hydrophobic pocket created by the outward displacement of helix Î±C. Throughout the flip, the negative charge of Asp 381 is stabilized by the backbone amide groups of the activation loop and interaction with Arg 386.</p>
+        <p>The discovery that Abl adopts a Src-like inactive conformation suggests a mechanism by which one class of mutations in the kinase domain of Abl might allow the protein to escape inhibition by imatinib. These mutations map to regions of the kinase domain that undergo major structural changes when the kinase adopts the Src-like inactive conformation. These mutations might affect kinase activity at equilibrium if the Src-like inactive conformation represents a major population of the inactive Abl molecules in solution. Such effects may be difficult to detect in the isolated kinase domain of Abl, in which conformational transitions do not appear to be rate-limiting when compared to substrate binding and release or the chemical step, as evidenced by the fact that phosphorylation does not increase the activity of the isolated kinase domain [
+<xref rid="pbio-0040144-b004" ref-type="bibr">4</xref>]. A previous study of resistance mutations using only the kinase domain of Abl has shown only subtle effects for several resistance mutations [
+<xref rid="pbio-0040144-b054" ref-type="bibr">54</xref>]. It may be important to study the attributes of resistance in the context of BCRâAbl or large constructs of c-Abl.
+</p>
+        <p>The DFG motif is conserved across almost every member of the eukaryotic protein kinase superfamily [
+<xref rid="pbio-0040144-b002" ref-type="bibr">2</xref>]. In addition, the surrounding residues that interact with the DFG motif are also highly conserved [
+<xref rid="pbio-0040144-b002" ref-type="bibr">2</xref>]. This makes it challenging to devise experiments that involve mutagenesis of the DFG motif or residues in its immediate environment in such a way that the results could be interpreted without ambiguity. Characterization of the imatinib resistance mutations may provide one experimental route by which to investigate the effect of mutations on the conformational changes in the kinase domain of Abl. Ultimately, however, NMR measurements of structure and dynamics, combined with computer simulations, are likely to be required to establish the relevance of the Src-like inactive structure for the regulation of Abl. In this regard, it is encouraging that preliminary NMR analyses of dynamics in kinase domains are yielding promising results [
+<xref rid="pbio-0040144-b055" ref-type="bibr">55</xref>,
+<xref rid="pbio-0040144-b056" ref-type="bibr">56</xref>].
+</p>
+      </sec>
+    </sec>
+    <sec id="s3">
+      <title>Materials and Methods</title>
+      <sec id="s3a">
+        <title>Bacterial expression of Abl.</title>
+        <p>The kinase domain of human c-Abl (residues 229â512) was coexpressed with the tyrosine phosphatase YopH in bacteria according to a published protocol [
+<xref rid="pbio-0040144-b027" ref-type="bibr">27</xref>,
+<xref rid="pbio-0040144-b057" ref-type="bibr">57</xref>]. The protein was purified by affinity and anion exchange chromatography, and size-exclusion chromatography showed that the protein was monomeric and free of aggregates. The H396P mutation was made using the QuikChange site-directed mutagenesis kit (Stratagene, La Jolla, California, United States) and purified as above. Proteins were concentrated to 10 mg/ml in gel filtration buffer (50 mM Tris-HCl [pH 8.0], 100 mM NaCl, 10% glycerol, and 0.5 mM DTT), snap-frozen in liquid nitrogen, and stored at â80 Â°C.
+</p>
+      </sec>
+      <sec id="s3b">
+        <title>Synthesis of the bisubstrate analog inhibitors.</title>
+        <p>The peptide portions of the substrate analogs were assembled by solid-phase peptide synthesis using Fmoc chemistry, performed as reported previously [
+<xref rid="pbio-0040144-b025" ref-type="bibr">25</xref>,
+<xref rid="pbio-0040144-b030" ref-type="bibr">30</xref>], with minor modifications. The tyrosine of the substrate was replaced by azidophenylalanine during each synthesis. The sequence used for analog 1 was the âCantley Src peptideâ (NH2-AEEEIYGEFEAKK-COOH), and the peptide sequence of analog 2 was the optimal Abl substrate (NH2-EAIYAAPFAKK-COOH) [
+<xref rid="pbio-0040144-b058" ref-type="bibr">58</xref>]. With the peptide still bound on the resin, the azidophenylalanine was reduced to aminophenylalanine by addition of a large excess of tributylphosphine in dimethylformamide. Bromoacetic acid was mixed with diisopropylcarbodiimide in a 2:1 molar ratio in dichloromethane. After stirring for 10 min the solvent was removed and the symmetric anhydride dissolved in dimethylformamide before addition to the resin. After cleavage from the resin the bromoacetylated peptide was precipitated in cold ether and lyophilized. The dried peptides were purified by reversed-phase HPLC (water:acetonitrile gradient) and confirmed by mass spectrometry. Coupling of the purified peptide to ATPÎ³S was performed overnight with a small excess of ATPÎ³S in 1 M ammonium acetate (pH 6.5). The substrate analogs were purified by gel filtration, dried, and stored at â80 Â°C. The structure of the compounds was verified by electrospray ionization mass spectrometry.
+</p>
+      </sec>
+      <sec id="s3c">
+        <title>Crystallography and refinement of Abl.</title>
+        <p>The substrate analogs were dissolved in buffer (100 mM Tris-HCl [pH 8.0] and 10 mM MgCl
+<sub>2</sub>) and added to the purified kinase domain of wild-type or H396P Abl in gel filtration buffer (50 mM Tris-HCl, 100 mM NaCl, 10% glycerol, 0.5 mM DTT). Crystals were grown in hanging drops with 10 mg/ml Abl kinase and 1 mM inhibitor. The crystals were cryoprotected in well solution plus 30% glycerol and frozen in liquid nitrogen. Diffraction data were collected at beamlines 8.2.2 and 12.3.1 of the Advanced Light Source.
+</p>
+        <p>Data were processed using Denzo and Scalepack [
+<xref rid="pbio-0040144-b059" ref-type="bibr">59</xref>] and molecular replacement was performed using the Phaser program [
+<xref rid="pbio-0040144-b060" ref-type="bibr">60</xref>] of the ccp4 suite. Refinement of molecular replacement solutions was performed using CNS [
+<xref rid="pbio-0040144-b061" ref-type="bibr">61</xref>], and atomic models were built with the program O [
+<xref rid="pbio-0040144-b062" ref-type="bibr">62</xref>].
+</p>
+        <p>The crystals of the wild-type protein (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, structure 1) grew in 0.2 M sodium acetate, 100 mM sodium cacodylate (pH 6.5), and 25% PEG 8,000 in space group P2
+<sub>1</sub> but had all unit cell angles equal to 90Â° (a = 62.6 Ã, b = 78.4 Ã, c = 141.6 Ã). Given the orthorhombic unit cell and the monoclinic space group, diffraction data were susceptible to partial merohedral twinning. By screening X-ray data from many crystals we obtained a dataset to 1.8 Ã resolution with negligible twinning. Refinement of the molecular model, obtained by molecular replacement using the Abl:PD173955 complex (PDB code 1M52), against these data produced satisfactory statistics (R-value of 21.9% and R
+<sub>free</sub> = 24.4%), and deconvolution of twinned intensities during refinement was deemed unnecessary. The crystals contain four essentially identical molecules in the asymmetric unit (molecule B is a representative structure).
+</p>
+        <p>Crystals of the H396P mutant form of Abl in complex with substrate analog 1 (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, structure 2) grew in 2 M sodium malonate in space group P4
+<sub>1</sub>2
+<sub>1</sub>2 (a = 88.5 Ã, b = 88.5 Ã, c = 235.6 Ã) but diffracted X-rays weakly. A molecular replacement solution was obtained with the Abl:PD173955 complex (PDB code 1M52) from which the activation loop had been deleted. Refinement of the model using group B factors to 3.1 Ã resolution yielded interpretable electron density maps that clearly showed the presence of the inhibitor and the conformation of the activation loop. Some limited building was performed to fix regions of the structure clearly affected by the presence of the drug in the molecular replacement search model. The structure was refined to an R-value of 24.9% (R
+<sub>free</sub> = 30.8%). The structure is very similar to the structure of Abl H396P bound to the small molecule inhibitor VX-680 [
+<xref rid="pbio-0040144-b027" ref-type="bibr">27</xref>].
+</p>
+        <p>Crystals of the kinase domain of Abl H396P in complex with bisubstrate inhibitor 2 (
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, structure 3) were obtained in 0.1 M Bis-Tris (pH 5.5) and 25% PEG 3350 in space group P2
+<sub>1</sub>2
+<sub>1</sub>2 (a = 105.7 Ã, b = 133.3 Ã, c = 56.6 Ã) and diffracted X-rays to 2.7 Ã. The structure was solved by molecular replacement, as above, and refined to an R-value of 23.2% (R
+<sub>free</sub> = 28.6%). The same crystal form (P2
+<sub>1</sub>2
+<sub>1</sub>2, a = 104.4 Ã, b = 131.5 Ã, c = 56.5 Ã) was also obtained by cocrystallizing the kinase domain of Abl H396P with PD166326 (in 100% DMSO). These crystals grew in 0.1M citric acid (pH 3.5) and 25% PEG 3350. The crystals diffracted to higher resolution (2.0 Ã), and the structure was refined to an R-value of 19.3% (R
+<sub>free</sub> = 21.3%;
+<xref ref-type="table" rid="pbio-0040144-t001">Table 1</xref>, structure 4). The two models were refined independently but are almost identical. Significant differences are localized to the P-loop, the conformation of which depends on which ligand is bound to the kinase. These two P-loop conformations are the same as those previously visualized for complexes of Abl with PD166326 and for the structures of nucleotide complexes of protein kinases.
+</p>
+      </sec>
+      <sec id="s3d">
+        <title>Molecular dynamics.</title>
+        <p>Molecular dynamics trajectories were calculated using either the high-resolution structure of active, unphosphorylated Abl kinase domain [
+<xref rid="pbio-0040144-b027" ref-type="bibr">27</xref>], after the H396P mutation was mutated back to His, using the program O, or Src-like inactive Abl kinase domain (molecule B), as the starting points and the imatinib-bound structure, molecule A [
+<xref rid="pbio-0040144-b009" ref-type="bibr">9</xref>], as the target. All molecular dynamics simulations were performed with the TIP3P explicit water model [
+<xref rid="pbio-0040144-b063" ref-type="bibr">63</xref>] and with K
+<sup>+</sup> counterions. The initial structures were immersed in a truncated octahedral cell of water molecules and counterions were added using the LEAP module of AMBER, version 7, with the parm96 force field [
+<xref rid="pbio-0040144-b064" ref-type="bibr">64</xref>â
+<xref rid="pbio-0040144-b066" ref-type="bibr">66</xref>]. The water extended at least 8 Ã past the surface of the protein molecule. The SANDER module of AMBER was used to calculate the trajectories at constant temperature and pressure, SHAKE was used to constrain bonds to hydrogen [
+<xref rid="pbio-0040144-b067" ref-type="bibr">67</xref>], and the particle mesh Ewald summation method was used to calculate electrostatic interactions [
+<xref rid="pbio-0040144-b068" ref-type="bibr">68</xref>]. The system was initially equilibrated for 150 ps, and positional restraints were applied for the first 50 ps as described earlier [
+<xref rid="pbio-0040144-b069" ref-type="bibr">69</xref>]. In order to generate independent trajectories, different random-number seeds were used for the initial assignment of velocities, and this resulted in equilibrated structures with r.m.s. deviations of at least 1 Ã from each other for all C
+<sub>Î±</sub> atoms. Targeted molecular dynamics trajectories were calculated using SANDER [
+<xref rid="pbio-0040144-b070" ref-type="bibr">70</xref>]. D
+<sub>T</sub> (see
+<xref ref-type="disp-formula" rid="pbio-0040144-e001">Equation 1</xref> in the main text) was decremented continuously throughout the simulations, starting at the difference between the two crystal structures and ending at zero.
+</p>
+        <p>Eighty-six trajectories were calculated using different force constants ranging from 0.01 kcal mol
+<sup>â1</sup> Ã
+<sup>â2</sup> to 100 kcal mol
+<sup>â1</sup> Ã
+<sup>â2</sup>. The trajectories spanned 200â225 ps when starting from the Src-like inactive structure and 200 ps when starting from the active structure, since the active structure was closer to the target in terms of r.m.s. deviation. Ten approximately 1-ns and two approximately 4-ns trajectories were also calculated. The entire protein was driven toward the target in some trajectories, whereas in some the restraint comprised the 25 residues in the activation loop. In most trajectories only 4â5 residues in the vicinity of the DFG motif were restrained. CHARMM was used to analyze the data [
+<xref rid="pbio-0040144-b071" ref-type="bibr">71</xref>]. In the simulations involving restraints on the whole kinase domain or the entire activation loop, the restraint set was used for the alignment of the simulation structure on the target structure. The alignment needed to be modified for the simulations involving only five or four residues, so as to provide a frame of reference for the DFG flip. In these simulations, the ten residues N-terminal to the DFG motif were also included in the alignments but not in the restraint potential. Equilibrium molecular dynamics simulations were set up as described above except that no targeting force was applied. These were used for comparison with the targeted molecular dynamics simulations and lasted at least 5 ns.
+</p>
+      </sec>
+    </sec>
+    <sec sec-type="supplementary-material" id="s4">
+      <title>Supporting Information</title>
+      <supplementary-material content-type="local-data" id="sd001">
+        <label>Dataset S1</label>
+        <caption>
+          <title>Targeted Molecular Dynamics Trajectory following Transition 1 in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D
+</title>
+          <p>This dataset includes coordinates of all the atoms in the simulation sampled every several picoseconds and an example script for viewing the trajectory using PyMOL.</p>
+          <p>(16.5 MB ZIP)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sd001.zip">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="sd002">
+        <label>Dataset S2</label>
+        <caption>
+          <title>Targeted Molecular Dynamics Trajectory following Transition 2 in
+<xref ref-type="fig" rid="pbio-0040144-g001">Figure 1</xref>D
+</title>
+          <p>This dataset includes coordinates of all the atoms in the simulation sampled every several picoseconds and an example script for viewing the trajectory using PyMOL.</p>
+          <p>(14.4 MB ZIP)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sd002.zip">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="sg001">
+        <label>Figure S1</label>
+        <caption>
+          <title>Sequence-Specific Interactions between the ATPâPeptide Conjugates and the Kinase Domain of Abl</title>
+          <p>(A) The structure of the peptideâATP conjugates. (B) Interactions between the ATPâpeptide conjugate with the optimal peptide sequence and Abl molecule E. (C) Interactions between the ATPâpeptide conjugate with the suboptimal peptide sequence and Abl molecule B.</p>
+          <p>(7.6 MB PDF)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sg001.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="sg002">
+        <label>Figure S2</label>
+        <caption>
+          <title>Choice of Restraint Set and Force Constant for TMD</title>
+          <p>(A) When only the residues
+<sup>379</sup>VADF
+<sup>382</sup> are restrained, the deviation in the N-lobe is minimal. Gray: molecule B, starting structure; Yellow-orange: simulation final structure.
+</p>
+          <p>(B) Restraint force (pN), and r.m.s. distance of the restraint from the target (Ã), plotted versus time (picoseconds) for two low-force constant (K = 0.15 kcal mol
+<sup>â1</sup> Ã
+<sup>â2</sup>) simulations starting with the active structure.
+</p>
+          <p>(2 MB PDF)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sg002.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="sg003">
+        <label>Figure S3</label>
+        <caption>
+          <title>Targeted Molecular Dynamics Simulations Propose a Path for DFG Flipping</title>
+          <p>(A) Coordination of Asp 381 during the DFG flip, starting from the Src-like inactive structure (molecule B) and following transition path B in backbone torsion angle space. The coordination of Asp 381 is almost identical for transition path A, except that the carbonyl of Asp 381 flips in the other direction.</p>
+          <p>(B) The side chain of Phe 382 passing through a hydrophobic pocket in the Src-like molecule for transition path B.</p>
+          <p>(C) The paths of Asp 381 and Phe 382 in backbone torsion angle space for two trajectories.</p>
+          <p>(17 MB PDF)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sg003.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="sg004">
+        <label>Figure S4</label>
+        <caption>
+          <title>Molecule B Helps Explain Mutations in the Kinase Domain of Abl That Confer Resistance to Imatinib</title>
+          <p>For two of these mutations we have shown the surface for all atoms within 6 Ã of the mutated residue in the context of different structures. The active structure is shown in pink, the Abl:imatinib complex in green, and the Src-like structure (molecule B) in yellow-orange. (A) Phe 359. (B) Tyr 253.</p>
+          <p>(7.7 MB PDF)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sg004.pdf">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="sd003">
+        <label>Protocol S1</label>
+        <caption>
+          <title>Basis for the Specificity of the Kinase Domain of Abl for Peptide Substrates</title>
+          <p>(49 KB DOC)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.sd003.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="st001">
+        <label>Table S1</label>
+        <caption>
+          <title>Crystallographic Data and Refinement</title>
+          <p>(40 KB DOC)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.st001.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+      <supplementary-material content-type="local-data" id="st002">
+        <label>Table S2</label>
+        <caption>
+          <title>Hydrogen Bond Distances between Key Residues</title>
+          <p>(26 KB DOC)</p>
+        </caption>
+        <media xlink:href="pbio.0040144.st002.doc">
+          <caption>
+            <p>Click here for additional data file.</p>
+          </caption>
+        </media>
+      </supplementary-material>
+    </sec>
+  </body>
+  <back>
+    <ack>
+      <p>We thank Greg Bowman, Andrei Golosov, Marsha Henderson, Peter Kuchment, Bhushan Nagar, Patricia Pellicena, Oren Rosenberg, Markus Seeliger, and Martin Spichty for helpful discussions. We thank Susan Taylor and Stephen Harrison for insightful comments, and Susan Taylor for pointing out the importance of the Glu 310-Arg 385 interactions in the 1997 Src/Hck structures. We thank David King for mass spectrometry analysis of protein samples. We thank Bayard Clarkson, Darren Veach, and William Bornmann (Sloan Kettering Institute, New York), for providing PD166326, and Ron Levy (Rutgers University) for the Ramachandran diagram free energy surface. The use of the supercomputing facilities at National Energy Research Scientific Computing Center was helpful for running the molecular dynamics simulations. The molecular graphics program PyMOL was instrumental in creating our figures [
+<xref rid="pbio-0040144-b072" ref-type="bibr">72</xref>].
+</p>
+      <p>
+<bold>Competing interests.</bold> The authors have declared that no competing interests exist.
+</p>
+    </ack>
+    <fn-group>
+      <fn id="n1" fn-type="con">
+        <p>
+<bold>Author contributions.</bold> N. Levinson, O. Kuchment, K. Shen, M. Young, M. Karplus, P. Cole, and J. Kuriyan conceived and designed the experiments. N. Levinson, O. Kuchment, M. Young, and M. Koldobskiy performed the experiments. N. Levinson, O. Kuchment, M. Young, M. Koldobskiy, and J. Kuriyan analyzed the data. All authors contributed reagents/materials/analysis tools. N. Levinson, O. Kuchment, K. Shen, M. Karplus, P. Cole, and J. Kuriyan wrote the paper.
+</p>
+      </fn>
+    </fn-group>
+    <fn-group>
+      <fn id="n2" fn-type="current-aff">
+        <p>Â¤ Current address: Department of Biological Chemistry and the Bioinformatics Program, University of Michigan Medical School, Ann Arbor, Michigan, United States of America</p>
+      </fn>
+      <fn id="n3" fn-type="other">
+        <p>Citation: Levinson NM, Kuchment O, Shen K, Young MA, Koldobskiy M, et al. (2006) A Src-like inactive conformation in the Abl tyrosine kinase domain. PLoS Biol 4(5): e144. DOI: 10.1371/journal.pbio.0040144</p>
+      </fn>
+      <fn id="n4" fn-type="financial-disclosure">
+        <p>
+<bold>Funding.</bold> Our work was supported in part by a grant from the Leukemia and Lymphoma foundation (J. Kuriyan) and by grants from the National Institutes of Health (K. Shen, M. Karplus, and P. Cole).
+</p>
+      </fn>
+    </fn-group>
+    <ref-list>
+      <title>References</title>
+      <ref id="pbio-0040144-b001">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Huse</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kuriyan</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>The conformational plasticity of protein kinases</article-title>
+          <source>Cell</source>
+          <year>2002</year>
+          <volume>109</volume>
+          <fpage>275</fpage>
+          <lpage>282</lpage>
+          <pub-id pub-id-type="pmid">12015977</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b002">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kannan</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Neuwald</surname>
+              <given-names>AF</given-names>
+            </name>
+          </person-group>
+          <article-title>Did protein kinase regulatory mechanisms evolve through elaboration of a simple structural component?</article-title>
+          <source>J Mol Biol</source>
+          <year>2005</year>
+          <volume>351</volume>
+          <fpage>956</fpage>
+          <lpage>972</lpage>
+          <pub-id pub-id-type="pmid">16051269</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b003">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Druker</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Tamura</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Buchdunger</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Ohno</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Segal</surname>
+              <given-names>GM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Effects of a selective inhibitor of the Abl tyrosine kinase on the growth of Bcr-Abl positive cells</article-title>
+          <source>Nat Med</source>
+          <year>1996</year>
+          <volume>2</volume>
+          <fpage>561</fpage>
+          <lpage>566</lpage>
+          <pub-id pub-id-type="pmid">8616716</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b004">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindler</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Bornmann</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Pellicena</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Miller</surname>
+              <given-names>WT</given-names>
+            </name>
+            <name>
+              <surname>Clarkson</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural mechanism for STI-571 inhibition of abelson tyrosine kinase</article-title>
+          <source>Science</source>
+          <year>2000</year>
+          <volume>289</volume>
+          <fpage>1938</fpage>
+          <lpage>1942</lpage>
+          <pub-id pub-id-type="pmid">10988075</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b005">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Canagarajah</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Boehm</surname>
+              <given-names>JC</given-names>
+            </name>
+            <name>
+              <surname>Kassisa</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Cobb</surname>
+              <given-names>MH</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural basis of inhibitor selectivity in MAP kinases</article-title>
+          <source>Structure</source>
+          <year>1998</year>
+          <volume>6</volume>
+          <fpage>1117</fpage>
+          <lpage>1128</lpage>
+          <pub-id pub-id-type="pmid">9753691</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b006">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hantschel</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Superti-Furga</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Regulation of the c-Abl and Bcr-Abl tyrosine kinases</article-title>
+          <source>Nat Rev Mol Cell Biol</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>33</fpage>
+          <lpage>44</lpage>
+          <pub-id pub-id-type="pmid">14708008</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b007">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Doshi</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Lei</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Eck</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Harrison</surname>
+              <given-names>SC</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structures of c-Src reveal features of its autoinhibitory mechanism</article-title>
+          <source>Mol Cell</source>
+          <year>1999</year>
+          <volume>3</volume>
+          <fpage>629</fpage>
+          <lpage>638</lpage>
+          <pub-id pub-id-type="pmid">10360179</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b008">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schindler</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Sicheri</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Pico</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Gazit</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Levitzki</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crystal structure of Hck in complex with a Src family-selective tyrosine kinase inhibitor</article-title>
+          <source>Mol Cell</source>
+          <year>1999</year>
+          <volume>3</volume>
+          <fpage>639</fpage>
+          <lpage>648</lpage>
+          <pub-id pub-id-type="pmid">10360180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b009">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagar</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Hantschel</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Scheffzek</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Veach</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural basis for the autoinhibition of c-Abl tyrosine kinase</article-title>
+          <source>Cell</source>
+          <year>2003</year>
+          <volume>112</volume>
+          <fpage>859</fpage>
+          <lpage>871</lpage>
+          <pub-id pub-id-type="pmid">12654251</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b010">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hantschel</surname>
+              <given-names>O</given-names>
+            </name>
+            <name>
+              <surname>Nagar</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Guettler</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Kretzschmar</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Dorey</surname>
+              <given-names>K</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A myristoyl/phosphotyrosine switch regulates c-Abl</article-title>
+          <source>Cell</source>
+          <year>2003</year>
+          <volume>112</volume>
+          <fpage>845</fpage>
+          <lpage>857</lpage>
+          <pub-id pub-id-type="pmid">12654250</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b011">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>SR</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structure of the activated insulin receptor tyrosine kinase in complex with peptide substrate and ATP analog</article-title>
+          <source>EMBO J</source>
+          <year>1997</year>
+          <volume>16</volume>
+          <fpage>5572</fpage>
+          <lpage>5581</lpage>
+          <pub-id pub-id-type="pmid">9312016</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b012">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>SR</given-names>
+            </name>
+            <name>
+              <surname>Wei</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Ellis</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Hendrickson</surname>
+              <given-names>WA</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structure of the tyrosine kinase domain of the human insulin receptor</article-title>
+          <source>Nature</source>
+          <year>1994</year>
+          <volume>372</volume>
+          <fpage>746</fpage>
+          <lpage>754</lpage>
+          <pub-id pub-id-type="pmid">7997262</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b013">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mol</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Dougan</surname>
+              <given-names>DR</given-names>
+            </name>
+            <name>
+              <surname>Schneider</surname>
+              <given-names>TR</given-names>
+            </name>
+            <name>
+              <surname>Skene</surname>
+              <given-names>RJ</given-names>
+            </name>
+            <name>
+              <surname>Kraus</surname>
+              <given-names>ML</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structural basis for the autoinhibition and STI-571 inhibition of c-Kit tyrosine kinase</article-title>
+          <source>J Biol Chem</source>
+          <year>2004</year>
+          <volume>279</volume>
+          <fpage>31655</fpage>
+          <lpage>31663</lpage>
+          <pub-id pub-id-type="pmid">15123710</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b014">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Griffith</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Black</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Faerman</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Swenson</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Wynn</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>The structural basis for autoinhibition of FLT3 by the juxtamembrane domain</article-title>
+          <source>Mol Cell</source>
+          <year>2004</year>
+          <volume>13</volume>
+          <fpage>169</fpage>
+          <lpage>178</lpage>
+          <pub-id pub-id-type="pmid">14759363</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b015">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wan</surname>
+              <given-names>PT</given-names>
+            </name>
+            <name>
+              <surname>Garnett</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Roe</surname>
+              <given-names>SM</given-names>
+            </name>
+            <name>
+              <surname>Lee</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Niculescu-Duvaz</surname>
+              <given-names>D</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mechanism of activation of the RAF-ERK signaling pathway by oncogenic mutations of B-RAF</article-title>
+          <source>Cell</source>
+          <year>2004</year>
+          <volume>116</volume>
+          <fpage>855</fpage>
+          <lpage>867</lpage>
+          <pub-id pub-id-type="pmid">15035987</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b016">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pargellis</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Tong</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Churchill</surname>
+              <given-names>L</given-names>
+            </name>
+            <name>
+              <surname>Cirillo</surname>
+              <given-names>PF</given-names>
+            </name>
+            <name>
+              <surname>Gilmore</surname>
+              <given-names>T</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Inhibition of p38 MAP kinase by utilizing a novel allosteric binding site</article-title>
+          <source>Nat Struct Biol</source>
+          <year>2002</year>
+          <volume>9</volume>
+          <fpage>268</fpage>
+          <lpage>272</lpage>
+          <pub-id pub-id-type="pmid">11896401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b017">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Lamers</surname>
+              <given-names>MB</given-names>
+            </name>
+            <name>
+              <surname>Antson</surname>
+              <given-names>AA</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Williams</surname>
+              <given-names>DH</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of the protein tyrosine kinase domain of C-terminal Src kinase (CSK) in complex with staurosporine</article-title>
+          <source>J Mol Biol</source>
+          <year>1999</year>
+          <volume>285</volume>
+          <fpage>713</fpage>
+          <lpage>725</lpage>
+          <pub-id pub-id-type="pmid">9878439</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b018">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cools</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>DeAngelo</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Gotlib</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Stover</surname>
+              <given-names>EH</given-names>
+            </name>
+            <name>
+              <surname>Legare</surname>
+              <given-names>RD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A tyrosine kinase created by fusion of the PDGFRA and FIP1L1 genes as a therapeutic target of imatinib in idiopathic hypereosinophilic syndrome</article-title>
+          <source>N Engl J Med</source>
+          <year>2003</year>
+          <volume>348</volume>
+          <fpage>1201</fpage>
+          <lpage>1214</lpage>
+          <pub-id pub-id-type="pmid">12660384</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b019">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Apperley</surname>
+              <given-names>JF</given-names>
+            </name>
+            <name>
+              <surname>Gardembas</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Melo</surname>
+              <given-names>JV</given-names>
+            </name>
+            <name>
+              <surname>Russell-Jones</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Bain</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Response to imatinib mesylate in patients with chronic myeloproliferative diseases with rearrangements of the platelet-derived growth factor receptor beta</article-title>
+          <source>N Engl J Med</source>
+          <year>2002</year>
+          <volume>347</volume>
+          <fpage>481</fpage>
+          <lpage>487</lpage>
+          <pub-id pub-id-type="pmid">12181402</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b020">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Demetri</surname>
+              <given-names>GD</given-names>
+            </name>
+            <name>
+              <surname>von Mehren</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Blanke</surname>
+              <given-names>CD</given-names>
+            </name>
+            <name>
+              <surname>Van den Abbeele</surname>
+              <given-names>AD</given-names>
+            </name>
+            <name>
+              <surname>Eisenberg</surname>
+              <given-names>B</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Efficacy and safety of imatinib mesylate in advanced gastrointestinal stromal tumors</article-title>
+          <source>N Engl J Med</source>
+          <year>2002</year>
+          <volume>347</volume>
+          <fpage>472</fpage>
+          <lpage>480</lpage>
+          <pub-id pub-id-type="pmid">12181401</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b021">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>De Bondt</surname>
+              <given-names>HL</given-names>
+            </name>
+            <name>
+              <surname>Rosenblatt</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Jancarik</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>HD</given-names>
+            </name>
+            <name>
+              <surname>Morgan</surname>
+              <given-names>DO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crystal structure of cyclin-dependent kinase 2</article-title>
+          <source>Nature</source>
+          <year>1993</year>
+          <volume>363</volume>
+          <fpage>595</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="pmid">8510751</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b022">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wood</surname>
+              <given-names>ER</given-names>
+            </name>
+            <name>
+              <surname>Truesdale</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>McDonald</surname>
+              <given-names>OB</given-names>
+            </name>
+            <name>
+              <surname>Yuan</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Hassell</surname>
+              <given-names>A</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A unique structure for epidermal growth factor receptor bound to GW572016 (Lapatinib): Relationships among protein conformation, inhibitor off-rate, and receptor activity in tumor cells</article-title>
+          <source>Cancer Res</source>
+          <year>2004</year>
+          <volume>64</volume>
+          <fpage>6652</fpage>
+          <lpage>6659</lpage>
+          <pub-id pub-id-type="pmid">15374980</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b023">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Padyana</surname>
+              <given-names>AK</given-names>
+            </name>
+            <name>
+              <surname>Qiu</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Roll-Mecak</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Hinnebusch</surname>
+              <given-names>AG</given-names>
+            </name>
+            <name>
+              <surname>Burley</surname>
+              <given-names>SK</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis for autoinhibition and mutational activation of eukaryotic initiation factor 2alpha protein kinase GCN2</article-title>
+          <source>J Biol Chem</source>
+          <year>2005</year>
+          <volume>280</volume>
+          <fpage>29289</fpage>
+          <lpage>29299</lpage>
+          <pub-id pub-id-type="pmid">15964839</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b024">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Zhao</surname>
+              <given-names>X</given-names>
+            </name>
+            <name>
+              <surname>Ghaffari</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Lodish</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Malashkevich</surname>
+              <given-names>VN</given-names>
+            </name>
+            <name>
+              <surname>Kim</surname>
+              <given-names>PS</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of the Bcr-Abl oncoprotein oligomerization domain</article-title>
+          <source>Nat Struct Biol</source>
+          <year>2002</year>
+          <volume>9</volume>
+          <fpage>117</fpage>
+          <lpage>120</lpage>
+          <pub-id pub-id-type="pmid">11780146</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b025">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parang</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Cole</surname>
+              <given-names>PA</given-names>
+            </name>
+          </person-group>
+          <article-title>Designing bisubstrate analog inhibitors for protein kinases</article-title>
+          <source>Pharmacol Ther</source>
+          <year>2002</year>
+          <volume>93</volume>
+          <fpage>145</fpage>
+          <lpage>157</lpage>
+          <pub-id pub-id-type="pmid">12191607</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b026">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Harrington</surname>
+              <given-names>EA</given-names>
+            </name>
+            <name>
+              <surname>Bebbington</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Moore</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Rasmussen</surname>
+              <given-names>RK</given-names>
+            </name>
+            <name>
+              <surname>Ajose-Adeogun</surname>
+              <given-names>AO</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>VX-680, a potent and selective small-molecule inhibitor of the Aurora kinases, suppresses tumor growth in vivo</article-title>
+          <source>Nat Med</source>
+          <year>2004</year>
+          <volume>10</volume>
+          <fpage>262</fpage>
+          <lpage>267</lpage>
+          <pub-id pub-id-type="pmid">14981513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b027">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Shah</surname>
+              <given-names>NP</given-names>
+            </name>
+            <name>
+              <surname>Chao</surname>
+              <given-names>LH</given-names>
+            </name>
+            <name>
+              <surname>Seeliger</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Milanov</surname>
+              <given-names>ZV</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Structure of the kinase domain of an imatinib-resistant Abl mutant in complex with the Aurora kinase inhibitor VX-680</article-title>
+          <source>Cancer Res</source>
+          <year>2006</year>
+          <volume>66</volume>
+          <fpage>1007</fpage>
+          <lpage>1014</lpage>
+          <pub-id pub-id-type="pmid">16424036</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b028">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nagar</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Bornmann</surname>
+              <given-names>WG</given-names>
+            </name>
+            <name>
+              <surname>Pellicena</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Schindler</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Veach</surname>
+              <given-names>DR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crystal structures of the kinase domain of c-Abl in complex with the small molecule inhibitors PD173955 and imatinib (STI-571)</article-title>
+          <source>Cancer Res</source>
+          <year>2002</year>
+          <volume>62</volume>
+          <fpage>4236</fpage>
+          <lpage>4243</lpage>
+          <pub-id pub-id-type="pmid">12154025</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b029">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wisniewski</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Lambek</surname>
+              <given-names>CL</given-names>
+            </name>
+            <name>
+              <surname>Liu</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Strife</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Veach</surname>
+              <given-names>DR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Characterization of potent inhibitors of the Bcr-Abl and the c-kit receptor tyrosine kinases</article-title>
+          <source>Cancer Res</source>
+          <year>2002</year>
+          <volume>62</volume>
+          <fpage>4244</fpage>
+          <lpage>4255</lpage>
+          <pub-id pub-id-type="pmid">12154026</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b030">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Parang</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Till</surname>
+              <given-names>JH</given-names>
+            </name>
+            <name>
+              <surname>Ablooglu</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Kohanski</surname>
+              <given-names>RA</given-names>
+            </name>
+            <name>
+              <surname>Hubbard</surname>
+              <given-names>SR</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Mechanism-based design of a protein kinase inhibitor</article-title>
+          <source>Nat Struct Biol</source>
+          <year>2001</year>
+          <volume>8</volume>
+          <fpage>37</fpage>
+          <lpage>41</lpage>
+          <pub-id pub-id-type="pmid">11135668</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b031">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wilmot</surname>
+              <given-names>CM</given-names>
+            </name>
+            <name>
+              <surname>Thornton</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Analysis and prediction of the different types of beta-turn in proteins</article-title>
+          <source>J Mol Biol</source>
+          <year>1988</year>
+          <volume>203</volume>
+          <fpage>221</fpage>
+          <lpage>232</lpage>
+          <pub-id pub-id-type="pmid">3184187</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b032">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Chekmarev</surname>
+              <given-names>DS</given-names>
+            </name>
+            <name>
+              <surname>Ishida</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Levy</surname>
+              <given-names>RM</given-names>
+            </name>
+          </person-group>
+          <article-title>Long-time conformational transitions of alanine dipeptide in aqueous solution: Continuous and discrete-state kinetic models</article-title>
+          <source>J Phys Chem B</source>
+          <year>2004</year>
+          <volume>108</volume>
+          <fpage>19487</fpage>
+          <lpage>19495</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b033">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karplus</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kuriyan</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular dynamics and protein function</article-title>
+          <source>Proc Natl Acad Sci U S A</source>
+          <year>2005</year>
+          <volume>102</volume>
+          <fpage>6679</fpage>
+          <lpage>6685</lpage>
+          <pub-id pub-id-type="pmid">15870208</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b034">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Schlitter</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Engels</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Kruger</surname>
+              <given-names>P</given-names>
+            </name>
+          </person-group>
+          <article-title>Targeted molecular dynamics: A new approach for searching pathways of conformational transitions</article-title>
+          <source>J Mol Graph</source>
+          <year>1994</year>
+          <volume>12</volume>
+          <fpage>84</fpage>
+          <lpage>89</lpage>
+          <pub-id pub-id-type="pmid">7918256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b035">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Isralewitz</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Schulten</surname>
+              <given-names>K</given-names>
+            </name>
+          </person-group>
+          <article-title>Steered molecular dynamics and mechanical functions of proteins</article-title>
+          <source>Curr Opin Struct Biol</source>
+          <year>2001</year>
+          <volume>11</volume>
+          <fpage>224</fpage>
+          <lpage>230</lpage>
+          <pub-id pub-id-type="pmid">11297932</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b036">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Torrie</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>Valleau</surname>
+              <given-names>JP</given-names>
+            </name>
+          </person-group>
+          <article-title>Non-physical sampling distributions in Monte-Carlo free-energy estimation: Umbrella sampling</article-title>
+          <source>J Comput Phys</source>
+          <year>1977</year>
+          <volume>23</volume>
+          <fpage>187</fpage>
+          <lpage>199</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b037">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Neria</surname>
+              <given-names>E</given-names>
+            </name>
+            <name>
+              <surname>Fischer</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Karplus</surname>
+              <given-names>M</given-names>
+            </name>
+          </person-group>
+          <article-title>Simulation of activation free energies in molecular systems</article-title>
+          <source>J Chem Phys</source>
+          <year>1996</year>
+          <volume>105</volume>
+          <fpage>1902</fpage>
+          <lpage>1921</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b038">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tobias</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Brooks</surname>
+              <given-names>CL</given-names>
+            </name>
+          </person-group>
+          <article-title>Calculation of free-energy surfaces using the methods of thermodynamic perturbation-theory</article-title>
+          <source>Chem Phys Lett</source>
+          <year>1987</year>
+          <volume>142</volume>
+          <fpage>472</fpage>
+          <lpage>476</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b039">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rees</surname>
+              <given-names>DC</given-names>
+            </name>
+            <name>
+              <surname>Lewis</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Lipscomb</surname>
+              <given-names>WN</given-names>
+            </name>
+          </person-group>
+          <article-title>Refined crystal structure of carboxypeptidase A at 1.54 A resolution</article-title>
+          <source>J Mol Biol</source>
+          <year>1983</year>
+          <volume>168</volume>
+          <fpage>367</fpage>
+          <lpage>387</lpage>
+          <pub-id pub-id-type="pmid">6887246</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b040">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Yamaguchi</surname>
+              <given-names>H</given-names>
+            </name>
+            <name>
+              <surname>Hendrickson</surname>
+              <given-names>WA</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis for activation of human lymphocyte kinase Lck upon tyrosine phosphorylation</article-title>
+          <source>Nature</source>
+          <year>1996</year>
+          <volume>384</volume>
+          <fpage>484</fpage>
+          <lpage>489</lpage>
+          <pub-id pub-id-type="pmid">8945479</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b041">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Burley</surname>
+              <given-names>SK</given-names>
+            </name>
+            <name>
+              <surname>Petsko</surname>
+              <given-names>GA</given-names>
+            </name>
+          </person-group>
+          <article-title>Amino-aromatic interactions in proteins</article-title>
+          <source>FEBS Lett</source>
+          <year>1986</year>
+          <volume>203</volume>
+          <fpage>139</fpage>
+          <lpage>143</lpage>
+          <pub-id pub-id-type="pmid">3089835</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b042">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Watson</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Milner-White</surname>
+              <given-names>EJ</given-names>
+            </name>
+          </person-group>
+          <article-title>A novel main-chain anion-binding site in proteins: The nest: A particular combination of phi, psi values in successive residues gives rise to anion-binding sites that occur commonly and are found often at functionally important regions</article-title>
+          <source>J Mol Biol</source>
+          <year>2002</year>
+          <volume>315</volume>
+          <fpage>171</fpage>
+          <lpage>182</lpage>
+          <pub-id pub-id-type="pmid">11779237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b043">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karlsson</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Zheng</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Xuong</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>SS</given-names>
+            </name>
+            <name>
+              <surname>Sowadski</surname>
+              <given-names>JM</given-names>
+            </name>
+          </person-group>
+          <article-title>Structure of the mammalian catalytic subunit of cAMP-dependent protein kinase and an inhibitor peptide displays an open conformation</article-title>
+          <source>Acta Crystallogr D Biol Crystallogr</source>
+          <year>1993</year>
+          <volume>49</volume>
+          <fpage>381</fpage>
+          <lpage>388</lpage>
+          <pub-id pub-id-type="pmid">15299513</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b044">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sicheri</surname>
+              <given-names>F</given-names>
+            </name>
+            <name>
+              <surname>Moarefi</surname>
+              <given-names>I</given-names>
+            </name>
+            <name>
+              <surname>Kuriyan</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Crystal structure of the Src family tyrosine kinase Hck</article-title>
+          <source>Nature</source>
+          <year>1997</year>
+          <volume>385</volume>
+          <fpage>602</fpage>
+          <lpage>609</lpage>
+          <pub-id pub-id-type="pmid">9024658</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b045">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>W</given-names>
+            </name>
+            <name>
+              <surname>Harrison</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Eck</surname>
+              <given-names>MJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Three-dimensional structure of the tyrosine kinase c-Src</article-title>
+          <source>Nature</source>
+          <year>1997</year>
+          <volume>385</volume>
+          <fpage>595</fpage>
+          <lpage>602</lpage>
+          <pub-id pub-id-type="pmid">9024657</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b046">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gorre</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Mohammed</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Ellwood</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hsu</surname>
+              <given-names>N</given-names>
+            </name>
+            <name>
+              <surname>Paquette</surname>
+              <given-names>R</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Clinical resistance to STI-571 cancer therapy caused by BCR-ABL gene mutation or amplification</article-title>
+          <source>Science</source>
+          <year>2001</year>
+          <volume>293</volume>
+          <fpage>876</fpage>
+          <lpage>880</lpage>
+          <pub-id pub-id-type="pmid">11423618</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b047">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Shah</surname>
+              <given-names>NP</given-names>
+            </name>
+            <name>
+              <surname>Nicoll</surname>
+              <given-names>JM</given-names>
+            </name>
+            <name>
+              <surname>Nagar</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Gorre</surname>
+              <given-names>ME</given-names>
+            </name>
+            <name>
+              <surname>Paquette</surname>
+              <given-names>RL</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Multiple BCR-ABL kinase domain mutations confer polyclonal resistance to the tyrosine kinase inhibitor imatinib (STI571) in chronic phase and blast crisis chronic myeloid leukemia</article-title>
+          <source>Cancer Cell</source>
+          <year>2002</year>
+          <volume>2</volume>
+          <fpage>117</fpage>
+          <lpage>125</lpage>
+          <pub-id pub-id-type="pmid">12204532</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b048">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Azam</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Latek</surname>
+              <given-names>RR</given-names>
+            </name>
+            <name>
+              <surname>Daley</surname>
+              <given-names>GQ</given-names>
+            </name>
+          </person-group>
+          <article-title>Mechanisms of autoinhibition and STI-571/imatinib resistance revealed by mutagenesis of BCR-ABL</article-title>
+          <source>Cell</source>
+          <year>2003</year>
+          <volume>112</volume>
+          <fpage>831</fpage>
+          <lpage>843</lpage>
+          <pub-id pub-id-type="pmid">12654249</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b049">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Al-Ali</surname>
+              <given-names>HK</given-names>
+            </name>
+            <name>
+              <surname>Heinrich</surname>
+              <given-names>MC</given-names>
+            </name>
+            <name>
+              <surname>Lange</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Krahl</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Mueller</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High incidence of BCR-ABL kinase domain mutations and absence of mutations of the PDGFR and KIT activation loops in CML patients with secondary resistance to imatinib</article-title>
+          <source>Hematol J</source>
+          <year>2004</year>
+          <volume>5</volume>
+          <fpage>55</fpage>
+          <lpage>60</lpage>
+          <pub-id pub-id-type="pmid">14745431</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b050">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gonfloni</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Weijland</surname>
+              <given-names>A</given-names>
+            </name>
+            <name>
+              <surname>Kretzschmar</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Superti-Furga</surname>
+              <given-names>G</given-names>
+            </name>
+          </person-group>
+          <article-title>Crosstalk between the catalytic and regulatory domains allows bidirectional regulation of Src</article-title>
+          <source>Nat Struct Biol</source>
+          <year>2000</year>
+          <volume>7</volume>
+          <fpage>281</fpage>
+          <lpage>286</lpage>
+          <pub-id pub-id-type="pmid">10742171</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b051">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Miething</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Mugler</surname>
+              <given-names>C</given-names>
+            </name>
+            <name>
+              <surname>Grundler</surname>
+              <given-names>R</given-names>
+            </name>
+            <name>
+              <surname>Hoepfl</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Bai</surname>
+              <given-names>RY</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Phosphorylation of tyrosine 393 in the kinase domain of Bcr-Abl influences the sensitivity towards imatinib in vivo</article-title>
+          <source>Leukemia</source>
+          <year>2003</year>
+          <volume>17</volume>
+          <fpage>1695</fpage>
+          <lpage>1699</lpage>
+          <pub-id pub-id-type="pmid">12970766</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b052">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>O'Hare</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>Druker</surname>
+              <given-names>BJ</given-names>
+            </name>
+          </person-group>
+          <article-title>BIRB-796 is not an effective ABL(T315I) inhibitor</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2005</year>
+          <volume>23</volume>
+          <fpage>1209</fpage>
+          <lpage>1210</lpage>
+          <pub-id pub-id-type="pmid">16211050</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b053">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Fabian</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Biggs</surname>
+              <given-names>WH</given-names>
+            </name>
+            <name>
+              <surname>Treiber</surname>
+              <given-names>DK</given-names>
+            </name>
+            <name>
+              <surname>Atteridge</surname>
+              <given-names>CE</given-names>
+            </name>
+            <name>
+              <surname>Azimioara</surname>
+              <given-names>MD</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A small molecule-kinase interaction map for clinical kinase inhibitors</article-title>
+          <source>Nat Biotechnol</source>
+          <year>2005</year>
+          <volume>23</volume>
+          <fpage>329</fpage>
+          <lpage>336</lpage>
+          <pub-id pub-id-type="pmid">15711537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b054">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Corbin</surname>
+              <given-names>AS</given-names>
+            </name>
+            <name>
+              <surname>La Rosee</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Stoffregen</surname>
+              <given-names>EP</given-names>
+            </name>
+            <name>
+              <surname>Druker</surname>
+              <given-names>BJ</given-names>
+            </name>
+            <name>
+              <surname>Deininger</surname>
+              <given-names>MW</given-names>
+            </name>
+          </person-group>
+          <article-title>Several Bcr-Abl kinase domain mutants associated with imatinib mesylate resistance remain sensitive to imatinib</article-title>
+          <source>Blood</source>
+          <year>2003</year>
+          <volume>101</volume>
+          <fpage>4611</fpage>
+          <lpage>4614</lpage>
+          <pub-id pub-id-type="pmid">12576318</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b055">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sullivan</surname>
+              <given-names>JE</given-names>
+            </name>
+            <name>
+              <surname>Holdgate</surname>
+              <given-names>GA</given-names>
+            </name>
+            <name>
+              <surname>Campbell</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Timms</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Gerhardt</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Prevention of MKK6-dependent activation by binding to p38alpha MAP kinase</article-title>
+          <source>Biochemistry</source>
+          <year>2005</year>
+          <volume>44</volume>
+          <fpage>16475</fpage>
+          <lpage>16490</lpage>
+          <pub-id pub-id-type="pmid">16342939</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b056">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Vogtherr</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Saxena</surname>
+              <given-names>K</given-names>
+            </name>
+            <name>
+              <surname>Hoelder</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Grimme</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Betz</surname>
+              <given-names>M</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>NMR characterization of kinase p38 dynamics in free and ligand-bound forms</article-title>
+          <source>Angew Chem Int Ed Engl</source>
+          <year>2005</year>
+          <volume>45</volume>
+          <fpage>993</fpage>
+          <lpage>997</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b057">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Seeliger</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Young</surname>
+              <given-names>M</given-names>
+            </name>
+            <name>
+              <surname>Henderson</surname>
+              <given-names>MN</given-names>
+            </name>
+            <name>
+              <surname>Pellicena</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>King</surname>
+              <given-names>DS</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>High yield bacterial expression of active c-Abl and c-Src tyrosine kinases</article-title>
+          <source>Protein Sci</source>
+          <year>2005</year>
+          <volume>14</volume>
+          <fpage>3135</fpage>
+          <lpage>3139</lpage>
+          <pub-id pub-id-type="pmid">16260764</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b058">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Songyang</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Carraway</surname>
+              <given-names>KL</given-names>
+            </name>
+            <name>
+              <surname>Eck</surname>
+              <given-names>MJ</given-names>
+            </name>
+            <name>
+              <surname>Harrison</surname>
+              <given-names>SC</given-names>
+            </name>
+            <name>
+              <surname>Feldman</surname>
+              <given-names>RA</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Catalytic specificity of protein-tyrosine kinases is critical for selective signalling</article-title>
+          <source>Nature</source>
+          <year>1995</year>
+          <volume>373</volume>
+          <fpage>536</fpage>
+          <lpage>539</lpage>
+          <pub-id pub-id-type="pmid">7845468</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b059">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Otwinowski</surname>
+              <given-names>Z</given-names>
+            </name>
+            <name>
+              <surname>Minor</surname>
+              <given-names>W</given-names>
+            </name>
+          </person-group>
+          <article-title>Processing of X-ray diffraction data collected in oscillation mode</article-title>
+          <source>Macromol Crystallogr A</source>
+          <year>1997</year>
+          <volume>276</volume>
+          <fpage>307</fpage>
+          <lpage>326</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b060">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCoy</surname>
+              <given-names>AJ</given-names>
+            </name>
+            <name>
+              <surname>Grosse-Kunstleve</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Storoni</surname>
+              <given-names>LC</given-names>
+            </name>
+            <name>
+              <surname>Read</surname>
+              <given-names>RJ</given-names>
+            </name>
+          </person-group>
+          <article-title>Likelihood-enhanced fast translation functions</article-title>
+          <source>Acta Crystallogr D Biol Crystallogr</source>
+          <year>2005</year>
+          <volume>61</volume>
+          <fpage>458</fpage>
+          <lpage>464</lpage>
+          <pub-id pub-id-type="pmid">15805601</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b061">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brunger</surname>
+              <given-names>AT</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>PD</given-names>
+            </name>
+            <name>
+              <surname>Clore</surname>
+              <given-names>GM</given-names>
+            </name>
+            <name>
+              <surname>DeLano</surname>
+              <given-names>WL</given-names>
+            </name>
+            <name>
+              <surname>Gros</surname>
+              <given-names>P</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Crystallography &amp; NMR system: A new software suite for macromolecular structure determination</article-title>
+          <source>Acta Crystallogr D Biol Crystallogr</source>
+          <year>1998</year>
+          <volume>54</volume>
+          <fpage>905</fpage>
+          <lpage>921</lpage>
+          <pub-id pub-id-type="pmid">9757107</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b062">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kleywegt</surname>
+              <given-names>GJ</given-names>
+            </name>
+            <name>
+              <surname>Jones</surname>
+              <given-names>TA</given-names>
+            </name>
+          </person-group>
+          <article-title>Efficient rebuilding of protein structures</article-title>
+          <source>Acta Crystallogr D Biol Crystallogr</source>
+          <year>1996</year>
+          <volume>52</volume>
+          <fpage>829</fpage>
+          <lpage>832</lpage>
+          <pub-id pub-id-type="pmid">15299648</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b063">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Jorgensen</surname>
+              <given-names>WL</given-names>
+            </name>
+            <name>
+              <surname>Chandrasekhar</surname>
+              <given-names>J</given-names>
+            </name>
+            <name>
+              <surname>Madura</surname>
+              <given-names>JD</given-names>
+            </name>
+            <name>
+              <surname>Impey</surname>
+              <given-names>RW</given-names>
+            </name>
+            <name>
+              <surname>Klein</surname>
+              <given-names>ML</given-names>
+            </name>
+          </person-group>
+          <article-title>Comparison of simple potential functions for simulating liquid water</article-title>
+          <source>J Chem Phys</source>
+          <year>1983</year>
+          <volume>79</volume>
+          <fpage>926</fpage>
+          <lpage>935</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b064">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cornell</surname>
+              <given-names>WD</given-names>
+            </name>
+            <name>
+              <surname>Cieplak</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bayly</surname>
+              <given-names>CI</given-names>
+            </name>
+            <name>
+              <surname>Gould</surname>
+              <given-names>IR</given-names>
+            </name>
+            <name>
+              <surname>Merz</surname>
+              <given-names>KM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A 2nd generation force-field for the simulation of proteins, nucleic-acids, and organic-molecules</article-title>
+          <source>J Am Chem Soc</source>
+          <year>1995</year>
+          <volume>117</volume>
+          <fpage>5179</fpage>
+          <lpage>5197</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b065">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pearlman</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Case</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Caldwell</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Ross</surname>
+              <given-names>WS</given-names>
+            </name>
+            <name>
+              <surname>Cheatham</surname>
+              <given-names>TE</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Amber, a package of computer-programs for applying molecular mechanics, normal-mode analysis, molecular-dynamics and free-energy calculations to simulate the structural and energetic properties of molecules</article-title>
+          <source>Comput Phys Commun</source>
+          <year>1995</year>
+          <volume>91</volume>
+          <fpage>1</fpage>
+          <lpage>41</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b066">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Cornell</surname>
+              <given-names>WD</given-names>
+            </name>
+            <name>
+              <surname>Cieplak</surname>
+              <given-names>P</given-names>
+            </name>
+            <name>
+              <surname>Bayly</surname>
+              <given-names>CI</given-names>
+            </name>
+            <name>
+              <surname>Gould</surname>
+              <given-names>IR</given-names>
+            </name>
+            <name>
+              <surname>Merz</surname>
+              <given-names>KM</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>A second generation force field for the simulation of proteins, nucleic acids, and organic molecules (Addition/correction for 117: 5179)</article-title>
+          <source>J Am Chem Soc</source>
+          <year>1996</year>
+          <volume>118</volume>
+          <fpage>2309</fpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b067">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ryckaert</surname>
+              <given-names>JP</given-names>
+            </name>
+            <name>
+              <surname>Ciccotti</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Berendsen</surname>
+              <given-names>HJC</given-names>
+            </name>
+          </person-group>
+          <article-title>Numerical-integration of Cartesian equations of motion of a system with constraints: Molecular-dynamics of N-alkanes</article-title>
+          <source>J Comput Phys</source>
+          <year>1977</year>
+          <volume>23</volume>
+          <fpage>327</fpage>
+          <lpage>341</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b068">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Darden</surname>
+              <given-names>T</given-names>
+            </name>
+            <name>
+              <surname>York</surname>
+              <given-names>D</given-names>
+            </name>
+            <name>
+              <surname>Pedersen</surname>
+              <given-names>L</given-names>
+            </name>
+          </person-group>
+          <article-title>Particle mesh Ewald: An N.Log(N) method for Ewald sums in large systems</article-title>
+          <source>J Chem Phys</source>
+          <year>1993</year>
+          <volume>98</volume>
+          <fpage>10089</fpage>
+          <lpage>10092</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b069">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Young</surname>
+              <given-names>MA</given-names>
+            </name>
+            <name>
+              <surname>Gonfloni</surname>
+              <given-names>S</given-names>
+            </name>
+            <name>
+              <surname>Superti-Furga</surname>
+              <given-names>G</given-names>
+            </name>
+            <name>
+              <surname>Roux</surname>
+              <given-names>B</given-names>
+            </name>
+            <name>
+              <surname>Kuriyan</surname>
+              <given-names>J</given-names>
+            </name>
+          </person-group>
+          <article-title>Dynamic coupling between the SH2 and SH3 domains of c-Src and Hck underlies their inactivation by C-terminal tyrosine phosphorylation</article-title>
+          <source>Cell</source>
+          <year>2001</year>
+          <volume>105</volume>
+          <fpage>115</fpage>
+          <lpage>126</lpage>
+          <pub-id pub-id-type="pmid">11301007</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b070">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Case</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Pearlman</surname>
+              <given-names>DA</given-names>
+            </name>
+            <name>
+              <surname>Caldwell</surname>
+              <given-names>JW</given-names>
+            </name>
+            <name>
+              <surname>Cheatham</surname>
+              <given-names>TEI</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>J</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <source>AMBER 7 [computer program]</source>
+          <year>2002</year>
+          <publisher-loc>San Francisco</publisher-loc>
+          <publisher-name>University of California, San Francisco</publisher-name>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b071">
+        <element-citation publication-type="journal">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Brooks</surname>
+              <given-names>BR</given-names>
+            </name>
+            <name>
+              <surname>Bruccoleri</surname>
+              <given-names>RE</given-names>
+            </name>
+            <name>
+              <surname>Olafson</surname>
+              <given-names>BD</given-names>
+            </name>
+            <name>
+              <surname>States</surname>
+              <given-names>DJ</given-names>
+            </name>
+            <name>
+              <surname>Swaminathan</surname>
+              <given-names>S</given-names>
+            </name>
+            <etal/>
+          </person-group>
+          <article-title>Charmm: A program for macromolecular energy, minimization, and dynamics calculations</article-title>
+          <source>J Comput Chem</source>
+          <year>1983</year>
+          <volume>4</volume>
+          <fpage>187</fpage>
+          <lpage>217</lpage>
+        </element-citation>
+      </ref>
+      <ref id="pbio-0040144-b072">
+        <element-citation publication-type="book">
+          <person-group person-group-type="author">
+            <name>
+              <surname>DeLano</surname>
+              <given-names>WL</given-names>
+            </name>
+          </person-group>
+          <source>The PyMOL molecular graphics system [computer program]</source>
+          <year>2002</year>
+          <publisher-loc>San Carlos (California)</publisher-loc>
+          <publisher-name>DeLano Scientific</publisher-name>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <glossary>
+      <title>Abbreviations</title>
+      <def-list>
+        <def-item>
+          <term>C-lobe</term>
+          <def>
+            <p>C-terminal lobe</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>DFG</term>
+          <def>
+            <p>Asp-Phe-Gly</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>HRD</term>
+          <def>
+            <p>His-Arg-Asp</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>H396P</term>
+          <def>
+            <p>His 396 Pro</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>N-lobe</term>
+          <def>
+            <p>N-terminal lobe</p>
+          </def>
+        </def-item>
+        <def-item>
+          <term>r.m.s.</term>
+          <def>
+            <p>root mean square</p>
+          </def>
+        </def-item>
+      </def-list>
+    </glossary>
+  </back>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>

@@ -1,0 +1,2748 @@
+<?xml version="1.0" encoding="UTF-8"?><OAI-PMH
+	xmlns="http://www.openarchives.org/OAI/2.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.openarchives.org/OAI/2.0/ http://www.openarchives.org/OAI/2.0/OAI-PMH.xsd"><responseDate>2019-03-02T19:48:59Z</responseDate><request verb="GetRecord" identifier="oai:pubmedcentral.nih.gov:3690481" metadataPrefix="pmc">https:/www.ncbi.nlm.nih.gov/pmc/oai/oai.cgi</request><GetRecord><record><header><identifier>oai:pubmedcentral.nih.gov:3690481</identifier><datestamp>2013-06-24</datestamp><setSpec>elsevierwt</setSpec><setSpec>pmc-open</setSpec></header><metadata><article xmlns="https://jats.nlm.nih.gov/ns/archiving/1.0/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="https://jats.nlm.nih.gov/ns/archiving/1.0/ https://jats.nlm.nih.gov/archiving/1.0/xsd/JATS-archivearticle1.xsd" article-type="research-article">
+  <front>
+    <journal-meta>
+      <journal-id journal-id-type="nlm-ta">Cell</journal-id>
+      <journal-id journal-id-type="iso-abbrev">Cell</journal-id>
+      <journal-title-group>
+        <journal-title>Cell</journal-title>
+      </journal-title-group>
+      <issn pub-type="ppub">0092-8674</issn>
+      <issn pub-type="epub">1097-4172</issn>
+      <publisher>
+        <publisher-name>Cell Press</publisher-name>
+      </publisher>
+    </journal-meta>
+    <article-meta>
+      <article-id pub-id-type="accession">PMC3690481</article-id>
+      <article-id pub-id-type="pmcid">PMC3690481</article-id>
+      <article-id pub-id-type="pmc-uid">3690481</article-id>
+      <article-id pub-id-type="pmid">23746843</article-id>
+      <article-id pub-id-type="publisher-id">CELL6902</article-id>
+      <article-id pub-id-type="doi">10.1016/j.cell.2013.05.014</article-id>
+      <article-categories>
+        <subj-group subj-group-type="heading">
+          <subject>Article</subject>
+        </subj-group>
+      </article-categories>
+      <title-group>
+        <article-title>OTULIN Antagonizes LUBAC Signaling by Specifically Hydrolyzing Met1-Linked Polyubiquitin</article-title>
+      </title-group>
+      <contrib-group>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Keusekotten</surname>
+            <given-names>Kirstin</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Elliott</surname>
+            <given-names>PaulÂ Ronald</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="fn1" ref-type="fn">5</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Glockner</surname>
+            <given-names>Laura</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Fiil</surname>
+            <given-names>BertheÂ Katrine</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Damgaard</surname>
+            <given-names>RuneÂ Busk</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Kulathu</surname>
+            <given-names>Yogesh</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Wauer</surname>
+            <given-names>Tobias</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hospenthal</surname>
+            <given-names>ManuelaÂ Kathrin</given-names>
+          </name>
+          <xref rid="aff1" ref-type="aff">1</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Gyrd-Hansen</surname>
+            <given-names>Mads</given-names>
+          </name>
+          <xref rid="aff3" ref-type="aff">3</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Krappmann</surname>
+            <given-names>Daniel</given-names>
+          </name>
+          <xref rid="aff2" ref-type="aff">2</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Hofmann</surname>
+            <given-names>Kay</given-names>
+          </name>
+          <xref rid="aff4" ref-type="aff">4</xref>
+        </contrib>
+        <contrib contrib-type="author">
+          <name>
+            <surname>Komander</surname>
+            <given-names>David</given-names>
+          </name>
+          <email>dk@mrc-lmb.cam.ac.uk</email>
+          <xref rid="aff1" ref-type="aff">1</xref>
+          <xref rid="cor1" ref-type="corresp">*</xref>
+        </contrib>
+      </contrib-group>
+      <aff id="aff1"><label>1</label>Medical Research Council Laboratory of Molecular Biology, Francis Crick Avenue, Cambridge, CB2 0QH, UK</aff>
+      <aff id="aff2"><label>2</label>Helmholtz Zentrum MÃ¼nchen, German Research Center for Environmental Health, Research Unit Cellular Signal Integration, InstituteÂ ofÂ Molecular Toxicology and Pharmacology, IngolstÃ¤dter Landstrasse 1, 85764 Neuherberg, Germany</aff>
+      <aff id="aff3"><label>3</label>Department of Disease Biology, Novo Nordisk Foundation Center for Protein Research, University of Copenhagen, 2200 Copenhagen, Denmark</aff>
+      <aff id="aff4"><label>4</label>Institute for Genetics, University of Cologne, ZÃ¼lpicher Strasse 47a, 50674 Cologne, Germany</aff>
+      <author-notes>
+        <corresp id="cor1"><label>*</label>Corresponding author <email>dk@mrc-lmb.cam.ac.uk</email></corresp>
+        <fn id="fn1">
+          <label>5</label>
+          <p>These authors contributed equally to this work</p>
+        </fn>
+      </author-notes>
+      <pub-date pub-type="pmc-release">
+        <day>06</day>
+        <month>6</month>
+        <year>2013</year>
+      </pub-date>
+      <!-- PMC Release delay is 0 months and 0 days and was based on <pub-date pub-type="ppub">.-->
+      <pub-date pub-type="ppub">
+        <day>06</day>
+        <month>6</month>
+        <year>2013</year>
+      </pub-date>
+      <volume>153</volume>
+      <issue>6</issue>
+      <fpage>1312</fpage>
+      <lpage>1326</lpage>
+      <history>
+        <date date-type="received">
+          <day>1</day>
+          <month>3</month>
+          <year>2013</year>
+        </date>
+        <date date-type="rev-recd">
+          <day>3</day>
+          <month>4</month>
+          <year>2013</year>
+        </date>
+        <date date-type="accepted">
+          <day>6</day>
+          <month>5</month>
+          <year>2013</year>
+        </date>
+      </history>
+      <permissions>
+        <copyright-statement>Â© 2013 ELL &amp; Excerpta Medica.</copyright-statement>
+        <copyright-year>2013</copyright-year>
+        <copyright-holder>Elsevier Inc.</copyright-holder>
+        <license>
+          <license-p>This document may be redistributed and reused, subject to <ext-link ext-link-type="uri" xlink:href="http://www.elsevier.com/wps/find/authorsview.authors/supplementalterms1.0">certain conditions</ext-link>.</license-p>
+        </license>
+      </permissions>
+      <abstract>
+        <title>Summary</title>
+        <p>The linear ubiquitin (Ub) chain assembly complex (LUBAC) is an E3 ligase that specifically assembles Met1-linked (also known as linear) Ub chains that regulate nuclear factor ÎºB (NF-ÎºB) signaling. Deubiquitinases (DUBs) are key regulators of Ub signaling, but a dedicated DUB for Met1 linkages has not been identified. Here, we reveal a previously unannotated human DUB, OTULIN (also known as FAM105B), which is exquisitely specific for Met1 linkages. Crystal structures of the OTULIN catalytic domain in complex with diubiquitin reveal Met1-specific Ub-binding sites and a mechanism of substrate-assisted catalysis in which the proximal Ub activates the catalytic triad of the protease. Mutation of Ub Glu16 inhibits OTULIN activity by reducing <italic>k</italic><sub><italic>cat</italic></sub> 240-fold. OTULIN overexpression or knockdown affects NF-ÎºB responses to LUBAC, TNFÎ±, and poly(I:C) and sensitizes cells to TNFÎ±-induced cell death. We show that OTULIN binds LUBAC and that overexpression of OTULIN prevents TNFÎ±-induced NEMO association with ubiquitinated RIPK1. Our data suggest that OTULIN regulates Met1-polyUb signaling.</p>
+      </abstract>
+      <abstract abstract-type="graphical">
+        <title>Graphical Abstract</title>
+        <fig id="undfig1" position="anchor">
+          <graphic xlink:href="fx1"/>
+        </fig>
+      </abstract>
+      <abstract abstract-type="author-highlights">
+        <title>Highlights</title>
+        <p>
+          <list list-type="simple">
+            <list-item id="u0010">
+              <label>â¢</label>
+              <p>FAM105B/OTULIN is a deubiquitinase exclusively hydrolyzing Met1-linked polyUb</p>
+            </list-item>
+            <list-item id="u0015">
+              <label>â¢</label>
+              <p>The structure of an OTULIN-diUb complex reveals substrate-assisted catalysis</p>
+            </list-item>
+            <list-item id="u0020">
+              <label>â¢</label>
+              <p>OTULIN binds LUBAC and regulates the abundance of Met1-linked chains in cells</p>
+            </list-item>
+            <list-item id="u0025">
+              <label>â¢</label>
+              <p>OTULIN opposes LUBAC function in cytokine signaling</p>
+            </list-item>
+          </list>
+        </p>
+      </abstract>
+      <abstract abstract-type="teaser">
+        <p>OTULIN is the DUB that counteracts the recently identified linear ubiquitin chain assembly complex (LUBAC) signaling pathway and acts as a regulator of cytokine responses.</p>
+      </abstract>
+    </article-meta>
+  </front>
+  <body>
+    <sec id="sec1">
+      <title>Introduction</title>
+      <p>Ubiquitination is an important posttranslational modification that regulates diverse processes, including protein degradation, intracellular trafficking, transcription, kinase activation, and the DNA damage response (<xref rid="bib13" ref-type="bibr">Hershko and Ciechanover, 1998</xref>; <xref rid="bib20" ref-type="bibr">Komander and Rape, 2012</xref>). This variety of functions is mediated by eight different types of polyubiquitin (polyUb) linkages, and, although the roles of Lys48- and Lys63-linked polyUb have been studied in great detail, much less is known about the remaining âatypicalâ Ub chains (<xref rid="bib2" ref-type="bibr">Behrends and Harper, 2011</xref>; <xref rid="bib22" ref-type="bibr">Kulathu and Komander, 2012</xref>).</p>
+      <p>Met1-linked polyUb (Met1-polyUb) is the source of the cellular Ub pool, given that Ub is translated as a polyprotein (<xref rid="bib27" ref-type="bibr">Ozkaynak etÂ al., 1984</xref>) and posttranslationally processed by dedicated DUBs, such as USP5 (also known as IsoT) (<xref rid="bib1" ref-type="bibr">Amerik AYu etÂ al., 1997</xref>). This chain type can also be assembled by the linear Ub chain assembly complex (LUBAC), a multisubunit E3 ligase consisting of HOIP, HOIL-1L, and SHARPIN (<xref rid="bib10" ref-type="bibr">Gerlach etÂ al., 2011</xref>; <xref rid="bib15" ref-type="bibr">Ikeda etÂ al., 2011</xref>; <xref rid="bib19" ref-type="bibr">Kirisako etÂ al., 2006</xref>; <xref rid="bib34" ref-type="bibr">Tokunaga etÂ al., 2011</xref>). LUBAC has roles in NF-ÎºB activation (<xref rid="bib11" ref-type="bibr">Haas etÂ al., 2009</xref>; <xref rid="bib32" ref-type="bibr">Tokunaga and Iwai, 2012</xref>; <xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>; <xref rid="bib37" ref-type="bibr">Walczak etÂ al., 2012</xref>) and is required for full activation of the inhibitor of ÎºB (IÎºB) kinase (IKK) complex. IKK activation leads to the phosphorylation and degradation of IÎºB and the activation of the NF-ÎºB transcription factor (<xref rid="bib17" ref-type="bibr">Karin and Ben-Neriah, 2000</xref>). It is not fully understood how Met1-polyUb regulates this process, but it involves the binding and modification of the IKK subunit NEMO with Met1-linked chains. NEMO harbors a Met1-specific Ub-binding domain (UBD) that is important for NF-ÎºB signaling (<xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>; <xref rid="bib28" ref-type="bibr">Rahighi etÂ al., 2009</xref>).</p>
+      <p>Much less is known about DUBs that regulate Met1-polyUb chains, and a specific DUB for Met1-linkages has not been identified. Of the roughly 80 active DUBs in the human genome, many show weak or no activity toward Met1-linked chains (<xref rid="bib8" ref-type="bibr">Faesen etÂ al., 2011</xref>; <xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>). A potential reason is the distinct chemistry of a peptide versus an isopeptide linkage (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A).</p>
+      <p>Ovarian tumor (OTU) domain DUBs regulate important cell-signaling pathways. A20 regulates NF-ÎºB signaling (<xref rid="bib14" ref-type="bibr">Hymowitz and Wertz, 2010</xref>), OTUD5 (also known as DUBA) regulates IRF3 signaling (<xref rid="bib18" ref-type="bibr">Kayagaki etÂ al., 2007</xref>), and OTUB1 regulates the DNA damage response (<xref rid="bib26" ref-type="bibr">Nakada etÂ al., 2010</xref>). OTU DUBs can be linkage specific. Structural work has revealed the basis for OTUB1 Lys48 specificity (<xref rid="bib16" ref-type="bibr">Juang etÂ al., 2012</xref>; <xref rid="bib39" ref-type="bibr">Wiener etÂ al., 2012</xref>) and TRABID specificity against Lys29 and Lys33 linkages (<xref rid="bib23" ref-type="bibr">Licchesi etÂ al., 2012</xref>). Moreover, viral OTU DUBs have been reported that are highly divergent in sequence but are structurally similar (<xref rid="bib9" ref-type="bibr">Frias-Staheli etÂ al., 2007</xref>).</p>
+      <p>Here, we identify a previously unannotated human DUB, FAM105B/OTULIN, which is specific for Met1-linked Ub chains. Structural studies reveal that this specificity is due to Met1-specific Ub-binding sites and a mechanism of substrate-assisted catalysis where a residue in a Met1-linked chain directly participates in the organization of the catalytic triad of the enzyme. Overexpression and knockdown analysis of OTULIN suggest that the protein binds LUBAC and regulates LUBAC-mediated processes in cells.</p>
+    </sec>
+    <sec sec-type="results" id="sec2">
+      <title>Results</title>
+      <sec id="sec2.1">
+        <title>FAM105B/OTULIN, a Met1-Linkage-Specific OTU DUB</title>
+        <p>Given the high sequence divergence of OTU domains, we set out to identify unstudied OTU enzymes using a bioinformatical screen based on generalized profile analysis (<xref rid="bib5" ref-type="bibr">Bucher etÂ al., 1996</xref>). Iterative profile refinement, starting from a multiple-sequence alignment of experimentally validated OTUs, indicated an OTU domain with a complete catalytic triad in the uncharacterized human protein FAM105B (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B). FAM105B comprises 352 amino acids (aa), and the OTU domain spans the majority of the protein (aa 80â352) and an N-terminal region with predicted helical content (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>B, 1C). The catalytic domain is highly conserved between species (<xref rid="figs1" ref-type="fig">FigureÂ S1</xref>A available online). Bacterially expressed full-length FAM105B did not hydrolyze common fluorescent substrates such as Ub-AMC (<xref rid="figs1" ref-type="fig">FigureÂ S1</xref>B). Ub-based suicide inhibitors that comprise an electrophilic group at the Ub C terminus (<xref rid="bib4" ref-type="bibr">Borodovsky etÂ al., 2002</xref>) covalently modify most OTU domain DUBs but showed no reactivity against FAM105B (<xref rid="figs1" ref-type="fig">FigureÂ S1</xref>C). However, DUB assays against diubiquitin (diUb) of all eight linkage types revealed that FAM105B exclusively hydrolyzed Met1-diUb (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>D). The enzyme was active at 10Â nM concentration (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>D) and remained Met1 linkage specific at a 1Â Î¼M concentration (<xref rid="figs1" ref-type="fig">FigureÂ S1</xref>D). Specificity is maintained when longer Ub chains are used as substrates (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>E) but depended on an intact Ub Gly<sup>76</sup>-Met<sup>1</sup> linkage sequence between Ub moieties, given that mutant tetraUb with Ser<sup>76</sup>-Met<sup>1</sup> linkages was not hydrolyzed (<xref rid="fig1" ref-type="fig">Figures 1</xref>E and <xref rid="figs1" ref-type="fig">S1</xref>E). Catalytic mutants of FAM105B (C129A, H339A, and N341A) did not hydrolyze Met1-diUb (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>F). Having established FAM105B as a Met1-linkage-specific OTU DUB, we named the enzyme OTULIN (OTU DUB with linear linkage specificity). OTULIN is unique, given that the 14 annotated human OTU DUBs cannot hydrolyze Met1-diUb (<xref rid="bib56" ref-type="bibr">Mevissen et al., 2013</xref>).</p>
+      </sec>
+      <sec id="sec2.2">
+        <title>Molecular Basis for OTULIN Specificity</title>
+        <p>Structural studies revealed how OTULIN achieved its unique specificity for Met1 linkages. The catalytic domain of OTULIN (OTULINcat, aa 80â352) is sufficient for linkage specificity (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>G), and OTULINcat C129A bound Met1-diUb with a similarly high affinity as full-length OTULIN C129A, as revealed by fluorescence anisotropy measurements (<italic>K</italic><sub><italic>D</italic></sub> 196 versus 178Â nM, <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>H).</p>
+        <p>OTULINcat was crystallized, and its structure was determined to 1.3Â Ã resolution with SeMet phasing (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>A and <xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>). OTULINcat adopts an OTU fold most similar to OTUB1 (root-mean-square deviation [rmsd] 2.1Â Ã, DALI <italic>Z</italic> score 8.7) (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>B). Interestingly, catalytic triad residues His339 and Cys129 display two alternate conformations. In the âactiveâ conformation (occupancy â¼30%), the catalytic triad is formed by interactions between Asn341, His339, and Cys129 (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C); e.g., as observed in OTUB1 in complex with Ub suicide inhibitor (<xref rid="bib39" ref-type="bibr">Wiener etÂ al., 2012</xref>) (<xref rid="figs2" ref-type="fig">Figures S2</xref>AâS2C). In the âinhibitedâ conformation (occupancy â¼70%), Asp336 pulls His339 away from its catalytic position (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C), and Cys129 flips to an inactive rotamer. Next, we determined the structure of OTULIN D336A to 1.35Â Ã resolution (<xref rid="fig2" ref-type="fig">Figures 2</xref>D and <xref rid="figs2" ref-type="fig">S2</xref>G and <xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>). There were no global structural perturbations (<xref rid="figs2" ref-type="fig">Figures S2</xref>E and S2F), but His339 was now in the active rotamer, and Cys129 showed increased occupancy of the active rotamer (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>D). Consistently, Ub suicide inhibitors that did not modify wild-type (WT) OTULIN modified OTULIN D336A and also OTULIN N341D, in which the catalytic Asn341 was changed to a negatively charged Asp (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>E). Both mutants stabilize His339 in the active conformation, generating a more reactive enzyme.</p>
+        <p>To understand how OTULIN acted on Met1-polyUb specifically, we determined the structure of OTULINcat C129A bound to Met1-diUb to 1.9Â Ã resolution (<xref rid="fig2" ref-type="fig">Figures 2</xref>F and <xref rid="figs2" ref-type="fig">S2</xref> and <xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>). The distal and proximal Ub moieties occupy extensive S1 and S1â Ub-binding sites on OTULIN, respectively (<xref rid="fig2" ref-type="fig">Figures 2</xref>Fâ2H). Residues mediating Ub binding are highly conserved inÂ OTULIN orthologs (<xref rid="figs2" ref-type="fig">FigureÂ S2</xref>I). The binding interface with theÂ distal Ub covers 1,045Â Ã<sup>2</sup> and involves the Ile44 patch thatÂ interacts with a helical arm (aa 254â264) conserved in all OTU domains (<xref rid="fig2" ref-type="fig">Figures 2</xref>Fâ2H). However, compared to the OTUB1â¼Ub structure (<xref rid="bib39" ref-type="bibr">Wiener etÂ al., 2012</xref>) (<xref rid="figs2" ref-type="fig">FigureÂ S2</xref>J), the distal Ub rotates by â¼18Â° in the S1 binding site (<xref rid="figs2" ref-type="fig">FigureÂ S2</xref>K). The proximal Ub binds with an interface of 880Â Ã<sup>2</sup> to an S1â Ub-binding site formed by helices Î±1 and Î±2 of OTULINcat via an unusual binding surface on Ub involving the Ub helix and the Phe4 patch (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>H). Point mutations in the S1 (L259E and E314R) or S1â (W96A and TQK100-102AAA) Ub-binding sites reduced OTULIN activity toward Met1-diUb (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>I) by decreasing Met1-diUb affinity (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>J).</p>
+      </sec>
+      <sec id="sec2.3">
+        <title>OTULIN Specificity: Selective diUb Binding</title>
+        <p>The extensive S1â Ub-binding site is likely to be important for OTULIN specificity in that it orients the proximal Ub such that only Met1 points toward the catalytic center (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>A). In this orientation of the proximal Ub, all Lys residues are remote from the catalytic center, except for Lys63, which is spatially close to Met1 (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>B). Importantly, OTULIN wedges these linkage points apart by two loops (aa 125â127 and 282â284) that fix Lys63 in a dedicated binding pocket (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>B). Nonetheless, a differently linked Ub chain including a Lys63-linked diUb would rotate the proximal Ub moiety by several degrees, and such orientation would likely not fit the OTULIN S1â binding site. Indeed, Lys63-linked diUb bound with 100-fold reduced affinity (&lt;112Â nM for Met1-linked diUb versus 12Â Î¼M for Lys63-linked diUb), and no binding was detected for Lys48-linked diUb (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>C). This shows that the Ub-binding sites of OTULIN already distinguish between structurally similar Met1 and Lys63 chain types by two orders of magnitude.</p>
+      </sec>
+      <sec id="sec2.4">
+        <title>OTULIN Specificity: Substrate-Assisted Catalysis</title>
+        <p>The complex structure revealed that the proximal Ub directly participates in the organization of the catalytic center. Autoinhibition of the catalytic triad in the absence of substrate (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>D) is released by the binding of the Met1-linked proximal Ub (<xref rid="fig3" ref-type="fig">Figures 3</xref>E and 3F). The carbonyl group of Met1 sterically interferes with the inhibited conformation of His339, pushing it into an active conformation (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>F). Lys-linked Ub chains lack a structural equivalent of this carbonyl moiety in the linkage (<xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A). More significantly, Glu16 of the proximal Ub is inserted into the catalytic center, displacing the inhibitory OTULIN residue Asp336, further restricting the mobility of His339 (<xref rid="fig3" ref-type="fig">Figures 3</xref>E and 3F). In addition, Glu16 coordinates the third residue in the catalytic triad Asn341, aligning it toward His339 (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>E).</p>
+        <p>Importantly, Met1-diUb with mutations of Glu16 in the proximal Ub was hydrolyzed with significantly lower activity in qualitative gel-based assays, whereas mutation of nearby Gln2 (which also interacts with OTULIN, <xref rid="fig3" ref-type="fig">FigureÂ 3</xref>E) had no effect (<xref rid="fig3" ref-type="fig">Figures 3</xref>G and <xref rid="figs3" ref-type="fig">S3</xref>A). All mutants were hydrolyzed by the nonspecific DUB USP21 (<xref rid="bib41" ref-type="bibr">Ye etÂ al., 2011</xref>) (<xref rid="figs3" ref-type="fig">FigureÂ S3</xref>B) and bound to OTULINcat C129A in analytical gel filtration (<xref rid="figs3" ref-type="fig">FigureÂ S3</xref>C), and Met1-diUb E16A<sup>prox</sup> affinity toward OTULIN C129A was only slightly decreased (612 versus &lt;112Â nM, <xref rid="figs3" ref-type="fig">FigureÂ S3</xref>D).</p>
+        <p>We used a quantitative fluorescent kinetic assay for diUb cleavage (<xref rid="bib36" ref-type="bibr">Virdee etÂ al., 2010</xref>) to examine whether Glu16 on a proximal Ub had a direct role in catalysis (<xref rid="fig3" ref-type="fig">Figures 3</xref>H and 3I). Met1-diUb E16A<sup>prox</sup> decreased <italic>k</italic><sub><italic>cat</italic></sub> 240-fold and enzyme efficiency (<italic>k</italic><sub><italic>cat</italic></sub>/<italic>K</italic><sub><italic>M</italic></sub>) 74-fold (because of a 3.5-fold lower <italic>K</italic><sub><italic>M</italic></sub> for the mutant) in comparison to Met1-diUb (<xref rid="fig3" ref-type="fig">Figures 3</xref>H and 3K). Interestingly, the negative charge on Ub is important for OTULIN activity, given that Met1-diUb E16Q<sup>prox</sup> still showed a 35-fold lower <italic>k</italic><sub><italic>cat</italic></sub> for WT OTULIN. Next, we tested whether the more reactive OTULIN N341D or D336A mutants (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>E) showed improved diUb hydrolysis activity. WT Met1-diUb is a poor substrate for OTULIN N341D, most likely because of the repulsion of negative charges (Ub Glu16 and OTULIN Asp341) in the catalytic center (<xref rid="fig3" ref-type="fig">Figures 3</xref>I and K). Indeed, OTULIN N341D showed improved kinetics when Ub Glu16 was mutated, and both <italic>k</italic><sub><italic>cat</italic></sub> and <italic>K</italic><sub><italic>M</italic></sub> improved, although WT activity was not regained. The OTULIN N341D mutant worked best with Met1-diUb E16Q<sup>prox</sup>, suggesting that the requirement for a negative charge was partially compensated (<xref rid="fig3" ref-type="fig">Figures 3</xref>J and 3K). The coordination of Asn341 is a key event in OTULIN activation, as was confirmed when the only OTULIN residue coordinating the Asn341 side chain, Tyr91, was mutated to Phe, resulting in 20-fold reduction of <italic>k</italic><sub><italic>cat</italic></sub> while not affecting <italic>K</italic><sub><italic>M</italic></sub> (<xref rid="fig2" ref-type="fig">Figures 2</xref>I, 2J, <xref rid="fig3" ref-type="fig">3</xref>K, and <xref rid="figs3" ref-type="fig">S3</xref>F). Strong effects of Glu16 mutation were also observed in the OTULIN D336A mutant (<xref rid="fig3" ref-type="fig">Figures 3</xref>J and 3K). Altogether, this showed that the coordination of the catalytic triad through Ub interaction is important for OTULIN activation (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>L).</p>
+        <p>Hence, we reveal a mechanism of substrate-assisted catalysis in which Glu16 of the proximal Ub activates the catalytic triad of OTULIN by both restricting the movement of the catalytic His339 and introducing a negative charge, presumably for the proper coordination of Asn341 for catalysis. OTULINâs usage of a catalytic Asn improves interaction with Glu16 containing Met1-linked chains.</p>
+        <p>It appears that OTULIN has evolved Met1-linkage-specific Ub-binding sites to specifically interact with linear chains. Additionally, to further distinguish chain types, OTULIN invokes a mechanism of substrate-assisted catalysis in order to ensureÂ that only Met1 linkages are hydrolyzed. OTULINâs remarkable specificity suggests that Met1-linked polyUb have to be tightly regulated independently of other ubiquitination events in cells.</p>
+      </sec>
+      <sec id="sec2.5">
+        <title>Cellular OTULIN Antagonizes LUBAC Signaling</title>
+        <p>The identification of OTULIN as a Met1-linkage-specific DUB prompted us to study its role in cells. The human <italic>FAM105B</italic> gene is ubiquitously expressed (<ext-link ext-link-type="uri" xlink:href="http://biogps.org/%2523goto%253Dgenereport%2526id%253D90268" id="intref0025">http://biogps.org/%23goto%3Dgenereport%26id%3D90268</ext-link>). A polyclonal antiserum detected OTULIN in human embryonic kidney (HEK) 293ETÂ and other cell lines (<xref rid="figs4" ref-type="fig">FigureÂ S4</xref>AâS4C). C-terminal GFP-tagged OTULIN is cytoplasmic, active, and Met1 specific (<xref rid="figs4" ref-type="fig">FigureÂ S4</xref>DâS4F). OTULIN is evolutionarily restricted to vertebrates and selected invertebrate lineages but is not detected in <italic>D.Â melanogaster</italic> and <italic>C.Â elegans</italic>. Interestingly, all OTULIN-comprising taxa also contain genes for components of the Met1-polyUb chain assembly machinery LUBAC.</p>
+        <p>Expression of the LUBAC components HOIP, HOIL-1L, and SHARPIN induced Met1-polyUb, which was removed when OTULIN was coexpressed (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A, lanes 2 and 3). Inactive OTULIN C129A led to the significant enrichment of Met1-polyUb in cells, and OTULIN Ub chain-binding mutants W96A and L259E (<xref rid="fig2" ref-type="fig">Figures 2</xref>I and 2J) increased Met1 linkages in cells, albeit not to the same extent as C129A (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A, lanes 4â6).</p>
+        <p>Expression of LUBAC induces NF-ÎºB activation (<xref rid="bib10" ref-type="bibr">Gerlach etÂ al., 2011</xref>; <xref rid="bib15" ref-type="bibr">Ikeda etÂ al., 2011</xref>; <xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>), which was suppressed when OTULIN was transiently coexpressed (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B) and also in stable cell lines overexpressing OTULIN (<xref rid="figs4" ref-type="fig">Figures S4</xref>G and S4H). Despite the enrichment of Met1-polyUb (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A), OTULIN catalytic or Ub-binding mutants still inhibited LUBAC-driven NF-ÎºB activity to some extent (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B). Apparently, the increase in Met1-polyUb alone is not sufficient to augment NF-ÎºB activity (<xref rid="fig4" ref-type="fig">Figures 4</xref>A and 4B).</p>
+        <p>NF-ÎºB activation by TNFÎ± leads to the translocation of the cytosolic p65 NF-ÎºB subunit to the nucleus (<xref rid="bib12" ref-type="bibr">Hayden and Ghosh, 2008</xref>) (<xref rid="fig4" ref-type="fig">Figures 4</xref>C, <xref rid="figs5" ref-type="fig">S5</xref>C, and S5D). Transient overexpression of OTULIN or OTULIN C129A blocked p65 nuclear translocation after TNFÎ± stimulation, whereas OTULIN W96A or OTULIN L259E had no effect (<xref rid="fig4" ref-type="fig">Figures 4</xref>C, <xref rid="figs5" ref-type="fig">S5</xref>C, and S5D). It appears that OTULIN overexpression antagonizes NF-ÎºB activation by removing Met1-polyUb, whereas OTULIN C129A acts as a high-affinity UBD that competes with other Met1-specific UBDs required for NF-ÎºB signaling in a similar manner to the one recently reported for the overexpression of the NEMO UBAN domain (<xref rid="bib35" ref-type="bibr">van Wijk etÂ al., 2012</xref>).</p>
+        <p>These results suggested that OTULIN was able to regulate LUBAC mediated processes in cells. One of the few reported targets of LUBAC is NEMO (<xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>). Transfection of GST-tagged NEMO resulted in NEMO modification which wasÂ prevented in a NEMO K285/309R double mutant where ubiquitination sites are mutated (<xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>) (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>D). Co-overexpression of LUBAC resulted in an additional Ub band on NEMO, and the Met1-specific antibody indicated that this additional band was a short Ub chain. This was absent in OTULIN-overexpressing stable cell lines (<xref rid="fig4" ref-type="fig">Figures 4</xref>D and <xref rid="figs5" ref-type="fig">S5</xref>F)Â suggesting that OTULIN could remove Met1-polyUb from NEMO.</p>
+        <p>Glutathione S-transferase (GST) pulldown of NEMO precipitated HOIP, HOIL1, SHARPIN, and OTULIN, suggesting that these proteins might form a complex (<xref rid="fig4" ref-type="fig">Figures 4</xref>D and <xref rid="figs5" ref-type="fig">S5</xref>F). Immunoprecipitation (IP) of endogenous SHARPIN precipitated endogenous HOIP and, interestingly, also endogenous OTULIN under unstimulated conditions (<xref rid="fig4" ref-type="fig">Figures 4</xref>E and <xref rid="figs5" ref-type="fig">S5</xref>G). Upon TNFÎ± stimulation, the TNF-R1 was enriched in SHARPIN IPs (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>E), further supporting the idea that a LUBAC-OTULIN complex is formed and that this complex may translocate to the TNF receptor signaling complex (TNF-RSC).</p>
+        <p>Met1-linked polyUb is known to affect complex assembly at the TNF-RSC (<xref rid="bib11" ref-type="bibr">Haas etÂ al., 2009</xref>). IP of endogenous NEMO coprecipitates ubiquitinated RIPK1 after TNFÎ± stimulation. Importantly, overexpression of OTULIN abrogated NEMO-RIPK1 complex formation (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>F). This supports the idea that the interaction between NEMO and RIPK1 is stabilized by Met1 linkages and reveals a mechanism of how OTULIN may affect NF-ÎºB activation in response to TNFÎ± stimulation.</p>
+      </sec>
+      <sec id="sec2.6">
+        <title>Ubiquitin Glu16 Is Important for Met1-polyUb Signaling</title>
+        <p>Next, with a cellular readout for OTULIN overexpression at hand, we set out to test OTULINâs mechanism of substrate-assisted catalysis in cells by characterizing the effects of an Ub E16A mutant. Control experiments assessing whether this mutant is still assembled in Met1-polyUb by HOIP gave the surprising result that a minimal HOIP ligase construct (<xref rid="bib29" ref-type="bibr">Smit etÂ al., 2012</xref>; <xref rid="bib30" ref-type="bibr">Stieglitz etÂ al., 2012</xref>) was impaired in assembling Met1-linked chains from Ub E16A (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>A). Furthermore, fluorescent Met1-diUb E16A<sup>prox</sup> bound to the NEMO UBAN domain with reduced affinity (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>B), which is consistent with the known interaction between the NEMO UBAN domain and Ub Glu16 (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>C) (<xref rid="bib28" ref-type="bibr">Rahighi etÂ al., 2009</xref>).</p>
+        <p>Despite this, co-overexpression of Ub E16A and LUBAC in HEK 293ET cells still activated NF-ÎºB, and this could not be completely reversed by OTULIN (<xref rid="fig5" ref-type="fig">FigureÂ 5</xref>D), consistent with OTULINâs inability to efficiently hydrolyze Ub E16A-containing polymers (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>). These results suggested that Ub Glu16 is important in multiple aspects of Met1-polyUb signaling.</p>
+      </sec>
+      <sec id="sec2.7">
+        <title>OTULIN Affects LUBAC-Mediated Cytokine Responses</title>
+        <p>Transient overexpression of OTULIN or the well-studied NF-ÎºB inhibitor A20 (<xref rid="bib14" ref-type="bibr">Hymowitz and Wertz, 2010</xref>) blocks poly(I:C) induced NF-ÎºB activity (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>A). In comparison, OTULIN inhibits TNFÎ±-mediated NF-ÎºB by â¼50%, which correlates with effects observed by LUBAC downregulation (<xref rid="bib11" ref-type="bibr">Haas etÂ al., 2009</xref>; <xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>) (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>A). In OTULIN-expressing stable cell lines, transcription of NF-ÎºB target genes was reduced in response to 10Â ng/ml TNFÎ± (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>B), and, although IÎºBÎ± was rapidly phosphorylated and almost completely degraded after 15Â min of TNFÎ± stimulation in control cell lines, IÎºBÎ± phosphorylation, degradation, and NF-ÎºB activation was delayed in OTULIN-overexpressing cells (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>C). Moreover, stable overexpression of OTULIN sensitized cells to TNFÎ±-induced cell death (<xref rid="fig6" ref-type="fig">Figures 6</xref>D and 6E), consistent with observations in <italic>cpdm</italic> mice that lack Sharpin (<xref rid="bib10" ref-type="bibr">Gerlach etÂ al., 2011</xref>; <xref rid="bib15" ref-type="bibr">Ikeda etÂ al., 2011</xref>; <xref rid="bib34" ref-type="bibr">Tokunaga etÂ al., 2011</xref>; <xref rid="bib37" ref-type="bibr">Walczak etÂ al., 2012</xref>) or in humans with mutations in HOIL1 (<xref rid="bib3" ref-type="bibr">Boisson etÂ al., 2012</xref>). OTULIN overexpression promoted enhanced and persistent JNK activation and c-Jun phosphorylation at later time points, leading to the cleavage of PARP and caspase-3, two key players in the regulation of cell-death induction (<xref rid="fig6" ref-type="fig">FigureÂ 6</xref>F). As for IÎºBÎ± phosphorylation, OTULIN overexpression also resulted in a delay of JNK activation kinetics (<xref rid="fig6" ref-type="fig">Figures 6</xref>C and 6F).</p>
+        <p>Small interfering RNA (siRNA) against OTULIN resulted in anÂ increase in LUBAC-induced NF-ÎºB activation in HEK 293ET and U2OS cells and also in T-REx 293 cells stably expressing a doxycycline-inducible OTULIN-targeting microRNA (miRNA) (<xref rid="fig7" ref-type="fig">Figures 7</xref>A and <xref rid="figs6" ref-type="fig">S6</xref>AâS6C). LUBAC-dependent induction of NF-ÎºB could be prevented by co-overexpression of active, but not inactive, OTULIN (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>A). Interestingly, western blotting against the overexpressed LUBAC components revealed that HOIP was ubiquitinated in OTULIN miRNA cell lines (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>B), and coexpression of OTULIN removed these chains, showing that they are Met1 linked (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>B). This suggested that one role of OTULIN in the LUBAC complex (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>E) is to prevent the autoubiquitination of HOIP. However, LUBAC recruitment to the TNF-RSC was unchanged in OTULIN knockdown cell lines, and Met1-Ub linkages were enriched in the TNF-RSC, implying that OTULIN also regulates Met1-Ub on other components (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>C). Accordingly, we observed a slight increase in RIPK1 ubiquitination enriched with a Met1-linkage-specific Ub-binding matrix in OTULIN-depleted U2OS cells (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>D), suggesting that RIPK1 Met1 ubiquitination in response to TNFÎ± is targeted by OTULIN (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>F).</p>
+        <p>Stable OTULIN knockdown affected cytokine responses and led to enhanced NF-ÎºB activation after poly(I:C) and TNFÎ± (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>E), and, even though the initial induction of NF-ÎºB target genes was not severely altered after OTULIN knockdown, expression of A20, IÎºBÎ±, IL-8, and TNFÎ± was sustained in response to TNFÎ± (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>F). Initial phosphorylation and degradation of IÎºBÎ± after TNFÎ± stimulation was only slightly enhanced in OTULIN knockdown cells (<xref rid="figs6" ref-type="fig">FigureÂ S6</xref>D). However, JNK and c-Jun phosphorylation was sustained at late time points, again leading to cell death (<xref rid="figs6" ref-type="fig">Figures S6</xref>DâS6F). The fact that both overexpression and knockdown of OTULIN led to cell death was surprising and requires further investigation.</p>
+        <p>OTULIN knockdown cell lines were deregulated in their NF-ÎºB response, but we could not observe a strong effect on canonical NF-ÎºB signaling. Jurkat cells express higher amounts of OTULIN (<xref rid="figs4" ref-type="fig">FigureÂ S4</xref>C), and OTULIN knockdown by siRNA led to an increase in phospho-IÎºBÎ± and subsequent enhancement of NF-ÎºB DNA binding (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>G). This was due to increased IKK activation (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>H), consistent with current models of LUBAC function (<xref rid="bib32" ref-type="bibr">Tokunaga and Iwai, 2012</xref>; <xref rid="bib37" ref-type="bibr">Walczak etÂ al., 2012</xref>). Altogether, our data are consistent with a role of OTULIN in LUBAC-mediated Met1-polyUb signaling.</p>
+      </sec>
+    </sec>
+    <sec sec-type="discussion" id="sec3">
+      <title>Discussion</title>
+      <p>Here, we identify FAM105B/OTULIN as a human OTU DUB specific for Met1-linked Ub chains. OTULIN is a missing piece in Met1-Ub chain biology, for which no linkage-specific DUB has been described to date. Our data suggest that OTULIN is an antagonist of LUBAC inÂ vitro and in cells. We reveal the molecular basis for the remarkable Met1 linkage specificity by structural and biophysical studies and give insights into potential roles of OTULIN as a LUBAC interactor and antagonist in cells. Consistent with the biochemical findings, overexpression of OTULIN removes Met1-polyUb and dampens LUBAC-mediated NF-ÎºB signaling, whereas knockdown of OTULIN leads to increased Met1-polyUb, IKK activation, and NF-ÎºB signaling after TNFÎ± stimulation. However, both overexpression and knockdown of OTULIN sensitized cells to TNFÎ±-induced cell death, suggesting more complex roles for Met1 linkages in balancing signaling pathways downstream of the TNFÎ± receptor.</p>
+      <sec id="sec3.1">
+        <title>Structural Insights into Ub Chain Linkage Specificity inÂ DUBs</title>
+        <p>Linkage specificity in DUBs is not well understood, and the structure of apo OTULIN did not explain its Met1 specificity, because of its structural similarity to the Lys48-specific OTUB1. The key insight into linkage specificity for these two enzymes came from the complex structures of the enzyme with two Ub molecules bound across the active site.</p>
+        <p>A high-affinity Ub-binding site in OTULIN allows it to select Met1-linked chains with 100-fold preference over Lys63 linkages and disallows the binding of Lys48-linked and presumably other chains. This mechanism is shared by many DUBs; e.g., TRABID (<xref rid="bib23" ref-type="bibr">Licchesi etÂ al., 2012</xref>) and OTUB1 (<xref rid="bib16" ref-type="bibr">Juang etÂ al., 2012</xref>; <xref rid="bib39" ref-type="bibr">Wiener etÂ al., 2012</xref>). However, in a physiological situation where multiple Ub chain linkages are often mixed, substrate-targeted DUBs may cleave additional Ub chain types. OTULIN prevents such promiscuity by requiring a properly positioned Ub residue, Glu16, for catalytic efficiency. Even in Lys63-linked chains, the required rotation of the proximal Ub would displace Ub Glu16, preventing activity. Therefore, OTULIN is the first DUB for which substrate-assisted catalysis has been demonstrated to achieve linkage specificity. It is possible that substrate-assisted catalysis explains the linkage (or substrate) specificity of other DUBs. It will also be interesting to see whether DUB activators exist that complement the catalytic triad in an analogous manner as that observed in OTULIN.</p>
+        <p>Ub-mediated substrate-assisted catalysis was recently shown to be crucial for the assembly of Lys11-linked polyUb, where Ub Glu34 complements the active site of the E2Â Ub-conjugating enzyme UBE2S (<xref rid="bib38" ref-type="bibr">Wickliffe etÂ al., 2011</xref>). The fact that Glu16 also impairs HOIP activity also suggests the functionality of this side chain in assembly reactions. Altogether, this shows that Ub is more than just a binding partner for other proteins and that it can actively participate in enzymatic reactions.</p>
+      </sec>
+      <sec id="sec3.2">
+        <title>Cellular Role of OTULIN in Counteracting LUBAC</title>
+        <p>In transfection experiments, we demonstrated that OTULIN could counteract cellular LUBAC responses, suggesting that OTULIN helps to balance the amount of Met1-polyUb in cells. Furthermore, the mechanism of substrate-assisted catalysis suggests that OTULIN may not target individual proteins but, instead, target Met1-linked Ub chains, regardless of where they are attached. Indeed, we identified three proteins that change in their ubiquitination status when OTULIN levels are modulated. NEMO and RIPK1 are among the few reported targets of LUBAC (<xref rid="bib10" ref-type="bibr">Gerlach etÂ al., 2011</xref>; <xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>).</p>
+        <p>We provide evidence that OTULIN directly interacts with LUBAC. The observation that depletion of OTULIN leads to the modification of HOIP with Met1-polyUb suggests that HOIP, like many other E3 ligases, undergoes autoubiquitination and that OTULIN has the ability to prevent this. This most likely explains why the overexpression of OTULIN chain-binding mutants lead to increased Met1-polyUb in cells (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A). Moreover, this interaction most likely recruits OTULIN to LUBAC targets. However, the functional consequences of a LUBAC-OTULIN interaction are unclear, given that HOIP stability, recruitment, and activity appear to be unaffected, and this requires further investigation.</p>
+        <p>Regarding the functional requirement for Met1-linked chains in NF-ÎºB responses, key questions remain to be answered. First, inÂ contrast to Lys63-linked chains, for which roles in NF-ÎºB signaling have long been verified, for example, by elegant replacement strategies (<xref rid="bib40" ref-type="bibr">Xu etÂ al., 2009</xref>), Met1-linked polymers have a very low abundance, and are hard to detect in cell lysates. This may change with the discovery that catalytically inactive OTULIN (<xref rid="fig4" ref-type="fig">FigureÂ 4</xref>A) or OTULIN knockdown (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>C) leads to the stabilization of Met1 linkages. A second, more important issue is the lack of proteins modified with Met1-polyUb inÂ vivo after a physiological stimulus. We believe that OTULIN can also be instrumental here, given that its specificity can be exploited as a Met1-specific Ub-binding protein when inactivated or in mass spectrometry methods. We anticipate that the identification of LUBAC and OTULIN targets may reveal a surprising variety of cellular proteins not restricted to NF-ÎºB signaling.</p>
+      </sec>
+      <sec id="sec3.3">
+        <title>Role of OTULIN in Cytokine Responses</title>
+        <p>Our data identify roles of OTULIN in TNFÎ± signaling, which is in agreement with reported roles of Met1-polyUb in this pathway (<xref rid="bib11" ref-type="bibr">Haas etÂ al., 2009</xref>; <xref rid="bib33" ref-type="bibr">Tokunaga etÂ al., 2009</xref>; <xref rid="bib37" ref-type="bibr">Walczak etÂ al., 2012</xref>). However, in TNFÎ± signaling, the putative redundant or nonredundant involvement of many different Ub chain types leads to a complicated interplay of Ub signaling (<xref rid="bib22" ref-type="bibr">Kulathu and Komander, 2012</xref>). The functional importance of Met1-linked chains in the mix is supported by genetic evidence from <italic>cpdm</italic> mice lacking SHARPIN (<xref rid="bib10" ref-type="bibr">Gerlach etÂ al., 2011</xref>; <xref rid="bib15" ref-type="bibr">Ikeda etÂ al., 2011</xref>; <xref rid="bib34" ref-type="bibr">Tokunaga etÂ al., 2011</xref>) and data from human patients with mutations in HOIL1 (<xref rid="bib3" ref-type="bibr">Boisson etÂ al., 2012</xref>). So far, there is no unifying molecular mechanism that explains why so many different forms of polyUb are seemingly important for the activation of identical kinase cascades upon TNFÎ± stimulation. Interestingly, the effects of OTULIN overexpression or knockdown seem more pronounced in poly(I:C) versus TNFÎ± signaling (<xref rid="fig6" ref-type="fig">Figures 6</xref>A and <xref rid="fig7" ref-type="fig">7</xref>E), and it will be important to study roles of OTULIN in other pathways that depend on Met1-linked chains, such as NOD2 signaling (<xref rid="bib6" ref-type="bibr">Damgaard etÂ al., 2012</xref>).</p>
+        <p>Our data support a role of Met1 linkages in providing an important scaffold for productive complex formation, given that the loss of Met1-linked chains induced by OTULIN overexpression prevents the association of NEMO with ubiquitinated RIPK1. Ubiquitinated RIPK1 is targeted also by the DUBs A20 (<xref rid="bib14" ref-type="bibr">Hymowitz and Wertz, 2010</xref>) and CYLD (<xref rid="bib31" ref-type="bibr">Sun, 2010</xref>). CYLD hydrolyzes Met1 linkages (<xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>) and, hence, could also contribute to antagonize LUBAC signaling. However, although A20 and CYLD are induced by TNFÎ± for the establishment of a negative feedback loop, neither OTULIN (<xref rid="fig7" ref-type="fig">FigureÂ 7</xref>F) nor LUBAC (<xref rid="bib11" ref-type="bibr">Haas etÂ al., 2009</xref>) are induced by TNFÎ±, again suggesting that they function as a differentially regulated signaling module. OTULIN is subject to phosphorylation, acetylation, and ubiquitination in cells, and it will be interesting to study whether these modifications regulate its activity or function.</p>
+        <p>Overall, our data suggest that the identified DUB OTULIN is an antagonist of the LUBAC E3 ligase complex. Consistent with reported roles for Met1-polyUb, changing OTULIN expression affects LUBAC-mediated processes, including NF-ÎºB signaling. Detailed genetic analysis will be necessary in order to understand how LUBAC and OTULIN balance Met1-polyUb chains inÂ vivo. This might confirm some reported roles and may reveal new cellular roles for this atypical Ub chain type.</p>
+      </sec>
+    </sec>
+    <sec sec-type="methods" id="sec4">
+      <title>Experimental Procedures</title>
+      <sec id="sec4.1">
+        <title>Identification of OTULIN</title>
+        <p>FAM105B/OUTLIN was identified bioinformatically with generalized profile analysis, as described in the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec4.2">
+        <title>Cloning, Expression, and Purification</title>
+        <p><italic>FAM105B</italic> was cloned from brain complementary DNA (Invitrogen), expressed in <italic>E.Â coli</italic> from pOPIN-F vector, and purified by anion exchange and gel filtration.</p>
+      </sec>
+      <sec id="sec4.3">
+        <title>Crystallization and Structure Determination</title>
+        <p>Apo, SeMet-substituted, and mutant OTULIN were crystalized from 100Â mM MES and imidazole, 30Â mM MgCl<sub>2</sub>, 30Â mM CaCl<sub>2</sub>, 10% (w/v) PEG 4k, and 20% glycerol (pH 6.5). The structure of apo OTULIN was determined by single anomalous dispersion, and subsequent structures were determined by molecular replacement.</p>
+      </sec>
+      <sec id="sec4.4">
+        <title>Qualitative DUB Linkage Specificity Assay</title>
+        <p>Qualitative deubiquitination assays were performed as previously described (<xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>).</p>
+      </sec>
+      <sec id="sec4.5">
+        <title>Binding Studies and DUB Kinetics</title>
+        <p>Binding studies were performed as in <xref rid="bib41" ref-type="bibr">Ye etÂ al. (2011)</xref>, and kinetic studies were performed as in <xref rid="bib36" ref-type="bibr">Virdee etÂ al. (2010)</xref> with FlAsH-tagged Met1-diUb variants.</p>
+      </sec>
+      <sec id="sec4.6">
+        <title>Cellular Studies of OTULIN</title>
+        <p>OTULIN and A20 were expressed from pOPIN-F or pcDNA4/TO/MRGS6H, HOIP, SHARPIN and HOIL-1L from pcDNA3.1, and GST-tagged NEMO were expressed from pEBG vectors. Stable T-REx 293 cell lines overexpressing pcDNA4/TO/MRGS6H-OTULIN or a pDEST30-EmGFP construct with an miRNA targeting the 3â² untranslated region of <italic>FAM105B</italic> were generated according to the manufacturerâs protocol (Invitrogen). Knockdown analysis was performed in miRNA cell lines or with eight different siRNA sequences, as listed in the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>.</p>
+      </sec>
+      <sec id="sec4.7">
+        <title>NF-ÎºB Activity Analysis</title>
+        <p>NF-ÎºB activity was assessed by luciferase assays, for which cells were cotransfected with M3P sin rev ÎºB firefly and pRL-TK <italic>Renilla</italic> (Promega) luciferase plasmids by immunofluorescence with anti-p65 staining or by quantitative PCR, as described in the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>. TNFÎ± signaling was analyzed by western blotting with the antibodies listed in the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>.</p>
+        <p>
+          <boxed-text id="dtbox1">
+            <label>Extended Experimental Procedures</label>
+            <sec id="dtbox1sec1">
+              <title>Bioinformatics</title>
+              <p>Multiple sequence alignments were created by using the L-INS-I algorithm of the MAFFT package (<xref rid="bib50" ref-type="bibr">Katoh etÂ al., 2002</xref>). Sequence profiles were constructed, scaled, and subjected to iterative refinement using programs from the PFTOOLS package (<xref rid="bib5" ref-type="bibr">Bucher etÂ al., 1996</xref>). Only database hits with <italic>p-value</italic>sÂ &lt; 0.01 were included in the next iteration cycle. The significance of novel OTU assignments was further assessed by HMM-HMM comparison using the HHSEARCH program (<xref rid="bib55" ref-type="bibr">SÃ¶ding, 2005</xref>).</p>
+            </sec>
+            <sec id="dtbox1sec2">
+              <title>Materials and Reagents</title>
+              <p>Di- and tetraUb for Lys6, Lys11, Lys48, Lys63 were generated using published procedures (<xref rid="bib46" ref-type="bibr">Bremm etÂ al., 2010</xref>; <xref rid="bib49" ref-type="bibr">Hospenthal etÂ al., 2013</xref>; <xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>). Met1-linked di- and tetraUb was produced according to (<xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>). DiUb of Lys27-, Lys29- and Lys33-linkages were purchased from Boston Biochem. Proteins and epitope tags were detected with the following antibodies: anti-A20 (59A426) (Imgenex); anti-Caspase-3 (#9662), anti-c-Jun (60A8), anti-phospho-IÎºBÎ± (14D4 or 5A5), anti-iÎºBÎ± (L35A5), anti-JNK1 (2C6), anti-PARP (#9542), anti-phospho-c-Jun (D47G9), anti-phospho-JNK (81E11) and anti-NEMO (DA10-12), (Cell Signaling); anti-HOIL-1/C20ORF18, anti-HOIP/RNF31, anti-Tubulin (Sigma); anti-actin (sc-1616) (or Millipore), anti-iÎºBÎ± (C15), IKK Î±/Î² (sc-7607), anti-NEMO (sc-8330), anti-p65 (sc372), anti-Ub (Santa Cruz Biotechnology) (P4D1), (Millipore (FK2) or Imgenex); anti-RIPK1 (BD Biosciences); anti-Sharpin, (ProteinTech); anti-HA, (Roche Diagnostics); anti-6His (Clontech) and anti-RGS4His (QIAGEN). The Met1-linkage specific Ub chain antibody was kindly provided by Vishva Dixit (Genentech). A Fam105B/OTULIN antibody was generated by Cambridge Research Biochemicals from rabbits that were immunized with full-length recombinant His6-OTULIN. Recombinant human TNFÎ± (R&amp;D systems); poly(I:C) and blasticidine (Invivogen;, zeocin (Invitrogen); G418 (PAA) and GTM20 GFP-Trap (Chromotek).</p>
+              <p>DNA oligos were obtained from Sigma Aldrich and siRNA duplexes against OTULIN and HOIP from Dharmacon (Smart pools, SP, Thermo Scientific), Sigma and Eurogentech.</p>
+              <p>The pRL-TK Renilla (Invitrogen) and the M3P sin rev ÎºB firefly luciferase (coding for 4 NF-ÎºB binding sites in the firefly luciferase promoter) plasmids were a kind gift of Felix Randow (MRC LMB), pcDNA3-HOIP1-/HOIL1-/Sharpin-V5-His vectors were kindly provided by Henning Walczak (Imperial College, London). pcDNA4/TO/N-MRGS6H (a modified pcDNA4/TO/myc-His B, Invitrogen) was a kind gift of Gerrit J.K. Praefcke (University of Cologne). pEBG-NEMO FL was a kind gift from Sally Swift (ICR London).</p>
+            </sec>
+            <sec id="dtbox1sec3">
+              <title>Molecular Biology</title>
+              <p>The coding sequence for full-length Fam105B/OTULIN was obtained following PCR amplification of a Human Adult Normal Brain cDNA library (Invitrogen) using KOD HotStart DNA polymerase (Novagen) and the following primers: OTULIN fwd 5â- AAGTTCTGTTTCAGGGCCCGATGAGTCGGGGGACTATGCCCC and OTULIN rev 5â-ATGGTCTAGAAAGCTTTATAGACTGGTCTCCTCACACA CTCTG. The PCR product was cloned into pOPINF and pOPIN-GFP (<xref rid="bib45" ref-type="bibr">Berrow etÂ al., 2007</xref>) using Infusion HD (Clontech). The OTULIN catalytic domain (OTULINcat, aa 80-352) was subcloned into pOPINF from full-length OTULIN using OTULIN80 fwd primer 5â-AAGTTCTGTTTCAGGGCCCGTTAAGCGTAGCTCCTGAAATGGATATCATGG-3â. OTULIN mutants (C129A, Y91F, W96A, L259E, E314R, and a triple mutant TQK100-102 to AAA) were generated in the full-length OTULIN sequence in pOPIN-F by site directed mutagenesis using the Quikchange method with KOD HotStart DNA polymerase according to manufacturerâs protocol, and used for bacterial protein expression as well as for luciferase analysis. NEMO mutants were generated in pEBG-NEMO. OTULIN FL variants were subcloned into a modified pcDNA4/TO/MRGS6H using the following primers 5â-GCGGATCCATGAGTCGGGGGACTATGCCCC and 3-GGCTCGAGTTATCATAGACTGGTCTCCTCACACACTCTG. HA-tagged OTULIN (HA-OTULIN) was generated by PCR amplification of OTULIN from pcDNA4/TO/MRGS6H-OTULIN and cloning into Not1 and XhoI sites in pcDNA5/FRT/TO/N-2xHA-2xStrepTag (a kind gift from Pascal Meier and Tencho Tenev, Institute of Cancer Research, London, UK) using the following primers 5'-AAAAGCGGCCGCATGAGTCGGGGGACTATGCCC and 5'-AAACTCGAGTCATAGACTGGTCTCCTCACACACTC. Ub and Met1-diUb was expressed from pET17 plasmids (<xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>). Mutated (G76S) Met1-tetraUb was generated by cloning Ub fragments in which the C-terminal Gly-Gly coding sequence was exchanged for a BamHI site encoding Gly-Ser. FlAsH-tagged diUb constructs in which a C-terminal WCCPGCC motif replaces aa 72-76 were described previously (<xref rid="bib41" ref-type="bibr">Ye etÂ al., 2011</xref>). To generate untagged monoUb wild-type and E16A for mammalian expression, the following primers were used: pcDNA-Ub fwd GCGGATCCGCCGCCACCATGCAGATCTTCGTG AAGACCCTGAC and pcDNA-Ub rev CGAATTCTTATCACCCACCTCTGAGA CGGAGGAC. All constructs were verified by sequencing. Note that sequencing revealed that the pEBG-NEMO K285,309R construct had an additional E287G mutation.</p>
+            </sec>
+            <sec id="dtbox1sec4">
+              <title>Expression and Purification of OTULIN</title>
+              <p>OTULIN was expressed in <italic>E.Â coli</italic> strain Rosetta2 (DE3) pLacI. Cells were grown at 30Â°C in 2xTY containing 50Â Î¼g/ml ampicillin, 34Â Î¼g/ml chloramphenicol to an OD<sub>600</sub> of 0.7. The culture was cooled to 20Â°C prior to induction with 150-400Â Î¼M IPTG and harvested 20Â hr postinduction.</p>
+              <p>Cells were resuspended and lysed by sonication in lysis buffer (20Â mM Tris pH 8.0, 500Â mM NaCl, 50Â mM imidazole, 5Â mM Î²-mercaptoethanol, lysozyme DNaseI (Sigma), protease inhibitor cocktail (Roche)). OTULIN was purified by immobilized metal-affinity chromatography using Ni<sup>2+</sup> resin (GE Life Sciences). The His6-tag was removed by overnight incubation with 3C Protease. For biochemical studies, OTULIN was subjected to size exclusion chromatography (SEC) (HiLoad 16/60 Superdex 75, GE Life Sciences) in buffer A (20Â mM Tris, 150Â mM NaCl, 5Â mM Î²-mercaptoethanol, pH 8.0). For crystallographic analysis, OTULINcat was dialyzed into 20Â mM Tris, 5Â mM DTT (pH 8.5) and subject to anion exchange chromatography (HiTrapQ FF, GE Life Sciences), prior to SEC in buffer A. Purified proteins were concentrated and flash frozen.</p>
+            </sec>
+            <sec id="dtbox1sec5">
+              <title>Qualitative DUB Linkage Specificity Assay</title>
+              <p>Qualitative deubiquitination assays were performed as previously described (<xref rid="bib21" ref-type="bibr">Komander etÂ al., 2009</xref>). Briefly, DUBs were diluted in 25Â mM Tris (pH 7.5), 150Â mM NaCl, and 10Â mM DTT and activated at 23Â°C for 10Â min. Subsequently, 1Â Î¼M di- or tetraUb was incubated with 10Â nM, 50Â nM or 1Â Î¼M DUBs in 50Â mM Tris (pH 7.5), 50Â mM NaCl and 5Â mM DTT at 37Â°C. Samples were taken at different time points and directly mixed with 4x SDS sample buffer to stop the reaction. The reaction was resolved on 4%â12% SDS-PAGE gradient gels using MES running buffer (Invitrogen), and visualized by silver staining using the BioRad SilverStain Plus kit.</p>
+            </sec>
+            <sec id="dtbox1sec6">
+              <title>Ub Suicide Probe Generation and Analysis</title>
+              <p>Ub thioester was generated following Ub-intein cleavage as described previously (<xref rid="bib43" ref-type="bibr">Akutsu etÂ al., 2011</xref>). Haloalkylamine haloacid salts of 2-chloroethylamine (C2Cl), 2-bromoethylamine (C2Br) and 3-bromopropylamine (C3Br) were dissolved to a final concentration of 0.7Â M in 20Â mM Tris, 200Â mM NaCl, 5Â mM DTT, pH 8.0 and 0.2Â mmol of each salt was mixed with 40Â Î¼M Ub-thioester. The reaction was initiated with 100Â Î¼l of 2Â M NaOH and incubated at room temperature for 40Â min. The reaction was quenched following addition of equimolar HCl and the reacted Ub-probes were buffer exchanged into 25Â mM Tris, 200Â mM NaCl, 5Â mM DTT, pH 8.0.</p>
+              <p>For monitoring Ub-probe reactivity, vOTU was used as a positive control, which displays strong reactivity toward different Ub-probes (<xref rid="bib43" ref-type="bibr">Akutsu etÂ al., 2011</xref>). Enzymes were diluted to a concentration of 3.6Â Î¼M and reacted with 15Â Î¼M Ub-probe for 30Â min at room temperature. The reaction was stopped by the addition of SDS sample buffer (Invitrogen) and resolved by SDS-PAGE.</p>
+            </sec>
+            <sec id="dtbox1sec7">
+              <title>Crystallization</title>
+              <p>Initial hits of all crystals were obtained by sitting-drop vapor diffusion method. Native (15Â mg/ml), selenomethionine (SeMet)-substituted (0.1Â mg/ml) and D336A (12Â mg/ml) OTULINcat crystals were grown from drops containing an equal volume of protein and reservoir (100Â mM MES/imidazole, 30Â mM MgCl<sub>2</sub>, 30Â mM CaCl<sub>2</sub>, 10% (w/v) PEG 4k, 20% (v/v) glycerol, pH 6.5). For SeMet-substituted crystals, native crystals were used to seed hanging drops containing SeMet-substituted OTULINcat. For Met1-diUb complex crystals, OTULINcat C129A was mixed with Met1-diUb in a 1:1.2 molar ratio, and set up at a concentration of 13Â mg/ml. Crystals grew from 100Â mM Bis-Tris, 2Â M (NH<sub>4</sub>)<sub>2</sub>SO<sub>4</sub>, pH 6.5. Prior to data collection WT, D336A and SeMet-OTULINcat crystals were harvested and vitrified in liquid nitrogen. OTULINcat C129A-Met1-diUb crystals were soaked in 2.5Â M Li<sub>2</sub>SO<sub>4</sub> prior to vitrification.</p>
+            </sec>
+            <sec id="dtbox1sec8">
+              <title>Data Collection, Structure Determination, and Refinement</title>
+              <p>Diffraction data were collected at the European Synchrotron Radiation Facility (ESRF), beam lines ID14-4 and ID23-1, and at Diamond Light Source, beam line I04-1. Diffraction images were processed and integrated using iMOSFLM (<xref rid="bib44" ref-type="bibr">Battye etÂ al., 2011</xref>) and scaled using SCALA (<xref rid="bib48" ref-type="bibr">Evans, 2006</xref>). The structure of OTULINcat was determined by SAD phasing using data collected from a SeMet-substituted crystal. Phasing and density modification were performed using the Shelx Software pipeline (<xref rid="bib54" ref-type="bibr">Sheldrick, 2008</xref>). Automated model building using ARP/wARP (<xref rid="bib51" ref-type="bibr">Langer etÂ al., 2008</xref>) fitted â¼95% of the OTULIN sequence into the electron density. The structure of OTULINcat D336A was determined using a refined model of the apo OTULINcat structure with residues from the catalytic site omitted during the early stages of refinement. The structure of OTULINcat C129A in complex with Met1-diUb was determined by molecular replacement using PHASER (<xref rid="bib52" ref-type="bibr">McCoy etÂ al., 2007</xref>) with OTULINcat and Ub as initial search models. Iterative rounds of model building and refinement were performed with coot (<xref rid="bib47" ref-type="bibr">Emsley etÂ al., 2010</xref>) and PHENIX (<xref rid="bib42" ref-type="bibr">Afonine etÂ al., 2012</xref>), respectively. Final refinement of WT and D336A OTULINcat structures employed Refmac5 (<xref rid="bib25" ref-type="bibr">Murshudov etÂ al., 2011</xref>) where the occupancies of Cys129 and His339 were independently refined. Simulated-annealing composite omit maps were calculated using PHENIX (<xref rid="bib42" ref-type="bibr">Afonine etÂ al., 2012</xref>). All structural figures were generated with Pymol (<ext-link ext-link-type="uri" xlink:href="http://www.pymol.org" id="intref0030">www.pymol.org</ext-link>). Data collection and refinement statistics can be found in <xref rid="mmc1" ref-type="supplementary-material">Table S1</xref>.</p>
+            </sec>
+            <sec id="dtbox1sec9">
+              <title>Expression, Purification, and Labeling of Ub Constructs</title>
+              <p>Ub constructs (mono- and Met1-diUb) were expressed and purified as described (<xref rid="bib53" ref-type="bibr">Pickart and Raasi, 2005</xref>). In the case of FlAsH-tagged diUb constructs, 5Â mM Î²-mercaptoethanol was included in all purification steps to prevent oxidation of the WCCPGCC motif. FlAsH-tagged Met1-diUb constructs were labeled by Lumio Green (Invitrogen) as described in (<xref rid="bib41" ref-type="bibr">Ye etÂ al., 2011</xref>), flash-frozen and stored in aliquots at â80Â°C.</p>
+            </sec>
+            <sec id="dtbox1sec10">
+              <title>Ub-AMC Assay</title>
+              <p>Ub-AMC (Boston Biochem) was diluted in reaction buffer (20Â mM Tris, 100Â mM NaCl, 1Â mM Î²-mercaptoethanol, pH 7.4). For each reaction 10Â Î¼l of diluted substrate in a black 384-well low volume plate (Corning) was mixed with 10Â Î¼l of either: 10 pM UCH-L3 (<xref rid="bib36" ref-type="bibr">Virdee etÂ al., 2010</xref>) or 500Â nM OTULIN at 37Â°C. The rate of AMC generation was measured using a PheraStar plate reader (BMG Labtech). Fluorescent intensities were recorded following excitation at 340Â nm and emission at 440Â nm. Initial rates of Ub-AMC cleavage were recorded at each substrate concentration and fitted to a Michaelis-Menten equation using Graphpad Prism 5.</p>
+            </sec>
+            <sec id="dtbox1sec11">
+              <title>Binding Studies Performed with Size Exclusion Chromatography</title>
+              <p>Analytical SEC analysis was performed on an AKTA Micro system (GE Life Sciences) using a Superdex 75 PC 3.2/30 column equilibrated in SEC buffer (20Â mM Tris, 50Â mM NaCl, 5Â mM DTT pH 8.0). Inactive OTULIN 80-352 C129A (OTULINcat C129A) was mixed with Met1-diUb variants in a 1:1.3 molar ratio (33.5Â Î¼M: 43Â Î¼M) and incubated at room temperature for 30Â min. 125Â Î¼g of complex was loaded onto the column. Fractions containing protein were mixed with SDS loading buffer prior to SDS-PAGE analysis.</p>
+            </sec>
+            <sec id="dtbox1sec12">
+              <title>Binding Studies Performed with Fluorescence Anisotropy</title>
+              <p>To measure binding affinities of OTULIN C129A variants to Met1-diUb variants, 10Â Î¼l of 100Â nM FlAsH-tagged Met1-diUb was aliquoted into a 384 -well low volume plate (Corning). Serial dilutions in FlAsH-buffer (20Â mM Tris (pH 7.4), 100Â mM NaCl, 5Â mM Î²-mercaptoethanol, 0.1Â mg/ml bovine serum albumin) were prepared of OTULIN C129A variants and 10Â Î¼l of this was added to FlAsH-tagged Met1-diUb containing wells. Fluorescence polarization was recorded on a PheraStar plate reader (BMG Labtech) using an optics module with <italic>Î»</italic><sub><italic>ex</italic></sub>Â = 485Â nm and <italic>Î»</italic><sub><italic>em</italic></sub>Â = 520Â nm. Fluorescence polarization values were fitted to a one-site binding model using Graphpad Prism 5 to derive binding constants (<italic>K</italic><sub><italic>D</italic></sub>).</p>
+            </sec>
+            <sec id="dtbox1sec13">
+              <title>Chain Cleavage Kinetics Assessed with Fluorescence Anisotropy</title>
+              <p>Change in fluorescence anisotropy upon cleavage of the peptide bond between the distal and proximal ubiquitin molecules was used to derive Michaelis-Menten rates (<xref rid="bib36" ref-type="bibr">Virdee etÂ al., 2010</xref>). Reactions were performed in a black 384-well low volume plate (Corning) and measured on a PheraStar plate reader (BMG Labtech) carrying a fluorescence polarization module with <italic>Î»</italic><sub><italic>ex</italic></sub>Â = 485Â nm and <italic>Î»</italic><sub><italic>em</italic></sub>Â = 520Â nm. Met1-diUb variants were serially diluted into FlAsH-buffer and contained a fixed concentration of 300Â nM FlAsH-tagged Met1-diUb, to detect changes in fluorescence anisotropy. To each well, 10Â Î¼l of substrate was mixed with 10Â Î¼l OTULIN variants in FlAsH-buffer. The change of fluorescence anisotropy was recorded over a period of 5Â min. The observed fluorescence polarization values were converted to percentage of substrate cleavage by comparing to baseline values from intact substrate and FlAsH-tagged monoUb that were acquired for each experiment. All measurements were corrected by subtracting changes in fluorescent anisotropy for FlAsH-tagged Met1-diUb alone. Triplicate recordings were made for each substrate concentration. Kinetic analysis was performed in Graphpad Prism 5. Initial rates of the enzymatic reaction were calculated and plotted against substrate concentration at a fixed OTULIN concentration, allowing determination of Michaelis-Menten parameters (<xref rid="fig3" ref-type="fig">FigureÂ 3</xref>).</p>
+            </sec>
+            <sec id="dtbox1sec14">
+              <title>Linear Chain Assembly Assays</title>
+              <p>The RBR and C-terminal region of HOIP (residues 699â1,072) (<xref rid="bib29" ref-type="bibr">Smit etÂ al., 2012</xref>; <xref rid="bib30" ref-type="bibr">Stieglitz etÂ al., 2012</xref>) was cloned into pOPINK. Protein was expressed in <italic>E.Â coli</italic> Rosetta2 pLacI cells. Cells were grown at 37Â°C until an OD of 0.9, induced with 50Â Î¼M IPTG, 200Â Î¼M ZnCl<sub>2</sub> and grown at 19Â°C overnight. Cells were lysed in GST lysis buffer (270Â mM sucrose, 10Â mM glycerol 2-phosphate, 50Â mM NaF, 14Â mM Î²-mercaptoethanol, 50Â mM Tris (pH 8.0)) and the lysate was incubated with Glutathione Sepharose 4B (GE Life Sciences). Bound protein was cleaved following overnight incubation PreScission protease. Cleaved protein was subjected to SEC (HiLoad Superdex75 16/60, GE Healthcare) in 200Â mM NaCl, 10Â mM DTT, 25Â mM Tris pH 8.5.</p>
+              <p>The ligation assay was performed by mixing 100Â nM E1, 2.2Â Î¼M UBE2L3, 2.5Â Î¼M HOIP 699-1072 and 0.25Â mg/ml Ub or Ub E16A in reaction buffer (40Â mM Tris pH 7.5, 10Â mM MgCl<sub>2</sub>, 0.6Â mM DTT). A sample was taken before addition of 10Â mM ATP (tÂ = 0Â min). The reaction was incubated at 37Â°C for 60Â min before another sample was removed. Samples were analyzed by SDS-PAGE and stained using SilverStain Plus kit (BioRad).</p>
+            </sec>
+            <sec id="dtbox1sec15">
+              <title>Cell Culture</title>
+              <p>HEK 293ET, HeLa, U2OS, HCT116 and MCF7 cells were cultured in DMEMÂ + GlutaMAX-I (GIBCO), RKO and Jurkat cells in RPMI (GIBCO) both supplemented with 10% (v/v) FBS (Hyclone, Thermo Scientific), 100Â U/ml penicillin,100Â Î¼g/mL streptomycin at 37Â°C and 5% CO<sub>2</sub>. T-REx293 cells (Invitrogen) were grown at similar conditions in DMEMÂ + GlutaMAX-I (GIBCO), 10% (v/v) Tet-approved FBS (Clontech), 100Â U/ml penicillin, 100Â Î¼g/ml streptomycin, 5Â Î¼g/mL blasticidin (InvivoGen).</p>
+            </sec>
+            <sec id="dtbox1sec16">
+              <title>Immunoprecipitation of Endogenous OTULIN from HEK 293ET Cells</title>
+              <p>Endogenous OTULIN was immunoprecipitated from HEK 293ET cells using OTULIN-specific antibodies coupled to Protein A sepharose (Roche) via Dimethylpimelimidate (Sigma). Cells were lysed in PBS, 0.1% (v/v) Triton X-100, COMPLETE protease inhibitor cocktail (Roche), 2Â mM NEM and lysates were incubated overnight with Protein A-coupled OTULIN antibodies. Beads were washed five times with PBS, 0.01% (v/v) Triton X-100, COMPLETE protease inhibitor cocktail (Roche), 2Â mM NEM and eluted in PBS/0.5% SDS pH 9.0 or by boiling in 2x SDS sample buffer.</p>
+            </sec>
+            <sec id="dtbox1sec17">
+              <title>Immunoprecipitation of Endogenous NEMO</title>
+              <p>HeLa cells were transfected and treated as indicated. Cells were lysed in IP buffer (25Â mM HEPES pH 7.4, 150Â mM KCl, 2Â mM MgCl<sub>2</sub>, 1Â mM EGTA, 0.5% (v/v) Triton X-100) supplemented with 5Â mM N-Ethylmaleimide (NEM; Sigma Aldrich), COMPLETE protease inhibitor cocktail (Roche) and PhosSTOP (Roche) for 30Â min on ice. Lysates were cleared by centrifugation and were incubated at 4Â°C overnight with anti-iKK Î³-coupled beads (Santa Cruz Biotechnology). Beads were washed four times in 500Â Î¼l ice-cold IP buffer and bound material eluted with 0.2Â M glycine, pH 2.5.</p>
+            </sec>
+            <sec id="dtbox1sec18">
+              <title>Purification of Ubiquitinated Proteins</title>
+              <p>Ubiquitin conjugates from cell lysates were pulled down in U2OS FlpIn-T-REx cells using affinity reagents. For isolation of Met1-Ub chains, recombinant protein containing one copy of the UBAN domain from human NEMO (residues 257-346) fused to Glutatione-S-transferase (GST) was used (M1-SUB). TUBE1, consisting of four UBA domains in tandem fused to GST, was used to purify all ubiquitin chains. One confluent 10Â cm dish per condition was lysed in 600Â Î¼l Lysis buffer (20Â mM Na<sub>2</sub>HPO<sub>4</sub>, 20Â mM NaH<sub>2</sub>PO<sub>4</sub>, 1% (v/v) NP-40, 2Â mM EDTA) supplemented with 1Â mM DTT, 5Â mM NEM, COMPLETE protease inhibitor cocktail and PhosSTOP. Lysates were divided in two and 50Â Î¼g TUBE1 or 100Â Î¼g M1-SUB was added. Lysates were cleared, mixed with Glutathione Sepharose 4B beads (GE Healthcare) and incubated at 4Â°C for a minimum of 2Â hr with rotation. Beads were washed four times in 500Â Î¼l ice-cold PBS Tween-20 (0.1% (v/v)). Bound material was eluted with 1xSDS sample buffer.</p>
+            </sec>
+            <sec id="dtbox1sec19">
+              <title>Isolation of OTULIN-GFP from Cells for Specificity Assays</title>
+              <p>2Â Ã 10<sup>7</sup> HEK 293ET cells were transiently transfected with pOPIN-GFP-OTULIN WT or C129A for 24Â hr using GeneJuice (Novagen). Cells were lysed in 200Â Î¼l GFP lysis buffer (10Â mM Tris pH 7.5, 150Â mM NaCl, 0.5Â mM EDTA, 0.5% (v/v) NP40, COMPLETE protease inhibitor cocktail (Roche)) for 30Â min on ice. Diluted lysates were incubated with 120Â Î¼l equilibrated Magnetic GFP-Trap beads (Chromotek) for 16Â hr at 4Â°C and washed following the manufacturerâs protocol. Beads were then washed twice in DUB dilution buffer (25Â mM Tris pH 7.5, 150Â mM NaCl, and 10Â mM DTT) and specificity assays were performed as described above using approximately 500Â nM GFP-OTULIN bound to GFP-Trap beads.</p>
+            </sec>
+            <sec id="dtbox1sec20">
+              <title>Generation of Stable Inducible Cell Lines</title>
+              <p>T-REx293 cells were stably transfected with pcDNA/TO/N-MRGS6H-OTULIN using Gene Juice (Novagen). Selection was carried out with 150Â Î¼g/ml zeocin (InvivoGen) and individual colonies were sub-cloned, expanded and screened for OTULIN expression. OTULIN expression was induced with 1Â Î¼g/ml doxycycline for 24Â hr.</p>
+              <p>For stable cell lines inducibly expressing nontargeting or OTULIN targeting miRNA, the respective sequences were cloned into theÂ mammalian pT-REx-DEST30 plasmid following the BLOCK-IT Pol II miR RNAi Expression Vector Kit with EmGFP protocol (Invitrogen). The following sequences were used: OTULIN miRNA top strand 5â²-TGCTGTGCTGTTGAATCCAGACCCAAGTTTTGGCCACTGACTGACTTGGGTCTATTCAACAGCA-3â², OTULIN miRNA bottom strand 5â²-CCTGTGCTGTTGAATAGACCCAAGTCAGTCAGTGGCCAAAACTTGGGTCTGGATTCAACAGCAC-3â². A nontargeting control miRNA sequence was used according to the manufacturerâs protocol. After stable transfection, selection was carried out with 500Â Î¼g/ml G418 (PAA) and individual clones were screened for GFP expression and OTULIN downregulation. OTULIN knock down was induced by 1Â Î¼g/ml doxycycline for 60-72Â hr.</p>
+            </sec>
+            <sec id="dtbox1sec21">
+              <title>Transient Knockdown Studies</title>
+              <p>For transient knockdown studies, 20Â nM siRNA duplexes against OTULIN or HOIP were transfected into HEK 293ET or U2OS cells using INTERFERin siRNA transfection reagent (Polyplus transfection) or Lipofectamine RNAiMAX (Invitrogen) according to the manufacturerâs instructions and analyzed 48Â hr posttransfection. For RNA interference in Jurkat TÂ cells, 100Â nM siRNA was transfected with Atufect transfection reagent (0.5â1Â mg/ml) (Silence Therapeutics) and analyzed after 72Â hr.</p>
+            </sec>
+            <sec id="dtbox1sec22">
+              <title>siRNA Sequences</title>
+              <p>Human Fam105B/OTULIN ON-TARGETplus SMARTpool (SP, Dharmacon/Thermo Scientific) contained the following siRNAs: GCUUAACUGUCUCGGGAAA, GGGCAUCAGAACCGAGAUU, UAGCAAAGGCAGGGCGCAA, CUUUAGUAGUAACGGGUUU. HOIP1/RNF31 ON-TARGETplus SMARTpool contained the following siRNAs: GCAGAAUACUCAUCCAAGA,CCUAGAACCUGAUCUUGCA, GGCGUGGUGUCAAGUUUAA, GCCGAGAUGUGCUGCGAUU. The ON-TARGETplus Nontargeting siRNA #1 (Dharmacon/Thermo Scientific) or sequence GGGAUACCUAGACGUUCUA served as a nontargeting control. Single siRNAs (SIGMA, Eurogentech) had the following sequences: #1: GACUGAAAUUUGAUGGGAA, #2: CAAAUGAGGCGGAGGAAUA, #3: ACAGAUAGCUUGUGAUGAA, #4: GCAUCAGAACCGAGAUUAA. Sequence #4 partly overlaps with one of the SP sequences.</p>
+            </sec>
+            <sec id="dtbox1sec23">
+              <title>NFÎºB Activity Assays</title>
+              <p>Cells were transiently transfected with the M3P sin rev ÎºB firefly and pRL-TK Renilla (Promega) luciferase plasmids, and with plasmids encoding indicated proteins (pOPINF-OTULIN variants, pOPINF-A20, and/or LUBAC composed of pcDNA3.1-HOIL-1, pcDNA3.1-HOIP1 or pcDNA3.1-SHARPIN using Genejuice (Novagen). Cells were lysed in Passive Lysis Buffer (Promega) 15 or 24Â hr posttransfection and luminescence was measured using a microplate reader (Berthold Detection Systems). For knockdown studies, cells were transfected with siRNAs (see above) 48Â hr before lysis. After 24Â hr, luciferase plasmids were transfected either alone or together with LUBAC; luciferase activity was assessed as described above. TNFÎ± or poly(I:C) stimulation was carried out using the indicated concentrations for 6Â hr or 20Â hr, respectively.</p>
+            </sec>
+            <sec id="dtbox1sec24">
+              <title>Immunofluorescence Staining and Confocal Microscopy</title>
+              <p>HeLa cells were grown on Glass CultureSlides (BD Biosciences) and transfected with pcDNA4/TO/N-MRGS6H-OTULIN WT, C129A, W96A or L259E 24Â hr prior to stimulation with 20Â ng/ml TNFÎ± for 30Â min. Stimulation was stopped by adding ice-cold PBS. Cells were fixed in PBS, 4% paraformaldehyde (w/v), permeabilized in PBS, 0.3% (w/v) Saponin and blocked with PBS, 0.3% (w/v) Saponin, 4% (w/v) BSA. Primary and Alexa labeled secondary antibodies (Invitrogen) were applied in blocking buffer. Slides were embedded in Mounting Medium with DAPI (VECTOR laboratories) and data were obtained using a LSM 710 on the inverse Axio Observer AX10 microscope and the ZEN2009 software (Zeiss).</p>
+            </sec>
+            <sec id="dtbox1sec25">
+              <title>Isolation of GST-NEMO Variants from Stable Cell Lines</title>
+              <p>GST-NEMO WT or K285/309R (KR) was transfected with or without LUBAC into Doxycycline induced control cells or OTULIN WT overexpressing cells. 24Â hr later, cells were lysed in PBS, 0.1% (v/v) Triton X-100, COMPLETE protease inhibitor cocktail (Roche), 2Â mM NEM and 2.5Â mg of total protein for each sample was incubated with 50Â Î¼l GSH-coupled sepharose beads 4B (GE Healthcare) overnight (o/n). Beads were washed five times with PBS, 0.01% Triton X-100 (v/v), COMPLETE protease inhibitor cocktail (Roche), 2Â mM NEM and proteins were eluted by boiling in 2x SDS sample buffer. Samples and inputs were subjected to SDS-PAGE and western blotting, and detection was carried out using indicated antibodies.</p>
+            </sec>
+            <sec id="dtbox1sec26">
+              <title>NF-ÎºB Target Gene Analysis</title>
+              <p>Stable cell lines downregulating or overexpressing OTULIN and their respective control cell lines were induced for expression with 1Â Î¼g/ml doxycycline for 72Â hr (miRNA) or 24Â hr (overexpression), respectively. Finally, cells were stimulated with 10Â ng/ml TNFÎ± for the indicated times. Signaling was stopped by adding ice-cold PBS. Cellular mRNA was isolated using the RNeasy Mini Kit, QIAshredder and the RNase-Free DNase Set (all QIAGEN). 1Â Î¼g mRNA was then reverse transcribed (QuantiTect Reverse Transcription Kit, QIAGEN) and cDNA quantification was measured by real-time PCR using the QuantiFast SYBR Green PCR Kit (QIAGEN) in a RotorGene 6000 (Corbett Research). Data were analyzed with the RotorGene 6000 software and visualized in Excel (Microsoft). All samples were normalized to their respective GAPDH levels.</p>
+            </sec>
+            <sec id="dtbox1sec27">
+              <title>Electrophoretic Mobility Shift Assays</title>
+              <p>For electrophoretic mobility shift assay (EMSA), cells were lysed in whole cell lysis buffer (20Â mM HEPES pH 7.9, 350Â mM NaCl, 20% (v/v) glycerol, 1Â mM MgCl<sub>2</sub>, 0.5Â mM EDTA, 0.1 EGTA, 1% (v/v) Nonidet P-40, 0.5Â M NaF, 1Â M DTT, 1Â M Î²-glycerophosphate, 200Â mM Na vanadate, and 50x COMPLETE protease inhibitor (Roche)) according to standard protocols. Electrophoretic mobility shift assays (EMSA) were performed by using a <sup>32</sup>P-dATPâlabeled, double-stranded NF-ÎºB oligonucleotide probe (5â²-CAGGGCTGGGGATTCCCCATCTCCACAGG-3â²). The samples were separated on native polyacrylamide gels prior to autoradiography.</p>
+            </sec>
+            <sec id="dtbox1sec28">
+              <title>Cell Viability Assays</title>
+              <p>Stable inducible cell lines overexpressing or downregulating OTULIN and their respective control cell lines were induced for expression with 1Â Î¼g/ml doxycycline. After 24Â hr (overexpression) or 72Â hr (miRNA downregulation), on day 0, cells were stimulated or not with 50Â ng/ml TNFÎ± for 24Â hr in doxycycline containing media. On day 1, for samples of day 2-4, media was exchanged to doxycycline containing media without TNFÎ±. Thereby, detached cells were collected and re-plated into their respective wells. For all samples, attached and detached cells were collected after the indicated days and counted using a Vi-Cell XR cell viability analyzer (Beckman Coulter). Cells were also stained with crystal violet to visualize the cell counting results. The staining procedure included fixing in PBS, 4% (v/v) paraformaldehyde for 5Â min and staining in 0.05% Crystal Violet (Sigma) for 30Â min.</p>
+            </sec>
+            <sec id="dtbox1sec29">
+              <title>Analysis of Signaling Cascades</title>
+              <p>To analyze TNFÎ±-induced NF-ÎºB signaling, stable cell lines downregulating or overexpressing OTULIN and their respective control cell lines were induced for expression with 1Â Î¼g/ml doxycycline for 72Â hr (miRNA) and 24Â hr (overexpression), respectively. Finally, cells were stimulated with 10 (miRNA) or 100Â ng/ml TNFÎ± (overexpression) for the indicated times. Addition of ice-cold PBS stopped signaling. Cells were lysed in ice-cold lysis buffer (PBS, 0.1% Triton X-100 (v/v), protease inhibitor cocktail (Roche), 2Â mM NEM, PhosphoSTOP (Roche)) for 30Â min on ice. Lysate protein concentration was measured by Bradford assay, and equal protein amounts were subjected to SDS-PAGE and western blotting. Analysis was carried out with the indicated antibodies.</p>
+            </sec>
+            <sec id="dtbox1sec30">
+              <title>Immunoprecipitation of the TNF Receptor Signaling Complex</title>
+              <p>TNF-RSC was purified from the indicated cell lines after stimulation with 100Â ng/ml Flag-TNFÎ± ((Human TNFÎ±, from Alexis) for the indicated times. Ice-cold PBS was added to the plate to stop stimulation. Following lysis, TNF-RSC was purified by incubation with Flag M2 agarose beads (Sigma). TNFR was purified from the unstimulated sample by adding 1Â Î¼g of TNFÎ± during lysis. The purified TNF-RSC was analyzed by western blotting for linear ubiquitination, HOIP and TNFR1.</p>
+            </sec>
+            <sec id="dtbox1sec31">
+              <title>Kinase Assay</title>
+              <p>For Kinase assays, Jurkat TÂ cells were lysed in 900Â Î¼l co-IP buffer (25Â mM HEPES pH 7.5, 150Â mM NaCl, 0.2% (v/v) NP-40, 10% (v/v) glycerol, 1Â mM DTT, 10Â mM sodium fluoride, 8Â mM Î²-glycerophosphate, 300Â Î¼M sodium vanadate and protease inhibitor cocktail). After immunoprecipitation with NEMO antibody (Santa Cruz, sc-8330), pellets were washed and incubated in kinase assay buffer (20Â mM HEPES pH 7.5, 10Â mM MgCl<sub>2</sub>, 20Â Î¼M ATP, 20Â mM Î²-glycerophosphate, 50Â Î¼M Na vanadate, 1Â mM DTT) in the presence of GST-IÎºBÎ± (1-53) for 25Â min at 37Â°C. After boiling in loading buffer, the kinase reactions were separated on SDS-PAGE and analyzed by autoradiography.</p>
+            </sec>
+          </boxed-text>
+        </p>
+      </sec>
+    </sec>
+  </body>
+  <back>
+    <ref-list>
+      <title>References</title>
+      <ref id="bib1">
+        <element-citation publication-type="journal" id="sref1">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Amerik AYu</surname>
+            </name>
+            <name>
+              <surname>Swaminathan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Krantz</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Hochstrasser</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>InÂ vivo disassembly of free polyubiquitin chains by yeast Ubp14 modulates rates of protein degradation by the proteasome</article-title>
+          <source>EMBO J.</source>
+          <volume>16</volume>
+          <year>1997</year>
+          <fpage>4826</fpage>
+          <lpage>4838</lpage>
+          <pub-id pub-id-type="pmid">9305625</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib2">
+        <element-citation publication-type="journal" id="sref2">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Behrends</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Harper</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Constructing and decoding unconventional ubiquitin chains</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>18</volume>
+          <year>2011</year>
+          <fpage>520</fpage>
+          <lpage>528</lpage>
+          <pub-id pub-id-type="pmid">21540891</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib3">
+        <element-citation publication-type="journal" id="sref3">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Boisson</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Laplantine</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Prando</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Giliani</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Israelsson</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Xu</surname>
+              <given-names>Z.</given-names>
+            </name>
+            <name>
+              <surname>Abhyankar</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>IsraÃ«l</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Trevejo-Nunez</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bogunovic</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Immunodeficiency, autoinflammation and amylopectinosis in humans with inherited HOIL-1 and LUBAC deficiency</article-title>
+          <source>Nat. Immunol.</source>
+          <volume>13</volume>
+          <year>2012</year>
+          <fpage>1178</fpage>
+          <lpage>1186</lpage>
+          <pub-id pub-id-type="pmid">23104095</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib4">
+        <element-citation publication-type="journal" id="sref4">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Borodovsky</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ovaa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kolli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Gan-Erdene</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Ploegh</surname>
+              <given-names>H.L.</given-names>
+            </name>
+            <name>
+              <surname>Kessler</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Chemistry-based functional proteomics reveals novel members of the deubiquitinating enzyme family</article-title>
+          <source>Chem. Biol.</source>
+          <volume>9</volume>
+          <year>2002</year>
+          <fpage>1149</fpage>
+          <lpage>1159</lpage>
+          <pub-id pub-id-type="pmid">12401499</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib5">
+        <element-citation publication-type="journal" id="sref5">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bucher</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Karplus</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Moeri</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Hofmann</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A flexible motif search technique based on generalized profiles</article-title>
+          <source>Comput. Chem.</source>
+          <volume>20</volume>
+          <year>1996</year>
+          <fpage>3</fpage>
+          <lpage>23</lpage>
+          <pub-id pub-id-type="pmid">8867839</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib6">
+        <element-citation publication-type="journal" id="sref6">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Damgaard</surname>
+              <given-names>R.B.</given-names>
+            </name>
+            <name>
+              <surname>Nachbur</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Yabal</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>W.W.-L.</given-names>
+            </name>
+            <name>
+              <surname>Fiil</surname>
+              <given-names>B.K.</given-names>
+            </name>
+            <name>
+              <surname>Kastirr</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Rieser</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rickard</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Bankovacki</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Peschel</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ubiquitin ligase XIAP recruits LUBAC for NOD2 signaling in inflammation and innate immunity</article-title>
+          <source>Mol. Cell</source>
+          <volume>46</volume>
+          <year>2012</year>
+          <fpage>746</fpage>
+          <lpage>758</lpage>
+          <pub-id pub-id-type="pmid">22607974</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib7">
+        <element-citation publication-type="journal" id="sref7">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Edelmann</surname>
+              <given-names>M.J.</given-names>
+            </name>
+            <name>
+              <surname>IphÃ¶fer</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Altun</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>di Gleria</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kramer</surname>
+              <given-names>H.B.</given-names>
+            </name>
+            <name>
+              <surname>Fiebiger</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Dhe-Paganon</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kessler</surname>
+              <given-names>B.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>Structural basis and specificity of human otubain 1-mediated deubiquitination</article-title>
+          <source>Biochem. J.</source>
+          <volume>418</volume>
+          <year>2009</year>
+          <fpage>379</fpage>
+          <lpage>390</lpage>
+          <pub-id pub-id-type="pmid">18954305</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib8">
+        <element-citation publication-type="journal" id="sref8">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Faesen</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Luna-Vargas</surname>
+              <given-names>M.P.A.</given-names>
+            </name>
+            <name>
+              <surname>Geurink</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Clerici</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Merkx</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>van Dijk</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>Hameed</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>El Oualid</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Ovaa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Sixma</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The differential modulation of USP activity by internal regulatory domains, interactors and eight ubiquitin chain types</article-title>
+          <source>Chem. Biol.</source>
+          <volume>18</volume>
+          <year>2011</year>
+          <fpage>1550</fpage>
+          <lpage>1561</lpage>
+          <pub-id pub-id-type="pmid">22195557</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib9">
+        <element-citation publication-type="journal" id="sref9">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Frias-Staheli</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Giannakopoulos</surname>
+              <given-names>N.V.</given-names>
+            </name>
+            <name>
+              <surname>Kikkert</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Taylor</surname>
+              <given-names>S.L.</given-names>
+            </name>
+            <name>
+              <surname>Bridgen</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Paragas</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Richt</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Rowland</surname>
+              <given-names>R.R.</given-names>
+            </name>
+            <name>
+              <surname>Schmaljohn</surname>
+              <given-names>C.S.</given-names>
+            </name>
+            <name>
+              <surname>Lenschow</surname>
+              <given-names>D.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Ovarian tumor domain-containing viral proteases evade ubiquitin- and ISG15-dependent innate immune responses</article-title>
+          <source>Cell Host Microbe</source>
+          <volume>2</volume>
+          <year>2007</year>
+          <fpage>404</fpage>
+          <lpage>416</lpage>
+          <pub-id pub-id-type="pmid">18078692</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib10">
+        <element-citation publication-type="journal" id="sref10">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Gerlach</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Cordier</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Schmukle</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Emmerich</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Rieser</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Haas</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Webb</surname>
+              <given-names>A.I.</given-names>
+            </name>
+            <name>
+              <surname>Rickard</surname>
+              <given-names>J.A.</given-names>
+            </name>
+            <name>
+              <surname>Anderton</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Wong</surname>
+              <given-names>W.W.-L.</given-names>
+            </name>
+          </person-group>
+          <article-title>Linear ubiquitination prevents inflammation and regulates immune signalling</article-title>
+          <source>Nature</source>
+          <volume>471</volume>
+          <year>2011</year>
+          <fpage>591</fpage>
+          <lpage>596</lpage>
+          <pub-id pub-id-type="pmid">21455173</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib11">
+        <element-citation publication-type="journal" id="sref11">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Haas</surname>
+              <given-names>T.L.</given-names>
+            </name>
+            <name>
+              <surname>Emmerich</surname>
+              <given-names>C.H.</given-names>
+            </name>
+            <name>
+              <surname>Gerlach</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Schmukle</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Cordier</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>Rieser</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Feltham</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Vince</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Warnken</surname>
+              <given-names>U.</given-names>
+            </name>
+            <name>
+              <surname>Wenger</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>Recruitment of the linear ubiquitin chain assembly complex stabilizes the TNF-R1 signaling complex and is required for TNF-mediated gene induction</article-title>
+          <source>Mol. Cell</source>
+          <volume>36</volume>
+          <year>2009</year>
+          <fpage>831</fpage>
+          <lpage>844</lpage>
+          <pub-id pub-id-type="pmid">20005846</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib12">
+        <element-citation publication-type="journal" id="sref12">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hayden</surname>
+              <given-names>M.S.</given-names>
+            </name>
+            <name>
+              <surname>Ghosh</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Shared principles in NF-kappaB signaling</article-title>
+          <source>Cell</source>
+          <volume>132</volume>
+          <year>2008</year>
+          <fpage>344</fpage>
+          <lpage>362</lpage>
+          <pub-id pub-id-type="pmid">18267068</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib13">
+        <element-citation publication-type="journal" id="sref13">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hershko</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Ciechanover</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ubiquitin system</article-title>
+          <source>Annu. Rev. Biochem.</source>
+          <volume>67</volume>
+          <year>1998</year>
+          <fpage>425</fpage>
+          <lpage>479</lpage>
+          <pub-id pub-id-type="pmid">9759494</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib14">
+        <element-citation publication-type="journal" id="sref14">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hymowitz</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Wertz</surname>
+              <given-names>I.E.</given-names>
+            </name>
+          </person-group>
+          <article-title>A20: from ubiquitin editing to tumour suppression</article-title>
+          <source>Nat. Rev. Cancer</source>
+          <volume>10</volume>
+          <year>2010</year>
+          <fpage>332</fpage>
+          <lpage>341</lpage>
+          <pub-id pub-id-type="pmid">20383180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib15">
+        <element-citation publication-type="journal" id="sref15">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ikeda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Deribe</surname>
+              <given-names>Y.L.</given-names>
+            </name>
+            <name>
+              <surname>SkÃ¥nland</surname>
+              <given-names>S.S.</given-names>
+            </name>
+            <name>
+              <surname>Stieglitz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Grabbe</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Franz-Wachtel</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>van Wijk</surname>
+              <given-names>S.J.L.</given-names>
+            </name>
+            <name>
+              <surname>Goswami</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Nagy</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Terzic</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>SHARPIN forms a linear ubiquitin ligase complex regulating NF-ÎºB activity and apoptosis</article-title>
+          <source>Nature</source>
+          <volume>471</volume>
+          <year>2011</year>
+          <fpage>637</fpage>
+          <lpage>641</lpage>
+          <pub-id pub-id-type="pmid">21455181</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib16">
+        <element-citation publication-type="journal" id="sref16">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Juang</surname>
+              <given-names>Y.-C.</given-names>
+            </name>
+            <name>
+              <surname>Landry</surname>
+              <given-names>M.-C.</given-names>
+            </name>
+            <name>
+              <surname>Sanches</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Vittal</surname>
+              <given-names>V.</given-names>
+            </name>
+            <name>
+              <surname>Leung</surname>
+              <given-names>C.C.Y.</given-names>
+            </name>
+            <name>
+              <surname>Ceccarelli</surname>
+              <given-names>D.F.</given-names>
+            </name>
+            <name>
+              <surname>Mateo</surname>
+              <given-names>A.-R.F.</given-names>
+            </name>
+            <name>
+              <surname>Pruneda</surname>
+              <given-names>J.N.</given-names>
+            </name>
+            <name>
+              <surname>Mao</surname>
+              <given-names>D.Y.L.</given-names>
+            </name>
+            <name>
+              <surname>Szilard</surname>
+              <given-names>R.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>OTUB1 co-opts Lys48-linked ubiquitin recognition to suppress E2 enzyme function</article-title>
+          <source>Mol. Cell</source>
+          <volume>45</volume>
+          <year>2012</year>
+          <fpage>384</fpage>
+          <lpage>397</lpage>
+          <pub-id pub-id-type="pmid">22325355</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib17">
+        <element-citation publication-type="journal" id="sref17">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Karin</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ben-Neriah</surname>
+              <given-names>Y.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phosphorylation meets ubiquitination: the control of NF-[kappa]B activity</article-title>
+          <source>Annu. Rev. Immunol.</source>
+          <volume>18</volume>
+          <year>2000</year>
+          <fpage>621</fpage>
+          <lpage>663</lpage>
+          <pub-id pub-id-type="pmid">10837071</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib18">
+        <element-citation publication-type="journal" id="sref18">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kayagaki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Phung</surname>
+              <given-names>Q.</given-names>
+            </name>
+            <name>
+              <surname>Chan</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chaudhari</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Quan</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>OâRourke</surname>
+              <given-names>K.M.</given-names>
+            </name>
+            <name>
+              <surname>Eby</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pietras</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Cheng</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Bazan</surname>
+              <given-names>J.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>DUBA: a deubiquitinase that regulates type I interferon production</article-title>
+          <source>Science</source>
+          <volume>318</volume>
+          <year>2007</year>
+          <fpage>1628</fpage>
+          <lpage>1632</lpage>
+          <pub-id pub-id-type="pmid">17991829</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib19">
+        <element-citation publication-type="journal" id="sref19">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kirisako</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kamei</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Murata</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Fukumoto</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Kanie</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sano</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Iwai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>A ubiquitin ligase complex assembles linear polyubiquitin chains</article-title>
+          <source>EMBO J.</source>
+          <volume>25</volume>
+          <year>2006</year>
+          <fpage>4877</fpage>
+          <lpage>4887</lpage>
+          <pub-id pub-id-type="pmid">17006537</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib20">
+        <element-citation publication-type="journal" id="sref20">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Rape</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The ubiquitin code</article-title>
+          <source>Annu. Rev. Biochem.</source>
+          <volume>81</volume>
+          <year>2012</year>
+          <fpage>203</fpage>
+          <lpage>229</lpage>
+          <pub-id pub-id-type="pmid">22524316</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib21">
+        <element-citation publication-type="journal" id="sref21">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Reyes-Turcu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Licchesi</surname>
+              <given-names>J.D.F.</given-names>
+            </name>
+            <name>
+              <surname>Odenwaelder</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Barford</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular discrimination of structurally equivalent Lys 63-linked and linear polyubiquitin chains</article-title>
+          <source>EMBO Rep.</source>
+          <volume>10</volume>
+          <year>2009</year>
+          <fpage>466</fpage>
+          <lpage>473</lpage>
+          <pub-id pub-id-type="pmid">19373254</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib22">
+        <element-citation publication-type="journal" id="sref22">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Kulathu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Atypical ubiquitylation - the unexplored world of polyubiquitin beyond Lys48 and Lys63 linkages</article-title>
+          <source>Nat. Rev. Mol. Cell Biol.</source>
+          <volume>13</volume>
+          <year>2012</year>
+          <fpage>508</fpage>
+          <lpage>523</lpage>
+          <pub-id pub-id-type="pmid">22820888</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib23">
+        <element-citation publication-type="journal" id="sref23">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Licchesi</surname>
+              <given-names>J.D.F.</given-names>
+            </name>
+            <name>
+              <surname>Mieszczanek</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Mevissen</surname>
+              <given-names>T.E.T.</given-names>
+            </name>
+            <name>
+              <surname>Rutherford</surname>
+              <given-names>T.J.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Virdee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>El Oualid</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Chin</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Ovaa</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Bienz</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>An ankyrin-repeat ubiquitin-binding domain determines TRABIDâs specificity for atypical ubiquitin chains</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>19</volume>
+          <year>2012</year>
+          <fpage>62</fpage>
+          <lpage>71</lpage>
+          <pub-id pub-id-type="pmid">22157957</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib24">
+        <element-citation publication-type="journal" id="sref24">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Matsumoto</surname>
+              <given-names>M.L.</given-names>
+            </name>
+            <name>
+              <surname>Dong</surname>
+              <given-names>K.C.</given-names>
+            </name>
+            <name>
+              <surname>Yu</surname>
+              <given-names>C.</given-names>
+            </name>
+            <name>
+              <surname>Phu</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Gao</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Hannoush</surname>
+              <given-names>R.N.</given-names>
+            </name>
+            <name>
+              <surname>Hymowitz</surname>
+              <given-names>S.G.</given-names>
+            </name>
+            <name>
+              <surname>Kirkpatrick</surname>
+              <given-names>D.S.</given-names>
+            </name>
+            <name>
+              <surname>Dixit</surname>
+              <given-names>V.M.</given-names>
+            </name>
+            <name>
+              <surname>Kelley</surname>
+              <given-names>R.F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Engineering and structural characterization of a linear polyubiquitin-specific antibody</article-title>
+          <source>J.Â Mol. Biol.</source>
+          <volume>418</volume>
+          <year>2012</year>
+          <fpage>134</fpage>
+          <lpage>144</lpage>
+          <pub-id pub-id-type="pmid">22227388</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib56">
+        <element-citation publication-type="journal" id="sref56">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Mevissen</surname>
+              <given-names>T.E.</given-names>
+            </name>
+            <name>
+              <surname>Hospenthal</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Geurink</surname>
+              <given-names>P.P.</given-names>
+            </name>
+            <name>
+              <surname>Elliott</surname>
+              <given-names>P.R.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Arnaudo</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Ekkebus</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kulathu</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Wauer</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>El Oualid</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>OTU Deubiquitinases Reveal Mechanisms of Linkage Specificity and Enable Ubiquitin Chain Restriction Analysis</article-title>
+          <source>Cell</source>
+          <volume>154</volume>
+          <year>2013</year>
+          <comment>Published online July 3, 2013</comment>
+        </element-citation>
+      </ref>
+      <ref id="bib25">
+        <element-citation publication-type="journal" id="sref25">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Murshudov</surname>
+              <given-names>G.N.</given-names>
+            </name>
+            <name>
+              <surname>SkubÃ¡k</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lebedev</surname>
+              <given-names>A.A.</given-names>
+            </name>
+            <name>
+              <surname>Pannu</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Steiner</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Nicholls</surname>
+              <given-names>R.A.</given-names>
+            </name>
+            <name>
+              <surname>Winn</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Long</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Vagin</surname>
+              <given-names>A.A.</given-names>
+            </name>
+          </person-group>
+          <article-title>REFMAC5 for the refinement of macromolecular crystal structures</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <volume>67</volume>
+          <year>2011</year>
+          <fpage>355</fpage>
+          <lpage>367</lpage>
+          <pub-id pub-id-type="pmid">21460454</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib26">
+        <element-citation publication-type="journal" id="sref26">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Nakada</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Tai</surname>
+              <given-names>I.</given-names>
+            </name>
+            <name>
+              <surname>Panier</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Al-Hakim</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Iemura</surname>
+              <given-names>S.-I.</given-names>
+            </name>
+            <name>
+              <surname>Juang</surname>
+              <given-names>Y.-C.</given-names>
+            </name>
+            <name>
+              <surname>OâDonnell</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Kumakubo</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Munro</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sicheri</surname>
+              <given-names>F.</given-names>
+            </name>
+          </person-group>
+          <article-title>Non-canonical inhibition of DNA damage-dependent ubiquitination by OTUB1</article-title>
+          <source>Nature</source>
+          <volume>466</volume>
+          <year>2010</year>
+          <fpage>941</fpage>
+          <lpage>946</lpage>
+          <pub-id pub-id-type="pmid">20725033</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib27">
+        <element-citation publication-type="journal" id="sref27">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ozkaynak</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Finley</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Varshavsky</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>The yeast ubiquitin gene: head-to-tail repeats encoding a polyubiquitin precursor protein</article-title>
+          <source>Nature</source>
+          <volume>312</volume>
+          <year>1984</year>
+          <fpage>663</fpage>
+          <lpage>666</lpage>
+          <pub-id pub-id-type="pmid">6095120</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib28">
+        <element-citation publication-type="journal" id="sref28">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Rahighi</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ikeda</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Kawasaki</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Suzuki</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Kensche</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Uejima</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Bloor</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Specific recognition of linear ubiquitin chains by NEMO is important for NF-kappaB activation</article-title>
+          <source>Cell</source>
+          <volume>136</volume>
+          <year>2009</year>
+          <fpage>1098</fpage>
+          <lpage>1109</lpage>
+          <pub-id pub-id-type="pmid">19303852</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib29">
+        <element-citation publication-type="journal" id="sref29">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Smit</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Monteferrario</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Noordermeer</surname>
+              <given-names>S.M.</given-names>
+            </name>
+            <name>
+              <surname>van Dijk</surname>
+              <given-names>W.J.</given-names>
+            </name>
+            <name>
+              <surname>van der Reijden</surname>
+              <given-names>B.A.</given-names>
+            </name>
+            <name>
+              <surname>Sixma</surname>
+              <given-names>T.K.</given-names>
+            </name>
+          </person-group>
+          <article-title>The E3 ligase HOIP specifies linear ubiquitin chain assembly through its RING-IBR-RING domain and the unique LDD extension</article-title>
+          <source>EMBO J.</source>
+          <volume>31</volume>
+          <year>2012</year>
+          <fpage>3833</fpage>
+          <lpage>3844</lpage>
+          <pub-id pub-id-type="pmid">22863777</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib30">
+        <element-citation publication-type="journal" id="sref30">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Stieglitz</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Morris-Davies</surname>
+              <given-names>A.C.</given-names>
+            </name>
+            <name>
+              <surname>Koliopoulos</surname>
+              <given-names>M.G.</given-names>
+            </name>
+            <name>
+              <surname>Christodoulou</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Rittinger</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>LUBAC synthesizes linear ubiquitin chains via a thioester intermediate</article-title>
+          <source>EMBO Rep.</source>
+          <volume>13</volume>
+          <year>2012</year>
+          <fpage>840</fpage>
+          <lpage>846</lpage>
+          <pub-id pub-id-type="pmid">22791023</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib31">
+        <element-citation publication-type="journal" id="sref31">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sun</surname>
+              <given-names>S.-C.</given-names>
+            </name>
+          </person-group>
+          <article-title>CYLD: a tumor suppressor deubiquitinase regulating NF-kappaB activation and diverse biological processes</article-title>
+          <source>Cell Death Differ.</source>
+          <volume>17</volume>
+          <year>2010</year>
+          <fpage>25</fpage>
+          <lpage>34</lpage>
+          <pub-id pub-id-type="pmid">19373246</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib32">
+        <element-citation publication-type="journal" id="sref32">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Iwai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>LUBAC, a novel ubiquitin ligase for linear ubiquitination, is crucial for inflammation and immune responses</article-title>
+          <source>Microbes Infect.</source>
+          <volume>14</volume>
+          <year>2012</year>
+          <fpage>563</fpage>
+          <lpage>572</lpage>
+          <pub-id pub-id-type="pmid">22309894</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib33">
+        <element-citation publication-type="journal" id="sref33">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Sakata</surname>
+              <given-names>S.-I.</given-names>
+            </name>
+            <name>
+              <surname>Saeki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Satomi</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Kirisako</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kamei</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Kato</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Murata</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Yamaoka</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Involvement of linear polyubiquitylation of NEMO in NF-kappaB activation</article-title>
+          <source>Nat. Cell Biol.</source>
+          <volume>11</volume>
+          <year>2009</year>
+          <fpage>123</fpage>
+          <lpage>132</lpage>
+          <pub-id pub-id-type="pmid">19136968</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib34">
+        <element-citation publication-type="journal" id="sref34">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Tokunaga</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Nakagawa</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Nakahara</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Saeki</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Taniguchi</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Sakata</surname>
+              <given-names>S.-I.</given-names>
+            </name>
+            <name>
+              <surname>Tanaka</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Nakano</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Iwai</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>SHARPIN is a component of the NF-ÎºB-activating linear ubiquitin chain assembly complex</article-title>
+          <source>Nature</source>
+          <volume>471</volume>
+          <year>2011</year>
+          <fpage>633</fpage>
+          <lpage>636</lpage>
+          <pub-id pub-id-type="pmid">21455180</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib35">
+        <element-citation publication-type="journal" id="sref35">
+          <person-group person-group-type="author">
+            <name>
+              <surname>van Wijk</surname>
+              <given-names>S.J.L.</given-names>
+            </name>
+            <name>
+              <surname>Fiskin</surname>
+              <given-names>E.</given-names>
+            </name>
+            <name>
+              <surname>Putyrski</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Pampaloni</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Hou</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Wild</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Kensche</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Grecco</surname>
+              <given-names>H.E.</given-names>
+            </name>
+            <name>
+              <surname>Bastiaens</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Dikic</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Fluorescence-based sensors to monitor localization and functions of linear and K63-linked ubiquitin chains in cells</article-title>
+          <source>Mol. Cell</source>
+          <volume>47</volume>
+          <year>2012</year>
+          <fpage>797</fpage>
+          <lpage>809</lpage>
+          <pub-id pub-id-type="pmid">22819327</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib36">
+        <element-citation publication-type="journal" id="sref36">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Virdee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Nguyen</surname>
+              <given-names>D.P.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Chin</surname>
+              <given-names>J.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>Engineered diubiquitin synthesis reveals Lys29-isopeptide specificity of an OTU deubiquitinase</article-title>
+          <source>Nat. Chem. Biol.</source>
+          <volume>6</volume>
+          <year>2010</year>
+          <fpage>750</fpage>
+          <lpage>757</lpage>
+          <pub-id pub-id-type="pmid">20802491</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib37">
+        <element-citation publication-type="journal" id="sref37">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Walczak</surname>
+              <given-names>H.</given-names>
+            </name>
+            <name>
+              <surname>Iwai</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Dikic</surname>
+              <given-names>I.</given-names>
+            </name>
+          </person-group>
+          <article-title>Generation and physiological roles of linear ubiquitin chains</article-title>
+          <source>BMC Biol.</source>
+          <volume>10</volume>
+          <year>2012</year>
+          <fpage>23</fpage>
+          <pub-id pub-id-type="pmid">22420778</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib38">
+        <element-citation publication-type="journal" id="sref38">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wickliffe</surname>
+              <given-names>K.E.</given-names>
+            </name>
+            <name>
+              <surname>Lorenz</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Wemmer</surname>
+              <given-names>D.E.</given-names>
+            </name>
+            <name>
+              <surname>Kuriyan</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Rape</surname>
+              <given-names>M.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mechanism of linkage-specific ubiquitin chain elongation by a single-subunit E2</article-title>
+          <source>Cell</source>
+          <volume>144</volume>
+          <year>2011</year>
+          <fpage>769</fpage>
+          <lpage>781</lpage>
+          <pub-id pub-id-type="pmid">21376237</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib39">
+        <element-citation publication-type="journal" id="sref39">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Wiener</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Zhang</surname>
+              <given-names>X.</given-names>
+            </name>
+            <name>
+              <surname>Wang</surname>
+              <given-names>T.</given-names>
+            </name>
+            <name>
+              <surname>Wolberger</surname>
+              <given-names>C.</given-names>
+            </name>
+          </person-group>
+          <article-title>The mechanism of OTUB1-mediated inhibition of ubiquitination</article-title>
+          <source>Nature</source>
+          <volume>483</volume>
+          <year>2012</year>
+          <fpage>618</fpage>
+          <lpage>622</lpage>
+          <pub-id pub-id-type="pmid">22367539</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib40">
+        <element-citation publication-type="journal" id="sref40">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Xu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Skaug</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Zeng</surname>
+              <given-names>W.</given-names>
+            </name>
+            <name>
+              <surname>Chen</surname>
+              <given-names>Z.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A ubiquitin replacement strategy in human cells reveals distinct mechanisms of IKK activation by TNFalpha and IL-1beta</article-title>
+          <source>Mol. Cell</source>
+          <volume>36</volume>
+          <year>2009</year>
+          <fpage>302</fpage>
+          <lpage>314</lpage>
+          <pub-id pub-id-type="pmid">19854138</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib41">
+        <element-citation publication-type="journal" id="sref41">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Ye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Reyes-Turcu</surname>
+              <given-names>F.</given-names>
+            </name>
+            <name>
+              <surname>Enchev</surname>
+              <given-names>R.I.</given-names>
+            </name>
+            <name>
+              <surname>Wilkinson</surname>
+              <given-names>K.D.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Polyubiquitin binding and cross-reactivity in the USP domain deubiquitinase USP21</article-title>
+          <source>EMBO Rep.</source>
+          <volume>12</volume>
+          <year>2011</year>
+          <fpage>350</fpage>
+          <lpage>357</lpage>
+          <pub-id pub-id-type="pmid">21399617</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <ref-list>
+      <title>Supplemental References</title>
+      <ref id="bib42">
+        <element-citation publication-type="journal" id="sref42">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Afonine</surname>
+              <given-names>P.V.</given-names>
+            </name>
+            <name>
+              <surname>Grosse-Kunstleve</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Echols</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Headd</surname>
+              <given-names>J.J.</given-names>
+            </name>
+            <name>
+              <surname>Moriarty</surname>
+              <given-names>N.W.</given-names>
+            </name>
+            <name>
+              <surname>Mustyakimov</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Terwilliger</surname>
+              <given-names>T.C.</given-names>
+            </name>
+            <name>
+              <surname>Urzhumtsev</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Zwart</surname>
+              <given-names>P.H.</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>P.D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Towards automated crystallographic structure refinement with phenix.refine</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <volume>68</volume>
+          <year>2012</year>
+          <fpage>352</fpage>
+          <lpage>367</lpage>
+          <pub-id pub-id-type="pmid">22505256</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib43">
+        <element-citation publication-type="journal" id="sref43">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Akutsu</surname>
+              <given-names>M.</given-names>
+            </name>
+            <name>
+              <surname>Ye</surname>
+              <given-names>Y.</given-names>
+            </name>
+            <name>
+              <surname>Virdee</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Chin</surname>
+              <given-names>J.W.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Molecular basis for ubiquitin and ISG15 cross-reactivity in viral ovarian tumor domains</article-title>
+          <source>Proc. Natl. Acad. Sci. USA</source>
+          <volume>108</volume>
+          <year>2011</year>
+          <fpage>2228</fpage>
+          <lpage>2233</lpage>
+          <pub-id pub-id-type="pmid">21266548</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib44">
+        <element-citation publication-type="journal" id="sref44">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Battye</surname>
+              <given-names>T.G.G.</given-names>
+            </name>
+            <name>
+              <surname>Kontogiannis</surname>
+              <given-names>L.</given-names>
+            </name>
+            <name>
+              <surname>Johnson</surname>
+              <given-names>O.</given-names>
+            </name>
+            <name>
+              <surname>Powell</surname>
+              <given-names>H.R.</given-names>
+            </name>
+            <name>
+              <surname>Leslie</surname>
+              <given-names>A.G.W.</given-names>
+            </name>
+          </person-group>
+          <article-title>iMOSFLM: a new graphical interface for diffraction-image processing with MOSFLM</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <volume>67</volume>
+          <year>2011</year>
+          <fpage>271</fpage>
+          <lpage>281</lpage>
+          <pub-id pub-id-type="pmid">21460445</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib45">
+        <element-citation publication-type="journal" id="sref45">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Berrow</surname>
+              <given-names>N.S.</given-names>
+            </name>
+            <name>
+              <surname>Alderton</surname>
+              <given-names>D.</given-names>
+            </name>
+            <name>
+              <surname>Sainsbury</surname>
+              <given-names>S.</given-names>
+            </name>
+            <name>
+              <surname>Nettleship</surname>
+              <given-names>J.</given-names>
+            </name>
+            <name>
+              <surname>Assenberg</surname>
+              <given-names>R.</given-names>
+            </name>
+            <name>
+              <surname>Rahman</surname>
+              <given-names>N.</given-names>
+            </name>
+            <name>
+              <surname>Stuart</surname>
+              <given-names>D.I.</given-names>
+            </name>
+            <name>
+              <surname>Owens</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>A versatile ligation-independent cloning method suitable for high-throughput expression screening applications</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>35</volume>
+          <year>2007</year>
+          <fpage>e45</fpage>
+          <pub-id pub-id-type="pmid">17317681</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib46">
+        <element-citation publication-type="journal" id="sref46">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Bremm</surname>
+              <given-names>A.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>S.M.V.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Lys11-linked ubiquitin chains adopt compact conformations and are preferentially hydrolyzed by the deubiquitinase Cezanne</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>17</volume>
+          <year>2010</year>
+          <fpage>939</fpage>
+          <lpage>947</lpage>
+          <pub-id pub-id-type="pmid">20622874</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib47">
+        <element-citation publication-type="journal" id="sref47">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Emsley</surname>
+              <given-names>P.</given-names>
+            </name>
+            <name>
+              <surname>Lohkamp</surname>
+              <given-names>B.</given-names>
+            </name>
+            <name>
+              <surname>Scott</surname>
+              <given-names>W.G.</given-names>
+            </name>
+            <name>
+              <surname>Cowtan</surname>
+              <given-names>K.</given-names>
+            </name>
+          </person-group>
+          <article-title>Features and development of Coot</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <volume>66</volume>
+          <year>2010</year>
+          <fpage>486</fpage>
+          <lpage>501</lpage>
+          <pub-id pub-id-type="pmid">20383002</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib48">
+        <element-citation publication-type="journal" id="sref48">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Evans</surname>
+              <given-names>P.</given-names>
+            </name>
+          </person-group>
+          <article-title>Scaling and assessment of data quality</article-title>
+          <source>Acta Crystallogr. D Biol. Crystallogr.</source>
+          <volume>62</volume>
+          <year>2006</year>
+          <fpage>72</fpage>
+          <lpage>82</lpage>
+          <pub-id pub-id-type="pmid">16369096</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib49">
+        <element-citation publication-type="journal" id="sref49">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Hospenthal</surname>
+              <given-names>M.K.</given-names>
+            </name>
+            <name>
+              <surname>Freund</surname>
+              <given-names>S.M.V.</given-names>
+            </name>
+            <name>
+              <surname>Komander</surname>
+              <given-names>D.</given-names>
+            </name>
+          </person-group>
+          <article-title>Assembly, analysis and architecture of atypical ubiquitin chains</article-title>
+          <source>Nat. Struct. Mol. Biol.</source>
+          <volume>20</volume>
+          <year>2013</year>
+          <fpage>555</fpage>
+          <lpage>565</lpage>
+          <pub-id pub-id-type="pmid">23563141</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib50">
+        <element-citation publication-type="journal" id="sref50">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Katoh</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Misawa</surname>
+              <given-names>K.</given-names>
+            </name>
+            <name>
+              <surname>Kuma</surname>
+              <given-names>K.-I.</given-names>
+            </name>
+            <name>
+              <surname>Miyata</surname>
+              <given-names>T.</given-names>
+            </name>
+          </person-group>
+          <article-title>MAFFT: a novel method for rapid multiple sequence alignment based on fast Fourier transform</article-title>
+          <source>Nucleic Acids Res.</source>
+          <volume>30</volume>
+          <year>2002</year>
+          <fpage>3059</fpage>
+          <lpage>3066</lpage>
+          <pub-id pub-id-type="pmid">12136088</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib51">
+        <element-citation publication-type="journal" id="sref51">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Langer</surname>
+              <given-names>G.</given-names>
+            </name>
+            <name>
+              <surname>Cohen</surname>
+              <given-names>S.X.</given-names>
+            </name>
+            <name>
+              <surname>Lamzin</surname>
+              <given-names>V.S.</given-names>
+            </name>
+            <name>
+              <surname>Perrakis</surname>
+              <given-names>A.</given-names>
+            </name>
+          </person-group>
+          <article-title>Automated macromolecular model building for X-ray crystallography using ARP/wARP version 7</article-title>
+          <source>Nat. Protoc.</source>
+          <volume>3</volume>
+          <year>2008</year>
+          <fpage>1171</fpage>
+          <lpage>1179</lpage>
+          <pub-id pub-id-type="pmid">18600222</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib52">
+        <element-citation publication-type="journal" id="sref52">
+          <person-group person-group-type="author">
+            <name>
+              <surname>McCoy</surname>
+              <given-names>A.J.</given-names>
+            </name>
+            <name>
+              <surname>Grosse-Kunstleve</surname>
+              <given-names>R.W.</given-names>
+            </name>
+            <name>
+              <surname>Adams</surname>
+              <given-names>P.D.</given-names>
+            </name>
+            <name>
+              <surname>Winn</surname>
+              <given-names>M.D.</given-names>
+            </name>
+            <name>
+              <surname>Storoni</surname>
+              <given-names>L.C.</given-names>
+            </name>
+            <name>
+              <surname>Read</surname>
+              <given-names>R.J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Phaser crystallographic software</article-title>
+          <source>J.Â Appl. Cryst.</source>
+          <volume>40</volume>
+          <year>2007</year>
+          <fpage>658</fpage>
+          <lpage>674</lpage>
+          <pub-id pub-id-type="pmid">19461840</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib53">
+        <element-citation publication-type="journal" id="sref53">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Pickart</surname>
+              <given-names>C.M.</given-names>
+            </name>
+            <name>
+              <surname>Raasi</surname>
+              <given-names>S.</given-names>
+            </name>
+          </person-group>
+          <article-title>Controlled synthesis of polyubiquitin chains</article-title>
+          <source>Methods Enzymol.</source>
+          <volume>399</volume>
+          <year>2005</year>
+          <fpage>21</fpage>
+          <lpage>36</lpage>
+          <pub-id pub-id-type="pmid">16338346</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib54">
+        <element-citation publication-type="journal" id="sref54">
+          <person-group person-group-type="author">
+            <name>
+              <surname>Sheldrick</surname>
+              <given-names>G.M.</given-names>
+            </name>
+          </person-group>
+          <article-title>A short history of SHELX</article-title>
+          <source>Acta Crystallogr. A</source>
+          <volume>64</volume>
+          <year>2008</year>
+          <fpage>112</fpage>
+          <lpage>122</lpage>
+          <pub-id pub-id-type="pmid">18156677</pub-id>
+        </element-citation>
+      </ref>
+      <ref id="bib55">
+        <element-citation publication-type="journal" id="sref55">
+          <person-group person-group-type="author">
+            <name>
+              <surname>SÃ¶ding</surname>
+              <given-names>J.</given-names>
+            </name>
+          </person-group>
+          <article-title>Protein homology detection by HMM-HMM comparison</article-title>
+          <source>Bioinformatics</source>
+          <volume>21</volume>
+          <year>2005</year>
+          <fpage>951</fpage>
+          <lpage>960</lpage>
+          <pub-id pub-id-type="pmid">15531603</pub-id>
+        </element-citation>
+      </ref>
+    </ref-list>
+    <sec id="app1">
+      <title>Accession Numbers</title>
+      <p>Coordinates and structure factors have been deposited in the Protein Data Bank and can be found at accession numbers <ext-link ext-link-type="uri" xlink:href="pdb:3ZNV" id="intref0035">3ZNV</ext-link> (WT OTULIN apo), <ext-link ext-link-type="uri" xlink:href="pdb:3ZNX" id="intref0040">3ZNX</ext-link> (OTULIN apo D336A), and <ext-link ext-link-type="uri" xlink:href="pdb:3ZNZ" id="intref0045">3ZNZ</ext-link> (OTULIN-Met1-diUb).</p>
+    </sec>
+    <sec id="app3" sec-type="supplementary-material">
+      <title>Supplemental Information</title>
+      <p>
+        <supplementary-material content-type="local-data" id="mmc1">
+          <caption>
+            <title>Table S1. Data Collection and Refinement Statistics, Related to Figure 2</title>
+          </caption>
+          <media xlink:href="mmc1.pdf" mimetype="application" mime-subtype="pdf"/>
+        </supplementary-material>
+        <supplementary-material content-type="local-data" id="mmc2">
+          <caption>
+            <title>Document S1. Article plus Supplemental Information</title>
+          </caption>
+          <media xlink:href="mmc2.pdf" mimetype="application" mime-subtype="pdf"/>
+        </supplementary-material>
+      </p>
+    </sec>
+    <ack id="ack0010">
+      <title>Acknowledgments</title>
+      <p>We would like to thank S. McLaughlin, R. Williams, A. Finch, F. Randow, G. Murshudov (Medical Research Council [MRC] Laboratory of Molecular Biology), G. Praefcke (University of Cologne), and members of the D. Komander lab for advice, reagents, and critical comments on the manuscript. Liposome reagent for Jurkat TÂ cell transfection was a kind gift of Silence Therapeutics, Berlin. This work was supported by the MRC (U105192732 to D.Â Komander), the European Research Council (309756 to D. Komander), the European Molecular Biology Organization Young Investigator program (D.K.), the Lister Institute for Preventive Medicine (D. Komander), the German Research Foundation (DFG Priority Programme SPP1365 to K.H. and D.Â Krappmann), the Novo Nordisk Foundation (M.G.H.), and a Steno Fellowship from the Danish Council for Independent Research (M.G.H.). Crystallographic data were collected at the European Synchrotron Radiation Facility at beam lines ID14-4 and ID23-1 and at Diamond Light Source beam line I04-1.</p>
+    </ack>
+  </back>
+  <floats-group>
+    <fig id="fig1">
+      <label>FigureÂ 1</label>
+      <caption>
+        <p>Identification and Specificity of OTULIN</p>
+        <p>(A) Chemical difference between an isopeptide (left) and Met1-peptide linkage (right) in diUb. The distal Ub (top) is linked via its C-terminal Gly<sup>75</sup>-Gly<sup>76</sup> sequence to a Lys side chain Îµ-amino group in another Ub or on a substrate, generating a branched peptide. In a Met1-linked chain, the C-terminal Gly76 is connected to Met1 of the distal Ub in a standard peptide linkage. The Met1 and Gln2 side chains, as well as the Met1 carbonyl (red), represent steric differences in comparison to an isopeptide linkage. A green arrow indicates the scissile bond in a DUB reaction.</p>
+        <p>(B) Sequence alignment of FAM105B/OTULIN with OTUB1. Sequence identity is 18% for the catalytic domain. Secondary structure elements are shown for OTUB1. The OTU domain is indicated in blue, and catalytic residues are labeled with yellow stars.</p>
+        <p>(C) The domain structure of OTULIN colored as in (B).</p>
+        <p>(D) Linkage specificity of OTULIN. diUb (1Â Î¼M) of all possible linkage types is hydrolyzed over a time course by 10Â nM OTULIN and visualized on silver-stained 4%â12% gradient SDS-PAGE gels. See <xref rid="figs1" ref-type="fig">FigureÂ S1</xref>D for the assay at 1Â Î¼M OTULIN concentration.</p>
+        <p>(E) Cleavage of tetraUb chains, as in (D). The last substrate is a Met1-tetraUb with G76S mutation in all Ub moieties.</p>
+        <p>(F) Hydrolysis of Met1-diUb by OTULIN wild-type (WT) and catalytic mutants as indicated.</p>
+        <p>(G) The OTU domain of OTULIN encodes Met1-linked Ub specificity. diUb specificity analysis as in (D) with OTULIN 80â352 at a 10Â nM concentration.</p>
+        <p>(H) Affinity measurements by fluorescence anisotropy with OTULIN (1â352) C129A or OTULIN (80â352) C129A and FlAsH-tagged Met1-diUb, as described in the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>. Error bars represent SD from the mean of measurements performed in triplicate.</p>
+      </caption>
+      <graphic xlink:href="gr1"/>
+    </fig>
+    <fig id="fig2">
+      <label>FigureÂ 2</label>
+      <caption>
+        <p>Structural Analysis of OTULIN</p>
+        <p>(A) Structure of OTULINcat (aa 80â352). Ub-binding S1 and S1â sites and termini are indicated. The catalytic center is boxed.</p>
+        <p>(B) Superposition of OTULIN (blue) and OTUB1 (cyan, PDB <ext-link ext-link-type="uri" xlink:href="pdb:2ZFY" id="intref0010">2ZFY</ext-link>) (<xref rid="bib7" ref-type="bibr">Edelmann etÂ al., 2009</xref>).</p>
+        <p>(C) A close-up image of the OTULIN catalytic triad (Cys129, His339, and Asn341) showing two alternative conformations for His339 and Cys129. Dotted lines indicate hydrogen bonds. A simulated annealing composite omit map (blue, contoured at 1Ï) and |F<sub>o</sub>|-|F<sub>c</sub>| map (red, contoured at 3Ï) is shown. The active (beige) and inactive (blue) conformation of the catalytic triad are shown. Percentages represent refined occupancies from Refmac5 (<xref rid="bib25" ref-type="bibr">Murshudov etÂ al., 2011</xref>).</p>
+        <p>(D) Catalytic center of OTULIN D336A determined at a 1.35Â Ã resolution (see <xref rid="figs2" ref-type="fig">Figures S2</xref>E and S2G) shown as in (C).</p>
+        <p>(E) OTULIN variants modified by Ub suicide probes, resolved on coomassie-stained SDS-PAGE gels. An 8Â kDa shift indicates formation of a covalent OTULINâ¼Ub complex.</p>
+        <p>See <xref rid="figs1" ref-type="fig">FigureÂ S1</xref>C and the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>.</p>
+        <p>(F) Structure of OTULIN (blue) in complex with Met1-diUb (with distal Ub in red and proximal Ub in orange), shown in two orientations. The helical arm comprising the S1 and the Î±1 and Î±2 helices comprising the S1â Ub-binding sites are labeled, and the catalytic center is indicated.</p>
+        <p>(G) Surface representation of OTULIN showing S1 (dark red), and S1â (orange) binding sites. Yellow indicates residues interacting with both moieties. Labeled residues were mutated for experiments in (I) and (J).</p>
+        <p>(H) The structure of Met1-diUb indicating the interfaces with OTULIN colored as in (G). The Ile44 patch (blue) of the distal and the Phe4 patch (cyan; Gln2, Phe4, and Thr14) of the proximal Ub is indicated. Ub Glu16<sup>prox</sup> is shown in purple.</p>
+        <p>(I) Met1-diUb hydrolysis assay performed as in <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>D with 10Â nM OTULIN and OTULIN Ub-binding mutants. Mutations are annotated accordingly: cat, catalytic and Ub-binding sites; S1 and S1â, distal and proximal, respectively.</p>
+        <p>(J) Affinity (<italic>K</italic><sub><italic>D</italic></sub>) measurements of OTULIN C129A with or without Ub-binding mutations performed with fluorescence anisotropy with FlAsH-tagged Met1-diUb (<xref rid="bib41" ref-type="bibr">YeÂ etÂ al., 2011</xref>). Error bars represent SD from the mean of measurements performed in triplicate. WT, wild-type; ND, not determined.</p>
+      </caption>
+      <graphic xlink:href="gr2"/>
+    </fig>
+    <fig id="fig3">
+      <label>FigureÂ 3</label>
+      <caption>
+        <p>Substrate-Assisted Catalysis in OTULIN</p>
+        <p>(A) The OTULIN-diUb complex is shown with OTULIN under a blue surface and Met1-diUb colored as red and orange for the distal and proximal moieties, respectively. The catalytic center and Lys63-binding pocket is shown boxed.</p>
+        <p>(B) A close-up view of (A) showing all Ub Lys residues on the proximal Ub (yellow). Lys63 and Met1 are spatially close.</p>
+        <p>(C) Affinity measurements of OTULIN C129A with K48-, K63, and Met1-diUb linkages performed with fluorescence anisotropy (<xref rid="bib41" ref-type="bibr">Ye etÂ al., 2011</xref>). Error bars represent SD from the mean of measurements performed in triplicate.</p>
+        <p>(DâF) A close-up image of the OTULIN catalytic center showing key residues. Dotted lines indicate hydrogen bonds.</p>
+        <p>(D) Unliganded OTULIN, shown as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C.</p>
+        <p>(E) OTULIN C129A (blue) in complex with Met1-diUb (red and orange). Residues from the proximal Ub are shown in yellow. A green arrow indicates the scissile bond (compare to <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>A).</p>
+        <p>(F) Superposition of (D) with the Met1-diUb from (E). The carbonyl of Met1 and the side chain of Glu16 of the proximal Ub disengage the autoinhibition of His339. Gln2 is omitted for clarity.</p>
+        <p>(G) OTULIN hydrolysis of Met1-diUb mutated in the proximal moiety performed as in <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>D. o/n, overnight incubation.</p>
+        <p>(HâJ) Kinetic parameters of OTULIN variants measured by fluorescence anisotropy. Initial rates of hydrolysis at varying substrate concentrations containing 150Â nM FlAsH-tagged Met1-diUb variants were fitted to the Michaelis-Menten kinetic model with GraphPad Prism 5. Error bars represent SDs from the mean of measurements performed in triplicate.</p>
+        <p>(K) Summary of kinetic parameters measured. <sup>*</sup>, fold reduction in enzyme efficiency relative to OTULIN WTÂ + Met1-diUb WT.</p>
+        <p>(L) A schematic representation of OTULIN mechanism, which involved extensive S1 and S1â sites and substrate-assisted catalysis mediated by Ub Glu16.</p>
+      </caption>
+      <graphic xlink:href="gr3"/>
+    </fig>
+    <fig id="fig4">
+      <label>FigureÂ 4</label>
+      <caption>
+        <p>Cellular Functions of OTULIN</p>
+        <p>(A) HEK 293ET cells were transfected with plasmids for LUBAC and indicated OTULIN variants (see the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>), and lysates were analyzed by western blotting with the indicated antibodies, including the Met1-linkage-specific antibody (<xref rid="bib24" ref-type="bibr">Matsumoto etÂ al., 2012</xref>).</p>
+        <p>(B) NF-ÎºB luciferase assays in HEK 293ET cells for the experiment shown in (A). Error bars represent SD from the mean of experiments performed in triplicate. pÂ values are given to indicate significance. <sup>*</sup>, mean value set to 1; n.s., nonsignificant.</p>
+        <p>(C) HeLa cells were transiently transfected with indicated plasmids, treated with TNFÎ± (20Â ng/ml) for 30Â min, and analyzed by immunofluorescence with indicated antibodies (see <xref rid="figs5" ref-type="fig">FigureÂ S5</xref> for controls and quantification). The scale bar represents 10Â Î¼m.</p>
+        <p>(D) Pulldown of GST-tagged NEMO wild-type (WT) or K285/309R (KR), with or without LUBAC, in control or OTULIN-overexpressing T-REx 293 cell lines. Western blotting with indicated antibodies reveals polyUb on NEMO (arrowhead), which is lost when OTULIN is coexpressed.</p>
+        <p>See also <xref rid="figs5" ref-type="fig">FigureÂ S5</xref>.</p>
+        <p>(E) Immunoprecipitation (IP) of endogenous SHARPIN coprecipitates HOIP and OTULIN and after TNFÎ± stimulation (100Â ng/ml), also TNFR1 is shown as revealed by western blotting with the indicated antibodies. <sup>*</sup>, nonspecific band; <sup>**</sup>, heavy chain.</p>
+        <p>See also <xref rid="figs5" ref-type="fig">FigureÂ S5</xref>.</p>
+        <p>(F) IP of endogenous NEMO coprecipitates polyubiquitinated RIPK1 (Ub-RIPK1) after TNFÎ± stimulation (10Â ng/ml) of HeLa cells. Western blotting with the indicated antibodies reveals that transient OTULIN overexpression prevents this complex formation.</p>
+      </caption>
+      <graphic xlink:href="gr4"/>
+    </fig>
+    <fig id="fig5">
+      <label>FigureÂ 5</label>
+      <caption>
+        <p>Importance of Ub Glu16 for Met1-polyUb Biology</p>
+        <p>(A) A minimal HOIP construct (aa 699â1072) that efficiently assembles Met1-Ub chains with WT Ub (<xref rid="bib29" ref-type="bibr">Smit etÂ al., 2012</xref>; <xref rid="bib30" ref-type="bibr">Stieglitz etÂ al., 2012</xref>) is less efficient with Ub E16A<sup>prox</sup> inÂ vitro. A silver-stained SDS-PAGE gel is shown.</p>
+        <p>(B) Fluorescence anisotropy of NEMO UBAN domain binding to FlAsH-tagged Met1-diUb and Met1-diUb E16A<sup>prox</sup>. The UBAN domain binds the mutant Ub chain with â¼100-fold lower affinity. Error bars represent SD from the mean from triplicate measurements.</p>
+        <p>(C) Structural basis for decreased affinity of NEMO for Met1-diUb E16A<sup>prox</sup> mutant. The structure of the NEMO UBAN domain dimer (orange) bound to Met1-diUb is shown (PDB 2ZVN [<xref rid="bib28" ref-type="bibr">Rahighi etÂ al., 2009</xref>], one diUb omitted for clarity). Ub molecules are shown under a green surface with Ile44 hydrophobic patches in blue. Glu16 and its interacting residue Arg309 (mouse NEMO, corresponding human residue Arg312) are shown in stick representation. The inset highlights this interaction. Glu16<sup>prox</sup> also bridges the two Ub moieties and interacts with the C terminus of a distal Ub (data not shown).</p>
+        <p>(D) Luciferase assays performed as in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B for HEK 293ET cells transfected with or without LUBAC, WT OTULIN, and Ub WT or Ub E16A. p values are given to indicate significance. <sup>*</sup>, mean value set to 1; n.s., nonsignificant. Input levels of transfected proteins, analyzed by western blotting with the indicated antibodies, are shown on the right.</p>
+      </caption>
+      <graphic xlink:href="gr5"/>
+    </fig>
+    <fig id="fig6">
+      <label>FigureÂ 6</label>
+      <caption>
+        <p>OTULIN Overexpression Inhibits TNFÎ± Signaling</p>
+        <p>(A) Luciferase assays performed as in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B in HEK 293ET cells transfected with OTULIN, A20, or both OTULIN and A20 and stimulated with TNFÎ± (100Â ng/ml) or poly(I:C) (10Â Î¼g/ml). Western blots below show transfected protein levels. Error bars represent SD from the mean for experiments performed in triplicate. pÂ values are given to indicate significance. <sup>*</sup>, the control set to 1.</p>
+        <p>(BâF) Stable doxycycline-inducible control and OTULIN-overexpressing T-REx 293 cells after treatment with 1Â Î¼g/ml doxycyclin (Dox) for 24Â hr (see the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>).</p>
+        <p>(B) Quantitative PCR (qPCR) analysis of selected NF-ÎºB target genes in control (gray) and OTULIN-overexpressing cells (black) after treatment with 10Â ng/ml TNFÎ± for the indicated times.</p>
+        <p>(C) Analysis of TNFÎ±-stimulated NF-ÎºB activation and IÎºBÎ± phosphorylation upon TNFÎ± treatment (100Â ng/ml) over the indicated time course by western blotting with indicated antibodies and EMSA. See (F) for tubulin control.</p>
+        <p>(D) Clonogenic survival of indicated cell lines Â± Dox and Â± TNFÎ± (50Â ng/ml) for 24Â hr (see the <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>).</p>
+        <p>(E) Cell viability counts of cells treated as in (D). Error bars represent SD from the mean for experiments performed in triplicate.</p>
+        <p>(F) Analysis of TNFÎ±-stimulated signaling cascades upon TNFÎ± treatment (100Â ng/ml) over the indicated time course by western blotting.</p>
+      </caption>
+      <graphic xlink:href="gr6"/>
+    </fig>
+    <fig id="fig7">
+      <label>FigureÂ 7</label>
+      <caption>
+        <p>OTULIN Depletion Amplifies LUBAC Signaling</p>
+        <p>(AâC, EâF) Experiments in stable T-REx 293 cell lines inducibly expressing control or OTULIN-targeting miRNA (see <xref rid="sec4" ref-type="sec">Experimental Procedures</xref> and <xref rid="figs6" ref-type="fig">FigureÂ S6</xref>).</p>
+        <p>(A) NF-ÎºB luciferase activity shown as in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B in cells transfected with LUBAC and indicated OTULIN variants. Error bars represent SD from the mean of experiments performed in duplicate. p values are given to indicate significance. <sup>*</sup>, the control set to 1; n.s., nonsignificant.</p>
+        <p>(B) Western blotting analysis of lysates from (A) with indicated antibodies. <sup>*</sup>, nonspecific band.</p>
+        <p>(C) Immunoprecipitation of the TNF-RSC by FLAG-TNFÎ± (100Â ng/ml) from control and OTULIN-depleted cell lines at indicated time points western blotted against Met1-polyUb, HOIP, and TNFR1.</p>
+        <p>(D) Met1-Ub-specific GST-M1-SUB or general GST-TUBE1Â Ub pulldown from U2OS cells stimulated with TNFÎ± (10Â ng/ml) after transfection of OTULIN siRNA or a nontargeting (NT) control siRNA.</p>
+        <p>(E) NF-ÎºB luciferase activity in control and OTULIN-depleted cell lines after treatment with TNFÎ± (10Â ng/ml) or poly(I:C) (1Â Î¼g/ml). Error bars represent SD from the mean of experiments performed in duplicate. p values are given to indicate significance. <sup>*</sup>, the control set to 1; n.s., nonsignificant.</p>
+        <p>(F) Analysis of selected NF-ÎºB target genes by qPCR in control and OTULIN-depleted cell lines over a time course of TNFÎ± stimulation (10Â ng/ml).</p>
+        <p>(G) Jurkat cells transfected with nontargeting (NT) control siRNA or three different OTULIN-specific siRNAs were treated with TNFÎ± (25Â ng/ml) as indicated. EMSA signals were quantified by densitometry. SP, smart pool.</p>
+        <p>(H) OTULIN or control siRNA-transfected Jurkat cells were stimulated for 15 and 30Â min with TNFÎ± (25Â ng/ml). After NEMO IP, kinase assays were performed with GST-IÎºBÎ± (aa 1â53) as a substrate and quantified by densitometry.</p>
+      </caption>
+      <graphic xlink:href="gr7"/>
+    </fig>
+    <fig id="figs1">
+      <label>FigureÂ S1</label>
+      <caption>
+        <p>Multiple Sequence Alignment and InÂ Vitro Analysis, Related to <xref rid="fig1" ref-type="fig">FigureÂ 1</xref></p>
+        <p>(A) Sequence alignment of FAM105B/OTULIN from various species, extracted from the Ensembl Genome Browser (<ext-link ext-link-type="uri" xlink:href="http://www.ensembl.org/Homo_sapiens/Gene/Compara_Tree%3fg%3dENSG00000154124;r%3d5:14664773-14699820" id="intref0015">http://www.ensembl.org/Homo_sapiens/Gene/Compara_Tree?g=ENSG00000154124;r=5:14664773-14699820</ext-link>). Several sequences (Zebrafinch, Lizard, <italic>Xenopus</italic>) lack an initiating N-terminal Met, suggesting that sequences were N-terminally truncated. Annotations of secondary structure are based on the Met1-diUb complex structure (<xref rid="fig2" ref-type="fig">FigureÂ 2</xref>F). The annotation below indicates the start of the crystallized construct (black arrow), catalytic residues (yellow stars), and residues interacting with the proximal (orange circles), distal (red circles) or both Ub moieties (yellow circles) (see <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>G).</p>
+        <p>(B) Hydrolysis of Ub-AMC by 5 pM UCH-L3 and 25Â nM OTULIN WT. Error bars represent the standard deviation from the mean calculated from triplicate measurements. See <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref> for details.</p>
+        <p>(C) Ub-based suicide inhibitors. Ub-x, with x being a C2Cl, C2Br or C3Br warhead (<xref rid="bib4" ref-type="bibr">Borodovsky etÂ al., 2002</xref>), were prepared according to (<xref rid="bib43" ref-type="bibr">Akutsu etÂ al., 2011</xref>) and <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref> and used to modify vOTU or OTULIN. A coomassie-stained SDS-PAGE gel is shown. While vOTU modification with Ub-probes results in a band shift due to the covalent modification, OTULIN is inert toward these reagents.</p>
+        <p>(D) Linkage specificity is retained with 1Â Î¼M OTULIN. DiUb (1Â Î¼M) of all possible linkage types is hydrolyzed over a time course by 1Â Î¼M OTULIN, and visualized on silver stained 4%â12% gradient SDS-PAGE gels.</p>
+        <p>(E) Incubation of OTULIN with Met1-linked tetraUb (Met1) or mutant Met1-linked tetraUb (Met1, GS-linked) in which Gly76 in the linkage is mutated to Ser. A silver stained SDS-PAGE gel of the indicated time course is shown. OTULIN hydrolysis of Met1-linked tetraUb immediately generates tri-, di- and monoUb, suggesting that OTULIN can cleave at any position within the tetraUb chain (endo-activity).</p>
+      </caption>
+      <graphic xlink:href="figs1"/>
+    </fig>
+    <fig id="figs2">
+      <label>FigureÂ S2</label>
+      <caption>
+        <p>Structural Analysis of OTULIN, Related to <xref rid="fig2" ref-type="fig">FigureÂ 2</xref></p>
+        <p>The catalytic triad of OTULIN is delocalized in the absence of Met1-diUb.</p>
+        <p>(A) View of OTULIN catalytic triad as shown in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C, the occupancies of the catalytic cysteine (Cys129) and histidine (His339) are 28% and 36% respectively.</p>
+        <p>(B) View of the catalytic triad of OTUB1 (green) bound to Ub suicide probe (red) (PDB ID: 4DHZ) (<xref rid="bib39" ref-type="bibr">Wiener etÂ al., 2012</xref>).</p>
+        <p>(C) Superimposition of OTULIN and OTUB1 catalytic centers highlights the miss-orientation of OTULINs catalytic residues, His339 and Cys129 in the absence of Met1-diUb.</p>
+        <p>(D) Stereo view of the apo OTULIN catalytic site, as viewed from <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>C showing all residues within the region of the catalytic center enclosed in a 2|Fo|-|Fc| map, contoured at 1Ï.</p>
+        <p>(E) Superimposition of OTULIN structures used within this study reveals no conformational changes between the OTULIN D336A and OTULIN WT structure (rmsd 0.24Â Ã) and OTULIN C129A from the Met1-diUb-containing structure and OTULIN WT (rmsd 0.76Â Ã).</p>
+        <p>(F) Close-up view of the various OTULIN catalytic centers. The catalytic His339 exists in two occupancies within the apo structure whereas only a single, catalytic conformation is observed in the D336A mutant structure. Likewise, within the OTULIN Met1-diUb structure His339 exists only in the catalytic conformation.</p>
+        <p>(G) Stereo view of the OTULIN D336A catalytic site enclosed in a 2|Fo|-|Fc| map, contoured at 1Ï.</p>
+        <p>(H) Catalytic center of OTULIN Met1-diUb complex as shown in <xref rid="fig3" ref-type="fig">FigureÂ 3</xref>E, with a 2|Fo|-|Fc| map contoured at 1Ï shown for relevant residues.</p>
+        <p>(I) Surface conservation of OTULIN, based on the sequence alignment in <xref rid="figs1" ref-type="fig">FigureÂ S1</xref> generated with the Consurf server (<ext-link ext-link-type="uri" xlink:href="http://consurf.tau.ac.il/" id="intref0020">http://consurf.tau.ac.il/</ext-link>). The surface of OTULIN (from the diUb complex structure, <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>F) is colored from green (no conservation) to dark red (fully conserved) and shown as in <xref rid="fig2" ref-type="fig">FigureÂ 2</xref>G (left) as well as in a 180Â° rotation (right).</p>
+        <p>(J) Side-by-side comparison between the OTULIN and OTUB1 -diUb complexes, with OTULIN (blue, with red (distal) and orange (proximal) Met1-diUb) on the left and OTUB1 (green, with gray Ub molecules) on the right. The N-terminal helix in OTUB1 (yellow) binds to the Ile44 hydrophobic patch (blue on all Ub molecules) of the proximal Ub molecule. In the OTULIN structure, rotation of the proximal Ub leads to an exposed Ile44 patch of the proximal Ub moiety.</p>
+        <p>(K) Orientation of diUb molecules (colored as in (J) resulting from superposition of OTULIN and OTUB1. Although Ub molecules occupy similar spaces on the enzymes (see (J), both Ub molecules are rotated with respect to each other. Rotation of the proximal Ub is expected as different linkage points are involved (see position of C-termini, labeled C). The rotation of the distal Ub of â¼18Â° is more surprising, and reveals that the S1 binding site of the enzyme also shows significant plasticity.</p>
+        <p>(L) Close-up of the OTULIN catalytic center bound to Met1-diUb. Glu16 and Gln2 of the proximal Ub are shown in yellow, and active site residues are labeled.</p>
+        <p>(M) Catalytic center of OTUB1 bound to two ubiquitin molecules. Lys48 of the proximal Ub is indicated, and is the only residue in close proximity to the catalytic center, explaining OTUB1âs specificity. However, further Ub residues interacting with the catalytic triad as observed in OTULIN are not present.</p>
+      </caption>
+      <graphic xlink:href="figs2"/>
+    </fig>
+    <fig id="figs3">
+      <label>FigureÂ S3</label>
+      <caption>
+        <p>Mutant diUb Controls and Fluorescence Anisotropy Binding and Kinetic Studies, Related to <xref rid="fig3" ref-type="fig">FigureÂ 3</xref></p>
+        <p>(A) Met1-diUb and variants with point mutations in the proximal Ub moiety were hydrolyzed by OTULIN at 50Â nM concentration (compared to 10Â nM in <xref rid="fig3" ref-type="fig">FigureÂ 3</xref>G). A time course of the reaction is resolved on a silver stained SDS-PAGE gel as in <xref rid="fig3" ref-type="fig">FigureÂ 3</xref>G.</p>
+        <p>(B) Same as (A), but using the Ub specific protease USP21 (<xref rid="bib41" ref-type="bibr">Ye etÂ al., 2011</xref>) at 50Â nM concentration.</p>
+        <p>(C) Analytical size exclusion chromatography (SEC) profiles of inactive OTULINcat C129A with Met1-diUb, and Met1-diUb variants containing point mutations in the proximal moiety. Experiments were performed with 33.5Â Î¼M OTULIN and 43Â Î¼M Met1-diUb mutants, giving a 1:1.3 molar ratio of OTULIN to diUb, respectively. Shifting of the SEC peak to the left indicates complex formation in all cases. Corresponding SDS-PAGE gels showing proteins in peak fractions according to the profile are shown below.</p>
+        <p>(D) Binding curves derived from fluorescence anisotropy measurements for OTULIN C129A and OTULIN C129A N314D using FlAsH-tagged Met1-diUb WT, E16A<sup>prox</sup> and E16Q<sup>prox</sup>. Error bars represent standard deviation from the mean of measurements performed in triplicate.</p>
+        <p>(E) View of the catalytic center of OTULINcat C129A bound to Met1-diUb, showing the interaction of Tyr91 with the catalytic Asn341. (F) Kinetic parameters determined from hydrolysis of FlAsH-tagged Met1-diUb WT by 350Â nM OTULIN Y91F used to derive the rate constants shown in <xref rid="fig3" ref-type="fig">FigureÂ 3</xref>K. Error bars represent standard deviation from the mean from experiments performed in triplicate.</p>
+      </caption>
+      <graphic xlink:href="figs3"/>
+    </fig>
+    <fig id="figs4">
+      <label>FigureÂ S4</label>
+      <caption>
+        <p>Reagent Validation, Cellular Localization of OTULIN, and Stable Inducible OTULIN Cell Lines, Related to <xref rid="fig4" ref-type="fig">FigureÂ 4</xref></p>
+        <p>(A) A polyclonal rabbit, anti-OTULIN antibody was generated that detects endogenous and overexpressed OTULIN in HEK 293ET cell lysates. siRNAs against OTULIN (Dharmacon pool) reduces OTULIN protein levels. Two exposures of the same western blot are shown.</p>
+        <p>(B) Comparison of the two polyclonal antisera obtained from rabbit immunization. Both antibodies detect an endogenous band that is reduced in siRNA-treated samples and that is also immunoprecipitated by both antibodies from HEK 293ET cells.</p>
+        <p>(C) OTULIN can be detected in all analyzed cell lines.</p>
+        <p>(AâC) <sup>*</sup>, nonspecific band.</p>
+        <p>(D) Localization of C-terminally GFP-tagged OTULIN in HEK 293ET cells. <italic>Left</italic>, DAPI stain of cell nuclei; <italic>second from left</italic>, GFP fluorescence; <italic>second from right</italic>, immunodetection of transfected OTULIN with anti-OTULIN antibody; <italic>right</italic>, merged image. Scale bar, 10Â Î¼m.</p>
+        <p>(E) GFP-tagged OTULIN was expressed in HEK 293ET cells and purified using GFP-Trap resin. Specificity assays were performed as in <xref rid="fig1" ref-type="fig">FigureÂ 1</xref>D using approximately 500Â nM GFP-OTULIN bound to GFP-Trap beads. A silver-stained 4%â12% SDS-PAGE gel is shown.</p>
+        <p>(F) GFP-tagged OTULIN C129A is catalytically inactive when expressed in HEK 293ET cells and purified by GFP-Trap resin.</p>
+      </caption>
+      <graphic xlink:href="figs4"/>
+    </fig>
+    <fig id="figs5">
+      <label>FigureÂ S5</label>
+      <caption>
+        <p>Stable Inducible OTULIN Cell Lines and Controls, Related to <xref rid="fig4" ref-type="fig">FigureÂ 4</xref></p>
+        <p>(A) Western-blotting analysis of T-REx293 cells stably expressing a doxycycline-inducible MRGS6His-tagged OTULIN construct.</p>
+        <p>(B) NF-ÎºB luciferase activity of OTULIN-overexpressing cells in response to LUBAC coexpression. Error bars represent standard deviation of experiments performed in duplicate. p values are given to indicate significance and asterisks indicate mean values set to 1.</p>
+        <p>(C) Quantification for the experiment shown in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>C.Black bars represent the number of HeLa cells in which p65 translocated into the nucleus while white bars represent the number of cells in which p65 was excluded from the nucleus after 30Â min of TNFÎ± stimulation (20Â ng/ml) in cells transfected with the indicated OTULIN variants. nÂ = 30 for each condition. Error bars represent standard deviation from the mean from duplicate measurements.</p>
+        <p>(D) Control to <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>C. HeLa cells were transiently transfected with indicated plasmids and analyzed in immunofluorescence with indicated antibodies without any prior TNFÎ± stimulation (see <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>). Scale barÂ = 10Â Î¼m.</p>
+        <p>(E) Input levels of transfected proteins for pulldown of GST-tagged NEMO variants of <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>D in control or OTULIN overexpressing T-REx293 cell lines (see <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>) after western blotting with the indicated antibodies.</p>
+        <p>(F) Pulldown of GST-tagged wild-type NEMO after coexpression with LUBAC, in control or OTULIN overexpressing T-REx293 cell lines. Western blotting with indicated antibodies reveals polyUb on NEMO (arrowhead), which is lost when OTULIN is coexpressed. This was the first experiment showing that NEMO is modified by a Met1-linked polyubiquitin chain of a distinct length and is shown to support the results of <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>D.</p>
+        <p>(G) Immunoprecipitation of endogenous OTULIN (see <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>) coprecipitates endogenous SHARPIN before and after TNFÎ± stimulation (100Â ng/ml) as revealed by western blotting with the indicated antibodies.<sup>*</sup>, nonspecific band; <sup>**</sup>, heavy chain.</p>
+      </caption>
+      <graphic xlink:href="figs5"/>
+    </fig>
+    <fig id="figs6">
+      <label>FigureÂ S6</label>
+      <caption>
+        <p>OTULIN Knockdown Studies, Related to <xref rid="fig7" ref-type="fig">FigureÂ 7</xref></p>
+        <p>(A) HEK 293ET (left) and U2OS (right) cell lines were transfected with NF-ÎºB reporter plasmids, LUBAC and with siRNAs targeting OTULIN, HOIP or a nontargeting control siRNA. NF-ÎºB reporter activity was measured as in <xref rid="fig4" ref-type="fig">FigureÂ 4</xref>B. Error bars represent standard deviation from the mean of experiments performed in triplicate. p values are given to indicate significance and the asterisk indicate the mean value set to 1. Western blots with indicated antibodies show knockdown efficiency. Here, the asterisk indicates nonspecific bands.</p>
+        <p>(B) T-REx293 cells stably transfected with an inducible nontargeting control miRNA or with an inducible OTULIN-targeting miRNA are analyzed by western blotting with indicated antibodies. Doxycycline induces the OTULIN miRNA (together with GFP expression) from the GFP mRNA 3â²UTR, and expression can be monitored by expressed GFP levels following doxycycline induction.</p>
+        <p>(C) LUBAC-induced NF-ÎºB luciferase activity is increased in OTULIN-depleted cell lines. Error bars represent the standard deviation from the mean of experiments performed in duplicate. p values are given to indicate significance.</p>
+        <p>(D) Control or OTULIN-depleted cell lines were stimulated with TNFÎ± (10Â ng/ml) for the indicated times, and lysates were analyzed by western blotting with the indicated antibodies. <sup>*</sup>, nonspecific band.</p>
+        <p>(E) Cell viability counts of stable doxycycline-inducible control and OTULIN-miRNA expressing T-REx293 cells after treatment with and without doxycycline (+/â Dox, 1Â Î¼g/ml for 72 h) prior to TNFÎ± treatment (+/â TNFÎ±, 50Â ng/ml for 24Â hr) (see <xref rid="dtbox1" ref-type="boxed-text">Extended Experimental Procedures</xref>). Error bars represent the standard deviation from the mean for experiments performed in triplicate.</p>
+        <p>(F) Clonogenic survival of cells treated as in (E).</p>
+      </caption>
+      <graphic xlink:href="figs6"/>
+    </fig>
+  </floats-group>
+</article>
+
+</metadata></record></GetRecord></OAI-PMH>
