@@ -6583,7 +6583,14 @@
     }, {
       key: "render",
       get: function get() {
-        return this.getAttribute("render");
+        return this.hasAttribute('render');
+      },
+      set: function set(isRender) {
+        if (isRender) {
+          this.setAttribute('render', '');
+        } else {
+          this.removeAttribute('render');
+        }
       }
     }, {
       key: "annpath",
